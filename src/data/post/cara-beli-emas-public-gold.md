@@ -85,13 +85,13 @@ Bila cukup gram, anda boleh keluarkan emas fizikal (gold bar/dinar) dengan sedik
 
 Program GAP sesuai untuk **rakyat biasa yang mahu menyimpan emas sedikit demi sedikit** dengan cara yang selamat dan patuh syariah. Anda boleh mula serendah RM100 dan tambah bila-bila masa — sangat sesuai untuk pelaburan jangka panjang dan lindung nilai inflasi.
 
-[📈 Semak Harga Emas Hari Ini](https://emasrakyathub.netlify.app/)
+[📈 Semak Harga Emas Hari Ini](/kalkulator/emas//)
 
 ### Baca Juga:
 
-- [Harga Emas Terkini Malaysia](https://rakyathub.com/emas)
-- [Pelaburan ASB vs Emas](https://rakyathub.com/asb)
-- [Kiraan KWSP & Caruman](https://rakyathub.com/kwsp/)
-- [STR 2025](https://rakyathub.com/str/)
+- [Harga Emas Terkini Malaysia](/blog/)
+- [Pelaburan ASB vs Emas](/blog/)
+- [Kiraan KWSP & Caruman](/blog/)
+- [STR 2025](/blog/)
 
 © 2025 RakyatHub.com — Info emas & kewangan untuk rakyat Malaysia

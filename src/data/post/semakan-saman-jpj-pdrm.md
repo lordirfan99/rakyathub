@@ -57,8 +57,8 @@ Ramai rakyat Malaysia tidak sedar bahawa mereka mempunyai saman tertunggak. Seka
 
 ### Baca Juga:
 
-- [Pengiraan Caruman KWSP](https://rakyathub.com/kwsp)
-- [Harga Emas Semasa](https://rakyathub.com/emas)
-- [STR 2025](https://rakyathub.com/str/)
+- [Pengiraan Caruman KWSP](/blog/)
+- [Harga Emas Semasa](/blog/)
+- [STR 2025](/blog/)
 
 © 2025 RakyatHub.com — Info sahih untuk rakyat Malaysia

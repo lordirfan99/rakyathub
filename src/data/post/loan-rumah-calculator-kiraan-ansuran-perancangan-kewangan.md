@@ -36,7 +36,7 @@ Loan Rumah Calculator adalah aplikasi web percuma yang membolehkan anda:
 
 💡 Contoh: Pinjaman RM300,000 pada 4.5% selama 30 tahun → ansuran bulanan ~RM1,520
 
-[🧮 Kiraan Pinjaman Rumah Sekarang](https://loanrumah-rakyathub.netlify.app/)
+[🧮 Kiraan Pinjaman Rumah Sekarang](/kalkulator/loan-rumah//)
 
 ## 🛠️ Cara Menggunakan Loan Rumah Calculator
 
@@ -74,7 +74,7 @@ Loan Rumah Calculator adalah aplikasi web percuma yang membolehkan anda:
 
 * * *
 
-[🚀 Cuba Loan Rumah Calculator Sekarang](https://loanrumah.rakyathub.online/)
+[🚀 Cuba Loan Rumah Calculator Sekarang](/kalkulator/loan-rumah//)
 
 **Kata Kunci SEO:** loan rumah calculator, kalkulator pinjaman rumah, kira ansuran bulanan, perancangan kewangan
 

@@ -83,13 +83,13 @@ Melalui wire transfer ke akaun bank tempatan setelah jual saham.
 
 * * *
 
-[📊 Cuba Kalkulator Saham Sekarang](https://app.rakyathub.online/) [📚 Ketahui Strategi Pelaburan lain](https://rakyathub.com/)
+[📊 Cuba Kalkulator Saham Sekarang](//) [📚 Ketahui Strategi Pelaburan lain](/)
 
 ## Baca Juga Artikel Berkaitan
 
-- [Strategi DCA vs Lump Sum](https://rakyathub.com/strategi-dca-vs-lump-sum-pilihan-pelaburan-bijak-untuk-orang-muda/)
-- [Risiko Robo Advisor](https://rakyathub.com/risiko-dan-pulangan-robo-advisor-di-malaysia-2025/)
-- [Pelaburan Emas](https://rakyathub.com/emas/)
-- [Panduan KWSP untuk Pelabur](https://rakyathub.com/kwsp/)
+- [Strategi DCA vs Lump Sum](/blog/ategi-dca-vs-lump-sum-pilihan-pelaburan-bijak-untuk-orang-muda/)
+- [Risiko Robo Advisor](/risiko-dan-pulangan-robo-advisor-di-malaysia-2025/)
+- [Pelaburan Emas](/blog/)
+- [Panduan KWSP untuk Pelabur](/blog/)
 
 **Kata Kunci SEO:** beli saham USA guna moomoo Malaysia, moomoo app Malaysia, saham USA dari Malaysia, pelaburan moomoo, cara beli saham USA

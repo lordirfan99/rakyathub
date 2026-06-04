@@ -99,7 +99,7 @@ export const footerData = {
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
   footNote: `
-    <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://rakyathub.com/favicon.ico)]"></span>
-    Hak cipta terpelihara <a class="text-blue-600 underline dark:text-muted" href="https://rakyathub.com"> RakyatHub</a> · 2025.
+    <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(/favicon.ico)]"></span>
+    Hak cipta terpelihara <a class="text-primary hover:text-secondary transition-colors font-medium" href="/"> RakyatHub</a> · 2025.
   `,
 };

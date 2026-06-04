@@ -3,14 +3,14 @@ publishDate: 2025-07-23
 title: 'Tebus Bantuan SARA RM100 Guna IC: Pengumuman Pagi Ini (23 Julai 2025)'
 excerpt: Kerajaan umum bantuan SARA RM100 boleh ditebus guna MyKad mulai 23 Julai 2025. Panduan lengkap cara tebus dan kedai terpilih.
 category: Emas
-image: https://rakyathub.com/wp-content/uploads/2025/07/food-aid-receipient-1-300x200.jpg
+image: /_astro/default.CZ816Hke_Z20CwEO.jpg
 tags:
 - emas
 author: RakyatHub
 ---
 
-![Sumbangan\_Asas\_Rahmah\_140125\_NST](https://rakyathub.com/wp-content/uploads/2025/07/Sumbangan_Asas_Rahmah_140125_NST-300x200.jpg)
-![OIP](https://rakyathub.com/wp-content/uploads/2025/07/OIP-300x225.jpeg)
+![Sumbangan\_Asas\_Rahmah\_140125\_NST](/_astro/default.CZ816Hke_Z20CwEO.jpg)
+![OIP](/_astro/default.CZ816Hke_Z20CwEO.jpg)
 
 # 💸 Tebus Bantuan SARA RM100 Guna MyKad – Pengumuman Pagi Ini (23 Julai 2025)
 

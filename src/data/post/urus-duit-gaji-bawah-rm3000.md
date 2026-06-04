@@ -41,7 +41,7 @@ Pastikan anda menjauhi hutang konsumer yang tidak perlu seperti telefon bimbit b
 
 Manfaatkan alat dalam talian untuk menguruskan kewangan anda dengan lebih bijak:
 
-[📥 Kalkulator KWSP](https://rakyathub.com/kwsp/) [📈 Kalkulator ASB](https://rakyathub.com/asb-2/) [🥇 Kalkulator Emas](https://rakyathub.com/emas/) [🚗 Kalkulator Kereta](https://rakyathub.com/kalkulator-ansuran-kereta-bulanan-malaysia-2025-rakyathub/)
+[📥 Kalkulator KWSP](/blog/) [📈 Kalkulator ASB](/blog/) [🥇 Kalkulator Emas](/blog/) [🚗 Kalkulator Kereta](/kalkulator-ansuran-kereta-bulanan-malaysia-2025-rakyathub/)
 
 ## 5\. Jana Pendapatan Tambahan
 
@@ -60,7 +60,5 @@ Tetapkan matlamat jangka pendek dan panjang untuk memastikan anda terus bermotiv
 ## Kesimpulan
 
 Walaupun mencabar, anda boleh mengurus kewangan dengan gaji kurang RM3000 dengan disiplin dan perancangan. Gunakan kaedah 50/30/20, jana pendapatan tambahan, dan manfaatkan bantuan kerajaan agar matlamat kewangan anda tercapai.
-
-[📩 Ikuti Tip Kewangan di Facebook](https://www.facebook.com/rakyathub.com1)
 
 **Kongsikan artikel ini agar lebih ramai dapat manfaat!**

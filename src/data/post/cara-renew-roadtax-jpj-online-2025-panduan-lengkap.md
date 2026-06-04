@@ -58,8 +58,8 @@ Anda boleh pilih untuk:
 
 ### Baca Juga:
 
-- [Semakan Saman JPJ & PDRM](https://rakyathub.com/semakan-saman-jpj-pdrm/)
-- [Panduan Pengeluaran KWSP](https://rakyathub.com/kwsp)
-- [Harga Emas Semasa Malaysia](https://rakyathub.com/emas)
+- [Semakan Saman JPJ & PDRM](/semakan-saman-jpj-pdrm/)
+- [Panduan Pengeluaran KWSP](/blog/)
+- [Harga Emas Semasa Malaysia](/blog/)
 
 © 2025 RakyatHub.com — Rujukan sah untuk rakyat Malaysia

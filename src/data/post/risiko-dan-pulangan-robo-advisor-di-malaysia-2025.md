@@ -65,12 +65,12 @@ Wahed dan Syfe: RM100, StashAway: RM1
 **3\. Selamat ke guna robo advisor?**  
 Ya, platform utama di Malaysia dikawal selia oleh **SC Malaysia**.
 
-[📌 Pelaburan Alternatif: Emas](https://rakyathub.com/cara-beli-emas-public-gold)
+[📌 Pelaburan Alternatif: Emas](/cara-beli-emas-public-gold)
 
 ### Baca Juga:
 
-- [📊 KWSP 2025](https://rakyathub.com/kwsp)
-- [🏦 Simpanan ASB](https://rakyathub.com/asb)
-- [💰 Harga Emas](https://rakyathub.com/emas)
+- [📊 KWSP 2025](/blog/)
+- [🏦 Simpanan ASB](/blog/)
+- [💰 Harga Emas](/blog/)
 
 © 2025 RakyatHub.com — Info pelaburan mudah & sahih untuk rakyat Malaysia

@@ -56,7 +56,7 @@ Gunakan kalkulator untuk buat simulasi:
 
 Ansuran bulanan dijangka sekitar **RM420–RM470**
 
-[🧮 Guna Kalkulator Ansuran Kereta Sekarang](https://keretakalkulator.netlify.app)
+[🧮 Guna Kalkulator Ansuran Kereta Sekarang](/kalkulator/kereta/)
 
 ## 📌 Tips Sebelum Beli Kereta Pertama
 
@@ -72,9 +72,9 @@ Afiq, seorang jurutera muda di Shah Alam, berpendapatan RM3,200 sebulan. Selepas
 
 ## 🔗 Artikel Berkaitan:
 
-- [Cara Semak Saman JPJ & PDRM](https://rakyathub.com/semakan-saman-jpj-pdrm/)
-- [Renew Roadtax Kereta Online](https://rakyathub.com/cara-renew-roadtax-jpj-online-2025-panduan-lengkap/)
-- [Guna KWSP Akaun 2 Untuk Kereta](https://rakyathub.com/carawithdrawkwsp/)
+- [Cara Semak Saman JPJ & PDRM](/semakan-saman-jpj-pdrm/)
+- [Renew Roadtax Kereta Online](/cara-renew-roadtax-jpj-online-2025-panduan-lengkap/)
+- [Guna KWSP Akaun 2 Untuk Kereta](/carawithdrawkwsp/)
 
 ### Kata Kunci SEO:
 

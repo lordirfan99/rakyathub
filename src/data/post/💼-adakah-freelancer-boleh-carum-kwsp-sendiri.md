@@ -3,7 +3,7 @@ publishDate: 2025-07-20
 title: 💼 Adakah Freelancer Boleh Carum KWSP Sendiri?
 excerpt: 💼 Adakah Freelancer Boleh Carum KWSP Sendiri?
 category: KWSP
-image: https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-20-2025-10_21_08-PM-300x300.png
+image: /_astro/default.CZ816Hke_Z20CwEO.jpg
 tags:
 - kwsp
 author: RakyatHub
@@ -15,7 +15,7 @@ author: RakyatHub
 
 Ramai freelancer tertanya-tanya sama ada mereka berhak untuk membuat caruman KWSP sendiri tanpa majikan. Artikel ini menerangkan segala yang anda perlu tahu tentang KWSP untuk freelancer di Malaysia.
 
-[Kira Caruman KWSP Anda](https://kwsp.rakyathub.online) [Panduan KWSP Lengkap](https://rakyathub.com/kwsp/)
+[Kira Caruman KWSP Anda](/kalkulator/kwsp/) [Panduan KWSP Lengkap](/blog/)
 
 ## 1\. Apakah itu KWSP?
 
@@ -42,7 +42,7 @@ Untuk layak carum sendiri, anda perlu memenuhi syarat berikut:
 3. Masukkan jumlah caruman bulanan yang dikehendaki (min RM50).
 4. Buat bayaran melalui FPX, JomPAY atau cek.
 
-Selepas bayaran, semak penyata KWSP anda di [RakyatHub: Cara Withdraw KWSP](https://rakyathub.com/carawithdrawkwsp/) untuk langkah-langkah pengeluaran kelak.
+Selepas bayaran, semak penyata KWSP anda di [RakyatHub: Cara Withdraw KWSP](/carawithdrawkwsp/) untuk langkah-langkah pengeluaran kelak.
 
 ## 5\. Kelebihan Carum KWSP Sendiri
 
@@ -76,6 +76,6 @@ Log masuk ke i-Akaun KWSP atau aplikasi KWSP Mobile.
 
 Hanya kelulusan khas untuk keadaan tertentu seperti kesihatan kritikal.
 
-Untuk maklumat lanjut tentang KWSP, layari [Panduan KWSP RakyatHub](https://rakyathub.com/kwsp/).
+Untuk maklumat lanjut tentang KWSP, layari [Panduan KWSP RakyatHub](/blog/).
 
 **Kata Kunci SEO:** freelancer carum KWSP, KWSP freelancer, caruman KWSP sendiri, KWSP Malaysia, e-Caruman KWSP

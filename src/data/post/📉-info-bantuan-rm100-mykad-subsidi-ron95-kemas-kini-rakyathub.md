@@ -5,7 +5,7 @@ excerpt: 'Bantuan Tunai RM100 & RON95 Turun
 
   📉 Info Bantuan RM100'
 category: KWSP
-image: https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-23-2025-11_58_38-PM.png
+image: /_astro/default.CZ816Hke_Z20CwEO.jpg
 tags:
 - kwsp
 author: RakyatHub
@@ -15,7 +15,7 @@ author: RakyatHub
 
 # 📉 Info Bantuan RM100 MyKad & Subsidi RON95
 
-Pada 23 Julai 2025, Kerajaan Malaysia mengumumkan bantuan **[one‑off RM100](https://rakyathub.com/tebus-bantuan-sara-rm100-guna-ic-pengumuman-pagi-ini-23-julai-2025/)** yang akan dimuatkan terus ke dalam cip MyKad penerima dan boleh digunakan di kedai terpilih.[(MStar)](https://www.mstar.com.my/xpose/i-suke/2025/07/23/bantuan-rm100-disalur-dalam-mykad-ini-cara-semak-status-dan-baki-sebelum-pergi-shopping) Selain itu, subsidi RON95 akan menetapkan harga pada **RM1.99 seliter** bermula 1 Ogos 2025 bagi meringankan kos sara hidup rakyat.[(Reuters)](https://www.reuters.com/world/asia-pacific/malaysia-pm-announces-cash-aid-fuel-price-cut-address-rising-living-costs-2025-07-23)
+Pada 23 Julai 2025, Kerajaan Malaysia mengumumkan bantuan **[one‑off RM100](/tebus-bantuan-sara-rm100-guna-ic-pengumuman-pagi-ini-23-julai-2025/)** yang akan dimuatkan terus ke dalam cip MyKad penerima dan boleh digunakan di kedai terpilih.[(MStar)](https://www.mstar.com.my/xpose/i-suke/2025/07/23/bantuan-rm100-disalur-dalam-mykad-ini-cara-semak-status-dan-baki-sebelum-pergi-shopping) Selain itu, subsidi RON95 akan menetapkan harga pada **RM1.99 seliter** bermula 1 Ogos 2025 bagi meringankan kos sara hidup rakyat.[(Reuters)](https://www.reuters.com/world/asia-pacific/malaysia-pm-announces-cash-aid-fuel-price-cut-address-rising-living-costs-2025-07-23)
 
 ## 🪙 Apa Itu Bantuan RM100 MyKad?
 
@@ -45,13 +45,13 @@ Bermula **1 Ogos 2025**, subsidi RON95 akan menurunkan harga kepada **RM1.99 sel
 2. Belanja RM100 bantuan di Kedai MyKasih terdekat untuk barangan asas.
 3. Manfaatkan penurunan harga RON95 untuk jimat kos perjalanan.
 
-[🧮 Kalkulator KWSP](https://kwsp.netlify.app/) [🚀 Cuba Aplikasi RakyatHub](https://app.rakyathub.online/)
+[🧮 Kalkulator KWSP](/kalkulator/kwsp//) [🚀 Cuba Aplikasi RakyatHub](//)
 
-Untuk panduan penuh mengenai KWSP, lawati [artikel KWSP](https://rakyathub.com/kwsp/) berprofil tinggi.
+Untuk panduan penuh mengenai KWSP, lawati [artikel KWSP](/blog/) berprofil tinggi.
 
-Ingin tahu dividen ASB terkini? Semak [panduan ASB RakyatHub](https://rakyathub.com/asb-2/).
+Ingin tahu dividen ASB terkini? Semak [panduan ASB RakyatHub](/blog/).
 
-Ketahui cara [beli emas Public Gold](https://rakyathub.com/emas/) dan bandingkan harga di RakyatHub.
+Ketahui cara [beli emas Public Gold](/blog/) dan bandingkan harga di RakyatHub.
 
 * * *
 

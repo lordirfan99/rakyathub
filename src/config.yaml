@@ -1,6 +1,6 @@
 site:
   name: RakyatHub
-  site: 'https://rakyathub.com'
+  site: 'https://rakyathub.netlify.app'
   base: '/'
   trailingSlash: false
 

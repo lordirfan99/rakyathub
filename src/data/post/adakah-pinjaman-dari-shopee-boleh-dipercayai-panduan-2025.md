@@ -75,11 +75,11 @@ A: Anda akan dikenakan penalti dan rekod CCRIS/CTOS terjejas.
 
 * * *
 
-[📘 Info KWSP & Pengeluaran 2025](https://rakyathub.com/kwsp/)
+[📘 Info KWSP & Pengeluaran 2025](/blog/)
 
-[📊 Semak ASB & Simpanan Jangka Panjang](https://rakyathub.com/asb-2/)
+[📊 Semak ASB & Simpanan Jangka Panjang](/blog/)
 
-[🪙 Panduan Beli Emas Malaysia](https://rakyathub.com/emas/)
+[🪙 Panduan Beli Emas Malaysia](/blog/)
 
 * * *
 

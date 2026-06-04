@@ -3,7 +3,7 @@ publishDate: 2025-07-31
 title: '❓ Pelaburan asas: ASB, KWSP, DCA – Apa Pilihan Terbaik Untuk Rakyat Malaysia?'
 excerpt: 'Pelaburan asas: ASB, KWSP, DCA – Apa Pilihan Terbaik Untuk Rakyat Malaysia?('
 category: KWSP
-image: https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-31-2025-11_01_00-PM-683x1024.png
+image: /_astro/default.CZ816Hke_Z20CwEO.jpg
 tags:
 - kwsp
 author: RakyatHub
@@ -40,7 +40,7 @@ Anda boleh mula melabur melalui ASB dan DCA bila-bila masa jika ada lebihan wang
 Gunakan strategi gabungan: 60% dalam ASB untuk kestabilan, 20% dalam DCA untuk pertumbuhan, dan 20% caruman KWSP sebagai simpanan persaraan. Pastikan anda automasikan simpanan setiap bulan supaya lebih konsisten. Gunakan kalkulator RakyatHub untuk rancang pelaburan anda dengan lebih tepat.
 
 [🚀 Aplikasi RakyatHub – Mobile Optimised!  
-Cuba Sekarang](https://app.rakyathub.online/)
+Cuba Sekarang](//)
 
 * * *
 
@@ -71,10 +71,10 @@ Ya, anda boleh tetapkan pelaburan automatik dalam saham, ETF, atau robo-advisor.
 
 _📌 Interlink Penting:_
 
-- [KWSP Fleksibel 2025](https://rakyathub.com/kwsp/)
-- [Kelebihan Simpanan ASB](https://rakyathub.com/asb-2/)
-- [Pelaburan Emas Malaysia](https://rakyathub.com/emas/)
-- [Panduan Pinjaman Rumah](https://rakyathub.com/loan-rumah-calculator-kiraan-ansuran-perancangan-kewangan/)
-- [Apa Itu Akaun Fleksibel?](https://rakyathub.com/info-terkini-apa-itu-kwsp-akaun-fleksibel-2025-rakyat-kini-boleh-akses-simpanan-bila-bila-masa/)
+- [KWSP Fleksibel 2025](/blog/)
+- [Kelebihan Simpanan ASB](/blog/)
+- [Pelaburan Emas Malaysia](/blog/)
+- [Panduan Pinjaman Rumah](/loan-rumah-calculator-kiraan-ansuran-perancangan-kewangan/)
+- [Apa Itu Akaun Fleksibel?](/info-terkini-apa-itu-kwsp-akaun-fleksibel-2025-rakyat-kini-boleh-akses-simpanan-bila-bila-masa/)
 
 _Kata Kunci SEO:_ Pelaburan asas, ASB, KWSP, DCA

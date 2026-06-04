@@ -3,7 +3,7 @@ publishDate: 2025-07-21
 title: '📊 Strategi DCA vs Lump Sum: Pilihan Pelaburan Bijak untuk Orang Muda'
 excerpt: '📊 Strategi DCA vs Lump Sum: Pilihan Pelabur'
 category: KWSP
-image: https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-21-2025-08_56_59-PM-1-1024x683.png
+image: /_astro/default.CZ816Hke_Z20CwEO.jpg
 tags:
 - kwsp
 author: RakyatHub
@@ -71,15 +71,15 @@ Dengan cara ini, anda memanfaatkan potensi tinggi Lump Sum sambil mengurangkan r
 - **Elak Overtrade:** Fokus jangka panjang, jangan terikut-ikut sentimen viral media sosial. 📱🚫
 - **Belajar & Pantau:** Ikuti laporan suku tahunan syarikat dan trend ekonomi global. 🎓📈
 
-[🚀 Kira Strategi Pelaburan](https://app.rakyathub.online/) [👉 Baca Panduan Lanjut](https://rakyathub.com/articles/investment-strategy)
+[🚀 Kira Strategi Pelaburan](//) [👉 Baca Panduan Lanjut](/blog/)
 
 ## Artikel Berkaitan
 
-- [🔗 Kalkulator Loan Rumah](https://rakyathub.com/loan-rumah-calculator-kiraan-ansuran-perancangan-kewangan/)
-- [🔗 Panduan Carum KWSP Freelancer](https://rakyathub.com/%f0%9f%92%bc-adakah-freelancer-boleh-carum-kwsp-sendiri/)
-- [🔗 Cara Beli Emas dan Pelaburan Emas](https://rakyathub.com/emas/)
-- [🔗 Risiko & Pulangan Robo-Advisor](https://rakyathub.com/risiko-dan-pulangan-robo-advisor-di-malaysia-2025/)
-- [🔗 Panduan Pinjaman Shopee](https://rakyathub.com/adakah-pinjaman-dari-shopee-boleh-dipercayai-panduan-2025/)
+- [🔗 Kalkulator Loan Rumah](/loan-rumah-calculator-kiraan-ansuran-perancangan-kewangan/)
+- [🔗 Panduan Carum KWSP Freelancer](/%f0%9f%92%bc-adakah-freelancer-boleh-carum-kwsp-sendiri/)
+- [🔗 Cara Beli Emas dan Pelaburan Emas](/blog/)
+- [🔗 Risiko & Pulangan Robo-Advisor](/risiko-dan-pulangan-robo-advisor-di-malaysia-2025/)
+- [🔗 Panduan Pinjaman Shopee](/adakah-pinjaman-dari-shopee-boleh-dipercayai-panduan-2025/)
 
 * * *
 

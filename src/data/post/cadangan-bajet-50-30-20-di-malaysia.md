@@ -3,7 +3,7 @@ publishDate: 2025-07-31
 title: Cadangan bajet 50/30/20 di Malaysia
 excerpt: Cadangan bajet 50/30/20 di Malaysia
 category: KWSP
-image: https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-31-2025-10_40_11-PM.png
+image: /_astro/default.CZ816Hke_Z20CwEO.jpg
 tags:
 - kwsp
 author: RakyatHub
@@ -42,13 +42,13 @@ Misalnya gaji bersih anda RM3,000:
 ## 💡 Tips Praktikal Jimat & Maksimumkan Simpanan
 
 • Segera tetapkan potongan auto daripada akaun gaji anda.  
-• Gunakan \*\*Kalkulator KWSP\*\* rujuk caruman & simpanan di sini: [KWSP Akaun Fleksibel 2025](https://rakyathub.com/kwsp/).  
-• Pelaburan pasif: lihat artikel [kelebihan simpanan ASB](https://rakyathub.com/asb-2/) untuk bandingkan dividen.  
-• Gunakan [pelaburan emas Public Gold](https://rakyathub.com/emas/) sebagai lindung nilai inflasi.  
+• Gunakan \*\*Kalkulator KWSP\*\* rujuk caruman & simpanan di sini: [KWSP Akaun Fleksibel 2025](/blog/).  
+• Pelaburan pasif: lihat artikel [kelebihan simpanan ASB](/blog/) untuk bandingkan dividen.  
+• Gunakan [pelaburan emas Public Gold](/blog/) sebagai lindung nilai inflasi.  
 • Bina dana kecemasan lembut sebanyak 3–6 bulan gaji.
 
 [🚀 Aplikasi RakyatHub – Mobile Optimised!  
-Mulakan Bajet Cerdas Sekarang](https://app.rakyathub.online/)
+Mulakan Bajet Cerdas Sekarang](//)
 
 <!-- Tools removed — rendered via AppDashboard component -->
 
@@ -64,13 +64,13 @@ Boleh, tetapi lebih baik simpan lebihan ke dalam kategori simpanan atau dana kec
 Anda boleh bahagi ikut keutamaan—lebih bahagia jika hiburan terkawal tanpa ganggu simpanan.
 
 **4\. Macam mana nak mula pelaburan dengan RM600?**  
-Mulakan dengan simpanan KWSP, ASB, atau beli emas kecil, dan baca panduan [kelebihan simpanan ASB](https://rakyathub.com/7-kelebihan-simpanan-asb-pelaburan-bijak-pulangan-konsisten-yang-pasti-korang-tak-tahu/).
+Mulakan dengan simpanan KWSP, ASB, atau beli emas kecil, dan baca panduan [kelebihan simpanan ASB](/7-kelebihan-simpanan-asb-pelaburan-bijak-pulangan-konsisten-yang-pasti-korang-tak-tahu/).
 
 **5\. Kalau gaji berubah, patut ikut peratus sama?**  
 Ya—skala 50/30/20 fleksibel. Tingkatkan simpanan jika gaji naik, atau susun semula belanja jika turun.
 
 **6\. Apa kaitannya dengan KWSP fleksibel baru?**  
-KWSP Akaun Fleksibel membolehkan anda keluarkan simpanan bila-bila masa, bantu anda capai dana kecemasan pantas—rujuk [artikel KWSP fleksibel 2025](https://rakyathub.com/info-terkini-apa-itu-kwsp-akaun-fleksibel-2025-rakyat-kini-boleh-akses-simpanan-bila-bila-masa/).
+KWSP Akaun Fleksibel membolehkan anda keluarkan simpanan bila-bila masa, bantu anda capai dana kecemasan pantas—rujuk [artikel KWSP fleksibel 2025](/info-terkini-apa-itu-kwsp-akaun-fleksibel-2025-rakyat-kini-boleh-akses-simpanan-bila-bila-masa/).
 
 * * *
 
