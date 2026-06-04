@@ -40,6 +40,9 @@ const adaptedOg = await adaptOpenGraphImages(mergedOg, Astro.site);
 
 const firstImage = adaptedOg?.images?.[0];
 
+const pageTitle = title || METADATA?.title?.default || '';
+const pageDescription = description || METADATA?.description || '';
+
 function buildOpenGraph(og: MetaDataOpenGraph): SEOProps['openGraph'] | undefined {
   if (!og) return undefined;
 
@@ -67,9 +70,15 @@ function buildOpenGraph(og: MetaDataOpenGraph): SEOProps['openGraph'] | undefine
   };
 }
 
+const twImageUrl = firstImage?.url || '';
+
 const mergedTwitter = merge(
   {
     card: (adaptedOg?.images?.length ? 'summary_large_image' : 'summary') as 'summary_large_image' | 'summary',
+    title: pageTitle,
+    description: pageDescription,
+    image: twImageUrl,
+    imageAlt: pageTitle,
   },
   METADATA?.twitter
     ? {
