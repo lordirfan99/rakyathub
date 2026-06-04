@@ -68,6 +68,9 @@ const isCdnUrl =
   (resolved.startsWith('http://') || resolved.startsWith('https://')) &&
   parseUrl(resolved) !== undefined;
 
+// SVG files cannot be processed by Sharp — pass them through as plain <img>
+const isSvg = typeof resolved === 'string' && resolved.toLowerCase().endsWith('.svg');
+
 // Infer missing dimension(s) from ESM-imported ImageMetadata. If only one of
 // width/height is provided, derive the other from the source aspect ratio.
 if (resolved && typeof resolved === 'object' && 'width' in resolved && 'height' in resolved) {
@@ -159,7 +162,9 @@ const cdnSrcSet =
 ---
 
 {
-  isCdnUrl ? (
+  isSvg ? (
+    <img src={resolved as string} width={w} height={h} alt={alt} {...rest} style={finalStyle} />
+  ) : isCdnUrl ? (
     <img
       src={cdnSrc}
       srcset={cdnSrcSet}
