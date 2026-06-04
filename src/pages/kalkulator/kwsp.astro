@@ -326,17 +326,11 @@ function calculate() {
   }
 }
 
-// Wire up input events
-document.addEventListener('DOMContentLoaded', function() {
-  const inputs = ['gaji', 'pekerja', 'majikan', 'umurSekarang', 'umurPersaraan', 'dividen'];
-  inputs.forEach(id => {
-    const el = document.getElementById(id);
-    if (el) {
-      el.addEventListener('input', calculate);
-      el.addEventListener('change', calculate);
-    }
-  });
-  calculate();
+// Script is inline at page bottom — DOM already available, no DOMContentLoaded needed
+['gaji', 'pekerja', 'majikan', 'umurSekarang', 'umurPersaraan', 'dividen'].forEach(function(id) {
+  var el = document.getElementById(id);
+  if (el) { el.addEventListener('input', calculate); el.addEventListener('change', calculate); }
 });
+calculate();
 </script>
 </Layout>
