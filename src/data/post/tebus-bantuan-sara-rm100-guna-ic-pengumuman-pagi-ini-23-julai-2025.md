@@ -9,7 +9,6 @@ tags:
 author: RakyatHub
 ---
 
-![food-aid-receipient](https://rakyathub.com/wp-content/uploads/2025/07/food-aid-receipient-1-300x200.jpg)
 ![Sumbangan\_Asas\_Rahmah\_140125\_NST](https://rakyathub.com/wp-content/uploads/2025/07/Sumbangan_Asas_Rahmah_140125_NST-300x200.jpg)
 ![OIP](https://rakyathub.com/wp-content/uploads/2025/07/OIP-300x225.jpeg)
 

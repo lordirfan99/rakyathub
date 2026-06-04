@@ -19,8 +19,6 @@ author: "RakyatHub"
 
 **Loan Rumah Calculator** membantu anda mengira ansuran bulanan pinjaman rumah dengan cepat dan tepat. Gunakan alat ini untuk merancang bajet, memilih tempoh pinjaman sesuai, dan memahami jumlah faedah yang perlu dibayar.
 
-![Infografik Loan Rumah Calculator](https://i.ibb.co/RGQSTmwN/infographic.png)
-
 ## 📌 Apa Itu Loan Rumah Calculator?
 
 Loan Rumah Calculator adalah aplikasi web percuma yang membolehkan anda:

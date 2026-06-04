@@ -19,8 +19,6 @@ author: "RakyatHub"
 
 Pinjaman online semakin popular di kalangan rakyat Malaysia kerana prosesnya pantas dan mudah. Namun, peningkatan permintaan turut membuka ruang kepada sindiket penipuan yang menyamar sebagai pemberi pinjaman sah. Artikel evergreen ini akan membantu anda kenal pasti tanda-tanda scam, langkah semakan rasmi, dan tip penting untuk memohon pinjaman online dengan selamat.
 
-![Ilustrasi Elakkan Scam Pinjaman Online](https://i.ibb.co/kV4K6WDv/images.jpg)
-
 ## 📌 Apakah Itu Scam Pinjaman Online?
 
 Scam pinjaman online berlaku apabila penipu menawarkan pinjaman tanpa lesen atau caj tersembunyi, kemudian menuntut bayaran sebelum wang dipinjam dikeluarkan. Mangsa biasanya kerugian wang muka (upfront fee) dan data peribadi terdedah.

@@ -9,9 +9,7 @@ tags:
 author: RakyatHub
 ---
 
-![](https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-21-2025-08_56_59-PM-1-1024x683.png)
-
-  📊 Strategi DCA vs Lump Sum: Pilihan Pelaburan Bijak untuk Orang Muda   
+📊 Strategi DCA vs Lump Sum: Pilihan Pelaburan Bijak untuk Orang Muda   
 
 # 📊 Strategi DCA vs Lump Sum: Pilihan Pelaburan Bijak untuk Orang Muda 🚀
 

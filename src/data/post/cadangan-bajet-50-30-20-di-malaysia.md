@@ -11,8 +11,6 @@ author: RakyatHub
 
 <figure>
 
-![Cadangan bajet 50/30/20 di Malaysia](https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-31-2025-10_40_11-PM.png)
-
 <figcaption>
 
 Cadangan bajet 50/30/20 di Malaysia

@@ -31,7 +31,7 @@ Tidak seperti pelaburan saham atau unit amanah yang didagangkan secara terbuka, 
 
 Dengan aplikasi MyASNB, pelabur boleh melihat baki, membuat tambah pelaburan, atau keluarkan wang secara terus ke akaun bank. Ia sangat menjimatkan masa dan membolehkan pengurusan akaun ASB berjalan lancar kapan saja.
 
-[![MyASNB Interface](https://i.ibb.co/rRvG98B4/Chat-GPT-Image-Jul-22-2025-09-58-08-PM.png)](https://ibb.co/C3W5LCjh)
+[](https://ibb.co/C3W5LCjh)
 
 **Tip Bijak:** Aktifkan auto-debit pada akaun bank anda supaya simpanan ASB berjalan secara automatik setiap bulan – ia membantu membina tabiat simpanan secara konsisten.
 

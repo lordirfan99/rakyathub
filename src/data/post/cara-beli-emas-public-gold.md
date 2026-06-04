@@ -21,7 +21,7 @@ Panduan ringkas dan mesra pengguna untuk rakyat Malaysia
 
 **Adakah anda sedang mencari cara paling mudah dan patuh syariah untuk simpan emas?** Program GAP (Gold Accumulation Program) daripada Public Gold adalah pilihan terbaik untuk rakyat Malaysia. Dalam panduan ini, kami akan tunjukkan **cara beli emas GAP Public Gold** langkah demi langkah — sesuai untuk beginner!
 
-[![Penerangan GAP PDF](https://i.ibb.co/v4fQC370/PDF0001-1691643845.png)](https://ibb.co/TMJbD4V9)
+[](https://ibb.co/TMJbD4V9)
 
 ## 📌 Apa Itu GAP Public Gold?
 

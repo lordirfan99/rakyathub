@@ -29,8 +29,6 @@ Robo advisor ialah sistem pelaburan automatik yang membina dan menguruskan portf
 - Tak ada masa nak pantau pasaran saham
 - Mahukan kepelbagaian aset dengan mudah
 
-![Aplikasi StashAway](https://i.ibb.co/JjVhWgv2/stashaway.jpg)
-
 ## ⚠️ Risiko Pelaburan dengan Robo Advisor
 
 - **Risiko pasaran:** Nilai pelaburan boleh turun semasa ketidaktentuan ekonomi.

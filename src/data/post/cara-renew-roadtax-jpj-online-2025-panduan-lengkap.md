@@ -21,7 +21,7 @@ Panduan mudah & sah untuk perbaharui cukai jalan secara online
 
 Perlu renew roadtax JPJ? Anda tak perlu beratur panjang di kaunter lagi. Sekarang, anda boleh **perbaharui cukai jalan JPJ secara online** melalui portal rasmi kerajaan.
 
-[![Renew Roadtax dengan Pos Malaysia](https://i.ibb.co/sJsL7T3J/Renew-Road-Tax-with-Pos-Malaysia.jpg)](https://ibb.co/7Nr7h3yN)
+[](https://ibb.co/7Nr7h3yN)
 
 ## 📌 Apa Itu Roadtax (e-LKM)?
 

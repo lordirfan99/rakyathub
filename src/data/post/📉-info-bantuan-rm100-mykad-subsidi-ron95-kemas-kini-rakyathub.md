@@ -11,9 +11,7 @@ tags:
 author: RakyatHub
 ---
 
-![Bantuan Tunai RM100 & RON95 Turun](https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-23-2025-11_58_38-PM.png)
-
-  📉 Info Bantuan RM100 MyKad & Subsidi RON95   
+📉 Info Bantuan RM100 MyKad & Subsidi RON95   
 
 # 📉 Info Bantuan RM100 MyKad & Subsidi RON95
 

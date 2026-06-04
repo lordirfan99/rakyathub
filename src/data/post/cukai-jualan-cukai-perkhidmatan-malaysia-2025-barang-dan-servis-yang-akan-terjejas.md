@@ -15,7 +15,7 @@ Cukai Jualan & Cukai Perkhidmatan Malaysia 2025: Barang dan Servis Yang Akan Ter
 
 # 📢 Cukai Jualan & Cukai Perkhidmatan Malaysia 2025: Barang dan Servis Yang Akan Terjejas
 
-[![1-4](https://i.ibb.co/Y4cdQHVk/1-4.png)](https://ibb.co/zWX2xqtR)
+[](https://ibb.co/zWX2xqtR)
 
 Cukai Jualan dan Cukai Perkhidmatan (SST) kembali mendapat perhatian rakyat Malaysia pada tahun 2025 selepas pengumuman kerajaan mengenai **pengubahsuaian kadar dan liputan SST** bermula 1 Julai 2025. Dalam artikel ini, kami akan terangkan secara menyeluruh apa itu cukai jualan dan cukai perkhidmatan, perbezaannya, barang dan servis yang akan terjejas, serta tips untuk rakyat menyesuaikan perbelanjaan.
 

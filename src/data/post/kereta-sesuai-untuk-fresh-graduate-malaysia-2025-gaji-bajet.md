@@ -27,8 +27,6 @@ Rata-rata fresh graduate di Malaysia menerima gaji sekitar RM2,500 hingga RM3,00
 
 <figure>
 
-![Kereta Mampu Milik Fresh Grad](https://i.ibb.co/5xfBkNbL/download-2.jpg)
-
 <figcaption>
 
 Contoh kereta mampu milik untuk graduan di Malaysia

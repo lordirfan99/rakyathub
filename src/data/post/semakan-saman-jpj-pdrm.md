@@ -23,7 +23,7 @@ Cara Mudah & Sah Semak Saman Trafik Anda Secara Online
 
 Ramai rakyat Malaysia tidak sedar bahawa mereka mempunyai saman tertunggak. Sekarang, anda boleh semak dan bayar **saman JPJ dan PDRM secara online** dengan mudah, cepat dan sah.
 
-[![Semakan Saman Polis dan JPJ](https://i.ibb.co/C5JsRN9r/Cara-Semakan-Saman-Polis-Trafik-dan-JPJ.jpg)](https://ibb.co/qM0FTXgZ)
+[](https://ibb.co/qM0FTXgZ)
 
 ## 📌 Cara Semak Saman JPJ Online
 

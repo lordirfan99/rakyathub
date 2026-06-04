@@ -19,8 +19,6 @@ Adakah Pinjaman Dari Shopee Boleh Dipercayai? - Panduan 2025
 
 Shopee bukan sahaja tempat membeli-belah, malah kini menawarkan pinjaman peribadi melalui SPayLater dan SPinjam. Tapi adakah pinjaman ini boleh dipercayai dan selamat untuk rakyat Malaysia?
 
-![Pengguna Shopee dengan SPayLater](https://i.ibb.co/Xxvshb5t/14641738.webp)
-
 ## 📌 Apa Itu SPayLater & SPinjam Shopee?
 
 **SPayLater** ialah sistem bayar kemudian yang membolehkan pengguna membeli barang dan bayar secara ansuran sehingga 12 bulan. **SPinjam** pula adalah pinjaman tunai terus ke akaun bank yang disediakan oleh rakan kongsi seperti SeaMoney.

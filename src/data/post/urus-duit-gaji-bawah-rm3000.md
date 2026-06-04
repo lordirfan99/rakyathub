@@ -51,7 +51,7 @@ Gunakan waktu lapang anda untuk mencari pendapatan tambahan seperti dropshipping
 
 Banyak skim kerajaan tersedia untuk membantu golongan berpendapatan rendah. Semak kelayakan anda untuk STR, bantuan pendidikan, dan subsidi lain.
 
- [![beli-rumah-gaji-rendah](https://i.ibb.co/cM3QPfS/beli-rumah-gaji-rendah.webp)](https://ibb.co/XNLt90r)[![vocket-gaji-berkepuk-1](https://i.ibb.co/zV9mXYh1/vocket-gaji-berkepuk-1.jpg)](https://ibb.co/9HKpbL9J)
+ [](https://ibb.co/XNLt90r)[![vocket-gaji-berkepuk-1](https://i.ibb.co/zV9mXYh1/vocket-gaji-berkepuk-1.jpg)](https://ibb.co/9HKpbL9J)
 
 ## 7\. Matlamat Kewangan Jelas
 

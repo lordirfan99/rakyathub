@@ -30,7 +30,7 @@ Moomoo ialah platform dagangan global yang membolehkan pelabur individu mengakse
 
 **Tip Pelabur:** Gunakan simulasi paper trading Moomoo untuk berlatih membeli saham tanpa risiko sebenar.
 
-[![Chat-GPT-Image-Jul-22-2025-10-42-54-PM](https://i.ibb.co/G4n7qdC4/Chat-GPT-Image-Jul-22-2025-10-42-54-PM.png)](https://ibb.co/sdbjZgsd)  
+[](https://ibb.co/sdbjZgsd)  
 [https://www.moomoo.com/](https://fr.imgbb.com/)  
 
 ## Cara Daftar Akaun Moomoo Di Malaysia
