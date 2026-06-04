@@ -3,9 +3,9 @@ import { SITE } from 'astrowind:config';
 ---
 
 <a
-  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white flex items-center gap-2"
+  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold whitespace-nowrap flex items-center gap-2"
   href="/"
 >
-  <span class="w-8 h-8 bg-gradient-to-br from-amber-500 to-emerald-600 rounded-lg flex items-center justify-center text-white text-sm font-bold">RH</span>
-  {SITE?.name}
+  <span class="w-8 h-8 bg-[#2563eb] rounded-lg flex items-center justify-center text-white text-sm font-bold">RH</span>
+  <span class="text-gray-900 dark:text-white">{SITE?.name}</span>
 </a>
