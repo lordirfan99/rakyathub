@@ -9,7 +9,7 @@ Cara Mudah & Sah Semak Saman Trafik Anda Secara Online
 
 Ramai"
 category: "KWSP"
-image: "https://i.ibb.co/C5JsRN9r/Cara-Semakan-Saman-Polis-Trafik-dan-JPJ.jpg"
+image: "/images/default.png"
 tags:
   - "kwsp"
 author: "RakyatHub"
@@ -23,7 +23,7 @@ Cara Mudah & Sah Semak Saman Trafik Anda Secara Online
 
 Ramai rakyat Malaysia tidak sedar bahawa mereka mempunyai saman tertunggak. Sekarang, anda boleh semak dan bayar **saman JPJ dan PDRM secara online** dengan mudah, cepat dan sah.
 
-[](https://ibb.co/qM0FTXgZ)
+
 
 ## 📌 Cara Semak Saman JPJ Online
 
@@ -39,7 +39,7 @@ Ramai rakyat Malaysia tidak sedar bahawa mereka mempunyai saman tertunggak. Seka
 - Masukkan maklumat IC atau nombor plat
 - Lihat saman terkini dan status pembayaran
 
-[![Semak & Bayar Saman](https://i.ibb.co/rKss7kYR/INFOBANTUAN-MY-2-SAMAN-1.webp)](https://ibb.co/35zzr129)
+
 
 ## 💳 Cara Bayar Saman Online (JPJ & PDRM)
 

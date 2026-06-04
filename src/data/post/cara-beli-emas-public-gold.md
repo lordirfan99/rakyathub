@@ -7,7 +7,7 @@ excerpt: "Cara Beli Emas GAP Public Gold (Panduan Lengkap 2025)
 
 Panduan ringkas dan mesra penggun"
 category: "KWSP"
-image: "https://i.ibb.co/v4fQC370/PDF0001-1691643845.png"
+image: "/images/default.png"
 tags:
   - "kwsp"
 author: "RakyatHub"
@@ -21,7 +21,7 @@ Panduan ringkas dan mesra pengguna untuk rakyat Malaysia
 
 **Adakah anda sedang mencari cara paling mudah dan patuh syariah untuk simpan emas?** Program GAP (Gold Accumulation Program) daripada Public Gold adalah pilihan terbaik untuk rakyat Malaysia. Dalam panduan ini, kami akan tunjukkan **cara beli emas GAP Public Gold** langkah demi langkah — sesuai untuk beginner!
 
-[](https://ibb.co/TMJbD4V9)
+
 
 ## 📌 Apa Itu GAP Public Gold?
 
@@ -32,7 +32,7 @@ Panduan ringkas dan mesra pengguna untuk rakyat Malaysia
 - Boleh simpan, keluarkan atau jual semula bila-bila masa
 - Tiada yuran simpanan tahunan
 
-[![Gold Bar Public Gold](https://i.ibb.co/sJ158tYs/goldbar.jpg)](https://ibb.co/Cs9JRWGV)
+
 
 ## 💡 Kelebihan Beli Emas Melalui GAP
 
@@ -54,7 +54,7 @@ Ada dua cara:
 1. **Pembayaran Manual:** Login > Pilih “Purchase GAP” > Masukkan jumlah > Transfer ke akaun PG > Upload bukti pembayaran
 2. **Walk-in:** Kunjungi cawangan Public Gold atau melalui dealer sah
 
-[![Aplikasi Public Gold](https://i.ibb.co/5xS4BqWL/download.jpg)](https://imgbb.com/)
+
 
 ### Langkah 3: Semak Akaun GAP Anda
 

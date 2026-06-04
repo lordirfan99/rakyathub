@@ -7,7 +7,7 @@ excerpt: "Cara Renew Roadtax JPJ Online 2025 (Panduan Lengkap)
 
 Panduan mudah & sah untuk perbaharui cukai jalan seca"
 category: "KWSP"
-image: "https://i.ibb.co/sJsL7T3J/Renew-Road-Tax-with-Pos-Malaysia.jpg"
+image: "/images/default.png"
 tags:
   - "kwsp"
 author: "RakyatHub"
@@ -21,7 +21,7 @@ Panduan mudah & sah untuk perbaharui cukai jalan secara online
 
 Perlu renew roadtax JPJ? Anda tak perlu beratur panjang di kaunter lagi. Sekarang, anda boleh **perbaharui cukai jalan JPJ secara online** melalui portal rasmi kerajaan.
 
-[](https://ibb.co/7Nr7h3yN)
+
 
 ## 📌 Apa Itu Roadtax (e-LKM)?
 
@@ -36,7 +36,7 @@ Roadtax atau LKM (Lesen Kenderaan Motor) adalah cukai tahunan yang wajib dibayar
 - Pilih tempoh (6 bulan / 12 bulan)
 - Lakukan bayaran melalui FPX / Kad Kredit
 
-[![renew-e-LKM-myjpj](https://i.ibb.co/1YvhLcm7/renew-e-LKM-myjpj.jpg)](https://ibb.co/My2WsdCZ)
+
 
 ## 📦 Pilihan Penghantaran Roadtax
 
@@ -46,7 +46,7 @@ Anda boleh pilih untuk:
 - Dihantar terus ke rumah melalui Pos
 - Guna e-LKM (lesen digital dalam aplikasi MyJPJ)
 
-[![Roadtax Fizikal dan e-LKM](https://i.ibb.co/tPxR3hvR/cetakan-fizikal-roadtax-lkm-792x1024.jpg)](https://ibb.co/YTygbW1g)
+
 
 ## 💡 Tips Penting
 

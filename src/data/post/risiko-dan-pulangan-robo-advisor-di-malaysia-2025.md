@@ -7,7 +7,7 @@ excerpt: "Risiko dan Pulangan Robo Advisor di Malaysia (2025)
 
 Panduan untuk pelabur Malaysia memahami po"
 category: "KWSP"
-image: "https://i.ibb.co/JjVhWgv2/stashaway.jpg"
+image: "/images/default.png"
 tags:
   - "kwsp"
 author: "RakyatHub"
@@ -36,7 +36,7 @@ Robo advisor ialah sistem pelaburan automatik yang membina dan menguruskan portf
 - **Kekurangan kawalan:** Anda tidak boleh pilih saham individu dalam portfolio.
 - **Yuran pengurusan:** Meskipun rendah, ia tetap wujud dan perlu difahami.
 
-![Logo Wahed Invest](https://i.ibb.co/hRshBdjb/wahed-invest-logo.webp)
+
 
 ## 📈 Prestasi & Potensi Pulangan
 

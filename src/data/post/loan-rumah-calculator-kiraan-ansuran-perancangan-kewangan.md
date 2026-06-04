@@ -7,7 +7,7 @@ excerpt: "🔢 Loan Rumah Calculator: Kiraan Ansuran & Perancangan Kewangan
 
 Loan Rumah Calculator me"
 category: "Kewangan"
-image: "https://i.ibb.co/RGQSTmwN/infographic.png"
+image: "/images/default.png"
 tags:
   - "kewangan"
 author: "RakyatHub"
@@ -45,7 +45,7 @@ Loan Rumah Calculator adalah aplikasi web percuma yang membolehkan anda:
 3. **Tempoh Pinjaman:** Contoh 30 tahun.
 4. **Tekan “KIRA”:** Lihat hasil ansuran dan faedah.
 
-![Antaramuka web Loan Rumah Calculator (mod gelap)](https://i.ibb.co/2YFRbxd7/dark-interface.png)
+
 
 ## 📊 Fahami Hasil Pengiraan
 
@@ -53,7 +53,7 @@ Loan Rumah Calculator adalah aplikasi web percuma yang membolehkan anda:
 - **Jumlah Faedah:** Keseluruhan faedah sepanjang tempoh.
 - **Jadual Amortisasi:** Pecahan bayaran pokok vs faedah (jika disediakan).
 
-![Tangkapan skrin Loan Rumah Calculator dengan keputusan kiraan](https://i.ibb.co/SwG80pjt/result-screen.png)
+
 
 ## 🔍 Tip Memaksimumkan Loan Rumah Calculator
 
