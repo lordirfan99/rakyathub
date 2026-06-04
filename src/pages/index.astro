@@ -2,7 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
-import Features from '~/components/widgets/Features.astro';
+import AppDashboard from '~/components/widgets/AppDashboard.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Brands from '~/components/widgets/Brands.astro';
@@ -54,58 +54,12 @@ const orgSchema = {
     </Fragment>
   </Hero>
 
-  <!-- Kalkulator Features — clean grid -->
-  <Features
+  <!-- App Dashboard — premium grid -->
+  <AppDashboard
     id="kalkulator"
     tagline="Kalkulator Percuma"
     title="Alat Kewangan Untuk Rakyat Malaysia"
     subtitle="Guna kalkulator interaktif untuk kira simpanan KWSP, dividen ASB, harga emas, dan ansuran kereta."
-    items={[
-      {
-        title: 'Kalkulator KWSP',
-        description:
-          'Kira caruman, pengeluaran fleksibel dan dividen KWSP. Simulasi simpanan persaraan anda.',
-        icon: 'tabler:wallet',
-        callToAction: {
-          text: 'Kira Sekarang',
-          href: '/kalkulator/kwsp',
-          variant: 'primary',
-        },
-      },
-      {
-        title: 'Kalkulator ASB',
-        description:
-          'Kira dividen ASB, bonus dan simpanan automatik. Optimalkan pelaburan ASB loan anda.',
-        icon: 'tabler:chart-bar',
-        callToAction: {
-          text: 'Kira Sekarang',
-          href: '/kalkulator/asb',
-          variant: 'primary',
-        },
-      },
-      {
-        title: 'Kalkulator Emas',
-        description:
-          'Semak harga emas harian, spread, dan beza harga Public Gold vs kedai emas.',
-        icon: 'tabler:coins',
-        callToAction: {
-          text: 'Kira Sekarang',
-          href: '/kalkulator/emas',
-          variant: 'primary',
-        },
-      },
-      {
-        title: 'Kalkulator Kereta',
-        description:
-          'Kira ansuran bulanan kereta berdasarkan harga loan, kadar interest dan tempoh bayaran.',
-        icon: 'tabler:car',
-        callToAction: {
-          text: 'Kira Sekarang',
-          href: '/kalkulator/kereta',
-          variant: 'primary',
-        },
-      },
-    ]}
   />
 
   <!-- Blog Latest Posts -->
