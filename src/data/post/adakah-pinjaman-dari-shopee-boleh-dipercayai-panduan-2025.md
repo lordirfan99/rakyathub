@@ -1,9 +1,7 @@
 ---
 publishDate: 2025-07-18
 title: "Adakah Pinjaman Dari Shopee Boleh Dipercayai? - Panduan 2025"
-excerpt: "Adakah Pinjaman Dari Shopee Boleh Dipercayai? - Panduan 2025 
-
- 🤔 Adakah Pinjaman Dari Shopee Boleh Dipercayai? Panduan Lengkap 2025
+excerpt: "Shopee tawarkan pinjaman peribadi, tapi adakah ia selamat? Panduan 2025 untuk kenali risiko, kadar利息, dan alternatif lebih baik sebelum mohon."
 
 Shopee bukan sah"
 category: "KWSP"

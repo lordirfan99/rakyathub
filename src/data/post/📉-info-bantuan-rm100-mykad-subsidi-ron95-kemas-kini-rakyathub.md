@@ -1,7 +1,7 @@
 ---
 publishDate: 2025-07-23
 title: 📉 Info Bantuan RM100 MyKad &amp; Subsidi RON95 – Kemas Kini RakyatHub
-excerpt: 'Bantuan Tunai RM100 & RON95 Turun
+excerpt: "Info terkini bantuan RM100 MyKad dan subsidi RON95 untuk rakyat Malaysia. Panduan cara tebus, syarat kelayakan, dan tarikh penting yang korang kena tahu."
 
   📉 Info Bantuan RM100'
 category: KWSP

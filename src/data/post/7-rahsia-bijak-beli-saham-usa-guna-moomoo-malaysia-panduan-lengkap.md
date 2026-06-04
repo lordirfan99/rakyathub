@@ -1,7 +1,7 @@
 ---
 publishDate: 2025-07-22
 title: 7 Rahsia Bijak Beli Saham USA Guna Moomoo Malaysia (Panduan Lengkap)
-excerpt: "📈 7 Rahsia Bijak Beli Saham USA Guna Moomoo Malaysia (Panduan Lengkap)  
+excerpt: "Panduan lengkap beli saham US guna Moomoo Malaysia 2025. Cara daftar, deposit, pilih saham, dan tips pelaburan untuk rakyat Malaysia yang nak mula."
 
  📈 7 Rahsia Bijak Beli Saham USA Guna Moomoo Malaysia (Panduan Lengkap)
 

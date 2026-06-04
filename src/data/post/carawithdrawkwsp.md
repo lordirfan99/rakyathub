@@ -1,7 +1,7 @@
 ---
 publishDate: 2025-07-13
 title: "Cara Buat Pengeluaran KWSP: Panduan Lengkap 2025"
-excerpt: "Cara Buat Pengeluaran KWSP Tahun 2025 (Online & Dokumen Diperlukan)
+excerpt: "Panduan lengkap buat pengeluaran KWSP secara online 2025. Cara mohon pengeluaran Akaun 2 dan Akaun Fleksibel, dokumen diperlukan dan tips elak ditolak."
 
  🏦 Cara Buat Pengeluaran KWSP: Panduan Lengkap 2025
 

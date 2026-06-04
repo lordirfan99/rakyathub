@@ -1,9 +1,7 @@
 ---
 publishDate: 2025-07-14
 title: Cara Renew Roadtax JPJ Online 2025 (Panduan Lengkap)
-excerpt: "Cara Renew Roadtax JPJ Online 2025 (Panduan Lengkap)    
-
- 🚗 Cara Renew Roadtax JPJ Online 2025
+excerpt: "Panduan sah renew roadtax JPJ online 2025 — cara guna MySikap, JPJ E-Bayar, dan pos laju. Jimat masa tanpa pergi kaunter."
 
 Panduan mudah & sah untuk perbaharui cukai jalan seca"
 category: "KWSP"
