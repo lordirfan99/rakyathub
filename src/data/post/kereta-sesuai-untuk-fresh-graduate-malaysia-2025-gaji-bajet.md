@@ -7,7 +7,7 @@ excerpt: "Kereta Sesuai Untuk Fresh Graduate Malaysia 2025 - Gaji & Bajet
 
 Ketahui model pilihan anak m"
 category: "KWSP"
-image: "/images/default.png"
+image: "/images/kereta-fresh-graduate.svg"
 tags:
   - "kwsp"
 author: "RakyatHub"

@@ -9,7 +9,7 @@ Cara Mudah & Sah Semak Saman Trafik Anda Secara Online
 
 Ramai"
 category: "KWSP"
-image: "/images/default.png"
+image: "/images/saman-jpj-pdrm.svg"
 tags:
   - "kwsp"
 author: "RakyatHub"

@@ -7,7 +7,7 @@ excerpt: "Cara Renew Roadtax JPJ Online 2025 (Panduan Lengkap)
 
 Panduan mudah & sah untuk perbaharui cukai jalan seca"
 category: "KWSP"
-image: "/images/default.png"
+image: "/images/roadtax-jpj.svg"
 tags:
   - "kwsp"
 author: "RakyatHub"

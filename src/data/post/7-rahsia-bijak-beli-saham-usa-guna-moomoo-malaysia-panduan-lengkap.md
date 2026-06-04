@@ -7,7 +7,7 @@ excerpt: "📈 7 Rahsia Bijak Beli Saham USA Guna Moomoo Malaysia (Panduan Lengk
 
 Jik"
 category: "KWSP"
-image: "/images/default.png"
+image: "/images/moomoo.svg"
 tags:
   - "kwsp"
 author: "RakyatHub"

@@ -3,7 +3,7 @@ publishDate: 2025-07-18
 title: "Cukai Jualan & Cukai Perkhidmatan Malaysia 2025: Barang dan Servis Yang Akan Terjejas"
 excerpt: "SST Malaysia 2025 — kadar cukai perkhidmatan naik dari 6% ke 8% bermula Julai 2025. Ketahui barang dan servis yang terjejas serta cara sesuaikan perbelanjaan anda."
 category: "Kerajaan"
-image: "/images/default.png"
+image: "/images/default.svg"
 tags:
   - "kerajaan"
 author: "RakyatHub"

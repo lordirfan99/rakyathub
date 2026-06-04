@@ -3,7 +3,7 @@ publishDate: 2025-07-31
 title: Panduan Bajet 50/30/20 di Malaysia — Cara Urus Gaji Setiap Bulan
 excerpt: Panduan bajet 50/30/20 untuk rakyat Malaysia — bahagikan gaji kepada 50% keperluan, 30% kehendak dan 20% simpanan untuk kebebasan kewangan lebih pantas.
 category: Kewangan
-image: /images/default.png
+image: /images/default.svg
 tags:
 - kewangan
 - kwsp

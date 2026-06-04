@@ -7,7 +7,7 @@ excerpt: "💰 7 Kelebihan Simpanan ASB – Pelaburan Bijak & Pulangan Konsisten
 
 Amanah Saham"
 category: "KWSP"
-image: "/images/default.png"
+image: "/images/asb-kelebihan.svg"
 tags:
   - "kwsp"
 author: "RakyatHub"
