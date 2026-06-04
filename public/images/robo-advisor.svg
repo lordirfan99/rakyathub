@@ -1,13 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="506" viewBox="0 0 900 506">
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#4338ca;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#6d28d9;stop-opacity:1"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="overlay" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.55)"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="506" fill="url(#g)" rx="12"/>
-  <rect x="60" y="60" width="780" height="386" fill="white" fill-opacity="0.07" rx="8"/>
-  <text x="450" y="220" font-family="system-ui,sans-serif" font-size="96" text-anchor="middle" dominant-baseline="middle">🤖</text>
-  <text x="450" y="330" font-family="system-ui,sans-serif" font-size="38" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="white" opacity="0.95">Robo-Advisor Malaysia</text>
-  <text x="450" y="390" font-family="system-ui,sans-serif" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="white" opacity="0.6">RakyatHub</text>
+  <!-- Background -->
+  <rect width="900" height="506" fill="url(#bg)"/>
+  <!-- Decorative shapes -->
+  <circle cx="760" cy="150" r="160" fill="none" stroke="rgba(139,92,246,0.3)" stroke-width="2"/>
+<circle cx="760" cy="150" r="110" fill="none" stroke="rgba(139,92,246,0.2)" stroke-width="1.5"/>
+<circle cx="760" cy="150" r="60" fill="rgba(139,92,246,0.2)" stroke="rgba(139,92,246,0.4)" stroke-width="2"/>
+<circle cx="760" cy="150" r="15" fill="rgba(139,92,246,0.6)"/>
+<line x1="760" y1="40" x2="760" y2="240" stroke="rgba(139,92,246,0.2)" stroke-width="1"/>
+<line x1="660" y1="150" x2="860" y2="150" stroke="rgba(139,92,246,0.2)" stroke-width="1"/>
+<polyline points="520,200 580,150 640,170 700,120 760,140 820,100" stroke="rgba(34,197,94,0.5)" stroke-width="2.5" fill="none"/>
+  <!-- Bottom gradient overlay -->
+  <rect width="900" height="506" fill="url(#overlay)"/>
+  <!-- Category pill -->
+  <rect x="48" y="48" width="141" height="32" rx="16" fill="#8b5cf6" opacity="0.92"/>
+  <text x="60" y="69" font-family="system-ui,-apple-system,sans-serif" font-size="14" font-weight="700" fill="white" letter-spacing="1">PELABURAN</text>
+  <!-- Title -->
+  <text x="48" y="380" font-family="system-ui,-apple-system,sans-serif" font-size="36" font-weight="800" fill="white" style="filter:drop-shadow(0 2px 4px rgba(0,0,0,0.5))">Robo-Advisor Malaysia</text>
+  <!-- Subtitle -->
+  <text x="48" y="426" font-family="system-ui,-apple-system,sans-serif" font-size="20" fill="rgba(255,255,255,0.82)">Risiko &amp; Pulangan 2025</text>
+  <!-- RakyatHub branding -->
+  <rect x="48" y="455" width="120" height="28" rx="6" fill="rgba(255,255,255,0.15)"/>
+  <text x="60" y="474" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="600" fill="white">RakyatHub</text>
 </svg>

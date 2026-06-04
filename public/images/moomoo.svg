@@ -1,13 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="506" viewBox="0 0 900 506">
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="overlay" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.55)"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="506" fill="url(#g)" rx="12"/>
-  <rect x="60" y="60" width="780" height="386" fill="white" fill-opacity="0.07" rx="8"/>
-  <text x="450" y="220" font-family="system-ui,sans-serif" font-size="96" text-anchor="middle" dominant-baseline="middle">💰</text>
-  <text x="450" y="330" font-family="system-ui,sans-serif" font-size="38" font-weight="700" text-anchor="middle" dominant-baseline="middle" fill="white" opacity="0.95">Pelaburan Saham USA</text>
-  <text x="450" y="390" font-family="system-ui,sans-serif" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="white" opacity="0.6">RakyatHub</text>
+  <!-- Background -->
+  <rect width="900" height="506" fill="url(#bg)"/>
+  <!-- Decorative shapes -->
+  <circle cx="720" cy="80" r="180" fill="rgba(59,130,246,0.15)"/>
+<circle cx="780" cy="200" r="120" fill="rgba(59,130,246,0.1)"/>
+<polyline points="100,320 200,280 300,300 400,240 500,260 600,200 700,220 800,160" stroke="rgba(34,197,94,0.6)" stroke-width="3" fill="none"/>
+<polyline points="100,350 200,320 300,340 400,290 500,310 600,260 700,280 800,230" stroke="rgba(59,130,246,0.4)" stroke-width="2" fill="none"/>
+<rect x="520" y="150" width="2" height="170" fill="rgba(255,255,255,0.2)"/>
+<rect x="620" y="190" width="2" height="130" fill="rgba(255,255,255,0.2)"/>
+<rect x="720" y="210" width="2" height="110" fill="rgba(255,255,255,0.2)"/>
+<rect x="820" y="170" width="2" height="150" fill="rgba(255,255,255,0.2)"/>
+  <!-- Bottom gradient overlay -->
+  <rect width="900" height="506" fill="url(#overlay)"/>
+  <!-- Category pill -->
+  <rect x="48" y="48" width="141" height="32" rx="16" fill="#3b82f6" opacity="0.92"/>
+  <text x="60" y="69" font-family="system-ui,-apple-system,sans-serif" font-size="14" font-weight="700" fill="white" letter-spacing="1">PELABURAN</text>
+  <!-- Title -->
+  <text x="48" y="380" font-family="system-ui,-apple-system,sans-serif" font-size="36" font-weight="800" fill="white" style="filter:drop-shadow(0 2px 4px rgba(0,0,0,0.5))">Saham USA dengan</text>
+  <!-- Subtitle -->
+  <text x="48" y="426" font-family="system-ui,-apple-system,sans-serif" font-size="20" fill="rgba(255,255,255,0.82)">Moomoo Malaysia</text>
+  <!-- RakyatHub branding -->
+  <rect x="48" y="455" width="120" height="28" rx="6" fill="rgba(255,255,255,0.15)"/>
+  <text x="60" y="474" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="600" fill="white">RakyatHub</text>
 </svg>
