@@ -54,29 +54,13 @@ Mulakan Bajet Cerdas Sekarang](https://app.rakyathub.online/)
 
 [
 
-### 🚗 Kalkulator Kereta
+### 🚗 **Kalkulator Kereta** — Kira ansuran petrol & loan bulanan. [→ Kira Sekarang](https://keretakalkulator.netlify.app/)
 
-Kira ansuran petrol & loan bulanan berdasarkan bantuan & subsidi semasa.
+### 📐 **Kalkulator ASB** — Kira dividen & simpanan automatik ASB. [→ Kira Sekarang](https://asb-calculator.netlify.app/)
 
-](https://keretakalkulator.netlify.app/)[
+### 🧮 **Kalkulator KWSP** — Simulasi caruman & pengeluaran KWSP. [→ Kira Sekarang](https://kwsp.netlify.app/)
 
-### 📐 Kalkulator ASB
-
-Kira dividen & simpanan automatik ASB anda.
-
-](https://asb-calculator.netlify.app/)[
-
-### 🧮 Kalkulator KWSP
-
-Simulasi caruman & pengeluaran KWSP terkini.
-
-](https://kwsp.netlify.app/)[
-
-### 📈 Kalkulator Emas
-
-Bandingkan harga emas & spread kedai emas popular.
-
-](https://emasrakyathub.netlify.app/)[
+### 📈 **Kalkulator Emas** — Bandingkan harga emas & spread. [→ Kira Sekarang](https://emasrakyathub.netlify.app/)
 
 ### 🏠 Kalkulator Loan Rumah
 
