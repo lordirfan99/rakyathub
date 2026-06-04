@@ -65,7 +65,7 @@ Bagi mereka yang ingin membandingkan ASB dengan instrumen lain seperti Tabung Ha
 
 Untuk mula, anda hanya perlu buka akaun di cawangan ASNB, ejen bank seperti Maybank atau CIMB, atau secara digital melalui MyASNB. Deposit minima serendah RM10 membolehkan sesiapa sahaja memulakan pelaburan. Gunakan fungsi auto-debit untuk konsisten menyimpan, dan pantau prestasi melalui aplikasi.
 
-[Kira Pulangan Simpanan ASB](//) [Baca Panduan Lengkap ASB](/blog/)
+[Kira Pulangan Simpanan ASB](/kalkulator/asb/) [Baca Panduan Lengkap KWSP](/info-terkini-apa-itu-kwsp-akaun-fleksibel-2025-rakyat-kini-boleh-akses-simpanan-bila-bila-masa/)
 
 ## Soalan Lazim (FAQ)
 

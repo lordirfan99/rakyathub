@@ -15,7 +15,7 @@ author: RakyatHub
 
 Ramai freelancer tertanya-tanya sama ada mereka berhak untuk membuat caruman KWSP sendiri tanpa majikan. Artikel ini menerangkan segala yang anda perlu tahu tentang KWSP untuk freelancer di Malaysia.
 
-[Kira Caruman KWSP Anda](/kalkulator/kwsp/) [Panduan KWSP Lengkap](/blog/)
+[Kira Caruman KWSP Anda](/kalkulator/kwsp/) [Panduan KWSP Lengkap](/info-terkini-apa-itu-kwsp-akaun-fleksibel-2025-rakyat-kini-boleh-akses-simpanan-bila-bila-masa/)
 
 ## 1\. Apakah itu KWSP?
 
@@ -76,6 +76,6 @@ Log masuk ke i-Akaun KWSP atau aplikasi KWSP Mobile.
 
 Hanya kelulusan khas untuk keadaan tertentu seperti kesihatan kritikal.
 
-Untuk maklumat lanjut tentang KWSP, layari [Panduan KWSP RakyatHub](/blog/).
+Untuk maklumat lanjut tentang KWSP, layari [Info KWSP Akaun Fleksibel 2025](/info-terkini-apa-itu-kwsp-akaun-fleksibel-2025-rakyat-kini-boleh-akses-simpanan-bila-bila-masa/).
 
 **Kata Kunci SEO:** freelancer carum KWSP, KWSP freelancer, caruman KWSP sendiri, KWSP Malaysia, e-Caruman KWSP

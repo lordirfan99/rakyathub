@@ -57,7 +57,7 @@ Anda boleh pilih untuk:
 ### Baca Juga:
 
 - [Semakan Saman JPJ & PDRM](/semakan-saman-jpj-pdrm/)
-- [Panduan Pengeluaran KWSP](/blog/)
-- [Harga Emas Semasa Malaysia](/blog/)
+- [Panduan Pengeluaran KWSP](/carawithdrawkwsp/)
+- [Harga Emas Semasa Malaysia](/kalkulator/emas/)
 
 © 2025 RakyatHub.com — Rujukan sah untuk rakyat Malaysia

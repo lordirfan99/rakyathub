@@ -81,4 +81,4 @@ Pengeluaran KWSP adalah kemudahan yang membantu rakyat jika digunakan dengan bij
 
 ## 📘 Baca Lagi: Panduan Lengkap KWSP Malaysia 2025
 
-[📖 Klik Untuk Baca Artikel Penuh KWSP](/blog/)
+[📖 Klik Untuk Baca Artikel Penuh KWSP](/info-terkini-apa-itu-kwsp-akaun-fleksibel-2025-rakyat-kini-boleh-akses-simpanan-bila-bila-masa/)

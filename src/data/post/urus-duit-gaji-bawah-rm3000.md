@@ -41,7 +41,7 @@ Pastikan anda menjauhi hutang konsumer yang tidak perlu seperti telefon bimbit b
 
 Manfaatkan alat dalam talian untuk menguruskan kewangan anda dengan lebih bijak:
 
-[📥 Kalkulator KWSP](/blog/) [📈 Kalkulator ASB](/blog/) [🥇 Kalkulator Emas](/blog/) [🚗 Kalkulator Kereta](/kalkulator-ansuran-kereta-bulanan-malaysia-2025-rakyathub/)
+[📥 Kalkulator KWSP](/kalkulator/kwsp/) [📈 Kalkulator ASB](/kalkulator/asb/) [🥇 Kalkulator Emas](/kalkulator/emas/) [🚗 Kalkulator Kereta](/kalkulator/kereta/)
 
 ## 5\. Jana Pendapatan Tambahan
 

@@ -73,11 +73,11 @@ A: Anda akan dikenakan penalti dan rekod CCRIS/CTOS terjejas.
 
 * * *
 
-[📘 Info KWSP & Pengeluaran 2025](/blog/)
+[📘 Info KWSP & Pengeluaran 2025](/carawithdrawkwsp/)
 
-[📊 Semak ASB & Simpanan Jangka Panjang](/blog/)
+[📊 Semak ASB & Simpanan Jangka Panjang](/7-kelebihan-simpanan-asb-pelaburan-bijak-pulangan-konsisten-yang-pasti-korang-tak-tahu/)
 
-[🪙 Panduan Beli Emas Malaysia](/blog/)
+[🪙 Panduan Beli Emas Malaysia](/cara-beli-emas-public-gold/)
 
 * * *
 

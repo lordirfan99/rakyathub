@@ -45,13 +45,13 @@ Bermula **1 Ogos 2025**, subsidi RON95 akan menurunkan harga kepada **RM1.99 sel
 2. Belanja RM100 bantuan di Kedai MyKasih terdekat untuk barangan asas.
 3. Manfaatkan penurunan harga RON95 untuk jimat kos perjalanan.
 
-[🧮 Kalkulator KWSP](/kalkulator/kwsp//) [🚀 Cuba Aplikasi RakyatHub](//)
+[🧮 Kalkulator KWSP](/kalkulator/kwsp/) [🚀 Kalkulator ASB](/kalkulator/asb/)
 
-Untuk panduan penuh mengenai KWSP, lawati [artikel KWSP](/blog/) berprofil tinggi.
+Untuk panduan penuh mengenai KWSP, lawati [panduan KWSP Akaun Fleksibel](/info-terkini-apa-itu-kwsp-akaun-fleksibel-2025-rakyat-kini-boleh-akses-simpanan-bila-bila-masa/).
 
-Ingin tahu dividen ASB terkini? Semak [panduan ASB RakyatHub](/blog/).
+Ingin tahu dividen ASB terkini? Semak [7 Kelebihan Simpanan ASB](/7-kelebihan-simpanan-asb-pelaburan-bijak-pulangan-konsisten-yang-pasti-korang-tak-tahu/).
 
-Ketahui cara [beli emas Public Gold](/blog/) dan bandingkan harga di RakyatHub.
+Ketahui cara [beli emas Public Gold](/cara-beli-emas-public-gold/) dan bandingkan harga di RakyatHub.
 
 * * *
 

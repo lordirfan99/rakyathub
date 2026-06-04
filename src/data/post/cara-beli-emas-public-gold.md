@@ -87,9 +87,9 @@ Program GAP sesuai untuk **rakyat biasa yang mahu menyimpan emas sedikit demi se
 
 ### Baca Juga:
 
-- [Harga Emas Terkini Malaysia](/blog/)
-- [Pelaburan ASB vs Emas](/blog/)
-- [Kiraan KWSP & Caruman](/blog/)
-- [STR 2025](/blog/)
+- [Harga Emas Terkini Malaysia](/kalkulator/emas/)
+- [Pelaburan ASB vs Emas](/7-kelebihan-simpanan-asb-pelaburan-bijak-pulangan-konsisten-yang-pasti-korang-tak-tahu/)
+- [Kiraan KWSP & Caruman](/kalkulator/kwsp/)
+- [STR 2025](/info-bantuan-rm100-mykad-subsidi-ron95-kemas-kini-rakyathub/)
 
 © 2025 RakyatHub.com — Info emas & kewangan untuk rakyat Malaysia

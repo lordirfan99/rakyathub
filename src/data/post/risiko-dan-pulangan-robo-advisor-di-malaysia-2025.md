@@ -69,8 +69,8 @@ Ya, platform utama di Malaysia dikawal selia oleh **SC Malaysia**.
 
 ### Baca Juga:
 
-- [📊 KWSP 2025](/blog/)
-- [🏦 Simpanan ASB](/blog/)
-- [💰 Harga Emas](/blog/)
+- [📊 KWSP 2025](/info-terkini-apa-itu-kwsp-akaun-fleksibel-2025-rakyat-kini-boleh-akses-simpanan-bila-bila-masa/)
+- [🏦 Simpanan ASB](/7-kelebihan-simpanan-asb-pelaburan-bijak-pulangan-konsisten-yang-pasti-korang-tak-tahu/)
+- [💰 Harga Emas](/kalkulator/emas/)
 
 © 2025 RakyatHub.com — Info pelaburan mudah & sahih untuk rakyat Malaysia
