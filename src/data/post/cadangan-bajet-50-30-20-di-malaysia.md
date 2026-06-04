@@ -62,11 +62,7 @@ Mulakan Bajet Cerdas Sekarang](https://app.rakyathub.online/)
 
 ### 📈 **Kalkulator Emas** — Bandingkan harga emas & spread. [→ Kira Sekarang](https://emasrakyathub.netlify.app/)
 
-### 🏠 Kalkulator Loan Rumah
-
-Kira ansuran pinjaman rumah bulanan & kelayakan berdasarkan gaji anda.
-
-](https://loanrumah.rakyathub.online/)
+### 🏠 **Kalkulator Loan Rumah** — Kira ansuran pinjaman rumah bulanan & kelayakan. [→ Kira Sekarang](https://loanrumah.rakyathub.online/)
 
 * * *
 

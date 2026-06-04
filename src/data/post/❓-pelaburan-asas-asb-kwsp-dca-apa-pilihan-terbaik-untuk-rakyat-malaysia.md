@@ -50,8 +50,6 @@ Cuba Sekarang](https://app.rakyathub.online/)
 
 Gunakan kalkulator berikut untuk rancang kewangan anda:
 
-[
-
 ### 🚗 **Kalkulator Kereta** — Kira ansuran petrol & loan bulanan. [→ Kira Sekarang](https://keretakalkulator.netlify.app/)
 
 ### 📐 **Kalkulator ASB** — Kira dividen & simpanan automatik ASB. [→ Kira Sekarang](https://asb-calculator.netlify.app/)
@@ -60,11 +58,7 @@ Gunakan kalkulator berikut untuk rancang kewangan anda:
 
 ### 📈 **Kalkulator Emas** — Bandingkan harga emas & spread. [→ Kira Sekarang](https://emasrakyathub.netlify.app/)
 
-### 🏠 Kalkulator Loan Rumah
-
-Kira ansuran pinjaman rumah bulanan & kelayakan berdasarkan gaji anda.
-
-](https://loanrumah.rakyathub.online/)
+### 🏠 **Kalkulator Loan Rumah** — Kira ansuran pinjaman rumah bulanan & kelayakan. [→ Kira Sekarang](https://loanrumah.rakyathub.online/)
 
 * * *
 
