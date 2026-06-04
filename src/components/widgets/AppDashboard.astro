@@ -114,8 +114,7 @@ const apps: AppCard[] = [
     <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
       <!-- ========== SPOTLIGHT: DocuKilat AI (double-width) ========== -->
       <div
-        class="col-span-1 md:col-span-2 lg:col-span-2 relative group stagger-item opacity-0 animate-fade-in-up"
-        style="animation-delay: 50ms"
+        class="col-span-1 md:col-span-2 lg:col-span-2 relative group intersect-once intersect-quarter motion-safe:opacity-0 motion-safe:intersect:animate-fade-in-up"
       >
         <a
           href="https://docukilat.netlify.app"
@@ -161,10 +160,9 @@ const apps: AppCard[] = [
       </div>
 
       <!-- ========== APP CARDS ========== -->
-      {apps.map((app, index) => (
+      {apps.map((app, _index) => (
         <div
-          class="relative group stagger-item opacity-0 animate-fade-in-up"
-          style={`animation-delay: ${(index + 1) * 120 + 50}ms`}
+          class="relative group intersect-once intersect-quarter motion-safe:opacity-0 motion-safe:intersect:animate-fade-in-up"
         >
           <a href={app.href} class="block h-full">
             <div
@@ -203,19 +201,8 @@ const apps: AppCard[] = [
 </section>
 
 <style>
-  /* Staggered entrance animation for grid children */
-  .stagger-item {
-    animation-fill-mode: both;
-  }
-  /* Shimmer glow for DocuKilat spotlight card */
   @keyframes spotlight-pulse {
     0%, 100% { opacity: 0.4; }
     50% { opacity: 0.8; }
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .stagger-item {
-      opacity: 1 !important;
-      animation: none !important;
-    }
   }
 </style>

@@ -115,7 +115,7 @@ const metadata = {
 
       <!-- Projected Total -->
       <div class="mt-6 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
-        <p class="text-sm text-muted">Anggaran Simpanan Semasa Umur Persaraan (60 Tahun)</p>
+        <p class="text-sm text-muted" id="labelProjected">Anggaran Simpanan Semasa Umur Persaraan (60 Tahun)</p>
         <p class="text-3xl md:text-4xl font-bold text-primary" id="hasilProjected">RM 0</p>
         <p class="text-xs text-muted mt-1">*Anggaran berdasarkan dividen tahunan 5%. Hasil sebenar mungkin berbeza.</p>
       </div>
@@ -173,14 +173,29 @@ const metadata = {
 
     <!-- ========== ARTIKEL BERKAITAN ========== -->
     <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
-      <h3 class="text-xl font-bold mb-2">📚 Artikel Berkaitan KWSP</h3>
-      <p class="text-muted mb-4">Baca panduan lengkap tentang KWSP di blog kami.</p>
-      <a href="/blog/" class="inline-flex items-center gap-1 text-primary font-medium hover:underline">
-        Lihat Artikel KWSP
-        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-        </svg>
-      </a>
+      <h3 class="text-xl font-bold mb-4">📚 Artikel Berkaitan KWSP</h3>
+      <ul class="space-y-2">
+        <li>
+          <a href="/cara-semak-baki-kwsp-online-tanpa-pergi-kaunter-2025-panduan-lengkap/" class="inline-flex items-center gap-1 text-primary font-medium hover:underline text-sm">
+            → Cara Semak Baki KWSP Online 2025 Tanpa Ke Kaunter
+          </a>
+        </li>
+        <li>
+          <a href="/info-terkini-apa-itu-kwsp-akaun-fleksibel-2025-rakyat-kini-boleh-akses-simpanan-bila-bila-masa/" class="inline-flex items-center gap-1 text-primary font-medium hover:underline text-sm">
+            → Apa Itu KWSP Akaun Fleksibel 2025?
+          </a>
+        </li>
+        <li>
+          <a href="/adakah-freelancer-boleh-carum-kwsp-sendiri/" class="inline-flex items-center gap-1 text-primary font-medium hover:underline text-sm">
+            → Adakah Freelancer Boleh Carum KWSP Sendiri?
+          </a>
+        </li>
+        <li>
+          <a href="/panduan-kwsp-malaysia-2025-caruman-pengeluaran-dividen-tips-penting/" class="inline-flex items-center gap-1 text-primary font-medium hover:underline text-sm">
+            → Panduan Lengkap KWSP Malaysia 2025
+          </a>
+        </li>
+      </ul>
     </div>
   </section>
 
@@ -199,18 +214,19 @@ function formatRM(val) {
   return 'RM ' + val.toLocaleString('ms-MY', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
-function safeNum(val, def = 0) {
+function safeNum(val, def = 0, min = 0, max = 1e9) {
   const n = parseFloat(val);
-  return (!isNaN(n) && isFinite(n) && n >= 0) ? n : def;
+  if (!isNaN(n) && isFinite(n) && n >= min) return Math.min(n, max);
+  return def;
 }
 
 function calculate() {
-  const gaji = safeNum(document.getElementById('gaji').value);
-  const ratePekerja = safeNum(document.getElementById('pekerja').value, 11);
-  const rateMajikan = safeNum(document.getElementById('majikan').value, 12);
-  const umurSkrg = safeNum(document.getElementById('umurSekarang').value, 25);
-  const umurPsrn = safeNum(document.getElementById('umurPersaraan').value, 60);
-  const dividenRate = safeNum(document.getElementById('dividen').value, 5);
+  const gaji = safeNum(document.getElementById('gaji').value, 0, 0, 1e7);
+  const ratePekerja = safeNum(document.getElementById('pekerja').value, 11, 0, 100);
+  const rateMajikan = safeNum(document.getElementById('majikan').value, 12, 0, 100);
+  const umurSkrg = Math.min(69, Math.max(18, Math.round(safeNum(document.getElementById('umurSekarang').value, 25, 18, 69))));
+  const umurPsrn = Math.min(75, Math.max(umurSkrg + 1, Math.round(safeNum(document.getElementById('umurPersaraan').value, 60, 19, 75))));
+  const dividenRate = safeNum(document.getElementById('dividen').value, 5, 0, 30);
 
   if (umurSkrg >= umurPsrn || gaji === 0) {
     document.getElementById('hasilPekerja').textContent = 'RM 0.00';
@@ -220,8 +236,11 @@ function calculate() {
     document.getElementById('hasilAkaun2').textContent = 'RM 0.00';
     document.getElementById('hasilAkaun3').textContent = 'RM 0.00';
     document.getElementById('hasilProjected').textContent = 'RM 0.00';
-    document.getElementById('projectionBody').innerHTML =
-      '<tr><td colspan="5" class="text-center py-8 text-muted">Sila masukkan nilai yang sah.</td></tr>';
+    const emptyBody = document.getElementById('projectionBody');
+    emptyBody.textContent = '';
+    const emptyTr = document.createElement('tr'); const emptyTd = document.createElement('td');
+    emptyTd.colSpan = 5; emptyTd.className = 'text-center py-8 text-muted'; emptyTd.textContent = 'Sila masukkan nilai yang sah.';
+    emptyTr.appendChild(emptyTd); emptyBody.appendChild(emptyTr);
     return;
   }
 
@@ -269,19 +288,31 @@ function calculate() {
   }
 
   document.getElementById('hasilProjected').textContent = formatRM(finalBalance);
+  document.getElementById('labelProjected').textContent = 'Anggaran Simpanan Semasa Umur Persaraan (' + umurPsrn + ' Tahun)';
 
-  // Table
+  // Table — DOM construction avoids innerHTML XSS surface
   const tbody = document.getElementById('projectionBody');
-  tbody.innerHTML = rows.map(r => {
+  const fragment = document.createDocumentFragment();
+  rows.forEach(function(r) {
     const isLast = r.tahun === tahunBaki;
-    return `<tr class="${isLast ? 'font-bold bg-primary/5' : ''} border-b border-gray-50 dark:border-slate-800">
-      <td class="py-2.5 px-2">${r.tahun}</td>
-      <td class="text-right py-2.5 px-2">${r.umur}</td>
-      <td class="text-right py-2.5 px-2">${formatRM(r.simpanan)}</td>
-      <td class="text-right py-2.5 px-2 text-emerald-600">${formatRM(r.dividen)}</td>
-      <td class="text-right py-2.5 px-2 text-primary">${formatRM(r.baki)}</td>
-    </tr>`;
-  }).join('');
+    const tr = document.createElement('tr');
+    tr.className = (isLast ? 'font-bold bg-primary/5' : '') + ' border-b border-gray-50 dark:border-slate-800';
+    [
+      { text: String(r.tahun), cls: 'py-2.5 px-2' },
+      { text: String(r.umur), cls: 'text-right py-2.5 px-2' },
+      { text: formatRM(r.simpanan), cls: 'text-right py-2.5 px-2' },
+      { text: formatRM(r.dividen), cls: 'text-right py-2.5 px-2 text-emerald-600' },
+      { text: formatRM(r.baki), cls: 'text-right py-2.5 px-2 text-primary' },
+    ].forEach(function(c) {
+      const td = document.createElement('td');
+      td.className = c.cls;
+      td.textContent = c.text;
+      tr.appendChild(td);
+    });
+    fragment.appendChild(tr);
+  });
+  tbody.textContent = '';
+  tbody.appendChild(fragment);
 
   // Show compact if many years
   if (tahunBaki > 30) {
@@ -295,6 +326,7 @@ function calculate() {
   }
 }
 
+// Script is inline at page bottom — DOM already available, no DOMContentLoaded needed
 ['gaji', 'pekerja', 'majikan', 'umurSekarang', 'umurPersaraan', 'dividen'].forEach(function(id) {
   var el = document.getElementById(id);
   if (el) { el.addEventListener('input', calculate); el.addEventListener('change', calculate); }

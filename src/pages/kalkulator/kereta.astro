@@ -131,14 +131,24 @@ const metadata = {
 
     <!-- Artikel -->
     <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
-      <h3 class="text-xl font-bold mb-2">📚 Artikel Berkaitan Kereta</h3>
-      <p class="text-muted mb-4">Baca tips dan panduan pembelian kereta di blog kami.</p>
-      <a href="/blog/" class="inline-flex items-center gap-1 text-primary font-medium hover:underline">
-        Lihat Artikel Kereta
-        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-        </svg>
-      </a>
+      <h3 class="text-xl font-bold mb-4">📚 Artikel Berkaitan Kereta</h3>
+      <ul class="space-y-2">
+        <li>
+          <a href="/kereta-sesuai-untuk-fresh-graduate-malaysia-2025-gaji-bajet/" class="text-primary font-medium hover:underline text-sm">
+            → Kereta Sesuai untuk Fresh Graduate Malaysia 2025 (Gaji & Bajet)
+          </a>
+        </li>
+        <li>
+          <a href="/cadangan-bajet-50-30-20-di-malaysia/" class="text-primary font-medium hover:underline text-sm">
+            → Panduan Bajet 50/30/20 — Pastikan Ansuran Dalam Kawalan
+          </a>
+        </li>
+        <li>
+          <a href="/strategi-dca-vs-lump-sum-pilihan-pelaburan-bijak-untuk-orang-muda/" class="text-primary font-medium hover:underline text-sm">
+            → Jimat dari Ansuran Kereta untuk Mula Melabur
+          </a>
+        </li>
+      </ul>
     </div>
   </section>
 
@@ -165,7 +175,11 @@ function calc() {
     ['hasilLoan','hasilAnsuran','hasilInterest','hasilTotal','hasilProjected'].forEach(function(id) {
       document.getElementById(id).textContent = 'RM 0.00';
     });
-    document.getElementById('amortBody').innerHTML = '<tr><td colspan="6" class="text-center py-8 text-muted">Sila masukkan nilai yang sah.</td></tr>';
+    var tbody = document.getElementById('amortBody');
+    tbody.textContent = '';
+    var tr = document.createElement('tr'); var td = document.createElement('td');
+    td.colSpan = 6; td.className = 'text-center py-8 text-muted'; td.textContent = 'Sila masukkan nilai yang sah.';
+    tr.appendChild(td); tbody.appendChild(tr);
     return;
   }
 
@@ -180,32 +194,47 @@ function calc() {
   document.getElementById('hasilTotal').textContent = fmt(totalPayment);
   document.getElementById('hasilProjected').textContent = fmt(monthly);
 
-  // Amortization
+  // Flat-rate amortization: interest is charged on the original principal, not reducing balance
+  // Annual interest = loan * rate / 100  (constant every year)
+  // Annual principal = loan / tempoh      (constant every year)
   var annualPayment = monthly * 12;
-  var remaining = totalPayment;
+  var annualInterestFlat = loan * (rate / 100);
+  var annualPrincipalFlat = loan / tempoh;
+  var remainingBalance = loan;
   var tbody = document.getElementById('amortBody');
-  var rows = [];
-  for (var t = 1; t <= tempoh; t++) {
-    var interestYear = remaining * (rate / 100);
-    var principalYear = annualPayment - interestYear;
-    if (interestYear < 0) interestYear = 0;
-    if (principalYear < 0) principalYear = annualPayment;
-    if (principalYear > remaining) principalYear = remaining;
-    remaining = remaining - annualPayment;
-    if (remaining < 0) remaining = 0;
+  var fragment = document.createDocumentFragment();
 
-    var isLast = t === tempoh;
-    rows.push('<tr class="' + (isLast ? 'font-bold bg-primary/5' : '') + ' border-b border-gray-50 dark:border-slate-800">' +
-      '<td class="py-2.5 px-2">' + t + '</td>' +
-      '<td class="text-right py-2.5 px-2">' + fmt(remaining + annualPayment) + '</td>' +
-      '<td class="text-right py-2.5 px-2">' + fmt(annualPayment) + '</td>' +
-      '<td class="text-right py-2.5 px-2 text-amber-600">' + fmt(interestYear) + '</td>' +
-      '<td class="text-right py-2.5 px-2 text-primary">' + fmt(principalYear) + '</td>' +
-      '<td class="text-right py-2.5 px-2 text-default">' + fmt(remaining) + '</td></tr>');
+  for (var t = 1; t <= tempoh; t++) {
+    var bakiSebelum = remainingBalance;
+    var principalYear = (t < tempoh) ? annualPrincipalFlat : remainingBalance;
+    var interestYear = annualInterestFlat;
+    remainingBalance = Math.max(0, remainingBalance - annualPrincipalFlat);
+    if (t === tempoh) remainingBalance = 0;
+
+    var tr = document.createElement('tr');
+    tr.className = (t === tempoh ? 'font-bold bg-primary/5' : '') + ' border-b border-gray-50 dark:border-slate-800';
+
+    var cells = [
+      { text: String(t), cls: 'py-2.5 px-2' },
+      { text: fmt(bakiSebelum), cls: 'text-right py-2.5 px-2' },
+      { text: fmt(annualPayment), cls: 'text-right py-2.5 px-2' },
+      { text: fmt(interestYear), cls: 'text-right py-2.5 px-2 text-amber-600' },
+      { text: fmt(principalYear), cls: 'text-right py-2.5 px-2 text-primary' },
+      { text: fmt(remainingBalance), cls: 'text-right py-2.5 px-2 text-default' },
+    ];
+    cells.forEach(function(c) {
+      var td = document.createElement('td');
+      td.className = c.cls;
+      td.textContent = c.text;
+      tr.appendChild(td);
+    });
+    fragment.appendChild(tr);
   }
-  tbody.innerHTML = rows.join('');
+  tbody.textContent = '';
+  tbody.appendChild(fragment);
 }
 
+// Script is inline at page bottom — DOM already available, no DOMContentLoaded needed
 ['harga','dp','interest','tempoh'].forEach(function(id) {
   var el = document.getElementById(id);
   if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
