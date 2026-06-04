@@ -1,12 +1,12 @@
 ---
 publishDate: 2025-07-26
-title: "[INFO TERKINI] Apa Itu KWSP Akaun Fleksibel 2025? Rakyat Kini Boleh Akses Simpanan Bila-Bila Masa"
-excerpt: "INFO TERKINI Apa Itu KWSP Akaun Fleksibel 2025? Rakyat Kini Boleh Akses Simpanan Bila-Bila Masa   Chat-GPT-Image-Jul-26-2025-03-01-06-PM(https://i.ibb"
-category: "KWSP"
-image: "https://i.ibb.co/wNQsTJ8g/Chat-GPT-Image-Jul-26-2025-03-01-06-PM.png"
+title: '[INFO TERKINI] Apa Itu KWSP Akaun Fleksibel 2025? Rakyat Kini Boleh Akses Simpanan Bila-Bila Masa'
+excerpt: KWSP perkenalkan Akaun Fleksibel 2025 — rakyat Malaysia kini boleh akses simpanan persaraan bila-bila masa.
+category: KWSP
+image: https://i.ibb.co/wNQsTJ8g/Chat-GPT-Image-Jul-26-2025-03-01-06-PM.png
 tags:
-  - "kwsp"
-author: "RakyatHub"
+- kwsp
+author: RakyatHub
 ---
 
 \[INFO TERKINI\] Apa Itu KWSP Akaun Fleksibel 2025? Rakyat Kini Boleh Akses Simpanan Bila-Bila Masa   [![Chat-GPT-Image-Jul-26-2025-03-01-06-PM](https://i.ibb.co/wNQsTJ8g/Chat-GPT-Image-Jul-26-2025-03-01-06-PM.png)](https://ibb.co/fYNvb8ZF)

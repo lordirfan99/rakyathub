@@ -1,16 +1,12 @@
 ---
 publishDate: 2025-07-31
 title: Cadangan bajet 50/30/20 di Malaysia
-excerpt: "<figure
-
-Cadangan bajet 50/30/20 di Malaysia(https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-31-2025-10_40_11-PM.png)
-
-<figcaption"
-category: "KWSP"
-image: "https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-31-2025-10_40_11-PM.png"
+excerpt: Cadangan bajet 50/30/20 di Malaysia
+category: KWSP
+image: https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-31-2025-10_40_11-PM.png
 tags:
-  - "kwsp"
-author: "RakyatHub"
+- kwsp
+author: RakyatHub
 ---
 
 <figure>

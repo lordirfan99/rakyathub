@@ -4,6 +4,7 @@ import type { CollectionEntry } from 'astro:content';
 import type { Post } from '~/types';
 import { APP_BLOG } from 'astrowind:config';
 import { cleanSlug, trimSlash, BLOG_BASE, POST_PERMALINK_PATTERN, CATEGORY_BASE, TAG_BASE } from './permalinks';
+import { sanitizeExcerpt } from './sanitize';
 
 const generatePermalink = async ({
   id,
@@ -82,7 +83,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     updateDate: updateDate,
 
     title: title,
-    excerpt: excerpt,
+    excerpt: sanitizeExcerpt(excerpt),
     image: image,
 
     category: category,

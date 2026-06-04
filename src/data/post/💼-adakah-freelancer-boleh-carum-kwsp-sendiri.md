@@ -1,19 +1,17 @@
 ---
 publishDate: 2025-07-20
-title: "💼 Adakah Freelancer Boleh Carum KWSP Sendiri?"
-excerpt: "💼 Adakah Freelancer Boleh Carum KWSP Sendiri?
-
-caption id='attachment_292' align='aligncenter' width='300'Adakah Freelancer Boleh Carum KWSP Sendiri?"
-category: "KWSP"
-image: "https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-20-2025-10_21_08-PM-300x300.png"
+title: 💼 Adakah Freelancer Boleh Carum KWSP Sendiri?
+excerpt: 💼 Adakah Freelancer Boleh Carum KWSP Sendiri?
+category: KWSP
+image: https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-20-2025-10_21_08-PM-300x300.png
 tags:
-  - "kwsp"
-author: "RakyatHub"
+- kwsp
+author: RakyatHub
 ---
 
 # 💼 Adakah Freelancer Boleh Carum KWSP Sendiri?
 
-\[caption id="attachment\_292" align="aligncenter" width="300"\]![Adakah Freelancer Boleh Carum KWSP Sendiri?](https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-20-2025-10_21_08-PM-300x300.png) Adakah Freelancer Boleh Carum KWSP Sendiri?\[/caption\] 
+ 
 
 Ramai freelancer tertanya-tanya sama ada mereka berhak untuk membuat caruman KWSP sendiri tanpa majikan. Artikel ini menerangkan segala yang anda perlu tahu tentang KWSP untuk freelancer di Malaysia.
 

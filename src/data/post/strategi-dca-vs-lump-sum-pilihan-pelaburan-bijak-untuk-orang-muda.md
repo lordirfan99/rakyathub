@@ -1,14 +1,12 @@
 ---
 publishDate: 2025-07-21
-title: "📊 Strategi DCA vs Lump Sum: Pilihan Pelaburan Bijak untuk Orang Muda"
-excerpt: "(https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-21-2025-08_56_59-PM-1-1024x683.png)
-
-  📊 Strategi DCA vs Lump Sum: Pilihan Pelabur"
-category: "KWSP"
-image: "https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-21-2025-08_56_59-PM-1-1024x683.png"
+title: '📊 Strategi DCA vs Lump Sum: Pilihan Pelaburan Bijak untuk Orang Muda'
+excerpt: '📊 Strategi DCA vs Lump Sum: Pilihan Pelabur'
+category: KWSP
+image: https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-21-2025-08_56_59-PM-1-1024x683.png
 tags:
-  - "kwsp"
-author: "RakyatHub"
+- kwsp
+author: RakyatHub
 ---
 
 ![](https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-21-2025-08_56_59-PM-1-1024x683.png)

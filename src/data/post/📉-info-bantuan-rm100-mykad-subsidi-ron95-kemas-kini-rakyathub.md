@@ -1,14 +1,14 @@
 ---
 publishDate: 2025-07-23
-title: "📉 Info Bantuan RM100 MyKad &amp; Subsidi RON95 – Kemas Kini RakyatHub"
-excerpt: "Bantuan Tunai RM100 & RON95 Turun(https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-23-2025-11_58_38-PM.png)
+title: 📉 Info Bantuan RM100 MyKad &amp; Subsidi RON95 – Kemas Kini RakyatHub
+excerpt: 'Bantuan Tunai RM100 & RON95 Turun
 
-  📉 Info Bantuan RM100"
-category: "KWSP"
-image: "https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-23-2025-11_58_38-PM.png"
+  📉 Info Bantuan RM100'
+category: KWSP
+image: https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-23-2025-11_58_38-PM.png
 tags:
-  - "kwsp"
-author: "RakyatHub"
+- kwsp
+author: RakyatHub
 ---
 
 ![Bantuan Tunai RM100 & RON95 Turun](https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-23-2025-11_58_38-PM.png)

@@ -1,14 +1,12 @@
 ---
 publishDate: 2025-07-31
-title: "❓ Pelaburan asas: ASB, KWSP, DCA – Apa Pilihan Terbaik Untuk Rakyat Malaysia?"
-excerpt: "<figure
-
-Pelaburan asas: ASB, KWSP, DCA – Apa Pilihan Terbaik Untuk Rakyat Malaysia?(https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Ju"
-category: "KWSP"
-image: "https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-31-2025-11_01_00-PM-683x1024.png"
+title: '❓ Pelaburan asas: ASB, KWSP, DCA – Apa Pilihan Terbaik Untuk Rakyat Malaysia?'
+excerpt: 'Pelaburan asas: ASB, KWSP, DCA – Apa Pilihan Terbaik Untuk Rakyat Malaysia?('
+category: KWSP
+image: https://rakyathub.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-31-2025-11_01_00-PM-683x1024.png
 tags:
-  - "kwsp"
-author: "RakyatHub"
+- kwsp
+author: RakyatHub
 ---
 
 <figure>
