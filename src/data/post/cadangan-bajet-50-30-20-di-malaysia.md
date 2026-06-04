@@ -50,21 +50,7 @@ Misalnya gaji bersih anda RM3,000:
 [🚀 Aplikasi RakyatHub – Mobile Optimised!  
 Mulakan Bajet Cerdas Sekarang](https://app.rakyathub.online/)
 
-* * *
-
-[
-
-### 🚗 **Kalkulator Kereta** — Kira ansuran petrol & loan bulanan. [→ Kira Sekarang](https://keretakalkulator.netlify.app/)
-
-### 📐 **Kalkulator ASB** — Kira dividen & simpanan automatik ASB. [→ Kira Sekarang](https://asb-calculator.netlify.app/)
-
-### 🧮 **Kalkulator KWSP** — Simulasi caruman & pengeluaran KWSP. [→ Kira Sekarang](https://kwsp.netlify.app/)
-
-### 📈 **Kalkulator Emas** — Bandingkan harga emas & spread. [→ Kira Sekarang](https://emasrakyathub.netlify.app/)
-
-### 🏠 **Kalkulator Loan Rumah** — Kira ansuran pinjaman rumah bulanan & kelayakan. [→ Kira Sekarang](https://loanrumah.rakyathub.online/)
-
-* * *
+<!-- Tools removed — rendered via AppDashboard component -->
 
 ## ❓ Soalan Lazim (FAQ)
 

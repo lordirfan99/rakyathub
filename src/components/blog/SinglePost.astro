@@ -5,6 +5,7 @@ import Image from '~/components/common/Image.astro';
 import PostTags from '~/components/blog/Tags.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
 import CrossSellBanner from '~/components/blog/CrossSellBanner.astro';
+import AppDashboard from '~/components/widgets/AppDashboard.astro';
 
 import { getPermalink } from '~/utils/permalinks';
 import { getFormattedDate } from '~/utils/utils';
@@ -91,6 +92,12 @@ const { post, url } = Astro.props;
     >
       <slot />
     </div>
+    <!-- App Dashboard — premium grid -->
+    <AppDashboard
+      tagline="Alat RakyatHub"
+      title="Kalkulator Percuma Untuk Anda"
+      subtitle="Guna kalkulator interaktif untuk kira simpanan KWSP, dividen ASB, harga emas, dan banyak lagi."
+    />
     <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-10">
       <CrossSellBanner category={post.category?.slug} variant="inline" />
     </div>
