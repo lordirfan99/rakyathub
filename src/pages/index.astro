@@ -11,9 +11,21 @@ const metadata = {
   title: 'RakyatHub — Panduan Kewangan Rakyat Malaysia',
   ignoreTitleTemplate: true,
 };
+
+// Organization schema for SEO
+const orgSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'RakyatHub',
+  url: 'https://rakyathub.netlify.app',
+  logo: 'https://rakyathub.netlify.app/_astro/favicon.vp_fBu0c.svg',
+  description: 'Panduan kewangan, KWSP, ASB, emas, bantuan kerajaan dan pelaburan untuk rakyat Malaysia.',
+  sameAs: ['https://rakyathub.netlify.app/blog/'],
+};
 ---
 
 <Layout metadata={metadata}>
+  <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
   <!-- Hero — clean, like DocuKilat -->
   <Hero
     actions={[

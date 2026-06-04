@@ -43,9 +43,36 @@ const metadata = merge(
   },
   { ...(post?.metadata ? { ...post.metadata, canonical: post.metadata?.canonical || url } : {}) }
 ) as MetaData;
+
+// JSON-LD structured data for SEO
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: post.title,
+  description: post.excerpt || '',
+  ...(image ? { image: typeof image === 'string' ? image : image.src } : {}),
+  datePublished: post.publishDate?.toISOString(),
+  author: {
+    '@type': 'Person',
+    name: post.author || 'RakyatHub',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'RakyatHub',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://rakyathub.netlify.app/_astro/favicon.vp_fBu0c.svg',
+    },
+  },
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': url,
+  },
+};
 ---
 
 <Layout metadata={metadata}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <SinglePost post={{ ...post, image: image }} url={url}>
     {post.Content && <post.Content />}
   </SinglePost>
