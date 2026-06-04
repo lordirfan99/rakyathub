@@ -1,0 +1,32 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Content from '~/components/widgets/Content.astro';
+
+const metadata = {
+  title: 'Tentang Kami',
+};
+---
+
+<Layout metadata={metadata}>
+  <Content
+    tagline="Tentang"
+    title="Apa Itu RakyatHub?"
+    items={[
+      {
+        title: 'Misi Kami',
+        description:
+          'RakyatHub adalah platform kewangan digital yang ditubuhkan untuk membantu rakyat Malaysia membuat keputusan kewangan yang lebih bijak. Kami menyediakan kalkulator interaktif, panduan pelaburan, dan informasi terkini tentang bantuan kerajaan — semuanya dalam Bahasa Malaysia.',
+      },
+      {
+        title: 'Apa Yang Kami Tawarkan',
+        description:
+          'Kalkulator KWSP, ASB, emas dan kereta yang interaktif dan mudah digunakan. Blog dengan artikel terkini tentang kewangan, pelaburan, dan bantuan kerajaan. Serta alatan dokumen AI untuk urusan rasmi.',
+      },
+      {
+        title: 'Kenapa Percuma?',
+        description:
+          'Kami percaya ilmu kewangan adalah hak asasi. Semua kandungan dan kalkulator di RakyatHub adalah percuma — kerana kami mahu setiap rakyat Malaysia mencapai kebebasan kewangan.',
+      },
+    ]}
+  />
+</Layout>

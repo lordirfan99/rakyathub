@@ -2,8 +2,10 @@
 import { SITE } from 'astrowind:config';
 ---
 
-<span
-  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
+<a
+  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white flex items-center gap-2"
+  href="/"
 >
-  🚀 {SITE?.name}
-</span>
+  <span class="w-8 h-8 bg-gradient-to-br from-amber-500 to-emerald-600 rounded-lg flex items-center justify-center text-white text-sm font-bold">RH</span>
+  {SITE?.name}
+</a>
