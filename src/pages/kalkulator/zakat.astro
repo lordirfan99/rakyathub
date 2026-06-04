@@ -198,9 +198,7 @@ const metadata = {
     <Fragment slot="title">Nak Kira Emas Atau KWSP?</Fragment>
     <Fragment slot="subtitle">Semua kalkulator percuma — guna sekarang.</Fragment>
   </CallToAction>
-</Layout>
-
-<script>
+  <script is:inline>
 var currentTab = 'pendapatan';
 
 function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
@@ -311,3 +309,4 @@ document.addEventListener('DOMContentLoaded', function() {
   calc();
 });
 </script>
+</Layout>

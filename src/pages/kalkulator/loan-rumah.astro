@@ -170,9 +170,7 @@ const metadata = {
     <Fragment slot="title">Nak Kira Kereta atau KWSP?</Fragment>
     <Fragment slot="subtitle">Semua kalkulator percuma — guna sekarang.</Fragment>
   </CallToAction>
-</Layout>
-
-<script>
+  <script is:inline>
 function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
 function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
 
@@ -281,3 +279,4 @@ document.addEventListener('DOMContentLoaded', function() {
   calc();
 });
 </script>
+</Layout>

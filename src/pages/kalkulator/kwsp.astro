@@ -193,9 +193,7 @@ const metadata = {
     <Fragment slot="title">Nak Kira ASB atau Emas?</Fragment>
     <Fragment slot="subtitle">Kami ada kalkulator ASB, emas dan kereta — semuanya percuma.</Fragment>
   </CallToAction>
-</Layout>
-
-<script>
+  <script is:inline>
 function formatRM(val) {
   if (typeof val !== 'number' || isNaN(val) || !isFinite(val)) return 'RM 0.00';
   return 'RM ' + val.toLocaleString('ms-MY', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
@@ -310,3 +308,4 @@ document.addEventListener('DOMContentLoaded', function() {
   calculate();
 });
 </script>
+</Layout>
