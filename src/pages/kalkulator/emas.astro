@@ -3,54 +3,227 @@ import Layout from '~/layouts/PageLayout.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Kalkulator Emas',
+  title: 'Kalkulator Emas — Harga & Spread Emas Malaysia',
 };
 ---
 
 <Layout metadata={metadata}>
   <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
     <div class="mb-8">
-      <a href="/" class="text-sm text-muted hover:text-amber-600 transition-colors">← Laman Utama</a>
+      <a href="/" class="text-sm text-muted hover:text-primary transition-colors">← Laman Utama</a>
     </div>
-    <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-4">
-      <span class="text-4xl mr-2">📈</span> Kalkulator Emas
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator Emas
     </h1>
-    <p class="text-xl text-muted mb-8">
+    <p class="text-lg md:text-xl text-muted mb-8">
       Semak harga emas harian, spread, dan beza harga Public Gold vs kedai emas.
     </p>
 
-    <div class="bg-amber-50 dark:bg-slate-800/50 rounded-2xl p-8 mb-8 text-center">
-      <p class="text-lg text-muted">Kalkulator interaktif sedang dibina. Nantikan!</p>
+    <!-- Calculator Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="harga" class="block text-sm font-semibold text-default mb-1.5">Harga Emas Semasa (RM/g)</label>
+          <input type="number" id="harga" value="420" min="0" step="1"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="berat" class="block text-sm font-semibold text-default mb-1.5">Berat Emas (gram)</label>
+          <input type="number" id="berat" value="20" min="0" step="1"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="spread" class="block text-sm font-semibold text-default mb-1.5">Spread Public Gold (%)</label>
+          <input type="number" id="spread" value="6" min="0" max="20" step="0.5"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="spreadKedai" class="block text-sm font-semibold text-default mb-1.5">Spread Kedai Emas (%)</label>
+          <input type="number" id="spreadKedai" value="12" min="0" max="30" step="0.5"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+      </div>
+
+      <!-- Results grid -->
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Harga Belian</p>
+          <p class="text-lg font-bold text-default" id="hasilBeli">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Harga Jualan</p>
+          <p class="text-lg font-bold text-emerald-700" id="hasilJual">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Spread (RM)</p>
+          <p class="text-lg font-bold text-blue-700" id="hasilSpreadRM">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Nilai Pelaburan</p>
+          <p class="text-lg font-bold text-primary" id="hasilNilai">RM 0.00</p>
+        </div>
+      </div>
+
+      <!-- Comparison: Public Gold vs Kedai -->
+      <div class="mt-6 grid md:grid-cols-2 gap-4">
+        <div class="rounded-xl border border-amber-200 dark:border-amber-800 bg-white dark:bg-slate-800 p-5">
+          <div class="flex items-center gap-2 mb-2">
+            <span class="w-3 h-3 rounded-full bg-amber-500"></span>
+            <h3 class="font-semibold">Public Gold</h3>
+          </div>
+          <p class="text-sm text-muted">Harga Beli: <span class="font-semibold text-default" id="pgBeli">RM 0.00</span></p>
+          <p class="text-sm text-muted">Harga Jual: <span class="font-semibold text-default" id="pgJual">RM 0.00</span></p>
+          <p class="text-sm text-muted">Spread: <span class="font-semibold" id="pgSpread">0.00%</span></p>
+        </div>
+        <div class="rounded-xl border border-amber-200 dark:border-amber-800 bg-white dark:bg-slate-800 p-5">
+          <div class="flex items-center gap-2 mb-2">
+            <span class="w-3 h-3 rounded-full bg-orange-600"></span>
+            <h3 class="font-semibold">Kedai Emas</h3>
+          </div>
+          <p class="text-sm text-muted">Harga Beli: <span class="font-semibold text-default" id="kedaiBeli">RM 0.00</span></p>
+          <p class="text-sm text-muted">Harga Jual: <span class="font-semibold text-default" id="kedaiJual">RM 0.00</span></p>
+          <p class="text-sm text-muted">Spread: <span class="font-semibold" id="kedaiSpread">0.00%</span></p>
+        </div>
+      </div>
+
+      <!-- Beza simpanan -->
+      <div class="mt-6 p-5 rounded-2xl bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 border border-amber-200 dark:border-amber-800 text-center">
+        <p class="text-sm text-muted">Beza Spread: Public Gold vs Kedai Emas</p>
+        <p class="text-2xl md:text-3xl font-bold text-amber-600" id="hasilBeza">RM 0.00</p>
+        <p class="text-xs text-muted mt-1">*Spread lebih rendah = lebih untung bila jual semula.</p>
+      </div>
     </div>
 
-    <div class="grid md:grid-cols-3 gap-6 mb-12">
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6">
+    <!-- Price Reference -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📊 Jadual Harga Rujukan (24K /g)</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-gray-50 dark:bg-slate-800 p-4 text-center card-hover">
+          <p class="text-xs text-muted">Public Gold Beli</p>
+          <p class="text-lg font-bold text-default" id="rujPgBeli">RM 0</p>
+        </div>
+        <div class="rounded-xl bg-gray-50 dark:bg-slate-800 p-4 text-center card-hover">
+          <p class="text-xs text-muted">Public Gold Jual</p>
+          <p class="text-lg font-bold text-emerald-700" id="rujPgJual">RM 0</p>
+        </div>
+        <div class="rounded-xl bg-gray-50 dark:bg-slate-800 p-4 text-center card-hover">
+          <p class="text-xs text-muted">Kedai Emas Beli</p>
+          <p class="text-lg font-bold text-default" id="rujKedaiBeli">RM 0</p>
+        </div>
+        <div class="rounded-xl bg-gray-50 dark:bg-slate-800 p-4 text-center card-hover">
+          <p class="text-xs text-muted">Kedai Emas Jual</p>
+          <p class="text-lg font-bold text-emerald-700" id="rujKedaiJual">RM 0</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- DocuKilat CTA -->
+    <div class="rounded-2xl bg-gradient-to-br from-primary/10 via-primary/[0.03] to-secondary/10 border border-primary/20 p-6 md:p-8 text-center mb-8">
+      <h3 class="text-xl md:text-2xl font-bold mb-2">📄 Nak Simpan Rekod Pelaburan Emas?</h3>
+      <p class="text-muted mb-4">Guna DocuKilat untuk buat resume portfolio, surat pengesahan, atau invois jualan emas.</p>
+      <a href="https://docukilat.netlify.app" target="_blank" rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-primary/30 hover:scale-[1.02]">
+        Bina Dokumen di DocuKilat
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
         <h3 class="font-semibold text-lg mb-2">🟡 Harga Harian</h3>
         <p class="text-muted text-sm">Semak harga emas 24K, 22K dan 18K terkini di Malaysia.</p>
       </div>
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
         <h3 class="font-semibold text-lg mb-2">📊 Kira Spread</h3>
         <p class="text-muted text-sm">Bandingkan spread antara Public Gold, kedai emas dan GAP.</p>
       </div>
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
         <h3 class="font-semibold text-lg mb-2">💎 Pulangan Pelaburan</h3>
         <p class="text-muted text-sm">Kira pulangan pelaburan emas berdasarkan harga belian semasa.</p>
       </div>
     </div>
 
-    <div class="bg-gradient-to-r from-amber-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 rounded-2xl p-8">
+    <!-- Artikel -->
+    <div class="rounded-2xl bg-gradient-to-br from-amber-50 to-orange-50 dark:from-slate-800 dark:to-slate-800 border border-amber-100 dark:border-slate-700 p-6 md:p-8">
       <h3 class="text-xl font-bold mb-2">📚 Artikel Berkaitan Emas</h3>
       <p class="text-muted mb-4">Baca panduan lengkap tentang pelaburan emas di blog kami.</p>
-      <a href="/blog/emas" class="inline-flex items-center text-amber-600 font-medium hover:underline">Lihat Artikel Emas →</a>
+      <a href="/blog/" class="inline-flex items-center gap-1 text-primary font-medium hover:underline">
+        Lihat Artikel Emas
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+        </svg>
+      </a>
     </div>
   </section>
 
   <CallToAction
     actions={[
-      { variant: 'primary', text: 'Kalkulator Lain', href: '/' },
+      { variant: 'primary', text: 'Kalkulator Kereta', href: '/kalkulator/kereta' },
+      { variant: 'secondary', text: 'Kalkulator KWSP', href: '/kalkulator/kwsp' },
     ]}
   >
-    <Fragment slot="title">Nak Kira ASB atau KWSP?</Fragment>
+    <Fragment slot="title">Nak Kira Kereta atau KWSP?</Fragment>
     <Fragment slot="subtitle">Semua kalkulator percuma, tak perlu daftar.</Fragment>
   </CallToAction>
 </Layout>
+
+<script>
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : d || 0; }
+
+function calc() {
+  var harga = sn(document.getElementById('harga').value, 420);
+  var berat = sn(document.getElementById('berat').value, 20);
+  var spread = sn(document.getElementById('spread').value, 6);
+  var spreadKedai = sn(document.getElementById('spreadKedai').value, 12);
+
+  if (harga === 0 || berat === 0) {
+    ['hasilBeli','hasilJual','hasilSpreadRM','hasilNilai','pgBeli','pgJual','pgSpread',
+     'kedaiBeli','kedaiJual','kedaiSpread','hasilBeza',
+     'rujPgBeli','rujPgJual','rujKedaiBeli','rujKedaiJual'].forEach(function(id) {
+      document.getElementById(id).textContent = id.match(/Spread|spread/) && !id.match(/RM/) ? '0.00%' : 'RM 0.00';
+    });
+    return;
+  }
+
+  var nilaiPokok = harga * berat;
+  var spreadPgRM = nilaiPokok * (spread / 100);
+  var spreadKedaiRM = nilaiPokok * (spreadKedai / 100);
+  var hargaJualPG = nilaiPokok - spreadPgRM;
+  var hargaJualKedai = nilaiPokok - spreadKedaiRM;
+  var bezaSpread = spreadKedaiRM - spreadPgRM;
+
+  document.getElementById('hasilBeli').textContent = fmt(nilaiPokok);
+  document.getElementById('hasilJual').textContent = fmt(hargaJualPG);
+  document.getElementById('hasilSpreadRM').textContent = fmt(spreadPgRM);
+  document.getElementById('hasilNilai').textContent = fmt(nilaiPokok);
+
+  document.getElementById('pgBeli').textContent = fmt(nilaiPokok);
+  document.getElementById('pgJual').textContent = fmt(hargaJualPG);
+  document.getElementById('pgSpread').textContent = spread.toFixed(2) + '%';
+
+  document.getElementById('kedaiBeli').textContent = fmt(nilaiPokok);
+  document.getElementById('kedaiJual').textContent = fmt(hargaJualKedai);
+  document.getElementById('kedaiSpread').textContent = spreadKedai.toFixed(2) + '%';
+
+  document.getElementById('hasilBeza').textContent = fmt(bezaSpread);
+
+  // Reference table per gram
+  document.getElementById('rujPgBeli').textContent = fmt(harga);
+  document.getElementById('rujPgJual').textContent = fmt(harga * (1 - spread/100));
+  document.getElementById('rujKedaiBeli').textContent = fmt(harga);
+  document.getElementById('rujKedaiJual').textContent = fmt(harga * (1 - spreadKedai/100));
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  ['harga','berat','spread','spreadKedai'].forEach(function(id) {
+    var el = document.getElementById(id);
+    if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
+  });
+  calc();
+});
+</script>

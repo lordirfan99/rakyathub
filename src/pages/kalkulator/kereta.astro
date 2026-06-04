@@ -3,54 +3,216 @@ import Layout from '~/layouts/PageLayout.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Kalkulator Kereta',
+  title: 'Kalkulator Kereta — Ansuran Bulanan & Loan',
 };
 ---
 
 <Layout metadata={metadata}>
   <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
     <div class="mb-8">
-      <a href="/" class="text-sm text-muted hover:text-amber-600 transition-colors">← Laman Utama</a>
+      <a href="/" class="text-sm text-muted hover:text-primary transition-colors">← Laman Utama</a>
     </div>
-    <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-4">
-      <span class="text-4xl mr-2">🚗</span> Kalkulator Kereta
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator Kereta
     </h1>
-    <p class="text-xl text-muted mb-8">
+    <p class="text-lg md:text-xl text-muted mb-8">
       Kira ansuran bulanan kereta berdasarkan harga loan, kadar interest dan tempoh bayaran.
     </p>
 
-    <div class="bg-amber-50 dark:bg-slate-800/50 rounded-2xl p-8 mb-8 text-center">
-      <p class="text-lg text-muted">Kalkulator interaktif sedang dibina. Nantikan!</p>
+    <!-- Calculator Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="harga" class="block text-sm font-semibold text-default mb-1.5">Harga Kereta (RM)</label>
+          <input type="number" id="harga" value="50000" min="0" step="1000"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="dp" class="block text-sm font-semibold text-default mb-1.5">Downpayment (RM)</label>
+          <input type="number" id="dp" value="5000" min="0" step="500"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="interest" class="block text-sm font-semibold text-default mb-1.5">Kadar Interest (%)</label>
+          <input type="number" id="interest" value="3.0" min="0" max="10" step="0.1"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="tempoh" class="block text-sm font-semibold text-default mb-1.5">Tempoh Loan (Tahun)</label>
+          <select id="tempoh"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="3">3 Tahun</option>
+            <option value="5">5 Tahun</option>
+            <option value="7" selected>7 Tahun</option>
+            <option value="9">9 Tahun</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-indigo-50 dark:bg-indigo-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Loan</p>
+          <p class="text-lg font-bold text-default" id="hasilLoan">RM 45,000.00</p>
+        </div>
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Ansuran Bulanan</p>
+          <p class="text-lg font-bold text-primary" id="hasilAnsuran">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Interest</p>
+          <p class="text-lg font-bold text-amber-600" id="hasilInterest">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Total Bayaran</p>
+          <p class="text-lg font-bold text-emerald-700" id="hasilTotal">RM 0.00</p>
+        </div>
+      </div>
+
+      <!-- Ringkasan Cepat -->
+      <div class="mt-6 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-sm text-muted">Anggaran Ansuran Bulanan</p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="hasilProjected">RM 0.00</p>
+        <p class="text-xs text-muted mt-1">*Kadar interest flat (bukan reducing balance). Sah untuk loan kereta di Malaysia.</p>
+      </div>
     </div>
 
-    <div class="grid md:grid-cols-3 gap-6 mb-12">
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6">
+    <!-- Amortization Table -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📈 Jadual Pembayaran Tahunan</h2>
+      <div class="overflow-x-auto -mx-5 md:-mx-0">
+        <div class="min-w-[500px] px-5 md:px-0">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b border-gray-100 dark:border-slate-700">
+                <th class="text-left py-3 px-2 font-semibold text-muted">Tahun</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Baki Loan</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Bayaran</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Interest</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Principal</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Baki</th>
+              </tr>
+            </thead>
+            <tbody id="amortBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- DocuKilat CTA -->
+    <div class="rounded-2xl bg-gradient-to-br from-primary/10 via-primary/[0.03] to-secondary/10 border border-primary/20 p-6 md:p-8 text-center mb-8">
+      <h3 class="text-xl md:text-2xl font-bold mb-2">📄 Perlukan Surat Tawaran Kereta?</h3>
+      <p class="text-muted mb-4">Guna DocuKilat untuk bina surat rasmi, perjanjian jual beli, atau dokumen berkaitan kereta.</p>
+      <a href="https://docukilat.netlify.app" target="_blank" rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-primary/30 hover:scale-[1.02]">
+        Bina Dokumen di DocuKilat
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
         <h3 class="font-semibold text-lg mb-2">💰 Ansuran Bulanan</h3>
         <p class="text-muted text-sm">Kira bayaran bulanan berdasarkan harga kereta, downpayment dan interest rate.</p>
       </div>
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
         <h3 class="font-semibold text-lg mb-2">📋 Total Bayaran</h3>
         <p class="text-muted text-sm">Lihat jumlah keseluruhan bayaran termasuk interest sepanjang tempoh loan.</p>
       </div>
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
         <h3 class="font-semibold text-lg mb-2">📊 Perbandingan</h3>
         <p class="text-muted text-sm">Bandingkan 2-3 pilihan kereta dengan spesifikasi loan berbeza.</p>
       </div>
     </div>
 
-    <div class="bg-gradient-to-r from-amber-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 rounded-2xl p-8">
+    <!-- Artikel -->
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
       <h3 class="text-xl font-bold mb-2">📚 Artikel Berkaitan Kereta</h3>
       <p class="text-muted mb-4">Baca tips dan panduan pembelian kereta di blog kami.</p>
-      <a href="/blog/kerajaan" class="inline-flex items-center text-amber-600 font-medium hover:underline">Lihat Artikel Kerajaan →</a>
+      <a href="/blog/" class="inline-flex items-center gap-1 text-primary font-medium hover:underline">
+        Lihat Artikel Kereta
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+        </svg>
+      </a>
     </div>
   </section>
 
   <CallToAction
     actions={[
-      { variant: 'primary', text: 'Kalkulator Lain', href: '/' },
+      { variant: 'primary', text: 'Kalkulator Emas', href: '/kalkulator/emas' },
+      { variant: 'secondary', text: 'Kalkulator Loan Rumah', href: '/kalkulator/loan-rumah' },
     ]}
   >
-    <Fragment slot="title">Nak Kira Emas atau ASB?</Fragment>
+    <Fragment slot="title">Nak Kira Emas atau Loan Rumah?</Fragment>
     <Fragment slot="subtitle">Semua kalkulator percuma — guna sekarang.</Fragment>
   </CallToAction>
 </Layout>
+
+<script>
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
+
+function calc() {
+  var harga = sn(document.getElementById('harga').value, 50000);
+  var dp = sn(document.getElementById('dp').value, 5000);
+  var rate = sn(document.getElementById('interest').value, 3);
+  var tempoh = parseInt(document.getElementById('tempoh').value) || 7;
+
+  if (harga === 0 || dp >= harga) {
+    ['hasilLoan','hasilAnsuran','hasilInterest','hasilTotal','hasilProjected'].forEach(function(id) {
+      document.getElementById(id).textContent = 'RM 0.00';
+    });
+    document.getElementById('amortBody').innerHTML = '<tr><td colspan="6" class="text-center py-8 text-muted">Sila masukkan nilai yang sah.</td></tr>';
+    return;
+  }
+
+  var loan = harga - dp;
+  var totalInterest = loan * (rate / 100) * tempoh;
+  var totalPayment = loan + totalInterest;
+  var monthly = totalPayment / (tempoh * 12);
+
+  document.getElementById('hasilLoan').textContent = fmt(loan);
+  document.getElementById('hasilAnsuran').textContent = fmt(monthly);
+  document.getElementById('hasilInterest').textContent = fmt(totalInterest);
+  document.getElementById('hasilTotal').textContent = fmt(totalPayment);
+  document.getElementById('hasilProjected').textContent = fmt(monthly);
+
+  // Amortization
+  var annualPayment = monthly * 12;
+  var remaining = totalPayment;
+  var tbody = document.getElementById('amortBody');
+  var rows = [];
+  for (var t = 1; t <= tempoh; t++) {
+    var interestYear = remaining * (rate / 100);
+    var principalYear = annualPayment - interestYear;
+    if (interestYear < 0) interestYear = 0;
+    if (principalYear < 0) principalYear = annualPayment;
+    if (principalYear > remaining) principalYear = remaining;
+    remaining = remaining - annualPayment;
+    if (remaining < 0) remaining = 0;
+
+    var isLast = t === tempoh;
+    rows.push('<tr class="' + (isLast ? 'font-bold bg-primary/5' : '') + ' border-b border-gray-50 dark:border-slate-800">' +
+      '<td class="py-2.5 px-2">' + t + '</td>' +
+      '<td class="text-right py-2.5 px-2">' + fmt(remaining + annualPayment) + '</td>' +
+      '<td class="text-right py-2.5 px-2">' + fmt(annualPayment) + '</td>' +
+      '<td class="text-right py-2.5 px-2 text-amber-600">' + fmt(interestYear) + '</td>' +
+      '<td class="text-right py-2.5 px-2 text-primary">' + fmt(principalYear) + '</td>' +
+      '<td class="text-right py-2.5 px-2 text-default">' + fmt(remaining) + '</td></tr>');
+  }
+  tbody.innerHTML = rows.join('');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  ['harga','dp','interest','tempoh'].forEach(function(id) {
+    var el = document.getElementById(id);
+    if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
+  });
+  calc();
+});
+</script>
