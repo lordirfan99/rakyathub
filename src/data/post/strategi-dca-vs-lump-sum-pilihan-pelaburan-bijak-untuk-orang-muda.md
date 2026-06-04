@@ -71,14 +71,14 @@ Dengan cara ini, anda memanfaatkan potensi tinggi Lump Sum sambil mengurangkan r
 - **Elak Overtrade:** Fokus jangka panjang, jangan terikut-ikut sentimen viral media sosial. 📱🚫
 - **Belajar & Pantau:** Ikuti laporan suku tahunan syarikat dan trend ekonomi global. 🎓📈
 
-[🚀 Kira Strategi Pelaburan](//) [👉 Baca Panduan Lanjut](/blog/)
+[🚀 Kira Pelaburan dengan Kalkulator KWSP](/kalkulator/kwsp) [👉 Baca Panduan Bajet 50/30/20](/cadangan-bajet-50-30-20-di-malaysia/)
 
 ## Artikel Berkaitan
 
 - [🔗 Kalkulator Loan Rumah](/loan-rumah-calculator-kiraan-ansuran-perancangan-kewangan/)
-- [🔗 Panduan Carum KWSP Freelancer](/%f0%9f%92%bc-adakah-freelancer-boleh-carum-kwsp-sendiri/)
-- [🔗 Cara Beli Emas dan Pelaburan Emas](/blog/)
-- [🔗 Risiko & Pulangan Robo-Advisor](/risiko-dan-pulangan-robo-advisor-di-malaysia-2025/)
+- [🔗 Panduan Carum KWSP Freelancer](/adakah-freelancer-boleh-carum-kwsp-sendiri/)
+- [🔗 Cara Beli Emas Public Gold](/cara-beli-emas-public-gold/)
+- [🔗 Risiko & Pulangan Robo-Advisor](/risiko-dan-pulangan-robo-advisor-di-malaysia/)
 - [🔗 Panduan Pinjaman Shopee](/adakah-pinjaman-dari-shopee-boleh-dipercayai-panduan-2025/)
 
 * * *

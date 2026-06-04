@@ -38,7 +38,7 @@ Gabungkan ketiga-tiga instrumen untuk portfolio yang seimbang:
 
 Baca [panduan strategi DCA vs Lump Sum](/strategi-dca-vs-lump-sum-pilihan-pelaburan-bijak-untuk-orang-muda/) untuk kefahaman lebih mendalam tentang DCA.
 
-Untuk pelabur yang mahu kepelbagaian lebih tinggi, terokai [robo-advisor di Malaysia](/risiko-dan-pulangan-robo-advisor-di-malaysia-2025/) sebagai pelengkap portfolio.
+Untuk pelabur yang mahu kepelbagaian lebih tinggi, terokai [robo-advisor di Malaysia](/risiko-dan-pulangan-robo-advisor-di-malaysia/) sebagai pelengkap portfolio.
 
 ## ❓ Soalan Lazim (FAQ)
 
@@ -55,7 +55,7 @@ Ya, sebahagian dana melalui [Akaun Fleksibel](/info-terkini-apa-itu-kwsp-akaun-f
 ASB menawarkan [dividen tahunan yang konsisten](/7-kelebihan-simpanan-asb-pelaburan-bijak-pulangan-konsisten-yang-pasti-korang-tak-tahu/) dan modal dijamin oleh kerajaan, menjadikannya sangat selamat untuk pelabur konservatif.
 
 **5. Bolehkah DCA dilakukan dalam platform pelaburan digital?**
-Ya — anda boleh tetapkan pelaburan automatik dalam saham, ETF, unit amanah, atau [robo-advisor](/risiko-dan-pulangan-robo-advisor-di-malaysia-2025/) seperti StashAway atau Wahed Invest.
+Ya — anda boleh tetapkan pelaburan automatik dalam saham, ETF, unit amanah, atau [robo-advisor](/risiko-dan-pulangan-robo-advisor-di-malaysia/) seperti StashAway atau Wahed Invest.
 
 ---
 
