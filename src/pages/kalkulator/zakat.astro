@@ -1,0 +1,313 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator Zakat — Pendapatan, Simpanan & Emas',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/" class="text-sm text-muted hover:text-primary transition-colors">← Laman Utama</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator Zakat
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-8">
+      Kira zakat pendapatan, zakat simpanan dan zakat emas mengikut kadar terkini di Malaysia.
+    </p>
+
+    <!-- Calculator Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <!-- Harga Emas Rujukan -->
+      <div class="mb-6 p-4 rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800">
+        <div class="flex items-center justify-between">
+          <div>
+            <p class="text-sm font-semibold">Harga Emas Semasa (RM/g)</p>
+            <p class="text-xs text-muted">Guna untuk kira nisab (85g emas)</p>
+          </div>
+          <input type="number" id="hargaEmas" value="420" min="0" step="1"
+            class="w-28 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2 text-base text-right font-bold focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <p class="mt-2 text-sm">
+          Nisab: <strong id="nisabValue" class="text-primary">RM 35,700.00</strong>
+          <span class="text-muted"> (85g × RM420)</span>
+        </p>
+      </div>
+
+      <!-- Tab: 3 types of Zakat -->
+      <div class="grid md:grid-cols-3 gap-4 mb-6">
+        <div id="tabPendapatan" class="rounded-xl p-4 text-center border-2 border-primary bg-primary/5 cursor-pointer transition-all">
+          <p class="font-bold text-primary">💰 Pendapatan</p>
+          <p class="text-xs text-muted">Zakat gaji tahunan</p>
+        </div>
+        <div id="tabSimpanan" class="rounded-xl p-4 text-center border-2 border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 cursor-pointer transition-all hover:border-primary/50">
+          <p class="font-bold text-default">🏦 Simpanan</p>
+          <p class="text-xs text-muted">Zakat atas simpanan</p>
+        </div>
+        <div id="tabEmas" class="rounded-xl p-4 text-center border-2 border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 cursor-pointer transition-all hover:border-primary/50">
+          <p class="font-bold text-default">🟡 Emas</p>
+          <p class="text-xs text-muted">Zakat emas simpanan</p>
+        </div>
+      </div>
+
+      <!-- Zakat Pendapatan (default visible) -->
+      <div id="sectionPendapatan" class="space-y-4">
+        <div class="grid md:grid-cols-2 gap-4">
+          <div>
+            <label for="gajiTahunan" class="block text-sm font-semibold text-default mb-1.5">Pendapatan Setahun (RM)</label>
+            <input type="number" id="gajiTahunan" value="48000" min="0" step="1000"
+              class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+          </div>
+          <div>
+            <label for="kwspPekerja" class="block text-sm font-semibold text-default mb-1.5">KWSP + PERKESO Setahun (RM) — tolakan</label>
+            <input type="number" id="kwspPekerja" value="6000" min="0" step="500"
+              class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Zakat Simpanan (hidden initially) -->
+      <div id="sectionSimpanan" class="space-y-4 hidden">
+        <div class="grid md:grid-cols-2 gap-4">
+          <div>
+            <label for="bakiSimpanan" class="block text-sm font-semibold text-default mb-1.5">Baki Simpanan Semasa (RM)</label>
+            <input type="number" id="bakiSimpanan" value="20000" min="0" step="1000"
+              class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+          </div>
+          <div>
+            <label for="tempohSimpan" class="block text-sm font-semibold text-default mb-1.5">Tempoh Simpan (bulan)</label>
+            <select id="tempohSimpan"
+              class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+              <option value="12" selected>12 bulan (cukup haul)</option>
+              <option value="6">6 bulan</option>
+              <option value="3">3 bulan</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Zakat Emas (hidden initially) -->
+      <div id="sectionEmas" class="space-y-4 hidden">
+        <div class="grid md:grid-cols-2 gap-4">
+          <div>
+            <label for="gramEmas" class="block text-sm font-semibold text-default mb-1.5">Berat Emas (gram)</label>
+            <input type="number" id="gramEmas" value="50" min="0" step="1"
+              class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+          </div>
+          <div>
+            <label for="gramPakai" class="block text-sm font-semibold text-default mb-1.5">Emas Dipakai (gram) — dikecualikan</label>
+            <input type="number" id="gramPakai" value="0" min="0" step="1"
+              class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Zakat Results -->
+      <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Pendapatan Layak</p>
+          <p class="text-lg font-bold text-default" id="hasilPendapatanLayak">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Kadar Zakat</p>
+          <p class="text-lg font-bold text-primary">2.5%</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center sm:col-span-2">
+          <p class="text-xs text-muted uppercase tracking-wide">Zakat Wajib Dibayar</p>
+          <p class="text-2xl font-bold text-emerald-700" id="hasilZakat">RM 0.00</p>
+        </div>
+      </div>
+
+      <!-- Nisab status -->
+      <div class="mt-4 p-4 rounded-xl text-center" id="nisabStatus">
+        <p id="nisabMessage" class="text-sm">Sila masukkan nilai untuk mula kiraan.</p>
+      </div>
+    </div>
+
+    <!-- How Zakat is calculated -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📖 Cara Kiraan Zakat</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="p-4 rounded-xl border border-gray-100 dark:border-slate-700">
+          <p class="font-semibold mb-1">💰 Zakat Pendapatan</p>
+          <p class="text-sm text-muted">(Pendapatan Setahun — KWSP — PERKESO) × 2.5% jika melebihi nisab</p>
+        </div>
+        <div class="p-4 rounded-xl border border-gray-100 dark:border-slate-700">
+          <p class="font-semibold mb-1">🏦 Zakat Simpanan</p>
+          <p class="text-sm text-muted">Baki simpanan × 2.5% jika cukup haul (12 bulan) dan melebihi nisab</p>
+        </div>
+        <div class="p-4 rounded-xl border border-gray-100 dark:border-slate-700">
+          <p class="font-semibold mb-1">🟡 Zakat Emas</p>
+          <p class="text-sm text-muted">(Gram emas — gram dipakai) × harga semasa × 2.5% jika melebihi uruf (200g)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- DocuKilat CTA -->
+    <div class="rounded-2xl bg-gradient-to-br from-primary/10 via-primary/[0.03] to-secondary/10 border border-primary/20 p-6 md:p-8 text-center mb-8">
+      <h3 class="text-xl md:text-2xl font-bold mb-2">📄 Perlukan Resit Zakat Atau Surat Pengesanan?</h3>
+      <p class="text-muted mb-4">Guna DocuKilat untuk bina surat pengesahan pendapatan, penyata kewangan atau dokumen lain.</p>
+      <a href="https://docukilat.netlify.app" target="_blank" rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-primary/30 hover:scale-[1.02]">
+        Bina Dokumen di DocuKilat
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">📅 Haul</h3>
+        <p class="text-muted text-sm">Tempoh pemilikan harta selama 12 bulan (tahun Hijrah) sebelum dikenakan zakat.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">📊 Nisab</h3>
+        <p class="text-muted text-sm">Kadar minima harta yang mewajibkan zakat, bersamaan 85 gram emas semasa.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🕌 Kadar Zakat</h3>
+        <p class="text-muted text-sm">2.5% daripada jumlah harta yang layak — tetap mengikut syariah Islam.</p>
+      </div>
+    </div>
+
+    <!-- Artikel -->
+    <div class="rounded-2xl bg-gradient-to-br from-sky-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-sky-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-2">📚 Rujukan Zakat</h3>
+      <p class="text-muted mb-4">Kiraan ini berdasarkan panduan zakat rasmi Malaysia. Untuk kepastian, rujuk pusat zakat negeri masing-masing.</p>
+      <a href="/blog/" class="inline-flex items-center gap-1 text-primary font-medium hover:underline">
+        Baca Panduan Lengkap
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <CallToAction
+    actions={[
+      { variant: 'primary', text: 'Kalkulator Emas', href: '/kalkulator/emas' },
+      { variant: 'secondary', text: 'Kalkulator KWSP', href: '/kalkulator/kwsp' },
+    ]}
+  >
+    <Fragment slot="title">Nak Kira Emas Atau KWSP?</Fragment>
+    <Fragment slot="subtitle">Semua kalkulator percuma — guna sekarang.</Fragment>
+  </CallToAction>
+</Layout>
+
+<script>
+var currentTab = 'pendapatan';
+
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
+
+function switchTab(tab) {
+  currentTab = tab;
+  ['Pendapatan','Simpanan','Emas'].forEach(function(t) {
+    var tabEl = document.getElementById('tab' + t);
+    var sectionEl = document.getElementById('section' + t);
+    if (tab === t.toLowerCase()) {
+      tabEl.className = 'rounded-xl p-4 text-center border-2 border-primary bg-primary/5 cursor-pointer transition-all';
+      sectionEl.classList.remove('hidden');
+    } else {
+      tabEl.className = 'rounded-xl p-4 text-center border-2 border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 cursor-pointer transition-all hover:border-primary/50';
+      sectionEl.classList.add('hidden');
+    }
+  });
+  calc();
+}
+
+function updateNisab() {
+  var hargaEmas = sn(document.getElementById('hargaEmas').value, 420);
+  var nisab = hargaEmas * 85;
+  document.getElementById('nisabValue').textContent = fmt(nisab);
+}
+
+function calc() {
+  var hargaEmas = sn(document.getElementById('hargaEmas').value, 420);
+  var nisab = hargaEmas * 85;
+  updateNisab();
+
+  var eligible = 0;
+  var zakat = 0;
+  var label = '';
+
+  if (currentTab === 'pendapatan') {
+    var gaji = sn(document.getElementById('gajiTahunan').value);
+    var kwsp = sn(document.getElementById('kwspPekerja').value);
+    eligible = Math.max(0, gaji - kwsp);
+    label = 'Pendapatan Layak';
+    if (eligible >= nisab) {
+      zakat = eligible * 0.025;
+    }
+  } else if (currentTab === 'simpanan') {
+    var baki = sn(document.getElementById('bakiSimpanan').value);
+    var tempoh = parseInt(document.getElementById('tempohSimpan').value) || 12;
+    label = 'Simpanan Layak';
+    if (tempoh >= 12 && baki >= nisab) {
+      eligible = baki;
+      zakat = baki * 0.025;
+    } else if (tempoh >= 12) {
+      eligible = baki;
+    }
+  } else if (currentTab === 'emas') {
+    var gram = sn(document.getElementById('gramEmas').value);
+    var gramPakai = sn(document.getElementById('gramPakai').value);
+    var gramBersih = Math.max(0, gram - gramPakai);
+    var nilaiEmas = gramBersih * hargaEmas;
+    label = 'Nilai Emas Layak';
+    // Uruf emas simpanan: 200g (jika melebihi 200g, zakat dikenakan)
+    if (gramBersih > 200) {
+      var gramLebih = gramBersih - 200;
+      eligible = gramLebih * hargaEmas;
+      zakat = eligible * 0.025;
+    } else if (gramBersih > 0 && gramBersih <= 200) {
+      // Emas simpanan bawah 200g dikenakan zakat jika melebihi nisab
+      if (nilaiEmas >= nisab) {
+        eligible = nilaiEmas;
+        zakat = nilaiEmas * 0.025;
+      } else {
+        eligible = 0;
+      }
+    }
+  }
+
+  document.getElementById('hasilPendapatanLayak').textContent = fmt(eligible);
+  document.getElementById('hasilZakat').textContent = fmt(zakat);
+
+  var nisabStatus = document.getElementById('nisabStatus');
+  var nisabMessage = document.getElementById('nisabMessage');
+
+  if (eligible === 0) {
+    nisabStatus.className = 'mt-4 p-4 rounded-xl text-center bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800';
+    nisabMessage.innerHTML = '⚠️ <strong>Tidak melebihi nisab</strong> — zakat tidak wajib. Nisab semasa: <strong>' + fmt(nisab) + '</strong>';
+  } else if (zakat > 0) {
+    nisabStatus.className = 'mt-4 p-4 rounded-xl text-center bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800';
+    nisabMessage.innerHTML = '✅ <strong>Anda WAJIB bayar zakat</strong> sebanyak <strong>' + fmt(zakat) + '</strong>. Jumlah layak: ' + fmt(eligible);
+  } else {
+    nisabStatus.className = 'mt-4 p-4 rounded-xl text-center bg-gray-50 dark:bg-slate-800 border border-gray-200 dark:border-slate-700';
+    nisabMessage.innerHTML = 'ℹ️ Sila masukkan nilai untuk mula kiraan. Nisab semasa: <strong>' + fmt(nisab) + '</strong>';
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Tab switching
+  document.getElementById('tabPendapatan').addEventListener('click', function() { switchTab('pendapatan'); });
+  document.getElementById('tabSimpanan').addEventListener('click', function() { switchTab('simpanan'); });
+  document.getElementById('tabEmas').addEventListener('click', function() { switchTab('emas'); });
+
+  // Input events
+  var allInputs = ['hargaEmas','gajiTahunan','kwspPekerja','bakiSimpanan','tempohSimpan','gramEmas','gramPakai'];
+  allInputs.forEach(function(id) {
+    var el = document.getElementById(id);
+    if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
+  });
+
+  calc();
+});
+</script>
