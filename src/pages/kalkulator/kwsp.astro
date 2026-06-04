@@ -3,54 +3,310 @@ import Layout from '~/layouts/PageLayout.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Kalkulator KWSP',
+  title: 'Kalkulator KWSP — Simulasi Caruman & Persaraan',
 };
 ---
 
 <Layout metadata={metadata}>
   <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <!-- Back link -->
     <div class="mb-8">
-      <a href="/" class="text-sm text-muted hover:text-amber-600 transition-colors">← Laman Utama</a>
+      <a href="/" class="text-sm text-muted hover:text-primary transition-colors">← Laman Utama</a>
     </div>
-    <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-4">
-      <span class="text-4xl mr-2">📊</span> Kalkulator KWSP
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator KWSP
     </h1>
-    <p class="text-xl text-muted mb-8">
+    <p class="text-lg md:text-xl text-muted mb-8">
       Kira caruman, pengeluaran fleksibel dan dividen KWSP anda. Simulasi simpanan persaraan dengan mudah.
     </p>
 
-    <div class="bg-amber-50 dark:bg-slate-800/50 rounded-2xl p-8 mb-8 text-center">
-      <p class="text-lg text-muted">Kalkulator interaktif sedang dibina. Nantikan!</p>
+    <!-- ========== CALCULATOR CARD ========== -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+        <!-- Gaji Bulanan -->
+        <div>
+          <label for="gaji" class="block text-sm font-semibold text-default mb-1.5">Gaji Bulanan (RM)</label>
+          <input type="number" id="gaji" value="4000" min="0" step="100"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+
+        <!-- Caruman Pekerja -->
+        <div>
+          <label for="pekerja" class="block text-sm font-semibold text-default mb-1.5">Caruman Pekerja (%)</label>
+          <select id="pekerja"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="11" selected>11% (Standard)</option>
+            <option value="7">7% (Kurang)</option>
+            <option value="5">5% (Minimum)</option>
+            <option value="0">0% (Tiada)</option>
+          </select>
+        </div>
+
+        <!-- Caruman Majikan -->
+        <div>
+          <label for="majikan" class="block text-sm font-semibold text-default mb-1.5">Caruman Majikan (%)</label>
+          <select id="majikan"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="12" selected>12% (Standard)</option>
+            <option value="13">13% (Premium)</option>
+          </select>
+        </div>
+
+        <!-- Umur Sekarang -->
+        <div>
+          <label for="umurSekarang" class="block text-sm font-semibold text-default mb-1.5">Umur Sekarang</label>
+          <input type="number" id="umurSekarang" value="25" min="18" max="70"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+
+        <!-- Umur Persaraan -->
+        <div>
+          <label for="umurPersaraan" class="block text-sm font-semibold text-default mb-1.5">Umur Persaraan</label>
+          <input type="number" id="umurPersaraan" value="60" min="30" max="75"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+
+        <!-- Anggaran Dividen -->
+        <div>
+          <label for="dividen" class="block text-sm font-semibold text-default mb-1.5">Anggaran Dividen (%)</label>
+          <input type="number" id="dividen" value="5" min="0" max="15" step="0.5"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+      </div>
+
+      <!-- Ringkasan Pantas -->
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Pekerja</p>
+          <p class="text-lg font-bold text-default" id="hasilPekerja">RM 440.00</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Majikan</p>
+          <p class="text-lg font-bold text-default" id="hasilMajikan">RM 480.00</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center sm:col-span-2">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Bulanan</p>
+          <p class="text-lg font-bold text-primary" id="hasilJumlah">RM 920.00</p>
+        </div>
+      </div>
+
+      <!-- Akaun Distribution -->
+      <div class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-3">
+        <div class="rounded-xl border border-blue-200 dark:border-blue-800 bg-white dark:bg-slate-800 p-4 text-center card-hover">
+          <div class="w-3 h-3 rounded-full bg-blue-600 mx-auto mb-1"></div>
+          <p class="text-xs text-muted uppercase tracking-wide">Akaun 1</p>
+          <p class="text-xs text-muted">(75% — Persaraan)</p>
+          <p class="text-lg font-bold text-blue-700 dark:text-blue-400" id="hasilAkaun1">RM 690.00</p>
+        </div>
+        <div class="rounded-xl border border-emerald-200 dark:border-emerald-800 bg-white dark:bg-slate-800 p-4 text-center card-hover">
+          <div class="w-3 h-3 rounded-full bg-emerald-600 mx-auto mb-1"></div>
+          <p class="text-xs text-muted uppercase tracking-wide">Akaun 2</p>
+          <p class="text-xs text-muted">(15% — Pelaburan)</p>
+          <p class="text-lg font-bold text-emerald-700 dark:text-emerald-400" id="hasilAkaun2">RM 138.00</p>
+        </div>
+        <div class="rounded-xl border border-amber-200 dark:border-amber-800 bg-white dark:bg-slate-800 p-4 text-center card-hover">
+          <div class="w-3 h-3 rounded-full bg-amber-500 mx-auto mb-1"></div>
+          <p class="text-xs text-muted uppercase tracking-wide">Akaun 3 / Fleksibel</p>
+          <p class="text-xs text-muted">(10% — Pengeluaran)</p>
+          <p class="text-lg font-bold text-amber-600 dark:text-amber-400" id="hasilAkaun3">RM 92.00</p>
+        </div>
+      </div>
+
+      <!-- Projected Total -->
+      <div class="mt-6 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-sm text-muted">Anggaran Simpanan Semasa Umur Persaraan (60 Tahun)</p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="hasilProjected">RM 0</p>
+        <p class="text-xs text-muted mt-1">*Anggaran berdasarkan dividen tahunan 5%. Hasil sebenar mungkin berbeza.</p>
+      </div>
     </div>
 
-    <div class="grid md:grid-cols-3 gap-6 mb-12">
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6">
+    <!-- ========== ANNUAL PROJECTION TABLE ========== -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📈 Unjuran Tahunan</h2>
+      <div class="overflow-x-auto -mx-5 md:-mx-0">
+        <div class="min-w-[500px] px-5 md:px-0">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b border-gray-100 dark:border-slate-700">
+                <th class="text-left py-3 px-2 font-semibold text-muted">Tahun</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Umur</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Simpanan</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Dividen</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Baki</th>
+              </tr>
+            </thead>
+            <tbody id="projectionBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== DOCUKILAT CTA ========== -->
+    <div class="rounded-2xl bg-gradient-to-br from-primary/10 via-primary/[0.03] to-secondary/10 border border-primary/20 p-6 md:p-8 text-center mb-8">
+      <h3 class="text-xl md:text-2xl font-bold mb-2">📄 Perlukan Surat Berkaitan KWSP?</h3>
+      <p class="text-muted mb-4">Guna DocuKilat untuk bina surat rasmi, pengeluaran KWSP, atau dokumen kewangan lain dengan AI.</p>
+      <a href="https://docukilat.netlify.app" target="_blank" rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-primary/30 hover:scale-[1.02]">
+        Bina Surat Berkaitan KWSP
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- ========== INFO CARDS ========== -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
         <h3 class="font-semibold text-lg mb-2">🧮 Caruman Bulanan</h3>
         <p class="text-muted text-sm">Kira jumlah caruman KWSP berdasarkan gaji anda (11% pekerja + 12% majikan).</p>
       </div>
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
         <h3 class="font-semibold text-lg mb-2">💸 Pengeluaran Fleksibel</h3>
         <p class="text-muted text-sm">Kira jumlah yang boleh dikeluarkan dari Akaun Fleksibel KWSP 2025.</p>
       </div>
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
         <h3 class="font-semibold text-lg mb-2">📈 Dividen Tahunan</h3>
         <p class="text-muted text-sm">Simulasi dividen KWSP berdasarkan simpanan semasa dan kadar dividen tahunan.</p>
       </div>
     </div>
 
-    <div class="bg-gradient-to-r from-amber-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 rounded-2xl p-8">
+    <!-- ========== ARTIKEL BERKAITAN ========== -->
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
       <h3 class="text-xl font-bold mb-2">📚 Artikel Berkaitan KWSP</h3>
       <p class="text-muted mb-4">Baca panduan lengkap tentang KWSP di blog kami.</p>
-      <a href="/blog/kwsp" class="inline-flex items-center text-amber-600 font-medium hover:underline">Lihat Artikel KWSP →</a>
+      <a href="/blog/" class="inline-flex items-center gap-1 text-primary font-medium hover:underline">
+        Lihat Artikel KWSP
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+        </svg>
+      </a>
     </div>
   </section>
 
   <CallToAction
     actions={[
-      { variant: 'primary', text: 'Kalkulator Lain', href: '/' },
+      { variant: 'primary', text: 'Kalkulator ASB', href: '/kalkulator/asb' },
+      { variant: 'secondary', text: 'Kalkulator Emas', href: '/kalkulator/emas' },
     ]}
   >
     <Fragment slot="title">Nak Kira ASB atau Emas?</Fragment>
     <Fragment slot="subtitle">Kami ada kalkulator ASB, emas dan kereta — semuanya percuma.</Fragment>
   </CallToAction>
 </Layout>
+
+<script>
+function formatRM(val) {
+  if (typeof val !== 'number' || isNaN(val) || !isFinite(val)) return 'RM 0.00';
+  return 'RM ' + val.toLocaleString('ms-MY', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+function safeNum(val, def = 0) {
+  const n = parseFloat(val);
+  return (!isNaN(n) && isFinite(n) && n >= 0) ? n : def;
+}
+
+function calculate() {
+  const gaji = safeNum(document.getElementById('gaji').value);
+  const ratePekerja = safeNum(document.getElementById('pekerja').value, 11);
+  const rateMajikan = safeNum(document.getElementById('majikan').value, 12);
+  const umurSkrg = safeNum(document.getElementById('umurSekarang').value, 25);
+  const umurPsrn = safeNum(document.getElementById('umurPersaraan').value, 60);
+  const dividenRate = safeNum(document.getElementById('dividen').value, 5);
+
+  if (umurSkrg >= umurPsrn || gaji === 0) {
+    document.getElementById('hasilPekerja').textContent = 'RM 0.00';
+    document.getElementById('hasilMajikan').textContent = 'RM 0.00';
+    document.getElementById('hasilJumlah').textContent = 'RM 0.00';
+    document.getElementById('hasilAkaun1').textContent = 'RM 0.00';
+    document.getElementById('hasilAkaun2').textContent = 'RM 0.00';
+    document.getElementById('hasilAkaun3').textContent = 'RM 0.00';
+    document.getElementById('hasilProjected').textContent = 'RM 0.00';
+    document.getElementById('projectionBody').innerHTML =
+      '<tr><td colspan="5" class="text-center py-8 text-muted">Sila masukkan nilai yang sah.</td></tr>';
+    return;
+  }
+
+  const carumanPekerja = Math.round(gaji * (ratePekerja / 100) * 100) / 100;
+  const carumanMajikan = Math.round(gaji * (rateMajikan / 100) * 100) / 100;
+  const jumlahBulanan = carumanPekerja + carumanMajikan;
+  const tahunBaki = umurPsrn - umurSkrg;
+
+  document.getElementById('hasilPekerja').textContent = formatRM(carumanPekerja);
+  document.getElementById('hasilMajikan').textContent = formatRM(carumanMajikan);
+  document.getElementById('hasilJumlah').textContent = formatRM(jumlahBulanan);
+
+  // Akaun distribution
+  const akaun1 = Math.round(jumlahBulanan * 0.75 * 100) / 100;
+  const akaun2 = Math.round(jumlahBulanan * 0.15 * 100) / 100;
+  const akaun3 = Math.round(jumlahBulanan * 0.10 * 100) / 100;
+
+  document.getElementById('hasilAkaun1').textContent = formatRM(akaun1);
+  document.getElementById('hasilAkaun2').textContent = formatRM(akaun2);
+  document.getElementById('hasilAkaun3').textContent = formatRM(akaun3);
+
+  // Annual projection with compounding
+  let baki = 0;
+  const dividenRateDecimal = dividenRate / 100;
+  const rows = [];
+  let finalBalance = 0;
+
+  for (let tahun = 1; tahun <= tahunBaki; tahun++) {
+    const yearlyContribution = jumlahBulanan * 12;
+    const dividen = Math.round(baki * dividenRateDecimal * 100) / 100;
+    baki = Math.round((baki + yearlyContribution + (baki * dividenRateDecimal)) * 100) / 100;
+    const umur = umurSkrg + tahun;
+
+    rows.push({
+      tahun,
+      umur,
+      simpanan: yearlyContribution,
+      dividen: dividen,
+      baki: baki,
+    });
+
+    if (tahun === tahunBaki) {
+      finalBalance = baki;
+    }
+  }
+
+  document.getElementById('hasilProjected').textContent = formatRM(finalBalance);
+
+  // Table
+  const tbody = document.getElementById('projectionBody');
+  tbody.innerHTML = rows.map(r => {
+    const isLast = r.tahun === tahunBaki;
+    return `<tr class="${isLast ? 'font-bold bg-primary/5' : ''} border-b border-gray-50 dark:border-slate-800">
+      <td class="py-2.5 px-2">${r.tahun}</td>
+      <td class="text-right py-2.5 px-2">${r.umur}</td>
+      <td class="text-right py-2.5 px-2">${formatRM(r.simpanan)}</td>
+      <td class="text-right py-2.5 px-2 text-emerald-600">${formatRM(r.dividen)}</td>
+      <td class="text-right py-2.5 px-2 text-primary">${formatRM(r.baki)}</td>
+    </tr>`;
+  }).join('');
+
+  // Show compact if many years
+  if (tahunBaki > 30) {
+    tbody.style.maxHeight = '400px';
+    tbody.style.overflowY = 'auto';
+    tbody.style.display = 'block';
+  } else {
+    tbody.style.maxHeight = '';
+    tbody.style.overflowY = '';
+    tbody.style.display = '';
+  }
+}
+
+// Wire up input events
+document.addEventListener('DOMContentLoaded', function() {
+  const inputs = ['gaji', 'pekerja', 'majikan', 'umurSekarang', 'umurPersaraan', 'dividen'];
+  inputs.forEach(id => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.addEventListener('input', calculate);
+      el.addEventListener('change', calculate);
+    }
+  });
+  calculate();
+});
+</script>

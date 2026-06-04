@@ -3,54 +3,248 @@ import Layout from '~/layouts/PageLayout.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Kalkulator ASB',
+  title: 'Kalkulator ASB — Simulasi Dividen & Simpanan',
 };
 ---
 
 <Layout metadata={metadata}>
   <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <!-- Back link -->
     <div class="mb-8">
-      <a href="/" class="text-sm text-muted hover:text-amber-600 transition-colors">← Laman Utama</a>
+      <a href="/" class="text-sm text-muted hover:text-primary transition-colors">← Laman Utama</a>
     </div>
-    <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-4">
-      <span class="text-4xl mr-2">📐</span> Kalkulator ASB
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator ASB
     </h1>
-    <p class="text-xl text-muted mb-8">
+    <p class="text-lg md:text-xl text-muted mb-8">
       Kira dividen ASB, bonus dan simpanan automatik. Optimalkan pelaburan ASB loan anda.
     </p>
 
-    <div class="bg-amber-50 dark:bg-slate-800/50 rounded-2xl p-8 mb-8 text-center">
-      <p class="text-lg text-muted">Kalkulator interaktif sedang dibina. Nantikan!</p>
+    <!-- ========== CALCULATOR CARD ========== -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <!-- Jumlah Pelaburan Pokok -->
+        <div>
+          <label for="pokok" class="block text-sm font-semibold text-default mb-1.5">Jumlah Pelaburan Pokok (RM)</label>
+          <input type="number" id="pokok" value="10000" min="0" step="100"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+
+        <!-- Simpanan Bulanan -->
+        <div>
+          <label for="bulanan" class="block text-sm font-semibold text-default mb-1.5">Simpanan Bulanan (RM)</label>
+          <input type="number" id="bulanan" value="200" min="0" step="10"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+
+        <!-- Tempoh Pelaburan -->
+        <div>
+          <label for="tempoh" class="block text-sm font-semibold text-default mb-1.5">Tempoh Pelaburan (Tahun)</label>
+          <input type="number" id="tempoh" value="10" min="1" max="50"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+
+        <!-- Anggaran Kadar Dividen -->
+        <div>
+          <label for="dividen" class="block text-sm font-semibold text-default mb-1.5">Anggaran Kadar Dividen (%)</label>
+          <input type="number" id="dividen" value="5" min="0" max="15" step="0.25"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+      </div>
+
+      <!-- Ringkasan Hasil -->
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Simpanan</p>
+          <p class="text-lg font-bold text-default" id="hasilSimpanan">RM 10,000.00</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Dividen</p>
+          <p class="text-lg font-bold text-emerald-700 dark:text-emerald-400" id="hasilDividen">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Baki Akhir</p>
+          <p class="text-lg font-bold text-amber-600 dark:text-amber-400" id="hasilBaki">RM 10,000.00</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Pulangan Setahun</p>
+          <p class="text-lg font-bold text-primary" id="hasilPulangan">5.0%</p>
+        </div>
+      </div>
+
+      <!-- Dividen Tahunan Projection -->
+      <div class="mt-6 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-sm text-muted">Anggaran Baki Selepas Tempoh Pelaburan</p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="hasilProjected">RM 10,000</p>
+        <p class="text-xs text-muted mt-1">*Berdasarkan dividen tahunan terkumpul. Hasil sebenar mungkin berbeza.</p>
+      </div>
     </div>
 
-    <div class="grid md:grid-cols-3 gap-6 mb-12">
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6">
+    <!-- ========== ANNUAL PROJECTION TABLE ========== -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📈 Unjuran Dividen Tahunan</h2>
+      <div class="overflow-x-auto -mx-5 md:-mx-0">
+        <div class="min-w-[500px] px-5 md:px-0">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b border-gray-100 dark:border-slate-700">
+                <th class="text-left py-3 px-2 font-semibold text-muted">Tahun</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Simpanan (RM)</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Dividen (RM)</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Baki (RM)</th>
+              </tr>
+            </thead>
+            <tbody id="projectionBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== DOCUKILAT CTA ========== -->
+    <div class="rounded-2xl bg-gradient-to-br from-primary/10 via-primary/[0.03] to-secondary/10 border border-primary/20 p-6 md:p-8 text-center mb-8">
+      <h3 class="text-xl md:text-2xl font-bold mb-2">📄 Perlukan Dokumen Kewangan?</h3>
+      <p class="text-muted mb-4">Guna DocuKilat untuk bina surat rasmi, invois, resume dan dokumen kewangan lain dengan AI.</p>
+      <a href="https://docukilat.netlify.app" target="_blank" rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-primary/30 hover:scale-[1.02]">
+        Bina Dokumen di DocuKilat
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- ========== INFO CARDS ========== -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
         <h3 class="font-semibold text-lg mb-2">💰 Dividen ASB</h3>
         <p class="text-muted text-sm">Kira dividen tahunan ASB berdasarkan simpanan dan kadar dividen semasa.</p>
       </div>
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
         <h3 class="font-semibold text-lg mb-2">🏦 ASB Loan</h3>
         <p class="text-muted text-sm">Simulasi pulangan pelaburan ASB loan — berapa untung vs simpan sendiri.</p>
       </div>
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
         <h3 class="font-semibold text-lg mb-2">🎯 Target Simpanan</h3>
         <p class="text-muted text-sm">Berapa lama nak capai target simpanan ASB berdasarkan caruman bulanan.</p>
       </div>
     </div>
 
-    <div class="bg-gradient-to-r from-amber-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 rounded-2xl p-8">
+    <!-- ========== ARTIKEL BERKAITAN ========== -->
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
       <h3 class="text-xl font-bold mb-2">📚 Artikel Berkaitan ASB</h3>
       <p class="text-muted mb-4">Baca panduan lengkap tentang ASB di blog kami.</p>
-      <a href="/blog/asb" class="inline-flex items-center text-amber-600 font-medium hover:underline">Lihat Artikel ASB →</a>
+      <a href="/blog/" class="inline-flex items-center gap-1 text-primary font-medium hover:underline">
+        Lihat Artikel ASB
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+        </svg>
+      </a>
     </div>
   </section>
 
   <CallToAction
     actions={[
-      { variant: 'primary', text: 'Kalkulator Lain', href: '/' },
+      { variant: 'primary', text: 'Kalkulator KWSP', href: '/kalkulator/kwsp' },
+      { variant: 'secondary', text: 'Kalkulator Emas', href: '/kalkulator/emas' },
     ]}
   >
-    <Fragment slot="title">Nak Kira KWSP atau Kereta?</Fragment>
-    <Fragment slot="subtitle">Kami ada kalkulator lengkap untuk semua keperluan kewangan anda.</Fragment>
+    <Fragment slot="title">Nak Kira KWSP atau Emas?</Fragment>
+    <Fragment slot="subtitle">Kami ada kalkulator KWSP, emas dan kereta — semuanya percuma.</Fragment>
   </CallToAction>
 </Layout>
+
+<script>
+function formatRM(val) {
+  if (typeof val !== 'number' || isNaN(val) || !isFinite(val)) return 'RM 0.00';
+  return 'RM ' + val.toLocaleString('ms-MY', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+function safeNum(val, def = 0) {
+  const n = parseFloat(val);
+  return (!isNaN(n) && isFinite(n) && n >= 0) ? n : def;
+}
+
+function calculate() {
+  const pokok = safeNum(document.getElementById('pokok').value);
+  const bulanan = safeNum(document.getElementById('bulanan').value);
+  const tempoh = Math.max(1, Math.round(safeNum(document.getElementById('tempoh').value, 10)));
+  const dividenRate = safeNum(document.getElementById('dividen').value, 5);
+
+  if (tempoh < 1) {
+    document.getElementById('hasilSimpanan').textContent = 'RM 0.00';
+    document.getElementById('hasilDividen').textContent = 'RM 0.00';
+    document.getElementById('hasilBaki').textContent = 'RM 0.00';
+    document.getElementById('hasilProjected').textContent = 'RM 0.00';
+    document.getElementById('hasilPulangan').textContent = '0.0%';
+    document.getElementById('projectionBody').innerHTML =
+      '<tr><td colspan="4" class="text-center py-8 text-muted">Sila masukkan tempoh pelaburan yang sah.</td></tr>';
+    return;
+  }
+
+  const yearlyDeposit = bulanan * 12;
+  const dividenDecimal = dividenRate / 100;
+  let baki = pokok;
+  let totalDividen = 0;
+  const rows = [];
+
+  for (let tahun = 1; tahun <= tempoh; tahun++) {
+    // Add yearly savings at start of year
+    baki += yearlyDeposit;
+    // Calculate dividend on full balance
+    const dividen = Math.round(baki * dividenDecimal * 100) / 100;
+    baki = Math.round((baki + (baki * dividenDecimal)) * 100) / 100;
+    totalDividen += dividen;
+
+    rows.push({
+      tahun,
+      simpanan: pokok + (yearlyDeposit * tahun),
+      dividen: totalDividen,
+      baki: baki,
+    });
+  }
+
+  const totalSimpanan = pokok + (yearlyDeposit * tempoh);
+
+  document.getElementById('hasilSimpanan').textContent = formatRM(totalSimpanan);
+  document.getElementById('hasilDividen').textContent = formatRM(totalDividen);
+  document.getElementById('hasilBaki').textContent = formatRM(baki);
+  document.getElementById('hasilPulangan').textContent = dividenRate.toFixed(2) + '%';
+  document.getElementById('hasilProjected').textContent = formatRM(baki);
+
+  // Table
+  const tbody = document.getElementById('projectionBody');
+  tbody.innerHTML = rows.map(r => {
+    const isLast = r.tahun === tempoh;
+    return `<tr class="${isLast ? 'font-bold bg-primary/5' : ''} border-b border-gray-50 dark:border-slate-800">
+      <td class="py-2.5 px-2">${r.tahun}</td>
+      <td class="text-right py-2.5 px-2">${formatRM(r.simpanan)}</td>
+      <td class="text-right py-2.5 px-2 text-emerald-600">${formatRM(r.dividen)}</td>
+      <td class="text-right py-2.5 px-2 text-primary">${formatRM(r.baki)}</td>
+    </tr>`;
+  }).join('');
+
+  // Scroll if many rows
+  if (tempoh > 30) {
+    tbody.style.maxHeight = '400px';
+    tbody.style.overflowY = 'auto';
+    tbody.style.display = 'block';
+  } else {
+    tbody.style.maxHeight = '';
+    tbody.style.overflowY = '';
+    tbody.style.display = '';
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  const inputs = ['pokok', 'bulanan', 'tempoh', 'dividen'];
+  inputs.forEach(id => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.addEventListener('input', calculate);
+      el.addEventListener('change', calculate);
+    }
+  });
+  calculate();
+});
+</script>

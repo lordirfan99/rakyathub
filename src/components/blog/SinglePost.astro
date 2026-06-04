@@ -87,8 +87,10 @@ const { post, url } = Astro.props;
         )
       }
     </header>
+    <!-- Article body with cross-linking -->
     <div
       class="mx-auto px-6 sm:px-6 max-w-3xl prose prose-md lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg mt-8 prose-headings:scroll-mt-[80px] prose-li:my-0"
+      id="article-body"
     >
       <slot />
     </div>
@@ -107,3 +109,72 @@ const { post, url } = Astro.props;
     </div>
   </article>
 </section>
+
+<script>
+// Cross-linking engine: injects contextual internal links into article text
+(function() {
+  const body = document.getElementById('article-body');
+  if (!body) return;
+
+  // Skip if user prefers reduced motion (accessibility)
+  const crossLinks = [
+    { word: 'KWSP', url: '/blog/', title: 'baca panduan KWSP', keywords: ['KWSP', 'caruman KWSP', 'pengeluaran KWSP'] },
+    { word: 'ASB', url: '/blog/', title: 'baca panduan ASB', keywords: ['ASB', 'dividen ASB', 'ASB loan', 'pelaburan ASB'] },
+    { word: 'Emas', url: '/blog/', title: 'panduan emas', keywords: ['Emas', 'harga emas', 'Public Gold', 'pelaburan emas'] },
+    { word: 'Bajet 50/30/20', url: '/cadangan-bajet-50-30-20-di-malaysia/', title: 'panduan bajet 50/30/20', keywords: ['bajet 50/30/20', '50 30 20'] },
+    { word: 'Pelaburan', url: '/blog/', title: 'panduan pelaburan', keywords: ['pelaburan', 'DCA', 'lump sum', 'robo-advisor'] },
+    { word: 'Bantuan Kerajaan', url: '/blog/', title: 'bantuan kerajaan', keywords: ['bantuan kerajaan', 'subsidi', 'STR', 'SARA'] },
+    { word: 'Loan Rumah', url: '/kalkulator/loan-rumah', title: 'kira loan rumah', keywords: ['loan rumah', 'pinjaman rumah'] },
+    { word: 'Kereta', url: '/kalkulator/kereta', title: 'kira kereta', keywords: ['kereta', 'ansuran kereta', 'loan kereta'] },
+  ];
+
+  // Process text nodes only (skip <a>, <code>, <script>)
+  function walkTextNodes(node, callback) {
+    if (node.nodeType === Node.TEXT_NODE) {
+      callback(node);
+    } else if (node.nodeType === Node.ELEMENT_NODE) {
+      var tag = node.tagName.toLowerCase();
+      if (tag === 'a' || tag === 'code' || tag === 'pre' || tag === 'script' || tag === 'style') return;
+      var children = Array.prototype.slice.call(node.childNodes);
+      for (var i = 0; i < children.length; i++) {
+        walkTextNodes(children[i], callback);
+      }
+    }
+  }
+
+  var linkCount = 0;
+  var MAX_LINKS = 2;
+
+  for (var l = 0; l < crossLinks.length; l++) {
+    if (linkCount >= MAX_LINKS) break;
+    var link = crossLinks[l];
+
+    walkTextNodes(body, function(textNode) {
+      if (linkCount >= MAX_LINKS) return;
+
+      var text = textNode.textContent || '';
+      var idx = text.toLowerCase().indexOf(link.word.toLowerCase());
+      if (idx === -1) return;
+
+      linkCount++;
+      var before = text.slice(0, idx);
+      var matched = text.slice(idx, idx + link.word.length);
+      var after = text.slice(idx + link.word.length);
+
+      var linkEl = document.createElement('a');
+      linkEl.href = link.url;
+      linkEl.className = 'text-primary dark:text-blue-400 hover:underline font-medium';
+      linkEl.title = link.title;
+      linkEl.target = '_self';
+      linkEl.textContent = matched;
+
+      var fragment = document.createDocumentFragment();
+      fragment.appendChild(document.createTextNode(before));
+      fragment.appendChild(linkEl);
+      fragment.appendChild(document.createTextNode(after));
+
+      textNode.parentNode.replaceChild(fragment, textNode);
+    });
+  }
+})();
+</script>
