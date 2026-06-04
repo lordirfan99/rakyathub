@@ -2,22 +2,31 @@
 import Layout from '~/layouts/Layout.astro';
 import { getHomePermalink } from '~/utils/permalinks';
 
-const title = `Error 404`;
+const title = `Halaman Tidak Dijumpai — RakyatHub`;
 ---
 
-<Layout metadata={{ title }}>
+<Layout metadata={{ title, robots: { index: false, follow: false } }}>
   <section class="flex items-center h-full p-16">
     <div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
       <div class="max-w-md text-center">
         <h2 class="mb-8 font-bold text-9xl">
-          <span class="sr-only">Error</span>
+          <span class="sr-only">Ralat</span>
           <span class="text-primary">404</span>
         </h2>
-        <p class="text-3xl font-semibold md:text-3xl">Sorry, we couldn't find this page.</p>
-        <p class="mt-4 mb-8 text-lg text-muted dark:text-slate-400">
-          But don't worry, you can find plenty of other things on our homepage.
+        <p class="text-2xl font-semibold md:text-3xl">Maaf, halaman ini tidak dijumpai.</p>
+        <p class="mt-4 mb-6 text-lg text-muted dark:text-slate-400">
+          Mungkin halaman telah dipindah atau dialihkan. Cuba pautan di bawah:
         </p>
-        <a rel="noopener noreferrer" href={getHomePermalink()} class="btn ml-4">Back to homepage</a>
+        <div class="flex flex-col gap-3 sm:flex-row sm:justify-center">
+          <a rel="noopener noreferrer" href={getHomePermalink()} class="btn btn-primary">Laman Utama</a>
+          <a href="/blog/" class="btn btn-secondary">Blog</a>
+          <a href="/kalkulator/kwsp/" class="btn btn-secondary">Kalkulator</a>
+        </div>
+        <div class="mt-6 pt-6 border-t border-gray-200 dark:border-slate-700">
+          <p class="text-sm text-muted dark:text-slate-400">
+            Perlu buat dokumen? Cuba <a href="https://docukilat.netlify.app" class="text-primary hover:underline font-medium">DocuKilat</a> — penjana surat rasmi, invois &amp; resume percuma.
+          </p>
+        </div>
       </div>
     </div>
   </section>
