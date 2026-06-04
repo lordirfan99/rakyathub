@@ -5,7 +5,7 @@ excerpt: 'Bantuan Tunai RM100 & RON95 Turun
 
   📉 Info Bantuan RM100'
 category: KWSP
-image: /images/default.svg
+image: "https://images.unsplash.com/photo-1601598851515-5df5c39dab2e"
 tags:
 - kwsp
 author: RakyatHub

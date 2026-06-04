@@ -7,7 +7,7 @@ excerpt: "Cara Urus Duit Gaji Bawah RM3000 Sebulan (Panduan 2025)
 
 Dengan kos sara hidup yang menin"
 category: "KWSP"
-image: "/images/urus-duit-gaji.svg"
+image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f"
 tags:
   - "kwsp"
 author: "RakyatHub"

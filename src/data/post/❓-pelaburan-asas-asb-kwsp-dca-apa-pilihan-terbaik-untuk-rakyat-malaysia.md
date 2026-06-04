@@ -3,7 +3,7 @@ publishDate: 2025-07-31
 title: 'Pelaburan Asas Malaysia: ASB, KWSP, DCA – Apa Pilihan Terbaik Untuk Anda?'
 excerpt: 'Baru nak mula melabur? Bandingkan ASB, KWSP dan DCA — kelebihan, risiko dan cara terbaik gabungkan ketiga-tiga instrumen untuk bina kekayaan jangka panjang.'
 category: Kewangan
-image: /images/default.svg
+image: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e"
 tags:
 - kewangan
 - kwsp

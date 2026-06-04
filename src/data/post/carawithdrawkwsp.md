@@ -7,6 +7,7 @@ excerpt: "Cara Buat Pengeluaran KWSP Tahun 2025 (Online & Dokumen Diperlukan)
 
 Ramai rakyat Malaysia tertan"
 category: "KWSP"
+image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2"
 tags:
   - "kwsp"
 author: "RakyatHub"

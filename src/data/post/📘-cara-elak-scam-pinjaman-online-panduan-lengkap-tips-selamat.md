@@ -7,7 +7,7 @@ excerpt: "📘 Cara Elak Scam Pinjaman Online: Panduan Lengkap & Tips Selamat
 
 Pinjaman online s"
 category: "Kerajaan"
-image: "/images/scam-pinjaman.svg"
+image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b"
 tags:
   - "kerajaan"
 author: "RakyatHub"

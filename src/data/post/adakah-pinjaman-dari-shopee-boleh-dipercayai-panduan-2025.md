@@ -7,7 +7,7 @@ excerpt: "Adakah Pinjaman Dari Shopee Boleh Dipercayai? - Panduan 2025
 
 Shopee bukan sah"
 category: "KWSP"
-image: "/images/shopee-pinjaman.svg"
+image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3"
 tags:
   - "kwsp"
 author: "RakyatHub"

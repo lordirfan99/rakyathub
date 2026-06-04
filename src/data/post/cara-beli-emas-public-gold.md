@@ -7,7 +7,7 @@ excerpt: "Cara Beli Emas GAP Public Gold (Panduan Lengkap 2025)
 
 Panduan ringkas dan mesra penggun"
 category: "KWSP"
-image: "/images/emas-public-gold.svg"
+image: "https://images.unsplash.com/photo-1610375461246-83df859d849d"
 tags:
   - "kwsp"
 author: "RakyatHub"

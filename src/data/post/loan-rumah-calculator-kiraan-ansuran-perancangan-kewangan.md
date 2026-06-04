@@ -7,7 +7,7 @@ excerpt: "🔢 Loan Rumah Calculator: Kiraan Ansuran & Perancangan Kewangan
 
 Loan Rumah Calculator me"
 category: "Kewangan"
-image: "/images/loan-rumah.svg"
+image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa"
 tags:
   - "kewangan"
 author: "RakyatHub"
