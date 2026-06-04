@@ -2,10 +2,6 @@
 publishDate: 2025-07-13
 title: "Cara Buat Pengeluaran KWSP: Panduan Lengkap 2025"
 excerpt: "Panduan lengkap buat pengeluaran KWSP secara online 2025. Cara mohon pengeluaran Akaun 2 dan Akaun Fleksibel, dokumen diperlukan dan tips elak ditolak."
-
- 🏦 Cara Buat Pengeluaran KWSP: Panduan Lengkap 2025
-
-Ramai rakyat Malaysia tertan"
 category: "KWSP"
 image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2"
 tags:

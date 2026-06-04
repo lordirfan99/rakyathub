@@ -2,10 +2,6 @@
 publishDate: 2025-07-22
 title: "💰7 Kelebihan Simpanan ASB – Pelaburan Bijak &amp; Pulangan Konsisten yang pasti korang tak tahu!"
 excerpt: "7 kelebihan simpanan ASB yang korang kena tahu — dividen konsisten, modal terjamin, dan tips maksimumkan pulangan pelaburan untuk orang muda Malaysia."
-
- 💰 Kelebihan Simpanan ASB – Pelaburan Bijak & Pulangan Konsisten
-
-Amanah Saham"
 category: "KWSP"
 image: "https://images.unsplash.com/photo-1579621970795-87facc2f976d"
 tags:

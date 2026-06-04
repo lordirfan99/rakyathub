@@ -2,12 +2,6 @@
 publishDate: 2025-07-14
 title: Semakan Saman Jpj Pdrm
 excerpt: "Panduan lengkap semak saman JPJ dan PDRM online 2025. Guna MyBayar Saman, JPJ e-JAIP, dan aplikasi mudah alih. Jimat masa dan elak kompaun."
-
- 🚨 Semakan Saman JPJ & PDRM 2025
-
-Cara Mudah & Sah Semak Saman Trafik Anda Secara Online
-
-Ramai"
 category: "KWSP"
 image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957"
 tags:

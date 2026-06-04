@@ -2,8 +2,6 @@
 publishDate: 2025-07-23
 title: Cara Semak Baki KWSP Online Tanpa Pergi Kaunter (2025 Panduan Lengkap)
 excerpt: "Panduan lengkap semak baki KWSP online tanpa pergi kaunter — guna kaedah i-Akaun, SMS, ATM, dan Pejabat KWSP. Tips terkini 2025."
-
- 📱 Cara Semak Baki KWSP Online Tanpa Pergi Kaunter (2025 Panduan Lengkap)"
 category: "KWSP"
 image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c"
 tags:

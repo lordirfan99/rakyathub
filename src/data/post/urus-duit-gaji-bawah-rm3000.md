@@ -2,10 +2,6 @@
 publishDate: 2025-07-18
 title: Cara Urus Duit Gaji Bawah RM3000 Sebulan (Panduan 2025)
 excerpt: "Panduan praktikal urus duit gaji bawah RM3000 sebulan — guna kaedah 50/30/20, bajet bulanan, dan tips simpan untuk capai kestabilan kewangan."
-
- 💸 Cara Urus Duit Gaji Bawah RM3000 Sebulan (Panduan 2025)
-
-Dengan kos sara hidup yang menin"
 category: "KWSP"
 image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f"
 tags:
