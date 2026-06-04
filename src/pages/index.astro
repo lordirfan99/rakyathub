@@ -3,10 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
 import Features from '~/components/widgets/Features.astro';
-import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
-import Stats from '~/components/widgets/Stats.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Brands from '~/components/widgets/Brands.astro';
 
@@ -17,7 +14,7 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
+  <!-- Hero — clean, like DocuKilat -->
   <Hero
     actions={[
       {
@@ -25,35 +22,32 @@ const metadata = {
         text: 'Teroka Kalkulator',
         href: '#kalkulator',
       },
-      { text: 'Baca Blog', href: '/blog/' },
+      {
+        variant: 'secondary',
+        text: 'Baca Blog',
+        href: '/blog/',
+      },
     ]}
   >
     <Fragment slot="bg">
       <div class="hero-gradient"></div>
-      <div class="hero-orb"></div>
-      <div class="hero-orb"></div>
-      <div class="hero-orb"></div>
     </Fragment>
     <Fragment slot="title">
-      <span class="text-white"> RakyatHub</span> — Jawapan Kepada Soalan Kewangan Anda
+      RakyatHub — Panduan <span class="text-amber-300">Kewangan</span> Rakyat Malaysia
     </Fragment>
 
     <Fragment slot="subtitle">
-      <span class="hidden sm:inline">
-        Panduan lengkap tentang <span class="font-semibold">KWSP, ASB, emas, bantuan kerajaan</span> dan
-        pelaburan untuk rakyat Malaysia.
-      </span>
-      <span class="block mb-1 sm:hidden font-bold text-amber-300">Kewangan. Pelaburan. Kerajaan.</span>
-      Kami bantu anda buat keputusan kewangan yang lebih bijak.
+        Panduan lengkap KWSP, ASB, emas, bantuan kerajaan dan pelaburan.
+        Semua percuma, semua dalam Bahasa Malaysia.
     </Fragment>
   </Hero>
 
-  <!-- Kalkulator Features Widget ******* -->
+  <!-- Kalkulator Features — clean grid -->
   <Features
     id="kalkulator"
     tagline="Kalkulator Percuma"
     title="Alat Kewangan Untuk Rakyat Malaysia"
-    subtitle="Guna kalkulator interaktif kami untuk kira simpanan KWSP, dividen ASB, harga emas, dan ansuran kereta dengan pantas."
+    subtitle="Guna kalkulator interaktif untuk kira simpanan KWSP, dividen ASB, harga emas, dan ansuran kereta."
     items={[
       {
         title: 'Kalkulator KWSP',
@@ -80,7 +74,7 @@ const metadata = {
       {
         title: 'Kalkulator Emas',
         description:
-          'Semak harga emas harian, spread, dan beza harga Public Gold vs kedai emas di Malaysia.',
+          'Semak harga emas harian, spread, dan beza harga Public Gold vs kedai emas.',
         icon: 'tabler:coins',
         callToAction: {
           text: 'Kira Sekarang',
@@ -102,74 +96,30 @@ const metadata = {
     ]}
   />
 
-  <!-- Content Widget Why RakyatHub -->
-  <Content
-    isReversed
-    tagline="Kenapa RakyatHub?"
-    title="Kewangan Anda, Dipermudahkan"
-    items={[
-      {
-        title: 'Informasi Terkini',
-        description:
-          'Kami sentiasa mengemas kini maklumat tentang dasar kerajaan, bantuan kewangan, dan peluang pelaburan yang relevan untuk rakyat Malaysia.',
-      },
-      {
-        title: 'Kalkulator Interaktif',
-        description:
-          'Alat kiraan pantas untuk KWSP, ASB, emas dan kereta — semuanya percuma tanpa perlu daftar.',
-      },
-      {
-        title: '100% Bahasa Malaysia',
-        description:
-          'Semua kandungan ditulis dalam Bahasa Malaysia yang mudah difahami, tanpa jargon yang mengelirukan.',
-      },
-    ]}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Platform kewangan untuk semua rakyat Malaysia</h3>
-      Kami percaya ilmu kewangan patut diakses oleh semua orang — secara percuma.
-    </Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-gradient-to-br from-amber-50/50 to-emerald-50/50 dark:from-transparent dark:to-transparent"></div>
-    </Fragment>
-  </Content>
-
   <!-- Blog Latest Posts -->
   <BlogLatestPosts
     title="Artikel Terkini"
     information="Baca panduan dan tips kewangan terkini untuk rakyat Malaysia."
   />
 
-  <!-- Stats Widget ****************** -->
-  <Stats
-    tagline="Statistik"
-    title="RakyatHub Dalam Angka"
-    stats={[
-      { title: 'Kalkulator', amount: '4+' },
-      { title: 'Artikel', amount: '22+' },
-      { title: 'Pengunjung', amount: '1K+' },
-      { title: 'Alat Dokumen', amount: '33+' },
-    ]}
-  />
-
-  <!-- CallToAction Widget *********** -->
+  <!-- Cross-sell: DocuKilat CTA -->
   <CallToAction
     actions={[
       {
         variant: 'primary',
-        text: 'Langgan Percuma',
-        href: '#',
-        icon: 'tabler:bell',
+        text: 'Bina Dokumen di DocuKilat',
+        href: 'https://docukilat.netlify.app',
+        icon: 'tabler:file-text',
       },
     ]}
   >
     <Fragment slot="title">
-      Nak Tips Kewangan Terus ke{' '}<br class="block sm:hidden" />E-mel Anda?
+      Perlu Surat Rasmi, Invois atau Resume?
     </Fragment>
 
     <Fragment slot="subtitle">
-      Dapatkan notifikasi tentang artikel baru, kemas kini bantuan kerajaan, dan tips pelaburan. <br class="hidden md:inline" />Percuma, tak ada spam.
+      Gunakan DocuKilat — platform penjanaan dokumen AI dengan 26 template percuma. 
+      Surat rasmi, invois premium, resume dan banyak lagi.
     </Fragment>
   </CallToAction>
 </Layout>
