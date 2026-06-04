@@ -22,7 +22,7 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
 ---
 
 <article
-  class={`max-w-4xl mx-auto grid gap-6 md:gap-8 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade card-hover bg-white dark:bg-slate-800/30 rounded-xl border border-gray-100 dark:border-slate-700/30 overflow-hidden ${image ? 'md:grid-cols-2' : ''}`}
+  class={`max-w-4xl mx-auto grid gap-6 md:gap-8 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade card-hover card-border-glow bg-white dark:bg-slate-800/30 rounded-xl border border-gray-100 dark:border-slate-700/30 overflow-hidden ${image ? 'md:grid-cols-2' : ''}`}
 >
   {
     image && (

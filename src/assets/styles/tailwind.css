@@ -21,14 +21,25 @@
 
   --animate-fade: fadeInUp 0.8s both;
   --animate-fade-in: fadeIn 0.6s both;
+  --animate-fade-in-up: fadeInUp 0.7s both;
+  --animate-fade-in-down: fadeInDown 0.7s both;
+  --animate-scale-in: scaleIn 0.5s ease-out both;
 
   @keyframes fadeInUp {
     0% { opacity: 0; transform: translateY(2rem); }
     100% { opacity: 1; transform: translateY(0); }
   }
+  @keyframes fadeInDown {
+    0% { opacity: 0; transform: translateY(-1.5rem); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
   @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
+  }
+  @keyframes scaleIn {
+    0% { opacity: 0; transform: scale(0.95); }
+    100% { opacity: 1; transform: scale(1); }
   }
 }
 
@@ -202,13 +213,35 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 .card-hover:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+  transform: translateY(-6px);
+  box-shadow: 0 16px 48px rgba(30, 64, 175, 0.10);
   border-color: #2563eb;
 }
 .dark .card-hover:hover {
-  box-shadow: 0 12px 40px rgba(0,0,0,0.35);
+  box-shadow: 0 16px 48px rgba(59, 130, 246, 0.15);
   border-color: #3b82f6;
+}
+
+/* Premium border accent glow on hover */
+.card-border-glow {
+  position: relative;
+}
+.card-border-glow::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 2px solid transparent;
+  background: linear-gradient(135deg, #2563eb, #1e40af) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+.card-border-glow:hover::after {
+  opacity: 1;
 }
 
 /* ========== TEXT CLAMPING ========== */
@@ -257,4 +290,42 @@
 /* ========== SMOOTH SCROLL ========== */
 html {
   scroll-behavior: smooth;
+}
+
+/* ========== STAGGERED ANIMATION DELAYS ========== */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+
+/* ========== REDUCED MOTION SAFEGUARD ========== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .card-hover:hover {
+    transform: none !important;
+  }
+  .card-border-glow::after {
+    opacity: 0 !important;
+  }
+}
+
+/* ========== SKELETON SHIMMER ENHANCED ========== */
+@keyframes shimmer-slide {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.skeleton-enhanced {
+  background: linear-gradient(90deg, #e2e8f0 25%, #f8fafc 50%, #e2e8f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer-slide 1.8s ease-in-out infinite;
+  border-radius: 0.5rem;
+}
+.dark .skeleton-enhanced {
+  background: linear-gradient(90deg, #1e293b 25%, #334155 50%, #1e293b 75%);
 }

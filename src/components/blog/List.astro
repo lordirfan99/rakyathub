@@ -11,9 +11,11 @@ const { posts } = Astro.props;
 
 <ul>
   {
-    posts.map((post) => (
+    posts.map((post, index) => (
       <li class="mb-12 md:mb-20">
-        <Item post={post} />
+        <div class:list={['animate-fade-in-up', `delay-${Math.min((index + 1) * 100, 500)}`]}>
+          <Item post={post} />
+        </div>
       </li>
     ))
   }

@@ -10,5 +10,9 @@ const { posts } = Astro.props;
 ---
 
 <div class="grid gap-6 row-gap-5 sm:grid-cols-2 lg:grid-cols-3">
-  {posts.map((post) => <Item post={post} />)}
+  {posts.map((post, index) => (
+    <div class:list={['animate-fade-in-up', `delay-${Math.min((index + 1) * 100, 500)}`]}>
+      <Item post={post} />
+    </div>
+  ))}
 </div>
