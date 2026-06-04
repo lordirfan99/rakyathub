@@ -116,16 +116,15 @@ const { post, url } = Astro.props;
   const body = document.getElementById('article-body');
   if (!body) return;
 
-  // Skip if user prefers reduced motion (accessibility)
   const crossLinks = [
-    { word: 'KWSP', url: '/blog/', title: 'baca panduan KWSP', keywords: ['KWSP', 'caruman KWSP', 'pengeluaran KWSP'] },
-    { word: 'ASB', url: '/blog/', title: 'baca panduan ASB', keywords: ['ASB', 'dividen ASB', 'ASB loan', 'pelaburan ASB'] },
-    { word: 'Emas', url: '/blog/', title: 'panduan emas', keywords: ['Emas', 'harga emas', 'Public Gold', 'pelaburan emas'] },
-    { word: 'Bajet 50/30/20', url: '/cadangan-bajet-50-30-20-di-malaysia/', title: 'panduan bajet 50/30/20', keywords: ['bajet 50/30/20', '50 30 20'] },
-    { word: 'Pelaburan', url: '/blog/', title: 'panduan pelaburan', keywords: ['pelaburan', 'DCA', 'lump sum', 'robo-advisor'] },
-    { word: 'Bantuan Kerajaan', url: '/blog/', title: 'bantuan kerajaan', keywords: ['bantuan kerajaan', 'subsidi', 'STR', 'SARA'] },
-    { word: 'Loan Rumah', url: '/kalkulator/loan-rumah', title: 'kira loan rumah', keywords: ['loan rumah', 'pinjaman rumah'] },
-    { word: 'Kereta', url: '/kalkulator/kereta', title: 'kira kereta', keywords: ['kereta', 'ansuran kereta', 'loan kereta'] },
+    { word: 'KWSP', url: '/cara-semak-baki-kwsp-online-tanpa-pergi-kaunter-2025-panduan-lengkap/', title: 'cara semak baki KWSP online 2025' },
+    { word: 'ASB', url: '/7-kelebihan-simpanan-asb-pelaburan-bijak-pulangan-konsisten-yang-pasti-korang-tak-tahu/', title: '7 kelebihan simpanan ASB' },
+    { word: 'Emas', url: '/cara-beli-emas-public-gold/', title: 'cara beli emas Public Gold' },
+    { word: 'Bajet 50/30/20', url: '/cadangan-bajet-50-30-20-di-malaysia/', title: 'panduan bajet 50/30/20 di Malaysia' },
+    { word: 'Pelaburan', url: '/strategi-dca-vs-lump-sum-pilihan-pelaburan-bijak-untuk-orang-muda/', title: 'strategi DCA vs Lump Sum untuk orang muda' },
+    { word: 'Bantuan Kerajaan', url: '/info-bantuan-rm100-mykad-subsidi-ron95-kemas-kini-rakyathub/', title: 'info bantuan RM100 MyKad & subsidi RON95' },
+    { word: 'Loan Rumah', url: '/kalkulator/loan-rumah/', title: 'kalkulator loan rumah' },
+    { word: 'Kereta', url: '/kalkulator/kereta/', title: 'kalkulator ansuran kereta' },
   ];
 
   // Process text nodes only (skip <a>, <code>, <script>)

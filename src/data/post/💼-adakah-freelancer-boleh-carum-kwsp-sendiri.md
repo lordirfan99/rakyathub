@@ -3,7 +3,7 @@ publishDate: 2025-07-20
 title: 💼 Adakah Freelancer Boleh Carum KWSP Sendiri?
 excerpt: 💼 Adakah Freelancer Boleh Carum KWSP Sendiri?
 category: KWSP
-image: /_astro/default.CZ816Hke_Z20CwEO.jpg
+image: /images/default.png
 tags:
 - kwsp
 author: RakyatHub

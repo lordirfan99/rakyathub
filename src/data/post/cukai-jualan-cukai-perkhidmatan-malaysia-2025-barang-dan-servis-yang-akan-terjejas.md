@@ -1,21 +1,15 @@
 ---
 publishDate: 2025-07-18
 title: "Cukai Jualan & Cukai Perkhidmatan Malaysia 2025: Barang dan Servis Yang Akan Terjejas"
-excerpt: "Cukai Jualan & Cukai Perkhidmatan Malaysia 2025: Barang dan Servis Yang Akan Terjejas 
-
- 📢 Cukai Jualan & Cukai Perkhidmatan Malaysia 2025: Barang dan"
+excerpt: "SST Malaysia 2025 — kadar cukai perkhidmatan naik dari 6% ke 8% bermula Julai 2025. Ketahui barang dan servis yang terjejas serta cara sesuaikan perbelanjaan anda."
 category: "Kerajaan"
-image: "https://i.ibb.co/Y4cdQHVk/1-4.png"
+image: "/images/default.png"
 tags:
   - "kerajaan"
 author: "RakyatHub"
 ---
 
-Cukai Jualan & Cukai Perkhidmatan Malaysia 2025: Barang dan Servis Yang Akan Terjejas 
-
 # 📢 Cukai Jualan & Cukai Perkhidmatan Malaysia 2025: Barang dan Servis Yang Akan Terjejas
-
-[](https://ibb.co/zWX2xqtR)
 
 Cukai Jualan dan Cukai Perkhidmatan (SST) kembali mendapat perhatian rakyat Malaysia pada tahun 2025 selepas pengumuman kerajaan mengenai **pengubahsuaian kadar dan liputan SST** bermula 1 Julai 2025. Dalam artikel ini, kami akan terangkan secara menyeluruh apa itu cukai jualan dan cukai perkhidmatan, perbezaannya, barang dan servis yang akan terjejas, serta tips untuk rakyat menyesuaikan perbelanjaan.
 
@@ -60,7 +54,8 @@ Walaupun SST lebih terhad dari segi liputan berbanding GST (yang dimansuhkan pad
 - Gunakan servis bebas cukai jika ada pilihan.
 - Kurangkan langganan digital tidak perlu.
 - Pilih barang buatan tempatan yang tidak dicukai.
-- Mohon bantuan kerajaan seperti STR untuk kurangkan beban kos sara hidup.
+- Mohon bantuan kerajaan seperti STR atau [bantuan SARA RM100](/tebus-bantuan-sara-rm100-guna-ic-pengumuman-pagi-ini-23-julai-2025/) untuk kurangkan beban kos sara hidup.
+- Urus belanja lebih bijak dengan [panduan bajet 50/30/20](/cadangan-bajet-50-30-20-di-malaysia/) untuk kekal dalam kawalan kewangan walaupun harga naik.
 
 ## 🗓️ Adakah SST Akan Berubah Lagi?
 

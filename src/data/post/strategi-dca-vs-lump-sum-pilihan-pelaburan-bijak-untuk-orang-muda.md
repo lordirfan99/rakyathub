@@ -3,7 +3,7 @@ publishDate: 2025-07-21
 title: '📊 Strategi DCA vs Lump Sum: Pilihan Pelaburan Bijak untuk Orang Muda'
 excerpt: '📊 Strategi DCA vs Lump Sum: Pilihan Pelabur'
 category: KWSP
-image: /_astro/default.CZ816Hke_Z20CwEO.jpg
+image: /images/default.png
 tags:
 - kwsp
 author: RakyatHub
