@@ -53,7 +53,7 @@ export const headerData = {
     },
   ],
   actions: [
-    { text: 'Cuba Kalkulator', href: getPermalink('/kalkulator/kwsp'), variant: 'primary' },
+    { text: 'Cuba Kalkulator', href: getPermalink('/kalkulator/kwsp'), variant: 'primary' as const },
   ],
 };
 
