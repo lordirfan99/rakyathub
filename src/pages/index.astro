@@ -28,8 +28,14 @@ const metadata = {
       { text: 'Baca Blog', href: '/blog/' },
     ]}
   >
+    <Fragment slot="bg">
+      <div class="hero-gradient"></div>
+      <div class="hero-orb"></div>
+      <div class="hero-orb"></div>
+      <div class="hero-orb"></div>
+    </Fragment>
     <Fragment slot="title">
-      <span class="text-accent dark:text-white"> RakyatHub</span> — Jawapan Kepada Soalan Kewangan Anda
+      <span class="text-accent dark:text-amber-400"> RakyatHub</span> — Jawapan Kepada Soalan Kewangan Anda
     </Fragment>
 
     <Fragment slot="subtitle">
@@ -141,7 +147,7 @@ const metadata = {
     title="RakyatHub Dalam Angka"
     stats={[
       { title: 'Kalkulator', amount: '4+' },
-      { title: 'Artikel', amount: '20+' },
+      { title: 'Artikel', amount: '22+' },
       { title: 'Pengunjung', amount: '1K+' },
       { title: 'Alat Dokumen', amount: '33+' },
     ]}

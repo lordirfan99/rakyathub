@@ -17,7 +17,7 @@ import '@fontsource-variable/inter';
     --aw-color-text-muted: rgb(100 116 139);
     --aw-color-bg-page: rgb(255 255 255);
 
-    --aw-color-bg-page-dark: rgb(2 6 23);
+    --aw-color-bg-page-dark: rgb(3 7 18);
 
     ::selection {
       background-color: rgb(245 158 11 / 20%);
@@ -29,17 +29,98 @@ import '@fontsource-variable/inter';
     --aw-font-serif: 'Inter Variable';
     --aw-font-heading: 'Inter Variable';
 
-    --aw-color-primary: rgb(245 158 11);
-    --aw-color-secondary: rgb(251 191 36);
-    --aw-color-accent: rgb(16 185 129);
+    --aw-color-primary: rgb(251 191 36);
+    --aw-color-secondary: rgb(245 158 11);
+    --aw-color-accent: rgb(52 211 153);
 
     --aw-color-text-heading: rgb(248 250 252);
     --aw-color-text-default: rgb(203 213 225);
     --aw-color-text-muted: rgb(148 163 184);
-    --aw-color-bg-page: rgb(2 6 23);
+    --aw-color-bg-page: rgb(3 7 18);
 
     ::selection {
-      background-color: rgb(245 158 11 / 30%);
+      background-color: rgb(251 191 36 / 25%);
     }
+  }
+
+  /* Smooth scroll */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Hero gradient animation */
+  .hero-gradient {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+  }
+  .hero-gradient::before {
+    content: '';
+    position: absolute;
+    inset: -50%;
+    background: radial-gradient(ellipse at 30% 50%, rgba(245, 158, 11, 0.08) 0%, transparent 60%),
+                radial-gradient(ellipse at 70% 20%, rgba(16, 185, 129, 0.06) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 80%, rgba(59, 130, 246, 0.05) 0%, transparent 50%);
+    animation: shimmer 12s ease-in-out infinite alternate;
+  }
+  .dark .hero-gradient::before {
+    background: radial-gradient(ellipse at 30% 50%, rgba(251, 191, 36, 0.12) 0%, transparent 60%),
+                radial-gradient(ellipse at 70% 20%, rgba(52, 211, 153, 0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 80%, rgba(96, 165, 250, 0.06) 0%, transparent 50%);
+  }
+  @keyframes shimmer {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(5%, -5%); }
+    50% { transform: translate(-3%, 3%); }
+    75% { transform: translate(5%, 5%); }
+    100% { transform: translate(-5%, -3%); }
+  }
+
+  /* Floating orbs */
+  .hero-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.3;
+    pointer-events: none;
+  }
+  .hero-orb:nth-child(1) {
+    width: 300px;
+    height: 300px;
+    background: rgba(245, 158, 11, 0.15);
+    top: 10%;
+    left: 5%;
+    animation: float 8s ease-in-out infinite;
+  }
+  .hero-orb:nth-child(2) {
+    width: 200px;
+    height: 200px;
+    background: rgba(16, 185, 129, 0.12);
+    bottom: 20%;
+    right: 10%;
+    animation: float 6s ease-in-out infinite reverse;
+  }
+  .hero-orb:nth-child(3) {
+    width: 150px;
+    height: 150px;
+    background: rgba(59, 130, 246, 0.1);
+    top: 40%;
+    left: 60%;
+    animation: float 7s ease-in-out infinite 2s;
+  }
+  .dark .hero-orb:nth-child(1) {
+    background: rgba(251, 191, 36, 0.2);
+  }
+  .dark .hero-orb:nth-child(2) {
+    background: rgba(52, 211, 153, 0.15);
+  }
+  .dark .hero-orb:nth-child(3) {
+    background: rgba(96, 165, 250, 0.12);
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px) scale(1); }
+    50% { transform: translateY(-30px) scale(1.05); }
   }
 </style>
