@@ -234,16 +234,10 @@ function calculate() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  const inputs = ['pokok', 'bulanan', 'tempoh', 'dividen'];
-  inputs.forEach(id => {
-    const el = document.getElementById(id);
-    if (el) {
-      el.addEventListener('input', calculate);
-      el.addEventListener('change', calculate);
-    }
-  });
-  calculate();
+['pokok', 'bulanan', 'tempoh', 'dividen'].forEach(function(id) {
+  var el = document.getElementById(id);
+  if (el) { el.addEventListener('input', calculate); el.addEventListener('change', calculate); }
 });
+calculate();
 </script>
 </Layout>

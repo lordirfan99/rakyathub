@@ -293,20 +293,14 @@ function calc() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  // Tab switching
-  document.getElementById('tabPendapatan').addEventListener('click', function() { switchTab('pendapatan'); });
-  document.getElementById('tabSimpanan').addEventListener('click', function() { switchTab('simpanan'); });
-  document.getElementById('tabEmas').addEventListener('click', function() { switchTab('emas'); });
+document.getElementById('tabPendapatan').addEventListener('click', function() { switchTab('pendapatan'); });
+document.getElementById('tabSimpanan').addEventListener('click', function() { switchTab('simpanan'); });
+document.getElementById('tabEmas').addEventListener('click', function() { switchTab('emas'); });
 
-  // Input events
-  var allInputs = ['hargaEmas','gajiTahunan','kwspPekerja','bakiSimpanan','tempohSimpan','gramEmas','gramPakai'];
-  allInputs.forEach(function(id) {
-    var el = document.getElementById(id);
-    if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
-  });
-
-  calc();
+['hargaEmas','gajiTahunan','kwspPekerja','bakiSimpanan','tempohSimpan','gramEmas','gramPakai'].forEach(function(id) {
+  var el = document.getElementById(id);
+  if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
 });
+calc();
 </script>
 </Layout>

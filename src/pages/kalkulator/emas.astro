@@ -217,12 +217,10 @@ function calc() {
   document.getElementById('rujKedaiJual').textContent = fmt(harga * (1 - spreadKedai/100));
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  ['harga','berat','spread','spreadKedai'].forEach(function(id) {
-    var el = document.getElementById(id);
-    if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
-  });
-  calc();
+['harga','berat','spread','spreadKedai'].forEach(function(id) {
+  var el = document.getElementById(id);
+  if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
 });
+calc();
 </script>
 </Layout>

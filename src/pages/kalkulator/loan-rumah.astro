@@ -271,12 +271,10 @@ function calc() {
   else { tbody.style.maxHeight = ''; tbody.style.overflowY = ''; tbody.style.display = ''; }
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  ['harga','dp','interest','tempoh','gaji','komitmen'].forEach(function(id) {
-    var el = document.getElementById(id);
-    if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
-  });
-  calc();
+['harga','dp','interest','tempoh','gaji','komitmen'].forEach(function(id) {
+  var el = document.getElementById(id);
+  if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
 });
+calc();
 </script>
 </Layout>

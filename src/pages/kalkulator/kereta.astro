@@ -206,12 +206,10 @@ function calc() {
   tbody.innerHTML = rows.join('');
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  ['harga','dp','interest','tempoh'].forEach(function(id) {
-    var el = document.getElementById(id);
-    if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
-  });
-  calc();
+['harga','dp','interest','tempoh'].forEach(function(id) {
+  var el = document.getElementById(id);
+  if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
 });
+calc();
 </script>
 </Layout>
