@@ -199,18 +199,19 @@ function formatRM(val) {
   return 'RM ' + val.toLocaleString('ms-MY', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
-function safeNum(val, def = 0) {
+function safeNum(val, def = 0, min = 0, max = 1e9) {
   const n = parseFloat(val);
-  return (!isNaN(n) && isFinite(n) && n >= 0) ? n : def;
+  if (!isNaN(n) && isFinite(n) && n >= min) return Math.min(n, max);
+  return def;
 }
 
 function calculate() {
-  const gaji = safeNum(document.getElementById('gaji').value);
-  const ratePekerja = safeNum(document.getElementById('pekerja').value, 11);
-  const rateMajikan = safeNum(document.getElementById('majikan').value, 12);
-  const umurSkrg = safeNum(document.getElementById('umurSekarang').value, 25);
-  const umurPsrn = safeNum(document.getElementById('umurPersaraan').value, 60);
-  const dividenRate = safeNum(document.getElementById('dividen').value, 5);
+  const gaji = safeNum(document.getElementById('gaji').value, 0, 0, 1e7);
+  const ratePekerja = safeNum(document.getElementById('pekerja').value, 11, 0, 100);
+  const rateMajikan = safeNum(document.getElementById('majikan').value, 12, 0, 100);
+  const umurSkrg = Math.min(69, Math.max(18, Math.round(safeNum(document.getElementById('umurSekarang').value, 25, 18, 69))));
+  const umurPsrn = Math.min(75, Math.max(umurSkrg + 1, Math.round(safeNum(document.getElementById('umurPersaraan').value, 60, 19, 75))));
+  const dividenRate = safeNum(document.getElementById('dividen').value, 5, 0, 30);
 
   if (umurSkrg >= umurPsrn || gaji === 0) {
     document.getElementById('hasilPekerja').textContent = 'RM 0.00';
@@ -220,8 +221,11 @@ function calculate() {
     document.getElementById('hasilAkaun2').textContent = 'RM 0.00';
     document.getElementById('hasilAkaun3').textContent = 'RM 0.00';
     document.getElementById('hasilProjected').textContent = 'RM 0.00';
-    document.getElementById('projectionBody').innerHTML =
-      '<tr><td colspan="5" class="text-center py-8 text-muted">Sila masukkan nilai yang sah.</td></tr>';
+    const emptyBody = document.getElementById('projectionBody');
+    emptyBody.textContent = '';
+    const emptyTr = document.createElement('tr'); const emptyTd = document.createElement('td');
+    emptyTd.colSpan = 5; emptyTd.className = 'text-center py-8 text-muted'; emptyTd.textContent = 'Sila masukkan nilai yang sah.';
+    emptyTr.appendChild(emptyTd); emptyBody.appendChild(emptyTr);
     return;
   }
 
@@ -270,18 +274,29 @@ function calculate() {
 
   document.getElementById('hasilProjected').textContent = formatRM(finalBalance);
 
-  // Table
+  // Table — DOM construction avoids innerHTML XSS surface
   const tbody = document.getElementById('projectionBody');
-  tbody.innerHTML = rows.map(r => {
+  const fragment = document.createDocumentFragment();
+  rows.forEach(function(r) {
     const isLast = r.tahun === tahunBaki;
-    return `<tr class="${isLast ? 'font-bold bg-primary/5' : ''} border-b border-gray-50 dark:border-slate-800">
-      <td class="py-2.5 px-2">${r.tahun}</td>
-      <td class="text-right py-2.5 px-2">${r.umur}</td>
-      <td class="text-right py-2.5 px-2">${formatRM(r.simpanan)}</td>
-      <td class="text-right py-2.5 px-2 text-emerald-600">${formatRM(r.dividen)}</td>
-      <td class="text-right py-2.5 px-2 text-primary">${formatRM(r.baki)}</td>
-    </tr>`;
-  }).join('');
+    const tr = document.createElement('tr');
+    tr.className = (isLast ? 'font-bold bg-primary/5' : '') + ' border-b border-gray-50 dark:border-slate-800';
+    [
+      { text: String(r.tahun), cls: 'py-2.5 px-2' },
+      { text: String(r.umur), cls: 'text-right py-2.5 px-2' },
+      { text: formatRM(r.simpanan), cls: 'text-right py-2.5 px-2' },
+      { text: formatRM(r.dividen), cls: 'text-right py-2.5 px-2 text-emerald-600' },
+      { text: formatRM(r.baki), cls: 'text-right py-2.5 px-2 text-primary' },
+    ].forEach(function(c) {
+      const td = document.createElement('td');
+      td.className = c.cls;
+      td.textContent = c.text;
+      tr.appendChild(td);
+    });
+    fragment.appendChild(tr);
+  });
+  tbody.textContent = '';
+  tbody.appendChild(fragment);
 
   // Show compact if many years
   if (tahunBaki > 30) {

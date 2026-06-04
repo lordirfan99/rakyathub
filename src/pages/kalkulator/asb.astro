@@ -158,16 +158,17 @@ function formatRM(val) {
   return 'RM ' + val.toLocaleString('ms-MY', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
-function safeNum(val, def = 0) {
+function safeNum(val, def = 0, min = 0, max = 1e9) {
   const n = parseFloat(val);
-  return (!isNaN(n) && isFinite(n) && n >= 0) ? n : def;
+  if (!isNaN(n) && isFinite(n) && n >= min) return Math.min(n, max);
+  return def;
 }
 
 function calculate() {
-  const pokok = safeNum(document.getElementById('pokok').value);
-  const bulanan = safeNum(document.getElementById('bulanan').value);
-  const tempoh = Math.max(1, Math.round(safeNum(document.getElementById('tempoh').value, 10)));
-  const dividenRate = safeNum(document.getElementById('dividen').value, 5);
+  const pokok = safeNum(document.getElementById('pokok').value, 0, 0, 1e8);
+  const bulanan = safeNum(document.getElementById('bulanan').value, 0, 0, 1e6);
+  const tempoh = Math.min(50, Math.max(1, Math.round(safeNum(document.getElementById('tempoh').value, 10, 1, 50))));
+  const dividenRate = safeNum(document.getElementById('dividen').value, 5, 0, 30);
 
   if (tempoh < 1) {
     document.getElementById('hasilSimpanan').textContent = 'RM 0.00';
@@ -175,8 +176,11 @@ function calculate() {
     document.getElementById('hasilBaki').textContent = 'RM 0.00';
     document.getElementById('hasilProjected').textContent = 'RM 0.00';
     document.getElementById('hasilPulangan').textContent = '0.0%';
-    document.getElementById('projectionBody').innerHTML =
-      '<tr><td colspan="4" class="text-center py-8 text-muted">Sila masukkan tempoh pelaburan yang sah.</td></tr>';
+    var emptyBody = document.getElementById('projectionBody');
+    emptyBody.textContent = '';
+    var emptyTr = document.createElement('tr'); var emptyTd = document.createElement('td');
+    emptyTd.colSpan = 4; emptyTd.className = 'text-center py-8 text-muted'; emptyTd.textContent = 'Sila masukkan tempoh pelaburan yang sah.';
+    emptyTr.appendChild(emptyTd); emptyBody.appendChild(emptyTr);
     return;
   }
 
@@ -210,28 +214,28 @@ function calculate() {
   document.getElementById('hasilPulangan').textContent = dividenRate.toFixed(2) + '%';
   document.getElementById('hasilProjected').textContent = formatRM(baki);
 
-  // Table
+  // Table — DOM construction avoids innerHTML XSS surface
   const tbody = document.getElementById('projectionBody');
-  tbody.innerHTML = rows.map(r => {
+  const fragment = document.createDocumentFragment();
+  rows.forEach(function(r) {
     const isLast = r.tahun === tempoh;
-    return `<tr class="${isLast ? 'font-bold bg-primary/5' : ''} border-b border-gray-50 dark:border-slate-800">
-      <td class="py-2.5 px-2">${r.tahun}</td>
-      <td class="text-right py-2.5 px-2">${formatRM(r.simpanan)}</td>
-      <td class="text-right py-2.5 px-2 text-emerald-600">${formatRM(r.dividen)}</td>
-      <td class="text-right py-2.5 px-2 text-primary">${formatRM(r.baki)}</td>
-    </tr>`;
-  }).join('');
-
-  // Scroll if many rows
-  if (tempoh > 30) {
-    tbody.style.maxHeight = '400px';
-    tbody.style.overflowY = 'auto';
-    tbody.style.display = 'block';
-  } else {
-    tbody.style.maxHeight = '';
-    tbody.style.overflowY = '';
-    tbody.style.display = '';
-  }
+    const tr = document.createElement('tr');
+    tr.className = (isLast ? 'font-bold bg-primary/5' : '') + ' border-b border-gray-50 dark:border-slate-800';
+    [
+      { text: String(r.tahun), cls: 'py-2.5 px-2' },
+      { text: formatRM(r.simpanan), cls: 'text-right py-2.5 px-2' },
+      { text: formatRM(r.dividen), cls: 'text-right py-2.5 px-2 text-emerald-600' },
+      { text: formatRM(r.baki), cls: 'text-right py-2.5 px-2 text-primary' },
+    ].forEach(function(c) {
+      const td = document.createElement('td');
+      td.className = c.cls;
+      td.textContent = c.text;
+      tr.appendChild(td);
+    });
+    fragment.appendChild(tr);
+  });
+  tbody.textContent = '';
+  tbody.appendChild(fragment);
 }
 
 document.addEventListener('DOMContentLoaded', function() {

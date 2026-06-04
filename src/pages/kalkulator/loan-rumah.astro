@@ -188,7 +188,11 @@ function calc() {
     });
     document.getElementById('hasilDSR').textContent = '0%';
     document.getElementById('hasilDSRLabel').textContent = '0%';
-    document.getElementById('amortBody').innerHTML = '<tr><td colspan="6" class="text-center py-8 text-muted">Sila masukkan nilai yang sah.</td></tr>';
+    var tb = document.getElementById('amortBody');
+    tb.textContent = '';
+    var er = document.createElement('tr'); var et = document.createElement('td');
+    et.colSpan = 6; et.className = 'text-center py-8 text-muted'; et.textContent = 'Sila masukkan nilai yang sah.';
+    er.appendChild(et); tb.appendChild(er);
     return;
   }
 
@@ -237,10 +241,10 @@ function calc() {
     dsrStatusEl.className = 'text-xs mt-1 text-red-700 dark:text-red-300';
   }
 
-  // Amortization table (yearly)
+  // Amortization table (yearly) — DOM construction avoids innerHTML XSS surface
   var remaining = loan;
   var tbody = document.getElementById('amortBody');
-  var rows = [];
+  var frag = document.createDocumentFragment();
   for (var t = 1; t <= tempoh; t++) {
     var yearlyPrincipal = 0;
     var yearlyInterest = 0;
@@ -256,16 +260,24 @@ function calc() {
     }
     var isLast = t === tempoh || remaining <= 0;
     var bakiSebelum = remaining + yearlyPrincipal;
-    rows.push('<tr class="' + (isLast ? 'font-bold bg-primary/5' : '') + ' border-b border-gray-50 dark:border-slate-800">' +
-      '<td class="py-2.5 px-2">' + t + '</td>' +
-      '<td class="text-right py-2.5 px-2">' + fmt(bakiSebelum) + '</td>' +
-      '<td class="text-right py-2.5 px-2">' + fmt(monthly * 12) + '</td>' +
-      '<td class="text-right py-2.5 px-2 text-amber-600">' + fmt(yearlyInterest) + '</td>' +
-      '<td class="text-right py-2.5 px-2 text-primary">' + fmt(yearlyPrincipal) + '</td>' +
-      '<td class="text-right py-2.5 px-2 text-default">' + fmt(remaining) + '</td></tr>');
+    var tr = document.createElement('tr');
+    tr.className = (isLast ? 'font-bold bg-primary/5' : '') + ' border-b border-gray-50 dark:border-slate-800';
+    [
+      { text: String(t), cls: 'py-2.5 px-2' },
+      { text: fmt(bakiSebelum), cls: 'text-right py-2.5 px-2' },
+      { text: fmt(monthly * 12), cls: 'text-right py-2.5 px-2' },
+      { text: fmt(yearlyInterest), cls: 'text-right py-2.5 px-2 text-amber-600' },
+      { text: fmt(yearlyPrincipal), cls: 'text-right py-2.5 px-2 text-primary' },
+      { text: fmt(remaining), cls: 'text-right py-2.5 px-2 text-default' },
+    ].forEach(function(c) {
+      var td = document.createElement('td');
+      td.className = c.cls; td.textContent = c.text; tr.appendChild(td);
+    });
+    frag.appendChild(tr);
     if (remaining <= 0) break;
   }
-  tbody.innerHTML = rows.join('');
+  tbody.textContent = '';
+  tbody.appendChild(frag);
 
   if (tempoh > 30) { tbody.style.maxHeight = '400px'; tbody.style.overflowY = 'auto'; tbody.style.display = 'block'; }
   else { tbody.style.maxHeight = ''; tbody.style.overflowY = ''; tbody.style.display = ''; }

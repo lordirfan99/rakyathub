@@ -165,7 +165,11 @@ function calc() {
     ['hasilLoan','hasilAnsuran','hasilInterest','hasilTotal','hasilProjected'].forEach(function(id) {
       document.getElementById(id).textContent = 'RM 0.00';
     });
-    document.getElementById('amortBody').innerHTML = '<tr><td colspan="6" class="text-center py-8 text-muted">Sila masukkan nilai yang sah.</td></tr>';
+    var tbody = document.getElementById('amortBody');
+    tbody.textContent = '';
+    var tr = document.createElement('tr'); var td = document.createElement('td');
+    td.colSpan = 6; td.className = 'text-center py-8 text-muted'; td.textContent = 'Sila masukkan nilai yang sah.';
+    tr.appendChild(td); tbody.appendChild(tr);
     return;
   }
 
@@ -180,30 +184,44 @@ function calc() {
   document.getElementById('hasilTotal').textContent = fmt(totalPayment);
   document.getElementById('hasilProjected').textContent = fmt(monthly);
 
-  // Amortization
+  // Flat-rate amortization: interest is charged on the original principal, not reducing balance
+  // Annual interest = loan * rate / 100  (constant every year)
+  // Annual principal = loan / tempoh      (constant every year)
   var annualPayment = monthly * 12;
-  var remaining = totalPayment;
+  var annualInterestFlat = loan * (rate / 100);
+  var annualPrincipalFlat = loan / tempoh;
+  var remainingBalance = loan;
   var tbody = document.getElementById('amortBody');
-  var rows = [];
-  for (var t = 1; t <= tempoh; t++) {
-    var interestYear = remaining * (rate / 100);
-    var principalYear = annualPayment - interestYear;
-    if (interestYear < 0) interestYear = 0;
-    if (principalYear < 0) principalYear = annualPayment;
-    if (principalYear > remaining) principalYear = remaining;
-    remaining = remaining - annualPayment;
-    if (remaining < 0) remaining = 0;
+  var fragment = document.createDocumentFragment();
 
-    var isLast = t === tempoh;
-    rows.push('<tr class="' + (isLast ? 'font-bold bg-primary/5' : '') + ' border-b border-gray-50 dark:border-slate-800">' +
-      '<td class="py-2.5 px-2">' + t + '</td>' +
-      '<td class="text-right py-2.5 px-2">' + fmt(remaining + annualPayment) + '</td>' +
-      '<td class="text-right py-2.5 px-2">' + fmt(annualPayment) + '</td>' +
-      '<td class="text-right py-2.5 px-2 text-amber-600">' + fmt(interestYear) + '</td>' +
-      '<td class="text-right py-2.5 px-2 text-primary">' + fmt(principalYear) + '</td>' +
-      '<td class="text-right py-2.5 px-2 text-default">' + fmt(remaining) + '</td></tr>');
+  for (var t = 1; t <= tempoh; t++) {
+    var bakiSebelum = remainingBalance;
+    var principalYear = (t < tempoh) ? annualPrincipalFlat : remainingBalance;
+    var interestYear = annualInterestFlat;
+    remainingBalance = Math.max(0, remainingBalance - annualPrincipalFlat);
+    if (t === tempoh) remainingBalance = 0;
+
+    var tr = document.createElement('tr');
+    tr.className = (t === tempoh ? 'font-bold bg-primary/5' : '') + ' border-b border-gray-50 dark:border-slate-800';
+
+    var cells = [
+      { text: String(t), cls: 'py-2.5 px-2' },
+      { text: fmt(bakiSebelum), cls: 'text-right py-2.5 px-2' },
+      { text: fmt(annualPayment), cls: 'text-right py-2.5 px-2' },
+      { text: fmt(interestYear), cls: 'text-right py-2.5 px-2 text-amber-600' },
+      { text: fmt(principalYear), cls: 'text-right py-2.5 px-2 text-primary' },
+      { text: fmt(remainingBalance), cls: 'text-right py-2.5 px-2 text-default' },
+    ];
+    cells.forEach(function(c) {
+      var td = document.createElement('td');
+      td.className = c.cls;
+      td.textContent = c.text;
+      tr.appendChild(td);
+    });
+    fragment.appendChild(tr);
   }
-  tbody.innerHTML = rows.join('');
+  tbody.textContent = '';
+  tbody.appendChild(fragment);
 }
 
 document.addEventListener('DOMContentLoaded', function() {

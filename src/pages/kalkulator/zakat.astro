@@ -281,15 +281,40 @@ function calc() {
   var nisabStatus = document.getElementById('nisabStatus');
   var nisabMessage = document.getElementById('nisabMessage');
 
+  // DOM-safe status messages — no innerHTML; uses <strong> elements created via DOM API
+  function setNisabMessage(icon, parts) {
+    nisabMessage.textContent = '';
+    nisabMessage.appendChild(document.createTextNode(icon + ' '));
+    parts.forEach(function(p) {
+      if (p.bold) {
+        var s = document.createElement('strong'); s.textContent = p.text; nisabMessage.appendChild(s);
+      } else {
+        nisabMessage.appendChild(document.createTextNode(p.text));
+      }
+    });
+  }
+
   if (eligible === 0) {
     nisabStatus.className = 'mt-4 p-4 rounded-xl text-center bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800';
-    nisabMessage.innerHTML = '⚠️ <strong>Tidak melebihi nisab</strong> — zakat tidak wajib. Nisab semasa: <strong>' + fmt(nisab) + '</strong>';
+    setNisabMessage('⚠️', [
+      { bold: true, text: 'Tidak melebihi nisab' },
+      { bold: false, text: ' — zakat tidak wajib. Nisab semasa: ' },
+      { bold: true, text: fmt(nisab) },
+    ]);
   } else if (zakat > 0) {
     nisabStatus.className = 'mt-4 p-4 rounded-xl text-center bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800';
-    nisabMessage.innerHTML = '✅ <strong>Anda WAJIB bayar zakat</strong> sebanyak <strong>' + fmt(zakat) + '</strong>. Jumlah layak: ' + fmt(eligible);
+    setNisabMessage('✅', [
+      { bold: true, text: 'Anda WAJIB bayar zakat' },
+      { bold: false, text: ' sebanyak ' },
+      { bold: true, text: fmt(zakat) },
+      { bold: false, text: '. Jumlah layak: ' + fmt(eligible) },
+    ]);
   } else {
     nisabStatus.className = 'mt-4 p-4 rounded-xl text-center bg-gray-50 dark:bg-slate-800 border border-gray-200 dark:border-slate-700';
-    nisabMessage.innerHTML = 'ℹ️ Sila masukkan nilai untuk mula kiraan. Nisab semasa: <strong>' + fmt(nisab) + '</strong>';
+    setNisabMessage('ℹ️', [
+      { bold: false, text: 'Sila masukkan nilai untuk mula kiraan. Nisab semasa: ' },
+      { bold: true, text: fmt(nisab) },
+    ]);
   }
 }
 

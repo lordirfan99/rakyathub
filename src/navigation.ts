@@ -25,6 +25,14 @@ export const headerData = {
           text: 'Kalkulator Kereta',
           href: getPermalink('/kalkulator/kereta'),
         },
+        {
+          text: 'Kalkulator Loan Rumah',
+          href: getPermalink('/kalkulator/loan-rumah'),
+        },
+        {
+          text: 'Kalkulator Zakat',
+          href: getPermalink('/kalkulator/zakat'),
+        },
       ],
     },
     {
@@ -45,7 +53,7 @@ export const headerData = {
     },
   ],
   actions: [
-    { text: 'Langgan Percuma', href: '#', variant: 'primary' },
+    { text: 'Cuba Kalkulator', href: getPermalink('/kalkulator/kwsp'), variant: 'primary' },
   ],
 };
 
@@ -58,6 +66,8 @@ export const footerData = {
         { text: 'Kalkulator ASB', href: getPermalink('/kalkulator/asb') },
         { text: 'Kalkulator Emas', href: getPermalink('/kalkulator/emas') },
         { text: 'Kalkulator Kereta', href: getPermalink('/kalkulator/kereta') },
+        { text: 'Kalkulator Loan Rumah', href: getPermalink('/kalkulator/loan-rumah') },
+        { text: 'Kalkulator Zakat', href: getPermalink('/kalkulator/zakat') },
       ],
     },
     {
@@ -92,10 +102,6 @@ export const footerData = {
     { text: 'Dasar Privasi', href: getPermalink('/privasi') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'TikTok', icon: 'tabler:brand-tiktok', href: '#' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
   footNote: `

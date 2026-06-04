@@ -60,28 +60,35 @@ export const crossLinks: CrossLinkDef[] = [
   },
 ];
 
-// Sanitize text before processing: remove content inside already-linked <a> tags
-// and inject links into first 2 matching standalone text occurrences
+// NOTE: Cross-linking is performed client-side via the DOM walker in SinglePost.astro.
+// This SSR version is retained as a reference but is NOT called anywhere in the build.
+// If re-activated for SSR rendering, ensure all injected values are HTML-escaped.
+
+function escapeHtml(s: string): string {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
 
 export function injectCrosslinks(html: string, currentSlug?: string): string {
   let result = html;
-  const maxLinks = 2; // max 2 cross-links per article
+  const maxLinks = 2;
   let linkCount = 0;
 
   for (const link of crossLinks) {
     if (linkCount >= maxLinks) break;
-
-    // Don't link to the current article
     if (currentSlug && link.url.includes(currentSlug)) continue;
 
-    // Use word boundary matching to match standalone words
-    const escaped = link.word.replace(/[.*+?^${}()|[\]\\\/]/g, '\\$&');
-    const regex = new RegExp(`(?<!<a[^>]*>)\\b${escaped}\\b(?!.*?<\\/a>)`, 'gi');
+    const escapedWord = link.word.replace(/[.*+?^${}()|[\]\\\/]/g, '\\$&');
+    // Avoid catastrophic backtracking: use a bounded lookahead depth
+    const regex = new RegExp(`(?<!<a[^>]{0,200}>)\\b${escapedWord}\\b(?![^<]{0,200}<\\/a>)`, 'gi');
+
+    // Escape link metadata before injecting into HTML attribute context
+    const safeUrl = escapeHtml(link.url);
+    const safeTitle = escapeHtml(link.title);
 
     result = result.replace(regex, (match) => {
       if (linkCount >= maxLinks) return match;
       linkCount++;
-      return `<a href="${link.url}" class="text-primary dark:text-blue-400 hover:underline font-medium" title="${link.title}">${match}</a>`;
+      return `<a href="${safeUrl}" class="text-primary dark:text-blue-400 hover:underline font-medium" title="${safeTitle}">${escapeHtml(match)}</a>`;
     });
   }
 
