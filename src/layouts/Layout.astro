@@ -41,14 +41,14 @@ const { language, textDirection } = I18N;
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": SITE?.name || 'RakyatHub',
-      "url": SITE?.site || 'https://rakyathub.netlify.app',
+      "url": SITE?.site || 'https://rakyathub.my',
       "description": "Panduan kewangan, KWSP, ASB, emas, bantuan kerajaan dan pelaburan untuk rakyat Malaysia.",
       "inLanguage": "ms-MY",
       "potentialAction": {
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": (SITE?.site || 'https://rakyathub.netlify.app') + "/?q={search_term_string}"
+          "urlTemplate": (SITE?.site || 'https://rakyathub.my') + "/?q={search_term_string}"
         },
         "query-input": "required name=search_term_string"
       }
