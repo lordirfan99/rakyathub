@@ -1,0 +1,132 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Kalkulator RakyatHub — Alat Kewangan Malaysia',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/" class="text-sm text-muted hover:text-primary transition-colors">← Laman Utama</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator RakyatHub
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-8">
+      Koleksi alat kiraan kewangan Malaysia — percuma, mudah, tanpa daftar. Kira KWSP, ASB, emas, gaji bersih dan banyak lagi.
+    </p>
+
+    <div class="grid md:grid-cols-2 gap-5">
+      <!-- New calculators -->
+      <a href="/kalkulator/str-sara/" class="group block rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-6 hover:border-primary/50 hover:shadow-md transition-all">
+        <div class="flex items-center gap-4">
+          <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/10">
+            <span class="text-xl font-bold text-primary">STR</span>
+          </div>
+          <div class="flex-1 min-w-0">
+            <h3 class="font-semibold text-lg text-default">STR &amp; SARA Checker</h3>
+            <p class="text-sm text-muted">Semak anggaran bantuan STR dan SARA</p>
+          </div>
+          <span class="text-xs font-semibold bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 px-2.5 py-1 rounded-full">Baru</span>
+        </div>
+      </a>
+
+      <a href="/kalkulator/gaji-bersih/" class="group block rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-6 hover:border-primary/50 hover:shadow-md transition-all">
+        <div class="flex items-center gap-4">
+          <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500/20 to-blue-600/10">
+            <span class="text-xl font-bold text-blue-600">Gaji</span>
+          </div>
+          <div class="flex-1 min-w-0">
+            <h3 class="font-semibold text-lg text-default">Gaji Bersih Malaysia</h3>
+            <p class="text-sm text-muted">Take-home pay selepas potongan</p>
+          </div>
+          <span class="text-xs font-semibold bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 px-2.5 py-1 rounded-full">Baru</span>
+        </div>
+      </a>
+
+      <a href="/kalkulator/sst/" class="group block rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-6 hover:border-primary/50 hover:shadow-md transition-all">
+        <div class="flex items-center gap-4">
+          <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500/20 to-amber-600/10">
+            <span class="text-xl font-bold text-amber-600">SST</span>
+          </div>
+          <div class="flex-1 min-w-0">
+            <h3 class="font-semibold text-lg text-default">Kalkulator SST</h3>
+            <p class="text-sm text-muted">Kira SST 6% &amp; 8%</p>
+          </div>
+          <span class="text-xs font-semibold bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 px-2.5 py-1 rounded-full">Baru</span>
+        </div>
+      </a>
+
+      <a href="/kalkulator/zakat-pendapatan/" class="group block rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-6 hover:border-primary/50 hover:shadow-md transition-all">
+        <div class="flex items-center gap-4">
+          <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500/20 to-emerald-600/10">
+            <span class="text-xl font-bold text-emerald-600">Zakat</span>
+          </div>
+          <div class="flex-1 min-w-0">
+            <h3 class="font-semibold text-lg text-default">Zakat Pendapatan</h3>
+            <p class="text-sm text-muted">Kira zakat 2.5%</p>
+          </div>
+          <span class="text-xs font-semibold bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 px-2.5 py-1 rounded-full">Baru</span>
+        </div>
+      </a>
+
+      <a href="/kalkulator/beli-sewa-rumah/" class="group block rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-6 hover:border-primary/50 hover:shadow-md transition-all">
+        <div class="flex items-center gap-4">
+          <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-rose-500/20 to-rose-600/10">
+            <span class="text-xl font-bold text-rose-600">Rumah</span>
+          </div>
+          <div class="flex-1 min-w-0">
+            <h3 class="font-semibold text-lg text-default">Beli vs Sewa Rumah</h3>
+            <p class="text-sm text-muted">Bandingkan kos beli vs sewa</p>
+          </div>
+          <span class="text-xs font-semibold bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 px-2.5 py-1 rounded-full">Baru</span>
+        </div>
+      </a>
+
+      <a href="/kalkulator/pelaburan/" class="group block rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-6 hover:border-primary/50 hover:shadow-md transition-all">
+        <div class="flex items-center gap-4">
+          <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500/20 to-yellow-600/10">
+            <span class="text-xl font-bold text-amber-600">Emas</span>
+          </div>
+          <div class="flex-1 min-w-0">
+            <h3 class="font-semibold text-lg text-default">Emas vs ASB vs FD</h3>
+            <p class="text-sm text-muted">Bandingkan pulangan pelaburan</p>
+          </div>
+          <span class="text-xs font-semibold bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 px-2.5 py-1 rounded-full">Baru</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- Existing calculators -->
+    <h2 class="text-2xl font-bold mt-12 mb-6">Kalkulator Sedia Ada</h2>
+    <div class="grid md:grid-cols-3 gap-4">
+      <a href="/kalkulator/kwsp/" class="block rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 p-5 card-hover hover:border-primary/30 transition-all">
+        <h3 class="font-semibold">KWSP</h3>
+        <p class="text-sm text-muted mt-1">Simpanan persaraan &amp; dividen</p>
+      </a>
+      <a href="/kalkulator/asb/" class="block rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 p-5 card-hover hover:border-primary/30 transition-all">
+        <h3 class="font-semibold">ASB</h3>
+        <p class="text-sm text-muted mt-1">Dividen &amp; simpanan ASB/ASM</p>
+      </a>
+      <a href="/kalkulator/emas/" class="block rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 p-5 card-hover hover:border-primary/30 transition-all">
+        <h3 class="font-semibold">Emas</h3>
+        <p class="text-sm text-muted mt-1">Harga &amp; pelaburan emas</p>
+      </a>
+      <a href="/kalkulator/kereta/" class="block rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 p-5 card-hover hover:border-primary/30 transition-all">
+        <h3 class="font-semibold">Kereta</h3>
+        <p class="text-sm text-muted mt-1">Ansuran pinjaman kereta</p>
+      </a>
+      <a href="/kalkulator/loan-rumah/" class="block rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 p-5 card-hover hover:border-primary/30 transition-all">
+        <h3 class="font-semibold">Loan Rumah</h3>
+        <p class="text-sm text-muted mt-1">Ansuran pinjaman rumah</p>
+      </a>
+      <a href="/kalkulator/zakat/" class="block rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 p-5 card-hover hover:border-primary/30 transition-all">
+        <h3 class="font-semibold">Zakat</h3>
+        <p class="text-sm text-muted mt-1">Zakat pendapatan &amp; simpanan</p>
+      </a>
+    </div>
+  </section>
+</Layout>
