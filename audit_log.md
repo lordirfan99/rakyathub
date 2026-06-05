@@ -114,3 +114,15 @@
   - Console: 0 errors, 0 warnings
   - New blog post renders correctly with tables, hero image, tags, social share
 - **Status**: resolved
+
+## 2026-06-05 20:55
+- **QA Check**: Post-build browser inspection after new blog post "Gaji RM1,800 Breakdown Realistik"
+- **Commit**: `179fb24` — added `gaji-rm1800-breakdown-realistik.md`, `hero-gaji-rm1800.jpg`
+- **Build**: 97 pages built in 13.49s — 0 errors
+- **Browser Inspection**: Homepage + new blog post verified
+  - DOM structure: main(1), header(1), nav(1), footer(1) — all present
+  - Images: 6 loaded, 0 broken (new hero image HTTP 200, 18.5KB)
+  - Resources: 0 failed (no 404s/5xx)
+  - Console: 0 errors, 0 warnings
+  - New blog post renders correctly with budget tables, 50/30/20 breakdown, side-hustle table, tags, and proper OG meta
+- **Status**: resolved
