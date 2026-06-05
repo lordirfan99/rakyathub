@@ -3,7 +3,7 @@ publishDate: 2025-08-05
 title: Cara Simpan Duit Gaji RM2500 untuk Masa Depan (Panduan Realistik)
 excerpt: "Cara simpan duit gaji RM2500 tanpa rasa tertekan. Panduan realistik guna formula 50/30/20, tips menabung bulanan, dan strategi simpanan masa depan untuk fresh graduates."
 category: Kewangan
-image: "https://images.unsplash.com/photo-1611974717537-48981f792af0"
+image: "~/assets/images/hero-simpan-duit.jpg"
 tags:
   - kewangan
   - tips menabung
