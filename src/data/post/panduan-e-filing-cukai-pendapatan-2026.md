@@ -36,7 +36,7 @@ e-Filing adalah sistem dalam talian LHDN (Lembaga Hasil Dalam Negeri) untuk isi 
 ## Cara Daftar Akaun e-Filing
 
 ### Langkah 1: Buka Akaun di MyTax Portal
-Layari `https://mytax.hasil.gov.my` dan klik **"Daftar"**. Anda perlukan:
+Layari [https://mytax.hasil.gov.my](https://mytax.hasil.gov.my) dan klik **"Daftar"**. Anda perlukan:
 - **No. Kad Pengenalan**
 - **Nombor telefon bimbit** (untuk OTP)
 - **Emel yang aktif**
@@ -123,4 +123,4 @@ Jangan lupa guna **Kalkulator Zakat** untuk kira zakat pendapatan dan dapatkan r
 
 **Kongsi artikel ni** dengan rakan sekerja yang baru pertama kali nak isi e-Filing!
 
-📌 *Jangan lupa bookmark rakyathub.com untuk lebih banyak tips kewangan!*
+📌 *Jangan lupa bookmark rakyathub.my untuk lebih banyak tips kewangan!*

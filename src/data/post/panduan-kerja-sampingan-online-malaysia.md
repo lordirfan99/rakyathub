@@ -104,4 +104,4 @@ Yang paling penting — **konsisten**. Ramai orang berhenti tengah jalan sebab t
 
 **Kongsi artikel ni** dengan kawan-kawan yang tengah cari cara tambah pendapatan bulanan!
 
-📌 *Jangan lupa bookmark rakyathub.com untuk lebih banyak tips kewangan!*
+📌 *Jangan lupa bookmark rakyathub.my untuk lebih banyak tips kewangan!*

@@ -189,4 +189,4 @@ Kalau bulan ni hanya mampu simpan RM50 — itu jauh lebih baik daripada RM0. Yan
 
 **Kongsi artikel ni** dengan kawan-kawan yang baru kerja atau masih struggle saving. Mungkin artikel ni boleh ubah hidup seseorang!
 
-📌 *Jangan lupa bookmark rakyathub.com untuk lebih banyak tips kewangan, ASB, KWSP, dan emas untuk rakyat Malaysia!*
+📌 *Jangan lupa bookmark rakyathub.my untuk lebih banyak tips kewangan, ASB, KWSP, dan emas untuk rakyat Malaysia!*

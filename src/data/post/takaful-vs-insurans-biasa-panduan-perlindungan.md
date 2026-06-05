@@ -96,4 +96,4 @@ Untuk anak muda, mulakan dengan medical card dulu, kemudian tambah perlindungan 
 
 **Kongsi artikel ni** dengan kawan-kawan yang belum ada insurans atau takaful lagi!
 
-📌 *Jangan lupa bookmark rakyathub.com untuk lebih banyak tips kewangan!*
+📌 *Jangan lupa bookmark rakyathub.my untuk lebih banyak tips kewangan!*

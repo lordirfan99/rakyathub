@@ -49,7 +49,7 @@ Kerajaan telah mengumumkan kadar bantuan untuk fasa-fasa tertentu. Anggaran juml
 Pendaftaran STR dibuat secara online melalui portal rasmi. Ikuti langkah di bawah:
 
 ### Langkah 1: Layari Portal Rasmi STR
-Buka browser dan pergi ke portal rasmi STR di `https://bantuantunai.hasil.gov.my`.
+Buka browser dan pergi ke portal rasmi STR di [https://bantuantunai.hasil.gov.my](https://bantuantunai.hasil.gov.my).
 
 ### Langkah 2: Log Masuk atau Daftar Akaun Baru
 - Jika sudah ada akaun, log masuk guna **No. Kad Pengenalan** dan kata laluan
@@ -114,4 +114,4 @@ STR Sumbangan Tunai Rahmah adalah bantuan penting untuk rakyat Malaysia yang lay
 
 **Kongsi artikel ni** dengan ahli keluarga dan kawan-kawan yang layak dapat STR!
 
-📌 *Jangan lupa bookmark rakyathub.com untuk lebih banyak tips kewangan!*
+📌 *Jangan lupa bookmark rakyathub.my untuk lebih banyak tips kewangan!*
