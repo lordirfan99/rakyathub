@@ -77,7 +77,7 @@ export function injectCrosslinks(html: string, currentSlug?: string): string {
     if (linkCount >= maxLinks) break;
     if (currentSlug && link.url.includes(currentSlug)) continue;
 
-    const escapedWord = link.word.replace(/[.*+?^${}()|[\]\\\/]/g, '\\$&');
+    const escapedWord = link.word.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&');
     // Avoid catastrophic backtracking: use a bounded lookahead depth
     const regex = new RegExp(`(?<!<a[^>]{0,200}>)\\b${escapedWord}\\b(?![^<]{0,200}<\\/a>)`, 'gi');
 

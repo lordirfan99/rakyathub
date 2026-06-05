@@ -1,6 +1,4 @@
 ---
-import { Icon } from 'astro-icon/components';
-
 import Image from '~/components/common/Image.astro';
 import PostTags from '~/components/blog/Tags.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
@@ -8,8 +6,6 @@ import CrossSellBanner from '~/components/blog/CrossSellBanner.astro';
 import AppDashboard from '~/components/widgets/AppDashboard.astro';
 
 import { getPermalink } from '~/utils/permalinks';
-import { getFormattedDate } from '~/utils/utils';
-
 import type { Post } from '~/types';
 
 export interface Props {

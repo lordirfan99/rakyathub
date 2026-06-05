@@ -1,5 +1,48 @@
 # Audit Log
 
+## 2026-06-05 12:39
+- **QA Check**: Build and lint verification passed — 67 pages built successfully
+- **Command**: `npm run build`, `npm run check`
+- **Result**: Build: 0 errors. ESLint: 127 pre-existing issues, 6 fixed (see below)
+- **Status**: resolved
+
+### Fixes Applied
+- **Fix**: Removed unused `Icon` import
+- **File**: `src/components/blog/ListItem.astro:3`
+- **Status**: resolved
+
+- **Fix**: Removed unused `getFormattedDate` import
+- **File**: `src/components/blog/ListItem.astro:12`
+- **Status**: resolved
+
+- **Fix**: Removed unused `Icon` import
+- **File**: `src/components/blog/SinglePost.astro:2`
+- **Status**: resolved
+
+- **Fix**: Removed unused `getFormattedDate` import
+- **File**: `src/components/blog/SinglePost.astro:11`
+- **Status**: resolved
+
+- **Fix**: Removed unused `theme` prop destructuring
+- **File**: `src/components/widgets/Footer.astro:26`
+- **Status**: resolved
+
+- **Fix**: Removed unused `_index` parameter from map callback
+- **File**: `src/components/widgets/AppDashboard.astro:163`
+- **Status**: resolved
+
+- **Fix**: Removed unused `Brands` import
+- **File**: `src/pages/index.astro:8`
+- **Status**: resolved
+
+- **Fix**: Removed unused `label` variable
+- **File**: `src/pages/kalkulator/zakat.astro:247`
+- **Status**: resolved
+
+- **Fix**: Removed unnecessary escape `\/` in regex character class
+- **File**: `src/utils/crosslinks.ts:80`
+- **Status**: resolved
+
 ## 2026-06-05 09:26
 - **QA Check**: Build verification passed — 67 pages built successfully
 - **Command**: `npm run build`
