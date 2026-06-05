@@ -3,7 +3,7 @@ publishDate: 2026-06-05
 title: "Kerja Sampingan Online: Dropship, Affiliate & Freelance"
 excerpt: "Panduan lengkap kerja sampingan online untuk rakyat Malaysia. Dropship, affiliate marketing & freelance — tambah pendapatan dengan modal minimum."
 category: Kewangan
-image: "~/assets/images/hero-default.jpg"
+image: "~/assets/images/hero-kerja-sampingan.jpg"
 tags:
   - kerja-sampingan
   - dropship

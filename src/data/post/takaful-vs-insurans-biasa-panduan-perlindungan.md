@@ -3,7 +3,7 @@ publishDate: 2026-06-05
 title: "Takaful vs Insurans Biasa: Panduan Perlindungan Anak Muda"
 excerpt: "Beza takaful vs insurans biasa di Malaysia. Panduan lengkap medical card, perlindungan kritikal & cara pilih pelan ikut bajet anak muda."
 category: Insurans
-image: "~/assets/images/hero-default.jpg"
+image: "~/assets/images/hero-insuran.jpg"
 tags:
   - takaful
   - insurans

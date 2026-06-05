@@ -3,7 +3,7 @@ publishDate: 2026-06-05
 title: "Panduan e-Filing 2026: Cukai Pendapatan untuk Rakyat Malaysia"
 excerpt: "Panduan e-Filing cukai pendapatan Malaysia 2026. Cara isi borang, senarai pelepasan cukai, rebat & tips elak penalti untuk individu."
 category: Kewangan
-image: "~/assets/images/hero-default.jpg"
+image: "~/assets/images/hero-efiling.jpg"
 tags:
   - e-filing
   - cukai-pendapatan
