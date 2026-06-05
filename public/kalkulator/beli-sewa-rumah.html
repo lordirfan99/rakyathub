@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ms-MY">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Beli vs Sewa Rumah — Kalkulator Malaysia — RakyatHub</title>
+<meta name="description" content="Bandingkan kos membeli rumah vs menyewa dalam tempoh 5, 10 atau 20 tahun. Kiraan termasuk faedah pinjaman, guaman dan kenaikan sewa.">
+<meta property="og:title" content="Beli atau Sewa Rumah? — RakyatHub">
+<meta property="og:description" content="Bandingkan kos beli vs sewa rumah.">
+<meta property="og:url" content="https://rakyathub.my/kalkulator/beli-sewa-rumah/"><meta property="og:type" content="website">
+<link rel="canonical" href="https://rakyathub.my/kalkulator/beli-sewa-rumah/">
+<link rel="stylesheet" href="/kalkulator/assets/calc.css">
+</head><body>
+<div class="calc-container">
+<a href="/kalkulator/" class="calc-back">&#8592; Semua Kalkulator</a>
+<div class="calc-header"><h1>Beli vs Sewa Rumah</h1><p>Bandingkan kos membeli rumah vs menyewa dalam tempoh 5, 10, 15 atau 20 tahun. Kalkulator mengambil kira faedah pinjaman perumahan, kos guaman, duti setem, penyelenggaraan dan kenaikan sewa tahunan.</p></div>
+<div class="calc-card">
+<div class="calc-grid">
+<div class="calc-field"><label>Harga Rumah (RM)</label><input type="number" id="harga" class="calc-input" value="400000" min="0" step="10000"></div>
+<div class="calc-field"><label>Sewa Bulanan (RM)</label><input type="number" id="sewa" class="calc-input" value="1500" min="0" step="100"></div>
+<div class="calc-field"><label>Tempoh (tahun)</label><input type="number" id="tahun" class="calc-input" value="10" min="1" max="35"></div>
+<div class="calc-field"><label>Kadar Faedah (% setahun)</label><input type="number" id="faedah" class="calc-input" value="4.0" min="0" step="0.1" max="10"></div>
+<div class="calc-field"><label>Bayaran Muka (RM)</label><input type="number" id="muka" class="calc-input" value="40000" min="0" step="5000"></div>
+<div class="calc-field"><label>Kenaikan Sewa (% setahun)</label><input type="number" id="naikSewa" class="calc-input" value="3" min="0" step="0.5" max="20"></div>
+</div>
+<div class="calc-btn-group"><button class="calc-btn" onclick="kira()">Bandingkan</button></div>
+<div id="hasil" class="calc-result"><h2>Perbandingan Beli vs Sewa</h2><div id="hasilContent"></div></div>
+</div>
+<div class="calc-info"><strong>Kos termasuk:</strong> Bayaran muka, ansuran bulanan, guaman &amp; duti setem (~5% harga rumah), penyelenggaraan tahunan (0.5% harga rumah), kenaikan sewa 3%/tahun. <strong>Kos tidak termasuk:</strong> Fi hartanah, cukai tanah/pintu, insurans.</div>
+</div>
+<script>
+function kira(){
+var h=parseFloat(document.getElementById("harga").value)||0;
+var s=parseFloat(document.getElementById("sewa").value)||0;
+var t=parseInt(document.getElementById("tahun").value)||10;
+var f=parseFloat(document.getElementById("faedah").value)||4;
+var m=parseFloat(document.getElementById("muka").value)||0;
+var ns=parseFloat(document.getElementById("naikSewa").value)||3;
+var loan=h-m;
+var r=f/100/12;
+var n=t*12;
+var bulanan = loan * (r*Math.pow(1+r,n)) / (Math.pow(1+r,n)-1);
+var totalBeli = m + h*0.05;
+for(var y=1; y<=t; y++){for(var mo=1; mo<=12; mo++){totalBeli += bulanan;}totalBeli += h*0.005;}
+totalBeli = Math.round(totalBeli);
+var totalSewa = 0; var sewaNow = s;
+for(var y=1; y<=t; y++){for(var mo=1; mo<=12; mo++){totalSewa += sewaNow;}sewaNow = sewaNow * (1 + ns/100);}
+totalSewa = Math.round(totalSewa);
+var balance = loan;
+for(var i=1; i<=n; i++){var interest = balance * r; var principal = bulanan - interest; balance -= principal;}
+var equity = h - Math.max(0, balance);
+var beza = Math.abs(totalBeli - totalSewa);
+var better = (totalBeli < totalSewa) ? "Beli" : "Sewa";
+document.getElementById("hasilContent").innerHTML=
+"<div class="calc-compare-grid">"+
+"<div class="calc-compare-card buy"><div class="emoji">&#127968;</div><h3>Beli Rumah</h3><div class="total">RM "+totalBeli.toLocaleString()+"</div><div class="per-month">~RM "+Math.round(bulanan).toLocaleString()+"/bln</div></div>"+
+"<div class="calc-compare-card rent"><div class="emoji">&#127968;</div><h3>Sewa Rumah</h3><div class="total">RM "+totalSewa.toLocaleString()+"</div><div class="per-month">~RM "+Math.round(s).toLocaleString()+"-RM "+Math.round(sewaNow/ns).toLocaleString()+"/bln</div></div>"+
+"</div>"+
+"<div class="calc-result-grid">"+
+"<div class="calc-stat"><div class="calc-stat-label">Ansuran Bulanan (Beli)</div><div class="calc-stat-value">RM "+Math.round(bulanan).toLocaleString()+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">Baki Pinjaman Selepas "+t+" Tahun</div><div class="calc-stat-value">RM "+Math.round(Math.max(0,balance)).toLocaleString()+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">Ekuiti Anda</div><div class="calc-stat-value success">RM "+Math.round(Math.max(0,equity)).toLocaleString()+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">Jumlah Dibayar (Sewa)</div><div class="calc-stat-value warning">RM "+totalSewa.toLocaleString()+"</div></div>"+
+"</div>"+
+"<div class="calc-highlight"><span class="label">Kesimpulan</span><span class="amount">"+better+" Rumah</span><span class="label">Anggaran jimat ~RM "+beza.toLocaleString()+" dalam "+t+" tahun</span></div>"+
+"<div style="margin-top:12px;padding:16px;background:var(--bg);border-radius:8px;border:1px solid var(--border);font-size:0.9rem">"+
+"<strong>Nota:</strong> Beli: RM "+m.toLocaleString()+" (muka) + RM "+Math.round(h*0.05).toLocaleString()+" (guaman/stamp) + RM "+Math.round(bulanan).toLocaleString()+"/bln + RM "+Math.round(h*0.005).toLocaleString()+"/thn (selenggara). ";
+if(better==="Beli"){document.getElementById("hasilContent").innerHTML+="Sewa: RM "+s.toLocaleString()+"/bln naik "+ns+"% setahun.</div>";}
+else{document.getElementById("hasilContent").innerHTML+="</div>";}
+document.getElementById("hasil").classList.add("visible");
+}
+</script>
+</body>
+</html>

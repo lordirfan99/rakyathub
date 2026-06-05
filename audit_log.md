@@ -139,3 +139,18 @@
   - Console: 0 errors, 0 warnings
   - Removed article correctly returns HTTP 404
 - **Status**: resolved
+
+## 2026-06-05 22:22
+- **QA Check**: Favicon & logo rebrand — blue diamond icon scheme
+- **Commits**: `21d0425` (Fix: RakyatHub favicon & logo schema)
+- **Changes**: Updated `favicon.svg` (blue diamond gradient), binary favicons replaced, JSON-LD logo URLs updated to `rakyathub-logo.png`
+- **Build**: 100 pages built in 13.60s — 0 errors
+- **Browser Inspection**: Homepage, blog listing, and new comparison post verified
+  - DOM: main(1), header(1), nav(1), footer(1) — all present
+  - Images: 5 total, 0 broken
+  - Resources: 6 entries, 0 failed (no 404s/5xx)
+  - CSS: 4 sheets, 0 issues
+  - Console: 0 errors, 0 warnings
+  - Favicon assets all HTTP 200: favicon.svg (702B), favicon.ico (6723B), apple-touch-icon (4957B)
+  - rakyathub-logo.png: HTTP 200 (4957B) — new schema logo reference verified
+- **Status**: resolved

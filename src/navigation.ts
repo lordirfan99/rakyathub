@@ -10,27 +10,56 @@ export const headerData = {
       text: 'Kalkulator',
       links: [
         {
-          text: 'Kalkulator KWSP',
+          text: 'Semua Kalkulator',
+          href: getPermalink('/kalkulator'),
+        },
+        {
+          text: 'Gaji Bersih (baru)',
+          href: '/kalkulator/gaji-bersih.html',
+        },
+        {
+          text: 'STR & SARA (baru)',
+          href: '/kalkulator/str-sara.html',
+        },
+        {
+          text: 'SST (baru)',
+          href: '/kalkulator/sst.html',
+        },
+        {
+          text: 'Beli vs Sewa Rumah (baru)',
+          href: '/kalkulator/beli-sewa-rumah.html',
+        },
+        {
+          text: 'Emas vs ASB vs FD (baru)',
+          href: '/kalkulator/pelaburan.html',
+        },
+        {
+          text: 'Zakat Pendapatan (baru)',
+          href: '/kalkulator/zakat-pendapatan.html',
+        },
+        { text: '---', href: '#' },
+        {
+          text: 'KWSP',
           href: getPermalink('/kalkulator/kwsp'),
         },
         {
-          text: 'Kalkulator ASB',
+          text: 'ASB',
           href: getPermalink('/kalkulator/asb'),
         },
         {
-          text: 'Kalkulator Emas',
+          text: 'Emas',
           href: getPermalink('/kalkulator/emas'),
         },
         {
-          text: 'Kalkulator Kereta',
+          text: 'Kereta',
           href: getPermalink('/kalkulator/kereta'),
         },
         {
-          text: 'Kalkulator Loan Rumah',
+          text: 'Loan Rumah',
           href: getPermalink('/kalkulator/loan-rumah'),
         },
         {
-          text: 'Kalkulator Zakat',
+          text: 'Zakat',
           href: getPermalink('/kalkulator/zakat'),
         },
       ],
@@ -53,7 +82,7 @@ export const headerData = {
     },
   ],
   actions: [
-    { text: 'Cuba Kalkulator', href: getPermalink('/kalkulator/kwsp'), variant: 'primary' as const },
+    { text: 'Semua Kalkulator', href: getPermalink('/kalkulator'), variant: 'primary' as const },
   ],
 };
 
@@ -62,12 +91,20 @@ export const footerData = {
     {
       title: 'Kalkulator',
       links: [
-        { text: 'Kalkulator KWSP', href: getPermalink('/kalkulator/kwsp') },
-        { text: 'Kalkulator ASB', href: getPermalink('/kalkulator/asb') },
-        { text: 'Kalkulator Emas', href: getPermalink('/kalkulator/emas') },
-        { text: 'Kalkulator Kereta', href: getPermalink('/kalkulator/kereta') },
-        { text: 'Kalkulator Loan Rumah', href: getPermalink('/kalkulator/loan-rumah') },
-        { text: 'Kalkulator Zakat', href: getPermalink('/kalkulator/zakat') },
+        { text: 'Semua Kalkulator', href: getPermalink('/kalkulator') },
+        { text: 'STR & SARA (baru)', href: '/kalkulator/str-sara.html' },
+        { text: 'Gaji Bersih (baru)', href: '/kalkulator/gaji-bersih.html' },
+        { text: 'SST (baru)', href: '/kalkulator/sst.html' },
+        { text: 'Beli vs Sewa (baru)', href: '/kalkulator/beli-sewa-rumah.html' },
+        { text: 'Emas vs ASB vs FD (baru)', href: '/kalkulator/pelaburan.html' },
+        { text: 'Zakat Pendapatan (baru)', href: '/kalkulator/zakat-pendapatan.html' },
+        { text: '---', href: '#' },
+        { text: 'KWSP', href: getPermalink('/kalkulator/kwsp') },
+        { text: 'ASB', href: getPermalink('/kalkulator/asb') },
+        { text: 'Emas', href: getPermalink('/kalkulator/emas') },
+        { text: 'Kereta', href: getPermalink('/kalkulator/kereta') },
+        { text: 'Loan Rumah', href: getPermalink('/kalkulator/loan-rumah') },
+        { text: 'Zakat', href: getPermalink('/kalkulator/zakat') },
       ],
     },
     {

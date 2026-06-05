@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ms-MY">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>STR &amp; SARA Eligibility Checker — RakyatHub</title>
+<meta name="description" content="Semak anggaran bantuan STR dan SARA yang anda layak dapat.">
+<meta property="og:title" content="STR &amp; SARA Checker 2025 — RakyatHub">
+<meta property="og:description" content="Semak anggaran bantuan kerajaan STR dan SARA.">
+<meta property="og:url" content="https://rakyathub.my/kalkulator/str-sara/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="RakyatHub">
+<link rel="canonical" href="https://rakyathub.my/kalkulator/str-sara/">
+<link rel="stylesheet" href="/kalkulator/assets/calc.css">
+</head><body>
+<div class="calc-container">
+<a href="/kalkulator/" class="calc-back">&#8592; Semua Kalkulator</a>
+<div class="calc-header"><h1>STR &amp; SARA Checker</h1><p>Semak anggaran bantuan STR dan SARA yang anda layak dapat.</p></div>
+<div class="calc-card">
+<div class="calc-grid">
+<div class="calc-field"><label>Status</label>
+<select id="st" class="calc-select">
+<option value="berkahwin">Berkahwin</option><option value="bujang">Bujang</option>
+<option value="berkahwin_tidak_bekerja">Berkahwin (Isteri tdk bekerja)</option>
+<option value="warga_emas">Warga Emas 60+</option><option value="bapa_tunggal">Ibu/Bapa Tunggal</option>
+</select></div>
+<div class="calc-field"><label>Pendapatan Isi Rumah (RM/bulan)</label><input type="number" id="pd" class="calc-input" value="2500" min="0" step="100"></div>
+<div class="calc-field"><label>Bilangan Anak (&lt;18 tahun)</label><input type="number" id="ak" class="calc-input" value="2" min="0"></div>
+<div class="calc-field"><label>OKU?</label><select id="ok" class="calc-select"><option value="0" selected>Tidak</option><option value="1">Ya</option></select></div>
+</div>
+<div class="calc-btn-group"><button class="calc-btn" onclick="kira()">Semak Bantuan Saya</button></div>
+<div id="hasil" class="calc-result"><h2>Anggaran Bantuan Anda</h2><div id="hasilContent"></div></div>
+</div>
+<div class="calc-info"><strong>Penting:</strong> Untuk semakan rasmi, layari <a href="https://bantuantunai.hasil.gov.my" target="_blank">bantuantunai.hasil.gov.my</a></div>
+</div>
+<script>
+function kira() {
+var st=document.getElementById("st").value;
+var pd=parseFloat(document.getElementById("pd").value)||0;
+var ak=parseInt(document.getElementById("ak").value)||0;
+var ok=parseInt(document.getElementById("ok").value)||0;
+var sA=0,rA=0,cat="";
+if(pd<1000){if(st==="bujang"){sA=1200;cat="B40-Bujang"}else if(st==="warga_emas"||st==="bapa_tunggal"){sA=3000;cat="B40-WargaEmas"}else{sA=3700;cat="B40-Keluarga"}rA=1200}
+else if(pd<2000){if(st==="bujang"){sA=900;cat="B40-Bujang"}else if(st==="warga_emas"||st==="bapa_tunggal"){sA=2000;cat="B40-WargaEmas"}else{sA=2500;cat="B40-Keluarga"}rA=900}
+else if(pd<3000){if(st==="bujang"){sA=600;cat="B40-Bujang"}else if(st==="warga_emas"||st==="bapa_tunggal"){sA=1500;cat="B40-WargaEmas"}else{sA=2000;cat="B40-Keluarga"}rA=600}
+else if(pd<5000){if(st==="bujang"){sA=300;cat="M40-Bujang"}else{sA=1000;cat="M40-Keluarga"}rA=300}
+else{if(st==="bujang"){sA=150;cat="M40-Bujang"}else{sA=500;cat="M40-Keluarga"}rA=0}
+var ea=(ak>0&&pd<3000)?Math.min(ak*100,500):0;var eo=ok?300:0;var t=sA+rA+ea+eo;
+var h="<div class="calc-highlight"><span class="label">Anggaran Bantuan Tahunan</span><span class="amount">RM "+t.toLocaleString()+"</span></div>"+
+"<div class="calc-result-grid">"+
+"<div class="calc-stat"><div class="calc-stat-label">STR</div><div class="calc-stat-value">RM "+sA.toLocaleString()+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">SARA</div><div class="calc-stat-value">RM "+rA.toLocaleString()+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">Tambahan Anak</div><div class="calc-stat-value">RM "+ea.toLocaleString()+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">Tambahan OKU</div><div class="calc-stat-value">RM "+eo.toLocaleString()+"</div></div>"+
+"</div><div style="margin-top:12px;text-align:center"><strong>Kategori:</strong> "+cat+"</div>";
+document.getElementById("hasilContent").innerHTML=h;
+document.getElementById("hasil").classList.add("visible");
+}
+window.onload=kira;
+</script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ms-MY">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Kalkulator Zakat Pendapatan — RakyatHub</title>
+<meta name="description" content="Kira zakat pendapatan 2.5% secara automatik. Masukkan gaji tahunan, KWSP, dan perbelanjaan asas.">
+<meta property="og:title" content="Kalkulator Zakat Pendapatan Malaysia — RakyatHub">
+<meta property="og:description" content="Kira zakat pendapatan 2.5%.">
+<meta property="og:url" content="https://rakyathub.my/kalkulator/zakat-pendapatan/"><meta property="og:type" content="website">
+<link rel="canonical" href="https://rakyathub.my/kalkulator/zakat-pendapatan/">
+<link rel="stylesheet" href="/kalkulator/assets/calc.css">
+</head><body>
+<div class="calc-container">
+<a href="/kalkulator/" class="calc-back">&#8592; Semua Kalkulator</a>
+<div class="calc-header"><h1>Kalkulator Zakat Pendapatan</h1><p>Kira zakat pendapatan 2.5% berdasarkan pendapatan bersih tahunan. Dapatkan jumlah zakat wajib dan semak sama ada anda melebihi nisab.</p></div>
+<div class="calc-card">
+<div class="calc-grid">
+<div class="calc-field"><label>Pendapatan Setahun (RM)</label><input type="number" id="pendapatan" class="calc-input" value="48000" min="0" step="1000"></div>
+<div class="calc-field"><label>KWSP Setahun (RM)</label><input type="number" id="kwsp" class="calc-input" value="5280" min="0" step="100"></div>
+<div class="calc-field"><label>Perbelanjaan Diri (RM/bln)</label><input type="number" id="diri" class="calc-input" value="800" min="0" step="50"></div>
+<div class="calc-field"><label>Perbelanjaan Isteri (RM/bln)</label><input type="number" id="isteri" class="calc-input" value="500" min="0" step="50"></div>
+<div class="calc-field"><label>Perbelanjaan Anak (RM/bln)</label><input type="number" id="anak" class="calc-input" value="300" min="0" step="50"></div>
+<div class="calc-field"><label>Bilangan Anak</label><input type="number" id="bilAnak" class="calc-input" value="2" min="0"></div>
+<div class="calc-field"><label>Perbelanjaan Lain (RM/bln)</label><input type="number" id="lain" class="calc-input" value="200" min="0" step="50"><div class="calc-hint">Ibu bapa, pendidikan, dll</div></div>
+</div>
+<div class="calc-btn-group"><button class="calc-btn" onclick="kira()">Kira Zakat</button></div>
+<div id="hasil" class="calc-result"><h2>Kiraan Zakat</h2><div id="hasilContent"></div></div>
+</div>
+<div class="calc-info"><strong>Nisab 2026:</strong> RM 29,961 (nilai emas 86g). Zakat = 2.5% dari pendapatan bersih jika melebihi nisab. Bayar zakat melalui institusi zakat negeri masing-masing untuk dapat rebat cukai LHDN.</div>
+</div>
+<script>
+function kira(){
+var p=parseFloat(document.getElementById("pendapatan").value)||0;
+var k=parseFloat(document.getElementById("kwsp").value)||0;
+var d=parseFloat(document.getElementById("diri").value)||0;
+var i=parseFloat(document.getElementById("isteri").value)||0;
+var a=parseFloat(document.getElementById("anak").value)||0;
+var ba=parseInt(document.getElementById("bilAnak").value)||0;
+var l=parseFloat(document.getElementById("lain").value)||0;
+var perbelanjaan = (d + i + a*ba + l) * 12;
+var bersih = p - k - perbelanjaan;
+var nisab = 29961;
+var zakat = bersih > nisab ? Math.round(bersih * 0.025) : 0;
+document.getElementById("hasilContent").innerHTML=
+(zakat > 0 ?
+"<div class="calc-highlight"><span class="label">Zakat Pendapatan Wajib Dibayar</span><span class="amount">RM "+zakat.toLocaleString()+"</span><span class="label">2.5% dari pendapatan bersih</span></div>"
+:
+"<div class="calc-highlight warning"><span class="label">Anda TIDAK Diwajibkan Zakat</span><span class="amount">RM 0</span><span class="label">Pendapatan bersih bawah nisab</span></div>"
+)+
+"<div class="calc-result-grid">"+
+"<div class="calc-stat"><div class="calc-stat-label">Pendapatan Setahun</div><div class="calc-stat-value">RM "+p.toLocaleString()+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">Tolakan KWSP</div><div class="calc-stat-value warning">-RM "+k.toLocaleString()+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">Tolakan Perbelanjaan</div><div class="calc-stat-value warning">-RM "+perbelanjaan.toLocaleString()+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">Pendapatan Bersih</div><div class="calc-stat-value">RM "+bersih.toLocaleString()+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">Nisab 2026</div><div class="calc-stat-value">RM "+nisab.toLocaleString()+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">Kadar Zakat</div><div class="calc-stat-value">2.5%</div></div>"+
+"</div>";
+document.getElementById("hasil").classList.add("visible");
+}
+</script>
+</body>
+</html>

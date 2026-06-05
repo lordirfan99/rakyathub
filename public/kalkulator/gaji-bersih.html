@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ms-MY">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Kalkulator Gaji Bersih Malaysia — RakyatHub</title>
+<meta name="description" content="Kira gaji bersih selepas potongan KWSP, SOCSO, EIS dan PCB. Kalkulator take-home pay Malaysia.">
+<meta property="og:title" content="Kalkulator Gaji Bersih Malaysia — RakyatHub">
+<meta property="og:description" content="Kira gaji bersih (take-home pay) selepas potongan wajib.">
+<meta property="og:url" content="https://rakyathub.my/kalkulator/gaji-bersih/"><meta property="og:type" content="website">
+<link rel="canonical" href="https://rakyathub.my/kalkulator/gaji-bersih/">
+<link rel="stylesheet" href="/kalkulator/assets/calc.css">
+</head><body>
+<div class="calc-container">
+<a href="/kalkulator/" class="calc-back">&#8592; Semua Kalkulator</a>
+<div class="calc-header"><h1>Kalkulator Gaji Bersih Malaysia</h1><p>Kira gaji bersih (take-home pay) selepas potongan KWSP, SOCSO, EIS dan PCB. Hasil anggaran berdasarkan kadar 2025/2026.</p></div>
+<div class="calc-card">
+<div class="calc-grid">
+<div class="calc-field"><label>Gaji Pokok (RM)</label><input type="number" id="gaji" class="calc-input" value="3500" min="0" step="100"></div>
+<div class="calc-field"><label>Caruman KWSP Pekerja</label><select id="kwsp" class="calc-select"><option value="11" selected>11% (Standard)</option><option value="9">9% (Opsional)</option><option value="7">7% (Kurang)</option><option value="5">5% (Minimum)</option><option value="0">0% (Tiada)</option></select></div>
+<div class="calc-field"><label>Bonus (RM) - jika ada</label><input type="number" id="bonus" class="calc-input" value="0" min="0" step="100"></div>
+<div class="calc-field"><label>PCB (Cukai Bulanan)</label><select id="pcb" class="calc-select"><option value="auto" selected>Kira Automatik</option><option value="0">Tiada PCB</option><option value="50">RM 50/bln</option><option value="100">RM 100/bln</option><option value="200">RM 200/bln</option><option value="500">RM 500/bln</option></select></div>
+</div>
+<div class="calc-btn-group"><button class="calc-btn" onclick="kira()">Kira Gaji Bersih</button></div>
+<div id="hasil" class="calc-result"><h2>Pecahan Gaji Anda</h2><div id="hasilContent"></div></div>
+</div>
+<div class="calc-info"><strong>Nota:</strong> Anggaran berdasarkan kadar EPF/SOCSO/EIS/PCB 2026. Jumlah potongan mungkin berbeza dengan slip gaji sebenar. Untuk pengiraan tepat, rujuk HR/payroll anda.</div>
+</div>
+<script>
+function kira(){
+var g=parseFloat(document.getElementById("gaji").value)||0;
+var kw=parseInt(document.getElementById("kwsp").value);
+var b=parseFloat(document.getElementById("bonus").value)||0;
+var pv=document.getElementById("pcb").value;
+var ks=Math.round(g*kw/100);
+var km=Math.round(g*(g>4000?13:12)/100);
+var soc=0;
+if(g<=30)soc=2.5;else if(g<=100)soc=5;else if(g<=200)soc=10;else if(g<=400)soc=18;else if(g<=600)soc=28;else if(g<=800)soc=38;else if(g<=1000)soc=47;else if(g<=1200)soc=56;else if(g<=1400)soc=63;else if(g<=1600)soc=70;else if(g<=1800)soc=76;else if(g<=2000)soc=82;else if(g<=2200)soc=88;else if(g<=2400)soc=93;else if(g<=2600)soc=97;else if(g<=2800)soc=101;else if(g<=3000)soc=105;else if(g<=3200)soc=109;else if(g<=3400)soc=112;else if(g<=3600)soc=115;else if(g<=3800)soc=118;else if(g<=4000)soc=121;else if(g<=4200)soc=124;else if(g<=4400)soc=127;else if(g<=4600)soc=130;else if(g<=4800)soc=132;else if(g<=5000)soc=134;else soc=Math.round(g*0.028);
+soc=Math.round(soc);
+var eis=0;
+if(g<=30)eis=0.5;else if(g<=100)eis=1;else if(g<=200)eis=2;else if(g<=400)eis=3;else if(g<=600)eis=5;else if(g<=800)eis=7;else if(g<=1000)eis=8;else if(g<=1200)eis=10;else if(g<=1400)eis=11;else if(g<=1600)eis=13;else if(g<=1800)eis=14;else if(g<=2000)eis=15;else if(g<=2200)eis=17;else if(g<=2400)eis=18;else if(g<=2600)eis=19;else if(g<=2800)eis=20;else if(g<=3000)eis=21;else if(g<=3200)eis=22;else if(g<=3400)eis=23;else if(g<=3600)eis=24;else if(g<=3800)eis=25;else if(g<=4000)eis=26;else if(g<=4200)eis=27;else if(g<=4400)eis=28;else if(g<=4600)eis=29;else if(g<=4800)eis=30;else if(g<=5000)eis=31;else eis=Math.round(g*0.006);
+eis=Math.round(eis);
+var pcb=0;
+if(pv==="auto"){if(g>5000)pcb=Math.round(g*0.08);else if(g>4000)pcb=Math.round(g*0.04);else if(g>3000)pcb=Math.round(g*0.02);else pcb=0;}
+else pcb=parseInt(pv);
+var tp=ks+soc+eis+pcb;
+var gb=g-tp;
+var per=(tp/g*100).toFixed(1);
+document.getElementById("hasilContent").innerHTML=
+"<div class="calc-highlight"><span class="label">Gaji Bersih (Take-Home Pay)</span><span class="amount">RM "+gb.toLocaleString()+"</span><span class="label">Potongan: "+per+"% dari gaji</span></div>"+
+"<div class="calc-result-grid">"+
+"<div class="calc-stat"><div class="calc-stat-label">Gaji Pokok</div><div class="calc-stat-value">RM "+g.toLocaleString()+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">KWSP Pekerja ("+kw+"%)</div><div class="calc-stat-value warning">-RM "+ks.toLocaleString()+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">SOCSO</div><div class="calc-stat-value warning">-RM "+soc.toLocaleString()+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">EIS (SIP)</div><div class="calc-stat-value warning">-RM "+eis.toLocaleString()+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">PCB (Cukai)</div><div class="calc-stat-value warning">-RM "+pcb.toLocaleString()+"</div></div>"+
+"</div><div style="margin-top:16px;padding:16px;background:var(--bg);border-radius:8px;text-align:center">Dari RM "+g.toLocaleString()+", anda bawa pulang <strong>RM "+gb.toLocaleString()+"</strong></div>";
+document.getElementById("hasil").classList.add("visible");
+}
+</script>
+</body>
+</html>

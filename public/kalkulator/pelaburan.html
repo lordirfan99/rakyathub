@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ms-MY">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Perbandingan Pelaburan: Emas vs ASB vs FD — RakyatHub</title>
+<meta name="description" content="Bandingkan pulangan pelaburan Emas, ASB dan Fixed Deposit. Graf perbandingan dan unjuran lengkap untuk 5-20 tahun.">
+<meta property="og:title" content="Emas vs ASB vs FD — RakyatHub">
+<meta property="og:description" content="Bandingkan pulangan emas, ASB dan FD.">
+<meta property="og:url" content="https://rakyathub.my/kalkulator/pelaburan/"><meta property="og:type" content="website">
+<link rel="canonical" href="https://rakyathub.my/kalkulator/pelaburan/">
+<link rel="stylesheet" href="/kalkulator/assets/calc.css">
+</head><body>
+<div class="calc-container">
+<a href="/kalkulator/" class="calc-back">&#8592; Semua Kalkulator</a>
+<div class="calc-header"><h1>Perbandingan Pelaburan: Emas vs ASB vs FD</h1><p>Bandingkan pulangan pelaburan emas, ASB dan Fixed Deposit secara side-by-side. Lihat graf perbezaan pulangan untuk buat keputusan pelaburan yang lebih bijak.</p></div>
+<div class="calc-card">
+<div class="calc-grid">
+<div class="calc-field"><label>Modal Awal (RM)</label><input type="number" id="modal" class="calc-input" value="10000" min="0" step="1000"></div>
+<div class="calc-field"><label>Simpanan Bulanan (RM)</label><input type="number" id="bulanan" class="calc-input" value="500" min="0" step="100"></div>
+<div class="calc-field"><label>Tempoh (tahun)</label><input type="number" id="tahun" class="calc-input" value="10" min="1" max="40"></div>
+<div class="calc-field"><label>Pulangan Emas</label><select id="pulangEmas" class="calc-select"><option value="8">8% (Optimis)</option><option value="6" selected>6% (Sederhana)</option><option value="4">4% (Konservatif)</option><option value="10">10% (Agresif)</option></select></div>
+<div class="calc-field"><label>Pulangan ASB</label><select id="pulangAsb" class="calc-select"><option value="5.75" selected>5.75% (2025 terkini)</option><option value="5.5">5.5% (Pesimis)</option><option value="6.0">6.0% (Optimis)</option></select></div>
+<div class="calc-field"><label>Pulangan FD</label><select id="pulangFd" class="calc-select"><option value="2.5">2.5% (Standard)</option><option value="2.0">2.0% (Pesimis)</option><option value="3.0" selected>3.0% (Promosi)</option></select></div>
+</div>
+<div class="calc-btn-group"><button class="calc-btn" onclick="kira()">Bandingkan Pelaburan</button></div>
+<div id="hasil" class="calc-result"><h2>Perbandingan Pelaburan</h2><div id="hasilContent"></div></div>
+</div>
+<div class="calc-info"><strong>Nota:</strong> Kadar pulangan berdasarkan purata prestasi lepas. Emas: purata 4-10% setahun, ASB: 5.0-6.5%, FD: 2.0-3.0%. Prestasi lepas TIDAK menjamin masa depan. Pelaburan emas ada risiko turun naik harga.</div>
+</div>
+<script>
+function kira(){
+var m=parseFloat(document.getElementById("modal").value)||0;
+var b=parseFloat(document.getElementById("bulanan").value)||0;
+var t=parseInt(document.getElementById("tahun").value)||10;
+var pe=parseFloat(document.getElementById("pulangEmas").value);
+var pa=parseFloat(document.getElementById("pulangAsb").value);
+var pf=parseFloat(document.getElementById("pulangFd").value);
+function fv(P,monthly,rate,years){var r=rate/100/12;var n=years*12;return Math.round(P*Math.pow(1+r,n)+monthly*((Math.pow(1+r,n)-1)/r)*(1+r));}
+var emas=fv(m,b,pe,t);var asb=fv(m,b,pa,t);var fd=fv(m,b,pf,t);
+var totalSimpan=m+(b*12*t);
+var maxVal=Math.max(emas,asb,fd);
+function bh(val){return Math.max(8,(val/maxVal)*160);}
+document.getElementById("hasilContent").innerHTML=
+"<div class="calc-result-grid"><div class="calc-stat"><div class="calc-stat-label">Jumlah Simpanan</div><div class="calc-stat-value">RM "+totalSimpan.toLocaleString()+"</div><div class="calc-stat-small">Modal + (RM "+b.toLocaleString()+" x 12 x "+t+" tahun)</div></div></div>"+
+"<div class="calc-bar-chart">"+
+"<div class="calc-bar-item"><div class="calc-bar" style="height:"+bh(emas)+"px;background:linear-gradient(#f59e0b,#d97706);border:2px solid #f59e0b"></div><div class="calc-bar-value success">RM "+emas.toLocaleString()+"</div><div class="calc-bar-label">Emas ("+pe+"%)</div></div>"+
+"<div class="calc-bar-item"><div class="calc-bar" style="height:"+bh(asb)+"px;background:linear-gradient(#3b82f6,#2563eb);border:2px solid #3b82f6"></div><div class="calc-bar-value">RM "+asb.toLocaleString()+"</div><div class="calc-bar-label">ASB ("+pa+"%)</div></div>"+
+"<div class="calc-bar-item"><div class="calc-bar" style="height:"+bh(fd)+"px;background:linear-gradient(#10b981,#059669);border:2px solid #10b981"></div><div class="calc-bar-value">RM "+fd.toLocaleString()+"</div><div class="calc-bar-label">FD ("+pf+"%)</div></div>"+
+"</div>"+
+"<div class="calc-result-grid">"+
+"<div class="calc-stat"><div class="calc-stat-label">Emas - Selepas "+t+" Tahun</div><div class="calc-stat-value success">RM "+emas.toLocaleString()+"</div><div class="calc-stat-small">Untung: RM "+(emas-totalSimpan).toLocaleString()+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">ASB - Selepas "+t+" Tahun</div><div class="calc-stat-value">RM "+asb.toLocaleString()+"</div><div class="calc-stat-small">Untung: RM "+(asb-totalSimpan).toLocaleString()+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">FD - Selepas "+t+" Tahun</div><div class="calc-stat-value">RM "+fd.toLocaleString()+"</div><div class="calc-stat-small">Untung: RM "+(fd-totalSimpan).toLocaleString()+"</div></div>"+
+"</div>";
+document.getElementById("hasil").classList.add("visible");
+}
+</script>
+</body>
+</html>

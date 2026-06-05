@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ms-MY">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Kalkulator SST Malaysia — RakyatHub</title>
+<meta name="description" content="Kira SST 8%, 6% atau 5% untuk sebarang harga barang atau perkhidmatan. Tambah atau buang SST dengan mudah.">
+<meta property="og:title" content="Kalkulator SST Malaysia — RakyatHub">
+<meta property="og:description" content="Kira SST 8%, 6% atau 5% dengan cepat.">
+<meta property="og:url" content="https://rakyathub.my/kalkulator/sst/"><meta property="og:type" content="website">
+<link rel="canonical" href="https://rakyathub.my/kalkulator/sst/">
+<link rel="stylesheet" href="/kalkulator/assets/calc.css">
+</head><body>
+<div class="calc-container">
+<a href="/kalkulator/" class="calc-back">&#8592; Semua Kalkulator</a>
+<div class="calc-header"><h1>Kalkulator SST Malaysia</h1><p>Kira jumlah SST 6%, 8% atau 5% untuk sebarang harga. Tambah SST pada harga atau buang SST dari harga termasuk SST.</p></div>
+<div class="calc-card">
+<div class="calc-grid">
+<div class="calc-field"><label>Harga Barang/Perkhidmatan (RM)</label><input type="number" id="harga" class="calc-input" value="100.00" min="0" step="0.01"></div>
+<div class="calc-field"><label>Jenis SST</label><select id="jenis" class="calc-select"><option value="8">SST 8% (Perkhidmatan)</option><option value="6">SST 6% (Makanan/minuman)</option><option value="5">SST 5% (Khusus)</option><option value="0">0% (Dikecualikan)</option></select></div>
+</div>
+<div class="calc-btn-group"><button class="calc-btn" onclick="kira()">Kira SST</button></div>
+<div id="hasil" class="calc-result"><h2>Keputusan SST</h2><div id="hasilContent"></div></div>
+</div>
+<div class="calc-info"><strong>Cara guna:</strong> Masukkan harga barang/perkhidmatan dan pilih kadar SST. Kalkulator akan tunjuk jumlah SST dan harga termasuk SST. Nak tahu harga asal dari harga termasuk SST? Kalkulator juga buat pengiraan sebaliknya.</div>
+</div>
+<script>
+function kira(){
+var h=parseFloat(document.getElementById("harga").value)||0;
+var j=parseFloat(document.getElementById("jenis").value);
+var sst=h*j/100;
+var total=h+sst;
+var asas=h*100/(100+j);
+document.getElementById("hasilContent").innerHTML=
+"<div class="calc-result-grid">"+
+"<div class="calc-stat"><div class="calc-stat-label">Harga Asal</div><div class="calc-stat-value">RM "+h.toFixed(2)+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">Jumlah SST ("+j+"%)</div><div class="calc-stat-value warning">RM "+sst.toFixed(2)+"</div></div>"+
+"<div class="calc-stat"><div class="calc-stat-label">Harga Termasuk SST</div><div class="calc-stat-value success">RM "+total.toFixed(2)+"</div></div>"+
+"</div>"+
+"<div style="margin-top:16px;padding:16px;background:var(--bg);border-radius:8px;border:1px solid var(--border)">"+
+"<strong>Cara kira:</strong> RM "+h.toFixed(2)+" x "+j+"% = RM "+sst.toFixed(2)+". Harga akhir: RM "+total.toFixed(2)+"</div>"+
+"<div style="margin-top:12px;padding:16px;background:var(--bg);border-radius:8px;border:1px solid var(--border)">"+
+"<strong>Nak buang SST?</strong> Jika harga RM "+total.toFixed(2)+" termasuk SST "+j+"%, harga asal adalah RM "+asas.toFixed(2)+"</div>";
+document.getElementById("hasil").classList.add("visible");
+}
+</script>
+</body>
+</html>
