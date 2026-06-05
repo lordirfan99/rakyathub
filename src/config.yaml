@@ -11,7 +11,7 @@ metadata:
   title:
     default: RakyatHub — Panduan Kewangan Rakyat Malaysia
     template: '%s — RakyatHub'
-  description: "Jawapan kepada soalan rakyat Malaysia tentang kewangan, bantuan kerajaan, emas, KWSP, ASB dan banyak lagi."
+  description: "Jawapan kepada soalan rakyat Malaysia tentang kewangan, bantuan kerajaan, emas, KWSP, ASB dan banyak lagi. Guna kalkulator interaktif untuk kira STR/SARA, gaji bersih, SST, zakat, pelaburan, KWSP, ASB, emas dan ansuran kereta."
   robots:
     index: true
     follow: true
