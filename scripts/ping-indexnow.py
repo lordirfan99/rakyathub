@@ -74,7 +74,7 @@ def submit_url(url, key, host=None):
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
             code = resp.getcode()
-            if code == 200:
+            if code in (200, 202):
                 print(f"[IndexNow] ✅ Submitted: {url}")
                 return True
             else:
