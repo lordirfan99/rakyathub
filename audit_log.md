@@ -102,3 +102,15 @@
 - **Command**: `npm run build`
 - **Result**: 0 errors, 80 pages built in 12.12s
 - **Status**: resolved
+
+## 2026-06-05 20:44
+- **QA Check**: Post-build browser inspection after new blog post "Beras Import vs Tempatan"
+- **Commit**: `ecaf2b5` — added `beras-import-vs-tempatan-murah.md`, `hero-beli-beras.jpg`
+- **Build**: 86 pages built in 12.57s — 0 errors
+- **Browser Inspection**: Homepage + new blog post verified
+  - DOM structure: main(1), header(1), nav(1), footer(1) — all present
+  - Images: 6 loaded, 0 broken
+  - Resources: 0 failed (no 404s/5xx)
+  - Console: 0 errors, 0 warnings
+  - New blog post renders correctly with tables, hero image, tags, social share
+- **Status**: resolved
