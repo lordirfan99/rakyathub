@@ -85,3 +85,13 @@
 - **Command**: `npm run build`
 - **Result**: 0 errors, 0 warnings (astro check passed; 127 pre-existing ESLint style suggestions ignored — no impact on build or runtime)
 - **Status**: resolved
+
+## 2026-06-05 17:43
+- **Fix**: SocialShare aria-label "Kongsi di Twitter" → "Kongsi di X"
+- **File**: `src/components/common/SocialShare.astro`
+- **Fix**: Logo.astro - removed redundant alt text on logo
+- **File**: `src/components/Logo.astro`
+- **Fix**: Blog posts H1→H2 heading fix to eliminate duplicate H1 (removed CSS hack in SinglePost.astro)
+- **Files**: `src/components/blog/SinglePost.astro`, multiple `src/data/post/*.md`
+- **Build**: 80 pages built successfully in 12.22s — no errors
+- **Status**: resolved
