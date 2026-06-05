@@ -11,7 +11,7 @@ author: RakyatHub
 
 📊 Strategi DCA vs Lump Sum: Pilihan Pelaburan Bijak untuk Orang Muda   
 
-# 📊 Strategi DCA vs Lump Sum: Pilihan Pelaburan Bijak untuk Orang Muda 🚀
+## 📊 Strategi DCA vs Lump Sum: Pilihan Pelaburan Bijak untuk Orang Muda 🚀
 
 ## 1\. Pengenalan kepada DCA dan Lump Sum
 

@@ -11,7 +11,7 @@ author: RakyatHub
 
 📉 Info Bantuan RM100 MyKad & Subsidi RON95   
 
-# 📉 Info Bantuan RM100 MyKad & Subsidi RON95
+## 📉 Info Bantuan RM100 MyKad & Subsidi RON95
 
 Pada 23 Julai 2025, Kerajaan Malaysia mengumumkan bantuan **[one‑off RM100](/tebus-bantuan-sara-rm100-guna-ic-pengumuman-pagi-ini-23-julai-2025/)** yang akan dimuatkan terus ke dalam cip MyKad penerima dan boleh digunakan di kedai terpilih.[(MStar)](https://www.mstar.com.my/xpose/i-suke/2025/07/23/bantuan-rm100-disalur-dalam-mykad-ini-cara-semak-status-dan-baki-sebelum-pergi-shopping) Selain itu, subsidi RON95 akan menetapkan harga pada **RM1.99 seliter** bermula 1 Ogos 2025 bagi meringankan kos sara hidup rakyat.[(Reuters)](https://www.reuters.com/world/asia-pacific/malaysia-pm-announces-cash-aid-fuel-price-cut-address-rising-living-costs-2025-07-23)
 

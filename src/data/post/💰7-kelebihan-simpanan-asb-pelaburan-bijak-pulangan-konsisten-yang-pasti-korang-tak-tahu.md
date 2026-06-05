@@ -11,7 +11,7 @@ author: "RakyatHub"
 
 💰 7 Kelebihan Simpanan ASB – Pelaburan Bijak & Pulangan Konsisten    
 
-# 💰 Kelebihan Simpanan ASB – Pelaburan Bijak & Pulangan Konsisten
+## 💰 Kelebihan Simpanan ASB – Pelaburan Bijak & Pulangan Konsisten
 
 Amanah Saham Bumiputera (ASB) adalah antara instrumen pelaburan paling popular dalam kalangan Bumiputera Malaysia. Ia menawarkan pelbagai kelebihan seperti kadar pulangan tahunan yang kompetitif, risiko rendah, dan kemudahan akses melalui platform digital. Artikel ini membincangkan secara mendalam mengapa simpanan ASB layak diberi perhatian oleh sesiapa sahaja yang ingin membina kekayaan jangka panjang.
 

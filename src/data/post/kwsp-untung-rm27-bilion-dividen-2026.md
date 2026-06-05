@@ -13,7 +13,7 @@ tags:
 author: RakyatHub
 ---
 
-# 📈 KWSP Untung RM27.7 Bilion — Elok Keconfirm Dividen Tinggi? Jangan Teruja Dulu
+## 📈 KWSP Untung RM27.7 Bilion — Elok Keconfirm Dividen Tinggi? Jangan Teruja Dulu
 
 **📰 Sumber:** [Berita Harian — 19 Mei 2026](https://www.bharian.com.my/berita/nasional/2026/05/1560942/pendapatan-pelaburan-kwsp-suku-pertama-melonjak-51-peratus-kepada), Bernama, KWSP Official
 

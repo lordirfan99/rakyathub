@@ -9,7 +9,7 @@ tags:
 author: RakyatHub
 ---
 
-# 💸 Tebus Bantuan SARA RM100 Guna MyKad – Pengumuman Pagi Ini (23 Julai 2025)
+## 💸 Tebus Bantuan SARA RM100 Guna MyKad – Pengumuman Pagi Ini (23 Julai 2025)
 
 Pagi ini, Perdana Menteri Datuk Seri Anwar Ibrahim telah mengumumkan bantuan tunai **one-off RM100** untuk semua warganegara Malaysia berumur 18 tahun ke atas. Bantuan dibayar terus ke MyKad dan boleh ditebus bermula **31 Ogos 2025** hingga **31 Disember 2025**.
 

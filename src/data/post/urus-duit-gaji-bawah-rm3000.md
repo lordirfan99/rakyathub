@@ -11,7 +11,7 @@ author: "RakyatHub"
 
 Cara Urus Duit Gaji Bawah RM3000 Sebulan (Panduan 2025) 
 
-# 💸 Cara Urus Duit Gaji Bawah RM3000 Sebulan (Panduan 2025)
+## 💸 Cara Urus Duit Gaji Bawah RM3000 Sebulan (Panduan 2025)
 
 Dengan kos sara hidup yang meningkat, ramai rakyat Malaysia, terutamanya belia dan keluarga kecil, bergelut mengurus kewangan mereka apabila pendapatan bulanan di bawah RM3000. Walaupun sukar, pengurusan kewangan yang bijak mampu mengubah situasi anda ke arah lebih baik. Artikel ini memberi panduan lengkap langkah demi langkah bagaimana anda boleh mencapai kestabilan kewangan walaupun dengan pendapatan yang terhad.
 

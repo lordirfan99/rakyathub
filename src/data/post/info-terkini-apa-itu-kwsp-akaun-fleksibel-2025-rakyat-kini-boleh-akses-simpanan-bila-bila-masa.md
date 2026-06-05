@@ -9,7 +9,7 @@ tags:
 author: RakyatHub
 ---
 
-# [INFO TERKINI] Apa Itu KWSP Akaun Fleksibel 2025? Rakyat Kini Boleh Akses Simpanan Bila-Bila Masa
+## [INFO TERKINI] Apa Itu KWSP Akaun Fleksibel 2025? Rakyat Kini Boleh Akses Simpanan Bila-Bila Masa
 
 **Apa itu KWSP Akaun Fleksibel 2025?** Mulai tahun 2025, Kumpulan Wang Simpanan Pekerja (KWSP) memperkenalkan inisiatif baru untuk memberi fleksibiliti kewangan kepada rakyat Malaysia.
 

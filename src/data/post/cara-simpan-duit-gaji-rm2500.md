@@ -10,7 +10,7 @@ tags:
 author: RakyatHub
 ---
 
-# 💰 Cara Simpan Duit Gaji RM2500 untuk Masa Depan (Panduan Realistik)
+## 💰 Cara Simpan Duit Gaji RM2500 untuk Masa Depan (Panduan Realistik)
 
 Gaji pertama RM2500 — rasa seronok tapi sekali gus pening juga kan? Antara nak bayar sewa, settle hutang PTPTN, belanja mak ayah, dan still nak ada baki untuk **cara simpan duit gaji** yang efektif. Ramai fresh graduates mengalami situasi sama: gaji masuk, habis dalam masa dua minggu, dan simpanan masa depan langsung tak bergerak.
 

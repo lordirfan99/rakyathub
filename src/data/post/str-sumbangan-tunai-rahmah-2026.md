@@ -11,7 +11,7 @@ tags:
 author: RakyatHub
 ---
 
-# 🏛️ STR 2026: Cara Daftar & Semak Sumbangan Tunai Rahmah
+## 🏛️ STR 2026: Cara Daftar & Semak Sumbangan Tunai Rahmah
 
 STR atau **Sumbangan Tunai Rahmah** adalah bantuan tunai tahunan daripada kerajaan Malaysia untuk meringankan beban kos sara hidup rakyat. Sebelum ni dikenali sebagai BSH (Bantuan Sara Hidup) dan BKM (Bantuan Keluarga Malaysia), STR kini jadi program bantuan tunai utama kerajaan.
 

@@ -10,7 +10,7 @@ tags:
 author: RakyatHub
 ---
 
-# ❓ Pelaburan Asas: ASB, KWSP, DCA – Apa Pilihan Terbaik Untuk Rakyat Malaysia?
+## ❓ Pelaburan Asas: ASB, KWSP, DCA – Apa Pilihan Terbaik Untuk Rakyat Malaysia?
 
 Ramai rakyat Malaysia ingin mulakan pelaburan tetapi masih keliru dengan pilihan yang ada. **ASB, KWSP dan DCA** adalah antara instrumen paling mudah dan berkesan untuk membina kewangan jangka panjang. Artikel ini menerangkan secara ringkas dan padat bagaimana anda boleh menggunakan ketiga-tiga kaedah ini secara bijak.
 

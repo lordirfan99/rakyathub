@@ -10,7 +10,7 @@ tags:
 author: RakyatHub
 ---
 
-# ❓ Bagaimana Nak Rancang Bajet 50/30/20 di Malaysia?
+## ❓ Bagaimana Nak Rancang Bajet 50/30/20 di Malaysia?
 
 Anda ingin urus kewangan dengan bijak? Bajet 50/30/20 ialah panduan mudah untuk anda bagi urus gaji setiap bulan: **50% keperluan, 30% kehendak dan 20% simpanan atau pelaburan**. Skema ini sesuai untuk rakyat Malaysia yang mahu kawalan belanja lebih efektif.
 

@@ -14,7 +14,7 @@ tags:
 author: RakyatHub
 ---
 
-# 🧠 Scam Guna AI Makin Canggih — BNM Dah Amaran! Ini Cara Korang Lindung Diri
+## 🧠 Scam Guna AI Makin Canggih — BNM Dah Amaran! Ini Cara Korang Lindung Diri
 
 **📰 Sumber:** The Rakyat Post (9 Mei 2026), Utusan Malaysia (Mac 2026), Bank Negara Malaysia Financial Consumer Alert
 
