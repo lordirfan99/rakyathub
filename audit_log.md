@@ -1,5 +1,23 @@
 # Audit Log
 
+## 2026-06-05 15:54
+- **QA Check**: Build verification passed — 75 pages built successfully
+- **Command**: `npm run build`
+- **Result**: Build: 0 errors, 0 warnings. 75 pages built in 3.96s + 11.52s total. All images reused from cache. No issues detected.
+- **Status**: resolved
+
+## 2026-06-05 15:31
+- **QA Check**: Build verification passed — 75 pages built successfully
+- **Command**: `npm run build`
+- **Result**: Build: 0 errors, 0 warnings. 75 pages built in 3.84s (static gen) + 11.24s total. All images reused from cache. No issues detected.
+- **Status**: resolved
+
+## 2026-06-05 15:23
+- **QA Check**: Build and lint verification passed — 75 pages built successfully
+- **Command**: `npm run build`, `npm run check`
+- **Result**: Build: 0 errors, 0 warnings. 75 pages built in 11.3s (up from 67). Astro check: 0 errors, 6 hints (pre-existing). ESLint: 117 pre-existing style suggestions (no-var) — down from 127 last run.
+- **Status**: resolved
+
 ## 2026-06-05 12:39
 - **QA Check**: Build and lint verification passed — 67 pages built successfully
 - **Command**: `npm run build`, `npm run check`
