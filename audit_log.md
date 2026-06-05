@@ -93,5 +93,12 @@
 - **File**: `src/components/Logo.astro`
 - **Fix**: Blog posts H1→H2 heading fix to eliminate duplicate H1 (removed CSS hack in SinglePost.astro)
 - **Files**: `src/components/blog/SinglePost.astro`, multiple `src/data/post/*.md`
-- **Build**: 80 pages built successfully in 12.22s — no errors
+- **Status**: resolved
+
+## 2026-06-05 17:51
+- **QA Check**: Build verification after social share contrast fix (WCAG AA)
+- **File**: `src/components/common/SocialShare.astro`
+- **Commit**: `891b89a` — icons `text-gray-400`→`text-gray-500`, label `text-slate-500`→`text-slate-600`
+- **Command**: `npm run build`
+- **Result**: 0 errors, 80 pages built in 12.12s
 - **Status**: resolved
