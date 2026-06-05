@@ -1,0 +1,145 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator SST Malaysia — 6% & 8%',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator SST Malaysia
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-8">
+      Kira SST 6% atau 8% untuk sebarang harga barang atau perkhidmatan. Tambah atau buang SST dengan mudah.
+    </p>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="harga" class="block text-sm font-semibold text-default mb-1.5">Harga Barang/Perkhidmatan (RM)</label>
+          <input type="number" id="harga" value="100.00" min="0" step="0.01"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="jenis" class="block text-sm font-semibold text-default mb-1.5">Jenis SST</label>
+          <select id="jenis"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="8">SST 8% (Perkhidmatan)</option>
+            <option value="6">SST 6% (Makanan/minuman)</option>
+            <option value="5">SST 5% (Khusus)</option>
+            <option value="0">0% (Dikecualikan)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Harga Asal</p>
+          <p class="text-lg font-bold text-default" id="sstAsal">RM 100.00</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah SST</p>
+          <p class="text-lg font-bold text-amber-600" id="sstJumlah">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Harga Termasuk SST</p>
+          <p class="text-lg font-bold text-emerald-700" id="sstTotal">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Kadar SST</p>
+          <p class="text-lg font-bold text-primary" id="sstKadar">0%</p>
+        </div>
+      </div>
+
+      <div class="mt-6 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-sm text-muted" id="sstLabel">Harga Selepas SST</p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="sstProjected">RM 108.00</p>
+        <p class="text-xs text-muted mt-1" id="sstDetail">*Kiraan automatik SST Malaysia.</p>
+      </div>
+    </div>
+
+    <div class="rounded-2xl bg-gradient-to-br from-primary/10 via-primary/[0.03] to-secondary/10 border border-primary/20 p-6 md:p-8 text-center mb-8">
+      <h3 class="text-xl md:text-2xl font-bold mb-2">Perlukan Invois Termasuk SST?</h3>
+      <p class="text-muted mb-4">Guna DocuKilat untuk hasilkan invois profesional termasuk kiraan SST automatik.</p>
+      <a href="https://docukilat.netlify.app" target="_blank" rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-primary/30 hover:scale-[1.02]">
+        Bina Dokumen di DocuKilat
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">SST 8%</h3>
+        <p class="text-muted text-sm">Untuk kebanyakan perkhidmatan termasuk restoran, penginapan, tiket konsert, dsb.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">SST 6%</h3>
+        <p class="text-muted text-sm">Untuk makanan dan minuman di restoran serta beberapa perkhidmatan terpilih.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">Pengecualian</h3>
+        <p class="text-muted text-sm">Barangan runcit, perkhidmatan kesihatan, pendidikan, pengangkutan awam dikecualikan SST.</p>
+      </div>
+    </div>
+
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">Artikel Berkaitan</h3>
+      <ul class="space-y-2">
+        <li>
+          <a href="/panduan-senarai-barang-tidak-kena-sst-malaysia/" class="text-primary font-medium hover:underline text-sm">
+            → Senarai Barang Tidak Kena SST Malaysia
+          </a>
+        </li>
+        <li>
+          <a href="/cadangan-bajet-50-30-20-di-malaysia/" class="text-primary font-medium hover:underline text-sm">
+            → Bajet 50/30/20 — Cara Urus Wang Dengan Bijak
+          </a>
+        </li>
+        <li>
+          <a href="/cara-simpan-duit-gaji-rm2500/" class="text-primary font-medium hover:underline text-sm">
+            → Cara Simpan Duit Gaji RM2,500 Sebulan
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction
+    actions={[
+      { variant: 'primary', text: 'Kalkulator Gaji Bersih', href: '/kalkulator/gaji-bersih' },
+      { variant: 'secondary', text: 'STR &amp; SARA Checker', href: '/kalkulator/str-sara' },
+    ]}
+  >
+    <Fragment slot="title">Nak Kira Gaji Bersih?</Fragment>
+    <Fragment slot="subtitle">Semua kalkulator percuma — guna sekarang.</Fragment>
+  </CallToAction>
+  <script is:inline>
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
+function calc() {
+  var h = sn(document.getElementById('harga').value, 100);
+  var j = parseInt(document.getElementById('jenis').value) || 8;
+  var sst = h*j/100;
+  var total = h+sst;
+  document.getElementById('sstAsal').textContent = fmt(h);
+  document.getElementById('sstJumlah').textContent = fmt(sst);
+  document.getElementById('sstTotal').textContent = fmt(total);
+  document.getElementById('sstKadar').textContent = j+'%';
+  document.getElementById('sstProjected').textContent = fmt(total);
+  document.getElementById('sstLabel').textContent = 'Harga Termasuk SST ' + j + '%';
+  document.getElementById('sstDetail').textContent = 'SST RM ' + sst.toFixed(2) + ' + Harga RM ' + h.toFixed(2) + ' = RM ' + total.toFixed(2);
+}
+['harga','jenis'].forEach(function(id){var el=document.getElementById(id);if(el){el.addEventListener('input',calc);el.addEventListener('change',calc);}});
+calc();
+</script>
+</Layout>

@@ -1,0 +1,84 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Emas vs ASB vs FD — Perbandingan Pelaburan',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8"><a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a></div>
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">Emas vs ASB vs FD</h1>
+    <p class="text-lg md:text-xl text-muted mb-8">Bandingkan pulangan pelaburan Emas, ASB dan Fixed Deposit dalam tempoh 5-20 tahun. Lihat perbezaan pulangan untuk buat keputusan pelaburan yang lebih bijak.</p>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div><label for="pm" class="block text-sm font-semibold text-default mb-1.5">Modal Awal (RM)</label><input type="number" id="pm" value="10000" min="0" step="1000" class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition"></div>
+        <div><label for="pb" class="block text-sm font-semibold text-default mb-1.5">Simpanan Bulanan (RM)</label><input type="number" id="pb" value="500" min="0" step="100" class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition"></div>
+        <div><label for="pt" class="block text-sm font-semibold text-default mb-1.5">Tempoh (tahun)</label><input type="number" id="pt" value="10" min="1" max="40" class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition"></div>
+        <div><label for="pe" class="block text-sm font-semibold text-default mb-1.5">Pulangan Emas</label><select id="pe" class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition"><option value="8">8% (Optimis)</option><option value="6">6% (Sederhana)</option><option value="4">4% (Konservatif)</option><option value="10">10% (Agresif)</option></select></div>
+        <div><label for="pa" class="block text-sm font-semibold text-default mb-1.5">Pulangan ASB</label><select id="pa" class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition"><option value="5.75">5.75% (2025)</option><option value="5.5">5.5% (Pesimis)</option><option value="6.0">6.0% (Optimis)</option></select></div>
+        <div><label for="pf" class="block text-sm font-semibold text-default mb-1.5">Pulangan FD</label><select id="pf" class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition"><option value="2.5">2.5% (Standard)</option><option value="2.0">2.0% (Pesimis)</option><option value="3.0">3.0% (Promosi)</option></select></div>
+      </div>
+
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center"><p class="text-xs text-muted uppercase tracking-wide">Emas</p><p class="text-lg font-bold text-amber-600" id="plEmas">RM 0</p></div>
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center"><p class="text-xs text-muted uppercase tracking-wide">ASB</p><p class="text-lg font-bold text-default" id="plAsb">RM 0</p></div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center"><p class="text-xs text-muted uppercase tracking-wide">FD</p><p class="text-lg font-bold text-emerald-700" id="plFd">RM 0</p></div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center"><p class="text-xs text-muted uppercase tracking-wide">Terbaik</p><p class="text-lg font-bold text-primary" id="plTerbaik">-</p></div>
+      </div>
+
+      <div class="mt-6 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-sm text-muted" id="plLabel">Jumlah Simpanan: RM 0</p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="plProjected">RM 0</p>
+        <p class="text-xs text-muted mt-1" id="plDetail">*Prestasi lepas bukan jaminan masa depan.</p>
+      </div>
+    </div>
+
+    <div class="rounded-2xl bg-gradient-to-br from-primary/10 via-primary/[0.03] to-secondary/10 border border-primary/20 p-6 md:p-8 text-center mb-8">
+      <h3 class="text-xl md:text-2xl font-bold mb-2">Nak Mula Melabur?</h3>
+      <p class="text-muted mb-4">Baca panduan pelaburan lengkap di blog RakyatHub dan hasilkan dokumen kewangan dengan DocuKilat.</p>
+      <a href="https://docukilat.netlify.app" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-primary/30 hover:scale-[1.02]">Bina Dokumen di DocuKilat<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg></a>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover"><h3 class="font-semibold text-lg mb-2">Emas</h3><p class="text-muted text-sm">Purata 4-10% setahun. Lebih volatile tetapi aset lindung nilai inflasi.</p></div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover"><h3 class="font-semibold text-lg mb-2">ASB</h3><p class="text-muted text-sm">Purata 5.0-6.5% setahun. Pulangan konsisten, rendah risiko.</p></div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover"><h3 class="font-semibold text-lg mb-2">Fixed Deposit</h3><p class="text-muted text-sm">Purata 2.0-3.0% setahun. Paling selamat, dijamin PIDM.</p></div>
+    </div>
+
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">Artikel Berkaitan</h3>
+      <ul class="space-y-2">
+        <li><a href="/7-kelebihan-simpanan-asb-pelaburan-bijak/" class="text-primary font-medium hover:underline text-sm">→ 7 Kelebihan Simpanan ASB Yang Ramai Tak Tahu</a></li>
+        <li><a href="/cara-beli-emas-public-gold/" class="text-primary font-medium hover:underline text-sm">→ Cara Beli Emas Public Gold — Panduan Lengkap</a></li>
+        <li><a href="/strategi-dca-vs-lump-sum/" class="text-primary font-medium hover:underline text-sm">→ Strategi DCA vs Lump Sum untuk Orang Muda</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction actions={[ { variant: 'primary', text: 'Beli vs Sewa Rumah', href: '/kalkulator/beli-sewa-rumah' }, { variant: 'secondary', text: 'Kalkulator Gaji Bersih', href: '/kalkulator/gaji-bersih' } ]}>
+    <Fragment slot="title">Nak Kira Beli vs Sewa Rumah?</Fragment>
+    <Fragment slot="subtitle">Semua kalkulator percuma — guna sekarang.</Fragment>
+  </CallToAction>
+  <script is:inline>
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
+function fv(P,monthly,r,y){var mr=r/100/12;return Math.round(P*Math.pow(1+mr,y*12)+monthly*((Math.pow(1+mr,y*12)-1)/mr)*(1+mr));}
+function calc(){
+  var m=sn(document.getElementById('pm').value,10000);var b=sn(document.getElementById('pb').value,500);
+  var t=parseInt(document.getElementById('pt').value)||10;
+  var pe=parseFloat(document.getElementById('pe').value)||6;var pa=parseFloat(document.getElementById('pa').value)||5.75;var pf=parseFloat(document.getElementById('pf').value)||2.5;
+  var em=fv(m,b,pe,t);var as=fv(m,b,pa,t);var fd=fv(m,b,pf,t);var totalSimp=m+(b*12*t);
+  var names=['Emas','ASB','FD'];var vals=[em,as,fd];var maxV=Math.max(em,as,fd);var best=names[vals.indexOf(maxV)];
+  document.getElementById('plEmas').textContent=fmt(em);document.getElementById('plAsb').textContent=fmt(as);document.getElementById('plFd').textContent=fmt(fd);
+  document.getElementById('plTerbaik').textContent=best+' (RM '+maxV.toLocaleString()+')';
+  document.getElementById('plProjected').textContent=fmt(maxV);
+  document.getElementById('plLabel').textContent='Pelaburan Terbaik: '+best+' | Simpanan: RM '+totalSimp.toLocaleString()+' | Pulangan: RM '+(maxV-totalSimp).toLocaleString();
+  document.getElementById('plDetail').textContent='Emas '+pe+'% | ASB '+pa+'% | FD '+pf+'% | Tempoh '+t+' tahun';
+}
+['pm','pb','pt','pe','pa','pf'].forEach(function(id){var el=document.getElementById(id);if(el){el.addEventListener('input',calc);el.addEventListener('change',calc);}});calc();
+</script>
+</Layout>
