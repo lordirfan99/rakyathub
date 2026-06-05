@@ -126,3 +126,16 @@
   - Console: 0 errors, 0 warnings
   - New blog post renders correctly with budget tables, 50/30/20 breakdown, side-hustle table, tags, and proper OG meta
 - **Status**: resolved
+
+## 2026-06-05 21:26
+- **QA Check**: Post-removal rebuild — "X Trend: Scammer trending di Malaysia" removed (too short)
+- **Commits**: `07515b8` (add), `b51c137` (remove)
+- **Changes**: Deleted `src/data/post/trending-scammer-x-malaysia.md`, `src/assets/images/hero-trend-scammer-x.jpg`
+- **Build**: 100 pages built in 13.81s — 0 errors
+- **Browser Inspection**: Homepage + blog listing verified after removal
+  - DOM structure: main(1), header(1), nav(1), footer(1) — all present
+  - Images: 5 loaded, 0 broken
+  - Resources: 0 failed (no 404s/5xx)
+  - Console: 0 errors, 0 warnings
+  - Removed article correctly returns HTTP 404
+- **Status**: resolved
