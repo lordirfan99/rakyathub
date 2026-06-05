@@ -86,6 +86,6 @@ Melalui wire transfer ke akaun bank tempatan setelah jual saham.
 - [Strategi DCA vs Lump Sum](/strategi-dca-vs-lump-sum-pilihan-pelaburan-bijak-untuk-orang-muda/)
 - [Risiko Robo Advisor](/risiko-dan-pulangan-robo-advisor-di-malaysia/)
 - [Pelaburan Emas Public Gold](/cara-beli-emas-public-gold/)
-- [Panduan KWSP Lengkap 2025](/94-2/)
+- [Panduan KWSP Lengkap 2025](/panduan-kwsp-malaysia-2025/)
 
 **Kata Kunci SEO:** beli saham USA guna moomoo Malaysia, moomoo app Malaysia, saham USA dari Malaysia, pelaburan moomoo, cara beli saham USA

@@ -27,7 +27,16 @@ export default defineConfig({
   output: 'static',
 
   integrations: [
-    sitemap(),
+    sitemap({
+      filter: (page) => {
+        // Remove tag, category, and pagination pages from sitemap
+        const url = new URL(page);
+        const path = url.pathname;
+        if (path.includes('/tag/') || path.includes('/category/')) return false;
+        if (/\/blog\/\d+$/.test(path)) return false; // /blog/2, /blog/3 etc
+        return true;
+      },
+    }),
     mdx(),
     icon({
       include: {

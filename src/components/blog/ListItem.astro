@@ -51,6 +51,14 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
               <span>{post.author.replaceAll('-', ' ')}</span>
             )
           }
+          {post.publishDate && (
+            <>
+              {' '}·{' '}
+              <time datetime={post.publishDate.toISOString().split('T')[0]}>
+                {new Intl.DateTimeFormat('ms-MY', { year: 'numeric', month: 'long', day: 'numeric' }).format(post.publishDate)}
+              </time>
+            </>
+          )}
           {
             post.category && (
               <>
