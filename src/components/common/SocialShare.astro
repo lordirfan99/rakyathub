@@ -14,7 +14,9 @@ const { text, url, class: className = 'inline-block' } = Astro.props;
   <span class="align-super font-bold text-slate-500 dark:text-slate-400">Share:</span>
   <button
     class="ml-2 rtl:ml-0 rtl:mr-2"
-    title="Twitter Share"
+    type="button"
+    title="Kongsi di Twitter"
+    aria-label="Kongsi di Twitter"
     data-aw-social-share="twitter"
     data-aw-url={url}
     data-aw-text={text}
@@ -23,7 +25,7 @@ const { text, url, class: className = 'inline-block' } = Astro.props;
       class="w-6 h-6 text-gray-400 dark:text-slate-500 hover:text-black dark:hover:text-slate-300"
     />
   </button>
-  <button class="ml-2 rtl:ml-0 rtl:mr-2" title="Facebook Share" data-aw-social-share="facebook" data-aw-url={url}
+  <button class="ml-2 rtl:ml-0 rtl:mr-2" type="button" title="Kongsi di Facebook" aria-label="Kongsi di Facebook" data-aw-social-share="facebook" data-aw-url={url}
     ><Icon
       name="tabler:brand-facebook"
       class="w-6 h-6 text-gray-400 dark:text-slate-500 hover:text-black dark:hover:text-slate-300"
@@ -31,7 +33,9 @@ const { text, url, class: className = 'inline-block' } = Astro.props;
   </button>
   <button
     class="ml-2 rtl:ml-0 rtl:mr-2"
-    title="Linkedin Share"
+    type="button"
+    title="Kongsi di LinkedIn"
+    aria-label="Kongsi di LinkedIn"
     data-aw-social-share="linkedin"
     data-aw-url={url}
     data-aw-text={text}
@@ -42,7 +46,9 @@ const { text, url, class: className = 'inline-block' } = Astro.props;
   </button>
   <button
     class="ml-2 rtl:ml-0 rtl:mr-2"
-    title="Whatsapp Share"
+    type="button"
+    title="Kongsi di WhatsApp"
+    aria-label="Kongsi di WhatsApp"
     data-aw-social-share="whatsapp"
     data-aw-url={url}
     data-aw-text={text}
@@ -53,7 +59,9 @@ const { text, url, class: className = 'inline-block' } = Astro.props;
   </button>
   <button
     class="ml-2 rtl:ml-0 rtl:mr-2"
-    title="Email Share"
+    type="button"
+    title="Kongsi via Email"
+    aria-label="Kongsi via Email"
     data-aw-social-share="mail"
     data-aw-url={url}
     data-aw-text={text}
