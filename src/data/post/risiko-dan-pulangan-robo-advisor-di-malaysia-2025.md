@@ -7,7 +7,7 @@ excerpt: "Risiko dan Pulangan Robo Advisor di Malaysia (2025)
 
 Panduan untuk pelabur Malaysia memahami po"
 category: "KWSP"
-image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
+image: "~/assets/images/hero-robo-advisor.jpg"
 tags:
   - "kwsp"
 author: "RakyatHub"

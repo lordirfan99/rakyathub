@@ -3,7 +3,7 @@ publishDate: 2025-07-14
 title: 🟡 Cara Beli Emas GAP Public Gold (Panduan Lengkap 2025)
 excerpt: "Panduan lengkap cara beli emas GAP Public Gold online. Bandingkan spread, kos tersembunyi, dan tips pelaburan emas fizikal untuk rakyat Malaysia."
 category: "KWSP"
-image: "https://images.unsplash.com/photo-1610375461246-83df859d849d"
+image: "~/assets/images/hero-beli-emas.jpg"
 tags:
   - "kwsp"
 author: "RakyatHub"

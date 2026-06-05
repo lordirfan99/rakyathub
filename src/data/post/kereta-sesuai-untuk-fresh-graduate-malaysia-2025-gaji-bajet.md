@@ -3,7 +3,7 @@ publishDate: 2025-07-16
 title: "Kereta Sesuai Untuk Fresh Graduate Malaysia 2025 - Gaji & Bajet"
 excerpt: "Rekomendasi kereta terbaik untuk fresh graduate Malaysia 2025 — dalam bajet RM30k-60k. Bandingkan Myvi, Axia, Bezza dan tips kewangan sebelum beli."
 category: "KWSP"
-image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d"
+image: "~/assets/images/hero-kereta-fresh-grad.jpg"
 tags:
   - "kwsp"
 author: "RakyatHub"

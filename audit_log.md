@@ -12,3 +12,9 @@
 - **Before**: `variant: 'primary'`
 - **After**: `variant: 'primary' as const`
 - **Status**: resolved
+
+## 2026-06-05 09:02
+- **QA Check**: Build verification passed — 47 pages built successfully
+- **Command**: `npm run build`
+- **Result**: 0 errors, 0 warnings (astro check passed; 127 pre-existing ESLint style suggestions ignored — no impact on build or runtime)
+- **Status**: resolved

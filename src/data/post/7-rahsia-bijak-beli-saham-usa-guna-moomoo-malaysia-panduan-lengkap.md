@@ -3,7 +3,7 @@ publishDate: 2025-07-22
 title: 7 Rahsia Bijak Beli Saham USA Guna Moomoo Malaysia (Panduan Lengkap)
 excerpt: "Panduan lengkap beli saham US guna Moomoo Malaysia 2025. Cara daftar, deposit, pilih saham, dan tips pelaburan untuk rakyat Malaysia yang nak mula."
 category: "KWSP"
-image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3"
+image: "~/assets/images/hero-saham-moomoo.jpg"
 tags:
   - "kwsp"
 author: "RakyatHub"
