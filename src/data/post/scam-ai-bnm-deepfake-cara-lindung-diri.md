@@ -59,7 +59,7 @@ Scam zaman dulu — "anda memenangi hadiah" dari nombor tak dikenal — memang r
 - Video "pegawai bank" yang nampak real
 - Mesej WhatsApp dari "kawan" yang dah kena hack
 
-**Target utama?** Golongan muda yang aktif di media sosial dan baru mula belajar pasal pelaburan.
+**Target utama?** Golongan muda yang aktif di media sosial dan baru mula belajar pasal pelaburan. Kalau korang rasa masih baru dalam pengurusan kewangan, baca dulu [**panduan urus duit gaji bawah RM3000**](/urus-duit-gaji-bawah-rm3000/) untuk asas kewangan yang kukuh.
 
 Yang paling bahaya: Scammer ni guna **psychological tactics** — rasa percaya, rasa urgent, rasa bertuah dapat peluang ni.
 
@@ -76,6 +76,7 @@ Realitinya:
 - BNM dah sediakan alat percuma untuk semak — guna je
 - Bank dan pihak berkuasa makin canggih trace duit scam (NSRC saved RM34 juta!)
 - Dalam dunia serba digital, **kewaspadaan adalah skill** yang nilainya sama macam ijazah
+- Guna [**Kalkulator KWSP**](/kalkulator/kwsp/) atau [**Kalkulator ASB**](/kalkulator/asb/) untuk rancang pelaburan yang selamat dan sah — bukan scam!
 
 > 💡 **Ingat:** Pelabur yang bijak bukan yang paling untung cepat — tapi yang paling **kritis** sebelum melabur.
 
@@ -85,18 +86,11 @@ Realitinya:
 
 ### ✅ 1. Check Dulu Sebelum Transfer Duit
 
-Guna **SemakMule PDRM** — portal percuma untuk semak nombor telefon, akaun bank, atau nama syarikat:
-```
-https://semakmule.rmp.gov.my
-```
+Guna [**SemakMule PDRM**](https://semakmule.rmp.gov.my) — portal percuma untuk semak nombor telefon, akaun bank, atau nama syarikat. Semak sebelum transfer.
 
-Lepas tu check **BNM Financial Consumer Alert List**:
-```
-https://www.bnm.gov.my/financial-consumer-alert
-```
-Ada 431 entiti tak berlesen kat situ. Check dulu sebelum melabur sesen pun.
+Lepas tu check [**BNM Financial Consumer Alert List**](https://www.bnm.gov.my/financial-consumer-alert) — 431 entiti tak berlesen. Check dulu sebelum melabur sesen pun.
 
-### ✅ 2. Confirm Identit — Jangan Percaya Video / Voice Note
+### ✅ 2. Confirm Identiti — Jangan Percaya Video / Voice Note
 
 **Scammer AI boleh tiru suara.**
 - Kalau dapat call dari "bank" atau "kawan" minta duit: **Call balik nombor asal** yang kau tahu
@@ -127,7 +121,7 @@ Jangan malu. **Lagi cepat report, lagi tinggi peluang duit diselamatkan.**
 
 **NSRC (National Scam Response Centre):** 997
 **Bank:** Call hotline bank terus — minta freeze akaun
-**PDRM:** Pergi balai polis berdekatan
+**PDRM:** Pergi balai polis berdekatan — guna [**DocuKilat**](https://docukilat.netlify.app) untuk hasilkan surat laporan polis atau dokumen sokongan dengan cepat.
 
 ---
 
