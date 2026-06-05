@@ -27,10 +27,16 @@ KEY_FILE = Path(__file__).parent / "indexnow-key.txt"
 PUBLIC_KEY_PATH = Path(__file__).parent.parent / "public"
 
 def get_or_create_key():
-    """Get existing key or generate a new one."""
-    if KEY_FILE.exists():
-        return KEY_FILE.read_text().strip()
-    # Generate a new key (32 char hex)
+    """Get existing key from public/ folder or generate a new one."""
+    # Check if any .txt file in public/ looks like an indexnow key (32 hex chars)
+    pub_dir = PUBLIC_KEY_PATH
+    for f in os.listdir(pub_dir):
+        if f.endswith(".txt"):
+            key_candidate = f.replace(".txt", "")
+            if len(key_candidate) == 32 and all(c in string.hexdigits for c in key_candidate):
+                KEY_FILE.write_text(key_candidate)
+                return key_candidate
+    # Generate a new key
     key = secrets.token_hex(16)
     KEY_FILE.write_text(key)
     print(f"[IndexNow] ✅ New key generated: {key}")
