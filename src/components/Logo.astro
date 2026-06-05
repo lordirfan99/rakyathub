@@ -6,6 +6,9 @@ import { SITE } from 'astrowind:config';
   class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold whitespace-nowrap flex items-center gap-2"
   href="/"
 >
-  <img src="/rakyathub-logo.png" alt="RakyatHub" class="w-8 h-8 md:w-9 md:h-9" />
+  <picture>
+    <source srcset="/rakyathub-logo.webp" type="image/webp" />
+    <img src="/rakyathub-logo.png" alt="RakyatHub" class="w-8 h-8 md:w-9 md:h-9" />
+  </picture>
   <span class="text-gray-900 dark:text-white">{SITE?.name}</span>
 </a>
