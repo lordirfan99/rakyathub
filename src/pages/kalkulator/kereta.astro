@@ -242,6 +242,6 @@ function calc() {
 calc();
 </script>
 <script is:inline>
-(function(){var x=new XMLHttpRequest();x.open('GET','/data/kewangan-harga.json',true);x.onload=function(){if(x.status!==200)return;try{var d=JSON.parse(x.responseText);if(!d)return;if(d.kadar&&d.kadar.car_loan_pct){['interest'].forEach(function(id){var el=document.getElementById(id);if(!el)return;var v=parseFloat(el.value);if(v===3||v===3.0||v===3.5)el.value=d.kadar.car_loan_pct;});}if(typeof calc==='function')calc();}catch(e){}};x.send();})();
+(function(){var x=new XMLHttpRequest();x.open('GET','/.netlify/functions/kewangan',true);x.onload=function(){if(x.status!==200)return;try{var d=JSON.parse(x.responseText);if(!d)return;if(d.kadar&&d.kadar.car_loan_pct){['interest'].forEach(function(id){var el=document.getElementById(id);if(!el)return;var v=parseFloat(el.value);if(v===3||v===3.0||v===3.5)el.value=d.kadar.car_loan_pct;});}if(typeof calc==='function')calc();}catch(e){}};x.send();})();
 </script>
 </Layout>

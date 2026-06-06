@@ -104,6 +104,6 @@ function calc() {
 ['bh','bs','bt','bf','bm','bn'].forEach(function(id){var el=document.getElementById(id);if(el){el.addEventListener('input',calc);el.addEventListener('change',calc);}});calc();
 </script>
 <script is:inline>
-(function(){var x=new XMLHttpRequest();x.open('GET','/data/kewangan-harga.json',true);x.onload=function(){if(x.status!==200)return;try{var d=JSON.parse(x.responseText);if(!d)return;if(d.kadar&&d.kadar.housing_loan_pct){['interest','bf'].forEach(function(id){var el=document.getElementById(id);if(!el)return;var v=parseFloat(el.value);if(id==='interest'&&(v===4.5||v===4||v===4.25))el.value=d.kadar.housing_loan_pct;if(id==='bf'&&(v===4||v===4.5||v===3.5))el.value=d.kadar.housing_loan_pct;});}if(typeof calc==='function')calc();}catch(e){}};x.send();})();
+(function(){var x=new XMLHttpRequest();x.open('GET','/.netlify/functions/kewangan',true);x.onload=function(){if(x.status!==200)return;try{var d=JSON.parse(x.responseText);if(!d)return;if(d.kadar&&d.kadar.housing_loan_pct){['interest','bf'].forEach(function(id){var el=document.getElementById(id);if(!el)return;var v=parseFloat(el.value);if(id==='interest'&&(v===4.5||v===4||v===4.25))el.value=d.kadar.housing_loan_pct;if(id==='bf'&&(v===4||v===4.5||v===3.5))el.value=d.kadar.housing_loan_pct;});}if(typeof calc==='function')calc();}catch(e){}};x.send();})();
 </script>
 </Layout>

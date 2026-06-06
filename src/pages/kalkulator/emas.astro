@@ -186,7 +186,7 @@ var EMAS_DEFAULTS = {
 };
 (function() {
   var x = new XMLHttpRequest();
-  x.open('GET', '/data/kewangan-harga.json', true);
+  x.open('GET', '/.netlify/functions/kewangan', true);
   x.onload = function() {
     if (x.status === 200) {
       try {
