@@ -111,9 +111,9 @@ export const footerData = {
       title: 'Blog',
       links: [
         { text: 'KWSP', href: getPermalink('kwsp', 'category') },
-        { text: 'ASB', href: getPermalink('asb', 'category') },
-        { text: 'Emas & Pelaburan', href: getPermalink('emas', 'category') },
-        { text: 'Bantuan Kerajaan', href: getPermalink('kerajaan', 'category') },
+        { text: 'Kewangan', href: getPermalink('kewangan', 'category') },
+        { text: 'Kerajaan', href: getPermalink('kerajaan', 'category') },
+        { text: 'Insurans', href: getPermalink('insurans', 'category') },
       ],
     },
     {

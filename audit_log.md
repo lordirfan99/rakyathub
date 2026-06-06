@@ -1,5 +1,20 @@
 # Audit Log
 
+## 2026-06-06 10:19
+- **QA Check**: Post-build inspection after chart fallback link fix
+- **Commit**: `6ace582` — chart: add fallback link to TradingView
+- **Changes**: Added `background:#f1f3f6` to chart div; added fallback link "Graf tak nampak? Buka di TradingView →"
+- **Build**: 107 pages built in 4.54s — 0 errors
+- **Browser Inspection**: Gold calculator page (`/kalkulator/emas/`) verified
+  - DOM structure: main(1), header(1), nav(1), footer(1) — all present
+  - Images: 0 broken
+  - CSS: all loaded successfully
+  - Console: 0 errors, 0 warnings
+  - New fallback link renders correctly: "Graf tak nampak? Buka di TradingView →"
+  - Chart container has `background:#f1f3f6` fallback color
+- **Note**: One XHR 404 for `/.netlify/functions/kewangan` — pre-existing, only works on production Netlify, not a regression
+- **Status**: resolved
+
 ## 2026-06-05 15:54
 - **QA Check**: Build verification passed — 75 pages built successfully
 - **Command**: `npm run build`
