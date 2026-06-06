@@ -195,9 +195,13 @@ var EMAS_DEFAULTS = {
           EMAS_DEFAULTS.harga = Math.round(d.emas.harga_pg_beli);
           if (d.emas.public_gold) EMAS_DEFAULTS.spread = d.emas.public_gold.spread_pct || 6;
           if (d.emas.kedai_emas) EMAS_DEFAULTS.spreadKedai = d.emas.kedai_emas.spread_pct || 12;
-          // If inputs still have placeholder defaults, update them
+          // Always update harga from API, regardless of current value
           var hi = document.getElementById('harga');
-          if (hi && parseFloat(hi.value) === 420) hi.value = EMAS_DEFAULTS.harga;
+          if (hi) hi.value = EMAS_DEFAULTS.harga;
+          var si = document.getElementById('spread');
+          if (si) si.value = EMAS_DEFAULTS.spread;
+          var ski = document.getElementById('spreadKedai');
+          if (ski) ski.value = EMAS_DEFAULTS.spreadKedai;
           calc();
         }
       } catch(e) {}
