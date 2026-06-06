@@ -70,7 +70,7 @@ function escapeHtml(s: string): string {
 
 export function injectCrosslinks(html: string, currentSlug?: string): string {
   let result = html;
-  const maxLinks = 2;
+  const maxLinks = 8;
   let linkCount = 0;
 
   for (const link of crossLinks) {

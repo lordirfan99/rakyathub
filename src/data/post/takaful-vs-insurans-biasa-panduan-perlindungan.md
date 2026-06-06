@@ -46,7 +46,7 @@ Dari segi perlindungan, dua-dua boleh memberikan manfaat yang sama seperti perli
 
 Ini yang paling asas dan penting. Medical card tanggung kos rawatan hospital, termasuk bil bilik, pembedahan, dan ubat-ubatan. Di Malaysia, kos rawatan di hospital swasta semakin mahal — satu hari rawatan ICU boleh mencecah ribuan ringgit.
 
-Berapa bajet untuk medical card? Guna **panduan bajet 50/30/20** untuk lihat berapa peruntukan bulanan anda — biasanya RM100 hingga RM300 sebulan sudah cukup untuk pelan asas anak muda.
+Berapa bajet untuk medical card? Guna **[panduan bajet 50/30/20](/cadangan-bajet-50-30-20-di-malaysia/)** untuk lihat berapa peruntukan bulanan anda — biasanya RM100 hingga RM300 sebulan sudah cukup untuk pelan asas anak muda.
 
 ### 2. Perlindungan Sakit Kritikal (Critical Illness)
 
@@ -60,23 +60,23 @@ Pelan ni bayar manfaat kepada waris bila peserta meninggal dunia. Penting kalau 
 
 ## Cara Pilih Pelan Ikut Bajet Anak Muda
 
-Sebagai anak muda yang baru mula bekerja, jangan terlebih sangat. Guna **Kalkulator KWSP** untuk kira komitmen bulanan dan pastikan pelan perlindungan tak membebankan kewangan anda.
+Sebagai anak muda yang baru mula bekerja, jangan terlebih sangat. Guna **[Kalkulator KWSP](/kalkulator/kwsp/)** untuk kira komitmen bulanan dan pastikan pelan perlindungan tak membebankan kewangan anda.
 
 ### Langkah-langkah
 
 1. **Tentukan keperluan** — Nak medical card saja atau termasuk kritikal dan hayat?
 2. **Semak bajet bulanan** — Jangan lebih 10% dari gaji untuk insurans/takaful
-3. **Bandingkan pelan** — Guna platform seperti PolicyStreet atau Qoala untuk banding
+3. **Bandingkan pelan** — Guna platform seperti [PolicyStreet](https://www.policystreet.com) atau [Qoala](https://www.qoala.my) untuk banding
 4. **Baca terma dengan teliti** — Fahamkan exclusion, waiting period, dan had tahunan
 5. **Mula dengan pelan asas** — Boleh upgrade bila pendapatan meningkat
 
-Untuk urusan dokumen permohonan dan perjanjian, guna **DocuKilat — Penjana Dokumen AI** untuk hasilkan surat perakuan dan dokumen sokongan dengan pantas.
+Untuk urusan dokumen permohonan dan perjanjian, guna **[DocuKilat — Penjana Dokumen AI](https://docukilat.rakyathub.my)** untuk hasilkan surat perakuan dan dokumen sokongan dengan pantas.
 
 ## Takaful dan Perancangan Cukai
 
 Tahukah anda caruman takaful hayat dan takaful kesihatan boleh dapat **pelepasan cukai** sehingga RM3,000 setahun? Ini termasuk dalam pelepasan INSURANS di bawah LHDN.
 
-Kalau nak tahu lebih lanjut tentang rebat dan pelepasan, baca **panduan bajet 50/30/20** untuk cara optimakan perancangan kewangan tahunan anda. Jangan lupa guna **Kalkulator Zakat** untuk kira zakat pendapatan dan kurangkan beban cukai secara halal.
+Kalau nak tahu lebih lanjut tentang rebat dan pelepasan, baca **[panduan bajet 50/30/20](/cadangan-bajet-50-30-20-di-malaysia/)** untuk cara optimakan perancangan kewangan tahunan anda. Jangan lupa guna **[Kalkulator Zakat](/kalkulator/zakat-pendapatan/)** untuk kira zakat pendapatan dan kurangkan beban cukai secara halal.
 
 ### Bajet Bulanan untuk Perlindungan
 
