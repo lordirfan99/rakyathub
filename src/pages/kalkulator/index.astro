@@ -1,13 +1,119 @@
 ---
+import { Icon } from 'astro-icon/components';
 import Layout from '~/layouts/PageLayout.astro';
+
+interface CalcCard {
+  title: string;
+  description: string;
+  icon: string;
+  href: string;
+  gradient: string;
+  badge?: string;
+}
 
 const metadata = {
   title: 'Kalkulator RakyatHub — Alat Kewangan Malaysia',
 };
+
+const newCalcs: CalcCard[] = [
+  {
+    title: 'STR & SARA Checker',
+    description: 'Semak anggaran bantuan STR dan SARA kerajaan Malaysia.',
+    icon: 'tabler:gift',
+    href: '/kalkulator/str-sara/',
+    gradient: 'from-primary to-secondary',
+    badge: 'Baru',
+  },
+  {
+    title: 'Gaji Bersih Malaysia',
+    description: 'Kira take-home pay selepas potongan EPF, SOCSO dan PCB.',
+    icon: 'tabler:coin',
+    href: '/kalkulator/gaji-bersih/',
+    gradient: 'from-blue-500 to-blue-700',
+    badge: 'Baru',
+  },
+  {
+    title: 'Kalkulator SST',
+    description: 'Kira cukai SST 6% & 8% untuk barangan dan perkhidmatan.',
+    icon: 'tabler:receipt-tax',
+    href: '/kalkulator/sst/',
+    gradient: 'from-amber-500 to-amber-700',
+    badge: 'Baru',
+  },
+  {
+    title: 'Zakat Pendapatan',
+    description: 'Kira zakat pendapatan 2.5% mengikut kadar emas semasa.',
+    icon: 'tabler:heart',
+    href: '/kalkulator/zakat-pendapatan/',
+    gradient: 'from-emerald-500 to-emerald-700',
+    badge: 'Baru',
+  },
+  {
+    title: 'Beli vs Sewa Rumah',
+    description: 'Bandingkan kos beli rumah vs sewa dalam jangka panjang.',
+    icon: 'tabler:building-bank',
+    href: '/kalkulator/beli-sewa-rumah/',
+    gradient: 'from-rose-500 to-rose-700',
+    badge: 'Baru',
+  },
+  {
+    title: 'Emas vs ASB vs FD',
+    description: 'Bandingkan pulangan pelaburan emas, ASB dan fixed deposit.',
+    icon: 'tabler:trending-up',
+    href: '/kalkulator/pelaburan/',
+    gradient: 'from-amber-500 to-yellow-600',
+    badge: 'Baru',
+  },
+];
+
+const existingCalcs: CalcCard[] = [
+  {
+    title: 'Kalkulator KWSP',
+    description: 'Kira caruman, pengeluaran fleksibel dan dividen KWSP. Simulasi simpanan persaraan anda.',
+    icon: 'tabler:wallet',
+    href: '/kalkulator/kwsp/',
+    gradient: 'from-blue-600 to-blue-800',
+  },
+  {
+    title: 'Kalkulator ASB',
+    description: 'Kira dividen ASB, bonus dan simpanan automatik. Optimalkan pelaburan ASB loan anda.',
+    icon: 'tabler:chart-bar',
+    href: '/kalkulator/asb/',
+    gradient: 'from-emerald-500 to-teal-600',
+  },
+  {
+    title: 'Kalkulator Emas',
+    description: 'Semak harga emas harian, spread, dan beza harga Public Gold vs kedai emas.',
+    icon: 'tabler:coins',
+    href: '/kalkulator/emas/',
+    gradient: 'from-amber-500 to-yellow-600',
+  },
+  {
+    title: 'Kalkulator Kereta',
+    description: 'Kira ansuran bulanan kereta berdasarkan harga loan, kadar interest dan tempoh bayaran.',
+    icon: 'tabler:car',
+    href: '/kalkulator/kereta/',
+    gradient: 'from-indigo-500 to-purple-600',
+  },
+  {
+    title: 'Kalkulator Loan Rumah',
+    description: 'Kira ansuran bulanan rumah, banding kadar interest tetap vs terapung.',
+    icon: 'tabler:home',
+    href: '/kalkulator/loan-rumah/',
+    gradient: 'from-rose-500 to-pink-600',
+  },
+  {
+    title: 'Kalkulator Zakat',
+    description: 'Kira zakat pendapatan, zakat simpanan dan zakat emas mengikut kadar terkini.',
+    icon: 'tabler:calculator',
+    href: '/kalkulator/zakat/',
+    gradient: 'from-sky-500 to-cyan-600',
+  },
+];
 ---
 
 <Layout metadata={metadata}>
-  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-20">
     <div class="mb-8">
       <a href="/" class="text-sm text-muted hover:text-primary transition-colors">← Laman Utama</a>
     </div>
@@ -15,184 +121,84 @@ const metadata = {
     <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
       Kalkulator RakyatHub
     </h1>
-    <p class="text-lg md:text-xl text-muted mb-8">
+    <p class="text-lg md:text-xl text-muted mb-8 max-w-3xl">
       Koleksi alat kiraan kewangan Malaysia 💪 — percuma, mudah, tanpa daftar. Kira KWSP, ASB, emas, gaji bersih dan banyak lagi.
     </p>
 
-    <div class="grid md:grid-cols-2 gap-6">
-      <!-- New calculators -->
-      <a href="/kalkulator/str-sara/" class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900/80 border border-gray-100 dark:border-slate-700/40 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
-        <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-primary/5 to-transparent rounded-bl-full"></div>
-        <div class="p-6">
-          <div class="flex items-center gap-4">
-            <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/10 ring-1 ring-primary/10 shrink-0">
-              <span class="text-xl font-bold text-primary">STR</span>
+    <!-- New Calculators -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      {newCalcs.map((calc) => (
+        <a href={calc.href} class="block h-full group">
+          <div class="relative h-full rounded-xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 p-5 transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-xl hover:border-primary/40 hover:shadow-primary/5">
+            <!-- Icon in gradient circle -->
+            <div class={`w-12 h-12 rounded-xl bg-gradient-to-br ${calc.gradient} flex items-center justify-center shadow-md`}>
+              <Icon name={calc.icon} class="w-6 h-6 text-white" />
             </div>
-            <div class="flex-1 min-w-0">
-              <h3 class="font-semibold text-lg text-default group-hover:text-primary transition-colors">💰 STR &amp; SARA Checker</h3>
-              <p class="text-sm text-muted mt-0.5">Semak anggaran bantuan STR dan SARA</p>
-            </div>
-            <span class="relative shrink-0 text-xs font-semibold bg-emerald-100 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-400 px-2.5 py-1 rounded-full ring-1 ring-emerald-200/50 dark:ring-emerald-700/30">Baru</span>
-          </div>
-        </div>
-      </a>
 
-      <a href="/kalkulator/gaji-bersih/" class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900/80 border border-gray-100 dark:border-slate-700/40 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
-        <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-blue-500/5 to-transparent rounded-bl-full"></div>
-        <div class="p-6">
-          <div class="flex items-center gap-4">
-            <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500/20 to-blue-600/10 ring-1 ring-blue-500/10 shrink-0">
-              <span class="text-xl font-bold text-blue-600">Gaji</span>
+            <!-- Badge + Title row -->
+            <div class="mt-4 flex items-start justify-between gap-2">
+              <h3 class="text-lg font-bold text-default group-hover:text-primary transition-colors">
+                {calc.title}
+              </h3>
+              {calc.badge && (
+                <span class="shrink-0 text-xs font-semibold bg-emerald-100 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-400 px-2.5 py-1 rounded-full ring-1 ring-emerald-200/50 dark:ring-emerald-700/30">
+                  {calc.badge}
+                </span>
+              )}
             </div>
-            <div class="flex-1 min-w-0">
-              <h3 class="font-semibold text-lg text-default group-hover:text-blue-600 transition-colors">💵 Gaji Bersih Malaysia</h3>
-              <p class="text-sm text-muted mt-0.5">Take-home pay selepas potongan</p>
-            </div>
-            <span class="relative shrink-0 text-xs font-semibold bg-emerald-100 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-400 px-2.5 py-1 rounded-full ring-1 ring-emerald-200/50 dark:ring-emerald-700/30">Baru</span>
-          </div>
-        </div>
-      </a>
 
-      <a href="/kalkulator/sst/" class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900/80 border border-gray-100 dark:border-slate-700/40 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
-        <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-amber-500/5 to-transparent rounded-bl-full"></div>
-        <div class="p-6">
-          <div class="flex items-center gap-4">
-            <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500/20 to-amber-600/10 ring-1 ring-amber-500/10 shrink-0">
-              <span class="text-xl font-bold text-amber-600">SST</span>
-            </div>
-            <div class="flex-1 min-w-0">
-              <h3 class="font-semibold text-lg text-default group-hover:text-amber-600 transition-colors">🧾 Kalkulator SST</h3>
-              <p class="text-sm text-muted mt-0.5">Kira SST 6% &amp; 8%</p>
-            </div>
-            <span class="relative shrink-0 text-xs font-semibold bg-emerald-100 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-400 px-2.5 py-1 rounded-full ring-1 ring-emerald-200/50 dark:ring-emerald-700/30">Baru</span>
-          </div>
-        </div>
-      </a>
+            <!-- Description -->
+            <p class="mt-2 text-sm text-muted leading-relaxed line-clamp-3">
+              {calc.description}
+            </p>
 
-      <a href="/kalkulator/zakat-pendapatan/" class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900/80 border border-gray-100 dark:border-slate-700/40 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
-        <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-emerald-500/5 to-transparent rounded-bl-full"></div>
-        <div class="p-6">
-          <div class="flex items-center gap-4">
-            <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500/20 to-emerald-600/10 ring-1 ring-emerald-500/10 shrink-0">
-              <span class="text-xl font-bold text-emerald-600">Zakat</span>
+            <!-- CTA -->
+            <div class="mt-4 pt-3 border-t border-gray-100 dark:border-slate-700/20">
+              <span class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary dark:text-blue-400 group-hover:text-secondary dark:group-hover:text-blue-300 transition-colors duration-200">
+                Guna Alat
+                <svg class="w-4 h-4 transition-transform duration-300 ease-out group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+              </span>
             </div>
-            <div class="flex-1 min-w-0">
-              <h3 class="font-semibold text-lg text-default group-hover:text-emerald-600 transition-colors">🕌 Zakat Pendapatan</h3>
-              <p class="text-sm text-muted mt-0.5">Kira zakat 2.5%</p>
-            </div>
-            <span class="relative shrink-0 text-xs font-semibold bg-emerald-100 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-400 px-2.5 py-1 rounded-full ring-1 ring-emerald-200/50 dark:ring-emerald-700/30">Baru</span>
           </div>
-        </div>
-      </a>
-
-      <a href="/kalkulator/beli-sewa-rumah/" class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900/80 border border-gray-100 dark:border-slate-700/40 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
-        <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-rose-500/5 to-transparent rounded-bl-full"></div>
-        <div class="p-6">
-          <div class="flex items-center gap-4">
-            <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-rose-500/20 to-rose-600/10 ring-1 ring-rose-500/10 shrink-0">
-              <span class="text-xl font-bold text-rose-600">Rumah</span>
-            </div>
-            <div class="flex-1 min-w-0">
-              <h3 class="font-semibold text-lg text-default group-hover:text-rose-600 transition-colors">🏠 Beli vs Sewa Rumah</h3>
-              <p class="text-sm text-muted mt-0.5">Bandingkan kos beli vs sewa</p>
-            </div>
-            <span class="relative shrink-0 text-xs font-semibold bg-emerald-100 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-400 px-2.5 py-1 rounded-full ring-1 ring-emerald-200/50 dark:ring-emerald-700/30">Baru</span>
-          </div>
-        </div>
-      </a>
-
-      <a href="/kalkulator/pelaburan/" class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900/80 border border-gray-100 dark:border-slate-700/40 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
-        <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-amber-500/5 to-transparent rounded-bl-full"></div>
-        <div class="p-6">
-          <div class="flex items-center gap-4">
-            <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500/20 to-yellow-600/10 ring-1 ring-amber-500/10 shrink-0">
-              <span class="text-xl font-bold text-amber-600">Emas</span>
-            </div>
-            <div class="flex-1 min-w-0">
-              <h3 class="font-semibold text-lg text-default group-hover:text-amber-600 transition-colors">📈 Emas vs ASB vs FD</h3>
-              <p class="text-sm text-muted mt-0.5">Bandingkan pulangan pelaburan</p>
-            </div>
-            <span class="relative shrink-0 text-xs font-semibold bg-emerald-100 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-400 px-2.5 py-1 rounded-full ring-1 ring-emerald-200/50 dark:ring-emerald-700/30">Baru</span>
-          </div>
-        </div>
-      </a>
+        </a>
+      ))}
     </div>
 
-    <!-- Existing calculators -->
+    <!-- Existing Calculators -->
     <h2 class="text-2xl font-bold mt-14 mb-6">📐 Kalkulator Sedia Ada</h2>
-    <div class="grid md:grid-cols-3 gap-5">
-      <a href="/kalkulator/kwsp/" class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900/80 border border-gray-100 dark:border-slate-700/40 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 p-5">
-        <div class="flex items-center gap-3">
-          <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-orange-500/20 to-orange-600/10 ring-1 ring-orange-500/10 shrink-0">
-            <span class="text-sm font-bold text-orange-600">KW</span>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      {existingCalcs.map((calc) => (
+        <a href={calc.href} class="block h-full group">
+          <div class="relative h-full rounded-xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 p-5 transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-xl hover:border-primary/40 hover:shadow-primary/5">
+            <!-- Icon in gradient circle -->
+            <div class={`w-12 h-12 rounded-xl bg-gradient-to-br ${calc.gradient} flex items-center justify-center shadow-md`}>
+              <Icon name={calc.icon} class="w-6 h-6 text-white" />
+            </div>
+
+            <!-- Title -->
+            <h3 class="mt-4 text-lg font-bold text-default group-hover:text-primary transition-colors">
+              {calc.title}
+            </h3>
+
+            <!-- Description -->
+            <p class="mt-2 text-sm text-muted leading-relaxed line-clamp-3">
+              {calc.description}
+            </p>
+
+            <!-- CTA -->
+            <div class="mt-4 pt-3 border-t border-gray-100 dark:border-slate-700/20">
+              <span class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary dark:text-blue-400 group-hover:text-secondary dark:group-hover:text-blue-300 transition-colors duration-200">
+                Guna Alat
+                <svg class="w-4 h-4 transition-transform duration-300 ease-out group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+              </span>
+            </div>
           </div>
-          <div class="flex-1 min-w-0">
-            <h3 class="font-semibold text-default group-hover:text-orange-600 transition-colors">KWSP</h3>
-            <p class="text-xs text-muted mt-0.5">Simpanan persaraan &amp; dividen</p>
-          </div>
-          <svg class="w-4 h-4 text-muted group-hover:text-orange-600 group-hover:translate-x-0.5 transition-all shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-        </div>
-      </a>
-      <a href="/kalkulator/asb/" class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900/80 border border-gray-100 dark:border-slate-700/40 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 p-5">
-        <div class="flex items-center gap-3">
-          <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500/20 to-blue-600/10 ring-1 ring-blue-500/10 shrink-0">
-            <span class="text-sm font-bold text-blue-600">AS</span>
-          </div>
-          <div class="flex-1 min-w-0">
-            <h3 class="font-semibold text-default group-hover:text-blue-600 transition-colors">ASB</h3>
-            <p class="text-xs text-muted mt-0.5">Dividen &amp; simpanan ASB/ASM</p>
-          </div>
-          <svg class="w-4 h-4 text-muted group-hover:text-blue-600 group-hover:translate-x-0.5 transition-all shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-        </div>
-      </a>
-      <a href="/kalkulator/emas/" class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900/80 border border-gray-100 dark:border-slate-700/40 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 p-5">
-        <div class="flex items-center gap-3">
-          <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-amber-500/20 to-amber-600/10 ring-1 ring-amber-500/10 shrink-0">
-            <span class="text-sm font-bold text-amber-600">Em</span>
-          </div>
-          <div class="flex-1 min-w-0">
-            <h3 class="font-semibold text-default group-hover:text-amber-600 transition-colors">Emas</h3>
-            <p class="text-xs text-muted mt-0.5">Harga &amp; pelaburan emas</p>
-          </div>
-          <svg class="w-4 h-4 text-muted group-hover:text-amber-600 group-hover:translate-x-0.5 transition-all shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-        </div>
-      </a>
-      <a href="/kalkulator/kereta/" class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900/80 border border-gray-100 dark:border-slate-700/40 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 p-5">
-        <div class="flex items-center gap-3">
-          <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-sky-500/20 to-sky-600/10 ring-1 ring-sky-500/10 shrink-0">
-            <span class="text-sm font-bold text-sky-600">Kr</span>
-          </div>
-          <div class="flex-1 min-w-0">
-            <h3 class="font-semibold text-default group-hover:text-sky-600 transition-colors">Kereta</h3>
-            <p class="text-xs text-muted mt-0.5">Ansuran pinjaman kereta</p>
-          </div>
-          <svg class="w-4 h-4 text-muted group-hover:text-sky-600 group-hover:translate-x-0.5 transition-all shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-        </div>
-      </a>
-      <a href="/kalkulator/loan-rumah/" class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900/80 border border-gray-100 dark:border-slate-700/40 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 p-5">
-        <div class="flex items-center gap-3">
-          <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-rose-500/20 to-rose-600/10 ring-1 ring-rose-500/10 shrink-0">
-            <span class="text-sm font-bold text-rose-600">LR</span>
-          </div>
-          <div class="flex-1 min-w-0">
-            <h3 class="font-semibold text-default group-hover:text-rose-600 transition-colors">Loan Rumah</h3>
-            <p class="text-xs text-muted mt-0.5">Ansuran pinjaman rumah</p>
-          </div>
-          <svg class="w-4 h-4 text-muted group-hover:text-rose-600 group-hover:translate-x-0.5 transition-all shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-        </div>
-      </a>
-      <a href="/kalkulator/zakat/" class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900/80 border border-gray-100 dark:border-slate-700/40 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 p-5">
-        <div class="flex items-center gap-3">
-          <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-emerald-500/20 to-emerald-600/10 ring-1 ring-emerald-500/10 shrink-0">
-            <span class="text-sm font-bold text-emerald-600">Za</span>
-          </div>
-          <div class="flex-1 min-w-0">
-            <h3 class="font-semibold text-default group-hover:text-emerald-600 transition-colors">Zakat</h3>
-            <p class="text-xs text-muted mt-0.5">Zakat pendapatan &amp; simpanan</p>
-          </div>
-          <svg class="w-4 h-4 text-muted group-hover:text-emerald-600 group-hover:translate-x-0.5 transition-all shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-        </div>
-      </a>
+        </a>
+      ))}
     </div>
   </section>
 </Layout>
