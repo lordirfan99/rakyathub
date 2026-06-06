@@ -55,6 +55,18 @@ const { language, textDirection } = I18N;
       }
     })}></script>
 
+    <!-- Organization Schema (for Google Knowledge Panel / Logo) -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "RakyatHub",
+      "url": "https://rakyathub.my",
+      "logo": "https://rakyathub.my/rakyathub-logo.png",
+      "description": "Panduan kewangan Malaysia — KWSP, ASB, emas, bantuan kerajaan dan pelaburan.",
+      "foundingDate": "2025",
+      "inLanguage": "ms-MY"
+    })}></script>
+
     <link rel="preconnect" href="https://images.unsplash.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
