@@ -24,8 +24,8 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
 >
   {
     image && (
-      <a class="relative block group" href={link ?? 'javascript:void(0)'}>
-        <div class="relative aspect-[16/9] md:h-full overflow-hidden bg-gray-200 dark:bg-slate-700">
+      <a class="block group relative w-full" href={link ?? 'javascript:void(0)'}>
+        <div class="relative aspect-[16/9] bg-gray-200 dark:bg-slate-700 md:aspect-auto md:h-full overflow-hidden">
           <Image
             src={image}
             class="absolute inset-0 object-cover w-full h-full transition group-hover:scale-105 duration-500"
@@ -42,7 +42,7 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
       </a>
     )
   }
-  <div class={`${!image ? '' : 'p-4 md:p-6'}`}>
+  <div class="min-w-0 max-w-full ${!image ? '' : 'p-4 md:p-6'}">
     <header>
       <div class="mb-2">
         <span class="text-sm text-muted">

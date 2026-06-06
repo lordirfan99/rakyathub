@@ -1,5 +1,45 @@
 # Audit Log
 
+## 2026-06-06 11:17
+- **QA Check**: Post-build inspection after blog images fix (Vite glob key path correction)
+- **Commit**: `c2cf9ac` — fix: blog images broken — findImage() key path /src/ vs ./src/ (Vite glob format)
+- **Changes**: `debug_images.mjs` deleted, `debug_key.mjs` deleted, `src/utils/images.ts` changed (./src/ → /src/)
+- **Build**: 137 pages built in 18.71s — 0 errors, 0 warnings
+- **Browser Inspection**: Full CDP inspection on port 3009 via Node.js static server (dist/)
+  - DOM structure: main(1), header(1), nav(1), footer(1) — all present
+  - Images: 0 broken
+  - Resources: 0 failed (no 404s/4xx/5xx)
+  - Console: 0 errors, 0 warnings
+- **Subdirectory pages verified**:
+  - /category/kewangan/ — title "Category 'Kewangan' — RakyatHub"
+  - /blog/ — title "Blog — RakyatHub"
+  - /quishing-scam-qr-code-malaysia-cara-lindung-diri/ — title "⚠️ Quishing Dah Sampai Malaysia! Jangan Scan QR Sembarangan — RakyatHub"
+- **Content Asset Verification**:
+  - Hero image OG variant: HTTP 200, 51607 bytes
+- **Node.js fallback server** used on port 3009 (ports 3000-3008 had zombie listeners)
+- **Status**: resolved
+
+## 2026-06-06 11:05
+- **QA Check**: Post-build inspection after new Quishing article + debug file cleanup
+- **Commit**: `c0f8222` — Auto: News React - Quishing QR code scam Malaysia cara lindung diri
+- **Fix**: Removed untracked debug file `src/pages/test-images.astro` (missing frontmatter, blocked build with `Expected "}" but found ";"` esbuild syntax error)
+- **File**: `src/pages/test-images.astro`
+- **Build**: 137 pages built in 21.70s — 0 errors (after fix)
+- **Browser Inspection**: Homepage, new quishing article, Kewangan category page verified
+  - DOM structure: main(1), header(1), nav(1), footer(1) — all present
+  - Images: 10 total, 0 broken
+  - Resources: 0 failed (no 404s/5xx)
+  - Console: 0 errors, 0 warnings
+  - Hero image assets all HTTP 200: JPG (77KB), WebP variants (7KB, 19KB), OG JPG (52KB)
+  - OG meta tags correctly reference processed hero image
+  - New article renders correctly on homepage, category page, and standalone page
+- **Content Asset Verification**:
+  - /quishing-scam-qr-code-malaysia-cara-lindung-diri/ — title "⚠️ Quishing Dah Sampai Malaysia! Jangan Scan QR Sembarangan — RakyatHub"
+  - /category/kewangan/ — title "Category 'Kewangan' — RakyatHub"
+  - Hero image OG variant: HTTP 200, 51607 bytes
+  - Subcategory page /category/kewangan/ — correct title
+- **Status**: resolved
+
 ## 2026-06-06 10:58
 - **QA Check**: Post-build inspection after takaful article crosslinks + MAX_LINKS 2→8
 - **Commit**: `5315355` — fix: tambah link pada bold keywords artikel takaful + naikkan had crosslink 2->8
