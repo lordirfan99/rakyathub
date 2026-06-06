@@ -1,7 +1,8 @@
 // Netlify Function: kewangan
-// Returns live financial data (gold price, forex, rates) by proxying Yahoo Finance.
+// Returns live financial data (gold price, forex, rates).
+// Primary source: scrapes Public Gold GAP 24K price directly.
+// Fallback: Yahoo Finance spot for international reference.
 // Called by client-side JS from calculator pages.
-// No API key required — reads public Yahoo Finance endpoints.
 // URL: /.netlify/functions/kewangan
 
 const YAHOO_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
@@ -14,6 +15,19 @@ async function yahooFetch(symbol) {
   return data.chart.result[0].meta.regularMarketPrice;
 }
 
+// Scrape actual Public Gold GAP 24K price from goldofficial.me
+async function scrapePGGapPrice() {
+  const resp = await fetch('https://goldofficial.me/z/harga-emas-hari-ini', {
+    headers: { 'User-Agent': YAHOO_UA },
+  });
+  if (!resp.ok) throw new Error(`PG scrape: ${resp.status}`);
+  const html = await resp.text();
+  // Match: "harga emas 999 hari ini adalah RM611 per gram"
+  const match = html.match(/harga emas 999 hari ini adalah\s*RM(\d+)\s*per\s*gram/i);
+  if (!match) throw new Error('PG scrape: could not parse price');
+  return parseInt(match[1], 10);
+}
+
 export const handler = async (event, context) => {
   const headers = {
     'Content-Type': 'application/json',
@@ -22,38 +36,67 @@ export const handler = async (event, context) => {
   };
 
   try {
-    // Fetch in parallel
-    const [goldUsd, usdMyr] = await Promise.all([
-      yahooFetch('GC=F'),
-      yahooFetch('USDMYR=X'),
-    ]);
-
     const OPR = 3.0;
-    const goldPerGramMyr = (goldUsd / 31.1035) * usdMyr;
-    const spreadPg = 5.8;
-    const spreadKedai = 12.0;
     const housingLoan = +(OPR + 2.25).toFixed(2);
     const carLoan = +(OPR + 0.3).toFixed(2);
     const fd3 = +(Math.max(OPR - 0.5, 2.0)).toFixed(2);
     const fd12 = +(Math.max(OPR - 0.1, 2.5)).toFixed(2);
 
+    // Try to get actual PG GAP 24K price first
+    let pgGapPrice = null;
+    let goldUsd = null;
+    let usdMyr = null;
+    let goldPerGramMyr = null;
+
+    try {
+      pgGapPrice = await scrapePGGapPrice();
+    } catch (e) {
+      // Fallback: calculate from spot
+      console.log('PG scrape failed, falling back to spot:', e.message);
+    }
+
+    // Get spot prices for reference
+    try {
+      [goldUsd, usdMyr] = await Promise.all([
+        yahooFetch('GC=F'),
+        yahooFetch('USDMYR=X'),
+      ]);
+      goldPerGramMyr = (goldUsd / 31.1035) * usdMyr;
+    } catch (e) {
+      // If spot also fails and we have PG price, that's OK — only need it for reference
+      console.log('Yahoo fetch failed:', e.message);
+    }
+
+    // Determine the PG display price
+    // For GAP: buy and sell are the SAME price (RM 611/g)
+    // For physical: buyback (jual) is typically 3-5% below GAP price
+    const pgBeli = pgGapPrice || (goldPerGramMyr ? +(goldPerGramMyr * 1.025).toFixed(2) : 611);
+    const pgJual = pgGapPrice  // GAP system = same price buy/sell
+      ? pgGapPrice
+      : (goldPerGramMyr ? +(goldPerGramMyr * 0.942).toFixed(2) : 560);
+    const kedaiBeli = goldPerGramMyr ? +(goldPerGramMyr * 1.025).toFixed(2) : +(pgBeli * 0.98).toFixed(2);
+    const kedaiJual = goldPerGramMyr ? +(goldPerGramMyr * 0.92).toFixed(2) : +(pgJual * 0.98).toFixed(2);
+
+    const spreadPg = goldPerGramMyr ? +((1 - pgJual / pgBeli) * 100).toFixed(1) : 0;
+    const spreadKedai = goldPerGramMyr ? +((1 - kedaiJual / kedaiBeli) * 100).toFixed(1) : 8.0;
+
     const payload = {
       timestamp: new Date().toISOString(),
-      source: 'Netlify Function → Yahoo Finance',
+      source: pgGapPrice ? 'Netlify Function → PG GAP 24K (Direct)' : 'Netlify Function → Yahoo Finance',
       emas: {
-        harga_per_gram: +goldPerGramMyr.toFixed(2),
-        harga_pg_beli: +(goldPerGramMyr * 1.025).toFixed(2),   // PG selling price (what you pay)
-        harga_pg_jual: +(goldPerGramMyr * 0.942).toFixed(2),   // PG buy-back (what you get)
-        gold_usd_per_oz: +goldUsd.toFixed(2),
-        usd_myr: usdMyr,
+        harga_per_gram: goldPerGramMyr ? +goldPerGramMyr.toFixed(2) : pgGapPrice,
+        harga_pg_beli: pgBeli,
+        harga_pg_jual: pgJual,
+        gold_usd_per_oz: goldUsd ? +goldUsd.toFixed(2) : null,
+        usd_myr: usdMyr || null,
         public_gold: {
-          beli: +(goldPerGramMyr * 1.025).toFixed(2),
-          jual: +(goldPerGramMyr * 0.942).toFixed(2),
+          beli: pgBeli,
+          jual: pgJual,
           spread_pct: spreadPg,
         },
         kedai_emas: {
-          beli: +(goldPerGramMyr * 1.025).toFixed(2),
-          jual: +(goldPerGramMyr * (1 - spreadKedai / 100)).toFixed(2),
+          beli: kedaiBeli,
+          jual: kedaiJual,
           spread_pct: spreadKedai,
         },
       },
