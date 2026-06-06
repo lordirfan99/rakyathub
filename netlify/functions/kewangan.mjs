@@ -1,7 +1,8 @@
 // Netlify Function: kewangan
-// Returns live financial data (gold price, forex, rates).
+// Returns live financial data (gold price, forex, rates) + optional chart data.
 // Primary source: scrapes Public Gold GAP 24K price directly.
 // Fallback: Yahoo Finance spot for international reference.
+// Chart data: pass ?chart=1M (daily), ?chart=3M (weekly), ?chart=1Y (monthly)
 // Called by client-side JS from calculator pages.
 // URL: /.netlify/functions/kewangan
 
@@ -13,6 +14,23 @@ async function yahooFetch(symbol) {
   if (!resp.ok) throw new Error(`Yahoo ${symbol}: ${resp.status}`);
   const data = await resp.json();
   return data.chart.result[0].meta.regularMarketPrice;
+}
+
+// Fetch historical chart data from Yahoo Finance
+async function yahooChart(symbol, range, interval) {
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?range=${range}&interval=${interval}`;
+  const resp = await fetch(url, { headers: { 'User-Agent': YAHOO_UA } });
+  if (!resp.ok) throw new Error(`Yahoo chart ${symbol}: ${resp.status}`);
+  const data = await resp.json();
+  const result = data.chart.result[0];
+  const timestamps = result.timestamp;
+  const quotes = result.indicators.quote[0];
+  const usdMyr = await yahooFetch('USDMYR=X'); // convert to RM
+  return timestamps.map((t, i) => ({
+    date: new Date(t * 1000).toISOString().slice(0, 10),
+    usd: +(quotes.close[i] || quotes.close[i - 1] || 0).toFixed(2),
+    rm: +(((quotes.close[i] || quotes.close[i - 1] || 0) / 31.1035) * usdMyr).toFixed(2),
+  })).filter(p => p.usd > 0);
 }
 
 // Scrape actual Public Gold GAP 24K price from goldofficial.me
@@ -36,6 +54,9 @@ export const handler = async (event, context) => {
   };
 
   try {
+    const params = event.queryStringParameters || {};
+    const chartRange = params.chart || null;
+
     const OPR = 3.0;
     const housingLoan = +(OPR + 2.25).toFixed(2);
     const carLoan = +(OPR + 0.3).toFixed(2);
@@ -71,6 +92,18 @@ export const handler = async (event, context) => {
     const pgJual = pgGapPrice
       ? pgGapPrice
       : (goldPerGramMyr ? +(goldPerGramMyr * 0.942).toFixed(2) : 560);
+
+    // Fetch chart data if requested
+    let chartData = null;
+    if (chartRange) {
+      const rangeMap = { '1M': ['1mo','1d'], '3M': ['3mo','1wk'], '1Y': ['1y','1mo'] };
+      const [range, interval] = rangeMap[chartRange] || ['1mo','1d'];
+      try {
+        chartData = await yahooChart('GC=F', range, interval);
+      } catch (e) {
+        console.log('Chart fetch failed:', e.message);
+      }
+    }
 
     const payload = {
       timestamp: new Date().toISOString(),
@@ -108,6 +141,10 @@ export const handler = async (event, context) => {
         kadar_pct: 2.5,
       },
     };
+
+    if (chartData) {
+      payload.chart = chartData;
+    }
 
     return {
       statusCode: 200,
