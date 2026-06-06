@@ -180,14 +180,40 @@ const metadata = {
     <Fragment slot="subtitle">Semua kalkulator percuma, tak perlu daftar.</Fragment>
   </CallToAction>
   <script is:inline>
+// Gold price fetcher
+var EMAS_DEFAULTS = {
+  harga: 420, spread: 6, spreadKedai: 12
+};
+(function() {
+  var x = new XMLHttpRequest();
+  x.open('GET', '/data/emas-harga.json', true);
+  x.onload = function() {
+    if (x.status === 200) {
+      try {
+        var d = JSON.parse(x.responseText);
+        if (d.harga_per_gram && d.public_gold) {
+          EMAS_DEFAULTS.harga = Math.round(d.harga_per_gram);
+          EMAS_DEFAULTS.spread = d.public_gold.spread_pct || 6;
+          if (d.kedai_emas && d.kedai_emas.spread_pct) EMAS_DEFAULTS.spreadKedai = d.kedai_emas.spread_pct;
+          // If inputs still have placeholder defaults, update them
+          var hi = document.getElementById('harga');
+          if (hi && parseFloat(hi.value) === 420) hi.value = EMAS_DEFAULTS.harga;
+          calc();
+        }
+      } catch(e) {}
+    }
+  };
+  x.send();
+})();
+
 function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
 function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : d || 0; }
 
 function calc() {
-  var harga = sn(document.getElementById('harga').value, 420);
+  var harga = sn(document.getElementById('harga').value, EMAS_DEFAULTS.harga);
   var berat = sn(document.getElementById('berat').value, 20);
-  var spread = sn(document.getElementById('spread').value, 6);
-  var spreadKedai = sn(document.getElementById('spreadKedai').value, 12);
+  var spread = sn(document.getElementById('spread').value, EMAS_DEFAULTS.spread);
+  var spreadKedai = sn(document.getElementById('spreadKedai').value, EMAS_DEFAULTS.spreadKedai);
 
   if (harga === 0 || berat === 0) {
     ['hasilBeli','hasilJual','hasilSpreadRM','hasilNilai','pgBeli','pgJual','pgSpread',
