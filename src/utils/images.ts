@@ -34,7 +34,7 @@ export const findImage = async (
   if (!imagePath.startsWith('~/assets/images')) return imagePath;
 
   const images = loadLocalImages();
-  const key = imagePath.replace('~/', '/src/');
+  const key = imagePath.replace('~/', './src/');
   const loader = images[key];
 
   if (typeof loader !== 'function') return null;

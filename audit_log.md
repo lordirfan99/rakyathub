@@ -1,5 +1,43 @@
 # Audit Log
 
+## 2026-06-06 10:58
+- **QA Check**: Post-build inspection after takaful article crosslinks + MAX_LINKS 2→8
+- **Commit**: `5315355` — fix: tambah link pada bold keywords artikel takaful + naikkan had crosslink 2->8
+- **Build**: 107 pages built in 16.29s — 0 errors
+- **Browser Inspection**: Homepage + takaful article + subdirectory pages verified
+  - DOM structure: main(1), header(1), nav(1), footer(1) — all present
+  - Images: 5 total, 0 broken
+  - Resources: 7 entries, 0 failed (no 404s/5xx)
+  - CSS: 4 sheets, 0 issues
+  - Console: 0 errors, 0 warnings
+  - New crosslinks verified in takaful article: /cadangan-bajet-50-30-20-di-malaysia/, /kalkulator/kwsp/, external PolicyStreet/Qoala links, /kalkulator/zakat-pendapatan/
+  - Subdirectory pages verified:
+    - /category/insurans/ — title "Category 'Insurans' — RakyatHub"
+    - /kalkulator/kwsp/ — title "Kalkulator KWSP — Simulasi Caruman & Persaraan — RakyatHub"
+    - /kalkulator/zakat-pendapatan/ — title "Kalkulator Zakat Pendapatan — 2.5% — RakyatHub"
+    - /cadangan-bajet-50-30-20-di-malaysia/ — title "Panduan Bajet 50/30/20 di Malaysia — Cara Urus Gaji Setiap Bulan — RakyatHub"
+  - Hero image: HTTP 200, 63KB
+- **Status**: resolved
+
+## 2026-06-06 10:46
+- **QA Check**: Post-build inspection after chart zero-dependency rewrite (pure Canvas API)
+- **Commit**: `0556791` — fix(chart): pure Canvas API chart, zero dependencies, no CDN
+- **Build**: 107 pages built in 16.00s — 0 errors, 0 warnings
+- **Browser Inspection**: Gold calculator page (`/kalkulator/emas/`) verified
+  - DOM structure: main(1), header(1), nav(1), footer(1) — all present
+  - Images: 1 total, 0 broken
+  - CSS: 3 sheets, 0 issues
+  - JS: 10 scripts loaded (inline + ClientRouter), no CDN scripts
+  - Console: 0 errors, 0 warnings
+  - No more Chart.js CDN dependency — chart renders via pure Canvas API
+  - Chart handles API fetch failure gracefully ("Gagal muat data.")
+- **Subdirectory pages verified**:
+  - /category/kewangan/ — title "Category 'Kewangan' — RakyatHub"
+  - /blog/ — title "Blog — RakyatHub"
+  - / — title "RakyatHub — Panduan Kewangan Rakyat Malaysia"
+- **Note**: Two XHR 404s for `/.netlify/functions/kewangan` — expected (production-only Netlify functions, handled gracefully)
+- **Status**: resolved
+
 ## 2026-06-06 10:33
 - **QA Check**: Post-build inspection after broken footer link fix
 - **Commit**: `5a0c2f6` — remove broken /category/asb and /category/emas footer links, replace with working categories (Kewangan, Kerajaan, Insurans)
