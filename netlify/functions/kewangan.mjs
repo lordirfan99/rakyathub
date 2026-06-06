@@ -67,18 +67,10 @@ export const handler = async (event, context) => {
       console.log('Yahoo fetch failed:', e.message);
     }
 
-    // Determine the PG display price
-    // For GAP: buy and sell are the SAME price (RM 611/g)
-    // For physical: buyback (jual) is typically 3-5% below GAP price
     const pgBeli = pgGapPrice || (goldPerGramMyr ? +(goldPerGramMyr * 1.025).toFixed(2) : 611);
-    const pgJual = pgGapPrice  // GAP system = same price buy/sell
+    const pgJual = pgGapPrice
       ? pgGapPrice
       : (goldPerGramMyr ? +(goldPerGramMyr * 0.942).toFixed(2) : 560);
-    const kedaiBeli = goldPerGramMyr ? +(goldPerGramMyr * 1.025).toFixed(2) : +(pgBeli * 0.98).toFixed(2);
-    const kedaiJual = goldPerGramMyr ? +(goldPerGramMyr * 0.92).toFixed(2) : +(pgJual * 0.98).toFixed(2);
-
-    const spreadPg = goldPerGramMyr ? +((1 - pgJual / pgBeli) * 100).toFixed(1) : 0;
-    const spreadKedai = goldPerGramMyr ? +((1 - kedaiJual / kedaiBeli) * 100).toFixed(1) : 8.0;
 
     const payload = {
       timestamp: new Date().toISOString(),
@@ -92,12 +84,6 @@ export const handler = async (event, context) => {
         public_gold: {
           beli: pgBeli,
           jual: pgJual,
-          spread_pct: spreadPg,
-        },
-        kedai_emas: {
-          beli: kedaiBeli,
-          jual: kedaiJual,
-          spread_pct: spreadKedai,
         },
       },
       kadar: {
