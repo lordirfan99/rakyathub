@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-06-06T09:28:03.023025",
+  "source": "Yahoo Finance (GC=F, USDMYR=X)",
+  "emas": {
+    "harga_per_gram": 563.42,
+    "gold_usd_per_oz": 4353.9,
+    "usd_myr": 4.025,
+    "public_gold": {
+      "beli": 563.42,
+      "jual": 530.75,
+      "spread_pct": 5.8
+    },
+    "kedai_emas": {
+      "beli": 563.42,
+      "jual": 495.81,
+      "spread_pct": 12.0
+    }
+  },
+  "kadar": {
+    "opr": 3.0,
+    "housing_loan_pct": 5.25,
+    "car_loan_pct": 3.3,
+    "fd_3month_pct": 2.5,
+    "fd_12month_pct": 2.9
+  },
+  "rujukan": {
+    "asb_dividen_terkini": 5.75,
+    "kwsp_dividen_terkini": 6.15,
+    "epf_pekerja_pct": 11.0,
+    "sst_barang_pct": 8.0,
+    "sst_perkhidmatan_pct": 6.0,
+    "str_maksimum": 3700,
+    "sara_maksimum": 2400
+  },
+  "zakat": {
+    "nisab_gram": 85,
+    "nisab_rm": 47891.01,
+    "kadar_pct": 2.5
+  }
+}

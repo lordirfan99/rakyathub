@@ -255,4 +255,7 @@ function calculate() {
 });
 calculate();
 </script>
+<script is:inline>
+(function(){var x=new XMLHttpRequest();x.open('GET','/data/kewangan-harga.json',true);x.onload=function(){if(x.status!==200)return;try{var d=JSON.parse(x.responseText);if(!d)return;if(d.rujukan){var di=document.getElementById('dividen');if(di){var dv=parseFloat(di.value);if(dv===5||dv===5.5||dv===6)di.value=d.rujukan.asb_dividen_terkini||d.rujukan.kwsp_dividen_terkini||dv;}}if(typeof calculate==='function')calculate();}catch(e){}};x.send();})();
+</script>
 </Layout>

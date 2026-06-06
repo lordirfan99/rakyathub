@@ -339,4 +339,37 @@ document.getElementById('tabEmas').addEventListener('click', function() { switch
 });
 calc();
 </script>
+
+<script is:inline>
+// Live data fetcher - update defaults from /data/kewangan-harga.json
+(function(){
+  var x = new XMLHttpRequest();
+  x.open('GET', '/data/kewangan-harga.json', true);
+  x.onload = function() {
+    if (x.status !== 200) return;
+    try {
+      var d = JSON.parse(x.responseText);
+      if (d.emas && d.emas.harga_per_gram) {
+        var el = document.getElementById('hargaEmas');
+        if (el && parseFloat(el.value) === 420) el.value = Math.round(d.emas.harga_per_gram);
+      }
+      if (d.rujukan && d.rujukan.asb_dividen_terkini) {
+        ['dividen'].forEach(function(id) {
+          var el = document.getElementById(id);
+          if (el) {
+            var v = parseFloat(el.value);
+            if (id==='dividen' && (v===5||v===4.5||v===6)) el.value = d.rujukan.asb_dividen_terkini;
+          }
+        });
+      }
+      if (d.kadar && d.kadar.fd_12month_pct) {
+        var el = document.getElementById('fd');
+        if (el && parseFloat(el.value) === 3) el.value = d.kadar.fd_12month_pct;
+      }
+      if (typeof calc === 'function') calc();
+    } catch(e) {}
+  };
+  x.send();
+})();
+</script>
 </Layout>

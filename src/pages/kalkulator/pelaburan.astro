@@ -81,4 +81,7 @@ function calc(){
 }
 ['pm','pb','pt','pe','pa','pf'].forEach(function(id){var el=document.getElementById(id);if(el){el.addEventListener('input',calc);el.addEventListener('change',calc);}});calc();
 </script>
+<script is:inline>
+(function(){var x=new XMLHttpRequest();x.open('GET','/data/kewangan-harga.json',true);x.onload=function(){if(x.status!==200)return;try{var d=JSON.parse(x.responseText);if(!d)return;if(d.emas&&d.emas.harga_per_gram){var pe=document.getElementById('pe');if(pe){var v=parseFloat(pe.value);if(v===5||v===6||v===6.5)pe.value=6;}}if(d.rujukan){var pa=document.getElementById('pa');if(pa){var av=parseFloat(pa.value);if(av===4||av===5.75||av===5)pa.value=d.rujukan.asb_dividen_terkini||av;}}if(d.kadar&&d.kadar.fd_12month_pct){var pf=document.getElementById('pf');if(pf){var fv=parseFloat(pf.value);if(fv===2.5||fv===3||fv===3.5)pf.value=d.kadar.fd_12month_pct;}}if(typeof calc==='function')calc();}catch(e){}};x.send();})();
+</script>
 </Layout>
