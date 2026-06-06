@@ -191,8 +191,8 @@ var EMAS_DEFAULTS = {
     if (x.status === 200) {
       try {
         var d = JSON.parse(x.responseText);
-        if (d.emas && d.emas.harga_per_gram) {
-          EMAS_DEFAULTS.harga = Math.round(d.emas.harga_per_gram);
+        if (d.emas && d.emas.harga_pg_beli) {
+          EMAS_DEFAULTS.harga = Math.round(d.emas.harga_pg_beli);
           if (d.emas.public_gold) EMAS_DEFAULTS.spread = d.emas.public_gold.spread_pct || 6;
           if (d.emas.kedai_emas) EMAS_DEFAULTS.spreadKedai = d.emas.kedai_emas.spread_pct || 12;
           // If inputs still have placeholder defaults, update them

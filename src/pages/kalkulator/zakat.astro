@@ -349,9 +349,9 @@ calc();
     if (x.status !== 200) return;
     try {
       var d = JSON.parse(x.responseText);
-      if (d.emas && d.emas.harga_per_gram) {
+      if (d.emas && d.emas.harga_pg_beli) {
         var el = document.getElementById('hargaEmas');
-        if (el && parseFloat(el.value) === 420) el.value = Math.round(d.emas.harga_per_gram);
+        if (el && parseFloat(el.value) === 420) el.value = Math.round(d.emas.harga_pg_beli);
       }
       if (d.rujukan && d.rujukan.asb_dividen_terkini) {
         ['dividen'].forEach(function(id) {

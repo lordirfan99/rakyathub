@@ -42,15 +42,17 @@ export const handler = async (event, context) => {
       source: 'Netlify Function → Yahoo Finance',
       emas: {
         harga_per_gram: +goldPerGramMyr.toFixed(2),
+        harga_pg_beli: +(goldPerGramMyr * 1.025).toFixed(2),   // PG selling price (what you pay)
+        harga_pg_jual: +(goldPerGramMyr * 0.942).toFixed(2),   // PG buy-back (what you get)
         gold_usd_per_oz: +goldUsd.toFixed(2),
         usd_myr: usdMyr,
         public_gold: {
-          beli: +goldPerGramMyr.toFixed(2),
-          jual: +(goldPerGramMyr * (1 - spreadPg / 100)).toFixed(2),
+          beli: +(goldPerGramMyr * 1.025).toFixed(2),
+          jual: +(goldPerGramMyr * 0.942).toFixed(2),
           spread_pct: spreadPg,
         },
         kedai_emas: {
-          beli: +goldPerGramMyr.toFixed(2),
+          beli: +(goldPerGramMyr * 1.025).toFixed(2),
           jual: +(goldPerGramMyr * (1 - spreadKedai / 100)).toFixed(2),
           spread_pct: spreadKedai,
         },
