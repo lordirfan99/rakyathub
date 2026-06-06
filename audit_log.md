@@ -1,5 +1,22 @@
 # Audit Log
 
+## 2026-06-06 10:33
+- **QA Check**: Post-build inspection after broken footer link fix
+- **Commit**: `5a0c2f6` — remove broken /category/asb and /category/emas footer links, replace with working categories (Kewangan, Kerajaan, Insurans)
+- **Build**: 107 pages built in 16.07s — 0 errors
+- **Browser Inspection**: Homepage + new category pages verified
+  - DOM structure: main(1), header(1), nav(1), footer(1) — all present
+  - Images: 5 total, 0 broken
+  - Resources: 7 entries, 0 failed (no 404s)
+  - CSS: 4 sheets, 0 issues
+  - Console: 0 errors, 0 warnings
+  - New category links verified HTTP 200:
+    - /category/kewangan/ — title "Category 'Kewangan' — RakyatHub"
+    - /category/kerajaan/ — title "Category 'Kerajaan' — RakyatHub"
+    - /category/insurans/ — title "Category 'Insurans' — RakyatHub"
+  - Old broken links (/category/asb, /category/emas) removed from footer
+- **Status**: resolved
+
 ## 2026-06-06 10:19
 - **QA Check**: Post-build inspection after chart fallback link fix
 - **Commit**: `6ace582` — chart: add fallback link to TradingView

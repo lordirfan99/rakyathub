@@ -214,125 +214,166 @@ function calc() {
 });
 calc();
 
-// Gold Chart — Chart.js (self-rendered, no iframe, works with all browsers)
+// Gold Chart — pure Canvas (zero dependencies, no CDN, works everywhere)
 (function() {
-  var script = document.createElement('script');
-  script.src = 'https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js';
-  script.onload = function() {
-    var curRange = '1M';
-    var chartInstance = null;
-    var ctx = document.getElementById('goldChart').getContext('2d');
-    var statusEl = document.getElementById('chartStatus');
+  var curRange = '1M';
+  var canvas = document.getElementById('goldChart');
+  var ctx = canvas.getContext('2d');
+  var statusEl = document.getElementById('chartStatus');
+  var W, H;
 
-    function loadChart(range) {
-      statusEl.textContent = 'Memuatkan data harga...';
-      var x = new XMLHttpRequest();
-      x.open('GET', '/.netlify/functions/kewangan?chart=' + range, true);
-      x.onload = function() {
-        if (x.status === 200) {
-          try {
-            var d = JSON.parse(x.responseText);
-            if (d.chart && d.chart.length > 1) {
-              statusEl.textContent = '';
-              renderChart(d.chart, range);
-            } else {
-              statusEl.textContent = 'Data tidak mencukupi untuk graf.';
-            }
-          } catch(e) { statusEl.textContent = 'Gagal memproses data.'; }
-        } else { statusEl.textContent = 'Gagal muat data.'; }
-      };
-      x.onerror = function() { statusEl.textContent = 'Ralat rangkaian.'; };
-      x.send();
-    }
+  function resize() {
+    var rect = canvas.parentElement.getBoundingClientRect();
+    var dpr = window.devicePixelRatio || 1;
+    W = rect.width - 4;
+    H = 350;
+    canvas.width = W * dpr;
+    canvas.height = H * dpr;
+    canvas.style.width = W + 'px';
+    canvas.style.height = H + 'px';
+    ctx.scale(dpr, dpr);
+  }
 
-    function renderChart(data, range) {
-      if (chartInstance) chartInstance.destroy();
+  function loadChart(range) {
+    statusEl.textContent = 'Memuatkan data harga...';
+    var x = new XMLHttpRequest();
+    x.open('GET', '/.netlify/functions/kewangan?chart=' + range, true);
+    x.onload = function() {
+      if (x.status === 200) {
+        try {
+          var d = JSON.parse(x.responseText);
+          if (d.chart && d.chart.length > 2) {
+            statusEl.textContent = '';
+            resize();
+            drawChart(d.chart, range);
+          } else { statusEl.textContent = 'Data tidak mencukupi.'; }
+        } catch(e) { statusEl.textContent = 'Ralat data.'; }
+      } else { statusEl.textContent = 'Gagal muat data.'; }
+    };
+    x.onerror = function() { statusEl.textContent = 'Ralat rangkaian.'; };
+    x.send();
+  }
 
-      var labels = data.map(function(p) {
-        var parts = p.date.split('-');
-        return parts[2] + '/' + parts[1];
-      });
+  function drawChart(data, range) {
+    var pad = {t: 25, r: 15, b: 35, l: 55};
+    var cw = W - pad.l - pad.r;
+    var ch = H - pad.t - pad.b;
 
-      // Show month labels for 1Y
+    var prices = data.map(function(p) { return p.rm; });
+    var labels = data.map(function(p) {
+      var parts = p.date.split('-');
       if (range === '1Y') {
-        labels = data.map(function(p) {
-          var parts = p.date.split('-');
-          var months = ['Jan','Feb','Mac','Apr','Mei','Jun','Jul','Ogo','Sep','Okt','Nov','Dis'];
-          return months[parseInt(parts[1],10)-1] + ' ' + parts[0];
-        });
+        var months = ['Jan','Feb','Mac','Apr','Mei','Jun','Jul','Ogo','Sep','Okt','Nov','Dis'];
+        return months[parseInt(parts[1],10)-1] + (range === '1Y' ? ' ' + parts[0].slice(2) : '');
       }
+      return parts[2] + '/' + parts[1];
+    });
 
-      var prices = data.map(function(p) { return p.rm; });
-      var minP = Math.min.apply(null, prices);
-      var maxP = Math.max.apply(null, prices);
-      var pad = (maxP - minP) * 0.1 || 10;
+    var minP = Math.min.apply(null, prices);
+    var maxP = Math.max.apply(null, prices);
+    var padP = (maxP - minP) * 0.12 || 10;
+    var yMin = Math.floor((minP - padP) / 5) * 5;
+    var yMax = Math.ceil((maxP + padP) / 5) * 5;
 
-      chartInstance = new Chart(ctx, {
-        type: 'line',
-        data: {
-          labels: labels,
-          datasets: [{
-            label: 'RM / gram',
-            data: prices,
-            borderColor: '#2563eb',
-            backgroundColor: 'rgba(37,99,235,0.08)',
-            borderWidth: 2,
-            fill: true,
-            tension: 0.3,
-            pointRadius: range === '1M' ? 2 : 0,
-            pointHoverRadius: 5,
-          }]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          plugins: {
-            legend: { display: false },
-            tooltip: {
-              callbacks: {
-                label: function(i) { return 'RM ' + i.raw.toFixed(2) + '/g'; }
-              }
-            }
-          },
-          scales: {
-            x: {
-              grid: { display: false },
-              ticks: { maxTicksLimit: range === '1Y' ? 12 : 10, font: {size: 10} }
-            },
-            y: {
-              grid: { color: 'rgba(0,0,0,0.06)' },
-              ticks: {
-                callback: function(v) { return 'RM' + v.toFixed(0); },
-                font: {size: 11}
-              },
-              min: Math.floor(minP - pad),
-              max: Math.ceil(maxP + pad),
-            }
-          },
-          interaction: {
-            intersect: false,
-            mode: 'index',
-          }
-        }
-      });
+    function xPos(i) { return pad.l + (i / (data.length - 1)) * cw; }
+    function yPos(v) { return pad.t + ch - ((v - yMin) / (yMax - yMin)) * ch; }
+
+    // Clear
+    ctx.clearRect(0, 0, W, H);
+
+    // Grid lines
+    ctx.strokeStyle = 'rgba(0,0,0,0.07)';
+    ctx.lineWidth = 1;
+    var steps = 5;
+    for (var s = 0; s <= steps; s++) {
+      var y = pad.t + (s / steps) * ch;
+      ctx.beginPath(); ctx.moveTo(pad.l, y); ctx.lineTo(W - pad.r, y); ctx.stroke();
     }
 
-    loadChart('1M');
+    // Y-axis labels
+    ctx.fillStyle = '#888';
+    ctx.font = '10px sans-serif';
+    ctx.textAlign = 'right';
+    ctx.textBaseline = 'middle';
+    for (s = 0; s <= steps; s++) {
+      var val = yMax - ((yMax - yMin) * s / steps);
+      ctx.fillText('RM' + Math.round(val), pad.l - 6, pad.t + (s / steps) * ch);
+    }
 
-    document.querySelectorAll('.chart-tab').forEach(function(btn) {
-      btn.addEventListener('click', function() {
-        document.querySelectorAll('.chart-tab').forEach(function(b) {
-          b.classList.remove('active','bg-primary','text-white');
-          b.classList.add('bg-gray-100','dark:bg-slate-700','text-muted');
-        });
-        this.classList.add('active','bg-primary','text-white');
-        this.classList.remove('bg-gray-100','dark:bg-slate-700','text-muted');
-        var range = this.getAttribute('data-range');
-        if (range !== curRange) { curRange = range; loadChart(range); }
+    // X-axis labels
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'top';
+    var labelStep = Math.max(1, Math.floor(data.length / 8));
+    for (i = 0; i < data.length; i += labelStep) {
+      ctx.fillText(labels[i], xPos(i), H - pad.b + 8);
+    }
+
+    // Line
+    ctx.beginPath();
+    ctx.strokeStyle = '#2563eb';
+    ctx.lineWidth = 2;
+    ctx.lineJoin = 'round';
+    for (i = 0; i < data.length; i++) {
+      var x = xPos(i), y = yPos(prices[i]);
+      if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+    }
+    ctx.stroke();
+
+    // Fill area under line
+    ctx.lineTo(xPos(data.length - 1), pad.t + ch);
+    ctx.lineTo(xPos(0), pad.t + ch);
+    ctx.closePath();
+    ctx.fillStyle = 'rgba(37,99,235,0.08)';
+    ctx.fill();
+
+    // Dots for daily view
+    if (range === '1M') {
+      ctx.fillStyle = '#2563eb';
+      for (i = 0; i < data.length; i++) {
+        ctx.beginPath(); ctx.arc(xPos(i), yPos(prices[i]), 2, 0, Math.PI * 2); ctx.fill();
+      }
+    }
+
+    // Price label on hover — last price tooltip
+    var lastX = xPos(data.length - 1);
+    var lastY = yPos(prices[data.length - 1]);
+    var lastPrice = prices[data.length - 1];
+
+    ctx.fillStyle = '#2563eb';
+    ctx.beginPath(); ctx.arc(lastX, lastY, 4, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = '#fff';
+    ctx.beginPath(); ctx.arc(lastX, lastY, 2, 0, Math.PI * 2); ctx.fill();
+
+    ctx.fillStyle = '#1e293b';
+    ctx.font = 'bold 11px sans-serif';
+    ctx.textAlign = 'left';
+    ctx.textBaseline = 'bottom';
+    ctx.fillText('RM ' + lastPrice.toFixed(2) + '/g', lastX + 10, lastY - 2);
+
+    // Date range label
+    ctx.fillStyle = '#999';
+    ctx.font = '9px sans-serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'top';
+    ctx.fillText(data[0].date + ' — ' + data[data.length-1].date, pad.l + cw/2, pad.t - 18);
+  }
+
+  loadChart('1M');
+
+  document.querySelectorAll('.chart-tab').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.chart-tab').forEach(function(b) {
+        b.classList.remove('active','bg-primary','text-white');
+        b.classList.add('bg-gray-100','dark:bg-slate-700','text-muted');
       });
+      this.classList.add('active','bg-primary','text-white');
+      this.classList.remove('bg-gray-100','dark:bg-slate-700','text-muted');
+      var range = this.getAttribute('data-range');
+      if (range !== curRange) { curRange = range; loadChart(range); }
     });
-  };
-  document.head.appendChild(script);
+  });
+
+  window.addEventListener('resize', function() { if (curRange) loadChart(curRange); });
 })();
 </script>
 </Layout>
