@@ -184,6 +184,10 @@ const metadata = {
 var EMAS_DEFAULTS = {
   harga: 420, spread: 6, spreadKedai: 12
 };
+// Store actual market prices from API for reference table
+var API_DATA = {
+  pg_beli: 0, pg_jual: 0, kedai_beli: 0, kedai_jual: 0
+};
 (function() {
   var x = new XMLHttpRequest();
   x.open('GET', '/.netlify/functions/kewangan', true);
@@ -195,6 +199,11 @@ var EMAS_DEFAULTS = {
           EMAS_DEFAULTS.harga = Math.round(d.emas.harga_pg_beli);
           if (d.emas.public_gold) EMAS_DEFAULTS.spread = d.emas.public_gold.spread_pct || 6;
           if (d.emas.kedai_emas) EMAS_DEFAULTS.spreadKedai = d.emas.kedai_emas.spread_pct || 12;
+          // Store actual market prices for reference table (per gram)
+          API_DATA.pg_beli = d.emas.harga_pg_beli || EMAS_DEFAULTS.harga;
+          API_DATA.pg_jual = (d.emas.harga_pg_jual != null) ? d.emas.harga_pg_jual : EMAS_DEFAULTS.harga;
+          API_DATA.kedai_beli = (d.emas.kedai_emas && d.emas.kedai_emas.beli) || EMAS_DEFAULTS.harga;
+          API_DATA.kedai_jual = (d.emas.kedai_emas && d.emas.kedai_emas.jual) || 0;
           // Always update harga from API, regardless of current value
           var hi = document.getElementById('harga');
           if (hi) hi.value = EMAS_DEFAULTS.harga;
@@ -250,11 +259,11 @@ function calc() {
 
   document.getElementById('hasilBeza').textContent = fmt(bezaSpread);
 
-  // Reference table per gram
-  document.getElementById('rujPgBeli').textContent = fmt(harga);
-  document.getElementById('rujPgJual').textContent = fmt(harga * (1 - spread/100));
-  document.getElementById('rujKedaiBeli').textContent = fmt(harga);
-  document.getElementById('rujKedaiJual').textContent = fmt(harga * (1 - spreadKedai/100));
+  // Reference table per gram — from actual API data, not user input
+  document.getElementById('rujPgBeli').textContent = fmt(API_DATA.pg_beli);
+  document.getElementById('rujPgJual').textContent = fmt(API_DATA.pg_jual);
+  document.getElementById('rujKedaiBeli').textContent = fmt(API_DATA.kedai_beli);
+  document.getElementById('rujKedaiJual').textContent = fmt(API_DATA.kedai_jual);
 }
 
 // Script is inline at page bottom — DOM already available, no DOMContentLoaded needed
