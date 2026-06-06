@@ -205,6 +205,9 @@ function calc() {
   document.getElementById('hasilNilai').textContent = fmt(nilaiPokok);
   document.getElementById('pgBeli').textContent = fmt(nilaiPokok);
   document.getElementById('pgJual').textContent = fmt(nilaiPokok);
+  // Reference prices follow the current price per gram
+  document.getElementById('rujPgBeli').textContent = fmt(harga);
+  document.getElementById('rujPgJual').textContent = fmt(harga);
 }
 
 // Input events
