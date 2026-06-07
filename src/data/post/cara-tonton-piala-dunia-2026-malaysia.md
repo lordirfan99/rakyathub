@@ -197,7 +197,7 @@ Ada 4 cara utama nak tonton Piala Dunia 2026 di Malaysia:
 2. **Unifi TV** — RM20 match / RM50-60 full pass, HD, rasmi
 3. **VPN + Streaming** — jimat sikit tapi setup rumit
 4. **Watch Party Komuniti via Discord** — **paling jimat (1 minggu percuma → RM20), paling seronok, 1080p HD, zero buffer, sorak sama-sama!**
-Jom join: **[https://discord.gg/4DZDdF95MZ](https://discord.gg/4DZDdF95MZ)**
+Join dekat sini: **[rakyathub.my/join](https://rakyathub.my/join)**
 
 Pilihan di tangan korang. Tapi kalau kami, dah confirm join watch party — jimat duit, dapat kawan baru, sorak pun lebih best!
 
@@ -205,7 +205,7 @@ Pilihan di tangan korang. Tapi kalau kami, dah confirm join watch party — jima
 
 ## 👇 Nak Join Watch Party?
 
-[![Join Watch Party](/images/cta-join-discord.png)](https://discord.gg/4DZDdF95MZ)
+[![Join Watch Party](/images/cta-join-discord.png)](https://rakyathub.my/join)
 
 **Apa korang dapat:**
 
