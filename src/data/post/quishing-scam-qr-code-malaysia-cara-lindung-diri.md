@@ -124,7 +124,7 @@ Kalau korang atau kawan korang dah terlanjur scan QR palsu dan hilang duit:
 | 📞 **NSRC Hotline** | 997 — hubungi SELEPAS sahaja sedar kena scam |
 | 🏦 **Bank** | Call hotline bank — minta freeze akaun & kad |
 | 👮 **PDRM** | Pergi balai polis berdekatan dengan bukti |
-| 📝 **DocuKilat** | Guna [**DocuKilat**](https://docukilat.netlify.app) untuk hasilkan laporan polis dengan cepat |
+| 📝 **DocuKilat** | Guna [**DocuKilat**](https://docukilat.rakyathub.my) untuk hasilkan laporan polis dengan cepat |
 | 🔍 **SemakMule** | Check [SemakMule PDRM](https://semakmule.rmp.gov.my) — semak nombor/akaun sebelum transfer |
 
 ---

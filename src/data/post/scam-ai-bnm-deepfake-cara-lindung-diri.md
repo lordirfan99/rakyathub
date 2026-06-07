@@ -121,7 +121,7 @@ Jangan malu. **Lagi cepat report, lagi tinggi peluang duit diselamatkan.**
 
 **NSRC (National Scam Response Centre):** 997
 **Bank:** Call hotline bank terus — minta freeze akaun
-**PDRM:** Pergi balai polis berdekatan — guna [**DocuKilat**](https://docukilat.netlify.app) untuk hasilkan surat laporan polis atau dokumen sokongan dengan cepat.
+**PDRM:** Pergi balai polis berdekatan — guna [**DocuKilat**](https://docukilat.rakyathub.my) untuk hasilkan surat laporan polis atau dokumen sokongan dengan cepat.
 
 ---
 

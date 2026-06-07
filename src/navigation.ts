@@ -70,7 +70,7 @@ export const headerData = {
     },
     {
       text: 'Alat Dokumen',
-      href: 'https://docukilat.netlify.app',
+      href: 'https://docukilat.rakyathub.my',
     },
     {
       text: 'Tentang',
@@ -119,8 +119,8 @@ export const footerData = {
     {
       title: 'Alat',
       links: [
-        { text: 'Penjana Surat AI', href: 'https://docukilat.netlify.app' },
-        { text: 'PDF Tools', href: 'https://docukilat.netlify.app/tools/' },
+        { text: 'Penjana Surat AI', href: 'https://docukilat.rakyathub.my' },
+        { text: 'PDF Tools', href: 'https://docukilat.rakyathub.my/tools/' },
         { text: 'Kalkulator Kewangan', href: getPermalink('/kalkulator/kwsp') },
       ],
     },

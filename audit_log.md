@@ -1,5 +1,21 @@
 # Audit Log
 
+## 2026-06-07 22:14
+- **QA Check**: Content-only build — 1 new blog post (Subsidi RON95)
+- **Commit**: `b76e065` — fix: add sitemap redirect, clean indexnow key, rebuild
+- **Changes**: New post `subsidi-ron95-200-liter-budi95-tips-jimat.md` + new hero image `hero-subsidi-ron95-200.jpg` + `public/_redirects` (sitemap redirect) + indexnow key cleanup
+- **Pre-build**: No untracked `.astro` files in `src/pages/` — clean
+- **Proactive Duplicate Image Detection**: `hero-subsidi-ron95-200.jpg` — unique hash (5d79b45), no duplicates found ✅
+- **Build**: 196 pages built in 1m 1s — 0 errors, 0 warnings (up from 191 pages — +1 post + tag/category auto-generated pages)
+- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session. Verified via Node.js server on port 3104 (clean port)
+- **Content Asset Verification**:
+  - /subsidi-ron95-200-liter-budi95-tips-jimat/ — title "Kuota RON95 Dipotong Lagi? 5 Cara Bijak Jimat Minyak — RakyatHub" ✅
+  - OG Image: `/_astro/hero-subsidi-ron95-200.CepiAEGo_Z1m7wad.jpg` (correct, matches frontmatter) ✅
+  - Image asset HTTP 200, 78,608 bytes ✅
+  - /category/kewangan/ — title "Category 'Kewangan' — RakyatHub" ✅
+- **Cross-Image Check**: Rendered OG image file base (hero-subsidi-ron95-200) matches frontmatter `image:` field — correct image used, no fallback issue ✅
+- **Status**: resolved
+
 ## 2026-06-07 16:17
 - **QA Check**: Content-only build — 1 new blog post (Konflik Asia Barat)
 - **Commit**: `961a097` — Auto: News-React — Konflik Asia Barat Hari ke-100: 5 Langkah Lindung Duit

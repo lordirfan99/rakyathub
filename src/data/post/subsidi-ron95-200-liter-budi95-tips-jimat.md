@@ -90,6 +90,6 @@ Perubahan kuota subsidi RON95 ni mungkin nampak macam beban — tapi sebenarnya 
 
 Yang bestnya, kemahiran jimat minyak ni akan bantu korang dalam jangka panjang — lebih banyak duit boleh disimpan dan dilaburkan.
 
-Nak mula urus kewangan dengan lebih bijak? Guna [kalkulator KWSP](/kalkulator/kwsp/) kami untuk tengok berapa dividen KWSP korang setiap tahun, atau cuba [kalkulator ASB](/kalkulator/asb/) untuk planning simpanan masa depan. Nak urus dokumen kewangan seperti surat tuntutan minyak atau bajet bulanan? Gunanya [DocuKilat](https://docukilat.netlify.app) untuk jana dokumen secara automatik.
+Nak mula urus kewangan dengan lebih bijak? Guna [kalkulator KWSP](/kalkulator/kwsp/) kami untuk tengok berapa dividen KWSP korang setiap tahun, atau cuba [kalkulator ASB](/kalkulator/asb/) untuk planning simpanan masa depan. Nak urus dokumen kewangan seperti surat tuntutan minyak atau bajet bulanan? Gunanya [DocuKilat](https://docukilat.rakyathub.my) untuk jana dokumen secara automatik.
 
 Jangan lupa share artikel ni dengan member korang yang selalu komplen isi minyak mahal — mungkin tips kat atas ni boleh bantu mereka jimat Rm50-100 sebulan! 🔥
