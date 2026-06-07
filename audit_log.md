@@ -1,5 +1,40 @@
 # Audit Log
 
+## 2026-06-07 13:25
+- **QA Check**: Content-only build — 2 new student articles
+- **Commit**: `76bd981` — Auto [Student]: Idea bisnes modal kecil untuk student, Diskaun kad pelajar Malaysia
+- **Changes**: 2 new `.md` posts in `src/data/post/`, 2 new hero images in `src/assets/images/`
+- **Pre-build**: No untracked `.astro` files in `src/pages/` — clean
+- **Build**: 183 pages built in 29.32s — 0 errors, 0 warnings
+- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session. Verified via curl on port 3101 (clean port, Node.js static server)
+- **Content Verification**:
+  - /idea-bisnes-modal-kecil-untuk-student/ — title "10 Idea Bisnes Modal Kecil Untuk Student (2026) — RakyatHub" ✅
+    - OG Image: hero-idea-bisnes-modal-kecil-untuk-student (correct) ✅
+  - /diskaun-kad-pelajar-malaysia/ — title "10 Diskaun Kad Pelajar Malaysia Yang Ramai Student Tak Tahu — RakyatHub" ✅
+    - OG Image: was wrong (showed `hero-cara-urus-duit-elaun-belajar`) — see fix below
+- **Fix**: Duplicate image detected — `hero-diskaun-kad-pelajar-malaysia.jpg` was an exact bit-for-bit copy of `hero-cara-urus-duit-elaun-belajar.jpg` (same git hash `ee4578a`). Vite deduplicates identical-content images, causing the wrong image to render on the page. Removed the duplicate file (`git rm src/assets/images/hero-diskaun-kad-pelajar-malaysia.jpg`). Page now correctly falls back to the default site OG image.
+- **File**: `src/assets/images/hero-diskaun-kad-pelajar-malaysia.jpg`
+- **Before**: Post showed unrelated hero image (cara-urus-duit-elaun-belajar)
+- **After**: Duplicate removed; post uses default site OG image. User needs to upload the correct hero image for this post.
+- **Status**: resolved (partial — correct image needs to be uploaded by author)
+
+## 2026-06-07 12:05
+- **QA Check**: Content-only build — 4 new blog posts
+- **Commit**: `af07c49` — Auto: 4 artikel baharu — i-Saraan KWSP, Emas Fizikal vs Digital, Panduan Medical Card, Bajet Kahwin
+- **Changes**: 4 new `.md` posts in `src/data/post/`, 4 new hero images in `src/assets/images/`
+- **Pre-build**: No untracked `.astro` files in `src/pages/` — clean
+- **Build**: 183 pages built in 31.47s — 0 errors, 0 warnings
+- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session
+- **Content Asset Verification**:
+  - /bajet-kahwin-malaysia-2026-cara-simpan-dan-urus/ — title "Bajet Kahwin Malaysia 2026 — Cara Simpan dan Urus Duit Nikah — RakyatHub" ✅
+  - /emas-fizikal-vs-emas-digital-mana-lebih-untung/ — title "Emas Fizikal vs Emas Digital — Mana Strategi Terbaik 2026? — RakyatHub" ✅
+  - /i-saraan-kwsp-2026-cara-daftar-insentif-padanan/ — title "i-Saraan KWSP 2026 — Cara Daftar & Dapat Insentif 20% Percuma — RakyatHub" ✅
+  - /panduan-medical-card-malaysia-2026-first-time-buyer/ — title "Panduan Medical Card Malaysia 2026 — Untuk First Time Buyer — RakyatHub" ✅
+  - All 4 hero images: HTTP 200 ✅ (JPG + WebP variants all served)
+  - Category pages: Kewangan, Emas, KWSP, Insurans — all correct titles ✅
+- **Pages built**: 183 (up from 155 — +4 posts + tag/category auto-generated pages)
+- **Status**: resolved
+
 ## 2026-06-06 21:48
 - **QA Check**: Post-build browser inspection — emas calculator reference price fix
 - **Commit**: `0c41e71` — fix(emas): harga rujukan now follows harga semasa input in real-time
