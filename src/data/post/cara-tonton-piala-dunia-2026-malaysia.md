@@ -74,6 +74,10 @@ Unifi TV menyiarkan **kesemua 104 perlawanan** secara langsung melalui **3 salur
 
 ---
 
+[![SERTAI SEKARANG — Tonton Piala Dunia 2026 Secara Langsung!](/images/cta-discord-wc2026.jpg)](https://rakyathub.my/join)
+
+---
+
 ## 💻 3. Streaming Online (VPN)
 
 Banyak platform antarabangsa menyiarkan Piala Dunia secara langsung:
@@ -127,6 +131,8 @@ Discord ni macam **WhatsApp versi power** — ada grup chat, voice call, screen 
 | Setup | MyUnifi app | **Download Discord klik link join** |
 | Komuniti | ✘ | ✅ Ada grup sembang & voice |
 
+[![SERTAI SEKARANG — Tonton Piala Dunia 2026 Secara Langsung!](/images/cta-discord-wc2026.jpg)](https://rakyathub.my/join)
+
 ---
 
 ## 🎫 Harga Watch Party World Cup 2026
@@ -149,6 +155,8 @@ Ada masalah? Join, tgok free seminggu. Puas hati? Baru bayar RM20 untuk full acc
 5. Terus activate — tonton!
 
 > ⚡ **Free trial 1 minggu** — try dulu tengok kualiti, baru decide nak beli full access ke tak.
+
+[![SERTAI SEKARANG — Tonton Piala Dunia 2026 Secara Langsung!](/images/cta-discord-wc2026.jpg)](https://rakyathub.my/join)
 
 ---
 
@@ -205,7 +213,7 @@ Pilihan di tangan korang. Tapi kalau kami, dah confirm join watch party — jima
 
 ## 👇 Nak Join Watch Party?
 
-[![Join Watch Party](/images/cta-join-discord.png)](https://rakyathub.my/join)
+[![SERTAI SEKARANG — Tonton Piala Dunia 2026 Secara Langsung!](/images/cta-discord-wc2026.jpg)](https://rakyathub.my/join)
 
 **Apa korang dapat:**
 
