@@ -1,5 +1,36 @@
 # Audit Log
 
+## 2026-06-06 21:48
+- **QA Check**: Post-build browser inspection — emas calculator reference price fix
+- **Commit**: `0c41e71` — fix(emas): harga rujukan now follows harga semasa input in real-time
+- **Changes**: Added 3 lines to `src/pages/kalkulator/emas.astro` in `calc()` — `rujPgBeli` and `rujPgJual` now update with current `harga`
+- **Pre-build**: No untracked `.astro` files in `src/pages/` — clean
+- **Build**: 155 pages built in 27.08s — 0 errors, 0 warnings
+- **Browser Inspection**: Full CDP on port 3015 (Node.js fallback static server)
+  - DOM structure: main(1), header(1), nav(1), footer(1), cookie banner — all present
+  - Images: 0 broken
+  - CSS: all loaded (0 failed stylesheets)
+  - Console: 0 errors, 0 warnings
+  - JS: `calc()` function defined, `harga` and `berat` inputs present, `rujPgBeli`/`rujPgJual` elements present
+  - **Fix verified**: Changing harga from 420 → 500 updated `rujPgBeli` to "RM 500.00" and `rujPgJual` to "RM 500.00" in real-time ✅
+- **Pages verified**: homepage, /kalkulator/emas/, /category/kewangan/ — all correct titles
+- **Note**: Two XHR 404s for `/.netlify/functions/kewangan` — pre-existing, production-only Netlify functions, handled gracefully
+- **Status**: resolved
+
+## 2026-06-06 21:37
+- **QA Check**: Content-only build — new blog post "Inflasi Malaysia Cecah 1.9% — 5 Langkah Lindung Duit Korang"
+- **Commit**: `4bfab88` — Auto: News React — Inflasi Malaysia Cecah 1.9%, 5 Langkah Lindung Duit (6 Jun 2026)
+- **Changes**: New post `inflasi-malaysia-april-1.9-peratus-lindung-duit-2026.md`, new hero image `hero-inflasi-malaysia.jpg`, 5 parse scripts
+- **Build**: 155 pages built in 9.30s — 0 errors, 0 warnings
+- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session
+- **Content Asset Verification**:
+  - New post page: title "Inflasi Malaysia Cecah 1.9% — 5 Langkah Bijak Lindung Duit Korang — RakyatHub" ✅
+  - Hero image JPG (OG variant): HTTP 200, 79994 bytes ✅
+  - Hero image WebP (Astro-processed): HTTP 200, 9846 bytes ✅
+  - Canonical URL: `https://rakyathub.my/inflasi-malaysia-april-19-peratus-lindung-duit-2026` ✅
+  - Tag page /tag/inflasi/ — title "Posts by tag 'inflasi' — RakyatHub" ✅ (auto-created)
+- **Status**: resolved
+
 ## 2026-06-06 11:17
 - **QA Check**: Post-build inspection after blog images fix (Vite glob key path correction)
 - **Commit**: `c2cf9ac` — fix: blog images broken — findImage() key path /src/ vs ./src/ (Vite glob format)
