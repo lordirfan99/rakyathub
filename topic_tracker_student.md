@@ -9,9 +9,9 @@
 | 5 | Aplikasi belajar untuk student | ❌ | — | — |
 | 6 | Cara ulangkaji pelajaran saat akhir | ❌ | — | — |
 | 7 | Cara buat duit part time student | ✅ | 2026-06-06 | cara-buat-duit-part-time-student |
-| 8 | Idea bisnes modal kecil untuk student | ❌ | — | — |
+| 8 | Idea bisnes modal kecil untuk student | ✅ | 2026-06-07 | idea-bisnes-modal-kecil-untuk-student |
 | 9 | Cara urus duit elaun belajar | ✅ | 2026-06-06 | cara-urus-duit-elaun-belajar |
-| 10 | Diskaun kad pelajar Malaysia | ❌ | — | — |
+| 10 | Diskaun kad pelajar Malaysia | ✅ | 2026-06-07 | diskaun-kad-pelajar-malaysia |
 | 11 | Resepi bajet student universiti | ❌ | — | — |
 | 12 | Barang keperluan masuk universiti checklist | ❌ | — | — |
 | 13 | Cara hias bilik asrama aesthetic | ❌ | — | — |
