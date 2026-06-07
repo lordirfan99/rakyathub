@@ -1,1 +1,4 @@
 /94-2  /panduan-kwsp-malaysia-2025  301
+
+# Sitemap standard path redirect
+/sitemap.xml  /sitemap-index.xml  301

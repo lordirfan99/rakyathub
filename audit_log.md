@@ -1,5 +1,21 @@
 # Audit Log
 
+## 2026-06-07 16:17
+- **QA Check**: Content-only build — 1 new blog post (Konflik Asia Barat)
+- **Commit**: `961a097` — Auto: News-React — Konflik Asia Barat Hari ke-100: 5 Langkah Lindung Duit
+- **Changes**: New post `konflik-asia-barat-100-hari-lindung-duit-korang.md` + new hero image `hero-ekonomi-global.jpg`
+- **Pre-build**: No untracked `.astro` files in `src/pages/` — clean
+- **Proactive Duplicate Image Detection**: `hero-ekonomi-global.jpg` — unique hash (0f8d46d), no duplicates found ✅
+- **Build**: 191 pages built in 27.79s — 0 errors, 0 warnings (up from 187 pages — +1 post + tag/category auto-generated pages)
+- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session. Verified via Node.js server on port 3074 (clean port)
+- **Content Asset Verification**:
+  - /konflik-asia-barat-100-hari-lindung-duit-korang/ — title "🔥 Konflik Asia Barat Hari ke-100 — 5 Langkah Lindung Duit — RakyatHub" ✅
+  - OG Image: `/_astro/hero-ekonomi-global.C3fNA32a_16uK96.jpg` (correct, matches frontmatter) ✅
+  - Image asset HTTP 200, 54,385 bytes ✅
+  - /category/kewangan/ — title "Category 'Kewangan' — RakyatHub" ✅
+- **Cross-Image Check**: Rendered OG image file base (hero-ekonomi-global) matches frontmatter `image:` field — correct image used, no fallback issue ✅
+- **Status**: resolved
+
 ## 2026-06-07 16:09
 - **QA Check**: Content-only build — 1 new blog post + image fix commit
 - **Commit**: `6013945` — fix: remove duplicate hero image; plus untracked new post `ringgit-mengukuh-apa-maksud-duit-korang`
