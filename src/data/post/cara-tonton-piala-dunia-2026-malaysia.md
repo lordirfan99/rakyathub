@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-07
 title: "Cara Tonton Piala Dunia 2026 Secara Online di Malaysia — Panduan Lengkap"
-excerpt: "Panduan lengkap cara tonton Piala Dunia 2026 di Malaysia — dari siaran RTM percuma, Astro, streaming online, sampai watch party komuniti. Jimat & tak putus-putus!"
+excerpt: "Panduan lengkap cara tonton Piala Dunia 2026 di Malaysia — dari siaran RTM percuma, Unifi TV, streaming online, sampai watch party komuniti. Jimat & tak putus-putus!"
 category: Hiburan
 image: "~/assets/images/hero-tonton-piala-dunia-2026.jpg"
 tags:
@@ -43,27 +43,34 @@ RTM (Radio Televisyen Malaysia) dijangka akan menyiarkan **beberapa perlawanan t
 
 ---
 
-## 📡 2. Astro — Paling Lengkap Tapi Paling Mahal
+## 📡 2. Unifi TV — Siaran Langsung Semua Perlawanan
 
-Astro adalah penyedia utama siaran sukan di Malaysia. Untuk Piala Dunia 2026, korang perlukan **Sports Pack** atau **Ultra Pack**.
+Telekom Malaysia (TM) memegang hak penyiaran **eksklusif** untuk Piala Dunia 2026 di Malaysia melalui platform **Unifi TV**. Bukan Astro — tahun ni Unifi TV & RTM je yang ada hak! [sumber](https://www.threads.com/@freemalaysiatoday/post/DZPPFBOgeKQ)
 
-**Anggaran kos:**
-| Pakej | Harga/Bulan | Saluran |
-|-------|-------------|---------|
-| Sports Pack | ~RM89.95 | Semua sukan termasuk WC2026 |
-| Ultra Pack | ~RM179.95 | Semua saluran termasuk sports |
+Unifi TV menyiarkan **kesemua 104 perlawanan** secara langsung melalui **3 saluran khusus** dengan kualiti HD.
+
+**Pakej Harga:**
+
+| Pakej | Harga | Catatan |
+|-------|-------|---------|
+| Daily Pass | **RM20** | Satu hari, satu perlawanan |
+| Full Pass (Pelanggan Unifi) | **RM50** | Semua perlawanan + 70+ saluran premium |
+| Full Pass (Bukan Pelanggan) | **RM60** | Semua perlawanan + 70+ saluran premium |
 
 **Kebaikan:**
-- ✅ Siaran HD penuh
-- ✅ Tiada buffering
-- ✅ Semua perlawanan
+- ✅ Siaran HD penuh — semua 104 perlawanan
+- ✅ Tiada kontrak — bayar ikut keperluan
+- ✅ Boleh tonton dekat Smart TV, komputer, telefon
+- ✅ Full-match replay & highlights
+- ✅ Bonus: dapat 70+ saluran premium (HBO, AXN, beIN Sports) untuk masa terhad
 
 **Keburukan:**
-- ❌ Mahal — RM90-RM180/sebulan
-- ❌ Kena kontrak minimum
-- ❌ Terikat dengan decoder
+- ❌ RM20 untuk daily pass agak mahal kalau nak tengok banyak
+- ❌ Full pass RM50-60 — okay untuk sebuah tournament tapi still satu jumlah
 
-> **Sesuai untuk:** Yang dah ada Astro atau sanggup bayar untuk kualiti terbaik sorang-sorang.
+> **Sesuai untuk:** Yang nak tengok semua perlawanan secara rasmi dengan kualiti HD tanpa kontrak.
+>
+> **Cara beli:** MyUnifi app, Unifi Selfcare Portal, atau Unifi TV 2.0 app.
 
 ---
 
@@ -111,50 +118,51 @@ Discord ni macam **WhatsApp versi power** — ada grup chat, voice call, screen 
 
 ### Kenapa Pilih Watch Party?
 
-| Feature | Sendiri (Astro/VPN) | Watch Party Komuniti |
+| Feature | Unifi TV | Watch Party Komuniti |
 |---------|-------------------|---------------------|
-| Harga | RM90-180/bulan | **RM3-RM20 sahaja** |
+| Harga | RM20-60/tournament | **1 minggu PERCUMA, lepas tu RM20** |
 | Kualiti | HD | **1080p HD @ 30FPS** |
-| Buffer | Kurang | **Minimum — server optimized** |
+| Buffer | Minimum | **Minimum — server optimized** |
 | Sorak | Sendiri | **Bersama ramai** |
-| Setup | Remeh | **Auto-activation, bayar terus layan** |
+| Setup | MyUnifi app | **Download Discord klik link join** |
 | Komuniti | ✘ | ✅ Ada grup sembang & voice |
 
 ---
 
 ## 🎫 Harga Watch Party World Cup 2026
 
-Paling best — harga berpatutan langsung:
+Paling best — lagi murah dari Unifi TV daily pass!
 
 ```
-🎫 MATCH DAY   — RM3   (try dulu, satu perlawanan)
-🎫 WEEKLY      — RM5   (seminggu penuh, jimat)
-🎫 FULL PASS   — RM20  (seluruh tournament!)
+🎫 PERCUMA 1 MINGGU — try dulu, zero komitmen
+🎫 FULL ACCESS   — RM20 (seluruh tournament!)
 ```
 
-Ada Season Pass yang aktif? Dapat **FULL PASS dengan harga RM10 sahaja** — separuh harga!
+Ada masalah? Join, tgok free seminggu. Puas hati? Baru bayar RM20 untuk full access.
 
 ### Cara Join & Bayar:
 
-1. Join server Discord kami guna link di bawah
-2. Pergi ke channel **#beli-pass**
-3. Pilih plan pilihan korang
-4. Bayar — terus activate. Senang.
+1. Klik link ni: **[https://discord.gg/4DZDdF95MZ](https://discord.gg/4DZDdF95MZ)**
+2. Masuk server Discord
+3. Pergi ke channel **#beli-pass**
+4. Pilih plan — atau tanya admin kalau nak try free dulu
+5. Bayar — terus activate. Senang.
 
-> ⚡ **Auto-activation** — bayar lepas tu terus boleh layan. Tak perlu tunggu admin.
+> ⚡ **Free trial 1 minggu** — try dulu tengok kualiti, baru decide nak beli full access ke tak.
 
 ---
 
 ## 💰 Perbandingan Kos Keseluruhan
 
-| Cara | Kos 1 Bulan | Kualiti | Setup | Sorak |
+| Cara | Kos | Kualiti | Setup | Sorak |
 |------|------------|---------|-------|-------|
 | RTM Percuma | RM0 | SD/HD terhad | Senang | Sendiri |
-| Astro Sports Pack | ~RM90 | Full HD | Sederhana | Sendiri |
+| Unifi TV Daily | RM20/match | HD | MyUnifi app | Sendiri |
+| Unifi TV Full Pass | RM50-60 | HD | MyUnifi app | Sendiri |
 | VPN + Streaming | ~RM20-50 | Bergantung | Rumit | Sendiri |
-| **Watch Party** | **RM3-20** | **1080p HD** | **Senang** | **Komuniti** ✅ |
+| **Watch Party** | **Percuma 1mg → RM20** | **1080p HD** | **Download Discord** | **Komuniti** ✅ |
 
-> ✅ **Watch party adalah pilihan paling jimat dan paling seronok** — jimat 80-90% berbanding Astro, dapat pengalaman komuniti pula!
+> ✅ **Watch party adalah pilihan paling jimat dan paling seronok** — 1 minggu percuma, lepas tu RM20 je untuk full tournament. Dapat pengalaman komuniti pula!
 
 ---
 
@@ -186,9 +194,10 @@ Ada Season Pass yang aktif? Dapat **FULL PASS dengan harga RM10 sahaja** — sep
 Ada 4 cara utama nak tonton Piala Dunia 2026 di Malaysia:
 
 1. **RTM** — percuma tapi terhad, sesuai yang nak tengok final je
-2. **Astro** — lengkap tapi mahal RM90+/bulan
+2. **Unifi TV** — RM20 match / RM50-60 full pass, HD, rasmi
 3. **VPN + Streaming** — jimat sikit tapi setup rumit
-4. **Watch Party Komuniti via Discord** — **paling jimat (RM3-20), paling seronok, 1080p HD, zero buffer, sorak sama-sama!**
+4. **Watch Party Komuniti via Discord** — **paling jimat (1 minggu percuma → RM20), paling seronok, 1080p HD, zero buffer, sorak sama-sama!**
+Jom join: **[https://discord.gg/4DZDdF95MZ](https://discord.gg/4DZDdF95MZ)**
 
 Pilihan di tangan korang. Tapi kalau kami, dah confirm join watch party — jimat duit, dapat kawan baru, sorak pun lebih best!
 
@@ -196,6 +205,11 @@ Pilihan di tangan korang. Tapi kalau kami, dah confirm join watch party — jima
 
 ## 👇 Nak Join Watch Party?
 
-Jom masuk server Discord kami — pilih plan, bayar, terus tonton. Klik butang dekat bawah atau hubungi kami untuk link jemputan.
+👉 **Link Discord:** [https://discord.gg/4DZDdF95MZ](https://discord.gg/4DZDdF95MZ)
 
-> 💬 Ada soalan? PM kami — kami ajar step-by-step cara guna Discord. Janji tak rumit!
+Bila masuk nanti:
+- Dapat **1 minggu percuma** — try dulu tengok kualiti
+- Puas hati? Beli **Full Access RM20** untuk semua perlawanan
+- Pergi channel **#beli-pass** untuk urusan bayaran
+
+> 💬 Ada soalan? PM admin dalam server — kami ajar step-by-step cara guna Discord. Janji tak rumit!
