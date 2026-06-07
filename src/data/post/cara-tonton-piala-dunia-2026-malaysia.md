@@ -140,13 +140,13 @@ Paling best — lagi murah dari Unifi TV daily pass!
 
 Ada masalah? Join, tgok free seminggu. Puas hati? Baru bayar RM20 untuk full access.
 
-### Cara Join & Bayar:
+### Cara Join:
 
-1. Klik link ni: **[https://discord.gg/4DZDdF95MZ](https://discord.gg/4DZDdF95MZ)**
+1. Klik banner **CLICK HERE TO JOIN** di bawah
 2. Masuk server Discord
-3. Pergi ke channel **#beli-pass**
-4. Pilih plan — atau tanya admin kalau nak try free dulu
-5. Bayar — terus activate. Senang.
+3. Dapat **1 minggu percuma** — try dulu
+4. Puas hati? Pergi channel **#beli-pass**, bayar RM20
+5. Terus activate — tonton!
 
 > ⚡ **Free trial 1 minggu** — try dulu tengok kualiti, baru decide nak beli full access ke tak.
 
@@ -205,11 +205,15 @@ Pilihan di tangan korang. Tapi kalau kami, dah confirm join watch party — jima
 
 ## 👇 Nak Join Watch Party?
 
-👉 **Link Discord:** [https://discord.gg/4DZDdF95MZ](https://discord.gg/4DZDdF95MZ)
+[![Join Watch Party](/images/cta-join-discord.png)](https://discord.gg/4DZDdF95MZ)
 
-Bila masuk nanti:
-- Dapat **1 minggu percuma** — try dulu tengok kualiti
-- Puas hati? Beli **Full Access RM20** untuk semua perlawanan
-- Pergi channel **#beli-pass** untuk urusan bayaran
+**Apa korang dapat:**
 
-> 💬 Ada soalan? PM admin dalam server — kami ajar step-by-step cara guna Discord. Janji tak rumit!
+- ✅ **1 minggu percuma** — try dulu, zero risiko
+- ✅ **Full Access RM20** — seluruh tournament 2026
+- ✅ **1080p HD** — gambar clear, buffer minimum
+- ✅ **Komuniti** — sorak sama-sama, lagi best
+
+Bila masuk server nanti, pergi channel **#beli-pass** untuk urusan bayaran & activation.
+
+> 💬 Tak pernah guna Discord? PM admin dalam server — kami ajar step-by-step. Janji mudah macam buka YouTube.
