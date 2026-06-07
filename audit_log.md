@@ -1,5 +1,31 @@
 # Audit Log
 
+## 2026-06-07 23:47
+- **QA Check**: Full pipeline — 3 new calculator pages (FD, Personal Loan, Credit Card)
+- **Commit**: `251250a` — feat: add 3 new calculators - Personal Loan, FD, Credit Card
+- **Changes**: `fd.astro`, `kad-kredit.astro`, `pinjam-peribadi.astro`, `kalkulator/index.astro`, `_debug-images.astro`, blog post metadata update
+- **Pre-build**: No untracked `.astro` files in `src/pages/` — clean. No corrupted untracked leftover images found.
+- **Build**: 199 pages built in 1m 15s — 0 errors, 0 warnings (up from 196 pages — +3 new calculator pages + index page)
+- **Browser Inspection**: Full CDP on port 3204 (Node.js static server, clean port)
+  - DOM structure: main(1), header(1), nav(1), footer(1) — all present on all pages
+  - Images: 0 broken (homepage), 0 broken across all calculator pages
+  - Resources: 0 failed (no 4xx/5xx)
+  - CSS: 4 sheets, 0 issues
+  - Console: 0 errors, 0 warnings on all pages
+- **Pages verified**:
+  - / — title "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+  - /kalkulator/ — title "Kalkulator RakyatHub — Alat Kewangan Malaysia — RakyatHub" ✅ (lists all 3 new calculators with "Baru" labels)
+  - /kalkulator/fd/ — title "Kalkulator FD — Kira Dividen Simpanan Tetap — RakyatHub" ✅ (pre-filled results: RM10,354.62 total, RM354.62 dividend at 3.5%/quarterly)
+  - /kalkulator/pinjam-peribadi/ — title "Kalkulator Pinjaman Peribadi — Ansuran & Kadar — RakyatHub" ✅ (pre-filled: RM313.36/month, 3-year amortization table)
+  - /kalkulator/kad-kredit/ — title "Kalkulator Kad Kredit — Interest & Bayaran Minimum — RakyatHub" ✅ (pre-filled: 70 months to settle, RM1,912.09 total interest at 18%/5% min)
+  - /category/kewangan/ — title "Category 'Kewangan' — RakyatHub" ✅
+  - /blog/ — title "Blog — RakyatHub" ✅
+  - /blog/2/ — title "Blog — Halaman 2 — RakyatHub" ✅
+  - /tentang/ — title "Tentang Kami — RakyatHub" ✅
+  - /rss.xml — valid XML RSS feed ✅
+- **Social share**: `data-aw-social-share` widget found on homepage ✅
+- **Status**: resolved
+
 ## 2026-06-07 23:14
 - **QA Check**: Content-only build — 1 new hero image for diskaun-kad-pelajar article
 - **Commit**: `d7b843a` — fix: add hero image for diskaun-kad-pelajar article
