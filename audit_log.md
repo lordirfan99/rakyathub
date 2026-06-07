@@ -1,5 +1,21 @@
 # Audit Log
 
+## 2026-06-07 16:09
+- **QA Check**: Content-only build — 1 new blog post + image fix commit
+- **Commit**: `6013945` — fix: remove duplicate hero image; plus untracked new post `ringgit-mengukuh-apa-maksud-duit-korang`
+- **Changes**: `hero-diskaun-kad-pelajar-malaysia.jpg` deleted (duplicate, same hash as `hero-cara-urus-duit-elaun-belajar`). New untracked post: `ringgit-mengukuh-apa-maksud-duit-korang.md` + `hero-ringgit-mengukuh-2026.jpg`
+- **Pre-build**: No untracked `.astro` files in `src/pages/` — clean
+- **Proactive Duplicate Image Detection**: `hero-ringgit-mengukuh-2026.jpg` — unique hash, no duplicates found ✅
+- **Build**: 187 pages built in 27.84s — 0 errors, 0 warnings (up from 183 pages — +1 post + tag/category auto-generated pages)
+- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session. Verified via curl on port 3102 (clean port, Python http.server)
+- **Content Asset Verification**:
+  - /ringgit-mengukuh-apa-maksud-duit-korang/ — title "Ringgit Mengukuh 3.3% — Apa Maksud Untuk Duit Korang? — RakyatHub" ✅
+  - OG Image: `/_astro/hero-ringgit-mengukuh-2026.Bh0ZKFnM_qszPG.jpg` (correct, matches frontmatter) ✅
+  - Image asset HTTP 200, 73,546 bytes ✅
+  - /category/kewangan/ — title "Category 'Kewangan' — RakyatHub" ✅
+- **Cross-Image Check**: Rendered OG image file base (hero-ringgit-mengukuh-2026) matches frontmatter `image:` field — correct image used, no fallback issue ✅
+- **Status**: resolved
+
 ## 2026-06-07 13:25
 - **QA Check**: Content-only build — 2 new student articles
 - **Commit**: `76bd981` — Auto [Student]: Idea bisnes modal kecil untuk student, Diskaun kad pelajar Malaysia
