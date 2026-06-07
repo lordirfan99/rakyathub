@@ -3,7 +3,7 @@ publishDate: 2026-06-07
 title: "10 Diskaun Kad Pelajar Malaysia Yang Ramai Student Tak Tahu"
 excerpt: "Kad pelajar bukan sekadar ID! Temukan 10 diskaun kad pelajar Malaysia untuk jimatkan duit — dari GrabFood, Shopee sampai pengangkutan awam."
 category: Kewangan
-image: "~/assets/images/hero-diskaun-kad-pelajar-malaysia.jpg"
+# image: removed — duplicate file, see commit 6013945
 tags:
   - student
   - student-life
