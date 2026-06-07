@@ -1,5 +1,47 @@
 # Audit Log
 
+## 2026-06-07 23:14
+- **QA Check**: Content-only build — 1 new hero image for diskaun-kad-pelajar article
+- **Commit**: `d7b843a` — fix: add hero image for diskaun-kad-pelajar article
+- **Changes**: New image `hero-diskaun-kad-pelajar-malaysia.jpg` added to `src/assets/images/`
+- **Pre-build**: No untracked `.astro` files in `src/pages/` that would block build. Debug page `debug-images.astro` had valid frontmatter — moved aside to `_debug-images.astro`. No corrupted untracked leftover images found.
+- **Proactive Duplicate Image Detection**: `hero-diskaun-kad-pelajar-malaysia.jpg` — unique hash (389c48e), no duplicates found ✅
+- **Fix**: Post's frontmatter had `image:` line commented out (`# image: removed — duplicate file, see commit 6013945`). The new image file was added to the repo but the post didn't reference it — post showed default site OG image. Uncommented and updated to point to the new image.
+- **File**: `src/data/post/diskaun-kad-pelajar-malaysia.md:6`
+- **Before**: `# image: removed — duplicate file, see commit 6013945` (commented out — post used default OG image)
+- **After**: `image: "~/assets/images/hero-diskaun-kad-pelajar-malaysia.jpg"` (post now renders correct custom hero image)
+- **Build**: 196 pages built in 44.55s — 0 errors, 0 warnings
+- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session. Verified via Node.js server on port 3300 (clean port)
+- **Content Asset Verification**:
+  - /diskaun-kad-pelajar-malaysia/ — title "10 Diskaun Kad Pelajar Malaysia Yang Ramai Student Tak Tahu — RakyatHub" ✅
+  - OG Image: `/_astro/hero-diskaun-kad-pelajar-malaysia.DMoCPvmp_Z1FHR1p.jpg` (correct, now matches frontmatter) ✅
+  - JPG variant: HTTP 200, 107,694 bytes ✅
+  - WebP variant: HTTP 200, 50,288 bytes ✅
+  - / — title "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+- **Cross-Image Check**: Rendered OG image file base (hero-diskaun-kad-pelajar-malaysia) matches frontmatter `image:` field — correct image used, no fallback issue ✅
+- **Status**: resolved
+
+## 2026-06-07 22:52
+- **QA Check**: Full pipeline — DocuKilat link migration (docukilat.netlify.app → docukilat.rakyathub.my)
+- **Commit**: `bd9e34f` — fix: update DocuKilat links to custom domain docukilat.rakyathub.my
+- **Pre-build**: No untracked `.astro` files in `src/pages/` — clean
+- **Fix**: Corrupted untracked leftover file `hero-diskaun-kad-pelajar-malaysia.jpg` blocking build (image metadata processing failed). File was a duplicate deleted in commit `6013945` but leftover on disk and became corrupted. Removed the file. Removed image reference from post frontmatter — post gracefully falls back to default site OG image.
+- **File**: `src/assets/images/hero-diskaun-kad-pelajar-malaysia.jpg` (deleted), `src/data/post/diskaun-kad-pelajar-malaysia.md:6` (image line removed)
+- **Before**: Build failed with `[NoImageMetadata] Could not process image metadata`
+- **After**: Build succeeds — 196 pages, 0 errors, 0 warnings
+- **Build**: 196 pages built in 1m 34s — 0 errors, 0 warnings
+- **Browser Inspection**: Full CDP on port 3200 (Node.js static server, clean port)
+  - DOM structure: main(1), header(1), footer(1) — all present
+  - Images: 0 broken
+  - Resources: 0 failed (no 4xx/5xx)
+  - Console: 0 errors, 0 warnings
+- **Pages verified**:
+  - / — title "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+  - /diskaun-kad-pelajar-malaysia/ — title "10 Diskaun Kad Pelajar Malaysia Yang Ramai Student Tak Tahu" ✅ (fallback OG image)
+  - /category/kewangan/ — title "Category 'Kewangan' — RakyatHub" ✅
+  - /blog/ — title "Blog — RakyatHub" ✅
+- **Status**: resolved
+
 ## 2026-06-07 22:14
 - **QA Check**: Content-only build — 1 new blog post (Subsidi RON95)
 - **Commit**: `b76e065` — fix: add sitemap redirect, clean indexnow key, rebuild
@@ -103,14 +145,14 @@
 ## 2026-06-06 21:37
 - **QA Check**: Content-only build — new blog post "Inflasi Malaysia Cecah 1.9% — 5 Langkah Lindung Duit Korang"
 - **Commit**: `4bfab88` — Auto: News React — Inflasi Malaysia Cecah 1.9%, 5 Langkah Lindung Duit (6 Jun 2026)
-- **Changes**: New post `inflasi-malaysia-april-1.9-peratus-lindung-duit-2026.md`, new hero image `hero-inflasi-malaysia.jpg`, 5 parse scripts
+- **Changes**: New post `inflasi-malaysia-april-1.9-peratus-lindung-duit-korang.md`, new hero image `hero-inflasi-malaysia.jpg`, 5 parse scripts
 - **Build**: 155 pages built in 9.30s — 0 errors, 0 warnings
 - **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session
 - **Content Asset Verification**:
   - New post page: title "Inflasi Malaysia Cecah 1.9% — 5 Langkah Bijak Lindung Duit Korang — RakyatHub" ✅
   - Hero image JPG (OG variant): HTTP 200, 79994 bytes ✅
   - Hero image WebP (Astro-processed): HTTP 200, 9846 bytes ✅
-  - Canonical URL: `https://rakyathub.my/inflasi-malaysia-april-19-peratus-lindung-duit-2026` ✅
+  - Canonical URL: `https://rakyathub.my/inflasi-malaysia-april-19-peratus-lindung-duit-korang` ✅
   - Tag page /tag/inflasi/ — title "Posts by tag 'inflasi' — RakyatHub" ✅ (auto-created)
 - **Status**: resolved
 

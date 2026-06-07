@@ -1,0 +1,246 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator Pinjaman Peribadi — Ansuran & Kadar',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator Pinjaman Peribadi
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-8">
+      Kira ansuran bulanan pinjaman peribadi & jumlah interest berdasarkan jumlah pinjaman dan kadar interest bank Malaysia.
+    </p>
+
+    <!-- Calculator Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="jumlah" class="block text-sm font-semibold text-default mb-1.5">Jumlah Pinjaman (RM)</label>
+          <input type="number" id="jumlah" value="10000" min="0" step="1000"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="interest" class="block text-sm font-semibold text-default mb-1.5">Kadar Interest (% setahun)</label>
+          <input type="number" id="interest" value="8" min="0" max="30" step="0.1"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="tempoh" class="block text-sm font-semibold text-default mb-1.5">Tempoh Pinjaman</label>
+          <select id="tempoh"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="1">1 Tahun</option>
+            <option value="2">2 Tahun</option>
+            <option value="3" selected>3 Tahun</option>
+            <option value="5">5 Tahun</option>
+            <option value="7">7 Tahun</option>
+            <option value="10">10 Tahun</option>
+          </select>
+        </div>
+        <div>
+          <label for="fee" class="block text-sm font-semibold text-default mb-1.5">Processing Fee (%)</label>
+          <input type="number" id="fee" value="1" min="0" max="10" step="0.1"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Pinjaman</p>
+          <p class="text-lg font-bold text-default" id="hasilLoan">RM 10,000.00</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Ansuran Bulanan</p>
+          <p class="text-lg font-bold text-primary" id="hasilAnsuran">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Interest</p>
+          <p class="text-lg font-bold text-amber-600" id="hasilInterest">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Yuran Pemprosesan</p>
+          <p class="text-lg font-bold text-emerald-700" id="hasilFee">RM 100.00</p>
+        </div>
+      </div>
+
+      <!-- Summary -->
+      <div class="mt-6 grid md:grid-cols-2 gap-4">
+        <div class="p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+          <p class="text-sm text-muted">Anggaran Ansuran Bulanan</p>
+          <p class="text-3xl md:text-4xl font-bold text-primary" id="hasilProjected">RM 0.00</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-gradient-to-br from-amber-50 to-amber-100/10 dark:from-amber-900/20 dark:to-amber-900/5 border border-amber-200/30 text-center">
+          <p class="text-sm text-muted">Jumlah Bayaran Keseluruhan</p>
+          <p class="text-3xl md:text-4xl font-bold text-amber-600" id="hasilTotalPmt">RM 0.00</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Amortization Table -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📈 Jadual Pembayaran Tahunan</h2>
+      <div class="overflow-x-auto -mx-5 md:-mx-0">
+        <div class="min-w-[500px] px-5 md:px-0">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b border-gray-100 dark:border-slate-700">
+                <th class="text-left py-3 px-2 font-semibold text-muted">Tahun</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Bayaran Setahun</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Interest</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Principal</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Baki</th>
+              </tr>
+            </thead>
+            <tbody id="amortBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- DocuKilat CTA -->
+    <div class="rounded-2xl bg-gradient-to-br from-primary/10 via-primary/[0.03] to-secondary/10 border border-primary/20 p-6 md:p-8 text-center mb-8">
+      <h3 class="text-xl md:text-2xl font-bold mb-2">📄 Perlukan Dokumen Pinjaman?</h3>
+      <p class="text-muted mb-4">Guna DocuKilat untuk bina surat perjanjian pinjaman, surat akuan hutang, dan dokumen kewangan lain.</p>
+      <a href="https://docukilat.rakyathub.my" target="_blank" rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-primary/30 hover:scale-[1.02]">
+        Bina Dokumen di DocuKilat
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">💰 Ansuran Bulanan</h3>
+        <p class="text-muted text-sm">Kira bayaran bulanan pinjaman peribadi berdasarkan interest rate dan tempoh pinjaman.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">📊 Kadar Interest</h3>
+        <p class="text-muted text-sm">Bandingkan kadar interest pinjaman peribadi bank-bank Malaysia — Maybank, CIMB, Public Bank dan lain-lain.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">📋 Yuran Pemprosesan</h3>
+        <p class="text-muted text-sm">Kos tersembunyi seperti processing fee dan early settlement penalty yang ramai tak sedar.</p>
+      </div>
+    </div>
+
+    <!-- Articles -->
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-rose-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">📚 Artikel Berkaitan</h3>
+      <ul class="space-y-2">
+        <li>
+          <a href="/cadangan-bajet-50-30-20-di-malaysia/" class="text-primary font-medium hover:underline text-sm">
+            → Panduan Bajet 50/30/20 — Cara Urus Gaji & Simpanan
+          </a>
+        </li>
+        <li>
+          <a href="/urus-duit-gaji-bawah-rm3000/" class="text-primary font-medium hover:underline text-sm">
+            → Cara Urus Duit Bawah RM3,000 — Panduan Praktikal
+          </a>
+        </li>
+        <li>
+          <a href="/strategi-dca-vs-lump-sum-pilihan-pelaburan-bijak-untuk-orang-muda/" class="text-primary font-medium hover:underline text-sm">
+            → Strategi DCA vs Lump Sum — Pelaburan Bijak
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction
+    actions={[
+      { variant: 'primary', text: 'Kalkulator FD', href: '/kalkulator/fd' },
+      { variant: 'secondary', text: 'Kalkulator Kad Kredit', href: '/kalkulator/kad-kredit' },
+    ]}
+  >
+    <Fragment slot="title">Nak Kira FD atau Kad Kredit?</Fragment>
+    <Fragment slot="subtitle">Semua kalkulator percuma — guna sekarang.</Fragment>
+  </CallToAction>
+  <script is:inline>
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
+
+function calc() {
+  var jumlah = sn(document.getElementById('jumlah').value, 10000);
+  var rate = sn(document.getElementById('interest').value, 8);
+  var tempoh = parseInt(document.getElementById('tempoh').value) || 3;
+  var feePct = sn(document.getElementById('fee').value, 1);
+
+  if (jumlah === 0) {
+    ['hasilLoan','hasilAnsuran','hasilInterest','hasilFee','hasilProjected','hasilTotalPmt'].forEach(function(id) {
+      document.getElementById(id).textContent = 'RM 0.00';
+    });
+    var tb = document.getElementById('amortBody');
+    tb.innerHTML = '<tr><td colspan="5" class="text-center py-8 text-muted">Sila masukkan nilai yang sah.</td></tr>';
+    return;
+  }
+
+  var monthlyRate = (rate / 100) / 12;
+  var months = tempoh * 12;
+  var feeAmount = jumlah * (feePct / 100);
+
+  // Standard loan amortization
+  var monthly;
+  if (monthlyRate === 0) {
+    monthly = jumlah / months;
+  } else {
+    var factor = Math.pow(1 + monthlyRate, months);
+    monthly = jumlah * (monthlyRate * factor) / (factor - 1);
+  }
+
+  var totalPayment = monthly * months;
+  var totalInterest = totalPayment - jumlah;
+
+  document.getElementById('hasilLoan').textContent = fmt(jumlah);
+  document.getElementById('hasilAnsuran').textContent = fmt(monthly);
+  document.getElementById('hasilInterest').textContent = fmt(totalInterest);
+  document.getElementById('hasilFee').textContent = fmt(feeAmount);
+  document.getElementById('hasilProjected').textContent = fmt(monthly);
+  document.getElementById('hasilTotalPmt').textContent = fmt(totalPayment + feeAmount);
+
+  // Amortization table
+  var tb = document.getElementById('amortBody');
+  tb.innerHTML = '';
+  var balance = jumlah;
+  for (var y = 1; y <= tempoh; y++) {
+    var yrInterest = 0;
+    var yrPrincipal = 0;
+    for (var m = 0; m < 12; m++) {
+      var intBlock = balance * monthlyRate;
+      var prinBlock = monthly - intBlock;
+      balance -= prinBlock;
+      yrInterest += intBlock;
+      yrPrincipal += prinBlock;
+    }
+    if (balance < 0) balance = 0;
+    var row = '<tr class="border-b border-gray-50 dark:border-slate-800">' +
+      '<td class="py-3 px-2">Tahun ' + y + '</td>' +
+      '<td class="text-right py-3 px-2">' + fmt(yrPrincipal + yrInterest) + '</td>' +
+      '<td class="text-right py-3 px-2 text-amber-600">' + fmt(yrInterest) + '</td>' +
+      '<td class="text-right py-3 px-2 text-primary">' + fmt(yrPrincipal) + '</td>' +
+      '<td class="text-right py-3 px-2 font-medium">' + fmt(balance) + '</td>' +
+      '</tr>';
+    tb.innerHTML += row;
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  calc();
+  ['jumlah','interest','tempoh','fee'].forEach(function(id) {
+    document.getElementById(id).addEventListener('input', calc);
+    document.getElementById(id).addEventListener('change', calc);
+  });
+});
+  </script>
+</Layout>

@@ -1,0 +1,47 @@
+---
+// Debug page to check image glob resolution
+let imageKeys: string[] = [];
+try {
+  const images = import.meta.glob('~/assets/images/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,JPEG,JPG,PNG,TIFF,WEBP,GIF,SVG}');
+  imageKeys = Object.keys(images);
+} catch (e: any) {
+  imageKeys = [`Error: ${e.message}`];
+}
+
+const targetKey = imageKeys.find(k => k.includes('diskaun') || k.includes('kad-pelajar'));
+const findImageResult = await findImageTest('~/assets/images/hero-diskaun-kad-pelajar-malaysia.jpg');
+
+async function findImageTest(imagePath: string) {
+  if (typeof imagePath !== 'string') return { path: imagePath, resolved: false };
+  if (imagePath.startsWith('http://') || imagePath.startsWith('https://') || imagePath.startsWith('/'))
+    return { path: imagePath, resolved: 'external_or_public' };
+  if (!imagePath.startsWith('~/assets/images')) return { path: imagePath, resolved: 'no_match_prefix' };
+
+  const images = import.meta.glob('~/assets/images/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,JPEG,JPG,PNG,TIFF,WEBP,GIF,SVG}');
+  const key = imagePath.replace('~/', '/src/');
+  const loader = images[key];
+  
+  return {
+    rawImagePath: imagePath,
+    computedKey: key,
+    keysStartingWithSrc: imageKeys.filter(k => k.startsWith('/src/')).slice(0, 5),
+    keysStartingWithTilde: imageKeys.filter(k => k.startsWith('~')).slice(0, 5),
+    firstFewKeys: imageKeys.slice(0, 10),
+    targetFound: !!targetKey,
+    targetKey: targetKey || null,
+    loaderFound: typeof loader === 'function',
+    totalKeys: imageKeys.length,
+  };
+}
+---
+<html>
+<head><title>Debug Images</title></head>
+<body>
+<h1>Image Glob Debug</h1>
+<pre>{JSON.stringify({ imageKeysCount: imageKeys.length, targetKey, findImageResult }, null, 2)}</pre>
+<h2>First 20 keys:</h2>
+<ul>
+{imageKeys.slice(0, 20).map(k => <li>{k}</li>)}
+</ul>
+</body>
+</html>

@@ -1,0 +1,275 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator Kad Kredit — Interest & Bayaran Minimum',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator Kad Kredit
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-8">
+      Kira interest kad kredit & tempoh langsaikan hutang berdasarkan baki tertunggak, kadar interest dan bayaran minimum.
+    </p>
+
+    <!-- Calculator Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="baki" class="block text-sm font-semibold text-default mb-1.5">Baki Tertunggak (RM)</label>
+          <input type="number" id="baki" value="5000" min="0" step="500"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="interest" class="block text-sm font-semibold text-default mb-1.5">Kadar Interest (% setahun)</label>
+          <input type="number" id="interest" value="18" min="0" max="30" step="0.5"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="minPct" class="block text-sm font-semibold text-default mb-1.5">Bayaran Minimum (%)</label>
+          <input type="number" id="minPct" value="5" min="1" max="20" step="0.5"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="extra" class="block text-sm font-semibold text-default mb-1.5">Bayaran Tambahan (RM/bln)</label>
+          <input type="number" id="extra" value="0" min="0" step="50"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Baki Hutang</p>
+          <p class="text-lg font-bold text-default" id="hasilBaki">RM 5,000.00</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Bayaran Minimum</p>
+          <p class="text-lg font-bold text-primary" id="hasilMinPmt">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Interest</p>
+          <p class="text-lg font-bold text-amber-600" id="hasilInterest">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Tempoh Langsaikan</p>
+          <p class="text-lg font-bold text-emerald-700" id="hasilTempoh">0 bulan</p>
+        </div>
+      </div>
+
+      <!-- Summary Comparison -->
+      <div class="mt-6 grid md:grid-cols-2 gap-4">
+        <div class="p-5 rounded-2xl bg-gradient-to-br from-red-50 to-amber-50 dark:from-red-900/20 dark:to-amber-900/10 border border-red-200/30 text-center">
+          <p class="text-sm text-muted">Bayar Minimum Sahaja</p>
+          <p class="text-2xl md:text-3xl font-bold text-red-600" id="hasilMinOnly">RM 0.00</p>
+          <p class="text-xs text-muted mt-1" id="hasilMinMonths">0 bulan</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-gradient-to-br from-emerald-50 to-green-50 dark:from-emerald-900/20 dark:to-green-900/10 border border-emerald-200/30 text-center">
+          <p class="text-sm text-muted">Dengan Bayaran Tambahan</p>
+          <p class="text-2xl md:text-3xl font-bold text-emerald-700" id="hasilWithExtra">RM 0.00</p>
+          <p class="text-xs text-muted mt-1" id="hasilExtraMonths">0 bulan</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Payment Schedule -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📈 Jadual Pembayaran</h2>
+      <p class="text-sm text-muted mb-4" id="scheduleLabel">Tempoh: 0 bulan — jumlah interest: RM 0.00</p>
+      <div class="overflow-x-auto -mx-5 md:-mx-0 max-h-80 overflow-y-auto">
+        <div class="min-w-[500px] px-5 md:px-0">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b border-gray-100 dark:border-slate-700">
+                <th class="text-left py-3 px-2 font-semibold text-muted">Bulan</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Bayaran</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Interest</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Principal</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Baki</th>
+              </tr>
+            </thead>
+            <tbody id="scheduleBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- DocuKilat CTA -->
+    <div class="rounded-2xl bg-gradient-to-br from-primary/10 via-primary/[0.03] to-secondary/10 border border-primary/20 p-6 md:p-8 text-center mb-8">
+      <h3 class="text-xl md:text-2xl font-bold mb-2">📄 Perlukan Dokumen Kewangan?</h3>
+      <p class="text-muted mb-4">Guna DocuKilat untuk bina penyata kewangan, surat pengakuan hutang, atau surat perjanjian pembayaran.</p>
+      <a href="https://docukilat.rakyathub.my" target="_blank" rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-primary/30 hover:scale-[1.02]">
+        Bina Dokumen di DocuKilat
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">💳 Interest Kad Kredit</h3>
+        <p class="text-muted text-sm">Kadar interest kad kredit di Malaysia sekitar 15-18% setahun. Bayar lewat = dikenakan interest harian.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">⚠️ Bayaran Minimum</h3>
+        <p class="text-muted text-sm">Bayar minimum 5% setiap bulan mungkin ambil masa bertahun-tahun untuk langsaikan hutang anda.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🎯 Strategi Langsaikan</h3>
+        <p class="text-muted text-sm">Tambah bayaran bulanan walaupun RM50 boleh kurangkan tempoh dan jumlah interest dengan ketara.</p>
+      </div>
+    </div>
+
+    <!-- Articles -->
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-rose-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">📚 Artikel Berkaitan</h3>
+      <ul class="space-y-2">
+        <li>
+          <a href="/urus-duit-gaji-bawah-rm3000/" class="text-primary font-medium hover:underline text-sm">
+            → Cara Urus Duit Bawah RM3,000 — Panduan Praktikal
+          </a>
+        </li>
+        <li>
+          <a href="/cadangan-bajet-50-30-20-di-malaysia/" class="text-primary font-medium hover:underline text-sm">
+            → Panduan Bajet 50/30/20 — Urus Gaji & Simpanan
+          </a>
+        </li>
+        <li>
+          <a href="/cara-simpan-duit-gaji-rm2500/" class="text-primary font-medium hover:underline text-sm">
+            → Cara Simpan Duit Gaji RM2,500 — Tips Jimat
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction
+    actions={[
+      { variant: 'primary', text: 'Kalkulator Gaji Bersih', href: '/kalkulator/gaji-bersih' },
+      { variant: 'secondary', text: 'Kalkulator KWSP', href: '/kalkulator/kwsp' },
+    ]}
+  >
+    <Fragment slot="title">Nak Kira Gaji Bersih atau KWSP?</Fragment>
+    <Fragment slot="subtitle">Semua kalkulator percuma — guna sekarang.</Fragment>
+  </CallToAction>
+  <script is:inline>
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
+
+function calc() {
+  var baki = sn(document.getElementById('baki').value, 5000);
+  var rate = sn(document.getElementById('interest').value, 18);
+  var minPct = sn(document.getElementById('minPct').value, 5);
+  var extra = sn(document.getElementById('extra').value, 0);
+
+  if (baki === 0) {
+    ['hasilBaki','hasilMinPmt','hasilInterest','hasilMinOnly','hasilWithExtra'].forEach(function(id) {
+      document.getElementById(id).textContent = 'RM 0.00';
+    });
+    document.getElementById('hasilTempoh').textContent = '0 bulan';
+    document.getElementById('hasilMinMonths').textContent = '0 bulan';
+    document.getElementById('hasilExtraMonths').textContent = '0 bulan';
+    document.getElementById('scheduleBody').innerHTML = '';
+    return;
+  }
+
+  var monthlyRate = (rate / 100) / 12;
+
+  function calcMinOnly(balance) {
+    var months = 0;
+    var totalInterest = 0;
+    var b = balance;
+    while (b > 1 && months < 600) {
+      var interest = b * monthlyRate;
+      var minPmt = Math.max(b * minPct / 100, 50);
+      if (minPmt > b + interest) minPmt = b + interest;
+      b = b + interest - minPmt;
+      totalInterest += interest;
+      months++;
+    }
+    return { months: months, totalInterest: totalInterest };
+  }
+
+  function calcWithExtra(balance) {
+    var months = 0;
+    var totalInterest = 0;
+    var b = balance;
+    var schedule = [];
+    while (b > 1 && months < 600) {
+      months++;
+      var interest = b * monthlyRate;
+      var minPmt = Math.max(b * minPct / 100, 50);
+      var pmt = minPmt + extra;
+      if (pmt > b + interest) pmt = b + interest;
+      var prin = pmt - interest;
+      b = b + interest - pmt;
+      totalInterest += interest;
+      if (b < 0) b = 0;
+      schedule.push({ month: months, payment: pmt, interest: interest, principal: prin, balance: b });
+    }
+    return { months: months, totalInterest: totalInterest, schedule: schedule };
+  }
+
+  var minResult = calcMinOnly(baki);
+  var extraResult = calcWithExtra(baki);
+
+  var minPmt = Math.max(baki * minPct / 100, 50);
+
+  document.getElementById('hasilBaki').textContent = fmt(baki);
+  document.getElementById('hasilMinPmt').textContent = fmt(minPmt);
+  document.getElementById('hasilInterest').textContent = fmt(extraResult.totalInterest);
+  document.getElementById('hasilTempoh').textContent = extraResult.months + ' bulan (' + Math.ceil(extraResult.months/12) + ' tahun)';
+
+  document.getElementById('hasilMinOnly').textContent = fmt(minResult.totalInterest);
+  document.getElementById('hasilMinMonths').textContent = minResult.months + ' bulan (' + Math.ceil(minResult.months/12) + ' tahun) - Interest: ' + fmt(minResult.totalInterest);
+  document.getElementById('hasilWithExtra').textContent = fmt(extraResult.totalInterest);
+  document.getElementById('hasilExtraMonths').textContent = extraResult.months + ' bulan (' + Math.ceil(extraResult.months/12) + ' tahun) - Interest: ' + fmt(extraResult.totalInterest);
+
+  // Schedule table
+  var tb = document.getElementById('scheduleBody');
+  tb.innerHTML = '';
+  document.getElementById('scheduleLabel').textContent = 'Tempoh: ' + extraResult.months + ' bulan — jumlah interest: ' + fmt(extraResult.totalInterest);
+
+  var sched = extraResult.schedule;
+  // Show first 24 months + last few
+  var showIndices = [];
+  for (var i = 0; i < Math.min(24, sched.length); i++) showIndices.push(i);
+  for (var j = Math.max(24, sched.length - 6); j < sched.length; j++) showIndices.push(j);
+  showIndices = [...new Set(showIndices)];
+
+  for (var k = 0; k < showIndices.length; k++) {
+    var row = sched[showIndices[k]];
+    var rowHtml = '<tr class="border-b border-gray-50 dark:border-slate-800">' +
+      '<td class="py-2 px-2">' + row.month + '</td>' +
+      '<td class="text-right py-2 px-2">' + fmt(row.payment) + '</td>' +
+      '<td class="text-right py-2 px-2 text-amber-600">' + fmt(row.interest) + '</td>' +
+      '<td class="text-right py-2 px-2 text-primary">' + fmt(row.principal) + '</td>' +
+      '<td class="text-right py-2 px-2 font-medium">' + fmt(row.balance) + '</td>' +
+      '</tr>';
+    tb.innerHTML += rowHtml;
+  }
+  if (showIndices.length < sched.length) {
+    tb.innerHTML += '<tr><td colspan="5" class="text-center py-2 text-xs text-muted">... (' + (sched.length - showIndices.length) + ' lagi bulan)</td></tr>';
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  calc();
+  ['baki','interest','minPct','extra'].forEach(function(id) {
+    document.getElementById(id).addEventListener('input', calc);
+    document.getElementById(id).addEventListener('change', calc);
+  });
+});
+  </script>
+</Layout>

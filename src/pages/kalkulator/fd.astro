@@ -1,0 +1,213 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator FD — Kira Dividen Simpanan Tetap',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator Fixed Deposit (FD)
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-8">
+      Kira pulangan dividen simpanan tetap FD — bandingkan pengkompaunan bulanan, suku tahun dan tahunan.
+    </p>
+
+    <!-- Calculator Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="jumlah" class="block text-sm font-semibold text-default mb-1.5">Jumlah Simpanan (RM)</label>
+          <input type="number" id="jumlah" value="10000" min="0" step="1000"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="interest" class="block text-sm font-semibold text-default mb-1.5">Kadar Dividen (% setahun)</label>
+          <input type="number" id="interest" value="3.5" min="0" max="10" step="0.1"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="tempoh" class="block text-sm font-semibold text-default mb-1.5">Tempoh Simpanan</label>
+          <select id="tempoh"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="1">1 Bulan</option>
+            <option value="3">3 Bulan</option>
+            <option value="6">6 Bulan</option>
+            <option value="9">9 Bulan</option>
+            <option value="12" selected>12 Bulan / 1 Tahun</option>
+            <option value="24">24 Bulan / 2 Tahun</option>
+            <option value="36">36 Bulan / 3 Tahun</option>
+            <option value="60">60 Bulan / 5 Tahun</option>
+          </select>
+        </div>
+        <div>
+          <label for="compounding" class="block text-sm font-semibold text-default mb-1.5">Kekerapan Pengkompaunan</label>
+          <select id="compounding"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="12">Bulanan</option>
+            <option value="4" selected>Suku Tahun</option>
+            <option value="1">Tahunan</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Simpanan</p>
+          <p class="text-lg font-bold text-default" id="hasilPokok">RM 10,000.00</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Pulangan</p>
+          <p class="text-lg font-bold text-primary" id="hasilAkhir">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Dividen Diterima</p>
+          <p class="text-lg font-bold text-amber-600" id="hasilDividen">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Kadar Pulangan Efektif</p>
+          <p class="text-lg font-bold text-emerald-700" id="hasilEfektif">0%</p>
+        </div>
+      </div>
+
+      <!-- Compounding Comparison -->
+      <div class="mt-6 p-5 rounded-2xl bg-gradient-to-br from-primary/5 to-secondary/5 border border-primary/10">
+        <h3 class="text-lg font-bold mb-3">📊 Perbandingan Kekerapan Pengkompaunan</h3>
+        <div class="grid md:grid-cols-3 gap-3">
+          <div class="bg-white dark:bg-slate-800 rounded-xl p-4 text-center border border-gray-100 dark:border-slate-700">
+            <p class="text-xs text-muted uppercase">Bulanan</p>
+            <p class="text-lg font-bold text-primary" id="hasilBulanan">RM 0.00</p>
+          </div>
+          <div class="bg-white dark:bg-slate-800 rounded-xl p-4 text-center border border-primary/30 ring-1 ring-primary/20">
+            <p class="text-xs text-muted uppercase">Suku Tahun</p>
+            <p class="text-lg font-bold text-amber-600" id="hasilSuku">RM 0.00</p>
+          </div>
+          <div class="bg-white dark:bg-slate-800 rounded-xl p-4 text-center border border-gray-100 dark:border-slate-700">
+            <p class="text-xs text-muted uppercase">Tahunan</p>
+            <p class="text-lg font-bold text-emerald-700" id="hasilTahunan">RM 0.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DocuKilat CTA -->
+    <div class="rounded-2xl bg-gradient-to-br from-primary/10 via-primary/[0.03] to-secondary/10 border border-primary/20 p-6 md:p-8 text-center mb-8">
+      <h3 class="text-xl md:text-2xl font-bold mb-2">📄 Perlukan Dokumen Simpanan?</h3>
+      <p class="text-muted mb-4">Guna DocuKilat untuk bina surat pengesahan simpanan, penyata kewangan, dan dokumen bank lain.</p>
+      <a href="https://docukilat.rakyathub.my" target="_blank" rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-primary/30 hover:scale-[1.02]">
+        Bina Dokumen di DocuKilat
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">💰 Dividen FD</h3>
+        <p class="text-muted text-sm">Kira pulangan simpanan tetap FD berdasarkan kadar dividen dan tempoh simpanan sama ada bulanan, suku tahun atau tahunan.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">📈 Kesan Compounding</h3>
+        <p class="text-muted text-sm">Semakin kerap pengkompaunan, semakin tinggi pulangan efektif. Bandingkan bulanan vs suku tahun vs tahunan.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🔄 Bandingkan dengan ASB & KWSP</h3>
+        <p class="text-muted text-sm">FD vs ASB vs KWSP — mana lebih untung? Guna kalkulator ASB dan KWSP untuk perbandingan tepat.</p>
+      </div>
+    </div>
+
+    <!-- Articles -->
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-rose-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">📚 Artikel Berkaitan</h3>
+      <ul class="space-y-2">
+        <li>
+          <a href="/asb-loan-vs-simpan-biasa-mana-lebih-untung-2026/" class="text-primary font-medium hover:underline text-sm">
+            → ASB Loan vs Simpan Biasa — Mana Lebih Untung 2026
+          </a>
+        </li>
+        <li>
+          <a href="/i-saraan-kwsp-2026-cara-daftar-insentif-padanan/" class="text-primary font-medium hover:underline text-sm">
+            → i-Saraan KWSP — Insentif Padanan Kerajaan
+          </a>
+        </li>
+        <li>
+          <a href="/7-kelebihan-simpanan-asb-pelaburan-bijak-pulangan-konsisten-yang-pasti-korang-tak-tahu/" class="text-primary font-medium hover:underline text-sm">
+            → 7 Kelebihan Simpanan ASB — Pulangan Konsisten
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction
+    actions={[
+      { variant: 'primary', text: 'Kalkulator ASB', href: '/kalkulator/asb' },
+      { variant: 'secondary', text: 'Kalkulator KWSP', href: '/kalkulator/kwsp' },
+    ]}
+  >
+    <Fragment slot="title">Nak Kira ASB atau KWSP?</Fragment>
+    <Fragment slot="subtitle">Bandingkan pulangan pelaburan — semua percuma.</Fragment>
+  </CallToAction>
+  <script is:inline>
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
+
+function calc() {
+  var pokok = sn(document.getElementById('jumlah').value, 10000);
+  var rate = sn(document.getElementById('interest').value, 3.5);
+  var months = parseInt(document.getElementById('tempoh').value) || 12;
+  var compoundPerYear = parseInt(document.getElementById('compounding').value) || 4;
+
+  if (pokok === 0) {
+    ['hasilPokok','hasilAkhir','hasilDividen','hasilBulanan','hasilSuku','hasilTahunan'].forEach(function(id) {
+      document.getElementById(id).textContent = 'RM 0.00';
+    });
+    document.getElementById('hasilEfektif').textContent = '0%';
+    return;
+  }
+
+  var yearlyRate = rate / 100;
+  var periods = compoundPerYear;
+  var n = periods * (months / 12);
+  var r = yearlyRate / periods;
+  var akhir = pokok * Math.pow(1 + r, n);
+  var dividen = akhir - pokok;
+
+  // Effective rate
+  var efektif = (Math.pow(1 + yearlyRate / periods, periods) - 1) * 100;
+
+  document.getElementById('hasilPokok').textContent = fmt(pokok);
+  document.getElementById('hasilAkhir').textContent = fmt(akhir);
+  document.getElementById('hasilDividen').textContent = fmt(dividen);
+  document.getElementById('hasilEfektif').textContent = efektif.toFixed(2) + '%';
+
+  // Comparison
+  var bulanan = pokok * Math.pow(1 + yearlyRate / 12, 12 * (months / 12));
+  var suku = pokok * Math.pow(1 + yearlyRate / 4, 4 * (months / 12));
+  var tahunan = pokok * Math.pow(1 + yearlyRate, months / 12);
+
+  document.getElementById('hasilBulanan').textContent = fmt(bulanan);
+  document.getElementById('hasilSuku').textContent = fmt(suku);
+  document.getElementById('hasilTahunan').textContent = fmt(tahunan);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  calc();
+  ['jumlah','interest','tempoh','compounding'].forEach(function(id) {
+    document.getElementById(id).addEventListener('input', calc);
+    document.getElementById(id).addEventListener('change', calc);
+  });
+});
+  </script>
+</Layout>
