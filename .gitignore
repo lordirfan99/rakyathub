@@ -24,3 +24,5 @@ pnpm-lock.yaml
 .astro/
 scripts/*.json
 scripts/indexnow-key.txt
+scripts/.fb_token
+.fb_posted.log
