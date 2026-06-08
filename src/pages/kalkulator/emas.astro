@@ -170,13 +170,12 @@ var PG_API = { beli: 0, jual: 0 };
           PG_HARGA = Math.round(d.emas.harga_pg_beli);
           PG_API.beli = d.emas.harga_pg_beli || PG_HARGA;
           PG_API.jual = (d.emas.harga_pg_jual != null) ? d.emas.harga_pg_jual : PG_HARGA;
-          // Always update harga from API
+          // Only seed initial value if user hasn't changed it (value still default 420)
           var hi = document.getElementById('harga');
-          if (hi) hi.value = PG_HARGA;
-          calc();
-          // Update reference badges
-          document.getElementById('rujPgBeli').textContent = fmt(PG_API.beli);
-          document.getElementById('rujPgJual').textContent = fmt(PG_API.jual);
+          if (hi && parseFloat(hi.value) === 420) {
+            hi.value = PG_HARGA;
+          }
+          calc(); // rujPgBeli/rujPgJual follow input inside calc()
         }
       } catch(e) {}
     }
