@@ -1,5 +1,30 @@
 # Audit Log
 
+## 2026-06-08 12:30
+- **QA Check**: Content-only build — 2 new student articles (resepi bajet, cara urus masa)
+- **Commit**: `8bcb7b3` — Auto [Student]: Resepi bajet student universiti, Cara urus masa belajar dan aktiviti
+- **Changes**: 2 new `.md` posts in `src/data/post/`, 2 new hero images in `src/assets/images/`, `scripts/facebook-autopost.py` modified, `audit_log.md`, `topic_tracker_student.md` updated
+- **Pre-build**: No untracked `.astro` files. No untracked leftover images. No untracked `.md` posts. ✅
+- **Proactive Duplicate Image Detection**: Both new images — unique hashes (57ecf7bc, 2bcf0535), no duplicates found ✅
+- **Orphaned Image Detection** (noted): 23+ pre-existing orphaned images across public/images/ and src/assets/images/ — not regressed by this commit
+- **Frontmatter Cross-Check**: Both `image:` lines active (not commented out) ✅
+  - `cara-urus-masa-belajar-dan-aktiviti.md:7` — `image: "~/assets/images/hero-cara-urus-masa-belajar-dan-aktiviti.jpg"` ✅
+  - `resepi-bajet-student-universiti.md:7` — `image: "~/assets/images/hero-resepi-bajet-student-universiti.jpg"` ✅
+- **Build**: 241 pages built in 1m 25s — 0 errors, 0 warnings (up from 233 — +2 posts + tag/category auto-generated pages)
+- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session. Verified via Node.js static server on port 3500 (clean port)
+- **Content Asset Verification**:
+  - /cara-urus-masa-belajar-dan-aktiviti/ — title "Cara Urus Masa Belajar dan Aktiviti — 5 Teknik Produktif — RakyatHub" ✅
+    - OG Image: hero-cara-urus-masa-belajar-dan-aktiviti (matches frontmatter) ✅
+    - Image asset: HTTP 200, 64,893 bytes ✅
+  - /resepi-bajet-student-universiti/ — title "Resepi Bajet Student Universiti — 7 Menu Jimat & Kenyang — RakyatHub" ✅
+    - OG Image: hero-resepi-bajet-student-universiti (matches frontmatter) ✅
+    - Image asset: HTTP 200, 60,340 bytes ✅
+  - / — title "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+  - /blog/ — HTTP 200 ✅
+  - /tag/student/ — title "Posts by tag 'student' — RakyatHub" ✅
+- **Cross-Image Check**: Both rendered OG images match frontmatter `image:` fields — no fallback/reference issues ✅
+- **Status**: resolved
+
 ## 2026-06-08 11:08
 - **QA Check**: Full pipeline — E-E-A-T author profile system, About rewrite, Privacy Policy AdSense-compliant
 - **Commit**: `11ec3f5` — Fasa 1 E-E-A-T: author profile system, author card in posts, About rewrite, Privacy Policy AdSense-compliant
