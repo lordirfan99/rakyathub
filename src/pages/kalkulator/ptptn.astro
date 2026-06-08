@@ -1,0 +1,320 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator PTPTN — Ansuran & Tempoh Langsaikan',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator PTPTN
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-8">
+      Kira ansuran bulanan PTPTN dan tempoh langsaikan pinjaman berdasarkan jumlah baki, gred semasa dan bayaran pilihan anda.
+    </p>
+
+    <!-- Calculator Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="baki" class="block text-sm font-semibold text-default mb-1.5">Baki Pinjaman (RM)</label>
+          <input type="number" id="baki" value="25000" min="0" step="1000"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="gred" class="block text-sm font-semibold text-default mb-1.5">Gred / Diskaun</label>
+          <select id="gred"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="0">Tiada diskaun (lepas 12 bulan graduasi)</option>
+            <option value="10" selected>Diskaun 10% (1-12 bulan pertama grad)</option>
+            <option value="15">Diskaun 15% (bayar dalam tempoh)</option>
+            <option value="20">Diskaun 20% (gred A - bayar dalam tempoh)</option>
+            <option value="0_old">Pinjaman lama (sebelum 2019)</option>
+          </select>
+        </div>
+        <div>
+          <label for="gaji" class="block text-sm font-semibold text-default mb-1.5">Gaji Bulanan (RM)</label>
+          <input type="number" id="gaji" value="3000" min="500" step="100"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="extra" class="block text-sm font-semibold text-default mb-1.5">Bayaran Tambahan (RM/bln)</label>
+          <input type="number" id="extra" value="0" min="0" step="50"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Baki Pinjaman</p>
+          <p class="text-lg font-bold text-default" id="hasilBaki">RM 25,000.00</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Ansuran Wajib</p>
+          <p class="text-lg font-bold text-primary" id="hasilAnsuranWajib">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Tempoh (Wajib)</p>
+          <p class="text-lg font-bold text-amber-600" id="hasilTempohWajib">0 tahun</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Simpanan</p>
+          <p class="text-lg font-bold text-emerald-700" id="hasilSimpanan">RM 0.00</p>
+        </div>
+      </div>
+
+      <!-- Comparison -->
+      <div class="mt-6 grid md:grid-cols-2 gap-4">
+        <div class="p-5 rounded-2xl bg-gradient-to-br from-red-50 to-amber-50 dark:from-red-900/20 dark:to-amber-900/10 border border-red-200/30 text-center">
+          <p class="text-sm text-muted">Bayar Wajib Sahaja</p>
+          <p class="text-2xl md:text-3xl font-bold text-red-600" id="hasilBayarWajib">RM 0.00</p>
+          <p class="text-xs text-muted mt-1" id="hasilWajibBulan">0 bulan</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-gradient-to-br from-emerald-50 to-green-50 dark:from-emerald-900/20 dark:to-green-900/10 border border-emerald-200/30 text-center">
+          <p class="text-sm text-muted">Dengan Bayaran Tambahan</p>
+          <p class="text-2xl md:text-3xl font-bold text-emerald-700" id="hasilBayarExtra">RM 0.00</p>
+          <p class="text-xs text-muted mt-1" id="hasilExtraBulan">0 bulan</p>
+        </div>
+      </div>
+
+      <!-- Diskaun Info -->
+      <div class="mt-4 p-4 rounded-xl bg-blue-50 dark:bg-blue-900/20 text-sm text-muted" id="diskaunInfo">
+        💡 <strong class="text-default">Diskaun:</strong> PTPTN 1% interest setahun. Diskaun 10% (1-12 bulan grad), 15% (bayar dalam tempoh), 20% (gred A).
+      </div>
+    </div>
+
+    <!-- Repayment Schedule -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📈 Jadual Pembayaran (Wajib)</h2>
+      <div class="overflow-x-auto -mx-5 md:-mx-0">
+        <div class="min-w-[500px] px-5 md:px-0">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b border-gray-100 dark:border-slate-700">
+                <th class="text-left py-2 px-2 font-semibold text-muted">Tahun</th>
+                <th class="text-right py-2 px-2 font-semibold text-muted">Bayaran Setahun</th>
+                <th class="text-right py-2 px-2 font-semibold text-muted">Interest</th>
+                <th class="text-right py-2 px-2 font-semibold text-muted">Prinsipal</th>
+                <th class="text-right py-2 px-2 font-semibold text-muted">Baki</th>
+              </tr>
+            </thead>
+            <tbody id="scheduleTable"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- DocuKilat CTA -->
+    <div class="rounded-2xl bg-gradient-to-br from-primary/10 via-primary/[0.03] to-secondary/10 border border-primary/20 p-6 md:p-8 text-center mb-8">
+      <h3 class="text-xl md:text-2xl font-bold mb-2">📄 Nak Buat Surat Pengesahan?</h3>
+      <p class="text-muted mb-4">Guna DocuKilat untuk buat surat pengesahan pendapatan, resume, atau surat tawaran kerja — cepat dan professional.</p>
+      <a href="https://docukilat.rakyathub.my" target="_blank" rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-primary/30 hover:scale-[1.02]">
+        Bina Dokumen di DocuKilat
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">💰 Diskaun PTPTN</h3>
+        <p class="text-muted text-sm">Bayar dalam 12 bulan grad → diskaun 10%. Bayar dalam tempoh → 15%. Gred A + bayar dalam tempoh → 20%. Lepas 12 bulan → tiada diskaun.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">⏱️ Potongan Gaji</h3>
+        <p class="text-muted text-sm">PTPTN potong 2-15% dari gaji bulanan (mengikut kemampuan). Minimum RM20/bln. Boleh ubah jumlah ikut pendapatan semasa.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🔍 Cara Bayar</h3>
+        <p class="text-muted text-sm">MyPTPTN portal, potongan gaji (HRD Corp/e-CP38), JomPAY, atau kaunter PTPTN. Boleh set auto-debit untuk elak lewat bayar.</p>
+      </div>
+    </div>
+
+    <!-- Related -->
+    <div class="rounded-2xl bg-gradient-to-br from-amber-50 to-orange-50 dark:from-slate-800 dark:to-slate-800 border border-amber-100 dark:border-slate-700 p-6 md:p-8 mb-8">
+      <h3 class="text-xl font-bold mb-4">📚 Artikel Berkaitan</h3>
+      <ul class="space-y-2">
+        <li>
+          <a href="/pelepasan-cukai-malaysia-2026-panduan-lengkap-rebat-potongan/" class="text-primary font-medium hover:underline text-sm">
+            → Pelepasan Cukai 2026 – SSPN RM8,000
+          </a>
+        </li>
+        <li>
+          <a href="/urus-duit-gaji-bawah-rm3000/" class="text-primary font-medium hover:underline text-sm">
+            → Cara Urus Duit Gaji Bawah RM3,000
+          </a>
+        </li>
+        <li>
+          <a href="/kalkulator/gaji-bersih/" class="text-primary font-medium hover:underline text-sm">
+            → Kalkulator Gaji Bersih
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction
+    actions={[
+      { variant: 'primary', text: 'Kalkulator Gaji Bersih', href: '/kalkulator/gaji-bersih/' },
+      { variant: 'secondary', text: 'Kalkulator KWSP', href: '/kalkulator/kwsp/' },
+    ]}
+  >
+    <Fragment slot="title">Nak Kira Lagi?</Fragment>
+    <Fragment slot="subtitle">Semua kalkulator percuma, tak perlu daftar.</Fragment>
+  </CallToAction>
+
+  <script is:inline>
+function fmt(v) {
+  return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00');
+}
+function fmtInt(v) {
+  return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? Math.round(v).toLocaleString('ms-MY') : '0');
+}
+function sn(v, d) {
+  var n = parseFloat(v);
+  return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0);
+}
+
+function calc() {
+  var baki = sn(document.getElementById('baki').value, 25000);
+  var gredVal = document.getElementById('gred').value;
+  var gaji = sn(document.getElementById('gaji').value, 3000);
+  var extra = sn(document.getElementById('extra').value, 0);
+
+  // PTPTN interest: 1% flat per annum on reducing balance
+  var interestRate = 0.01;
+
+  // Determine discount and min payment rate
+  var diskaun = 0;
+  var pctGaji = 0;
+
+  // Default min payment: 2% of salary or RM20, whichever higher
+  var minPmt = Math.max(20, gaji * 0.02);
+
+  // Parse gred
+  if (gredVal.indexOf('10') === 0) { diskaun = 0.10; }
+  else if (gredVal.indexOf('15') === 0) { diskaun = 0.15; }
+  else if (gredVal.indexOf('20') === 0) { diskaun = 0.20; }
+  else { diskaun = 0; }
+
+  var bakiSelepasDiskaun = baki * (1 - diskaun);
+  var ansuranWajib = minPmt;
+
+  // Calculate repayment timeline (wajib)
+  var balanceW = bakiSelepasDiskaun;
+  var totalPaidW = 0;
+  var monthsW = 0;
+  var schedule = [];
+
+  while (balanceW > 0.01 && monthsW < 600) { // max 50 years
+    monthsW++;
+    var monthlyInt = balanceW * interestRate / 12;
+    var principal = ansuranWajib - monthlyInt;
+    if (principal <= 0) {
+      // Payment too low, force higher
+      ansuranWajib = monthlyInt * 1.1 + 10;
+      principal = ansuranWajib - monthlyInt;
+    }
+    balanceW -= principal;
+    totalPaidW += ansuranWajib;
+  }
+
+  // Calculate with extra payment
+  var balanceE = bakiSelepasDiskaun;
+  var totalPaidE = 0;
+  var monthsE = 0;
+  var extraPmt = ansuranWajib + extra;
+
+  while (balanceE > 0.01 && monthsE < 600) {
+    monthsE++;
+    var monthlyIntE = balanceE * interestRate / 12;
+    var principalE = extraPmt - monthlyIntE;
+    if (principalE <= 0) {
+      extraPmt = monthlyIntE * 1.1 + 10;
+      principalE = extraPmt - monthlyIntE;
+    }
+    balanceE -= principalE;
+    totalPaidE += extraPmt;
+  }
+
+  var savings = totalPaidW - totalPaidE;
+
+  // Build yearly schedule for wajib
+  var schedRows = [];
+  var sBalance = bakiSelepasDiskaun;
+  for (var y = 1; sBalance > 1 && y <= 50; y++) {
+    var yearPmt = 0;
+    var yearInt = 0;
+    var yearPrin = 0;
+    for (var m = 0; m < 12 && sBalance > 1; m++) {
+      var mi = sBalance * interestRate / 12;
+      var pr = ansuranWajib - mi;
+      if (pr <= 0) {
+        ansuranWajib = mi * 1.1 + 10;
+        pr = ansuranWajib - mi;
+      }
+      sBalance -= pr;
+      yearPmt += ansuranWajib;
+      yearInt += mi;
+      yearPrin += pr;
+    }
+    schedRows.push({ year: y, payment: yearPmt, interest: yearInt, principal: yearPrin, balance: Math.max(0, sBalance) });
+    if (sBalance <= 0) break;
+  }
+
+  // Display
+  var displayBaki = bakiSelepasDiskaun;
+  document.getElementById('hasilBaki').textContent = fmt(displayBaki);
+  document.getElementById('hasilAnsuranWajib').textContent = fmt(ansuranWajib);
+  document.getElementById('hasilTempohWajib').textContent = Math.ceil(monthsW / 12) + ' tahun (' + monthsW + ' bln)';
+  document.getElementById('hasilSimpanan').textContent = fmt(savings > 0 ? savings : 0);
+  document.getElementById('hasilBayarWajib').textContent = fmt(totalPaidW);
+  document.getElementById('hasilWajibBulan').textContent = monthsW + ' bulan';
+  document.getElementById('hasilBayarExtra').textContent = fmt(totalPaidE);
+  document.getElementById('hasilExtraBulan').textContent = monthsE + ' bulan';
+
+  // Diskaun info
+  var info = document.getElementById('diskaunInfo');
+  if (diskaun > 0) {
+    info.innerHTML = '💡 <strong class="text-default">Diskaun ' + (diskaun * 100) + '%:</strong> Baki asal <strong>' + fmtInt(baki) + '</strong> → selepas diskaun <strong>' + fmtInt(displayBaki) + '</strong>. Jimat ' + fmtInt(baki * diskaun) + '!';
+    info.className = 'mt-4 p-4 rounded-xl bg-emerald-50 dark:bg-emerald-900/20 text-sm text-muted';
+  } else {
+    info.innerHTML = '💡 <strong class="text-default">Tiada diskaun.</strong> PTPTN kadar interest 1% setahun atas baki berkurang. Bayar lebih untuk jimat interest.';
+    info.className = 'mt-4 p-4 rounded-xl bg-blue-50 dark:bg-blue-900/20 text-sm text-muted';
+  }
+
+  // Render schedule
+  var tbody = document.getElementById('scheduleTable');
+  tbody.innerHTML = '';
+  for (var i = 0; i < schedRows.length; i++) {
+    var r = schedRows[i];
+    var tr = document.createElement('tr');
+    tr.className = 'border-b border-gray-50 dark:border-slate-700/50';
+    tr.innerHTML = '<td class="py-2 px-2 text-default">' + r.year + '</td>'
+      + '<td class="py-2 px-2 text-right text-muted">' + fmtInt(r.payment) + '</td>'
+      + '<td class="py-2 px-2 text-right text-amber-600">' + fmtInt(r.interest) + '</td>'
+      + '<td class="py-2 px-2 text-right text-primary font-medium">' + fmtInt(r.principal) + '</td>'
+      + '<td class="py-2 px-2 text-right text-muted">' + fmtInt(r.balance) + '</td>';
+    tbody.appendChild(tr);
+  }
+}
+
+['baki','gred','gaji','extra'].forEach(function(id) {
+  var el = document.getElementById(id);
+  if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
+});
+
+calc();
+</script>
+</Layout>

@@ -1,0 +1,265 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator ASB Financing — Untung atau Rugi?',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator ASB Financing
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-8">
+      Kira untung rugi ASB loan — bandingkan dividen ASB tahunan dengan ansuran bulanan pinjaman anda.
+    </p>
+
+    <!-- Calculator Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="jumlah" class="block text-sm font-semibold text-default mb-1.5">Jumlah Pembiayaan (RM)</label>
+          <input type="number" id="jumlah" value="200000" min="1000" step="10000"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="kadar" class="block text-sm font-semibold text-default mb-1.5">Kadar Interest (% setahun)</label>
+          <input type="number" id="kadar" value="5.0" min="0" max="15" step="0.1"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="tempoh" class="block text-sm font-semibold text-default mb-1.5">Tempoh (Tahun)</label>
+          <select id="tempoh"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="5">5 Tahun</option>
+            <option value="10">10 Tahun</option>
+            <option value="15">15 Tahun</option>
+            <option value="20" selected>20 Tahun</option>
+            <option value="25">25 Tahun</option>
+            <option value="30">30 Tahun</option>
+          </select>
+        </div>
+        <div>
+          <label for="dividen" class="block text-sm font-semibold text-default mb-1.5">Anggaran Dividen ASB (% setahun)</label>
+          <input type="number" id="dividen" value="5.75" min="0" max="15" step="0.05"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Ansuran Bulanan</p>
+          <p class="text-lg font-bold text-default" id="hasilAnsuran">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Dividen Tahunan</p>
+          <p class="text-lg font-bold text-primary" id="hasilDividenTahunan">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Interest Bayar</p>
+          <p class="text-lg font-bold text-amber-600" id="hasilInterest">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Dividen Terkumpul</p>
+          <p class="text-lg font-bold text-emerald-700" id="hasilDividenTotal">RM 0.00</p>
+        </div>
+      </div>
+
+      <!-- Verdict -->
+      <div class="mt-6 grid md:grid-cols-2 gap-4">
+        <div class="p-5 rounded-2xl bg-gradient-to-br from-emerald-50 to-green-50 dark:from-emerald-900/20 dark:to-green-900/10 border border-emerald-200/30 text-center" id="verdictUntung">
+          <p class="text-sm text-muted">Anggaran Untung Bersih (Tamatan)</p>
+          <p class="text-3xl md:text-4xl font-bold text-emerald-700" id="hasilUntung">RM 0.00</p>
+          <p class="text-xs text-muted mt-1">Dividen - Interest</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/10 border border-blue-200/30 text-center">
+          <p class="text-sm text-muted">Nilai Pelaburan (Tamatan)</p>
+          <p class="text-3xl md:text-4xl font-bold text-blue-700" id="hasilNilaiAkhir">RM 0.00</p>
+          <p class="text-xs text-muted mt-1">Prinsipal + Dividen - Interest</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projection Table -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📈 Unjuran Tahunan</h2>
+      <div class="overflow-x-auto -mx-5 md:-mx-0">
+        <div class="min-w-[550px] px-5 md:px-0">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b border-gray-100 dark:border-slate-700">
+                <th class="text-left py-2 px-2 font-semibold text-muted">Tahun</th>
+                <th class="text-right py-2 px-2 font-semibold text-muted">Baki Pinjaman</th>
+                <th class="text-right py-2 px-2 font-semibold text-muted">Bayaran Setahun</th>
+                <th class="text-right py-2 px-2 font-semibold text-muted">Dividen</th>
+                <th class="text-right py-2 px-2 font-semibold text-muted">Dividen Terkumpul</th>
+                <th class="text-right py-2 px-2 font-semibold text-muted">Untung/Rugi</th>
+              </tr>
+            </thead>
+            <tbody id="projectionTable"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">📊 Dividen ASB 2025</h3>
+        <p class="text-muted text-sm">Dividen ASB 2025: 5.75% + bonus 0.25%. Dividen terkumpul dikompaun setiap tahun — semakin lama, semakin besar pulangan.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">⚖️ Leverage vs Simpan</h3>
+        <p class="text-muted text-sm">ASB financing guna duit bank → dividen atas jumlah penuh. Tapi interest loan kena tolak. Guna calculator ni untuk tahu sama ada untung atau rugi.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🔄 Takaful Fee</h3>
+        <p class="text-muted text-sm">Yuran takaful (kira-kira 3-5% jumlah pinjaman) tak termasuk dalam kiraan ni. Rujuk bank untuk kos sebenar.</p>
+      </div>
+    </div>
+
+    <!-- Related -->
+    <div class="rounded-2xl bg-gradient-to-br from-amber-50 to-orange-50 dark:from-slate-800 dark:to-slate-800 border border-amber-100 dark:border-slate-700 p-6 md:p-8 mb-8">
+      <h3 class="text-xl font-bold mb-4">📚 Artikel Berkaitan ASB</h3>
+      <ul class="space-y-2">
+        <li>
+          <a href="/7-kelebihan-simpanan-asb-pelaburan-bijak-pulangan-konsisten-yang-pasti-korang-tak-tahu/" class="text-primary font-medium hover:underline text-sm">
+            → 7 Kelebihan Simpanan ASB
+          </a>
+        </li>
+        <li>
+          <a href="/asb-loan-vs-simpan-biasa-mana-lebih-untung-2026/" class="text-primary font-medium hover:underline text-sm">
+            → ASB Loan vs Simpan Biasa
+          </a>
+        </li>
+        <li>
+          <a href="/strategi-dca-vs-lump-sum-pilihan-pelaburan-bijak-untuk-orang-muda/" class="text-primary font-medium hover:underline text-sm">
+            → Strategi DCA vs Lump Sum
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction
+    actions={[
+      { variant: 'primary', text: 'Kalkulator ASB', href: '/kalkulator/asb/' },
+      { variant: 'secondary', text: 'Kalkulator Emas vs ASB vs FD', href: '/kalkulator/pelaburan/' },
+    ]}
+  >
+    <Fragment slot="title">Nak Kira Lagi Pelaburan?</Fragment>
+    <Fragment slot="subtitle">Bandingkan ASB dengan emas dan FD.</Fragment>
+  </CallToAction>
+
+  <script is:inline>
+function fmt(v) {
+  return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00');
+}
+function fmtInt(v) {
+  return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? Math.round(v).toLocaleString('ms-MY') : '0');
+}
+function sn(v, d) {
+  var n = parseFloat(v);
+  return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0);
+}
+
+function pmt(rate, nper, pv) {
+  if (rate === 0) return pv / nper;
+  var r = rate / 12;
+  var factor = Math.pow(1 + r, nper);
+  return pv * r * factor / (factor - 1);
+}
+
+function calc() {
+  var jumlah = sn(document.getElementById('jumlah').value, 200000);
+  var kadar = sn(document.getElementById('kadar').value, 5.0);
+  var tempoh = parseInt(document.getElementById('tempoh').value) || 20;
+  var dividenRate = sn(document.getElementById('dividen').value, 5.75) / 100;
+
+  var nper = tempoh * 12;
+  var monthlyPmt = pmt(kadar / 100, nper, jumlah);
+  var annualPmt = monthlyPmt * 12;
+  var totalPayment = monthlyPmt * nper;
+  var totalInterest = totalPayment - jumlah;
+
+  // Year-by-year projection
+  var balance = jumlah;
+  var totalDividen = 0;
+  var rows = [];
+
+  for (var y = 1; y <= tempoh; y++) {
+    // Interest paid this year
+    var yearInterest = 0;
+    var tempBalance = balance;
+    for (var m = 0; m < 12; m++) {
+      var mi = tempBalance * (kadar / 100) / 12;
+      yearInterest += mi;
+      tempBalance = tempBalance - (monthlyPmt - mi);
+    }
+    balance = tempBalance;
+
+    // Dividen earned this year on original principal
+    var yearDividen = jumlah * dividenRate;
+    totalDividen += yearDividen;
+
+    var untungY = totalDividen - (totalPayment * (y / tempoh));
+    rows.push({
+      year: y,
+      balance: Math.max(0, balance),
+      annualPayment: annualPmt,
+      dividen: yearDividen,
+      totalDividen: totalDividen,
+      untung: untungY
+    });
+  }
+
+  var untungBersih = totalDividen - totalInterest;
+
+  // Display results
+  document.getElementById('hasilAnsuran').textContent = fmt(monthlyPmt);
+  document.getElementById('hasilDividenTahunan').textContent = fmtInt(jumlah * dividenRate);
+  document.getElementById('hasilInterest').textContent = fmtInt(totalInterest);
+  document.getElementById('hasilDividenTotal').textContent = fmtInt(totalDividen);
+  document.getElementById('hasilUntung').textContent = fmtInt(untungBersih);
+  document.getElementById('hasilNilaiAkhir').textContent = fmtInt(jumlah + untungBersih);
+
+  // Color the verdict
+  var verdictEl = document.getElementById('verdictUntung');
+  if (untungBersih > 0) {
+    verdictEl.className = 'p-5 rounded-2xl bg-gradient-to-br from-emerald-50 to-green-50 dark:from-emerald-900/20 dark:to-green-900/10 border border-emerald-200/30 text-center';
+  } else {
+    verdictEl.className = 'p-5 rounded-2xl bg-gradient-to-br from-red-50 to-amber-50 dark:from-red-900/20 dark:to-amber-900/10 border border-red-200/30 text-center';
+  }
+
+  // Render table
+  var tbody = document.getElementById('projectionTable');
+  tbody.innerHTML = '';
+  for (var i = 0; i < rows.length; i++) {
+    var r = rows[i];
+    var tr = document.createElement('tr');
+    tr.className = 'border-b border-gray-50 dark:border-slate-700/50';
+    tr.innerHTML = '<td class="py-2 px-2 text-default">' + r.year + '</td>'
+      + '<td class="py-2 px-2 text-right text-muted">' + fmtInt(r.balance) + '</td>'
+      + '<td class="py-2 px-2 text-right text-muted">' + fmtInt(r.annualPayment) + '</td>'
+      + '<td class="py-2 px-2 text-right text-primary font-medium">' + fmtInt(r.dividen) + '</td>'
+      + '<td class="py-2 px-2 text-right text-emerald-700 font-medium">' + fmtInt(r.totalDividen) + '</td>'
+      + '<td class="py-2 px-2 text-right ' + (r.untung >= 0 ? 'text-emerald-600' : 'text-red-600') + ' font-medium">' + fmtInt(r.untung) + '</td>';
+    tbody.appendChild(tr);
+  }
+}
+
+['jumlah','kadar','tempoh','dividen'].forEach(function(id) {
+  var el = document.getElementById(id);
+  if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
+});
+
+calc();
+</script>
+</Layout>
