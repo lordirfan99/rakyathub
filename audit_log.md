@@ -1,5 +1,45 @@
 # Audit Log
 
+## 2026-06-08 20:31
+- **QA Check**: Content-only build — 1 new article (Side Hustle: Bisnes Produk Digital & AI)
+- **Commit**: `4fc0cdf` — Auto: Side Hustle - Bisnes Produk Digital & AI Side Hustle
+- **Changes**: 1 new `.md` post `bisnes-produk-digital-ai-side-hustle-malaysia-2026.md`, 1 new hero image `hero-digital-products-ai-side-hustle.jpg`, new `scripts/write_article.py`, `audit_log.md` updated
+- **Pre-build**: No untracked `.astro` files ✅ | No untracked leftover images ✅ | No untracked `.md` posts ✅
+- **Duplicate Image Detection**: `hero-digital-products-ai-side-hustle.jpg` (hash `a9e5f7d3`) — unique, no duplicates found ✅
+- **Orphaned Image Detection** (noted): Same pre-existing orphans as prior run — not regressed by this commit
+- **Frontmatter Cross-Check**: `image:` line active (not commented out) ✅
+  - `bisnes-produk-digital-ai-side-hustle-malaysia-2026.md` — `image: "~/assets/images/hero-digital-products-ai-side-hustle.jpg"` ✅
+- **Build**: 262 pages built in 1m 32s — 0 errors, 0 warnings ✅
+- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session
+- **Content Asset Verification** (Node.js server on port 3403):
+  - /bisnes-produk-digital-ai-side-hustle-malaysia-2026/ — title "Bisnes Produk Digital & AI Side Hustle: Jana RM5,000 Sebulan Guna Telefon Je — RakyatHub" ✅ (HTTP 200)
+    - OG Image: hero-digital-products-ai-side-hustle (matches frontmatter) — HTTP 200, 97,112 bytes ✅
+  - / — title "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+  - /category/kewangan/ — title "Category 'Kewangan' — RakyatHub" ✅
+  - /blog/ — title "Blog — RakyatHub" ✅
+- **Cross-Image Check (Pattern A/B)**: Both frontmatter active and OG image matches — no Vite dedup or fallback issues ✅
+- **Status**: resolved
+
+## 2026-06-08 20:22
+- **QA Check**: Content-only build — 1 new article (Side Hustle: Bisnes Produk Digital & AI)
+- **Commit**: `4fc0cdf` — Auto: Side Hustle - Bisnes Produk Digital & AI Side Hustle
+- **Changes**: 1 new `.md` post `bisnes-produk-digital-ai-side-hustle-malaysia-2026.md`, 1 new hero image `hero-digital-products-ai-side-hustle.jpg`, new `scripts/write_article.py`, `audit_log.md` updated
+- **Pre-build**: No untracked `.astro` files ✅ | No untracked leftover images ✅ | No untracked `.md` posts ✅
+- **Duplicate Image Detection**: `hero-digital-products-ai-side-hustle.jpg` (hash `a9e5f7d3`) — unique, no duplicates found ✅
+- **Orphaned Image Detection** (noted): Same pre-existing orphans as prior run — `src/assets/images/hero-saham-usa.jpg` and `cta-join-discord.png` (assets/); 5x public/images/ orphans. Not regressed by this commit.
+- **Frontmatter Cross-Check**: `image:` line active (not commented out) ✅
+  - `bisnes-produk-digital-ai-side-hustle-malaysia-2026.md` — `image: "~/assets/images/hero-digital-products-ai-side-hustle.jpg"` ✅
+- **Build**: 262 pages built in 1m 37s — 0 errors, 0 warnings ✅ (rebuild included both this commit and `73c3d48`)
+- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session
+- **Content Asset Verification** (Node.js server on port 4001):
+  - /bisnes-produk-digital-ai-side-hustle-malaysia-2026/ — title "Bisnes Produk Digital & AI Side Hustle: Jana RM5,000 Sebulan Guna Telefon Je — RakyatHub" ✅ (HTTP 200)
+    - OG Image: hero-digital-products-ai-side-hustle (matches frontmatter) — HTTP 200, 97,112 bytes ✅
+  - /bursa-malaysia-1700-peluang-melabur/ — title "Bursa Malaysia Cecah 1,700 Semula? Ini Peluang Untuk Korang — RakyatHub" ✅ (HTTP 200)
+  - /category/kewangan/ — title "Category 'Kewangan' — RakyatHub" ✅ (HTTP 200)
+  - / — title "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅ (HTTP 200)
+- **Cross-Image Check**: Both rendered OG image filenames match frontmatter `image:` fields — no Vite dedup or fallback issues ✅
+- **Status**: resolved
+
 ## 2026-06-08 17:52
 - **QA Check**: Content-only build — 1 new article (Bursa Malaysia KLCI 1,700 & starting investment guide)
 - **Commit**: `73c3d48` — Auto: News React — Bursa Malaysia KLCI 1,700 & starting investment guide
@@ -167,7 +207,7 @@
   - OG Image: /_astro/hero-tips-temuduga-fresh-grad.D-joWRyB_Z16Nfes.jpg (matches frontmatter `hero-tips-temuduga-fresh-grad`) ✅
   - Image asset: HTTP 200, 107,232 bytes ✅
   - /pelepasan-cukai-malaysia-2026-panduan-lengkap-rebat-potongan/ — OG image: hero-pelepasan-cukai ✅ (fix holding)
-  - /sasaran-simpanan-kwsp-2026-berapa-cukup-pencen-selesa/ — OG image: hero-sasaran-kwsp ✅ (fix holding)
+  - /sasaran-simpanan-kwsp-2026-berapa-cukup-pencen-selesa.md/ — OG image: hero-sasaran-kwsp ✅ (fix holding)
   - /category/kerjaya/ — title "Category 'Kerjaya' — RakyatHub" ✅
 - **Cross-Image Check**: Rendered OG image file base (hero-tips-temuduga-fresh-grad) matches frontmatter `image:` field — correct image used, no fallback issue ✅
 - **Note**: Untracked local dev files `gaji-graduan-mengikut-industri-2026.md` and its image `hero-gaji-graduan-mengikut-industri-2026.jpg` exist on disk but were never committed — included in build since Astro glob picks up all .md files. These are the user's responsibility to commit or discard.

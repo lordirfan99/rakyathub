@@ -1,4 +1,10 @@
 ---
+export interface Props {
+  adsId?: string;
+}
+
+const { adsId } = Astro.props;
+
 import { ANALYTICS } from 'astrowind:config';
 
 const id = ANALYTICS?.vendors?.googleAnalytics?.id ? String(ANALYTICS.vendors.googleAnalytics.id) : '';
@@ -8,7 +14,9 @@ const scriptType = partytown ? 'text/partytown' : undefined;
 
 {id && <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${id}`} type={scriptType} />}
 
-<script is:inline id="ga-init" data-id={id} type={id ? scriptType : undefined}>
+{adsId && <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${adsId}`} />}
+
+<script is:inline id="ga-init" data-id={id} data-ads-id={adsId} type={id || adsId ? scriptType : undefined}>
   if (document.getElementById('ga-init').dataset.id) {
     var d = document.getElementById('ga-init').dataset.id;
     window.dataLayer = window.dataLayer || [];
@@ -17,5 +25,9 @@ const scriptType = partytown ? 'text/partytown' : undefined;
     };
     window.gtag('js', new Date());
     window.gtag('config', d);
+  }
+  if (document.getElementById('ga-init').dataset.adsId) {
+    var a = document.getElementById('ga-init').dataset.adsId;
+    window.gtag('config', a);
   }
 </script>
