@@ -3,7 +3,7 @@ publishDate: 2026-06-08
 title: Pelepasan Cukai Malaysia 2026 — Panduan Rebat & Potongan
 excerpt: "Panduan lengkap pelepasan cukai Malaysia 2026. Senarai 25+ rebat & potongan cukai, had maksimum terkini, cara tuntut di e-Filing LHDN."
 category: Percukaian
-# image: removed — untracked leftover file never in git
+image: "~/assets/images/hero-pelepasan-cukai.jpg"
 tags:
   - pelepasan cukai
   - e-filing

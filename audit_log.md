@@ -1,5 +1,71 @@
 # Audit Log
 
+## 2026-06-08 08:49
+- **QA Check**: Content-only build — 4 new articles [pelepasan-cukai, sasaran-kwsp, etunai-belia, tabung-kecemasan]
+- **Commit**: `d939b72` — Auto: 4 new articles [pelepasan-cukai, sasaran-kwsp, etunai-belia, tabung-kecemasan]
+- **Changes**: 4 new `.md` posts in `src/data/post/`, 4 new hero images in `src/assets/images/`
+- **Pre-build**: No untracked `.astro` files. No corrupted leftover images found. ✅
+- **Proactive Duplicate Image Detection**: All 4 new images — unique hashes, no duplicates found ✅
+- **Orphaned Image Detection** (noted): 19+ orphaned images in public/images/ and src/assets/images/ — pre-existing, not regressed by this commit
+- **Fix**: 2 posts had `image:` lines commented out (`# image: removed — untracked leftover file never in git`) despite new images committed. Uncommented and updated to point to the correct hero images.
+  - `pelepasan-cukai-malaysia-2026-panduan-lengkap-rebat-potongan.md` → `~/assets/images/hero-pelepasan-cukai.jpg`
+  - `sasaran-simpanan-kwsp-2026-berapa-cukup-pencen-selesa.md` → `~/assets/images/hero-sasaran-kwsp.jpg`
+- **File**: `src/data/post/pelepasan-cukai-malaysia-2026-panduan-lengkap-rebat-potongan.md:6`, `src/data/post/sasaran-simpanan-kwsp-2026-berapa-cukup-pencen-selesa.md:6`
+- **Before**: `# image: removed — untracked leftover file never in git` (commented out — posts used default OG image)
+- **After**: `image: "~/assets/images/hero-pelepasan-cukai.jpg"` and `image: "~/assets/images/hero-sasaran-kwsp.jpg"` (posts now render correct custom hero images)
+- **Build**: 223 pages built in 1m 44s — 0 errors, 0 warnings
+- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session. Verified via Python http.server on port 3210 (clean port)
+- **Content Asset Verification**:
+  - /e-tunai-belia-rahmah-2026-cara-daftar-tebus-rm200/ — title "e-Tunai Belia Rahmah 2026 — Cara Daftar & Tebus RM200 — RakyatHub" ✅ (OG image: hero-etunai-belia — correct)
+  - /pelepasan-cukai-malaysia-2026-panduan-lengkap-rebat-potongan/ — title "Pelepasan Cukai Malaysia 2026 — Panduan Rebat & Potongan — RakyatHub" ✅ (OG image: hero-pelepasan-cukai) ← FIXED
+  - /sasaran-simpanan-kwsp-2026-berapa-cukup-pencen-selesa/ — title "Sasaran Simpanan KWSP 2026 — Berapa Cukup Untuk Pencen? — RakyatHub" ✅ (OG image: hero-sasaran-kwsp) ← FIXED
+  - /tabung-kecemasan-malaysia-berapa-patut-simpan-cara-mula/ — title "Tabung Kecemasan Malaysia — Berapa Patut Simpan & Cara Mula — RakyatHub" ✅ (OG image: hero-tabung-kecemasan — correct)
+  - All 4 OG images: HTTP 200 ✅ (JPG + WebP variants all processed by Sharp)
+  - Category pages: /category/percukaian/, /category/kwsp/, /category/kerajaan/, /category/kewangan/ — all correct titles ✅
+- **Cross-Image Check**: All 4 rendered OG images match frontmatter `image:` fields — no fallback/reference issues ✅
+- **Status**: resolved
+
+## 2026-06-08 09:17
+- **QA Check**: Content-only build — follow-up run for 4 new articles
+- **Commit**: `d939b72` — Auto: 4 new articles [pelepasan-cukai, sasaran-kwsp, etunai-belia, tabung-kecemasan]
+- **Pre-build**: No untracked `.astro` files. No corrupted leftover images found. ✅
+- **Proactive Duplicate Image Detection**: All 4 images already tracked, unique hashes verified ✅
+- **Orphaned Image Detection** (noted): Same pre-existing orphans as prior run — not regressed
+- **Frontmatter Cross-Check**: All 4 `image:` lines active (none commented out) ✅ — prior fix holding
+- **Build**: 223 pages built in 2m 22s — 0 errors, 0 warnings ✅
+- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session
+- **Content Asset Verification** (Python http.server on port 4567):
+  - /e-tunai-belia-rahmah-2026-cara-daftar-tebus-rm200/ — correct title "e-Tunai Belia Rahmah 2026 — Cara Daftar & Tebus RM200 — RakyatHub" ✅ (OG image: hero-etunai-belia — correct)
+  - /pelepasan-cukai-malaysia-2026-panduan-lengkap-rebat-potongan/ — correct title "Pelepasan Cukai Malaysia 2026 — Panduan Rebat & Potongan — RakyatHub" ✅ (OG image: hero-pelepasan-cukai — correct, fix holding)
+  - /sasaran-simpanan-kwsp-2026-berapa-cukup-pencen-selesa/ — correct title "Sasaran Simpanan KWSP 2026 — Berapa Cukup Untuk Pencen? — RakyatHub" ✅ (OG image: hero-sasaran-kwsp — correct, fix holding)
+  - /tabung-kecemasan-malaysia-berapa-patut-simpan-cara-mula/ — correct title "Tabung Kecemasan Malaysia — Berapa Patut Simpan & Cara Mula — RakyatHub" ✅ (OG image: hero-tabung-kecemasan — correct)
+  - All 4 hero images: HTTP 200 (55KB, 137KB, 54KB, 80KB) ✅
+  - Category pages: /category/kerajaan/, /category/percukaian/, /category/kwsp/, /category/kewangan/ — all correct titles ✅
+- **Cross-Image Check**: All 4 rendered OG images match frontmatter `image:` fields — no fallback/reference issues ✅
+- **Status**: resolved
+
+## 2026-06-08 08:33
+- **QA Check**: Full pipeline — CTA banner swap to KLIK DI SINI UNTUK MENONTON
+- **Commit**: `d6586ea` — feat: swap to KLIK DI SINI UNTUK MENONTON CTA banner
+- **Changes**: New image `public/images/cta-klik-diskon.jpg`, blog post CTA refs updated (cta-discord-wc2026-v2.jpg → cta-klik-diskon.jpg), `join.astro` CTA image + dimensions updated (1280×318 → 1280×698)
+- **Pre-build**: No untracked `.astro` files. Found 4 untracked leftover images in `src/assets/images/` (never in git): `hero-etunai-belia.jpg`, `hero-pelepasan-cukai.jpg`, `hero-sasaran-kwsp.jpg`, `hero-tabung-kecemasan.jpg`
+  - `hero-etunai-belia.jpg`, `hero-tabung-kecemasan.jpg`: unreferenced — removed from disk
+  - `hero-pelepasan-cukai.jpg`, `hero-sasaran-kwsp.jpg`: referenced in post frontmatter but files were never tracked in git — commented out image lines and removed files (posts fall back to default OG image)
+  - **Files**: `src/data/post/pelepasan-cukai-malaysia-2026-panduan-lengkap-rebat-potongan.md:6`, `src/data/post/sasaran-simpanan-kwsp-2026-berapa-cukup-pencen-selesa.md:6`
+- **Proactive Duplicate Image Detection**: `cta-klik-diskon.jpg` — unique hash (6c8d5d3), no duplicates found ✅
+- **Orphaned Image Detection** (noted): 19 orphaned images tracked in git but unreferenced by src/ (pre-existing, not regressed by this commit). Old `cta-discord-wc2026-v2.jpg` now orphaned (replaced by cta-klik-diskon.jpg) — user may want to `git rm`
+- **Build**: 223 pages built in 2m 33s — 0 errors, 0 warnings (cache cleaned due to EPERM stale cache — clean rebuild succeeded)
+- **Content Asset Verification** (Node.js static server on port 3210):
+  - /join/ — title "Join Watch Party — World Cup 2026 — RakyatHub" ✅ (new CTA image serving)
+  - /cara-tonton-piala-dunia-2026-malaysia/ — title "Cara Tonton Piala Dunia 2026 Secara Online di Malaysia — Panduan Lengkap — RakyatHub" ✅ (4 references to cta-klik-diskon.jpg, 0 to old image)
+  - /images/cta-klik-diskon.jpg — HTTP 200, 108,294 bytes ✅
+  - /index.html — title "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+  - /category/hiburan/ — title "Category 'Hiburan' — RakyatHub" ✅
+  - /sitemap-0.xml — well-formed ✅
+  - /rss.xml — valid RSS ✅
+  - /join page image: cta-klik-diskon reference present ✅
+- **Status**: resolved
+
 ## 2026-06-07 23:47
 - **QA Check**: Full pipeline — 3 new calculator pages (FD, Personal Loan, Credit Card)
 - **Commit**: `251250a` — feat: add 3 new calculators - Personal Loan, FD, Credit Card

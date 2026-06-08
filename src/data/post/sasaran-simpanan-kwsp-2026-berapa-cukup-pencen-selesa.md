@@ -3,7 +3,7 @@ publishDate: 2026-06-08
 title: Sasaran Simpanan KWSP 2026 — Berapa Cukup Untuk Pencen?
 excerpt: "Panduan sasaran simpanan KWSP 2026 termasuk RIA Framework RM390K, RM650K & RM1.3 juta. Berapa korang perlukan untuk pencen selesa?"
 category: KWSP
-# image: removed — untracked leftover file never in git
+image: "~/assets/images/hero-sasaran-kwsp.jpg"
 tags:
   - KWSP
   - sasaran simpanan
