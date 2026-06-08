@@ -1,5 +1,29 @@
 # Audit Log
 
+## 2026-06-08 10:54
+- **QA Check**: Content-only build — new article "Tips Temuduga Kerja Fresh Graduate Malaysia"
+- **Commit**: `eab19b2` — kerjaya: tips temuduga kerja fresh graduate Malaysia
+- **Changes**: New `.md` post `tips-temuduga-kerja-fresh-graduate-malaysia.md`, new hero image `hero-tips-temuduga-fresh-grad.jpg`, 2 updated posts (pelepasan-cukai, sasaran-kwsp image lines uncommented), audit_log.md updated
+- **Pre-build**: No untracked `.astro` files found. One untracked leftover image `hero-gaji-graduan-mengikut-industri-2026.jpg` (exists on disk, never in git) — referenced by untracked post `gaji-graduan-mengikut-industri-2026.md` (also never in git) — noted, not regressed by this commit
+- **Proactive Duplicate Image Detection**: `hero-tips-temuduga-fresh-grad.jpg` — unique hash `ac17170`, no duplicates found ✅
+- **Orphaned Image Detection** (noted): Same 24 pre-existing orphaned images from prior runs — not regressed
+- **Frontmatter Cross-Check**:
+  - `tips-temuduga-kerja-fresh-graduate-malaysia.md:6` — `image:` active (not commented) ✅
+  - `pelepasan-cukai-malaysia-2026-panduan-lengkap-rebat-potongan.md:6` — prior fix holding ✅
+  - `sasaran-simpanan-kwsp-2026-berapa-cukup-pencen-selesa.md:6` — prior fix holding ✅
+- **Build**: 233 pages built in 1m 23s — 0 errors, 0 warnings (up from 223 — +1 post + tag/category auto-generated pages)
+- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session. Verified via Node.js static server on port 3400 (clean port)
+- **Content Asset Verification**:
+  - /tips-temuduga-kerja-fresh-graduate-malaysia/ — title "Tips Temuduga Kerja Fresh Graduate: Lulus Interview Dengan Cemerlang — RakyatHub" ✅
+  - OG Image: /_astro/hero-tips-temuduga-fresh-grad.D-joWRyB_Z16Nfes.jpg (matches frontmatter `hero-tips-temuduga-fresh-grad`) ✅
+  - Image asset: HTTP 200, 107,232 bytes ✅
+  - /pelepasan-cukai-malaysia-2026-panduan-lengkap-rebat-potongan/ — OG image: hero-pelepasan-cukai ✅ (fix holding)
+  - /sasaran-simpanan-kwsp-2026-berapa-cukup-pencen-selesa/ — OG image: hero-sasaran-kwsp ✅ (fix holding)
+  - /category/kerjaya/ — title "Category 'Kerjaya' — RakyatHub" ✅
+- **Cross-Image Check**: Rendered OG image file base (hero-tips-temuduga-fresh-grad) matches frontmatter `image:` field — correct image used, no fallback issue ✅
+- **Note**: Untracked local dev files `gaji-graduan-mengikut-industri-2026.md` and its image `hero-gaji-graduan-mengikut-industri-2026.jpg` exist on disk but were never committed — included in build since Astro glob picks up all .md files. These are the user's responsibility to commit or discard.
+- **Status**: resolved
+
 ## 2026-06-08 08:49
 - **QA Check**: Content-only build — 4 new articles [pelepasan-cukai, sasaran-kwsp, etunai-belia, tabung-kecemasan]
 - **Commit**: `d939b72` — Auto: 4 new articles [pelepasan-cukai, sasaran-kwsp, etunai-belia, tabung-kecemasan]
@@ -466,7 +490,7 @@
 - **Commit**: `ecaf2b5` — added `beras-import-vs-tempatan-murah.md`, `hero-beli-beras.jpg`
 - **Build**: 86 pages built in 12.57s — 0 errors
 - **Browser Inspection**: Homepage + new blog post verified
-  - DOM structure: main(1), header(1), nav(1), footer(1) — all present
+  - DOM: main(1), header(1), nav(1), footer(1) — all present
   - Images: 6 loaded, 0 broken
   - Resources: 0 failed (no 404s/5xx)
   - Console: 0 errors, 0 warnings

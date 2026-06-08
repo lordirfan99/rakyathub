@@ -8,6 +8,7 @@ import type { Post } from '~/types';
 
 import { getPermalink } from '~/utils/permalinks';
 import { findImage } from '~/utils/images';
+import { getAuthor } from '~/data/author';
 
 export interface Props {
   post: Post;
@@ -15,6 +16,7 @@ export interface Props {
 
 const { post } = Astro.props;
 const image = (await findImage(post.image)) as ImageMetadata | undefined;
+const author = getAuthor(post.author);
 
 const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : '';
 ---
@@ -48,7 +50,12 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
         <span class="text-sm text-muted">
           {
             post.author && (
-              <span>{post.author.replaceAll('-', ' ')}</span>
+              <span class="inline-flex items-center gap-1.5">
+                <span class="w-5 h-5 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white text-[8px] font-bold">
+                  <svg class="w-2.5 h-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
+                </span>
+                <span class="font-medium text-default text-xs">{author.name}</span>
+              </span>
             )
           }
           {post.publishDate && (

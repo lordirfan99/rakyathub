@@ -5,7 +5,8 @@ import SocialShare from '~/components/common/SocialShare.astro';
 import CrossSellBanner from '~/components/blog/CrossSellBanner.astro';
 import AppDashboard from '~/components/widgets/AppDashboard.astro';
 
-import { getPermalink } from '~/utils/permalinks';
+import { getPermalink, getHomePermalink } from '~/utils/permalinks';
+import { getAuthor } from '~/data/author';
 import type { Post } from '~/types';
 
 export interface Props {
@@ -14,6 +15,7 @@ export interface Props {
 }
 
 const { post, url } = Astro.props;
+const author = getAuthor(post.author);
 ---
 
 <section class="py-8 sm:py-16 lg:py-20 mx-auto">
@@ -27,7 +29,14 @@ const { post, url } = Astro.props;
         <p class="text-sm text-muted dark:text-slate-400">
           {
             post.author && (
-              <span class="inline-block">{post.author}</span>
+              <a href={getHomePermalink()} class="inline-flex items-center gap-2 group">
+                <span class="w-7 h-7 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white text-[10px] font-bold shadow-sm">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
+                </span>
+                <span class="font-medium text-default group-hover:text-primary transition-colors">{author.name}</span>
+                <span class="text-muted">·</span>
+                <span class="text-muted text-xs">{author.title}</span>
+              </a>
             )
           }
           {
