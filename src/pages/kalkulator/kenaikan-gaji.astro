@@ -1,0 +1,292 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator Kenaikan Gaji — Unjuran Increment & Pendapatan',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator Kenaikan Gaji
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-8">
+      Unjur kenaikan gaji tahunan — lihat berapa pendapatan anda dalam 1, 3, 5, atau 10 tahun dengan increment konsisten.
+    </p>
+
+    <!-- Calculator Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="gaji" class="block text-sm font-semibold text-default mb-1.5">Gaji Semasa (RM)</label>
+          <input type="number" id="gaji" value="3000" min="0" step="100"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="rate" class="block text-sm font-semibold text-default mb-1.5">Kenaikan Tahunan (%)</label>
+          <input type="number" id="rate" value="5" min="0" max="100" step="0.5"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="years" class="block text-sm font-semibold text-default mb-1.5">Tempoh (tahun)</label>
+          <select id="years"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="1">1 Tahun</option>
+            <option value="2">2 Tahun</option>
+            <option value="3">3 Tahun</option>
+            <option value="5" selected>5 Tahun</option>
+            <option value="10">10 Tahun</option>
+          </select>
+        </div>
+        <div>
+          <label for="bonus" class="block text-sm font-semibold text-default mb-1.5">Bonus Tahunan (bilangan bulan gaji)</label>
+          <select id="bonus"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="0">Tiada bonus</option>
+            <option value="1" selected>1 bulan</option>
+            <option value="2">2 bulan</option>
+            <option value="3">3 bulan</option>
+            <option value="4">4 bulan</option>
+            <option value="6">6 bulan</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Summary Results -->
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Gaji Akhir (Bulanan)</p>
+          <p class="text-lg font-bold text-default" id="hasilGajiAkhir">RM 0</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Pendapatan</p>
+          <p class="text-lg font-bold text-emerald-700" id="hasilTotal">RM 0</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Total Bonus</p>
+          <p class="text-lg font-bold text-amber-600" id="hasilBonus">RM 0</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Extra vs Tiada Kenaikan</p>
+          <p class="text-lg font-bold text-primary" id="hasilExtra">RM 0</p>
+        </div>
+      </div>
+
+      <!-- Annual Table -->
+      <div class="mt-6 overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-gray-200 dark:border-slate-700">
+              <th class="text-left py-2 px-2 font-semibold text-muted">Tahun</th>
+              <th class="text-right py-2 px-2 font-semibold text-muted">Gaji Bulanan (RM)</th>
+              <th class="text-right py-2 px-2 font-semibold text-muted">Gaji Tahunan (RM)</th>
+              <th class="text-right py-2 px-2 font-semibold text-muted">Bonus (RM)</th>
+              <th class="text-right py-2 px-2 font-semibold text-muted">Jumlah Setahun (RM)</th>
+              <th class="text-right py-2 px-2 font-semibold text-muted">Kenaikan</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+
+      <!-- Growth Chart -->
+      <div class="mt-6">
+        <h3 class="text-sm font-semibold text-muted mb-3">📈 Graf Pertumbuhan Gaji Tahunan</h3>
+        <canvas id="gajiChart" style="width:100%;height:250px;"></canvas>
+      </div>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">📊 Kenaikan Purata Malaysia</h3>
+        <p class="text-muted text-sm">Purata kenaikan gaji tahunan di Malaysia adalah 4-6% (2025-2026). Industri tech & finance biasanya lebih tinggi.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">💡 Tips Annual Review</h3>
+        <p class="text-muted text-sm">Bila minta kenaikan, bawakan data prestasi dan benchmark gaji industri. Jangan minta increment tanpa bukti sumbangan.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🔄 Kenaikan vs Job Hop</h3>
+        <p class="text-muted text-sm">Job hop biasanya bagi 15-30% kenaikan. Tapi kena fikir stability, benefits dan budaya kerja. Bukan semua pasal duit semata.</p>
+      </div>
+    </div>
+  </section>
+
+  <CallToAction
+    actions={[
+      { variant: 'primary', text: 'Kalkulator Bajet', href: '/cadangan-bajet-50-30-20-di-malaysia/' },
+      { variant: 'secondary', text: 'Kalkulator Gaji Bersih', href: '/kalkulator/gaji-bersih' },
+    ]}
+  >
+    <Fragment slot="title">Nak Urus Gaji Dengan Lebih Bijak?</Fragment>
+    <Fragment slot="subtitle">Guna kalkulator gaji bersih dan bajet 50/30/20 untuk planning kewangan.</Fragment>
+  </CallToAction>
+  <script is:inline>
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY',{minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
+function fmtWhole(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? Math.round(v).toLocaleString('ms-MY') : '0'); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : d || 0; }
+
+function calc() {
+  var gaji = sn(document.getElementById('gaji').value, 3000);
+  var rate = sn(document.getElementById('rate').value, 5) / 100;
+  var years = parseInt(document.getElementById('years').value) || 5;
+  var bonusMonths = parseInt(document.getElementById('bonus').value) || 1;
+
+  var total = 0;
+  var totalBonus = 0;
+  var rows = [];
+  var chartData = [];
+  var current = gaji;
+
+  for (var y = 1; y <= years; y++) {
+    var annual = current * 12;
+    var bonus = current * bonusMonths;
+    var totalYear = annual + bonus;
+    total += totalYear;
+    totalBonus += bonus;
+
+    rows.push({
+      year: y,
+      bulanan: current,
+      tahunan: annual,
+      bonus: bonus,
+      total: totalYear,
+      pct: rate * 100
+    });
+
+    chartData.push({ year: y, gaji: current });
+
+    current *= (1 + rate);
+  }
+
+  var gajiKekal = gaji;
+  var totalKekal = 0;
+  for (y = 1; y <= years; y++) {
+    totalKekal += gajiKekal * 12 + gajiKekal * bonusMonths;
+  }
+  var extra = total - totalKekal;
+
+  // Hardcode untuk display tahun akhir
+  document.getElementById('hasilGajiAkhir').textContent = fmtWhole(rows[rows.length - 1].bulanan);
+  document.getElementById('hasilTotal').textContent = fmtWhole(total);
+  document.getElementById('hasilBonus').textContent = fmtWhole(totalBonus);
+  document.getElementById('hasilExtra').textContent = fmtWhole(Math.max(0, extra));
+
+  // Table
+  var tbody = document.getElementById('tableBody');
+  tbody.innerHTML = '';
+  for (var i = 0; i < rows.length; i++) {
+    var r = rows[i];
+    var tr = document.createElement('tr');
+    tr.className = 'border-b border-gray-100 dark:border-slate-700/50';
+    tr.innerHTML =
+      '<td class="py-2 px-2 font-medium">' + r.year + '</td>' +
+      '<td class="py-2 px-2 text-right">' + fmtWhole(r.bulanan) + '</td>' +
+      '<td class="py-2 px-2 text-right">' + fmtWhole(r.tahunan) + '</td>' +
+      '<td class="py-2 px-2 text-right text-amber-600">' + fmtWhole(r.bonus) + '</td>' +
+      '<td class="py-2 px-2 text-right text-emerald-700 font-semibold">' + fmtWhole(r.total) + '</td>' +
+      '<td class="py-2 px-2 text-right text-primary">' + r.pct.toFixed(0) + '%</td>';
+    tbody.appendChild(tr);
+  }
+
+  // Chart
+  var canvas = document.getElementById('gajiChart');
+  var ctx = canvas.getContext('2d');
+  var W = canvas.parentElement.clientWidth - 4;
+  var H = 250;
+  var dpr = window.devicePixelRatio || 1;
+  canvas.width = W * dpr;
+  canvas.height = H * dpr;
+  canvas.style.width = W + 'px';
+  canvas.style.height = H + 'px';
+  ctx.scale(dpr, dpr);
+
+  var pad = { t: 25, r: 15, b: 40, l: 60 };
+  var cw = W - pad.l - pad.r;
+  var ch = H - pad.t - pad.b;
+
+  var vals = chartData.map(function(d) { return d.gaji; });
+  var minV = Math.min.apply(null, vals);
+  var maxV = Math.max.apply(null, vals);
+  var padV = (maxV - minV) * 0.15 || 500;
+  var yMin = Math.floor((minV - padV) / 100) * 100;
+  var yMax = Math.ceil((maxV + padV) / 100) * 100;
+
+  function xPos(i) { return pad.l + (i / (chartData.length - 1 || 1)) * cw; }
+  function yPos(v) { return pad.t + ch - ((v - yMin) / (yMax - yMin)) * ch; }
+
+  ctx.clearRect(0, 0, W, H);
+
+  // Grid
+  ctx.strokeStyle = 'rgba(0,0,0,0.07)';
+  ctx.lineWidth = 1;
+  var steps = 5;
+  for (var s = 0; s <= steps; s++) {
+    var y = pad.t + (s / steps) * ch;
+    ctx.beginPath(); ctx.moveTo(pad.l, y); ctx.lineTo(W - pad.r, y); ctx.stroke();
+  }
+
+  // Y labels
+  ctx.fillStyle = '#888';
+  ctx.font = '10px sans-serif';
+  ctx.textAlign = 'right';
+  ctx.textBaseline = 'middle';
+  for (s = 0; s <= steps; s++) {
+    var val = yMax - ((yMax - yMin) * s / steps);
+    ctx.fillText('RM' + Math.round(val), pad.l - 6, pad.t + (s / steps) * ch);
+  }
+
+  // X labels
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'top';
+  for (i = 0; i < chartData.length; i++) {
+    ctx.fillText('Thn ' + chartData[i].year, xPos(i), H - pad.b + 8);
+  }
+
+  // Bars
+  var barW = Math.min(cw / chartData.length * 0.6, 40);
+  for (i = 0; i < chartData.length; i++) {
+    var bx = xPos(i) - barW / 2;
+    var by = yPos(chartData[i].gaji);
+    var bh = pad.t + ch - by;
+
+    var grad = ctx.createLinearGradient(0, by, 0, pad.t + ch);
+    grad.addColorStop(0, '#3b82f6');
+    grad.addColorStop(1, '#1d4ed8');
+    ctx.fillStyle = grad;
+    ctx.beginPath();
+    ctx.roundRect(bx, by, barW, bh, [3, 3, 0, 0]);
+    ctx.fill();
+
+    // Value on top
+    ctx.fillStyle = '#1e293b';
+    ctx.font = 'bold 10px sans-serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'bottom';
+    ctx.fillText('RM' + Math.round(chartData[i].gaji), xPos(i), by - 4);
+  }
+
+  // Title
+  ctx.fillStyle = '#999';
+  ctx.font = '9px sans-serif';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'top';
+  if (chartData.length > 0) {
+    ctx.fillText('Gaji Bulanan (RM) — Tahun 1 hingga ' + chartData[chartData.length-1].year, pad.l + cw/2, pad.t - 18);
+  }
+}
+
+['gaji','rate','years','bonus'].forEach(function(id) {
+  var el = document.getElementById(id);
+  if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
+});
+calc();
+</script>
+</Layout>

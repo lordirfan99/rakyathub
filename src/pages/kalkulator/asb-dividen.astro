@@ -1,0 +1,178 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator Dividen ASB — Compounding & Unjuran',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator Dividen ASB
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-8">
+      Unjur dividen ASB dengan compounding tahunan dan top-up bulanan — lihat perkembangan pelaburan ASB dari tahun ke tahun.
+    </p>
+
+    <!-- Calculator Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="initial" class="block text-sm font-semibold text-default mb-1.5">Pelaburan Awal (RM)</label>
+          <input type="number" id="initial" value="10000" min="0" step="1000"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="monthly" class="block text-sm font-semibold text-default mb-1.5">Top-Up Bulanan (RM)</label>
+          <input type="number" id="monthly" value="500" min="0" step="50"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="rate" class="block text-sm font-semibold text-default mb-1.5">Kadar Dividen (%)</label>
+          <input type="number" id="rate" value="5.5" min="0" max="20" step="0.1"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="years" class="block text-sm font-semibold text-default mb-1.5">Tempoh Pelaburan</label>
+          <select id="years"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="1">1 Tahun</option>
+            <option value="3">3 Tahun</option>
+            <option value="5">5 Tahun</option>
+            <option value="10" selected>10 Tahun</option>
+            <option value="15">15 Tahun</option>
+            <option value="20">20 Tahun</option>
+            <option value="25">25 Tahun</option>
+            <option value="30">30 Tahun</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Summary Results -->
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Modal</p>
+          <p class="text-lg font-bold text-default" id="hasilModal">RM 0</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Dividen</p>
+          <p class="text-lg font-bold text-amber-600" id="hasilDividen">RM 0</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center md:col-span-1 sm:col-span-2">
+          <p class="text-xs text-muted uppercase tracking-wide">Baki Akhir</p>
+          <p class="text-2xl font-bold text-emerald-700" id="hasilAkhir">RM 0</p>
+        </div>
+      </div>
+
+      <!-- Annual Table -->
+      <div class="mt-6 overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-gray-200 dark:border-slate-700">
+              <th class="text-left py-2 px-2 font-semibold text-muted">Tahun</th>
+              <th class="text-right py-2 px-2 font-semibold text-muted">Baki Awal (RM)</th>
+              <th class="text-right py-2 px-2 font-semibold text-muted">Top-Up Tahunan (RM)</th>
+              <th class="text-right py-2 px-2 font-semibold text-muted">Dividen (RM)</th>
+              <th class="text-right py-2 px-2 font-semibold text-muted">Baki Akhir (RM)</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">📈 Kuasa Compounding</h3>
+        <p class="text-muted text-sm">Dividen ASB dikompound setiap tahun — dividen tahun lepas akan terima dividen lagi tahun depan. Semakin lama, semakin banyak dividen tahunan.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">💰 Dividen 5-7 Sen</h3>
+        <p class="text-muted text-sm">Sejarah dividen ASB 5-7 sen termasuk bonus. Guna kadar 5.5% sebagai unjuran konservatif. Kadar sebenar diumum setiap hujung tahun.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🏦 Had Maksimum ASB</h3>
+        <p class="text-muted text-sm">Had maksimum simpanan ASB ialah RM300,000 seorang (termasuk dividen terkumpul). Dividen lebih had tetap dikredit tapi tak boleh tambah modal baru.</p>
+      </div>
+    </div>
+  </section>
+
+  <CallToAction
+    actions={[
+      { variant: 'primary', text: 'ASB Financing', href: '/kalkulator/asb-financing' },
+      { variant: 'secondary', text: 'Kalkulator KWSP', href: '/kalkulator/kwsp' },
+    ]}
+  >
+    <Fragment slot="title">Nak Banding ASB vs Simpan Lain?</Fragment>
+    <Fragment slot="subtitle">Guna kalkulator kami yang lain untuk perbandingan lengkap.</Fragment>
+  </CallToAction>
+  <script is:inline>
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY',{minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
+function fmtWhole(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? Math.round(v).toLocaleString('ms-MY') : '0'); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : d || 0; }
+
+function calc() {
+  var initial = sn(document.getElementById('initial').value, 10000);
+  var monthly = sn(document.getElementById('monthly').value, 500);
+  var rate = sn(document.getElementById('rate').value, 5.5) / 100;
+  var years = parseInt(document.getElementById('years').value) || 10;
+
+  var balance = initial;
+  var totalDividen = 0;
+  var totalModal = initial;
+  var rows = [];
+
+  for (var y = 1; y <= years; y++) {
+    var topupYear = monthly * 12;
+    // Dividend approximation: rate applied to (starting balance + half of yearly topups)
+    var dividen = (balance + topupYear * 0.5) * rate;
+    var akhir = balance + topupYear + dividen;
+
+    totalDividen += dividen;
+    totalModal += topupYear;
+
+    rows.push({
+      year: y,
+      awal: balance,
+      topup: topupYear,
+      dividen: dividen,
+      akhir: akhir
+    });
+
+    balance = akhir;
+  }
+
+  document.getElementById('hasilModal').textContent = fmtWhole(totalModal);
+  document.getElementById('hasilDividen').textContent = fmtWhole(totalDividen);
+  document.getElementById('hasilAkhir').textContent = fmtWhole(balance);
+
+  var tbody = document.getElementById('tableBody');
+  tbody.innerHTML = '';
+  for (var i = 0; i < rows.length; i++) {
+    var r = rows[i];
+    var tr = document.createElement('tr');
+    tr.className = 'border-b border-gray-100 dark:border-slate-700/50';
+    tr.innerHTML =
+      '<td class="py-2 px-2 font-medium">' + r.year + '</td>' +
+      '<td class="py-2 px-2 text-right">' + fmtWhole(r.awal) + '</td>' +
+      '<td class="py-2 px-2 text-right">' + fmtWhole(r.topup) + '</td>' +
+      '<td class="py-2 px-2 text-right text-amber-600 font-medium">' + fmtWhole(r.dividen) + '</td>' +
+      '<td class="py-2 px-2 text-right text-emerald-700 font-semibold">' + fmtWhole(r.akhir) + '</td>';
+    tbody.appendChild(tr);
+  }
+}
+
+['initial','monthly','rate','years'].forEach(function(id) {
+  var el = document.getElementById(id);
+  if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
+});
+calc();
+</script>
+</Layout>

@@ -17,12 +17,46 @@ const metadata = {
 
 const newCalcs: CalcCard[] = [
   {
+    title: 'DSR (Debt Service Ratio)',
+    description: 'Kira nisbah komitmen bulanan vs pendapatan untuk semak kelayakan pinjaman bank.',
+    icon: 'tabler:scale',
+    href: '/kalkulator/dsr/',
+    gradient: 'from-blue-500 to-indigo-700',
+    badge: 'Baru',
+  },
+  {
+    title: 'Bajet Perkahwinan',
+    description: 'Kira simpanan, shortfall, dan target bulanan untuk capai kos perkahwinan ideal.',
+    icon: 'tabler:heart',
+    href: '/kalkulator/bajet-kahwin/',
+    gradient: 'from-pink-500 to-rose-600',
+    badge: 'Baru',
+  },
+  {
+    title: 'Dividen ASB',
+    description: 'Unjur dividen ASB dengan compounding tahunan dan top-up bulanan — lihat perkembangan tahun ke tahun.',
+    icon: 'tabler:chart-bar',
+    href: '/kalkulator/asb-dividen/',
+    gradient: 'from-emerald-500 to-teal-700',
+    badge: 'Baru',
+  },
+  {
+    title: 'Kenaikan Gaji',
+    description: 'Unjur gaji tahunan dengan increment konsisten — lihat perbezaan total pendapatan vs tiada kenaikan.',
+    icon: 'tabler:trending-up',
+    href: '/kalkulator/kenaikan-gaji/',
+    gradient: 'from-violet-500 to-purple-700',
+    badge: 'Baru',
+  },
+];
+
+const existingCalcs: CalcCard[] = [
+  {
     title: 'PCB & Cukai Pendapatan',
     description: 'Kira PCB bulanan & cukai tahunan ikut jadual LHDN 2026.',
     icon: 'tabler:receipt-tax',
     href: '/kalkulator/pcb-cukai-pendapatan/',
     gradient: 'from-red-500 to-rose-600',
-    badge: 'Baru',
   },
   {
     title: 'ASB Financing',
@@ -30,7 +64,6 @@ const newCalcs: CalcCard[] = [
     icon: 'tabler:trending-up',
     href: '/kalkulator/asb-financing/',
     gradient: 'from-emerald-500 to-emerald-700',
-    badge: 'Baru',
   },
   {
     title: 'PTPTN',
@@ -38,7 +71,6 @@ const newCalcs: CalcCard[] = [
     icon: 'tabler:book',
     href: '/kalkulator/ptptn/',
     gradient: 'from-violet-500 to-purple-700',
-    badge: 'Baru',
   },
   {
     title: 'Pinjaman Peribadi',
@@ -46,7 +78,6 @@ const newCalcs: CalcCard[] = [
     icon: 'tabler:wallet',
     href: '/kalkulator/pinjam-peribadi/',
     gradient: 'from-primary to-secondary',
-    badge: 'Baru',
   },
   {
     title: 'Fixed Deposit (FD)',
@@ -54,7 +85,6 @@ const newCalcs: CalcCard[] = [
     icon: 'tabler:building-bank',
     href: '/kalkulator/fd/',
     gradient: 'from-blue-500 to-blue-700',
-    badge: 'Baru',
   },
   {
     title: 'Kad Kredit',
@@ -62,7 +92,6 @@ const newCalcs: CalcCard[] = [
     icon: 'tabler:credit-card',
     href: '/kalkulator/kad-kredit/',
     gradient: 'from-amber-500 to-amber-700',
-    badge: 'Baru',
   },
   {
     title: 'STR & SARA Checker',
@@ -70,7 +99,6 @@ const newCalcs: CalcCard[] = [
     icon: 'tabler:gift',
     href: '/kalkulator/str-sara/',
     gradient: 'from-primary to-secondary',
-    badge: 'Baru',
   },
   {
     title: 'Gaji Bersih Malaysia',
@@ -78,7 +106,6 @@ const newCalcs: CalcCard[] = [
     icon: 'tabler:coin',
     href: '/kalkulator/gaji-bersih/',
     gradient: 'from-blue-500 to-blue-700',
-    badge: 'Baru',
   },
   {
     title: 'Kalkulator SST',
@@ -86,7 +113,6 @@ const newCalcs: CalcCard[] = [
     icon: 'tabler:receipt-tax',
     href: '/kalkulator/sst/',
     gradient: 'from-amber-500 to-amber-700',
-    badge: 'Baru',
   },
   {
     title: 'Zakat Pendapatan',
@@ -94,7 +120,6 @@ const newCalcs: CalcCard[] = [
     icon: 'tabler:heart',
     href: '/kalkulator/zakat-pendapatan/',
     gradient: 'from-emerald-500 to-emerald-700',
-    badge: 'Baru',
   },
   {
     title: 'Beli vs Sewa Rumah',
@@ -102,7 +127,6 @@ const newCalcs: CalcCard[] = [
     icon: 'tabler:building-bank',
     href: '/kalkulator/beli-sewa-rumah/',
     gradient: 'from-rose-500 to-rose-700',
-    badge: 'Baru',
   },
   {
     title: 'Emas vs ASB vs FD',
@@ -110,11 +134,7 @@ const newCalcs: CalcCard[] = [
     icon: 'tabler:trending-up',
     href: '/kalkulator/pelaburan/',
     gradient: 'from-amber-500 to-yellow-600',
-    badge: 'Baru',
   },
-];
-
-const existingCalcs: CalcCard[] = [
   {
     title: 'Kalkulator KWSP',
     description: 'Kira caruman, pengeluaran fleksibel dan dividen KWSP. Simulasi simpanan persaraan anda.',

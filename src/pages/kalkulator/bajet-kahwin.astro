@@ -1,0 +1,180 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator Bajet Kahwin — Simpanan & Perancangan Perkahwinan',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator Bajet Perkahwinan
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-8">
+      Kira bajet kahwin, simpanan, dan target bulanan untuk capai kos perkahwinan ideal mengikut timeline anda.
+    </p>
+
+    <!-- Calculator Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div class="md:col-span-2">
+          <label for="totalCost" class="block text-sm font-semibold text-default mb-1.5">Anggaran Jumlah Kos Kahwin (RM)</label>
+          <input type="number" id="totalCost" value="50000" min="0" step="1000"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="savings" class="block text-sm font-semibold text-default mb-1.5">Simpanan Sedia Ada (RM)</label>
+          <input type="number" id="savings" value="0" min="0" step="100"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="monthly" class="block text-sm font-semibold text-default mb-1.5">Mampu Simpan Sebulan (RM)</label>
+          <input type="number" id="monthly" value="500" min="0" step="50"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="targetYear" class="block text-sm font-semibold text-default mb-1.5">Tahun Target Kahwin</label>
+          <select id="targetYear"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="2026">2026</option>
+            <option value="2027" selected>2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+            <option value="2030">2030</option>
+          </select>
+        </div>
+        <div>
+          <label for="targetMonth" class="block text-sm font-semibold text-default mb-1.5">Bulan Target Kahwin</label>
+          <select id="targetMonth"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="1">Januari</option>
+            <option value="2">Februari</option>
+            <option value="3" selected>Mac</option>
+            <option value="4">April</option>
+            <option value="5">Mei</option>
+            <option value="6">Jun</option>
+            <option value="7">Julai</option>
+            <option value="8">Ogos</option>
+            <option value="9">September</option>
+            <option value="10">Oktober</option>
+            <option value="11">November</option>
+            <option value="12">Disember</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Bulan Sampai Target</p>
+          <p class="text-lg font-bold text-default" id="hasilBulan">0 bulan</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Unjuran Simpanan</p>
+          <p class="text-lg font-bold text-emerald-700" id="hasilProjected">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Bulanan Perlu</p>
+          <p class="text-lg font-bold text-primary" id="hasilMonthlyNeed">RM 0.00</p>
+        </div>
+        <div class="rounded-xl p-4 text-center" id="shortfallCard">
+          <p class="text-xs text-muted uppercase tracking-wide">Shortfall / Lebihan</p>
+          <p class="text-lg font-bold" id="hasilShortfall">RM 0.00</p>
+        </div>
+      </div>
+
+      <!-- Progress bar -->
+      <div class="mt-4">
+        <div class="flex justify-between text-xs text-muted mb-1">
+          <span>Progress Simpanan</span>
+          <span id="progressPct">0%</span>
+        </div>
+        <div class="w-full bg-gray-200 dark:bg-slate-700 rounded-full h-4 overflow-hidden">
+          <div id="barProgress" class="h-full rounded-full transition-all duration-500 bg-gradient-to-r from-primary to-secondary" style="width:0%"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="grid md:grid-cols-2 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">💡 Tip Jimat Kahwin</h3>
+        <p class="text-muted text-sm">Kawal kos kahwin dengan: kurangkan guest list, DIY hiasan, gunaka pakej kahwin all-in-one, dan elakkan hutang untuk majlis.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">📊 Purata Kos Kahwin Malaysia 2026</h3>
+        <p class="text-muted text-sm">Sederhana: RM30K-RM50K | Besar: RM50K-RM100K | Mewah: RM100K+. Plan ikut kemampuan, jangan sampai berhutang lepas kahwin.</p>
+      </div>
+    </div>
+  </section>
+
+  <CallToAction
+    actions={[
+      { variant: 'primary', text: 'Kalkulator DSR', href: '/kalkulator/dsr' },
+      { variant: 'secondary', text: 'Kalkulator Simpanan', href: '/kalkulator/asb-dividen' },
+    ]}
+  >
+    <Fragment slot="title">Nak Rancang Kewangan Lagi?</Fragment>
+    <Fragment slot="subtitle">Guna kalkulator DSR atau ASB untuk unjuran lengkap.</Fragment>
+  </CallToAction>
+  <script is:inline>
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY',{minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : d || 0; }
+
+function calc() {
+  var cost = sn(document.getElementById('totalCost').value, 50000);
+  var savings = sn(document.getElementById('savings').value, 0);
+  var monthly = sn(document.getElementById('monthly').value, 500);
+  var targetYear = parseInt(document.getElementById('targetYear').value) || 2027;
+  var targetMonth = parseInt(document.getElementById('targetMonth').value) || 3;
+
+  var now = new Date();
+  var curYear = now.getFullYear();
+  var curMonth = now.getMonth() + 1;
+
+  var months = (targetYear - curYear) * 12 + (targetMonth - curMonth);
+  if (months < 0) months = 0;
+
+  var projected = savings + monthly * months;
+  var diff = projected - cost;
+
+  document.getElementById('hasilBulan').textContent = months + ' bulan';
+  document.getElementById('hasilProjected').textContent = fmt(projected);
+
+  if (months > 0) {
+    var need = (cost - savings) / months;
+    document.getElementById('hasilMonthlyNeed').textContent = fmt(Math.max(0, need));
+  } else {
+    document.getElementById('hasilMonthlyNeed').textContent = '—';
+  }
+
+  var shortEl = document.getElementById('hasilShortfall');
+  var shortCard = document.getElementById('shortfallCard');
+  if (diff >= 0) {
+    shortEl.textContent = '+ ' + fmt(diff) + ' ✅';
+    shortEl.className = 'text-lg font-bold text-emerald-700';
+    shortCard.className = 'rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center';
+  } else {
+    shortEl.textContent = '- ' + fmt(Math.abs(diff)) + ' ⚠️';
+    shortEl.className = 'text-lg font-bold text-red-600';
+    shortCard.className = 'rounded-xl bg-red-50 dark:bg-red-900/20 p-4 text-center';
+  }
+
+  var pct = cost > 0 ? Math.min((projected / cost) * 100, 100) : 0;
+  document.getElementById('progressPct').textContent = pct.toFixed(0) + '%';
+  document.getElementById('barProgress').style.width = pct + '%';
+}
+
+['totalCost','savings','monthly','targetYear','targetMonth'].forEach(function(id) {
+  var el = document.getElementById(id);
+  if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
+});
+calc();
+</script>
+</Layout>

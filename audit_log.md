@@ -1,5 +1,25 @@
 # Audit Log
 
+## 2026-06-08 14:12
+- **Fix**: Content-only build — new insurance article "Premium Insurans Perubatan Makin Mahal 2026"
+- **Commit**: `b9854b0` — Auto: Insurans - Premium Insurans Perubatan Makin Mahal 2026
+- **Changes**: 1 new `.md` post in `src/data/post/`, 1 new hero image in `src/assets/images/`, `audit_log.md` updated
+- **Pre-build**: No untracked `.astro` files, no untracked leftover images, no untracked `.md` posts ✅
+- **Proactive Duplicate Image Detection**: `hero-insurans-premium.jpg` — unique hash `debd6e97`, no duplicates found ✅
+- **Orphaned Image Detection** (noted): 23+ pre-existing orphaned images across public/images/ and src/assets/images/ — not regressed by this commit
+- **Frontmatter Cross-Check**: `image:` line active (not commented out) ✅
+  - `premium-insurans-perubatan-naik-2026-alternatif-mhit.md:6` — `image: "~/assets/images/hero-insurans-premium.jpg"` ✅
+- **Build**: 244 pages built in 1m 26s — 0 errors, 0 warnings (up from 241 — +1 post + tag/category auto-generated pages)
+- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session. Verified via Node.js static server on port 4000 (clean port)
+- **Content Asset Verification**:
+  - /premium-insurans-perubatan-naik-2026-alternatif-mhit/ — title "Premium Insurans Perubatan Makin Mahal 2026? Jangan Panik — Ini 5 Cara Bijak Kekal Lindung — RakyatHub" ✅
+    - OG Image: `/hero-insurans-premium.2mS81FB4_Z2nsHuF.jpg` (matches frontmatter) ✅
+    - Image asset: HTTP 200, 51,196 bytes ✅
+  - /category/insurans/ — title "Category 'Insurans' — RakyatHub" ✅
+  - / — title "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+- **Cross-Image Check**: Rendered OG image file base (hero-insurans-premium) matches frontmatter `image:` field — correct image used, no fallback issue ✅
+- **Status**: resolved
+
 ## 2026-06-08 12:30
 - **QA Check**: Content-only build — 2 new student articles (resepi bajet, cara urus masa)
 - **Commit**: `8bcb7b3` — Auto [Student]: Resepi bajet student universiti, Cara urus masa belajar dan aktiviti
