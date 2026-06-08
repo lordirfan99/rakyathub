@@ -24,18 +24,19 @@ def get_token():
     print("❌ No Facebook token. Set FACEBOOK_PAGE_TOKEN or create scripts/.fb_token")
     sys.exit(1)
 
-# ── Git detection ─────────────────────────────────
+# ── Article detection via filesystem ──────────────
 def get_new_articles():
-    result = subprocess.run(
-        ['git', 'log', '--since=today', '--name-only', '--pretty=format:',
-         '--', 'src/data/post/'],
-        capture_output=True, text=True, cwd=REPO)
-    files = set()
-    for line in result.stdout.strip().split('\n'):
-        line = line.strip()
-        if line.endswith('.md') and 'src/data/post/' in line:
-            files.add(Path(line).stem)
-    return list(files)
+    """Find all .md articles not yet in the posted log."""
+    posts_dir = REPO / 'src' / 'data' / 'post'
+    if not posts_dir.exists():
+        return []
+    posted = get_posted_log()
+    results = []
+    for f in sorted(posts_dir.glob('*.md'), key=lambda p: p.stat().st_mtime, reverse=True):
+        slug = f.stem
+        if slug not in posted:
+            results.append(slug)
+    return results
 
 # ── Article parsing ───────────────────────────────
 def get_article_meta(slug):
@@ -93,7 +94,7 @@ def fb_post(message, link_url, token):
         f'https://graph.facebook.com/v20.0/{PAGE_ID}/feed',
         data=data, headers={'Content-Type': 'application/x-www-form-urlencoded'})
     try:
-        resp = urllib.request.urlopen(req)
+        resp = urllib.request.urlopen(req, timeout=30)
         result = json.loads(resp.read())
         if 'id' in result:
             return True, result['id']

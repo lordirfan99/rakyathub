@@ -1,5 +1,35 @@
 # Audit Log
 
+## 2026-06-08 15:41
+- **QA Check**: Content-only build — 4 refreshed articles (bajet 50/30/20, emas PG, KWSP, urus gaji bawah RM3K)
+- **Commit**: `205371e` — Auto: Refresh 4 artikel utama (1,200+ words, FAQ, tables, citations)
+- **Changes**: 4 `.md` posts updated in `src/data/post/` (content overhaul: expanded articles with tables, citations, FAQ, structured sections)
+- **Pre-build**: No untracked `.astro` files, no untracked leftover images, no untracked `.md` posts ✅
+- **Proactive Duplicate Image Detection**: No new images in this commit — skipped ✅
+- **Orphaned Image Detection** (noted): `src/assets/images/hero-saham-usa.jpg` — genuinely orphaned (no references in any `src/` file). 22+ pre-existing orphaned public/images/ (mostly SVGs loaded dynamically). Not regressed by this commit.
+- **Frontmatter Cross-Check**: All 4 `image:` lines active (not commented out) ✅
+  - `cadangan-bajet-50-30-20-di-malaysia.md:8` — `image: "~/assets/images/hero-bajet.jpg"` ✅
+  - `cara-beli-emas-public-gold.md:7` — `image: "~/assets/images/hero-beli-emas.jpg"` ✅
+  - `panduan-kwsp-malaysia-2025.md:7` — `image: "~/assets/images/hero-panduan-kwsp.jpg"` ✅
+  - `urus-duit-gaji-bawah-rm3000.md:7` — `image: "~/assets/images/hero-urus-gaji.jpg"` ✅
+- **Build**: 250 pages built in 2m 22s — 0 errors, 0 warnings (up from 244 — tag/category auto-generated pages from new tags like "bajet", "simpanan", "pengurusan-wang", "emas", "pelaburan", "public-gold", "gap", "persaraan", "gaji-kecil")
+- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session. Verified via Node.js static server on port 4500 (clean port after ports 3000-4005 saturation)
+- **Content Asset Verification**:
+  - /cadangan-bajet-50-30-20-di-malaysia/ — title "Panduan Bajet 50/30/20 di Malaysia — Cara Urus Gaji Setiap Bulan — RakyatHub" ✅
+    - OG Image: hero-bajet (matches frontmatter) ✅
+    - Image asset: HTTP 200, 54,279 bytes ✅
+  - /cara-beli-emas-public-gold/ — title "🟡 Cara Beli Emas GAP Public Gold (Panduan Lengkap 2025) — RakyatHub" ✅
+    - OG Image: hero-beli-emas (matches frontmatter) ✅
+    - Image asset: HTTP 200, 139,097 bytes ✅
+  - /panduan-kwsp-malaysia-2025/ — title "Panduan KWSP Malaysia 2025: Caruman, Pengeluaran, Dividen & Tips Penting — RakyatHub" ✅
+    - OG Image: hero-panduan-kwsp (matches frontmatter) ✅
+    - Image asset: HTTP 200, 74,848 bytes ✅
+  - /urus-duit-gaji-bawah-rm3000/ — title "Cara Urus Duit Gaji Bawah RM3000 Sebulan (Panduan 2025) — RakyatHub" ✅
+    - OG Image: hero-urus-gaji (matches frontmatter) ✅
+    - Image asset: HTTP 200, 96,580 bytes ✅
+- **Cross-Image Check**: All 4 rendered OG image filenames match frontmatter `image:` fields — no Vite dedup or fallback issues ✅
+- **Status**: resolved
+
 ## 2026-06-08 14:12
 - **Fix**: Content-only build — new insurance article "Premium Insurans Perubatan Makin Mahal 2026"
 - **Commit**: `b9854b0` — Auto: Insurans - Premium Insurans Perubatan Makin Mahal 2026
@@ -95,6 +125,25 @@
 - **Note**: Untracked local dev files `gaji-graduan-mengikut-industri-2026.md` and its image `hero-gaji-graduan-mengikut-industri-2026.jpg` exist on disk but were never committed — included in build since Astro glob picks up all .md files. These are the user's responsibility to commit or discard.
 - **Status**: resolved
 
+## 2026-06-08 09:17
+- **QA Check**: Content-only build — follow-up run for 4 new articles
+- **Commit**: `d939b72` — Auto: 4 new articles [pelepasan-cukai, sasaran-kwsp, etunai-belia, tabung-kecemasan]
+- **Pre-build**: No untracked `.astro` files. No corrupted leftover images found. ✅
+- **Proactive Duplicate Image Detection**: All 4 images already tracked, unique hashes verified ✅
+- **Orphaned Image Detection** (noted): Same pre-existing orphans as prior run — not regressed
+- **Frontmatter Cross-Check**: All 4 `image:` lines active (none commented out) ✅ — prior fix holding
+- **Build**: 223 pages built in 2m 22s — 0 errors, 0 warnings ✅
+- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session
+- **Content Asset Verification** (Python http.server on port 4567):
+  - /e-tunai-belia-rahmah-2026-cara-daftar-tebus-rm200/ — correct title "e-Tunai Belia Rahmah 2026 — Cara Daftar & Tebus RM200 — RakyatHub" ✅ (OG image: hero-etunai-belia — correct)
+  - /pelepasan-cukai-malaysia-2026-panduan-lengkap-rebat-potongan/ — correct title "Pelepasan Cukai Malaysia 2026 — Panduan Rebat & Potongan — RakyatHub" ✅ (OG image: hero-pelepasan-cukai — correct, fix holding)
+  - /sasaran-simpanan-kwsp-2026-berapa-cukup-pencen-selesa/ — correct title "Sasaran Simpanan KWSP 2026 — Berapa Cukup Untuk Pencen? — RakyatHub" ✅ (OG image: hero-sasaran-kwsp — correct, fix holding)
+  - /tabung-kecemasan-malaysia-berapa-patut-simpan-cara-mula/ — correct title "Tabung Kecemasan Malaysia — Berapa Patut Simpan & Cara Mula — RakyatHub" ✅ (OG image: hero-tabung-kecemasan — correct)
+  - All 4 hero images: HTTP 200 (55KB, 137KB, 54KB, 80KB) ✅
+  - Category pages: /category/kerajaan/, /category/percukaian/, /category/kwsp/, /category/kewangan/ — all correct titles ✅
+- **Cross-Image Check**: All 4 rendered OG images match frontmatter `image:` fields — no fallback/reference issues ✅
+- **Status**: resolved
+
 ## 2026-06-08 08:49
 - **QA Check**: Content-only build — 4 new articles [pelepasan-cukai, sasaran-kwsp, etunai-belia, tabung-kecemasan]
 - **Commit**: `d939b72` — Auto: 4 new articles [pelepasan-cukai, sasaran-kwsp, etunai-belia, tabung-kecemasan]
@@ -117,25 +166,6 @@
   - /tabung-kecemasan-malaysia-berapa-patut-simpan-cara-mula/ — title "Tabung Kecemasan Malaysia — Berapa Patut Simpan & Cara Mula — RakyatHub" ✅ (OG image: hero-tabung-kecemasan — correct)
   - All 4 OG images: HTTP 200 ✅ (JPG + WebP variants all processed by Sharp)
   - Category pages: /category/percukaian/, /category/kwsp/, /category/kerajaan/, /category/kewangan/ — all correct titles ✅
-- **Cross-Image Check**: All 4 rendered OG images match frontmatter `image:` fields — no fallback/reference issues ✅
-- **Status**: resolved
-
-## 2026-06-08 09:17
-- **QA Check**: Content-only build — follow-up run for 4 new articles
-- **Commit**: `d939b72` — Auto: 4 new articles [pelepasan-cukai, sasaran-kwsp, etunai-belia, tabung-kecemasan]
-- **Pre-build**: No untracked `.astro` files. No corrupted leftover images found. ✅
-- **Proactive Duplicate Image Detection**: All 4 images already tracked, unique hashes verified ✅
-- **Orphaned Image Detection** (noted): Same pre-existing orphans as prior run — not regressed
-- **Frontmatter Cross-Check**: All 4 `image:` lines active (none commented out) ✅ — prior fix holding
-- **Build**: 223 pages built in 2m 22s — 0 errors, 0 warnings ✅
-- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session
-- **Content Asset Verification** (Python http.server on port 4567):
-  - /e-tunai-belia-rahmah-2026-cara-daftar-tebus-rm200/ — correct title "e-Tunai Belia Rahmah 2026 — Cara Daftar & Tebus RM200 — RakyatHub" ✅ (OG image: hero-etunai-belia — correct)
-  - /pelepasan-cukai-malaysia-2026-panduan-lengkap-rebat-potongan/ — correct title "Pelepasan Cukai Malaysia 2026 — Panduan Rebat & Potongan — RakyatHub" ✅ (OG image: hero-pelepasan-cukai — correct, fix holding)
-  - /sasaran-simpanan-kwsp-2026-berapa-cukup-pencen-selesa/ — correct title "Sasaran Simpanan KWSP 2026 — Berapa Cukup Untuk Pencen? — RakyatHub" ✅ (OG image: hero-sasaran-kwsp — correct, fix holding)
-  - /tabung-kecemasan-malaysia-berapa-patut-simpan-cara-mula/ — correct title "Tabung Kecemasan Malaysia — Berapa Patut Simpan & Cara Mula — RakyatHub" ✅ (OG image: hero-tabung-kecemasan — correct)
-  - All 4 hero images: HTTP 200 (55KB, 137KB, 54KB, 80KB) ✅
-  - Category pages: /category/kerajaan/, /category/percukaian/, /category/kwsp/, /category/kewangan/ — all correct titles ✅
 - **Cross-Image Check**: All 4 rendered OG images match frontmatter `image:` fields — no fallback/reference issues ✅
 - **Status**: resolved
 
@@ -417,7 +447,7 @@
 - **Subdirectory pages verified**:
   - /category/kewangan/ — title "Category 'Kewangan' — RakyatHub"
   - /blog/ — title "Blog — RakyatHub"
-  - / — title "RakyatHub — Panduan Kewangan Rakyat Malaysia"
+  - / — title "RakyatHub — Panduan Kewangan Rakyat马来西亚"
 - **Note**: Two XHR 404s for `/.netlify/functions/kewangan` — expected (production-only Netlify functions, handled gracefully)
 - **Status**: resolved
 
