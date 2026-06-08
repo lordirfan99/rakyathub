@@ -83,9 +83,11 @@ def mark_posted(slug):
     log.write_text('\n'.join(sorted(posted)) + '\n')
 
 # ── Facebook API calls ────────────────────────────
-def fb_post(message, token):
+def fb_post(message, link_url, token):
     data = urllib.parse.urlencode({
-        'message': message, 'access_token': token
+        'message': message,
+        'link': link_url,
+        'access_token': token
     }).encode()
     req = urllib.request.Request(
         f'https://graph.facebook.com/v20.0/{PAGE_ID}/feed',
@@ -99,80 +101,41 @@ def fb_post(message, token):
     except Exception as e:
         return False, str(e)
 
-def fb_comment(post_id, message, token):
-    data = urllib.parse.urlencode({
-        'message': message, 'access_token': token
-    }).encode()
-    req = urllib.request.Request(
-        f'https://graph.facebook.com/v20.0/{post_id}/comments',
-        data=data, headers={'Content-Type': 'application/x-www-form-urlencoded'})
-    try:
-        resp = urllib.request.urlopen(req)
-        return True, json.loads(resp.read())
-    except Exception as e:
-        return False, str(e)
-
 # ── Message builder ───────────────────────────────
-def build_post(title, excerpt, teasers, category):
-    """Build a long, engaging Facebook post from article data."""
-    
-    emojis = {
-        'kwsp': '🏦', 'asb': '💰', 'emas': '🟡', 'kereta': '🚗',
-        'insurans': '🛡️', 'kewangan': '💵', 'kerajaan': '🏛️',
-        'percukaian': '🧾', 'kerjaya': '💼', 'pelaburan': '📈',
-    }
-    emoji = '📖'
-    for key, e in emojis.items():
-        if key in title.lower() or key in category.lower():
-            emoji = e
-            break
-    
-    lines = [f"{emoji} {title}"]
-    lines.append("")
-    
-    # Hook from excerpt
-    if excerpt:
-        lines.append(f"{excerpt}")
-        lines.append("")
-    
-    lines.append("Korang mesti tertanya-tanya — apa yang sebenarnya penting? Yang ramai orang tak tahu?")
-    lines.append("")
-    
-    # Teaser bullets from H2s
-    if teasers:
-        lines.append("Jom kita bongkarkan satu persatu 👇")
-        lines.append("")
-        for i, t in enumerate(teasers, 1):
-            lines.append(f"{i}. {t}")
-        lines.append("")
-    
-    lines.append("Setiap point tu ada kaitan langsung dengan duit korang — sama ada korang sedar atau tak.")
-    lines.append("")
-    
-    # Category-specific hook
-    if 'gaji' in title.lower() or 'bajet' in title.lower() or 'simpan' in title.lower():
-        lines.append("Yang bestnya, semua tips ni praktikal dan dah proven. Bukan teori semata-mata.")
-    elif 'scam' in title.lower() or 'penipuan' in title.lower():
-        lines.append("Jangan tunggu jadi mangsa — baca dulu sebelum terlambat.")
-    elif 'kwsp' in title.lower() or 'asb' in title.lower() or 'emas' in title.lower() or 'pelaburan' in title.lower():
-        lines.append("Ramai dah mula awal, yang rugi yang bertangguh. Janji jangan错过 lagi.")
-    else:
-        lines.append("Jangan main redah je. Ada cara yang betul, dan cara yang rugikan korang.")
-        lines.append("")
-        lines.append("Baca full artikel dekat komen bawah. Saya dah sediakan segala detail — lengkap dengan angka, jadual, dan langkah praktikal.")
-    
-    lines.append("")
-    lines.append("👇 Klik komen untuk baca artikel penuh")
-    
-    return '\n'.join(lines)
+def pick_emoji(title, category):
+    mapping = [
+        ('kwsp', '🏦'), ('asb', '💰'), ('emas', '🟡'),
+        ('kereta', '🚗'), ('insurans', '🛡️'), ('kewangan', '💵'),
+        ('kerajaan', '🏛️'), ('percukaian', '🧾'), ('kerjaya', '💼'),
+        ('pelaburan', '📈'), ('medic', '🏥'), ('rumah', '🏠'),
+        ('loan', '💳'), ('ptptn', '🎓'),
+    ]
+    for kw, e in mapping:
+        if kw in title.lower() or kw in category.lower():
+            return e
+    return '📖'
 
-def build_comment(title, slug):
-    url = f'https://rakyathub.my/{slug}/'
-    return (
-        f"Baca full artikel dekat sini — lengkap dengan angka, jadual perbandingan, "
-        f"dan langkah-langkah praktikal yang korang boleh guna terus hari ni 👇\n\n"
-        f"{url}"
-    )
+def build_post(title, excerpt, teasers, category):
+    """Natural, short casual post — macam orang sembang je."""
+    emoji = pick_emoji(title, category)
+    
+    # Just a short natural paragraph
+    parts = [f"{emoji} Baru update artikel — {title.lower().rstrip('.')}"]
+    
+    if excerpt:
+        excerpt_clean = excerpt.strip('.')
+        parts.append(f"\n{excerpt_clean}.")
+    
+    # One natural sentence from teasers if available
+    if teasers:
+        sample = teasers[0]
+        parts.append(f"\nAntara yang dibincangkan: {sample.lower()}.")
+        if len(teasers) > 1:
+            parts.append(f"Plus, {teasers[1].lower()}.")
+    
+    parts.append(f"\nFull details dekat link bawah — ada angka, jadual, langkah praktikal semua dah siap.")
+    
+    return '\n'.join(parts)
 
 # ── Main ──────────────────────────────────────────
 def main():
@@ -191,11 +154,10 @@ def main():
             title = slug.replace('-', ' ').title()
         cat = get_category(content) if content else ''
         msg = build_post(title, excerpt or '', teasers, cat)
-        ok, post_id = fb_post(msg, token)
+        article_url = f'https://rakyathub.my/{slug}/'
+        ok, post_id = fb_post(msg, article_url, token)
         if ok:
-            comment = build_comment(title, slug)
-            fb_comment(post_id, comment, token)
-            print(f"✅ Posted + commented: {title}")
+            print(f"✅ Posted: {title}")
             mark_posted(slug)
         else:
             print(f"❌ Failed: {post_id}")
@@ -219,11 +181,9 @@ def main():
         msg = build_post(title, excerpt or '', teasers, cat)
         
         article_url = f'https://rakyathub.my/{slug}/'
-        ok, post_id = fb_post(msg, token)
+        ok, post_id = fb_post(msg, article_url, token)
         if ok:
-            comment = build_comment(title, slug)
-            fb_comment(post_id, comment, token)
-            print(f"✅ Posted + commented: {title}")
+            print(f"✅ Posted: {title}")
             mark_posted(slug)
         else:
             print(f"❌ Failed {slug}: {post_id}")

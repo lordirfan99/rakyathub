@@ -12,10 +12,10 @@
 | 8 | Idea bisnes modal kecil untuk student | ✅ | 2026-06-07 | idea-bisnes-modal-kecil-untuk-student |
 | 9 | Cara urus duit elaun belajar | ✅ | 2026-06-06 | cara-urus-duit-elaun-belajar |
 | 10 | Diskaun kad pelajar Malaysia | ✅ | 2026-06-07 | diskaun-kad-pelajar-malaysia |
-| 11 | Resepi bajet student universiti | ❌ | — | — |
+| 11 | Resepi bajet student universiti | ✅ | 2026-06-08 | resepi-bajet-student-universiti |
 | 12 | Barang keperluan masuk universiti checklist | ❌ | — | — |
 | 13 | Cara hias bilik asrama aesthetic | ❌ | — | — |
-| 14 | Cara urus masa belajar dan aktiviti | ❌ | — | — |
+| 14 | Cara urus masa belajar dan aktiviti | ✅ | 2026-06-08 | cara-urus-masa-belajar-dan-aktiviti |
 | 15 | Cara hilangkan mengantuk masa belajar | ❌ | — | — |
 | 16 | Contoh resume fresh graduate tiada pengalaman | ❌ | — | — |
 | 17 | Cara cari tempat praktikal / internship | ❌ | — | — |

@@ -1,5 +1,31 @@
 # Audit Log
 
+## 2026-06-08 11:08
+- **QA Check**: Full pipeline — E-E-A-T author profile system, About rewrite, Privacy Policy AdSense-compliant
+- **Commit**: `11ec3f5` — Fasa 1 E-E-A-T: author profile system, author card in posts, About rewrite, Privacy Policy AdSense-compliant
+- **Changes**: `src/data/author.ts` (NEW — author info + `getAuthor()`), `SinglePost.astro` (author card with name + title), `ListItem.astro` (author avatar + name), `tentang.astro` (full About rewrite), `privasi.astro` (AdSense-compliant rewrite), `audit_log.md`
+- **Pre-build**: No untracked `.astro` files. No untracked leftover images. No untracked `.md` posts. ✅
+- **Build**: 233 pages built in 1m 19s — 0 errors, 0 warnings (same count as prior build — no new content pages)
+- **Server**: Node.js static server on port 3302 (clean port)
+- **Browser Inspection**: Full CDP browser session 🔍
+  - **DOM**: main(1), header(1), nav(1), footer(1) — all present on all pages ✅
+  - **Console**: 0 errors, 0 warnings on all pages ✅
+  - **Images**: 0 broken ✅
+  - **Resources**: 0 failed (no 4xx/5xx) ✅
+- **Pages verified**:
+  - /tentang/ — title "Tentang Kami — Pasukan RakyatHub — RakyatHub" ✅ (full rewrite with Misi, Pasukan, 3 feature cards, Sumber Rujukan, Contact CTA)
+  - /privasi/ — title "Dasar Privasi — RakyatHub" ✅ (9 sections: Pengenalan, Maklumat, Kuki, Pihak Ketiga, Hak Anda, Pautan Pihak Ketiga, Keselamatan Data, Perubahan, Hubungi)
+  - /tips-temuduga-kerja-fresh-graduate-malaysia/ — title "Tips Temuduga Kerja Fresh Graduate..." ✅
+  - Author card rendering: "RakyatHub · Pakar Kewangan Digital Malaysia" with avatar icon — correct ✅
+  - /blog/ — title "Blog — RakyatHub" ✅ (author info rendering in ListItem)
+  - /category/kerjaya/ — title "Category 'Kerjaya' — RakyatHub" ✅
+  - / — title "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+- **Author System Verification**:
+  - `getAuthor('RakyatHub')` returns `{ name: 'RakyatHub', title: 'Pakar Kewangan Digital Malaysia' }` ✅
+  - SinglePost.astro renders author card: name link + title + separator ✅
+  - ListItem.astro renders author: avatar + name in post metadata ✅
+- **Status**: resolved
+
 ## 2026-06-08 10:54
 - **QA Check**: Content-only build — new article "Tips Temuduga Kerja Fresh Graduate Malaysia"
 - **Commit**: `eab19b2` — kerjaya: tips temuduga kerja fresh graduate Malaysia
