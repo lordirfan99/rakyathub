@@ -1,5 +1,53 @@
 # Audit Log
 
+## 2026-06-08 17:52
+- **QA Check**: Content-only build — 1 new article (Bursa Malaysia KLCI 1,700 & starting investment guide)
+- **Commit**: `73c3d48` — Auto: News React — Bursa Malaysia KLCI 1,700 & starting investment guide
+- **Changes**: 1 new `.md` post `bursa-malaysia-1700-peluang-melabur.md`, 1 new hero image `hero-bursa-malaysia-1700-peluang-melabur.jpg`, `_parse_sheet.py` updated, `scripts/facebook-autopost.py` updated, `audit_log.md` updated
+- **Pre-build**: No untracked `.astro` files ✅ | No untracked leftover images ✅ | No untracked `.md` posts ✅
+- **Proactive Duplicate Image Detection**: `hero-bursa-malaysia-1700-peluang-melabur.jpg` (hash `9dcbdd4`) — unique, no duplicates found ✅
+- **Orphaned Image Detection** (noted): `src/assets/images/hero-saham-usa.jpg` — genuinely orphaned (no references in any `src/` file). 23+ pre-existing orphaned public/images/ (mostly SVGs/Call-to-action images referenced dynamically). Not regressed by this commit.
+- **Frontmatter Cross-Check**: `image:` line active (not commented out) ✅
+  - `bursa-malaysia-1700-peluang-melabur.md` — `image: "~/assets/images/hero-bursa-malaysia-1700-peluang-melabur.jpg"` ✅
+- **Build**: 256 pages built in 1m 32s — 0 errors, 0 warnings ✅
+- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session
+- **Content Asset Verification** (Node.js server on port 3401):
+  - /bursa-malaysia-1700-peluang-melabur/ — title "Bursa Malaysia Cecah 1,700 Semula? Ini Peluang Untuk Korang — RakyatHub" ✅ (HTTP 200)
+    - OG Image: hero-bursa-malaysia-1700-peluang-melabur (matches frontmatter) — HTTP 200, 147,092 bytes ✅
+  - /category/kewangan/ — title "Category 'Kewangan' — RakyatHub" ✅ (HTTP 200)
+  - / — title "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅ (HTTP 200)
+- **Cross-Image Check**: Rendered OG image file base (hero-bursa-malaysia-1700-peluang-melabur) matches frontmatter `image:` field — correct image used, no Vite dedup or fallback issues ✅
+- **Status**: resolved
+
+## 2026-06-08 17:36
+- **QA Check**: Content-only build — 4 refreshed articles (bajet 50/30/20, emas PG, KWSP, urus gaji bawah RM3K)
+- **Commit**: `205371e` — Auto: Refresh 4 artikel utama (1,200+ words, FAQ, tables, citations)
+- **Changes**: 4 `.md` posts updated in `src/data/post/` (content overhaul: expanded articles with tables, citations, FAQ, structured sections)
+- **Pre-build**: No untracked `.astro` files ✅ | No untracked leftover images ✅ | No untracked `.md` posts ✅
+- **Proactive Duplicate Image Detection**: No new images in this commit — skipped ✅
+- **Orphaned Image Detection** (noted): `src/assets/images/hero-saham-usa.jpg` — genuinely orphaned (no references in any `src/` file). Not regressed by this commit. User should `git rm` to clean repo.
+- **Frontmatter Cross-Check**: All 4 `image:` lines active (not commented out) ✅
+  - `cadangan-bajet-50-30-20-di-malaysia.md` — `image: "~/assets/images/hero-bajet.jpg"` ✅
+  - `cara-beli-emas-public-gold.md` — `image: "~/assets/images/hero-beli-emas.jpg"` ✅
+  - `panduan-kwsp-malaysia-2025.md` — `image: "~/assets/images/hero-panduan-kwsp.jpg"` ✅
+  - `urus-duit-gaji-bawah-rm3000.md` — `image: "~/assets/images/hero-urus-gaji.jpg"` ✅
+- **Build**: 256 pages built in 2m 8s — 0 errors, 0 warnings ✅
+- **Content Fast-Path (Step 1d)**: No .astro/.ts/.js changes — skipped CDP browser session
+- **Content Asset Verification** (Node.js server on port 3305):
+  - /cadangan-bajet-50-30-20-di-malaysia/ — title "Panduan Bajet 50/30/20 di Malaysia — Cara Urus Gaji Setiap Bulan — RakyatHub" ✅ (HTTP 200)
+    - Hero image: hero-bajet (matches frontmatter) — HTTP 200, 54,279 bytes ✅
+  - /cara-beli-emas-public-gold/ — title "🟡 Cara Beli Emas GAP Public Gold (Panduan Lengkap 2025) — RakyatHub" ✅ (HTTP 200)
+    - Hero image: hero-beli-emas (matches frontmatter) — HTTP 200, 139,097 bytes ✅
+  - /panduan-kwsp-malaysia-2025/ — title "Panduan KWSP Malaysia 2025: Caruman, Pengeluaran, Dividen & Tips Penting — RakyatHub" ✅ (HTTP 200)
+    - Hero image: hero-panduan-kwsp (matches frontmatter) — HTTP 200, 74,848 bytes ✅
+  - /urus-duit-gaji-bawah-rm3000/ — title "Cara Urus Duit Gaji Bawah RM3000 Sebulan (Panduan 2025) — RakyatHub" ✅ (HTTP 200)
+    - Hero image: hero-urus-gaji (matches frontmatter) — HTTP 200, 96,580 bytes ✅
+  - / — title "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅ (HTTP 200)
+  - /category/kewangan/ — title "Category 'Kewangan' — RakyatHub" ✅ (HTTP 200)
+  - /blog/ — title "Blog — RakyatHub" ✅ (HTTP 200)
+- **Cross-Image Check**: All 4 rendered hero image filenames match frontmatter `image:` fields — no Vite dedup or fallback issues ✅
+- **Status**: resolved
+
 ## 2026-06-08 15:41
 - **QA Check**: Content-only build — 4 refreshed articles (bajet 50/30/20, emas PG, KWSP, urus gaji bawah RM3K)
 - **Commit**: `205371e` — Auto: Refresh 4 artikel utama (1,200+ words, FAQ, tables, citations)
@@ -447,7 +495,7 @@
 - **Subdirectory pages verified**:
   - /category/kewangan/ — title "Category 'Kewangan' — RakyatHub"
   - /blog/ — title "Blog — RakyatHub"
-  - / — title "RakyatHub — Panduan Kewangan Rakyat马来西亚"
+  - / — title "RakyatHub — Panduan Kewangan Rakyat Malaysia"
 - **Note**: Two XHR 404s for `/.netlify/functions/kewangan` — expected (production-only Netlify functions, handled gracefully)
 - **Status**: resolved
 
