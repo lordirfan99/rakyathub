@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
-"""Post new RakyatHub articles to Facebook page.
+"""Post new RakyatHub articles to Facebook with engaging teasers + link in comments.
 
 Usage:
   python3 scripts/facebook-autopost.py                  # posts latest new article
   python3 scripts/facebook-autopost.py --all             # posts all unposted new articles
   python3 scripts/facebook-autopost.py --url <url>       # posts a specific URL
 
-Requires:
-  - FACEBOOK_PAGE_TOKEN env var or scripts/.fb_token file
-  - FACEBOOK_PAGE_ID env var or defaults to RakyatHub page
+Requires scripts/.fb_token file with a Facebook Page Access Token.
 """
 
 import os, sys, json, subprocess, re, time, urllib.request, urllib.parse
@@ -18,129 +16,217 @@ REPO = Path(__file__).resolve().parent.parent
 TOKEN_FILE = REPO / 'scripts' / '.fb_token'
 PAGE_ID = '722736938147022'
 
+# ── Token ──────────────────────────────────────────
 def get_token():
-    """Get FB page token from env or file."""
-    tok = os.environ.get('FACEBOOK_PAGE_TOKEN')
-    if tok:
-        return tok
-    if TOKEN_FILE.exists():
-        return TOKEN_FILE.read_text().strip()
-    print("❌ No Facebook token found. Set FACEBOOK_PAGE_TOKEN or create scripts/.fb_token")
+    tok = os.environ.get('FACEBOOK_PAGE_TOKEN') or (
+        TOKEN_FILE.read_text().strip() if TOKEN_FILE.exists() else None)
+    if tok: return tok
+    print("❌ No Facebook token. Set FACEBOOK_PAGE_TOKEN or create scripts/.fb_token")
     sys.exit(1)
 
+# ── Git detection ─────────────────────────────────
 def get_new_articles():
-    """Find new article slugs from latest git commits (today)."""
     result = subprocess.run(
         ['git', 'log', '--since=today', '--name-only', '--pretty=format:',
          '--', 'src/data/post/'],
-        capture_output=True, text=True, cwd=REPO
-    )
+        capture_output=True, text=True, cwd=REPO)
     files = set()
     for line in result.stdout.strip().split('\n'):
         line = line.strip()
         if line.endswith('.md') and 'src/data/post/' in line:
-            slug = Path(line).stem
-            files.add(slug)
+            files.add(Path(line).stem)
     return list(files)
 
+# ── Article parsing ───────────────────────────────
 def get_article_meta(slug):
-    """Extract title and excerpt from article frontmatter."""
     path = REPO / 'src' / 'data' / 'post' / f'{slug}.md'
     if not path.exists():
-        return None, None
+        return None, None, [], ''
     content = path.read_text(encoding='utf-8')
+    
     title_m = re.search(r'title:\s*"(.+?)"', content)
     excerpt_m = re.search(r'excerpt:\s*"(.+?)"', content)
     title = title_m.group(1) if title_m else slug.replace('-', ' ').title()
     excerpt = excerpt_m.group(1) if excerpt_m else ''
-    return title, excerpt
+    
+    # Extract H2 headings as teaser points (skip "Kesimpulan" & "Soalan Lazim")
+    teasers = []
+    for m in re.finditer(r'^##\s+(.+)$', content, re.MULTILINE):
+        h2 = m.group(1).strip()
+        # Skip emoji-only, Kesimpulan, FAQ, and navigational headings
+        skip_words = ['kesimpulan', 'soalan lazim', 'tindakan segera', 'artikel berkaitan',
+                       'kalkulator', 'lagi', 'dokumen', 'sumber rujukan']
+        if any(s in h2.lower() for s in skip_words):
+            continue
+        # Remove leading emoji for cleaner teaser
+        clean = re.sub(r'^[^\w\s]*\s*', '', h2)
+        if clean and len(clean) > 10:
+            teasers.append(clean)
+    
+    return title, excerpt, teasers[:4], content  # max 4 teasers
 
+def get_category(content):
+    m = re.search(r'category:\s*"?(.+?)"?\n', content)
+    return m.group(1).strip() if m else ''
+
+# ── Posting log ───────────────────────────────────
 def get_posted_log():
-    """Read set of already-posted article slugs."""
     log = REPO / 'scripts' / '.fb_posted.log'
     if log.exists():
-        return set(log.read_text().strip().split('\n'))
+        return set(filter(None, log.read_text().strip().split('\n')))
     return set()
 
 def mark_posted(slug):
-    """Mark article as posted."""
     log = REPO / 'scripts' / '.fb_posted.log'
     posted = get_posted_log()
     posted.add(slug)
     log.write_text('\n'.join(sorted(posted)) + '\n')
 
-def post_to_facebook(title, url, token):
-    """Post article to Facebook page."""
-    message = f"📖 {title}\n\n{url}"
-    
-    import urllib.request
+# ── Facebook API calls ────────────────────────────
+def fb_post(message, token):
     data = urllib.parse.urlencode({
-        'message': message,
-        'link': url,
-        'access_token': token
+        'message': message, 'access_token': token
     }).encode()
-    
     req = urllib.request.Request(
         f'https://graph.facebook.com/v20.0/{PAGE_ID}/feed',
-        data=data,
-        headers={'Content-Type': 'application/x-www-form-urlencoded'}
-    )
-    
+        data=data, headers={'Content-Type': 'application/x-www-form-urlencoded'})
     try:
         resp = urllib.request.urlopen(req)
         result = json.loads(resp.read())
         if 'id' in result:
             return True, result['id']
-        return False, result.get('error', str(result))
+        return False, result
     except Exception as e:
         return False, str(e)
 
+def fb_comment(post_id, message, token):
+    data = urllib.parse.urlencode({
+        'message': message, 'access_token': token
+    }).encode()
+    req = urllib.request.Request(
+        f'https://graph.facebook.com/v20.0/{post_id}/comments',
+        data=data, headers={'Content-Type': 'application/x-www-form-urlencoded'})
+    try:
+        resp = urllib.request.urlopen(req)
+        return True, json.loads(resp.read())
+    except Exception as e:
+        return False, str(e)
+
+# ── Message builder ───────────────────────────────
+def build_post(title, excerpt, teasers, category):
+    """Build a long, engaging Facebook post from article data."""
+    
+    emojis = {
+        'kwsp': '🏦', 'asb': '💰', 'emas': '🟡', 'kereta': '🚗',
+        'insurans': '🛡️', 'kewangan': '💵', 'kerajaan': '🏛️',
+        'percukaian': '🧾', 'kerjaya': '💼', 'pelaburan': '📈',
+    }
+    emoji = '📖'
+    for key, e in emojis.items():
+        if key in title.lower() or key in category.lower():
+            emoji = e
+            break
+    
+    lines = [f"{emoji} {title}"]
+    lines.append("")
+    
+    # Hook from excerpt
+    if excerpt:
+        lines.append(f"{excerpt}")
+        lines.append("")
+    
+    lines.append("Korang mesti tertanya-tanya — apa yang sebenarnya penting? Yang ramai orang tak tahu?")
+    lines.append("")
+    
+    # Teaser bullets from H2s
+    if teasers:
+        lines.append("Jom kita bongkarkan satu persatu 👇")
+        lines.append("")
+        for i, t in enumerate(teasers, 1):
+            lines.append(f"{i}. {t}")
+        lines.append("")
+    
+    lines.append("Setiap point tu ada kaitan langsung dengan duit korang — sama ada korang sedar atau tak.")
+    lines.append("")
+    
+    # Category-specific hook
+    if 'gaji' in title.lower() or 'bajet' in title.lower() or 'simpan' in title.lower():
+        lines.append("Yang bestnya, semua tips ni praktikal dan dah proven. Bukan teori semata-mata.")
+    elif 'scam' in title.lower() or 'penipuan' in title.lower():
+        lines.append("Jangan tunggu jadi mangsa — baca dulu sebelum terlambat.")
+    elif 'kwsp' in title.lower() or 'asb' in title.lower() or 'emas' in title.lower() or 'pelaburan' in title.lower():
+        lines.append("Ramai dah mula awal, yang rugi yang bertangguh. Janji jangan错过 lagi.")
+    else:
+        lines.append("Jangan main redah je. Ada cara yang betul, dan cara yang rugikan korang.")
+        lines.append("")
+        lines.append("Baca full artikel dekat komen bawah. Saya dah sediakan segala detail — lengkap dengan angka, jadual, dan langkah praktikal.")
+    
+    lines.append("")
+    lines.append("👇 Klik komen untuk baca artikel penuh")
+    
+    return '\n'.join(lines)
+
+def build_comment(title, slug):
+    url = f'https://rakyathub.my/{slug}/'
+    return (
+        f"Baca full artikel dekat sini — lengkap dengan angka, jadual perbandingan, "
+        f"dan langkah-langkah praktikal yang korang boleh guna terus hari ni 👇\n\n"
+        f"{url}"
+    )
+
+# ── Main ──────────────────────────────────────────
 def main():
     posted = get_posted_log()
     token = get_token()
     
     slugs = get_new_articles()
     
+    # Manual URL mode
     if '--url' in sys.argv:
         idx = sys.argv.index('--url')
         url = sys.argv[idx + 1]
         slug = url.strip('/').split('/')[-1]
-        title, _ = get_article_meta(slug)
+        title, excerpt, teasers, content = get_article_meta(slug)
         if not title:
             title = slug.replace('-', ' ').title()
-        ok, msg = post_to_facebook(title, url, token)
+        cat = get_category(content) if content else ''
+        msg = build_post(title, excerpt or '', teasers, cat)
+        ok, post_id = fb_post(msg, token)
         if ok:
-            print(f"✅ Posted: {title}")
+            comment = build_comment(title, slug)
+            fb_comment(post_id, comment, token)
+            print(f"✅ Posted + commented: {title}")
             mark_posted(slug)
         else:
-            print(f"❌ Failed: {msg}")
+            print(f"❌ Failed: {post_id}")
         return
     
-    if '--all' in sys.argv:
-        targets = slugs
-    else:
-        targets = slugs[:1]  # just one by default
-    
+    # Auto mode — one per run by default
+    targets = slugs if '--all' in sys.argv else slugs[:1]
     new_posts = [s for s in targets if s not in posted]
     
     if not new_posts:
         print("No new articles to post.")
         return
     
-    base_url = 'https://rakyathub.my'
     for slug in new_posts:
-        title, excerpt = get_article_meta(slug)
+        title, excerpt, teasers, content = get_article_meta(slug)
         if not title:
             print(f"⚠️  Skipping {slug}: no article found")
             continue
         
-        article_url = f'{base_url}/{slug}/'
-        ok, msg = post_to_facebook(title, article_url, token)
+        cat = get_category(content) if content else ''
+        msg = build_post(title, excerpt or '', teasers, cat)
+        
+        article_url = f'https://rakyathub.my/{slug}/'
+        ok, post_id = fb_post(msg, token)
         if ok:
-            print(f"✅ Posted: {title}")
+            comment = build_comment(title, slug)
+            fb_comment(post_id, comment, token)
+            print(f"✅ Posted + commented: {title}")
             mark_posted(slug)
         else:
-            print(f"❌ Failed {slug}: {msg}")
+            print(f"❌ Failed {slug}: {post_id}")
             time.sleep(2)
 
 if __name__ == '__main__':
