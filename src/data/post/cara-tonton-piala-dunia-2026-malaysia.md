@@ -105,91 +105,52 @@ Untuk akses platform ni dari Malaysia, korang perlukan **VPN** — dan kebanyaka
 
 Ni pilihan yang ramai dah mula beralih — **watch party secara live streaming dalam komuniti**. Daripada duduk sorang-sorang depan TV, korang boleh join group yang nonton sama-sama, sorak sama-sama, lepak macam tengok di mamak tapi dalam talian.
 
-### Apa Itu Watch Party?
-
-Watch party ni macam **lepak di rumah kawan** — tapi secara digital. Semua orang join dalam satu server **Discord**, dan tuan rumah akan **screen share** siaran perlawanan dalam kualiti **1080p Full HD**. Korang just duduk, tengok, dan sorak sekali dengan ahli lain.
-
-### Apa Itu Discord? (Untuk Yang Baru Nak Tahu)
-
-Discord ni macam **WhatsApp versi power** — ada grup chat, voice call, screen share, semua dalam satu app. Cara guna:
-
-1. **Download** — pergi Google Play / App Store, cari "Discord", install
-2. **Daftar** — guna email, confirm, siap dalam 2 minit
-3. **Klik link jemputan** — masuk server kami terus
-4. **Dengar & tengok** — kami uruskan semua
-
-**Senang macam buka YouTube. Janji.**
-
 ### Kenapa Pilih Watch Party?
 
 | Feature | Unifi TV | Watch Party Komuniti |
 |---------|-------------------|---------------------|
 | Harga | RM20-60/tournament | **1 minggu PERCUMA, lepas tu RM20** |
-| Kualiti | HD | **1080p HD @ 30FPS** |
-| Buffer | Minimum | **Minimum — server optimized** |
+| Setup | MyUnifi app | **Beli dekat Shopee, admin guide** |
 | Sorak | Sendiri | **Bersama ramai** |
-| Setup | MyUnifi app | **Download Discord klik link join** |
-| Komuniti | ✘ | ✅ Ada grup sembang & voice |
+| Komuniti | ✘ | ✅ Ada grup sembang |
 
-[![SERTAI SEKARANG — Tonton Piala Dunia 2026 Secara Langsung!](/images/cta-klik-diskon.jpg)](https://s.shopee.com.my/Lkj8tCGZ2)
+> ✅ **Watch party adalah pilihan paling jimat** — 1 minggu percuma, lepas tu RM20 je untuk full tournament. Dapat pengalaman komuniti pula!
 
----
-
-## 🎫 Harga Watch Party World Cup 2026
+### Harga
 
 Paling best — lagi murah dari Unifi TV daily pass!
 
-```
-🎫 PERCUMA 1 MINGGU — try dulu, zero komitmen
-🎫 FULL ACCESS   — RM20 (seluruh tournament!)
-```
+- PERCUMA 1 MINGGU — try dulu, zero komitmen
+- FULL ACCESS — RM20 (seluruh tournament!)
 
-Ada masalah? Join, tgok free seminggu. Puas hati? Baru bayar RM20 untuk full access.
+### Cara Join (Mudah Je)
 
-### Cara Join:
-
-1. Klik banner **CLICK HERE TO JOIN** di bawah
-2. Masuk server Discord
-3. Dapat **1 minggu percuma** — try dulu
-4. Puas hati? Pergi channel **#beli-pass**, bayar RM20
-5. Terus activate — tonton!
-
-> ⚡ **Free trial 1 minggu** — try dulu tengok kualiti, baru decide nak beli full access ke tak.
-
-[![SERTAI SEKARANG — Tonton Piala Dunia 2026 Secara Langsung!](/images/cta-klik-diskon.jpg)](https://s.shopee.com.my/Lkj8tCGZ2)
-
----
-
-## 💰 Perbandingan Kos Keseluruhan
-
-| Cara | Kos | Kualiti | Setup | Sorak |
-|------|------------|---------|-------|-------|
-| RTM Percuma | RM0 | SD/HD terhad | Senang | Sendiri |
-| Unifi TV Daily | RM20/match | HD | MyUnifi app | Sendiri |
-| Unifi TV Full Pass | RM50-60 | HD | MyUnifi app | Sendiri |
-| VPN + Streaming | ~RM20-50 | Bergantung | Rumit | Sendiri |
-| **Watch Party** | **Percuma 1mg → RM20** | **HD** | **Download Discord** | **Komuniti** ✅ |
-|
-|> ✅ **Watch party adalah pilihan paling jimat dan paling seronok** — 1 minggu percuma, lepas tu RM20 je untuk full tournament. Dapat pengalaman komuniti pula!
-
-> 💡 **Check kedai Shopee RakyatHub** — rating tinggi, member confirm puas. Klik dekat bawah untuk nampak sendiri.
-
----
-
-## 📱 Cara Join Watch Party
-
-1. **Beli pass** — klik link Shopee dekat bawah
-2. **Admin akan contact** — lepas confirm bayaran, dapat link jemputan
+1. **Beli pass dekat Shopee** — klik link dekat bawah
+2. **Contact admin** — lepas order, chat admin dekat Shopee untuk dapatkan akses
 3. **Masuk & tonton** — join komuniti, sorak sama-sama
-
-Tak pernah guna Discord? Senang je — nanti admin ajar dekat Shopee chat. Janji mudah.
 
 > 🛒 **Beli dekat Shopee sekarang:** [s.shopee.com.my/Lkj8tCGZ2](https://s.shopee.com.my/Lkj8tCGZ2) — rating tinggi, trusted seller.
 
 ---
 
+## 💰 Perbandingan Kos Keseluruhan
+
+| Cara | Kos | Setup | Sorak |
+|------|------------|-------|-------|
+| RTM Percuma | RM0 | Senang | Sendiri |
+| Unifi TV Daily | RM20/match | MyUnifi app | Sendiri |
+| Unifi TV Full Pass | RM50-60 | MyUnifi app | Sendiri |
+| VPN + Streaming | ~RM20-50 | Rumit | Sendiri |
+| **Watch Party** | **Percuma 1mg → RM20** | **Shopee — admin guide** | **Komuniti** ✅ |
+
+> ✅ **Watch party adalah pilihan paling jimat** — 1 minggu percuma, lepas tu RM20 je untuk full tournament.
+
+> 💡 **Check kedai Shopee RakyatHub** — rating tinggi, member confirm puas. Klik dekat bawah.
+
+---
+
 ## ✅ Kesimpulan
 
-Ada 4 cara utama nak tonton Piala Dunia 2026 di Malaysia. Pilihan di tangan korang — sama ada nak tonton sorang-sorang pakai RTM ke, Unifi TV ke, atau join watch party dengan harga lebih jimat dan dapat teman sembang.
+Ada 4 cara utama nak tonton Piala Dunia 2026 di Malaysia. Pilihan di tangan korang — sama ada RTM percuma, Unifi TV, VPN, atau watch party komuniti.
 
 > 🛒 **Beli pass watch party dekat Shopee:** [s.shopee.com.my/Lkj8tCGZ2](https://s.shopee.com.my/Lkj8tCGZ2)

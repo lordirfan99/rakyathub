@@ -1,5 +1,21 @@
 # Audit Log
 
+## 2026-06-09 18:50
+- **QA Check**: Content-only build — Updated World Cup article — removed Discord guide, added Shopee funnel (trust signal)
+- **Commit**: `f483837` — Auto: Update World Cup article — buang Discord guide, tambah Shopee funnel
+- **Changes**: `src/data/post/cara-tonton-piala-dunia-2026-malaysia.md` — replaced 3 rakyathub.my/join CTA links with Shopee affiliate links (`s.shopee.com.my/Lkj8tCGZ2`), removed entire Discord guide section (setup instructions, rewritten Kesimpulan), added Shopee trust signals
+- **Pre-build**: No untracked files, no leftover images, no untracked posts ✅
+- **Build**: 305 pages built successfully (1m 43s) — no cache issues ✅
+- **Content Verification** (curl on port 4003, Node.js static server):
+  - `/cara-tonton-piala-dunia-2026-malaysia/` — title "Cara Tonton Piala Dunia 2026 Secara Online di Malaysia — Panduan Lengkap — RakyatHub" ✅
+  - OG Image: `/_astro/hero-tonton-piala-dunia-2026.O4eU4ih7_Z1MrBLI.jpg` — HTTP 200, 71,628 bytes ✅
+  - Frontmatter image line: `image: "~/assets/images/hero-tonton-piala-dunia-2026.jpg"` — active (not commented) ✅
+  - Shopee link rendering: 3 instances of `s.shopee.com.my/Lkj8tCGZ2` present in rendered page ✅
+  - `/category/hiburan/` — "Category 'Hiburan' — RakyatHub" ✅
+  - `/` — homepage renders with correct title ✅
+- **Orphaned Images** (noted): 24 pre-existing orphans unchanged from prior runs — user should `git rm` when convenient
+- **Status**: resolved
+
 ## 2026-06-09 18:36
 - **QA Check**: Content-only build — Added Shopee affiliate links to World Cup 2026 article (trust signal funnel)
 - **Commit**: `af9a796` — Auto: Tambah Shopee link artikel Piala Dunia — trust signal funnel
