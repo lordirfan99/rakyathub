@@ -1,5 +1,23 @@
 # Audit Log
 
+## 2026-06-09 14:08
+- **QA Check**: Content-only build — new Insurans article (Medical Card vs Critical Illness)
+- **Commit**: `7576f97` — Auto: Insurans - Medical Card vs Critical Illness: Apa Beza & Mana Satu Korang Perlukan?
+- **Changes**: `src/data/post/medical-card-vs-critical-illness-beza-perlukan.md` (new post), `src/assets/images/hero-medical-vs-critical.jpg` (new hero image), `audit_log.md` (updated)
+- **Pre-build**: No untracked files, no leftover images, no untracked posts ✅
+- **Duplicate Image Detection**: New image hash (`13dcd9f`) is unique — no duplicates found ✅
+- **Orphaned Image Detection**: 24 pre-existing orphans unchanged from prior run (18 public/images/ + 2 public/ + 2 src/assets/images/ + 2 public/root — not regressed by this commit, user should `git rm` when convenient)
+- **Build**: 298 pages built successfully (1m 46s) — no cache issues ✅
+- **Content Verification** (curl on port 3505):
+  - `/medical-card-vs-critical-illness-beza-perlukan/` — title "Medical Card vs Critical Illness Insurance: Apa Beza & Mana Satu Korang Perlukan? — RakyatHub" ✅
+  - OG Image: `/_astro/hero-medical-vs-critical.Bv2xB0Md_adGyc.jpg` — HTTP 200, 63,890 bytes ✅
+  - WebP variant: HTTP 200, 8,748 bytes ✅
+  - Frontmatter image line: `image: "~/assets/images/hero-medical-vs-critical.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/category/insurans/` — "Category 'Insurans' — RakyatHub" ✅
+  - `/` — homepage renders with correct OG image ✅
+- **Status**: resolved
+
 ## 2026-06-09 12:31
 - **QA Check**: Content-only build — 2 new Student articles (Barang Keperluan Universiti + Cara Cari Internship)
 - **Commit**: `9a7a7ef` — Auto [Student]: barang-keperluan-masuk-universiti-checklist + cara-cari-tempat-praktikal-internship
@@ -89,8 +107,8 @@
 
 ### Fix: Astro Module-Scoped gtagSendEvent Not Accessible from onclick Handlers
 - **File**: `src/pages/join.astro:193`
-- **Before**: `function gtagSendEvent(url) { ... }` — defined in Astro `<script>` block (processed as ES module, function was module-scoped, NOT on `window`). Three `onclick="return gtagSendEvent('...')"` handlers would throw `ReferenceError: gtagSendEvent is not defined` at click time — conversion tracking would silently fail despite clean build, render, and zero console errors at page load.
-- **After**: `window.gtagSendEvent = function(url) { ... };` — explicitly assigned to global scope. CDP Runtime.evaluate confirms `typeof window.gtagSendEvent === "function"` ✅
+- **Before**: `function gtagSendEvent(url) { ... }` — defined in Astro `<script>` block (processed as ES module, function was module-scoped, NOT on `window`). Three `onclick=\"return gtagSendEvent('...')\"` handlers would throw `ReferenceError: gtagSendEvent is not defined` at click time — conversion tracking would silently fail despite clean build, render, and zero console errors at page load.
+- **After**: `window.gtagSendEvent = function(url) { ... };` — explicitly assigned to global scope. CDP Runtime.evaluate confirms `typeof window.gtagSendEvent === \"function\"` ✅
 - **QA Check**: Only fails on user interaction (classic Astro module scope pitfall). No build error, no console error at load — only surfaces when user clicks a Discord join link. Without this fix, Google Ads conversion events from click actions would never fire.
 - **Build**: 279 pages built (clean rebuild after clearing stale `.astro` cache which caused `EPERM: rename data-store.json.tmp` error) ✅
 - **Browser Inspection**: Full CDP on port 5055 (Node.js static server)
