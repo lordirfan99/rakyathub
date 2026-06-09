@@ -1,5 +1,28 @@
 # Audit Log
 
+## 2026-06-09 12:31
+- **QA Check**: Content-only build — 2 new Student articles (Barang Keperluan Universiti + Cara Cari Internship)
+- **Commit**: `9a7a7ef` — Auto [Student]: barang-keperluan-masuk-universiti-checklist + cara-cari-tempat-praktikal-internship
+- **Changes**: `src/data/post/barang-keperluan-masuk-universiti-checklist.md` (new post), `src/data/post/cara-cari-tempat-praktikal-internship.md` (new post), `src/assets/images/hero-barang-keperluan-masuk-universiti-checklist.jpg` (new hero image), `src/assets/images/hero-cara-cari-tempat-praktikal-internship.jpg` (new hero image), `topic_tracker_student.md` (updated), `audit_log.md` (updated)
+- **Pre-build**: No untracked files, no leftover images, no untracked posts ✅
+- **Duplicate Image Detection**: Both new image hashes (`e1c6015`, `b1c6798`) are unique — no duplicates found ✅
+- **Orphaned Image Detection**: Pre-existing orphans unchanged from prior run — not regressed by this commit ✅
+- **Build**: 296 pages built successfully (1m 46s) — no cache issues ✅
+- **Content Verification** (curl on port 3504):
+  - `/barang-keperluan-masuk-universiti-checklist/` — title "Barang Keperluan Masuk Universiti — Checklist Lengkap — RakyatHub" ✅
+  - OG Image: `/_astro/hero-barang-keperluan-masuk-universiti-checklist.CG1O05ce_2fFXom.jpg` — HTTP 200, 205,489 bytes ✅
+  - Frontmatter image line: `image: "~/assets/images/hero-barang-keperluan-masuk-universiti-checklist.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/cara-cari-tempat-praktikal-internship/` — title "Cara Cari Tempat Praktikal / Internship — 6 Langkah — RakyatHub" ✅
+  - OG Image: `/_astro/hero-cara-cari-tempat-praktikal-internship.DrhQHDQk_cWGqA.jpg` — HTTP 200, 70,874 bytes ✅
+  - Frontmatter image line: `image: "~/assets/images/hero-cara-cari-tempat-praktikal-internship.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/category/kewangan/` — "Category 'Kewangan' — RakyatHub" ✅
+  - `/tag/student/` — "Posts by tag 'student' — RakyatHub" ✅
+  - `/tag/internship/` — "Posts by tag 'internship' — RakyatHub" ✅
+  - `/` — homepage ✅
+- **Status**: resolved
+
 ## 2026-06-09 11:14
 - **QA Check**: Content-only build — new Scam of The Week article (Facebook deposit scam)
 - **Commit**: `998bf04` — Scam of The Week: deposit scam Facebook - Ubai kena RM50
