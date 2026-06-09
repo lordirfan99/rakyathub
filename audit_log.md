@@ -1,5 +1,22 @@
 # Audit Log
 
+## 2026-06-09 11:14
+- **QA Check**: Content-only build — new Scam of The Week article (Facebook deposit scam)
+- **Commit**: `998bf04` — Scam of The Week: deposit scam Facebook - Ubai kena RM50
+- **Changes**: `src/data/post/scam-deposit-facebook-barang-online.md` (new post), `src/assets/images/hero-scam-facebook-deposit.jpg` (new hero image), `audit_log.md` (restructured)
+- **Pre-build**: No untracked files, no leftover images, no untracked posts ✅
+- **Duplicate Image Detection**: New image hash (`49fb844`) — unique, no duplicates found ✅
+- **Orphaned Image Detection**: Pre-existing orphans unchanged from prior run — not regressed by this commit ✅
+- **Build**: 289 pages built successfully (1m 4s) — no cache issues ✅
+- **Content Verification** (curl on port 3502):
+  - `/scam-deposit-facebook-barang-online/` — title "SCAM ALERT: Deposit RM50 Lesap! Ubai Pun Kena Scam Facebook — RakyatHub" ✅
+  - OG Image: `/_astro/hero-scam-facebook-deposit.B2hAvlIC_Z1ylBp5.jpg` — HTTP 200, 68,226 bytes ✅
+  - Frontmatter image line: `image: "~/assets/images/hero-scam-facebook-deposit.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/blog/` — lists "Scam Facebook" ✅
+  - `/` — homepage renders with correct OG image ✅
+- **Status**: resolved
+
 ## 2026-06-09 10:28
 - **QA Check**: Full build pipeline — new career article + gtagSendEvent fix committed
 - **Commit**: `7e3f607` — Auto: Kerjaya - 10 Pekerjaan Paling Tinggi Permintaan di Malaysia 2026
