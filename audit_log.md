@@ -1,5 +1,49 @@
 # Audit Log
 
+## 2026-06-09 08:30
+- **QA Check**: Full CDP pipeline — Google Ads conversion tracking on /join + 4 new content articles
+- **Commit (initial)**: `dacfecd` — add google ads conversion tracking on /join page
+- **Commit (HEAD at build)**: `b96364f` — Auto: 4 new articles — Tabung Haji, PTPTN, SSPN, DCA Emas GAP
+- **Changes (dacfecd)**: `src/pages/join.astro` (Google Ads conversion tracking logic), `.netlify/netlify.toml` (security headers, cache control, redirects), `.netlify/functions/manifest.json` (timestamp only)
+- **Changes (b96364f)**: 4 new `.md` posts + 4 new hero images (`hero-dca-emas-gap.jpg`, `hero-ptptn.jpg`, `hero-sspn.jpg`, `hero-tabung-haji.jpg`)
+- **Pre-build**: 4 untracked leftover images removed (`hero-dca-emas-gap.jpg`, `hero-ptptn.jpg`, `hero-sspn.jpg`, `hero-tabung-haji.jpg` — never in git, unreferenced by any post, removed to prevent future `NoImageMetadata` build failures) ✅
+- **Duplicate Image Detection**: No new images in `dacfecd` commit. New images in `b96364f` — unique hashes, no duplicates found ✅
+- **Orphaned Image Detection** (noted): Same pre-existing orphans as prior run — not regressed by this commit
+
+### Fix: Astro Module-Scoped gtagSendEvent Not Accessible from onclick Handlers
+- **File**: `src/pages/join.astro:193`
+- **Before**: `function gtagSendEvent(url) { ... }` — defined in Astro `<script>` block (processed as ES module, function was module-scoped, NOT on `window`). Three `onclick="return gtagSendEvent('...')"` handlers would throw `ReferenceError: gtagSendEvent is not defined` at click time — conversion tracking would silently fail despite clean build, render, and zero console errors at page load.
+- **After**: `window.gtagSendEvent = function(url) { ... };` — explicitly assigned to global scope. CDP Runtime.evaluate confirms `typeof window.gtagSendEvent === "function"` ✅
+- **QA Check**: Only fails on user interaction (classic Astro module scope pitfall). No build error, no console error at load — only surfaces when user clicks a Discord join link. Without this fix, Google Ads conversion events from click actions would never fire.
+- **Build**: 279 pages built (clean rebuild after clearing stale `.astro` cache which caused `EPERM: rename data-store.json.tmp` error) ✅
+- **Browser Inspection**: Full CDP on port 5055 (Node.js static server)
+  - DOM: main(1), header/nav(1), footer/contentinfo(1) — all present ✅
+  - Images: 0 broken ✅
+  - Resources: 0 failed (no 4xx/5xx) ✅
+  - Console: 0 errors, 0 warnings ✅
+  - Runtime: `window.gtagSendEvent` is `function` (FIX VERIFIED) ✅
+  - Page title: "Join Watch Party — World Cup 2026 — RakyatHub" ✅
+
+### Content Asset Verification (4 new posts from b96364f)
+All verified via curl on port 5055:
+- `/dca-emas-gap-public-gold-strategi-beli-konsisten/` — title "DCA Emas GAP Public Gold — Strategi Beli Emas Konsisten RM100 Sebulan — RakyatHub" ✅
+  - OG Image: `/_astro/hero-dca-emas-gap.CVUGSal4_1kCfU0.jpg` — HTTP 200, 79,580 bytes ✅
+- `/panduan-bayar-ptptn-2026-diskaun-insentif/` — title "Panduan Bayar PTPTN 2026 — Diskaun, Insentif & Cara Elak Blacklist — RakyatHub" ✅
+  - OG Image: `/_astro/hero-ptptn.B4Lklrsy_Z1R4OtL.jpg` — HTTP 200, 64,541 bytes ✅
+- `/panduan-sspn-2026-simpanan-pendidikan-pelepasan-cukai/` — title "Panduan SSPN 2026 — Cara Buka Akaun, Dividen & Pelepasan Cukai RM8,000 — RakyatHub" ✅
+  - OG Image: `/_astro/hero-sspn.6Pgks8IG_1Xgn8H.jpg` — HTTP 200, 51,131 bytes ✅
+- `/panduan-tabung-haji-2026-cara-simpan-daftar-haji/` — title "Panduan Tabung Haji 2026 — Cara Buka Akaun, Hibah & Daftar Haji — RakyatHub" ✅
+  - OG Image: `/_astro/hero-tabung-haji.BtaWskAh_Z1cEUNP.jpg` — HTTP 200, 155,107 bytes ✅
+- `/` — title "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+- `/category/kewangan/` — title "Category 'Kewangan' — RakyatHub" ✅
+- Cross-Image Check: All 4 rendered OG image filenames match frontmatter `image:` fields — no Vite dedup or fallback issues ✅
+- Frontmatter Cross-Check: All 4 `image:` lines active (none commented out) ✅
+
+### Orphaned Tracked Images (noted, not removed)
+24 orphaned images tracked in git but unreferenced by src/ — pre-existing, user should `git rm` when convenient to reduce repo bloat.
+
+- **Status**: resolved
+
 ## 2026-06-08 20:31
 - **QA Check**: Content-only build — 1 new article (Side Hustle: Bisnes Produk Digital & AI)
 - **Commit**: `4fc0cdf` — Auto: Side Hustle - Bisnes Produk Digital & AI Side Hustle

@@ -190,7 +190,7 @@ const metadata = {
 
 <script>
   // Google Ads conversion tracking
-  function gtagSendEvent(url) {
+  window.gtagSendEvent = function(url) {
     var callback = function () {
       if (typeof url === 'string') {
         window.location = url;
@@ -202,7 +202,7 @@ const metadata = {
       'event_timeout': 2000,
     });
     return false;
-  }
+  };
 
   // Fire conversion event on page load
   document.addEventListener('DOMContentLoaded', function() {
