@@ -1,5 +1,19 @@
 # Audit Log
 
+## 2026-06-09 18:36
+- **QA Check**: Content-only build — Added Shopee affiliate links to World Cup 2026 article (trust signal funnel)
+- **Commit**: `af9a796` — Auto: Tambah Shopee link artikel Piala Dunia — trust signal funnel
+- **Changes**: `src/data/post/cara-tonton-piala-dunia-2026-malaysia.md` — added Shopee affiliate link (`s.shopee.com.my/Lkj8tCGZ2`) and trust signal funnel copy to the Piala Dunia watch party section
+- **Pre-build**: No untracked files, no leftover images, no untracked posts ✅
+- **Build**: 305 pages built successfully (1m 42s) — no cache issues ✅
+- **Content Verification** (curl on port 3700, Node.js static server):
+  - `/cara-tonton-piala-dunia-2026-malaysia/` — title "Cara Tonton Piala Dunia 2026 Secara Online di Malaysia — Panduan Lengkap — RakyatHub" ✅
+  - OG Image: `/_astro/hero-tonton-piala-dunia-2026.O4eU4ih7_Z1MrBLI.jpg` — HTTP 200, 71,628 bytes ✅
+  - Frontmatter image line: `image: "~/assets/images/hero-tonton-piala-dunia-2026.jpg"` — active (not commented) ✅
+  - Shopee link rendering: "Check Shopee" text and "s.shopee.com.my" URL present in rendered page ✅
+  - `/` — homepage renders with correct title ✅
+- **Status**: resolved
+
 ## 2026-06-09 17:42
 - **QA Check**: Full CDP pipeline — Featured Articles section on homepage + new Rule 78 article (HEAD shifted mid-pipeline)
 - **Commit 1**: `2a3bb58` — Auto: Featured articles section on homepage for better Google crawl depth
@@ -315,7 +329,7 @@ All verified via curl on port 5055:
   - Templates (ACC, SSPN, Duit): onclick handlers all present ✅
 - **Calculator Fix** (calculator CSS selector):
   - **File**: `src/components/widgets/CalculatorSTR.astro`
-  - Fixed CSS selector for mobile grid layout (`[type="radio"]` → `[type="radio"]:checked`)
+  - Fixed CSS selector for mobile grid layout (`[type=\"radio\"]` → `[type=\"radio\"]:checked`)
 - **Status**: resolved
 
 ## 2026-05-25 14:00
