@@ -1,5 +1,38 @@
 # Audit Log
 
+## 2026-06-09 17:42
+- **QA Check**: Full CDP pipeline — Featured Articles section on homepage + new Rule 78 article (HEAD shifted mid-pipeline)
+- **Commit 1**: `2a3bb58` — Auto: Featured articles section on homepage for better Google crawl depth
+- **Commit 2**: `56d0b71` — Auto: News React — Akta Sewa Beli (Pindaan) 2026, Rule 78 mansuh (arrived mid-inspection)
+- **Changes (Commit 1)**: `src/pages/index.astro` — added "Panduan & Tips Popular" grid section with 8 direct links to popular articles (HTML/CSS only, no new JS/onclick handlers)
+- **Changes (Commit 2)**: `src/data/post/rule-78-mansuh-akta-sewa-beli-2026.md` (new post), `src/assets/images/hero-rule-78-mansuh-akta-sewa-beli-2026.jpg` (new hero image)
+- **Pre-build**: No untracked files, no leftover images, no untracked posts ✅
+- **Build**: 299 pages built successfully (1m 51s) — no cache issues ✅
+- **Full CDP Inspection** (port 3600, Node.js static server):
+  - DOM: main(1), header(1), nav(1), footer(1) — all present ✅
+  - Console: 0 errors, 0 warnings ✅
+  - Resource errors: 0 (no 4xx/5xx) ✅
+  - Broken images: 0 ✅
+  - Failed CSS: 0 ✅
+  - onclick handlers: 0 — all links are standard `<a href>` tags, no Astro module scope issues ✅
+  - H2 headings: "Alat Kewangan Untuk Rakyat Malaysia", "Panduan & Tips Popular", "Artikel Terkini", "Perlu Surat Rasmi, Invois atau Resume?" — new section rendering ✅
+  - Featured Articles section contains 8 links matching git diff:
+    - `/cadangan-bajet-50-30-20-di-malaysia/` — "Bajet 50/30/20" ✅
+    - `/panduan-kwsp-malaysia-2025/` — "Panduan KWSP" ✅
+    - `/cara-beli-emas-public-gold/` — "Beli Emas GAP" ✅
+    - `/urus-duit-gaji-bawah-rm3000/` — "Urus Gaji Bawah RM3K" ✅
+    - `/panduan-medical-card-malaysia-2026-first-time-buyer/` — "Medical Card 2026" ✅
+    - `/gaji-graduan-mengikut-industri-2026/` — "Gaji Graduan 2026" ✅
+    - `/panduan-e-filing-cukai-pendapatan-2026/` — "E-Filing 2026" ✅
+    - `/gxbank-vs-bigpay-vs-tng-ewallet-dompet-digital-terbaik-2026/` — "eWallet Terbaik 2026" ✅
+  - All 8 featured article links verified via curl: HTTP 200 with correct titles ✅
+- **Content Asset Verification (Commit 2 — Rule 78 post)**:
+  - `/rule-78-mansuh-akta-sewa-beli-2026/` — title "Rule of 78 Tamat! Akta Sewa Beli Baharu Berkuat Kuasa 1 Jun — RakyatHub" ✅
+  - OG Image: `/_astro/hero-rule-78-mansuh-akta-sewa-beli-2026.a1NQx1Ok_Z9jgqg.jpg` — HTTP 200, 73,276 bytes ✅
+  - Frontmatter image line: `image: "~/assets/images/hero-rule-78-mansuh-akta-sewa-beli-2026.jpg"` — active (not commented) ✅
+  - Duplicate Image Detection: New image hash (`d32714de`) is unique — no duplicates found ✅
+- **Status**: resolved
+
 ## 2026-06-09 14:08
 - **QA Check**: Content-only build — new Insurans article (Medical Card vs Critical Illness)
 - **Commit**: `7576f97` — Auto: Insurans - Medical Card vs Critical Illness: Apa Beza & Mana Satu Korang Perlukan?

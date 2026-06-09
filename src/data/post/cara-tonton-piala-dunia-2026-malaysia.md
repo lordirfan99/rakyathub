@@ -169,10 +169,14 @@ Ada masalah? Join, tgok free seminggu. Puas hati? Baru bayar RM20 untuk full acc
 | Unifi TV Full Pass | RM50-60 | HD | MyUnifi app | Sendiri |
 | VPN + Streaming | ~RM20-50 | Bergantung | Rumit | Sendiri |
 | **Watch Party** | **Percuma 1mg → RM20** | **1080p HD** | **Download Discord** | **Komuniti** ✅ |
+|
+|> 💡 **Tak yakin? Check Shopee RakyatHub** — rating member confirm puas hati. Klik dekat bawah untuk nampak sendiri bukti.
+|
+|> ✅ **Watch party adalah pilihan paling jimat dan paling seronok** — 1 minggu percuma, lepas tu RM20 je untuk full tournament. Dapat pengalaman komuniti pula!
 
-> ✅ **Watch party adalah pilihan paling jimat dan paling seronok** — 1 minggu percuma, lepas tu RM20 je untuk full tournament. Dapat pengalaman komuniti pula!
-
----
+> 🔗 **Check Shopee kami:** [s.shopee.com.my/Lkj8tCGZ2](https://s.shopee.com.my/Lkj8tCGZ2) — rating member bercakap sendiri.
+|
+|---
 
 ## 📱 Cara Download & Setup Discord (Panduan Ringkas)
 
