@@ -1,0 +1,478 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Cara Tonton Piala Dunia 2026 — Watch Party Premium Malaysia',
+  description: 'Tonton Piala Dunia 2026 secara online di Malaysia. 1080p HD, free trial, full access RM20. Streaming lancar, sorak sama-sama komuniti!',
+};
+---
+
+<Layout metadata={metadata}>
+
+<style>
+  /* ===== Premium Hero ===== */
+  .hero-glow-1 { background: radial-gradient(600px circle at 20% 30%, rgba(99,102,241,0.15), transparent 70%); }
+  .hero-glow-2 { background: radial-gradient(500px circle at 80% 70%, rgba(251,191,36,0.10), transparent 70%); }
+  .hero-glow-3 { background: radial-gradient(400px circle at 50% 50%, rgba(16,185,129,0.08), transparent 70%); }
+
+  .worldcup-title {
+    font-family: 'Inter', system-ui, sans-serif;
+    letter-spacing: -0.03em;
+  }
+
+  /* ===== Feature Cards ===== */
+  .feature-card {
+    border: 1px solid rgba(255,255,255,0.06);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .feature-card:hover {
+    border-color: rgba(99,102,241,0.3);
+    transform: translateY(-4px);
+    box-shadow: 0 20px 60px rgba(99,102,241,0.15);
+  }
+
+  /* ===== Pricing Cards ===== */
+  .pricing-card {
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .pricing-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 24px 80px rgba(99,102,241,0.2);
+  }
+  .pricing-featured {
+    border: 2px solid rgba(99,102,241,0.4);
+    background: linear-gradient(180deg, rgba(99,102,241,0.08) 0%, transparent 100%);
+  }
+
+  /* ===== Stats ===== */
+  .stat-card {
+    border: 1px solid rgba(255,255,255,0.05);
+    backdrop-filter: blur(8px);
+  }
+
+  /* ===== Steps ===== */
+  .step-line::after {
+    content: '';
+    position: absolute;
+    top: 48px;
+    left: 24px;
+    width: 2px;
+    height: calc(100% - 48px);
+    background: linear-gradient(180deg, rgba(99,102,241,0.5), transparent);
+  }
+  .step-item:last-child .step-line::after { display: none; }
+
+  /* ===== FAQ ===== */
+  details.faq-item summary::-webkit-details-marker { display: none; }
+
+  /* ===== Glass Card ===== */
+  .glass-card {
+    background: rgba(255,255,255,0.03);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+
+  /* ===== CTA Pulse Border ===== */
+  .cta-pulse {
+    position: relative;
+  }
+  .cta-pulse::before {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6, #6366f1);
+    background-size: 200% 200%;
+    animation: shimmer 3s ease-in-out infinite;
+    z-index: -1;
+    opacity: 0.5;
+  }
+  @keyframes shimmer {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+</style>
+
+<!-- ===== HERO SECTION ===== -->
+<section class="relative overflow-hidden min-h-screen flex items-center">
+  <!-- Background -->
+  <div class="absolute inset-0 bg-gradient-to-br from-[#0a0f1e] via-[#0f172a] to-[#0a0f1e]" />
+  <div class="absolute inset-0 hero-glow-1 hero-glow-2 hero-glow-3" />
+
+  <div class="relative z-10 w-full max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-24">
+
+    <!-- Top branding -->
+    <div class="flex items-center justify-center gap-2 mb-8">
+      <div class="w-8 h-8 bg-gradient-to-br from-[#6366f1] to-[#8b5cf6] rounded-lg flex items-center justify-center">
+        <span class="text-white font-bold text-sm">R</span>
+      </div>
+      <span class="text-slate-400 text-sm font-medium tracking-wider uppercase">RakyatHub • Official Partner</span>
+    </div>
+
+    <!-- Badge -->
+    <div class="text-center mb-6">
+      <span class="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full px-5 py-1.5">
+        <span class="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-pulse" />
+        <span class="text-emerald-300 text-sm font-semibold tracking-wide">Piala Dunia 2026 — 11 Jun hingga 19 Julai</span>
+      </span>
+    </div>
+
+    <!-- Main Title -->
+    <div class="text-center mb-6">
+      <h1 class="worldcup-title text-5xl sm:text-6xl md:text-8xl font-black tracking-tight text-white leading-[1.1] mb-4">
+        Piala Dunia
+        <br />
+        <span class="bg-gradient-to-r from-[#f59e0b] via-[#f97316] to-[#ef4444] bg-clip-text text-transparent">
+          2026
+        </span>
+      </h1>
+      <p class="text-xl sm:text-2xl md:text-3xl text-slate-300 font-light">
+        Tonton Semua Perlawanan — <span class="text-white font-semibold">1080p HD, Zero Buffer</span>
+      </p>
+    </div>
+
+    <!-- Hero Stats -->
+    <div class="flex flex-wrap justify-center gap-4 sm:gap-6 mb-10">
+      {[
+        { label: 'Pasukan', value: '48' },
+        { label: 'Perlawanan', value: '104' },
+        { label: 'Negara Tuan Rumah', value: '3' },
+        { label: 'Harga', value: 'RM20' },
+      ].map((stat) => (
+        <div class="stat-card bg-white/5 rounded-2xl px-6 py-4 text-center min-w-[120px]">
+          <div class="text-2xl sm:text-3xl font-bold text-white">{stat.value}</div>
+          <div class="text-xs sm:text-sm text-slate-400 mt-1">{stat.label}</div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Description -->
+    <p class="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto text-center mb-10 leading-relaxed">
+      Buat pertama kali dalam sejarah, <strong class="text-white">48 pasukan</strong> bertanding di 
+      <strong class="text-white">3 negara</strong> — Amerika Syarikat, Kanada & Mexico. 
+      Jangan ketinggalan walau satu perlawanan. Streaming lancar, kualiti premium, 
+      harga berpatutan.
+    </p>
+
+    <!-- Main CTA -->
+    <div class="text-center mb-16">
+      <a
+        href="https://s.shopee.com.my/Lkj8tCGZ2"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="cta-pulse inline-flex items-center gap-3 bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] text-white text-lg sm:text-xl font-bold px-10 py-5 rounded-2xl shadow-2xl shadow-indigo-500/25 hover:shadow-indigo-500/40 transition-all duration-300 hover:scale-[1.03] active:scale-95"
+      >
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        Dapatkan Akses Penuh — RM20 Sahaja
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+      </a>
+      <p class="text-slate-500 text-sm mt-3">✅ Bayar Selepasi Puas Hati • Free Trial 1 Minggu</p>
+    </div>
+
+    <!-- CTA Image Banner -->
+    <a
+      href="https://s.shopee.com.my/Lkj8tCGZ2"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="block max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-2xl hover:shadow-indigo-500/10 transition-all duration-500 hover:scale-[1.01] mb-8"
+    >
+      <img
+        src="/images/cta-klik-diskon.jpg"
+        alt="KLIK UNTUK NONTON PIALA DUNIA 2026"
+        class="w-full"
+        width="1280"
+        height="698"
+        loading="eager"
+      />
+    </a>
+
+  </div>
+</section>
+
+<!-- ===== KENAPA PILIH KAMI? ===== -->
+<section class="relative py-20 md:py-28">
+  <div class="absolute inset-0 bg-gradient-to-b from-[#0a0f1e] via-[#0f172a] to-[#0a0f1e]" />
+
+  <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-16">
+      <span class="text-indigo-400 text-sm font-semibold tracking-widest uppercase mb-3 block">Kenapa Pilih Kami</span>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
+        Pengalaman Menonton <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#f59e0b] to-[#f97316]">Premier</span>
+      </h2>
+      <p class="text-slate-400 max-w-xl mx-auto text-lg">
+        Bukan sekadar streaming — kami bagi pengalaman stadium dari rumah.
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+      {[
+        { icon: '📺', title: '1080p HD', desc: 'Streaming lancar 30FPS. Zero buffer, zero pening.' },
+        { icon: '💰', title: 'RM20 Sahaja', desc: 'Seluruh tournament. Lagi murah dari daily pass Unifi TV.' },
+        { icon: '🎤', title: 'Voice & Chat', desc: 'Sorak sama-sama dengan komuniti. Macam tengok di mamak!' },
+        { icon: '🛡️', title: 'Trusted Seller', desc: 'Beli dekat Shopee — rating tinggi, buyer puas hati.' },
+      ].map((item) => (
+        <div class="feature-card glass-card rounded-2xl p-6 md:p-8 text-center">
+          <div class="text-4xl mb-4">{item.icon}</div>
+          <h3 class="text-white font-bold text-lg mb-2">{item.title}</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">{item.desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRICING ===== -->
+<section class="relative py-20 md:py-28">
+  <div class="absolute inset-0 bg-gradient-to-b from-[#0a0f1e] via-[#0f172a] to-[#0a0f1e]" />
+
+  <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-16">
+      <span class="text-indigo-400 text-sm font-semibold tracking-widest uppercase mb-3 block">Harga Berpatutan</span>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
+        Pilihan <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#6366f1] to-[#8b5cf6]">Terbaik</span>
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-12">
+      <!-- Free Trial -->
+      <div class="pricing-card bg-white/[0.02] rounded-2xl p-8 text-center">
+        <div class="text-4xl mb-4">🎁</div>
+        <h3 class="text-white font-bold text-xl mb-2">Free Trial</h3>
+        <p class="text-slate-400 text-sm mb-6">Try dulu sebelum bayar</p>
+        <div class="text-4xl font-black text-emerald-400 mb-2">RM0</div>
+        <p class="text-slate-500 text-xs mb-8">1 minggu percuma</p>
+        <ul class="text-left space-y-3 mb-8">
+          {['✅ Akses 7 hari', '✅ Kualiti HD penuh', '✅ Zero komitmen'].map((item) => (
+            <li class="text-slate-300 text-sm">{item}</li>
+          ))}
+        </ul>
+        <a
+          href="https://s.shopee.com.my/Lkj8tCGZ2"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block w-full bg-white/5 hover:bg-white/10 text-white font-semibold px-6 py-3 rounded-xl border border-white/10 transition-all"
+        >
+          Cuba Percuma
+        </a>
+      </div>
+
+      <!-- Full Access (Featured) -->
+      <div class="pricing-card pricing-featured rounded-2xl p-8 text-center relative">
+        <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] text-white text-xs font-bold px-6 py-1.5 rounded-full shadow-lg">
+          ⭐ PALING LARIS
+        </div>
+        <div class="text-4xl mb-4">🏆</div>
+        <h3 class="text-white font-bold text-xl mb-2">Full Access</h3>
+        <p class="text-slate-400 text-sm mb-6">Seluruh Piala Dunia 2026</p>
+        <div class="text-4xl font-black text-white mb-1">RM20</div>
+        <p class="text-slate-400 text-xs mb-8">Bayar sekali, tonton semua</p>
+        <ul class="text-left space-y-3 mb-8">
+          {['✅ Semua 104 perlawanan', '✅ 1080p HD 30FPS', '✅ Voice & chat komuniti', '✅ Support admin 24/7'].map((item) => (
+            <li class="text-slate-300 text-sm">{item}</li>
+          ))}
+        </ul>
+        <a
+          href="https://s.shopee.com.my/Lkj8tCGZ2"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block w-full bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] hover:from-[#4f46e5] hover:to-[#7c3aed] text-white font-bold px-6 py-3.5 rounded-xl transition-all"
+        >
+          Beli Sekarang 🚀
+        </a>
+      </div>
+
+      <!-- Komuniti -->
+      <div class="pricing-card bg-white/[0.02] rounded-2xl p-8 text-center">
+        <div class="text-4xl mb-4">👥</div>
+        <h3 class="text-white font-bold text-xl mb-2">Komuniti</h3>
+        <p class="text-slate-400 text-sm mb-6">Pengalaman stadium</p>
+        <div class="text-3xl font-black text-slate-300 mb-2">Tak Ternilai</div>
+        <p class="text-slate-500 text-xs mb-8">Sorak & lepak bersama</p>
+        <ul class="text-left space-y-3 mb-8">
+          {['✅ Grup sembang aktif', '✅ Live reactions', '✅ Tips & prediksi game'].map((item) => (
+            <li class="text-slate-300 text-sm">{item}</li>
+          ))}
+        </ul>
+        <a
+          href="https://s.shopee.com.my/Lkj8tCGZ2"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block w-full bg-white/5 hover:bg-white/10 text-white font-semibold px-6 py-3 rounded-xl border border-white/10 transition-all"
+        >
+          Join Komuniti
+        </a>
+      </div>
+    </div>
+
+    <!-- Comparison Table -->
+    <div class="max-w-2xl mx-auto mb-8">
+      <h3 class="text-white font-bold text-xl text-center mb-6">Bandingkan Dengan Yang Lain</h3>
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="border-b border-white/10">
+            <th class="py-3 text-left text-slate-400 font-medium">Perbandingan</th>
+            <th class="py-3 text-center text-slate-500 font-medium">Unifi TV</th>
+            <th class="py-3 text-center text-indigo-400 font-medium">Kami ✨</th>
+          </tr>
+        </thead>
+        <tbody>
+          {[
+            ['Harga Penuh', 'RM50 – RM60', 'RM20'],
+            ['Free Trial', '✘', '✅ 1 Minggu'],
+            ['Kualiti', 'HD', '1080p HD 30FPS'],
+            ['Cara Bayar', 'MyUnifi App', 'Shopee ✅'],
+            ['Support', 'Chatbot', 'Admin 24/7 👤'],
+            ['Komuniti', '✘', '✅ Aktif & Seronok'],
+          ].map(([label, other, us]) => (
+            <tr class="border-b border-white/5">
+              <td class="py-3 text-slate-400">{label}</td>
+              <td class="py-3 text-center text-slate-600">{other}</td>
+              <td class="py-3 text-center text-emerald-400 font-semibold">{us}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CARA JOIN ===== -->
+<section class="relative py-20 md:py-28">
+  <div class="absolute inset-0 bg-gradient-to-b from-[#0a0f1e] to-[#0f172a]" />
+  <div class="absolute inset-0 opacity-10">
+    <div class="absolute top-1/3 left-0 w-64 h-64 bg-indigo-500 rounded-full blur-[150px]" />
+  </div>
+
+  <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-16">
+      <span class="text-indigo-400 text-sm font-semibold tracking-widest uppercase mb-3 block">Cara Nak Join</span>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
+        3 Langkah <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#f59e0b] to-[#f97316]">Senang</span> Je
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
+      {[
+        { num: '01', icon: '🛒', title: 'Beli di Shopee', desc: 'Klik butang dekat atas atau bawah. Beli pass dekat kedai Shopee rasmi RakyatHub.' },
+        { num: '02', icon: '💬', title: 'Contact Admin', desc: 'Lepas order, chat admin dekat Shopee. Dia akan bagi akses dalam masa 5-10 minit.' },
+        { num: '03', icon: '🎬', title: 'Tonton & Sorak!', desc: 'Join group, mula streaming. 1080p HD lancar, sorak sama-sama dengan member lain.' },
+      ].map((step, i) => (
+        <div class="text-center relative">
+          <div class="w-16 h-16 bg-gradient-to-br from-[#6366f1] to-[#8b5cf6] rounded-2xl flex items-center justify-center mx-auto mb-5 shadow-xl shadow-indigo-500/20">
+            <span class="text-white text-2xl">{step.icon}</span>
+          </div>
+          <div class="text-indigo-400 text-sm font-bold tracking-wider mb-2">{step.num}</div>
+          <h3 class="text-white font-bold text-lg mb-2">{step.title}</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">{step.desc}</p>
+        </div>
+      ))}
+    </div>
+
+    <div class="text-center mt-12">
+      <a
+        href="https://s.shopee.com.my/Lkj8tCGZ2"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-3 bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] text-white font-bold px-10 py-4 rounded-2xl text-lg shadow-2xl shadow-indigo-500/25 hover:shadow-indigo-500/40 transition-all duration-300 hover:scale-[1.03] active:scale-95"
+      >
+        🛒 Beli Pass di Shopee Sekarang
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="relative py-20 md:py-28">
+  <div class="absolute inset-0 bg-gradient-to-b from-[#0f172a] to-[#0a0f1e]" />
+
+  <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-16">
+      <span class="text-indigo-400 text-sm font-semibold tracking-widest uppercase mb-3 block">Apa Kata Mereka</span>
+      <h2 class="text-3xl sm:text-4xl font-bold text-white">
+        Dipercayai <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#f59e0b] to-[#f97316]">Ramai</span>
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-4 md:gap-6">
+      {[
+        { name: 'Aiman R.', role: 'Pembeli, Shah Alam', text: 'Streaming lancar gila, takde buffer langsung. Puas hati!', rating: '⭐⭐⭐⭐⭐' },
+        { name: 'Sarah M.', role: 'Pembeli, KL', text: 'Awal-awal ragu, lepas try trial terus beli full access. Worth every sen!', rating: '⭐⭐⭐⭐⭐' },
+        { name: 'Faris H.', role: 'Pembeli, Penang', text: 'Admin respon cepat. Dalam 5 minit dah boleh tengok. Recommended!', rating: '⭐⭐⭐⭐⭐' },
+      ].map((t) => (
+        <div class="glass-card rounded-2xl p-6 md:p-8">
+          <div class="text-yellow-400 text-sm mb-4">{t.rating}</div>
+          <p class="text-slate-300 text-sm leading-relaxed mb-6">"{t.text}"</p>
+          <div>
+            <div class="text-white font-semibold text-sm">{t.name}</div>
+            <div class="text-slate-500 text-xs">{t.role}</div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="relative py-20 md:py-28">
+  <div class="absolute inset-0 bg-gradient-to-b from-[#0a0f1e] to-[#0f172a]" />
+
+  <div class="relative z-10 max-w-3xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-12">
+      <span class="text-indigo-400 text-sm font-semibold tracking-widest uppercase mb-3 block">Ada Soalan?</span>
+      <h2 class="text-3xl sm:text-4xl font-bold text-white">Soalan Lazim</h2>
+    </div>
+
+    {[
+      { q: 'Apa yang saya dapat dengan RM20?', a: 'Akses penuh ke semua 104 perlawanan Piala Dunia 2026. Streaming 1080p HD, voice chat, grup komuniti, dan support admin 24/7. Bayar sekali, tonton semua perlawanan — termasuk final!' },
+      { q: 'Ada free trial ke?', a: 'Ya! 1 minggu percuma. Try tengok kualiti dan setup. Kalau puas hati, baru bayar RM20 untuk full access. Kalau tak suka, zero komitmen.' },
+      { q: 'Macam mana nak bayar?', a: 'Bayar melalui Shopee. Klik mana-mana butang "Beli Sekarang" dekat halaman ni, nanti redirect ke kedai Shopee rasmi RakyatHub. Lepas order, chat admin untuk dapatkan akses.' },
+      { q: 'Kualiti streaming macam mana?', a: '1080p HD pada 30FPS. Server dioptimumkan khas untuk streaming bola. Minimum buffer, pengalaman menonton yang smooth. Gegar betul!' },
+      { q: 'Boleh tonton guna telefon?', a: 'Boleh! Compatible dengan telefon, tablet, laptop, dan Smart TV. Streaming melalui platform yang mudah dan ringan. Janji ada internet, korang boleh tonton.' },
+      { q: 'Apa jadi kalau ada masalah teknikal?', a: 'Admin kami standby 24/7. Lepas beli dekat Shopee, korang boleh terus chat admin untuk sebarang masalah. Biasanya respon dalam 5-10 minit.' },
+    ].map((faq) => (
+      <details class="faq-item group border-b border-white/5 py-5 cursor-pointer">
+        <summary class="flex items-center justify-between text-white font-medium text-base sm:text-lg list-none">
+          <span>{faq.q}</span>
+          <svg class="w-5 h-5 text-slate-500 group-open:rotate-180 transition-transform duration-300 flex-shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </summary>
+        <p class="text-slate-400 mt-4 text-sm leading-relaxed">{faq.a}</p>
+      </details>
+    ))}
+  </div>
+</section>
+
+<!-- ===== FINAL CTA ===== -->
+<section class="relative py-20 md:py-28">
+  <div class="absolute inset-0 bg-gradient-to-b from-[#0f172a] to-[#0a0f1e]" />
+  <div class="absolute inset-0 hero-glow-1" />
+
+  <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center">
+    <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
+      Jangan Ketinggalan —
+      <br />
+      <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#f59e0b] via-[#f97316] to-[#ef4444]">
+        Piala Dunia 2026
+      </span>
+    </h2>
+    <p class="text-slate-400 text-lg max-w-xl mx-auto mb-10">
+      11 Jun hingga 19 Julai. 104 perlawanan. Jangan jadi orang last-minute 
+      yang tercari-cari stream masa perlawanan dah mula.
+    </p>
+    <a
+      href="https://s.shopee.com.my/Lkj8tCGZ2"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="cta-pulse inline-flex items-center gap-3 bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] text-white text-xl font-bold px-12 py-5 rounded-2xl shadow-2xl shadow-indigo-500/25 hover:shadow-indigo-500/40 transition-all duration-300 hover:scale-[1.03] active:scale-95"
+    >
+      🏆 Dapatkan Akses RM20
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+    </a>
+    <p class="text-slate-600 text-sm mt-4">
+      Pembayaran melalui Shopee • Trusted Seller • Rating Tinggi • Free Trial 1 Minggu
+    </p>
+  </div>
+</section>
+
+</Layout>
