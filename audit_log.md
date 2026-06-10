@@ -1,5 +1,29 @@
 # Audit Log
 
+## 2026-06-10 12:18
+- **QA Check**: Content-only build — 2 new Student articles + duplicate image detected & fixed
+- **Commit 1**: `ba97c52` — Auto [Student]: Cara buat rujukan APA style & Cara ulangkaji pelajaran saat akhir
+- **Commit 2**: `5630f84` — fix(qa): Remove duplicate image hero-cara-ulangkaji-pelajaran-saat-akhir.jpg (identical to hero-ptptn.jpg)
+- **Commit 3**: `cc318f6` — fix(qa): Comment out image frontmatter for cara-ulangkaji-pelajaran-saat-akhir (duplicate removed)
+- **Changes (Commit 1)**: `src/data/post/cara-buat-rujukan-apa-style.md` (new post — 166 lines, APA style guide), `src/data/post/cara-ulangkaji-pelajaran-saat-akhir.md` (new post — 170 lines, last-minute study tips), `src/assets/images/hero-cara-buat-rujukan-apa-style.jpg` (new hero image, 158KB), `src/assets/images/hero-cara-ulangkaji-pelajaran-saat-akhir.jpg` (new hero image, 96KB — ⚠️ DUPLICATE of hero-ptptn.jpg), `topic_tracker_student.md` (2 topics marked ✅)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: 
+  - `hero-cara-buat-rujukan-apa-style.jpg` (hash `088f249`) — unique ✅
+  - `hero-cara-ulangkaji-pelajaran-saat-akhir.jpg` (hash `8191209`) — ⚠️ **DUPLICATE of `hero-ptptn.jpg`** (same exact content, 96KB, identical hash)
+- **Fix Applied**: `git rm src/assets/images/hero-cara-ulangkaji-pelajaran-saat-akhir.jpg` — removed duplicate file. Without this fix, Vite's content-addressable dedup would cause the PTPTN image to silently render on the "Cara Ulangkaji" post, showing wrong visual context.
+- **Frontmatter Fix**: Commented out `image:` line in `cara-ulangkaji-pelajaran-saat-akhir.md` — post now gracefully falls back to default OG image (`/_astro/default.BXnHqeYJ_Z1yEx1G.jpg`)
+- **Orphaned Image Detection**: 24 pre-existing orphans unchanged from prior runs — user should `git rm` when convenient
+- **Build**: 341 pages built successfully (46.17s) — clean rebuild ✅
+- **Content Verification** (curl on port 5500, Node.js static server with directory→index.html):
+  - `/cara-buat-rujukan-apa-style/` — title "Cara Buat Rujukan APA Style — Panduan Lengkap Student — RakyatHub" ✅
+  - OG Image: `/_astro/hero-cara-buat-rujukan-apa-style.dZCcl2EW_ZodvTw.jpg` — HTTP 200, 108,032 bytes ✅
+  - Frontmatter image line: `image: "~/assets/images/hero-cara-buat-rujukan-apa-style.jpg"` — active (not commented) ✅
+  - `/cara-ulangkaji-pelajaran-saat-akhir/` — title "Cara Ulangkaji Pelajaran Saat Akhir — 7 Teknik Power — RakyatHub" ✅
+  - OG Image: `/_astro/default.BXnHqeYJ_Z1yEx1G.jpg` — falls back to default site image (correct after fix) ✅
+  - `/category/pendidikan/` — "Category 'Pendidikan' — RakyatHub" ✅
+  - `/` — homepage renders with correct title ✅
+- **Status**: resolved
+
 ## 2026-06-10 10:13
 - **QA Check**: Content-only build — new Kerjaya article (Industri Paling Prospek)
 - **Commit**: `f449fe6` — Auto: Kerjaya - Industri Paling Prospek di Malaysia 2026 — Perbandingan Gaji, Peluang & Prospek Kerjaya
@@ -37,7 +61,7 @@
   - Frontmatter image lines: All 4 `image:` lines active (none commented out) ✅
   - `/category/emas/` — "Category 'Emas' — RakyatHub" ✅
   - `/category/insurans/` — "Category 'Insurans' — RakyatHub" ✅
-  - `/` — homepage renders with correct title ✅
+  - `/` — homepage renders with correct OG image ✅
 - **Status**: resolved
 
 ## 2026-06-09 20:12
@@ -772,4 +796,22 @@ All verified via curl on port 5055:
 ## 2026-01-18 14:00
 - **QA Check**: First QA run — initial setup
 - **Build**: 203 pages
+- **Status**: resolved
+
+## 2026-06-10 12:35
+- **QA Check**: Full CDP pipeline — Remove astro-compress plugin (hangs on build:done, causes cron timeouts)
+- **Commit**: `0c5765a` — fix: remove astro-compress (hangs on build:done, causes cron timeouts)
+- **Changes**: `astro.config.ts` (removed `astro-compress` import + config block — CSS/HTML/JS compression disabled to prevent build:done hang), `.netlify/state.json` (updated siteId)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Build**: 341 pages built successfully (7.82s) — significantly faster without astro-compress build:done hang ✅
+- **Browser Inspection** (CDP on port 5053, Node.js static server):
+  - DOM: main(1), header(1), nav(1), footer(1) — all present ✅
+  - Console: 0 errors, 0 warnings ✅
+  - Resource errors: 0 (no 4xx/5xx) ✅
+  - Broken images: 0 ✅
+- **Subdirectory Page Verification** (curl):
+  - `/category/kewangan/` — "Category 'Kewangan' — RakyatHub" ✅
+  - `/hubungi/` — "Hubungi Kami — RakyatHub" ✅
+  - `/tentang/` — "Tentang Kami — Pasukan RakyatHub" ✅
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
 - **Status**: resolved
