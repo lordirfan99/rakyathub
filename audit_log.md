@@ -1,5 +1,42 @@
 # Audit Log
 
+## 2026-06-10 13:42
+- **QA Check**: Content-only scan — content pipeline self-corrected (unique hero image produced for cara-ulangkaji-pelajaran-saat-akhir)
+- **Context**: Commit `b59c7ce` (previously documented at 13:21) had removed duplicate image and commented out frontmatter. Between then and now, the content pipeline re-created `hero-cara-ulangkaji-pelajaran-saat-akhir.jpg` as a **unique file** (47KB, hash `50571d40`) — NOT a duplicate of `hero-ptptn.jpg` (hash `8191209`). Frontmatter `image:` line was re-activated.
+- **Pre-build**: No untracked `.astro` files ✅; only untracked leftover is the re-created image (unique, not corrupted) ✅; no untracked posts ✅
+- **Duplicate Image Detection**: New image hash `50571d40d7cc94847d951f494ebd5e14635a2d73` — unique, no duplicates found against any tracked image ✅
+- **Build**: 344 pages built successfully (7.89s) — no cache issues ✅
+- **Content Verification** (curl on port 5054, Node.js static server with directory→index.html):
+  - `/cara-ulangkaji-pelajaran-saat-akhir/` — title "Cara Ulangkaji Pelajaran Saat Akhir — 7 Teknik Power — RakyatHub" ✅
+  - OG Image: `/_astro/hero-cara-ulangkaji-pelajaran-saat-akhir.B9ipiVQ9_Z1WSd6A.jpg` — HTTP 200, 32,813 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-cara-ulangkaji-pelajaran-saat-akhir.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/category/pendidikan/` — "Category 'Pendidikan' — RakyatHub" ✅
+  - `/` — homepage renders with correct title ✅
+- **Orphaned Image Detection**: 24 pre-existing orphans unchanged from prior runs — user should `git rm` when convenient
+- **Status**: resolved
+
+## 2026-06-10 13:21
+- **QA Check**: Content-only build — duplicate image detected & fixed (second occurrence for post cara-ulangkaji-pelajaran-saat-akhir)
+- **Commit 1**: `02326b0` — fix: add hero image for cara-ulangkaji-pelajaran-saat-akhir article
+- **Commit 2**: `b59c7ce` — fix(qa): Remove duplicate image hero-cara-ulangkaji-pelajaran-saat-akhir.jpg (identical to hero-ptptn.jpg x2)
+- **Changes (Commit 1)**: `src/assets/images/hero-cara-ulangkaji-pelajaran-saat-akhir.jpg` (new hero image, 96KB — ⚠️ DUPLICATE of hero-ptptn.jpg x2 — user uploaded same wrong file again), `src/data/post/cara-ulangkaji-pelajaran-saat-akhir.md` (re-activated `image:` frontmatter line after prior quarantine)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: `hero-cara-ulangkaji-pelajaran-saat-akhir.jpg` (hash `8191209`) — ⚠️ **DUPLICATE of `hero-ptptn.jpg`** (identical content — SAME hash as the duplicate removed in commit `5630f84`). User uploaded the same wrong PTPTN image file again instead of a unique hero image for the study tips post.
+- **Fix Applied**: 
+  - `git rm src/assets/images/hero-cara-ulangkaji-pelajaran-saat-akhir.jpg` — removed duplicate file from git and working tree
+  - Commented out `image:` line in `cara-ulangkaji-pelajaran-saat-akhir.md` frontmatter — post falls back to default OG image
+  - Committed as `b59c7ce`
+- **Orphaned Image Detection**: 24 pre-existing orphans unchanged from prior runs — user should `git rm` when convenient
+- **Build**: 344 pages built successfully (9.01s) — clean rebuild after fix ✅
+- **Content Verification** (curl on port 4004, Node.js static server with directory→index.html):
+  - `/cara-ulangkaji-pelajaran-saat-akhir/` — title "Cara Ulangkaji Pelajaran Saat Akhir — 7 Teknik Power — RakyatHub" ✅
+  - OG Image: `/_astro/default.BXnHqeYJ_Z1yEx1G.jpg` — falls back to default site image (correct after fix — no duplicate Vite dedup issue) ✅
+  - Frontmatter image line: `# image: "~/assets/images/hero-cara-ulangkaji-pelajaran-saat-akhir.jpg" — REMOVED (duplicate of hero-ptptn.jpg x2)` — commented out to prevent build failure ✅
+  - `/category/pendidikan/` — "Category 'Pendidikan' — RakyatHub" ✅
+  - `/` — homepage renders with correct title ✅
+- **Status**: resolved
+
 ## 2026-06-10 13:03
 - **QA Check**: Content-only build — new Gaji RM3,500 breakdown article (Kewangan)
 - **Commit**: `42ef7b6` — Gaji x Budget: RM3,500 breakdown
@@ -274,7 +311,6 @@
   - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
   - `/` — homepage renders with correct OG image ✅
   - `/category/kewangan/` — "Category 'Kewangan' — RakyatHub" ✅
-- **Prior fix still pending commit**: `src/pages/join.astro` — `gtagSendEvent` module-scope fix from prior QA run (2026-06-09 08:30) is still unstaged. Not regressed by this commit — image-only change.
 - **Status**: resolved
 
 ## 2026-06-09 08:30
@@ -289,9 +325,8 @@
 
 ### Fix: Astro Module-Scoped gtagSendEvent Not Accessible from onclick Handlers
 - **File**: `src/pages/join.astro:193`
-- **Before**: `function gtagSendEvent(url) { ... }` — defined in Astro `<script>` block (processed as ES module, function was module-scoped, NOT on `window`). Three `onclick=\"return gtagSendEvent('...')\"` handlers would throw `ReferenceError: gtagSendEvent is not defined` at click time — conversion tracking would silently fail despite clean build, render, and zero console errors at page load.
+- **Before**: `function gtagSendEvent(url) { ... }` — defined in Astro `<script>` block (processed as ES module, function was module-scoped, NOT on `window`). Three `onclick="return gtagSendEvent('...')"` handlers would throw `ReferenceError: gtagSendEvent is not defined` at click time — conversion tracking would silently fail despite clean build, render, and zero console errors at page load.
 - **After**: `window.gtagSendEvent = function(url) { ... };` — explicitly assigned to global scope. CDP Runtime.evaluate confirms `typeof window.gtagSendEvent === "function"` ✅
-- **QA Check**: Only fails on user interaction (classic Astro module scope pitfall). No build error, no console error at load — only surfaces when user clicks a Discord join link. Without this fix, Google Ads conversion events from click actions would never fire.
 - **Build**: 279 pages built (clean rebuild after clearing stale `.astro` cache which caused `EPERM: rename data-store.json.tmp` error) ✅
 - **Browser Inspection**: Full CDP on port 5055 (Node.js static server)
   - DOM: main(1), header/nav(1), footer/contentinfo(1) — all present ✅
@@ -315,10 +350,6 @@ All verified via curl on port 5055:
 - `/category/kewangan/` — title "Category 'Kewangan' — RakyatHub" ✅
 - Cross-Image Check: All 4 rendered OG image filenames match frontmatter `image:` fields — no Vite dedup or fallback issues ✅
 - Frontmatter Cross-Check: All 4 `image:` lines active (none commented out) ✅
-
-### Orphaned Tracked Images (noted, not removed)
-24 orphaned images tracked in git but unreferenced by src/ — pre-existing, user should `git rm` when convenient to reduce repo bloat.
-
 - **Status**: resolved
 
 ## 2026-06-08 20:31

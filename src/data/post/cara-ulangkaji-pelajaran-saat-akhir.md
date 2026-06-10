@@ -3,7 +3,7 @@ publishDate: 2026-06-10
 title: "Cara Ulangkaji Pelajaran Saat Akhir — 7 Teknik Power"
 excerpt: "Exam dah dekat tapi belum baca apa-apa? Ini cara ulangkaji pelajaran saat akhir yang terbukti berkesan — boost ingatan dalam 24-48 jam."
 category: Pendidikan
-# image: "~/assets/images/hero-cara-ulangkaji-pelajaran-saat-akhir.jpg" — REMOVED (duplicate of hero-ptptn.jpg x2. User uploaded same wrong file again.)
+image: "~/assets/images/hero-cara-ulangkaji-pelajaran-saat-akhir.jpg"
 tags:
   - student
   - tip-belajar
