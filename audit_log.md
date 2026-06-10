@@ -1,5 +1,28 @@
 # Audit Log
 
+## 2026-06-10 08:21
+- **QA Check**: Content-only build — 4 new articles (Pajak Gadai Emas, Insurans Kereta, Urus Duit Rumah Tangga, Persediaan Ibu Bapa Baru)
+- **Commit**: `1f28f0a` — Auto: 4 new articles — Pajak Gadai Emas, Panduan Insurans Kereta, Urus Duit Rumah Tangga, Persediaan Ibu Bapa Baru
+- **Changes**: 4 new `.md` posts + 4 new hero images (`hero-pajak-gadai-emas.jpg`, `hero-insurans-kereta.jpg`, `hero-kewangan-pasangan.jpg`, `hero-ibu-bapa-baru.jpg`), `audit_log.md` (updated)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: All 4 new image hashes unique — no duplicates found ✅
+- **Orphaned Image Detection**: 24 pre-existing orphans unchanged from prior runs — user should `git rm` when convenient
+- **Build**: 329 pages built successfully (43.49s) — no cache issues ✅
+- **Content Verification** (curl on port 5052, Node.js static server):
+  - `/pajak-gadai-emas-ar-rahnu-panduan-kira-upah-simpan/` — title "Pajak Gadai Emas Ar-Rahnu — Cara Kira Upah Simpan & Tebus — RakyatHub" ✅
+  - OG Image: `/_astro/hero-pajak-gadai-emas.whT4NceO_iC0xd.jpg` — HTTP 200, 138,131 bytes ✅
+  - `/panduan-insurans-kereta-malaysia-first-time-owner/` — title "Panduan Insurans Kereta Malaysia — Cara Pilih & Jimat Premium — RakyatHub" ✅
+  - OG Image: `/_astro/hero-insurans-kereta.BmJHT25B_LcDHm.jpg` — HTTP 200, 99,831 bytes ✅
+  - `/cara-urus-duit-rumah-tangga-pasangan-suami-isteri/` — title "Cara Urus Duit Rumah Tangga — Panduan Kewangan Pasangan — RakyatHub" ✅
+  - OG Image: `/_astro/hero-kewangan-pasangan.CGEuLR-i_ZqG98i.jpg` — HTTP 200, 41,885 bytes ✅
+  - `/persediaan-kewangan-ibu-bapa-baru-malaysia/` — title "Persediaan Kewangan Ibu Bapa Baru — SSPN, Insurans & Tabung Anak — RakyatHub" ✅
+  - OG Image: `/_astro/hero-ibu-bapa-baru.DZS0mQ_z_H7bg2.jpg` — HTTP 200, 54,641 bytes ✅
+  - Frontmatter image lines: All 4 `image:` lines active (none commented out) ✅
+  - `/category/emas/` — "Category 'Emas' — RakyatHub" ✅
+  - `/category/insurans/` — "Category 'Insurans' — RakyatHub" ✅
+  - `/` — homepage renders with correct title ✅
+- **Status**: resolved
+
 ## 2026-06-09 20:12
 - **QA Check**: Content-only build — Redirect /join → Shopee + New Side Hustle frozen food article (HEAD shifted mid-pipeline)
 - **Commit 1**: `b7a908e` — Auto: Redirect /join → Shopee
