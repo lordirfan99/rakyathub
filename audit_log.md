@@ -1,5 +1,22 @@
 # Audit Log
 
+## 2026-06-10 13:03
+- **QA Check**: Content-only build — new Gaji RM3,500 breakdown article (Kewangan)
+- **Commit**: `42ef7b6` — Gaji x Budget: RM3,500 breakdown
+- **Changes**: `src/data/post/gaji-rm3500-breakdown-realistik.md` (new post — 119 lines, Gaji RM3,500 breakdown with 50/30/20 budgeting), `src/assets/images/hero-gaji-rm3500.jpg` (new hero image, 128KB), `audit_log.md` (updated)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅; no untracked dev artifacts ✅
+- **Duplicate Image Detection**: `hero-gaji-rm3500.jpg` (hash `67a4cdc`) — unique, no duplicates found ✅
+- **Orphaned Image Detection**: 24 pre-existing orphans unchanged from prior runs — user should `git rm` when convenient
+- **Build**: 344 pages built successfully (8.51s) — clean rebuild ✅
+- **Content Verification** (curl on port 5501, Node.js static server with directory→index.html):
+  - `/gaji-rm3500-breakdown-realistik/` — title "Gaji RM3,500 Sebulan — Macam Mana Nak Hidup & Jimat Duit? — RakyatHub" ✅
+  - OG Image: `/_astro/hero-gaji-rm3500.BLGXP9Id_Z1pUXvO.jpg` — HTTP 200, 87,289 bytes ✅
+  - Frontmatter image line: `image: "~/assets/images/hero-gaji-rm3500.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/category/kewangan/` — "Category 'Kewangan' — RakyatHub" ✅
+  - `/` — homepage renders with correct title ✅
+- **Status**: resolved
+
 ## 2026-06-10 12:18
 - **QA Check**: Content-only build — 2 new Student articles + duplicate image detected & fixed
 - **Commit 1**: `ba97c52` — Auto [Student]: Cara buat rujukan APA style & Cara ulangkaji pelajaran saat akhir
