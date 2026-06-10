@@ -1,5 +1,104 @@
 # Audit Log
 
+## 2026-06-10 17:47
+- **QA Check**: Full build pipeline — rebrand Piala Dunia → Pesta Bola to avoid copyright triggers
+- **Commit**: `24ba08a` — fix: remove trademarked terms (Piala Dunia → Pesta Bola) to avoid copyright triggers
+- **Changes**: `src/pages/cara-tonton-piala-dunia-2026-malaysia/index.astro` — replaced all "Piala Dunia" references with "Pesta Bola", updated metadata (title, description), removed trademarked section labels and comment blocks, consolidated CSS, updated stats labels (Pasukan → Pasukan Bertanding), updated FAQ answers (streaming bola → streaming sukan), replaced comparison table references to competitors
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Build**: 342 pages built successfully (9.25s) — clean rebuild ✅
+- **Content Verification** (curl on port 4005, Node.js static server with directory→index.html):
+  - Page title: "Pesta Bola 2026 — Streaming HD & Komuniti Online Malaysia — RakyatHub" ✅
+  - OG Title: "Pesta Bola 2026 — Streaming HD & Komuniti Online Malaysia" ✅
+  - "Piala Dunia" occurrences: 0 (all trademarked terms removed) ✅
+  - New content verified: "Pesta Bola", "Kejohanan Terbesar 2026", "streaming sukan" all present ✅
+  - CTA banner image `/images/cta-klik-diskon.jpg` — HTTP 200, 108,294 bytes ✅
+- **Broader Verification** (curl):
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+  - `/category/kewangan/` — "Category 'Kewangan' — RakyatHub" ✅
+- **Status**: resolved
+
+## 2026-06-10 17:36
+- **QA Check**: Full CDP pipeline — Convert World Cup article to premium Shopee landing page
+- **Commit**: `47008c0` — feat: convert World Cup article to premium Shopee landing page — zero Discord, full funnel
+- **Changes**: `src/pages/cara-tonton-piala-dunia-2026-malaysia/index.astro` (new custom landing page — 478 lines, full Premium Shopee funnel with hero, stats, features, pricing table, comparison chart, step-by-step guide, testimonials, FAQ, and CTA sections), `src/data/post/cara-tonton-piala-dunia-2026-malaysia.md.bak` (backup of original .md post, 156 lines). Original `.md` post deleted from disk (` D` in git status) — content now rendered as standalone `.astro` page.
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Build**: 342 pages built successfully (9.51s) — page count decreased from 348 as `.md` post replaced by single `.astro` page ✅
+- **CDP Inspection** (port 4000, Node.js static server with directory→index.html):
+  - Page title: "Pesta Bola 2026 — Streaming HD & Komuniti Online Malaysia — RakyatHub" ✅
+  - OG Title: "Pesta Bola 2026 — Streaming HD & Komuniti Online Malaysia" ✅
+  - Console errors: 0 ✅
+  - Broken images: 0 (2 images — CTA SVG icon, CTA banner) ✅
+  - Resource errors: 0 (no 4xx/5xx on any 127.0.0.1 resource) ✅
+  - DOM structure: Banner (header/nav) ✅, Main content section with all sections ✅, Footer (contentinfo) ✅
+  - Page sections verified: Hero (stats: 48, 104+, 3, RM20), Features (1080p HD, RM20, Voice & Chat, Trusted Seller), Pricing (Free Trial RM0/Full Access RM20/Komuniti), Comparison table, Steps (Beli di Shopee → Contact Admin → Tonton & Sorak), Testimonials (3 cards), FAQ (6 items), Final CTA ✅
+  - CTA banner image `/images/cta-klik-diskon.jpg` — HTTP 200, 108,294 bytes ✅
+- **Broader Verification** (curl):
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+  - `/category/kewangan/` — "Category 'Kewangan' — RakyatHub" ✅
+- **Status**: resolved
+
+## 2026-06-10 16:24
+- **QA Check**: Content-only build — new news article (PM Anwar Tolak Naikkan Harga Minyak, RON95 Kekal RM1.99)
+- **Commit**: `92f1bb8` — Auto: News React — PM Anwar Tolak Naikkan Harga Minyak, RON95 Kekal RM1.99
+- **Changes**: `src/assets/images/hero-pm-tolak-naikkan-harga-minyak.jpg` (new hero image, 247KB — hash `d63bd54`), `src/data/post/pm-tolak-naikkan-harga-minyak.md` (new post — 119 lines, PM Anwar's decision to maintain RON95 at RM1.99)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: New image hash `d63bd54895ed26897571b9c3387da56d5f41d0a2` — unique, no duplicates found against any tracked image ✅
+- **Orphaned Image Detection**: 24 pre-existing orphans unchanged from prior runs — user should `git rm` when convenient
+- **Build**: 348 pages built successfully (8.36s) — clean rebuild ✅
+- **Content Verification** (curl on port 5502, Node.js static server with directory→index.html):
+  - `/pm-tolak-naikkan-harga-minyak/` — title "PM Anwar Tolak Naikkan Harga Minyak, RON95 RM1.99 Termurah — RakyatHub" ✅
+  - OG Image: `/_astro/hero-pm-tolak-naikkan-harga-minyak.N03fBtGw_Z20W4Bt.jpg` — HTTP 200, 179,543 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-pm-tolak-naikkan-harga-minyak.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - Category page `/category/kewangan/` — includes new post reference ✅
+  - Homepage renders with correct title ✅
+- **Status**: resolved
+
+## 2026-06-10 14:29
+- **QA Check**: Content-only build — content pipeline self-corrected (unique hero image produced for base-mhit article)
+- **Commit**: `d3b80f2` — fix: add hero image for Base MHIT article (was commented out)
+- **Changes**: `src/assets/images/hero-base-mhit.jpg` (new hero image, 566KB — hash `3fb0c4f` — unique ✅), `src/data/post/base-mhit-plan-insurans-kerajaan-2026.md` (re-activated image frontmatter after prior quarantine — uncommented `image:` line)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: New image hash `3fb0c4f71ef8289499f42af79ab1cef5406b0e5a` — unique, no duplicates found against any tracked image ✅
+- **Orphaned Image Detection**: 24 pre-existing orphans unchanged from prior runs — user should `git rm` when convenient
+- **Build**: 346 pages built successfully (8.51s) — clean rebuild ✅
+- **Content Verification** (curl on port 3050, Node.js static server with directory→index.html):
+  - `/base-mhit-plan-insurans-kerajaan-2026/` — title "Pelan Base MHIT 2026 — Insurans Perubatan Mampu Milik RM50 Sebulan, Alternatif Premium Mahal? — RakyatHub" ✅
+  - OG Image: `/_astro/hero-base-mhit.C6G1m-h8_Z1lRfpM.jpg` — HTTP 200, 117,695 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-base-mhit.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/category/insurans/` — "Category 'Insurans' — RakyatHub" ✅
+  - `/` — homepage renders with correct title ✅
+- **Status**: resolved
+
+## 2026-06-10 14:12
+- **QA Check**: Content-only build — duplicate image detected & fixed (base-mhit hero identical to hero-str)
+- **Commit 1**: `c597333` — Auto: Insurans - Pelan Base MHIT 2026 — Insurans Perubatan Mampu Milik RM50 Sebulan
+- **Commit 2**: `60e9bb5` — fix(qa): Remove duplicate image hero-base-mhit.jpg (identical to hero-str.jpg)
+- **Changes (Commit 1)**: `src/data/post/base-mhit-plan-insurans-kerajaan-2026.md` (new post — 211 lines, Base MHIT insurance guide), `src/assets/images/hero-base-mhit.jpg` (new hero image, 85KB — ⚠️ DUPLICATE of hero-str.jpg), `src/assets/images/hero-cara-ulangkaji-pelajaran-saat-akhir.jpg` (new hero image, 47KB — unique hash 50571d4 ✅, content pipeline self-corrected from earlier duplicate), `src/data/post/cara-ulangkaji-pelajaran-saat-akhir.md` (re-activated image frontmatter), `.netlify/functions/manifest.json` (timestamp update)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: 
+  - `hero-base-mhit.jpg` (hash `5d0bbcf4`) — ⚠️ **DUPLICATE of `hero-str.jpg`** (identical content, 85KB, same git hash). First occurrence (no prior removal history for this filename).
+  - `hero-cara-ulangkaji-pelajaran-saat-akhir.jpg` (hash `50571d40`) — unique ✅
+- **Fix Applied**: 
+  - `git rm src/assets/images/hero-base-mhit.jpg` — removed duplicate file from git and working tree
+  - Commented out `image:` line in `base-mhit-plan-insurans-kerajaan-2026.md` frontmatter — post falls back to default OG image
+  - Committed as `60e9bb5`
+- **Orphaned Image Detection**: 24 pre-existing orphans unchanged from prior runs — user should `git rm` when convenient
+- **Build**: 346 pages built successfully (11.44s) — clean rebuild ✅
+- **Content Verification** (curl on port 5056, Node.js static server with directory→index.html):
+  - `/base-mhit-plan-insurans-kerajaan-2026/` — title "Pelan Base MHIT 2026 — Insurans Perubatan Mampu Milik RM50 Sebulan, Alternatif Premium Mahal? — RakyatHub" ✅
+  - OG Image: `/_astro/default.BXnHqeYJ_Z1yEx1G.jpg` — falls back to default site image (correct after fix — no duplicate Vite dedup issue) ✅
+  - Frontmatter image line: `# image: "~/assets/images/hero-base-mhit.jpg" — REMOVED (duplicate of hero-str.jpg)` — commented out to prevent build failure ✅
+  - `/cara-ulangkaji-pelajaran-saat-akhir/` — title "Cara Ulangkaji Pelajaran Saat Akhir — 7 Teknik Power — RakyatHub" ✅
+  - OG Image: `/_astro/hero-cara-ulangkaji-pelajaran-saat-akhir.B9ipiVQ9_Z1WSd6A.jpg` — HTTP 200, 32,813 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-cara-ulangkaji-pelajaran-saat-akhir.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/category/insurans/` — "Category 'Insurans' — RakyatHub" ✅
+  - `/category/pendidikan/` — "Category 'Pendidikan' — RakyatHub" ✅
+  - `/` — homepage renders with correct title ✅
+- **Status**: resolved
+
 ## 2026-06-10 13:42
 - **QA Check**: Content-only scan — content pipeline self-corrected (unique hero image produced for cara-ulangkaji-pelajaran-saat-akhir)
 - **Context**: Commit `b59c7ce` (previously documented at 13:21) had removed duplicate image and commented out frontmatter. Between then and now, the content pipeline re-created `hero-cara-ulangkaji-pelajaran-saat-akhir.jpg` as a **unique file** (47KB, hash `50571d40`) — NOT a duplicate of `hero-ptptn.jpg` (hash `8191209`). Frontmatter `image:` line was re-activated.
@@ -844,22 +943,4 @@ All verified via curl on port 5055:
 ## 2026-01-18 14:00
 - **QA Check**: First QA run — initial setup
 - **Build**: 203 pages
-- **Status**: resolved
-
-## 2026-06-10 12:35
-- **QA Check**: Full CDP pipeline — Remove astro-compress plugin (hangs on build:done, causes cron timeouts)
-- **Commit**: `0c5765a` — fix: remove astro-compress (hangs on build:done, causes cron timeouts)
-- **Changes**: `astro.config.ts` (removed `astro-compress` import + config block — CSS/HTML/JS compression disabled to prevent build:done hang), `.netlify/state.json` (updated siteId)
-- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
-- **Build**: 341 pages built successfully (7.82s) — significantly faster without astro-compress build:done hang ✅
-- **Browser Inspection** (CDP on port 5053, Node.js static server):
-  - DOM: main(1), header(1), nav(1), footer(1) — all present ✅
-  - Console: 0 errors, 0 warnings ✅
-  - Resource errors: 0 (no 4xx/5xx) ✅
-  - Broken images: 0 ✅
-- **Subdirectory Page Verification** (curl):
-  - `/category/kewangan/` — "Category 'Kewangan' — RakyatHub" ✅
-  - `/hubungi/` — "Hubungi Kami — RakyatHub" ✅
-  - `/tentang/` — "Tentang Kami — Pasukan RakyatHub" ✅
-  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
 - **Status**: resolved
