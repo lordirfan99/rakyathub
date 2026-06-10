@@ -1,5 +1,22 @@
 # Audit Log
 
+## 2026-06-10 10:13
+- **QA Check**: Content-only build — new Kerjaya article (Industri Paling Prospek)
+- **Commit**: `f449fe6` — Auto: Kerjaya - Industri Paling Prospek di Malaysia 2026 — Perbandingan Gaji, Peluang & Prospek Kerjaya
+- **Changes**: 1 new `.md` post (`industri-paling-prospek-malaysia-2026.md`), 1 new hero image (`hero-industri-paling-prospek-malaysia-2026.jpg`, 144KB), `.netlify/netlify.toml` (added `/join → Shopee` redirect), `.netlify/functions/manifest.json` (timestamp update)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; git status clean ✅
+- **Duplicate Image Detection**: New image hash (`13748061c8e71abfee05a4668e274ef240796754`) is unique — no duplicates found ✅
+- **Orphaned Image Detection**: 24 pre-existing orphans unchanged from prior runs — user should `git rm` when convenient
+- **Build**: Already built (dist/ included this post as untracked content during prior build for commit `1f28f0a`) — no rebuild needed ✅
+- **Content Verification** (curl on port 6000, Node.js static server):
+  - `/industri-paling-prospek-malaysia-2026/` — title "Industri Paling Prospek di Malaysia 2026 — Perbandingan Gaji, Peluang & Prospek Kerjaya — RakyatHub" ✅
+  - OG Image: `/_astro/hero-industri-paling-prospek-malaysia-2026.Cl3t5hQ1_Z1bnrnJ.jpg` — HTTP 200, 98,399 bytes ✅
+  - Frontmatter image line: `image: "~/assets/images/hero-industri-paling-prospek-malaysia-2026.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/category/kerjaya/` — "Category 'Kerjaya' — RakyatHub" ✅
+  - `/` — homepage renders with correct title ✅
+- **Status**: resolved
+
 ## 2026-06-10 08:21
 - **QA Check**: Content-only build — 4 new articles (Pajak Gadai Emas, Insurans Kereta, Urus Duit Rumah Tangga, Persediaan Ibu Bapa Baru)
 - **Commit**: `1f28f0a` — Auto: 4 new articles — Pajak Gadai Emas, Panduan Insurans Kereta, Urus Duit Rumah Tangga, Persediaan Ibu Bapa Baru
