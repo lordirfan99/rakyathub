@@ -1,5 +1,27 @@
 # Audit Log
 
+## 2026-06-09 20:12
+- **QA Check**: Content-only build — Redirect /join → Shopee + New Side Hustle frozen food article (HEAD shifted mid-pipeline)
+- **Commit 1**: `b7a908e` — Auto: Redirect /join → Shopee
+- **Commit 2**: `50cbcb5` — Auto: Side Hustle - Bisnes Makanan Frozen Dari Rumah 2026 (arrived during build)
+- **Changes (Commit 1)**: `public/_redirects` — added `/join  https://s.shopee.com.my/Lkj8tCGZ2  301` redirect; `audit_log.md` — updated
+- **Changes (Commit 2)**: `src/data/post/bisnes-makanan-frozen-dari-rumah-2026.md` (new post — Side Hustle frozen food business), `src/assets/images/hero-bisnes-frozen-food-2026.jpg` (new hero image, 928KB)
+- **Pre-build**: No untracked `.astro` files ✅; 1 untracked post + image detected as dev artifacts (now committed in Commit 2) — noted
+- **Build**: 309 pages built successfully (1m 45s) — no cache issues ✅
+- **Content Verification** (curl on port 4000):
+  - `/bisnes-makanan-frozen-dari-rumah-2026/` — title "Bisnes Makanan Frozen Dari Rumah — Modal Bawah RM500, Side Hustle 2026 — RakyatHub" ✅
+  - OG Image: `/_astro/hero-bisnes-frozen-food-2026.CPjRUKZC_2cwwel.jpg` — HTTP 200, 190,504 bytes ✅
+  - Frontmatter image line: `image: "~/assets/images/hero-bisnes-frozen-food-2026.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/category/kewangan/` — "Category 'Kewangan' — RakyatHub" ✅
+  - `/` — homepage renders with correct title ✅
+- **_redirects Verification**: File present in `dist/` with correct rules:
+  - `/join  https://s.shopee.com.my/Lkj8tCGZ2  301` ✅
+  - `/94-2  /panduan-kwsp-malaysia-2025  301` ✅
+  - `/sitemap.xml  /sitemap-index.xml  301` ✅
+- **Orphaned Images** (noted): 24 pre-existing orphans unchanged from prior runs — user should `git rm` when convenient
+- **Status**: resolved
+
 ## 2026-06-09 19:07
 - **QA Check**: Content-only build — Updated World Cup article — zero Discord, Shopee-only funnel
 - **Commit**: `f5a66c2` — Auto: World Cup article — zero Discord, Shopee-only funnel
