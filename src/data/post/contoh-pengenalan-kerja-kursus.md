@@ -3,7 +3,7 @@ publishDate: 2026-06-11
 title: "Contoh Pengenalan Kerja Kursus Yang Menarik & Tepat"
 excerpt: "Nak tahu cara tulis pengenalan kerja kursus yang power? Ini 3 contoh pengenalan kerja kursus untuk berbagai subjek lengkap dengan format dan tips."
 category: Pendidikan
-image: "~/assets/images/hero-contoh-pengenalan-kerja-kursus.jpg"
+# image: "~/assets/images/hero-contoh-pengenalan-kerja-kursus.jpg" — REMOVED (duplicate of hero-idea-bisnes-modal-kecil-untuk-student.jpg)
 tags:
   - student
   - kerja-kursus
