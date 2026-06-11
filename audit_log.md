@@ -1,5 +1,23 @@
 # Audit Log
 
+## 2026-06-11 16:22
+- **QA Check**: Content-only build — new News React article (Harga Minyak Kekal 11-17 Jun 2026)
+- **Commit**: `70cdecb` — Auto: News React - Harga Minyak Kekal 11-17 Jun 2026
+- **Changes**: `src/data/post/harga-minyak-kekal-jun-2026.md` (new post — 108 lines, fuel price freeze news for 11-17 Jun 2026), `src/assets/images/hero-harga-minyak-kekal-jun-2026.jpg` (new hero image, 72KB — unique hash `c311712` ✅), `audit_log.md` (updated by content pipeline)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: New image hash `c3117121a176f2b8b9f25467ed33fcff2cd6c630` — unique, no duplicates found against any tracked image ✅
+- **Orphaned Image Detection**: 26 pre-existing orphans (20 public/images/ + 4 public/ + `hero-saham-usa.jpg` + `cta-join-discord.png` + `hero-test-a.jpg`, `hero-test-b.jpg`) — unchanged from prior runs, user should `git rm` when convenient
+- **Build**: 383 pages built successfully (10.19s) — incremental build, reused cache for 280 images ✅
+- **Content Verification** (curl on port 3002, Python http.server serving from dist/):
+  - `/harga-minyak-kekal-jun-2026/` — title "Harga Minyak Kekal Minggu Ini — Apa Maksudnya Untuk Korang? — RakyatHub" ✅
+  - OG Image: `/_astro/hero-harga-minyak-kekal-jun-2026.Db_zKS2u_1CDIgr.jpg` — HTTP 200, 45,578 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-harga-minyak-kekal-jun-2026.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/category/kewangan/` — "Category 'Kewangan' — RakyatHub" ✅
+  - `/blog/` — "Blog — RakyatHub" ✅
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+- **Status**: resolved
+
 ## 2026-06-11 15:45
 - **QA Check**: Content-only build — new Glossary article (Dividen)
 - **Commit**: `8a5d922` — Glossary: Dividen

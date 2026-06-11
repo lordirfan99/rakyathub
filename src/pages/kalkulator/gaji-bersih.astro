@@ -3,7 +3,8 @@ import Layout from '~/layouts/PageLayout.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Kalkulator Gaji Bersih Malaysia — Take-Home Pay',
+  title: 'Kalkulator Gaji Bersih Malaysia — Kira Gaji Selepas KWSP, SOCSO, PCB',
+  description: 'Kira gaji bersih Malaysia 2026 selepas potongan KWSP, SOCSO, EIS dan PCB. Dapatkan kategori B40/M40/T20, bajet 50/30/20 dan tips kewangan peribadi.',
 };
 ---
 
@@ -116,6 +117,41 @@ const metadata = {
       </a>
     </div>
 
+    <!-- B40/M40/T20 + Budget Card -->
+    <div class="grid md:grid-cols-2 gap-6 mb-8">
+      <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-6">
+        <h3 class="font-bold text-lg mb-3">📊 Kategori Pendapatan</h3>
+        <div class="text-center">
+          <div class="text-4xl font-black mb-1" id="kategoriLabel">B40</div>
+          <div class="text-sm text-muted mb-3" id="kategoriDesc">~40% isi rumah Malaysia</div>
+          <div class="flex gap-1 h-2 rounded-full overflow-hidden">
+            <div class="bg-red-500 flex-1" id="barB40" style="opacity:0.2"></div>
+            <div class="bg-amber-500 flex-1" id="barM40" style="opacity:0.2"></div>
+            <div class="bg-green-500 flex-1" id="barT20" style="opacity:0.2"></div>
+          </div>
+          <div class="flex justify-between text-xs text-muted mt-1">
+            <span>B40 &lt;RM4,850</span>
+            <span>M40 RM4,850-RM10,959</span>
+            <span>T20 &gt;RM10,959</span>
+          </div>
+        </div>
+      </div>
+      <div class="rounded-2xl bg-gradient-to-br from-primary/5 to-secondary/5 border border-primary/20 shadow-sm p-6">
+        <h3 class="font-bold text-lg mb-2">💰 Bajet 55/15/20/10</h3>
+        <p class="text-sm text-muted mb-3">Berdasarkan gaji bersih <strong id="budgetBersih">RM 0</strong></p>
+        <div class="space-y-2 text-sm">
+          <div class="flex justify-between items-center"><span>55% Keperluan</span><span class="font-semibold" id="budgetPerlu">RM 0</span></div>
+          <div class="h-1.5 bg-gray-200 dark:bg-slate-700 rounded-full"><div class="h-full bg-primary rounded-full" id="barPerlu" style="width:0%"></div></div>
+          <div class="flex justify-between items-center mt-2"><span>15% Mahu</span><span class="font-semibold" id="budgetMahu">RM 0</span></div>
+          <div class="h-1.5 bg-gray-200 dark:bg-slate-700 rounded-full"><div class="h-full bg-secondary rounded-full" id="barMahu" style="width:0%"></div></div>
+          <div class="flex justify-between items-center mt-2"><span>20% Simpan</span><span class="font-semibold text-emerald-600" id="budgetSimpan">RM 0</span></div>
+          <div class="h-1.5 bg-gray-200 dark:bg-slate-700 rounded-full"><div class="h-full bg-emerald-500 rounded-full" id="barSimpan" style="width:0%"></div></div>
+          <div class="flex justify-between items-center mt-2"><span>10% Bayar/Zakat</span><span class="font-semibold" id="budgetZakat">RM 0</span></div>
+          <div class="h-1.5 bg-gray-200 dark:bg-slate-700 rounded-full"><div class="h-full bg-amber-500 rounded-full" id="barZakat" style="width:0%"></div></div>
+        </div>
+      </div>
+    </div>
+
     <!-- Info Cards -->
     <div class="grid md:grid-cols-3 gap-6 mb-8">
       <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
@@ -212,6 +248,46 @@ function calc() {
     tr.appendChild(td1); tr.appendChild(td2); fr.appendChild(tr);
   });
   tb.textContent=''; tb.appendChild(fr);
+
+  // --- B40/M40/T20 ---
+  var inc = g;
+  var katLabel = document.getElementById('kategoriLabel');
+  var katDesc = document.getElementById('kategoriDesc');
+  var b40 = document.getElementById('barB40');
+  var m40 = document.getElementById('barM40');
+  var t20 = document.getElementById('barT20');
+  if (inc < 4850) {
+    katLabel.textContent = 'B40';
+    katLabel.className = 'text-4xl font-black mb-1 text-red-500';
+    katDesc.textContent = '~40% isi rumah Malaysia (pendapatan < RM4,850)';
+    b40.style.opacity = '1'; m40.style.opacity = '0.2'; t20.style.opacity = '0.2';
+  } else if (inc < 10960) {
+    katLabel.textContent = 'M40';
+    katLabel.className = 'text-4xl font-black mb-1 text-amber-500';
+    katDesc.textContent = '~40% isi rumah Malaysia (RM4,850 - RM10,959)';
+    b40.style.opacity = '0.2'; m40.style.opacity = '1'; t20.style.opacity = '0.2';
+  } else {
+    katLabel.textContent = 'T20';
+    katLabel.className = 'text-4xl font-black mb-1 text-green-500';
+    katDesc.textContent = '~20% isi rumah Malaysia (pendapatan > RM10,959)';
+    b40.style.opacity = '0.2'; m40.style.opacity = '0.2'; t20.style.opacity = '1';
+  }
+
+  // --- Budget 55/15/20/10 ---
+  var bd = gajiBersih;
+  document.getElementById('budgetBersih').textContent = fmt(bd);
+  var perlu = Math.round(bd * 0.55);
+  var mahu = Math.round(bd * 0.15);
+  var simpan = Math.round(bd * 0.20);
+  var zakat = Math.round(bd * 0.10);
+  document.getElementById('budgetPerlu').textContent = fmt(perlu);
+  document.getElementById('budgetMahu').textContent = fmt(mahu);
+  document.getElementById('budgetSimpan').textContent = fmt(simpan);
+  document.getElementById('budgetZakat').textContent = fmt(zakat);
+  document.getElementById('barPerlu').style.width = '55%';
+  document.getElementById('barMahu').style.width = '15%';
+  document.getElementById('barSimpan').style.width = '20%';
+  document.getElementById('barZakat').style.width = '10%';
 }
 ['gaji','kwsp','bonus','pcb'].forEach(function(id){var el=document.getElementById(id);if(el){el.addEventListener('input',calc);el.addEventListener('change',calc);}});
 calc();
