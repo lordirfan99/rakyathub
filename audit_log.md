@@ -1,5 +1,21 @@
 # Audit Log
 
+## 2026-06-11 18:44
+- **QA Check**: Text-only component change — homepage links to countdown gaji (salary countdown) & quiz kewangan (financial health quiz) + increase postsPerPage to 30
+- **Commit**: `ce790e0` — fix: increase postsPerPage to 30 + add homepage links to countdown & quiz
+- **Changes**: `src/config.yaml` (postsPerPage: 9→30), `src/pages/index.astro` (+10 lines — added 2 new `<a href>` cards to homepage: Countdown Gaji → `/berapa-hari-lagi-nak-gaji/`, Quiz Kewangan → `/quiz-kesihatan-kewangan/`), `.netlify/functions/manifest.json` (timestamp)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Orphaned Image Detection**: 26 pre-existing orphans unchanged from prior runs (20 public/images/ + 4 public/ + 2 src/assets/) — user should `git rm` when convenient
+- **Build**: 365 pages built successfully (10.40s) — clean rebuild ✅
+- **Content Verification** (curl on port 3100, Node.js static server with directory→index.html):
+  - Homepage (`/`): title "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+  - "Countdown Gaji" link present on homepage (1 occurrence) ✅
+  - "Quiz Kewangan" link present on homepage (1 occurrence) ✅
+  - `/berapa-hari-lagi-nak-gaji/` — title "Berapa Hari Lagi Nak Gaji? — Countdown Gaji Malaysia 2026 — RakyatHub" ✅
+  - `/quiz-kesihatan-kewangan/` — title "Quiz Kesihatan Kewangan — Semak Skor Kewangan Anda — RakyatHub" ✅
+  - `/category/kewangan/` — "Category 'Kewangan' — RakyatHub" ✅
+- **Status**: resolved
+
 ## 2026-06-11 18:09
 - **QA Check**: Full build + CDP pipeline — new interactive pages (countdown gaji, quiz kewangan, upgraded gaji-bersih) + image fix for slaid pembentangan (HEAD shifted mid-pipeline)
 - **Commit 1**: `735931b` — feat: add countdown gaji, quiz kewangan, upgrade gaji-bersih + indexing fix
