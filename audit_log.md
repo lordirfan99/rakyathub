@@ -1,5 +1,35 @@
 # Audit Log
 
+## 2026-06-11 08:26
+- **QA Check**: Content-only build — 4 new articles (PR1MA, Saham Bursa Malaysia, PRS, Tabung Haji)
+- **Commit**: `ee36b1d` — Auto: 4 new articles — PRS skim persaraan, PR1MA 2026, cara melabur saham Bursa Malaysia, Tabung Haji panduan
+- **Changes**: `src/data/post/cara-mohon-rumah-pr1ma-2026-syarat-kelayakan.md` (new post — 194 lines), `src/data/post/cara-mula-melabur-saham-bursa-malaysia-panduan-pemula-2026.md` (new post — 207 lines), `src/data/post/prs-skim-persaraan-swasta-panduan-lengkap-2026.md` (new post — 176 lines), `src/data/post/tabung-haji-2026-panduan-simpanan-dividen.md` (new post — 207 lines); `src/assets/images/hero-melabur-saham-bursa.jpg` (new — 74KB, hash `2fc373b3` — unique ✅), `src/assets/images/hero-mohon-rumah-pr1ma.jpg` (new — 128KB, hash `b989414a` — unique ✅), `src/assets/images/hero-prs-retirement.jpg` (new — 126KB, hash `4fa00a2e` — unique ✅), `src/assets/images/hero-tabung-haji.jpg` (updated — 124KB, hash `01e381d2` — unique ✅)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: All 3 new + 1 modified images have unique hashes — no duplicates found against any tracked image ✅
+- **Orphaned Image Detection**: 24 pre-existing orphans unchanged from prior runs — user should `git rm` when convenient
+- **HEAD shift noted**: Initial HEAD was `0308603` (already documented, early-exit fired). During processing, HEAD shifted to `ee36b1d` (this commit). New commit processed fresh.
+- **Build**: 357 pages built successfully (10.17s) — clean rebuild ✅
+- **Content Verification** (curl on port 6001, Node.js static server with directory→index.html):
+  - `/cara-mohon-rumah-pr1ma-2026-syarat-kelayakan/` — title "PR1MA 2026 — Cara Mohon Rumah Mampu Milik & Syarat Kelayakan — RakyatHub" ✅
+  - OG Image: `/_astro/hero-mohon-rumah-pr1ma.BPTPE1MJ_Z1RfDav.jpg` — HTTP 200, 95,396 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-mohon-rumah-pr1ma.jpg"` — active (not commented) ✅
+  - `/cara-mula-melabur-saham-bursa-malaysia-panduan-pemula-2026/` — title "Cara Mula Melabur Saham Bursa Malaysia — Panduan Pemula 2026 — RakyatHub" ✅
+  - OG Image: `/_astro/hero-melabur-saham-bursa.CvCGxwek_hPGjB.jpg` — HTTP 200, 52,150 bytes ✅ (specific hero image)
+  - Frontmatter image line: `image: "~/assets/images/hero-melabur-saham-bursa.jpg"` — active (not commented) ✅
+  - `/prs-skim-persaraan-swasta-panduan-lengkap-2026/` — title "PRS 2026 — Skim Persaraan Swasta Untuk Tambah Simpanan Pencen — RakyatHub" ✅
+  - OG Image: `/_astro/hero-prs-retirement.C3aTJVI4_1OcC9g.jpg` — HTTP 200, 91,167 bytes ✅ (specific hero image)
+  - Frontmatter image line: `image: "~/assets/images/hero-prs-retirement.jpg"` — active (not commented) ✅
+  - `/tabung-haji-2026-panduan-simpanan-dividen/` — title "Tabung Haji 2026 — Cara Simpan, Dividen & Panduan Lengkap — RakyatHub" ✅
+  - OG Image: `/_astro/hero-tabung-haji.BfGWcRZ4_2tvT2X.jpg` — HTTP 200, 81,293 bytes ✅ (specific hero image, updated file)
+  - Frontmatter image line: `image: "~/assets/images/hero-tabung-haji.jpg"` — active (not commented) ✅
+- **Broader Verification** (curl):
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+  - `/category/kerajaan/` — "Category 'Kerajaan' — RakyatHub" ✅
+  - `/category/pelaburan/` — "Category 'Pelaburan' — RakyatHub" ✅
+  - `/side-hustle-content-creator-ugc-malaysia-2026/` — existing post still renders ✅
+  - `/category/kewangan/2/` — pagination still works ✅
+- **Status**: resolved
+
 ## 2026-06-10 20:13
 - **QA Check**: Content-only build — new Side Hustle UGC article (content creator side hustle guide)
 - **Commit**: `0308603` — Auto: Side Hustle - Content Creator & UGC Artikel Baru
