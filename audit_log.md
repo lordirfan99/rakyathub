@@ -1,5 +1,35 @@
 # Audit Log
 
+## 2026-06-11 14:57
+- **QA Check**: Content-only build — 3 new articles (Insurans, Aplikasi Belajar, Cara Buat Slaid), duplicate image detected & fixed
+- **Commit 1**: `24696aa` — Auto: Insurans - Pelan Perlindungan Ikut Tahap Umur
+- **Commit 2**: `bb9f906` — fix(qa): Remove duplicate image hero-cara-buat-slaid-pembentangan-menarik.jpg (identical to hero-contoh-pengenalan-kerja-kursus.jpg)
+- **Changes (Commit 1)**: `src/data/post/pelan-perlindungan-ikut-tahap-umur-insurans-takaful.md` (new post — 197 lines, comprehensive insurance guide by age group), `src/data/post/aplikasi-belajar-untuk-student.md` (new post — 158 lines, 10 digital tools for students), `src/data/post/cara-buat-slaid-pembentangan-menarik.md` (new post — 146 lines, 7 presentation design tips); `src/assets/images/hero-perlindungan-ikut-umur.jpg` (new hero image, 561KB — hash `678867a` — unique ✅), `src/assets/images/hero-aplikasi-belajar-untuk-student.jpg` (new hero image, 209KB — hash `7efd43c` — unique ✅), `src/assets/images/hero-cara-buat-slaid-pembentangan-menarik.jpg` (new hero image, 362KB — ⚠️ DUPLICATE of hero-contoh-pengenalan-kerja-kursus.jpg), `src/assets/images/hero-test-a.jpg`, `src/assets/images/hero-test-b.jpg` (test artifacts, unreferenced)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**:
+  - `hero-cara-buat-slaid-pembentangan-menarik.jpg` (hash `5e625a4`) — ⚠️ **DUPLICATE of `hero-contoh-pengenalan-kerja-kursus.jpg`** (identical content, same git hash). First occurrence (no prior removal history for this filename).
+  - All other new images unique ✅
+- **Fix Applied**:
+  - `git rm src/assets/images/hero-cara-buat-slaid-pembentangan-menarik.jpg` — removed duplicate file from git and working tree
+  - Commented out `image:` line in `cara-buat-slaid-pembentangan-menarik.md` frontmatter — post falls back to default OG image
+  - Committed as `bb9f906`
+- **Orphaned Image Detection**: 27 pre-existing orphans unchanged from prior runs — plus `hero-test-a.jpg`, `hero-test-b.jpg` (test artifacts, unreferenced — user should `git rm` when convenient)
+- **Build**: 378 pages built successfully (12.30s) — clean rebuild ✅
+- **Content Verification** (curl on port 3000, Node.js static server with directory→index.html):
+  - `/pelan-perlindungan-ikut-tahap-umur-insurans-takaful/` — title "Pelan Perlindungan Ikut Tahap Umur — Insurans & Takaful Apa Yang Korang Perlukan Dari 20-an Hingga 50-an? — RakyatHub" ✅
+  - OG Image: `/_astro/hero-perlindungan-ikut-umur.btXE_CK7_2ctJ2D.jpg` — HTTP 200, 113,036 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-perlindungan-ikut-umur.jpg"` — active (not commented) ✅
+  - `/aplikasi-belajar-untuk-student/` — title "Aplikasi Belajar Untuk Student — 10 Tools Digital Terbaik 2026 — RakyatHub" ✅
+  - OG Image: `/_astro/hero-aplikasi-belajar-untuk-student.CLR6EqTg_2eU5Dt.jpg` — HTTP 200, 60,339 bytes ✅ (specific hero image)
+  - Frontmatter image line: `image: "~/assets/images/hero-aplikasi-belajar-untuk-student.jpg"` — active (not commented) ✅
+  - `/cara-buat-slaid-pembentangan-menarik/` — title "Cara Buat Slaid Pembentangan Menarik — 7 Tips Design Untuk Student — RakyatHub" ✅
+  - OG Image: `/_astro/default.BXnHqeYJ_Z1yEx1G.jpg` — falls back to default site image (correct after fix — no duplicate Vite dedup issue) ✅
+  - Frontmatter image line: `# image: "..."` — commented out to prevent build failure ✅
+  - `/category/insurans/` — "Category 'Insurans' — RakyatHub" ✅
+  - `/category/pendidikan/` — "Category 'Pendidikan' — RakyatHub" ✅
+  - `/` — homepage renders with correct title ✅
+- **Status**: resolved
+
 ## 2026-06-11 10:58
 - **QA Check**: Content-only build — restored hero image for Contoh Pengenalan Kerja Kursus (fresh Unsplash ID, previously a duplicate that was removed)
 - **Commit**: `9227a0c` — fix: Restore hero image for contoh-pengenalan-kerja-kursus (fresh Unsplash ID)
