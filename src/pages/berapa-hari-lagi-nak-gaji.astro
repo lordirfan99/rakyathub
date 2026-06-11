@@ -4,7 +4,7 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Berapa Hari Lagi Nak Gaji? — Countdown Gaji Malaysia 2026',
-  description: 'Semak countdown hari lagi nak gaji. Kongsikan dengan rakan dan urus kewangan dengan lebih bijak. Kalkulator gaji bersih & tips kewangan.',
+  description: 'Semak countdown hari lagi nak gaji. Set tarikh gaji ikut jadual korang. Kongsikan dengan rakan dan urus kewangan dengan lebih bijak.',
 };
 
 const schema = {
@@ -12,7 +12,7 @@ const schema = {
   '@type': 'WebApplication',
   name: 'Berapa Hari Lagi Nak Gaji? Countdown',
   url: 'https://rakyathub.my/berapa-hari-lagi-nak-gaji/',
-  description: 'Interactive payday countdown for Malaysian workers',
+  description: 'Customisable payday countdown for Malaysian workers',
   applicationCategory: 'UtilityApplication',
   operatingSystem: 'All',
 };
@@ -32,14 +32,25 @@ const schema = {
         Berapa Hari Lagi Nak <span class="text-primary">Gaji</span>?
       </h1>
       <p class="text-lg md:text-xl text-muted max-w-2xl mx-auto">
-        Countdown hari lagi dapat gaji. Kongsikan dengan kawan-kawan dan mula urus kewangan dengan lebih bijak.
+        Countdown hari lagi dapat gaji — ikut tarikh gaji korang. Kongsikan dengan kawan-kawan!
       </p>
     </div>
 
     <!-- Main Countdown Card -->
     <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-6 md:p-10 mb-8 text-center">
-      <p class="text-sm text-muted mb-2" id="currentDate"></p>
+      
+      <!-- Date + Input row -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
+        <p class="text-sm text-muted" id="currentDate"></p>
+        <div class="flex items-center gap-2">
+          <label for="paydayInput" class="text-xs text-muted whitespace-nowrap">Hari Gaji:</label>
+          <select id="paydayInput"
+            class="rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-1.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+          </select>
+        </div>
+      </div>
 
+      <!-- Big countdown -->
       <div class="flex justify-center gap-4 md:gap-8 my-8" id="countdownDisplay">
         <div class="text-center">
           <div class="text-5xl md:text-7xl font-black text-primary tabular-nums" id="days">0</div>
@@ -59,10 +70,12 @@ const schema = {
         </div>
       </div>
 
+      <!-- Next payday -->
       <div class="inline-block rounded-full bg-primary/10 text-primary text-sm font-medium px-5 py-2 mb-4">
         🎯 Gaji seterusnya: <span id="nextPaydayDate" class="font-bold"></span>
       </div>
 
+      <!-- Progress bar -->
       <div class="max-w-md mx-auto mb-6">
         <div class="flex justify-between text-xs text-muted mb-1.5">
           <span>Gaji Lepas</span>
@@ -74,6 +87,7 @@ const schema = {
         </div>
       </div>
 
+      <!-- Share buttons -->
       <div class="flex flex-wrap justify-center gap-3 mt-6">
         <a id="shareWA" href="#" target="_blank" rel="noopener noreferrer"
           class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-green-600 hover:bg-green-700 text-white font-medium text-sm transition-all duration-200 hover:scale-[1.02] active:scale-95">
@@ -145,9 +159,6 @@ const schema = {
         <li><a href="/kalkulator/gaji-bersih/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Gaji Bersih Malaysia</a></li>
         <li><a href="/kalkulator/pcb-cukai-pendapatan/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator PCB & Cukai Pendapatan</a></li>
         <li><a href="/gaji-rm3500-breakdown-realistik/" class="text-primary font-medium hover:underline text-sm">→ Gaji RM3,500 Breakdown Realistik</a></li>
-        <li><a href="/gaji-graduan-mengikut-industri-2026/" class="text-primary font-medium hover:underline text-sm">→ Gaji Graduan Ikut Industri 2026</a></li>
-        <li><a href="/urus-duit-gaji-bawah-rm3000/" class="text-primary font-medium hover:underline text-sm">→ Cara Urus Duit Gaji Bawah RM3,000</a></li>
-        <li><a href="/kalkulator/bajet-kahwin/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Bajet Kahwin</a></li>
       </ul>
     </div>
   </section>
@@ -164,35 +175,49 @@ const schema = {
 
   <script is:inline>
 (function() {
-  var now = new Date();
-  var targetDay = 22;
+  var months = ['Januari','Februari','Mac','April','Mei','Jun','Julai','Ogos','September','Oktober','November','Disember'];
+  var days = ['Ahad','Isnin','Selasa','Rabu','Khamis','Jumaat','Sabtu'];
 
-  var nextPayday = new Date(now.getFullYear(), now.getMonth(), targetDay, 5, 0, 0);
-  if (now >= nextPayday) {
-    if (now.getDate() === targetDay && now.getHours() < 5) {
-      // still waiting
-    } else {
-      nextPayday = new Date(now.getFullYear(), now.getMonth() + 1, targetDay, 5, 0, 0);
-    }
+  // --- Populate day selector ---
+  var sel = document.getElementById('paydayInput');
+  for (var i = 1; i <= 31; i++) {
+    var opt = document.createElement('option');
+    opt.value = i;
+    opt.textContent = i;
+    sel.appendChild(opt);
   }
 
-  var prevPayday = new Date(nextPayday);
-  prevPayday.setMonth(prevPayday.getMonth() - 1);
+  // --- Load saved or default to 22 ---
+  var savedDay = localStorage.getItem('rhPayday');
+  var targetDay = savedDay ? parseInt(savedDay, 10) : (new Date().getDate() <= 28 ? 22 : 22);
+  if (targetDay < 1 || targetDay > 31) targetDay = 22;
+  sel.value = targetDay;
+
+  var nextPayday, prevPayday;
+
+  function recalcDates() {
+    var now = new Date();
+    nextPayday = new Date(now.getFullYear(), now.getMonth(), targetDay, 5, 0, 0);
+    if (now >= nextPayday) {
+      if (now.getDate() === targetDay && now.getHours() < 5) {
+        // still waiting for today's salary
+      } else {
+        nextPayday = new Date(now.getFullYear(), now.getMonth() + 1, targetDay, 5, 0, 0);
+      }
+    }
+    prevPayday = new Date(nextPayday);
+    prevPayday.setMonth(prevPayday.getMonth() - 1);
+  }
 
   function getDiff() {
     var now = new Date();
     var diff = nextPayday - now;
     if (diff <= 0) {
-      nextPayday = new Date(now.getFullYear(), now.getMonth() + 1, targetDay, 5, 0, 0);
-      prevPayday = new Date(nextPayday);
-      prevPayday.setMonth(prevPayday.getMonth() - 1);
+      recalcDates();
       diff = nextPayday - now;
     }
     return diff;
   }
-
-  var months = ['Januari','Februari','Mac','April','Mei','Jun','Julai','Ogos','September','Oktober','November','Disember'];
-  var days = ['Ahad','Isnin','Selasa','Rabu','Khamis','Jumaat','Sabtu'];
 
   function updateClock() {
     var now = new Date();
@@ -217,13 +242,29 @@ const schema = {
     document.getElementById('progressBar').style.width = pct + '%';
   }
 
+  // --- On day change ---
+  sel.addEventListener('change', function() {
+    targetDay = parseInt(this.value, 10);
+    if (targetDay < 1) targetDay = 1;
+    if (targetDay > 31) targetDay = 31;
+    localStorage.setItem('rhPayday', targetDay);
+    recalcDates();
+    updateClock();
+  });
+
+  recalcDates();
   updateClock();
   setInterval(updateClock, 1000);
 
+  // --- Share links ---
   setInterval(function() {
-    var msg = '💰 Lagi ' + document.getElementById('days').textContent + ' hari ' + document.getElementById('hours').textContent + ':' + document.getElementById('minutes').textContent + ' nak gaji! (' + document.getElementById('nextPaydayDate').textContent + ')\n\nUrus kewangan lebih bijak dengan RakyatHub:\nhttps://rakyathub.my/berapa-hari-lagi-nak-gaji/';
+    var d = document.getElementById('days').textContent;
+    var h = document.getElementById('hours').textContent;
+    var m = document.getElementById('minutes').textContent;
+    var np = document.getElementById('nextPaydayDate').textContent;
+    var msg = '💰 Lagi ' + d + ' hari ' + h + ':' + m + ' nak gaji! (' + np + ')\n\nSet countdown ikut tarikh gaji korang:\nhttps://rakyathub.my/berapa-hari-lagi-nak-gaji/';
     document.getElementById('shareWA').href = 'https://wa.me/?text=' + encodeURIComponent(msg);
-    document.getElementById('shareTG').href = 'https://t.me/share/url?url=' + encodeURIComponent('https://rakyathub.my/berapa-hari-lagi-nak-gaji/') + '&text=' + encodeURIComponent('💰 Lagi ' + document.getElementById('days').textContent + ' hari nak gaji!');
+    document.getElementById('shareTG').href = 'https://t.me/share/url?url=' + encodeURIComponent('https://rakyathub.my/berapa-hari-lagi-nak-gaji/') + '&text=' + encodeURIComponent('💰 Lagi ' + d + ' hari nak gaji!');
   }, 5000);
 })();
 

@@ -1,5 +1,26 @@
 # Audit Log
 
+## 2026-06-11 18:09
+- **QA Check**: Full build + CDP pipeline — new interactive pages (countdown gaji, quiz kewangan, upgraded gaji-bersih) + image fix for slaid pembentangan (HEAD shifted mid-pipeline)
+- **Commit 1**: `735931b` — feat: add countdown gaji, quiz kewangan, upgrade gaji-bersih + indexing fix
+- **Commit 2**: `6a8c6cd` — fix: add image to artikel slaid pembentangan (arrived during build)
+- **Changes (Commit 1)**: `src/pages/berapa-hari-lagi-nak-gaji.astro` (new — 242 lines, salary countdown page with WhatsApp/Telegram share), `src/pages/quiz-kesihatan-kewangan.astro` (new — 399 lines, 8-question financial health quiz with score & shareable result), `src/pages/kalkulator/gaji-bersih.astro` (upgraded — +78 lines, B40/M40/T20 categories + Bajet 55/15/20/10), `src/pages/kalkulator/index.astro` (updated — +16 lines, added 2 new calculator pages to index), `public/robots.txt` (updated with Sitemap directive), `.netlify/functions/manifest.json` (timestamp)
+- **Changes (Commit 2)**: `src/assets/images/hero-cara-buat-slaid-pembentangan-menarik.jpg` (new — 212KB, unique image for slaid pembentangan article), `src/data/post/cara-buat-slaid-pembentangan-menarik.md` (re-activated `image:` frontmatter — was `# image:` commented out after prior duplicate removal, now points to new unique image ✅)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Build**: 385 pages built successfully (12.61s) — clean rebuild ✅
+- **CDP Inspection** (browser via Chrome CDP, serving from dist/ on port 3000):
+  - **Countdown Page** (`/berapa-hari-lagi-nak-gaji/`): title "Berapa Hari Lagi Nak Gaji? — Countdown Gaji Malaysia 2026 — RakyatHub" ✅; Countdown timer rendering (10 days, 10 hours, 53 min, 45 sec) ✅; Share buttons (WhatsApp, Telegram, Salin Pautan) ✅; Related tools section ✅; Console errors: 0 ✅
+  - **Quiz Page** (`/quiz-kesihatan-kewangan/`): title "Quiz Kesihatan Kewangan — Semak Skor Kewangan Anda — RakyatHub" ✅; 8-question interactive quiz with radio buttons and navigation ✅; Quiz advances correctly (answered all 8 questions) ✅; Results screen renders with score, grade breakdown, recommendations, share buttons ✅; Console errors: 0 ✅
+  - **Gaji Bersih Calculator** (`/kalkulator/gaji-bersih/`): title "Kalkulator Gaji Bersih Malaysia — Kira Gaji Selepas KWSP, SOCSO, PCB — RakyatHub" ✅; Gaji Pokok RM3,500 → Gaji Bersih RM2,906.00 ✅; KWSP 11% = RM385, SOCSO = RM115, EIS = RM24, PCB = RM70 ✅; B40/M40/T20 Kategori Pendapatan section ✅; Bajet 55/15/20/10 breakdown (RM1,598/RM436/RM581/RM291) ✅; Console errors: 0 ✅
+  - **Calculator Index** (`/kalkulator/`): title "Kalkulator RakyatHub — Alat Kewangan Malaysia — RakyatHub" ✅
+- **Content Asset Verification**:
+  - **Slaid Pembentangan article** (`/cara-buat-slaid-pembentangan-menarik/`): title "Cara Buat Slaid Pembentangan Menarik — 7 Tips Design Untuk Student — RakyatHub" ✅
+  - OG Image: `/_astro/hero-cara-buat-slaid-pembentangan-menarik.CUV0rXFb_1BYDG6.jpg` — HTTP 200, 182,156 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-cara-buat-slaid-pembentangan-menarik.jpg"` — active (not commented) ✅ (re-activated after prior duplicate removal — this is a fresh unique image from the content pipeline self-correction)
+  - robots.txt: `Sitemap: https://rakyathub.my/sitemap-index.xml` directive present ✅
+- **HEAD shift noted**: Initial HEAD `735931b` (new interactive pages). During build, HEAD shifted to `6a8c6cd` (image fix). Build output captured both commits. Combined entry written.
+- **Status**: resolved
+
 ## 2026-06-11 16:22
 - **QA Check**: Content-only build — new News React article (Harga Minyak Kekal 11-17 Jun 2026)
 - **Commit**: `70cdecb` — Auto: News React - Harga Minyak Kekal 11-17 Jun 2026
