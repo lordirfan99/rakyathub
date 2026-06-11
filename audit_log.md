@@ -1,5 +1,50 @@
 # Audit Log
 
+## 2026-06-11 10:58
+- **QA Check**: Content-only build — restored hero image for Contoh Pengenalan Kerja Kursus (fresh Unsplash ID, previously a duplicate that was removed)
+- **Commit**: `9227a0c` — fix: Restore hero image for contoh-pengenalan-kerja-kursus (fresh Unsplash ID)
+- **Changes**: `src/assets/images/hero-contoh-pengenalan-kerja-kursus.jpg` (new image, 362KB, hash `5e625a4` — unique, NOT a duplicate of any tracked image ✅); `src/data/post/contoh-pengenalan-kerja-kursus.md` (re-activated `image:` frontmatter line — was `# image:` commented out after prior duplicate removal)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: New image hash `5e625a491804ca359fc6c7dfa5b9d1a38d3698c0` — unique, no duplicates found against any of 268 tracked images ✅
+- **Content pipeline self-correction**: The previously-removed duplicate image was replaced by the pipeline with a unique valid file — no intervention needed ✅
+- **Frontmatter Cross-Check**: `image:` line is active (not commented) — `image: "~/assets/images/hero-contoh-pengenalan-kerja-kursus.jpg"` ✅
+- **Orphaned Image Detection**: 25 pre-existing orphans unchanged from prior runs (24 public/root + `src/assets/images/hero-saham-usa.jpg`) — user should `git rm` when convenient
+- **Build**: 370 pages built successfully (8.85s) — clean rebuild ✅
+- **Content Verification** (cat from dist/):
+  - `/contoh-pengenalan-kerja-kursus/` — title "Contoh Pengenalan Kerja Kursus Yang Menarik & Tepat — RakyatHub" ✅
+  - OG Image: `/_astro/hero-contoh-pengenalan-kerja-kursus.B9bfA-1r_Z4P9D5.jpg` — specific hero image, NOT default fallback ✅
+  - Rendered hero image: `<img src="/_astro/hero-contoh-pengenalan-kerja-kursus.B9bfA-1r_2924gX.webp"` with srcset variants and WebP/JPEG formats ✅
+  - Schema.org JSON-LD image: correct filename ✅
+- **Status**: resolved
+
+## 2026-06-11 10:46
+- **QA Check**: Content-only build — 2 new Student articles (Contoh Pengenalan Kerja Kursus + Tips Skor Pointer 4.0), duplicate image detected & fixed
+- **Commit 1**: `db9496e` — Auto [Student]: Contoh pengenalan kerja kursus + Tips skor pointer 4.0 universiti
+- **Commit 2**: `502c7d9` — fix(qa): Remove duplicate image hero-contoh-pengenalan-kerja-kursus.jpg (identical to hero-idea-bisnes-modal-kecil-untuk-student.jpg)
+- **Changes (Commit 1)**: `src/data/post/contoh-pengenalan-kerja-kursus.md` (new post — 112 lines, contoh pengenalan kerja kursus guide with 3 examples), `src/data/post/tips-skor-pointer-40-universiti.md` (new post — 164 lines, 10 strategies for pointer 4.0), `src/assets/images/hero-contoh-pengenalan-kerja-kursus.jpg` (new hero image, 350KB — ⚠️ DUPLICATE of hero-idea-bisnes-modal-kecil-untuk-student.jpg), `src/assets/images/hero-tips-skor-pointer-40-universiti.jpg` (new hero image, 216KB — hash `7cda783` — unique ✅), `topic_tracker_student.md` (updated — 2 topics marked ✅)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: 
+  - `hero-contoh-pengenalan-kerja-kursus.jpg` (hash `6f45087`) — ⚠️ **DUPLICATE of `hero-idea-bisnes-modal-kecil-untuk-student.jpg`** (identical content, same git hash). First occurrence (no prior removal history for this filename).
+  - `hero-tips-skor-pointer-40-universiti.jpg` (hash `7cda783`) — unique ✅
+- **Fix Applied**:
+  - `git rm src/assets/images/hero-contoh-pengenalan-kerja-kursus.jpg` — removed duplicate file from git and working tree
+  - Commented out `image:` line in `contoh-pengenalan-kerja-kursus.md` frontmatter — post falls back to default OG image
+  - Committed as `502c7d9`
+- **Orphaned Image Detection**: 24 pre-existing orphans unchanged from prior runs — user should `git rm` when convenient
+- **Build**: 370 pages built successfully (9.23s) — clean rebuild after duplicate removal ✅
+- **Content Verification** (curl on port 5505, Node.js static server with directory→index.html):
+  - `/contoh-pengenalan-kerja-kursus/` — title "Contoh Pengenalan Kerja Kursus Yang Menarik & Tepat — RakyatHub" ✅
+  - OG Image: `/_astro/default.BXnHqeYJ_Z1yEx1G.jpg` — falls back to default site image (correct after fix — no duplicate Vite dedup issue) ✅
+  - Frontmatter image line: `# image: "~/assets/images/hero-contoh-pengenalan-kerja-kursus.jpg" — REMOVED (duplicate of hero-idea-bisnes-modal-kecil-untuk-student.jpg)` — commented out to prevent build failure ✅
+  - `/tips-skor-pointer-40-universiti/` — title "Tips Skor Pointer 4.0 Universiti — 10 Strategi Terbukti — RakyatHub" ✅
+  - OG Image: `/_astro/hero-tips-skor-pointer-40-universiti.CwdyX605_Z2aRXvg.jpg` — HTTP 200, 70,868 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-tips-skor-pointer-40-universiti.jpg"` — active (not commented) ✅
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+  - `/category/pendidikan/` — "Category 'Pendidikan' — RakyatHub" ✅
+  - `/tag/kerja-kursus/` — "Posts by tag 'kerja-kursus' — RakyatHub" ✅
+  - `/tag/pointer-40/` — "Posts by tag 'pointer-40' — RakyatHub" ✅
+- **Status**: resolved
+
 ## 2026-06-11 10:23
 - **QA Check**: Content-only build — new Kerjaya article (7 Pekerjaan Paling Laris 2026 di Malaysia)
 - **Commit**: `5bd2a1a` — Auto: Kerjaya - 7 Pekerjaan Paling Laris 2026 di Malaysia
@@ -257,7 +302,7 @@
   - Frontmatter image line: `image: "~/assets/images/hero-industri-paling-prospek-malaysia-2026.jpg"` — active (not commented) ✅
   - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
   - `/category/kerjaya/` — "Category 'Kerjaya' — RakyatHub" ✅
-  - `/` — homepage renders with correct title ✅
+  - `/` — homepage renders with correct OG image ✅
 - **Status**: resolved
 
 ## 2026-06-10 08:21
@@ -516,7 +561,6 @@ All verified via curl on port 5055:
 - Cross-Image Check: All 4 rendered OG image filenames match frontmatter `image:` fields — no Vite dedup or fallback issues ✅
 - Frontmatter Cross-Check: All 4 `image:` lines active (none commented out) ✅
 - **Status**: resolved
-
 ## 2026-06-08 20:31
 - **QA Check**: Content-only build — 1 new article (Side Hustle: Bisnes Produk Digital & AI)
 - **Commit**: `4fc0cdf` — Auto: Side Hustle - Bisnes Produk Digital & AI Side Hustle
