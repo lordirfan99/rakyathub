@@ -1,5 +1,21 @@
 # Audit Log
 
+## 2026-06-11 15:45
+- **QA Check**: Content-only build — new Glossary article (Dividen)
+- **Commit**: `8a5d922` — Glossary: Dividen
+- **Changes**: `src/data/post/glossary-dividen.md` (new post — 140 lines, simple dividend definition guide covering ASB/KWSP dividends, compounding, and savings tips), `src/assets/images/hero-glossary-dividen.jpg` (new hero image, ~1MB — unique hash `311ebd9` ✅)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: New image hash `311ebd9dabb81ccd7e701bfc4810492e9f910bbc` — unique, no duplicates found against any tracked image ✅
+- **Orphaned Image Detection**: 26 pre-existing orphans (20 public/images/ + 4 public/ + `hero-saham-usa.jpg` + `cta-join-discord.png`) + `hero-test-a.jpg`, `hero-test-b.jpg` (test artifacts) — unchanged from prior runs, user should `git rm` when convenient
+- **Build**: 382 pages built successfully (10.89s) — clean rebuild ✅
+- **Content Verification** (curl on port 3001, Python http.server serving from dist/):
+  - `/glossary-dividen/` — title "Glossary: Apa Itu Dividen? Maksud Mudah & Contoh Untuk Korang — RakyatHub" ✅
+  - OG Image: `/_astro/hero-glossary-dividen.DNY4o7FV_Z2hqW90.jpg` — HTTP 200, 54,101 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-glossary-dividen.jpg"` — active (not commented) ✅
+  - `/category/kewangan/` — includes new post reference (2 occurrences found) ✅
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+- **Status**: resolved
+
 ## 2026-06-11 14:57
 - **QA Check**: Content-only build — 3 new articles (Insurans, Aplikasi Belajar, Cara Buat Slaid), duplicate image detected & fixed
 - **Commit 1**: `24696aa` — Auto: Insurans - Pelan Perlindungan Ikut Tahap Umur
@@ -565,8 +581,8 @@
 
 ### Fix: Astro Module-Scoped gtagSendEvent Not Accessible from onclick Handlers
 - **File**: `src/pages/join.astro:193`
-- **Before**: `function gtagSendEvent(url) { ... }` — defined in Astro `<script>` block (processed as ES module, function was module-scoped, NOT on `window`). Three `onclick=\"return gtagSendEvent('...')\"` handlers would throw `ReferenceError: gtagSendEvent is not defined` at click time — conversion tracking would silently fail despite clean build, render, and zero console errors at page load.
-- **After**: `window.gtagSendEvent = function(url) { ... };` — explicitly assigned to global scope. CDP Runtime.evaluate confirms `typeof window.gtagSendEvent === \"function\"` ✅
+- **Before**: `function gtagSendEvent(url) { ... }` — defined in Astro `<script>` block (processed as ES module, function was module-scoped, NOT on `window`). Three `onclick="return gtagSendEvent('...')"` handlers would throw `ReferenceError: gtagSendEvent is not defined` at click time — conversion tracking would silently fail despite clean build, render, and zero console errors at page load.
+- **After**: `window.gtagSendEvent = function(url) { ... };` — explicitly assigned to global scope. CDP Runtime.evaluate confirms `typeof window.gtagSendEvent === "function"` ✅
 - **Build**: 279 pages built (clean rebuild after clearing stale `.astro` cache which caused `EPERM: rename data-store.json.tmp` error) ✅
 - **Browser Inspection**: Full CDP on port 5055 (Node.js static server)
   - DOM: main(1), header/nav(1), footer/contentinfo(1) — all present ✅
@@ -591,6 +607,7 @@ All verified via curl on port 5055:
 - Cross-Image Check: All 4 rendered OG image filenames match frontmatter `image:` fields — no Vite dedup or fallback issues ✅
 - Frontmatter Cross-Check: All 4 `image:` lines active (none commented out) ✅
 - **Status**: resolved
+
 ## 2026-06-08 20:31
 - **QA Check**: Content-only build — 1 new article (Side Hustle: Bisnes Produk Digital & AI)
 - **Commit**: `4fc0cdf` — Auto: Side Hustle - Bisnes Produk Digital & AI Side Hustle
