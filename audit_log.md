@@ -1,5 +1,23 @@
 # Audit Log
 
+## 2026-06-10 20:13
+- **QA Check**: Content-only build — new Side Hustle UGC article (content creator side hustle guide)
+- **Commit**: `0308603` — Auto: Side Hustle - Content Creator & UGC Artikel Baru
+- **Changes**: `src/data/post/side-hustle-content-creator-ugc-malaysia-2026.md` (new post — 230 lines, complete UGC side hustle guide), `src/assets/images/hero-content-creator-ugc-2026.jpg` (new hero image, 29KB — unique hash ✅), `src/data/post/cara-tonton-piala-dunia-2026-malaysia.md` (deleted — old World Cup .md post, now superseded by .astro page)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: New image hash `da84c16ea668ee5b617d26e4f86c7dc2f447d5e4` — unique, no duplicates found against any tracked image ✅
+- **Orphaned Image Detection**: 24 pre-existing orphans unchanged from prior runs — user should `git rm` when convenient
+- **Build**: 347 pages built successfully (8.21s) — clean rebuild ✅
+- **Content Verification** (curl on port 5503, Node.js static server with directory→index.html):
+  - `/side-hustle-content-creator-ugc-malaysia-2026/` — title "Side Hustle Content Creator & UGC — Jana RM3,000 Sebulan Guna Telefon — RakyatHub" ✅
+  - OG Image: `/_astro/hero-content-creator-ugc-2026.CFjzfXkf_Za8lTY.jpg` — HTTP 200, 18,883 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-content-creator-ugc-2026.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/category/kewangan/` — "Category 'Kewangan' — RakyatHub" ✅
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+  - Deleted post page `/cara-tonton-piala-dunia-2026-malaysia/` — HTTP 200 (still exists as .astro page) ✅
+- **Status**: resolved
+
 ## 2026-06-10 17:47
 - **QA Check**: Full build pipeline — rebrand Piala Dunia → Pesta Bola to avoid copyright triggers
 - **Commit**: `24ba08a` — fix: remove trademarked terms (Piala Dunia → Pesta Bola) to avoid copyright triggers
@@ -424,8 +442,8 @@
 
 ### Fix: Astro Module-Scoped gtagSendEvent Not Accessible from onclick Handlers
 - **File**: `src/pages/join.astro:193`
-- **Before**: `function gtagSendEvent(url) { ... }` — defined in Astro `<script>` block (processed as ES module, function was module-scoped, NOT on `window`). Three `onclick="return gtagSendEvent('...')"` handlers would throw `ReferenceError: gtagSendEvent is not defined` at click time — conversion tracking would silently fail despite clean build, render, and zero console errors at page load.
-- **After**: `window.gtagSendEvent = function(url) { ... };` — explicitly assigned to global scope. CDP Runtime.evaluate confirms `typeof window.gtagSendEvent === "function"` ✅
+- **Before**: `function gtagSendEvent(url) { ... }` — defined in Astro `<script>` block (processed as ES module, function was module-scoped, NOT on `window`). Three `onclick=\"return gtagSendEvent('...')\"` handlers would throw `ReferenceError: gtagSendEvent is not defined` at click time — conversion tracking would silently fail despite clean build, render, and zero console errors at page load.
+- **After**: `window.gtagSendEvent = function(url) { ... };` — explicitly assigned to global scope. CDP Runtime.evaluate confirms `typeof window.gtagSendEvent === \"function\"` ✅
 - **Build**: 279 pages built (clean rebuild after clearing stale `.astro` cache which caused `EPERM: rename data-store.json.tmp` error) ✅
 - **Browser Inspection**: Full CDP on port 5055 (Node.js static server)
   - DOM: main(1), header/nav(1), footer/contentinfo(1) — all present ✅
