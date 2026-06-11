@@ -3,8 +3,8 @@
 | # | Keyword | Status | Date Published | Slug |
 |---|---------|--------|----------------|------|
 | 1 | Cara buat rujukan APA style | ✅ | 2026-06-10 | cara-buat-rujukan-apa-style |
-| 2 | Contoh pengenalan kerja kursus | ❌ | — | — |
-| 3 | Tips skor pointer 4.0 universiti | ❌ | — | — |
+| 2 | Contoh pengenalan kerja kursus | ✅ | 2026-06-11 | contoh-pengenalan-kerja-kursus |
+| 3 | Tips skor pointer 4.0 universiti | ✅ | 2026-06-11 | tips-skor-pointer-40-universiti |
 | 4 | Cara buat slaid pembentangan menarik | ❌ | — | — |
 | 5 | Aplikasi belajar untuk student | ❌ | — | — |
 | 6 | Cara ulangkaji pelajaran saat akhir | ✅ | 2026-06-10 | cara-ulangkaji-pelajaran-saat-akhir |

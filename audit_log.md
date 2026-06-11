@@ -1,5 +1,23 @@
 # Audit Log
 
+## 2026-06-11 10:23
+- **QA Check**: Content-only build — new Kerjaya article (7 Pekerjaan Paling Laris 2026 di Malaysia)
+- **Commit**: `5bd2a1a` — Auto: Kerjaya - 7 Pekerjaan Paling Laris 2026 di Malaysia
+- **Changes**: `src/data/post/7-pekerjaan-paling-laris-2026-malaysia.md` (new post — 308 lines, comprehensive guide to 2026 job market in Malaysia), `src/assets/images/hero-7-pekerjaan-paling-laris-2026-malaysia.jpg` (new hero image, 274KB, hash `09a9d8c` — unique ✅), `audit_log.md` (updated by prior commit)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: New image hash `09a9d8cab20fd46c4e758eb15c1fb95db6401121` — unique, no duplicates found against any tracked image ✅
+- **Orphaned Image Detection**: 24 pre-existing orphans unchanged from prior runs — user should `git rm` when convenient
+- **Build**: 362 pages built successfully (9.23s) — clean rebuild ✅
+- **Content Verification** (curl on port 5504, Python http.server serving from dist/):
+  - `/7-pekerjaan-paling-laris-2026-malaysia/` — title "7 Pekerjaan Paling Laris 2026 di Malaysia — Gaji Terkini, Kemahiran Wajib & Tips Mohon — RakyatHub" ✅
+  - OG Image: `/_astro/hero-7-pekerjaan-paling-laris-2026-malaysia.BsnXh6Dy_1C1V7L.jpg` — HTTP 200, 96,711 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-7-pekerjaan-paling-laris-2026-malaysia.jpg"` — active (not commented) ✅
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+  - `/category/kerjaya/` — "Category 'Kerjaya' — RakyatHub" ✅
+  - `/category/kewangan/2/` — "Category 'Kewangan' — Page 2 — RakyatHub" ✅
+  - `/rss.xml` — HTTP 200 ✅
+- **Status**: resolved
+
 ## 2026-06-11 08:26
 - **QA Check**: Content-only build — 4 new articles (PR1MA, Saham Bursa Malaysia, PRS, Tabung Haji)
 - **Commit**: `ee36b1d` — Auto: 4 new articles — PRS skim persaraan, PR1MA 2026, cara melabur saham Bursa Malaysia, Tabung Haji panduan
