@@ -1,5 +1,34 @@
 # Audit Log
 
+## 2026-06-12 18:13
+- **QA Check**: Content-only build — 14 articles upgraded to cron SEO format (800-1,100 words, DocuKilat calculators, citations)
+- **Commit**: `ea0180b` — fix: upgrade 14 thin articles to cron SEO format — 800-1,100 words, DocuKilat, calculators, citations
+- **Changes**: 14 `.md` posts updated with expanded content (800-1,100 words), DocuKilat tool references, interactive calculator embeds, and citation sources; `audit_log.md` (updated)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅; git status clean ✅
+- **Duplicate Image Detection**: No new images in this commit — all article upgrades are content-only ✅
+- **Orphaned Image Detection**: Pre-existing orphans unchanged from prior runs (4 src/assets/ + 16 public/images/ + public/root files) — user should `git rm` when convenient
+- **Build**: 495 pages built successfully (15.22s) — clean rebuild ✅ (up from 403 pages — new articles from earlier commits now indexed)
+- **Content Verification** (curl on port 3000, Python http.server serving from dist/):
+  - All 14 upgraded pages verified with correct titles and OG images ✅
+  - `/7-rahsia-bijak-beli-saham-usa-guna-moomoo-malaysia-panduan-lengkap/` — "Cara Beli Saham USA Guna Moomoo Malaysia 2026" ✅
+  - `/adakah-pinjaman-dari-shopee-boleh-dipercayai-panduan-2025/` — "Pinjaman Shopee (SPinjam & SPayLater) 2026" ✅
+  - `/beras-import-vs-tempatan-murah/` — "Beras Import vs Tempatan 2026" ✅
+  - `/cara-renew-roadtax-jpj-online-2025-panduan-lengkap/` — "Cara Renew Roadtax JPJ Online 2026" ✅
+  - `/cara-semak-baki-kwsp-online-tanpa-pergi-kaunter-2025-panduan-lengkap/` — "Cara Semak Baki KWSP Online 2026" ✅
+  - `/carawithdrawkwsp/` — "Cara Buat Pengeluaran KWSP 2026" ✅
+  - `/cukai-jualan-cukai-perkhidmatan-malaysia-2025-barang-dan-servis-yang-akan-terjejas/` — "SST Malaysia 2026" ✅
+  - `/info-terkini-apa-itu-kwsp-akaun-fleksibel-2025-rakyat-kini-boleh-akses-simpanan-bila-bila-masa/` — "KWSP Akaun Fleksibel 2026" ✅
+  - `/kereta-sesuai-untuk-fresh-graduate-malaysia-2025-gaji-bajet/` — "Kereta Untuk Fresh Graduate Malaysia 2026" ✅
+  - `/loan-rumah-calculator-kiraan-ansuran-perancangan-kewangan/` — "Loan Rumah Calculator 2026" ✅
+  - `/minyak-masak-botol-vs-paket-mana-lebih-jimat/` — "Minyak Masak Botol vs Paket" ✅
+  - `/risiko-dan-pulangan-robo-advisor-di-malaysia-2025/` — "Robo-Advisor di Malaysia 2026" ✅
+  - `/semakan-saman-jpj-pdrm/` — "Cara Semak Saman JPJ & PDRM Online 2026" ✅
+  - `/tebus-bantuan-sara-rm100-guna-ic-pengumuman-pagi-ini-23-julai-2025/` — "Tebus Bantuan SARA RM100 Guna MyKad 2026" ✅
+  - All OG images return HTTP 200 (specific hero images, not default fallback) ✅
+  - Frontmatter image references active (not commented out) ✅
+  - Homepage renders: "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+- **Status**: resolved
+
 ## 2026-06-12 17:19
 - **QA Check**: Content-only build — 1 new article (Beli vs Beli: Minyak Masak Botol vs Paket)
 - **Commit**: `43178de` — Beli vs Beli: Minyak Masak Botol vs Paket

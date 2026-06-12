@@ -16,6 +16,16 @@ export interface Props {
 
 const { post, url } = Astro.props;
 const author = getAuthor(post.author);
+
+// Schema.org date handling
+const pubDate = post.publishDate ? new Date(post.publishDate).toISOString() : '';
+const modDate = post.updateDate ? new Date(post.updateDate).toISOString() : pubDate;
+const imgUrl = post.image
+  ? (typeof post.image === 'string'
+      ? post.image.replace(/^~\/assets\//, 'https://rakyathub.my/')
+      : 'https://rakyathub.my' + (post.image as any).src)
+  : 'https://rakyathub.my/hero-default.jpg';
+const postUrl = String(url);
 ---
 
 <section class="py-8 sm:py-16 lg:py-20 mx-auto">
@@ -113,6 +123,37 @@ const author = getAuthor(post.author);
       <SocialShare url={url} text={post.title} class="mt-5 sm:mt-1 align-middle text-gray-500 dark:text-slate-600" />
     </div>
   </article>
+
+  <!-- BlogPosting Schema -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.title,
+    "description": post.excerpt || '',
+    "url": postUrl,
+    "datePublished": pubDate,
+    "dateModified": modDate || pubDate,
+    "author": {
+      "@type": "Person",
+      "name": author?.name || 'RakyatHub'
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "RakyatHub",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://rakyathub.my/rakyathub-logo.png"
+      }
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": imgUrl
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": postUrl
+    }
+  })}></script>
 </section>
 
 <script>
@@ -122,14 +163,25 @@ const author = getAuthor(post.author);
   if (!body) return;
 
   const crossLinks = [
-    { word: 'KWSP', url: '/cara-semak-baki-kwsp-online-tanpa-pergi-kaunter-2025-panduan-lengkap/', title: 'cara semak baki KWSP online 2025' },
+    { word: 'KWSP', url: '/info-terkini-apa-itu-kwsp-akaun-fleksibel-2025-rakyat-kini-boleh-akses-simpanan-bila-bila-masa/', title: 'panduan KWSP Akaun Fleksibel' },
     { word: 'ASB', url: '/7-kelebihan-simpanan-asb-pelaburan-bijak-pulangan-konsisten-yang-pasti-korang-tak-tahu/', title: '7 kelebihan simpanan ASB' },
     { word: 'Emas', url: '/cara-beli-emas-public-gold/', title: 'cara beli emas Public Gold' },
     { word: 'Bajet 50/30/20', url: '/cadangan-bajet-50-30-20-di-malaysia/', title: 'panduan bajet 50/30/20 di Malaysia' },
-    { word: 'Pelaburan', url: '/strategi-dca-vs-lump-sum-pilihan-pelaburan-bijak-untuk-orang-muda/', title: 'strategi DCA vs Lump Sum untuk orang muda' },
-    { word: 'Bantuan Kerajaan', url: '/info-bantuan-rm100-mykad-subsidi-ron95-kemas-kini-rakyathub/', title: 'info bantuan RM100 MyKad & subsidi RON95' },
+    { word: 'Pelaburan', url: '/strategi-dca-vs-lump-sum-pilihan-pelaburan-bijak-untuk-orang-muda/', title: 'strategi DCA vs Lump Sum' },
+    { word: 'Bantuan Kerajaan', url: '/📉-info-bantuan-rm100-mykad-subsidi-ron95-kemas-kini-rakyathub/', title: 'info bantuan RM100 MyKad & subsidi RON95' },
     { word: 'Loan Rumah', url: '/kalkulator/loan-rumah/', title: 'kalkulator loan rumah' },
     { word: 'Kereta', url: '/kalkulator/kereta/', title: 'kalkulator ansuran kereta' },
+    { word: 'DCA', url: '/strategi-dca-vs-lump-sum-pilihan-pelaburan-bijak-untuk-orang-muda/', title: 'strategi DCA untuk pelaburan konsisten' },
+    { word: 'i-Saraan', url: '/💼-adakah-freelancer-boleh-carum-kwsp-sendiri/', title: 'panduan i-Saraan untuk freelancer' },
+    { word: 'Scam', url: '/📘-cara-elak-scam-pinjaman-online-panduan-lengkap-tips-selamat/', title: 'cara elak scam pinjaman online' },
+    { word: 'Side Hustle', url: '/7-side-hustle-paling-laku-malaysia-2026/', title: '7 side hustle paling laku Malaysia 2026' },
+    { word: 'Kerjaya', url: '/7-pekerjaan-paling-laris-2026-malaysia/', title: '7 pekerjaan paling laris 2026' },
+    { word: 'Subsidi', url: '/📉-info-bantuan-rm100-mykad-subsidi-ron95-kemas-kini-rakyathub/', title: 'info subsidi RON95 dan bantuan MyKad' },
+    { word: 'Dividen', url: '/7-kelebihan-simpanan-asb-pelaburan-bijak-pulangan-konsisten-yang-pasti-korang-tak-tahu/', title: 'dividen ASB tahunan' },
+    { word: 'STR', url: '/📉-info-bantuan-rm100-mykad-subsidi-ron95-kemas-kini-rakyathub/', title: 'info Sumbangan Tunai Rahmah STR' },
+    { word: 'Robo-advisor', url: '/risiko-dan-pulangan-robo-advisor-di-malaysia/', title: 'risiko dan pulangan robo-advisor di Malaysia' },
+    { word: 'Freelancer', url: '/💼-adakah-freelancer-boleh-carum-kwsp-sendiri/', title: 'panduan KWSP untuk freelancer' },
+    { word: 'Beli Rumah', url: '/beli-rumah-vs-sewa-rumah-mana-lebih-untung-anak-muda/', title: 'beli rumah vs sewa untuk anak muda' },
   ];
 
   // Process text nodes only (skip <a>, <code>, <script>)
@@ -147,7 +199,7 @@ const author = getAuthor(post.author);
   }
 
   var linkCount = 0;
-  var MAX_LINKS = 8;
+  var MAX_LINKS = 12;
 
   for (var l = 0; l < crossLinks.length; l++) {
     if (linkCount >= MAX_LINKS) break;
