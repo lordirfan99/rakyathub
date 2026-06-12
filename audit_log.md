@@ -1,5 +1,22 @@
 # Audit Log
 
+## 2026-06-12 10:22
+- **QA Check**: Content-only build — new Kerjaya article (Kerja Remote & Hibrid di Malaysia 2026)
+- **Commit**: `fc3d92e` — Auto: Kerjaya - Kerja Remote & Hibrid di Malaysia 2026 — Panduan Lengkap Gaji, Platform & Tips Dapat Kerja
+- **Changes**: `src/data/post/kerja-remote-hibrid-malaysia-2026.md` (new post — 217 lines, complete guide to remote/hybrid work in Malaysia 2026 with salary comparison tables, platform recommendations, required skills, and practical tips); `src/assets/images/hero-kerja-remote-hibrid-malaysia-2026.jpg` (new hero image, 141KB — hash `f0bc816`, unique ✅)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: New image hash `f0bc8165077aec847079cfc95dc7aae59a69eeab` — unique, no duplicates found against any tracked image ✅
+- **Orphaned Image Detection**: 26 pre-existing orphans unchanged from prior runs (20 public/images/ + 4 public/ + 2 src/assets/) — user should `git rm` when convenient
+- **Build**: 389 pages built successfully (10.96s) — clean rebuild ✅
+- **Content Verification** (curl on port 3300, Node.js static server with directory→index.html):
+  - `/kerja-remote-hibrid-malaysia-2026/` — title "Kerja Remote & Hibrid di Malaysia 2026 — Panduan Lengkap Gaji, Platform & Tips Dapat Kerja — RakyatHub" ✅
+  - OG Image: `/_astro/hero-kerja-remote-hibrid-malaysia-2026.B9yDBfRp_Z1Ws9ru.jpg` — HTTP 200, 92,704 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-kerja-remote-hibrid-malaysia-2026.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/category/kerjaya/` — "Category 'Kerjaya' — RakyatHub" ✅ (new post slug present in category page)
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+- **Status**: resolved
+
 ## 2026-06-11 20:25
 - **QA Check**: Content-only build — new Side Hustle article (7 Side Hustle Paling Laku di Malaysia 2026)
 - **Commit**: `bdb31cb` — Auto: Side Hustle - 7 Side Hustle Paling Laku di Malaysia 2026

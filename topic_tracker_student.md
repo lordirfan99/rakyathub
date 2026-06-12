@@ -5,8 +5,8 @@
 | 1 | Cara buat rujukan APA style | ✅ | 2026-06-10 | cara-buat-rujukan-apa-style |
 | 2 | Contoh pengenalan kerja kursus | ✅ | 2026-06-11 | contoh-pengenalan-kerja-kursus |
 | 3 | Tips skor pointer 4.0 universiti | ✅ | 2026-06-11 | tips-skor-pointer-40-universiti |
-| 4 | Cara buat slaid pembentangan menarik | ❌ | — | — |
-| 5 | Aplikasi belajar untuk student | ❌ | — | — |
+| 4 | Cara buat slaid pembentangan menarik | ✅ | 2026-06-11 | cara-buat-slaid-pembentangan-menarik |
+| 5 | Aplikasi belajar untuk student | ✅ | 2026-06-11 | aplikasi-belajar-untuk-student |
 | 6 | Cara ulangkaji pelajaran saat akhir | ✅ | 2026-06-10 | cara-ulangkaji-pelajaran-saat-akhir |
 | 7 | Cara buat duit part time student | ✅ | 2026-06-06 | cara-buat-duit-part-time-student |
 | 8 | Idea bisnes modal kecil untuk student | ✅ | 2026-06-07 | idea-bisnes-modal-kecil-untuk-student |
@@ -14,9 +14,9 @@
 | 10 | Diskaun kad pelajar Malaysia | ✅ | 2026-06-07 | diskaun-kad-pelajar-malaysia |
 | 11 | Resepi bajet student universiti | ✅ | 2026-06-08 | resepi-bajet-student-universiti |
 | 12 | Barang keperluan masuk universiti checklist | ✅ | 2026-06-09 | barang-keperluan-masuk-universiti-checklist |
-| 13 | Cara hias bilik asrama aesthetic | ❌ | — | — |
+| 13 | Cara hias bilik asrama aesthetic | ✅ | 2026-06-12 | cara-hias-bilik-asrama-aesthetic |
 | 14 | Cara urus masa belajar dan aktiviti | ✅ | 2026-06-08 | cara-urus-masa-belajar-dan-aktiviti |
-| 15 | Cara hilangkan mengantuk masa belajar | ❌ | — | — |
+| 15 | Cara hilangkan mengantuk masa belajar | ✅ | 2026-06-12 | cara-hilangkan-mengantuk-masa-belajar |
 | 16 | Contoh resume fresh graduate tiada pengalaman | ❌ | — | — |
 | 17 | Cara cari tempat praktikal / internship | ✅ | 2026-06-09 | cara-cari-tempat-praktikal-internship |
 | 18 | Soalan lazim temuduga kerja dan jawapan | ❌ | — | — |
