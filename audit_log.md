@@ -1,5 +1,22 @@
 # Audit Log
 
+## 2026-06-12 14:19
+- **QA Check**: Content-only build — 1 new article (Takaful vs Insurans Hayat)
+- **Commit**: `f19496a` — Auto: Insurans - Takaful vs Insurans Hayat — Mana Pilihan Terbaik untuk Perlindungan Anda?
+- **Changes**: `src/data/post/takaful-vs-insurans-hayat-mana-pilihan-terbaik-perlindungan-anda.md` (new post — 185 lines, comprehensive comparison of Takaful vs conventional life insurance for Muslims); `src/assets/images/hero-takaful-vs-insurans.jpg` (new hero image, 84KB — hash `da01976`, unique ✅); `audit_log.md` (trimmed/consolidated — 512 lines changed)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: New image hash `da0197639e4042511e2d8d3f4b2ecabc3c1ad621` — unique, no duplicates found against any tracked image ✅
+- **Orphaned Image Detection**: Pre-existing orphans unchanged from prior runs (20 public/images/ + 4 public/ + `hero-saham-usa.jpg` + `cta-join-discord.png` + `hero-test-a.jpg`, `hero-test-b.jpg`) — user should `git rm` when convenient
+- **Build**: 396 pages built successfully (12.20s) — clean rebuild ✅
+- **Content Verification** (curl on port 3400, Node.js static server serving from dist/ with directory→index.html):
+  - `/takaful-vs-insurans-hayat-mana-pilihan-terbaik-perlindungan-anda/` — title "Takaful vs Insurans Hayat — Mana Pilihan Terbaik untuk Perlindungan Anda? — RakyatHub" ✅
+  - OG Image: `/_astro/hero-takaful-vs-insurans.PhqnwOL4_1m7P8y.jpg` — HTTP 200, 56,789 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-takaful-vs-insurans.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/category/insurans/` — "Category 'Insurans' — RakyatHub" ✅
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+- **Status**: resolved
+
 ## 2026-06-12 12:56
 - **QA Check**: Content-only build — 2 new Student articles (Cara Hias Bilik Asrama Aesthetic + Cara Hilangkan Mengantuk Masa Belajar)
 - **Commit**: `d6ec37c` — Auto [Student]: Cara hias bilik asrama aesthetic + Cara hilangkan mengantuk masa belajar
