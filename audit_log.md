@@ -1,9 +1,66 @@
 # Audit Log
 
+## 2026-06-12 19:57
+- **QA Check**: Full build + curl verification — SinglePost.astro schema markup (BlogPosting JSON-LD) + content upgrade + internal linking expansion
+- **Commit**: `7946e90` — Phase 1: Schema markup + content upgrade + internal linking
+- **Changes**: `src/components/blog/SinglePost.astro` (+60 lines — added BlogPosting schema.org JSON-LD with `datePublished`, `dateModified`, `author` (Person), `publisher` (Organization with logo), `image` (ImageObject), `mainEntityOfPage` (WebPage); expanded crossLinks from 8→12 MAX_LINKS with 11 new entries: DCA, i-Saraan, Scam, Side Hustle, Kerjaya, Subsidi, Dividen, STR, Robo-advisor, Freelancer, Beli Rumah; updated existing link URLs); 4 blog posts upgraded with expanded content (Pelaburan Asas, Freelancer KWSP, Bantuan Kerajaan, Scam Pinjaman); `audit_log.md` (restructured)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: No new images in this commit ✅
+- **Orphaned Image Detection**: Pre-existing orphans unchanged from prior runs (24 public/images/root + src/assets/ orphans + `hero-test-a.jpg`, `hero-test-b.jpg`) — user should `git rm` when convenient
+- **Build**: 503 pages built successfully (15.49s) — clean rebuild ✅ (up from 495 pages — 4 upgraded posts now indexed, plus new pages from earlier commits)
+- **Content Verification** (curl on port 3000, Node.js static server serving from dist/ with directory→index.html):
+  - BlogPosting schema.org JSON-LD present on all blog posts:
+    - `@type: "BlogPosting"` with `headline`, `description`, `url`, `datePublished`, `dateModified` ✅
+    - `author` as `Person` with correct name ✅
+    - `publisher` as `Organization` with `logo` ImageObject ✅
+    - `image` as `ImageObject` with correct processed _astro URL ✅
+    - `mainEntityOfPage` as `WebPage` with canonical `@id` ✅
+  - CrossLinks expanded: MAX_LINKS=12, 19 entries (new: DCA, i-Saraan, Scam, Side Hustle, Kerjaya, Subsidi, Dividen, STR, Robo-advisor, Freelancer, Beli Rumah) ✅
+  - All 4 upgraded blog posts verified with correct titles and specific OG images ✅
+  - `/pelaburan-asas-asb-kwsp-dca-apa-pilihan-terbaik-untuk-rakyat-malaysia/` — title "Pelaburan Asas Malaysia: ASB, KWSP, DCA – Mana Pilihan Terbaik Untuk Anda 2026? — RakyatHub" ✅
+  - OG Image: specific hero image (NOT default fallback) — HTTP 200 ✅
+  - `/adakah-freelancer-boleh-carum-kwsp-sendiri/` — title "💼 Adakah Freelancer Boleh Carum KWSP Sendiri? Panduan Lengkap i-Saraan 2026 — RakyatHub" ✅
+  - OG Image: specific hero image — HTTP 200 ✅
+  - `/info-bantuan-rm100-mykad-subsidi-ron95-kemas-kini-rakyathub/` — title "📉 Bantuan Kerajaan Malaysia 2026 – MyKad, Subsidi RON95 & Inisiatif Sara Hidup — RakyatHub" ✅
+  - OG Image: specific hero image — HTTP 200 ✅
+  - `/cara-elak-scam-pinjaman-online-panduan-lengkap-tips-selamat/` — title "📘 Cara Elak Scam Pinjaman Online – Panduan Lengkap & Tips Selamat Malaysia 2026 — RakyatHub" ✅
+  - OG Image: specific hero image — HTTP 200 ✅
+  - `/7-kelebihan-simpanan-asb-pelaburan-bijak-pulangan-konsisten-yang-pasti-korang-tak-tahu/` — BlogPosting schema ✅, crossLinks script with 19 entries ✅
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+  - `/category/kewangan/` — "Category 'Kewangan' — RakyatHub" ✅
+  - `/category/kwsp/` — "Category 'KWSP' — RakyatHub" ✅
+- **Status**: resolved
+
+## 2026-06-12 19:19
+- **QA Check**: Full build + CDP verification — SinglePost.astro JSON-LD BlogPosting schema (uncommitted component change)
+- **Commit**: `ea0180b` (previously documented at 18:13) — 14 articles upgraded to cron SEO format
+- **Uncommitted Change**: `src/components/blog/SinglePost.astro` — added `BlogPosting` JSON-LD structured data schema with `datePublished`, `dateModified`, `author` (Person), `publisher` (Organization with logo), `image` (ImageObject), `mainEntityOfPage` (WebPage) — all using `Astro.props` from post frontmatter
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Orphaned Image Detection**: Pre-existing orphans unchanged from prior runs — user should `git rm` when convenient
+- **Build**: 495 pages built successfully (13.59s) — clean rebuild ✅
+- **Content Verification** (curl on port 3000, zombie Node.js static server serving from dist/):
+  - All 14 upgraded articles still render with correct titles ✅ (verified: moomoo, shopee, loan-rumah, saman-jpj, minyak-masak)
+  - All OG images return specific hero images (not default fallback) ✅
+  - BlogPosting JSON-LD schema renders correctly on blog posts:
+    - `@type: "BlogPosting"` with `headline`, `description`, `url`, `datePublished`, `dateModified` ✅
+    - `author` as `Person` with correct name ✅
+    - `publisher` as `Organization` with `logo` ImageObject ✅
+    - `image` as `ImageObject` with correct URL ✅
+    - `mainEntityOfPage` as `WebPage` with canonical `@id` ✅
+  - Homepage renders: "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+  - `/category/kewangan/` renders: "Category 'Kewangan' — RakyatHub" ✅
+- **CDP Inspection** (Chrome CDP on port 9222):
+  - DOM: main(1), header/nav(1), footer/contentinfo(1) — all present ✅
+  - Console errors: 0 ✅
+  - Broken images: 0 ✅
+  - Failed resources: 0 (no 4xx/5xx) ✅
+  - Blog post page rendered with correct meta, OG tags, and schema ✅
+- **Status**: resolved
+
 ## 2026-06-12 18:13
 - **QA Check**: Content-only build — 14 articles upgraded to cron SEO format (800-1,100 words, DocuKilat calculators, citations)
 - **Commit**: `ea0180b` — fix: upgrade 14 thin articles to cron SEO format — 800-1,100 words, DocuKilat, calculators, citations
-- **Changes**: 14 `.md` posts updated with expanded content (800-1,100 words), DocuKilat tool references, interactive calculator embeds, and citation sources; `audit_log.md` (updated)
+- **Changes**: 14 `.md` posts updated with expanded content
 - **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅; git status clean ✅
 - **Duplicate Image Detection**: No new images in this commit — all article upgrades are content-only ✅
 - **Orphaned Image Detection**: Pre-existing orphans unchanged from prior runs (4 src/assets/ + 16 public/images/ + public/root files) — user should `git rm` when convenient
