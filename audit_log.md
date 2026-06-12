@@ -1,5 +1,24 @@
 # Audit Log
 
+## 2026-06-11 20:25
+- **QA Check**: Content-only build — new Side Hustle article (7 Side Hustle Paling Laku di Malaysia 2026)
+- **Commit**: `bdb31cb` — Auto: Side Hustle - 7 Side Hustle Paling Laku di Malaysia 2026
+- **Changes**: `src/data/post/7-side-hustle-paling-laku-malaysia-2026.md` (new post — 236 lines, 7 side hustles under RM500 capital); `src/assets/images/hero-side-hustle-2026.jpg` (new hero image, 131KB — hash `45a7545`, unique ✅); `audit_log.md` (updated by content pipeline)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: New image hash `45a754592741ac63f8dc36cf8a106e7bc31e146f` — unique, no duplicates found against any tracked image ✅
+- **Orphaned Image Detection**: 26 pre-existing orphans unchanged from prior runs (20 public/images/ + 4 public/ + 2 src/assets/) — user should `git rm` when convenient
+- **Build**: 368 pages built successfully (11.65s) — clean rebuild ✅
+- **Content Verification** (curl on port 3200, Node.js static server with directory→index.html):
+  - `/7-side-hustle-paling-laku-malaysia-2026/` — title "7 Side Hustle Paling Laku di Malaysia 2026 — Modal Bawah RM500, Boleh Start Hari Ni — RakyatHub" ✅
+  - OG Image: `/_astro/hero-side-hustle-2026.D9dAXa3c_Ztsclz.jpg` — HTTP 200, 93,453 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-side-hustle-2026.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/tag/side-hustle/` — "Posts by tag 'side-hustle' — RakyatHub" ✅
+  - `/tag/jana-pendapatan/` — "Posts by tag 'jana-pendapatan' — RakyatHub" ✅
+  - `/category/kewangan/` — "Category 'Kewangan' — RakyatHub" ✅
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+- **Status**: resolved
+
 ## 2026-06-11 18:44
 - **QA Check**: Text-only component change — homepage links to countdown gaji (salary countdown) & quiz kewangan (financial health quiz) + increase postsPerPage to 30
 - **Commit**: `ce790e0` — fix: increase postsPerPage to 30 + add homepage links to countdown & quiz
