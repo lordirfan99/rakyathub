@@ -1,5 +1,21 @@
 # Audit Log
 
+## 2026-06-12 17:19
+- **QA Check**: Content-only build — 1 new article (Beli vs Beli: Minyak Masak Botol vs Paket)
+- **Commit**: `43178de` — Beli vs Beli: Minyak Masak Botol vs Paket
+- **Changes**: `src/data/post/minyak-masak-botol-vs-paket-mana-lebih-jimat.md` (new post — 71 lines, cooking oil bottle vs packet cost comparison); `src/assets/images/hero-beli-minyak-masak.jpg` (new hero image, 442KB — hash `7c2ec2e`, unique ✅); `audit_log.md` (updated)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: New image hash `7c2ec2e46b95164fe46f7389c7fbd2e76d573060` — unique, no duplicates found against any tracked image ✅
+- **Orphaned Image Detection**: Pre-existing orphans unchanged from prior runs (29 orphans across public/images/, public/, and src/assets/) — user should `git rm` when convenient
+- **Build**: 403 pages built successfully (12.55s) — clean rebuild ✅
+- **Content Verification** (curl on port 3000, Node.js static server serving from dist/ with directory→index.html):
+  - `/minyak-masak-botol-vs-paket-mana-lebih-jimat/` — title "Minyak Masak Botol vs Paket — Mana Lagi Berbaloi Untuk Dompet Korang? — RakyatHub" ✅
+  - OG Image: `/_astro/hero-beli-minyak-masak.C0xYCXpl_IcIFe.jpg` — HTTP 200, 21,298 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-beli-minyak-masak.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+- **Status**: resolved
+
 ## 2026-06-12 16:41
 - **QA Check**: Content-only build — 1 new article (Ringgit RM4.07 - impak belanja anak muda)
 - **Commit**: `1b06714` — News React: Ringgit RM4.07 - impak belanja anak muda

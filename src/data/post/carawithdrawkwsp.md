@@ -1,80 +1,193 @@
 ---
 publishDate: 2025-07-13
-title: "Cara Buat Pengeluaran KWSP: Panduan Lengkap 2025"
-excerpt: "Panduan lengkap buat pengeluaran KWSP secara online 2025. Cara mohon pengeluaran Akaun 2 dan Akaun Fleksibel, dokumen diperlukan dan tips elak ditolak."
-category: "KWSP"
+title: "Cara Buat Pengeluaran KWSP 2026 — Panduan Lengkap Akaun 1, 2 & Fleksibel"
+excerpt: "Panduan lengkap cara buat pengeluaran KWSP secara online 2026. Cara mohon pengeluaran Akaun 1 (55 tahun), Akaun 2 (perumahan, pendidikan, kesihatan), dan Akaun Fleksibel. Dokumen diperlukan & tips elak ditolak."
+category: KWSP
 image: "~/assets/images/hero-kwsp-withdraw.jpg"
 tags:
-  - "kwsp"
-author: "RakyatHub"
+  - kwsp
+  - pengeluaran-kwsp
+  - i-akaun
+  - akaun-1
+  - akaun-2
+  - akaun-fleksibel
+  - caruman-kwsp
+  - persaraan
+  - kewangan-malaysia
+  - kwsp-online
+author: RakyatHub
 ---
 
-Cara Buat Pengeluaran KWSP Tahun 2025 (Online & Dokumen Diperlukan)
+Dengan diperkenalkannya **KWSP Akaun Fleksibel** pada 2025, cara pengeluaran KWSP dah berubah. Ramai yang masih confuse: akaun mana boleh keluar, berapa banyak, dan apa dokumen diperlukan.
 
-## 🏦 Cara Buat Pengeluaran KWSP: Panduan Lengkap 2025
+Dalam artikel ni, kami sediakan **panduan lengkap pengeluaran KWSP 2026** — dari pengeluaran umur 50/55/60, pengeluaran perumahan, pendidikan, kesihatan, sampai ke Akaun Fleksibel.
 
-Ramai rakyat Malaysia tertanya-tanya tentang **cara buat pengeluaran KWSP**, terutama bila melibatkan keperluan seperti membeli rumah, pembiayaan pendidikan, rawatan perubatan atau ketika mencapai umur tertentu. Artikel ini akan membimbing anda langkah demi langkah mengenai **pengeluaran KWSP secara online atau di kaunter**, serta syarat-syarat dan dokumen yang diperlukan untuk setiap jenis pengeluaran.
+---
 
-## ✅ Jenis-Jenis Pengeluaran KWSP
+## 🏦 Struktur KWSP 2026 — 3 Akaun Utama
 
-- Pengeluaran Umur (50, 55 dan 60 tahun)
-- Pengeluaran Kesihatan
-- Pengeluaran Pendidikan
-- Pengeluaran Perumahan
-- Pengeluaran Haji
-- Pengeluaran Hilang Upaya
+Mulai 2025, KWSP telah menyusun semula caruman kepada **3 akaun**:
 
-## 📲 Cara Buat Pengeluaran KWSP Secara Online (2025)
+| Akaun | Peratusan Caruman | Tujuan | Bila Boleh Keluar |
+|-------|------------------|--------|-------------------|
+| **Akaun 1 (Simpanan Sejahtera)** | 75% | Persaraan wajib | Umur 55 tahun |
+| **Akaun 2 (Simpanan Khas)** | 15% | Perumahan, pendidikan, kesihatan | Bila-bila (syarat tertentu) |
+| **Akaun Fleksibel (Simpanan Fleksibel)** | 10% | Kecemasan & keperluan segera | Bila-bila (min RM50) |
 
-1. **Daftar i-Akaun KWSP:**
-    - Lawati [https://www.kwsp.gov.my](https://www.kwsp.gov.my)
-    - Klik “Log Masuk i-Akaun”
-    - Jika belum daftar, buat pendaftaran di kiosk/kaunter KWSP
-2. **Log Masuk ke i-Akaun**
-3. **Pilih Jenis Pengeluaran**
-4. **Isi Maklumat & Muat Naik Dokumen**
-5. **Hantar Permohonan**
+> **Sumber:** [KWSP Malaysia — Struktur Akaun Baharu](https://www.kwsp.gov.my/ms/akaun)
 
-## 📄 Dokumen Yang Diperlukan
+---
 
-### Untuk Pengeluaran Umur 55:
+## ✅ Cara Buat Pengeluaran KWSP Secara Online
 
-- MyKad / MyPR
+Semua pengeluaran KWSP sekarang boleh dibuat melalui **i-Akaun** — tak perlu pergi kaunter.
+
+**Langkah asas:**
+1. Login [i-Akaun KWSP](https://iakaun.kwsp.gov.my)
+2. Pilih jenis pengeluaran
+3. Isi maklumat & muat naik dokumen
+4. Hantar — proses 5-14 hari bekerja
+
+> 💡 **Tip:** Pastikan maklumat bank dikemaskini dalam i-Akaun sebelum mohon. Guna akaun bank yang aktif.
+
+---
+
+## 📋 Jenis-Jenis Pengeluaran & Syarat
+
+### 1️⃣ Pengeluaran Umur (50, 55 & 60)
+
+| Umur | Apa Boleh Keluar | Jumlah |
+|------|-----------------|--------|
+| **50 tahun** | Akaun **2 sahaja** | Baki penuh Akaun 2 |
+| **55 tahun** | Akaun **1 + 2** (Akaun Sejahtera) | Baki penuh |
+| **60 tahun** | Semua baki (jika ada) | Semua baki |
+
+**Dokumen diperlukan:**
+- MyKad
 - Penyata bank atau buku akaun
 
-### Untuk Pengeluaran Perumahan:
+### 2️⃣ Pengeluaran Perumahan
 
-- Salinan perjanjian jual beli
-- Surat kelulusan pinjaman perumahan
-- Salinan geran/strata (jika perlu)
+Boleh guna Akaun **2 atau Akaun Fleksibel** untuk:
+- Membeli rumah pertama (harga bawah RM300K layak skim LPPSA)
+- Membayar baki pinjaman rumah
+- Renovasi rumah (terhad)
 
-### Untuk Pengeluaran Pendidikan:
+**Dokumen diperlukan:**
+- Salinan perjanjian jual beli (SPA)
+- Surat kelulusan pinjaman bank
+- Salinan geran / strata
 
+### 3️⃣ Pengeluaran Pendidikan
+
+Boleh guna Akaun **2** untuk:
+- Yuran pengajian IPTA/IPTS
+- Yuran kemahiran (GiatMara, TVET)
+- Yuran anak di peringkat diploma/ijazah
+
+**Dokumen diperlukan:**
 - Surat tawaran institusi pengajian
-- Invois rasmi yuran pengajian
+- Invois yuran
 - Salinan IC anak (jika berkaitan)
+
+### 4️⃣ Pengeluaran Kesihatan
+
+Boleh guna Akaun **2** untuk:
+- Rawatan perubatan serius (kanser, jantung, buah pinggang)
+- Pembedahan di hospital swasta
+- Rawatan fertiliti (IVF)
+
+**Dokumen diperlukan:**
+- Surat pengesahan doktor
+- Anggaran kos rawatan dari hospital
+- MyKad
+
+### 5️⃣ Pengeluaran Akaun Fleksibel (Baru!)
+
+Yang ni paling best — **boleh keluar bila-bila masa tanpa syarat**. Tapi ada had:
+- Minimum pengeluaran: **RM50**
+- Tidak perlu dokumen sokongan
+- Proses dalam 24-48 jam
+
+> 💡 **Tip:** Guna Akaun Fleksibel untuk kecemasan je. Jangan gunakan untuk shopping atau lifestyle — sebab simpanan ni untuk masa depan.
+
+---
 
 ## ⏳ Tempoh Proses Permohonan
 
-Permohonan biasanya diproses dalam **5 hingga 14 hari bekerja**. Status boleh disemak melalui i-Akaun anda.
+| Jenis Pengeluaran | Tempoh Proses |
+|------------------|--------------|
+| Akaun Fleksibel (online) | 1-2 hari bekerja |
+| Pengeluaran Perumahan | 5-10 hari bekerja |
+| Pengeluaran Pendidikan | 5-10 hari bekerja |
+| Pengeluaran Kesihatan | 5-14 hari bekerja |
+| Pengeluaran Umur 50/55/60 | 3-7 hari bekerja |
 
-## 💡 Soalan Lazim (FAQ)
+> Status permohonan boleh disemak melalui i-Akaun.
 
-**1\. Boleh tak buat pengeluaran KWSP untuk kecemasan seperti hilang kerja?**  
-→ Setakat ini, tiada skim khas untuk kecemasan melainkan diumumkan kerajaan seperti i-Lestari/i-Citra dahulu.
+---
 
-**2\. Umur 50 tahun, boleh buat pengeluaran penuh?**  
-→ Tidak. Hanya pengeluaran dari **Akaun 2** dibenarkan pada umur 50. Penuh hanya pada umur 55 dan 60.
+## ❌ 5 Sebab Permohonan Pengeluaran KWSP Ditolak
 
-**3\. Boleh guna KWSP untuk renovate rumah?**  
-→ Tidak dibenarkan. Hanya untuk pembelian rumah atau bayar pinjaman sahaja.
+| Sebab | Penyelesaian |
+|-------|-------------|
+| **Dokumen tak lengkap** | Semak semula checklist sebelum hantar |
+| **Akaun bank salah/tak aktif** | Update maklumat bank dalam i-Akaun |
+| **Tidak memenuhi syarat** | Pastikan jenis pengeluaran yang dipohon ikut syarat KWSP |
+| **Sudah mencapai had pengeluaran** | Contoh: perumahan hanya sekali untuk rumah pertama |
+| **Gambar dokumen kabur** | Scan guna app, jangan guna gambar dari phone |
 
-## 📌 Kesimpulan
+---
 
-Pengeluaran KWSP adalah kemudahan yang membantu rakyat jika digunakan dengan bijak. Pastikan anda faham jenis pengeluaran yang layak dan cara permohonannya.
+## 📊 Perbandingan: KWSP vs ASB vs Tabung Haji
 
-**Gunakan i-Akaun KWSP** untuk permohonan yang mudah dan pantas.
+| Aspek | KWSP | ASB | Tabung Haji |
+|-------|------|-----|-------------|
+| **Pulangan 2025** | 6.30% | 5.75% | 3.50% |
+| **Kebebasan keluar** | Terhad | Boleh keluar bila-bila | Boleh keluar bila-bila |
+| **Had simpanan** | Tiada | RM300K maksimum | Tiada |
+| **Jaminan** | Tiada (tapi stabil) | Modal dijamin | Modal dijamin |
+| **Matlamat** | Persaraan | Pelaburan jangka panjang | Simpanan haji |
 
-## 📘 Baca Lagi: Panduan Lengkap KWSP Malaysia 2025
+> **Sumber:** [KWSP Malaysia — Struktur Akaun Baharu](https://www.kwsp.gov.my/ms/akaun), [BNM — Pelan Kewangan](https://www.bnm.gov.my/financial-planning)
 
-[📖 Klik Untuk Baca Artikel Penuh KWSP](/info-terkini-apa-itu-kwsp-akaun-fleksibel-2025-rakyat-kini-boleh-akses-simpanan-bila-bila-masa/)
+---
+
+## ❓ FAQ
+
+**1. Boleh buat pengeluaran KWSP untuk kecemasan seperti hilang kerja?**
+Ya, melalui **Akaun Fleksibel**. Tapi untuk kehilangan kerja yang lebih serius, kerajaan mungkin umumkan skim khas seperti i-Lestari/i-Citra (bergantung pada situasi).
+
+**2. Kalau umur 50 tahun, boleh buat pengeluaran penuh?**
+Tidak. Hanya **Akaun 2** boleh dikeluarkan pada umur 50 tahun. Akaun 1 hanya boleh keluar sepenuhnya pada umur 55 tahun.
+
+**3. Gaji berapa baru wajib carum KWSP?**
+Caruman wajib untuk pekerja bergaji **RM5,000 ke bawah** — kadar 11% (pekerja) + 13% (majikan). Gaji lebih RM5,000: 11% (pekerja) + 12% (majikan).
+
+**4. Boleh guna KWSP untuk renovate rumah?**
+Untuk renovasi besar seperti ubah struktur rumah — ya. Tapi untuk renovasi kecil (cat, kabinet) — biasanya tak dibenarkan. Periksa dengan KWSP dulu.
+
+**5. KWSP Akaun Fleksibel ni boleh isi balik lepas keluar?**
+Ya. Kalau korang keluarkan duit dari Akaun Fleksibel, korang boleh topup balik bila-bila. Tapi **relief cukai** hanya untuk caruman wajib dan sukarela dalam akaun tertentu.
+
+---
+
+## ✅ Kesimpulan
+
+| Jenis Pengeluaran | Paling Senang? | Paling Cepat? |
+|------------------|---------------|--------------|
+| **Akaun Fleksibel** | ✅ Ya (5 minit online) | ✅ 1-2 hari |
+| **Pengeluaran Perumahan** | 🟡 Sederhana | 🟡 5-10 hari |
+| **Pengeluaran Pendidikan** | 🟡 Sederhana | 🟡 5-10 hari |
+| **Pengeluaran Kesihatan** | 🔴 Banyak dokumen | 🟡 5-14 hari |
+| **Umur 55/60** | ✅ Mudah | ✅ 3-7 hari |
+
+➡️ **[Cara Semak Baki KWSP Online](/cara-semak-baki-kwsp-online-tanpa-pergi-kaunter-2025-panduan-lengkap/)**
+
+📖 **Baca juga:**
+- [Panduan KWSP Malaysia 2025 — Lengkap](/panduan-kwsp-malaysia-2025/)
+- [Info Terkini KWSP Akaun Fleksibel 2025](/info-terkini-apa-itu-kwsp-akaun-fleksibel-2025-rakyat-kini-boleh-akses-simpanan-bila-bila-masa/)
+- [KWSP Untung RM27 Bilion — Dividen 2026](/kwsp-untung-rm27-bilion-dividen-2026/)
+- [Kalkulator KWSP](/kalkulator/kwsp/)
+- [Kalkulator ASB](/kalkulator/asb/)
+- [DocuKilat — Penjana Surat & Dokumen AI](https://docukilat.rakyathub.my)

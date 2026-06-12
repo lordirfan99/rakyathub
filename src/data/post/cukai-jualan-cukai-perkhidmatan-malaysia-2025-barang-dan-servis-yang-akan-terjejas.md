@@ -1,69 +1,180 @@
 ---
 publishDate: 2025-07-18
-title: "Cukai Jualan & Cukai Perkhidmatan Malaysia 2025: Barang dan Servis Yang Akan Terjejas"
-excerpt: "SST Malaysia 2025 — kadar cukai perkhidmatan naik dari 6% ke 8% bermula Julai 2025. Ketahui barang dan servis yang terjejas serta cara sesuaikan perbelanjaan anda."
-category: "Kerajaan"
+title: "SST Malaysia 2026 — Cukai Jualan & Perkhidmatan, Barang & Servis Terjejas"
+excerpt: "Panduan lengkap SST Malaysia 2026. Kadar cukai perkhidmatan 8% bermula Julai 2025. Senarai barang & servis terjejas (logistik, pengiklanan, restoran), perbandingan SST vs GST, dan tips jimat."
+category: Kerajaan
 image: "~/assets/images/hero-cukai-sst.jpg"
 tags:
-  - "kerajaan"
-author: "RakyatHub"
+  - sst
+  - cukai-jualan
+  - cukai-perkhidmatan
+  - kastam
+  - kewangan-malaysia
+  - inflasi
+  - harga-naik
+  - belanja-bijak
+  - barang-terjejas
+  - gst-vs-sst
+author: RakyatHub
 ---
 
-## 📢 Cukai Jualan & Cukai Perkhidmatan Malaysia 2025: Barang dan Servis Yang Akan Terjejas
+Mulai **1 Julai 2025**, kerajaan Malaysia telah menaikkan kadar **cukai perkhidmatan dari 6% ke 8%** — dan memperluaskan liputan SST ke beberapa sektor baru seperti logistik, pengiklanan, dan pembaikan kenderaan.
 
-Cukai Jualan dan Cukai Perkhidmatan (SST) kembali mendapat perhatian rakyat Malaysia pada tahun 2025 selepas pengumuman kerajaan mengenai **pengubahsuaian kadar dan liputan SST** bermula 1 Julai 2025. Dalam artikel ini, kami akan terangkan secara menyeluruh apa itu cukai jualan dan cukai perkhidmatan, perbezaannya, barang dan servis yang akan terjejas, serta tips untuk rakyat menyesuaikan perbelanjaan.
+Ini bermakna **harga barang dan servis yang korang guna setiap hari akan naik** — dari delivery makanan, langganan Netflix, sampai servis kereta. Tapi tak semua barang kena — ada yang dikecualikan.
 
-### 📌 Fakta Penting SST 2025
+Dalam artikel ni, kami terangkan **secara lengkap apa itu SST, barang/servis mana terjejas, cara kira SST, perbandingan SST vs GST, dan cara nak jimat.**
 
-- Kadar cukai perkhidmatan naik dari 6% ke 8%.
-- Servis tambahan seperti logistik dan periklanan kini dikenakan cukai.
-- Langganan digital luar negara turut termasuk dalam senarai SST.
+---
 
-## 🧾 Apa Itu Cukai Jualan dan Cukai Perkhidmatan?
+## 📌 Apa Itu SST?
 
-**Cukai Jualan** dikenakan ke atas barang-barang buatan tempatan dan import pada peringkat pengilang. **Cukai Perkhidmatan** pula dikenakan ke atas perkhidmatan tertentu seperti makanan & minuman, penginapan, telekomunikasi, dan perkhidmatan profesional.
+**SST (Sales and Services Tax)** adalah cukai yang dikenakan oleh kerajaan Malaysia ke atas:
+- **Cukai Jualan** — dikenakan ke atas barang buatan tempatan dan import di peringkat pengilang
+- **Cukai Perkhidmatan** — dikenakan ke atas perkhidmatan tertentu seperti makanan, penginapan, telekomunikasi
 
-## 📌 Perubahan Terkini SST Malaysia 2025
+> SST menggantikan GST (GST dimansuhkan pada 2018). Berbanding GST yang dikenakan pada setiap peringkat rantaian bekalan, SST hanya dikenakan pada **peringkat pengilang dan penyedia servis**.
 
-- Kadar **cukai perkhidmatan dinaikkan dari 6% ke 8%** bermula Julai 2025.
-- **Lebih banyak sektor perkhidmatan dikenakan cukai** seperti logistik, periklanan, dan pembaikan kereta.
-- Beberapa servis teknologi (termasuk langganan digital luar negara) turut dikecualikan atau dikecualikan semula.
+**Sumber:** [Portal Rasmi Jabatan Kastam Diraja Malaysia](https://www.customs.gov.my/)
 
-### 📦 Antara Servis & Barang Yang Mungkin Naik Harga
+---
 
-- Penghantaran barang (Shopee, Lazada, J&T, dll).
-- Restoran/kafe makan dalam berdaftar SST.
-- Perkhidmatan pembaikan & logistik.
-- Langganan digital seperti Spotify dan Netflix.
+## 📊 Perubahan SST 2025–2026
 
-## 💬 Bagaimana SST Mempengaruhi Rakyat?
+| Perkara | Sebelum | Selepas (Jul 2025) |
+|---------|---------|-------------------|
+| Kadar cukai perkhidmatan | 6% | **8%** ⬆️ |
+| Sektor logistik | ✅ Dikecualikan | ❌ Kena cukai |
+| Sektor pengiklanan | ✅ Dikecualikan | ❌ Kena cukai |
+| Sektor pembaikan kenderaan | ✅ Dikecualikan | ❌ Kena cukai |
+| Langganan digital luar negara | ❌ Tidak termasuk | ✅ Termasuk |
+| Kadar cukai jualan (barang) | 5% / 10% kekal | **Kekal (tiada perubahan)** |
 
-Kenaikan kadar cukai akan memberi kesan langsung kepada harga perkhidmatan. Ini bermaksud anda mungkin akan membayar lebih untuk makan luar, pembelian atas talian, dan servis berkaitan. Walau bagaimanapun, tidak semua barang dan servis akan dikenakan SST – hanya yang tersenarai oleh Jabatan Kastam Malaysia.
+> **Sumber:** [Kementerian Kewangan — Ulasan SST 2025](https://www.mof.gov.my)
 
-## 📈 Perbandingan: SST vs GST
+---
 
-Walaupun SST lebih terhad dari segi liputan berbanding GST (yang dimansuhkan pada 2018), ia tetap memberi kesan kos kepada pengguna akhir. Perbezaan utama:
+## 🛒 Senarai Barang & Servis Terjejas
 
-- **SST hanya dikenakan pada peringkat pengilang dan penyedia servis**.
-- **GST ialah cukai nilai tambah pada setiap peringkat rantaian bekalan**.
+### ✅ Servis Yang Kena SST 8%
 
-## ✅ Cara Rakyat Boleh Sesuaikan Perbelanjaan
+| Sektor | Contoh | Kesan Pada Harga |
+|--------|--------|-----------------|
+| **Restoran / Kafe** | Makan di kedai berdaftar SST | Naik ~2% |
+| **Penghantaran barang** | Shopee, Lazada, J&T, Pos Laju | Caj penghantaran naik |
+| **Pengiklanan** | Google Ads, FB Ads, billboard | Kos marketing naik |
+| **Pembaikan kenderaan** | Bengkel kereta, servis pusat | Kos servis naik |
+| **Telekomunikasi** | Bil internet, data | Kadar SST dikenakan |
+| **Langganan digital** | Netflix, Spotify, Disney+, YouTube Premium | Harga langganan naik |
+| **Perkhidmatan profesional** | Fee guaman, akauntan | Caj perkhidmatan naik |
 
-### 💡 Tip Penjimatan Lepas SST
+### ✅ Barang & Servis Yang TIDAK Kena SST
 
-- Gunakan servis bebas cukai jika ada pilihan.
-- Kurangkan langganan digital tidak perlu.
-- Pilih barang buatan tempatan yang tidak dicukai.
-- Mohon bantuan kerajaan seperti STR atau [bantuan SARA RM100](/tebus-bantuan-sara-rm100-guna-ic-pengumuman-pagi-ini-23-julai-2025/) untuk kurangkan beban kos sara hidup.
-- Urus belanja lebih bijak dengan [panduan bajet 50/30/20](/cadangan-bajet-50-30-20-di-malaysia/) untuk kekal dalam kawalan kewangan walaupun harga naik.
+| Kategori | Contoh |
+|----------|--------|
+| **Barang asas** | Beras, gula, tepung, minyak masak (paket subsidi) |
+| **Perkhidmatan kesihatan** | Klinik, hospital, ubat-ubatan |
+| **Pendidikan** | Yuran sekolah, universiti, tuisyen |
+| **Pengangkutan awam** | Bas, LRT, MRT, teksi |
+| **Kediaman** | Sewa rumah, bil elektrik (200 unit pertama) |
 
-## 🗓️ Adakah SST Akan Berubah Lagi?
+---
 
-Menurut kenyataan rasmi Kementerian Kewangan, pelaksanaan SST terkini adalah sebahagian daripada usaha jangka sederhana untuk mengukuhkan hasil negara. Sebarang perubahan lanjut akan bergantung kepada keadaan ekonomi dan sokongan rakyat.
+## 💰 Cara Kira SST — Contoh
 
-## 🔎 Rujukan & Semakan Lanjut
+**Contoh 1: Makan di Restoran**
+| Item | Harga |
+|------|-------|
+| Nasi lemak + Teh Tarik | RM15.00 |
+| SST 8% | RM1.20 |
+| **Jumlah Bayar** | **RM16.20** |
 
-- [Portal Rasmi Jabatan Kastam Malaysia](https://www.customs.gov.my/)
-- [Laporan Berita Reuters (Jun 2025)](https://www.reuters.com/en/malaysia-introduce-revised-sales-tax-expand-services-tax-july-1-2025-06-09/)
+**Contoh 2: Langganan Netflix** 
+| Item | Harga |
+|------|-------|
+| Netflix Premium (BHD) | RM55.00 |
+| SST 8% | RM4.40 |
+| **Jumlah Bayar** | **RM59.40** |
 
-**Kata kunci SEO:** cukai jualan Malaysia 2025, SST 2025, servis dikenakan cukai Malaysia, cukai perkhidmatan terbaru, SST barang terjejas
+**Contoh 3: Delivery Shopee**
+| Item | Harga |
+|------|-------|
+| Caj penghantaran | RM7.00 |
+| SST 8% | RM0.56 |
+| **Jumlah Bayar** | **RM7.56** |
+
+---
+
+## 📈 SST vs GST — Apa Bezanya?
+
+| Aspek | SST | GST |
+|-------|-----|-----|
+| **Kadar** | 5-10% (jualan) + 8% (servis) | 6% (semua) |
+| **Peringkat** | Pengilang + penyedia servis | Setiap peringkat rantaian |
+| **Liputan** | Terhad (barang + servis terpilih) | Luas (hampir semua) |
+| **Kesan harga** | Sederhana | Tinggi (semua naik) |
+| **Kutipan hasil** | RM30 bilion/tahun (anggaran) | RM44 bilion/tahun |
+| **Bebanan rakyat** | Kurang (hanya servis tertentu) | Banyak (semua peringkat) |
+
+> **Sumber:** [Kementerian Kewangan — Laporan Hasil Cukai](https://www.mof.gov.my)
+
+---
+
+## 💡 Tips Jimat & Sesuaikan Perbelanjaan
+
+| Tip | Jimat Anggaran |
+|-----|---------------|
+| Kurangkan langganan digital (share plan keluarga) | RM20 – RM50/bln |
+| Pilih barang tempatan (tidak dikenakan cukai jualan) | RM10 – RM30/bln |
+| Makan di gerai/kaki lima (kadar SST berbeza) | RM20 – RM50/bln |
+| Guna perkhidmatan bebas SST jika ada pilihan | Bergantung |
+| Beli barangan asas sebelum harga naik | RM10 – RM20/bln |
+
+---
+
+## 📋 Cara Semak Status SST Sesuatu Servis
+
+1. Tanya kedai/servis — sama ada mereka berdaftar SST
+2. Check resit/kasir — ada caj SST tak?
+3. Rujuk [Portal Kastam Malaysia](https://www.customs.gov.my/)
+4. Call Kastam: **1-300-888-500**
+
+---
+
+## ❓ FAQ
+
+**1. SST 8% ni sama dengan GST ke?**
+Tak sama. SST hanya pada servis tertentu. GST adalah cukai menyeluruh. SST beban lebih ringan dari GST.
+
+**2. Makan di kedai biasa (gerai tepi jalan) kena SST?**
+Tak kena — hanya restoran berdaftar SST (biasanya restoran besar dan rangkaian).
+
+**3. Barang dapur harian naik harga?**
+Barang asas macam beras, gula, tepung dikecualikan. Tapi servis berkaitan (contoh: delivery) mungkin naik.
+
+**4. Langganan game macam PlayStation Plus kena SST?**
+Service digital dari luar negara — ya, dikenakan 8%.
+
+**5. SST ni tetap ke akan berubah lagi?**
+Kadar semasa 8% untuk perkhidmatan. Kerajaan akan kaji semula ikut keperluan.
+
+---
+
+## ✅ Kesimpulan
+
+| Perkara | Kesan |
+|---------|-------|
+| **Cukai perkhidmatan** | 6% → **8%** (naik 2%) |
+| **Sektor baru kena cukai** | Logistik, pengiklanan, pembaikan kereta |
+| **Barang asas** | ✅ Dikecualikan |
+| **GST** | ❌ Masih dimansuhkan |
+
+**Gunakan tips di atas untuk kurangkan kesan SST pada dompet korang.**
+
+📖 **Baca juga:**
+- [Bantuan SARA RM100 Guna MyKad](/tebus-bantuan-sara-rm100-guna-ic-pengumuman-pagi-ini-23-julai-2025/)
+- [STR Sumbangan Tunai Rahmah 2026](/str-sumbangan-tunai-rahmah-2026/)
+- [Cadangan Bajet 50-30-20 di Malaysia](/cadangan-bajet-50-30-20-di-malaysia/)
+- [Beras Import vs Tempatan — Mana Lagi Jimat?](/beras-import-vs-tempatan-murah/)
+- [Kalkulator SST](/kalkulator/sst/)
+- [Kalkulator Gaji Bersih](/kalkulator/gaji-bersih/)
+- [DocuKilat — Penjana Surat & Dokumen AI](https://docukilat.rakyathub.my)
