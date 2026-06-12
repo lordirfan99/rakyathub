@@ -1,5 +1,22 @@
 # Audit Log
 
+## 2026-06-12 16:41
+- **QA Check**: Content-only build — 1 new article (Ringgit RM4.07 - impak belanja anak muda)
+- **Commit**: `1b06714` — News React: Ringgit RM4.07 - impak belanja anak muda
+- **Changes**: `src/data/post/ringgit-melemah-impak-belanja-anak-muda.md` (new post — 112 lines, Ringgit jatuh ke RM4.07/USD impak pada gaji RM3,000, shopping online dan minyak); `src/assets/images/hero-ringgit-melemah-impak-belanja-anak-muda.jpg` (new hero image, 210KB — hash `c199e40`, unique ✅); `audit_log.md` (updated)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: New image hash `c199e4093234415ffb3c2989bca0cbab0931fd29` — unique, no duplicates found against any tracked image ✅
+- **Orphaned Image Detection**: Pre-existing orphans unchanged from prior runs (29 orphans across public/images/, public/, and src/assets/) — user should `git rm` when convenient
+- **Build**: 400 pages built successfully (16.47s) — clean rebuild ✅
+- **Content Verification** (curl on port 3000, Node.js static server serving from dist/ with directory→index.html):
+  - `/ringgit-melemah-impak-belanja-anak-muda/` — title "Ringgit Jatuh RM4.07 — Gaji RM3,000 Kena Pukul? — RakyatHub" ✅
+  - OG Image: `/_astro/hero-ringgit-melemah-impak-belanja-anak-muda.BWUXOkeT_2e5jxR.jpg` — HTTP 200, 145,541 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-ringgit-melemah-impak-belanja-anak-muda.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/category/kewangan/` — "Category 'Kewangan' — RakyatHub" ✅
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+- **Status**: resolved
+
 ## 2026-06-12 14:19
 - **QA Check**: Content-only build — 1 new article (Takaful vs Insurans Hayat)
 - **Commit**: `f19496a` — Auto: Insurans - Takaful vs Insurans Hayat — Mana Pilihan Terbaik untuk Perlindungan Anda?
