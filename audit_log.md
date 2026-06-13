@@ -1,5 +1,18 @@
 # Audit Log
 
+## 2026-06-13 16:38
+- **Commit**: `3b05fb4` — Auto: News React — Damai Iran-AS: Minyak Akan Turun Lagi (13 Jun 2026)
+- **Type**: content-only (new post + new image)
+- **Change**: New post `gencatan-senjata-iran-as-impak-ekonomi-malaysia.md` with hero image
+- **Pre-build checks**: ✅ No untracked `.astro` files, no untracked leftover images, no untracked posts
+- **Duplicate image check**: ✅ New image has unique hash (no duplicates found)
+- **Orphaned images (info only — not fixed)**: `src/assets/images/hero-test-a.jpg`, `hero-test-b.jpg`, `hero-saham-usa.jpg`, `cta-join-discord.png`; 20 public/images/ files, `public/og-default.png`, `public/og-image.png`, `public/rakyathub-icon.png`, `public/rakyathub-logo-lg.png`, `public/rakyathub-logo.jpg`
+- **Build**: ✅ 546 pages built in 13.92s
+- **Verification**: ✅ New post renders with correct title "Damai Iran-AS: Minyak Akan Turun Lagi — Impak Pada Korang — RakyatHub" and correct OG image (hero-gcncatan-senjata-iran-as-impak-ekonomi-malaysia.bbbz723M.jpg, HTTP 200, 97KB)
+- **Frontmatter**: ✅ `image:` line active (not commented out)
+- **Tag/category pages**: ✅ /tag/iran/, /tag/harga-minyak/, /category/kewangan/ all render correctly
+- **Status**: resolved
+
 ## 2026-06-13 14:56
 - **QA Check**: Content-only build — 1 new KWSP article (Cara Kira Dividen KWSP — metode MADB)
 - **Commit**: `969f477` — Auto: New article — Cara Kira Dividen KWSP (metode MADB & strategi pulangan)
