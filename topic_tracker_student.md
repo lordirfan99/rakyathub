@@ -17,8 +17,8 @@
 | 13 | Cara hias bilik asrama aesthetic | ✅ | 2026-06-12 | cara-hias-bilik-asrama-aesthetic |
 | 14 | Cara urus masa belajar dan aktiviti | ✅ | 2026-06-08 | cara-urus-masa-belajar-dan-aktiviti |
 | 15 | Cara hilangkan mengantuk masa belajar | ✅ | 2026-06-12 | cara-hilangkan-mengantuk-masa-belajar |
-| 16 | Contoh resume fresh graduate tiada pengalaman | ❌ | — | — |
+| 16 | Contoh resume fresh graduate tiada pengalaman | ✅ | 2026-06-13 | contoh-resume-fresh-graduate-tiada-pengalaman |
 | 17 | Cara cari tempat praktikal / internship | ✅ | 2026-06-09 | cara-cari-tempat-praktikal-internship |
-| 18 | Soalan lazim temuduga kerja dan jawapan | ❌ | — | — |
+| 18 | Soalan lazim temuduga kerja dan jawapan | ✅ | 2026-06-13 | soalan-lazim-temuduga-kerja-dan-jawapan |
 | 19 | Template e-mel mohon praktikal | ❌ | — | — |
 | 20 | Cara buat akaun LinkedIn untuk student | ❌ | — | — |

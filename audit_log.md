@@ -1,5 +1,27 @@
 # Audit Log
 
+## 2026-06-13 10:22
+- **QA Check**: Content-only build — 1 new Kerjaya article (Career Switch — Tukar Kerjaya di Malaysia 2026)
+- **Commit**: `338cf2c` — Auto: Kerjaya - Career Switch (Tukar Kerjaya) di Malaysia 2026
+- **Changes**: `src/data/post/panduan-lengkap-tukar-kerjaya-malaysia-2026.md` (new post — 169 lines, comprehensive career switch guide in Malaysia including salary comparisons, gaji selepas bertukar, langkah tukar kerjaya); `src/assets/images/hero-panduan-lengkap-tukar-kerjaya-malaysia-2026.jpg` (new hero image, ~1.5MB — hash `4f4d136`, unique ✅); `audit_log.md` (updated by content pipeline)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅; git status clean ✅
+- **Duplicate Image Detection**: New image hash `4f4d136413998fe0fe7671a41cd879c80f0cf542` — unique, no duplicates found against any tracked image ✅
+- **Orphaned Image Detection**: Pre-existing orphans unchanged from prior runs — user should `git rm` when convenient
+- **Build**: 531 pages built successfully (13.20s) — clean rebuild ✅ (up from 527 pages — 1 new article + tag/category pages)
+- **Content Verification** (direct from built dist/):
+  - `/panduan-lengkap-tukar-kerjaya-malaysia-2026/` — title "Career Switch (Tukar Kerjaya) di Malaysia 2026 — Panduan Lengkap & Gaji Selepas Bertukar — RakyatHub" ✅
+  - OG Image: `/_astro/hero-panduan-lengkap-tukar-kerjaya-malaysia-2026.BatgAWRd_16NsX2.jpg` — processed by Sharp with 4 variants (2 JPG, 2 WebP) ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-panduan-lengkap-tukar-kerjaya-malaysia-2026.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/category/kerjaya/` — "Category 'Kerjaya' — RakyatHub" ✅
+  - `/tag/career-switch/` — new tag page renders ✅
+  - `/tag/tukar-kerjaya/` — new tag page renders ✅
+  - `/tag/kerjaya-malaysia-2026/` — new tag page renders ✅
+  - `/tag/gaji-terkini/` — new tag page renders ✅
+  - `/tag/perancangan-kerjaya/` — new tag page renders ✅
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+- **Status**: resolved
+
 ## 2026-06-13 09:13
 - **QA Check**: Content-only build — 4 new articles (ASB 2, Bonus ASB, SARA 2026, Versa vs KDI vs TNG GO+)
 - **Commit**: `b862ca0` — Auto: 4 new articles - ASB 2, Bonus ASB, SARA 2026, Versa vs KDI vs TNG GO+
