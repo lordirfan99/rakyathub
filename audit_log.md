@@ -1,5 +1,22 @@
 # Audit Log
 
+## 2026-06-13 14:56
+- **QA Check**: Content-only build — 1 new KWSP article (Cara Kira Dividen KWSP — metode MADB)
+- **Commit**: `969f477` — Auto: New article — Cara Kira Dividen KWSP (metode MADB & strategi pulangan)
+- **Files**: 3 files changed (1 new .md post, 1 new .jpg image, audit_log.md)
+- **Duplicate Image Check**: hero-cara-kira-dividen-kwsp.jpg — unique (NOT a duplicate) ✅
+- **Pre-Build Sanity**: Passed — no untracked debug pages, no leftover images, no untracked posts ✅
+- **Build**: npm run build — 543 pages built in 11.66s ✅
+- **Content Verification**:
+  - Article page: /cara-kira-dividen-kwsp-metode-madb-strategi-pulangan/ — title renders correctly ✅
+  - Hero image: HTTP 200, 76KB ✅
+  - Frontmatter image line: active (not commented) ✅
+  - Category /kwsp/: renders correctly ✅
+  - Homepage: links to new article ✅
+- **Notes**:
+  - Orphaned tracked images detected (pre-existing): 25 images in src/assets/images/ and public/ not referenced by src/ files. Not related to this commit. User may want to audit and git rm unused assets.
+- **Status**: resolved
+
 ## 2026-06-13 14:23
 - **QA Check**: Content-only build — 1 new Insurans article (Inflasi Perubatan Malaysia 2026 Cecah 16%)
 - **Commit**: `2b496b1` — Auto: Insurans - Inflasi Perubatan Malaysia 2026 Cecah 16%
