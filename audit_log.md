@@ -1,5 +1,20 @@
 # Audit Log
 
+## 2026-06-12 20:38
+- **QA Check**: Text-only component change — related posts 4→8, +20 cross-link keywords for orphan pages
+- **Commit**: `ad1e484` — fix: gandakan related posts 4->8, +20 cross-link keywords untuk orphan pages
+- **Changes**: `src/components/blog/RelatedPosts.astro` (related count: 4→8), `src/components/blog/SinglePost.astro` (+20 cross-link entries: Saham, Bajet Kahwin, Internship, Slaid Pembentangan, Bisnes Online, Bursa Malaysia, Gaji Bersih, SST, e-Tunai, Kerja Remote, Gaji RM1,800, PTPTN, Tabung Haji, Pajak Gadai Emas, Rule 78, Quishing, Ringgit, Deposit Scam, Insurans Hayat, Takaful)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅; git status clean ✅
+- **Duplicate/Orphaned Image Detection**: No new images in this commit ✅
+- **Build**: 507 pages built successfully (14.28s) — clean rebuild ✅ (up from 503 pages — more content from earlier commits)
+- **Content Verification** (curl on port 3000, Python http.server serving from dist/):
+  - Related posts verified: 8 related post cards rendering on blog posts (up from 4) ✅
+  - Cross-links verified: 21+ internal links in article body including cross-link keywords ✅
+  - Schema.org JSON-LD (BlogPosting) renders correctly on blog posts ✅
+  - Homepage: "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+  - Blog post page with new cross-links: "Cara Beli Saham USA Guna Moomoo Malaysia 2026" ✅
+- **Status**: resolved
+
 ## 2026-06-12 19:57
 - **QA Check**: Full build + curl verification — SinglePost.astro schema markup (BlogPosting JSON-LD) + content upgrade + internal linking expansion
 - **Commit**: `7946e90` — Phase 1: Schema markup + content upgrade + internal linking
