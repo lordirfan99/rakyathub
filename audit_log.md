@@ -1,5 +1,30 @@
 # Audit Log
 
+## 2026-06-13 09:13
+- **QA Check**: Content-only build — 4 new articles (ASB 2, Bonus ASB, SARA 2026, Versa vs KDI vs TNG GO+)
+- **Commit**: `b862ca0` — Auto: 4 new articles - ASB 2, Bonus ASB, SARA 2026, Versa vs KDI vs TNG GO+
+- **Changes**: 4 new `.md` posts (`asb-2-panduan-lengkap-simpanan-berkala-2026.md`, `bonus-asb-cara-kira-dan-beza-dengan-dividen.md`, `sara-2026-sumbangan-asas-rahmah-panduan-lengkap.md`, `versa-vs-kdi-vs-tng-go-platform-simpanan-alternatif-2026.md`); 4 new hero images (`hero-asb2-panduan-lengkap.jpg`, `hero-bonus-asb-cara-kira.jpg`, `hero-sara-2026-panduan-lengkap.jpg`, `hero-versa-kdi-tng-go-simpanan-alternatif.jpg`); `audit_log.md` (updated by content pipeline)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅; git status clean ✅
+- **Duplicate/Orphaned Image Detection**: All 4 new images unique — no duplicates found ✅
+- **Orphaned Image Detection**: Pre-existing orphans unchanged from prior runs (previously noted: `hero-test-a.jpg`, `hero-test-b.jpg`, `hero-saham-usa.jpg`, `cta-join-discord.png` in src/assets; 20+ public/images/ and public/root files) — user should `git rm` when convenient
+- **Build**: 527 pages built successfully (11.87s) — clean rebuild ✅ (up from 507 pages — 4 new articles + tag/category pages)
+- **Content Verification** (curl on port 3500, Node.js static server serving from dist/ with directory→index.html):
+  - `/asb-2-panduan-lengkap-simpanan-berkala-2026/` — title "ASB 2 2026 — Panduan Lengkap Simpanan Berkala & Perbandingan dengan ASB Biasa — RakyatHub" ✅
+  - OG Image: `/_astro/hero-asb2-panduan-lengkap.HImpS4_o_ZiitYy.jpg` — HTTP 200, 72,744 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-asb2-panduan-lengkap.jpg"` — active (not commented) ✅
+  - `/bonus-asb-cara-kira-dan-beza-dengan-dividen/` — title "Bonus ASB 2026 — Cara Kira & Beza Dengan Dividen ASB — RakyatHub" ✅
+  - OG Image: `/_astro/hero-bonus-asb-cara-kira.DUTiW6IP_2eqXeW.jpg` — HTTP 200, 26,302 bytes ✅
+  - Frontmatter image line: `image: "~/assets/images/hero-bonus-asb-cara-kira.jpg"` — active (not commented) ✅
+  - `/sara-2026-sumbangan-asas-rahmah-panduan-lengkap/` — title "SARA 2026 — Sumbangan Asas Rahmah & Panduan Lengkap Guna MyKad — RakyatHub" ✅
+  - OG Image: `/_astro/hero-sara-2026-panduan-lengkap.D0Ujxuhi_ZyRT2U.jpg` — HTTP 200, 213,770 bytes ✅
+  - Frontmatter image line: `image: "~/assets/images/hero-sara-2026-panduan-lengkap.jpg"` — active (not commented) ✅
+  - `/versa-vs-kdi-vs-tng-go-platform-simpanan-alternatif-2026/` — title "Versa vs KDI vs TNG GO+ — Platform Simpanan Alternatif 2026 — RakyatHub" ✅
+  - OG Image: `/_astro/hero-versa-kdi-tng-go-simpanan-alternatif.DjrLtoFp_Z1lYYLn.jpg` — HTTP 200, 49,186 bytes ✅
+  - Frontmatter image line: `image: "~/assets/images/hero-versa-kdi-tng-go-simpanan-alternatif.jpg"` — active (not commented) ✅
+  - `/category/asb/` — "Category 'ASB' — RakyatHub" ✅
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+- **Status**: resolved
+
 ## 2026-06-12 20:38
 - **QA Check**: Text-only component change — related posts 4→8, +20 cross-link keywords for orphan pages
 - **Commit**: `ad1e484` — fix: gandakan related posts 4->8, +20 cross-link keywords untuk orphan pages
