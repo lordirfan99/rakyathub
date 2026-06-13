@@ -42,14 +42,21 @@ Senaraikan ijazah, universiti, tahun graduasi, dan **CGPA kalau 3.0 ke atas**. K
 
 ### 4. Projek & Tesis Tahun Akhir
 
-Ramai fresh grads tak sedar bahawa **projek universiti adalah pengalaman kerja** — cuma tak bergaji. Tulis macam portfolio:
+Ramai fresh grads tak sedar bahawa **projek universiti adalah pengalaman kerja** — cuma tak bergaji. Tulis macam portfolio dengan detail yang cukup untuk tunjuk kemampuan teknikal dan penyelesaian masalah.
 
-- Tajuk projek
-- Objektif dan skop
-- Hasil / impak
+Gunakan format ringkas ni:
 
-**Contoh:**
-> *"Membangunkan sistem tempahan makanan atas talian menggunakan PHP dan MySQL untuk kantin universiti. Berjaya mengurangkan masa menunggu pelanggan sebanyak 40%."*
+- Tajuk projek & platform/tools yang digunakan
+- Objektif dan skop tugasan
+- Hasil atau impak yang boleh diukur
+
+**Contoh untuk student IT:**
+> *"Membangunkan sistem tempahan makanan atas talian menggunakan PHP dan MySQL untuk kantin universiti. Berjaya mengurangkan masa menunggu pelanggan sebanyak 40% berdasarkan survei kepuasan pengguna."*
+
+**Contoh untuk student bisnes:**
+> *"Menjalankan kajian pasaran tentang tabiat perbelanjaan Gen Z di Lembah Klang. Menganalisis data 200 responden menggunakan SPSS dan membentangkan cadangan strategi pemasaran digital kepada pensyarah dan panel industri."*
+
+Kalau ada projek berkumpulan, sebut peranan korang — sama ada lead, researcher, atau developer. Majikan nak tau **apa sumbangan spesifik** korang dalam projek tu.
 
 ### 5. Pengalaman Sukarelawan & Kokurikulum
 
