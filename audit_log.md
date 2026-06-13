@@ -1,5 +1,24 @@
 # Audit Log
 
+## 2026-06-13 12:41
+- **QA Check**: Content-only build — expand resume article for word count (fresh graduate resume tips)
+- **Commit**: `8a90e02` — Auto [Student]: expand resume article for word count
+- **Changes**: `src/data/post/contoh-resume-fresh-graduate-tiada-pengalaman.md` (word count expansion — added "Contoh untuk student bisnes" section with market research example, more detail on project descriptions with measurable impact, and guidance on team roles)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅; no new images in commit ✅
+- **Duplicate Image Detection**: No new images in this commit ✅
+- **Orphaned Image Detection**: Pre-existing orphans unchanged from prior runs (`hero-test-a.jpg`, `hero-test-b.jpg`, `hero-saham-usa.jpg`, `cta-join-discord.png` in src/assets; 20+ public/images/ and public/root files) — user should `git rm` when convenient
+- **Build**: 535 pages built successfully (15.50s) — used cache ✅ (up from 531 pages — new articles from earlier commits now indexed)
+- **Content Verification** (curl on port 4000, Node.js static server serving from dist/):
+  - `/contoh-resume-fresh-graduate-tiada-pengalaman/` — title "Contoh Resume Fresh Graduate Tiada Pengalaman — RakyatHub" ✅
+  - OG Image: `/_astro/hero-contoh-resume-fresh-graduate-tiada-pengalaman.DnW-H7rC_ZuA4M8.jpg` — HTTP 200, 19,499 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-contoh-resume-fresh-graduate-tiada-pengalaman.jpg"` — active (not commented) ✅
+  - New content "Contoh untuk student bisnes" present (1 occurrence) ✅
+  - New content "kajian pasaran tentang tabiat perbelanjaan" present (1 occurrence) ✅
+  - `/category/kerjaya/` — "Category 'Kerjaya' — RakyatHub" ✅
+  - `/blog/` — "Blog — RakyatHub" ✅
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+- **Status**: resolved
+
 ## 2026-06-13 10:22
 - **QA Check**: Content-only build — 1 new Kerjaya article (Career Switch — Tukar Kerjaya di Malaysia 2026)
 - **Commit**: `338cf2c` — Auto: Kerjaya - Career Switch (Tukar Kerjaya) di Malaysia 2026
