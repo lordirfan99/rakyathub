@@ -1,5 +1,22 @@
 # Audit Log
 
+## 2026-06-13 14:23
+- **QA Check**: Content-only build — 1 new Insurans article (Inflasi Perubatan Malaysia 2026 Cecah 16%)
+- **Commit**: `2b496b1` — Auto: Insurans - Inflasi Perubatan Malaysia 2026 Cecah 16%
+- **Changes**: `src/data/post/inflasi-perubatan-malaysia-kenapa-premium-medical-card-naik.md` (new post — 216 lines, inflasi perubatan Malaysia 2026 guide covering 16% medical inflation, premium increases, BNM actions, protection strategies); `src/assets/images/hero-inflasi-perubatan-2026.jpg` (new hero image, 167KB — hash `9bf91c0`, unique ✅); `audit_log.md` (updated by content pipeline)
+- **Pre-build**: No untracked `.astro` files ✅; no untracked leftover images ✅; no untracked posts ✅
+- **Duplicate Image Detection**: New image hash `9bf91c02536baba00646ed2cb51c114e166f9441` — unique, no duplicates found against any tracked image ✅
+- **Orphaned Image Detection**: Pre-existing orphans unchanged from prior runs (`hero-test-a.jpg`, `hero-test-b.jpg`, `hero-saham-usa.jpg`, `cta-join-discord.png` in src/assets; 20+ public/images/ and public/root files) — user should `git rm` when convenient
+- **Build**: 538 pages built successfully (14.54s) — clean rebuild ✅ (up from 535 — 1 new article + tag/category pages)
+- **Content Verification** (curl on port 3000, Python http.server serving from dist/ with directory→index.html):
+  - `/inflasi-perubatan-malaysia-kenapa-premium-medical-card-naik/` — title "Inflasi Perubatan Malaysia 2026 Cecah 16% — Kenapa Premium Medical Card Naik & Macam Mana Nak Lindung Diri — RakyatHub" ✅
+  - OG Image: `/_astro/hero-inflasi-perubatan-2026.LSn9Xweh_1fDhaP.jpg` — HTTP 200, 124,122 bytes ✅ (specific hero image, NOT default fallback)
+  - Frontmatter image line: `image: "~/assets/images/hero-inflasi-perubatan-2026.jpg"` — active (not commented) ✅
+  - Rendered image filename matches frontmatter — no Vite dedup or glob miss issue ✅
+  - `/category/insurans/` — "Category 'Insurans' — RakyatHub" ✅
+  - `/` — "RakyatHub — Panduan Kewangan Rakyat Malaysia" ✅
+- **Status**: resolved
+
 ## 2026-06-13 12:41
 - **QA Check**: Content-only build — expand resume article for word count (fresh graduate resume tips)
 - **Commit**: `8a90e02` — Auto [Student]: expand resume article for word count
