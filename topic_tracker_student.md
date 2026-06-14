@@ -20,5 +20,5 @@
 | 16 | Contoh resume fresh graduate tiada pengalaman | ✅ | 2026-06-13 | contoh-resume-fresh-graduate-tiada-pengalaman |
 | 17 | Cara cari tempat praktikal / internship | ✅ | 2026-06-09 | cara-cari-tempat-praktikal-internship |
 | 18 | Soalan lazim temuduga kerja dan jawapan | ✅ | 2026-06-13 | soalan-lazim-temuduga-kerja-dan-jawapan |
-| 19 | Template e-mel mohon praktikal | ❌ | — | — |
-| 20 | Cara buat akaun LinkedIn untuk student | ❌ | — | — |
+| 19 | Template e-mel mohon praktikal | ✅ | 2026-06-14 | template-emel-mohon-praktikal |
+| 20 | Cara buat akaun LinkedIn untuk student | ✅ | 2026-06-14 | cara-buat-akaun-linkedin-untuk-student |

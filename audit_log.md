@@ -1,5 +1,19 @@
 # Audit Log
 
+## 2026-06-14 10:24
+- **Commit**: `c6ccfc9` — Auto: Kerjaya - Kerja Kerajaan vs Swasta 2026 Perbandingan Lengkap
+- **Type**: content-only (new post + new image)
+- **Change**:
+  - `kerja-kerajaan-vs-swasta-2026-perbandingan-gaji-pencen.md` + `hero-kerja-kerajaan-vs-swasta-2026-perbandingan-gaji-pencen.jpg`
+- **Pre-build checks**: ✅ No untracked `.astro` files, no untracked leftover images, no untracked posts
+- **Duplicate image check**: ✅ New image has unique hash `ef094bcc39` (no duplicates found)
+- **Build**: ✅ 581 pages built in 14.13s
+- **Verification**: ✅ New post renders with correct title "Kerja Kerajaan vs Swasta 2026 — Perbandingan Lengkap Gaji, Pencen & Kestabilan Kerjaya — RakyatHub" and correct OG image (`hero-kerja-kerajaan-vs-swasta-2026-perbandingan-gaji-pencen.CwZsZDHB_1D37Me.jpg`, HTTP 200, 154KB)
+- **Structured data**: ✅ BlogPosting JSON-LD validates with correct headline, image, and `datePublished: 2026-06-14`
+- **Category pages**: ✅ Kategori Kerjaya renders correctly
+- **Frontmatter**: ✅ `image:` line active (not commented out)
+- **Status**: resolved
+
 ## 2026-06-14 09:49
 - **Commit**: `ae3c5b9` — Auto: 1 new article — Harga Emas Cecah RM764/g, 6 Platform Pelaburan Terbaik & Panduan Lengkap 2026
 - **Type**: content-only (new post + new image)
