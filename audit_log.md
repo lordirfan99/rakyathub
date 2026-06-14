@@ -1,5 +1,22 @@
 # Audit Log
 
+## 2026-06-14 08:45
+- **Commit**: `aa8b29e` — Auto: 4 new articles — scam panggilan palsu, simpan emas pendidikan anak, KWSP pengeluaran perumahan, insurans perjalanan
+- **Type**: content-only (4 new posts + 4 new images)
+- **Change**: 
+  - `scam-panggilan-palsu-bnm-polis-bank-cara-blok.md` + `hero-scam-panggilan-palsu-bnm-polis.jpg`
+  - `simpan-emas-untuk-pendidikan-anak-strategi-jangka-panjang.md` + `hero-simpan-emas-untuk-pendidikan-anak.jpg`
+  - `kwsp-pengeluaran-perumahan-akaun-2-beli-rumah-2026.md` + `hero-kwsp-pengeluaran-perumahan-akaun-2.jpg`
+  - `insurans-perjalanan-malaysia-panduan-lengkap-2026.md` + `hero-insurans-perjalanan-malaysia-2026.jpg`
+- **Pre-build checks**: ✅ No untracked `.astro` files, no untracked leftover images, no untracked posts
+- **Duplicate image check**: ✅ All 4 new images have unique hashes (no duplicates found)
+- **Orphaned images (info only — not fixed)**: `src/assets/images/hero-test-a.jpg`, `hero-test-b.jpg`, `hero-saham-usa.jpg` still orphaned; also 13+ `public/images/*.svg` files orphaned (not referenced by any src/ file)
+- **Build**: ✅ 569 pages built in 12.42s
+- **Verification**: ✅ All 4 new articles render with correct titles, OG images (all HTTP 200, 51–160KB), and active frontmatter `image:` lines
+- **Structured data**: ✅ BlogPosting JSON-LD validates with correct headline and description for all 4 articles
+- **Category pages**: ✅ Kategori kewangan, emas, kwsp, insurans all render correctly
+- **Status**: resolved
+
 ## 2026-06-13 20:22
 - **Commit**: `bca8b3f` — Auto: Side Hustle - Shopee Affiliate Marketing Panduan Lengkap 2026
 - **Type**: content-only (new post + new image)
