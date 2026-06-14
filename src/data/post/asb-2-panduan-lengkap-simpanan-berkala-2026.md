@@ -16,6 +16,17 @@ tags:
   - pelaburan-muda
 author: RakyatHub
 category: ASB
+faq:
+  - question: "Berapa dividen ASB 2 untuk 2026?"
+    answer: "ASB 2 mengisytiharkan 5.50 sen seunit bagi tahun kewangan berakhir 31 Mac 2026, sama seperti tahun sebelumnya. Jumlah pengagihan adalah RM820 juta kepada 680,141 pemegang unit."
+  - question: "Boleh saya pegang kedua-dua ASB dan ASB 2 sekali gus?"
+    answer: "Ya. Had pelaburan adalah RM300,000 untuk ASB dan RM300,000 untuk ASB 2 secara berasingan. Ini bermakna total maksimum RM600,000."
+  - question: "Adakah takaful ASB 2 percuma atau kena bayar?"
+    answer: "Percuma — tanpa sebarang premium. Perlindungan automatik untuk pelabur bawah 50 tahun sehingga RM30,000 baki pelaburan. Tiada caj tambahan."
+  - question: "Bila dividen ASB 2 dikreditkan?"
+    answer: "Dividen dikreditkan secara automatik pada 1 April setiap tahun ke dalam akaun ASB 2 dan dilabur semula. Pemegang unit tak perlu buat apa-apa."
+  - question: "Berapa modal minima nak mula ASB 2?"
+    answer: "Modal minima untuk buka akaun ASB 2 pertama kali adalah RM10. Lepas tu, minimum topup berikutnya cuma RM1 — sangat sesuai untuk pelabur muda nak mula."
 ---
 
 ## 💰 ASB 2 2026 — Alternatif Pelaburan Patut Korang Cuba

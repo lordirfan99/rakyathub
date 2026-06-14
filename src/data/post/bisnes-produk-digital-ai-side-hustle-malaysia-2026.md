@@ -12,6 +12,17 @@ tags:
   - jana-pendapatan
   - freelance-digital
 author: RakyatHub
+faq:
+  - question: "Betul ke boleh jana RM5,000 sebulan dari side hustle digital?"
+    answer: "Ya, tapi realistiknya — tak semua orang capai dalam bulan pertama. Bergantung pada niche, konsistensi, dan strategi pemasaran. Ramai content writer dan template seller di Malaysia report dapat RM1,000–RM3,000 dalam 2–3 bulan pertama, dan mencecah RM5,000+ selepas 6 bulan bila dah ada portfolio dan repeat clients. Kuncinya: jangan berhenti di pertengahan jalan."
+  - question: "Perlukan lesen perniagaan atau SSM untuk jual produk digital?"
+    answer: "Untuk jualan kecil-kecilan (side hustle bawah RM20,000 setahun), ramai start tanpa SSM dulu. Tapi kalau dah konsisten dapat RM3,000+ sebulan, disarankan daftar SSM (RM30–RM60 je) dan declare cukai dengan LHDN. Baca [panduan e-Filing 2026](https://rakyathub.my/panduan-e-filing-cukai-pendapatan-2026/) untuk cara declare pendapatan sampingan."
+  - question: "Platform jualan produk digital paling sesuai di Malaysia?"
+    answer: "Shopee adalah platform paling mudah untuk start — traffic tinggi, pengguna Malaysia ramai, dan dah ada kategori \"Produk Digital\". Alternatif lain termasuk Lazada, Gumroad (untuk auto-delivery global), dan Etsy (kalau target pasaran antarabangsa). Untuk affiliate marketing, TikTok Shop Affiliate dan Shopee Affiliate adalah pilihan terbaik."
+  - question: "AI tools apa yang wajib guna untuk side hustle digital?"
+    answer: "Yang wajib: ChatGPT (content & copywriting), Canva AI (design template), CapCut (video editing — TikTok format), dan Notion AI (organize bisnes). Percuma semua! Kalau nak upgrade, Canva Pro (~RM25/bulan) dan ChatGPT Plus (~RM80/bulan) boleh tingkatkan produktiviti dengan ketara."
+  - question: "Macam mana nak bezakan diri dari ribuan side hustler lain?"
+    answer: "Niche down. Jangan jadi \"content writer general\" — jadi \"content writer untuk produk skincare Muslimah\" atau \"template Canva untuk F&B bisnes\". Spesifik = kurang saingan = lebih senang naik. Tambah nilai dengan bundle produk + bonus (contoh: beli ebook dapat free template planner). Service yang lebih dari jangkaan = repeat customer + referral percuma."
 ---
 
 ## 🚀 Revolusi Side Hustle Digital 2026: Guna AI, Hasil Berganda

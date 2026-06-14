@@ -11,6 +11,17 @@ tags:
   - akaun-fleksibel
   - simpanan
 author: RakyatHub
+faq:
+  - question: "Boleh saya tukar peratusan caruman antara akaun?"
+    answer: "Tidak. Peratusan 75/15/10 ditetapkan oleh KWSP dan korang tak boleh ubah ikut suka. Tapi korang boleh buat caruman sukarela tambahan ke dalam mana-mana akaun melalui i-Saraan."
+  - question: "Kalau saya keluarkan semua duit Akaun Fleksibel, apa jadi?"
+    answer: "Duit yang dikeluarkan tak boleh dimasukkan semula melainkan melalui caruman sukarela. Dividen pula hanya dikira atas baki yang tinggal dalam akaun. Jadi elakkan kosongkan Akaun Fleksibel."
+  - question: "Bila saya boleh keluar Akaun Persaraan (Akaun 1)?"
+    answer: "Akaun Persaraan boleh dikeluarkan sebahagian bila capai umur 55 tahun (melalui skim Pengeluaran Umur 55) atau sepenuhnya bila capai umur 60 tahun (Pengeluaran Umur 60). Ada juga pengecualian untuk pelaburan unit trust dan migrasi kekal ke luar negara."
+  - question: "Adakah dividen dikira sama rata untuk ketiga-tiga akaun?"
+    answer: "Ya. Kadar dividen yang diumumkan KWSP adalah sama untuk semua akaun. Tahun 2025, kedua-dua Simpanan Konvensional dan Shariah dapat 6.15%. Bezanya cuma bila dan bagaimana korang boleh guna duit tu."
+  - question: "Macam mana cara nak keluar duit Akaun Fleksibel?"
+    answer: "Login ke [i-Akaun KWSP](https://secure.kwsp.gov.my) → Pilih \"Pengeluaran\" → Pilih \"Akaun Fleksibel\" → Masukkan jumlah (minimum RM50) → Wang masuk dalam 1-2 hari bekerja terus ke akaun bank yang didaftarkan. Tak perlu dokumen sokongan."
 ---
 
 ## 🏦 Panduan Lengkap KWSP Akaun 1, 2 & 3 — Cara Guna Setiap Akaun

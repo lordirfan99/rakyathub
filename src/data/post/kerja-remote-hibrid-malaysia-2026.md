@@ -14,6 +14,21 @@ tags:
   - tips-kerjaya
   - panduan-kerjaya
 author: RakyatHub
+faq:
+  - question: "Berapa gaji minimum untuk kerja remote di Malaysia 2026?"
+    answer: "Tiada gaji minimum khas untuk kerja remote. Semua tertakluk pada Perintah Gaji Minimum 2024 iaitu RM1,700 sebulan — sama macam kerja onsite. Tapi untuk peranan digital dan IT, gaji permulaan remote boleh mencecah RM3,000–RM5,000. Kalau kerja dengan client luar negara, rate ikut pasaran negara client."
+  - question: "Adakah kerja remote di Malaysia sah dari segi undang-undang?"
+    answer: "Ya, sah. Tapi pastikan kontrak kerja ada terma yang jelas — waktu kerja, cara pemantauan, tanggungjawab. Ramai pekerja remote sekarang guna kontrak `work from home` yang spesifik di bawah Akta Kerja 1955. Kalau freelance remote, pastikan ada service agreement yang lengkap."
+  - question: "Industri apa paling senang cari kerja remote?"
+    answer: "Teknologi maklumat (IT) — terutama software development, data analytics, dan cybersecurity. Lepas tu digital marketing, graphic design, dan content creation. Untuk fresh graduate, bidang customer support dan virtual assistant pun banyak buka peluang remote — gaji starting RM2,500–RM3,500."
+  - question: "Macam mana nak tahu majikan remote tu scam?"
+    answer: "Tanda-tanda scam: (1) minta bayaran deposit atau yuran pendaftaran, (2) gaji terlalu tinggi tanpa pengalaman, (3) takde interview langsung, (4) takde kontrak atau surat tawaran rasmi. Jangan sesekali transfer duit pada mana-mana majikan. Baca [panduan elak scam pinjaman dan kerja online](/📘-cara-elak-scam-pinjaman-online-panduan-lengkap-tips-selamat/) untuk info lanjut."
+  - question: "Berapa lama masa sesuai nak cari kerja remote?"
+    answer: "Secara purata, 1–3 bulan untuk dapat job remote pertama. Bergantung pada industri, pengalaman, dan skill. Kalau dah ada pengalaman dalam bidang IT atau digital, mungkin lebih cepat. Kalau baru nak tukar dari onsite ke remote, luangkan masa untuk update portfolio dan ambil sijil digital dulu."
+  - question: "Ada insurance atau KWSP untuk kerja remote?"
+    answer: "Ya, kalau kerja tetap (permanent) — remote atau hibrid — majikan tetap kena carum KWSP, PERKESO, dan SIP macam pekerja biasa. Tapi kalau freelance remote, korang kena carum sendiri guna [i-Saraan KWSP](/i-saraan-kwsp-2026-cara-daftar-insentif-padanan/) — dan kerajaan bagi insentif padanan 20%! Jangan lepaskan peluang ni."
+  - question: "Boleh ke fresh graduate buat kerja remote?"
+    answer: "Boleh, tapi lebih susah sikit sebab kebanyakan majikan remote cari calon berpengalaman. Tapi ada peluang untuk fresh graduate dalam bidang customer support, content writing, social media management, dan virtual assistant. Mulakan dengan portfolio dan sijil digital. Jangan lupa baca [panduan side hustle online](/panduan-kerja-sampingan-online-malaysia/) sebagai langkah pertama."
 ---
 
 Pasaran kerja Malaysia 2026 dah berubah total. Lepas pandemik, **kerja remote (dari rumah) dan hibrid (campur: separuh rumah, separuh pejabat)** bukan lagi satu pilihan — ia dah jadi norma baru. Majikan yang dulu keras hati nak semua orang datang pejabat sekarang terpaksa ubah fikiran sebab pekerja sendiri dah mula tuntut fleksibiliti.

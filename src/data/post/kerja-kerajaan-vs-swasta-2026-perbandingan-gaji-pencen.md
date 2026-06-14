@@ -14,6 +14,17 @@ tags:
   - tips-kerjaya
   - kerjaya-malaysia-2026
 author: RakyatHub
+faq:
+  - question: "Kalau saya kerja swasta sekarang, boleh ke terus apply kerja kerajaan?"
+    answer: "Ya, boleh. Suruhanjaya Perkhidmatan Awam (SPA) membuka permohonan secara berkala sepanjang tahun. Korang kena isi borang di portal [spa.gov.my](https://www.spa.gov.my) dan tunggu panggilan temuduga. Pengalaman kerja swasta adalah nilai tambah — terutamanya untuk jawatan yang memerlukan kemahiran khusus."
+  - question: "Kerajaan sekarang masih bawah sistem pencen ke?"
+    answer: "Penjawat awam yang dilantik sebelum 2024 masih dapat pencen seperti biasa. Tapi bagi yang dilantik mulai 2024 ke atas, mereka sudah beralih ke sistem caruman KWSP dengan kadar majikan 17% (lebih tinggi daripada swasta yang 13%). Jadi kalau baru masuk, korang bawah KWSP, bukan pencen penuh."
+  - question: "Gaji fresh graduate swasta vs kerajaan, mana lebih besar?"
+    answer: "Untuk gaji permulaan, swasta biasanya lebih tinggi terutamanya dalam bidang IT, kewangan, dan kejuruteraan. Tapi gaji kerajaan lebih stabil dan terjamin kenaikan tahunan (KGT). Dalam jangka panjang, total compensation mungkin setanding — tapi dengan kestabilan kerajaan sebagai kelebihan tambahan. Guna [Kalkulator Gaji Bersih](/kalkulator/gaji-bersih/) untuk bandingkan gaji akhir lepas potongan."
+  - question: "Sektor apa dalam swasta yang paling mudah terjejas masa ekonomi tak menentu?"
+    answer: "Mengikut data pasaran buruh DOSM dan JobStreet, sektor yang paling terdedah kepada pemberhentian kerja adalah perkhidmatan kewangan, teknologi (startup), hartanah, dan pembuatan berorientasikan eksport. Sektor kerajaan langsung tak terjejas — inilah kelebihan utamanya."
+  - question: "Boleh ke saya buat side hustle kalau kerja kerajaan?"
+    answer: "Secara umum, penjawat awam dibenarkan berniaga secara sambilan, tapi tertakluk kepada syarat — tidak boleh mengganggu tugas hakiki, tidak menggunakan kemudahan kerajaan, dan tidak terlibat dengan politik secara aktif. Rujuk pekeliling perkhidmatan terkini dari JPA untuk kepastian. Kalau kerja swasta, biasanya lebih fleksibel — tapi semak dulu kontrak pekerjaan korang."
 ---
 
 Dalam dunia pekerjaan di Malaysia, satu soalan yang tak pernah lapuk dek zaman: **"Mana lebih bagus — kerja kerajaan atau swasta?"**

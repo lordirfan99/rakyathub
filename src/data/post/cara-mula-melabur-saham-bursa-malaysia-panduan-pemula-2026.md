@@ -11,6 +11,17 @@ tags:
   - cds-akaun
   - dca
 author: RakyatHub
+faq:
+  - question: "Berapa modal minimum untuk beli saham Bursa Malaysia?"
+    answer: "Modal minimum bergantung broker — RM100 (Moomoo Malaysia, Verse) atau RM1,000 (Rakuten Trade). Plus yuran broker RM7-RM12 setiap transaksi."
+  - question: "Macam mana nak tahu saham patuh syariah atau tidak?"
+    answer: "Semak senarai di laman web [Suruhanjaya Sekuriti](https://www.sc.com.my/shariah) atau guna app broker yang dah labelkan status syariah setiap saham."
+  - question: "Berapa banyak dividen saham blue chip Malaysia?"
+    answer: "Saham blue chip seperti Maybank (6-7%), CIMB (5-6%), dan Petronas Chemicals (3-4%) bagi dividen secara konsisten setiap tahun."
+  - question: "Boleh rugi kalau melabur saham?"
+    answer: "Ya. Nilai saham boleh turun dan naik. Kalau terpaksa jual masa harga rendah, korang akan rugi. Sebab tu penting melabur untuk jangka panjang (5+ tahun) dan guna duit lebihan, bukan duit kecemasan."
+  - question: "Apa beza saham biasa dengan unit trust?"
+    answer: "Saham adalah pelaburan terus dalam syarikat — korang buat keputusan sendiri. Unit trust adalah dana dikelola pengurus profesional — lebih mahal (yuran tinggi) tapi tak perlu pilih saham sendiri. PRS adalah unit trust khusus untuk persaraan."
 ---
 
 ## 📈 Cara Mula Melabur Saham Bursa Malaysia — Panduan Lengkap Pemula 2026

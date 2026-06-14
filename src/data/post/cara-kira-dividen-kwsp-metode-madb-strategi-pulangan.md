@@ -16,6 +16,17 @@ tags:
   - caruman
   - pulangan
 author: RakyatHub
+faq:
+  - question: "Bila dividen KWSP dikreditkan ke akaun?"
+    answer: "Dividen tahunan biasanya dikreditkan pada 1 Mac tahun berikutnya. Contohnya, dividen tahun 2025 (6.15%) dikreditkan pada 1 Mac 2026. Pengumuman rasmi dibuat akhir Februari."
+  - question: "Berapa dividen minimum yang dijamin KWSP?"
+    answer: "KWSP menjamin dividen minimum 2.50% untuk Simpanan Konvensional setiap tahun (seperti ditetapkan dalam Akta KWSP 1991). Untuk Simpanan Shariah, tiada jaminan minimum tetap, tapi prestasi sejarah menunjukkan kadar setanding atau menghampiri kadar Konvensional."
+  - question: "Macam mana cara semak dividen KWSP dah masuk?"
+    answer: "Guna aplikasi i-Akaun (Google Play/App Store), atau layari portal KWSP di www.kwsp.gov.my. Dividen akan dipaparkan dalam penyata tahunan dan dikreditkan terus ke dalam akaun 1, 2, dan 3 mengikut pecahan simpanan masing-masing."
+  - question: "Kenapa dividen Simpanan Shariah lebih rendah dari Konvensional?"
+    answer: "Simpanan Shariah hanya melabur dalam instrumen patuh Syariah, yang mempunyai set peluang pelaburan lebih terhad berbanding Konvensional. Walaupun begitu, sejak 2024, kedua-duanya diumumkan sama rata pada 6.30% (2024) dan 6.15% (2025)."
+  - question: "Kalau saya berpindah kerja, adakah dividen KWSP terjejas?"
+    answer: "Tidak. Dividen dikira berdasarkan baki dalam akaun KWSP korang sepanjang tahun, bukan siapa majikan. Tapi pastikan majikan baru mendaftarkan caruman dengan betul — jika ada jurang caruman, korang rugi dividen untuk bulan tersebut. Gunakan [Kalkulator KWSP](/kalkulator/kwsp/) untuk unjuran lengkap."
 ---
 
 ## 💰 Macam Mana Dividen KWSP Dikira? Bukan Ikut Baki Akhir Tahun Je!

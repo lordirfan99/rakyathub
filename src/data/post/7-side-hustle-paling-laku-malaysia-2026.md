@@ -13,6 +13,21 @@ tags:
   - dropship
   - affiliate-marketing
 author: RakyatHub
+faq:
+  - question: "Mana satu side hustle paling senang untuk orang yang tak ada pengalaman langsung?"
+    answer: "Shopee Affiliate adalah paling mudah sebab modal RM0 dan platform dah disediakan. Anda cuma perlu buat konten menarik di TikTok atau Instagram untuk promote produk. Komisen 2–8% untuk setiap jualan, dan Shopee handle semua urusan penghantaran dan customer service."
+  - question: "Berapa lama nak nampak hasil dari side hustle?"
+    answer: "Kebanyakan side hustle ambil 1–3 bulan untuk nampak hasil yang konsisten. Dropship dan UGC biasanya paling cepat (1–2 bulan), manakala freelance copywriting dan VA mungkin ambil 2–4 bulan sebab perlu bina portfolio dan reputasi dulu. E-hailing dan food delivery adalah yang paling pantas — hari pertama dah boleh dapat duit."
+  - question: "Kena daftar SSM atau bayar cukai untuk side hustle?"
+    answer: "Ya, sebaiknya daftar perniagaan dengan SSM secara online (RM10) untuk dropship dan bisnes jualan. Untuk freelancer, anda boleh daftar sebagai individu atau enterprise. Side hustle tetap kena deklarasi dalam e-Filing jika pendapatan tahunan melebihi RM34,000 (atau RM37,333 mulai 2026). Baca [panduan e-Filing 2026](/panduan-e-filing-cukai-pendapatan-2026/) untuk detail."
+  - question: "Boleh ke buat side hustle sambil kerja 9–5?"
+    answer: "Ya, itulah tujuan asal side hustle — kerja sambilan di luar waktu pejabat. Pilih yang fleksibel seperti affiliate marketing, copywriting, UGC creator, atau VA yang boleh buat waktu malam atau hujung minggu. Dropship dan jualan frozen pun boleh diurus selepas balik kerja. Yang penting jangan sampai ganggu prestasi kerja utama."
+  - question: "Side hustle mana paling berisiko?"
+    answer: "Dropship membawa risiko sederhana kerana bergantung pada supplier — kalau supplier hantar lambat atau barang tak macam gambar, nama baik anda sebagai penjual terjejas. E-hailing dan food delivery ada risiko keletihan dan keselamatan jalan raya. Affiliate marketing, copywriting, dan UGC adalah antara risiko paling rendah kerana tiada modal fizikal dan anda boleh berhenti bila-bila masa tanpa kerugian besar."
+  - question: "Macamana nak bahagikan masa antara kerja utama, side hustle dan keluarga?"
+    answer: "Guna teknik time blocking. Contoh: waktu kerja utama 9–6pm, side hustle 8–10pm (3–4 kali seminggu), dan hujung minggu untuk keluarga. Jangan lupa gunakan [kalkulator perancangan kewangan](https://rakyathub.my/kalkulator/pelaburan/) untuk track pendapatan side hustle dan tentukan target simpanan bulanan."
+  - question: "Kalau saya pencen atau suri rumah, side hustle mana paling sesuai?"
+    answer: "Bisnes makanan frozen homemade atau dropship adalah yang paling sesuai — modal rendah, boleh buat dari rumah, ikut masa sendiri. Kalau ada kemahiran, VA juga pilihan bagus sebab anda boleh set sendiri jadual dan kadar bayaran. Jangan lupa guna [DocuKilat](https://docukilat.rakyathub.my) untuk hasilkan resume dan dokumen bisnes dengan pantas."
 ---
 
 Keluarga Malaysia makin ramai yang cari **side hustle** untuk tambah pendapatan. Bukan sebab nak kaya-raya, tapi sebab kos sara hidup dah naik — ikut [laporan DOSM](https://www.dosm.gov.my), inflasi Malaysia pada April 2026 berada di 1.9% dan tekanan harga barang asas masih dirasai ramai.

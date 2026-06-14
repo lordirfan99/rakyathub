@@ -16,16 +16,6 @@ export interface Props {
 
 const { post, url } = Astro.props;
 const author = getAuthor(post.author);
-
-// Schema.org date handling
-const pubDate = post.publishDate ? new Date(post.publishDate).toISOString() : '';
-const modDate = post.updateDate ? new Date(post.updateDate).toISOString() : pubDate;
-const imgUrl = post.image
-  ? (typeof post.image === 'string'
-      ? post.image.replace(/^~\/assets\//, 'https://rakyathub.my/')
-      : 'https://rakyathub.my' + (post.image as any).src)
-  : 'https://rakyathub.my/hero-default.jpg';
-const postUrl = String(url);
 ---
 
 <section class="py-8 sm:py-16 lg:py-20 mx-auto">
@@ -124,36 +114,6 @@ const postUrl = String(url);
     </div>
   </article>
 
-  <!-- BlogPosting Schema -->
-  <script type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": post.title,
-    "description": post.excerpt || '',
-    "url": postUrl,
-    "datePublished": pubDate,
-    "dateModified": modDate || pubDate,
-    "author": {
-      "@type": "Person",
-      "name": author?.name || 'RakyatHub'
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "RakyatHub",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://rakyathub.my/rakyathub-logo.png"
-      }
-    },
-    "image": {
-      "@type": "ImageObject",
-      "url": imgUrl
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": postUrl
-    }
-  })}></script>
 </section>
 
 <script>

@@ -11,6 +11,17 @@ tags:
   - kewangan-islam
   - pelaburan
 author: RakyatHub
+faq:
+  - question: "Berapa minimum simpanan untuk buka akaun Tabung Haji?"
+    answer: "Minimum RM10 je untuk buka akaun dewasa dan kanak-kanak. Untuk pendaftaran haji, korang perlukan simpanan minimum RM1,300 dalam akaun."
+  - question: "Berapa kadar hibah Tabung Haji terkini?"
+    answer: "Hibah terkini yang diumumkan adalah 3.25% bagi tahun kewangan 2024 (tertinggi dalam 7 tahun). TH dijangka mengumumkan hibah 3.50% bagi tahun kewangan 2025."
+  - question: "Boleh saya buka akaun Tabung Haji untuk anak?"
+    answer: "Ya, ibu bapa atau penjaga sah boleh buka akaun TH untuk anak seawal usia setahun. Hanya perlukan sijil lahir anak dan MyKad ibu/bapa."
+  - question: "Perlukah saya bayar zakat untuk simpanan Tabung Haji?"
+    answer: "Ya, jika simpanan cukup nisab (nilai semasa emas) dan cukup haul (12 bulan Qamariah), ia wajib dizakatkan. Gunakan [Kalkulator Zakat](/kalkulator/zakat/) untuk pengiraan tepat."
+  - question: "Berapa kos untuk pergi haji melalui Tabung Haji 2026?"
+    answer: "Kos haji muassasah bagi musim 1447H/2026M dikekalkan pada kadar RM33,300 untuk seorang jemaah."
 ---
 
 ## 🏦 Tabung Haji 2026 — Cara Simpan & Daftar Haji untuk Anak Muda

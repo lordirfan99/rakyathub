@@ -11,6 +11,17 @@ tags:
   - first-time-owner
   - premium-murah
 author: RakyatHub
+faq:
+  - question: "Berapa NCD untuk first time car owner?"
+    answer: "First time owner dapat 0% NCD, sebab belum ada rekod pemanduan tanpa tuntutan. Tahun pertama premium bayar penuh. Lepas setahun tanpa tuntutan, NCD naik ke 25%."
+  - question: "Boleh ke pindah NCD dari kereta lama ke kereta baru?"
+    answer: "Ya, NCD boleh dipindahkan. Tapi ada syarat: kereta lama mesti dah dijual dan insuransnya dah ditamatkan. Proses pindahan dalam tempoh 12 bulan dari tarikh tamat insurans lama. Kalau lebih, NCD boleh 'luput' dan start dari 0% semula."
+  - question: "Insurans apa paling murah untuk kereta lama?"
+    answer: "Untuk kereta 15+ tahun, Third Party paling murah — dalam RM250-RM400 setahun. Ada juga insurer tawarkan Third Party, Fire & Theft sekitar RM400-RM700 untuk perlindungan extra. Kalau nak banding harga, guna platform macam PolicyStreet atau [Kalkulator Kereta](/kalkulator/kereta/)."
+  - question: "Apa beza bengkel panel dan bengkel bebas?"
+    answer: "Bengkel panel adalah bengkel yang tie-up dengan insurer — claim diproses terus tanpa perlu bayar dulu. Bengkel bebas — korang bayar dulu, kemudian claim dari insurer. Bengkel panel selalunya lebih mudah untuk proses claim, tapi pilihan bengkel terhad."
+  - question: "Kalau accident, patut claim insurans atau bayar sendiri?"
+    answer: "Bergantung pada jumlah kerosakan vs NCD korang. Formula mudah: kalau kos baiki kurang dari RM1,000 dan NCD dah 55%, bayar sendiri. Kalau kos lebih dari RM3,000 dan NCD masih rendah, mungkin lebih baik claim insurans. Guna [Kalkulator SIM](/kalkulator/) untuk kira."
 ---
 
 ## 🚗 Panduan Insurans Kereta Malaysia — Pilih Coverage & Jimat Premium

@@ -11,6 +11,17 @@ tags:
   - tiktok-shop
   - jana-pendapatan
 author: RakyatHub
+faq:
+  - question: "Berapa modal minima nak start bisnes bundle online?"
+    answer: "Modal paling minima sekitar RM180–RM300 — RM100–RM200 untuk stok bundle (beli ikut kilo), RM30 untuk daftar SSM, dan selebihnya untuk packing dan pengangkutan. Kalau guna barang sedia ada (hanger, seterika, packing plastic), modal boleh kurang. Banding dengan side hustle lain, ni antara paling murah. Boleh semak [idea bisnes modal kecil untuk student](/idea-bisnes-modal-kecil-untuk-student/) kalau nak pilihan lain."
+  - question: "Kena ada lesen SSM ke untuk jual bundle online?"
+    answer: "Sebaiknya ya, daftar SSM. Yuran cuma RM30–RM60 setahun dan proses online senang. Dengan SSM, korang boleh: - Buka akaun TikTok Shop Seller dengan mudah - Daftar Shopee Mall / Preferred Seller nanti - Urusan dengan supplier bundle lebih professional - Memudahkan urusan cukai pendapatan nanti Untuk panduan cukai side hustle, baca [panduan e-Filing 2026](/panduan-e-filing-cukai-pendapatan-2026/)."
+  - question: "Macamana nak bezakan bundle berkualiti dengan bundle buruk?"
+    answer: "Antara tanda bundle berkualiti: - Jenama masih nampak — kalau tag dah lusuh, jenama tak dikenali, elakkan - Kain tak lusuh — check bahagian ketiak, kolar, dan siku - Tiada kesan peluh atau kotoran — kalau ada, harga kena lebih murah - Zip dan butang berfungsi — jangan ambil risiko - Bau — bundle yang disimpan lama mungkin ada bau hapak, tapi boleh dihilangkan dengan rendaman cuka"
+  - question: "Platform mana paling sesuai untuk jual bundle — TikTok Shop, Shopee, atau Instagram?"
+    answer: "Ketiga-tiga, tapi ikut strategi: - TikTok Shop — Paling efektif untuk live jualan. Pembeli nampak barang sebenar, boleh tanya direct, dan pembayaran dalam app. TikTok Shop Malaysia dah capai 31 juta+ pengguna — pasaran sangat besar. - Shopee — Bagus untuk *listing* stok yang dah siap dan boleh reach pembeli yang mencari bundle secara khusus. Shopee Affiliate komisen 4–7% untuk fesyen. - Instagram — Untuk *branding*, behind-the-scenes, dan teaser. Boleh arahkan trafik ke TikTok Shop atau Shopee. Mulakan dengan TikTok Shop dulu, kemudian develop platform lain. Jangan spread terlalu tipis masa mula-mula."
+  - question: "Berapa lama nak nampak hasil dari bisnes bundle?"
+    answer: "Untuk pemula yang aktif buat TikTok Live 3–5 kali seminggu, biasanya hasil mula nampak dalam bulan pertama — mungkin RM200–RM500. Bulan kedua dan ketiga, kalau dah ada pengikut setia dan konten konsisten, pendapatan boleh mencecah RM1,000–RM3,000. Seperti kisah Meiisa Wear yang start dengan RM200 dan sekarang cecah RM40K–RM60K — semuanya bermula dari konsistensi, bukan modal besar. > *\"Saya bermula dengan modal kecil sekitar RM200 dan hanya berkongsi gambar di media sosial. Dari situ, ramai yang mula bertanya dan tidak menyangka perniagaan ini mampu berkembang hingga ke tahap sekarang.\"* — Maisha Ashikin Rusli, Pengasas Meiisa Wear (Sumber: [Sinar Harian](https://www.sinarharian.com.my/article/752357/bisnes/ka-ching-dari-hobi-kosongkan-almari-ke-untung-lima-angka-sebulan))"
 ---
 
 Kalau korang scroll TikTok kebelakangan ni, mesti pernah nampak *live* jualan bundle — satu longgok baju, seller tunjuk satu-satu, dan dalam beberapa minit je terus habis sold out. Bukan setakat viral, tapi **bisnes bundle & preloved dah jadi salah satu side hustle paling menguntungkan** di Malaysia tahun 2026.

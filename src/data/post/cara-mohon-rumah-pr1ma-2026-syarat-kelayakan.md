@@ -11,6 +11,17 @@ tags:
   - perumahan
   - kerajaan
 author: RakyatHub
+faq:
+  - question: "Boleh saya mohon PR1MA kalau dah ada rumah?"
+    answer: "Tidak. PR1MA dikhaskan untuk pembeli rumah pertama (first-time home buyer). Jika korang atau pasangan sudah memiliki rumah, permohonan akan ditolak."
+  - question: "Berapa lama proses kelulusan PR1MA mengambil masa?"
+    answer: "Proses kelulusan biasanya mengambil masa 2 hingga 6 bulan bergantung pada bilangan pemohon dan projek. Status boleh disemak secara online di portal PR1MA."
+  - question: "Adakah PR1MA terbuka untuk warga asing?"
+    answer: "Tidak. PR1MA hanya untuk warganegara Malaysia yang bermastautin di Malaysia. Pasangan warga asing yang berkahwin dengan rakyat Malaysia tidak layak."
+  - question: "Boleh saya jual rumah PR1MA?"
+    answer: "Boleh, tetapi tertakluk pada tempoh moratorium yang ditetapkan (biasanya 5-10 tahun). Selepas tempoh itu, rumah boleh dijual di pasaran terbuka."
+  - question: "Kalau permohonan PR1MA gagal, boleh mohon semula?"
+    answer: "Ya. Permohonan gagal boleh memohon semula untuk projek lain. Pastikan korang betulkan sebab kegagalan — mungkin dokumen tak lengkap atau projek yang dipilih terlalu kompetitif."
 ---
 
 ## 🏠 PR1MA 2026 — Panduan Lengkap Mohon Rumah Mampu Milik Kerajaan

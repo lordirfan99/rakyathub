@@ -16,6 +16,17 @@ tags:
   - emas-fizikal
   - emas-digital
 author: RakyatHub
+faq:
+  - question: "Harga emas RM764/g tu maksudnya saya boleh jual pada harga tu?"
+    answer: "Tidak. RM764/g adalah harga spot tertinggi yang dicatat Januari 2026 — harga antarabangsa. Harga beli/jual sebenar berbeza ikut platform. Contohnya, UOB jual pada RM548.50/g dan beli pada RM543.50/g (13 Jun 2026). Spread platform menentukan harga sebenar."
+  - question: "Platform mana paling murah untuk pelabur baru?"
+    answer: "Bursa Gold Dinar — modal minima RM10, spread ±3–5%, patuh syariah. Lepas tu UOB GIA dengan spread 0.9% — paling rendah di Malaysia, sesuai untuk pelaburan serius."
+  - question: "Boleh saya mula dengan RM50 sebulan?"
+    answer: "Boleh. Bursa Gold Dinar minimum RM10, Public Gold GAP minimum RM100, Maybank MIGA-i minimum RM10. Tapi pastikan spread rendah supaya tak rugi banyak semasa jual. Guna strategi [DCA Emas](/dca-emas-gap-public-gold-strategi-beli-konsisten/) untuk hasil maksimum."
+  - question: "Emas digital selamat ke? Apa jadi kalau bank tutup?"
+    answer: "Akaun emas digital bank adalah catatan buku (book-entry) — korang memiliki nilai emas, bukan emas fizikal. Bank pelaburan emas BUKAN dilindungi PIDM. Tapi bank-bank besar macam Maybank, UOB, Public Bank sangat stabil dan dikawal selia Bank Negara. Untuk lebih selamat, guna platform yang disokong emas fizikal seperti Public Gold GAP atau Bursa Gold Dinar."
+  - question: "Kena bayar zakat emas ke?"
+    answer: "Ya, jika emas korang mencapai 85 gram dan disimpan setahun (haul) — zakat 2.5% WAJIB dibayar. Guna [Kalkulator Zakat](/kalkulator/zakat/) untuk kira jumlah tepat."
 ---
 
 ## 🟡 Harga Emas Cecah RM764/g — Apa Maknanya Untuk Korang?

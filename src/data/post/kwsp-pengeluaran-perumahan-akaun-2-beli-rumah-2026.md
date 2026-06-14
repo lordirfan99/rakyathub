@@ -15,6 +15,17 @@ tags:
   - KWSP-rumah
   - kewangan
 author: RakyatHub
+faq:
+  - question: "Boleh saya buat pengeluaran perumahan untuk rumah kedua?"
+    answer: "Boleh, dengan syarat rumah pertama telah dijual atau berlaku pelupusan pemilikan. Anda perlu mengemukakan bukti penjualan rumah pertama kepada KWSP semasa permohonan."
+  - question: "Berapa lama proses pengeluaran perumahan KWSP?"
+    answer: "Selepas permohonan lengkap dihantar, proses kelulusan mengambil masa 5–14 hari bekerja. Wang akan dikreditkan ke akaun bank yang didaftarkan dalam tempoh 3–5 hari selepas kelulusan."
+  - question: "Boleh guna pengeluaran perumahan untuk bayar deposit rumah?"
+    answer: "Ya. Wang pengeluaran boleh digunakan untuk deposit (10%), bayaran guaman, stamp duty, dan kos berkaitan pembelian rumah yang lain. Tiada sekatan cara penggunaan selagi untuk tujuan perumahan."
+  - question: "Apa jadi kalau permohonan ditolak?"
+    answer: "KWSP akan menyatakan sebab penolakan. Antara sebab biasa: dokumen tidak lengkap, baki Akaun Sejahtera tidak mencukupi, atau SPA telah melebihi 3 tahun. Korang boleh mohon semula selepas membetulkan isu tersebut."
+  - question: "Adakah pengeluaran perumahan kena cukai?"
+    answer: "Tidak. Pengeluaran KWSP untuk perumahan adalah bebas cukai dan tidak perlu diisytiharkan dalam e-Filing. Ia juga tidak menjejaskan pelepasan cukai atau PCB bulanan korang."
 ---
 
 ## 🏠 KWSP Pengeluaran Perumahan — Cara Guna Akaun 2 Beli Rumah

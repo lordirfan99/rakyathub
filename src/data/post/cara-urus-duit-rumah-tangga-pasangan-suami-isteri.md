@@ -11,6 +11,17 @@ tags:
   - simpanan
   - kahwin
 author: RakyatHub
+faq:
+  - question: "Patut ke suami isteri gabung duit dalam satu akaun?"
+    answer: "Bergantung pada keselesaan masing-masing. Akaun bersama untuk komitmen tetap adalah digalakkan, tapi simpan akaun peribadi masing-masing untuk kebebasan kewangan. Yang penting ada ketelusan — dua-dua tahu gaji masing-masing, hutang, dan perbelanjaan."
+  - question: "Macam mana nak urus duit kalau gaji tak tetap (freelancer / komisen)?"
+    answer: "Guna model gaji pokok + simpanan pelindung. Ambil purata pendapatan 6 bulan terakhir, dan gaji minima sebagai asas bajet. Pendapatan lebih dari purata terus masuk simpanan. Baca panduan [urus duit gaji bawah RM3000](/urus-duit-gaji-bawah-rm3000/) untuk tips flexibility."
+  - question: "Berapa peratus gaji patut simpan untuk pelaburan?"
+    answer: "Minimum 20% dari jumlah pendapatan isi rumah. Kalau gaji gabungan RM8,000, target simpan RM1,600/bulan. 10% untuk KWSP/tabung persaraan, 5% ASB/pelaburan jangka sederhana, 5% tabung kecemasan sehingga cukup jumlah target."
+  - question: "Nak start pelaburan bersama, apa pilihan terbaik?"
+    answer: "Untuk pasangan muda, mulakan dengan ASB (dividen konsisten 5-6% setahun, compounding) dan emas (lindung nilai). Bila dah selesa, boleh explore unit trust atau RDN (Robo-Advisor). Semak perbandingan pelaburan dalam [Pelaburan Asas Malaysia](/pelaburan-asas-asb-kwsp-dca-apa-pilihan-terbaik-untuk-anda/)."
+  - question: "Anak dah nak masuk universiti, macam mana nak kumpul duit?"
+    answer: "Guna [Kalkulator SSPN](/kalkulator/) dengan sasaran minimum RM50,000-RM100,000 untuk yuran pengajian. SSPN beri dividen 4-5% setahun dan pelepasan cukai sehingga RM8,000 setahun. Mulakan seawal mungkin — compounding dari anak umur setahun boleh jadi lebih RM100,000 masa umur 18 tahun."
 ---
 
 ## 💑 Cara Urus Duit Rumah Tangga — Panduan Lengkap Pasangan Suami Isteri

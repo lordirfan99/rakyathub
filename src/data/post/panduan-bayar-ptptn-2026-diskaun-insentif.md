@@ -11,6 +11,17 @@ tags:
   - diskaun
   - hutang
 author: RakyatHub
+faq:
+  - question: "Berapa diskaun kalau bayar PTPTN penuh sekaligus?"
+    answer: "Diskaun 20% untuk penyelesaian penuh baki pinjaman. Contoh: baki RM25,000, korang cuma bayar RM20,000 terus jimat RM5,000. Tapi promosi ni ada tempoh tertentu, jadi pantau pengumuman PTPTN."
+  - question: "Bolehkah PTPTN di-blacklist dan travel ban?"
+    answer: "Ya. Peminjam yang tak bayar selama 5 tahun atau lebih DAN berpendapatan RM6,000+ sebulan boleh dikenakan travel ban, termasuk yang bekerja di luar negara. CCRIS dan CTOS juga akan terjejas."
+  - question: "Berapa peratus gaji perlu dibayar untuk PTPTN?"
+    answer: "PTPTN tetapkan bayaran minimum 2% hingga 15% dari pendapatan bulanan ikut kadar yang dipilih masa mohon pinjaman. Tapi disarankan bayar lebih dari minimum untuk kurangkan tempoh hutang dan dapat manfaat diskaun."
+  - question: "Adakah bayaran PTPTN layak untuk pelepasan cukai?"
+    answer: "Ya, bayaran balik PTPTN boleh dituntut sebagai pelepasan cukai dalam kategori pendidikan. Layak sehingga RM8,000 setahun. Claim semasa e-Filing di [panduan e-Filing 2026](/panduan-e-filing-cukai-pendapatan-2026/)."
+  - question: "Macam mana kalau belum kerja, perlu bayar PTPTN?"
+    answer: "PTPTN beri tangguh bayar untuk peminjam yang masih menganggur atau belum bekerja. Tapi lepas 12 bulan dari tarikh tamat pengajian, bayaran mula berjalan. Kalau masih belum kerja, buat permohonan pengurangan bayaran atau moratorium dengan PTPTN."
 ---
 
 ## 🎓 Panduan Bayar PTPTN 2026 — Jimat Dengan Diskaun & Elak Blacklist

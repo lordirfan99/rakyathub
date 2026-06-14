@@ -11,6 +11,17 @@ tags:
   - takaful
   - perlindungan
 author: RakyatHub
+faq:
+  - question: "Boleh ke saya ada medical card dari kerja, tak payah beli sendiri?"
+    answer: "Boleh, tapi bergantung pada polisi majikan. Kebanyakan medical card majikan adalah *group insurance* yang terhenti sebaik korang berhenti kerja. Kalau tukar kerja atau kena retrench, korang hilang perlindungan. Lagipun, coverage group biasanya terhad. Jadi tetap ada insurans peribadi sebagai backup."
+  - question: "Berapa annual limit medical card yang mencukupi?"
+    answer: "Untuk 2026, annual limit RM100,000 – RM150,000 adalah selesa untuk rawatan di hospital swasta. Pelan asas RM50,000 mungkin tak cukup untuk rawatan kritikal seperti kanser atau pembedahan jantung."
+  - question: "Apa beza insurans hayat dan takaful hayat?"
+    answer: "Secara asas, insurans hayat adalah sistem konvensional (berasaskan konsep risiko), manakala takaful hayat adalah patuh syariah (berasaskan konsep tabarru' / derma bersama). Dari segi perlindungan dan kos, hampir sama. Pilihan terpulang pada keselesaan agama korang. Baca lebih lanjut dalam artikel [Takaful vs Insurans Biasa](/takaful-vs-insurans-biasa-panduan-perlindungan/) ."
+  - question: "Umur 25, sihat, tak merokok — kena medical check-up ke sebelum beli?"
+    answer: "Untuk jumlah perlindungan bawah RM1–2 juta dan umur bawah 40, kebanyakan syarikat tak perlu medical check-up. Cuma perlu isi borang *health declaration*. Tapi kalau ada penyakit sedia ada, kena declare dan mungkin diminta buat pemeriksaan."
+  - question: "Kalau sudah ada medical card, perlukah critical illness cover tambahan?"
+    answer: "Ya, sangat digalakkan. Medical card bayar kos hospital, tapi critical illness cover bayar lumpsum kalau korang disahkan sakit kritikal. Duit lumpsum tu boleh guna untuk rawatan alternatif, gantikan pendapatan hilang, atau cover kos lain yang medical card tak tanggung."
 ---
 
 ## 🛡️ Insurans Hayat vs Insurans Perubatan — Apa Beza & Mana Sesuai

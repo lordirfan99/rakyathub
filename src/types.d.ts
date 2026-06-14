@@ -30,6 +30,9 @@ export interface Post {
 
   /** Estimated reading time in minutes. */
   readingTime?: number;
+
+  /** FAQ items for FAQPage schema (optional). */
+  faq?: Array<{ question: string; answer: string }>;
 }
 
 export interface Taxonomy {

@@ -12,6 +12,17 @@ tags:
   - pelaburan
   - tax-relief
 author: RakyatHub
+faq:
+  - question: "Berapa modal minimum untuk mula PRS?"
+    answer: "Kebanyakan provider benarkan serendah RM100 sebulan (auto-debit) atau RM500 sekali bayar. PPA charge yuran pendaftaran RM10 sekali seumur hidup."
+  - question: "Boleh saya buat pengeluaran PRS sebelum umur 55?"
+    answer: "Ya, untuk tujuan tertentu seperti pembelian rumah pertama (maksimum RM10,000 atau 30% daripada simpanan, yang mana lebih rendah), hilang upaya kekal, atau kematian. Selain tu, penalti 8% dikenakan."
+  - question: "Adakah PRS selamat? Wang saya boleh hilang?"
+    answer: "PRS diawasi oleh Suruhanjaya Sekuriti Malaysia dan PPA. Wang pelaburan dilindungi dari pemiutang. Tapi nilai pelaburan boleh naik/turun ikut prestasi pasaran — pilih fund ikut profil risiko korang."
+  - question: "Mana lebih untung — PRS atau KWSP tambahan?"
+    answer: "KWSP bagi dividen tahunan konsisten (~5-6%) dengan risiko rendah. PRS berpotensi pulangan lebih tinggi (7-9% untuk fund agresif) tapi dengan risiko lebih tinggi. Kombinasi kedua-duanya adalah strategi terbaik."
+  - question: "Bagaimana nak claim pelepasan cukai PRS?"
+    answer: "Semasa isi [e-Filing](/panduan-e-filing-cukai-pendapatan-2026/) , masukkan jumlah caruman PRS dalam ruangan \"Bayaran Caruman Kepada Skim Persaraan Swasta\" (had RM3,000). Simpan penyata PRS sebagai bukti."
 ---
 
 ## 💰 PRS 2026 — Alternatif Terbaik Tambah Simpanan Pencen Selain KWSP

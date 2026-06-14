@@ -16,6 +16,17 @@ tags:
   - rakyat-malaysia
 author: RakyatHub
 category: Kerajaan
+faq:
+  - question: "Saya dah dapat STR, perlukah mohon SARA berasingan?"
+    answer: "Tidak. SARA dikreditkan secara automatik berdasarkan data STR 2026. Tak perlu buat permohonan khusus. Semak status di [sara.gov.my](https://sara.gov.my) guna MyKad."
+  - question: "Berapa jumlah SARA 2026 untuk isi rumah?"
+    answer: "Isi rumah biasa dapat RM100 sebulan (RM1,200 setahun). Jika tersenarai Miskin Tegar eKasih, dapat RM200 sebulan (RM2,400 setahun)."
+  - question: "Boleh beli susu formula bayi guna SARA?"
+    answer: "Ya. Susu formula bayi dan kanak-kanak termasuk dalam kategori Minuman — salah satu 15 kategori barangan yang dibenarkan."
+  - question: "Macam mana kalau MyKad hilang?"
+    answer: "Kredit SARA tidak boleh digunakan sehingga MyKad baharu dikeluarkan. Buat laporan polis dan mohon MyKad gantian di JPN. Kredit sedia ada tak hilang — cuma tak boleh diguna buat sementara."
+  - question: "Baki SARA tak habis guna — boleh bawa ke bulan depan?"
+    answer: "Ya. Baki bulanan boleh dibawa ke bulan-bulan berikutnya dalam tahun 2026. Tapi baki yang masih ada sehingga 31 Disember 2026 akan luput automatik. Guna sebaiknya."
 ---
 
 ## 🏛️ SARA 2026 — Apa Itu Sumbangan Asas Rahmah?

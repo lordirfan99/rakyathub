@@ -12,6 +12,17 @@ tags:
   - kesihatan
   - perlindungan-kritikal
 author: RakyatHub
+faq:
+  - question: "Kalau saya ada medical card RM1 juta, perlukah critical illness insurance?"
+    answer: "Ya. Medical card bayar bil hospital — tetapi ia tidak bayar gaji korang yang hilang, rawatan alternatif, atau kos sara hidup. Critical illness insurance cover apa yang medical card tak cover. Kedua-duanya saling melengkapi, bukan pilihan."
+  - question: "Berapa lama tempoh menunggu (waiting period) untuk critical illness insurance?"
+    answer: "Biasanya 90 hingga 120 hari dari tarikh polisi aktif untuk penyakit kritikal. Untuk kemalangan, biasanya tiada waiting period. Kalau cansel polisi dan beli semula, waiting period akan mula semula — jadi jangan main-main cancel!"
+  - question: "Boleh saya buat tuntutan medical card dan critical illness sekali?"
+    answer: "Ya, dua-dua boleh dituntut serentak. Medical card bayar bil hospital terus ke hospital. Critical illness pula bayar lump sum tunai ke akaun korang. Dua-dua claim tak bertindih sebab fungsi berbeza."
+  - question: "Apa beza \"CI Rider\" dengan \"CI Standalone\"?"
+    answer: "CI Rider adalah tambahan pada polisi medical card sedia ada — biasanya lebih murah premiumnya. CI Standalone adalah polisi berasingan yang boleh dibeli tanpa medical card, lebih fleksibel dan kadang-kadang cover lebih banyak penyakit. Untuk perlindungan maksimum, ambil CI Standalone."
+  - question: "Kalau saya dah ada penyakit sedia ada, masih boleh beli ke?"
+    answer: "Mungkin sukar. Kebanyakan plan akan exclude pre-existing condition atau kenakan loading (premium lebih tinggi). Tapi ada pelan khas untuk individu dengan pre-existing condition — cuma limited. Mulai 2026, BNM sedang gubal dasar baru untuk [pastikan syarikat insurans tidak boleh tolak claim sesuka hati](https://www.nst.com.my/news/nation/2026/03/1406358/insurance-companies-can-no-longer-reject-patient-claims)."
 ---
 
 ## 🏥 Medical Card vs Critical Illness: Jangan Keliru Lagi!

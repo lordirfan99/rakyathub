@@ -11,6 +11,17 @@ tags:
   - pinjaman
   - kewangan-islam
 author: RakyatHub
+faq:
+  - question: "Berapa lama tempoh gadaian Ar-Rahnu?"
+    answer: "Tempoh standard adalah 6 bulan untuk semua operator Ar-Rahnu. Korang boleh tebus awal (sebulan, dua bulan) dan jimat upah simpan. Kalau tak cukup masa, boleh minta gadaian semula (perpanjangan) dengan bayaran tertentu."
+  - question: "Apa jadi kalau tak tebus emas dalam tempoh 6 bulan?"
+    answer: "Emas korang akan dilelong oleh pihak Ar-Rahnu. Tapi sebelum lelong, operator kena hantar notis bertulis kepada korang. Kalau hasil lelong lebih dari jumlah tebus, lebihan akan dipulangkan. Kalau kurang, korang masih kena bayar baki."
+  - question: "Boleh tebus separuh emas atau sebahagian?"
+    answer: "Untuk Ar-Rahnu YaPEIM, setiap Surat Akuan Gadaian (SAG) maksimum RM5,000 — jadi kalau nilai marhun RM9,000, korang ada 2 SAG. Boleh tebus separuh dengan tebus satu SAG dulu. Tapi untuk operator lain, ada yang kena tebus semua sekali. Tanya dulu di kaunter."
+  - question: "Beza Ar-Rahnu dengan pajak gadai konvensional?"
+    answer: "Ar-Rahnu guna konsep Qard al-Hasan (pinjaman tanpa faedah) — korang cuma bayar upah simpan. Pajak konvensional caj interest 1-2% sebulan yang boleh jadi riba. Contoh: pinjaman RM7,200 selama 6 bulan, upah Ar-Rahnu RM405 vs interest konvensional RM864 (2% sebulan)."
+  - question: "Berapa gram emas minima boleh pajak?"
+    answer: "Minima berbeza ikut operator. Ar-Rahnu YaPEIM minima 1 gram. Bank Rakyat minima 10 gram untuk emas 999. Agro Bank minima 5 gram. Call cawangan dulu untuk confirm sebelum bawa emas."
 ---
 
 ## 🟡 Pajak Gadai Emas Ar-Rahnu — Alternatif Tunai Cepat Guna Emas

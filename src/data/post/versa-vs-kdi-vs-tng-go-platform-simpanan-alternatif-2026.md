@@ -16,6 +16,17 @@ tags:
   - perbandingan
 author: RakyatHub
 category: Kewangan
+faq:
+  - question: "Adakah duit dalam KDI Save / Versa Cash / TNG GO+ selamat?"
+    answer: "Dilaburkan dalam instrumen pasaran wang berkualiti tinggi dan dikawal selia SC. Tapi bukan PIDM insured — maksudnya tak dijamin kerajaan seperti simpanan bank. Risiko sangat rendah, tapi tetap ada. Kalau nak 100% selamat, guna digital bank (GXBank, Ryt Bank, Boost Bank) yang ada PIDM."
+  - question: "Mana paling tinggi pulangan?"
+    answer: "KDI Save (4.00% EAR) — pulangan paling tinggi tanpa syarat dan quests. Untuk RM50,000 pertama, fixed 4.00%, dibayar harian. Pengeluaran 1–2 hari bekerja."
+  - question: "Boleh saya guna TNG GO+ macam eWallet biasa?"
+    answer: "Ya. Duit dalam TNG GO+ boleh dikeluarkan ke baki eWallet Touch 'n Go serta-merta dan digunakan untuk bayar apa-apa — tol, parking, grocery, online payment. Tapi pulangan lebih rendah (3.40%)."
+  - question: "Mana yang patuh Syariah?"
+    answer: "Versa Cash-i (Versa) dan TNG GO+ (Principal e-Cash Islamic Fund) adalah patuh Syariah. KDI Save tidak patuh Syariah."
+  - question: "Ada had simpanan untuk platform ni?"
+    answer: "KDI Save — 4.00% untuk RM50,000 pertama, lepas tu kadar standard. Versa Cash — RM60,000 max (konvensional + Islamic). TNG GO+ — tiada had khusus, cuma kadar ikut prestasi dana."
 ---
 
 ## 📱 Versa vs KDI vs TNG GO+ — Platform Simpanan Alternatif Yang Patut Korang Tahu

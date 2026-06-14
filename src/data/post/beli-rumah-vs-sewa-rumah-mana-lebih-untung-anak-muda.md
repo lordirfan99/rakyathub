@@ -11,6 +11,17 @@ tags:
   - hartanah
   - kewangan
 author: RakyatHub
+faq:
+  - question: "Kalau saya sewa, tak rugi ke bayar sewa RM1,000 sebulan selama 10 tahun?"
+    answer: "Jumlahnya RM120,000 — banyak tu. Tapi ingat, kalau beli rumah RM400,000, dalam 10 tahun pertama majoriti bayaran pergi ke faedah bank (bukan principal). Belum lagi kos penyelenggaraan, cukai, dan risiko harga tak naik. Kira semula dengan kalkulator loan rumah untuk lihat angka sebenar."
+  - question: "Berapa gaji minimum nak beli rumah pertama?"
+    answer: "Untuk rumah RM300,000 dengan pinjaman 35 tahun (kadar 4.0%), ansuran sekitar RM1,330/bulan. Bank biasanya mahu gaji minima RM4,000–RM5,000 untuk lulus pinjaman ikut *Debt Service Ratio* (DSR) maksimum 60-70%."
+  - question: "Kalau saya ada deposit RM50,000, patut beli rumah atau labur dulu?"
+    answer: "Bergantung pada matlamat. Kalau nak beli rumah dalam 2 tahun — simpan dalam ASB atau FD. Kalau tak rancang beli dalam 5 tahun — labur dalam emas, unit trust, atau ASB. Pulangan 5-8% setahun biasanya lebih tinggi dari kenaikan harga rumah semasa."
+  - question: "Apa beza Skim Rumah Pertama (SPR) dengan PR1MA?"
+    answer: "SPR adalah skim kerajaan bagi pembeli rumah pertama — dapat pengecualian duti setem dan tawaran harga lebih rendah untuk rumah bawah RM500,000. [PR1MA](/cara-mohon-rumah-pr1ma-2026-syarat-kelayakan/) pulak perumahan mampu milik dengan harga 20% lebih rendah dari pasaran terbuka, terbuka untuk isi rumah berpendapatan RM2,500 – RM15,000."
+  - question: "Macam mana strategy 'beli untuk sewakan' berfungsi?"
+    answer: "Korang beli rumah, sewakan kepada penyewa, sementara korang sendiri sewa rumah murah dekat tempat kerja. Sewa yang diterima biasanya menampung 80-100% ansuran bank. Lepas 5 tahun, refinance atau jual rumah dan gunakan modal untuk rumah kedua. Strategi ni power kalau ada disiplin kewangan yang tinggi."
 ---
 
 ## 🏠 Beli Rumah vs Sewa Rumah — Mana Lebih Untung untuk Anak Muda?

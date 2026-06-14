@@ -12,6 +12,17 @@ tags:
   - bnm
   - premium-naik
 author: RakyatHub
+faq:
+  - question: "Kenapa premium insurans perubatan saya naik setiap tahun walaupun tak pernah buat tuntutan?"
+    answer: "Ini soalan paling popular. Premium naik bukan sebab korang buat tuntutan, tapi sebab kos perubatan secara keseluruhan meningkat (medical inflation). Syarikat insurans kena kumpul cukup premium dari semua pemegang polisi untuk bayar tuntutan yang meningkat. Ia macam sistem gotong-royong — yang sihat bantu yang sakit. BNM dah hadkan kenaikan maksimum 10% setahun sehingga 2026."
+  - question: "Apa itu Pelan MHIT Asas dan bila boleh dapat?"
+    answer: "Pelan MHIT Asas adalah inisiatif BNM untuk menyediakan pelan insurans perubatan asas yang lebih murah dan mudah diakses, termasuk untuk individu yang ada penyakit sedia ada (pre-existing conditions). Projek rintis di Lembah Klang akan bermula separuh kedua 2026, dan pelan penuh dijangka di pasaran awal 2027."
+  - question: "Lebih baik kekal dengan insurans sedia ada atau tukar ke takaful?"
+    answer: "Dua-dua ada kelebihan. Insurans biasa mungkin lebih murah sikit, manakala takaful menawarkan surplus sharing (lebihan dana dikembalikan kepada peserta) dan patuh Syariah. Kalau korang dah biasa dengan pelan sedia ada dan mampu bayar, tak perlu tukar. Tapi kalau nak alternatif yang lebih murah dan patuh Syariah, takaful boleh jadi pilihan."
+  - question: "Bolehkah saya turunkan premium dengan pilih deductible tinggi?"
+    answer: "Ya, deductible tinggi = premium rendah. Strategi ni sesuai untuk individu yang muda, sihat, dan ada tabung kecemasan yang mencukupi (contohnya RM3,000-5,000). Tapi pastikan korang betul-betul mampu bayar deductible tu kalau tiba-tiba kena masuk hospital. Tak guna premium murah tapi deductible tak mampu bayar. Baca [panduan tabung kecemasan](/tabung-kecemasan-malaysia-berapa-patut-simpan-cara-mula/) untuk detail."
+  - question: "Macam mana nak tahu sama ada pelan insurans saya masih relevan?"
+    answer: "Setiap tahun, buat semakan polisi: - Dah ada tanggungan baru? (kahwin, anak) — maybe perlu lebih coverage - Gaji dah naik? — boleh upgrade pelan - Ada penyakit baru? — semak semula waiting period - Premium naik lebih 10%? — boleh buat aduan ke BNM atau Ombudsman Gunakan [Kalkulator Gaji Bersih](/kalkulator/gaji-bersih/) untuk semak semula bajet dan pastikan peruntukan insurans masih dalam lingkungan 10% dari pendapatan."
 ---
 
 ## 📈 Premium Insurans Perubatan Makin Mahal? Realiti 2026

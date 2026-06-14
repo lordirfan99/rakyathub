@@ -13,6 +13,17 @@ tags:
   - keluarga
   - kewangan
 author: RakyatHub
+faq:
+  - question: "Saya baru kerja, gaji RM2,500. Boleh ke ambil insurans?"
+    answer: "Boleh! Mulakan dengan standalone medical card serendah RM80 – RM150 sebulan. Itu cuma 3–6% daripada gaji. Lagipun, pelaburan paling penting untuk diri sendiri adalah perlindungan kesihatan. Baca [panduan urus gaji bawah RM3,000](/urus-duit-gaji-bawah-rm3000/) untuk cara optimakan bajet."
+  - question: "Apa beza takaful dengan insurans biasa?"
+    answer: "Takaful berdasarkan prinsip tolong-menolong (tabarru') dan patuh Syariah — caruman dikumpul dalam dana bersama. Insurans biasa pulak kontrak jual-beli risiko. Dari segi coverage dan kos, dua-dua dah setanding. Pilih ikut keselesaan dan prinsip korang. Detail dalam [perbandingan takaful vs insurans](/takaful-vs-insurans-biasa-panduan-perlindungan/)."
+  - question: "Saya dah ada medical card panel syarikat. Perlukah saya beli sendiri?"
+    answer: "Ya. Coverage syarikat hanya tahan selagi korang kerja kat situ. Kalau tukar kerja, kena retrench, atau cuti tanpa gaji — terus hilang perlindungan. Lebih baik ada medical card peribadi sebagai backup, walaupun pelan asas."
+  - question: "Apa itu hibah takaful dan kenapa penting untuk muslim?"
+    answer: "Hibah takaful membolehkan manfaat takaful dibayar terus kepada waris tanpa perlu melalui proses faraid dan probet yang rumit. Waris boleh terima duit dalam masa 14–30 hari. Ini sangat penting untuk keluarga muda yang ada tanggungan."
+  - question: "Pelan Base MHIT kerajaan tu apa? Boleh percaya ke?"
+    answer: "Pelan Asas Insurans/Takaful Perubatan dan Kesihatan (MHIT) adalah inisiatif BNM dan kerajaan untuk sediakan pelan mampu milik dengan premium serendah RM50 – RM120 sebulan. Coverage asasnya (RM100K – RM150K setahun) lebih rendah daripada pelan swasta, tapi cukup untuk perlindungan minimum. Projek rintis dijangka bermula H2 2026. Baca lanjut di [panduan lengkap MHIT 2026](/base-mhit-plan-insurans-kerajaan-2026/)."
 ---
 
 ## 🧭 Kenapa Perlindungan Ikut Umur Penting?

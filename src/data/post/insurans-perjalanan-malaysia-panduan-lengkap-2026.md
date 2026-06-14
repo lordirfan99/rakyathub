@@ -16,6 +16,17 @@ tags:
   - takaful
   - perlindungan
 author: RakyatHub
+faq:
+  - question: "Adakah medical card Malaysia cover rawatan di luar negara?"
+    answer: "Kebanyakan medical card di Malaysia HANYA melindungi rawatan di dalam negara melainkan polisi tersebut secara spesifik menyatakan coverage luar negara. Inilah sebabnya insurans perjalanan tetap diperlukan walaupun anda sudah ada medical card."
+  - question: "Boleh beli insurans perjalanan lepas dah bertolak?"
+    answer: "Ya, beberapa syarikat insurans membenarkan pembelian selepas bertolak, tetapi coverage tertentu seperti pembatalan perjalanan tidak akan dilindungi. Lebih baik beli sebelum berlepas."
+  - question: "Apa beza insurans perjalanan konvensional dan takaful?"
+    answer: "Insurans perjalanan konvensional menggunakan konsep indemniti (ganti rugi), manakala takaful menggunakan konsep sumbangan bersama (tabarru'). Kedua-duanya sah di Malaysia. Pilih ikut keselesaan agama — Takaful Ikhlas, Etiqa, dan Syarikat Takaful Malaysia ada pilihan takaful perjalanan."
+  - question: "Kalau flight delay 3 jam, boleh claim?"
+    answer: "Kebanyakan polisi menetapkan minimum 5–6 jam kelewatan sebelum layak claim. Semak terma polisi korang. Claim biasanya antara RM200–RM400 bergantung pada tempoh kelewatan."
+  - question: "Berapa lama proses claim insurans perjalanan?"
+    answer: "Proses claim biasanya mengambil masa 7–30 hari bekerja selepas dokumen lengkap diterima. Pastikan semua dokumen asal disimpan dan hantar secepat mungkin — kebanyakan polisi ada had masa 30 hari selepas kejadian untuk membuat tuntutan."
 ---
 
 ## ✈️ Insurans Perjalanan Malaysia 2026 — Panduan Lengkap

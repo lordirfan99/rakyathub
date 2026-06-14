@@ -16,6 +16,17 @@ tags:
   - kewangan
 author: RakyatHub
 category: ASB
+faq:
+  - question: "Berapa bonus ASB untuk 2025?"
+    answer: "ASB 2025 memberikan bonus 0.55 sen seunit, bersama dividen 5.20 sen. Jumlah pulangan adalah 5.75 sen seunit — sama seperti 2024."
+  - question: "Adakah ASB 2 ada bonus?"
+    answer: "Tidak. ASB 2 hanya mengagihkan dividen (5.50 sen untuk 2026). Tiada komponen bonus seperti ASB biasa kerana strategi pelaburan ASB 2 lebih konservatif."
+  - question: "Macam mana nak tahu jumlah bonus yang saya dapat?"
+    answer: "Semak penyata tahunan ASB atau log masuk myASNB. Penyata akan pecahkan jumlah dividen dan bonus secara berasingan."
+  - question: "Bila bonus dikreditkan?"
+    answer: "Bersama dividen pada awal Januari setiap tahun, terus ke akaun ASB. Dana dikredit automatik dan dilabur semula — tiada tindakan diperlukan."
+  - question: "Adakah bonus ASB boleh dikeluarkan?"
+    answer: "Ya, bonus adalah sebahagian daripada nilai unit korang. Ia dikreditkan ke akaun ASB sebagai unit tambahan. Korang boleh keluarkan bila-bila masa melalui pengeluaran biasa ASB."
 ---
 
 ## 🎁 Bonus ASB 2026 — Pulangan Tambahan Yang Ramai Tak Faham

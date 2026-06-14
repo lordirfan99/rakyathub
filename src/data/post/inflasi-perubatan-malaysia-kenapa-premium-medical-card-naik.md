@@ -14,6 +14,17 @@ tags:
   - mhit
   - perlindungan-kewangan
 author: RakyatHub
+faq:
+  - question: "Betul ke inflasi perubatan Malaysia paling tinggi di Asia?"
+    answer: "Ya, berdasarkan laporan Aon 2026 Global Medical Trend Rates Report, inflasi perubatan Malaysia diunjur 16% pada 2026 — tertinggi sejak 2021 dan antara yang tertinggi di Asia-Pasifik. Indonesia catat 16.9%, Thailand 14.8%, Singapura 13%. Purata Asia-Pasifik cuma 11.3%. Sumber: [The Star — Laporan Aon](https://mysinchew.sinchew.com.my/news/20251031/mysinchew/6990121)"
+  - question: "Kenapa premium medical card saya naik setiap tahun walaupun saya tak pernah claim?"
+    answer: "Ini dipanggil *community rating* — insurer kumpul semua insured dalam satu kumpulan. Bila insured lain buat tuntutan besar (rawatan kanser, pembedahan jantung), kos tu dikongsi antara semua peserta melalui kenaikan premium. Bukan pasal korang claim atau tak, tapi pasal kos keseluruhan kumpulan meningkat. Ini sebab inflasi perubatan 15-16% setahun memberi kesan kepada semua orang."
+  - question: "Apa beza interim measures BNM dengan pelan Base MHIT?"
+    answer: "Interim measures BNM (Dis 2024) adalah langkah sementara — spread kenaikan premium 3 tahun, moratorium untuk warga emas 60+, dan alternatif produk murah. Pelan Base MHIT pulak adalah produk insurans asas baru yang sedang dibangunkan dengan premium RM50-RM100 sebulan, tiada semakan perubatan, dan klausa no look-back. Base MHIT akan jadi game-changer untuk rakyat berpendapatan rendah dan sederhana."
+  - question: "Kalau saya dah tak mampu bayar premium ILP, apa pilihan saya?"
+    answer: "Ada beberapa pilihan: - Tukar ke plan co-payment — premium boleh turun 20-40% - Tukar ke standalone medical card — RM42-RM150/bulan ja - Ambil Base MHIT — tunggu pelancaran penuh, dijangka RM50/bulan - Kurangkan rider — buang critical illness rider atau accident rider untuk kurangkan premium Hubungi ejen atau insurer korang untuk minta quotation alternatif. BNM dah wajibkan insurer tawarkan alternatif tanpa kos switching dan tanpa underwriting baru. Source: [BNM Interim Measures](https://www.businesstoday.com.my/2024/12/20/bnm-announces-interim-measures-to-address-medical-premiums/)"
+  - question: "Apa langkah segera yang boleh saya buat hari ni?"
+    answer: "1. ✅ Semak premium current — dah naik berapa % tahun ni? 2. ✅ Banding dengan plan standalone — guna [RinggitPlus](https://ringgitplus.com/en/health-insurance/medical-card/) atau [iMoney](https://www.imoney.my/medical-insurance) untuk banding harga 3. ✅ Check sama ada insurer dah patuh interim BNM — kenaikan maksimum 10% setahun 4. ✅ Hubungi ejen untuk minta alternatif lebih murah 5. ✅ Guna kalkulator untuk semak bajet — [Kalkulator Gaji Bersih](/kalkulator/gaji-bersih/) dan [Kalkulator DSR](/kalkulator/dsr/) 6. ✅ Jangan cancel polisi terus tanpa cover alternatif — risiko tinggi kalau berlaku emergency"
 ---
 
 Korang perasan tak sejak dua tiga tahun lepas, **premium medical card makin naik**? Dulu bayar RM150 sebulan, sekarang dah jadi RM200-RM250. Ada kawan-kawan yang umur 40-an bagitau premium mereka naik 30-50% dalam tempoh setahun.

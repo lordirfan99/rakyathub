@@ -11,6 +11,17 @@ tags:
   - pcb
   - gaji
 author: RakyatHub
+faq:
+  - question: "Kenapa gaji bersih saya lebih rendah dari kawan yang gaji sama?"
+    answer: "Mungkin sebab status perkahwinan berbeza. Kalau korang bujang dan kawan dah berkahwin, PCB dia lebih rendah sebab ada pelepasan tanggungan isteri. Selain tu, ada yang buat potongan tambahan macam SSPN, bayaran pinjaman kereta, atau takaful terus dari gaji."
+  - question: "Kalau overtime kena potong KWSP?"
+    answer: "Ya. Elaun tetap, komisen dan overtime semuanya termasuk dalam gaji kasar yang tertakluk pada caruman KWSP (kecuali jika ada pengecualian khas)."
+  - question: "Boleh ke saya minta majikan tak potong KWSP?"
+    answer: "Untuk warganegara Malaysia bawah 60 tahun, caruman KWSP adalah WAJIB. Tak boleh opt-out melainkan sudah capai umur 55 atau 60 tahun dengan pengeluaran penuh."
+  - question: "Macam mana nak tahu PCB saya betul atau tidak?"
+    answer: "Guna [Kalkulator Gaji Bersih](/kalkulator/gaji-bersih/) di rakyathub.my atau bandingkan dengan kalkulator rasmi LHDN."
+  - question: "Kalau gaji saya RM1,700 (gaji minimum), berapa potongannya?"
+    answer: "Gaji RM1,700 — KWSP 11% = RM187, SOCSO ~RM7.35, EIS ~RM4.90, SKBBK ~RM12.75. Gaji bersih sekitar RM1,488."
 ---
 
 ## 💵 Cara Kira Gaji Bersih — Panduan Lengkap Potongan KWSP, PERKESO & PCB

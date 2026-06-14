@@ -14,6 +14,19 @@ tags:
   - perlindungan
   - kerajaan
 author: RakyatHub
+faq:
+  - question: "Base MHIT Plan ni insurans kerajaan ke swasta?"
+    answer: "Base MHIT Plan adalah inisiatif kerajaan bersama BNM, tapi dijalankan oleh syarikat insurans/takaful swasta yang dipilih. Kerajaan tetapkan standard minimum (premium, coverage, deductible) dan insurer bersaing dalam pelan yang sama — jadi korang boleh bandingkan harga dari insurer berbeza dalam pelan asas yang seragam."
+  - question: "Boleh ke saya teruskan medical card sedia ada and tambah Base MHIT Plan?"
+    answer: "Ya, boleh. Base MHIP Plan direka sebagai pelengkap, bukan pengganti. Ambil Base MHIT untuk basic cover dan kekalkan medical card sedia ada untuk coverage lebih tinggi. Tapi pastikan jumlah premium masih dalam bajet — guna [Kalkulator DSR](/kalkulator/dsr/) untuk semak komitmen bulanan."
+  - question: "Kalau saya dah ada penyakit seperti darah tinggi atau kencing manis, boleh dapatkan Base MHIT Plan?"
+    answer: "Dengan klausa no look-back yang dicadangkan BNM, kalau penyakit tu stabil dan terkawal, tuntutan anda tak boleh ditolak semata-mata sebab pre-existing condition. Tapi klausa ni masih dalam perbincangan dan dijangka dikuatkuasakan bersama full rollout awal 2027."
+  - question: "Apa jadi kalau annual limit RM100K Standard Plan habis?"
+    answer: "Base MHIT Plan tetap akan habis kalau kos rawatan melebihi annual limit — insured kena tanggung sendiri lebihan kos. Sebab tu untuk rawatan serius macam kanser yang boleh cecah RM150K-RM200K setahun, Standard Plan RM100K mungkin tak cukup. Pertimbangkan untuk gabung dengan critical illness insurance yang bagi lumpsum tunai."
+  - question: "Macam mana nak guna KWSP untuk bayar Base MHIT Plan?"
+    answer: "Kerajaan membenarkan penggunaan KWSP Akaun Sejahtera (Account 3) untuk bayaran premium Base MHIT Plan. Korang boleh buat pengeluaran secara berkala (monthly atau yearly) melalui portal i-Akaun KWSP. Guna [Kalkulator KWSP](/kalkulator/kwsp/) untuk tengok baki dan unjurkan simpanan masa hadapan korang."
+  - question: "Ada tak alternatif lain tanpa tunggu Base MHIT Plan 2027?"
+    answer: "Kalau nak coverage sekarang jugak, boleh ambil: - Perlindungan Tenang Voucher (PTV) 3.0 — Baucar RM30 untuk penerima STR, sah hingga Ogos 2026. Produk insurans asas dengan premium serendah RM50 setahun. - Program i-MULA 50 LIAM — Dah tamat tapi insurer lain masih ada pakej insurans permulaan. - Medical card standalone — Beli sekarang dengan premium ikut umur korang sekarang. Masa muda premium murah!"
 ---
 
 ## 🏛️ Apa Itu Pelan Base MHIT? Pelan Insurans Perubatan Kerajaan Paling Hangat 2026

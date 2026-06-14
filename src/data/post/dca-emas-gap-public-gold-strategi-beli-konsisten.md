@@ -12,6 +12,17 @@ tags:
   - pelaburan
   - gold
 author: RakyatHub
+faq:
+  - question: "Berapa minimum untuk mula DCA emas GAP Public Gold?"
+    answer: "Minimum RM100 atau 1 gram untuk setiap transaksi. Auto-debit boleh disetel dengan jumlah ikut kemampuan — serendah RM100 sebulan pun dah boleh mula."
+  - question: "Berapa spread (beza harga beli dan jual) GAP Public Gold?"
+    answer: "Spread GAP Public Gold adalah sekitar 6–8% — lebih rendah daripada beli emas fizikal di kedai emas yang boleh mencecah 10–20%. Ini salah satu kelebihan GAP."
+  - question: "Boleh saya tukar emas GAP kepada emas fizikal?"
+    answer: "Ya, bila-bila masa korang boleh tebus emas fizikal dari akaun GAP dengan premium minimum (kos pembuatan). Public Gold akan hantar emas ke alamat korang atau boleh ambil di cawangan."
+  - question: "Adakah emas GAP patuh Syariah?"
+    answer: "Ya, Public Gold adalah syarikat yang memegang sijil patuh Syariah dan emas 999.9 yang dijual adalah patuh Syariah. Beli emas fizikal dengan niat pelaburan adalah harus dalam Islam."
+  - question: "Berapa pulangan DCA emas setahun?"
+    answer: "Pulangan emas bergantung kepada harga pasaran semasa. Secara sejarah, emas mencatatkan pulangan purata 8–15% setahun dalam tempoh 10 tahun lepas. Tapi pulangan lepas tak jamin pulangan masa depan. Sesuai untuk pelaburan jangka panjang minimum 3–5 tahun."
 ---
 
 ## 🟡 DCA Emas GAP Public Gold — Strategi Beli RM100 Sebulan Untuk Jangka Panjang

@@ -44,17 +44,21 @@ const metadata = merge(
   { ...(post?.metadata ? { ...post.metadata, canonical: post.metadata?.canonical || url } : {}) }
 ) as MetaData;
 
-// JSON-LD structured data for SEO
-const jsonLd = {
+// JSON-LD structured data for SEO — Article + BreadcrumbList + optional FAQPage
+const siteUrl = 'https://rakyathub.my';
+const pubDate = post.publishDate?.toISOString();
+const modDate = post.updateDate?.toISOString() || pubDate;
+const imgSrc = image ? (typeof image === 'string' ? image : image.src) : `${siteUrl}/hero-default.jpg`;
+
+const articleSchema = {
   '@context': 'https://schema.org',
-  '@type': 'BlogPosting',
+  '@type': 'Article',
+  '@id': `${url}#article`,
   headline: post.title,
   description: post.excerpt || '',
-  ...(image ? { image: typeof image === 'string' ? image : image.src } : {}),
-  datePublished: post.publishDate?.toISOString(),
-  ...(post.updateDate ? { dateModified: post.updateDate?.toISOString() } : {}),
-  ...(post.category ? { articleSection: post.category.title } : {}),
-  ...(post.tags && post.tags.length ? { keywords: post.tags.map(t => t.title).join(', ') } : {}),
+  ...(image ? { image: { '@type': 'ImageObject', '@id': `${url}#primaryimage`, url: imgSrc } } : {}),
+  datePublished: pubDate,
+  ...(post.updateDate ? { dateModified: modDate } : {}),
   author: {
     '@type': 'Person',
     name: post.author || 'RakyatHub',
@@ -64,18 +68,51 @@ const jsonLd = {
     name: 'RakyatHub',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://rakyathub.my/rakyathub-logo.png',
+      url: `${siteUrl}/rakyathub-logo.png`,
     },
   },
   mainEntityOfPage: {
     '@type': 'WebPage',
     '@id': url,
   },
+  ...(post.category ? { articleSection: post.category.title } : {}),
+  ...(post.tags && post.tags.length ? { keywords: post.tags.map(t => t.title).join(', ') } : {}),
 };
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  '@id': `${url}#breadcrumb`,
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Blog', item: `${siteUrl}/blog/` },
+    ...(post.category
+      ? [{ '@type': 'ListItem', position: 2, name: post.category.title, item: `${siteUrl}/blog/${post.category.slug}/` }]
+      : []),
+    { '@type': 'ListItem', position: post.category ? 3 : 2, name: post.title, item: url },
+  ],
+};
+
+const faqSchema = post.faq && post.faq.length > 0
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      '@id': `${url}#faq`,
+      mainEntity: post.faq.map((item) => ({
+        '@type': 'Question',
+        name: item.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: item.answer,
+        },
+      })),
+    }
+  : null;
 ---
 
 <Layout metadata={metadata}>
-  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
   <SinglePost post={{ ...post, image: image }} url={url}>
     {post.Content && <post.Content />}
   </SinglePost>

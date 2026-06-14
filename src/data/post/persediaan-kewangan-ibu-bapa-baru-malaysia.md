@@ -12,6 +12,17 @@ tags:
   - parenting
   - bajet-keluarga
 author: RakyatHub
+faq:
+  - question: "Berapa kos sebenar untuk anak pertama di Malaysia?"
+    answer: "Secara purata, kos bulanan anak pertama (termasuk lampin, susu, vaksin, taska) adalah antara RM800 hingga RM2,500. Kos sekali seperti hospital bersalin RM3,000-RM8,000 (swasta) atau RM80-RM500 (kerajaan). Kalau ikut anggaran Kementerian Kewangan, kos total dari lahir hingga 18 tahun adalah RM100,000-RM300,000."
+  - question: "Bila masa terbaik nak buka SSPN untuk anak?"
+    answer: "Sebaik dapat birth certificate. SSPN memerlukan MyKid atau MyKad anak untuk pendaftaran. Lebih awal buka, lebih lama tempoh compounding. Kalau simpan RM200/bulan dari lahir hingga 18 tahun, dengan dividen 4% setahun, jumlah terkumpul lebih RM65,000. Ditambah pelepasan cukai RM8,000 × 18 tahun = RM144,000 penjimatan cukai."
+  - question: "Apa pilihan insurans terbaik untuk newborn?"
+    answer: "Untuk newborn, keutamaan adalah medical card untuk hospital coverage. Jangan ambil investment-linked yang mahal. Car Insurance/Takaful dengan annual limit RM50,000-RM100,000 dan lifetime limit RM500,000-RM1,000,000 sudah memadai. Premium dalam RM50-RM150/bulan. Boleh tambah critical illness rider untuk perlindungan extra."
+  - question: "Berapa lama cuti bersalin wanita bekerja di Malaysia?"
+    answer: "Mulai 2025/2026, cuti bersalin minima 98 hari untuk sektor swasta dan awam (seperti diperuntukkan dalam pindahan Akta Kerja 1955). Separuh gaji atau gaji penuh bergantung pada terma majikan. Guna [Kalkulator Gaji Bersih](/kalkulator/gaji-bersih/) untuk kira pendapatan semasa cuti bersalin."
+  - question: "Suri rumah boleh dapat perlindungan SOCSO?"
+    answer: "Ya, melalui SIP (Saraan Surirumah) — program kerajaan yang membolehkan suri rumah mendaftar SOCSO. Premium cuma RM120 setahun (RM10 sebulan) dan memberikan perlindungan kecederaan, hilang upaya dan kematian sehingga RM20,000. Sangat berbaloi. Daftar di SOCSO pejabat berdekatan atau online."
 ---
 
 ## 👶 Persediaan Kewangan Ibu Bapa Baru — Panduan Lengkap

@@ -56,6 +56,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     author,
     draft = false,
     metadata = {},
+    faq,
   } = data;
 
   const slug = cleanSlug(id); // cleanSlug(rawSlug.split('/').pop());
@@ -93,6 +94,8 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     draft: draft,
 
     metadata,
+
+    faq,
 
     Content: Content,
     // or 'content' in case you consume from API

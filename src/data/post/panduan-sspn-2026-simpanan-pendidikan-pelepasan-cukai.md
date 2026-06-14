@@ -11,6 +11,17 @@ tags:
   - cukai
   - ptptn
 author: RakyatHub
+faq:
+  - question: "Berapa dividen SSPN terkini?"
+    answer: "Dividen SSPN terkini bagi tahun kewangan 2024 adalah 4.05%, tertinggi dalam tempoh 11 tahun. Tahun sebelumnya dividen adalah 3.60%. Pengumuman dividen biasanya dibuat pada Mac setiap tahun."
+  - question: "Berapa pelepasan cukai SSPN?"
+    answer: "Pelepasan cukai sehingga RM8,000 setahun untuk simpanan dalam Simpan SSPN Prime dan Simpan SSPN Plus. Ini adalah pelepasan khas yang tidak dikongsi dengan mana-mana produk simpanan lain. Claim semasa e-Filing."
+  - question: "Berapa minimum untuk buka akaun SSPN?"
+    answer: "Minimum RM20 je untuk buka akaun SSPN Prime atau SSPN Plus. Yuran penyelenggaraan tahunan RM10."
+  - question: "Apa beza Simpan SSPN Prime dan Plus?"
+    answer: "Simpan SSPN Plus termasuk perlindungan takaful untuk penama (anak) — jika berlaku kematian atau hilang upaya, baki simpanan dilindungi. Prime hanya untuk simpanan biasa. Kedua-duanya layak pelepasan cukai RM8,000."
+  - question: "Boleh SSPN digunakan untuk belajar di IPTS atau luar negara?"
+    answer: "Ya, simpanan SSPN boleh dikeluarkan untuk tujuan pendidikan tinggi di mana-mana institusi yang diiktiraf oleh Kerajaan Malaysia, termasuk IPTS dan institusi luar negara. Pengeluaran mudah dibuat secara online di portal SSPN."
 ---
 
 ## 📚 SSPN 2026 — Simpanan Pendidikan Dengan Dividen & Pelepasan Cukai RM8,000

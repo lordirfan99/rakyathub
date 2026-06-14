@@ -12,6 +12,17 @@ tags:
   - gaji-terkini
   - perancangan-kerjaya
 author: RakyatHub
+faq:
+  - question: "Berapa lama masa diperlukan untuk career switch?"
+    answer: "Secara purata, 3 hingga 12 bulan — termasuk masa belajar skill baru, cari kerja, dan proses temu duga. Kalau korang ambil kursus intensif (bootcamp) sambil bekerja, 6 bulan biasanya mencukupi."
+  - question: "Wajib ke ambil kursus atau sijil sebelum tukar kerjaya?"
+    answer: "Tak wajib, tapi sangat disarankan. Sijil atau portfolio prove kepada majikan bahawa korang serius dengan career switch dan bukan sekadar \"cuba-cuba\". Banyak kursus percuma atau murah kat platform seperti HRD Corp e-Latih."
+  - question: "Macam mana kalau gaji baru lebih rendah dari gaji lama?"
+    answer: "Ini normal untuk 6-12 bulan pertama. Tapi dengan perancangan kewangan yang betul, korang boleh survive. Guna [Kalkulator Bajet 50/30/20](https://rakyathub.my/kalkulator/bajet-50-30-20/) untuk pastikan perbelanjaan terkawal. Dalam jangka panjang, gaji di industri baru biasanya akan naik melebihi gaji asal dalam 1-2 tahun."
+  - question: "Boleh ke tukar kerjaya lepas umur 35?"
+    answer: "Ya, boleh! Ramai profesional buat career switch lewat — apa yang penting adalah attitude dan kemahiran baru. Tapi perlu strategi lebih mantap: leverage pengalaman lepas, pilih industri yang hargai pengalaman, dan bersedia untuk gaji setaraf junior."
+  - question: "Industri apa yang paling mesra untuk career switcher di Malaysia?"
+    answer: "Industri paling mesra termasuk teknologi (IT support, data analytics), digital marketing, HR dan recruitment, serta sektor penjagaan kesihatan (healthcare admin dan medical devices). Industri ni biasanya lebih terbuka dan ada program latihan dalaman untuk pekerja baru."
 ---
 
 Pernah tak korang duduk dalam meeting dan tiba-tiba terfikir, **"Ni betul ke bidang yang aku nak buat sampai pencen?"** Atau mungkin dah bertahun-tahun dalam industri yang sama tapi rasa stuck, gaji jalan di tempat, dan tak ada semangat nak pergi kerja pagi-pagi?

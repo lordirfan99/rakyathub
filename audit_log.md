@@ -1,5 +1,40 @@
 # Audit Log
 
+## 2026-06-14 18:20
+- **Uncommitted Changes**: Schema restructuring + FAQPage support
+- **Context**: HEAD `d33110f` (subsidi minyak article) already documented at 16:13. Uncommitted changes in working tree for schema migration.
+- **Files Modified**:
+  - `src/components/blog/SinglePost.astro` — Removed BlogPosting JSON-LD schema (moved to page layout)
+  - `src/pages/[...blog]/index.astro` — Added `Article` schema (replaces BlogPosting), `BreadcrumbList` schema, conditional `FAQPage` schema
+  - `src/content.config.ts` — Added `faq: z.array(z.object({question, answer}))` to post collection schema
+  - `src/types.d.ts` — Added `faq` field to `Post` interface
+- **Build**: ✅ 592 pages built in 15.05s (no errors)
+- **Verification**:
+  - ✅ Article schema renders with proper `@id`, `#article`, `#primaryimage` ImageObject
+  - ✅ BreadcrumbList schema renders with Blog → Category → PageTitle structure
+  - ✅ FAQPage schema not present (not yet used in any post — new frontmatter field)
+  - ✅ BlogPosting schema removed from page (0 matches)
+  - ✅ Blog roll page renders: "Blog — RakyatHub"
+  - ✅ Category page renders: "Category 'Kerjaya' — RakyatHub"
+  - ✅ Homepage renders with WebSite + Organization schemas
+- **Orphaned images** (pre-existing, not removed): 25 files — noted in prior entries
+- **Status**: resolved
+
+## 2026-06-14 16:13
+- **Commit**: `d33110f` — Auto: News React - subsidi minyak RM7.5 bilion
+- **Files**: `src/data/post/subsidi-minyak-cecah-rm7-5-bilion.md`, `src/assets/images/hero-subsidi-minyak-cecah-rm7-5-bilion.jpg`
+- **Changes**: Content-only (new blog post + hero image)
+- **Checks**:
+  - Duplicate image detection: ✅ unique hash `08f94550` (no duplicates)
+  - Pre-build sanity: ✅ (no untracked files, no leftover images)
+  - Build: ✅ (existing dist/ from prior build already includes this content)
+  - Post title: ✅ "Subsidi Minyak Cecah RM7.5 Bilion — Apa Makna Untuk Korang? — RakyatHub"
+  - OG image renders: ✅ `hero-subsidi-minyak-cecah-rm7-5-bilion.BLzKmxqo_2bjaBa.jpg`
+  - Image asset loads: ✅ HTTP 200, 87.5KB
+  - Frontmatter image line: ✅ active (not commented)
+- **Orphaned images** (pre-existing, not removed): 25 files — noted in prior entries
+- **Status**: resolved
+
 ## 2026-06-14 14:32
 - **Commit**: `47b8ff1` — Auto: Insurans - Standalone Medical Card vs Rider ILP 2026
 - **Files**: `src/data/post/medical-card-standalone-vs-rider-ilp-mana-paling-jimat-2026.md`, `src/assets/images/hero-standalone-vs-rider-medical-card.jpg`
