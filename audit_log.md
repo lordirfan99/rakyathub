@@ -1,5 +1,19 @@
 # Audit Log
 
+## 2026-06-13 20:22
+- **Commit**: `bca8b3f` — Auto: Side Hustle - Shopee Affiliate Marketing Panduan Lengkap 2026
+- **Type**: content-only (new post + new image)
+- **Change**: New post `shopee-affiliate-marketing-panduan-lengkap-2026.md` with hero image `hero-shopee-affiliate-2026.jpg`
+- **Pre-build checks**: ✅ No untracked `.astro` files, no untracked leftover images, no untracked posts
+- **Duplicate image check**: ✅ New image has unique hash `4325eb16` (no duplicates found)
+- **Orphaned images (info only — not fixed)**: `src/assets/images/hero-test-a.jpg`, `hero-test-b.jpg`, `hero-saham-usa.jpg`, `cta-join-discord.png` (confirmed orphaned, not referenced by any src/ file)
+- **Build**: ✅ 547 pages built in 17.72s
+- **Verification**: ✅ New post renders with correct title "Shopee Affiliate Marketing — Cara Jana RM1,000–RM5,000 Sebulan Guna Telefon (Panduan Lengkap) — RakyatHub" and correct OG image (`hero-shopee-affiliate-2026.eyAbOzs9.jpg`, HTTP 200, 75KB)
+- **Structured data**: ✅ BlogPosting JSON-LD validates with correct headline, description, image, datePublished, keywords
+- **Image assets**: ✅ All Sharp variants (JPG + 2x WebP) load with HTTP 200
+- **Frontmatter**: ✅ `image:` line active (not commented out)
+- **Status**: resolved
+
 ## 2026-06-13 16:38
 - **Commit**: `3b05fb4` — Auto: News React — Damai Iran-AS: Minyak Akan Turun Lagi (13 Jun 2026)
 - **Type**: content-only (new post + new image)
