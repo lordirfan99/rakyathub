@@ -1,5 +1,21 @@
 # Audit Log
 
+## 2026-06-14 14:32
+- **Commit**: `47b8ff1` — Auto: Insurans - Standalone Medical Card vs Rider ILP 2026
+- **Files**: `src/data/post/medical-card-standalone-vs-rider-ilp-mana-paling-jimat-2026.md`, `src/assets/images/hero-standalone-vs-rider-medical-card.jpg`
+- **Changes**: Content-only (new blog post + hero image)
+- **Checks**:
+  - Duplicate image detection: ✅ unique hash (no duplicates)
+  - Pre-build sanity: ✅ (no untracked debug files, no leftover images)
+  - Build: ✅ (590 pages, 16.99s)
+  - Post title: ✅ "Medical Card Standalone vs Rider (ILP) — Mana Paling Jimat & Berbaloi 2026?"
+  - OG image renders: ✅ `hero-standalone-vs-rider-medical-card.D10iSnUb_1MuLpM.jpg`
+  - Image asset loads: ✅ HTTP 200, 63.5KB
+  - Category page (/category/insurans/): ✅ renders correctly
+  - Frontmatter image line: ✅ active (not commented)
+- **Orphaned images** (pre-existing, not removed): 25 files in public/images/* and src/assets/images/
+- **Status**: resolved
+
 ## 2026-06-14 13:24
 - **Commit**: `7c73d2c` — Auto [Student]: template emel mohon praktikal & cara buat linkedin
 - **Type**: content-only (2 new posts + 2 new images)
