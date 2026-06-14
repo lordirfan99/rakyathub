@@ -1,5 +1,22 @@
 # Audit Log
 
+## 2026-06-14 13:24
+- **Commit**: `7c73d2c` — Auto [Student]: template emel mohon praktikal & cara buat linkedin
+- **Type**: content-only (2 new posts + 2 new images)
+- **Change**:
+  - `cara-buat-akaun-linkedin-untuk-student.md` + `hero-cara-buat-akaun-linkedin-untuk-student.jpg`
+  - `template-emel-mohon-praktikal.md` + `hero-template-emel-mohon-praktikal.jpg`
+- **Pre-build checks**: ✅ No untracked `.astro` files, no untracked leftover images, no untracked posts
+- **Duplicate image check**: ✅ Both new images have unique hashes (no duplicates found)
+- **Build**: ✅ 586 pages built in 18.58s
+- **Verification**: ✅
+  - `cara-buat-akaun-linkedin-untuk-student/` — title "Cara Buat Akaun LinkedIn Untuk Student (Panduan Lengkap) — RakyatHub", OG image HTTP 200 (101KB)
+  - `template-emel-mohon-praktikal/` — title "Template E-mel Mohon Praktikal & Internship (Copy & Paste) — RakyatHub", OG image HTTP 200 (61KB)
+- **Structured data**: ✅ Both posts have valid BlogPosting JSON-LD with correct headline, image, and `datePublished: 2026-06-14`
+- **Category pages**: ✅ Kategori Kerjaya renders correctly
+- **Frontmatter**: ✅ Both `image:` lines are active (not commented out)
+- **Status**: resolved
+
 ## 2026-06-14 10:24
 - **Commit**: `c6ccfc9` — Auto: Kerjaya - Kerja Kerajaan vs Swasta 2026 Perbandingan Lengkap
 - **Type**: content-only (new post + new image)
