@@ -1,5 +1,19 @@
 # Audit Log
 
+## 2026-06-14 09:49
+- **Commit**: `ae3c5b9` — Auto: 1 new article — Harga Emas Cecah RM764/g, 6 Platform Pelaburan Terbaik & Panduan Lengkap 2026
+- **Type**: content-only (new post + new image)
+- **Change**:
+  - `harga-emas-cecah-rm764-6-platform-pelaburan-terbaik-2026.md` + `hero-harga-emas-rekod-2026.jpg`
+- **Pre-build checks**: ✅ No untracked `.astro` files, no untracked leftover images, no untracked posts
+- **Duplicate image check**: ✅ New image has unique hash `d7267081` (no duplicates found)
+- **Build**: ✅ 575 pages built in 14.28s
+- **Verification**: ✅ New post renders with correct title "Harga Emas Cecah RM764/g — 6 Platform Pelaburan Terbaik & Panduan Lengkap 2026 — RakyatHub" and correct OG image (`hero-harga-emas-rekod-2026.BPeOo0KP_2quIYk.jpg`, HTTP 200, 56KB)
+- **Structured data**: ✅ BlogPosting JSON-LD validates with correct headline, image, and datePublished
+- **Category pages**: ✅ Kategori Emas renders correctly
+- **Frontmatter**: ✅ `image:` line active (not commented out)
+- **Status**: resolved
+
 ## 2026-06-14 08:45
 - **Commit**: `aa8b29e` — Auto: 4 new articles — scam panggilan palsu, simpan emas pendidikan anak, KWSP pengeluaran perumahan, insurans perjalanan
 - **Type**: content-only (4 new posts + 4 new images)
