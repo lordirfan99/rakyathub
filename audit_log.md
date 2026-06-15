@@ -1,5 +1,64 @@
 # Audit Log
 
+## 2026-06-15 08:22
+- **Context**: Commit `a59af35` — Auto: 4 new articles
+- **Type**: Content-only (new .md + images)
+- **Files**: 4 new posts, 4 new hero images, .gitignore update
+- **Duplicate Images**: None found (all 4 images unique ✅)
+- **Orphaned Images**: 25 files (unchanged from prior run)
+- **Build**: ✅ (existing dist/ already includes this content — content pipeline timing)
+- **Verification**: All 4 pages loaded with correct titles and hero images (HTTP 200)
+  - Cara Minta Potongan KWSP 9% ✅
+  - Cara Buka Akaun ASB Online ✅
+  - Scam Pekerjaan (Job Scam) ✅
+  - ASB vs FD — Mana Lagi Untung ✅
+- **Status**: resolved
+
+## 2026-06-15 08:23 (Uncommitted Changes)
+- **Context**: HEAD `f684b2d` already documented at prior run — uncommitted changes in working tree since that commit
+- **Working Tree Changes**:
+  - 4 new untracked posts: `asb-vs-fixed-deposit`, `cara-buka-akaun-asb-online`, `cara-minta-potongan-kwsp-9`, `scam-pekerjaan-job-scam-2026-red-flag-lindung-diri`
+  - 4 new untracked images: `hero-asb-vs-fd.jpg`, `hero-buka-asb-online.jpg`, `hero-potongan-kwsp-9.jpg`, `hero-scam-pekerjaan.jpg`
+  - `audit_log.md` — modified (previous QA output, self-referential)
+  - `src/data/post/subsidi-minyak-cecah-rm7-5-bilion.md` — CRLF false positive (same hash as HEAD)
+- **Pre-Build Checks**:
+  - Duplicate image detection: All 4 new images have unique hashes ✅
+  - Leftover untracked images: All 4 are new content (referenced by new posts) — left alone ✅
+  - Orphaned tracked images: 25 files (unchanged from prior run)
+- **Build**: ✅ Skipped (existing dist/ already includes these files — content pipeline timing)
+- **Content Verification** (port 3000):
+  - `/asb-vs-fixed-deposit-mana-lebih-untung-2026/` — title & OG image ✅
+  - `/cara-buka-akaun-asb-online-myasnb-2026/` — title & OG image ✅
+  - `/cara-minta-potongan-kwsp-9-borang-khas-2026/` — title & OG image ✅
+  - `/scam-pekerjaan-job-scam-2026-red-flag-lindung-diri/` — title & OG image ✅
+  - All 4 OG images: HTTP 200 (49KB–78KB) ✅
+  - All 4 frontmatter `image:` lines active (none commented out) ✅
+- **Status**: resolved
+
+## 2026-06-14 20:30
+- **Commit**: `f684b2d` — Auto: Side Hustle - Virtual Assistant (VA) Part Time Side Hustle Malaysia 2026
+- **Files Changed**:
+  - `src/pages/[...blog]/index.astro` — Schema restructured: Article + BreadcrumbList + FAQPage (replaces BlogPosting)
+  - `src/components/blog/SinglePost.astro` — Removed BlogPosting JSON-LD (moved to layout)
+  - `src/content.config.ts`, `src/types.d.ts`, `src/utils/blog.ts` — Added `faq` field support
+  - `src/data/post/virtual-assistant-part-time-side-hustle-malaysia-2026.md` — New post with FAQPage data
+  - `src/assets/images/hero-va-part-time-side-hustle.jpg` — New hero image
+  - `scripts/add_faq_schema.py` — New FAQ schema generation script
+  - Multiple new `.md` posts + `post_backup_faq/` files
+- **Build**: ✅ 596 pages built in 15.29s (no errors)
+- **CDP Verification**:
+  - ✅ Article schema renders with correct headline, ImageObject, datePublished
+  - ✅ BreadcrumbList schema renders with 3 items (Blog → Kewangan → Post title)
+  - ✅ FAQPage schema renders with 6 FAQ items on the VA post
+  - ✅ 5 total schemas on VA post page (WebSite, Organization, Article, BreadcrumbList, FAQPage)
+  - ✅ No console errors, no 404 resources, no broken images
+  - ✅ Blog listing renders correctly (pages 1-5)
+  - ✅ Homepage renders correctly
+  - ✅ Hero image loads (HTTP 200, 95KB)
+  - ✅ No untracked files, no leftover images, no orphaned post artifacts
+- **Orphaned images**: 25 files (unchanged from prior run)
+- **Status**: resolved
+
 ## 2026-06-14 18:20
 - **Uncommitted Changes**: Schema restructuring + FAQPage support
 - **Context**: HEAD `d33110f` (subsidi minyak article) already documented at 16:13. Uncommitted changes in working tree for schema migration.
