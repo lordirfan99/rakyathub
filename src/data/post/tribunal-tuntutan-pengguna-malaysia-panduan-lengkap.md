@@ -248,6 +248,7 @@ Jadi, apa yang korang boleh buat lepas baca artikel ni?
 - **[Panduan Beli Kereta Terpakai Malaysia — Tips Elak Rugi](/panduan-beli-kereta-terpakai-malaysia-tips-elak-rugi/)**
 - **[Cara Elak Scam Pinjaman Online — Panduan Lengkap](/cara-elak-scam-pinjaman-online-panduan-lengkap-tips-selamat/)**
 - **[Kalkulator Loan Rumah](/kalkulator/loan-rumah/)** — kira ansuran bulanan sebelum beli rumah
+- **[Kalkulator Gaji Bersih](/kalkulator/gaji-bersih/)** — kira potongan gaji dan gaji bersih selepas KWSP, PERKESO & PCB
 - **[DocuKilat — Penjana Surat & Dokumen AI](https://docukilat.rakyathub.my)** — hasilkan surat tuntutan dan dokumen rasmi dengan mudah
 
 📌 *Jangan lupa bookmark rakyathub.my untuk lebih banyak tips kewangan dan hak pengguna!*
