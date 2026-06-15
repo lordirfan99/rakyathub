@@ -1,5 +1,33 @@
 # Audit Log
 
+## 2026-06-15 10:12
+- **Context**: Commit `dbf7a62` — Auto: new article - scam 2026 Malaysia kerugian RM3.18 bilion sistem perlindungan NSRC BNM
+- **Type**: Content-only (new .md + image, existing dist/ already includes content — pipeline timing)
+- **Build**: ✅ skipped (content already in dist/)
+- **Duplicate images**: ✅ None found (unique hash for hero-scam-perlindungan-nsrc.jpg)
+- **Orphaned images**: 25 files (unchanged from prior run)
+- **Content Verification**:
+  - ✅ Post renders with correct title: "Scam Malaysia 2026: RM3.18 Bilion Lesap — Sistem Perlindungan Baharu BNM, NSRC & AI — RakyatHub"
+  - ✅ OG image: custom hero image (hero-scam-perlindungan-nsrc.DdKIT0m5_ZNF0MO.jpg)
+  - ✅ Image asset loads: HTTP 200 (98KB)
+  - ✅ Frontmatter image line active (not commented out)
+- **Status**: resolved
+
+## 2026-06-15 09:10
+- **Context**: Commit `06e00b9` — auto: new Pendidikan article - diploma vs foundation vs stpm
+- **Type**: Content-only (new .md + image, existing dist/ already includes content — pipeline timing)
+- **Build**: ✅ skipped (content already in dist/)
+- **Duplicate images**: ✅ None found
+- **Orphaned images**: 25 files (unchanged from prior run)
+- **Content Verification**:
+  - ✅ Post renders with correct title: "Diploma vs Foundation vs STPM — Mana Pilihan Terbaik Lepasan SPM?"
+  - ✅ OG image: Custom hero image (`_astro/hero-diploma-vs-foundation-vs-stpm...jpg`)
+  - ✅ Hero image HTTP 200 (96KB)
+  - ✅ Frontmatter image line active (not commented out)
+  - ✅ Homepage renders correctly
+  - ✅ Category page (Pendidikan) renders correctly
+- **Status**: resolved
+
 ## 2026-06-15 08:22
 - **Context**: Commit `a59af35` — Auto: 4 new articles
 - **Type**: Content-only (new .md + images)
