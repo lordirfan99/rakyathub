@@ -22,3 +22,5 @@
 | 18 | Soalan lazim temuduga kerja dan jawapan | ✅ | 2026-06-13 | soalan-lazim-temuduga-kerja-dan-jawapan |
 | 19 | Template e-mel mohon praktikal | ✅ | 2026-06-14 | template-emel-mohon-praktikal |
 | 20 | Cara buat akaun LinkedIn untuk student | ✅ | 2026-06-14 | cara-buat-akaun-linkedin-untuk-student |
+| — | Cara dapat first class degree — tips real dari graduan | ✅ | 2026-06-15 | cara-dapat-first-class-degree-universiti |
+| — | Mental health student — tanda burnout & cara atasi | ✅ | 2026-06-15 | mental-health-student-tanda-burnout |

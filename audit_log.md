@@ -1,5 +1,34 @@
 # Audit Log
 
+## 2026-06-15 11:52
+- **Project**: rakyathub
+- **Commit**: `ccacf48`
+- **Changes**: Favicons.astro — replaced base64 data URI favicon import with URL-based `/favicon.ico`
+- **Files**: `src/components/Favicons.astro` (modified: +1, -2)
+- **Type**: Text-only component change (frontmatter import removal + string replacement)
+- **Build**: ✅ (npm run build — 640 pages in 16.28s)
+- **Pre-Build Checks**: ✅ No untracked files, no leftover images, orphaned images (25, unchanged)
+- **Verification**:
+  - ✅ Favicon link: `<link rel="shortcut icon" href="/favicon.ico">` renders correctly
+  - ✅ `favicon.ico` asset at `/favicon.ico`: HTTP 200, 5478 bytes
+  - ✅ Homepage title: "RakyatHub — Panduan Kewangan Rakyat Malaysia"
+- **Status**: resolved
+
+## 2026-06-15 11:19
+- **Project**: rakyathub
+- **Commit**: `90debf8`
+- **Changes**: New Hartanah article — Perjanjian Sewa Rumah Malaysia (7 Hak Penyewa & Tips Elak Rugi)
+- **Files**: `src/data/post/perjanjian-sewa-rumah-malaysia-hak-penyewa-tips-elak-rugi.md` (new), `src/assets/images/hero-perjanjian-sewa-rumah.jpg` (new)
+- **Build**: ✅ (existing dist/ already included this content — content pipeline timing)
+- **Duplicate images**: ✅ None found (image is unique)
+- **Orphaned images**: 25 files (unchanged from prior run)
+- **Verification**:
+  - Title: ✅ "Perjanjian Sewa Rumah Malaysia — 7 Hak Penyewa & Apa Tuan Rumah Tak Boleh Buat — RakyatHub"
+  - OG image: ✅ hero-perjanjian-sewa-rumah (HTTP 200, 110KB)
+  - OG description: ✅
+  - Canonical URL: ✅
+- **Status**: resolved
+
 ## 2026-06-15 10:20
 - **Context**: Commit `e06c540` — Auto: Kerjaya - Panduan Lengkap Kerjaya Teknologi Malaysia 2026
 - **Type**: Content-only (new .md + image, existing dist/ already includes content — pipeline timing)
