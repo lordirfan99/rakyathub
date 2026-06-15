@@ -1,5 +1,18 @@
 # Audit Log
 
+## 2026-06-15 10:20
+- **Context**: Commit `e06c540` — Auto: Kerjaya - Panduan Lengkap Kerjaya Teknologi Malaysia 2026
+- **Type**: Content-only (new .md + image, existing dist/ already includes content — pipeline timing)
+- **Build**: ✅ skipped (content already in dist/)
+- **Duplicate images**: ✅ None found (unique hash for hero-panduan-kerjaya-teknologi-malaysia-2026.jpg)
+- **Orphaned images**: 25 files (unchanged from prior run)
+- **Content Verification**:
+  - ✅ Post renders with correct title: "Panduan Lengkap Kerjaya Teknologi (Tech) Malaysia 2026 — Gaji Ikut Bidang & Laluan Kerjaya — RakyatHub"
+  - ✅ OG image: custom hero image (hero-panduan-kerjaya-teknologi-malaysia-2026.CKG0EnIu_1ocgOS.jpg)
+  - ✅ Image asset loads: HTTP 200 (80KB)
+  - ✅ Frontmatter image line active (not commented out)
+- **Status**: resolved
+
 ## 2026-06-15 10:12
 - **Context**: Commit `dbf7a62` — Auto: new article - scam 2026 Malaysia kerugian RM3.18 bilion sistem perlindungan NSRC BNM
 - **Type**: Content-only (new .md + image, existing dist/ already includes content — pipeline timing)
