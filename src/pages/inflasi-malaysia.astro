@@ -186,5 +186,5 @@ function calcCPI() {
   } catch(e) { resultEl.classList.add('hidden'); }
 }
 </script>
-<script id="cpi-data-json" type="application/json">{JSON.stringify(purchasing_power)}</script>
+<script id="cpi-data-json" type="application/json" set:html={JSON.stringify(purchasing_power)}></script>
 </PageLayout>

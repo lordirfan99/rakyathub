@@ -88,7 +88,7 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
       >
         {
           links.map(({ text, href, links }) => (
-            <li class={links?.length ? 'dropdown' : ''}>
+            <li class:list={[{ dropdown: links?.length }, { 'dropdown-mega': links?.length && links.length > 15 }]}>
               {links?.length ? (
                 <>
                   <button
@@ -98,12 +98,21 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
                     {text}{' '}
                     <Icon name="tabler:chevron-down" class="w-3 h-3 ml-0.5 rtl:ml-0 rtl:mr-0.5 hidden md:inline" />
                   </button>
-                  <ul class="dropdown-menu md:backdrop-blur-md dark:md:bg-dark rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white/90 md:min-w-[200px] drop-shadow-xl">
-                    {links.map(({ text: text2, href: href2 }) => (
+                  <ul class:list={[
+                    'dropdown-menu md:backdrop-blur-md dark:md:bg-dark rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white/90 drop-shadow-xl',
+                    { 'md:grid md:grid-cols-3 md:gap-x-2 md:p-3 md:min-w-[620px]': links?.length && links.length > 15, 'md:min-w-[200px]': !links?.length || links.length <= 15 },
+                  ]}>
+                    {links.map(({ text: text2, href: href2 }) => {
+                      const isSep = text2 === '---';
+                      // For mega menus, render separator as a subtle divider spanning full width
+                      if (isSep) {
+                        return <li class="col-span-full px-2 py-1"><hr class="border-gray-100 dark:border-slate-700/50" /></li>;
+                      }
+                      return (
                       <li>
                         <a
                           class:list={[
-                            'first:rounded-t last:rounded-b md:hover:bg-gray-100 hover:text-link dark:hover:text-white dark:hover:bg-gray-700 py-2 px-5 block whitespace-no-wrap',
+                            'md:hover:bg-gray-100 hover:text-link dark:hover:text-white dark:hover:bg-gray-700 py-1.5 px-4 block whitespace-no-wrap text-sm rounded-md transition-all',
                             { 'aw-link-active': href2 === currentPath },
                           ]}
                           href={href2}
@@ -111,8 +120,8 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
                         >
                           {text2}
                         </a>
-                      </li>
-                    ))}
+                      </li>);
+                    })}
                   </ul>
                 </>
               ) : (

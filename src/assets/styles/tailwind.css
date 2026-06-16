@@ -227,6 +227,23 @@
   display: block;
 }
 
+/* Mega dropdown — wider, multi-column */
+.dropdown-mega {
+  position: relative;
+}
+.dropdown-mega:focus .dropdown-menu,
+.dropdown-mega:focus-within .dropdown-menu,
+.dropdown-mega:hover .dropdown-menu {
+  display: grid;
+}
+.dropdown-mega .dropdown-menu {
+  left: 50%;
+  transform: translateX(-50%);
+  max-height: 80vh;
+  overflow-y: auto;
+  top: 100%;
+}
+
 [astro-icon].icon-light > * {
   stroke-width: 1.2;
 }
