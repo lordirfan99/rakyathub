@@ -244,6 +244,7 @@ Ribut petir dan cuaca ekstrem akan terus jadi sebahagian dari hidup kita di Mala
 - **[Cara Renew Roadtax JPJ Online — Panduan Lengkap](/cara-renew-roadtax-jpj-online-2025-panduan-lengkap/)** — uruskan kenderaan & dokumen penting
 - **[Tabung Kecemasan Malaysia — Berapa Patut Simpan & Cara Mula](/tabung-kecemasan-malaysia-berapa-patut-simpan-cara-mula/)** — simpanan untuk situasi kecemasan
 - **[Kalkulator KWSP](/kalkulator/kwsp/)** — kira simpanan kecemasan anda
+- **[Kalkulator Gaji Bersih](/kalkulator/gaji-bersih/)** — semak potongan & bajet persediaan bencana
 - **[DocuKilat — Penjana Surat & Dokumen AI](https://docukilat.rakyathub.my)** — buat surat tuntutan insurans dengan cepat
 
 📌 *Jangan lupa bookmark rakyathub.my untuk lebih banyak tips keselamatan dan kewangan!*
