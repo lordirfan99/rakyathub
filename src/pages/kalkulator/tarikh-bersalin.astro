@@ -1,0 +1,209 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator Tarikh Bersalin — Due Date Malaysia | RakyatHub',
+  description: 'Kira tarikh bersalin (due date) berdasarkan tarikh haid terakhir (LMP). Dapatkan trimester semasa, usia kandungan, dan progress kehamilan.',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator Tarikh Bersalin
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-8">
+      Kira due date dan usia kandungan berdasarkan tarikh haid terakhir (LMP). Guna Peraturan Naegele — standard obstetrik.
+    </p>
+
+    <!-- Calculator Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div>
+        <label for="dueLmp" class="block text-sm font-semibold text-default mb-1.5">Tarikh Hari Pertama Haid Terakhir (LMP)</label>
+        <input type="date" id="dueLmp" value="2026-06-01"
+          class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+      </div>
+
+      <!-- Results -->
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Due Date</p>
+          <p class="text-lg font-bold text-default" id="dueDate">—</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Usia Kandungan</p>
+          <p class="text-lg font-bold text-emerald-700" id="dueAge">—</p>
+          <p class="text-[10px] text-muted" id="dueDays">—</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Trimester</p>
+          <p class="text-lg font-bold text-amber-700" id="dueTrimester">—</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Progress</p>
+          <p class="text-lg font-bold text-primary" id="dueProgress">—</p>
+        </div>
+      </div>
+
+      <!-- Progress Bar -->
+      <div class="mt-4">
+        <div class="h-3 rounded-full bg-gray-200 dark:bg-slate-700 overflow-hidden">
+          <div class="h-full bg-gradient-to-r from-emerald-400 via-amber-400 to-primary rounded-full transition-all duration-300" id="dueBar" style="width:0%"></div>
+        </div>
+        <div class="flex justify-between text-[10px] text-muted mt-1">
+          <span>LMP</span>
+          <span>Trimester 1</span>
+          <span>Trimester 2</span>
+          <span>Trimester 3</span>
+          <span>Due Date</span>
+        </div>
+      </div>
+
+      <!-- Summary -->
+      <div class="mt-4 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-sm text-muted" id="dueLabel">Berdasarkan LMP</p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="dueKesimpulan">Sila pilih tarikh</p>
+        <p class="text-xs text-muted mt-1">*Anggaran berdasarkan kitaran 28 hari. Nilai sebenar mungkin berbeza ±2 minggu.</p>
+      </div>
+    </div>
+
+    <!-- Cara Kira -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📊 Cara Kira Due Date</h2>
+      <p class="text-muted text-sm mb-3"><strong>Peraturan Naegele:</strong></p>
+      <ul class="text-muted text-sm space-y-1">
+        <li>• Due date = LMP + 280 hari (40 minggu)</li>
+        <li>• Trimester 1: Minggu 1–13</li>
+        <li>• Trimester 2: Minggu 14–26</li>
+        <li>• Trimester 3: Minggu 27–40</li>
+      </ul>
+      <p class="text-muted text-sm mt-3">
+        Peraturan Naegele adalah standard obstetrik yang digunakan oleh doktor di seluruh dunia. Formula ini berdasarkan kitaran haid 28 hari biasa. Jika kitaran anda lebih panjang atau pendek, due date mungkin berbeza.
+      </p>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">📅 Trimester 1 (1–13 minggu)</h3>
+        <p class="text-muted text-sm">Peringkat awal kehamilan. Organ bayi mula terbentuk. Ibu mungkin alami morning sickness, letih, dan perubahan hormon. Pemeriksaan pertama dengan doktor disarankan.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🌱 Trimester 2 (14–26 minggu)</h3>
+        <p class="text-muted text-sm">Bayi makin aktif — tendangan pertama dirasai. Kebanyakan ibu rasa lebih bertenaga. Scan detail (anomali) biasanya dilakukan sekitar minggu 18–22.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">👶 Trimester 3 (27–40 minggu)</h3>
+        <p class="text-muted text-sm">Persediaan akhir. Bayi membesar cepat, ibu makin tak selesa. Kontraksi palsu (Braxton Hicks) mungkin mula terasa. Bersalin boleh berlaku antara minggu 37–42.</p>
+      </div>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
+      <strong>⚠️ Penafian:</strong> Anggaran sahaja. Hanya 5% bayi lahir tepat pada due date. Kebanyakan lahir antara minggu 37–42. Rujuk doktor atau hospital untuk penjagaan kehamilan yang tepat.
+      <br /><em>Sumber: Peraturan Naegele — standard obstetrik. Sila rujuk KKM atau hospital untuk pengesahan.</em>
+    </div>
+
+    <!-- Related -->
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">📚 Alat Kesihatan Lain</h3>
+      <ul class="space-y-2">
+        <li>
+          <a href="/kalkulator/bmi/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator BMI</a>
+        </li>
+        <li>
+          <a href="/kalkulator/berat-ideal/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Berat Badan Ideal</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction
+    actions={[
+      { variant: 'primary', text: 'Kira BMI', href: '/kalkulator/bmi' },
+      { variant: 'secondary', text: 'Kira BMR', href: '/kalkulator/bmr' },
+    ]}
+  >
+    <Fragment slot="title">Alat kesihatan lain untuk anda</Fragment>
+    <Fragment slot="subtitle">BMI, BMR, berat ideal — semuanya percuma.</Fragment>
+  </CallToAction>
+
+  <script is:inline>
+// Due Date Calculator — Naegele's Rule: LMP + 280 days
+// Source: src/utils/calculators/kesihatan.ts | Standard obstetric practice
+function fmtDate(d) {
+  if (!d || isNaN(d.getTime())) return '—';
+  return d.toLocaleDateString('ms-MY', {year:'numeric',month:'long',day:'numeric'});
+}
+function daysBetween(d1, d2) {
+  return Math.floor((d2.getTime() - d1.getTime()) / (1000*60*60*24));
+}
+
+function calc() {
+  var lmpStr = document.getElementById('dueLmp').value;
+  if (!lmpStr) {
+    ['dueDate','dueAge','dueDays','dueTrimester','dueProgress'].forEach(function(id){
+      document.getElementById(id).textContent = '—';
+    });
+    document.getElementById('dueKesimpulan').textContent = 'Sila pilih tarikh';
+    document.getElementById('dueBar').style.width = '0%';
+    document.getElementById('dueLabel').textContent = '';
+    return;
+  }
+  var lmp = new Date(lmpStr + 'T00:00:00');
+  var due = new Date(lmp);
+  due.setDate(due.getDate() + 280);
+  var now = new Date();
+  now.setHours(0,0,0,0);
+  var diffDays = daysBetween(lmp, now);
+  var weeks = Math.floor(diffDays / 7);
+  var days = diffDays % 7;
+  var progress = Math.min(100, Math.max(0, Math.round((diffDays / 280) * 100)));
+
+  var trimester = '';
+  var triColor = '';
+  if (weeks < 0) {
+    trimester = 'Belum hamil';
+    triColor = 'text-muted';
+  } else if (weeks < 14) {
+    trimester = 'Trimester 1';
+    triColor = 'text-emerald-600';
+  } else if (weeks < 27) {
+    trimester = 'Trimester 2';
+    triColor = 'text-amber-600';
+  } else if (weeks <= 40) {
+    trimester = 'Trimester 3';
+    triColor = 'text-primary';
+  } else {
+    trimester = 'Sudah lewat due date';
+    triColor = 'text-red-600';
+  }
+
+  document.getElementById('dueDate').textContent = fmtDate(due);
+  document.getElementById('dueAge').textContent = weeks + ' minggu ' + days + ' hari';
+  document.getElementById('dueDays').textContent = diffDays + ' hari dari LMP';
+  document.getElementById('dueTrimester').textContent = trimester;
+  document.getElementById('dueTrimester').className = 'text-lg font-bold ' + triColor;
+  document.getElementById('dueProgress').textContent = progress + '%';
+  document.getElementById('dueBar').style.width = progress + '%';
+
+  document.getElementById('dueLabel').textContent = 'LMP: ' + fmtDate(lmp);
+  document.getElementById('dueKesimpulan').textContent = 'Due Date: ' + fmtDate(due);
+
+  if (progress >= 100) {
+    document.getElementById('dueBar').className = 'h-full bg-gradient-to-r from-emerald-400 via-amber-400 to-red-400 rounded-full transition-all duration-300';
+  } else {
+    document.getElementById('dueBar').className = 'h-full bg-gradient-to-r from-emerald-400 via-amber-400 to-primary rounded-full transition-all duration-300';
+  }
+}
+
+document.getElementById('dueLmp').addEventListener('input', calc);
+document.getElementById('dueLmp').addEventListener('change', calc);
+calc();
+</script>
+</Layout>

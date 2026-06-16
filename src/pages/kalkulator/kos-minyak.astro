@@ -1,0 +1,152 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator Kos Minyak — Anggaran Minyak Kereta Malaysia | RakyatHub',
+  description: 'Kira kos minyak bulanan kereta berdasarkan jarak, penggunaan dan jenis minyak. RON95, RON97 atau Diesel. Percuma.',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8"><a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a></div>
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">Kalkulator Kos Minyak Malaysia</h1>
+    <p class="text-lg md:text-xl text-muted mb-8">Kira anggaran kos minyak bulanan kereta atau motosikal berdasarkan jarak perjalanan harian, jenis kenderaan, dan jenis minyak.</p>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="flJarak" class="block text-sm font-semibold text-default mb-1.5">Jarak Sehala (km)</label>
+          <input type="number" id="flJarak" value="25" min="0" step="1"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="flHari" class="block text-sm font-semibold text-default mb-1.5">Hari Bekerja/Minggu</label>
+          <input type="number" id="flHari" value="22" min="0" max="31"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="flKenderaan" class="block text-sm font-semibold text-default mb-1.5">Jenis Kenderaan</label>
+          <select id="flKenderaan"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="18">Myvi / Kecil (18 km/L dalam bandar)</option>
+            <option value="14" selected>Sedan Sederhana (14 km/L)</option>
+            <option value="10">SUV / MPV (10 km/L)</option>
+            <option value="9">Pickup / Truck (9 km/L)</option>
+            <option value="40">Motosikal &lt;150cc (40 km/L)</option>
+            <option value="25">Motosikal &gt;150cc (25 km/L)</option>
+          </select>
+        </div>
+        <div>
+          <label for="flJenis" class="block text-sm font-semibold text-default mb-1.5">Jenis Minyak</label>
+          <select id="flJenis"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="2.05">RON95 — RM 2.05/L (subsidi)</option>
+            <option value="3.35">RON97 — RM 3.35/L (float)</option>
+            <option value="2.15">Diesel — RM 2.15/L (subsidi)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jarak Harian (PP)</p>
+          <p class="text-lg font-bold text-default" id="flJarakPP">50 km</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Liter Sebulan</p>
+          <p class="text-lg font-bold text-amber-700" id="flLiter">—</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Kos Sebulan</p>
+          <p class="text-lg font-bold text-emerald-700" id="flBulan">RM 0.00</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Kos Setahun</p>
+          <p class="text-lg font-bold text-primary" id="flTahun">RM 0.00</p>
+        </div>
+      </div>
+
+      <div class="mt-4 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-sm text-muted">Anggaran kos minyak bulanan untuk <strong id="flLabel">Sedan — RON95</strong></p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="flFinal">RM 0.00</p>
+        <p class="text-xs text-muted mt-1">*Anggaran berdasarkan jarak dan penggunaan purata. Nilai sebenar mungkin berbeza.</p>
+      </div>
+    </div>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📊 Cara Kira Kos Minyak</h2>
+      <ul class="text-muted text-sm space-y-1">
+        <li>• Jarak Harian (PP) = Jarak Sehala × 2</li>
+        <li>• Jarak Bulanan = Jarak Harian × Hari Bekerja</li>
+        <li>• Liter Bulanan = Jarak Bulanan ÷ Penggunaan (km/L)</li>
+        <li>• Kos Bulanan = Liter Bulanan × Harga Minyak/L</li>
+      </ul>
+      <p class="text-muted text-sm mt-3">Contoh: 25km sehala × 2 = 50km/hari × 22 hari = 1,100km/bulan. Sedan 14km/L = 78.6L × RON95 RM2.05 = <strong>RM161/bulan</strong>.</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">⛽ RON95 Subsidi</h3>
+        <p class="text-muted text-sm">Harga RON95 RM2.05/L disubsidi kerajaan untuk rakyat Malaysia. Had subsidi terhad kepada kenderaan tertentu — kenderaan luar negara dan golongan T20 mungkin kena harga float.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">⚡ RON97 vs RON95</h3>
+        <p class="text-muted text-sm">RON97 (~RM3.35/L) adalah 60% lebih mahal dari RON95. Untuk kebanyakan kereta, RON95 sudah mencukupi. RON97 hanya perlu untuk kereta berprestasi tinggi yang memerlukan oktana lebih.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🔋 Jimat Minyak</h3>
+        <p class="text-muted text-sm">Cara jimat minyak: servis kereta berkala, tekanan tayar betul, kurangkan beban, pandu dengan kelajuan tetap (60-90 km/j paling jimat), elak brek mengejut, kurangkan aircond.</p>
+      </div>
+    </div>
+
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
+      <strong>⚠️ Penafian:</strong> Anggaran sahaja berdasarkan penggunaan purata. Penggunaan sebenar bergantung pada gaya pemanduan, keadaan jalan, penyelenggaraan kenderaan, dan faktor lain. Harga minyak tertakluk kepada perubahan tanpa notis.
+      <br /><em>Sumber: Kementerian Kewangan Malaysia</em>
+    </div>
+
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">📚 Alat Kenderaan</h3>
+      <ul class="space-y-2">
+        <li><a href="/kalkulator/cukai-jalan/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Cukai Jalan</a></li>
+        <li><a href="/kalkulator/kereta/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Loan Kereta</a></li>
+        <li><a href="/kalkulator/insurans-kereta/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Insurans Kereta</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction actions={[
+    { variant: 'primary', text: 'Cukai Jalan', href: '/kalkulator/cukai-jalan' },
+    { variant: 'secondary', text: 'Insurans Kereta', href: '/kalkulator/insurans-kereta' },
+  ]}>
+    <Fragment slot="title">Kira cukai jalan & insurans kereta</Fragment>
+    <Fragment slot="subtitle">Semua alat kenderaan percuma.</Fragment>
+  </CallToAction>
+
+  <script is:inline>
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
+function calc() {
+  var jarak = sn(document.getElementById('flJarak').value, 25);
+  var hari = parseInt(document.getElementById('flHari').value) || 22;
+  var kmpl = parseFloat(document.getElementById('flKenderaan').value) || 14;
+  var harga = parseFloat(document.getElementById('flJenis').value) || 2.05;
+  if (jarak <= 0 || hari <= 0) { document.getElementById('flFinal').textContent = 'RM 0.00'; return; }
+  var pp = jarak * 2;
+  var bulanKm = pp * hari;
+  var liter = bulanKm / kmpl;
+  var kosBulan = liter * harga;
+  document.getElementById('flJarakPP').textContent = pp + ' km';
+  document.getElementById('flLiter').textContent = liter.toFixed(1) + ' L';
+  document.getElementById('flBulan').textContent = fmt(kosBulan);
+  document.getElementById('flTahun').textContent = fmt(kosBulan * 12);
+  document.getElementById('flFinal').textContent = fmt(kosBulan);
+  var kenderaanText = document.getElementById('flKenderaan').options[document.getElementById('flKenderaan').selectedIndex].text.split('(')[0].trim();
+  var jenisText = document.getElementById('flJenis').options[document.getElementById('flJenis').selectedIndex].text.split('—')[0].trim();
+  document.getElementById('flLabel').textContent = kenderaanText + ' — ' + jenisText;
+}
+['flJarak','flHari','flKenderaan','flJenis'].forEach(function(id){var el=document.getElementById(id);if(el){el.addEventListener('input',calc);el.addEventListener('change',calc);}});
+calc();
+</script>
+</Layout>

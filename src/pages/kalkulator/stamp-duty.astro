@@ -1,0 +1,284 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator Duti Setem Hartanah — MOT & Perjanjian Pinjaman | RakyatHub',
+  description: 'Kira duti setem pemindahan harta (MOT) dan perjanjian pinjaman rumah Malaysia. Guna kadar progresif LHDN terkini. Percuma.',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator Duti Setem Hartanah
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-8">
+      Kira duti setem untuk pembelian rumah — Memorandum Pemindahan (MOT) dan Perjanjian Pinjaman. Berdasarkan kadar LHDN semasa.
+    </p>
+
+    <!-- Calculator Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="stHarga" class="block text-sm font-semibold text-default mb-1.5">Harga Hartanah (RM)</label>
+          <input type="number" id="stHarga" value="500000" min="0" step="10000"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="stLoanPct" class="block text-sm font-semibold text-default mb-1.5">Peratus Pinjaman (%)</label>
+          <select id="stLoanPct"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="90">90% (Standard rumah pertama)</option>
+            <option value="85">85%</option>
+            <option value="80">80%</option>
+            <option value="75">75%</option>
+            <option value="70">70%</option>
+            <option value="0">100% Tunai (Tiada pinjaman)</option>
+          </select>
+        </div>
+      </div>
+      <div class="mt-4">
+        <label class="flex items-center gap-3 cursor-pointer">
+          <input type="checkbox" id="stFtb" onclick="calc()" class="w-5 h-5 rounded border-gray-300 text-primary focus:ring-primary" />
+          <span class="text-sm font-semibold text-default">Pembeli Rumah Pertama (layak pengecualian RM300k pertama)</span>
+        </label>
+      </div>
+
+      <!-- Results -->
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Duti Setem MOT</p>
+          <p class="text-lg font-bold text-default" id="stMot">RM 10,000</p>
+          <p class="text-[10px] text-muted">Pemindahan harta</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Duti Setem Loan</p>
+          <p class="text-lg font-bold text-amber-700" id="stLoan">RM 2,250</p>
+          <p class="text-[10px] text-muted">Perjanjian pinjaman 0.5%</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Penjimatan FTB</p>
+          <p class="text-lg font-bold text-emerald-700" id="stFtbSave">RM 0</p>
+          <p class="text-[10px] text-muted">Pengecualian</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Duti Setem</p>
+          <p class="text-lg font-bold text-primary" id="stTotal">RM 12,250</p>
+          <p class="text-[10px] text-muted">MOT + Perjanjian Pinjaman</p>
+        </div>
+      </div>
+
+      <!-- Summary -->
+      <div class="mt-4 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-sm text-muted">Anggaran duti setem untuk hartanah <strong id="stHargaLabel">RM 500,000</strong></p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="stKesimpulan">RM 12,250</p>
+        <p class="text-xs text-muted mt-1">*Kadar LHDN 2026. Duti setem mesti dibayar dalam 30 hari selepas perjanjian ditandatangani.</p>
+      </div>
+
+      <!-- Breakdown -->
+      <div class="mt-4 text-center">
+        <button id="stBtnBreakdown" class="text-sm text-primary font-medium hover:underline" onclick="toggleBreakdown()">
+          📋 Lihat Breakdown Lengkap ▼
+        </button>
+      </div>
+      <div id="stBreakdown" class="mt-4 hidden">
+        <div class="rounded-xl bg-gray-50 dark:bg-slate-800/50 p-4 md:p-6 text-sm space-y-2">
+          <h4 class="font-bold mb-2">📊 MOT (Memorandum Pemindahan)</h4>
+          <div id="stMotBreakdown"></div>
+          <div class="flex justify-between border-t border-gray-200 dark:border-slate-700 pt-2 mt-2" id="stMotTotal"><span class="font-semibold">Jumlah MOT</span><span class="font-bold">RM 10,000</span></div>
+          <div class="flex justify-between mt-2"><span>Duti Setem Perjanjian Pinjaman (0.5%)</span><span class="font-semibold" id="stLoanDetail">RM 2,250</span></div>
+          <div class="flex justify-between mt-2" id="stFtbRow"><span class="text-emerald-600">Pengecualian FTB</span><span class="font-semibold text-emerald-600" id="stFtbDetail">RM 0</span></div>
+          <div class="flex justify-between border-t-2 border-primary/30 pt-2 mt-2 text-base"><span class="font-bold">Jumlah Keseluruhan</span><span class="font-bold text-primary" id="stTotalDetail">RM 12,250</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cara Kira -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📊 Cara Kira Duti Setem</h2>
+      <p class="text-muted text-sm mb-3"><strong>Kadar MOT (Progresif):</strong></p>
+      <div class="overflow-x-auto mb-3">
+        <table class="w-full text-xs">
+          <thead><tr class="border-b border-gray-100 dark:border-slate-700"><th class="text-left py-2">Harga Hartanah</th><th class="text-left py-2">Kadar</th></tr></thead>
+          <tbody>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2">RM100,000 pertama</td><td>1%</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2">RM100,001 – RM500,000</td><td>2%</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2">RM500,001 – RM1,000,000</td><td>3%</td></tr>
+            <tr><td class="py-2">RM1,000,001 ke atas</td><td>4%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-muted text-sm mb-2"><strong>Duti Setem Perjanjian Pinjaman:</strong> 0.5% daripada jumlah pinjaman.</p>
+      <p class="text-muted text-sm"><strong>Pengecualian Pembeli Rumah Pertama (FTB):</strong> MOT bagi RM300,000 pertama dikecualikan untuk rumah ≤ RM500,000 (Belanjawan 2025).</p>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">📝 MOT</h3>
+        <p class="text-muted text-sm">Memorandum Pemindahan — dokumen yang memindahkan hak milik dari penjual kepada pembeli. Duti setem mesti dibayar dalam 30 hari selepas S&P ditandatangani.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🏦 Perjanjian Pinjaman</h3>
+        <p class="text-muted text-sm">Dokumen perjanjian antara pembeli dan bank. Duti setem sebanyak 0.5% dikenakan ke atas jumlah pinjaman. Caj ini biasanya dimasukkan dalam kos guaman.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🎉 FTB Exemption</h3>
+        <p class="text-muted text-sm">Pembeli rumah pertama layak pengecualian duti setem MOT untuk RM300,000 pertama — syarat: harga rumah ≤ RM500,000 dan belum pernah beli rumah sebelum ini. Jimat sehingga RM10,000!</p>
+      </div>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
+      <strong>⚠️ Penafian:</strong> Anggaran sahaja. Kadar sebenar mungkin berbeza bergantung pada keadaan individu dan semakan LHDN. Rujuk peguam atau LHDN untuk pengesahan.
+      <br /><em>Sumber: LHDN Stamp Duty Act 1949 — hasil.gov.my</em>
+    </div>
+
+    <!-- Related -->
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">📚 Alat Hartanah Lain</h3>
+      <ul class="space-y-2">
+        <li>
+          <a href="/kalkulator/legal-fees/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Guaman & Yuran Guaman Beli Rumah</a>
+        </li>
+        <li>
+          <a href="/kalkulator/loan-rumah/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Loan Rumah</a>
+        </li>
+        <li>
+          <a href="/kalkulator/refinance/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Refinancing Rumah</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction
+    actions={[
+      { variant: 'primary', text: 'Kira Legal Fees', href: '/kalkulator/legal-fees' },
+      { variant: 'secondary', text: 'Refinancing', href: '/kalkulator/refinance' },
+    ]}
+  >
+    <Fragment slot="title">Nak tahu jumlah yuran guaman?</Fragment>
+    <Fragment slot="subtitle">Guna kalkulator guaman & refinancing kami.</Fragment>
+  </CallToAction>
+
+  <script is:inline>
+// Stamp Duty Calculator — LHDN progressive tiers
+// Source: src/utils/calculators/config/hartanah.ts
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY') : '0'); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
+
+function kiraDutiSetem(harga, ftb) {
+  var tiers = [
+    { max: 100000, rate: 0.01, label: 'RM100,000 pertama (1%)' },
+    { max: 500000, rate: 0.02, label: 'RM100,001–RM500,000 (2%)' },
+    { max: 1000000, rate: 0.03, label: 'RM500,001–RM1,000,000 (3%)' },
+    { max: Infinity, rate: 0.04, label: 'RM1,000,001 ke atas (4%)' },
+  ];
+  var remaining = harga;
+  var results = [];
+  var total = 0;
+  var prevMax = 0;
+  var ftbExempted = 0;
+
+  tiers.forEach(function(tier) {
+    var bracket = Math.max(0, Math.min(remaining, tier.max - prevMax));
+    if (bracket <= 0) return;
+    var duty = bracket * tier.rate;
+    var exempt = 0;
+    // FTB exemption: first RM300k of MOT is free (for property ≤ RM500k)
+    if (ftb && harga <= 500000 && total + duty <= 3000) {
+      // Simple check: exemption on first RM300k of property at applicable rate
+      exempt = Math.min(duty, 3000 - ftbExempted);
+      var exBracket = Math.min(bracket, 300000 - ftbExempted * 100);
+      exempt = exBracket * tier.rate;
+      if (exempt + ftbExempted > 3000) exempt = 3000 - ftbExempted;
+      ftbExempted += exempt;
+    }
+    results.push({ label: tier.label, bracket: bracket, duty: Math.round(duty), exempt: Math.round(exempt) });
+    total += duty;
+    remaining -= bracket;
+    prevMax = tier.max;
+  });
+
+  var actualDuty = Math.round(total - ftbExempted);
+  return { results: results, grossDuty: Math.round(total), ftbExempted: Math.round(ftbExempted), actualDuty: actualDuty };
+}
+
+function toggleBreakdown() {
+  var el = document.getElementById('stBreakdown');
+  var btn = document.getElementById('stBtnBreakdown');
+  el.classList.toggle('hidden');
+  btn.textContent = el.classList.contains('hidden') ? '📋 Lihat Breakdown Lengkap ▼' : '📋 Sembunyikan Breakdown ▲';
+}
+
+function calc() {
+  var harga = sn(document.getElementById('stHarga').value, 500000);
+  var loanPct = parseInt(document.getElementById('stLoanPct').value) || 90;
+  var ftb = document.getElementById('stFtb').checked;
+
+  if (harga === 0) {
+    ['stMot','stLoan','stFtbSave','stTotal'].forEach(function(id){
+      document.getElementById(id).textContent = 'RM 0';
+    });
+    document.getElementById('stKesimpulan').textContent = 'Sila masukkan harga';
+    return;
+  }
+
+  // MOT calculation
+  var motResult = kiraDutiSetem(harga, ftb);
+  var loanAmount = Math.round(harga * loanPct / 100);
+  var loanStampDuty = Math.round(loanAmount * 0.005);
+
+  document.getElementById('stMot').textContent = fmt(motResult.actualDuty);
+  document.getElementById('stLoan').textContent = fmt(loanStampDuty);
+
+  if (ftb && harga <= 500000) {
+    document.getElementById('stFtbSave').textContent = fmt(motResult.ftbExempted);
+    document.getElementById('stFtbSave').className = 'text-lg font-bold text-emerald-700';
+  } else {
+    document.getElementById('stFtbSave').textContent = 'RM 0';
+    document.getElementById('stFtbSave').className = 'text-lg font-bold text-muted';
+  }
+
+  var grandTotal = motResult.actualDuty + loanStampDuty;
+  document.getElementById('stTotal').textContent = fmt(grandTotal);
+  document.getElementById('stHargaLabel').textContent = 'RM ' + harga.toLocaleString();
+  document.getElementById('stKesimpulan').textContent = fmt(grandTotal);
+
+  // Breakdown
+  var bd = document.getElementById('stMotBreakdown');
+  bd.textContent = '';
+  motResult.results.forEach(function(r) {
+    var row = document.createElement('div');
+    row.className = 'flex justify-between py-1 text-xs';
+    row.innerHTML = '<span>' + r.label + ': RM ' + r.bracket.toLocaleString() + '</span><span class="font-semibold">RM ' + r.duty.toLocaleString() + '</span>';
+    bd.appendChild(row);
+    if (r.exempt > 0) {
+      var exRow = document.createElement('div');
+      exRow.className = 'flex justify-between py-1 text-xs text-emerald-600';
+      exRow.innerHTML = '<span>— Pengecualian FTB</span><span class="font-semibold">−RM ' + r.exempt.toLocaleString() + '</span>';
+      bd.appendChild(exRow);
+    }
+  });
+  document.getElementById('stMotTotal').innerHTML = '<span class="font-semibold">Jumlah MOT</span><span class="font-bold">' + fmt(motResult.actualDuty) + '</span>';
+  document.getElementById('stLoanDetail').textContent = fmt(loanStampDuty);
+  document.getElementById('stFtbDetail').textContent = fmt(motResult.ftbExempted);
+
+  var ftbRow = document.getElementById('stFtbRow');
+  if (ftb && motResult.ftbExempted > 0) { ftbRow.style.display = 'flex'; } else { ftbRow.style.display = 'none'; }
+
+  document.getElementById('stTotalDetail').textContent = fmt(grandTotal);
+}
+
+['stHarga','stLoanPct'].forEach(function(id){
+  var el = document.getElementById(id);
+  if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
+});
+calc();
+</script>
+</Layout>

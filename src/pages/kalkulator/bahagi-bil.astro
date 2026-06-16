@@ -1,0 +1,158 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator Tip & Bahagi Bil — Kira Bil Makan Malaysia | RakyatHub',
+  description: 'Kira tip untuk restoran dan bahagi bil dengan kawan. Percuma — untuk café, restoran, food court dan kedai mamak.',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">Kalkulator Tip & Bahagi Bil</h1>
+    <p class="text-lg md:text-xl text-muted mb-8">Kira jumlah tip untuk pelayan dan bahagikan bil dengan kawan-kawan. Sesuai untuk restoran, café, dan kedai mamak.</p>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="tpBil" class="block text-sm font-semibold text-default mb-1.5">Jumlah Bil (RM)</label>
+          <input type="number" id="tpBil" value="120" min="0" step="0.50"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="tpOrang" class="block text-sm font-semibold text-default mb-1.5">Bilangan Orang</label>
+          <input type="number" id="tpOrang" value="4" min="1" max="99"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+      </div>
+
+      <div class="mt-4">
+        <label class="block text-sm font-semibold text-default mb-2">Tip (%)</label>
+        <div class="flex flex-wrap gap-2">
+          <button id="tp0" class="flex-1 min-w-[60px] rounded-xl border-2 px-3 py-2.5 text-sm font-semibold transition" onclick="setTip(0)">0%</button>
+          <button id="tp5" class="flex-1 min-w-[60px] rounded-xl border-2 px-3 py-2.5 text-sm font-semibold transition" onclick="setTip(5)">5%</button>
+          <button id="tp10" class="flex-1 min-w-[60px] rounded-xl border-2 px-3 py-2.5 text-sm font-semibold transition" onclick="setTip(10)">10%</button>
+          <button id="tp15" class="flex-1 min-w-[60px] rounded-xl border-2 border-primary bg-primary/10 px-3 py-2.5 text-sm font-semibold text-primary" onclick="setTip(15)">15%</button>
+          <button id="tp20" class="flex-1 min-w-[60px] rounded-xl border-2 px-3 py-2.5 text-sm font-semibold transition" onclick="setTip(20)">20%</button>
+        </div>
+        <div class="mt-2">
+          <input type="number" id="tpCustom" value="15" min="0" max="100" step="0.5" placeholder="Lain-lain %"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+      </div>
+
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Bil</p>
+          <p class="text-lg font-bold text-default" id="tpBilDisplay">RM 120.00</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Tip</p>
+          <p class="text-lg font-bold text-emerald-700" id="tpTip">RM 18.00</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Total + Tip</p>
+          <p class="text-lg font-bold text-amber-700" id="tpTotal">RM 138.00</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Seorang</p>
+          <p class="text-lg font-bold text-primary" id="tpSeorang">RM 34.50</p>
+        </div>
+      </div>
+
+      <div class="mt-4 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-sm text-muted">Setiap seorang bayar <strong id="tpSeorangLabel">RM 34.50</strong></p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="tpKesimpulan">RM 34.50</p>
+        <p class="text-xs text-muted mt-1">*Tip <span id="tpPctLabel">15%</span> = RM <span id="tpTipVal">18.00</span>, dibahagi <span id="tpOrgLabel">4</span> orang</p>
+      </div>
+    </div>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📊 Cara Kira</h2>
+      <ul class="text-muted text-sm space-y-1">
+        <li>• Tip = Jumlah Bil × (Peratus Tip ÷ 100)</li>
+        <li>• Total = Jumlah Bil + Tip</li>
+        <li>• Seorang = Total ÷ Bilangan Orang</li>
+      </ul>
+      <p class="text-muted text-sm mt-3">Contoh: Bil RM120, tip 15% → RM18 tip → Total RM138 → 4 orang × RM34.50 setiap seorang.</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🇲🇾 Tip di Malaysia</h3>
+        <p class="text-muted text-sm">Di Malaysia, tip tidak diwajibkan. Kebanyakan restoran dah termasuk khidmat 6%-10% dalam bil. Tip tambahan adalah pilihan — biasalah 5-10% untuk perkhidmatan baik.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🧾 Service Charge</h3>
+        <p class="text-muted text-sm">Service charge 6% (sebahagian restoran) atau SST 8% mungkin sudah termasuk dalam bil. Tip dikira SELEPAS cukai/khi&shy;dmat. Jangan tip dua kali!</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">👥 Bahagi Rata</h3>
+        <p class="text-muted text-sm">Bila makan ramai-ramai, bahagi rata adalah paling mudah. Tapi kalau ada orang tak minum atau order kurang, terpulang pada persetujuan kawan-kawan.</p>
+      </div>
+    </div>
+
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
+      <strong>⚠️ Penafian:</strong> Anggaran sahaja. Service charge dan SST mungkin sudah termasuk dalam bil. Tip adalah pilihan peribadi — tiada kadar wajib di Malaysia.
+    </div>
+
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">📚 Alat Lain</h3>
+      <ul class="space-y-2">
+        <li><a href="/kalkulator/diskaun/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Diskaun</a></li>
+        <li><a href="/kalkulator/sst/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator SST</a></li>
+        <li><a href="/kalkulator/currency-converter/" class="text-primary font-medium hover:underline text-sm">→ Penukar Mata Wang</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction actions={[
+    { variant: 'primary', text: 'Kira Diskaun', href: '/kalkulator/diskaun' },
+    { variant: 'secondary', text: 'Penukar Wang', href: '/kalkulator/currency-converter' },
+  ]}>
+    <Fragment slot="title">Nak kira harga selepas diskaun?</Fragment>
+    <Fragment slot="subtitle">Guna kalkulator harian percuma kami.</Fragment>
+  </CallToAction>
+
+  <script is:inline>
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
+var curTip = 15;
+
+function setTip(v) { curTip = v; document.getElementById('tpCustom').value = v; highlightTip(v); calc(); }
+function highlightTip(v) {
+  [0,5,10,15,20].forEach(function(p){
+    var el = document.getElementById('tp'+p);
+    if (!el) return;
+    if (p === v) { el.className = 'flex-1 min-w-[60px] rounded-xl border-2 border-primary bg-primary/10 px-3 py-2.5 text-sm font-semibold text-primary'; }
+    else { el.className = 'flex-1 min-w-[60px] rounded-xl border-2 border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2.5 text-sm font-semibold text-default'; }
+  });
+}
+
+function calc() {
+  var bil = sn(document.getElementById('tpBil').value, 120);
+  var orang = parseInt(document.getElementById('tpOrang').value) || 4;
+  var tipPct = sn(document.getElementById('tpCustom').value, 15);
+  if (bil <= 0) { document.getElementById('tpKesimpulan').textContent = 'RM 0.00'; return; }
+  var tipAmt = bil * tipPct / 100;
+  var total = bil + tipAmt;
+  var sorang = total / orang;
+  document.getElementById('tpBilDisplay').textContent = fmt(bil);
+  document.getElementById('tpTip').textContent = fmt(tipAmt);
+  document.getElementById('tpTotal').textContent = fmt(total);
+  document.getElementById('tpSeorang').textContent = fmt(sorang);
+  document.getElementById('tpSeorangLabel').textContent = fmt(sorang);
+  document.getElementById('tpKesimpulan').textContent = fmt(sorang);
+  document.getElementById('tpPctLabel').textContent = tipPct + '%';
+  document.getElementById('tpTipVal').textContent = tipAmt.toFixed(2);
+  document.getElementById('tpOrgLabel').textContent = orang;
+  highlightTip([0,5,10,15,20].indexOf(tipPct) >= 0 ? tipPct : -1);
+}
+['tpBil','tpOrang','tpCustom'].forEach(function(id){var el=document.getElementById(id);if(el){el.addEventListener('input',calc);el.addEventListener('change',calc);}});
+calc();
+</script>
+</Layout>

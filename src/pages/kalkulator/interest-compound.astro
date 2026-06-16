@@ -1,0 +1,189 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator Compound Interest — Pelaburan & Simpanan | RakyatHub',
+  description: 'Kira pulangan pelaburan dengan compound interest. Unjur simpanan bulanan, jumlah dividen dan baki akhir tahun ke tahun. Percuma.',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8"><a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a></div>
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">Kalkulator Compound Interest</h1>
+    <p class="text-lg md:text-xl text-muted mb-8">Unjur pertumbuhan pelaburan dengan compound interest (faedah kompaun). Simulasi simpanan tetap bulanan dengan dividen tahunan. Lihat perkembangan tahun ke tahun.</p>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="ciPrincipal" class="block text-sm font-semibold text-default mb-1.5">Modal Awal (RM)</label>
+          <input type="number" id="ciPrincipal" value="1000" min="0" step="100"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="ciBulanan" class="block text-sm font-semibold text-default mb-1.5">Top-Up Bulanan (RM)</label>
+          <input type="number" id="ciBulanan" value="200" min="0" step="50"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="ciKadar" class="block text-sm font-semibold text-default mb-1.5">Kadar Pulangan (%) / tahun</label>
+          <input type="number" id="ciKadar" value="5.5" min="0" max="100" step="0.1"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="ciTempoh" class="block text-sm font-semibold text-default mb-1.5">Tempoh (tahun)</label>
+          <input type="number" id="ciTempoh" value="10" min="1" max="50"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+      </div>
+
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Dilabur</p>
+          <p class="text-lg font-bold text-default" id="ciLabur">RM 0</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Dividen</p>
+          <p class="text-lg font-bold text-emerald-700" id="ciDividen">RM 0</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Tempoh</p>
+          <p class="text-lg font-bold text-amber-700" id="ciTempohDisplay">10 tahun</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Nilai Akhir</p>
+          <p class="text-lg font-bold text-primary" id="ciAkhir">RM 0</p>
+        </div>
+      </div>
+
+      <div class="mt-4 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-sm text-muted" id="ciLabel">Modal + dividen selepas 10 tahun</p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="ciFinal">RM 0</p>
+        <p class="text-xs text-muted mt-1">*Anggaran berdasarkan kadar tetap. Pulangan sebenar mungkin berbeza.</p>
+      </div>
+    </div>
+
+    <!-- Projection Table -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📊 Unjuran Tahun ke Tahun</h2>
+      <div class="overflow-x-auto -mx-5 md:-mx-0">
+        <div class="min-w-[500px] px-5 md:px-0">
+          <table class="w-full text-sm">
+            <thead><tr class="border-b border-gray-100 dark:border-slate-700">
+              <th class="text-left py-3 px-2 font-semibold text-muted">Tahun</th>
+              <th class="text-right py-3 px-2 font-semibold text-muted">Dilabur (RM)</th>
+              <th class="text-right py-3 px-2 font-semibold text-muted">Dividen (RM)</th>
+              <th class="text-right py-3 px-2 font-semibold text-muted">Baki (RM)</th>
+            </tr></thead>
+            <tbody id="ciTable"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📊 Cara Kira Compound Interest</h2>
+      <p class="text-muted text-sm mb-3">Formula compound interest dengan top-up bulanan:</p>
+      <ul class="text-muted text-sm space-y-1">
+        <li>• Setiap bulan: baki + (baki × kadar/12) + top-up bulanan</li>
+        <li>• Dividen dikompaun bulanan (kadar dibahagi 12)</li>
+        <li>• Pulangan tahunan = jumlah dividen sepanjang tahun</li>
+      </ul>
+      <p class="text-muted text-sm mt-3"><strong>Power of Compounding:</strong> Semakin lama tempoh, semakin besar kesan compound. Pelaburan RM1,000 + RM200/bulan pada 5.5% selama 10 tahun = RM34k+ (dividen RM8k). Selama 20 tahun = RM90k+ (dividen RM40k+).</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">📈 Kuasa Compounding</h3>
+        <p class="text-muted text-sm">Compound interest = "bunga berbunga". Dividen tahun pertama ditambah ke modal, tahun kedua dividen dikira atas modal + dividen tahun pertama. Sebab ni pelaburan jangka panjang lebih untung dari jangka pendek.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🏦 ASB vs KWSP vs FD</h3>
+        <p class="text-muted text-sm">ASB (5.0–6.0%), KWSP (5.5–6.5%), FD (2.5–3.5%) — semua guna compound interest. Beza 1% dalam kadar pulangan memberi kesan besar dalam tempoh 10-20 tahun. Guna kalkulator ni untuk bandingkan.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">⏰ Mula Awal</h3>
+        <p class="text-muted text-sm">Yang paling penting dalam compound interest adalah <strong>masa</strong>. RM200/bulan dari umur 25 ke 35 (10 tahun) = RM34k. Tapi kalau biarkan sampai umur 55 (20 tahun lagi tanpa top-up) = RM100k+ disebabkan compounding!</p>
+      </div>
+    </div>
+
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
+      <strong>⚠️ Penafian:</strong> Anggaran berdasarkan kadar pulangan tetap. Pulangan sebenar pelaburan seperti ASB, KWSP, unit trust, atau saham mungkin berbeza. Nilai pelaburan boleh naik dan turun. Rujuk penasihat kewangan bertauliah.
+    </div>
+
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">📚 Alat Pelaburan</h3>
+      <ul class="space-y-2">
+        <li><a href="/kalkulator/asb/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator ASB</a></li>
+        <li><a href="/kalkulator/kwsp/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator KWSP</a></li>
+        <li><a href="/kalkulator/fd/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator FD</a></li>
+        <li><a href="/kalkulator/pelaburan/" class="text-primary font-medium hover:underline text-sm">→ Emas vs ASB vs FD</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction actions={[
+    { variant: 'primary', text: 'Kalkulator ASB', href: '/kalkulator/asb' },
+    { variant: 'secondary', text: 'Kalkulator KWSP', href: '/kalkulator/kwsp' },
+  ]}>
+    <Fragment slot="title">Alat pelaburan lain</Fragment>
+    <Fragment slot="subtitle">ASB, KWSP, FD — semuanya percuma.</Fragment>
+  </CallToAction>
+
+  <script is:inline>
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:0,maximumFractionDigits:0}) : '0'); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
+function calc() {
+  var p = sn(document.getElementById('ciPrincipal').value, 1000);
+  var b = sn(document.getElementById('ciBulanan').value, 200);
+  var k = sn(document.getElementById('ciKadar').value, 5.5);
+  var t = parseInt(document.getElementById('ciTempoh').value) || 10;
+  if (t <= 0) { document.getElementById('ciFinal').textContent = 'RM 0'; return; }
+  var mr = (k / 100) / 12;
+  var balance = p;
+  var totalInvested = p;
+  var totalDividend = 0;
+  var rows = [];
+  for (var y = 1; y <= t; y++) {
+    var yearDividend = 0;
+    for (var m = 1; m <= 12; m++) {
+      if (m < 12 || y < t) {
+        var div = balance * mr;
+        yearDividend += div;
+        balance += div;
+        if (b > 0) { balance += b; totalInvested += b; }
+      } else {
+        var div = balance * mr;
+        yearDividend += div;
+        balance += div;
+      }
+    }
+    totalDividend += yearDividend;
+    rows.push({ y: y, invested: Math.round(totalInvested), dividend: Math.round(yearDividend), balance: Math.round(balance) });
+  }
+  document.getElementById('ciLabur').textContent = fmt(totalInvested);
+  document.getElementById('ciDividen').textContent = fmt(Math.round(totalDividend));
+  document.getElementById('ciTempohDisplay').textContent = t + ' tahun';
+  document.getElementById('ciAkhir').textContent = fmt(Math.round(balance));
+  document.getElementById('ciLabel').textContent = 'Modal + dividen selepas ' + t + ' tahun';
+  document.getElementById('ciFinal').textContent = fmt(Math.round(balance));
+
+  var tb = document.getElementById('ciTable');
+  var fr = document.createDocumentFragment();
+  rows.forEach(function(r) {
+    var tr = document.createElement('tr');
+    tr.className = (r.y === t ? 'font-bold bg-primary/5' : 'border-b border-gray-50 dark:border-slate-800');
+    var td1 = document.createElement('td'); td1.className = 'py-2.5 px-2'; td1.textContent = r.y;
+    var td2 = document.createElement('td'); td2.className = 'text-right py-2.5 px-2'; td2.textContent = fmt(r.invested);
+    var td3 = document.createElement('td'); td3.className = 'text-right py-2.5 px-2 text-emerald-600'; td3.textContent = fmt(r.dividend);
+    var td4 = document.createElement('td'); td4.className = 'text-right py-2.5 px-2 font-semibold'; td4.textContent = fmt(r.balance);
+    tr.appendChild(td1); tr.appendChild(td2); tr.appendChild(td3); tr.appendChild(td4);
+    fr.appendChild(tr);
+  });
+  tb.textContent = ''; tb.appendChild(fr);
+}
+['ciPrincipal','ciBulanan','ciKadar','ciTempoh'].forEach(function(id){var el=document.getElementById(id);if(el){el.addEventListener('input',calc);el.addEventListener('change',calc);}});
+calc();
+</script>
+</Layout>

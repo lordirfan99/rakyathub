@@ -1,0 +1,102 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator Umur — Kira Umur Tepat Malaysia | RakyatHub',
+  description: 'Kira umur tepat dalam tahun, bulan dan hari. Ketahui hari lahir seterusnya dan zodiak Cina anda. Percuma.',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8"><a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a></div>
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">Kalkulator Umur Malaysia</h1>
+    <p class="text-lg md:text-xl text-muted mb-8">Kira umur tepat anda dalam tahun, bulan dan hari. Juga tahu bila hari lahir seterusnya dan zodiak Cina anda.</p>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div>
+        <label for="ageTarikh" class="block text-sm font-semibold text-default mb-1.5">Tarikh Lahir</label>
+        <input type="date" id="ageTarikh" value="1998-03-15"
+          class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+      </div>
+
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Tahun</p>
+          <p class="text-2xl font-bold text-blue-700" id="ageTahun">—</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Bulan</p>
+          <p class="text-2xl font-bold text-emerald-700" id="ageBulan">—</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Hari</p>
+          <p class="text-2xl font-bold text-amber-700" id="ageHari">—</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Hari</p>
+          <p class="text-2xl font-bold text-primary" id="ageTotalHari">—</p>
+        </div>
+      </div>
+
+      <div class="mt-4 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-lg" id="ageZodiak">🐭 — </p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="ageFinal">Masukkan tarikh lahir</p>
+        <p class="text-xs text-muted mt-1" id="ageNextBirthday">Hari lahir seterusnya: —</p>
+      </div>
+    </div>
+
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
+      <strong>⚠️ Penafian:</strong> Anggaran berdasarkan tarikh yang dimasukkan. Untuk tujuan rasmi, rujuk dokumen pengenalan diri seperti Kad Pengenalan atau Sijil Lahir.
+    </div>
+
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">📚 Alat Lain</h3>
+      <ul class="space-y-2">
+        <li><a href="/kalkulator/beza-tarikh/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Beza Tarikh</a></li>
+        <li><a href="/kalkulator/unit-converter/" class="text-primary font-medium hover:underline text-sm">→ Penukar Unit</a></li>
+        <li><a href="/berapa-hari-lagi-nak-gaji/" class="text-primary font-medium hover:underline text-sm">→ Countdown Gaji</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction actions={[
+    { variant: 'primary', text: 'Beza Tarikh', href: '/kalkulator/beza-tarikh' },
+    { variant: 'secondary', text: 'Penukar Unit', href: '/kalkulator/unit-converter' },
+  ]}>
+    <Fragment slot="title">Alat umum percuma untuk semua</Fragment>
+    <Fragment slot="subtitle">Beza tarikh, penukar unit dan banyak lagi.</Fragment>
+  </CallToAction>
+
+  <script is:inline>
+function fmtDate(d) { return d.toLocaleDateString('ms-MY', {year:'numeric',month:'long',day:'numeric'}); }
+function calc() {
+  var val = document.getElementById('ageTarikh').value;
+  if (!val) { document.getElementById('ageFinal').textContent = 'Pilih tarikh lahir'; return; }
+  var birth = new Date(val + 'T00:00:00');
+  var now = new Date(); now.setHours(0,0,0,0);
+  var totalDays = Math.floor((now - birth) / (1000*60*60*24));
+  var y = now.getFullYear() - birth.getFullYear();
+  var m = now.getMonth() - birth.getMonth();
+  var d = now.getDate() - birth.getDate();
+  if (d < 0) { m--; d += new Date(now.getFullYear(), now.getMonth(), 0).getDate(); }
+  if (m < 0) { y--; m += 12; }
+  document.getElementById('ageTahun').textContent = y;
+  document.getElementById('ageBulan').textContent = m;
+  document.getElementById('ageHari').textContent = d;
+  document.getElementById('ageTotalHari').textContent = totalDays.toLocaleString();
+  var zodiacs = ['🐭 Tikus','🐮 Kerbau','🐯 Harimau','🐰 Arnab','🐲 Naga','🐍 Ular','🐴 Kuda','🐑 Kambing','🐵 Monyet','🐔 Ayam','🐶 Anjing','🐷 Babi'];
+  var zodiac = zodiacs[(birth.getFullYear() - 4) % 12];
+  document.getElementById('ageZodiak').textContent = zodiac + ' — ' + y + ' tahun ' + m + ' bulan ' + d + ' hari';
+  document.getElementById('ageFinal').textContent = y + ' Tahun ' + m + ' Bulan ' + d + ' Hari';
+  var nb = new Date(now.getFullYear(), birth.getMonth(), birth.getDate());
+  if (nb <= now) nb.setFullYear(nb.getFullYear() + 1);
+  var daysTo = Math.ceil((nb - now) / (1000*60*60*24));
+  document.getElementById('ageNextBirthday').textContent = 'Hari lahir seterusnya: ' + fmtDate(nb) + ' (' + daysTo + ' hari lagi)';
+}
+document.getElementById('ageTarikh').addEventListener('input', calc);
+document.getElementById('ageTarikh').addEventListener('change', calc);
+calc();
+</script>
+</Layout>

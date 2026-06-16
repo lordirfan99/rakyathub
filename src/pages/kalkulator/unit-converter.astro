@@ -1,0 +1,189 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Penukar Unit — Panjang, Berat, Suhu, Isipadu, Luas | RakyatHub',
+  description: 'Tukar unit panjang, berat, suhu, isipadu dan luas. Penukar unit Malaysia — metrik, imperial, dan tradisional. Percuma.',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8"><a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a></div>
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">Penukar Unit Malaysia</h1>
+    <p class="text-lg md:text-xl text-muted mb-8">Tukar unit panjang, berat, suhu, isipadu, dan luas dengan mudah. Dari metrik ke imperial dan sebaliknya.</p>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div>
+        <label for="utKategori" class="block text-sm font-semibold text-default mb-1.5">Kategori</label>
+        <select id="utKategori" onchange="changeCategory()"
+          class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+          <option value="length">📏 Panjang (cm, m, km, inci, kaki)</option>
+          <option value="weight">⚖️ Berat (g, kg, ton, oz, lb)</option>
+          <option value="temperature">🌡️ Suhu (°C, °F, K)</option>
+          <option value="volume">🧊 Isipadu (ml, L, gelen)</option>
+          <option value="area">📐 Luas (m², ft², hektar, ekar)</option>
+        </select>
+      </div>
+      <div class="grid md:grid-cols-2 gap-4 mt-4">
+        <div>
+          <label for="utNilai" class="block text-sm font-semibold text-default mb-1.5">Nilai</label>
+          <input type="number" id="utNilai" value="100" min="0" step="any"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="utDari" class="block text-sm font-semibold text-default mb-1.5">Dari</label>
+          <select id="utDari"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition"></select>
+        </div>
+        <div>
+          <label for="utKe" class="block text-sm font-semibold text-default mb-1.5">Ke</label>
+          <select id="utKe"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition"></select>
+        </div>
+        <div class="flex items-end">
+          <button onclick="swapUnit()" class="w-full rounded-xl bg-primary/10 border-2 border-primary/30 px-4 py-3 text-sm font-semibold text-primary transition hover:bg-primary/20">⇄ Tukar Arah</button>
+        </div>
+      </div>
+
+      <div class="mt-6 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-sm text-muted" id="utLabel">100 cm =</p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="utFinal">1 m</p>
+        <p class="text-xs text-muted mt-1">*Penukaran berdasarkan formula standard.</p>
+      </div>
+    </div>
+
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
+      <strong>⚠️ Penafian:</strong> Penukaran berdasarkan formula standard internasional. Nilai dibundarkan untuk paparan. Untuk kegunaan saintifik atau rasmi, rujuk piawaian SIRIM atau ISO.
+    </div>
+
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">📚 Alat Lain</h3>
+      <ul class="space-y-2">
+        <li><a href="/kalkulator/umur/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Umur</a></li>
+        <li><a href="/kalkulator/beza-tarikh/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Beza Tarikh</a></li>
+        <li><a href="/kalkulator/currency-converter/" class="text-primary font-medium hover:underline text-sm">→ Penukar Mata Wang</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction actions={[
+    { variant: 'primary', text: 'Kira Umur', href: '/kalkulator/umur' },
+    { variant: 'secondary', text: 'Beza Tarikh', href: '/kalkulator/beza-tarikh' },
+  ]}>
+    <Fragment slot="title">Alat umum percuma</Fragment>
+    <Fragment slot="subtitle">Penukar unit, umur, beza tarikh.</Fragment>
+  </CallToAction>
+
+  <script is:inline>
+var UNITS = {
+  length: { name:'Panjang', units:[
+    {id:'mm',label:'Milimeter (mm)',toBase:function(v){return v/1000;},fromBase:function(v){return v*1000;}},
+    {id:'cm',label:'Sentimeter (cm)',toBase:function(v){return v/100;},fromBase:function(v){return v*100;}},
+    {id:'m',label:'Meter (m)',toBase:function(v){return v;},fromBase:function(v){return v;}},
+    {id:'km',label:'Kilometer (km)',toBase:function(v){return v*1000;},fromBase:function(v){return v/1000;}},
+    {id:'in',label:'Inci (in)',toBase:function(v){return v*0.0254;},fromBase:function(v){return v/0.0254;}},
+    {id:'ft',label:'Kaki (ft)',toBase:function(v){return v*0.3048;},fromBase:function(v){return v/0.3048;}},
+  ]},
+  weight: { name:'Berat', units:[
+    {id:'mg',label:'Miligram (mg)',toBase:function(v){return v/1000000;},fromBase:function(v){return v*1000000;}},
+    {id:'g',label:'Gram (g)',toBase:function(v){return v/1000;},fromBase:function(v){return v*1000;}},
+    {id:'kg',label:'Kilogram (kg)',toBase:function(v){return v;},fromBase:function(v){return v;}},
+    {id:'ton',label:'Ton',toBase:function(v){return v*1000;},fromBase:function(v){return v/1000;}},
+    {id:'oz',label:'Auns (oz)',toBase:function(v){return v*0.0283495;},fromBase:function(v){return v/0.0283495;}},
+    {id:'lb',label:'Paun (lb)',toBase:function(v){return v*0.453592;},fromBase:function(v){return v/0.453592;}},
+  ]},
+  temperature: { name:'Suhu', units:[
+    {id:'c',label:'Celsius (°C)',toBase:function(v){return v;},fromBase:function(v){return v;}},
+    {id:'f',label:'Fahrenheit (°F)',toBase:function(v){return (v-32)*5/9;},fromBase:function(v){return v*9/5+32;}},
+    {id:'k',label:'Kelvin (K)',toBase:function(v){return v;},fromBase:function(v){return v;}},
+  ]},
+  volume: { name:'Isipadu', units:[
+    {id:'ml',label:'Mililiter (ml)',toBase:function(v){return v/1000;},fromBase:function(v){return v*1000;}},
+    {id:'l',label:'Liter (L)',toBase:function(v){return v;},fromBase:function(v){return v;}},
+    {id:'gal',label:'Gelen (gal)',toBase:function(v){return v*3.78541;},fromBase:function(v){return v/3.78541;}},
+  ]},
+  area: { name:'Luas', units:[
+    {id:'sqm',label:'Meter² (m²)',toBase:function(v){return v;},fromBase:function(v){return v;}},
+    {id:'sqft',label:'Kaki² (ft²)',toBase:function(v){return v*0.092903;},fromBase:function(v){return v/0.092903;}},
+    {id:'ha',label:'Hektar (ha)',toBase:function(v){return v*10000;},fromBase:function(v){return v/10000;}},
+    {id:'ekar',label:'Ekar',toBase:function(v){return v*4046.86;},fromBase:function(v){return v/4046.86;}},
+  ]},
+};
+var curCat = 'length';
+
+function populateSelect(selId, cat) {
+  var sel = document.getElementById(selId);
+  var catData = UNITS[cat];
+  if (!catData) return;
+  sel.innerHTML = '';
+  catData.units.forEach(function(u, i) {
+    var opt = document.createElement('option');
+    opt.value = u.id;
+    opt.textContent = u.label;
+    if (i === 0 && selId==='utDari') opt.selected = true;
+    if (i === 2 && selId==='utKe') opt.selected = true;
+    sel.appendChild(opt);
+  });
+}
+
+function changeCategory() {
+  curCat = document.getElementById('utKategori').value;
+  populateSelect('utDari', curCat);
+  populateSelect('utKe', curCat);
+  calc();
+}
+
+function swapUnit() {
+  var d = document.getElementById('utDari');
+  var k = document.getElementById('utKe');
+  var tmp = d.value; d.value = k.value; k.value = tmp;
+  calc();
+}
+
+function getUnit(cat, id) {
+  return UNITS[cat].units.find(function(u){return u.id===id;});
+}
+
+function fmtNum(v) {
+  if (typeof v !== 'number' || isNaN(v) || !isFinite(v)) return '—';
+  if (Math.abs(v) >= 1000000000) return (v/1000000000).toFixed(2)+'B';
+  if (Math.abs(v) >= 1000000) return (v/1000000).toFixed(2)+'M';
+  if (Math.abs(v) >= 1000) return v.toLocaleString('ms-MY',{minimumFractionDigits:2,maximumFractionDigits:2});
+  if (Number.isInteger(v)) return v.toLocaleString();
+  return v.toLocaleString('ms-MY',{minimumFractionDigits:2,maximumFractionDigits:4});
+}
+
+function calc() {
+  var nilai = parseFloat(document.getElementById('utNilai').value);
+  var dariId = document.getElementById('utDari').value;
+  var keId = document.getElementById('utKe').value;
+  var cat = document.getElementById('utKategori').value;
+  if (isNaN(nilai)) { document.getElementById('utFinal').textContent = '—'; return; }
+  var dari = getUnit(cat, dariId);
+  var ke = getUnit(cat, keId);
+  if (!dari || !ke) return;
+
+  // For temperature, must treat specially
+  var result;
+  if (cat === 'temperature') {
+    if (dariId === 'c' && keId === 'f') result = nilai * 9/5 + 32;
+    else if (dariId === 'c' && keId === 'k') result = nilai + 273.15;
+    else if (dariId === 'f' && keId === 'c') result = (nilai - 32) * 5/9;
+    else if (dariId === 'f' && keId === 'k') result = (nilai - 32) * 5/9 + 273.15;
+    else if (dariId === 'k' && keId === 'c') result = nilai - 273.15;
+    else if (dariId === 'k' && keId === 'f') result = (nilai - 273.15) * 9/5 + 32;
+    else result = nilai;
+  } else {
+    var base = dari.toBase(nilai);
+    result = ke.fromBase(base);
+  }
+  document.getElementById('utLabel').textContent = fmtNum(nilai) + ' ' + dariId + ' =';
+  document.getElementById('utFinal').textContent = fmtNum(result) + ' ' + keId;
+}
+['utNilai','utDari','utKe','utKategori'].forEach(function(id){var el=document.getElementById(id);if(el){el.addEventListener('input',calc);el.addEventListener('change',calc);}});
+changeCategory();
+calc();
+</script>
+</Layout>

@@ -1,0 +1,158 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator Zakat Fitrah — Kadar Zakat Fitrah Malaysia 2026 | RakyatHub',
+  description: 'Kira zakat fitrah ikut negeri dan bilangan orang. Kadar JAKIM 2026 — Selangor RM15, KL RM15, Johor RM10 dan lain-lain.',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8"><a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a></div>
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">Kalkulator Zakat Fitrah 2026</h1>
+    <p class="text-lg md:text-xl text-muted mb-8">Kira jumlah zakat fitrah yang perlu dibayar untuk anda dan keluarga mengikut negeri masing-masing. Kadar JAKIM 2026.</p>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="zfNegeri" class="block text-sm font-semibold text-default mb-1.5">Negeri</label>
+          <select id="zfNegeri"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="Selangor">Selangor — RM 15</option>
+            <option value="Kuala Lumpur">Kuala Lumpur — RM 15</option>
+            <option value="Putrajaya">Putrajaya — RM 15</option>
+            <option value="Pulau Pinang">Pulau Pinang — RM 14</option>
+            <option value="Melaka">Melaka — RM 12</option>
+            <option value="Negeri Sembilan">Negeri Sembilan — RM 12</option>
+            <option value="Pahang">Pahang — RM 12</option>
+            <option value="Perak">Perak — RM 12</option>
+            <option value="Sarawak">Sarawak — RM 12</option>
+            <option value="Johor">Johor — RM 10</option>
+            <option value="Kedah">Kedah — RM 10</option>
+            <option value="Kelantan">Kelantan — RM 10</option>
+            <option value="Perlis">Perlis — RM 10</option>
+            <option value="Sabah">Sabah — RM 10</option>
+            <option value="Terengganu">Terengganu — RM 10</option>
+          </select>
+        </div>
+        <div>
+          <label for="zfOrang" class="block text-sm font-semibold text-default mb-1.5">Bilangan Orang</label>
+          <input type="number" id="zfOrang" value="4" min="1" max="99"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+          <p class="text-[10px] text-muted mt-1">*Anda + tanggungan (isteri, anak, ibu bapa)</p>
+        </div>
+      </div>
+
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Negeri</p>
+          <p class="text-lg font-bold text-default" id="zfNegeriDisplay">Selangor</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Seorang</p>
+          <p class="text-lg font-bold text-emerald-700" id="zfSeorang">RM 15</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Orang</p>
+          <p class="text-lg font-bold text-amber-700" id="zfOrangDisplay">4</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Zakat</p>
+          <p class="text-lg font-bold text-primary" id="zfTotal">RM 60</p>
+        </div>
+      </div>
+
+      <div class="mt-4 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-sm text-muted">Zakat fitrah untuk <strong id="zfLabel">4 orang di Selangor</strong></p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="zfFinal">RM 60</p>
+        <p class="text-xs text-muted mt-1">*Kadar JAKIM 2026. Bayar sebelum 1 Syawal (Hari Raya Aidilfitri).</p>
+      </div>
+    </div>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📊 Kadar Zakat Fitrah 2026 Mengikut Negeri</h2>
+      <div class="grid md:grid-cols-2 gap-4 text-xs">
+        <div><table class="w-full">
+          <thead><tr class="border-b border-gray-100 dark:border-slate-700"><th class="text-left py-1.5">Negeri</th><th class="text-right py-1.5">Kadar</th></tr></thead>
+          <tbody>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td>Selangor</td><td class="text-right">RM 15</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td>Kuala Lumpur</td><td class="text-right">RM 15</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td>Putrajaya</td><td class="text-right">RM 15</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td>Pulau Pinang</td><td class="text-right">RM 14</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td>Melaka</td><td class="text-right">RM 12</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td>N. Sembilan</td><td class="text-right">RM 12</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td>Pahang</td><td class="text-right">RM 12</td></tr>
+            <tr><td>Perak</td><td class="text-right">RM 12</td></tr>
+          </tbody>
+        </table></div>
+        <div><table class="w-full">
+          <thead><tr class="border-b border-gray-100 dark:border-slate-700"><th class="text-left py-1.5">Negeri</th><th class="text-right py-1.5">Kadar</th></tr></thead>
+          <tbody>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td>Sarawak</td><td class="text-right">RM 12</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td>Johor</td><td class="text-right">RM 10</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td>Kedah</td><td class="text-right">RM 10</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td>Kelantan</td><td class="text-right">RM 10</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td>Perlis</td><td class="text-right">RM 10</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td>Sabah</td><td class="text-right">RM 10</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td>Terengganu</td><td class="text-right">RM 10</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+      <p class="text-xs text-muted mt-3">*Kadar tertakluk kepada perubahan. Sumber: JAKIM 2026.</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🤲 Siapa Wajib Bayar?</h3>
+        <p class="text-muted text-sm">Setiap individu Islam yang mampu wajib membayar zakat fitrah untuk diri sendiri dan tanggungan (isteri, anak, ibu bapa). Kadar adalah RM10–RM15 seorang ikut negeri — bersamaan 1 gantang beras.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">📅 Bila Bayar?</h3>
+        <p class="text-muted text-sm">Zakat fitrah wajib dibayar sebelum 1 Syawal (Hari Raya Aidilfitri). Waktu afdal: selepas Maghrib malam raya hingga sebelum solat Aidilfitri. Tapi boleh bayar awal — biasanya 20 hari sebelum raya.</p>
+      </div>
+    </div>
+
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
+      <strong>⚠️ Penafian:</strong> Kadar zakat fitrah adalah berdasarkan pengumuman JAKIM tahun 2026. Mungkin berbeza mengikut negeri dan tahun. Semak dengan pejabat agama negeri masing-masing untuk pengesahan.
+      <br /><em>Sumber: JAKIM — jakim.gov.my</em>
+    </div>
+
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">📚 Zakat Lain</h3>
+      <ul class="space-y-2">
+        <li><a href="/kalkulator/zakat-simpanan/" class="text-primary font-medium hover:underline text-sm">→ Zakat Simpanan</a></li>
+        <li><a href="/kalkulator/zakat-emas/" class="text-primary font-medium hover:underline text-sm">→ Zakat Emas</a></li>
+        <li><a href="/kalkulator/zakat-pendapatan/" class="text-primary font-medium hover:underline text-sm">→ Zakat Pendapatan</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction actions={[
+    { variant: 'primary', text: 'Zakat Emas', href: '/kalkulator/zakat-emas' },
+    { variant: 'secondary', text: 'Zakat Simpanan', href: '/kalkulator/zakat-simpanan' },
+  ]}>
+    <Fragment slot="title">Kira zakat lain yang wajib dibayar</Fragment>
+    <Fragment slot="subtitle">Zakat emas, pendapatan dan simpanan.</Fragment>
+  </CallToAction>
+
+  <script is:inline>
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:0,maximumFractionDigits:0}) : '0'); }
+const ZF_RATES = { 'Selangor':15,'Kuala Lumpur':15,'Putrajaya':15,'Pulau Pinang':14,'Melaka':12,'Negeri Sembilan':12,'Pahang':12,'Perak':12,'Sarawak':12,'Johor':10,'Kedah':10,'Kelantan':10,'Perlis':10,'Sabah':10,'Terengganu':10 };
+function calc() {
+  var negeri = document.getElementById('zfNegeri').value;
+  var orang = parseInt(document.getElementById('zfOrang').value) || 1;
+  var rate = ZF_RATES[negeri] || 15;
+  var total = rate * orang;
+  document.getElementById('zfNegeriDisplay').textContent = negeri;
+  document.getElementById('zfSeorang').textContent = fmt(rate);
+  document.getElementById('zfOrangDisplay').textContent = orang;
+  document.getElementById('zfTotal').textContent = fmt(total);
+  document.getElementById('zfLabel').textContent = orang + ' orang di ' + negeri;
+  document.getElementById('zfFinal').textContent = fmt(total);
+}
+['zfNegeri','zfOrang'].forEach(function(id){var el=document.getElementById(id);if(el){el.addEventListener('input',calc);el.addEventListener('change',calc);}});
+calc();
+</script>
+</Layout>

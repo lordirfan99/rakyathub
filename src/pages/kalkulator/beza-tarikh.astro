@@ -1,0 +1,118 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator Beza Tarikh — Kira Selang Hari Malaysia | RakyatHub',
+  description: 'Kira perbezaan antara dua tarikh dalam hari, minggu, bulan dan tahun. Termasuk kiraan hari bekerja. Percuma.',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8"><a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a></div>
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">Kalkulator Beza Tarikh</h1>
+    <p class="text-lg md:text-xl text-muted mb-8">Kira perbezaan antara dua tarikh secara tepat. Ketahui jumlah hari, minggu, bulan, tahun, termasuk kiraan hari bekerja.</p>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="ddMula" class="block text-sm font-semibold text-default mb-1.5">Tarikh Mula</label>
+          <input type="date" id="ddMula" value="2026-01-01"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="ddAkhir" class="block text-sm font-semibold text-default mb-1.5">Tarikh Akhir</label>
+          <input type="date" id="ddAkhir" value="2026-12-31"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+      </div>
+
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Hari</p>
+          <p class="text-2xl font-bold text-blue-700" id="ddHari">—</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Minggu</p>
+          <p class="text-2xl font-bold text-emerald-700" id="ddMinggu">—</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Bulan</p>
+          <p class="text-2xl font-bold text-amber-700" id="ddBulan">—</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Tahun</p>
+          <p class="text-2xl font-bold text-primary" id="ddTahun">—</p>
+        </div>
+      </div>
+
+      <div class="mt-4 grid grid-cols-2 gap-3">
+        <div class="rounded-xl bg-green-50 dark:bg-green-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Hari Bekerja</p>
+          <p class="text-2xl font-bold text-green-700" id="ddKerja">—</p>
+          <p class="text-[10px] text-muted">Isn–Jum (cuti awam tak termasuk)</p>
+        </div>
+        <div class="rounded-xl bg-red-50 dark:bg-red-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Hujung Minggu</p>
+          <p class="text-2xl font-bold text-red-600" id="ddHujung">—</p>
+        </div>
+      </div>
+
+      <div class="mt-4 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-sm text-muted" id="ddLabel">Dari — hingga —</p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="ddFinal">Pilih tarikh</p>
+      </div>
+    </div>
+
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
+      <strong>⚠️ Penafian:</strong> Hari bekerja dikira Isnin–Jumaat. Cuti awam tidak diambil kira. Untuk pengiraan tepat cuti awam, rujuk kalendar KKM atau Jabatan Perdana Menteri.
+    </div>
+
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">📚 Alat Lain</h3>
+      <ul class="space-y-2">
+        <li><a href="/kalkulator/umur/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Umur</a></li>
+        <li><a href="/kalkulator/unit-converter/" class="text-primary font-medium hover:underline text-sm">→ Penukar Unit</a></li>
+        <li><a href="/kalkulator/tarikh-bersalin/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Tarikh Bersalin</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction actions={[
+    { variant: 'primary', text: 'Kira Umur', href: '/kalkulator/umur' },
+    { variant: 'secondary', text: 'Penukar Unit', href: '/kalkulator/unit-converter' },
+  ]}>
+    <Fragment slot="title">Alat umum percuma</Fragment>
+    <Fragment slot="subtitle">Umur, beza tarikh, penukar unit.</Fragment>
+  </CallToAction>
+
+  <script is:inline>
+function fmtDate(d) { return d.toLocaleDateString('ms-MY', {year:'numeric',month:'short',day:'numeric'}); }
+function calc() {
+  var mula = document.getElementById('ddMula').value;
+  var akhir = document.getElementById('ddAkhir').value;
+  if (!mula || !akhir) { document.getElementById('ddFinal').textContent = 'Pilih tarikh'; return; }
+  var d1 = new Date(Math.min(new Date(mula+'T00:00:00'), new Date(akhir+'T00:00:00')));
+  var d2 = new Date(Math.max(new Date(mula+'T00:00:00'), new Date(akhir+'T00:00:00')));
+  var diff = Math.floor((d2 - d1) / (1000*60*60*24));
+  document.getElementById('ddHari').textContent = diff.toLocaleString();
+  document.getElementById('ddMinggu').textContent = Math.floor(diff / 7);
+  document.getElementById('ddBulan').textContent = Math.round(diff / 30.44);
+  document.getElementById('ddTahun').textContent = (diff / 365.25).toFixed(1);
+  var kerja = 0, hujung = 0;
+  var cur = new Date(d1);
+  while (cur <= d2) {
+    var day = cur.getDay();
+    if (day === 0 || day === 6) hujung++; else kerja++;
+    cur.setDate(cur.getDate() + 1);
+  }
+  document.getElementById('ddKerja').textContent = kerja.toLocaleString();
+  document.getElementById('ddHujung').textContent = hujung.toLocaleString();
+  document.getElementById('ddLabel').textContent = fmtDate(d1) + ' → ' + fmtDate(d2);
+  document.getElementById('ddFinal').textContent = diff + ' hari';
+}
+['ddMula','ddAkhir'].forEach(function(id){var el=document.getElementById(id);if(el){el.addEventListener('input',calc);el.addEventListener('change',calc);}});
+calc();
+</script>
+</Layout>

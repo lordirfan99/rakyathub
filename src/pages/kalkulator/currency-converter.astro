@@ -1,0 +1,236 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Penukar Mata Wang — Kadar Tukaran Ringgit Malaysia | RakyatHub',
+  description: 'Tukar mata wang asing ke Ringgit Malaysia dan sebaliknya. Guna kadar pasaran terkini melalui Frankfurter API. Percuma.',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">Penukar Mata Wang</h1>
+    <p class="text-lg md:text-xl text-muted mb-8">Tukar mata wang dari seluruh dunia ke Ringgit Malaysia (MYR) dan sebaliknya. Kadar pasaran dikemas kini secara live dari Frankfurter API.</p>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label class="block text-sm font-semibold text-default mb-1.5">Jumlah</label>
+          <input type="number" id="cvJumlah" value="100" min="0" step="1"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label class="block text-sm font-semibold text-default mb-1.5">Dari Mata Wang</label>
+          <select id="cvDari"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="USD">USD — Dolar AS</option>
+            <option value="MYR" selected>MYR — Ringgit Malaysia</option>
+            <option value="SGD">SGD — Dolar Singapura</option>
+            <option value="THB">THB — Baht Thailand</option>
+            <option value="IDR">IDR — Rupiah Indonesia</option>
+            <option value="JPY">JPY — Yen Jepun</option>
+            <option value="GBP">GBP — Paun Sterling</option>
+            <option value="EUR">EUR — Euro</option>
+            <option value="AUD">AUD — Dolar Australia</option>
+            <option value="CNY">CNY — Yuan China</option>
+            <option value="KRW">KRW — Won Korea</option>
+            <option value="INR">INR — Rupee India</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-semibold text-default mb-1.5">Ke Mata Wang</label>
+          <select id="cvKe"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="MYR" selected>MYR — Ringgit Malaysia</option>
+            <option value="USD">USD — Dolar AS</option>
+            <option value="SGD">SGD — Dolar Singapura</option>
+            <option value="THB">THB — Baht Thailand</option>
+            <option value="IDR">IDR — Rupiah Indonesia</option>
+            <option value="JPY">JPY — Yen Jepun</option>
+            <option value="GBP">GBP — Paun Sterling</option>
+            <option value="EUR">EUR — Euro</option>
+            <option value="AUD">AUD — Dolar Australia</option>
+            <option value="CNY">CNY — Yuan China</option>
+            <option value="KRW">KRW — Won Korea</option>
+            <option value="INR">INR — Rupee India</option>
+          </select>
+        </div>
+      </div>
+      <button id="cvSwap" onclick="swapCurrency()"
+        class="mt-2 text-sm text-primary font-semibold hover:underline">⇄ Tukar Arah</button>
+
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center col-span-2">
+          <p class="text-xs text-muted uppercase tracking-wide">Anda Tukar</p>
+          <p class="text-lg font-bold text-default" id="cvDariDisplay">100.00 MYR</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center col-span-2">
+          <p class="text-xs text-muted uppercase tracking-wide">Anda Dapat</p>
+          <p class="text-lg font-bold text-emerald-700" id="cvHasil">22.47 USD</p>
+        </div>
+      </div>
+
+      <div class="mt-4 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-sm text-muted">Kadar: <strong id="cvRate">1 MYR = 0.2247 USD</strong></p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="cvFinal">22.47 USD</p>
+        <p class="text-xs text-muted mt-1" id="cvSource">*Kadar pasaran dari Frankfurter API. Kadar sebenar bank mungkin berbeza.</p>
+      </div>
+    </div>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📊 Kadar Rujukan</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs">
+          <thead><tr class="border-b border-gray-100 dark:border-slate-700"><th class="text-left py-2">Mata Wang</th><th class="text-right py-2">Kadar (ke MYR)</th><th class="text-right py-2">Kadar (dari MYR)</th></tr></thead>
+          <tbody id="cvRujukan"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📊 Cara Kira Pertukaran Wang</h2>
+      <p class="text-muted text-sm mb-3">Jumlah Dapat = Jumlah Asal × Kadar Pertukaran</p>
+      <p class="text-muted text-sm">Kadar pertukaran dikemas kini dari Frankfurter API yang menggunakan data Bank Pusat Eropah (ECB). Kadar sebenar di bank atau money changer mungkin berbeza kerana spread dan komisen.</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🏦 Kadar BNM</h3>
+        <p class="text-muted text-sm">Bank Negara Malaysia publishes kadar rujukan setiap hari bekerja. Kadar ni adalah purata pasaran antara bank — bukan kadar untuk individu. Kadar pengguna biasanya 1-3% lebih tinggi.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">💱 Money Changer</h3>
+        <p class="text-muted text-sm">Kedai tukar wang (money changer) biasanya offer kadar lebih baik dari bank untuk wang tunai. Tapi spread mereka lebih besar — beli rendah, jual tinggi. Bandingkan sebelum tukar.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">💳 Kad Kredit</h3>
+        <p class="text-muted text-sm">Kad kredit guna kadar Visa/Mastercard (paling hampir dengan pasaran) tapi dikenakan cas tukaran 1-2%. Untuk pembelian online dari luar negara, kadar ni biasanya lebih murah dari money changer.</p>
+      </div>
+    </div>
+
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
+      <strong>⚠️ Penafian:</strong> Kadar dari Frankfurter API (ECB). Kadar sebenar di bank atau money changer mungkin berbeza disebabkan spread, komisen, dan caj perkhidmatan. Semak dengan bank/hotel/money changer sebelum membuat transaksi.
+    </div>
+
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">📚 Alat Lain</h3>
+      <ul class="space-y-2">
+        <li><a href="/kalkulator/diskaun/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Diskaun</a></li>
+        <li><a href="/kalkulator/bahagi-bil/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Bahagi Bil</a></li>
+        <li><a href="/kalkulator/sst/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator SST</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction actions={[
+    { variant: 'primary', text: 'Kira Diskaun', href: '/kalkulator/diskaun' },
+    { variant: 'secondary', text: 'Bahagi Bil', href: '/kalkulator/bahagi-bil' },
+  ]}>
+    <Fragment slot="title">Alat kewangan harian percuma</Fragment>
+    <Fragment slot="subtitle">Diskaun, tip, SST — semuanya ada.</Fragment>
+  </CallToAction>
+
+  <script is:inline>
+function fmt(v, c) { return (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00') + ' ' + (c || ''); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
+
+var FALLBACK_RATES = {
+  'USD/MYR': 4.45, 'MYR/USD': 0.2247,
+  'SGD/MYR': 3.30, 'MYR/SGD': 0.3030,
+  'THB/MYR': 0.122, 'MYR/THB': 8.20,
+  'IDR/MYR': 0.000275, 'MYR/IDR': 3636.36,
+  'JPY/MYR': 0.028, 'MYR/JPY': 35.71,
+  'GBP/MYR': 5.68, 'MYR/GBP': 0.1761,
+  'EUR/MYR': 4.82, 'MYR/EUR': 0.2075,
+  'AUD/MYR': 2.97, 'MYR/AUD': 0.3367,
+  'CNY/MYR': 0.615, 'MYR/CNY': 1.626,
+  'KRW/MYR': 0.00325, 'MYR/KRW': 307.69,
+  'INR/MYR': 0.0535, 'MYR/INR': 18.69,
+};
+
+var CURRENCY_NAMES = { MYR:'Ringgit',USD:'Dolar AS',SGD:'Dolar SG',THB:'Baht',IDR:'Rupiah',JPY:'Yen',GBP:'Pound',EUR:'Euro',AUD:'Dolar AU',CNY:'Yuan',KRW:'Won',INR:'Rupee' };
+
+var liveRates = {};
+function fetchRates() {
+  var f = document.getElementById('cvDari').value;
+  var t = document.getElementById('cvKe').value;
+  var url = 'https://api.frankfurter.app/latest?from=' + f + '&to=' + t;
+  var x = new XMLHttpRequest();
+  x.open('GET', url, true);
+  x.timeout = 5000;
+  x.onload = function() {
+    if (x.status === 200) try {
+      var d = JSON.parse(x.responseText);
+      if (d && d.rates) {
+        liveRates[d.base] = d.rates;
+        document.getElementById('cvSource').textContent = '*Kadar live dari Frankfurter API (ECB). Kadar sebenar bank mungkin berbeza.';
+        calc();
+      }
+    } catch(e) {}
+  };
+  x.send();
+}
+
+function swapCurrency() {
+  var dari = document.getElementById('cvDari');
+  var ke = document.getElementById('cvKe');
+  var tmp = dari.value; dari.value = ke.value; ke.value = tmp;
+  fetchRates();
+  calc();
+}
+
+function getRate(from, to) {
+  // Try live rates first
+  if (liveRates[from] && liveRates[from][to]) return liveRates[from][to];
+  // Fallback to hardcoded
+  var key1 = from + '/' + to;
+  if (FALLBACK_RATES[key1]) return FALLBACK_RATES[key1];
+  var key2 = to + '/' + from;
+  if (FALLBACK_RATES[key2]) return 1 / FALLBACK_RATES[key2];
+  if (from === to) return 1;
+  // Cross rate via MYR
+  var rateA = FALLBACK_RATES[from + '/MYR'];
+  var rateB = FALLBACK_RATES[to + '/MYR'];
+  if (rateA && rateB) return rateA / rateB;
+  return 1;
+}
+
+function calc() {
+  var jumlah = sn(document.getElementById('cvJumlah').value, 100);
+  var dari = document.getElementById('cvDari').value;
+  var ke = document.getElementById('cvKe').value;
+  if (jumlah <= 0) { document.getElementById('cvFinal').textContent = '0.00'; return; }
+  var rate = getRate(dari, ke);
+  var hasil = jumlah * rate;
+  document.getElementById('cvDariDisplay').textContent = fmt(jumlah, dari);
+  document.getElementById('cvHasil').textContent = fmt(hasil, ke);
+  document.getElementById('cvRate').textContent = '1 ' + dari + ' = ' + rate.toFixed(4) + ' ' + ke;
+  document.getElementById('cvFinal').textContent = fmt(hasil, ke);
+
+  // Reference table
+  var tb = document.getElementById('cvRujukan');
+  if (!tb.childNodes.length) {
+    var pairs = [
+      ['MYR','USD'],['MYR','SGD'],['MYR','THB'],['MYR','IDR'],
+      ['MYR','JPY'],['MYR','GBP'],['MYR','EUR'],['MYR','AUD'],
+      ['MYR','CNY'],['MYR','KRW'],['MYR','INR']
+    ];
+    pairs.forEach(function(p){
+      var r = getRate(p[0], p[1]);
+      var tr = document.createElement('tr');
+      tr.className = 'border-b border-gray-50 dark:border-slate-800';
+      tr.innerHTML = '<td class="py-1.5 font-medium">1 ' + p[0] + ' → ' + p[1] + '</td><td class="text-right py-1.5">' + r.toFixed(4) + '</td><td class="text-right py-1.5">' + (1/r).toFixed(4) + '</td>';
+      tb.appendChild(tr);
+    });
+  }
+}
+
+['cvJumlah','cvDari','cvKe'].forEach(function(id){var el=document.getElementById(id);if(el){el.addEventListener('input',calc);el.addEventListener('change',calc);}});
+fetchRates(); // Initial live fetch
+calc();
+</script>
+</Layout>

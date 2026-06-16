@@ -1,0 +1,135 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator Diskaun — Kira Harga Selepas Diskaun Malaysia | RakyatHub',
+  description: 'Kira harga selepas diskaun, jumlah jimat, dan peratusan diskaun. Percuma untuk membeli-belah online atau kedai fizikal.',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">Kalkulator Diskaun Malaysia</h1>
+    <p class="text-lg md:text-xl text-muted mb-8">Kira harga selepas diskaun, jumlah duit dijimatkan, dan peratusan jimat. Guna untuk beli-belah online, sale 11.11, Mega Sale dan promosi.</p>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="dsHarga" class="block text-sm font-semibold text-default mb-1.5">Harga Asal (RM)</label>
+          <input type="number" id="dsHarga" value="100" min="0" step="0.50"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="dsDiskaun" class="block text-sm font-semibold text-default mb-1.5">Diskaun (%)</label>
+          <input type="number" id="dsDiskaun" value="20" min="0" max="100" step="0.5"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="dsKuantiti" class="block text-sm font-semibold text-default mb-1.5">Kuantiti</label>
+          <input type="number" id="dsKuantiti" value="1" min="1" max="999"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+      </div>
+
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Harga Asal</p>
+          <p class="text-lg font-bold text-default" id="dsAsal">RM 100.00</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Jimat</p>
+          <p class="text-lg font-bold text-emerald-700" id="dsJimat">RM 20.00</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Selepas Diskaun</p>
+          <p class="text-lg font-bold text-amber-700" id="dsSelepas">RM 80.00</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Untuk <span id="dsQtyLabel">1</span> item</p>
+          <p class="text-lg font-bold text-primary" id="dsTotal">RM 80.00</p>
+        </div>
+      </div>
+
+      <div class="mt-4 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-sm text-muted">Anda jimat <strong id="dsJimatPct">20%</strong> — RM <span id="dsJimatVal">20.00</span></p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="dsFinal">RM 80.00</p>
+        <p class="text-xs text-muted mt-1">*Selepas diskaun untuk <span id="dsFinalQty">1</span> item</p>
+      </div>
+    </div>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📊 Cara Kira Diskaun</h2>
+      <p class="text-muted text-sm mb-3"><strong>Formula:</strong></p>
+      <ul class="text-muted text-sm space-y-1">
+        <li>• Jumlah Diskaun = Harga Asal × (Peratus Diskaun ÷ 100)</li>
+        <li>• Harga Selepas Diskaun = Harga Asal − Jumlah Diskaun</li>
+        <li>• Total Untuk Banyak Item = Harga Selepas Diskaun × Kuantiti</li>
+      </ul>
+      <p class="text-muted text-sm mt-3">Contoh: Harga RM100, diskaun 20% → Jimat RM20 → Bayar RM80. Untuk 3 item: RM80 × 3 = RM240.</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🛒 Diskaun Peratus</h3>
+        <p class="text-muted text-sm">Paling biasa di Malaysia — 10%, 20%, 50% dan sebagainya. Contoh: Mega Sale, 11.11, Hari Beli-belah Online, dan promosi kedai fizikal.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">💰 Diskaun Tunai</h3>
+        <p class="text-muted text-sm">Diskaun tetap dalam RM seperti "Jimat RM50" atau potongan RM10 untuk pembelian minima. Berbeza dari peratus — nilai tetap tak kira harga.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🎯 Buy 1 Free 1</h3>
+        <p class="text-muted text-sm">Beli 1 percuma 1 = diskaun 50% untuk 2 item. Beli 2 percuma 1 = diskaun 33%. Guna kalkulator ni dengan kuantiti untuk bandingkan nilai sebenar.</p>
+      </div>
+    </div>
+
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
+      <strong>⚠️ Penafian:</strong> Anggaran sahaja. Diskaun sebenar mungkin tertakluk kepada terma dan syarat promosi. Diskaun mungkin tidak termasuk SST/cukai. Semak dengan penjual sebelum membeli.
+    </div>
+
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">📚 Alat Lain</h3>
+      <ul class="space-y-2">
+        <li><a href="/kalkulator/sst/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator SST (Cukai Jualan & Perkhidmatan)</a></li>
+        <li><a href="/kalkulator/bahagi-bil/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Bahagi Bil & Tip</a></li>
+        <li><a href="/kalkulator/currency-converter/" class="text-primary font-medium hover:underline text-sm">→ Penukar Mata Wang</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction actions={[
+    { variant: 'primary', text: 'Bahagi Bil', href: '/kalkulator/bahagi-bil' },
+    { variant: 'secondary', text: 'Penukar Wang', href: '/kalkulator/currency-converter' },
+  ]}>
+    <Fragment slot="title">Nak kira tip atau tukar mata wang?</Fragment>
+    <Fragment slot="subtitle">Guna kalkulator harian percuma kami.</Fragment>
+  </CallToAction>
+
+  <script is:inline>
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
+function calc() {
+  var h = sn(document.getElementById('dsHarga').value, 100);
+  var d = sn(document.getElementById('dsDiskaun').value, 20);
+  var q = parseInt(document.getElementById('dsKuantiti').value) || 1;
+  if (h === 0) { document.getElementById('dsFinal').textContent = 'RM 0.00'; return; }
+  var jimat = h * d / 100;
+  var selepas = h - jimat;
+  document.getElementById('dsAsal').textContent = fmt(h);
+  document.getElementById('dsJimat').textContent = fmt(jimat);
+  document.getElementById('dsSelepas').textContent = fmt(selepas);
+  document.getElementById('dsTotal').textContent = fmt(selepas * q);
+  document.getElementById('dsQtyLabel').textContent = q;
+  document.getElementById('dsJimatPct').textContent = d + '%';
+  document.getElementById('dsJimatVal').textContent = jimat.toFixed(2);
+  document.getElementById('dsFinal').textContent = fmt(selepas * q);
+  document.getElementById('dsFinalQty').textContent = q;
+}
+['dsHarga','dsDiskaun','dsKuantiti'].forEach(function(id){var el=document.getElementById(id);if(el){el.addEventListener('input',calc);el.addEventListener('change',calc);}});
+calc();
+</script>
+</Layout>

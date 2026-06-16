@@ -62,6 +62,89 @@ export const headerData = {
           text: 'Zakat',
           href: getPermalink('/kalkulator/zakat'),
         },
+        { text: '---', href: '#' },
+        {
+          text: 'Duti Setem Hartanah',
+          href: '/kalkulator/stamp-duty/',
+        },
+        {
+          text: 'Yuran Guaman',
+          href: '/kalkulator/legal-fees/',
+        },
+        {
+          text: 'Refinancing',
+          href: '/kalkulator/refinance/',
+        },
+        { text: '---', href: '#' },
+        {
+          text: 'Diskaun',
+          href: '/kalkulator/diskaun/',
+        },
+        {
+          text: 'Bahagi Bil & Tip',
+          href: '/kalkulator/bahagi-bil/',
+        },
+        {
+          text: 'Penukar Wang',
+          href: '/kalkulator/currency-converter/',
+        },
+        { text: '---', href: '#' },
+        {
+          text: 'Cukai Jalan',
+          href: '/kalkulator/cukai-jalan/',
+        },
+        {
+          text: 'Kos Minyak',
+          href: '/kalkulator/kos-minyak/',
+        },
+        { text: '---', href: '#' },
+        {
+          text: 'Umur',
+          href: '/kalkulator/umur/',
+        },
+        {
+          text: 'Beza Tarikh',
+          href: '/kalkulator/beza-tarikh/',
+        },
+        {
+          text: 'Penukar Unit',
+          href: '/kalkulator/unit-converter/',
+        },
+        { text: '---', href: '#' },
+        {
+          text: 'Compound Interest',
+          href: '/kalkulator/interest-compound/',
+        },
+        { text: '---', href: '#' },
+        {
+          text: 'Zakat Simpanan',
+          href: '/kalkulator/zakat-simpanan/',
+        },
+        {
+          text: 'Zakat Emas',
+          href: '/kalkulator/zakat-emas/',
+        },
+        {
+          text: 'Zakat Fitrah',
+          href: '/kalkulator/zakat-fitrah/',
+        },
+        { text: '---', href: '#' },
+        {
+          text: 'BMI / Body Mass Index',
+          href: '/kalkulator/bmi/',
+        },
+        {
+          text: 'BMR & Kalori Harian',
+          href: '/kalkulator/bmr/',
+        },
+        {
+          text: 'Berat Badan Ideal',
+          href: '/kalkulator/berat-ideal/',
+        },
+        {
+          text: 'Tarikh Bersalin (Due Date)',
+          href: '/kalkulator/tarikh-bersalin/',
+        },
       ],
     },
     {
@@ -105,6 +188,15 @@ export const footerData = {
         { text: 'Kereta', href: getPermalink('/kalkulator/kereta') },
         { text: 'Loan Rumah', href: getPermalink('/kalkulator/loan-rumah') },
         { text: 'Zakat', href: getPermalink('/kalkulator/zakat') },
+        { text: '---', href: '#' },
+        { text: 'Duti Setem', href: '/kalkulator/stamp-duty/' },
+        { text: 'Yuran Guaman', href: '/kalkulator/legal-fees/' },
+        { text: 'Refinancing', href: '/kalkulator/refinance/' },
+        { text: '---', href: '#' },
+        { text: 'BMI', href: '/kalkulator/bmi/' },
+        { text: 'BMR & Kalori', href: '/kalkulator/bmr/' },
+        { text: 'Berat Ideal', href: '/kalkulator/berat-ideal/' },
+        { text: 'Due Date', href: '/kalkulator/tarikh-bersalin/' },
       ],
     },
     {

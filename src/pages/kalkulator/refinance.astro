@@ -1,0 +1,269 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator Refinancing Rumah — Bandingkan Pinjaman | RakyatHub',
+  description: 'Bandingkan pinjaman rumah sedia ada vs refinancing. Kira ansuran baru, jumlah interest, kos refinancing, dan tempuh pulang modal.',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator Refinancing Rumah
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-8">
+      Bandingkan pinjaman rumah sedia ada dengan refinancing. Kira ansuran, jumlah interest, kos refinancing, dan tempoh pulang modal.
+    </p>
+
+    <!-- Calculator Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h3 class="font-bold text-lg mb-4">📋 Pinjaman Sedia Ada</h3>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div>
+          <label for="rfBaki" class="block text-sm font-semibold text-default mb-1.5">Baki Pinjaman (RM)</label>
+          <input type="number" id="rfBaki" value="250000" min="0" step="10000"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="rfRateLama" class="block text-sm font-semibold text-default mb-1.5">Kadar Semasa (%)</label>
+          <input type="number" id="rfRateLama" value="5.25" min="0" max="20" step="0.05"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="rfBakiTempoh" class="block text-sm font-semibold text-default mb-1.5">Baki Tempoh (tahun)</label>
+          <input type="number" id="rfBakiTempoh" value="25" min="1" max="40"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+      </div>
+
+      <h3 class="font-bold text-lg mb-4 mt-6">🔄 Refinancing Baru</h3>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div>
+          <label for="rfRateBaru" class="block text-sm font-semibold text-default mb-1.5">Kadar Baru (%)</label>
+          <input type="number" id="rfRateBaru" value="4.50" min="0" max="20" step="0.05"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="rfTempohBaru" class="block text-sm font-semibold text-default mb-1.5">Tempoh Baru (tahun)</label>
+          <input type="number" id="rfTempohBaru" value="30" min="1" max="40"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="rfKos" class="block text-sm font-semibold text-default mb-1.5">Kos Refinancing (RM)</label>
+          <input type="number" id="rfKos" value="8000" min="0" step="500"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+          <p class="text-[10px] text-muted mt-1">*Guaman + duti setem + valuation</p>
+        </div>
+      </div>
+
+      <!-- Results Grid -->
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Ansuran Lama</p>
+          <p class="text-lg font-bold text-amber-700" id="rfBayaranLama">RM 0</p>
+          <p class="text-[10px] text-muted setiap bulan</p>
+        </div>
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Ansuran Baru</p>
+          <p class="text-lg font-bold text-default" id="rfBayaranBaru">RM 0</p>
+          <p class="text-[10px] text-muted setiap bulan</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Simpanan Bulanan</p>
+          <p class="text-lg font-bold text-emerald-700" id="rfSimpanan">RM 0</p>
+          <p class="text-[10px] text-muted"><span id="rfSimpananPct">0</span>% lebih murah</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Pulang Modal</p>
+          <p class="text-lg font-bold text-primary" id="rfBreakEven">—</p>
+          <p class="text-[10px] text-muted" id="rfBreakEvenNote">bulan</p>
+        </div>
+      </div>
+
+      <!-- Total Interest Comparison -->
+      <div class="mt-4 grid grid-cols-2 gap-3">
+        <div class="rounded-xl bg-red-50 dark:bg-red-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Interest (Lama)</p>
+          <p class="text-lg font-bold text-red-700" id="rfInterestLama">RM 0</p>
+          <p class="text-[10px] text-muted">atas baki tempoh</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Interest (Baru)</p>
+          <p class="text-lg font-bold text-emerald-700" id="rfInterestBaru">RM 0</p>
+          <p class="text-[10px] text-muted">atas tempoh baru</p>
+        </div>
+      </div>
+
+      <!-- Summary -->
+      <div class="mt-4 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-sm text-muted" id="rfVerdictLabel">Simpanan Bulanan</p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="rfVerdict">RM 0 / bulan</p>
+        <p class="text-xs text-muted mt-1" id="rfVerdictNote">*Selepas ditolak kos refinancing, pulang modal dalam masa tertentu.</p>
+      </div>
+    </div>
+
+    <!-- Cara Kira -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📊 Cara Kira Refinancing</h2>
+      <p class="text-muted text-sm mb-3">
+        Refinancing bermaksud menggantikan pinjaman rumah sedia ada dengan pinjaman baru pada kadar interest lebih rendah. Tujuannya untuk:
+      </p>
+      <ul class="text-muted text-sm space-y-1 mb-3">
+        <li>• ✅ Kurangkan ansuran bulanan (kadar lebih rendah)</li>
+        <li>• ✅ Kurangkan jumlah interest dibayar</li>
+        <li>• ✅ Dapatkan cash-out (jika nilai hartanah naik)</li>
+        <li>• ❌ Tapi kena bayar kos refinancing (guaman, duti setem, valuation)</li>
+      </ul>
+      <p class="text-muted text-sm">
+        <strong>Pulang Modal (Break-Even):</strong> Kos refinancing ÷ Simpanan Bulanan = Bilangan bulan untuk mula untung.
+        Contoh: Kos RM8,000 ÷ Simpanan RM150/bln = 53 bulan (4.4 tahun).
+      </p>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">💰 Bila Refinancing Berbaloi?</h3>
+        <p class="text-muted text-sm">Bila kadar baru rendah 0.5%–1% dari kadar sedia ada. Tempoh pulang modal kurang dari 3–4 tahun. Atau nak tukar dari floating ke fixed rate untuk kestabilan.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">📋 Kos Refinancing</h3>
+        <p class="text-muted text-sm">Yuran guaman (S&P + pinjaman) ~1–2% dari loan. Duti setem MOT RM~RM10k ikut harga. Valuation ~RM500–RM2,000. Total biasanya RM5k–RM15k bergantung pada jumlah loan.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">⚠️ Jangan Sambung Tempoh</h3>
+        <p class="text-muted text-sm">Refinancing dengan tempoh lebih panjang kurangkan ansuran bulanan tapi jumlah interest dibayar mungkin lebih tinggi. Guna kalkulator ni untuk buat perbandingan tepat sebelum buat keputusan.</p>
+      </div>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
+      <strong>⚠️ Penafian:</strong> Anggaran sahaja berdasarkan kadar interest semasa dan anggaran kos refinancing. Kadar sebenar dan kelulusan tertakluk kepada bank masing-masing. Rujuk bank atau perunding kewangan untuk nasihat lanjut.
+      <br /><em>Sumber: BNM — banknegara.gov.my</em>
+    </div>
+
+    <!-- Related -->
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">📚 Alat Hartanah Lain</h3>
+      <ul class="space-y-2">
+        <li>
+          <a href="/kalkulator/stamp-duty/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Duti Setem Hartanah</a>
+        </li>
+        <li>
+          <a href="/kalkulator/legal-fees/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Guaman Beli Rumah</a>
+        </li>
+        <li>
+          <a href="/kalkulator/loan-rumah/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Loan Rumah</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction
+    actions={[
+      { variant: 'primary', text: 'Kira Duti Setem', href: '/kalkulator/stamp-duty' },
+      { variant: 'secondary', text: 'Kira Yuran Guaman', href: '/kalkulator/legal-fees' },
+    ]}
+  >
+    <Fragment slot="title">Nak tahu kos penuh beli rumah?</Fragment>
+    <Fragment slot="subtitle">Guna kalkulator duti setem & yuran guaman kami.</Fragment>
+  </CallToAction>
+
+  <script is:inline>
+// Refinancing Calculator — Compare existing vs new loan
+// Formula: Standard amortization (reducing balance)
+// Source: src/utils/calculators/hartanah.ts
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:0,maximumFractionDigits:0}) : '0'); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
+
+function kiraAnsuran(loan, ratePct, years) {
+  if (loan <= 0 || years <= 0) return { monthly: 0, totalPayment: 0, totalInterest: 0 };
+  var mr = (ratePct / 100) / 12;
+  var n = years * 12;
+  if (mr === 0) {
+    var m = Math.round(loan / n);
+    return { monthly: m, totalPayment: m * n, totalInterest: 0 };
+  }
+  var factor = Math.pow(1 + mr, n);
+  var monthly = Math.round(loan * (mr * factor) / (factor - 1));
+  var totalPayment = monthly * n;
+  return { monthly: monthly, totalPayment: totalPayment, totalInterest: Math.round(totalPayment - loan) };
+}
+
+function calc() {
+  var baki = sn(document.getElementById('rfBaki').value, 250000);
+  var rateLama = sn(document.getElementById('rfRateLama').value, 5.25);
+  var bakiTempoh = sn(document.getElementById('rfBakiTempoh').value, 25);
+  var rateBaru = sn(document.getElementById('rfRateBaru').value, 4.50);
+  var tempohBaru = sn(document.getElementById('rfTempohBaru').value, 30);
+  var kos = sn(document.getElementById('rfKos').value, 8000);
+
+  if (baki === 0) {
+    ['rfBayaranLama','rfBayaranBaru','rfSimpanan','rfInterestLama','rfInterestBaru'].forEach(function(id){
+      document.getElementById(id).textContent = 'RM 0';
+    });
+    document.getElementById('rfBreakEven').textContent = '—';
+    document.getElementById('rfVerdict').textContent = 'Masukkan nilai';
+    return;
+  }
+
+  var lama = kiraAnsuran(baki, rateLama, bakiTempoh);
+  var baru = kiraAnsuran(baki, rateBaru, tempohBaru);
+
+  document.getElementById('rfBayaranLama').textContent = fmt(lama.monthly);
+  document.getElementById('rfBayaranBaru').textContent = fmt(baru.monthly);
+  document.getElementById('rfInterestLama').textContent = fmt(lama.totalInterest);
+  document.getElementById('rfInterestBaru').textContent = fmt(baru.totalInterest);
+
+  var simpanan = lama.monthly - baru.monthly;
+  var simpananPct = lama.monthly > 0 ? Math.round((simpanan / lama.monthly) * 100) : 0;
+
+  document.getElementById('rfSimpanan').textContent = fmt(simpanan);
+  document.getElementById('rfSimpanan').className = 'text-lg font-bold ' + (simpanan > 0 ? 'text-emerald-700' : 'text-red-700');
+  document.getElementById('rfSimpananPct').textContent = simpananPct;
+
+  // Break-even
+  if (simpanan > 0) {
+    var beMonths = Math.ceil(kos / simpanan);
+    var beYears = Math.floor(beMonths / 12);
+    var beRemMonths = beMonths % 12;
+    document.getElementById('rfBreakEven').textContent = beMonths + ' bulan';
+    document.getElementById('rfBreakEvenNote').textContent = beYears + ' tahun ' + beRemMonths + ' bulan';
+    document.getElementById('rfVerdict').textContent = fmt(simpanan) + ' / bulan';
+    document.getElementById('rfVerdictLabel').textContent = 'Simpanan Bulanan — Pulang Modal ' + beMonths + ' bulan';
+
+    if (beMonths <= 36) {
+      document.getElementById('rfVerdictNote').textContent = '✅ Berbaloi! Pulang modal kurang dari 3 tahun.';
+    } else if (beMonths <= 60) {
+      document.getElementById('rfVerdictNote').textContent = '⚠️ Sederhana — pulang modal ' + beYears + '-' + (beYears+1) + ' tahun. Pastikan anda duduk rumah lama.';
+    } else {
+      document.getElementById('rfVerdictNote').textContent = '❌ Mungkin tak berbaloi — pulang modal lebih 5 tahun. Pertimbangkan semula.';
+    }
+  } else if (simpanan === 0) {
+    document.getElementById('rfBreakEven').textContent = '—';
+    document.getElementById('rfBreakEvenNote').textContent = 'Ansuran sama';
+    document.getElementById('rfVerdict').textContent = 'RM 0 / bulan';
+    document.getElementById('rfVerdictLabel').textContent = 'Tiada Simpanan';
+    document.getElementById('rfVerdictNote').textContent = 'Kadar baru tidak memberi penjimatan. Cuba kadar lebih rendah.';
+  } else {
+    document.getElementById('rfBreakEven').textContent = '—';
+    document.getElementById('rfBreakEvenNote').textContent = 'Ansuran lebih tinggi';
+    document.getElementById('rfVerdict').textContent = fmt(Math.abs(simpanan)) + ' / bulan';
+    document.getElementById('rfVerdictLabel').textContent = '❌ Ansuran Baru Lebih Tinggi';
+    document.getElementById('rfVerdictNote').textContent = 'Kadar baru lebih tinggi dari sedia ada. Jangan refinance.';
+  }
+}
+
+['rfBaki','rfRateLama','rfBakiTempoh','rfRateBaru','rfTempohBaru','rfKos'].forEach(function(id){
+  var el = document.getElementById(id);
+  if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
+});
+calc();
+</script>
+</Layout>

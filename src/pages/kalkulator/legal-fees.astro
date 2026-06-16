@@ -1,0 +1,282 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator Yuran Guaman & Kos Beli Rumah Malaysia | RakyatHub',
+  description: 'Kira yuran guaman S&P dan perjanjian pinjaman rumah. Kadar peguam ikut Solicitors Remuneration Order 2023. Percuma.',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator Yuran Guaman & Kos Pembelian Rumah
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-8">
+      Kira yuran guaman S&P, yuran guaman pinjaman, disbursement, dan jumlah kos guaman untuk beli rumah. Kadar Solicitors Remuneration Order 2023.
+    </p>
+
+    <!-- Calculator Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="lgHarga" class="block text-sm font-semibold text-default mb-1.5">Harga Hartanah (RM)</label>
+          <input type="number" id="lgHarga" value="500000" min="0" step="10000"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="lgLoanPct" class="block text-sm font-semibold text-default mb-1.5">Peratus Pinjaman (%)</label>
+          <select id="lgLoanPct"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="90">90% (Standard rumah pertama)</option>
+            <option value="85">85%</option>
+            <option value="80">80%</option>
+            <option value="75">75%</option>
+            <option value="70">70%</option>
+            <option value="0">100% Tunai</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Yuran S&P</p>
+          <p class="text-lg font-bold text-default" id="lgSp">RM 5,000</p>
+          <p class="text-[10px] text-muted">1%–0.5% kadar skala</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Yuran Pinjaman</p>
+          <p class="text-lg font-bold text-amber-700" id="lgLoan">RM 0</p>
+          <p class="text-[10px] text-muted">Kadar skala atas loan</p>
+        </div>
+        <div class="rounded-xl bg-sky-50 dark:bg-sky-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Disbursements</p>
+          <p class="text-lg font-bold text-sky-700" id="lgDisb">RM 550</p>
+          <p class="text-[10px] text-muted">Carrian + pendaftaran</p>
+        </div>
+        <div class="rounded-xl bg-primary/10 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Jumlah Guaman</p>
+          <p class="text-lg font-bold text-primary" id="lgTotal">RM 5,550</p>
+          <p class="text-[10px] text-muted">S&P + Loan + Disbursement</p>
+        </div>
+      </div>
+
+      <!-- Summary -->
+      <div class="mt-4 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-sm text-muted">Anggaran kos guaman untuk hartanah <strong id="lgHargaLabel">RM 500,000</strong></p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="lgKesimpulan">RM 5,550</p>
+        <p class="text-xs text-muted mt-1">*Belum termasuk duti setem. Lihat kalkulator duti setem untuk jumlah lengkap.</p>
+      </div>
+
+      <!-- Breakdown -->
+      <div class="mt-4 text-center">
+        <button id="lgBtnBreakdown" class="text-sm text-primary font-medium hover:underline" onclick="toggleBreakdown()">
+          📋 Lihat Breakdown Lengkap ▼
+        </button>
+      </div>
+      <div id="lgBreakdown" class="mt-4 hidden">
+        <div class="rounded-xl bg-gray-50 dark:bg-slate-800/50 p-4 md:p-6 text-sm space-y-3">
+          <div>
+            <h4 class="font-bold mb-2">📝 Yuran S&P (Skala — Harga Hartanah)</h4>
+            <div id="lgSpBreakdown"></div>
+          </div>
+          <div class="border-t border-gray-200 dark:border-slate-700 pt-2">
+            <h4 class="font-bold mb-2">📝 Yuran Perjanjian Pinjaman (Skala — Jumlah Loan)</h4>
+            <div id="lgLoanBreakdown"></div>
+          </div>
+          <div class="border-t border-gray-200 dark:border-slate-700 pt-2">
+            <div class="flex justify-between"><span>Carrian Tanah</span><span class="font-semibold">RM 60</span></div>
+            <div class="flex justify-between"><span>Pendaftaran Pemindahan</span><span class="font-semibold">RM 100</span></div>
+            <div class="flex justify-between"><span>Carrian Kebankrapan</span><span class="font-semibold">RM 30</span></div>
+            <div class="flex justify-between"><span>Fotokopi</span><span class="font-semibold">RM 60</span></div>
+            <div class="flex justify-between"><span>Lain-lain</span><span class="font-semibold">RM 300</span></div>
+            <div class="flex justify-between border-t border-gray-200 dark:border-slate-700 pt-2 mt-2"><span class="font-bold">Jumlah Kos Guaman</span><span class="font-bold text-primary" id="lgTotalDetail">RM 5,550</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cara Kira -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📊 Cara Kira Yuran Guaman</h2>
+      <p class="text-muted text-sm mb-3"><strong>Kadar Skala Peguam (Solicitors' Remuneration Order 2023):</strong></p>
+      <div class="overflow-x-auto mb-3">
+        <table class="w-full text-xs">
+          <thead><tr class="border-b border-gray-100 dark:border-slate-700"><th class="text-left py-2">Nilai (RM)</th><th class="text-left py-2">Kadar</th></tr></thead>
+          <tbody>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2">500,000 pertama</td><td>1.0%</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2">500,001 – 1,000,000</td><td>0.8%</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2">1,000,001 – 3,000,000</td><td>0.7%</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2">3,000,001 – 5,000,000</td><td>0.6%</td></tr>
+            <tr><td class="py-2">5,000,001 – 7,500,000</td><td>0.5%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-muted text-sm">
+        Kadar yang sama dikenakan untuk yuran S&P (atas harga hartanah) dan yuran perjanjian pinjaman (atas jumlah loan).
+        <strong>Disbursement</strong> (carrian tanah, pendaftaran, dll) kira-kira RM500–RM1,500 bergantung pada lokasi dan kerumitan.
+      </p>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">✍️ Yuran S&P</h3>
+        <p class="text-muted text-sm">Yuran peguam untuk urusan Sale & Purchase Agreement — kontrak antara pembeli dan pemaju/penjual. Bayaran sekali sahaja semasa S&P ditandatangani.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🏦 Yuran Pinjaman</h3>
+        <p class="text-muted text-sm">Yuran peguam untuk urusan Perjanjian Pinjaman — kontrak antara pembeli dan bank. Dikenakan atas jumlah loan yang diluluskan. Kadar sama dengan skala S&P.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">📋 Disbursements</h3>
+        <p class="text-muted text-sm">Kos sampingan seperti carrian tanah, pendaftaran hak milik, carrian kebankrapan, dan pengangkutan. Boleh naik jika hartanah di luar bandar atau urusan kompleks.</p>
+      </div>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
+      <strong>⚠️ Penafian:</strong> Anggaran sahaja berdasarkan Solicitors' Remuneration Order 2023. Yuran sebenar mungkin berbeza bergantung pada lokasi, kerumitan kes, dan peguam masing-masing. Dapatkan sebut harga daripada peguam sebelum melantik.
+      <br /><em>Sumber: Solicitors' Remuneration Order 2023 — PU(A) 33/2023</em>
+    </div>
+
+    <!-- Related -->
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">📚 Alat Hartanah Lain</h3>
+      <ul class="space-y-2">
+        <li>
+          <a href="/kalkulator/stamp-duty/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Duti Setem Hartanah</a>
+        </li>
+        <li>
+          <a href="/kalkulator/refinance/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Refinancing Rumah</a>
+        </li>
+        <li>
+          <a href="/kalkulator/loan-rumah/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Loan Rumah</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction
+    actions={[
+      { variant: 'primary', text: 'Kira Duti Setem', href: '/kalkulator/stamp-duty' },
+      { variant: 'secondary', text: 'Refinancing', href: '/kalkulator/refinance' },
+    ]}
+  >
+    <Fragment slot="title">Nak kira jumlah duti setem?</Fragment>
+    <Fragment slot="subtitle">Guna kalkulator duti setem & refinancing kami.</Fragment>
+  </CallToAction>
+
+  <script is:inline>
+// Legal Fees Calculator — Solicitors' Remuneration Order 2023 scale rates
+// Source: src/utils/calculators/config/hartanah.ts | PU(A) 33/2023
+function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY') : '0'); }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
+
+function kiraYuranSkala(amount) {
+  var tiers = [
+    { max: 500000, rate: 0.01, label: 'RM500,000 pertama (1%)' },
+    { max: 1000000, rate: 0.008, label: 'RM500,001–RM1,000,000 (0.8%)' },
+    { max: 3000000, rate: 0.007, label: 'RM1,000,001–RM3,000,000 (0.7%)' },
+    { max: 5000000, rate: 0.006, label: 'RM3,000,001–RM5,000,000 (0.6%)' },
+    { max: 7500000, rate: 0.005, label: 'RM5,000,001–RM7,500,000 (0.5%)' },
+    { max: Infinity, rate: 0.005, label: 'RM7,500,001 ke atas (maks 0.5%)' },
+  ];
+  var remaining = amount;
+  var results = [];
+  var total = 0;
+  var prevMax = 0;
+
+  tiers.forEach(function(tier) {
+    var bracket = Math.max(0, Math.min(remaining, tier.max - prevMax));
+    if (bracket <= 0) return;
+    var fee = Math.round(bracket * tier.rate);
+    results.push({ label: tier.label, bracket: bracket, fee: fee });
+    total += fee;
+    remaining -= bracket;
+    prevMax = tier.max;
+  });
+
+  return { results: results, total: total };
+}
+
+function toggleBreakdown() {
+  var el = document.getElementById('lgBreakdown');
+  var btn = document.getElementById('lgBtnBreakdown');
+  el.classList.toggle('hidden');
+  btn.textContent = el.classList.contains('hidden') ? '📋 Lihat Breakdown Lengkap ▼' : '📋 Sembunyikan Breakdown ▲';
+}
+
+function calc() {
+  var harga = sn(document.getElementById('lgHarga').value, 500000);
+  var loanPct = parseInt(document.getElementById('lgLoanPct').value) || 90;
+  var loanAmount = Math.round(harga * loanPct / 100);
+
+  if (harga === 0) {
+    ['lgSp','lgLoan','lgDisb','lgTotal','lgTotalDetail'].forEach(function(id){
+      document.getElementById(id).textContent = 'RM 0';
+    });
+    document.getElementById('lgKesimpulan').textContent = 'Sila masukkan harga';
+    return;
+  }
+
+  var spResult = kiraYuranSkala(harga);
+  var loanResult = loanAmount > 0 ? kiraYuranSkala(loanAmount) : { results: [], total: 0 };
+  var disb = 550; // standard estimated disbursements
+
+  document.getElementById('lgSp').textContent = fmt(spResult.total);
+  document.getElementById('lgLoan').textContent = fmt(loanResult.total);
+  document.getElementById('lgDisb').textContent = fmt(disb);
+
+  var grandTotal = spResult.total + loanResult.total + disb;
+  document.getElementById('lgTotal').textContent = fmt(grandTotal);
+  document.getElementById('lgTotalDetail').textContent = fmt(grandTotal);
+  document.getElementById('lgHargaLabel').textContent = 'RM ' + harga.toLocaleString();
+  document.getElementById('lgKesimpulan').textContent = fmt(grandTotal);
+
+  // S&P breakdown
+  var spBd = document.getElementById('lgSpBreakdown');
+  spBd.textContent = '';
+  spResult.results.forEach(function(r) {
+    var row = document.createElement('div');
+    row.className = 'flex justify-between py-1 text-xs';
+    row.innerHTML = '<span>' + r.label + ': RM ' + r.bracket.toLocaleString() + '</span><span class="font-semibold">' + fmt(r.fee) + '</span>';
+    spBd.appendChild(row);
+  });
+  var spTotal = document.createElement('div');
+  spTotal.className = 'flex justify-between border-t border-gray-200 dark:border-slate-700 pt-2 mt-1 text-xs font-bold';
+  spTotal.innerHTML = '<span>Jumlah Yuran S&P</span><span>' + fmt(spResult.total) + '</span>';
+  spBd.appendChild(spTotal);
+
+  // Loan breakdown
+  var loanBd = document.getElementById('lgLoanBreakdown');
+  loanBd.textContent = '';
+  if (loanResult.total > 0) {
+    loanResult.results.forEach(function(r) {
+      var row = document.createElement('div');
+      row.className = 'flex justify-between py-1 text-xs';
+      row.innerHTML = '<span>' + r.label + ': RM ' + r.bracket.toLocaleString() + '</span><span class="font-semibold">' + fmt(r.fee) + '</span>';
+      loanBd.appendChild(row);
+    });
+    var loanTotal = document.createElement('div');
+    loanTotal.className = 'flex justify-between border-t border-gray-200 dark:border-slate-700 pt-2 mt-1 text-xs font-bold';
+    loanTotal.innerHTML = '<span>Jumlah Yuran Pinjaman</span><span>' + fmt(loanResult.total) + '</span>';
+    loanBd.appendChild(loanTotal);
+  } else {
+    loanBd.textContent = 'Tiada pinjaman (tunai)';
+  }
+}
+
+['lgHarga','lgLoanPct'].forEach(function(id){
+  var el = document.getElementById(id);
+  if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
+});
+calc();
+</script>
+</Layout>
