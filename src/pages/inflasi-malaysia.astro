@@ -145,6 +145,7 @@ const metadata = {
     <div id="cpi-result" class="rounded-xl bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-950/20 dark:to-indigo-950/20 border border-blue-100 dark:border-blue-800/30 p-4 text-center hidden">
       <p class="text-sm text-muted/70" id="cpi-result-text"></p>
       <p class="text-2xl font-bold text-indigo-700 dark:text-indigo-300 mt-1" id="cpi-result-value"></p>
+      <p class="text-xs text-muted/50 mt-1.5" id="cpi-result-sub"></p>
     </div>
   </div>
 
@@ -180,8 +181,10 @@ function calcCPI() {
     var value = pp[year];
     if (!value) { resultEl.classList.add('hidden'); return; }
     var todayValue = (amount * value / 100).toFixed(2);
-    textEl.textContent = 'RM' + amount.toFixed(0) + ' pada tahun ' + year + ' nilainya hari ini:';
+    var originalCpi = (amount * 100 / value).toFixed(0);
+    textEl.textContent = 'Kuasa beli RM' + amount.toFixed(0) + ' tahun ' + year + ' hari ini tinggal:';
     valueEl.textContent = 'RM' + todayValue;
+    document.getElementById('cpi-result-sub').textContent = 'Barang dulu RM' + amount.toFixed(0) + ', sekarang RM' + originalCpi;
     resultEl.classList.remove('hidden');
   } catch(e) { resultEl.classList.add('hidden'); }
 }
