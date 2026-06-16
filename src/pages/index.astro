@@ -10,9 +10,11 @@ const foodItems = (foodData.items || []).slice(0, 20);
 const foodDate = foodData.latest_date || '';
 const foodTotal = foodData.total_records || 0;
 const foodCount = foodData.items_count || foodItems.length;
-function getInitial(n) {
+function getEmoji(n) {
   const u = (n||'').toUpperCase();
-  return u.charAt(0) || '?';
+  const MAP = { AYAM:'🍗', DAGING:'🥩', IKAN:'🐟', TELUR:'🥚', BERAS:'🍚', MINYAK:'🫙', GULA:'🧂', TEPUNG:'🌾', CILI:'🌶️', BAWANG:'🧅', HALIA:'🫚', KACANG:'🥜', KUBIS:'🥬', LOBAK:'🥕', TIMUN:'🥒', SANTAN:'🥥' };
+  for (const [k,v] of Object.entries(MAP)) if (u.includes(k)) return v;
+  return '🛒';
 }
 function slugify(n) { return (n||'').toLowerCase().replace(/[^a-z0-9\s-]/g,'').replace(/\s+/g,'-').replace(/-+/g,'-').trim(); }
 const foodWidget = foodItems.slice(0, 6);
@@ -85,7 +87,7 @@ const orgSchema = {
         {foodWidget.map(item => (
           <a href={`/harga-makanan/${slugify(item.name)}/`} class="flex items-center justify-between px-5 sm:px-7 py-3.5 sm:py-4 hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-all group">
             <div class="flex items-center gap-3 sm:gap-4 min-w-0">
-              <span class="text-lg sm:text-xl w-7 sm:w-8 text-center shrink-0">{getInitial(item.name||'')}</span>
+              <span class="text-xl w-8 text-center shrink-0 leading-none">{getEmoji(item.name||'')}</span>
               <div class="min-w-0">
                 <p class="text-sm sm:text-base font-semibold text-gray-900 dark:text-gray-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors truncate">{item.name}</p>
               </div>
@@ -153,17 +155,17 @@ const orgSchema = {
     </div>
     <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4">
       {[
-        { icon: 'K', name: 'KWSP', href: '/kalkulator/kwsp/', desc: 'Caruman & dividen', bg: 'from-blue-500 to-blue-600' },
-        { icon: 'A', name: 'ASB', href: '/kalkulator/asb/', desc: 'Dividen & bonus', bg: 'from-indigo-500 to-indigo-600' },
-        { icon: 'E', name: 'Emas', href: '/kalkulator/emas/', desc: 'Harga emas semasa', bg: 'from-amber-500 to-amber-600' },
-        { icon: 'K', name: 'Kereta', href: '/kalkulator/kereta/', desc: 'Ansuran bulanan', bg: 'from-cyan-500 to-cyan-600' },
-        { icon: 'R', name: 'Loan Rumah', href: '/kalkulator/loan-rumah/', desc: 'Kelayakan & ansuran', bg: 'from-teal-500 to-teal-600' },
-        { icon: 'G', name: 'Gaji Bersih', href: '/kalkulator/gaji-bersih/', desc: 'EPF + SOCSO + PCB', bg: 'from-emerald-500 to-emerald-600' },
-        { icon: 'D', name: 'Diskaun', href: '/kalkulator/diskaun/', desc: 'Harga selepas diskaun', bg: 'from-violet-500 to-violet-600' },
-        { icon: '+', name: 'Lagi Alat', href: '/kalkulator/', desc: '20+ kalkulator \u2192', bg: 'from-slate-500 to-slate-600' },
+        { icon: '\ud83c\udfe6', name: 'KWSP', href: '/kalkulator/kwsp/', desc: 'Caruman & dividen', bg: 'from-blue-500 to-blue-600' },
+        { icon: '\ud83d\udcc8', name: 'ASB', href: '/kalkulator/asb/', desc: 'Dividen & bonus', bg: 'from-indigo-500 to-indigo-600' },
+        { icon: '\ud83e\ude99', name: 'Emas', href: '/kalkulator/emas/', desc: 'Harga emas semasa', bg: 'from-amber-500 to-amber-600' },
+        { icon: '\ud83d\ude97', name: 'Kereta', href: '/kalkulator/kereta/', desc: 'Ansuran bulanan', bg: 'from-cyan-500 to-cyan-600' },
+        { icon: '\ud83c\udfe0', name: 'Loan Rumah', href: '/kalkulator/loan-rumah/', desc: 'Kelayakan & ansuran', bg: 'from-teal-500 to-teal-600' },
+        { icon: '\ud83d\udcb5', name: 'Gaji Bersih', href: '/kalkulator/gaji-bersih/', desc: 'EPF + SOCSO + PCB', bg: 'from-emerald-500 to-emerald-600' },
+        { icon: '\ud83c\udff7\ufe0f', name: 'Diskaun', href: '/kalkulator/diskaun/', desc: 'Harga selepas diskaun', bg: 'from-violet-500 to-violet-600' },
+        { icon: '\ud83e\uddee', name: 'Lagi Alat', href: '/kalkulator/', desc: '20+ kalkulator \u2192', bg: 'from-slate-500 to-slate-600' },
       ].map(calc => (
         <a href={calc.href} class="rounded-xl bg-white dark:bg-slate-800/80 border border-gray-100 dark:border-slate-700/50 p-4 sm:p-5 hover:border-blue-200 dark:hover:border-blue-800/50 hover:shadow-md transition-all hover:-translate-y-0.5 group">
-          <span class={`w-8 h-8 rounded-lg bg-gradient-to-br ${calc.bg} flex items-center justify-center text-white text-xs font-bold shadow-sm mb-2.5`}>{calc.icon}</span>
+          <span class={`w-10 h-10 rounded-xl bg-gradient-to-br ${calc.bg} flex items-center justify-center text-lg shadow-sm mb-3`}>{calc.icon}</span>
           <h3 class="text-sm sm:text-base font-bold text-gray-900 dark:text-gray-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">{calc.name}</h3>
           <p class="text-[11px] sm:text-xs text-gray-500 dark:text-gray-400 mt-0.5">{calc.desc}</p>
         </a>
@@ -212,7 +214,7 @@ const orgSchema = {
         { icon: '🩺', title: 'Quiz Kewangan', href: '/quiz-kesihatan-kewangan/', desc: 'Skor kesihatan' },
       ].map(a => (
         <a href={a.href} class="rounded-xl bg-white dark:bg-slate-800/80 border border-gray-100 dark:border-slate-700/50 p-4 hover:border-blue-200 dark:hover:border-blue-800/50 hover:shadow-md transition-all hover:-translate-y-0.5 group">
-          <span class="text-xl block mb-1.5">{a.icon}</span>
+          <span class="w-8 h-8 rounded-lg bg-gray-50 dark:bg-slate-700/50 flex items-center justify-center text-base mb-2">{a.icon}</span>
           <h3 class="text-xs sm:text-sm font-bold text-gray-900 dark:text-gray-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">{a.title}</h3>
           <p class="text-[10px] sm:text-xs text-gray-500 dark:text-gray-400 mt-0.5">{a.desc}</p>
         </a>
