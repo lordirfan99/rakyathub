@@ -71,8 +71,7 @@ const schema = {
       </div>
 
       <!-- Next payday -->
-      <div class="inline-block rounded-full bg-primary/10 text-primary text-sm font-medium px-5 py-2 mb-4">
-        🎯 Gaji seterusnya: <span id="nextPaydayDate" class="font-bold"></span>
+      <div class="inline-block rounded-full bg-primary/10 text-primary text-sm font-medium px-5 py-2 mb-4">Gaji seterusnya: <span id="nextPaydayDate" class="font-bold"></span>
       </div>
 
       <!-- Progress bar -->
@@ -131,7 +130,7 @@ const schema = {
 
     <!-- Info section -->
     <div class="rounded-2xl bg-gradient-to-br from-amber-50 to-orange-50 dark:from-slate-800 dark:to-slate-800 border border-amber-100 dark:border-slate-700 p-6 md:p-8 mb-8">
-      <h2 class="text-xl font-bold mb-4">📌 Kenapa Penting Tahu Bila Nak Gaji?</h2>
+      <h2 class="text-xl font-bold mb-4">Kenapa Penting Tahu Bila Nak Gaji?</h2>
       <div class="grid md:grid-cols-2 gap-4 text-sm">
         <div class="flex items-start gap-3">
           <span class="text-lg">📅</span>
@@ -154,7 +153,7 @@ const schema = {
 
     <!-- Related articles -->
     <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8 mb-8">
-      <h3 class="text-xl font-bold mb-4">📚 Artikel Popular</h3>
+      <h3 class="text-xl font-bold mb-4">Artikel Popular</h3>
       <ul class="space-y-2">
         <li><a href="/kalkulator/gaji-bersih/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Gaji Bersih Malaysia</a></li>
         <li><a href="/kalkulator/pcb-cukai-pendapatan/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator PCB & Cukai Pendapatan</a></li>
@@ -274,7 +273,7 @@ function copyShareLink() {
     navigator.clipboard.writeText(url).then(function() {
       var btn = event.target.closest('button');
       var orig = btn.innerHTML;
-      btn.innerHTML = '✅ Disalin!';
+      btn.innerHTML = 'Disalin!';
       setTimeout(function() { btn.innerHTML = orig; }, 2000);
     });
   }

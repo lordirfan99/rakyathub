@@ -104,11 +104,11 @@ const metadata = {
     <!-- Info Cards -->
     <div class="grid md:grid-cols-2 gap-6 mb-8">
       <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
-        <h3 class="font-semibold text-lg mb-2">💡 Tip Jimat Kahwin</h3>
+        <h3 class="font-semibold text-lg mb-2">Tip Jimat Kahwin</h3>
         <p class="text-muted text-sm">Kawal kos kahwin dengan: kurangkan guest list, DIY hiasan, gunaka pakej kahwin all-in-one, dan elakkan hutang untuk majlis.</p>
       </div>
       <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
-        <h3 class="font-semibold text-lg mb-2">📊 Purata Kos Kahwin Malaysia 2026</h3>
+        <h3 class="font-semibold text-lg mb-2">Purata Kos Kahwin Malaysia 2026</h3>
         <p class="text-muted text-sm">Sederhana: RM30K-RM50K | Besar: RM50K-RM100K | Mewah: RM100K+. Plan ikut kemampuan, jangan sampai berhutang lepas kahwin.</p>
       </div>
     </div>
@@ -157,11 +157,11 @@ function calc() {
   var shortEl = document.getElementById('hasilShortfall');
   var shortCard = document.getElementById('shortfallCard');
   if (diff >= 0) {
-    shortEl.textContent = '+ ' + fmt(diff) + ' ✅';
+    shortEl.textContent = '+ ' + fmt(diff) + ' ';
     shortEl.className = 'text-lg font-bold text-emerald-700';
     shortCard.className = 'rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center';
   } else {
-    shortEl.textContent = '- ' + fmt(Math.abs(diff)) + ' ⚠️';
+    shortEl.textContent = '- ' + fmt(Math.abs(diff)) + ' ';
     shortEl.className = 'text-lg font-bold text-red-600';
     shortCard.className = 'rounded-xl bg-red-50 dark:bg-red-900/20 p-4 text-center';
   }

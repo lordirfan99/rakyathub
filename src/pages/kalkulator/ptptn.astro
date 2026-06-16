@@ -86,14 +86,13 @@ const metadata = {
       </div>
 
       <!-- Diskaun Info -->
-      <div class="mt-4 p-4 rounded-xl bg-blue-50 dark:bg-blue-900/20 text-sm text-muted" id="diskaunInfo">
-        💡 <strong class="text-default">Diskaun:</strong> PTPTN 1% interest setahun. Diskaun 10% (1-12 bulan grad), 15% (bayar dalam tempoh), 20% (gred A).
+      <div class="mt-4 p-4 rounded-xl bg-blue-50 dark:bg-blue-900/20 text-sm text-muted" id="diskaunInfo"><strong class="text-default">Diskaun:</strong> PTPTN 1% interest setahun. Diskaun 10% (1-12 bulan grad), 15% (bayar dalam tempoh), 20% (gred A).
       </div>
     </div>
 
     <!-- Repayment Schedule -->
     <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
-      <h2 class="text-xl font-bold mb-4">📈 Jadual Pembayaran (Wajib)</h2>
+      <h2 class="text-xl font-bold mb-4">Jadual Pembayaran (Wajib)</h2>
       <div class="overflow-x-auto -mx-5 md:-mx-0">
         <div class="min-w-[500px] px-5 md:px-0">
           <table class="w-full text-sm">
@@ -114,7 +113,7 @@ const metadata = {
 
     <!-- DocuKilat CTA -->
     <div class="rounded-2xl bg-gradient-to-br from-primary/10 via-primary/[0.03] to-secondary/10 border border-primary/20 p-6 md:p-8 text-center mb-8">
-      <h3 class="text-xl md:text-2xl font-bold mb-2">📄 Nak Buat Surat Pengesahan?</h3>
+      <h3 class="text-xl md:text-2xl font-bold mb-2">Nak Buat Surat Pengesahan?</h3>
       <p class="text-muted mb-4">Guna DocuKilat untuk buat surat pengesahan pendapatan, resume, atau surat tawaran kerja — cepat dan professional.</p>
       <a href="/docukilat/"
         class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-primary/30 hover:scale-[1.02]">
@@ -128,7 +127,7 @@ const metadata = {
     <!-- Info Cards -->
     <div class="grid md:grid-cols-3 gap-6 mb-8">
       <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
-        <h3 class="font-semibold text-lg mb-2">💰 Diskaun PTPTN</h3>
+        <h3 class="font-semibold text-lg mb-2">Diskaun PTPTN</h3>
         <p class="text-muted text-sm">Bayar dalam 12 bulan grad → diskaun 10%. Bayar dalam tempoh → 15%. Gred A + bayar dalam tempoh → 20%. Lepas 12 bulan → tiada diskaun.</p>
       </div>
       <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
@@ -136,14 +135,14 @@ const metadata = {
         <p class="text-muted text-sm">PTPTN potong 2-15% dari gaji bulanan (mengikut kemampuan). Minimum RM20/bln. Boleh ubah jumlah ikut pendapatan semasa.</p>
       </div>
       <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
-        <h3 class="font-semibold text-lg mb-2">🔍 Cara Bayar</h3>
+        <h3 class="font-semibold text-lg mb-2">Cara Bayar</h3>
         <p class="text-muted text-sm">MyPTPTN portal, potongan gaji (HRD Corp/e-CP38), JomPAY, atau kaunter PTPTN. Boleh set auto-debit untuk elak lewat bayar.</p>
       </div>
     </div>
 
     <!-- Related -->
     <div class="rounded-2xl bg-gradient-to-br from-amber-50 to-orange-50 dark:from-slate-800 dark:to-slate-800 border border-amber-100 dark:border-slate-700 p-6 md:p-8 mb-8">
-      <h3 class="text-xl font-bold mb-4">📚 Artikel Berkaitan</h3>
+      <h3 class="text-xl font-bold mb-4">Artikel Berkaitan</h3>
       <ul class="space-y-2">
         <li>
           <a href="/pelepasan-cukai-malaysia-2026-panduan-lengkap-rebat-potongan/" class="text-primary font-medium hover:underline text-sm">
@@ -287,10 +286,10 @@ function calc() {
   // Diskaun info
   var info = document.getElementById('diskaunInfo');
   if (diskaun > 0) {
-    info.innerHTML = '💡 <strong class="text-default">Diskaun ' + (diskaun * 100) + '%:</strong> Baki asal <strong>' + fmtInt(baki) + '</strong> → selepas diskaun <strong>' + fmtInt(displayBaki) + '</strong>. Jimat ' + fmtInt(baki * diskaun) + '!';
+    info.innerHTML = '<strong class="text-default">Diskaun ' + (diskaun * 100) + '%:</strong> Baki asal <strong>' + fmtInt(baki) + '</strong> → selepas diskaun <strong>' + fmtInt(displayBaki) + '</strong>. Jimat ' + fmtInt(baki * diskaun) + '!';
     info.className = 'mt-4 p-4 rounded-xl bg-emerald-50 dark:bg-emerald-900/20 text-sm text-muted';
   } else {
-    info.innerHTML = '💡 <strong class="text-default">Tiada diskaun.</strong> PTPTN kadar interest 1% setahun atas baki berkurang. Bayar lebih untuk jimat interest.';
+    info.innerHTML = '<strong class="text-default">Tiada diskaun.</strong> PTPTN kadar interest 1% setahun atas baki berkurang. Bayar lebih untuk jimat interest.';
     info.className = 'mt-4 p-4 rounded-xl bg-blue-50 dark:bg-blue-900/20 text-sm text-muted';
   }
 

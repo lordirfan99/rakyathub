@@ -15,15 +15,14 @@ const metadata = {
       <a href="/kalkulator/" class="text-sm text-muted hover:text-primary transition-colors">← Kalkulator</a>
     </div>
 
-    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
-      🚗 Kalkulator Insurans Kereta Malaysia 2026
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">Kalkulator Insurans Kereta Malaysia 2026
     </h1>
     <p class="text-lg md:text-xl text-muted mb-8">
       Kira premium insurans kereta ikut jenis kenderaan, CC, NCD, dan lokasi. Bandingkan komprehensif vs 3rd party. Dapatkan anggaran segera.
     </p>
 
     <!-- Premium Calculator (reused component) -->
-    <InsuranceCalculator title="🛡️ Kira Premium Sekarang" />
+    <InsuranceCalculator title="Kira Premium Sekarang" />
 
     <!-- How It Works -->
     <div class="grid md:grid-cols-3 gap-6 my-10">
@@ -52,7 +51,7 @@ const metadata = {
 
     <!-- NCD Table -->
     <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
-      <h2 class="text-xl font-bold mb-4">📊 Jadual NCD (No Claim Discount)</h2>
+      <h2 class="text-xl font-bold mb-4">Jadual NCD (No Claim Discount)</h2>
       <div class="overflow-x-auto">
         <table class="w-full text-sm">
           <thead>
@@ -75,7 +74,7 @@ const metadata = {
 
     <!-- Comparison Table -->
     <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
-      <h2 class="text-xl font-bold mb-4">🆚 3rd Party vs Komprehensif — Mana Pilihan Tepat?</h2>
+      <h2 class="text-xl font-bold mb-4">3rd Party vs Komprehensif — Mana Pilihan Tepat?</h2>
       <div class="overflow-x-auto">
         <table class="w-full text-sm">
           <thead>
@@ -86,10 +85,10 @@ const metadata = {
             </tr>
           </thead>
           <tbody>
-            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2.5 px-2">Kerosakan Pihak Ketiga</td><td class="text-center py-2.5 px-2 text-emerald-600">✅</td><td class="text-center py-2.5 px-2 text-emerald-600">✅</td></tr>
-            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2.5 px-2">Kerosakan Kereta Sendiri</td><td class="text-center py-2.5 px-2 text-red-500">❌</td><td class="text-center py-2.5 px-2 text-emerald-600">✅</td></tr>
-            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2.5 px-2">Kecurian</td><td class="text-center py-2.5 px-2 text-red-500">❌</td><td class="text-center py-2.5 px-2 text-emerald-600">✅</td></tr>
-            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2.5 px-2">Kebakaran</td><td class="text-center py-2.5 px-2 text-red-500">❌</td><td class="text-center py-2.5 px-2 text-emerald-600">✅</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2.5 px-2">Kerosakan Pihak Ketiga</td><td class="text-center py-2.5 px-2 text-emerald-600"></td><td class="text-center py-2.5 px-2 text-emerald-600"></td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2.5 px-2">Kerosakan Kereta Sendiri</td><td class="text-center py-2.5 px-2 text-red-500"></td><td class="text-center py-2.5 px-2 text-emerald-600"></td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2.5 px-2">Kecurian</td><td class="text-center py-2.5 px-2 text-red-500"></td><td class="text-center py-2.5 px-2 text-emerald-600"></td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2.5 px-2">Kebakaran</td><td class="text-center py-2.5 px-2 text-red-500"></td><td class="text-center py-2.5 px-2 text-emerald-600"></td></tr>
             <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2.5 px-2">Banjir (add-on)</td><td class="text-center py-2.5 px-2 text-gray-400">Add-on</td><td class="text-center py-2.5 px-2 text-gray-400">Add-on</td></tr>
             <tr><td class="py-2.5 px-2 font-semibold">Premium</td><td class="text-center py-2.5 px-2 text-emerald-700 font-semibold">Paling murah</td><td class="text-center py-2.5 px-2 text-amber-700 font-semibold">Lebih mahal</td></tr>
           </tbody>
@@ -99,7 +98,7 @@ const metadata = {
 
     <!-- FAQ -->
     <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8 mb-8">
-      <h2 class="text-xl font-bold mb-4">❓ Soalan Lazim</h2>
+      <h2 class="text-xl font-bold mb-4">Soalan Lazim</h2>
       <div class="space-y-4 text-sm">
         <div><strong class="text-default">Berapa minimum premium insurans kereta?</strong><p class="text-muted mt-1">Insurans 3rd party untuk kereta kecil seperti Axia atau Myvi bermula dari RM150-300/tahun. Komprehensif bergantung pada nilai pasaran — Myvi RM70,000 boleh cecah RM1,200-1,800/tahun. Dengan NCD 55%, premium boleh turun separuh.</p></div>
         <div><strong class="text-default">Adakah NCD hilang kalau buat tuntutan?</strong><p class="text-muted mt-1">Ya. NCD akan reset ke 0% selepas tuntutan. Untuk tuntutan kecil bawah RM1,000, lebih jimat bayar sendiri daripada hilang NCD.</p></div>
