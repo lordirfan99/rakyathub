@@ -160,6 +160,10 @@ export const headerData = {
       href: getBlogPermalink(),
     },
     {
+      text: 'Harga Makanan',
+      href: getPermalink('/harga-makanan-hari-ini'),
+    },
+    {
       text: 'Alat Dokumen',
       href: 'https://docukilat.rakyathub.my',
     },

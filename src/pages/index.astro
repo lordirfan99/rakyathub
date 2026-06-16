@@ -61,6 +61,79 @@ const orgSchema = {
     subtitle="Guna kalkulator interaktif untuk kira simpanan KWSP, dividen ASB, harga emas, dan ansuran kereta."
   />
 
+  <!-- Harga Makanan Hari Ini Widget -->
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 py-6 md:py-8">
+    <div class="rounded-2xl border border-slate-200 dark:border-slate-700 overflow-hidden">
+      <div class="flex items-center justify-between px-5 py-4 bg-slate-50 dark:bg-slate-800/60 border-b border-slate-200 dark:border-slate-700">
+        <div class="flex items-center gap-3">
+          <span class="text-2xl">🛒</span>
+          <div>
+            <h2 class="font-bold text-base">Harga Makanan Hari Ini</h2>
+            <p class="text-xs text-muted">Data terkini • DOSM PriceCatcher</p>
+          </div>
+          <span class="inline-flex items-center gap-1 text-xs font-semibold text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 px-2 py-0.5 rounded-full">
+            <span class="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse"></span>
+            LANGSUNG
+          </span>
+        </div>
+        <a href="/harga-makanan-hari-ini/" class="text-sm font-semibold text-primary hover:underline flex items-center gap-1">
+          Semua Harga
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+        </a>
+      </div>
+      <div id="hp-prices" class="divide-y divide-slate-100 dark:divide-slate-800">
+        {[1,2,3,4,5].map(() => (
+          <div class="flex items-center justify-between px-5 py-3">
+            <div class="flex items-center gap-3">
+              <div class="w-7 h-7 bg-slate-100 dark:bg-slate-800 rounded-lg animate-pulse"></div>
+              <div class="h-4 bg-slate-100 dark:bg-slate-800 rounded w-32 animate-pulse"></div>
+            </div>
+            <div class="h-4 bg-slate-100 dark:bg-slate-800 rounded w-16 animate-pulse"></div>
+          </div>
+        ))}
+      </div>
+      <div class="px-5 py-3 bg-slate-50 dark:bg-slate-800/40 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+        <span id="hp-price-date" class="text-xs text-muted">Memuatkan...</span>
+        <a href="/harga-makanan-hari-ini/" class="text-xs font-semibold text-primary hover:underline">Cari termurah berdekatan anda →</a>
+      </div>
+    </div>
+  </section>
+  <script>
+    (async () => {
+      const PRIORITY = ['Ayam','Daging','Ikan','Telur','Beras','Minyak','Sayur'];
+      const EMOJI = { Ayam:'🐔',Daging:'🥩',Ikan:'🐟',Telur:'🥚',Beras:'🍚',Minyak:'🫙',Sayur:'🥬' };
+      function em(g='') { for (const [k,v] of Object.entries(EMOJI)) if (g.includes(k)) return v; return '🛒'; }
+      try {
+        const res = await fetch('/.netlify/functions/harga-makanan');
+        if (!res.ok) throw new Error('');
+        const d = await res.json();
+        const items = d.items || d.data || [];
+        if (!items.length) throw new Error('');
+        const seen = new Set(), picked = [];
+        for (const g of PRIORITY) {
+          const it = items.find(i => (i.item_group||i.category||'').includes(g) && !seen.has(i.item_group||i.category));
+          if (it) { picked.push(it); seen.add(it.item_group||it.category); }
+        }
+        for (const it of items) { if (picked.length >= 6) break; const g = it.item_group||it.category||''; if (!seen.has(g)) { picked.push(it); seen.add(g); } }
+        const avg = it => +(it.avg ?? it.avg_price ?? it.price ?? 0);
+        const unit = it => it.unit || '';
+        const dateLabel = d.date ? new Date(d.date).toLocaleDateString('ms-MY',{day:'numeric',month:'long',year:'numeric'}) : '';
+        document.getElementById('hp-price-date').textContent = dateLabel ? `Kemaskini: ${dateLabel}` : '';
+        document.getElementById('hp-prices').innerHTML = picked.map(it => `
+          <a href="/harga-makanan-hari-ini/" class="flex items-center justify-between px-5 py-3 hover:bg-slate-50 dark:hover:bg-slate-800/60 transition-colors group">
+            <div class="flex items-center gap-3">
+              <span class="text-xl w-7 text-center">${em(it.item_group||it.category||'')}</span>
+              <span class="font-medium text-sm group-hover:text-primary transition-colors">${it.item||it.name||''}</span>
+            </div>
+            <span class="font-bold text-primary">RM${avg(it).toFixed(2)}</span>
+          </a>`).join('');
+      } catch {
+        document.getElementById('hp-prices').innerHTML = `<div class="px-5 py-6 text-center"><a href="/harga-makanan-hari-ini/" class="text-sm text-primary font-semibold hover:underline">Semak harga makanan terkini →</a></div>`;
+        document.getElementById('hp-price-date').textContent = '';
+      }
+    })();
+  </script>
+
   <!-- Featured Articles — direct links for Google crawl depth -->
   <section class="max-w-6xl mx-auto px-4 sm:px-6 py-8 md:py-12">
     <h2 class="text-2xl md:text-3xl font-bold tracking-tight mb-6 text-center">
