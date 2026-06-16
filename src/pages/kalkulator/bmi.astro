@@ -1,0 +1,194 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Kalkulator BMI — Body Mass Index Malaysia | RakyatHub',
+  description: 'Kira BMI (Body Mass Index) dengan kategori WHO dan Asian. Ketahui berat badan ideal dan status kesihatan anda secara percuma.',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator BMI Malaysia
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-8">
+      Kira Body Mass Index (BMI) dan semak kategori berat badan — guna standard WHO dan Asian. Sesuai untuk dewasa Malaysia.
+    </p>
+
+    <!-- Calculator Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <label for="bmiBerat" class="block text-sm font-semibold text-default mb-1.5">Berat Badan (kg)</label>
+          <input type="number" id="bmiBerat" value="65" min="1" max="500" step="0.1"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="bmiTinggi" class="block text-sm font-semibold text-default mb-1.5">Tinggi (cm)</label>
+          <input type="number" id="bmiTinggi" value="170" min="50" max="300" step="0.5"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">BMI</p>
+          <p class="text-lg font-bold text-default" id="bmiNilai">22.5</p>
+        </div>
+        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">WHO</p>
+          <p class="text-lg font-bold text-emerald-700" id="bmiWho">Normal</p>
+        </div>
+        <div class="rounded-xl bg-indigo-50 dark:bg-indigo-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Asian</p>
+          <p class="text-lg font-bold text-indigo-700" id="bmiAsian">Normal</p>
+        </div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
+          <p class="text-xs text-muted uppercase tracking-wide">Berat Ideal</p>
+          <p class="text-lg font-bold text-amber-700" id="bmiIdeal">52.0 - 70.0 kg</p>
+        </div>
+      </div>
+
+      <!-- Summary Box -->
+      <div class="mt-4 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
+        <p class="text-sm text-muted" id="bmiLabel">BMI anda dalam kategori</p>
+        <p class="text-3xl md:text-4xl font-bold text-primary" id="bmiKesimpulan">Berat Normal (WHO)</p>
+        <p class="text-xs text-muted mt-1" id="bmiNote">*Risiko penyakit rendah. Kekalkan gaya hidup sihat.</p>
+      </div>
+
+      <!-- BMI Scale Visual -->
+      <div class="mt-5 p-4">
+        <p class="text-xs font-semibold text-muted mb-2 text-center">Skala BMI</p>
+        <div class="relative h-5 rounded-full overflow-hidden flex">
+          <div class="bg-blue-400 h-full" id="bmiBarUnder" style="width:18%"></div>
+          <div class="bg-green-400 h-full" id="bmiBarNormal" style="width:22%"></div>
+          <div class="bg-yellow-400 h-full" id="bmiBarOver" style="width:22%"></div>
+          <div class="bg-orange-400 h-full" id="bmiBarOb1" style="width:18%"></div>
+          <div class="bg-red-400 h-full" id="bmiBarOb2" style="width:12%"></div>
+          <div class="bg-red-700 h-full" id="bmiBarOb3" style="width:8%"></div>
+        </div>
+        <div class="flex justify-between text-[10px] text-muted mt-1">
+          <span>18.5</span><span>25</span><span>30</span><span>35</span><span>40</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📊 Cara Kira BMI</h2>
+      <p class="text-muted text-sm mb-3">Formula BMI: <strong>BMI = Berat (kg) ÷ [Tinggi (m)]²</strong></p>
+      <p class="text-muted text-sm mb-3">Contoh: Berat 65kg, Tinggi 170cm (1.7m) → BMI = 65 ÷ (1.7 × 1.7) = <strong>22.5</strong></p>
+      <p class="text-muted text-sm">BMI adalah indikator kasar lemak badan. Ia tidak mengambil kira jisim otot, kepadatan tulang, atau taburan lemak.</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6 mb-8">
+      <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5">
+        <h3 class="font-bold text-lg mb-3">🌍 Kategori WHO (Standard)</h3>
+        <table class="w-full text-xs">
+          <thead><tr class="border-b border-gray-100 dark:border-slate-700"><th class="text-left py-2">BMI</th><th class="text-left py-2">Kategori</th></tr></thead>
+          <tbody>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2 text-blue-500">&lt; 18.5</td><td>Kurang Berat</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2 text-green-500">18.5 – 24.9</td><td>Normal</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2 text-yellow-500">25.0 – 29.9</td><td>Berlebihan</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2 text-orange-500">30.0 – 34.9</td><td>Obesiti I</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2 text-red-500">35.0 – 39.9</td><td>Obesiti II</td></tr>
+            <tr><td class="py-2 text-red-700">≥ 40</td><td>Obesiti III</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5">
+        <h3 class="font-bold text-lg mb-3">🌏 Kategori Asian (WHO)</h3>
+        <table class="w-full text-xs">
+          <thead><tr class="border-b border-gray-100 dark:border-slate-700"><th class="text-left py-2">BMI</th><th class="text-left py-2">Kategori</th></tr></thead>
+          <tbody>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2 text-blue-500">&lt; 18.5</td><td>Kurang Berat</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2 text-green-500">18.5 – 22.9</td><td>Normal</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2 text-yellow-500">23.0 – 27.4</td><td>Berlebihan</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2 text-orange-500">27.5 – 32.4</td><td>Obesiti I</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2 text-red-500">32.5 – 37.4</td><td>Obesiti II</td></tr>
+            <tr><td class="py-2 text-red-700">≥ 37.5</td><td>Obesiti III</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
+      <strong>⚠️ Penafian:</strong> Anggaran sahaja. BMI adalah indikator kasar. Rujuk KKM atau doktor untuk penilaian.
+      <br /><em>Sumber: WHO — who.int/news-room/fact-sheets/detail/obesity-and-overweight</em>
+    </div>
+
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">📚 Alat Kesihatan Lain</h3>
+      <ul class="space-y-2">
+        <li><a href="/kalkulator/bmr/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator BMR & Kalori Harian</a></li>
+        <li><a href="/kalkulator/berat-ideal/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Berat Badan Ideal</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction actions={[
+    { variant: 'primary', text: 'Kira BMR & Kalori', href: '/kalkulator/bmr' },
+    { variant: 'secondary', text: 'Berat Ideal', href: '/kalkulator/berat-ideal' },
+  ]}>
+    <Fragment slot="title">Nak kira keperluan kalori harian?</Fragment>
+    <Fragment slot="subtitle">Guna kalkulator BMR percuma kami.</Fragment>
+  </CallToAction>
+
+  <script is:inline>
+function fmt(v) { return typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toFixed(1) : '0'; }
+function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
+function kiraKategoriWHO(bmi) {
+  if (bmi < 18.5) return { label: 'Kurang Berat', color: 'text-blue-500', bar: 'bmiBarUnder' };
+  if (bmi < 25) return { label: 'Normal', color: 'text-green-500', bar: 'bmiBarNormal' };
+  if (bmi < 30) return { label: 'Berlebihan', color: 'text-yellow-500', bar: 'bmiBarOver' };
+  if (bmi < 35) return { label: 'Obesiti I', color: 'text-orange-500', bar: 'bmiBarOb1' };
+  if (bmi < 40) return { label: 'Obesiti II', color: 'text-red-500', bar: 'bmiBarOb2' };
+  return { label: 'Obesiti III', color: 'text-red-700', bar: 'bmiBarOb3' };
+}
+function kiraKategoriAsian(bmi) {
+  if (bmi < 18.5) return { label: 'Kurang Berat', color: 'text-blue-500' };
+  if (bmi < 23) return { label: 'Normal', color: 'text-green-500' };
+  if (bmi < 27.5) return { label: 'Berlebihan', color: 'text-yellow-500' };
+  if (bmi < 32.5) return { label: 'Obesiti I', color: 'text-orange-500' };
+  if (bmi < 37.5) return { label: 'Obesiti II', color: 'text-red-500' };
+  return { label: 'Obesiti III', color: 'text-red-700' };
+}
+function calc() {
+  var w = sn(document.getElementById('bmiBerat').value, 65);
+  var h = sn(document.getElementById('bmiTinggi').value, 170);
+  if (w === 0 || h === 0) {
+    ['bmiNilai','bmiWho','bmiAsian','bmiIdeal'].forEach(function(id){document.getElementById(id).textContent='—'});
+    document.getElementById('bmiKesimpulan').textContent='Sila masukkan nilai';
+    document.getElementById('bmiLabel').textContent=''; return;
+  }
+  var hm = h / 100;
+  var bmi = w / (hm * hm);
+  var who = kiraKategoriWHO(bmi);
+  var asian = kiraKategoriAsian(bmi);
+  var idealMin = Math.round(18.5 * hm * hm * 10) / 10;
+  var idealMax = Math.round(22.9 * hm * hm * 10) / 10;
+  document.getElementById('bmiNilai').textContent = bmi.toFixed(1);
+  document.getElementById('bmiNilai').className = 'text-lg font-bold ' + who.color;
+  document.getElementById('bmiWho').textContent = who.label;
+  document.getElementById('bmiWho').className = 'text-lg font-bold ' + who.color;
+  document.getElementById('bmiAsian').textContent = asian.label;
+  document.getElementById('bmiAsian').className = 'text-lg font-bold ' + asian.color;
+  document.getElementById('bmiIdeal').textContent = idealMin + ' - ' + idealMax + ' kg';
+  document.getElementById('bmiLabel').textContent = 'BMI anda ' + bmi.toFixed(1) + ' — ' + who.label + ' (WHO)';
+  document.getElementById('bmiKesimpulan').textContent = asian.label + ' (Kategori Asian)';
+  var notes = {'Kurang Berat':'*Rujuk doktor','Normal':'*Kekalkan gaya hidup sihat','Berlebihan':'*Risiko meningkat','Obesiti I':'*Disarankan jumpa doktor','Obesiti II':'*Risiko tinggi','Obesiti III':'*Rujuk doktor segera'};
+  document.getElementById('bmiNote').textContent = notes[asian.label] || '';
+  var allBars = ['bmiBarUnder','bmiBarNormal','bmiBarOver','bmiBarOb1','bmiBarOb2','bmiBarOb3'];
+  allBars.forEach(function(id){document.getElementById(id).style.opacity = '0.4';});
+  if (who.bar) document.getElementById(who.bar).style.opacity = '1';
+}
+['bmiBerat','bmiTinggi'].forEach(function(id){var el=document.getElementById(id);if(el){el.addEventListener('input',calc);el.addEventListener('change',calc);}});
+calc();
+</script>
+</Layout>

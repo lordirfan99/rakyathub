@@ -1,0 +1,203 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import hargaMakanan from '~/data/harga-makanan.json';
+
+const items = hargaMakanan.items || [];
+const latestDate = hargaMakanan.latest_date || '2026-06-15';
+const totalRecords = hargaMakanan.total_records?.toLocaleString() || '0';
+const avgPrice = hargaMakanan.avg_price || 0;
+
+// Count items going up/down
+const up = items.filter(i => i.change > 0).length;
+const down = items.filter(i => i.change < 0).length;
+const flat = items.filter(i => i.change === 0).length;
+
+const metadata = {
+  title: 'Harga Makanan Asas Malaysia — Terkini 2026 | RakyatHub',
+  description: `Semak harga makanan asas Malaysia terkini: ayam ${items.find(i=>i.code===1)?.price?'RM'+items.find(i=>i.code===1)?.price:'—'}, ikan ${items.find(i=>i.code===70)?.price?'RM'+items.find(i=>i.code===70)?.price:'—'}, telur, beras, minyak masak dan 30+ lagi barangan. Sumber KPDN PriceCatcher.`,
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/" class="text-sm text-muted hover:text-primary transition-colors">← Laman Utama</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Harga Makanan Asas Malaysia 2026
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-4">
+      Pantau harga barangan keperluan harian di Malaysia. Data dikemaskini setiap hari dari <strong>KPDN PriceCatcher</strong> — lebih dari <strong>{totalRecords}</strong> rekod transaksi diproses.
+    </p>
+
+    <!-- Last Updated + Stats -->
+    <div class="flex flex-wrap gap-3 mb-8">
+      <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-blue-50 dark:bg-blue-900/20 text-xs font-semibold text-blue-700 dark:text-blue-400">
+        📅 Data setakat {latestDate}
+      </span>
+      <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-green-50 dark:bg-green-900/20 text-xs font-semibold text-green-700 dark:text-green-400">
+        ✅ {items.length} item dikesan
+      </span>
+      <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-red-50 dark:bg-red-900/20 text-xs font-semibold text-red-700 dark:text-red-400">
+        ▲ {up} naik
+      </span>
+      <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 dark:bg-emerald-900/20 text-xs font-semibold text-emerald-700 dark:text-emerald-400">
+        ▼ {down} turun
+      </span>
+    </div>
+
+    <!-- Prices Table -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">🛒 Harga Barangan Keperluan</h2>
+      <div class="overflow-x-auto -mx-5 md:-mx-0">
+        <div class="min-w-[600px] px-5 md:px-0">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b-2 border-gray-200 dark:border-slate-700">
+                <th class="text-left py-3 px-2 font-semibold text-muted">Barangan</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Harga Semasa</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Perubahan</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted hidden sm:table-cell">Unit</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted hidden md:table-cell">Tarikh</th>
+              </tr>
+            </thead>
+            <tbody>
+              {items.sort((a, b) => b.price - a.price).map((item) => {
+                const arrow = item.change > 0 ? '▲' : item.change < 0 ? '▼' : '➡';
+                const color = item.change > 0 ? 'text-red-600' : item.change < 0 ? 'text-green-600' : 'text-muted';
+                return (
+                  <tr class="border-b border-gray-50 dark:border-slate-800 hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
+                    <td class="py-3 px-2 font-medium">{item.name}</td>
+                    <td class="text-right py-3 px-2 font-bold text-default">RM {item.price.toFixed(2)}</td>
+                    <td class={`text-right py-3 px-2 font-semibold ${color}`}>{arrow} {item.change > 0 ? '+' : ''}{item.change.toFixed(2)} ({item.change_pct > 0 ? '+' : ''}{item.change_pct.toFixed(1)}%)</td>
+                    <td class="text-right py-3 px-2 text-muted hidden sm:table-cell">{item.unit}</td>
+                    <td class="text-right py-3 px-2 text-[11px] text-muted hidden md:table-cell">{item.latest_date}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <p class="text-[11px] text-muted mt-4 text-center">*Data dari KPDN PriceCatcher ({totalRecords} rekod diproses). Harga purata nasional — mungkin berbeza mengikut lokasi dan premis.</p>
+    </div>
+
+    <!-- CPI Context -->
+    <div class="rounded-2xl bg-gradient-to-br from-primary/5 to-secondary/5 border border-primary/20 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-3">📈 Gambaran Keseluruhan</h2>
+      <p class="text-muted text-sm">Daripada <strong>{items.length}</strong> barangan yang dipantau:</p>
+      <ul class="text-muted text-sm space-y-1 mt-2">
+        <li>• <span class="text-red-600 font-semibold">{up} barangan</span> naik harga berbanding semalam</li>
+        <li>• <span class="text-green-600 font-semibold">{down} barangan</span> turun harga</li>
+        <li>• <span class="text-muted font-semibold">{flat} barangan</span> kekal stabil</li>
+        <li>• Harga purata keseluruhan: <strong>RM {avgPrice.toFixed(2)}</strong></li>
+      </ul>
+    </div>
+
+    <!-- Top 5 Mahal vs Murah -->
+    <div class="grid md:grid-cols-2 gap-6 mb-8">
+      <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-6">
+        <h3 class="font-bold text-lg mb-3">💰 5 Termahal</h3>
+        <div class="space-y-2">
+          {items.sort((a, b) => b.price - a.price).slice(0, 5).map(item => (
+            <div class="flex justify-between text-sm"><span>{item.name}</span><span class="font-bold text-amber-700">RM {item.price.toFixed(2)}</span></div>
+          ))}
+        </div>
+      </div>
+      <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-6">
+        <h3 class="font-bold text-lg mb-3">💵 5 Termurah</h3>
+        <div class="space-y-2">
+          {items.sort((a, b) => a.price - b.price).slice(0, 5).map(item => (
+            <div class="flex justify-between text-sm"><span>{item.name}</span><span class="font-bold text-green-700">RM {item.price.toFixed(2)}</span></div>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <!-- Cara Pengiraan -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">📊 Sumber Data & Cara Pengiraan</h2>
+      <p class="text-muted text-sm mb-3">
+        Data harga diperolehi dari <strong>KPDN PriceCatcher</strong> — sistem pengawasan harga Kementerian Perdagangan Dalam Negeri dan Kos Sara Hidup. 
+        Lebih dari 2 juta harga dikumpul setiap bulan oleh petugas di seluruh negara.
+      </p>
+      <ul class="text-muted text-sm space-y-1">
+        <li>• <strong>Sumber:</strong> KPDN PriceCatcher & DOSM Consumer Price Index</li>
+        <li>• <strong>Kekerapan:</strong> Dikemaskini setiap hari (data 24 jam lepas)</li>
+        <li>• <strong>Skop:</strong> Purata harga nasional merentas pelbagai premis</li>
+        <li>• <strong>Unit:</strong> Harga per unit seperti yang dipaparkan (kg, biji, tin, dll)</li>
+      </ul>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">📡 KPDN PriceCatcher</h3>
+        <p class="text-muted text-sm">PriceCatcher adalah inisiatif KPDN untuk mengumpul harga barangan secara harian dari premis di seluruh Malaysia. Data ini juga boleh didapati melalui aplikasi PriceCatcher di Google Play Store.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">📈 DOSM CPI</h3>
+        <p class="text-muted text-sm">Indeks Harga Pengguna (CPI) DOSM mengukur inflasi secara bulanan. CPI April 2026 direkodkan pada 136.9 — meningkat 1.9% berbanding tahun lepas. Data granular mengikut kategori dan negeri tersedia.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
+        <h3 class="font-semibold text-lg mb-2">🛒 Tip Jimat Barang Dapur</h3>
+        <p class="text-muted text-sm">Bandingkan harga di pasar awam vs supermarket. Beli stok semasa harga turun (contoh: musim buah tempatan). Guna kalkulator diskaun kami untuk kira penjimatan semasa membeli-belah.</p>
+      </div>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
+      <strong>⚠️ Penafian:</strong> Harga adalah purata nasional dari KPDN PriceCatcher. Harga sebenar mungkin berbeza mengikut lokasi (Semenanjung vs Sabah/Sarawak), jenis premis (pasar awam vs pasar raya), dan jenama barangan. Data dikemaskini setiap hari sekitar jam 12:00 tengah hari.
+      <br /><em>Sumber: KPDN PriceCatcher — data.gov.my | DOSM Consumer Prices — open.dosm.gov.my | CC BY 4.0</em>
+    </div>
+
+    <!-- Article Slots -->
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8 mb-8">
+      <h3 class="text-xl font-bold mb-4">📚 Artikel Berkaitan Harga & Sara Hidup</h3>
+      <ul class="space-y-3">
+        <li><a href="/realiti-kos-sara-hidup-malaysia-2026-gaji-vs-belanja/" class="text-primary font-medium hover:underline text-sm">→ Realiti Kos Sara Hidup Malaysia 2026 — Gaji vs Belanja</a></li>
+        <li><a href="/cara-jimat-belanja-dapur-bulanan/" class="text-primary font-medium hover:underline text-sm">→ 10 Cara Jimat Belanja Dapur Bulanan</a></li>
+        <li><a href="/kalkulator/diskaun/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Diskaun — Kira Harga Selepas Diskaun</a></li>
+        <li><a href="/kalkulator/gaji-bersih/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Gaji Bersih — Kira Take-Home Pay</a></li>
+      </ul>
+    </div>
+
+    <!-- FAQ -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-xl font-bold mb-4">❓ Soalan Lazim Harga Makanan Malaysia</h2>
+      
+      <div class="space-y-4 text-sm">
+        <div>
+          <h3 class="font-semibold mb-1">1. Berapa harga ayam standard hari ni?</h3>
+          <p class="text-muted">Harga ayam standard terkini adalah sekitar <strong>RM {items.find(i=>i.code===1)?.price?.toFixed(2) || '—'}/kg</strong> (purata nasional dari PriceCatcher). Harga mungkin berbeza mengikut negeri dan premis.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold mb-1">2. Berapa harga minyak masak sekarang?</h3>
+          <p class="text-muted">Minyak masak sawit botol 1kg sekitar <strong>RM {items.find(i=>i.code===1110)?.price?.toFixed(2) || '—'}</strong>, manakala 5kg sekitar <strong>RM {items.find(i=>i.code===1109)?.price?.toFixed(2) || '—'}</strong>.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold mb-1">3. Beras naik ke tahun ni?</h3>
+          <p class="text-muted">Beras super spesial tempatan (5kg) sekitar <strong>RM {items.find(i=>i.code===845)?.price?.toFixed(2) || '—'}</strong>. Beras import pula <strong>RM {items.find(i=>i.code===847)?.price?.toFixed(2) || '—'}</strong> untuk 5kg.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold mb-1">4. Mana dapat harga barang paling murah?</h3>
+          <p class="text-muted">Pasar awam dan pasar tani biasanya lebih murah untuk barangan segar (sayur, ikan, ayam). Pasar raya besar ada promosi untuk barangan kering (beras, minyak, gula). Guna aplikasi PriceCatcher KPDN untuk banding harga sebelum beli.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold mb-1">5. Macam mana harga makanan asas dipantau?</h3>
+          <p class="text-muted">KPDN mengumpul data harga dari lebih 2 juta transaksi setiap bulan melalui petugas di seluruh negara. Data ini dikongsikan secara terbuka melalui portal data.gov.my di bawah lesen CC BY 4.0.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <CallToAction actions={[
+    { variant: 'primary', text: 'Kira Gaji Bersih', href: '/kalkulator/gaji-bersih' },
+    { variant: 'secondary', text: 'Kalkulator Diskaun', href: '/kalkulator/diskaun' },
+  ]}>
+    <Fragment slot="title">Alat kewangan lain untuk membantu anda</Fragment>
+    <Fragment slot="subtitle">Kira gaji, diskaun, dan bajet — semuanya percuma.</Fragment>
+  </CallToAction>
+</Layout>
