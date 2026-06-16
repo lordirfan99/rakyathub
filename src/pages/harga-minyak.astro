@@ -6,7 +6,7 @@ const year = new Date().getFullYear();
 
 const metadata = {
   title: `Harga Minyak Malaysia Hari Ini ${year} — RON95, RON97 & Diesel`,
-  description: 'Semak harga minyak Malaysia terkini — RON95 RM2.05, RON97 RM3.35, Diesel RM2.15. Dikemaskini mingguan dari KPDN/MOF. Percuma.',
+  description: 'Semak harga minyak Malaysia terkini — RON95 BUDI95 RM1.99, RON97 RM4.35, Diesel Semenanjung RM4.67. Dikemaskini mingguan dari KPDN/MOF. Percuma.',
 };
 
 const breadcrumbSchema = {
@@ -40,37 +40,58 @@ const breadcrumbSchema = {
     <div class="grid sm:grid-cols-3 gap-4 mb-8">
       <div class="rounded-2xl bg-gradient-to-br from-green-50 to-green-100/50 dark:from-green-950/30 dark:to-green-900/20 border border-green-100 dark:border-green-800/30 p-6 text-center">
         <div class="text-2xl mb-2">⛽</div>
-        <p class="text-xs text-green-600 dark:text-green-400 font-semibold uppercase tracking-wider mb-1">RON95</p>
-        <p id="fuel-ron95" class="text-4xl font-black text-green-700 dark:text-green-300 tabular-nums">RM 2.05</p>
-        <p id="fuel-ron95-chg" class="hidden text-[11px] font-semibold tabular-nums mt-0.5"></p>
-        <p class="text-xs text-muted/60 mt-2">/ liter — Disubsidi kerajaan</p>
-        <span class="inline-block mt-2 px-2.5 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-[10px] font-semibold text-green-700 dark:text-green-400">Nasional</span>
+        <p class="text-xs text-green-600 dark:text-green-400 font-semibold uppercase tracking-wider mb-1">RON95 · BUDI95</p>
+        <p id="fuel-ron95" class="text-4xl font-black text-green-700 dark:text-green-300 tabular-nums">RM 1.99</p>
+        <p id="fuel-ron95-sub" class="text-[11px] text-muted/60 tabular-nums mt-0.5">Tanpa subsidi: RM 3.72</p>
+        <p class="text-xs text-muted/60 mt-2">/ liter — Harga subsidi MyKad</p>
+        <span class="inline-block mt-2 px-2.5 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-[10px] font-semibold text-green-700 dark:text-green-400">14 juta layak</span>
       </div>
       <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-blue-100/50 dark:from-blue-950/30 dark:to-blue-900/20 border border-blue-100 dark:border-blue-800/30 p-6 text-center">
         <div class="text-2xl mb-2">⛽</div>
         <p class="text-xs text-blue-600 dark:text-blue-400 font-semibold uppercase tracking-wider mb-1">RON97</p>
-        <p id="fuel-ron97" class="text-4xl font-black text-blue-700 dark:text-blue-300 tabular-nums">RM 3.35</p>
+        <p id="fuel-ron97" class="text-4xl font-black text-blue-700 dark:text-blue-300 tabular-nums">RM 4.35</p>
         <p id="fuel-ron97-chg" class="hidden text-[11px] font-semibold tabular-nums mt-0.5"></p>
         <p class="text-xs text-muted/60 mt-2">/ liter — Float (terkini)</p>
         <span class="inline-block mt-2 px-2.5 py-1 rounded-full bg-blue-100 dark:bg-blue-900/30 text-[10px] font-semibold text-blue-700 dark:text-blue-400">Pasaran</span>
       </div>
       <div class="rounded-2xl bg-gradient-to-br from-amber-50 to-amber-100/50 dark:from-amber-950/30 dark:to-amber-900/20 border border-amber-100 dark:border-amber-800/30 p-6 text-center">
         <div class="text-2xl mb-2">⛽</div>
-        <p class="text-xs text-amber-600 dark:text-amber-400 font-semibold uppercase tracking-wider mb-1">Diesel</p>
-        <p id="fuel-diesel" class="text-4xl font-black text-amber-700 dark:text-amber-300 tabular-nums">RM 2.15</p>
+        <p class="text-xs text-amber-600 dark:text-amber-400 font-semibold uppercase tracking-wider mb-1">Diesel · Semenanjung</p>
+        <p id="fuel-diesel" class="text-4xl font-black text-amber-700 dark:text-amber-300 tabular-nums">RM 4.67</p>
         <p id="fuel-diesel-chg" class="hidden text-[11px] font-semibold tabular-nums mt-0.5"></p>
-        <p class="text-xs text-muted/60 mt-2">/ liter — Disubsidi (kenderaan)</p>
-        <span class="inline-block mt-2 px-2.5 py-1 rounded-full bg-amber-100 dark:bg-amber-900/30 text-[10px] font-semibold text-amber-700 dark:text-amber-400">Nasional</span>
+        <p class="text-xs text-muted/60 mt-2">/ liter — Float; Sabah/Sarawak RM 2.15</p>
+        <span class="inline-block mt-2 px-2.5 py-1 rounded-full bg-amber-100 dark:bg-amber-900/30 text-[10px] font-semibold text-amber-700 dark:text-amber-400">Semenanjung</span>
       </div>
+    </div>
+
+    <!-- Price History Chart -->
+    <div id="fuel-chart-wrap" class="hidden rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-7 mb-8">
+      <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+        <h2 class="text-lg font-bold">Trend Harga Minyak</h2>
+        <div id="fuel-chart-tabs" role="tablist" class="inline-flex rounded-xl bg-gray-100 dark:bg-slate-800 p-1 text-xs font-semibold">
+          <button type="button" role="tab" data-series="ron95" class="fc-tab px-3 py-1.5 rounded-lg transition">RON95</button>
+          <button type="button" role="tab" data-series="ron97" class="fc-tab px-3 py-1.5 rounded-lg transition">RON97</button>
+          <button type="button" role="tab" data-series="diesel" class="fc-tab px-3 py-1.5 rounded-lg transition">Diesel</button>
+        </div>
+      </div>
+      <div class="flex items-baseline gap-3 mb-2">
+        <span id="fc-latest" class="text-2xl font-black tabular-nums">—</span>
+        <span id="fc-range" class="text-xs text-muted/60 tabular-nums"></span>
+      </div>
+      <svg id="fuel-chart" viewBox="0 0 720 240" preserveAspectRatio="none" class="w-full h-48" role="img" aria-label="Carta trend harga minyak mingguan"></svg>
+      <div class="flex justify-between text-[10px] text-muted/50 mt-1 tabular-nums">
+        <span id="fc-x-start"></span><span id="fc-x-end"></span>
+      </div>
+      <p class="text-[11px] text-muted/50 mt-2">Harga runcit mingguan (RON95 tanpa subsidi). Sumber: data.gov.my — KPDN.</p>
     </div>
 
     <!-- Info -->
     <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
       <h2 class="text-lg font-bold mb-3">📊 Panduan Harga Minyak Malaysia</h2>
       <div class="space-y-3 text-sm text-muted">
-        <p><strong>RON95 (RM 2.05/L)</strong> — Harga disubsidi kerajaan untuk rakyat Malaysia. Kumpulan B40 dan M40 menikmati harga ini. Golongan T45 dan warga asing membayar harga float (~RM 3.35/L).</p>
-        <p><strong>RON97 (RM 3.35/L)</strong> — Harga apung (float) yang ditentukan mingguan berdasarkan harga minyak global. Sesuai untuk kereta berprestasi tinggi. Biasanya ~RM 1.30 lebih mahal dari RON95.</p>
-        <p><strong>Diesel (RM 2.15/L)</strong> — Harga disubsidi untuk kenderaan pengangkutan dan pertanian. Subsidi diesel disasarkan untuk pengguna tertentu.</p>
+        <p><strong>RON95 — BUDI95 (RM 1.99/L)</strong> — Sejak 30 September 2025, rakyat Malaysia yang layak membayar RM 1.99/L dengan imbas MyKad di pam (kuota bulanan terpakai). Harga RON95 tanpa subsidi pula ~RM 3.72/L dan warga asing membayar harga ini.</p>
+        <p><strong>RON97 (RM 4.35/L)</strong> — Harga apung (float) yang ditentukan mingguan berdasarkan harga minyak global. Sesuai untuk kereta berprestasi tinggi.</p>
+        <p><strong>Diesel Semenanjung (RM 4.67/L)</strong> — Harga apung untuk pengguna umum. Di Sabah, Sarawak & WP Labuan, diesel kekal disubsidi pada RM 2.15/L. Pengangkutan barangan berdaftar (SKDS) menikmati RM 1.88/L.</p>
       </div>
     </div>
 
@@ -123,11 +144,15 @@ const breadcrumbSchema = {
         var d = await r.json();
         if (!d || !d.prices) return;
         var fmt = function (n) { return 'RM ' + Number(n).toFixed(2); };
-        if (d.prices.ron95 != null) document.getElementById('fuel-ron95').textContent = fmt(d.prices.ron95);
+        // RON95 BUDI95 subsidised price is a fixed RM1.99 — the CSV ron95 column tracks the
+        // NON-subsidised weekly price, so feed it into the sub-line, never the headline.
+        if (d.prices.ron95 != null && d.prices.ron95 > 2.5) {
+          var subEl = document.getElementById('fuel-ron95-sub');
+          if (subEl) subEl.textContent = 'Tanpa subsidi: ' + fmt(d.prices.ron95);
+        }
         if (d.prices.ron97 != null) document.getElementById('fuel-ron97').textContent = fmt(d.prices.ron97);
         if (d.prices.diesel != null) document.getElementById('fuel-diesel').textContent = fmt(d.prices.diesel);
         if (d.change) {
-          setChg(document.getElementById('fuel-ron95-chg'), d.change.ron95);
           setChg(document.getElementById('fuel-ron97-chg'), d.change.ron97);
           setChg(document.getElementById('fuel-diesel-chg'), d.change.diesel);
         }
@@ -136,7 +161,76 @@ const breadcrumbSchema = {
           try { dateEl.textContent = new Date(d.date).toLocaleDateString('ms-MY', { day: 'numeric', month: 'long', year: 'numeric' }); }
           catch (e) { dateEl.textContent = d.date; }
         }
+        if (Array.isArray(d.history) && d.history.length > 2) initChart(d.history);
       } catch (e) { /* keep fallback values */ }
+    })();
+
+    // ---- Inline SVG price-history chart with RON95 / RON97 / Diesel tabs ----
+    (function () {
+      var COLORS = { ron95: '#16a34a', ron97: '#2563eb', diesel: '#d97706' };
+      var SVG_NS = 'http://www.w3.org/2000/svg';
+      var W = 720, H = 240, PAD = 8;
+      var history = null, active = 'ron95';
+
+      function fmtDate(s) {
+        try { return new Date(s).toLocaleDateString('ms-MY', { month: 'short', year: '2-digit' }); }
+        catch (e) { return s; }
+      }
+      function el(tag, attrs) {
+        var n = document.createElementNS(SVG_NS, tag);
+        for (var k in attrs) n.setAttribute(k, attrs[k]);
+        return n;
+      }
+      function render() {
+        var svg = document.getElementById('fuel-chart');
+        if (!svg || !history) return;
+        var pts = history.map(function (r) { return { x: r.date, y: r[active] }; }).filter(function (p) { return p.y != null; });
+        while (svg.firstChild) svg.removeChild(svg.firstChild);
+        if (pts.length < 2) return;
+        var ys = pts.map(function (p) { return p.y; });
+        var min = Math.min.apply(null, ys), max = Math.max.apply(null, ys);
+        var span = max - min || 1;
+        var sx = function (i) { return PAD + (i / (pts.length - 1)) * (W - 2 * PAD); };
+        var sy = function (v) { return H - PAD - ((v - min) / span) * (H - 2 * PAD); };
+        var color = COLORS[active];
+        var d = '', area = '';
+        pts.forEach(function (p, i) {
+          var X = sx(i), Y = sy(p.y);
+          d += (i ? 'L' : 'M') + X.toFixed(1) + ' ' + Y.toFixed(1) + ' ';
+          area += (i ? 'L' : 'M') + X.toFixed(1) + ' ' + Y.toFixed(1) + ' ';
+        });
+        area += 'L' + sx(pts.length - 1).toFixed(1) + ' ' + (H - PAD) + ' L' + sx(0).toFixed(1) + ' ' + (H - PAD) + ' Z';
+        svg.appendChild(el('path', { d: area, fill: color, 'fill-opacity': '0.10' }));
+        svg.appendChild(el('path', { d: d, fill: 'none', stroke: color, 'stroke-width': '2.5', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke' }));
+        var last = pts[pts.length - 1];
+        svg.appendChild(el('circle', { cx: sx(pts.length - 1), cy: sy(last.y), r: '4', fill: color }));
+        // labels
+        document.getElementById('fc-latest').textContent = 'RM ' + last.y.toFixed(2);
+        document.getElementById('fc-latest').style.color = color;
+        document.getElementById('fc-range').textContent = 'Min RM ' + min.toFixed(2) + ' · Maks RM ' + max.toFixed(2);
+        document.getElementById('fc-x-start').textContent = fmtDate(pts[0].x);
+        document.getElementById('fc-x-end').textContent = fmtDate(last.x);
+      }
+      function setActive(s) {
+        active = s;
+        var tabs = document.querySelectorAll('.fc-tab');
+        for (var i = 0; i < tabs.length; i++) {
+          var on = tabs[i].getAttribute('data-series') === s;
+          tabs[i].setAttribute('aria-selected', on ? 'true' : 'false');
+          tabs[i].className = 'fc-tab px-3 py-1.5 rounded-lg transition ' +
+            (on ? 'bg-white dark:bg-slate-700 shadow-sm text-default dark:text-white' : 'text-muted/70');
+        }
+        render();
+      }
+      window.initChart = function (h) {
+        history = h;
+        document.getElementById('fuel-chart-wrap').classList.remove('hidden');
+        var tabs = document.querySelectorAll('.fc-tab');
+        for (var i = 0; i < tabs.length; i++) {
+          tabs[i].addEventListener('click', function () { setActive(this.getAttribute('data-series')); });
+        }
+        setActive('ron95');
+      };
     })();
   </script>
 </Layout>
