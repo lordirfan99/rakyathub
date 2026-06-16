@@ -4,6 +4,7 @@ import PostTags from '~/components/blog/Tags.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
 import CrossSellBanner from '~/components/blog/CrossSellBanner.astro';
 import AppDashboard from '~/components/widgets/AppDashboard.astro';
+import HargaMakananWidget from '~/components/widgets/HargaMakananWidget.astro';
 
 import { getPermalink, getHomePermalink } from '~/utils/permalinks';
 import { getAuthor } from '~/data/author';
@@ -98,6 +99,10 @@ const author = getAuthor(post.author);
       id="article-body"
     >
       <slot />
+    </div>
+    <!-- Harga Makanan Widget (injected into article body by JS) -->
+    <div id="hw-source" class="hidden" aria-hidden="true">
+      <HargaMakananWidget />
     </div>
     <!-- App Dashboard — premium grid -->
     <AppDashboard
@@ -213,5 +218,49 @@ const author = getAuthor(post.author);
       textNode.parentNode.replaceChild(fragment, textNode);
     });
   }
+})();
+// ── Harga Makanan Widget Injection ──
+(function() {
+  var body = document.getElementById('article-body');
+  var source = document.getElementById('hw-source');
+  if (!body || !source) return;
+
+  // Check relevance: article must mention food/prices or be in relevant categories
+  var text = (body.textContent || '').toLowerCase();
+  var hasPriceKeywords = /harga|barang|makanan|minyak|beras|gula|ayam|telur|belanja|groceri|inflasi|sara.?hidup|keperluan|runcit/.test(text);
+
+  // Check breadcrumb or category hint in the article
+  var hasCategoryHint = false;
+  var links = body.closest('article') ? body.closest('article').querySelectorAll('a') : [];
+  for (var i = 0; i < links.length; i++) {
+    var href = links[i].getAttribute('href') || '';
+    if (/\/category\/(kewangan|pengguna|kerajaan|bisnes)\/?$/.test(href)) {
+      hasCategoryHint = true;
+      break;
+    }
+  }
+
+  if (!hasPriceKeywords && !hasCategoryHint) return;
+
+  // Find midpoint — insert after the halfway paragraph
+  var children = body.children;
+  if (!children.length) return;
+  var mid = Math.floor(children.length / 2);
+  var refNode = children[mid];
+  if (!refNode) return;
+
+  // Insert a separator line before the widget
+  var sep = document.createElement('div');
+  sep.className = 'my-6';
+  sep.innerHTML = '<div class="border-t border-gray-100 dark:border-slate-700/40"></div>';
+
+  refNode.parentNode.insertBefore(sep, refNode);
+
+  // Clone widget and insert
+  var widget = source.cloneNode(true);
+  widget.id = 'hw-injected';
+  widget.removeAttribute('aria-hidden');
+  widget.classList.remove('hidden');
+  refNode.parentNode.insertBefore(widget, refNode);
 })();
 </script>

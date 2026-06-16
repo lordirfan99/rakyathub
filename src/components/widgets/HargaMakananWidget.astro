@@ -1,0 +1,100 @@
+---
+// HargaMakananWidget — Compact inline price card for article body
+// Shows live food prices + CTA to full page. Injected client-side into relevant articles.
+---
+
+<div id="harga-widget" class="my-8 mx-auto max-w-2xl rounded-2xl border border-gray-200 dark:border-slate-700/50 bg-white dark:bg-slate-900/60 shadow-sm overflow-hidden not-prose">
+  <!-- Header -->
+  <div class="flex items-center justify-between px-5 py-3.5 border-b border-gray-100 dark:border-slate-700/30 bg-gradient-to-r from-blue-50/80 to-indigo-50/80 dark:from-blue-950/20 dark:to-indigo-950/20">
+    <div class="flex items-center gap-2.5">
+      <span class="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white text-sm shadow-sm">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"/></svg>
+      </span>
+      <div>
+        <h3 class="text-sm font-bold text-gray-900 dark:text-gray-100 leading-tight">Harga Barang Runcit Malaysia</h3>
+        <p class="text-[11px] text-muted/70" id="hw-date">KPDN PriceCatcher • loading...</p>
+      </div>
+    </div>
+    <span class="live-dot w-2 h-2 rounded-full bg-green-500 inline-block"></span>
+  </div>
+
+  <!-- Body — populated by JS -->
+  <div id="hw-body" class="px-5 py-3.5">
+    <div class="flex items-center justify-center py-4">
+      <svg class="animate-spin h-5 w-5 text-primary" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path>
+      </svg>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <a href="/harga-makanan-hari-ini/" class="block px-5 py-3 text-center text-sm font-semibold text-white bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 transition-all">
+    📊 Lihat Semua Harga Terkini →
+  </a>
+</div>
+
+<style is:inline>
+  @keyframes hw-pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+  #harga-widget .live-dot { animation: hw-pulse 2s ease-in-out infinite; }
+</style>
+
+<script is:inline>
+(function() {
+  var body = document.getElementById('hw-body');
+  var dateEl = document.getElementById('hw-date');
+  if (!body) return;
+
+  fetch('/.netlify/functions/harga-makanan', {
+    headers: { Accept: 'application/json' },
+    signal: AbortSignal.timeout(10000)
+  })
+  .then(function(r) { if (!r.ok) throw Error('HTTP '+r.status); return r.json(); })
+  .then(function(d) {
+    if (!d || !d.items || !d.items.length) throw Error('no data');
+
+    if (dateEl) dateEl.textContent = 'KPDN PriceCatcher • ' + (d.latest_date || '');
+
+    // Pick key staples
+    var items = d.items;
+    var keyItems = [];
+    var keywords = ['AYAM', 'TELUR', 'BERAS', 'MINYAK', 'GULA', 'CILI', 'BAWANG', 'SUSU'];
+    keywords.forEach(function(kw) {
+      var found = items.filter(function(i) { return i.name.toUpperCase().indexOf(kw) >= 0; });
+      // Take the lowest price item for each keyword
+      if (found.length) {
+        found.sort(function(a,b) { return a.price - b.price; });
+        keyItems.push(found[0]);
+      }
+    });
+
+    // Also add biggest mover
+    var sorted = items.slice().sort(function(a,b) { return Math.abs(b.change_pct||0) - Math.abs(a.change_pct||0); });
+    var topMover = sorted[0];
+    if (topMover && !keyItems.some(function(i) { return i.name === topMover.name; })) {
+      keyItems.push(topMover);
+    }
+
+    // Table
+    var html = '<div class="space-y-1.5">';
+    keyItems.forEach(function(item) {
+      var isUp = item.change > 0.01;
+      var isDown = item.change < -0.01;
+      var arrow = isUp ? '▲' : isDown ? '▼' : '➡';
+      var cls = isUp ? 'text-red-600' : isDown ? 'text-green-600' : 'text-muted/40';
+      var slug = item.name.toLowerCase().replace(/[^a-z0-9\s-]/g,'').replace(/\s+/g,'-').replace(/-+/g,'-').trim();
+      html += '<a href="/harga-makanan/'+slug+'/" class="flex items-center justify-between py-1.5 px-3 rounded-lg hover:bg-gray-50 dark:hover:bg-slate-800/40 transition-colors group">'
+        + '<span class="text-sm font-medium text-gray-800 dark:text-gray-200 group-hover:text-primary transition-colors">'+item.name+'</span>'
+        + '<span class="flex items-center gap-2">'
+        + '<span class="font-bold tabular-nums text-sm text-gray-900 dark:text-gray-100">RM'+item.price.toFixed(2)+'</span>'
+        + '<span class="text-xs tabular-nums '+cls+'">'+arrow+' '+(item.change>0?'+':'')+item.change.toFixed(2)+'</span>'
+        + '</span></a>';
+    });
+    html += '</div>';
+    body.innerHTML = html;
+  })
+  .catch(function(err) {
+    body.innerHTML = '<p class="text-xs text-muted/60 text-center py-2">Data harga tidak tersedia buat masa ini.</p>';
+  });
+})();
+</script>
