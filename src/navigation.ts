@@ -116,6 +116,10 @@ export const headerData = {
           href: '/harga-makanan-hari-ini/',
         },
         {
+          text: 'Harga Minyak Terkini',
+          href: '/harga-minyak/',
+        },
+        {
           text: 'Compound Interest',
           href: '/kalkulator/interest-compound/',
         },
@@ -206,6 +210,7 @@ export const footerData = {
         { text: 'Penukar Unit', href: '/kalkulator/unit-converter/' },
         { text: 'Compound Interest', href: '/kalkulator/interest-compound/' },
         { text: 'Harga Makanan', href: '/harga-makanan-hari-ini/' },
+        { text: 'Harga Minyak', href: '/harga-minyak/' },
         { text: 'Zakat Simpanan', href: '/kalkulator/zakat-simpanan/' },
         { text: 'Zakat Emas', href: '/kalkulator/zakat-emas/' },
         { text: 'Zakat Fitrah', href: '/kalkulator/zakat-fitrah/' },

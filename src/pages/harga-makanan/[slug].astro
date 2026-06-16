@@ -1,0 +1,115 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import buildData from '~/data/harga-makanan.json';
+
+export async function getStaticPaths() {
+  const items = buildData.items || [];
+  const slugs = [];
+  const seen = new Set();
+  
+  for (const item of items) {
+    let slug = item.name.toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-')
+      .trim();
+    
+    if (seen.has(slug)) slug += '-' + item.code;
+    seen.add(slug);
+    
+    slugs.push({
+      params: { slug },
+      props: { item },
+    });
+  }
+  
+  return slugs;
+}
+
+const { item } = Astro.props;
+const isUp = item.change > 0.01;
+const isDown = item.change < -0.01;
+const arrow = isUp ? '▲' : isDown ? '▼' : '➡';
+const trend = isUp ? 'naik' : isDown ? 'turun' : 'stabil';
+const trendColor = isUp ? 'red' : isDown ? 'green' : 'gray';
+
+const metadata = {
+  title: `Harga ${item.name} Malaysia — RM${item.price.toFixed(2)} (${item.latest_date}) | RakyatHub`,
+  description: `Semak harga ${item.name} Malaysia terkini: RM${item.price.toFixed(2)}/${item.unit||'unit'} pada ${item.latest_date}. Data harian dari KPDN PriceCatcher.`,
+};
+---
+
+<style is:global>
+  .tabular-nums { font-variant-numeric: tabular-nums; }
+</style>
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-8 md:py-12">
+    <div class="flex items-center gap-2 text-xs text-muted/60 mb-1">
+      <a href="/" class="hover:text-primary">Laman Utama</a> <span>/</span>
+      <a href="/harga-makanan-hari-ini/" class="hover:text-primary">Harga Barang Runcit</a> <span>/</span>
+      <span>{item.name}</span>
+    </div>
+
+    <h1 class="text-2xl sm:text-4xl font-bold tracking-tight mb-2">Harga {item.name} Malaysia</h1>
+    <p class="text-sm text-muted/70 mb-6">Data setakat <strong>{item.latest_date}</strong> — KPDN PriceCatcher</p>
+
+    <!-- Price Cards -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
+      <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-blue-100/50 dark:from-blue-950/30 dark:to-blue-900/20 border border-blue-100 dark:border-blue-800/30 p-5 text-center">
+        <p class="text-xs text-blue-600 dark:text-blue-400 font-semibold uppercase tracking-wider mb-1">Harga Semasa</p>
+        <p class="text-3xl sm:text-4xl font-black text-blue-700 dark:text-blue-300 tabular-nums">RM {item.price.toFixed(2)}</p>
+        <p class="text-[11px] text-muted/60 mt-1">/{item.unit || 'unit'}</p>
+      </div>
+      
+      <div class={"rounded-2xl bg-gradient-to-br border p-5 text-center " + (isUp ? "from-red-50 to-red-100/50 dark:from-red-950/30 dark:to-red-900/20 border-red-100 dark:border-red-800/30" : isDown ? "from-green-50 to-green-100/50 dark:from-green-950/30 dark:to-green-900/20 border-green-100 dark:border-green-800/30" : "from-gray-50 to-gray-100/50 dark:from-gray-800/30 dark:to-gray-800/20 border-gray-200 dark:border-gray-700/30")}>
+        <p class={"text-xs font-semibold uppercase tracking-wider mb-1 " + (isUp ? "text-red-600 dark:text-red-400" : isDown ? "text-green-600 dark:text-green-400" : "text-gray-600 dark:text-gray-400")}>
+          {isUp ? '▲ Naik' : isDown ? '▼ Turun' : '➡ Stabil'}
+        </p>
+        <p class={"text-3xl sm:text-4xl font-black tabular-nums " + (isUp ? "text-red-700 dark:text-red-300" : isDown ? "text-green-700 dark:text-green-300" : "text-gray-700 dark:text-gray-300")}>
+          {item.change_pct >= 0 ? '+' : ''}{item.change_pct.toFixed(1)}%
+        </p>
+        <p class="text-[11px] text-muted/60 mt-1">vs semalam (RM {Math.abs(item.change).toFixed(2)})</p>
+      </div>
+      
+      <div class="rounded-2xl bg-gradient-to-br from-amber-50 to-amber-100/50 dark:from-amber-950/30 dark:to-amber-900/20 border border-amber-100 dark:border-amber-800/30 p-5 text-center">
+        <p class="text-xs text-amber-600 dark:text-amber-400 font-semibold uppercase tracking-wider mb-1">Hari Lepas</p>
+        <p class="text-3xl sm:text-4xl font-black text-amber-700 dark:text-amber-300 tabular-nums">RM {(item.prev_price || item.price).toFixed(2)}</p>
+        <p class="text-[11px] text-muted/60 mt-1">sebelum ini</p>
+      </div>
+    </div>
+
+    <!-- Detail -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-lg font-bold mb-4">📊 Ringkasan</h2>
+      <div class="grid sm:grid-cols-2 gap-4 text-sm">
+        <div>
+          <div class="flex justify-between py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Purata Nasional</span><span class="font-semibold">RM {item.price.toFixed(2)}</span></div>
+          <div class="flex justify-between py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Terendah</span><span class="font-semibold" style="color:#16a34a">RM {(item.min_price || item.price).toFixed(2)}</span></div>
+          <div class="flex justify-between py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Tertinggi</span><span class="font-semibold" style="color:#dc2626">RM {(item.max_price || item.price).toFixed(2)}</span></div>
+          <div class="flex justify-between py-2"><span class="text-muted">Unit</span><span class="font-semibold">{item.unit || '—'}</span></div>
+        </div>
+        <div>
+          <div class="flex justify-between py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Trend</span><span class="font-semibold">{isUp ? '📈 Naik' : isDown ? '📉 Turun' : '➡ Stabil'}</span></div>
+          <div class="flex justify-between py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Perubahan</span><span class="font-semibold">{arrow} RM {Math.abs(item.change).toFixed(2)} ({item.change_pct > 0 ? '+' : ''}{item.change_pct.toFixed(1)}%)</span></div>
+          <div class="flex justify-between py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Sampel</span><span class="font-semibold">{item.sample_size || '—'} rekod</span></div>
+          <div class="flex justify-between py-2"><span class="text-muted">Kemas Kini</span><span class="font-semibold">{item.latest_date}</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <h2 class="text-lg font-bold mb-4">❓ Soalan Lazim</h2>
+      <div class="space-y-4 text-sm">
+        <div><h3 class="font-semibold mb-1">Berapa harga {item.name} hari ini?</h3><p class="text-muted">Harga {item.name} adalah <strong>RM {item.price.toFixed(2)}/{item.unit || 'unit'}</strong> (purata nasional) setakat {item.latest_date}.</p></div>
+        <div><h3 class="font-semibold mb-1">Harga {item.name} naik atau turun?</h3><p class="text-muted">{isUp ? 'Naik ' + Math.abs(item.change_pct).toFixed(1) + '% berbanding semalam.' : isDown ? 'Turun ' + Math.abs(item.change_pct).toFixed(1) + '% berbanding semalam.' : 'Stabil berbanding semalam.'}</p></div>
+        <div><h3 class="font-semibold mb-1">Di mana harga termurah?</h3><p class="text-muted">Guna aplikasi KPDN PriceCatcher untuk banding harga di premis berhampiran. Pasar awam biasanya lebih murah.</p></div>
+      </div>
+    </div>
+
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
+      <strong>⚠️ Penafian:</strong> Purata nasional. Harga sebenar mungkin berbeza. Sumber: KPDN PriceCatcher — data.gov.my | CC BY 4.0.
+    </div>
+  </section>
+</Layout>

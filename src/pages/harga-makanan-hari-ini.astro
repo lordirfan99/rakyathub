@@ -1,203 +1,283 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
-import hargaMakanan from '~/data/harga-makanan.json';
 
-const items = hargaMakanan.items || [];
-const latestDate = hargaMakanan.latest_date || '2026-06-15';
-const totalRecords = hargaMakanan.total_records?.toLocaleString() || '0';
-const avgPrice = hargaMakanan.avg_price || 0;
+const buildData = (await import('~/data/harga-makanan.json')).default;
+const items = buildData.items || [];
+const latestDate = buildData.latest_date || '';
+const totalRecords = buildData.total_records || 0;
+const up = items.filter(i => i.change > 0.01).length;
+const down = items.filter(i => i.change < -0.01).length;
 
-// Count items going up/down
-const up = items.filter(i => i.change > 0).length;
-const down = items.filter(i => i.change < 0).length;
-const flat = items.filter(i => i.change === 0).length;
+const cheapest = [...items].sort((a, b) => a.price - b.price)[0];
+const mostExpensive = [...items].sort((a, b) => b.price - a.price)[0];
+const biggestUp = [...items].filter(i => i.change_pct > 1).sort((a, b) => b.change_pct - a.change_pct)[0];
+const biggestDown = [...items].filter(i => i.change_pct < -1).sort((a, b) => a.change_pct - b.change_pct)[0];
+
+const CATEGORIES = [
+  { key: 'AYAM', label: 'Ayam & Daging', icon: '🍗', codes: [1,2,3,47,55,9,14] },
+  { key: 'IKAN', label: 'Ikan', icon: '🐟', codes: [70,71,72,87,88,89] },
+  { key: 'SAYUR', label: 'Sayur-Sayuran', icon: '🥬', codes: [92,93,95,96,98,104,105,109,113,114,129,131,137] },
+  { key: 'KEKERING', label: 'Barang Kering', icon: '🏪', codes: [845,847,1109,1110,1131,1132,1819,2047,2086,1916,1926,1928,101,1440,1442,1481,1555,16,18,22] },
+];
+
+const catMap = {};
+CATEGORIES.forEach(c => c.codes.forEach(code => catMap[code] = c.key));
+
+const itemFuncs = items.map(i => ({
+  code: i.code, name: i.name, price: i.price, min_price: i.min_price, max_price: i.max_price,
+  change: i.change, change_pct: i.change_pct, cat: catMap[i.code] || 'lain',
+}));
 
 const metadata = {
-  title: 'Harga Makanan Asas Malaysia — Terkini 2026 | RakyatHub',
-  description: `Semak harga makanan asas Malaysia terkini: ayam ${items.find(i=>i.code===1)?.price?'RM'+items.find(i=>i.code===1)?.price:'—'}, ikan ${items.find(i=>i.code===70)?.price?'RM'+items.find(i=>i.code===70)?.price:'—'}, telur, beras, minyak masak dan 30+ lagi barangan. Sumber KPDN PriceCatcher.`,
+  title: `Harga Barang Runcit Malaysia ${latestDate} — Ayam RM${items.find(i=>i.code===1)?.price?.toFixed(2)||'—'}, Ikan, Telur, Minyak | RakyatHub`,
+  description: `Semak harga barang runcit Malaysia terkini ${latestDate}: ayam RM${items.find(i=>i.code===1)?.price?.toFixed(2)||'—'}/kg, ikan kembung RM${items.find(i=>i.code===70)?.price?.toFixed(2)||'—'}/kg, telur, beras, minyak masak. Data harian KPDN PriceCatcher.`,
 };
 ---
 
+<style is:global>
+  .tabular-nums { font-variant-numeric: tabular-nums; }
+  @keyframes pulse-dot { 0%,100%{opacity:1} 50%{opacity:0.3} }
+  .live-dot { animation: pulse-dot 2s ease-in-out infinite; }
+  .item-row { transition: background .15s; }
+  .item-row:hover { background: rgba(var(--aw-color-primary-rgb,59,130,246),.04); }
+  .dark .item-row:hover { background: rgba(255,255,255,.04); }
+</style>
+
 <Layout metadata={metadata}>
-  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-12 md:py-20">
-    <div class="mb-8">
-      <a href="/" class="text-sm text-muted hover:text-primary transition-colors">← Laman Utama</a>
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-8 md:py-12">
+    <!-- Sticky Header -->
+    <div class="sticky top-0 z-20 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2.5 mb-6 border-b border-gray-100 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur-lg flex items-center justify-between text-xs">
+      <div class="flex items-center gap-2">
+        <span class="live-dot w-2 h-2 rounded-full bg-green-500 inline-block"></span>
+        <span class="text-muted font-medium">LIVE</span>
+        <span class="text-muted/50">—</span>
+        <span class="text-muted/80 font-medium tabular-nums" id="hLastUpdated">{latestDate}</span>
+      </div>
+      <button onclick="refreshData()" class="text-primary hover:text-secondary transition-colors font-medium flex items-center gap-1">
+        <svg class="w-3.5 h-3.5" id="hRefreshIcon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182"/></svg>
+        <span>Refresh</span>
+      </button>
     </div>
 
-    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
-      Harga Makanan Asas Malaysia 2026
-    </h1>
-    <p class="text-lg md:text-xl text-muted mb-4">
-      Pantau harga barangan keperluan harian di Malaysia. Data dikemaskini setiap hari dari <strong>KPDN PriceCatcher</strong> — lebih dari <strong>{totalRecords}</strong> rekod transaksi diproses.
+    <!-- Hero -->
+    <div class="flex items-center gap-2 text-xs text-muted/60 mb-1">
+      <a href="/" class="hover:text-primary">Laman Utama</a> <span>/</span> <span>Harga Barang Runcit</span>
+    </div>
+    <h1 class="text-2xl sm:text-4xl font-bold tracking-tight mb-3">Harga Barang Runcit Malaysia</h1>
+    <p class="text-sm text-muted/80 max-w-3xl mb-5">
+      Pantau harga terkini <strong>{items.length} barangan keperluan</strong> — dikemaskini setiap hari dari <strong>KPDN PriceCatcher</strong> ({totalRecords.toLocaleString()} rekod).
     </p>
 
-    <!-- Last Updated + Stats -->
-    <div class="flex flex-wrap gap-3 mb-8">
-      <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-blue-50 dark:bg-blue-900/20 text-xs font-semibold text-blue-700 dark:text-blue-400">
-        📅 Data setakat {latestDate}
-      </span>
-      <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-green-50 dark:bg-green-900/20 text-xs font-semibold text-green-700 dark:text-green-400">
-        ✅ {items.length} item dikesan
-      </span>
-      <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-red-50 dark:bg-red-900/20 text-xs font-semibold text-red-700 dark:text-red-400">
-        ▲ {up} naik
-      </span>
-      <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 dark:bg-emerald-900/20 text-xs font-semibold text-emerald-700 dark:text-emerald-400">
-        ▼ {down} turun
-      </span>
+    <!-- Stats -->
+    <div class="flex flex-wrap gap-2 mb-5">
+      <span class="px-3 py-1.5 rounded-lg bg-blue-50 dark:bg-blue-900/20 text-xs font-semibold text-blue-700 dark:text-blue-400 border border-blue-100 dark:border-blue-800/30 tabular-nums">📦 {items.length} item</span>
+      <span class="px-3 py-1.5 rounded-lg bg-red-50 dark:bg-red-900/20 text-xs font-semibold text-red-700 dark:text-red-400 border border-red-100 dark:border-red-800/30 tabular-nums">▲ {up} naik</span>
+      <span class="px-3 py-1.5 rounded-lg bg-green-50 dark:bg-green-900/20 text-xs font-semibold text-green-700 dark:text-green-400 border border-green-100 dark:border-green-800/30 tabular-nums">▼ {down} turun</span>
+      <span class="px-3 py-1.5 rounded-lg bg-amber-50 dark:bg-amber-900/20 text-xs font-semibold text-amber-700 dark:text-amber-400 border border-amber-100 dark:border-amber-800/30 tabular-nums">📅 {latestDate}</span>
     </div>
 
-    <!-- Prices Table -->
-    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
-      <h2 class="text-xl font-bold mb-4">🛒 Harga Barangan Keperluan</h2>
-      <div class="overflow-x-auto -mx-5 md:-mx-0">
-        <div class="min-w-[600px] px-5 md:px-0">
-          <table class="w-full text-sm">
-            <thead>
-              <tr class="border-b-2 border-gray-200 dark:border-slate-700">
-                <th class="text-left py-3 px-2 font-semibold text-muted">Barangan</th>
-                <th class="text-right py-3 px-2 font-semibold text-muted">Harga Semasa</th>
-                <th class="text-right py-3 px-2 font-semibold text-muted">Perubahan</th>
-                <th class="text-right py-3 px-2 font-semibold text-muted hidden sm:table-cell">Unit</th>
-                <th class="text-right py-3 px-2 font-semibold text-muted hidden md:table-cell">Tarikh</th>
+    <!-- Search -->
+    <input type="text" id="hSearch" oninput="filterItems()" placeholder="Cari barangan (ayam, minyak, beras...)" class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800/60 px-4 py-3 text-sm mb-5 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+
+    <!-- Watchlist -->
+    <div id="hWatchSection" class="mb-5 hidden">
+      <div class="rounded-xl bg-gradient-to-r from-indigo-50/80 to-blue-50/80 dark:from-indigo-950/30 dark:to-blue-950/20 border border-indigo-100 dark:border-indigo-800/30 p-4">
+        <div class="flex items-center justify-between mb-2">
+          <h3 class="text-sm font-bold text-indigo-700 dark:text-indigo-300">👀 Senarai Pantau</h3>
+          <button onclick="clearWatchlist()" class="text-[11px] text-muted hover:text-red-500 transition-colors">Kosongkan</button>
+        </div>
+        <div id="hWatchItems" class="space-y-1 text-sm"></div>
+      </div>
+    </div>
+
+    <!-- Categories -->
+    <div class="flex overflow-x-auto gap-2 pb-3 mb-5 -mx-4 sm:-mx-6 px-4 sm:px-6 scrollbar-hide" style="-webkit-overflow-scrolling:touch">
+      <button onclick="setCat('all')" class="cat-btn cat-active shrink-0 px-3.5 py-2 rounded-lg text-xs font-semibold transition-all border border-primary bg-primary/10 text-primary" data-cat="all">Semua</button>
+      {CATEGORIES.map(cat => (
+        <button onclick="setCat('{cat.key}')" class="cat-btn shrink-0 px-3.5 py-2 rounded-lg text-xs font-semibold transition-all border border-gray-200 dark:border-slate-700 text-muted hover:border-primary/40" data-cat="{cat.key}">
+          {cat.icon} {cat.label}
+        </button>
+      ))}
+    </div>
+
+    <!-- Table -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm overflow-hidden">
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-gray-100 dark:border-slate-700/50 bg-gray-50/50 dark:bg-slate-800/30">
+              <th class="text-left py-3.5 px-4 font-semibold text-muted text-[11px] uppercase tracking-wider">Barangan</th>
+              <th class="text-right py-3.5 px-3 font-semibold text-muted text-[11px] uppercase tracking-wider tabular-nums">Harga</th>
+              <th class="text-right py-3.5 px-3 font-semibold text-muted text-[11px] uppercase tracking-wider hidden sm:table-cell tabular-nums">Hari Lepas</th>
+              <th class="text-right py-3.5 px-3 font-semibold text-muted text-[11px] uppercase tracking-wider w-10"></th>
+            </tr>
+          </thead>
+          <tbody id="hBody">
+            {itemFuncs.sort((a, b) => {
+              const ca = CATEGORIES.findIndex(c => c.key === a.cat);
+              const cb = CATEGORIES.findIndex(c => c.key === b.cat);
+              return (ca===-1?999:ca)-(cb===-1?999:cb);
+            }).map(item => {
+              const isUp = item.change > 0.01;
+              const isDown = item.change < -0.01;
+              const arrow = isUp ? '▲' : isDown ? '▼' : '➡';
+              const cls = isUp ? 'text-red-600' : isDown ? 'text-green-600' : 'text-muted';
+              return (
+              <tr class="item-row border-b border-gray-50 dark:border-slate-800/50" data-code={item.code} data-name={item.name.toLowerCase()} data-cat={item.cat} data-price={item.price}>
+                <td class="py-3 px-4">
+                  <div class="flex items-center gap-2">
+                    <button class="w-btn shrink-0 w-6 h-6 flex items-center justify-center text-muted/30 hover:text-amber-400 transition-colors" data-code={item.code} onclick="toggleWatch({item.code})" title="Pantau">
+                      <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"/></svg>
+                    </button>
+                    <span class="font-medium">{item.name}</span>
+                  </div>
+                </td>
+                <td class="text-right py-3 px-3 font-bold tabular-nums">RM {item.price.toFixed(2)}</td>
+                <td class="text-right py-3 px-3 hidden sm:table-cell tabular-nums">
+                  <span class="font-semibold text-sm {cls}">{arrow} {item.change > 0 ? '+' : ''}{item.price.toFixed(2)}</span>
+                  <span class="text-[11px] ml-0.5 {cls}">({item.change_pct > 0 ? '+' : ''}{item.change_pct.toFixed(1)}%)</span>
+                </td>
+                <td class="text-right py-3 px-3">
+                  <button onclick="shareWA({item.code},'{item.name}',{item.price})" class="text-muted/30 hover:text-primary transition-colors" title="Kongsi WhatsApp">
+                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z"/></svg>
+                  </button>
+                </td>
               </tr>
-            </thead>
-            <tbody>
-              {items.sort((a, b) => b.price - a.price).map((item) => {
-                const arrow = item.change > 0 ? '▲' : item.change < 0 ? '▼' : '➡';
-                const color = item.change > 0 ? 'text-red-600' : item.change < 0 ? 'text-green-600' : 'text-muted';
-                return (
-                  <tr class="border-b border-gray-50 dark:border-slate-800 hover:bg-gray-50 dark:hover:bg-slate-800/50 transition-colors">
-                    <td class="py-3 px-2 font-medium">{item.name}</td>
-                    <td class="text-right py-3 px-2 font-bold text-default">RM {item.price.toFixed(2)}</td>
-                    <td class={`text-right py-3 px-2 font-semibold ${color}`}>{arrow} {item.change > 0 ? '+' : ''}{item.change.toFixed(2)} ({item.change_pct > 0 ? '+' : ''}{item.change_pct.toFixed(1)}%)</td>
-                    <td class="text-right py-3 px-2 text-muted hidden sm:table-cell">{item.unit}</td>
-                    <td class="text-right py-3 px-2 text-[11px] text-muted hidden md:table-cell">{item.latest_date}</td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <p class="text-[11px] text-muted mt-4 text-center">*Data dari KPDN PriceCatcher ({totalRecords} rekod diproses). Harga purata nasional — mungkin berbeza mengikut lokasi dan premis.</p>
-    </div>
-
-    <!-- CPI Context -->
-    <div class="rounded-2xl bg-gradient-to-br from-primary/5 to-secondary/5 border border-primary/20 shadow-sm p-5 md:p-8 mb-8">
-      <h2 class="text-xl font-bold mb-3">📈 Gambaran Keseluruhan</h2>
-      <p class="text-muted text-sm">Daripada <strong>{items.length}</strong> barangan yang dipantau:</p>
-      <ul class="text-muted text-sm space-y-1 mt-2">
-        <li>• <span class="text-red-600 font-semibold">{up} barangan</span> naik harga berbanding semalam</li>
-        <li>• <span class="text-green-600 font-semibold">{down} barangan</span> turun harga</li>
-        <li>• <span class="text-muted font-semibold">{flat} barangan</span> kekal stabil</li>
-        <li>• Harga purata keseluruhan: <strong>RM {avgPrice.toFixed(2)}</strong></li>
-      </ul>
-    </div>
-
-    <!-- Top 5 Mahal vs Murah -->
-    <div class="grid md:grid-cols-2 gap-6 mb-8">
-      <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-6">
-        <h3 class="font-bold text-lg mb-3">💰 5 Termahal</h3>
-        <div class="space-y-2">
-          {items.sort((a, b) => b.price - a.price).slice(0, 5).map(item => (
-            <div class="flex justify-between text-sm"><span>{item.name}</span><span class="font-bold text-amber-700">RM {item.price.toFixed(2)}</span></div>
-          ))}
-        </div>
-      </div>
-      <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-6">
-        <h3 class="font-bold text-lg mb-3">💵 5 Termurah</h3>
-        <div class="space-y-2">
-          {items.sort((a, b) => a.price - b.price).slice(0, 5).map(item => (
-            <div class="flex justify-between text-sm"><span>{item.name}</span><span class="font-bold text-green-700">RM {item.price.toFixed(2)}</span></div>
-          ))}
-        </div>
+            )})}
+          </tbody>
+        </table>
       </div>
     </div>
 
-    <!-- Cara Pengiraan -->
-    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
-      <h2 class="text-xl font-bold mb-4">📊 Sumber Data & Cara Pengiraan</h2>
-      <p class="text-muted text-sm mb-3">
-        Data harga diperolehi dari <strong>KPDN PriceCatcher</strong> — sistem pengawasan harga Kementerian Perdagangan Dalam Negeri dan Kos Sara Hidup. 
-        Lebih dari 2 juta harga dikumpul setiap bulan oleh petugas di seluruh negara.
-      </p>
-      <ul class="text-muted text-sm space-y-1">
-        <li>• <strong>Sumber:</strong> KPDN PriceCatcher & DOSM Consumer Price Index</li>
-        <li>• <strong>Kekerapan:</strong> Dikemaskini setiap hari (data 24 jam lepas)</li>
-        <li>• <strong>Skop:</strong> Purata harga nasional merentas pelbagai premis</li>
-        <li>• <strong>Unit:</strong> Harga per unit seperti yang dipaparkan (kg, biji, tin, dll)</li>
-      </ul>
-    </div>
-
-    <!-- Info Cards -->
-    <div class="grid md:grid-cols-3 gap-6 mb-8">
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
-        <h3 class="font-semibold text-lg mb-2">📡 KPDN PriceCatcher</h3>
-        <p class="text-muted text-sm">PriceCatcher adalah inisiatif KPDN untuk mengumpul harga barangan secara harian dari premis di seluruh Malaysia. Data ini juga boleh didapati melalui aplikasi PriceCatcher di Google Play Store.</p>
+    <!-- Summary Grid -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5 mb-8">
+      <div class="rounded-xl bg-gradient-to-br from-red-50 to-red-100/50 dark:from-red-950/30 dark:to-red-900/20 border border-red-100 dark:border-red-800/30 p-4">
+        <p class="text-[10px] text-red-600 dark:text-red-400 font-semibold uppercase tracking-wider mb-0.5">Paling Mahal</p>
+        <p class="text-lg font-bold text-red-700 dark:text-red-300 tabular-nums">RM {mostExpensive?.price?.toFixed(2) || '—'}</p>
+        <p class="text-[11px] text-muted/60 mt-0.5">{mostExpensive?.name || ''}</p>
       </div>
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
-        <h3 class="font-semibold text-lg mb-2">📈 DOSM CPI</h3>
-        <p class="text-muted text-sm">Indeks Harga Pengguna (CPI) DOSM mengukur inflasi secara bulanan. CPI April 2026 direkodkan pada 136.9 — meningkat 1.9% berbanding tahun lepas. Data granular mengikut kategori dan negeri tersedia.</p>
+      <div class="rounded-xl bg-gradient-to-br from-green-50 to-green-100/50 dark:from-green-950/30 dark:to-green-900/20 border border-green-100 dark:border-green-800/30 p-4">
+        <p class="text-[10px] text-green-600 dark:text-green-400 font-semibold uppercase tracking-wider mb-0.5">Paling Murah</p>
+        <p class="text-lg font-bold text-green-700 dark:text-green-300 tabular-nums">RM {cheapest?.price?.toFixed(2) || '—'}</p>
+        <p class="text-[11px] text-muted/60 mt-0.5">{cheapest?.name || ''}</p>
       </div>
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
-        <h3 class="font-semibold text-lg mb-2">🛒 Tip Jimat Barang Dapur</h3>
-        <p class="text-muted text-sm">Bandingkan harga di pasar awam vs supermarket. Beli stok semasa harga turun (contoh: musim buah tempatan). Guna kalkulator diskaun kami untuk kira penjimatan semasa membeli-belah.</p>
+      <div class="rounded-xl bg-gradient-to-br from-amber-50 to-amber-100/50 dark:from-amber-950/30 dark:to-amber-900/20 border border-amber-100 dark:border-amber-800/30 p-4">
+        <p class="text-[10px] text-amber-600 dark:text-amber-400 font-semibold uppercase tracking-wider mb-0.5">Paling Naik</p>
+        <p class="text-lg font-bold text-amber-700 dark:text-amber-300 tabular-nums">{biggestUp ? '▲ ' + biggestUp.change_pct.toFixed(1) + '%' : '—'}</p>
+        <p class="text-[11px] text-muted/60 mt-0.5">{biggestUp?.name || ''}</p>
+      </div>
+      <div class="rounded-xl bg-gradient-to-br from-indigo-50 to-indigo-100/50 dark:from-indigo-950/30 dark:to-indigo-900/20 border border-indigo-100 dark:border-indigo-800/30 p-4">
+        <p class="text-[10px] text-indigo-600 dark:text-indigo-400 font-semibold uppercase tracking-wider mb-0.5">Paling Turun</p>
+        <p class="text-lg font-bold text-indigo-700 dark:text-indigo-300 tabular-nums">{biggestDown ? '▼ ' + Math.abs(biggestDown.change_pct).toFixed(1) + '%' : '—'}</p>
+        <p class="text-[11px] text-muted/60 mt-0.5">{biggestDown?.name || ''}</p>
       </div>
     </div>
 
-    <!-- Disclaimer -->
-    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
-      <strong>⚠️ Penafian:</strong> Harga adalah purata nasional dari KPDN PriceCatcher. Harga sebenar mungkin berbeza mengikut lokasi (Semenanjung vs Sabah/Sarawak), jenis premis (pasar awam vs pasar raya), dan jenama barangan. Data dikemaskini setiap hari sekitar jam 12:00 tengah hari.
-      <br /><em>Sumber: KPDN PriceCatcher — data.gov.my | DOSM Consumer Prices — open.dosm.gov.my | CC BY 4.0</em>
-    </div>
-
-    <!-- Article Slots -->
-    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8 mb-8">
-      <h3 class="text-xl font-bold mb-4">📚 Artikel Berkaitan Harga & Sara Hidup</h3>
-      <ul class="space-y-3">
-        <li><a href="/realiti-kos-sara-hidup-malaysia-2026-gaji-vs-belanja/" class="text-primary font-medium hover:underline text-sm">→ Realiti Kos Sara Hidup Malaysia 2026 — Gaji vs Belanja</a></li>
-        <li><a href="/cara-jimat-belanja-dapur-bulanan/" class="text-primary font-medium hover:underline text-sm">→ 10 Cara Jimat Belanja Dapur Bulanan</a></li>
-        <li><a href="/kalkulator/diskaun/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Diskaun — Kira Harga Selepas Diskaun</a></li>
-        <li><a href="/kalkulator/gaji-bersih/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Gaji Bersih — Kira Take-Home Pay</a></li>
-      </ul>
-    </div>
-
-    <!-- FAQ -->
-    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
-      <h2 class="text-xl font-bold mb-4">❓ Soalan Lazim Harga Makanan Malaysia</h2>
-      
-      <div class="space-y-4 text-sm">
-        <div>
-          <h3 class="font-semibold mb-1">1. Berapa harga ayam standard hari ni?</h3>
-          <p class="text-muted">Harga ayam standard terkini adalah sekitar <strong>RM {items.find(i=>i.code===1)?.price?.toFixed(2) || '—'}/kg</strong> (purata nasional dari PriceCatcher). Harga mungkin berbeza mengikut negeri dan premis.</p>
-        </div>
-        <div>
-          <h3 class="font-semibold mb-1">2. Berapa harga minyak masak sekarang?</h3>
-          <p class="text-muted">Minyak masak sawit botol 1kg sekitar <strong>RM {items.find(i=>i.code===1110)?.price?.toFixed(2) || '—'}</strong>, manakala 5kg sekitar <strong>RM {items.find(i=>i.code===1109)?.price?.toFixed(2) || '—'}</strong>.</p>
-        </div>
-        <div>
-          <h3 class="font-semibold mb-1">3. Beras naik ke tahun ni?</h3>
-          <p class="text-muted">Beras super spesial tempatan (5kg) sekitar <strong>RM {items.find(i=>i.code===845)?.price?.toFixed(2) || '—'}</strong>. Beras import pula <strong>RM {items.find(i=>i.code===847)?.price?.toFixed(2) || '—'}</strong> untuk 5kg.</p>
-        </div>
-        <div>
-          <h3 class="font-semibold mb-1">4. Mana dapat harga barang paling murah?</h3>
-          <p class="text-muted">Pasar awam dan pasar tani biasanya lebih murah untuk barangan segar (sayur, ikan, ayam). Pasar raya besar ada promosi untuk barangan kering (beras, minyak, gula). Guna aplikasi PriceCatcher KPDN untuk banding harga sebelum beli.</p>
-        </div>
-        <div>
-          <h3 class="font-semibold mb-1">5. Macam mana harga makanan asas dipantau?</h3>
-          <p class="text-muted">KPDN mengumpul data harga dari lebih 2 juta transaksi setiap bulan melalui petugas di seluruh negara. Data ini dikongsikan secara terbuka melalui portal data.gov.my di bawah lesen CC BY 4.0.</p>
-        </div>
+    <!-- About -->
+    <div class="rounded-xl bg-gray-50 dark:bg-slate-800/40 border border-gray-100 dark:border-slate-700/30 p-4 mb-8 text-xs text-muted/70">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-[10px] font-bold text-primary">i</span>
+        <span class="font-semibold text-muted">Tentang Data Ini</span>
       </div>
+      <p>Harga adalah purata nasional dari <strong>KPDN PriceCatcher</strong> — dikumpul dari 3,900+ premis seluruh negara (2 juta+ rekod/bulan). Harga sebenar mungkin berbeza mengikut lokasi dan premis.</p>
+      <p class="mt-1">Sumber: <a href="https://data.gov.my" class="text-primary hover:underline" target="_blank" rel="noopener">data.gov.my</a> — KPDN PriceCatcher (CC BY 4.0) | DOSM.</p>
     </div>
   </section>
 
-  <CallToAction actions={[
-    { variant: 'primary', text: 'Kira Gaji Bersih', href: '/kalkulator/gaji-bersih' },
-    { variant: 'secondary', text: 'Kalkulator Diskaun', href: '/kalkulator/diskaun' },
-  ]}>
-    <Fragment slot="title">Alat kewangan lain untuk membantu anda</Fragment>
-    <Fragment slot="subtitle">Kira gaji, diskaun, dan bajet — semuanya percuma.</Fragment>
-  </CallToAction>
+  <script is:inline>
+// ── WATCHLIST ──
+function getW() { try { return JSON.parse(localStorage.getItem('hw')||'[]'); } catch(e){return [];} }
+function setW(l) { localStorage.setItem('hw', JSON.stringify(l)); renderW(); }
+function toggleW(c) { var l=getW(); var i=l.indexOf(c); if(i>=0) l.splice(i,1); else l.push(c); setW(l); updateWBtn(c); }
+function renderW() {
+  var l=getW(); var s=document.getElementById('hWatchSection'); var c=document.getElementById('hWatchItems');
+  if(!s||!c) return;
+  if(l.length===0){s.classList.add('hidden');return;}
+  s.classList.remove('hidden'); c.innerHTML='';
+  l.forEach(function(code){
+    var row=document.querySelector('[data-code="'+code+'"]');
+    if(!row) return;
+    var name=row.querySelector('.font-medium')?.textContent||'';
+    var price=parseFloat(row.getAttribute('data-price')||'0');
+    var d=document.createElement('div'); d.className='flex justify-between items-center py-0.5';
+    d.innerHTML='<span class="text-sm">'+name+'</span><span class="font-semibold tabular-nums text-sm">RM '+price.toFixed(2)+'</span>';
+    c.appendChild(d);
+  });
+}
+function clearW() { localStorage.removeItem('hw'); renderW(); }
+function updateWBtn(code) {
+  var l=getW(); document.querySelectorAll('.w-btn[data-code="'+code+'"]').forEach(function(b){
+    b.style.color=l.indexOf(code)>=0?'#f59e0b':'';
+  });
+}
+
+// ── FILTER ──
+function filterItems() {
+  var q=document.getElementById('hSearch').value.toLowerCase().trim();
+  var active=document.querySelector('.cat-btn.cat-active');
+  var cat=active?active.getAttribute('data-cat'):'all';
+  document.querySelectorAll('.item-row').forEach(function(r){
+    var n=r.getAttribute('data-name')||'';
+    var rc=r.getAttribute('data-cat')||'';
+    r.style.display=(cat==='all'||rc===cat)&&(!q||n.indexOf(q)>=0)?'':'none';
+  });
+}
+function setCat(c) {
+  document.querySelectorAll('.cat-btn').forEach(function(b){
+    var isActive=b.getAttribute('data-cat')===c;
+    b.className='cat-btn shrink-0 px-3.5 py-2 rounded-lg text-xs font-semibold transition-all border '+(isActive?'border-primary bg-primary/10 text-primary':'border-gray-200 dark:border-slate-700 text-muted hover:border-primary/40');
+    if(isActive) b.classList.add('cat-active');
+  });
+  filterItems();
+}
+
+// ── SHARE ──
+function shareWA(code,name,price) {
+  var t=encodeURIComponent('Harga '+name+' hari ini: RM '+price.toFixed(2)+' (sumber: rakyathub.my/harga-makanan-hari-ini/)');
+  window.open('https://wa.me/?text='+t,'_blank');
+}
+
+// ── REFRESH ──
+async function refreshData() {
+  var icon=document.getElementById('hRefreshIcon');
+  if(icon) icon.style.animation='spin 1s linear infinite';
+  try {
+    var r=await fetch('/.netlify/functions/harga-makanan',{headers:{Accept:'application/json'},signal:AbortSignal.timeout(15000)});
+    if(!r.ok) throw Error('HTTP '+r.status);
+    var d=await r.json();
+    if(d&&d.items&&d.items.length>0){
+      d.items.forEach(function(item){
+        var row=document.querySelector('[data-code="'+item.code+'"]');
+        if(!row) return;
+        var cells=row.querySelectorAll('td');
+        if(cells.length<2) return;
+        cells[1].textContent='RM '+item.price.toFixed(2);
+        row.setAttribute('data-price',item.price);
+        if(cells[2]){
+          var up=item.change>0.01, down=item.change<-0.01;
+          var arrow=up?'▲':down?'▼':'➡';
+          var cls=up?'text-red-600':down?'text-green-600':'text-muted';
+          cells[2].className='text-right py-3 px-3 hidden sm:table-cell tabular-nums';
+          cells[2].innerHTML='<span class="font-semibold text-sm '+cls+'">'+arrow+' '+(item.change>0?'+':'')+item.change.toFixed(2)+'</span> <span class="text-[11px] ml-0.5 '+cls+'">('+(item.change_pct>0?'+':'')+item.change_pct.toFixed(1)+'%)</span>';
+        }
+      });
+      var up=d.items.filter(function(i){return i.change>0.01;}).length;
+      var down=d.items.filter(function(i){return i.change<-0.01;}).length;
+      document.getElementById('hLastUpdated').textContent=new Date(d.last_updated||d.latest_date).toLocaleDateString('ms-MY')||d.latest_date;
+      renderW();
+    }
+  } catch(e){console.log('[harga] refresh:', e.message);}
+  if(icon) icon.style.animation='';
+}
+
+// ── INIT ──
+document.addEventListener('DOMContentLoaded', function(){
+  renderW();
+  // Style watched buttons
+  var w=getW();
+  w.forEach(function(c){updateWBtn(c);});
+  // Auto-refresh in background
+  setTimeout(refreshData, 1000);
+});
+</script>
 </Layout>
