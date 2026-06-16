@@ -186,7 +186,6 @@ export const headerData = {
   ],
   actions: [
     { text: 'Semua Kalkulator', href: getPermalink('/kalkulator'), variant: 'primary' as const },
-    { text: 'DocuKilat', href: 'https://docukilat.rakyathub.my', variant: 'primary' as const },
   ],
 };
 

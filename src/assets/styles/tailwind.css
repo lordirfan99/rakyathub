@@ -63,6 +63,43 @@
   color: var(--aw-color-text-muted);
 }
 
+/* Premium nav link with underline grow */
+.nav-link {
+  position: relative;
+  color: var(--aw-color-text-default, #334155);
+  transition: color 0.2s ease;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #2563eb, #4f46e5);
+  transition: all 0.25s ease;
+  transform: translateX(-50%);
+  border-radius: 1px;
+}
+.nav-link:hover {
+  color: #2563eb;
+}
+.nav-link:hover::after {
+  width: 60%;
+}
+.dark .nav-link {
+  color: #cbd5e1;
+}
+.dark .nav-link:hover {
+  color: #60a5fa;
+}
+.aw-link-active {
+  color: #2563eb !important;
+}
+.dark .aw-link-active {
+  color: #60a5fa !important;
+}
+
 /* ========== BUTTONS — DocuKilat-sync ========== */
 .btn {
   display: inline-flex;
@@ -88,15 +125,16 @@
 
 .btn-primary {
   font-weight: 600;
-  background: #2563eb !important;
+  background: linear-gradient(135deg, #2563eb 0%, #4f46e5 100%) !important;
   color: #fff !important;
-  border-color: #2563eb !important;
+  border-color: transparent !important;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.25);
 }
 .btn-primary:hover {
-  background: #1d4ed8 !important;
-  border-color: #1d4ed8 !important;
+  background: linear-gradient(135deg, #1d4ed8 0%, #4338ca 100%) !important;
+  border-color: transparent !important;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.35);
 }
 
 .btn-secondary {
@@ -131,14 +169,14 @@
   background: #1e293b;
 }
 .dark .btn-primary {
-  background: #3b82f6 !important;
+  background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%) !important;
   color: #fff !important;
-  border-color: #3b82f6 !important;
+  border-color: transparent !important;
 }
 .dark .btn-primary:hover {
-  background: #2563eb !important;
-  border-color: #2563eb !important;
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+  background: linear-gradient(135deg, #2563eb 0%, #4f46e5 100%) !important;
+  border-color: transparent !important;
+  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.35);
 }
 .dark .btn-tertiary {
   background: transparent;
