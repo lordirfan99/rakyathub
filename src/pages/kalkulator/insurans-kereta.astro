@@ -1,6 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import InsuranceCalculator from '~/components/blog/InsuranceCalculator.astro';
 
 const metadata = {
   title: 'Insurans Kereta — Kira Premium & Cukai Jalan 2026',
@@ -21,163 +22,30 @@ const metadata = {
       Kira premium insurans kereta ikut jenis kenderaan, CC, NCD, dan lokasi. Bandingkan komprehensif vs 3rd party. Dapatkan anggaran segera.
     </p>
 
-    <!-- Calculator Card -->
-    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
-      <div class="grid md:grid-cols-2 gap-4 md:gap-6">
-        <!-- Vehicle Type -->
-        <div>
-          <label class="block text-sm font-semibold text-default mb-1.5">Jenis Kenderaan</label>
-          <select id="vehicleType"
-            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
-            <option value="sedan">Sedan / Hatchback</option>
-            <option value="suv">SUV / MPV</option>
-            <option value="pickup">Pickup / 4x4</option>
-            <option value="coupe">Coupe / Sports</option>
-            <option value="wagon">Wagon</option>
-          </select>
-        </div>
+    <!-- Premium Calculator (reused component) -->
+    <InsuranceCalculator title="🛡️ Kira Premium Sekarang" />
 
-        <!-- Market Value -->
-        <div>
-          <label for="marketValue" class="block text-sm font-semibold text-default mb-1.5">Nilai Pasaran (RM)</label>
-          <input type="number" id="marketValue" value="50000" min="5000" max="500000" step="1000"
-            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
-          <div class="flex justify-between text-xs text-muted mt-1 px-1">
-            <span>RM 5,000</span>
-            <span>RM 500,000</span>
-          </div>
+    <!-- How It Works -->
+    <div class="grid md:grid-cols-3 gap-6 my-10">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover text-center">
+        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-primary/20 to-indigo-500/20 flex items-center justify-center mx-auto mb-3">
+          <span class="text-xl">💰</span>
         </div>
-
-        <!-- Vehicle Age -->
-        <div>
-          <label for="vehicleAge" class="block text-sm font-semibold text-default mb-1.5">Usia Kenderaan (Tahun)</label>
-          <input type="number" id="vehicleAge" value="5" min="0" max="20" step="1"
-            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
-          <div class="flex justify-between text-xs text-muted mt-1 px-1">
-            <span>Baru</span>
-            <span>15+ tahun</span>
-          </div>
-        </div>
-
-        <!-- Engine Capacity -->
-        <div>
-          <label class="block text-sm font-semibold text-default mb-1.5">Kapasiti Enjin (CC)</label>
-          <select id="engineCC"
-            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
-            <option value="below1000">Bawah 1,000cc</option>
-            <option value="1000-1400">1,000 - 1,400cc</option>
-            <option value="1401-1600" selected>1,401 - 1,600cc</option>
-            <option value="1601-1800">1,601 - 1,800cc</option>
-            <option value="1801-2000">1,801 - 2,000cc</option>
-            <option value="2001-2500">2,001 - 2,500cc</option>
-            <option value="2501-3000">2,501 - 3,000cc</option>
-            <option value="above3000">Atas 3,000cc</option>
-          </select>
-        </div>
-
-        <!-- NCD -->
-        <div>
-          <label class="block text-sm font-semibold text-default mb-1.5">NCD (No Claim Discount)</label>
-          <select id="ncd"
-            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
-            <option value="0">0% (Baru / Selepas Tuntut)</option>
-            <option value="25">25% (1 tahun tanpa tuntutan)</option>
-            <option value="30">30% (2 tahun)</option>
-            <option value="38.33">38.33% (3 tahun)</option>
-            <option value="45">45% (4 tahun)</option>
-            <option value="55" selected>55% (5+ tahun)</option>
-          </select>
-        </div>
-
-        <!-- Coverage Type -->
-        <div>
-          <label class="block text-sm font-semibold text-default mb-1.5">Jenis Perlindungan</label>
-          <div class="flex gap-3">
-            <button id="coverThird" class="flex-1 rounded-xl border-2 px-4 py-3 text-sm font-semibold transition" onclick="setCoverage('third')">Third Party</button>
-            <button id="coverComp" class="flex-1 rounded-xl border-2 px-4 py-3 text-sm font-semibold transition" onclick="setCoverage('comp')">Komprehensif</button>
-          </div>
-          <p id="coverDesc" class="text-xs text-muted mt-1.5">Melindungi kereta sendiri + pihak ketiga, kecurian, dan kebakaran</p>
-        </div>
-
-        <!-- Region -->
-        <div>
-          <label class="block text-sm font-semibold text-default mb-1.5">Lokasi</label>
-          <select id="region"
-            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
-            <option value="peninsular">Semenanjung Malaysia</option>
-            <option value="sabah">Sabah & Sarawak</option>
-          </select>
-        </div>
-      </div>
-
-      <!-- Results -->
-      <div class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
-        <div class="rounded-xl bg-indigo-50 dark:bg-indigo-900/20 p-4 text-center">
-          <p class="text-xs text-muted uppercase tracking-wide">Premium Insurans</p>
-          <p class="text-2xl font-bold text-primary" id="hasilPremium">RM 0.00</p>
-        </div>
-        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
-          <p class="text-xs text-muted uppercase tracking-wide">Cukai Jalan</p>
-          <p class="text-2xl font-bold text-default" id="hasilRoadTax">RM 0.00</p>
-        </div>
-        <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
-          <p class="text-xs text-muted uppercase tracking-wide">Kos Setahun</p>
-          <p class="text-2xl font-bold text-emerald-700" id="hasilTotal">RM 0.00</p>
-        </div>
-        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
-          <p class="text-xs text-muted uppercase tracking-wide">Selepas NCD</p>
-          <p class="text-2xl font-bold text-amber-600" id="hasilAfterNCD">RM 0.00</p>
-        </div>
-      </div>
-
-      <!-- Breakdown Button -->
-      <div class="mt-4 text-center">
-        <button id="btnBreakdown" class="text-sm text-primary font-medium hover:underline" onclick="toggleBreakdown()">
-          📋 Lihat Breakdown Lengkap ▼
-        </button>
-      </div>
-      <div id="breakdownDetails" class="mt-4 hidden">
-        <div class="rounded-xl bg-gray-50 dark:bg-slate-800/50 p-4 md:p-6 text-sm space-y-2">
-          <div class="flex justify-between"><span>Premium Asas</span><span class="font-semibold" id="bdBasic">RM 0.00</span></div>
-          <div class="flex justify-between"><span>Loading (usia kenderaan)</span><span class="font-semibold" id="bdLoading">RM 0.00</span></div>
-          <div class="flex justify-between"><span>NCD (<span id="bdNcdPct">55</span>%)</span><span class="font-semibold text-red-500" id="bdNcd">-RM 0.00</span></div>
-          <div class="flex justify-between border-t border-gray-200 dark:border-slate-700 pt-2"><span>Premium Selepas NCD</span><span class="font-semibold" id="bdNet">RM 0.00</span></div>
-          <div class="flex justify-between"><span>SST (8%)</span><span class="font-semibold" id="bdSst">RM 0.00</span></div>
-          <div class="flex justify-between"><span>Duti Setem</span><span class="font-semibold" id="bdStamp">RM 10.00</span></div>
-          <div class="flex justify-between border-t-2 border-primary/30 pt-2 text-base"><span class="font-bold">Jumlah Premium</span><span class="font-bold text-primary" id="bdTotal">RM 0.00</span></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Bjak CTA -->
-    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8 mb-8 text-center">
-      <h3 class="text-xl font-bold mb-2">🛡️ Dapatkan Sebut Harga Sebenar</h3>
-      <p class="text-sm text-muted mb-4">Bandingkan 16 insurer — Allianz, Etiqa, Zurich, Tokio Marine, AXA & lagi. Percuma, 2 minit sahaja.</p>
-      <div class="flex flex-wrap justify-center gap-3">
-        <a href="https://bjak.my/en/car-insurance?p=MUHAMMAD-IRFAN-BIN-AZWARI-QR9RAS" target="_blank" rel="noopener noreferrer"
-          class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-primary/30 hover:scale-[1.02]">
-          Dapatkan Sebut Harga Percuma →
-        </a>
-        <a href="https://pay.u.shopee.com.my/KTdVTqS" target="_blank" rel="noopener noreferrer"
-          class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white dark:bg-slate-700 border border-gray-200 dark:border-slate-600 text-default font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:scale-[1.02]">
-          🎉 Cukai Jalan Percuma + RM25
-        </a>
-      </div>
-      <p class="text-xs text-muted mt-3">*Anggaran ini adalah indikatif. Premium sebenar mungkin berbeza mengikut insurer dan underwriting.</p>
-    </div>
-
-    <!-- Info Cards -->
-    <div class="grid md:grid-cols-3 gap-6 mb-8">
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
-        <h3 class="font-semibold text-lg mb-2">💰 Premium Insurans</h3>
+        <h3 class="font-semibold text-lg mb-2">Premium Insurans</h3>
         <p class="text-muted text-sm">Kira premium komprehensif dan 3rd party berdasarkan BNM Motor Tariff. Bandingkan sebelum renew.</p>
       </div>
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
-        <h3 class="font-semibold text-lg mb-2">📋 NCD Auto-Calculated</h3>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover text-center">
+        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-emerald-500/20 to-teal-500/20 flex items-center justify-center mx-auto mb-3">
+          <span class="text-xl">📋</span>
+        </div>
+        <h3 class="font-semibold text-lg mb-2">NCD Auto-Calculated</h3>
         <p class="text-muted text-sm">Diskaun NCB 0%-55% dikira automatik. Tengok berapa anda boleh jimat dengan rekod bersih.</p>
       </div>
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
-        <h3 class="font-semibold text-lg mb-2">🛣️ Cukai Jalan + Road Tax</h3>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover text-center">
+        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-amber-500/20 to-orange-500/20 flex items-center justify-center mx-auto mb-3">
+          <span class="text-xl">🛣️</span>
+        </div>
+        <h3 class="font-semibold text-lg mb-2">Cukai Jalan</h3>
         <p class="text-muted text-sm">Kira cukai jalan ikut kapasiti enjin. Untuk renew online di MyJPJ, Shopee atau MyEG.</p>
       </div>
     </div>
@@ -227,10 +95,6 @@ const metadata = {
           </tbody>
         </table>
       </div>
-      <div class="mt-4 text-sm text-muted">
-        <p class="mb-1"><strong>Pilih 3rd Party jika:</strong> Kereta &gt;10 tahun, nilai &lt;RM15,000, tiada loan, parkir di kawasan selamat.</p>
-        <p><strong>Pilih Komprehensif jika:</strong> Kereta baru/nilai tinggi, masih loan, kawasan berisiko banjir, mahukan perlindungan penuh.</p>
-      </div>
     </div>
 
     <!-- FAQ -->
@@ -246,203 +110,11 @@ const metadata = {
 
   <CallToAction
     actions={[
-      { variant: 'primary', text: 'Kalkulator Insurans Motor', href: '/kalkulator/insurans-motor' },
-      { variant: 'secondary', text: 'Kalkulator Pinjaman Kereta', href: '/kalkulator/kereta' },
+      { variant: 'primary', text: 'Kalkulator Pinjaman Kereta', href: '/kalkulator/kereta' },
+      { variant: 'secondary', text: 'Kalkulator Loan Rumah', href: '/kalkulator/loan-rumah' },
     ]}
   >
-    <Fragment slot="title">Nak kira insurans motor atau loan kereta?</Fragment>
+    <Fragment slot="title">Nak kira loan kereta atau rumah?</Fragment>
     <Fragment slot="subtitle">Semua kalkulator percuma — guna sekarang.</Fragment>
   </CallToAction>
-
-  <script is:inline>
-// ─── BNM Motor Tariff Reference Data ───
-// Comprehensive: per-RM1,000 rate for sum insured over RM5,000
-// Source: BNM Motor Tariff (de-tariffed reference rates)
-var COMP_RATES = {
-  peninsular: {
-    below1000:  { basic: 213.00, rate: 2.6 },
-    '1000-1400': { basic: 248.30, rate: 2.6 },
-    '1401-1600': { basic: 279.70, rate: 3.0 },
-    '1601-1800': { basic: 306.50, rate: 3.2 },
-    '1801-2000': { basic: 331.30, rate: 3.5 },
-    '2001-2500': { basic: 386.90, rate: 4.2 },
-    '2501-3000': { basic: 451.90, rate: 6.3 },
-    above3000:   { basic: 487.40, rate: 6.7 },
-  },
-  sabah: {
-    below1000:  { basic: 191.70, rate: 2.34 },
-    '1000-1400': { basic: 223.47, rate: 2.34 },
-    '1401-1600': { basic: 251.73, rate: 2.70 },
-    '1601-1800': { basic: 275.85, rate: 2.88 },
-    '1801-2000': { basic: 298.17, rate: 3.15 },
-    '2001-2500': { basic: 348.21, rate: 3.78 },
-    '2501-3000': { basic: 406.71, rate: 5.67 },
-    above3000:   { basic: 438.66, rate: 6.03 },
-  }
-};
-
-// Third Party: fixed premium by CC (more affordable)
-var THIRD_PARTY_RATES = {
-  peninsular: {
-    below1000:  150,
-    '1000-1400': 175,
-    '1401-1600': 200,
-    '1601-1800': 225,
-    '1801-2000': 250,
-    '2001-2500': 300,
-    '2501-3000': 350,
-    above3000:   400,
-  },
-  sabah: {
-    below1000:  135,
-    '1000-1400': 157,
-    '1401-1600': 180,
-    '1601-1800': 202,
-    '1801-2000': 225,
-    '2001-2500': 270,
-    '2501-3000': 315,
-    above3000:   360,
-  }
-};
-
-// Loading factor by vehicle age (comprehensive only)
-// Older cars have higher loading due to higher risk
-function getLoading(age) {
-  if (age <= 3) return 0;
-  if (age <= 5) return 0.05;  // 5%
-  if (age <= 7) return 0.10;  // 10%
-  if (age <= 10) return 0.15; // 15%
-  return 0.20; // 20% for 10+ years
-}
-
-// Road tax formula (JPJ 2026)
-function calcRoadTax(ccKey) {
-  var ranges = {
-    below1000:  [0, 1000, 20.00],
-    '1000-1400': [1001, 1200, 55.00],
-    '1000-1400_2': [1201, 1400, 70.00],
-    '1401-1600': [1401, 1600, 90.00],
-    '1601-1800': [1601, 1800, 150.00],
-    '1801-2000': [1801, 2000, 200.00],
-    '2001-2500': [2001, 2500, 300.00],
-    '2501-3000': [2501, 3000, 450.00],
-    above3000: [3001, 99999, 0], // calculated differently
-  };
-  // Simple lookup based on CC key
-  var map = {
-    below1000: 20,
-    '1000-1400': 70,
-    '1401-1600': 90,
-    '1601-1800': 150,
-    '1801-2000': 200,
-    '2001-2500': 300,
-    '2501-3000': 450,
-    above3000: 500,
-  };
-  return map[ccKey] || 90;
-}
-
-// Format currency
-function fmt(v) { 
-  return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); 
-}
-function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
-
-var coverageType = 'comp'; // 'comp' or 'third'
-
-function setCoverage(type) {
-  coverageType = type;
-  var compBtn = document.getElementById('coverComp');
-  var thirdBtn = document.getElementById('coverThird');
-  var desc = document.getElementById('coverDesc');
-  if (type === 'comp') {
-    compBtn.className = 'flex-1 rounded-xl border-2 border-primary bg-primary/10 px-4 py-3 text-sm font-semibold text-primary';
-    thirdBtn.className = 'flex-1 rounded-xl border-2 border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-sm font-semibold text-default';
-    desc.textContent = 'Melindungi kereta sendiri + pihak ketiga, kecurian, dan kebakaran';
-  } else {
-    thirdBtn.className = 'flex-1 rounded-xl border-2 border-primary bg-primary/10 px-4 py-3 text-sm font-semibold text-primary';
-    compBtn.className = 'flex-1 rounded-xl border-2 border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-sm font-semibold text-default';
-    desc.textContent = 'Melindungi pihak ketiga sahaja — pilihan paling murah untuk kereta lama';
-  }
-  calc();
-}
-
-function toggleBreakdown() {
-  var el = document.getElementById('breakdownDetails');
-  var btn = document.getElementById('btnBreakdown');
-  el.classList.toggle('hidden');
-  btn.textContent = el.classList.contains('hidden') ? '📋 Lihat Breakdown Lengkap ▼' : '📋 Sembunyikan Breakdown ▲';
-}
-
-function calc() {
-  var mv = sn(document.getElementById('marketValue').value, 50000);
-  var age = sn(document.getElementById('vehicleAge').value, 5);
-  var ccKey = document.getElementById('engineCC').value;
-  var ncdPct = sn(document.getElementById('ncd').value, 55);
-  var region = document.getElementById('region').value;
-
-  if (mv < 1000) {
-    // Reset all
-    ['hasilPremium','hasilAfterNCD','hasilRoadTax','hasilTotal'].forEach(function(id) {
-      document.getElementById(id).textContent = 'RM 0.00';
-    });
-    return;
-  }
-
-  var ncdFactor = ncdPct / 100;
-  var loading = coverageType === 'comp' ? getLoading(age) : 0;
-  var grossPremium = 0;
-
-  if (coverageType === 'comp') {
-    var rates = COMP_RATES[region][ccKey];
-    // Premium = basic (first RM5,000) + rate per RM1,000 on excess
-    var excess = Math.max(0, mv - 5000);
-    grossPremium = rates.basic + (excess / 1000) * rates.rate;
-  } else {
-    // Third party
-    grossPremium = THIRD_PARTY_RATES[region][ccKey];
-  }
-
-  // Apply age loading (comprehensive only)
-  var loadAmt = coverageType === 'comp' ? grossPremium * loading : 0;
-  var afterLoading = grossPremium + loadAmt;
-
-  // NCD applies to gross premium (after loading)
-  var ncdAmt = afterLoading * ncdFactor;
-  var afterNcd = afterLoading - ncdAmt;
-
-  // SST 8% + Stamp Duty RM10
-  var sst = afterNcd * 0.08;
-  var stamp = 10;
-  var totalPremium = afterNcd + sst + stamp;
-
-  // Road tax
-  var roadTax = calcRoadTax(ccKey);
-
-  // Display
-  document.getElementById('hasilPremium').textContent = fmt(grossPremium);
-  document.getElementById('hasilAfterNCD').textContent = fmt(afterNcd);
-  document.getElementById('hasilRoadTax').textContent = fmt(roadTax);
-  var total = totalPremium + roadTax;
-  document.getElementById('hasilTotal').textContent = fmt(total);
-
-  // Breakdown
-  document.getElementById('bdBasic').textContent = fmt(grossPremium);
-  document.getElementById('bdLoading').textContent = fmt(loadAmt);
-  document.getElementById('bdNcdPct').textContent = (ncdPct * 100).toFixed(0);
-  document.getElementById('bdNcd').textContent = '- ' + fmt(ncdAmt);
-  document.getElementById('bdNet').textContent = fmt(afterNcd);
-  document.getElementById('bdSst').textContent = fmt(sst);
-  document.getElementById('bdStamp').textContent = fmt(stamp);
-  document.getElementById('bdTotal').textContent = fmt(totalPremium);
-}
-
-// Bind input events
-['marketValue','vehicleAge','engineCC','ncd','region'].forEach(function(id) {
-  var el = document.getElementById(id);
-  if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
-});
-
-calc(); // Initial calculation
-  </script>
 </Layout>
