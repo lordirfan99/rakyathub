@@ -14,19 +14,10 @@ export async function getStaticPaths() {
 const { item } = Astro.props;
 const isUp = item.change > 0.01;
 const isDown = item.change < -0.01;
+const arrow = isUp ? '▲' : isDown ? '▼' : '➡';
 const premises = (item.premises || []).slice(0, 12);
 const lowest = premises[0];
-
-// Get unique states from premises
 const states = [...new Set(premises.map(p => p.state).filter(Boolean))].sort();
-// Get districts per state
-const districtsByState = {};
-premises.forEach(p => {
-  if (p.state && p.district) {
-    if (!districtsByState[p.state]) districtsByState[p.state] = new Set();
-    districtsByState[p.state].add(p.district);
-  }
-});
 
 const metadata = {
   title: `Harga ${item.name} Malaysia — RM${item.price.toFixed(2)} (${item.latest_date}) | RakyatHub`,
@@ -38,19 +29,18 @@ const metadata = {
   .tabular-nums { font-variant-numeric: tabular-nums; }
   .premise-card { transition: all .15s; }
   .premise-card:active { transform: scale(0.98); }
-  .state-btn { transition: all .15s; -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+  .state-btn { transition: all .15s; -webkit-tap-highlight-color: transparent; }
   .state-btn:active { transform: scale(0.95); }
-  @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-  .fade-in { animation: fadeIn .3s ease-out; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+  .fade-in { animation: fadeIn .25s ease-out; }
   @keyframes pulse-dot { 0%,100%{opacity:1} 50%{opacity:0.3} }
   .live-dot { animation: pulse-dot 2s ease-in-out infinite; }
-  .near-you-btn { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
 </style>
 
 <Layout metadata={metadata}>
-  <section class="max-w-5xl mx-auto px-3 sm:px-6 py-6 md:py-12">
+  <section class="max-w-5xl mx-auto px-3 sm:px-6 py-4 md:py-10">
     <!-- Breadcrumb -->
-    <div class="flex items-center gap-1.5 text-[11px] text-muted/60 mb-1 overflow-x-auto whitespace-nowrap pb-1">
+    <div class="flex items-center gap-1.5 text-[10px] sm:text-xs text-muted/60 mb-1 overflow-x-auto whitespace-nowrap pb-0.5">
       <a href="/" class="hover:text-primary shrink-0">Laman Utama</a>
       <span class="shrink-0">/</span>
       <a href="/harga-makanan-hari-ini/" class="hover:text-primary shrink-0">Harga</a>
@@ -58,243 +48,156 @@ const metadata = {
       <span class="truncate">{item.name}</span>
     </div>
 
-    <!-- Hero -->
-    <h1 class="text-xl sm:text-4xl font-bold tracking-tight mb-1">Harga {item.name}</h1>
-    <p class="text-[11px] sm:text-sm text-muted/70 mb-4">Data <strong>KPDN PriceCatcher</strong> • {item.latest_date} • {item.sample_size?.toLocaleString() || '-'} sampel</p>
+    <!-- Title + Subtitle -->
+    <h1 class="text-lg sm:text-3xl font-bold tracking-tight mb-0.5">Harga {item.name}</h1>
+    <p class="text-[10px] sm:text-sm text-muted/60 mb-3">KPDN PriceCatcher • {item.latest_date} • {item.sample_size?.toLocaleString() || '-'} sampel</p>
 
-    <!-- Price Overview - responsive grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 mb-5">
-      <div class="rounded-2xl bg-blue-50 dark:bg-blue-950/30 border-2 border-blue-200 dark:border-blue-800/50 shadow-lg p-4 sm:p-5 text-center">
-        <p class="text-xs sm:text-sm text-blue-600 dark:text-blue-400 font-bold uppercase tracking-wider mb-1">Purata Nasional</p>
-        <p class="text-3xl sm:text-4xl font-black text-blue-700 dark:text-blue-300 tabular-nums">RM {item.price.toFixed(2)}</p>
-        <p class="text-xs sm:text-sm text-muted/70 mt-1 font-medium">/{item.unit || 'unit'}</p>
+    <!-- ===== COMPACT PRICE BAR (horizontal row of chips) ===== -->
+    <div class="grid grid-cols-4 sm:grid-cols-4 gap-1.5 sm:gap-3 mb-3">
+      <div class="rounded-lg sm:rounded-xl bg-blue-50 dark:bg-blue-950/30 border border-blue-200 dark:border-blue-800/40 p-1.5 sm:p-4 text-center">
+        <p class="text-[7px] sm:text-[10px] text-blue-600 dark:text-blue-400 font-bold uppercase tracking-wider">Purata</p>
+        <p class="text-xs sm:text-2xl md:text-3xl font-black text-blue-700 dark:text-blue-300 tabular-nums leading-tight">RM{item.price.toFixed(2)}</p>
+        <p class="text-[7px] sm:text-[10px] text-muted/50 hidden sm:block">/{item.unit || 'unit'}</p>
       </div>
-
-      <div class={"rounded-2xl border-2 shadow-lg p-4 sm:p-5 text-center " + (isUp ? "bg-red-50 dark:bg-red-950/30 border-red-300 dark:border-red-700/50" : isDown ? "bg-green-50 dark:bg-green-950/30 border-green-300 dark:border-green-700/50" : "bg-gray-50 dark:bg-gray-800/30 border-gray-300 dark:border-gray-600/50")}>
-        <p class={"text-xs sm:text-sm font-bold uppercase tracking-wider mb-1 " + (isUp ? "text-red-600 dark:text-red-400" : isDown ? "text-green-600 dark:text-green-400" : "text-gray-600 dark:text-gray-400")}>
-          {isUp ? '▲ Naik' : isDown ? '▼ Turun' : '➡ Stabil'}
-        </p>
-        <p class={"text-3xl sm:text-4xl font-black tabular-nums " + (isUp ? "text-red-700 dark:text-red-300" : isDown ? "text-green-700 dark:text-green-300" : "text-gray-700 dark:text-gray-300")}>
-          {item.change_pct >= 0 ? '+' : ''}{item.change_pct.toFixed(1)}%
-        </p>
-        <p class="text-xs sm:text-sm text-muted/70 mt-1 font-medium">vs semalam RM{Math.abs(item.change).toFixed(2)}</p>
+      <div class={"rounded-lg sm:rounded-xl border p-1.5 sm:p-4 text-center " + (isUp ? "bg-red-50 dark:bg-red-950/30 border-red-200 dark:border-red-800/40" : isDown ? "bg-green-50 dark:bg-green-950/30 border-green-200 dark:border-green-800/40" : "bg-gray-50 dark:bg-gray-800/30 border-gray-200 dark:border-gray-700/40")}>
+        <p class={"text-[7px] sm:text-[10px] font-bold uppercase tracking-wider " + (isUp ? "text-red-600 dark:text-red-400" : isDown ? "text-green-600 dark:text-green-400" : "text-gray-600 dark:text-gray-400")}>{isUp ? '▲ Naik' : isDown ? '▼ Turun' : '➡ Stabil'}</p>
+        <p class={"text-xs sm:text-2xl md:text-3xl font-black tabular-nums leading-tight " + (isUp ? "text-red-700 dark:text-red-300" : isDown ? "text-green-700 dark:text-green-300" : "text-gray-700 dark:text-gray-300")}>{item.change_pct >= 0 ? '+' : ''}{item.change_pct.toFixed(1)}%</p>
+        <p class="text-[7px] sm:text-[10px] text-muted/50 hidden sm:block">vs RM{Math.abs(item.change).toFixed(2)}</p>
       </div>
-
-      <div class="rounded-2xl bg-green-50 dark:bg-green-950/30 border-2 border-green-200 dark:border-green-800/50 shadow-lg p-4 sm:p-5 text-center">
-        <p class="text-xs sm:text-sm text-green-600 dark:text-green-400 font-bold uppercase tracking-wider mb-1">Termurah</p>
-        <p class="text-3xl sm:text-4xl font-black text-green-700 dark:text-green-300 tabular-nums">RM {(item.min_price || item.price).toFixed(2)}</p>
-        <p class="text-xs sm:text-sm text-muted/70 mt-1 font-medium truncate">{lowest?.name ? lowest.name.slice(0,28) : '-'}</p>
+      <div class="rounded-lg sm:rounded-xl bg-green-50 dark:bg-green-950/30 border border-green-200 dark:border-green-800/40 p-1.5 sm:p-4 text-center">
+        <p class="text-[7px] sm:text-[10px] text-green-600 dark:text-green-400 font-bold uppercase tracking-wider">Termurah</p>
+        <p class="text-xs sm:text-2xl md:text-3xl font-black text-green-700 dark:text-green-300 tabular-nums leading-tight">RM{(item.min_price || item.price).toFixed(2)}</p>
+        <p class="text-[7px] sm:text-[10px] text-green-600/70 dark:text-green-400/70 truncate hidden sm:block">{lowest?.name?.slice(0,18) || '-'}</p>
       </div>
-
-      <div class="rounded-2xl bg-amber-50 dark:bg-amber-950/30 border-2 border-amber-200 dark:border-amber-800/50 shadow-lg p-4 sm:p-5 text-center">
-        <p class="text-xs sm:text-sm text-amber-600 dark:text-amber-400 font-bold uppercase tracking-wider mb-1">Termahal</p>
-        <p class="text-3xl sm:text-4xl font-black text-amber-700 dark:text-amber-300 tabular-nums">RM {(item.max_price || item.price).toFixed(2)}</p>
-        <p class="text-xs sm:text-sm text-muted/70 mt-1 font-medium truncate">{premises.length > 0 ? premises[premises.length-1]?.name?.slice(0,28) : '-'}</p>
+      <div class="rounded-lg sm:rounded-xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-800/40 p-1.5 sm:p-4 text-center">
+        <p class="text-[7px] sm:text-[10px] text-amber-600 dark:text-amber-400 font-bold uppercase tracking-wider">Termahal</p>
+        <p class="text-xs sm:text-2xl md:text-3xl font-black text-amber-700 dark:text-amber-300 tabular-nums leading-tight">RM{(item.max_price || item.price).toFixed(2)}</p>
+        <p class="text-[7px] sm:text-[10px] text-muted/50 truncate hidden sm:block">{premises.length > 0 ? premises[premises.length-1]?.name?.slice(0,18) : '-'}</p>
       </div>
     </div>
 
-    <!-- NEAR YOU - Auto detect location -->
+    <!-- ===== NEAR YOU ===== -->
     {premises.length > 0 && (
-    <div class="mb-4">
-      <button id="nearYouBtn" onclick="detectLocation()" class="near-you-btn w-full rounded-xl sm:rounded-2xl bg-gradient-to-r from-indigo-50 to-blue-50 dark:from-indigo-950/30 dark:to-blue-950/20 border border-indigo-200 dark:border-indigo-800/30 p-3.5 sm:p-4 flex items-center justify-between text-left">
-        <div class="flex items-center gap-2.5">
-          <span class="text-xl sm:text-2xl">📍</span>
-          <div>
-            <p class="text-sm sm:text-base font-bold text-indigo-700 dark:text-indigo-300">Harga di Kawasan Saya</p>
-            <p id="nearYouStatus" class="text-[11px] sm:text-xs text-muted/60">Ketik untuk guna lokasi anda</p>
-          </div>
+    <button id="nearYouBtn" onclick="detectLocation()" class="w-full rounded-xl bg-gradient-to-r from-indigo-50 to-blue-50 dark:from-indigo-950/30 dark:to-blue-950/20 border border-indigo-200 dark:border-indigo-800/30 p-2.5 sm:p-4 flex items-center justify-between text-left mb-3">
+      <div class="flex items-center gap-2">
+        <span class="text-base sm:text-xl">📍</span>
+        <div>
+          <p class="text-xs sm:text-base font-bold text-indigo-700 dark:text-indigo-300">Harga di Kawasan Saya</p>
+          <p id="nearYouStatus" class="text-[9px] sm:text-xs text-muted/60">Ketik untuk guna lokasi anda</p>
         </div>
-        <svg class="w-4 h-4 sm:w-5 sm:h-5 text-indigo-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
-      </button>
-      <div id="nearYouResults" class="hidden mt-2"></div>
-    </div>
+      </div>
+      <svg class="w-3 h-3 sm:w-5 sm:h-5 text-indigo-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+    </button>
     )}
+    <div id="nearYouResults" class="hidden mb-3"></div>
 
-    <!-- TEMPAT TERMURAH with STATE FILTER -->
+    <!-- ===== TEMPAT TERMURAH ===== -->
     {premises.length > 0 && (
-    <div class="mb-5">
-      <div class="flex items-center justify-between mb-2.5">
-        <h2 class="text-base sm:text-lg font-bold">🏪 Tempat Termurah</h2>
-        <span class="text-[10px] sm:text-xs text-muted/50">{premises.length} premis</span>
+    <div>
+      <div class="flex items-center justify-between mb-2">
+        <h2 class="text-sm sm:text-lg font-bold">🏪 Tempat Termurah</h2>
+        <span class="text-[9px] sm:text-xs text-muted/50">{premises.length} premis</span>
       </div>
 
-      <!-- State Filter Chips (horizontal scroll on mobile) -->
-      <div class="flex overflow-x-auto gap-1.5 pb-2 mb-2.5 -mx-3 sm:-mx-6 px-3 sm:px-6 scrollbar-hide" style="-webkit-overflow-scrolling:touch">
-        <button onclick="filterState('all')" class="state-btn state-active shrink-0 px-2.5 py-1.5 rounded-lg text-[11px] sm:text-xs font-semibold transition-all border border-indigo-400 bg-indigo-500 text-white" data-state="all">Semua</button>
+      <!-- State Filter Chips (horizontal scroll) -->
+      <div class="flex overflow-x-auto gap-1 pb-2 mb-2 -mx-3 sm:-mx-6 px-3 sm:px-6 scrollbar-hide" style="-webkit-overflow-scrolling:touch">
+        <button onclick="filterState('all')" class="state-btn state-active shrink-0 px-2 py-1.5 rounded-lg text-[10px] sm:text-xs font-semibold border border-indigo-400 bg-indigo-500 text-white" data-state="all">Semua</button>
         {states.map(s => (
-          <button onclick={`filterState('${s.replace(/'/g, "\\'")}')`} class="state-btn shrink-0 px-2.5 py-1.5 rounded-lg text-[11px] sm:text-xs font-semibold transition-all border border-gray-200 dark:border-slate-700 text-muted hover:border-indigo-300" data-state={s}>
-            {s}
-          </button>
+          <button onclick={`filterState('${s.replace(/'/g, "\\'")}')`} class="state-btn shrink-0 px-2 py-1.5 rounded-lg text-[10px] sm:text-xs font-semibold border border-gray-200 dark:border-slate-700 text-muted hover:border-indigo-300" data-state={s}>{s}</button>
         ))}
       </div>
 
-      <!-- Premium Cards -->
-      <div id="premisesList" class="grid gap-2">
+      <!-- Store Cards -->
+      <div id="premisesList" class="grid gap-1.5 sm:gap-2">
         {premises.map((p, i) => (
-          <div class="premise-card fade-in rounded-xl sm:rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-3 sm:p-4"
+          <div class="premise-card fade-in rounded-xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/40 shadow-sm p-2.5 sm:p-4"
                data-state={p.state || 'unknown'} data-district={p.district || ''} data-price={p.price}>
-            <div class="flex items-center gap-2.5">
-              <span class={"shrink-0 w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center text-xs sm:text-sm font-bold " + (i === 0 ? "bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-400" : "bg-gray-100 dark:bg-slate-800 text-muted")}>
+            <div class="flex items-center gap-2">
+              <span class={"shrink-0 w-6 h-6 sm:w-8 sm:h-8 rounded-full flex items-center justify-center text-[9px] sm:text-sm font-bold " + (i === 0 ? "bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-400" : "bg-gray-100 dark:bg-slate-800 text-muted")}>
                 {i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : `#${i+1}`}
               </span>
               <div class="min-w-0 flex-1">
-                <p class="text-sm sm:text-base font-semibold truncate">{p.name}</p>
-                <p class="text-[10px] sm:text-xs text-muted/60">
-                  {p.district ? `${p.district}, ` : ''}{p.state}
-                  {p.type ? ` · ${p.type.replace(/\s+/g,' ').trim()}` : ''}
-                </p>
-              </div>
-              <div class="shrink-0 text-right ml-1">
-                <p class="text-base sm:text-xl font-black tabular-nums" style={i === 0 ? 'color:#059669' : ''}>RM {p.price.toFixed(2)}</p>
-                {i === 0 && <span class="text-[8px] sm:text-[10px] font-bold text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-1.5 py-0.5 rounded-full">MURAH</span>}
+                <div class="flex items-center justify-between gap-1">
+                  <p class="text-xs sm:text-base font-semibold truncate">{p.name}</p>
+                  <div class="shrink-0 text-right">
+                    <p class="text-sm sm:text-xl font-black tabular-nums" style={i === 0 ? 'color:#059669' : ''}>RM {p.price.toFixed(2)}</p>
+                    {i === 0 && <span class="text-[7px] sm:text-[10px] font-bold text-green-600 bg-green-50 dark:bg-green-900/30 px-1 py-0.5 rounded-full whitespace-nowrap">MURAH</span>}
+                  </div>
+                </div>
+                <p class="text-[9px] sm:text-xs text-muted/60">{p.district ? `${p.district}, ` : ''}{p.state}{p.type ? ` · ${p.type.replace(/\s+/g,' ').trim()}` : ''}</p>
               </div>
             </div>
-            {p.address && (
-              <div class="flex items-center gap-1 mt-1.5 ml-9 sm:ml-10.5">
-                <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.address + ', ' + p.state)}`} target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-[10px] sm:text-xs text-blue-600 dark:text-blue-400 font-medium hover:text-blue-800 dark:hover:text-blue-300 transition-colors">
-                  <span class="text-sm">🗺️</span> Buka Google Maps
-                </a>
-              </div>
-            )}
+            <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((p.address || p.name) + ', ' + (p.state || ''))}`} target="_blank" rel="noopener" class="inline-flex items-center gap-1 mt-1 ml-8 sm:ml-10 text-[9px] sm:text-xs text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 underline decoration-dotted underline-offset-2 truncate max-w-full">
+              📍 {p.address || p.name}
+            </a>
           </div>
         ))}
       </div>
     </div>
     )}
 
-    <!-- Ringkasan - Collapsible on Mobile -->
-    <details class="rounded-xl sm:rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm mb-4 sm:mb-6 overflow-hidden">
-      <summary class="p-3.5 sm:p-5 text-sm sm:text-base font-bold cursor-pointer list-none flex items-center justify-between select-none">
+    <!-- Ringkasan (collapsible) -->
+    <details class="rounded-xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm mt-3 sm:mt-5 overflow-hidden">
+      <summary class="p-2.5 sm:p-4 text-xs sm:text-base font-bold cursor-pointer list-none flex items-center justify-between select-none">
         <span>📊 Ringkasan</span>
-        <svg class="w-4 h-4 text-muted transition-transform details-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+        <svg class="w-3 h-3 sm:w-4 sm:h-4 text-muted transition-transform details-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
       </summary>
-      <div class="px-3.5 sm:px-5 pb-3.5 sm:pb-5">
-        <div class="grid grid-cols-2 gap-3 sm:gap-4 text-[11px] sm:text-sm">
-          <div>
-            <div class="flex justify-between py-1.5 sm:py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Purata</span><span class="font-semibold tabular-nums">RM {item.price.toFixed(2)}</span></div>
-            <div class="flex justify-between py-1.5 sm:py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Termurah</span><span class="font-semibold tabular-nums" style="color:#16a34a">RM {(item.min_price || item.price).toFixed(2)}</span></div>
-            <div class="flex justify-between py-1.5 sm:py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Termahal</span><span class="font-semibold tabular-nums" style="color:#dc2626">RM {(item.max_price || item.price).toFixed(2)}</span></div>
-            <div class="flex justify-between py-1.5 sm:py-2"><span class="text-muted">Unit</span><span class="font-semibold">{item.unit || '—'}</span></div>
-          </div>
-          <div>
-            <div class="flex justify-between py-1.5 sm:py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Trend</span><span class="font-semibold">{isUp ? '📈 Naik' : isDown ? '📉 Turun' : '➡ Stabil'}</span></div>
-            <div class="flex justify-between py-1.5 sm:py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Perubahan</span><span class="font-semibold tabular-nums">{(isUp ? '▲' : isDown ? '▼' : '➡')} RM {Math.abs(item.change).toFixed(2)} ({item.change_pct > 0 ? '+' : ''}{item.change_pct.toFixed(1)}%)</span></div>
-            <div class="flex justify-between py-1.5 sm:py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Sampel</span><span class="font-semibold tabular-nums">{item.sample_size?.toLocaleString() || '—'}</span></div>
-            <div class="flex justify-between py-1.5 sm:py-2"><span class="text-muted">Update</span><span class="font-semibold">{item.latest_date}</span></div>
-          </div>
-        </div>
+      <div class="px-2.5 sm:px-4 pb-2.5 sm:pb-4 grid grid-cols-2 gap-2 text-[10px] sm:text-sm">
+        <div><div class="flex justify-between py-1 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Purata</span><span class="font-semibold tabular-nums">RM {item.price.toFixed(2)}</span></div><div class="flex justify-between py-1 border-b"><span class="text-muted">Termurah</span><span class="font-semibold tabular-nums" style="color:#16a34a">RM {(item.min_price || item.price).toFixed(2)}</span></div><div class="flex justify-between py-1"><span class="text-muted">Unit</span><span class="font-semibold">{item.unit || '—'}</span></div></div>
+        <div><div class="flex justify-between py-1 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Trend</span><span class="font-semibold">{isUp ? '📈 Naik' : isDown ? '📉 Turun' : '➡ Stabil'}</span></div><div class="flex justify-between py-1 border-b"><span class="text-muted">Perubahan</span><span class="font-semibold tabular-nums">{arrow} RM {Math.abs(item.change).toFixed(2)} ({item.change_pct > 0 ? '+' : ''}{item.change_pct.toFixed(1)}%)</span></div><div class="flex justify-between py-1"><span class="text-muted">Update</span><span class="font-semibold">{item.latest_date}</span></div></div>
       </div>
     </details>
 
-    <!-- FAQ - Collapsible on Mobile -->
-    <details class="rounded-xl sm:rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm mb-4 sm:mb-6 overflow-hidden">
-      <summary class="p-3.5 sm:p-5 text-sm sm:text-base font-bold cursor-pointer list-none flex items-center justify-between select-none">
-        <span>❓ Soalan Lazim</span>
-        <svg class="w-4 h-4 text-muted transition-transform details-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+    <!-- FAQ (collapsible) -->
+    <details class="rounded-xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm mt-2 sm:mt-3 overflow-hidden">
+      <summary class="p-2.5 sm:p-4 text-xs sm:text-base font-bold cursor-pointer list-none flex items-center justify-between select-none">
+        <span>❓ FAQ</span>
+        <svg class="w-3 h-3 sm:w-4 sm:h-4 text-muted transition-transform details-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
       </summary>
-      <div class="px-3.5 sm:px-5 pb-3.5 sm:pb-5 space-y-3 text-[11px] sm:text-sm">
-        <div>
-          <h3 class="font-semibold mb-0.5">Berapa harga {item.name} hari ini?</h3>
-          <p class="text-muted">RM {item.price.toFixed(2)}/{item.unit || 'unit'} (purata nasional) setakat {item.latest_date}.</p>
-        </div>
-        <div>
-          <h3 class="font-semibold mb-0.5">Di mana beli paling murah?</h3>
-          <p class="text-muted">
-            {lowest ? `Termurah RM${lowest.price.toFixed(2)} di ${lowest.name} (${lowest.state}).` : 'Guna aplikasi KPDN PriceCatcher.'}
-            {premises.length > 0 && ` Antara yang murah: ${premises.slice(0,3).map(p => p.name).join(', ')}.`}
-          </p>
-        </div>
-        <div>
-          <h3 class="font-semibold mb-0.5">Harga naik atau turun?</h3>
-          <p class="text-muted">{isUp ? `Naik ${Math.abs(item.change_pct).toFixed(1)}%.` : isDown ? `Turun ${Math.abs(item.change_pct).toFixed(1)}%.` : 'Stabil.'}</p>
-        </div>
+      <div class="px-2.5 sm:px-4 pb-2.5 sm:pb-4 space-y-2 text-[10px] sm:text-sm">
+        <div><h3 class="font-semibold mb-0.5">Berapa harga {item.name} hari ini?</h3><p class="text-muted">RM {item.price.toFixed(2)}/{item.unit || 'unit'} (purata nasional) setakat {item.latest_date}.</p></div>
+        <div><h3 class="font-semibold mb-0.5">Di mana beli paling murah?</h3><p class="text-muted">{lowest ? `Termurah RM${lowest.price.toFixed(2)} di ${lowest.name} (${lowest.state}).` : 'Guna aplikasi KPDN PriceCatcher.'}</p></div>
+        <div><h3 class="font-semibold mb-0.5">Harga naik atau turun?</h3><p class="text-muted">{isUp ? `Naik ${Math.abs(item.change_pct).toFixed(1)}%.` : isDown ? `Turun ${Math.abs(item.change_pct).toFixed(1)}%.` : 'Stabil.'}</p></div>
       </div>
     </details>
 
     <!-- Disclaimer -->
-    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-3 sm:p-4 mb-6 text-[10px] sm:text-xs text-muted">
-      <strong>⚠️ Penafian:</strong> Harga purata & premis tertentu. Harga sebenar mungkin berbeza. Sumber: KPDN PriceCatcher (CC BY 4.0).
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800/50 p-2 sm:p-4 mt-2 sm:mt-3 text-[8px] sm:text-xs text-muted">
+      <strong>⚠️ Penafian:</strong> Harga purata & premis. Harga sebenar mungkin berbeza. Sumber: KPDN PriceCatcher (CC BY 4.0).
     </div>
   </section>
 
   <script is:inline>
-// ── STATE FILTER ──
 var allPremises = document.querySelectorAll('.premise-card');
 var allStateBtns = document.querySelectorAll('.state-btn');
 
 function filterState(state) {
-  // Update button styles
   allStateBtns.forEach(function(b) {
     var isActive = b.getAttribute('data-state') === state;
-    b.className = 'state-btn shrink-0 px-2.5 py-1.5 rounded-lg text-[11px] sm:text-xs font-semibold transition-all border ' + (isActive ? 'border-indigo-400 bg-indigo-500 text-white' : 'border-gray-200 dark:border-slate-700 text-muted hover:border-indigo-300');
+    b.className = 'state-btn shrink-0 px-2 py-1.5 rounded-lg text-[10px] sm:text-xs font-semibold border ' + (isActive ? 'border-indigo-400 bg-indigo-500 text-white' : 'border-gray-200 dark:border-slate-700 text-muted hover:border-indigo-300');
     if(isActive) b.classList.add('state-active');
   });
-  // Filter premises
   allPremises.forEach(function(p) {
     p.style.display = (state === 'all' || p.getAttribute('data-state') === state) ? '' : 'none';
   });
 }
 
-// ── GEOLOCATION (Near You) ──
 function detectLocation() {
-  var btn = document.getElementById('nearYouBtn');
   var status = document.getElementById('nearYouStatus');
   var results = document.getElementById('nearYouResults');
-
   status.textContent = 'Mengesan lokasi...';
-
-  if (!navigator.geolocation) {
-    status.textContent = 'Lokasi tidak disokong browser ini';
-    return;
-  }
-
+  if (!navigator.geolocation) { status.textContent = 'Lokasi tidak disokong'; return; }
   navigator.geolocation.getCurrentPosition(
-    function(pos) {
-      // Use reverse lookup: approximate state by coords
-      // We'll just filter to the most likely state and show nearby premises
+    function() {
       status.textContent = 'Lokasi dikenalpasti ✓';
-      btn.classList.add('opacity-60');
-
-      // Get all premises with their states
-      var statesWithPrices = {};
-      allPremises.forEach(function(p) {
-        var st = p.getAttribute('data-state');
-        var price = parseFloat(p.getAttribute('data-price'));
-        if (st && price) {
-          if (!statesWithPrices[st]) statesWithPrices[st] = [];
-          statesWithPrices[st].push(price);
-        }
-      });
-
-      // Auto-filter to first state with premises (user will see state filter)
-      // Show success message with premise count
-      var total = allPremises.length;
       results.classList.remove('hidden');
-      results.innerHTML = '<div class="rounded-xl bg-green-50 dark:bg-green-950/20 border border-green-200 dark:border-green-800/30 p-3.5 text-sm fade-in">' +
-        '<div class="flex items-center gap-2 mb-1">' +
-        '<span class="text-lg">📍</span>' +
-        '<span class="font-semibold text-green-700 dark:text-green-300">Lokasi anda dikesan</span>' +
-        '</div>' +
-        '<p class="text-[12px] text-muted">Guna filter negeri di atas untuk lihat harga di kawasan anda. Terdapat <strong>' + total + '</strong> premis dipantau seluruh Malaysia.</p>' +
-        '</div>';
-
-      // Scroll to state filter
-      document.querySelector('[data-state]')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      results.innerHTML = '<div class="rounded-xl bg-green-50 dark:bg-green-950/20 border border-green-200 dark:border-green-800/30 p-2.5 text-xs fade-in"><p class="text-muted">Guna filter negeri di atas untuk lihat harga di kawasan anda.</p></div>';
     },
     function(err) {
-      var msg = 'Gagal dapatkan lokasi';
-      if (err.code === 1) msg = 'Kebenaran lokasi ditolak. Sila pilih negeri manual.';
-      else if (err.code === 2) msg = 'Lokasi tidak tersedia.';
-      else if (err.code === 3) msg = 'Permintaan lokasi tamat.';
+      var msg = err.code === 1 ? 'Kebenaran ditolak. Pilih negeri manual.' : 'Gagal. Pilih negeri manual.';
       status.textContent = msg;
       results.classList.remove('hidden');
-      results.innerHTML = '<div class="rounded-xl bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800/30 p-3.5 text-sm fade-in">' +
-        '<div class="flex items-center gap-2 mb-1">' +
-        '<span class="text-lg">⚠️</span>' +
-        '<span class="font-semibold text-amber-700 dark:text-amber-300">' + msg + '</span>' +
-        '</div>' +
-        '<p class="text-[12px] text-muted">Sila pilih negeri anda dari filter di atas untuk lihat harga di kawasan anda.</p>' +
-        '</div>';
+      results.innerHTML = '<div class="rounded-xl bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800/30 p-2.5 text-xs fade-in"><p class="text-muted">Sila pilih negeri dari filter di atas.</p></div>';
     },
     { enableHighAccuracy: false, timeout: 8000, maximumAge: 300000 }
   );
