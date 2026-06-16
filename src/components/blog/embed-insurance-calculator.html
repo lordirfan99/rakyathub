@@ -1,0 +1,42 @@
+<!-- INSURANCE CALCULATOR EMBED — copy this block into any .md article -->
+<div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 my-8" id="ic-embed-v1">
+  <h3 class="text-xl font-bold mb-4">🚗 Kira Premium Insurans Kereta Anda</h3>
+  <p class="text-sm text-muted mb-5">Isi maklumat kenderaan untuk anggaran premium & cukai jalan segera.</p>
+  <div class="grid md:grid-cols-2 gap-4 mb-5">
+    <div><label class="block text-sm font-semibold text-default mb-1">Nilai Pasaran (RM)</label><input type="number" id="ic-mv" value="50000" min="5000" max="500000" step="1000" class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" /></div>
+    <div><label class="block text-sm font-semibold text-default mb-1">Enjin</label><select id="ic-cc" class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition"><option value="below1000">Bawah 1,000cc</option><option value="1000-1400">1,000-1,400cc</option><option value="1401-1600" selected>1,401-1,600cc</option><option value="1601-1800">1,601-1,800cc</option><option value="1801-2000">1,801-2,000cc</option><option value="2001-2500">2,001-2,500cc</option><option value="2501-3000">2,501-3,000cc</option><option value="above3000">Atas 3,000cc</option></select></div>
+    <div><label class="block text-sm font-semibold text-default mb-1">NCD</label><select id="ic-ncd" class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition"><option value="0">0% (Baru)</option><option value="25">25% (1 thn)</option><option value="30">30% (2 thn)</option><option value="38.33">38.33% (3 thn)</option><option value="45">45% (4 thn)</option><option value="55" selected>55% (5+ thn)</option></select></div>
+    <div><label class="block text-sm font-semibold text-default mb-1">Jenis</label><select id="ic-type" class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition"><option value="comp-pen">Komprehensif — Semenanjung</option><option value="comp-sab">Komprehensif — Sabah/Sarawak</option><option value="third-pen">Third Party — Semenanjung</option><option value="third-sab">Third Party — Sabah/Sarawak</option></select></div>
+  </div>
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
+    <div class="rounded-xl bg-indigo-50 dark:bg-indigo-900/20 p-3 text-center"><p class="text-xs text-muted uppercase tracking-wide">Premium</p><p class="text-lg font-bold text-primary" id="ic-prem">RM 0</p></div>
+    <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-3 text-center"><p class="text-xs text-muted uppercase tracking-wide">Cukai Jalan</p><p class="text-lg font-bold text-default" id="ic-road">RM 0</p></div>
+    <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-3 text-center"><p class="text-xs text-muted uppercase tracking-wide">Selepas NCD</p><p class="text-lg font-bold text-emerald-700" id="ic-net">RM 0</p></div>
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-3 text-center"><p class="text-xs text-muted uppercase tracking-wide">Jumlah Setahun</p><p class="text-lg font-bold text-amber-600" id="ic-tot">RM 0</p></div>
+  </div>
+  <div class="flex flex-wrap gap-2 justify-center">
+    <a href="https://bjak.my/en/car-insurance?p=OOI-YING-JYE-AT9T1T" target="_blank" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-gradient-to-r from-primary to-secondary text-white text-xs font-semibold transition hover:shadow-lg">🛡️ Dapatkan Sebut Harga Percuma</a>
+    <a href="https://pay.u.shopee.com.my/KTdVTqS" target="_blank" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-white dark:bg-slate-700 border border-gray-200 dark:border-slate-600 text-default text-xs font-semibold transition hover:shadow-lg">🎉 Shopee — Cukai Jalan Percuma</a>
+  </div>
+  <p class="text-[10px] text-muted text-center mt-2">*Anggaran indikatif berdasarkan BNM Motor Tariff.</p>
+</div>
+
+<script>
+(function(){
+var R={peninsular:{below1000:{b:213,r:2.6},'1000-1400':{b:248.3,r:2.6},'1401-1600':{b:279.7,r:3},'1601-1800':{b:306.5,r:3.2},'1801-2000':{b:331.3,r:3.5},'2001-2500':{b:386.9,r:4.2},'2501-3000':{b:451.9,r:6.3},above3000:{b:487.4,r:6.7}},sabah:{below1000:{b:191.7,r:2.34},'1000-1400':{b:223.47,r:2.34},'1401-1600':{b:251.73,r:2.7},'1601-1800':{b:275.85,r:2.88},'1801-2000':{b:298.17,r:3.15},'2001-2500':{b:348.21,r:3.78},'2501-3000':{b:406.71,r:5.67},above3000:{b:438.66,r:6.03}}};
+var T={peninsular:{below1000:150,'1000-1400':175,'1401-1600':200,'1601-1800':225,'1801-2000':250,'2001-2500':300,'2501-3000':350,above3000:400},sabah:{below1000:135,'1000-1400':157,'1401-1600':180,'1601-1800':202,'1801-2000':225,'2001-2500':270,'2501-3000':315,above3000:360}};
+var X={below1000:20,'1000-1400':70,'1401-1600':90,'1601-1800':150,'1801-2000':200,'2001-2500':300,'2501-3000':450,above3000:500};
+function $id(v){return document.getElementById(v);}
+var f=$id('ic-mv'),c=$id('ic-cc'),n=$id('ic-ncd'),t=$id('ic-type');
+function fmt(v){return'RM '+(typeof v==='number'&&!isNaN(v)?v.toLocaleString('ms-MY',{minimumFractionDigits:0,maximumFractionDigits:0}):'0');}
+function calc(){
+ var mv=parseFloat(f.value)||50000,cc=c.value,ncd=(parseFloat(n.value)||55)/100;
+ var tp=t.value,reg=tp.endsWith('-sab')?'sabah':'peninsular',isComp=tp.startsWith('comp');
+ var gross=isComp?R[reg][cc].b+Math.max(0,mv-5000)/1000*R[reg][cc].r:T[reg][cc];
+ var an=gross*(1-ncd),sst=an*0.08,st=10,tp2=an+sst+st,rt=X[cc]||90;
+ $id('ic-prem').textContent=fmt(gross);$id('ic-road').textContent=fmt(rt);
+ $id('ic-net').textContent=fmt(an);$id('ic-tot').textContent=fmt(tp2+rt);
+}
+[f,c,n,t].forEach(function(el){if(el){el.addEventListener('input',calc);el.addEventListener('change',calc);}});calc();
+})();
+</script>

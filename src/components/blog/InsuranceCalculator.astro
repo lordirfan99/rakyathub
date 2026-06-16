@@ -1,0 +1,139 @@
+---
+export interface Props {
+  title?: string;
+}
+
+const { title = '🚗 Kira Premium Insurans Kereta Anda' } = Astro.props;
+---
+
+<div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 my-8" id="calc-insurans-kereta">
+  <h3 class="text-xl font-bold mb-4">{title}</h3>
+  <p class="text-sm text-muted mb-5">Isi maklumat kenderaan untuk anggaran premium & cukai jalan segera.</p>
+
+  <div class="grid md:grid-cols-2 gap-4 mb-5">
+    <div>
+      <label class="block text-sm font-semibold text-default mb-1">Nilai Pasaran (RM)</label>
+      <input type="number" id="ic-marketValue" value="50000" min="5000" max="500000" step="1000"
+        class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+    </div>
+    <div>
+      <label class="block text-sm font-semibold text-default mb-1">Kapasiti Enjin</label>
+      <select id="ic-engineCC"
+        class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+        <option value="below1000">Bawah 1,000cc</option>
+        <option value="1000-1400">1,000 - 1,400cc</option>
+        <option value="1401-1600" selected>1,401 - 1,600cc</option>
+        <option value="1601-1800">1,601 - 1,800cc</option>
+        <option value="1801-2000">1,801 - 2,000cc</option>
+        <option value="2001-2500">2,001 - 2,500cc</option>
+        <option value="2501-3000">2,501 - 3,000cc</option>
+        <option value="above3000">Atas 3,000cc</option>
+      </select>
+    </div>
+    <div>
+      <label class="block text-sm font-semibold text-default mb-1">NCD (Diskaun)</label>
+      <select id="ic-ncd"
+        class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+        <option value="0">0% (Baru/selepas tuntut)</option>
+        <option value="25">25% (1 tahun)</option>
+        <option value="30">30% (2 tahun)</option>
+        <option value="38.33">38.33% (3 tahun)</option>
+        <option value="45">45% (4 tahun)</option>
+        <option value="55" selected>55% (5+ tahun)</option>
+      </select>
+    </div>
+    <div>
+      <label class="block text-sm font-semibold text-default mb-1">Jenis & Lokasi</label>
+      <select id="ic-options"
+        class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+        <option value="comp-peninsular">Komprehensif — Semenanjung</option>
+        <option value="comp-sabah">Komprehensif — Sabah/Sarawak</option>
+        <option value="third-peninsular">Third Party — Semenanjung</option>
+        <option value="third-sabah">Third Party — Sabah/Sarawak</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
+    <div class="rounded-xl bg-indigo-50 dark:bg-indigo-900/20 p-3 text-center">
+      <p class="text-xs text-muted uppercase tracking-wide">Premium</p>
+      <p class="text-lg font-bold text-primary" id="ic-premium">RM 0</p>
+    </div>
+    <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-3 text-center">
+      <p class="text-xs text-muted uppercase tracking-wide">Cukai Jalan</p>
+      <p class="text-lg font-bold text-default" id="ic-roadtax">RM 0</p>
+    </div>
+    <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-3 text-center">
+      <p class="text-xs text-muted uppercase tracking-wide">Selepas NCD</p>
+      <p class="text-lg font-bold text-emerald-700" id="ic-afterNcd">RM 0</p>
+    </div>
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-3 text-center">
+      <p class="text-xs text-muted uppercase tracking-wide">Jumlah Setahun</p>
+      <p class="text-lg font-bold text-amber-600" id="ic-total">RM 0</p>
+    </div>
+  </div>
+
+  <div class="flex flex-wrap gap-2 justify-center">
+    <a href="https://bjak.my/en/car-insurance?p=OOI-YING-JYE-AT9T1T" target="_blank" rel="noopener noreferrer"
+      class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-gradient-to-r from-primary to-secondary text-white text-xs font-semibold transition hover:shadow-lg">
+      🛡️ Dapatkan Sebut Harga Percuma
+    </a>
+    <a href="https://pay.u.shopee.com.my/KTdVTqS" target="_blank" rel="noopener noreferrer"
+      class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-white dark:bg-slate-700 border border-gray-200 dark:border-slate-600 text-default text-xs font-semibold transition hover:shadow-lg">
+      🎉 Beli di Shopee — Percuma Cukai Jalan
+    </a>
+  </div>
+  <p class="text-[10px] text-muted text-center mt-2">*Anggaran indikatif. Premium sebenar mungkin berbeza.</p>
+</div>
+
+<script is:inline>
+(function(){
+var COMP_RATES = {
+  peninsular: {
+    below1000:{basic:213.00,rate:2.6},'1000-1400':{basic:248.30,rate:2.6},
+    '1401-1600':{basic:279.70,rate:3.0},'1601-1800':{basic:306.50,rate:3.2},
+    '1801-2000':{basic:331.30,rate:3.5},'2001-2500':{basic:386.90,rate:4.2},
+    '2501-3000':{basic:451.90,rate:6.3},above3000:{basic:487.40,rate:6.7}
+  },
+  sabah:{
+    below1000:{basic:191.70,rate:2.34},'1000-1400':{basic:223.47,rate:2.34},
+    '1401-1600':{basic:251.73,rate:2.70},'1601-1800':{basic:275.85,rate:2.88},
+    '1801-2000':{basic:298.17,rate:3.15},'2001-2500':{basic:348.21,rate:3.78},
+    '2501-3000':{basic:406.71,rate:5.67},above3000:{basic:438.66,rate:6.03}
+  }
+};
+var THIRD_RATES = {
+  peninsular:{below1000:150,'1000-1400':175,'1401-1600':200,'1601-1800':225,'1801-2000':250,'2001-2500':300,'2501-3000':350,above3000:400},
+  sabah:{below1000:135,'1000-1400':157,'1401-1600':180,'1601-1800':202,'1801-2000':225,'2001-2500':270,'2501-3000':315,above3000:360}
+};
+var ROAD_TAX = {below1000:20,'1000-1400':70,'1401-1600':90,'1601-1800':150,'1801-2000':200,'2001-2500':300,'2501-3000':450,above3000:500};
+var els = {
+  mv: document.getElementById('ic-marketValue'),
+  cc: document.getElementById('ic-engineCC'),
+  ncd: document.getElementById('ic-ncd'),
+  opts: document.getElementById('ic-options')
+};
+function fmt(v){return'RM '+(typeof v==='number'&&!isNaN(v)&&isFinite(v)?v.toLocaleString('ms-MY',{minimumFractionDigits:0,maximumFractionDigits:0}):'0');}
+function calc(){
+  var mv=parseFloat(els.mv.value)||50000;
+  var ccKey=els.cc.value;
+  var ncdPct=(parseFloat(els.ncd.value)||55)/100;
+  var opt=els.opts.value;
+  var isComp=opt.startsWith('comp');
+  var region=opt.endsWith('sabah')?'sabah':'peninsular';
+  if(mv<1000){['ic-premium','ic-roadtax','ic-afterNcd','ic-total'].forEach(function(id){document.getElementById(id).textContent='RM 0';});return;}
+  var gross=0;
+  if(isComp){var r=COMP_RATES[region][ccKey];gross=r.basic+Math.max(0,mv-5000)/1000*r.rate;}
+  else{gross=THIRD_RATES[region][ccKey];}
+  var ncdAmt=gross*ncdPct;var afterNcd=gross-ncdAmt;
+  var sst=afterNcd*0.08;var stamp=10;var totalPrem=afterNcd+sst+stamp;
+  var rt=ROAD_TAX[ccKey]||90;
+  document.getElementById('ic-premium').textContent=fmt(gross);
+  document.getElementById('ic-roadtax').textContent=fmt(rt);
+  document.getElementById('ic-afterNcd').textContent=fmt(afterNcd);
+  document.getElementById('ic-total').textContent=fmt(totalPrem+rt);
+}
+[els.mv,els.cc,els.ncd,els.opts].forEach(function(el){if(el){el.addEventListener('input',calc);el.addEventListener('change',calc);}});
+calc();
+})();
+</script>
