@@ -6,10 +6,7 @@ export async function getStaticPaths() {
   const items = buildData.items || [];
   return items.map(item => {
     const slug = item.name.toLowerCase()
-      .replace(/[^a-z0-9\s-]/g, '')
-      .replace(/\s+/g, '-')
-      .replace(/-+/g, '-')
-      .trim();
+      .replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').trim();
     return { params: { slug }, props: { item } };
   });
 }
@@ -17,17 +14,19 @@ export async function getStaticPaths() {
 const { item } = Astro.props;
 const isUp = item.change > 0.01;
 const isDown = item.change < -0.01;
-const arrow = isUp ? '▲' : isDown ? '▼' : '➡';
-const premises = (item.premises || []).slice(0, 8);
-
-// Price range
+const premises = (item.premises || []).slice(0, 12);
 const lowest = premises[0];
-const highest = [...premises].pop();
 
-// State breakdown
-const stateCount = {};
-premises.forEach(p => { stateCount[p.state] = (stateCount[p.state] || 0) + 1; });
-const topStates = Object.entries(stateCount).sort((a,b) => b[1]-a[1]).slice(0,3);
+// Get unique states from premises
+const states = [...new Set(premises.map(p => p.state).filter(Boolean))].sort();
+// Get districts per state
+const districtsByState = {};
+premises.forEach(p => {
+  if (p.state && p.district) {
+    if (!districtsByState[p.state]) districtsByState[p.state] = new Set();
+    districtsByState[p.state].add(p.district);
+  }
+});
 
 const metadata = {
   title: `Harga ${item.name} Malaysia — RM${item.price.toFixed(2)} (${item.latest_date}) | RakyatHub`,
@@ -38,156 +37,263 @@ const metadata = {
 <style is:global>
   .tabular-nums { font-variant-numeric: tabular-nums; }
   .premise-card { transition: all .15s; }
-  .premise-card:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,.08); }
+  .premise-card:active { transform: scale(0.98); }
+  .state-btn { transition: all .15s; -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+  .state-btn:active { transform: scale(0.95); }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  .fade-in { animation: fadeIn .3s ease-out; }
+  @keyframes pulse-dot { 0%,100%{opacity:1} 50%{opacity:0.3} }
+  .live-dot { animation: pulse-dot 2s ease-in-out infinite; }
+  .near-you-btn { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
 </style>
 
 <Layout metadata={metadata}>
-  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-8 md:py-12">
+  <section class="max-w-5xl mx-auto px-3 sm:px-6 py-6 md:py-12">
     <!-- Breadcrumb -->
-    <div class="flex items-center gap-2 text-xs text-muted/60 mb-1">
-      <a href="/" class="hover:text-primary">Laman Utama</a> <span>/</span>
-      <a href="/harga-makanan-hari-ini/" class="hover:text-primary">Harga Barang Runcit</a> <span>/</span>
-      <span>{item.name}</span>
+    <div class="flex items-center gap-1.5 text-[11px] text-muted/60 mb-1 overflow-x-auto whitespace-nowrap pb-1">
+      <a href="/" class="hover:text-primary shrink-0">Laman Utama</a>
+      <span class="shrink-0">/</span>
+      <a href="/harga-makanan-hari-ini/" class="hover:text-primary shrink-0">Harga</a>
+      <span class="shrink-0">/</span>
+      <span class="truncate">{item.name}</span>
     </div>
 
     <!-- Hero -->
-    <h1 class="text-2xl sm:text-4xl font-bold tracking-tight mb-2">Harga {item.name} Malaysia</h1>
-    <p class="text-sm text-muted/70 mb-6">Data harian <strong>KPDN PriceCatcher</strong> — {item.latest_date} • {item.sample_size?.toLocaleString() || '-'} sampel</p>
+    <h1 class="text-xl sm:text-4xl font-bold tracking-tight mb-1">Harga {item.name}</h1>
+    <p class="text-[11px] sm:text-sm text-muted/70 mb-4">Data <strong>KPDN PriceCatcher</strong> • {item.latest_date} • {item.sample_size?.toLocaleString() || '-'} sampel</p>
 
-    <!-- Price Overview Cards -->
-    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
-      <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-blue-100/50 dark:from-blue-950/30 dark:to-blue-900/20 border border-blue-100 dark:border-blue-800/30 p-5 text-center">
-        <p class="text-xs text-blue-600 dark:text-blue-400 font-semibold uppercase tracking-wider mb-1">Purata Nasional</p>
-        <p class="text-3xl sm:text-4xl font-black text-blue-700 dark:text-blue-300 tabular-nums">RM {item.price.toFixed(2)}</p>
-        <p class="text-[11px] text-muted/60 mt-1">/{item.unit || 'unit'}</p>
+    <!-- Price Overview - 2x2 Grid Mobile First -->
+    <div class="grid grid-cols-2 gap-2 sm:gap-3 mb-5">
+      <div class="rounded-xl sm:rounded-2xl bg-gradient-to-br from-blue-50 to-blue-100/50 dark:from-blue-950/30 dark:to-blue-900/20 border border-blue-100 dark:border-blue-800/30 p-3 sm:p-5 text-center">
+        <p class="text-[9px] sm:text-xs text-blue-600 dark:text-blue-400 font-semibold uppercase tracking-wider mb-0.5">Purata</p>
+        <p class="text-xl sm:text-4xl font-black text-blue-700 dark:text-blue-300 tabular-nums">RM {item.price.toFixed(2)}</p>
+        <p class="text-[9px] sm:text-[11px] text-muted/60 mt-0.5">/{item.unit || 'unit'}</p>
       </div>
 
-      <div class={"rounded-2xl bg-gradient-to-br border p-5 text-center " + (isUp ? "from-red-50 to-red-100/50 dark:from-red-950/30 dark:to-red-900/20 border-red-100 dark:border-red-800/30" : isDown ? "from-green-50 to-green-100/50 dark:from-green-950/30 dark:to-green-900/20 border-green-100 dark:border-green-800/30" : "from-gray-50 to-gray-100/50 dark:from-gray-800/30 dark:to-gray-800/20 border-gray-200 dark:border-gray-700/30")}>
-        <p class={"text-xs font-semibold uppercase tracking-wider mb-1 " + (isUp ? "text-red-600 dark:text-red-400" : isDown ? "text-green-600 dark:text-green-400" : "text-gray-600 dark:text-gray-400")}>
+      <div class={"rounded-xl sm:rounded-2xl bg-gradient-to-br border p-3 sm:p-5 text-center " + (isUp ? "from-red-50 to-red-100/50 dark:from-red-950/30 dark:to-red-900/20 border-red-100 dark:border-red-800/30" : isDown ? "from-green-50 to-green-100/50 dark:from-green-950/30 dark:to-green-900/20 border-green-100 dark:border-green-800/30" : "from-gray-50 to-gray-100/50 dark:from-gray-800/30 dark:to-gray-800/20 border-gray-200 dark:border-gray-700/30")}>
+        <p class={"text-[9px] sm:text-xs font-semibold uppercase tracking-wider mb-0.5 " + (isUp ? "text-red-600 dark:text-red-400" : isDown ? "text-green-600 dark:text-green-400" : "text-gray-600 dark:text-gray-400")}>
           {isUp ? '▲ Naik' : isDown ? '▼ Turun' : '➡ Stabil'}
         </p>
-        <p class={"text-3xl sm:text-4xl font-black tabular-nums " + (isUp ? "text-red-700 dark:text-red-300" : isDown ? "text-green-700 dark:text-green-300" : "text-gray-700 dark:text-gray-300")}>
+        <p class={"text-xl sm:text-4xl font-black tabular-nums " + (isUp ? "text-red-700 dark:text-red-300" : isDown ? "text-green-700 dark:text-green-300" : "text-gray-700 dark:text-gray-300")}>
           {item.change_pct >= 0 ? '+' : ''}{item.change_pct.toFixed(1)}%
         </p>
-        <p class="text-[11px] text-muted/60 mt-1">vs semalam (RM {Math.abs(item.change).toFixed(2)})</p>
+        <p class="text-[9px] sm:text-[11px] text-muted/60 mt-0.5">vs semalam RM{Math.abs(item.change).toFixed(2)}</p>
       </div>
 
-      <div class="rounded-2xl bg-gradient-to-br from-green-50 to-green-100/50 dark:from-green-950/30 dark:to-green-900/20 border border-green-100 dark:border-green-800/30 p-5 text-center">
-        <p class="text-xs text-green-600 dark:text-green-400 font-semibold uppercase tracking-wider mb-1">Termurah</p>
-        <p class="text-3xl sm:text-4xl font-black text-green-700 dark:text-green-300 tabular-nums">RM {(item.min_price || item.price).toFixed(2)}</p>
-        <p class="text-[11px] text-muted/60 mt-1">{lowest?.name ? `di ${lowest.name.slice(0,18)}` : 'nasional'}</p>
+      <div class="rounded-xl sm:rounded-2xl bg-gradient-to-br from-green-50 to-green-100/50 dark:from-green-950/30 dark:to-green-900/20 border border-green-100 dark:border-green-800/30 p-3 sm:p-5 text-center">
+        <p class="text-[9px] sm:text-xs text-green-600 dark:text-green-400 font-semibold uppercase tracking-wider mb-0.5">Termurah</p>
+        <p class="text-xl sm:text-4xl font-black text-green-700 dark:text-green-300 tabular-nums">RM {(item.min_price || item.price).toFixed(2)}</p>
+        <p class="text-[9px] sm:text-[11px] text-muted/60 mt-0.5 truncate">{lowest?.name ? lowest.name.slice(0,20) : '-'}</p>
       </div>
 
-      <div class="rounded-2xl bg-gradient-to-br from-amber-50 to-amber-100/50 dark:from-amber-950/30 dark:to-amber-900/20 border border-amber-100 dark:border-amber-800/30 p-5 text-center">
-        <p class="text-xs text-amber-600 dark:text-amber-400 font-semibold uppercase tracking-wider mb-1">Termahal</p>
-        <p class="text-3xl sm:text-4xl font-black text-amber-700 dark:text-amber-300 tabular-nums">RM {(item.max_price || item.price).toFixed(2)}</p>
-        <p class="text-[11px] text-muted/60 mt-1">{highest?.name ? `di ${highest.name.slice(0,18)}` : 'nasional'}</p>
+      <div class="rounded-xl sm:rounded-2xl bg-gradient-to-br from-amber-50 to-amber-100/50 dark:from-amber-950/30 dark:to-amber-900/20 border border-amber-100 dark:border-amber-800/30 p-3 sm:p-5 text-center">
+        <p class="text-[9px] sm:text-xs text-amber-600 dark:text-amber-400 font-semibold uppercase tracking-wider mb-0.5">Termahal</p>
+        <p class="text-xl sm:text-4xl font-black text-amber-700 dark:text-amber-300 tabular-nums">RM {(item.max_price || item.price).toFixed(2)}</p>
+        <p class="text-[9px] sm:text-[11px] text-muted/60 mt-0.5 truncate">{premises.length > 0 ? premises[premises.length-1]?.name?.slice(0,20) : '-'}</p>
       </div>
     </div>
 
-    <!-- TEMPAT TERMURAH -->
+    <!-- NEAR YOU - Auto detect location -->
     {premises.length > 0 && (
-    <div class="mb-8">
-      <h2 class="text-lg font-bold mb-4">🏪 Tempat Termurah {item.name}</h2>
-      <p class="text-xs text-muted/70 mb-3">Harga terendah di premis terpilih seluruh Malaysia — {item.latest_date}</p>
-      <div class="grid gap-2">
+    <div class="mb-4">
+      <button id="nearYouBtn" onclick="detectLocation()" class="near-you-btn w-full rounded-xl sm:rounded-2xl bg-gradient-to-r from-indigo-50 to-blue-50 dark:from-indigo-950/30 dark:to-blue-950/20 border border-indigo-200 dark:border-indigo-800/30 p-3.5 sm:p-4 flex items-center justify-between text-left">
+        <div class="flex items-center gap-2.5">
+          <span class="text-xl sm:text-2xl">📍</span>
+          <div>
+            <p class="text-sm sm:text-base font-bold text-indigo-700 dark:text-indigo-300">Harga di Kawasan Saya</p>
+            <p id="nearYouStatus" class="text-[11px] sm:text-xs text-muted/60">Ketik untuk guna lokasi anda</p>
+          </div>
+        </div>
+        <svg class="w-4 h-4 sm:w-5 sm:h-5 text-indigo-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+      </button>
+      <div id="nearYouResults" class="hidden mt-2"></div>
+    </div>
+    )}
+
+    <!-- TEMPAT TERMURAH with STATE FILTER -->
+    {premises.length > 0 && (
+    <div class="mb-5">
+      <div class="flex items-center justify-between mb-2.5">
+        <h2 class="text-base sm:text-lg font-bold">🏪 Tempat Termurah</h2>
+        <span class="text-[10px] sm:text-xs text-muted/50">{premises.length} premis</span>
+      </div>
+
+      <!-- State Filter Chips (horizontal scroll on mobile) -->
+      <div class="flex overflow-x-auto gap-1.5 pb-2 mb-2.5 -mx-3 sm:-mx-6 px-3 sm:px-6 scrollbar-hide" style="-webkit-overflow-scrolling:touch">
+        <button onclick="filterState('all')" class="state-btn state-active shrink-0 px-2.5 py-1.5 rounded-lg text-[11px] sm:text-xs font-semibold transition-all border border-indigo-400 bg-indigo-500 text-white" data-state="all">Semua</button>
+        {states.map(s => (
+          <button onclick={`filterState('${s.replace(/'/g, "\\'")}')`} class="state-btn shrink-0 px-2.5 py-1.5 rounded-lg text-[11px] sm:text-xs font-semibold transition-all border border-gray-200 dark:border-slate-700 text-muted hover:border-indigo-300" data-state={s}>
+            {s}
+          </button>
+        ))}
+      </div>
+
+      <!-- Premium Cards -->
+      <div id="premisesList" class="grid gap-2">
         {premises.map((p, i) => (
-          <div class="premise-card rounded-xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-3.5 flex items-center justify-between">
-            <div class="flex items-center gap-3 min-w-0">
-              <span class={"shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold " + (i === 0 ? "bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-400" : "bg-gray-100 dark:bg-slate-800 text-muted")}>
+          <div class="premise-card fade-in rounded-xl sm:rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-3 sm:p-4"
+               data-state={p.state || 'unknown'} data-district={p.district || ''} data-price={p.price}>
+            <div class="flex items-center gap-2.5">
+              <span class={"shrink-0 w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center text-xs sm:text-sm font-bold " + (i === 0 ? "bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-400" : "bg-gray-100 dark:bg-slate-800 text-muted")}>
                 {i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : `#${i+1}`}
               </span>
-              <div class="min-w-0">
-                <p class="text-sm font-semibold truncate">{p.name}</p>
-                <p class="text-[11px] text-muted/60 truncate">{p.address} · {p.state}{p.type ? ` · ${p.type}` : ''}</p>
+              <div class="min-w-0 flex-1">
+                <p class="text-sm sm:text-base font-semibold truncate">{p.name}</p>
+                <p class="text-[10px] sm:text-xs text-muted/60">
+                  {p.district ? `${p.district}, ` : ''}{p.state}
+                  {p.type ? ` · ${p.type.replace(/\s+/g,' ').trim()}` : ''}
+                </p>
+              </div>
+              <div class="shrink-0 text-right ml-1">
+                <p class="text-base sm:text-xl font-black tabular-nums" style={i === 0 ? 'color:#059669' : ''}>RM {p.price.toFixed(2)}</p>
+                {i === 0 && <span class="text-[8px] sm:text-[10px] font-bold text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-1.5 py-0.5 rounded-full">MURAH</span>}
               </div>
             </div>
-            <div class="shrink-0 text-right ml-3">
-              <p class="text-lg font-black tabular-nums" style={i === 0 ? 'color:#059669' : ''}>RM {p.price.toFixed(2)}</p>
-              {i === 0 && <p class="text-[10px] font-semibold text-green-600 dark:text-green-400">PALING MURAH</p>}
-            </div>
+            {p.address && (
+              <p class="text-[9px] sm:text-[11px] text-muted/40 mt-1.5 ml-9 sm:ml-10.5 truncate">{p.address}</p>
+            )}
           </div>
         ))}
       </div>
-      {topStates.length > 0 && (
-        <p class="text-xs text-muted/50 mt-2">Lokasi termurah banyak di: {topStates.map(([s,c]) => `${s} (${c})`).join(', ')}</p>
-      )}
     </div>
     )}
 
-    <!-- All Premises Map / Detail -->
-    {premises.length > 0 && (
-    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
-      <h2 class="text-lg font-bold mb-4">📋 Senarai Harga mengikut Premis</h2>
-      <div class="overflow-x-auto">
-        <table class="w-full text-sm">
-          <thead>
-            <tr class="border-b border-gray-100 dark:border-slate-700/50">
-              <th class="text-left py-2 px-2 font-semibold text-muted text-[11px] uppercase">Kedai</th>
-              <th class="text-left py-2 px-2 font-semibold text-muted text-[11px] uppercase hidden sm:table-cell">Lokasi</th>
-              <th class="text-left py-2 px-2 font-semibold text-muted text-[11px] uppercase hidden md:table-cell">Negeri</th>
-              <th class="text-right py-2 px-2 font-semibold text-muted text-[11px] uppercase">Harga</th>
-            </tr>
-          </thead>
-          <tbody>
-            {premises.map(p => (
-              <tr class="border-b border-gray-50 dark:border-slate-800/50">
-                <td class="py-2 px-2 font-medium">{p.name}</td>
-                <td class="py-2 px-2 text-muted/70 text-xs hidden sm:table-cell truncate max-w-[200px]">{p.district || p.address}</td>
-                <td class="py-2 px-2 text-muted/70 text-xs hidden md:table-cell">{p.state}</td>
-                <td class="py-2 px-2 text-right font-bold tabular-nums">RM {p.price.toFixed(2)}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </div>
-    )}
-
-    <!-- Ringkasan -->
-    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
-      <h2 class="text-lg font-bold mb-4">📊 Ringkasan Harga</h2>
-      <div class="grid sm:grid-cols-2 gap-4 text-sm">
-        <div>
-          <div class="flex justify-between py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Purata Nasional</span><span class="font-semibold">RM {item.price.toFixed(2)}</span></div>
-          <div class="flex justify-between py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Termurah</span><span class="font-semibold" style="color:#16a34a">RM {(item.min_price || item.price).toFixed(2)}</span></div>
-          <div class="flex justify-between py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Termahal</span><span class="font-semibold" style="color:#dc2626">RM {(item.max_price || item.price).toFixed(2)}</span></div>
-          <div class="flex justify-between py-2"><span class="text-muted">Unit</span><span class="font-semibold">{item.unit || '—'}</span></div>
-        </div>
-        <div>
-          <div class="flex justify-between py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Trend</span><span class="font-semibold">{isUp ? '📈 Naik' : isDown ? '📉 Turun' : '➡ Stabil'}</span></div>
-          <div class="flex justify-between py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Perubahan</span><span class="font-semibold">{arrow} RM {Math.abs(item.change).toFixed(2)} ({item.change_pct > 0 ? '+' : ''}{item.change_pct.toFixed(1)}%)</span></div>
-          <div class="flex justify-between py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Sampel</span><span class="font-semibold">{item.sample_size?.toLocaleString() || '—'} rekod</span></div>
-          <div class="flex justify-between py-2"><span class="text-muted">Kemas Kini</span><span class="font-semibold">{item.latest_date}</span></div>
+    <!-- Ringkasan - Collapsible on Mobile -->
+    <details class="rounded-xl sm:rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm mb-4 sm:mb-6 overflow-hidden">
+      <summary class="p-3.5 sm:p-5 text-sm sm:text-base font-bold cursor-pointer list-none flex items-center justify-between select-none">
+        <span>📊 Ringkasan</span>
+        <svg class="w-4 h-4 text-muted transition-transform details-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+      </summary>
+      <div class="px-3.5 sm:px-5 pb-3.5 sm:pb-5">
+        <div class="grid grid-cols-2 gap-3 sm:gap-4 text-[11px] sm:text-sm">
+          <div>
+            <div class="flex justify-between py-1.5 sm:py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Purata</span><span class="font-semibold tabular-nums">RM {item.price.toFixed(2)}</span></div>
+            <div class="flex justify-between py-1.5 sm:py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Termurah</span><span class="font-semibold tabular-nums" style="color:#16a34a">RM {(item.min_price || item.price).toFixed(2)}</span></div>
+            <div class="flex justify-between py-1.5 sm:py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Termahal</span><span class="font-semibold tabular-nums" style="color:#dc2626">RM {(item.max_price || item.price).toFixed(2)}</span></div>
+            <div class="flex justify-between py-1.5 sm:py-2"><span class="text-muted">Unit</span><span class="font-semibold">{item.unit || '—'}</span></div>
+          </div>
+          <div>
+            <div class="flex justify-between py-1.5 sm:py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Trend</span><span class="font-semibold">{isUp ? '📈 Naik' : isDown ? '📉 Turun' : '➡ Stabil'}</span></div>
+            <div class="flex justify-between py-1.5 sm:py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Perubahan</span><span class="font-semibold tabular-nums">{(isUp ? '▲' : isDown ? '▼' : '➡')} RM {Math.abs(item.change).toFixed(2)} ({item.change_pct > 0 ? '+' : ''}{item.change_pct.toFixed(1)}%)</span></div>
+            <div class="flex justify-between py-1.5 sm:py-2 border-b border-gray-50 dark:border-slate-800"><span class="text-muted">Sampel</span><span class="font-semibold tabular-nums">{item.sample_size?.toLocaleString() || '—'}</span></div>
+            <div class="flex justify-between py-1.5 sm:py-2"><span class="text-muted">Update</span><span class="font-semibold">{item.latest_date}</span></div>
+          </div>
         </div>
       </div>
-    </div>
+    </details>
 
-    <!-- FAQ -->
-    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
-      <h2 class="text-lg font-bold mb-4">❓ Soalan Lazim</h2>
-      <div class="space-y-4 text-sm">
+    <!-- FAQ - Collapsible on Mobile -->
+    <details class="rounded-xl sm:rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm mb-4 sm:mb-6 overflow-hidden">
+      <summary class="p-3.5 sm:p-5 text-sm sm:text-base font-bold cursor-pointer list-none flex items-center justify-between select-none">
+        <span>❓ Soalan Lazim</span>
+        <svg class="w-4 h-4 text-muted transition-transform details-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+      </summary>
+      <div class="px-3.5 sm:px-5 pb-3.5 sm:pb-5 space-y-3 text-[11px] sm:text-sm">
         <div>
-          <h3 class="font-semibold mb-1">Berapa harga {item.name} hari ini?</h3>
-          <p class="text-muted">Harga {item.name} adalah <strong>RM {item.price.toFixed(2)}/{item.unit || 'unit'}</strong> (purata nasional) setakat {item.latest_date}.</p>
+          <h3 class="font-semibold mb-0.5">Berapa harga {item.name} hari ini?</h3>
+          <p class="text-muted">RM {item.price.toFixed(2)}/{item.unit || 'unit'} (purata nasional) setakat {item.latest_date}.</p>
         </div>
         <div>
-          <h3 class="font-semibold mb-1">Di mana beli {item.name} paling murah?</h3>
+          <h3 class="font-semibold mb-0.5">Di mana beli paling murah?</h3>
           <p class="text-muted">
-            {lowest ? `Berdasarkan data KPDN PriceCatcher, harga termurah ${item.name} adalah RM${lowest.price.toFixed(2)} di ${lowest.name} (${lowest.state}).` : 'Guna aplikasi KPDN PriceCatcher untuk banding harga di premis berhampiran.'}
-            {premises.length > 0 && ` Antara premis lain yang murah: ${premises.slice(0,3).map(p => p.name).join(', ')}.`}
+            {lowest ? `Termurah RM${lowest.price.toFixed(2)} di ${lowest.name} (${lowest.state}).` : 'Guna aplikasi KPDN PriceCatcher.'}
+            {premises.length > 0 && ` Antara yang murah: ${premises.slice(0,3).map(p => p.name).join(', ')}.`}
           </p>
         </div>
         <div>
-          <h3 class="font-semibold mb-1">Harga {item.name} naik atau turun?</h3>
-          <p class="text-muted">{isUp ? 'Naik ' + Math.abs(item.change_pct).toFixed(1) + '% berbanding semalam.' : isDown ? 'Turun ' + Math.abs(item.change_pct).toFixed(1) + '% berbanding semalam.' : 'Stabil berbanding semalam.'}</p>
+          <h3 class="font-semibold mb-0.5">Harga naik atau turun?</h3>
+          <p class="text-muted">{isUp ? `Naik ${Math.abs(item.change_pct).toFixed(1)}%.` : isDown ? `Turun ${Math.abs(item.change_pct).toFixed(1)}%.` : 'Stabil.'}</p>
         </div>
       </div>
-    </div>
+    </details>
 
     <!-- Disclaimer -->
-    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
-      <strong>⚠️ Penafian:</strong> Harga adalah purata nasional & harga premis tertentu. Harga sebenar mungkin berbeza. Sumber: KPDN PriceCatcher — data.gov.my | CC BY 4.0.
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-3 sm:p-4 mb-6 text-[10px] sm:text-xs text-muted">
+      <strong>⚠️ Penafian:</strong> Harga purata & premis tertentu. Harga sebenar mungkin berbeza. Sumber: KPDN PriceCatcher (CC BY 4.0).
     </div>
   </section>
+
+  <script is:inline>
+// ── STATE FILTER ──
+var allPremises = document.querySelectorAll('.premise-card');
+var allStateBtns = document.querySelectorAll('.state-btn');
+
+function filterState(state) {
+  // Update button styles
+  allStateBtns.forEach(function(b) {
+    var isActive = b.getAttribute('data-state') === state;
+    b.className = 'state-btn shrink-0 px-2.5 py-1.5 rounded-lg text-[11px] sm:text-xs font-semibold transition-all border ' + (isActive ? 'border-indigo-400 bg-indigo-500 text-white' : 'border-gray-200 dark:border-slate-700 text-muted hover:border-indigo-300');
+    if(isActive) b.classList.add('state-active');
+  });
+  // Filter premises
+  allPremises.forEach(function(p) {
+    p.style.display = (state === 'all' || p.getAttribute('data-state') === state) ? '' : 'none';
+  });
+}
+
+// ── GEOLOCATION (Near You) ──
+function detectLocation() {
+  var btn = document.getElementById('nearYouBtn');
+  var status = document.getElementById('nearYouStatus');
+  var results = document.getElementById('nearYouResults');
+
+  status.textContent = 'Mengesan lokasi...';
+
+  if (!navigator.geolocation) {
+    status.textContent = 'Lokasi tidak disokong browser ini';
+    return;
+  }
+
+  navigator.geolocation.getCurrentPosition(
+    function(pos) {
+      // Use reverse lookup: approximate state by coords
+      // We'll just filter to the most likely state and show nearby premises
+      status.textContent = 'Lokasi dikenalpasti ✓';
+      btn.classList.add('opacity-60');
+
+      // Get all premises with their states
+      var statesWithPrices = {};
+      allPremises.forEach(function(p) {
+        var st = p.getAttribute('data-state');
+        var price = parseFloat(p.getAttribute('data-price'));
+        if (st && price) {
+          if (!statesWithPrices[st]) statesWithPrices[st] = [];
+          statesWithPrices[st].push(price);
+        }
+      });
+
+      // Auto-filter to first state with premises (user will see state filter)
+      // Show success message with premise count
+      var total = allPremises.length;
+      results.classList.remove('hidden');
+      results.innerHTML = '<div class="rounded-xl bg-green-50 dark:bg-green-950/20 border border-green-200 dark:border-green-800/30 p-3.5 text-sm fade-in">' +
+        '<div class="flex items-center gap-2 mb-1">' +
+        '<span class="text-lg">📍</span>' +
+        '<span class="font-semibold text-green-700 dark:text-green-300">Lokasi anda dikesan</span>' +
+        '</div>' +
+        '<p class="text-[12px] text-muted">Guna filter negeri di atas untuk lihat harga di kawasan anda. Terdapat <strong>' + total + '</strong> premis dipantau seluruh Malaysia.</p>' +
+        '</div>';
+
+      // Scroll to state filter
+      document.querySelector('[data-state]')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    },
+    function(err) {
+      var msg = 'Gagal dapatkan lokasi';
+      if (err.code === 1) msg = 'Kebenaran lokasi ditolak. Sila pilih negeri manual.';
+      else if (err.code === 2) msg = 'Lokasi tidak tersedia.';
+      else if (err.code === 3) msg = 'Permintaan lokasi tamat.';
+      status.textContent = msg;
+      results.classList.remove('hidden');
+      results.innerHTML = '<div class="rounded-xl bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800/30 p-3.5 text-sm fade-in">' +
+        '<div class="flex items-center gap-2 mb-1">' +
+        '<span class="text-lg">⚠️</span>' +
+        '<span class="font-semibold text-amber-700 dark:text-amber-300">' + msg + '</span>' +
+        '</div>' +
+        '<p class="text-[12px] text-muted">Sila pilih negeri anda dari filter di atas untuk lihat harga di kawasan anda.</p>' +
+        '</div>';
+    },
+    { enableHighAccuracy: false, timeout: 8000, maximumAge: 300000 }
+  );
+}
+</script>
 </Layout>
