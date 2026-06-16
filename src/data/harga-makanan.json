@@ -1,16 +1,19 @@
 {
-  "last_updated": "2026-06-16 16:30",
+  "last_updated": "2026-06-16 16:54",
   "source": "KPDN PriceCatcher",
-  "source_url": "https://storage.data.gov.my/pricecatcher/pricecatcher_2026-06.csv",
+  "method": "Dynamic item code lookup v2",
   "latest_date": "2026-06-15",
   "dates_available": 14,
   "items": [
     {
-      "code": 1,
       "name": "Ayam Standard",
-      "full_name": "AYAM BERSIH - STANDARD",
       "unit": "1kg",
+      "codes": [
+        1
+      ],
       "price": 9.48,
+      "min_price": 5.99,
+      "max_price": 13.5,
       "prev_price": 9.29,
       "change": 0.19,
       "change_pct": 2.0,
@@ -18,11 +21,14 @@
       "latest_date": "2026-06-15"
     },
     {
-      "code": 2,
       "name": "Ayam Super",
-      "full_name": "AYAM BERSIH - SUPER",
       "unit": "1kg",
+      "codes": [
+        2
+      ],
       "price": 11.8,
+      "min_price": 8.0,
+      "max_price": 16.0,
       "prev_price": 11.58,
       "change": 0.22,
       "change_pct": 1.9,
@@ -30,215 +36,14 @@
       "latest_date": "2026-06-15"
     },
     {
-      "code": 9,
-      "name": "Daging Kambing Import",
-      "full_name": "DAGING KAMBING BEBIRI IMPORT BERTULANG (MUTTON) (AUSTRALIA - KOTAK)",
+      "name": "Bawang Merah",
       "unit": "1kg",
-      "price": 34.16,
-      "prev_price": 36.43,
-      "change": -2.27,
-      "change_pct": -6.2,
-      "sample_size": 174,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 47,
-      "name": "Daging Lembu Tempatan",
-      "full_name": "IKAN CENCARU (ANTARA 4 HINGGA 6 EKOR SEKILOGRAM)",
-      "unit": "1kg",
-      "price": 10.58,
-      "prev_price": 10.3,
-      "change": 0.28,
-      "change_pct": 2.7,
-      "sample_size": 826,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 55,
-      "name": "Daging Lembu Import",
-      "full_name": "IKAN KEMBUNG KECIL/PELALING (ANTARA 10 HINGGA 18 EKOR SEKILOGRAM)",
-      "unit": "1kg",
-      "price": 13.83,
-      "prev_price": 13.75,
-      "change": 0.08,
-      "change_pct": 0.6,
-      "sample_size": 526,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 70,
-      "name": "Ikan Kembung",
-      "full_name": "IKAN SELAR PELATA (≤ 7 EKOR SEKILOGRAM)",
-      "unit": "1kg",
-      "price": 17.91,
-      "prev_price": 17.86,
-      "change": 0.05,
-      "change_pct": 0.3,
-      "sample_size": 788,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 88,
-      "name": "Ikan Keli",
-      "full_name": "IKAN KELI (ANTARA 2 HINGGA 5 EKOR SEKILOGRAM)",
-      "unit": "1kg",
-      "price": 10.19,
-      "prev_price": 10.17,
-      "change": 0.02,
-      "change_pct": 0.2,
-      "sample_size": 661,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 92,
-      "name": "Cili Hijau",
-      "full_name": "CILI HIJAU",
-      "unit": "1kg",
-      "price": 12.06,
-      "prev_price": 11.66,
-      "change": 0.4,
-      "change_pct": 3.4,
-      "sample_size": 1101,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 93,
-      "name": "Cili Merah",
-      "full_name": "CILI MERAH - KULAI",
-      "unit": "1kg",
-      "price": 16.17,
-      "prev_price": 16.06,
-      "change": 0.11,
-      "change_pct": 0.7,
-      "sample_size": 521,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 95,
-      "name": "Halia",
-      "full_name": "HALIA BASAH (TUA)",
-      "unit": "1kg",
-      "price": 9.03,
-      "prev_price": 8.39,
-      "change": 0.64,
-      "change_pct": 7.6,
-      "sample_size": 1702,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 96,
-      "name": "Kacang Bendi",
-      "full_name": "KACANG BENDI",
-      "unit": "1kg",
-      "price": 8.34,
-      "prev_price": 7.67,
-      "change": 0.67,
-      "change_pct": 8.7,
-      "sample_size": 1328,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 98,
-      "name": "Kacang Panjang",
-      "full_name": "KACANG PANJANG",
-      "unit": "1kg",
-      "price": 9.36,
-      "prev_price": 8.91,
-      "change": 0.45,
-      "change_pct": 5.1,
-      "sample_size": 1272,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 104,
-      "name": "Kubis Bulat Import",
-      "full_name": "KUBIS BULAT IMPORT (CHINA)",
-      "unit": "1kg",
-      "price": 3.19,
-      "prev_price": 2.97,
-      "change": 0.22,
-      "change_pct": 7.4,
-      "sample_size": 1078,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 105,
-      "name": "Kubis Bulat Tempatan",
-      "full_name": "KUBIS BULAT (TEMPATAN)",
-      "unit": "1kg",
-      "price": 5.82,
-      "prev_price": 5.81,
-      "change": 0.01,
-      "change_pct": 0.2,
-      "sample_size": 572,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 108,
-      "name": "Kunyit Hidup",
-      "full_name": "KUNYIT HIDUP",
-      "unit": "1kg",
-      "price": 10.31,
-      "prev_price": 9.82,
-      "change": 0.49,
-      "change_pct": 5.0,
-      "sample_size": 1328,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 109,
-      "name": "Lobak Merah",
-      "full_name": "LOBAK MERAH",
-      "unit": "1kg",
-      "price": 4.01,
-      "prev_price": 3.75,
-      "change": 0.26,
-      "change_pct": 6.9,
-      "sample_size": 1482,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 113,
-      "name": "Timun",
-      "full_name": "TIMUN",
-      "unit": "1kg",
-      "price": 4.3,
-      "prev_price": 4.02,
-      "change": 0.28,
-      "change_pct": 7.0,
-      "sample_size": 1503,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 114,
-      "name": "Terung Panjang",
-      "full_name": "TOMATO",
-      "unit": "1kg",
-      "price": 6.92,
-      "prev_price": 6.61,
-      "change": 0.31,
-      "change_pct": 4.7,
-      "sample_size": 1475,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 129,
-      "name": "Bayam",
-      "full_name": "BAWANG BESAR KUNING/HOLLAND",
-      "unit": "1kg",
-      "price": 3.84,
-      "prev_price": 3.64,
-      "change": 0.2,
-      "change_pct": 5.5,
-      "sample_size": 1732,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 131,
-      "name": "Sawi",
-      "full_name": "BAWANG KECIL MERAH ROSE IMPORT (INDIA)",
-      "unit": "1kg",
+      "codes": [
+        131
+      ],
       "price": 6.03,
+      "min_price": 1.55,
+      "max_price": 18.0,
       "prev_price": 5.39,
       "change": 0.64,
       "change_pct": 11.9,
@@ -246,35 +51,351 @@
       "latest_date": "2026-06-15"
     },
     {
-      "code": 845,
-      "name": "Beras Super Spesial Tempatan (5kg)",
-      "full_name": "SOTONG (≥ 6 EKOR SEKILOGRAM)",
+      "name": "Bawang Putih",
       "unit": "1kg",
-      "price": 35.64,
-      "prev_price": 35.95,
-      "change": -0.31,
+      "codes": [
+        1564
+      ],
+      "price": 9.02,
+      "min_price": 3.99,
+      "max_price": 18.0,
+      "prev_price": 8.61,
+      "change": 0.41,
+      "change_pct": 4.8,
+      "sample_size": 1714,
+      "latest_date": "2026-06-15"
+    },
+    {
+      "name": "Beras Super (10kg)",
+      "unit": "10 kg",
+      "codes": [
+        904,
+        1583,
+        1825,
+        1826,
+        1902,
+        1951,
+        2004
+      ],
+      "price": 32.78,
+      "min_price": 27.5,
+      "max_price": 44.7,
+      "prev_price": 37.9,
+      "change": -5.12,
+      "change_pct": -13.5,
+      "sample_size": 952,
+      "latest_date": "2026-06-15"
+    },
+    {
+      "name": "Cili Hijau",
+      "unit": "1kg",
+      "codes": [
+        92
+      ],
+      "price": 12.06,
+      "min_price": 2.0,
+      "max_price": 33.6,
+      "prev_price": 11.66,
+      "change": 0.4,
+      "change_pct": 3.4,
+      "sample_size": 1101,
+      "latest_date": "2026-06-15"
+    },
+    {
+      "name": "Cili Merah",
+      "unit": "1kg",
+      "codes": [
+        93
+      ],
+      "price": 16.17,
+      "min_price": 4.99,
+      "max_price": 39.0,
+      "prev_price": 16.06,
+      "change": 0.11,
+      "change_pct": 0.7,
+      "sample_size": 521,
+      "latest_date": "2026-06-15"
+    },
+    {
+      "name": "Daging Kambing Import",
+      "unit": "1kg",
+      "codes": [
+        9,
+        10,
+        1907,
+        1908
+      ],
+      "price": 34.06,
+      "min_price": 15.49,
+      "max_price": 45.9,
+      "prev_price": 36.83,
+      "change": -2.77,
+      "change_pct": -7.5,
+      "sample_size": 181,
+      "latest_date": "2026-06-15"
+    },
+    {
+      "name": "Daging Lembu Import",
+      "unit": "1kg",
+      "codes": [
+        1370,
+        1371,
+        1372,
+        1373,
+        1913
+      ],
+      "price": 44.66,
+      "min_price": 19.9,
+      "max_price": 80.9,
+      "prev_price": 44.57,
+      "change": 0.09,
+      "change_pct": 0.2,
+      "sample_size": 71,
+      "latest_date": "2026-06-15"
+    },
+    {
+      "name": "Daging Lembu Tempatan",
+      "unit": "1kg",
+      "codes": [
+        1431,
+        1432
+      ],
+      "price": 34.95,
+      "min_price": 25.0,
+      "max_price": 46.8,
+      "prev_price": 41.56,
+      "change": -6.61,
+      "change_pct": -15.9,
+      "sample_size": 151,
+      "latest_date": "2026-06-15"
+    },
+    {
+      "name": "Gula Pasir (1kg)",
+      "unit": "1kg",
+      "codes": [
+        1589,
+        1590
+      ],
+      "price": 2.88,
+      "min_price": 2.0,
+      "max_price": 28.5,
+      "prev_price": 2.86,
+      "change": 0.02,
+      "change_pct": 0.7,
+      "sample_size": 2384,
+      "latest_date": "2026-06-15"
+    },
+    {
+      "name": "Halia",
+      "unit": "1kg",
+      "codes": [
+        95
+      ],
+      "price": 9.03,
+      "min_price": 3.79,
+      "max_price": 20.0,
+      "prev_price": 8.39,
+      "change": 0.64,
+      "change_pct": 7.6,
+      "sample_size": 1702,
+      "latest_date": "2026-06-15"
+    },
+    {
+      "name": "Ikan Keli",
+      "unit": "1kg",
+      "codes": [
+        88
+      ],
+      "price": 10.19,
+      "min_price": 4.99,
+      "max_price": 20.0,
+      "prev_price": 10.17,
+      "change": 0.02,
+      "change_pct": 0.2,
+      "sample_size": 661,
+      "latest_date": "2026-06-15"
+    },
+    {
+      "name": "Ikan Kembung",
+      "unit": "1kg",
+      "codes": [
+        1476
+      ],
+      "price": 16.5,
+      "min_price": 7.88,
+      "max_price": 32.9,
+      "prev_price": 16.9,
+      "change": -0.4,
+      "change_pct": -2.4,
+      "sample_size": 557,
+      "latest_date": "2026-06-15"
+    },
+    {
+      "name": "Ikan Tilapia",
+      "unit": "1kg",
+      "codes": [
+        89,
+        1921
+      ],
+      "price": 15.94,
+      "min_price": 7.99,
+      "max_price": 25.9,
+      "prev_price": 16.08,
+      "change": -0.14,
       "change_pct": -0.9,
-      "sample_size": 691,
+      "sample_size": 690,
       "latest_date": "2026-06-15"
     },
     {
-      "code": 847,
-      "name": "Bertas Import (5kg)",
-      "full_name": "KETAM RENJONG/BUNGA (ANTARA 5 HINGGA 8 EKOR SEKILOGRAM)",
+      "name": "Kacang Bendi",
       "unit": "1kg",
-      "price": 38.27,
-      "prev_price": 39.58,
-      "change": -1.31,
-      "change_pct": -3.3,
-      "sample_size": 328,
+      "codes": [
+        96
+      ],
+      "price": 8.34,
+      "min_price": 2.5,
+      "max_price": 29.99,
+      "prev_price": 7.67,
+      "change": 0.67,
+      "change_pct": 8.7,
+      "sample_size": 1328,
       "latest_date": "2026-06-15"
     },
     {
-      "code": 1109,
-      "name": "Minyak Masak Sawit (5kg)",
-      "full_name": "TELUR AYAM GRED A",
-      "unit": "30 biji",
+      "name": "Kacang Panjang",
+      "unit": "1kg",
+      "codes": [
+        98
+      ],
+      "price": 9.36,
+      "min_price": 3.8,
+      "max_price": 19.95,
+      "prev_price": 8.91,
+      "change": 0.45,
+      "change_pct": 5.1,
+      "sample_size": 1272,
+      "latest_date": "2026-06-15"
+    },
+    {
+      "name": "Kubis Import",
+      "unit": "1kg",
+      "codes": [
+        104,
+        1396,
+        1458
+      ],
+      "price": 3.84,
+      "min_price": 0.99,
+      "max_price": 14.99,
+      "prev_price": 3.65,
+      "change": 0.19,
+      "change_pct": 5.2,
+      "sample_size": 2234,
+      "latest_date": "2026-06-15"
+    },
+    {
+      "name": "Kubis Tempatan",
+      "unit": "1kg",
+      "codes": [
+        105
+      ],
+      "price": 5.82,
+      "min_price": 1.9,
+      "max_price": 10.99,
+      "prev_price": 5.81,
+      "change": 0.01,
+      "change_pct": 0.2,
+      "sample_size": 572,
+      "latest_date": "2026-06-15"
+    },
+    {
+      "name": "Lobak Merah",
+      "unit": "1kg",
+      "codes": [
+        109
+      ],
+      "price": 4.01,
+      "min_price": 1.0,
+      "max_price": 12.0,
+      "prev_price": 3.75,
+      "change": 0.26,
+      "change_pct": 6.9,
+      "sample_size": 1482,
+      "latest_date": "2026-06-15"
+    },
+    {
+      "name": "Minyak Masak (1kg)",
+      "unit": "1kg",
+      "codes": [
+        267,
+        918,
+        1091,
+        1092,
+        1093,
+        1094,
+        1100,
+        1934,
+        1937,
+        1940
+      ],
+      "price": 6.68,
+      "min_price": 2.49,
+      "max_price": 30.9,
+      "prev_price": 5.78,
+      "change": 0.9,
+      "change_pct": 15.6,
+      "sample_size": 4515,
+      "latest_date": "2026-06-15"
+    },
+    {
+      "name": "Minyak Masak (5kg)",
+      "unit": "5 kg",
+      "codes": [
+        254,
+        257,
+        260,
+        263,
+        266,
+        1095,
+        1936,
+        1939,
+        1942
+      ],
+      "price": 32.3,
+      "min_price": 0.3,
+      "max_price": 44.89,
+      "prev_price": 31.49,
+      "change": 0.81,
+      "change_pct": 2.6,
+      "sample_size": 5595,
+      "latest_date": "2026-06-15"
+    },
+    {
+      "name": "Santan Kelapa Segar",
+      "unit": "1kg",
+      "codes": [
+        103,
+        1929
+      ],
+      "price": 12.41,
+      "min_price": 4.5,
+      "max_price": 28.0,
+      "prev_price": 14.12,
+      "change": -1.71,
+      "change_pct": -12.1,
+      "sample_size": 442,
+      "latest_date": "2026-06-15"
+    },
+    {
+      "name": "Telur Gred A",
+      "unit": "10 biji",
+      "codes": [
+        118,
+        1109
+      ],
       "price": 13.89,
+      "min_price": 10.4,
+      "max_price": 135.0,
       "prev_price": 13.61,
       "change": 0.28,
       "change_pct": 2.1,
@@ -282,11 +403,15 @@
       "latest_date": "2026-06-15"
     },
     {
-      "code": 1110,
-      "name": "Minyak Masak Sawit (1kg)",
-      "full_name": "TELUR AYAM GRED B",
-      "unit": "30 biji",
+      "name": "Telur Gred B",
+      "unit": "10 biji",
+      "codes": [
+        119,
+        1110
+      ],
       "price": 12.2,
+      "min_price": 8.7,
+      "max_price": 21.0,
       "prev_price": 11.86,
       "change": 0.34,
       "change_pct": 2.9,
@@ -294,163 +419,62 @@
       "latest_date": "2026-06-15"
     },
     {
-      "code": 1131,
-      "name": "Gula Pasir Kasar (1kg)",
-      "full_name": "UBI KENTANG IMPORT (CHINA)",
-      "unit": "1kg",
-      "price": 3.28,
-      "prev_price": 3.04,
-      "change": 0.24,
-      "change_pct": 7.9,
-      "sample_size": 1455,
+      "name": "Telur Gred C",
+      "unit": "10 biji",
+      "codes": [
+        120,
+        1111
+      ],
+      "price": 11.49,
+      "min_price": 4.4,
+      "max_price": 20.0,
+      "prev_price": 11.28,
+      "change": 0.21,
+      "change_pct": 1.9,
+      "sample_size": 1045,
       "latest_date": "2026-06-15"
     },
     {
-      "code": 1132,
-      "name": "Gula Pasir Halus (1kg)",
-      "full_name": "LIMAU NIPIS",
-      "unit": "1kg",
-      "price": 9.68,
-      "prev_price": 9.46,
-      "change": 0.22,
-      "change_pct": 2.3,
-      "sample_size": 1277,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 1440,
-      "name": "Telur Ayam Gred A (1 biji)",
-      "full_name": "BAWANG BESAR IMPORT (INDIA)",
-      "unit": "1kg",
-      "price": 3.37,
-      "prev_price": 3.05,
-      "change": 0.32,
-      "change_pct": 10.5,
-      "sample_size": 1425,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 1442,
-      "name": "Telur Ayam Gred C (1 biji)",
-      "full_name": "BAWANG KECIL MERAH BIASA IMPORT (INDIA)",
-      "unit": "1kg",
-      "price": 3.63,
-      "prev_price": 3.34,
-      "change": 0.29,
-      "change_pct": 8.7,
-      "sample_size": 894,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 1481,
-      "name": "Bawang Merah Kering",
-      "full_name": "KUBIS BUNGA (CAULIFLOWER)",
-      "unit": "1kg",
-      "price": 8.57,
-      "prev_price": 8.19,
-      "change": 0.38,
-      "change_pct": 4.6,
-      "sample_size": 1382,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 1555,
-      "name": "Bawang Putih Import China (1kg)",
-      "full_name": "UDANG PUTIH/VANNAMEI (TERNAK) (ANTARA 41 HINGGA 60 EKOR SEKILOGRAM)",
-      "unit": "1kg",
-      "price": 34.29,
-      "prev_price": 33.89,
-      "change": 0.4,
-      "change_pct": 1.2,
-      "sample_size": 840,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 1819,
       "name": "Tepung Gandum (1kg)",
-      "full_name": "LENGKUAS",
       "unit": "1kg",
-      "price": 10.66,
-      "prev_price": 10.32,
-      "change": 0.34,
-      "change_pct": 3.3,
-      "sample_size": 1333,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 1916,
-      "name": "Susu Cair Manis (tin)",
-      "full_name": "IKAN DEMUDUK/CUPAK/CERMIN (b\t$ 3 EKOR SEKILOGRAM)",
-      "unit": "1kg",
-      "price": 29.24,
-      "prev_price": 29.68,
-      "change": -0.44,
+      "codes": [
+        917,
+        1593,
+        1827,
+        1870
+      ],
+      "price": 3.39,
+      "min_price": 2.4,
+      "max_price": 4.5,
+      "prev_price": 3.44,
+      "change": -0.05,
       "change_pct": -1.5,
-      "sample_size": 245,
+      "sample_size": 2286,
       "latest_date": "2026-06-15"
     },
     {
-      "code": 1926,
-      "name": "Milo (tin)",
-      "full_name": "CILI AKAR HIJAU",
+      "name": "Timun",
       "unit": "1kg",
-      "price": 13.2,
-      "prev_price": 12.56,
-      "change": 0.64,
-      "change_pct": 5.1,
-      "sample_size": 1213,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 1928,
-      "name": "Kopi Serbuk",
-      "full_name": "LIMAU KASTURI",
-      "unit": "1kg",
-      "price": 8.41,
-      "prev_price": 8.07,
-      "change": 0.34,
-      "change_pct": 4.2,
-      "sample_size": 1348,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 2045,
-      "name": "Santan Kelapa Segar",
-      "full_name": "Santan Kelapa Segar",
-      "unit": "",
-      "price": 12.94,
-      "prev_price": 13.03,
-      "change": -0.09,
-      "change_pct": -0.7,
-      "sample_size": 892,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 2047,
-      "name": "Santan Kotak",
-      "full_name": "Santan Kotak",
-      "unit": "",
-      "price": 12.96,
-      "prev_price": 12.95,
-      "change": 0.01,
-      "change_pct": 0.1,
-      "sample_size": 879,
-      "latest_date": "2026-06-15"
-    },
-    {
-      "code": 2086,
-      "name": "Garam Kasar (1kg)",
-      "full_name": "Garam Kasar (1kg)",
-      "unit": "",
-      "price": 6.17,
-      "prev_price": 5.84,
-      "change": 0.33,
-      "change_pct": 5.7,
-      "sample_size": 1109,
+      "codes": [
+        113
+      ],
+      "price": 4.3,
+      "min_price": 0.99,
+      "max_price": 12.0,
+      "prev_price": 4.02,
+      "change": 0.28,
+      "change_pct": 7.0,
+      "sample_size": 1503,
       "latest_date": "2026-06-15"
     }
   ],
+  "categories_found": 29,
+  "codes_used": 71,
   "total_records": 930632,
-  "items_count": 37,
-  "avg_price": 12.53
+  "matched_records": 254953,
+  "items_count": 28,
+  "avg_price": 14.06,
+  "up": 20,
+  "down": 7,
+  "flat": 1
 }
