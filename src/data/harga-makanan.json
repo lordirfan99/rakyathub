@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-16 17:03",
+  "last_updated": "2026-06-16 17:17",
   "source": "KPDN PriceCatcher",
   "method": "Dynamic item code lookup v2",
   "latest_date": "2026-06-15",
@@ -18,7 +18,73 @@
       "change": 0.19,
       "change_pct": 2.0,
       "sample_size": 1104,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "TF VALUE MART SDN BHD SEGAMAT",
+          "address": "LOT 1528, PTB 1234,JALAN GENUANG,85000 SEGAMAT",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Johor",
+          "district": "Segamat",
+          "price": 5.99
+        },
+        {
+          "name": "MYDIN PASIR MAS",
+          "address": "Lot 6606, Jalan Masjid Lama, ,,Seksyen 1,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kelantan",
+          "district": "Pasir Mas",
+          "price": 5.99
+        },
+        {
+          "name": "MEGAMART SDN BHD",
+          "address": "JC 3795, 3796, 3797, JALAN MUHIBBAH UTAMA 2/1,TAMAN MUHIBBAH UTAMA 2, 77300, MERLIMAU, MELAKA,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Melaka",
+          "district": "Jasin",
+          "price": 6.8
+        },
+        {
+          "name": "PASARAYA SUPERMAS",
+          "address": "PT 714-727,PUSAT PERNIAGAAN HARMONICHABANG TIGA BERANGAN,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kelantan",
+          "district": "Tumpat",
+          "price": 6.99
+        },
+        {
+          "name": "YEOW SHENG MINI MART",
+          "address": "NO 23A, 23B-23C, JALAN TENANG,85300 SEGAMAT,",
+          "type": "Pasar Mini",
+          "state": "Johor",
+          "district": "Segamat",
+          "price": 7.35
+        },
+        {
+          "name": "MYDIN HYPERMARKET MUTIARA RINI",
+          "address": "NO 7, PERSIARAN JAYA 1,TAMAN MUTIARA RINI,81300 SKUDAI, JOHOR.",
+          "type": "Hypermarket",
+          "state": "Johor",
+          "district": "Johor Bahru",
+          "price": 7.39
+        },
+        {
+          "name": "LOTUS’S IOI MALL PUTRAJAYA",
+          "address": "AT-1, IOI CITY MALL LEBUH IRC,IOI RESORT CITY,62502 PUTRAJAYA.",
+          "type": "Hypermarket",
+          "state": "W.P. Putrajaya",
+          "district": "Wp Putrajaya",
+          "price": 7.49
+        },
+        {
+          "name": "ECONSAVE CASH & CARRY PONTIAN",
+          "address": "NO.23, JALAN KOTA EMAS DUA,OFF TAMAN KOTA EMAS, JALAN JOHOR KANAN,PONTIAN KECHIL, 82000, JOHOR",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Johor",
+          "district": "Pontian",
+          "price": 7.69
+        }
+      ]
     },
     {
       "name": "Ayam Super",
@@ -33,7 +99,73 @@
       "change": 0.22,
       "change_pct": 1.9,
       "sample_size": 293,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "SBJ PITAS (S) SDN BHD",
+          "address": "KG TAKA PITAS,PITAS,",
+          "type": "Kedai Runcit",
+          "state": "Sabah",
+          "district": "Pitas",
+          "price": 8.0
+        },
+        {
+          "name": "FAMILY GROCER",
+          "address": "NO 8 & 9,JALAN TOH SHAHBANDAR MUDA 5,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Perak",
+          "district": "Hulu Perak",
+          "price": 8.7
+        },
+        {
+          "name": "KIM HOCK SUPERMARKET",
+          "address": "SIBUJAYA,96000 SIBU,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sarawak",
+          "district": "Sibujaya",
+          "price": 8.88
+        },
+        {
+          "name": "PASAR SEGAR HR IMPIAN",
+          "address": "NO 1 PERSIARAN SEKSYEN 6/1,BANDAR PUTRA BERTAM,",
+          "type": "Pasar Mini",
+          "state": "Pulau Pinang",
+          "district": "Seberang Perai Utara",
+          "price": 9.3
+        },
+        {
+          "name": "PASARAYA HYPERMARKET AEON BIG",
+          "address": "NO. 1B JALAN PERSIARAN FLORA UTAMA,TAMAN FLORA UTAMA,83000 BATU PAHAT, JOHOR.",
+          "type": "Hypermarket",
+          "state": "Johor",
+          "district": "Batu Pahat",
+          "price": 9.69
+        },
+        {
+          "name": "AEON BIG (M) SDN BHD",
+          "address": "NO 2929,JALAN KELISA EMAS 1,",
+          "type": "Hypermarket",
+          "state": "Pulau Pinang",
+          "district": "Seberang Perai Tengah",
+          "price": 9.69
+        },
+        {
+          "name": "AEON IOI PUTRAJAYA STORE",
+          "address": "AEON IOI PUTRAJAYA STORE,Lot 2AT-1&2,,IOI City Mall Lebuh IRC, IOI Resort City",
+          "type": "Hypermarket",
+          "state": "W.P. Putrajaya",
+          "district": "Wp Putrajaya",
+          "price": 9.8
+        },
+        {
+          "name": "SING KWONG (SALIM) SUPERMARKET",
+          "address": "LOT 2, GROUND & 1ST FLOOR,BLOCK B SING KWONG COMPLEX,JALAN SALIM, SIBU, SARAWAK",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sarawak",
+          "district": "Sibu",
+          "price": 9.88
+        }
+      ]
     },
     {
       "name": "Bawang Merah",
@@ -48,7 +180,73 @@
       "change": 0.64,
       "change_pct": 11.9,
       "sample_size": 1043,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "PASARAYA BORONG BIG",
+          "address": "37, PESIARAN MEWAH,BANDAR TUN RAZAK,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "W.P. Kuala Lumpur",
+          "district": "Bandar Tun Razak",
+          "price": 1.55
+        },
+        {
+          "name": "TF VALUE MART TAMBUN",
+          "address": "No.2 Jalan, Persiaran Sci 2/2,Sunway City,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Perak",
+          "district": "Kinta",
+          "price": 1.79
+        },
+        {
+          "name": "TF VALUE MART SDN BHD SEGAMAT",
+          "address": "LOT 1528, PTB 1234,JALAN GENUANG,85000 SEGAMAT",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Johor",
+          "district": "Segamat",
+          "price": 1.79
+        },
+        {
+          "name": "GOLDEN DRAGON CITY SUPERMARKET PUTATAN",
+          "address": "11-0,LORONG GRAND PLAZA PUTATAN 4 (GRAND PLAZA PUTATAN),88200 PUTATAN,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sabah",
+          "district": "Putatan",
+          "price": 1.89
+        },
+        {
+          "name": "PASARAYA WELLWARD SDN BHD",
+          "address": "PASARAYA WELLWARD SDN BHD,NO.1 JALAN 2,TAMAN KRISTAL 2,86400 PARIT RAJA JOHOR",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Johor",
+          "district": "Batu Pahat",
+          "price": 1.99
+        },
+        {
+          "name": "PASARAYA ECONSAVE SEGAMAT",
+          "address": "NO. 25-39 JALAN SYED ABDUL KADIR,KAMPUNG ABDULLAH,85000 SEGAMAT JOHOR",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Johor",
+          "district": "Segamat",
+          "price": 1.99
+        },
+        {
+          "name": "MEGAH SUPERMARKET (BANTING)",
+          "address": "LOT 931,JALAN SUASA,42700 BANTING, SELANGOR",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Selangor",
+          "district": "Kuala Langat",
+          "price": 1.99
+        },
+        {
+          "name": "NSK TRADE CITY (PANDAN) SDN BHD",
+          "address": "LOT 138, BATU 71/2,JLN KOTA TINGGI, PANDAN,81100 JOHOR BAHRU, JOHOR.",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Johor",
+          "district": "Johor Bahru",
+          "price": 1.99
+        }
+      ]
     },
     {
       "name": "Bawang Putih",
@@ -63,7 +261,73 @@
       "change": 0.41,
       "change_pct": 4.8,
       "sample_size": 1714,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "NSK TRADE CITY (PANDAN) SDN BHD",
+          "address": "LOT 138, BATU 71/2,JLN KOTA TINGGI, PANDAN,81100 JOHOR BAHRU, JOHOR.",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Johor",
+          "district": "Johor Bahru",
+          "price": 3.99
+        },
+        {
+          "name": "NSK TRADE CITY (MELAKA) SDN BHD",
+          "address": "NO.19395, JALAN TTC 26,TAMAN TEKNOLOGI CHENG,MELAKA,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Melaka",
+          "district": "Melaka Tengah",
+          "price": 3.99
+        },
+        {
+          "name": "NSK TRADE CITY SDN BHD",
+          "address": "RIVERA, MUKIM KESANG, NO 1, JALAN RIVERA,KAWASAN PERINDUSTRIAN TANJUNG AGAS,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Johor",
+          "district": "Tangkak",
+          "price": 3.99
+        },
+        {
+          "name": "PASARAYA C-MART KANGAR JAYA",
+          "address": "KANGAR JAYA MALL,NO.1, PERSIARAN KANGAR JAYA,KANGAR",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Perlis",
+          "district": "Kangar",
+          "price": 4.0
+        },
+        {
+          "name": "99 SPEEDMART TAPAH",
+          "address": "24, JALAN STESEN,35000 TAPAH,  PERAK,",
+          "type": "Pasar Mini",
+          "state": "Perak",
+          "district": "Batang Padang",
+          "price": 4.4
+        },
+        {
+          "name": "99 SPEEDMART JEMALUANG",
+          "address": "NO 6156 & 6157 (GROUND FLOOR),JALAN MERSING,86810 JEMALUANG",
+          "type": "Pasar Mini",
+          "state": "Johor",
+          "district": "Mersing",
+          "price": 4.4
+        },
+        {
+          "name": "99 SPEEDMART TAMAN SRI PANTAI",
+          "address": "NO 3 & 4 GROUND FLOOR,JALAN TAMAN SRI PANTAI,",
+          "type": "Pasar Mini",
+          "state": "Johor",
+          "district": "Mersing",
+          "price": 4.4
+        },
+        {
+          "name": "99 SPEEDMART PUSAT BANDAR",
+          "address": "NO 30 & 31 (G), PUSAT BANDAR SERI MANJUNG,,SERI MANJUNG,",
+          "type": "Pasar Mini",
+          "state": "Perak",
+          "district": "Manjung",
+          "price": 4.4
+        }
+      ]
     },
     {
       "name": "Beras Super (10kg)",
@@ -84,7 +348,73 @@
       "change": -5.12,
       "change_pct": -13.5,
       "sample_size": 952,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "GOLDEN DRAGON CITY SUPERMARKET PUTATAN",
+          "address": "11-0,LORONG GRAND PLAZA PUTATAN 4 (GRAND PLAZA PUTATAN),88200 PUTATAN,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sabah",
+          "district": "Putatan",
+          "price": 27.5
+        },
+        {
+          "name": "G-MART SUPERMARKET",
+          "address": "GMART BORNEO RETAIL SDN BHD LOT 13-40,BLOCK C, 89850 SIPITANG, SABAH,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sabah",
+          "district": "Sipitang",
+          "price": 27.6
+        },
+        {
+          "name": "SERVAY HYPERMARKET SANDAKAN",
+          "address": "BATU 8,JALAN LABUK,90000 SANDAKAN, SABAH.",
+          "type": "Hypermarket",
+          "state": "Sabah",
+          "district": "Sandakan",
+          "price": 27.79
+        },
+        {
+          "name": "PARKWELL DEPARTMENTAL STORE SANDAKAN",
+          "address": "LOT 19,TINGKA BAWAH DAN SATU,BATU 4, BANDAR INDAH JAYA",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sabah",
+          "district": "Sandakan",
+          "price": 27.79
+        },
+        {
+          "name": "SERVAY EVERGREEN SDN BHD",
+          "address": "TINGKAT BAWAH,SEJATIA WALK BATU 7,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sabah",
+          "district": "Sandakan",
+          "price": 27.79
+        },
+        {
+          "name": "ECONSAVE CASH & CARRY (EM) SDN. BHD.",
+          "address": "TL. 077549887 TINGKAT BAWAH &1 BANDAR LETAT JAYA,,BATU 4, JALAN LINTAS UTARA SANDAKAN,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sabah",
+          "district": "Sandakan",
+          "price": 27.8
+        },
+        {
+          "name": "SERVAY HYPERMARKET (SABAH) SDN BHD (INANAM)",
+          "address": "LOT 11-20, GOLDEN HILL COMMERCIAL DESK,MILE 7-5, JALAN TUARAN, INANAM,88450 KOTA KINABALU, SABAH.",
+          "type": "Hypermarket",
+          "state": "Sabah",
+          "district": "Kota Kinabalu",
+          "price": 27.89
+        },
+        {
+          "name": "GENTINGMAS MALL SDN BHD (BANDAR PERDANA)",
+          "address": "LOT 60-95, BLOK H-K,,BANDAR FAJAR PERDANA,",
+          "type": "Hypermarket",
+          "state": "Sabah",
+          "district": "Sandakan",
+          "price": 27.9
+        }
+      ]
     },
     {
       "name": "Cili Hijau",
@@ -99,7 +429,73 @@
       "change": 0.4,
       "change_pct": 3.4,
       "sample_size": 1101,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "PASARAYA HAMMAD",
+          "address": "NO.5, JALAN P9E/1,,PRESINT 9,,PUTRAJAYA",
+          "type": "Kedai Runcit",
+          "state": "W.P. Putrajaya",
+          "district": "Wp Putrajaya",
+          "price": 2.0
+        },
+        {
+          "name": "TY PASARAYA STATION 18",
+          "address": "NO 1(GF), 1(A) & 3(GF), JALAN PENGKALAN 1,,PUSAT PERNIAGAAN PENGKALAN,",
+          "type": "Pasar Mini",
+          "state": "Perak",
+          "district": "Kinta",
+          "price": 5.69
+        },
+        {
+          "name": "TF VALUE MART SDN BHD SEGAMAT",
+          "address": "LOT 1528, PTB 1234,JALAN GENUANG,85000 SEGAMAT",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Johor",
+          "district": "Segamat",
+          "price": 5.89
+        },
+        {
+          "name": "SUNSHINE FARLIM",
+          "address": "294, JALAN THEAN TEIK,AYER ITAM,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Pulau Pinang",
+          "district": "Timur Laut",
+          "price": 5.9
+        },
+        {
+          "name": "PASARAYA ECONJAYA KUALA KRAI",
+          "address": "LOT 126-131,JALAN CHIN HWA,KUALA KRAI",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kelantan",
+          "district": "Kuala Krai",
+          "price": 5.99
+        },
+        {
+          "name": "PASARAYA ECONJAYA (GM) SDN. BHD.",
+          "address": "PT8361 - 8372,TAMAN WANGSA MEWANGI, JALAN PERSIARAN RAYA,GUA MUSANG",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kelantan",
+          "district": "Gua Musang",
+          "price": 5.99
+        },
+        {
+          "name": "PASARAYA ECONJAYA PASIR PUTEH",
+          "address": "BANDAR PASIR PUTEH,PASIR PUTEH,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kelantan",
+          "district": "Pasir Puteh",
+          "price": 5.99
+        },
+        {
+          "name": "PASARAYA ECONJAYA (KOK LANAS)",
+          "address": "LOT 402-411,JALAN KUALA KRAI, KOK LANAS,KOTA BHARU",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kelantan",
+          "district": "Kota Bharu",
+          "price": 5.99
+        }
+      ]
     },
     {
       "name": "Cili Merah",
@@ -114,7 +510,73 @@
       "change": 0.11,
       "change_pct": 0.7,
       "sample_size": 521,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "NSK TRADE CITY (MELAKA) SDN BHD",
+          "address": "NO.19395, JALAN TTC 26,TAMAN TEKNOLOGI CHENG,MELAKA,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Melaka",
+          "district": "Melaka Tengah",
+          "price": 4.99
+        },
+        {
+          "name": "PASARAYA ECONJAYA",
+          "address": "LOT 153 BANGUNAN MAJLIS DAERAH MACHANG,JALAN DATO HASHIM,MACHANG",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kelantan",
+          "district": "Machang",
+          "price": 6.5
+        },
+        {
+          "name": "COLD STORAGE ALAMANDA",
+          "address": "ALAMANDA SHOPPING CENTRE, LOWER GROUND FLOOR,PRESINT 1, JALAN ALAMANDA,62000 PUTRAJAYA",
+          "type": "Pasar Raya / Supermarket",
+          "state": "W.P. Putrajaya",
+          "district": "Wp Putrajaya",
+          "price": 6.79
+        },
+        {
+          "name": "GIANT SUPERSTORE TUNJONG",
+          "address": "NO 1 PERSIARAN LAGENDA, BANDAR BARU TUNJUNG,                                               SEKSYEN 65,                                                                       15100 KOTA BHARU, KELANTAN.,BATU 4 1/2, TUNJONG,KOTA BHARU",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kelantan",
+          "district": "Kota Bharu",
+          "price": 6.79
+        },
+        {
+          "name": "TESCO KOTA BHARU",
+          "address": "LOT 1828,SEKSYEN 17,KOTA BHARU",
+          "type": "Hypermarket",
+          "state": "Kelantan",
+          "district": "Kota Bharu",
+          "price": 8.69
+        },
+        {
+          "name": "PASARAYA SEM AH YEM",
+          "address": "NO, 8-22,PUSAT PERDAGANGAN JELAPANG,30020 IPOH, PERAK",
+          "type": "Pasar Mini",
+          "state": "Perak",
+          "district": "Kinta",
+          "price": 8.9
+        },
+        {
+          "name": "MYDIN WHOLESALE HYPERMARKET",
+          "address": "LOT 1724,SEKSYEN 14, JALAN RAJA PEREMPUAN ZAINAB II,16150 KUBANG KERIAN, KELANTAN.",
+          "type": "Hypermarket",
+          "state": "Kelantan",
+          "district": "Kota Bharu",
+          "price": 8.99
+        },
+        {
+          "name": "PASAR MINI BORONG BIG BAZAAR PRESINT 8",
+          "address": "(BIG BAZAAR RETAIL SDN. BHD) NO.23,24,25,26, BAZAAR @8,JALAN SELUANG P8/7,PRESINT 8, 62000 PUTRAJAYA",
+          "type": "Pasar Mini",
+          "state": "W.P. Putrajaya",
+          "district": "Wp Putrajaya",
+          "price": 8.99
+        }
+      ]
     },
     {
       "name": "Daging Kambing Import",
@@ -132,7 +594,73 @@
       "change": -2.77,
       "change_pct": -7.5,
       "sample_size": 181,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "MYDIN HYPERMARKET MUTIARA RINI",
+          "address": "NO 7, PERSIARAN JAYA 1,TAMAN MUTIARA RINI,81300 SKUDAI, JOHOR.",
+          "type": "Hypermarket",
+          "state": "Johor",
+          "district": "Johor Bahru",
+          "price": 15.49
+        },
+        {
+          "name": "AEON KINTA CITY",
+          "address": "JUSCO IPOH,NO.2 JALAN TEH LEAN SWEE,TAMAN IPOH SELATAN, 31400 IPOH PERAK",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Perak",
+          "district": "Kinta",
+          "price": 23.9
+        },
+        {
+          "name": "CB WHOLESALE MART",
+          "address": "NO 57 & 58, JALAN PJS 3/2, TAMAN MEDAN INDUSTRI 7 1/2 MILES OFF JALAN KLANG LAMA,,46000 PETALING JAYA,",
+          "type": "Pasar Mini",
+          "state": "Selangor",
+          "district": "Petaling Jaya",
+          "price": 24.89
+        },
+        {
+          "name": "PACIFIC HYPERMARKET",
+          "address": "G888 & 1888 KTCC MALL,MUARA SELATAN,KUALA TERENGGANU",
+          "type": "Hypermarket",
+          "state": "Terengganu",
+          "district": "Kuala Terengganu",
+          "price": 26.99
+        },
+        {
+          "name": "BILLION JELAPANG",
+          "address": "NO 2, JALAN PUSAT PERNIAGAAN SILIBIN 2,PUSAT PERNIAGAAN SILIBIN,JALAN JELAPANG, 30100 IPOH PERAK",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Perak",
+          "district": "Kinta",
+          "price": 27.99
+        },
+        {
+          "name": "TF VALUE MART SDN BHD",
+          "address": "NO 23831, JALAN PERUSAHAAN 3,KAWASAN PERINDUSTRIAN KAMUNTING,34600 KAMUNTING, PERAK.",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Perak",
+          "district": "Larut, Matang & Selama",
+          "price": 28.99
+        },
+        {
+          "name": "PASAR  BASAH PERMAISURI",
+          "address": "BANDAR PERMAISURI,22100 SETIU,TERENGGANU",
+          "type": "Pasar Basah",
+          "state": "Terengganu",
+          "district": "Setiu",
+          "price": 29.0
+        },
+        {
+          "name": "PASARAYA BHUIYEN K CHOWKIT",
+          "address": "NO 79&81 JLN HJ HUSSEIN,50300 KUALA LUMPUR,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "W.P. Kuala Lumpur",
+          "district": "Titiwangsa",
+          "price": 29.5
+        }
+      ]
     },
     {
       "name": "Daging Lembu Import",
@@ -151,7 +679,73 @@
       "change": 0.09,
       "change_pct": 0.2,
       "sample_size": 71,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "FRESH & PAY PADAWAN",
+          "address": "SUBLOT 32-37, LOT 2241-2246,M10 COMMERCIAL CENTRE, 10TH MILE,",
+          "type": "Pasar Mini",
+          "state": "Sarawak",
+          "district": "Kota Padawan",
+          "price": 19.9
+        },
+        {
+          "name": "SABASUN HYPERUNCIT AJIL",
+          "address": "NO.39- NO.47 BLOK E,PUSAT DAGANGAN AJIL,JALAN KUALA BERANG, PEKAN AJIL",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Terengganu",
+          "district": "Hulu Terengganu",
+          "price": 20.79
+        },
+        {
+          "name": "PASARAYA ECONJAYA (GM) SDN. BHD.",
+          "address": "PT8361 - 8372,TAMAN WANGSA MEWANGI, JALAN PERSIARAN RAYA,GUA MUSANG",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kelantan",
+          "district": "Gua Musang",
+          "price": 21.69
+        },
+        {
+          "name": "FRESH & PAY PADAWAN",
+          "address": "SUBLOT 32-37, LOT 2241-2246,M10 COMMERCIAL CENTRE, 10TH MILE,",
+          "type": "Pasar Mini",
+          "state": "Sarawak",
+          "district": "Kota Padawan",
+          "price": 25.5
+        },
+        {
+          "name": "LOTUSS STORE BERCHAM",
+          "address": "NO. 2, LALUAN TASEK TIMUR 6,TAMAN TASEKINDRA,OFF JALAN KG BERCHAM, 34100 IPOH, PERAK.",
+          "type": "Hypermarket",
+          "state": "Perak",
+          "district": "Kinta",
+          "price": 27.99
+        },
+        {
+          "name": "NSK TRADE CITY (PANDAN) SDN BHD",
+          "address": "LOT 138, BATU 71/2,JLN KOTA TINGGI, PANDAN,81100 JOHOR BAHRU, JOHOR.",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Johor",
+          "district": "Johor Bahru",
+          "price": 30.9
+        },
+        {
+          "name": "GIANT HYPERMARKET KOTA DAMANSARA",
+          "address": "NO 16, JALAN PJU 5/1,KOTA DAMANSARA, PJU 5,47810 PETALING JAYA",
+          "type": "Hypermarket",
+          "state": "Selangor",
+          "district": "Petaling Jaya",
+          "price": 31.9
+        },
+        {
+          "name": "TESCO SEREMBAN 2",
+          "address": "NO. 1,JLN HARUAN 2 BKT KEPAYANG,70300 SEREMBAN NEGERI SEMBILAN",
+          "type": "Hypermarket",
+          "state": "Negeri Sembilan",
+          "district": "Seremban",
+          "price": 32.99
+        }
+      ]
     },
     {
       "name": "Daging Lembu Tempatan",
@@ -167,7 +761,73 @@
       "change": -6.61,
       "change_pct": -15.9,
       "sample_size": 151,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "PASAR SEGAR PELADANG",
+          "address": "JALAN ISMAIL PETRA,TANAH MERAH,KELANTAN,",
+          "type": "Pasar Basah",
+          "state": "Kelantan",
+          "district": "Tanah Merah",
+          "price": 25.0
+        },
+        {
+          "name": "PASAR BASAH PENGKALAN CHEPA",
+          "address": "NO 107,PASAR BASAH PENGKALAN CHEPA,JALAN PENGKALAN CHEPA,KOTA BHARU",
+          "type": "Pasar Basah",
+          "state": "Kelantan",
+          "district": "Kota Bharu",
+          "price": 25.0
+        },
+        {
+          "name": "PASAR BESAR BANDAR TASEK RAJA",
+          "address": "BANDAR TASEK RAJA,PASIR MAS,",
+          "type": "Pasar Basah",
+          "state": "Kelantan",
+          "district": "Pasir Mas",
+          "price": 25.0
+        },
+        {
+          "name": "PASAR SEGAR PELADANG",
+          "address": "JALAN ISMAIL PETRA,TANAH MERAH,KELANTAN,",
+          "type": "Pasar Basah",
+          "state": "Kelantan",
+          "district": "Tanah Merah",
+          "price": 25.0
+        },
+        {
+          "name": "PASAR BASAH PENGKALAN CHEPA",
+          "address": "NO 107,PASAR BASAH PENGKALAN CHEPA,JALAN PENGKALAN CHEPA,KOTA BHARU",
+          "type": "Pasar Basah",
+          "state": "Kelantan",
+          "district": "Kota Bharu",
+          "price": 25.0
+        },
+        {
+          "name": "PASAR BESAR BANDAR TASEK RAJA",
+          "address": "BANDAR TASEK RAJA,PASIR MAS,",
+          "type": "Pasar Basah",
+          "state": "Kelantan",
+          "district": "Pasir Mas",
+          "price": 25.0
+        },
+        {
+          "name": "PASAR BESAR MACHANG",
+          "address": "PASAR BESAR MACHANG,MACHANG KELANTAN,",
+          "type": "Pasar Basah",
+          "state": "Kelantan",
+          "district": "Machang",
+          "price": 25.0
+        },
+        {
+          "name": "MYFARM OUTLET, RTC TUNJONG",
+          "address": "LEBUHRAYA PASIR MAS-SALOR,TUNJONG,",
+          "type": "Pasar Basah",
+          "state": "Kelantan",
+          "district": "Kota Bharu",
+          "price": 26.0
+        }
+      ]
     },
     {
       "name": "Gula Pasir (1kg)",
@@ -183,7 +843,73 @@
       "change": 0.02,
       "change_pct": 0.7,
       "sample_size": 2384,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "THE STORE ( SRI PETALING )",
+          "address": "LOT 24211, JALAN RADIN TENGAH,BANDAR BARU SRI PETALING,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "W.P. Kuala Lumpur",
+          "district": "Seputeh",
+          "price": 2.0
+        },
+        {
+          "name": "22 MART SDN BHD",
+          "address": "NO10A & 11A, TAMAN DATO' UNDANG ABDULLAH,,KUALA KLAWANG,",
+          "type": "Pasar Mini",
+          "state": "Negeri Sembilan",
+          "district": "Jelebu",
+          "price": 2.7
+        },
+        {
+          "name": "ISHAH BINTONG (REPOH)",
+          "address": "NO 2, JALAN TIGA,TAMAN REPOH CERIA,",
+          "type": "Pasar Mini",
+          "state": "Perlis",
+          "district": "Kangar",
+          "price": 2.75
+        },
+        {
+          "name": "FAMILY STORE SIKAMAT",
+          "address": "NO.10-12,LORONG DESA KIARA 2/3, TAMAN DESA KIARA,70400 SEREMBAN, NEGERI SEMBILAN",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Negeri Sembilan",
+          "district": "Seremban",
+          "price": 2.79
+        },
+        {
+          "name": "PASARAYA ECO JIMAT (BUKIT KETERI)",
+          "address": "NO 381, 383, 385 & 387, 389 JALAN BUKIT KETERI,TAMAN EMAS, BESERI,",
+          "type": "Pasar Mini",
+          "state": "Perlis",
+          "district": "Padang Besar",
+          "price": 2.79
+        },
+        {
+          "name": "PASARAYA DIAN PANG CASH & CARRY",
+          "address": "LOT 22040, JP 18,,JALAN PASAR,86400 PARIT RAJA, BATU PAHAT",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Johor",
+          "district": "Batu Pahat",
+          "price": 2.79
+        },
+        {
+          "name": "HASIL LAUT N-5",
+          "address": "LOT 66-67, JALAN SENAWI,,SITIAWAN,",
+          "type": "Kedai Runcit",
+          "state": "Perak",
+          "district": "Manjung",
+          "price": 2.79
+        },
+        {
+          "name": "ZEN VISTA SDN. BHD.",
+          "address": "NO. 5-9, JALAN WAJA INDAH,,TAMAN WAJA INDAH,,KULIM, KEDAH.",
+          "type": "Pasar Mini",
+          "state": "Kedah",
+          "district": "Kulim",
+          "price": 2.79
+        }
+      ]
     },
     {
       "name": "Halia",
@@ -198,7 +924,73 @@
       "change": 0.64,
       "change_pct": 7.6,
       "sample_size": 1702,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "BILLION PARIT BUNTAR",
+          "address": "NO 2, PERSIARAN SHAHBANDAR,TAMAN KERIAN TAMBAHAN 6,34200 PARIT BUNTAR, PERAK DARUL RIDZUAN",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Perak",
+          "district": "Kerian",
+          "price": 3.79
+        },
+        {
+          "name": "BILLION SHOPPING CENTRE",
+          "address": "No 7009 jln telaga air,Seksyen 2 Butterworth,Pulau pinang",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Pulau Pinang",
+          "district": "Seberang Perai Utara",
+          "price": 3.79
+        },
+        {
+          "name": "PASARAYA BS FRESH MART JERANTUT SDN BHD",
+          "address": "NO 115-122,JALAN ZAPIN INDAH 4, BANDAR INDERAPURA,JERANTUT,PAHANG",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Pahang",
+          "district": "Jerantut",
+          "price": 3.99
+        },
+        {
+          "name": "BILLION JELAPANG",
+          "address": "NO 2, JALAN PUSAT PERNIAGAAN SILIBIN 2,PUSAT PERNIAGAAN SILIBIN,JALAN JELAPANG, 30100 IPOH PERAK",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Perak",
+          "district": "Kinta",
+          "price": 3.99
+        },
+        {
+          "name": "TESCO PERINGGIT",
+          "address": "NO.1,JALAN TUN ABDUL RAZAK,75400 PERINGGIT MELAKA",
+          "type": "Hypermarket",
+          "state": "Melaka",
+          "district": "Melaka Tengah",
+          "price": 4.45
+        },
+        {
+          "name": "LOTUS`S DESA TEBRAU",
+          "address": "NO. 1,TAMAN DESA TEBRAU,81100 JOHOR BHARU",
+          "type": "Hypermarket",
+          "state": "Johor",
+          "district": "Johor Bahru",
+          "price": 4.45
+        },
+        {
+          "name": "LOTUS'S MUAR",
+          "address": "NO. 99 JALAN GEMILANG BAKRI 1,PUSAT KOMERSIL GEMILANG BAKRI,",
+          "type": "Hypermarket",
+          "state": "Johor",
+          "district": "Muar",
+          "price": 4.45
+        },
+        {
+          "name": "PASARAYA MEMPAGA FRESH BENTA",
+          "address": "JALAN LAMA LIPIS RAUB,BENTA, KUALA LIPIS,PAHANG.",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Pahang",
+          "district": "Lipis",
+          "price": 4.5
+        }
+      ]
     },
     {
       "name": "Ikan Keli",
@@ -213,7 +1005,73 @@
       "change": 0.02,
       "change_pct": 0.2,
       "sample_size": 661,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "PASARAYA BS FRESH MART JERANTUT SDN BHD",
+          "address": "NO 115-122,JALAN ZAPIN INDAH 4, BANDAR INDERAPURA,JERANTUT,PAHANG",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Pahang",
+          "district": "Jerantut",
+          "price": 4.99
+        },
+        {
+          "name": "PASARAYA BS TEMERLOH SDN BHD",
+          "address": "NO 3,5,7,9,11 & 13 JALAN CHENGAL INDAH,TAMAN CHENGAL INDAH,TEMERLOH, PAHANG.",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Pahang",
+          "district": "Temerloh",
+          "price": 4.99
+        },
+        {
+          "name": "PASARAYA BS TEMERLOH SDN BHD (CAWANGAN MENTAKAB)",
+          "address": "NO 1, JALAN SRI LAYANG 1/2,TAMAN SRI LAYANG,MENTAKAB, PAHANG",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Pahang",
+          "district": "Temerloh",
+          "price": 4.99
+        },
+        {
+          "name": "BS FRESHMART MUADZAM SHAH",
+          "address": "217,218,219 & 220,JALAN MEDAN MEWAH,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Pahang",
+          "district": "Rompin",
+          "price": 4.99
+        },
+        {
+          "name": "BS FRESHMART",
+          "address": "LOT 71863-71867,JALAN ALOR TEMPOYAK,KG. ALOR TEMPOYAK",
+          "type": "Pasar Mini",
+          "state": "Terengganu",
+          "district": "Dungun",
+          "price": 4.99
+        },
+        {
+          "name": "PASARAYA ECONSAVE FOREST HEIGHT",
+          "address": "LOT PT 20987 & PT 20988.,SEREMBAN FOREST HEIGHT,70450 SEREMBAN,NEGERI SEMBILAN",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Negeri Sembilan",
+          "district": "Seremban",
+          "price": 5.59
+        },
+        {
+          "name": "ECONSAVE CASH AND CARRY MALIM S/B",
+          "address": "NO 1-15,JALAN PPM3 PLAZA PANDAN MALIM BUSINESS PARK, BALAI PANJANG,75250 MELAKA",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Melaka",
+          "district": "Melaka Tengah",
+          "price": 5.89
+        },
+        {
+          "name": "MERLIMAU POINT",
+          "address": "JC 88-JC96, JALAN BMU 4, BANDAR BARU MERLIMAU UTARA,,77300 MERIMAU, MELAKA.,",
+          "type": "Pasar Mini",
+          "state": "Melaka",
+          "district": "Jasin",
+          "price": 5.89
+        }
+      ]
     },
     {
       "name": "Ikan Kembung",
@@ -228,7 +1086,73 @@
       "change": -0.4,
       "change_pct": -2.4,
       "sample_size": 557,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "NEW WORLD EXPRESS",
+          "address": "NO.1 JALAN HAJI MOHAMAD PAUZI,MUKAH,",
+          "type": "Pasar Mini",
+          "state": "Sarawak",
+          "district": "Mukah",
+          "price": 7.88
+        },
+        {
+          "name": "TOPMART SUPERSTORE SDN BHD",
+          "address": "LOT 6883-6889, SUBLOTS 31-37BLOCK 25 & 26,,MUARA TUANG LAND DISTRICT, PHASE 5, TAMAN UNICENTRAL,,JALAN KUCHING-KOTA SAMARAHAN EXPRESSWAY",
+          "type": "Pasar Mini",
+          "state": "Sarawak",
+          "district": "Kota Samarahan",
+          "price": 7.9
+        },
+        {
+          "name": "SING KWONG (SALIM) SUPERMARKET",
+          "address": "LOT 2, GROUND & 1ST FLOOR,BLOCK B SING KWONG COMPLEX,JALAN SALIM, SIBU, SARAWAK",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sarawak",
+          "district": "Sibu",
+          "price": 7.99
+        },
+        {
+          "name": "PASAR GOPENG",
+          "address": "PEKAN GOPENG,31600, GOPENG PERAK,",
+          "type": "Pasar Basah",
+          "state": "Perak",
+          "district": "Kinta",
+          "price": 8.0
+        },
+        {
+          "name": "PASAR BESAR MACHANG",
+          "address": "PASAR BESAR MACHANG,MACHANG KELANTAN,",
+          "type": "Pasar Basah",
+          "state": "Kelantan",
+          "district": "Machang",
+          "price": 8.0
+        },
+        {
+          "name": "PASAR AM MEMBAKUT",
+          "address": "JALAN MEMBAKUT-BEAUFORT,89728 MEMBAKUTSABAH,",
+          "type": "Pasar Basah",
+          "state": "Sabah",
+          "district": "Kimanis",
+          "price": 8.0
+        },
+        {
+          "name": "CCK FRESH MART (SALIM)",
+          "address": "NO. 13, GROUND FLOOR,LORONG SALIM 17,",
+          "type": "Pasar Mini",
+          "state": "Sarawak",
+          "district": "Sibu",
+          "price": 8.3
+        },
+        {
+          "name": "LIAN YII MARKETING SDN.BHD.",
+          "address": "LOTS 1122 & 1123, BOTH OF BLOCKS 4, STD 95000 SRI AMAN, SARAWAK.,LOTS 1122 & 1123, BOTH OF BLOCKS 4, STD 95000 SRI AMAN, SARAWAK.,",
+          "type": "Pasar Mini",
+          "state": "Sarawak",
+          "district": "Sri Aman",
+          "price": 8.5
+        }
+      ]
     },
     {
       "name": "Ikan Tilapia",
@@ -244,7 +1168,73 @@
       "change": -0.14,
       "change_pct": -0.9,
       "sample_size": 690,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "ECONSAVE TANJUNG",
+          "address": "ECONSAVE CASH & CARRY (EC) SDN. BHD.,PASARAYA ARAS 1 HINGGA ARAS 3,KOMPLEKS TAMAN SELERA TANJUNG, JALAN SULTAN ZAINAL ABIDIN",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Terengganu",
+          "district": "Kuala Terengganu",
+          "price": 7.99
+        },
+        {
+          "name": "ECONSAVE CASH & CARRY (EM) SDN. BHD",
+          "address": "LOT 4173,BINTULU PARAGON, NO. 1, OLD AIRPORT PLACE,97000 BINTULU, SARAWAK.",
+          "type": "Hypermarket",
+          "state": "Sarawak",
+          "district": "Bintulu",
+          "price": 9.88
+        },
+        {
+          "name": "NSK TRADE CITY ( KUCHAI LAMA )",
+          "address": "BASEMENT 2, PUSAT PERDAGANGAN KUCHAI,NO.2, JALAN 1/127,OFF JALAN KUCHAI LAMA,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "W.P. Kuala Lumpur",
+          "district": "Seputeh",
+          "price": 9.9
+        },
+        {
+          "name": "ZEMART BAHAU",
+          "address": "NO. 98, JALAN KIARA 2,PUSAT PERNIAGAAN KIARA,BAHAU",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Negeri Sembilan",
+          "district": "Bahau",
+          "price": 9.9
+        },
+        {
+          "name": "PASARAYA ECONJAYA PASIR PUTEH",
+          "address": "BANDAR PASIR PUTEH,PASIR PUTEH,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kelantan",
+          "district": "Pasir Puteh",
+          "price": 9.99
+        },
+        {
+          "name": "ECONSAVE CASH AND CARRY MALIM S/B",
+          "address": "NO 1-15,JALAN PPM3 PLAZA PANDAN MALIM BUSINESS PARK, BALAI PANJANG,75250 MELAKA",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Melaka",
+          "district": "Melaka Tengah",
+          "price": 9.99
+        },
+        {
+          "name": "ECONSAVE CASH AND CARRY ( SETAPAK CENTRAL )",
+          "address": "LOT G-01, SETAPAK CENTRAL,NO. 67, JALAN TAMAN IBU KOTA,DANAU KOTA,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "W.P. Kuala Lumpur",
+          "district": "Wangsa Maju",
+          "price": 9.99
+        },
+        {
+          "name": "ECONSAVE JALAN REKO",
+          "address": "PT 64442, PT 63029, PT63030-PT63051,JALAN REKO,43000 KAJANG, SELANGOR.",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Selangor",
+          "district": "Hulu Langat",
+          "price": 9.99
+        }
+      ]
     },
     {
       "name": "Kacang Bendi",
@@ -259,7 +1249,73 @@
       "change": 0.67,
       "change_pct": 8.7,
       "sample_size": 1328,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "CHOONG HOE MINI MARKET",
+          "address": "NO 1,1A,JALAN PK 8G,KAWASAN PERINDUSTRIAN KRUBONG,KAWASAN PERINDUSTRIAN KRUBONG MELAKA,",
+          "type": "Pasar Mini",
+          "state": "Melaka",
+          "district": "Melaka Tengah",
+          "price": 2.5
+        },
+        {
+          "name": "B FAMILY MART SDN BHD",
+          "address": "NO. 159-168,LORONG DALAM 6,TAMAN DATO' LELA MAHARAJA,PEKAN CHEMBONG,71300 REMBAU,N.SEMBILAN",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Negeri Sembilan",
+          "district": "Rembau",
+          "price": 2.9
+        },
+        {
+          "name": "EVERWIN (JALAN PAHLAWAN)",
+          "address": "JALAN PAHLAWAN 7,SIBU,SARAWAK",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sarawak",
+          "district": "Sibu",
+          "price": 2.98
+        },
+        {
+          "name": "FAMILY STORE (JASIN)",
+          "address": "JA 8699,BANDAR JASIN 3,7700 JASIN, MELAKA",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Melaka",
+          "district": "Jasin",
+          "price": 2.99
+        },
+        {
+          "name": "PASARAYA LYC SDN BHD (KEMUNTING)",
+          "address": "NO. B 30, TINGKAT 2,B2-32, JALAN BIZ PARK UTAMA,KUANTAN BIZ PARK, KUANTAN",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Pahang",
+          "district": "Kuantan",
+          "price": 2.99
+        },
+        {
+          "name": "LYC IM 3",
+          "address": "NO. 11 Jalan IM 3/2,MAHKOTA INDUSTRIAL PARK,Kuantan, Pahang, Malaysia",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Pahang",
+          "district": "Kuantan",
+          "price": 2.99
+        },
+        {
+          "name": "PASARAYA LYC JLN STADIUM",
+          "address": "B94, B96 & 98,GROUND FLOOR. JALAN LIM HOE LEK,KUANTAN, PAHANG",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Pahang",
+          "district": "Kuantan",
+          "price": 2.99
+        },
+        {
+          "name": "MEGAMART SEGAMAT (CAWANGAN IOI)",
+          "address": "NO 16-20 JALAN PUTRA 1/5,BANDAR IOI,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Johor",
+          "district": "Segamat",
+          "price": 2.99
+        }
+      ]
     },
     {
       "name": "Kacang Panjang",
@@ -274,7 +1330,73 @@
       "change": 0.45,
       "change_pct": 5.1,
       "sample_size": 1272,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "CKS HYPERMARKET TUARAN",
+          "address": "LOT 6,BLOK B,",
+          "type": "Hypermarket",
+          "state": "Sabah",
+          "district": "Tuaran",
+          "price": 3.8
+        },
+        {
+          "name": "FRESH MART BRO & SIS SDN BHD",
+          "address": "NO. 1-5, PLAZA KAMPUNG TEMUSU,PULAI, BALING, KEDAH DARUL AMAN,",
+          "type": "Pasar Mini",
+          "state": "Kedah",
+          "district": "Baling",
+          "price": 3.9
+        },
+        {
+          "name": "GFRESH MART SDN. BHD (JAKAR)",
+          "address": "SUBLOT 2 TO 8 (SURVEY LOT 785 TO LOT 791),BEING PART OF LOT 552 BLOCK 106,,SARIKEI LAND DISTRICT, JAKAR ROAD,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sarawak",
+          "district": "Sarikei",
+          "price": 3.9
+        },
+        {
+          "name": "DOREMART SDN. BHD (PASAR BORONG)",
+          "address": "LOT 634, BLOCK 36,,SARIKEI LAND DISTRICT,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sarawak",
+          "district": "Sarikei",
+          "price": 3.9
+        },
+        {
+          "name": "TMG CHENDERING",
+          "address": "PT3245,3246 & 3247 GROUND FLOOR,CHENDERING HEIGHT,KUALA TERENGGANU",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Terengganu",
+          "district": "Kuala Terengganu",
+          "price": 3.99
+        },
+        {
+          "name": "JUMBO GROCER",
+          "address": "NO 16-22, JALAN INDUSTRI PERMATA, +,SIBU JAYA,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sarawak",
+          "district": "Sibujaya",
+          "price": 4.0
+        },
+        {
+          "name": "FARLEY SUPERMARKET SIBU",
+          "address": "JALAN SALIM,96000,SIBU, SARAWAK",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sarawak",
+          "district": "Sibu",
+          "price": 4.5
+        },
+        {
+          "name": "D'PUTRI MINI MARKET",
+          "address": "LOT NO.1, DAERAH KECIL SOOK,,JALAN KENINGAU NABAWAN,",
+          "type": "Pasar Mini",
+          "state": "Sabah",
+          "district": "Sook",
+          "price": 4.5
+        }
+      ]
     },
     {
       "name": "Kubis Import",
@@ -291,7 +1413,73 @@
       "change": 0.19,
       "change_pct": 5.2,
       "sample_size": 2234,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "FAMILY STORE (JASIN)",
+          "address": "JA 8699,BANDAR JASIN 3,7700 JASIN, MELAKA",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Melaka",
+          "district": "Jasin",
+          "price": 0.99
+        },
+        {
+          "name": "SUNSHINE FARLIM",
+          "address": "294, JALAN THEAN TEIK,AYER ITAM,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Pulau Pinang",
+          "district": "Timur Laut",
+          "price": 0.99
+        },
+        {
+          "name": "MEGAMART SDN BHD",
+          "address": "JC 3795, 3796, 3797, JALAN MUHIBBAH UTAMA 2/1,TAMAN MUHIBBAH UTAMA 2, 77300, MERLIMAU, MELAKA,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Melaka",
+          "district": "Jasin",
+          "price": 0.99
+        },
+        {
+          "name": "MERLIMAU POINT",
+          "address": "JC 88-JC96, JALAN BMU 4, BANDAR BARU MERLIMAU UTARA,,77300 MERIMAU, MELAKA.,",
+          "type": "Pasar Mini",
+          "state": "Melaka",
+          "district": "Jasin",
+          "price": 0.99
+        },
+        {
+          "name": "HYPERMARKET MYDIN PULAU SEBANG",
+          "address": "PT 20 & 2053, JALAN BESAR, PULAU SEBANG,,78000, ALOR GAJAH, MELAKA,",
+          "type": "Hypermarket",
+          "state": "Melaka",
+          "district": "Alor Gajah",
+          "price": 1.0
+        },
+        {
+          "name": "JUMBO GROCER",
+          "address": "NO 16-22, JALAN INDUSTRI PERMATA, +,SIBU JAYA,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sarawak",
+          "district": "Sibujaya",
+          "price": 1.0
+        },
+        {
+          "name": "PASARAYA BORONG BIG",
+          "address": "37, PESIARAN MEWAH,BANDAR TUN RAZAK,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "W.P. Kuala Lumpur",
+          "district": "Bandar Tun Razak",
+          "price": 1.29
+        },
+        {
+          "name": "TF VALUE MART SDN BHD SEGAMAT",
+          "address": "LOT 1528, PTB 1234,JALAN GENUANG,85000 SEGAMAT",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Johor",
+          "district": "Segamat",
+          "price": 1.29
+        }
+      ]
     },
     {
       "name": "Kubis Tempatan",
@@ -306,7 +1494,73 @@
       "change": 0.01,
       "change_pct": 0.2,
       "sample_size": 572,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "PASARAYA ECONO KAMUNTING",
+          "address": "NO 47, 49 & 51, JALAN MEDAN KAMUNTING 1,,MEDAN KAMUNTING, KAMUNTING,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Perak",
+          "district": "Larut, Matang & Selama",
+          "price": 1.9
+        },
+        {
+          "name": "GMART TUARAN",
+          "address": "G-MART TUARAN,BLOCK C,LOT 1-5,JLN SUNGAI DAMIT, 89200 TUARAN",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sabah",
+          "district": "Tuaran",
+          "price": 1.99
+        },
+        {
+          "name": "G-MART SUPERMARKET",
+          "address": "GMART BORNEO RETAIL SDN BHD LOT 13-40,BLOCK C, 89850 SIPITANG, SABAH,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sabah",
+          "district": "Sipitang",
+          "price": 1.99
+        },
+        {
+          "name": "GMART TAMPARULI",
+          "address": "GMART TAMPARULI,LOT 12-16,2 STOREY SHOP DEVELOPMENT,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sabah",
+          "district": "Tamparuli",
+          "price": 1.99
+        },
+        {
+          "name": "XR MART GONG BADAK",
+          "address": "XIRI (K.BERANG) SDN. BHD. CAWANGAN GONG BADAK,LOT 18115-18117 TAMAN SEJATI,JALAN TEMBUSU, KUALA TERENGGANU",
+          "type": "Kedai Runcit",
+          "state": "Terengganu",
+          "district": "Kuala Nerus",
+          "price": 1.99
+        },
+        {
+          "name": "GMART KOTA BELUD",
+          "address": "BLOK C, LOT 21-25,,KOTA BELUD COMMERCIAL CENTER,,KOTA BELUD",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sabah",
+          "district": "Kota Belud",
+          "price": 1.99
+        },
+        {
+          "name": "G-MART BORNEO RETAIL SDN BHD",
+          "address": "TINGKAT 1-2, LOT 72,,THE PALM SQUARE COMMERCIAL CENTRE KINARUT,PAPAR",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sabah",
+          "district": "Papar",
+          "price": 1.99
+        },
+        {
+          "name": "MILIMEWA SUPERSTORE (KUDAT)",
+          "address": "LOT 2-7,GROUND FLOOR,JLN LINTAS, 89057 KUDAT, SABAH.",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sabah",
+          "district": "Kudat",
+          "price": 2.2
+        }
+      ]
     },
     {
       "name": "Lobak Merah",
@@ -321,7 +1575,73 @@
       "change": 0.26,
       "change_pct": 6.9,
       "sample_size": 1482,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "PASARAYA C-MART",
+          "address": "LOT 3968,KOMPLEKS ARAU,02600 ARAU, PERLIS",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Perlis",
+          "district": "Arau",
+          "price": 1.0
+        },
+        {
+          "name": "PASARAYA CMART BANDAR DARULAMAN",
+          "address": "NO 21, JALAN INDUSTRI DARULAMAN 1,,KAWASAN PERUSAHAAN BANDAR DARULAMAN,,JITRA, KEDAH",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kedah",
+          "district": "Kubang Pasu",
+          "price": 1.0
+        },
+        {
+          "name": "PASARAYA C-MART KANGAR JAYA",
+          "address": "KANGAR JAYA MALL,NO.1, PERSIARAN KANGAR JAYA,KANGAR",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Perlis",
+          "district": "Kangar",
+          "price": 1.0
+        },
+        {
+          "name": "TF VALUE MART SDN BHD SEGAMAT",
+          "address": "LOT 1528, PTB 1234,JALAN GENUANG,85000 SEGAMAT",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Johor",
+          "district": "Segamat",
+          "price": 1.29
+        },
+        {
+          "name": "MYDIN WHOLESALE HYPERMARKET KULAI UTAMA",
+          "address": "LOT 1.18A KULAI HYPERMARKET,JALAN ANGGERIK 8, TAMAN KULAI UTAMA,81000 KULAI, JOHOR DARUL TAKZIM.",
+          "type": "Hypermarket",
+          "state": "Johor",
+          "district": "Johor Bahru",
+          "price": 1.49
+        },
+        {
+          "name": "PASARAYA PANTAI TIMOR MACHANG",
+          "address": "PT8244, BANDAR SERI MENTARA,MACHANG,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kelantan",
+          "district": "Machang",
+          "price": 1.49
+        },
+        {
+          "name": "JUMBO GROCER",
+          "address": "NO 16-22, JALAN INDUSTRI PERMATA, +,SIBU JAYA,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sarawak",
+          "district": "Sibujaya",
+          "price": 1.5
+        },
+        {
+          "name": "GOLD STAR (BAKRI) BEST MART",
+          "address": "NO. 1,3, 5, JALAN MAKMUR,TAMAN MAKMUR,BUKIT BAKRI",
+          "type": "Pasar Mini",
+          "state": "Johor",
+          "district": "Muar",
+          "price": 1.5
+        }
+      ]
     },
     {
       "name": "Minyak Masak (1kg)",
@@ -345,7 +1665,73 @@
       "change": 0.9,
       "change_pct": 15.6,
       "sample_size": 4515,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "PASARAYA ECO JIMAT (BUKIT KETERI)",
+          "address": "NO 381, 383, 385 & 387, 389 JALAN BUKIT KETERI,TAMAN EMAS, BESERI,",
+          "type": "Pasar Mini",
+          "state": "Perlis",
+          "district": "Padang Besar",
+          "price": 2.49
+        },
+        {
+          "name": "PASAR MINI KARIM",
+          "address": "NO, 7A,KAWASAN PASAR UTAN AJI,01000 KANGAR, PERLIS",
+          "type": "Kedai Runcit",
+          "state": "Perlis",
+          "district": "Kangar",
+          "price": 2.5
+        },
+        {
+          "name": "PASARAYA K-CERIA (KANGAR) SDN. BHD",
+          "address": "NO 3, 5, 7 & 9,JALAN KANGAR - ALOR SETAR SERIA B,01000 KANGAR, PERLIS",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Perlis",
+          "district": "Kangar",
+          "price": 2.5
+        },
+        {
+          "name": "THE STORE ( PUDU PLAZA )",
+          "address": "UG & 1st FLOOR, PUDU PLAZA,JALAN DAVIS,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "W.P. Kuala Lumpur",
+          "district": "Cheras",
+          "price": 2.5
+        },
+        {
+          "name": "LOTUS'S CHERAS",
+          "address": "NO. 2, JALAN MIDAH 2,TAMAN MIDAH,",
+          "type": "Hypermarket",
+          "state": "W.P. Kuala Lumpur",
+          "district": "Cheras",
+          "price": 2.5
+        },
+        {
+          "name": "TESCO SEKSYEN 13",
+          "address": "NO. 3,JALAN AEROBIK 13/43, SEKSYEN 13,40100 SHAH ALAM, SELANGOR",
+          "type": "Hypermarket",
+          "state": "Selangor",
+          "district": "Petaling",
+          "price": 2.5
+        },
+        {
+          "name": "LAYANGAN SHOPPER",
+          "address": "NO. 703,LAYANGAN SHOPPER,87000 WP LABUAN",
+          "type": "Pasar Mini",
+          "state": "W.P. Labuan",
+          "district": "Kawasan Luar Bandar",
+          "price": 2.5
+        },
+        {
+          "name": "TESCO KOTA BHARU",
+          "address": "LOT 1828,SEKSYEN 17,KOTA BHARU",
+          "type": "Hypermarket",
+          "state": "Kelantan",
+          "district": "Kota Bharu",
+          "price": 2.5
+        }
+      ]
     },
     {
       "name": "Minyak Masak (5kg)",
@@ -368,7 +1754,73 @@
       "change": 0.81,
       "change_pct": 2.6,
       "sample_size": 5595,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "BATARAS HYPERMARKET KOLOMBONG INANAM",
+          "address": "MILE 5,JALAN KOLOMBONG, INANAM,88450 KOTA KINABALU, SABAH.",
+          "type": "Hypermarket",
+          "state": "Sabah",
+          "district": "Kota Kinabalu",
+          "price": 0.3
+        },
+        {
+          "name": "ECONSAVE CASH & CARRY (MJ) SDN. BHD. (SETIAWAN)",
+          "address": "(CO.REG. 631406-V) MEDAN SEJAHTERA,32000 SETIAWAN,PERAK.",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Perak",
+          "district": "Manjung",
+          "price": 6.25
+        },
+        {
+          "name": "MAN PERMAI ENTERPRISE",
+          "address": "LOT 900,KAMPUNG LATI, LEMAL,PASIR MAS, KELANTAN.",
+          "type": "Kedai Runcit",
+          "state": "Kelantan",
+          "district": "Pasir Mas",
+          "price": 6.9
+        },
+        {
+          "name": "SAMA MAJU TRADING",
+          "address": "LOT NO. 1,PLAZA KUALA PENYU,89747 KUALA PENYU, SABAH",
+          "type": "Kedai Runcit",
+          "state": "Sabah",
+          "district": "Kuala Penyu",
+          "price": 13.3
+        },
+        {
+          "name": "CITY FRESHMART (BANDAR SRI INDAH)",
+          "address": "BANDAR SRI INDAH,91000 TAWAU, SABAH,",
+          "type": "Pasar Mini",
+          "state": "Sabah",
+          "district": "Tawau",
+          "price": 13.3
+        },
+        {
+          "name": "MORE CHANCE TRADING SDN.BHD",
+          "address": "LOT G3-G6,BANGUNAN SEDCO,89108 KOTA MARUDU, SABAH.",
+          "type": "Kedai Runcit",
+          "state": "Sabah",
+          "district": "Kota Marudu",
+          "price": 16.6
+        },
+        {
+          "name": "AL-FALAH MART",
+          "address": "LOT 1371/B,C & D, TINGKAT BAWAH,JALAN PCB CABANG 3, KEDAI BULOH KG BADANG,",
+          "type": "Pasar Mini",
+          "state": "Kelantan",
+          "district": "Kota Bharu",
+          "price": 23.2
+        },
+        {
+          "name": "ECONSAVE CASH & CARRY ( BS) SDN BHD",
+          "address": "LOT 9855, JALAN MAHARAJA,TMN BAGAN SERAI,34300, BAGAN SERAI, PERAK.",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Perak",
+          "district": "Kerian",
+          "price": 27.5
+        }
+      ]
     },
     {
       "name": "Santan Kelapa Segar",
@@ -384,7 +1836,73 @@
       "change": -1.71,
       "change_pct": -12.1,
       "sample_size": 442,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "PASAR SEGAR SAFIRA",
+          "address": "NO 21 GF JALAN 11C/5, MEDAN 88,BANDAR BARU SALAK TINGGI,43900 SEPANG, SELANGOR",
+          "type": "Pasar Mini",
+          "state": "Selangor",
+          "district": "Sepang",
+          "price": 4.5
+        },
+        {
+          "name": "ST ROSYAM MART",
+          "address": "LOT 3-13, GROUND FLOOR,DEWAN SRI ISKANDAR,TAMAN SETIAWANGSA,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "W.P. Kuala Lumpur",
+          "district": "Setiawangsa",
+          "price": 5.4
+        },
+        {
+          "name": "PASARAYA HM (HOCK MEI TRADING SDN BHD)",
+          "address": "NO 1, BLOCK B,C &D, JALAN PJS 3/2,PETALING JAYA SELATAN, 46000 PETALING JAYA,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Selangor",
+          "district": "Petaling Jaya",
+          "price": 5.49
+        },
+        {
+          "name": "ST ROSYAM MART (SHAH ALAM)",
+          "address": "LOT NO 1, JALAN TEMGKU AMPUAN ZABEDAH G9/G,SEKSYEN 9, 40100 SHAH ALAM,",
+          "type": "Hypermarket",
+          "state": "Selangor",
+          "district": "Petaling",
+          "price": 5.5
+        },
+        {
+          "name": "PASAR AYAM DATO",
+          "address": "NO 1, JALAN PJS 2D/17,,TAMAN MEDAN, 46000 PETALING JAYA,",
+          "type": "Pasar Mini",
+          "state": "Selangor",
+          "district": "Petaling Jaya",
+          "price": 5.5
+        },
+        {
+          "name": "ST.ROSYAM MART JAKEL SQUARE",
+          "address": "LOT 159 JAKEL SQUARE,OFF JALAN MUNSHI ABSULLAH,CITY CENTRE",
+          "type": "Pasar Raya / Supermarket",
+          "state": "W.P. Kuala Lumpur",
+          "district": "Bukit Bintang",
+          "price": 5.5
+        },
+        {
+          "name": "CB WHOLESALE MART",
+          "address": "NO 57 & 58, JALAN PJS 3/2, TAMAN MEDAN INDUSTRI 7 1/2 MILES OFF JALAN KLANG LAMA,,46000 PETALING JAYA,",
+          "type": "Pasar Mini",
+          "state": "Selangor",
+          "district": "Petaling Jaya",
+          "price": 5.79
+        },
+        {
+          "name": "CB WHOLESALE MART",
+          "address": "No. 11G & 15G, Jalan Sri Permaisuri 9,,Bandar Sri Permaisuri, 56000 Kuala Lumpur.,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "W.P. Kuala Lumpur",
+          "district": "Bandar Tun Razak",
+          "price": 5.79
+        }
+      ]
     },
     {
       "name": "Telur Gred A",
@@ -400,7 +1918,73 @@
       "change": 0.28,
       "change_pct": 2.1,
       "sample_size": 914,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "AL-FALAH MART",
+          "address": "LOT 1371/B,C & D, TINGKAT BAWAH,JALAN PCB CABANG 3, KEDAI BULOH KG BADANG,",
+          "type": "Pasar Mini",
+          "state": "Kelantan",
+          "district": "Kota Bharu",
+          "price": 10.4
+        },
+        {
+          "name": "BINTANG FRESH TASEK GELUGOR",
+          "address": "NO 133, 135, 137, 139, 141, 143 & 145 PERSIARAN TASEK GELUGOR UTAMA,TAMAN TASEK GELUGOR UTAMA,",
+          "type": "Pasar Mini",
+          "state": "Pulau Pinang",
+          "district": "Seberang Perai Utara",
+          "price": 11.3
+        },
+        {
+          "name": "TF VALUE MART SDN BHD SEGAMAT",
+          "address": "LOT 1528, PTB 1234,JALAN GENUANG,85000 SEGAMAT",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Johor",
+          "district": "Segamat",
+          "price": 11.99
+        },
+        {
+          "name": "MADANI MART",
+          "address": "B-102 & B-104 (GROUND FLOOR),LORONG INDERA MAHKOTA 8/33,,PERUMAHAN INDERA MAHKOTA 8",
+          "type": "Pasar Mini",
+          "state": "Pahang",
+          "district": "Kuantan",
+          "price": 11.99
+        },
+        {
+          "name": "PASAR CHABANG EMPAT",
+          "address": "CHABANG 4,16210 TUMPAT,KELANTAN",
+          "type": "Pasar Basah",
+          "state": "Kelantan",
+          "district": "Tumpat",
+          "price": 12.0
+        },
+        {
+          "name": "PANTAI TIMUR MART K.BADAK",
+          "address": "MINI MART @ KG BADAK,BACHOK LOT 2791, KG BELUKAR BADAK,MUKIM MELAWI,DAERAH BACHOK,",
+          "type": "Pasar Mini",
+          "state": "Kelantan",
+          "district": "Bachok",
+          "price": 12.2
+        },
+        {
+          "name": "TF VALUE MART TAMBUN",
+          "address": "No.2 Jalan, Persiaran Sci 2/2,Sunway City,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Perak",
+          "district": "Kinta",
+          "price": 12.2
+        },
+        {
+          "name": "MASLEE WHOLESALE C & C (PONTIAN) S/B",
+          "address": "NO.1, 1A, 1B-6, 6A, 6B & 15, 15B-19, 19A, 19B, LOT 2585, LORONG ABADI, PUSAT PERNIAGAAN JUTA, JALAN TEO KANG SUI DALAM 82000 PONTIAN, JOHOR.,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Johor",
+          "district": "Pontian",
+          "price": 12.29
+        }
+      ]
     },
     {
       "name": "Telur Gred B",
@@ -416,7 +2000,73 @@
       "change": 0.34,
       "change_pct": 2.9,
       "sample_size": 1104,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "AL-FALAH MART",
+          "address": "LOT 1371/B,C & D, TINGKAT BAWAH,JALAN PCB CABANG 3, KEDAI BULOH KG BADANG,",
+          "type": "Pasar Mini",
+          "state": "Kelantan",
+          "district": "Kota Bharu",
+          "price": 8.7
+        },
+        {
+          "name": "PASARAYA BORONG BIG",
+          "address": "37, PESIARAN MEWAH,BANDAR TUN RAZAK,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "W.P. Kuala Lumpur",
+          "district": "Bandar Tun Razak",
+          "price": 9.89
+        },
+        {
+          "name": "MADANI MART",
+          "address": "B-102 & B-104 (GROUND FLOOR),LORONG INDERA MAHKOTA 8/33,,PERUMAHAN INDERA MAHKOTA 8",
+          "type": "Pasar Mini",
+          "state": "Pahang",
+          "district": "Kuantan",
+          "price": 9.89
+        },
+        {
+          "name": "PASARAYA YOHOMAS",
+          "address": "PASARAYA YOHOMAS SDN BHD SUA LEE KUAN,NO 54,55 PEKAN BARU KUALA NERANG,06300 KUALA NERANG,KEDAH",
+          "type": "Pasar Mini",
+          "state": "Kedah",
+          "district": "Padang Terap",
+          "price": 9.9
+        },
+        {
+          "name": "GIANT HYPERMARKET PLENTONG",
+          "address": "NO.3 JALAN MASAI LAMA,MUKIM PLENTONG,81750 MASAI JOHOR",
+          "type": "Hypermarket",
+          "state": "Johor",
+          "district": "Johor Bahru",
+          "price": 9.99
+        },
+        {
+          "name": "GCH RETAIL (MALAYSIA) SDN. BHD.",
+          "address": "H.S (D) 6917, LOT PT 1485,JALAN PADANG HILIRAN,KUALA TERENGGANU",
+          "type": "Hypermarket",
+          "state": "Terengganu",
+          "district": "Kuala Terengganu",
+          "price": 9.99
+        },
+        {
+          "name": "TF VALUE MART SDN BHD SEGAMAT",
+          "address": "LOT 1528, PTB 1234,JALAN GENUANG,85000 SEGAMAT",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Johor",
+          "district": "Segamat",
+          "price": 9.99
+        },
+        {
+          "name": "PASAR MINI BIG 10",
+          "address": "NO 19 TINGKAT BAWAH,JALAN GAMBIR 4/2,BANDAR BARU, 84800 BUKIT GAMBIR",
+          "type": "Pasar Mini",
+          "state": "Johor",
+          "district": "Tangkak",
+          "price": 9.99
+        }
+      ]
     },
     {
       "name": "Telur Gred C",
@@ -432,7 +2082,73 @@
       "change": 0.21,
       "change_pct": 1.9,
       "sample_size": 1045,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "TMC ( BANGSAR )",
+          "address": "NO. 27, LORONG ARA KIRI 1,LUCKY GARDEN, BANGSAR,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "W.P. Kuala Lumpur",
+          "district": "Lembah Pantai",
+          "price": 4.4
+        },
+        {
+          "name": "GIANT HYPERMARKET TAMPOI",
+          "address": "LOT 54, JALAN SKUDAI,JALAN SKUDAI,81200 TAMPOI, JOHOR.",
+          "type": "Hypermarket",
+          "state": "Johor",
+          "district": "Johor Bahru",
+          "price": 6.45
+        },
+        {
+          "name": "MADANI MART",
+          "address": "B-102 & B-104 (GROUND FLOOR),LORONG INDERA MAHKOTA 8/33,,PERUMAHAN INDERA MAHKOTA 8",
+          "type": "Pasar Mini",
+          "state": "Pahang",
+          "district": "Kuantan",
+          "price": 8.49
+        },
+        {
+          "name": "FAMILY STORE (JASIN)",
+          "address": "JA 8699,BANDAR JASIN 3,7700 JASIN, MELAKA",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Melaka",
+          "district": "Jasin",
+          "price": 8.99
+        },
+        {
+          "name": "TF VALUE MART SDN BHD SEGAMAT",
+          "address": "LOT 1528, PTB 1234,JALAN GENUANG,85000 SEGAMAT",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Johor",
+          "district": "Segamat",
+          "price": 8.99
+        },
+        {
+          "name": "PASAR MINI BIG 10",
+          "address": "NO 19 TINGKAT BAWAH,JALAN GAMBIR 4/2,BANDAR BARU, 84800 BUKIT GAMBIR",
+          "type": "Pasar Mini",
+          "state": "Johor",
+          "district": "Tangkak",
+          "price": 8.99
+        },
+        {
+          "name": "GM RETAIL & WHOLESALE (SP) SDN. BHD. (G MART)",
+          "address": "PLOT 28, JALAN 7,KAWASAN PERUSAHAAN BAKAR ARANG,08000 SUNGAI PETANI,KEDAH.,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kedah",
+          "district": "Kuala Muda",
+          "price": 9.29
+        },
+        {
+          "name": "ALIEF MAJU SDN. BHD. (CHIKU 3)",
+          "address": "JALAN KLINIK CHIKU 3,FELDA CHIKU 3,",
+          "type": "Kedai Runcit",
+          "state": "Kelantan",
+          "district": "Gua Musang",
+          "price": 9.4
+        }
+      ]
     },
     {
       "name": "Tepung Gandum (1kg)",
@@ -450,7 +2166,73 @@
       "change": -0.05,
       "change_pct": -1.5,
       "sample_size": 2286,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "AL-FALAH MART",
+          "address": "LOT 1371/B,C & D, TINGKAT BAWAH,JALAN PCB CABANG 3, KEDAI BULOH KG BADANG,",
+          "type": "Pasar Mini",
+          "state": "Kelantan",
+          "district": "Kota Bharu",
+          "price": 2.4
+        },
+        {
+          "name": "SBJ PITAS (S) SDN BHD",
+          "address": "KG TAKA PITAS,PITAS,",
+          "type": "Kedai Runcit",
+          "state": "Sabah",
+          "district": "Pitas",
+          "price": 2.4
+        },
+        {
+          "name": "B FAMILY MART SDN BHD",
+          "address": "NO. 159-168,LORONG DALAM 6,TAMAN DATO' LELA MAHARAJA,PEKAN CHEMBONG,71300 REMBAU,N.SEMBILAN",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Negeri Sembilan",
+          "district": "Rembau",
+          "price": 2.69
+        },
+        {
+          "name": "ZEMART BAHAU",
+          "address": "NO. 98, JALAN KIARA 2,PUSAT PERNIAGAAN KIARA,BAHAU",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Negeri Sembilan",
+          "district": "Bahau",
+          "price": 2.69
+        },
+        {
+          "name": "FRIENDLY BEST MART (TEMENGGONG) SDN BHD",
+          "address": "NO. 9 TINGKAT BAWAH,JALAN SERI TEMENGGONG 26/1,TAMAN SERI TEMENGGONG",
+          "type": "Pasar Mini",
+          "state": "Johor",
+          "district": "Muar",
+          "price": 2.69
+        },
+        {
+          "name": "GMART TUARAN",
+          "address": "G-MART TUARAN,BLOCK C,LOT 1-5,JLN SUNGAI DAMIT, 89200 TUARAN",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sabah",
+          "district": "Tuaran",
+          "price": 2.69
+        },
+        {
+          "name": "G'MART BORNEO RETAIL SDN BHD BALUNG",
+          "address": "TB13, LOT 31-36,BLK 5, TAMAN SAWIT SG BALUNG,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sabah",
+          "district": "Tawau",
+          "price": 2.69
+        },
+        {
+          "name": "GMART KOTA BELUD",
+          "address": "BLOK C, LOT 21-25,,KOTA BELUD COMMERCIAL CENTER,,KOTA BELUD",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Sabah",
+          "district": "Kota Belud",
+          "price": 2.69
+        }
+      ]
     },
     {
       "name": "Timun",
@@ -465,7 +2247,73 @@
       "change": 0.28,
       "change_pct": 7.0,
       "sample_size": 1503,
-      "latest_date": "2026-06-15"
+      "latest_date": "2026-06-15",
+      "premises": [
+        {
+          "name": "SALAMKU RETAIL SDN BHD (BACHOK)",
+          "address": "LOT 1280, MUKIM TEMU RANGGAS,JAJAHAN BACHOK,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kelantan",
+          "district": "Bachok",
+          "price": 0.99
+        },
+        {
+          "name": "PASARAYA PANTAI TIMOR MACHANG",
+          "address": "PT8244, BANDAR SERI MENTARA,MACHANG,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kelantan",
+          "district": "Machang",
+          "price": 0.99
+        },
+        {
+          "name": "PASARAYA SALAMKU (PASIR PEKAN) S/B",
+          "address": "LOT 2444-2449,KG. BARU PASIR PEKAN,16250 WAKAF BHARU, KELANTAN",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kelantan",
+          "district": "Tumpat",
+          "price": 1.09
+        },
+        {
+          "name": "PASARAYA PANTAI TIMUR (BACHOK) SDN. BHD",
+          "address": "LOT 2076, MUKIM TEPUS,GUNUNG TIMUR,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kelantan",
+          "district": "Bachok",
+          "price": 1.1
+        },
+        {
+          "name": "SALAMKU XTRA (KOK LANAS) SDN BHD",
+          "address": "LOT 1937-1940, TAMAN GURU DESA PAHLAWAN,JALAN KUALA KRAI,,KOK LANAS",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kelantan",
+          "district": "Kota Bharu",
+          "price": 1.19
+        },
+        {
+          "name": "TF VALUE MART",
+          "address": "LOT 2138, WISMA G ORANGE,BATU 4 1/2, TUNJONG,JALAN KUALA KRAI,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Kelantan",
+          "district": "Kota Bharu",
+          "price": 1.29
+        },
+        {
+          "name": "FAMILY STORE SIKAMAT",
+          "address": "NO.10-12,LORONG DESA KIARA 2/3, TAMAN DESA KIARA,70400 SEREMBAN, NEGERI SEMBILAN",
+          "type": "Pasar Raya / Supermarket",
+          "state": "Negeri Sembilan",
+          "district": "Seremban",
+          "price": 1.5
+        },
+        {
+          "name": "ECONSAVE CASH AND CARRY ( SETAPAK CENTRAL )",
+          "address": "LOT G-01, SETAPAK CENTRAL,NO. 67, JALAN TAMAN IBU KOTA,DANAU KOTA,",
+          "type": "Pasar Raya / Supermarket",
+          "state": "W.P. Kuala Lumpur",
+          "district": "Wangsa Maju",
+          "price": 1.79
+        }
+      ]
     }
   ],
   "categories_found": 29,

@@ -161,8 +161,10 @@ def main():
     print(f"  Got {len(prices):,} price records")
 
     # Step 4: Aggregate prices
-    print("Step 4: Aggregating prices...")
+    # {code: {date: [prices]}}
     agg = defaultdict(lambda: defaultdict(list))
+    # Also track premise-level: {code: {date: {premise_code: price}}}
+    premise_prices = defaultdict(lambda: defaultdict(dict))
     dates_seen = set()
     total_matched = 0
 
@@ -171,6 +173,7 @@ def main():
             code = int(r["item_code"])
             price = float(r["price"])
             date = r["date"]
+            premise_code = int(float(r.get("premise_code", 0)))
         except (ValueError, KeyError):
             continue
 
@@ -178,11 +181,37 @@ def main():
             agg[code][date].append(price)
             dates_seen.add(date)
             total_matched += 1
+            # Track premise price (keep lowest per premise-code per date)
+            if premise_code > 0:
+                cur = premise_prices[code][date].get(premise_code)
+                if cur is None or price < cur:
+                    premise_prices[code][date][premise_code] = price
 
     dates_sorted = sorted(dates_seen)
     latest_date = dates_sorted[-1] if dates_sorted else today.strftime("%Y-%m-%d")
 
     print(f"  Matched {total_matched:,} records across {len(agg)} codes")
+
+    # Step 4b: Download premise lookup for cheapest-store feature
+    print("Step 4b: Downloading premise lookup...")
+    premises = {}
+    try:
+        premises_csv = download_csv("https://storage.data.gov.my/pricecatcher/lookup_premise.csv")
+        for r in premises_csv:
+            try:
+                pc = int(float(r.get("premise_code", 0)))
+                premise = r.get("premise", "").strip()
+                address = r.get("address", "").strip()
+                premise_type = r.get("premise_type", "").strip()
+                state = r.get("state", "").strip()
+                district = r.get("district", "").strip()
+                if pc > 0:
+                    premises[pc] = {"name": premise, "address": address, "type": premise_type, "state": state, "district": district}
+            except (ValueError, KeyError):
+                continue
+        print(f"  Loaded {len(premises)} premises")
+    except Exception as e:
+        print(f"  Warning: Could not load premises: {e}")
 
     # Step 5: Compute prices per category
     print("Step 5: Computing category averages...")
@@ -232,6 +261,25 @@ def main():
         # Get unit from first matched entry
         unit = unit_map.get(codes[0], "") if codes else ""
 
+        # Find cheapest premises for latest date
+        cheapest_premises = []
+        latest_d = date_keys[0]
+        for code in codes:
+            if code in premise_prices and latest_d in premise_prices[code]:
+                for pc, p_price in premise_prices[code][latest_d].items():
+                    if pc in premises:
+                        cheapest_premises.append({
+                            "name": premises[pc]["name"],
+                            "address": premises[pc]["address"],
+                            "type": premises[pc]["type"],
+                            "state": premises[pc]["state"],
+                            "district": premises[pc]["district"],
+                            "price": round(p_price, 2),
+                        })
+        # Sort by price and take top 8
+        cheapest_premises.sort(key=lambda x: x["price"])
+        cheapest_premises = cheapest_premises[:8]
+
         result["items"].append({
             "name": display_name,
             "unit": unit,
@@ -244,6 +292,7 @@ def main():
             "change_pct": change_pct,
             "sample_size": len(latest_prices),
             "latest_date": date_keys[0],
+            "premises": cheapest_premises,
         })
 
     # Summary stats
