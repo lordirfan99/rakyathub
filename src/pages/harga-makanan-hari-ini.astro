@@ -136,22 +136,22 @@ const metadata = {
               const arrow = isUp ? '▲' : isDown ? '▼' : '➡';
               const cls = isUp ? 'text-red-600' : isDown ? 'text-green-600' : 'text-muted';
               return (
-              <tr class="item-row border-b border-gray-50 dark:border-slate-800/50" data-slug={item.slug} data-name={item.name.toLowerCase()} data-cat={item.cat} data-price={item.price}>
+              <tr class="item-row border-b border-gray-50 dark:border-slate-800/50 cursor-pointer active:bg-gray-50 dark:active:bg-slate-800/30 transition-colors" data-slug={item.slug} data-name={item.name.toLowerCase()} data-cat={item.cat} data-price={item.price} onclick={`if(!event.target.closest('button')){location.href='/harga-makanan/${item.slug}/';}`}>
                 <td class="py-3 px-4">
                   <div class="flex items-center gap-2">
-                    <button class="w-btn shrink-0 w-6 h-6 flex items-center justify-center text-muted/30 hover:text-amber-400 transition-colors" data-slug={item.slug} onclick={`toggleWatch('${item.slug}')`} title="Pantau">
+                    <button class="w-btn shrink-0 w-6 h-6 flex items-center justify-center text-muted/30 hover:text-amber-400 transition-colors" data-slug={item.slug} onclick={`event.stopPropagation();toggleWatch('${item.slug}')`} title="Pantau">
                       <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"/></svg>
                     </button>
-                    <a href={'/harga-makanan/'+item.slug+'/'} class="font-medium text-gray-900 dark:text-gray-100 hover:text-primary transition-colors">{item.name}</a>
+                    <span class="font-medium text-gray-900 dark:text-gray-100">{item.name}</span>
                   </div>
                 </td>
-                <td class="text-right py-3 px-3 font-bold tabular-nums">RM {item.price.toFixed(2)}</td>
+                <td class="text-right py-3 px-3 font-bold tabular-nums text-gray-900 dark:text-gray-100">RM {item.price.toFixed(2)}</td>
                 <td class="text-right py-3 px-3 hidden sm:table-cell tabular-nums">
                   <span class="font-semibold text-sm {cls}">{arrow} {item.change > 0 ? '+' : ''}{item.change.toFixed(2)}</span>
                   <span class="text-[11px] ml-0.5 {cls}">({item.change_pct > 0 ? '+' : ''}{item.change_pct.toFixed(1)}%)</span>
                 </td>
                 <td class="text-right py-3 px-3">
-                  <button onclick={`shareWA('${item.slug}','${item.name}',${item.price})`} class="text-muted/30 hover:text-primary transition-colors" title="Kongsi WhatsApp">
+                  <button onclick={`event.stopPropagation();shareWA('${item.slug}','${item.name}',${item.price})`} class="text-muted/30 hover:text-primary transition-colors" title="Kongsi WhatsApp">
                     <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z"/></svg>
                   </button>
                 </td>

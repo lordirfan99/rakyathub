@@ -276,9 +276,16 @@ def main():
                             "district": premises[pc]["district"],
                             "price": round(p_price, 2),
                         })
-        # Sort by price and take top 8
+        # Sort by price and take top 5 per state (seimbang untuk filter negeri)
         cheapest_premises.sort(key=lambda x: x["price"])
-        cheapest_premises = cheapest_premises[:8]
+        per_state = {}
+        for p in cheapest_premises:
+            s = p["state"] or "Unknown"
+            if s not in per_state:
+                per_state[s] = []
+            if len(per_state[s]) < 5:
+                per_state[s].append(p)
+        cheapest_premises = [p for s in sorted(per_state.keys()) for p in per_state[s]]
 
         result["items"].append({
             "name": display_name,
