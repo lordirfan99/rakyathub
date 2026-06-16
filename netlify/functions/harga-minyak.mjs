@@ -57,10 +57,21 @@ async function fetchFuel() {
 
   const delta = (cur, was) => (was != null && !isNaN(was) ? +(cur - was).toFixed(2) : 0);
 
+  // Weekly history for the chart — last 3 years of "level" rows (date + 3 series).
+  const history = levels
+    .slice(-156)
+    .map((r) => ({
+      date: r.date,
+      ron95: !isNaN(r.ron95) ? +r.ron95.toFixed(2) : null,
+      ron97: !isNaN(r.ron97) ? +r.ron97.toFixed(2) : null,
+      diesel: !isNaN(r.diesel) ? +r.diesel.toFixed(2) : null,
+    }));
+
   const result = {
     date: latest.date,
     last_updated: new Date().toISOString(),
     source: 'data.gov.my — KPDN (fuelprice)',
+    history,
     prices: {
       ron95: +latest.ron95.toFixed(2),
       ron97: +latest.ron97.toFixed(2),
