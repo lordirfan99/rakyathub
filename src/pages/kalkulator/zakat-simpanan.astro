@@ -63,7 +63,7 @@ const metadata = {
     </div>
 
     <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
-      <h2 class="text-xl font-bold mb-4">📊 Syarat Wajib Zakat Simpanan</h2>
+      <h2 class="text-xl font-bold mb-4">Syarat Wajib Zakat Simpanan</h2>
       <ul class="text-muted text-sm space-y-2">
         <li>1️⃣ <strong>Islam</strong> dan merdeka</li>
         <li>2️⃣ <strong>Nisab:</strong> Mencapai nilai 85g emas (~RM49,000 pada 2026 — kadarnya berubah ikut harga emas semasa)</li>
@@ -75,22 +75,22 @@ const metadata = {
 
     <div class="grid md:grid-cols-2 gap-6 mb-8">
       <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
-        <h3 class="font-semibold text-lg mb-2">💰 KWSP & ASB</h3>
+        <h3 class="font-semibold text-lg mb-2">KWSP & ASB</h3>
         <p class="text-muted text-sm">Zakat ke atas KWSP atau ASB wajib dikeluarkan bila duit dikeluarkan atau setiap tahun atas dividen yang diterima. Rujuk pusat zakat negeri masing-masing untuk panduan spesifik.</p>
       </div>
       <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
-        <h3 class="font-semibold text-lg mb-2">🕌 Bayar Zakat</h3>
+        <h3 class="font-semibold text-lg mb-2">Bayar Zakat</h3>
         <p class="text-muted text-sm">Zakat simpanan boleh dibayar di Pusat Pungutan Zakat (PPZ), Lembaga Zakat negeri masing-masing, atau secara online melalui portal zakat. Bayaran zakat layak untuk pelepasan cukai LHDN.</p>
       </div>
     </div>
 
     <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
-      <strong>⚠️ Penafian:</strong> Pengiraan zakat berdasarkan panduan umum PPZ dan JAKIM. Hukum zakat boleh berbeza mengikut negeri dan mazhab. Rujuk pusat zakat negeri masing-masing untuk fatwa tepat.
+      <strong>Penafian:</strong> Pengiraan zakat berdasarkan panduan umum PPZ dan JAKIM. Hukum zakat boleh berbeza mengikut negeri dan mazhab. Rujuk pusat zakat negeri masing-masing untuk fatwa tepat.
       <br /><em>Sumber: PPZ — zakat.com.my | JAKIM</em>
     </div>
 
     <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
-      <h3 class="text-xl font-bold mb-4">📚 Zakat Lain</h3>
+      <h3 class="text-xl font-bold mb-4">Zakat Lain</h3>
       <ul class="space-y-2">
         <li><a href="/kalkulator/zakat-pendapatan/" class="text-primary font-medium hover:underline text-sm">→ Zakat Pendapatan</a></li>
         <li><a href="/kalkulator/zakat-emas/" class="text-primary font-medium hover:underline text-sm">→ Zakat Emas</a></li>
@@ -115,7 +115,7 @@ function calc() {
   var nisab = sn(document.getElementById('zsNisab').value, 49000);
   var haul = document.getElementById('zsHaul').checked;
   if (!haul) {
-    document.getElementById('zsStatus').textContent = '❌ Belum cukup haul';
+    document.getElementById('zsStatus').textContent = 'Belum cukup haul';
     document.getElementById('zsStatus').className = 'text-lg font-bold text-red-600';
     document.getElementById('zsBakiZakat').textContent = 'RM 0';
     document.getElementById('zsZakat').textContent = 'RM 0.00';
@@ -124,7 +124,7 @@ function calc() {
     return;
   }
   if (baki < nisab) {
-    document.getElementById('zsStatus').textContent = '❌ Bawah nisab';
+    document.getElementById('zsStatus').textContent = 'Bawah nisab';
     document.getElementById('zsStatus').className = 'text-lg font-bold text-red-600';
     document.getElementById('zsBakiZakat').textContent = 'RM 0';
     document.getElementById('zsZakat').textContent = 'RM 0.00';
@@ -133,7 +133,7 @@ function calc() {
     return;
   }
   var zakat = Math.round(baki * 0.025 * 100) / 100;
-  document.getElementById('zsStatus').textContent = '✅ Wajib zakat';
+  document.getElementById('zsStatus').textContent = 'Wajib zakat';
   document.getElementById('zsStatus').className = 'text-lg font-bold text-green-600';
   document.getElementById('zsBakiZakat').textContent = fmt(baki);
   document.getElementById('zsZakat').textContent = fmt(zakat);

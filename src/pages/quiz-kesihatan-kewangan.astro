@@ -44,7 +44,7 @@ const schema = {
       <div id="questionArea">
         <div class="flex items-center justify-between mb-6">
           <span class="text-sm font-medium text-primary bg-primary/10 px-3 py-1 rounded-full" id="qProgress">Soalan 1/8</span>
-          <span class="text-sm text-muted" id="qCategory">💳 Simpanan</span>
+          <span class="text-sm text-muted" id="qCategory">Simpanan</span>
         </div>
         
         <h2 class="text-xl md:text-2xl font-bold mb-6" id="qText">Loading...</h2>
@@ -75,7 +75,7 @@ const schema = {
 
         <!-- Recommendations -->
         <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8 mb-6">
-          <h3 class="text-xl font-bold mb-4">📌 Cadangan Ikut Skor Anda</h3>
+          <h3 class="text-xl font-bold mb-4">Cadangan Ikut Skor Anda</h3>
           <div id="resultRecommendations" class="space-y-2 text-sm text-muted"></div>
         </div>
 
@@ -94,15 +94,14 @@ const schema = {
               Share Telegram
             </a>
             <button onclick="retakeQuiz()"
-              class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gray-600 hover:bg-gray-700 text-white font-medium text-sm transition-all hover:scale-[1.02] active:scale-95">
-              🔄 Ambil Semula
+              class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gray-600 hover:bg-gray-700 text-white font-medium text-sm transition-all hover:scale-[1.02] active:scale-95">Ambil Semula
             </button>
           </div>
         </div>
 
         <!-- Related links -->
         <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6">
-          <h3 class="text-xl font-bold mb-4">📚 Tips Ikut Skor Anda</h3>
+          <h3 class="text-xl font-bold mb-4">Tips Ikut Skor Anda</h3>
           <ul class="space-y-2 text-sm" id="resultLinks">
             <li><a href="/kalkulator/gaji-bersih/" class="text-primary font-medium hover:underline">→ Kira Gaji Bersih</a></li>
             <li><a href="/cadangan-bajet-50-30-20-di-malaysia/" class="text-primary font-medium hover:underline">→ Panduan Bajet 50/30/20</a></li>
@@ -129,7 +128,7 @@ var questions = [
   {
     id: 'emergency',
     text: 'Berapa bulan perbelanjaan hidup yang korang ada dalam simpanan kecemasan?',
-    category: '💳 Simpanan',
+    category: 'Simpanan',
     options: [
       { text: 'Tak ada langsung', score: 0 },
       { text: 'Kurang 1 bulan', score: 1 },
@@ -141,7 +140,7 @@ var questions = [
   {
     id: 'budget',
     text: 'Adakah korang guna bajet bulanan untuk urus perbelanjaan?',
-    category: '📊 Bajet',
+    category: 'Bajet',
     options: [
       { text: 'Tak pernah buat bajet', score: 0 },
       { text: 'Kadang-kadang je', score: 1 },
@@ -153,7 +152,7 @@ var questions = [
   {
     id: 'debt',
     text: 'Berapa banyak komitmen hutang korang setiap bulan (% dari gaji)?',
-    category: '🏦 Hutang',
+    category: 'Hutang',
     options: [
       { text: '40% ke atas — sangat tinggi', score: 0 },
       { text: '30-40% — agak tinggi', score: 1 },
@@ -165,7 +164,7 @@ var questions = [
   {
     id: 'insurance',
     text: 'Adakah korang ada perlindungan insurans atau takaful?',
-    category: '🛡️ Insurans',
+    category: 'Insurans',
     options: [
       { text: 'Tiada langsung', score: 0 },
       { text: 'Ada medical card dari majikan je', score: 1 },
@@ -177,7 +176,7 @@ var questions = [
   {
     id: 'investment',
     text: 'Berapa peratus gaji korang labur atau simpan setiap bulan?',
-    category: '📈 Pelaburan',
+    category: 'Pelaburan',
     options: [
       { text: '0% — tak simpan langsung', score: 0 },
       { text: 'Kurang 5%', score: 1 },
@@ -189,7 +188,7 @@ var questions = [
   {
     id: 'kwsp',
     text: 'Adakah korang buat caruman KWSP tambahan atau cuma caruman wajib?',
-    category: '🏦 Persaraan',
+    category: 'Persaraan',
     options: [
       { text: 'Tak tahu pasal KWSP', score: 0 },
       { text: 'Cuma caruman wajib 11%', score: 1 },
@@ -201,7 +200,7 @@ var questions = [
   {
     id: 'bill',
     text: 'Berapa kerap korang lambat bayar bil atau komitmen?',
-    category: '📅 Disiplin',
+    category: 'Disiplin',
     options: [
       { text: 'Setiap bulan ada je tertunggak', score: 0 },
       { text: 'Kerap lambat beberapa hari', score: 1 },
@@ -213,7 +212,7 @@ var questions = [
   {
     id: 'goal',
     text: 'Adakah korang ada matlamat kewangan yang jelas?',
-    category: '🎯 Matlamat',
+    category: 'Matlamat',
     options: [
       { text: 'Tak ada langsung', score: 0 },
       { text: 'Ada fikiran tapi tak tertulis', score: 1 },
@@ -267,7 +266,7 @@ function renderQuestion() {
   var nextBtn = document.getElementById('nextBtn');
   if (currentQ === questions.length - 1) {
     if (answers[currentQ] >= 0) {
-      nextBtn.textContent = '🎉 Lihat Keputusan';
+      nextBtn.textContent = 'Lihat Keputusan';
       nextBtn.onclick = showResult;
     } else {
       nextBtn.textContent = 'Seterusnya →';
@@ -317,26 +316,26 @@ function showResult() {
   // Grade
   var grade, emoji, desc, recs, links;
   if (pct >= 85) {
-    grade = 'A — Cemerlang! 🏆';
+    grade = 'A — Cemerlang!';
     emoji = '🏆';
     desc = 'Tahniah! Kewangan korang dalam keadaan sangat sihat. Teruskan usaha dan bantu rakan-rakan yang lain.';
     recs = ['Tingkatkan pelaburan untuk pulangan lebih tinggi', 'Pertimbangkan diversifikasi aset (emas, saham, hartanah)', 'Bantu keluarga dan rakan dengan ilmu kewangan'];
     links = [{t:'Pelaburan Emas vs ASB vs FD',h:'/kalkulator/pelaburan/'},{t:'Cara Mula Melabur Saham',h:'/cara-mula-melabur-saham-bursa-malaysia-panduan-pemula-2026/'},{t:'Panduan Perancangan Persaraan',h:'/panduan-kwsp-malaysia-2025/'}];
   } else if (pct >= 65) {
-    grade = 'B — Baik 👍';
+    grade = 'B — Baik';
     emoji = '👍';
     desc = 'Kewangan korang dalam keadaan baik, tapi masih ada ruang untuk improve. Fokus pada emergency fund dan pelaburan.';
     recs = ['Tambah emergency fund ke 6 bulan perbelanjaan', 'Mula atau tingkatkan pelaburan bulanan', 'Semak coverage insurans — cukup ke?'];
     links = [{t:'Kalkulator Gaji Bersih',h:'/kalkulator/gaji-bersih/'},{t:'Panduan Medical Card 2026',h:'/panduan-medical-card-malaysia-2026-first-time-buyer/'},{t:'Cara Simpan Duit RM2,500',h:'/cara-simpan-duit-gaji-rm2500/'}];
   } else if (pct >= 45) {
-    grade = 'C — Sederhana 📊';
+    grade = 'C — Sederhana';
     emoji = '📊';
     desc = 'Kewangan korang perlukan perhatian. Mula dengan asas — buat bajet, kurangkan hutang, dan bina emergency fund.';
     recs = ['Buat bajet bulanan guna formula 50/30/20', 'Targetkan emergency fund minimum 1 bulan dulu', 'Kurangkan hutang — cuba DSR bawah 30%'];
     links = [{t:'Bajet 50/30/20 Panduan',h:'/cadangan-bajet-50-30-20-di-malaysia/'},{t:'Kalkulator DSR Pinjaman',h:'/kalkulator/dsr/'},{t:'Urus Gaji Bawah RM3,000',h:'/urus-duit-gaji-bawah-rm3000/'}];
   } else {
-    grade = 'D — Perlu Tindakan Segera ⚠️';
-    emoji = '⚠️';
+    grade = 'D — Perlu Tindakan Segera ';
+    emoji = '';
     desc = 'Kewangan korang dalam zon bahaya. Jangan risau — ramai orang mula dari sini. Ikut langkah asas dan korang akan nampak perubahan.';
     recs = ['HENTIKAN hutang baru — fokus bayar hutang sedia ada', 'Buat bajet paling basic — senarai pendapatan vs perbelanjaan', 'Target simpan RM50-100 sebulan untuk emergency fund dulu'];
     links = [{t:'Urus Gaji Bawah RM3,000',h:'/urus-duit-gaji-bawah-rm3000/'},{t:'Kalkulator DSR',h:'/kalkulator/dsr/'},{t:'Cara Simpan Duit Gaji RM2,500',h:'/cara-simpan-duit-gaji-rm2500/'},{t:'Panduan Elak Scam Pinjaman',h:'/cara-elak-scam-pinjaman-online-panduan-lengkap-tips-selamat/'}];
@@ -347,7 +346,7 @@ function showResult() {
   document.getElementById('resultDesc').textContent = desc;
   
   // Breakdown
-  var cats = ['💳 Simpanan','📊 Bajet','🏦 Hutang','🛡️ Insurans','📈 Pelaburan','🏦 Persaraan','📅 Disiplin','🎯 Matlamat'];
+  var cats = ['Simpanan','Bajet','Hutang','Insurans','Pelaburan','Persaraan','Disiplin','Matlamat'];
   var bd = document.getElementById('breakdownCards');
   bd.innerHTML = '';
   answers.forEach(function(a, i) {

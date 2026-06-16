@@ -97,15 +97,15 @@ const metadata = {
     <!-- Info -->
     <div class="grid md:grid-cols-3 gap-6 mb-8">
       <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
-        <h3 class="font-semibold text-lg mb-2">✅ DSR &lt; 60%</h3>
+        <h3 class="font-semibold text-lg mb-2">DSR &lt; 60%</h3>
         <p class="text-muted text-sm">Komitmen terkawal. Bank akan lebih mudah meluluskan pinjaman baru. Peluang kelulusan tinggi.</p>
       </div>
       <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
-        <h3 class="font-semibold text-lg mb-2">⚠️ DSR 60% – 70%</h3>
+        <h3 class="font-semibold text-lg mb-2">DSR 60% – 70%</h3>
         <p class="text-muted text-sm">Sempadan. Mungkin kena cari cara kurangkan komitmen atau tambah pendapatan sebelum apply loan baru.</p>
       </div>
       <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
-        <h3 class="font-semibold text-lg mb-2">❌ DSR &gt; 70%</h3>
+        <h3 class="font-semibold text-lg mb-2">DSR &gt; 70%</h3>
         <p class="text-muted text-sm">Komitmen tinggi. Bank mungkin tolak permohonan pinjaman. Fokus kurangkan hutang dulu.</p>
       </div>
     </div>
@@ -146,19 +146,19 @@ function calc() {
   var barPct = Math.min(dsr, 100);
 
   if (dsr < 60) {
-    statusEl.textContent = '✅ Selamat';
+    statusEl.textContent = 'Selamat';
     statusCard.className = 'rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center';
     statusEl.className = 'text-lg font-bold text-emerald-700';
     barEl.style.width = barPct + '%';
     barEl.className = 'h-full rounded-full transition-all duration-500 bg-gradient-to-r from-emerald-400 to-emerald-600';
   } else if (dsr < 70) {
-    statusEl.textContent = '⚠️ Sempadan';
+    statusEl.textContent = 'Sempadan';
     statusCard.className = 'rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center';
     statusEl.className = 'text-lg font-bold text-amber-600';
     barEl.style.width = barPct + '%';
     barEl.className = 'h-full rounded-full transition-all duration-500 bg-gradient-to-r from-amber-400 to-orange-500';
   } else {
-    statusEl.textContent = '❌ Tinggi Risiko';
+    statusEl.textContent = 'Tinggi Risiko';
     statusCard.className = 'rounded-xl bg-red-50 dark:bg-red-900/20 p-4 text-center';
     statusEl.className = 'text-lg font-bold text-red-600';
     barEl.style.width = barPct + '%';
