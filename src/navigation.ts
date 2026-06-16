@@ -173,7 +173,7 @@ export const headerData = {
     },
     {
       text: 'Alat Dokumen',
-      href: 'https://docukilat.rakyathub.my',
+      href: '/docukilat/',
     },
     {
       text: 'Tentang',
@@ -221,7 +221,7 @@ export const footerData = {
         { text: 'Tentang Kami', href: getPermalink('/tentang') },
         { text: 'Hubungi', href: getPermalink('/hubungi') },
         { text: 'Dasar Privasi', href: getPermalink('/privasi') },
-        { text: 'Penjana Surat AI', href: 'https://docukilat.rakyathub.my' },
+        { text: 'Penjana Surat AI', href: '/docukilat/' },
       ],
     },
   ],

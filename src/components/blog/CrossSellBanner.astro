@@ -21,31 +21,31 @@ const crossSellMap: Record<string, { title: string; desc: string; cta: string; u
     title: 'Perlukan Dokumen Rasmi atau Invois untuk Urusan Kewangan?',
     desc: 'Jana penyata KWSP, slip gaji, atau invois syarikat secara automatik menggunakan AI.',
     cta: 'Bina Dokumen di DocuKilat.my',
-    url: 'https://docukilat.rakyathub.my',
+    url: '/docukilat',
   },
   pelaburan: {
     title: 'Urus Dokumen Pelaburan Anda dengan Pantas',
     desc: 'Bina surat perjanjian, penyata pelaburan, dan kontrak simpanan dalam beberapa saat.',
     cta: 'Guna DocuKilat Sekarang',
-    url: 'https://docukilat.rakyathub.my',
+    url: '/docukilat',
   },
   bantuan: {
     title: 'Perlukan Dokumen untuk Permohonan Bantuan Kerajaan?',
     desc: 'Jana surat permohonan, borang rasmi, dan dokumen sokongan dengan AI.',
     cta: 'Bina Dokumen di DocuKilat.my',
-    url: 'https://docukilat.rakyathub.my',
+    url: '/docukilat',
   },
   kerjaya: {
     title: 'Bina Resume Profesional & Surat Permohonan Kerja',
     desc: 'Gunakan AI untuk hasilkan resume dan cover letter yang menarik perhatian majikan.',
     cta: 'Bina Resume di DocuKilat.my',
-    url: 'https://docukilat.rakyathub.my',
+    url: '/docukilat',
   },
   default: {
     title: 'Perlukan Dokumen Profesional dengan Pantas?',
     desc: 'DocuKilat.my — platform penjanaan dokumen berkuasa AI. Invois, surat rasmi, resume, dan banyak lagi.',
     cta: 'Cuba DocuKilat Percuma',
-    url: 'https://docukilat.rakyathub.my',
+    url: '/docukilat',
   },
 };
 
@@ -107,11 +107,11 @@ const isSidebar = variant === 'sidebar';
         <p class="text-xs text-slate-500">
           <Icon name="tabler:tools" class="w-3 h-3 inline-block -mt-0.5 mr-1" />
           Lagi Alat Percuma: {' '}
-          <a href="https://docukilat.rakyathub.my/tools/merge-pdf/" target="_blank" rel="noopener" class="text-primary dark:text-blue-400 hover:underline font-medium">Gabung PDF</a>
+          <a href="/docukilat/tools/merge-pdf/" class="text-primary dark:text-blue-400 hover:underline font-medium">Gabung PDF</a>
           {' · '}
-          <a href="https://docukilat.rakyathub.my/tools/compress-image/" target="_blank" rel="noopener" class="text-primary dark:text-blue-400 hover:underline font-medium">Mampat Imej</a>
+          <a href="/docukilat/tools/compress-image/" class="text-primary dark:text-blue-400 hover:underline font-medium">Mampat Imej</a>
           {' · '}
-          <a href="https://docukilat.rakyathub.my" target="_blank" rel="noopener" class="text-primary dark:text-blue-400 hover:underline font-medium">Semua Alat</a>
+          <a href="/docukilat/" class="text-primary dark:text-blue-400 hover:underline font-medium">Semua Alat</a>
         </p>
       </div>
     </div>

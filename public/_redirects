@@ -1,6 +1,9 @@
 # Join → Shopee
 /join  https://s.shopee.com.my/Lkj8tCGZ2  301
 
+# DocuKilat proxy subpath (served under /docukilat/ without redirect)
+/docukilat/*  https://docukilat.rakyathub.my/:splat  200!
+
 # Old article redirect
 /94-2  /panduan-kwsp-malaysia-2025  301
 
