@@ -164,6 +164,14 @@ export const headerData = {
       href: getPermalink('/harga-makanan-hari-ini'),
     },
     {
+      text: 'Inflasi',
+      href: '/inflasi-malaysia/',
+    },
+    {
+      text: 'Bantuan',
+      href: '/bantuan-kerajaan/',
+    },
+    {
       text: 'Alat Dokumen',
       href: 'https://docukilat.rakyathub.my',
     },

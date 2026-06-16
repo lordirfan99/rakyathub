@@ -1,0 +1,131 @@
+---
+import PageLayout from '~/layouts/PageLayout.astro';
+
+const aidPrograms = [
+  { name: 'STR Fasa 1', desc: 'Sumbangan Tunai Rahmah — fasa pertama tahun', amount: 'RM500-RM3,700', date: 'Februari 2026', status: 'Selesai', category: 'Tunai' },
+  { name: 'STR Fasa 2', desc: 'Sumbangan Tunai Rahmah — fasa kedua', amount: 'RM300-RM1,050', date: 'April 2026', status: 'Selesai', category: 'Tunai' },
+  { name: 'STR Fasa 3', desc: 'Sumbangan Tunai Rahmah — fasa ketiga', amount: 'RM300-RM1,050', date: 'Ogos 2026', status: 'Akan Datang', category: 'Tunai' },
+  { name: 'STR Fasa 4', desc: 'Sumbangan Tunai Rahmah — fasa keempat', amount: 'RM300-RM1,050', date: 'November 2026', status: 'Akan Datang', category: 'Tunai' },
+  { name: 'SARA', desc: 'Sumbangan Asas Rahmah — bantuan barangan asas', amount: 'RM200-RM1,200', date: 'Bulanan 2026', status: 'Aktif', category: 'Tunai' },
+  { name: 'BUDI95', desc: 'Subsidi RON95 untuk B40 — bayaran', amount: 'RM150/bulan', date: 'Bulanan 2026', status: 'Aktif', category: 'Subsidi' },
+  { name: 'BUDI Agro', desc: 'Subsidi diesel untuk petani/penternak', amount: 'RM450/bulan', date: 'Bulanan 2026', status: 'Aktif', category: 'Subsidi' },
+  { name: 'e-Tunai Belia Rahmah', desc: 'Kredit e-wallet untuk belia 18-25 tahun', amount: 'RM200', date: 'Jun 2026', status: 'Selesai', category: 'Tunai' },
+  { name: 'e-Startup', desc: 'Kredit e-wallet untuk OKU & warga emas', amount: 'RM250', date: '2026', status: 'Akan Datang', category: 'Tunai' },
+  { name: 'Sumbangan Asas', desc: 'Bantuan asas rakyat (pelbagai)', amount: 'RM100-RM300', date: 'Bulanan 2026', status: 'Aktif', category: 'Tunai' },
+  { name: 'MyKad Bantuan', desc: 'Bantuan khas MyKad', amount: 'RM100', date: '2026', status: 'Akan Datang', category: 'Tunai' },
+  { name: 'Perkeso SIP', desc: 'Sumbangan Insurans Pekerjaan — caruman kerajaan', amount: 'RM232.80/tahun', date: 'Tahunan 2026', status: 'Aktif', category: 'Insurans' },
+  { name: 'Skim Peduli Kesihatan', desc: 'Perlindungan kesihatan B40', amount: 'RM150/tahun', date: '2026', status: 'Aktif', category: 'Insurans' },
+  { name: 'KWSP i-Saraan', desc: 'Insentif caruman kerajaan (matched)', amount: '15%-20%', date: 'Tahunan 2026', status: 'Aktif', category: 'Simpanan' },
+  { name: 'KWSP i-Sayang', desc: 'Insentif suami carum utk isteri', amount: 'RM300/tahun', date: 'Tahunan 2026', status: 'Aktif', category: 'Simpanan' },
+  { name: 'Bantuan RMK-13', desc: 'Bantuan pelajar universiti', amount: 'RM100-RM300', date: '2026', status: 'Akan Datang', category: 'Pendidikan' },
+];
+
+const categories = [...new Set(aidPrograms.map(p => p.category))];
+const statusFilters = ['Aktif', 'Akan Datang', 'Selesai'];
+const totalAmount = 'RM8,000+';
+
+const metadata = {
+  title: 'Kalendar Bantuan Kerajaan Malaysia 2026 — Bila Dapat? | RakyatHub',
+  description: 'Semak jadual pembayaran bantuan kerajaan Malaysia 2026: STR, SARA, BUDI95, e-Tunai, Sumbangan Asas. Bila? Berapa? Dah bayar? Semua ada dekat sini.',
+};
+---
+<PageLayout metadata={metadata}>
+<section class="max-w-5xl mx-auto px-4 sm:px-6 py-8 md:py-12">
+  <div class="flex items-center gap-2 text-xs text-muted/60 mb-1">
+    <a href="/" class="hover:text-primary">Laman Utama</a> <span>/</span> <span>Bantuan Kerajaan</span>
+  </div>
+
+  <h1 class="text-2xl sm:text-4xl font-bold tracking-tight mb-3">🇲🇾 Bantuan Kerajaan Malaysia 2026</h1>
+  <p class="text-sm text-muted/80 max-w-3xl mb-6">
+    Satu portal untuk semak semua bantuan kerajaan Malaysia 2026 — bila bayar, berapa jumlah, dan status terkini. 
+    Dari STR, SARA, BUDI95, e-Tunai, sampai insentif KWSP.
+  </p>
+
+  <!-- Hero Stats -->
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
+    <div class="rounded-xl bg-gradient-to-br from-green-50 to-emerald-100/50 dark:from-green-950/30 dark:to-emerald-900/20 border border-green-100 dark:border-green-800/30 p-4">
+      <p class="text-[10px] text-green-600 dark:text-green-400 font-semibold uppercase tracking-wider">Jumlah Bantuan</p>
+      <p class="text-xl font-bold text-green-700 dark:text-green-300">{totalAmount}+</p>
+    </div>
+    <div class="rounded-xl bg-gradient-to-br from-blue-50 to-indigo-100/50 dark:from-blue-950/30 dark:to-indigo-900/20 border border-blue-100 dark:border-blue-800/30 p-4">
+      <p class="text-[10px] text-blue-600 dark:text-blue-400 font-semibold uppercase tracking-wider">Program Aktif</p>
+      <p class="text-xl font-bold text-blue-700 dark:text-blue-300">{aidPrograms.filter(p => p.status === 'Aktif').length}</p>
+    </div>
+    <div class="rounded-xl bg-gradient-to-br from-amber-50 to-amber-100/50 dark:from-amber-950/30 dark:to-amber-900/20 border border-amber-100 dark:border-amber-800/30 p-4">
+      <p class="text-[10px] text-amber-600 dark:text-amber-400 font-semibold uppercase tracking-wider">Akan Datang</p>
+      <p class="text-xl font-bold text-amber-700 dark:text-amber-300">{aidPrograms.filter(p => p.status === 'Akan Datang').length}</p>
+    </div>
+    <div class="rounded-xl bg-gradient-to-br from-purple-50 to-purple-100/50 dark:from-purple-950/30 dark:to-purple-900/20 border border-purple-100 dark:border-purple-800/30 p-4">
+      <p class="text-[10px] text-purple-600 dark:text-purple-400 font-semibold uppercase tracking-wider">Kategori Bantuan</p>
+      <p class="text-xl font-bold text-purple-700 dark:text-purple-300">{categories.length}</p>
+    </div>
+  </div>
+
+  <!-- Filter Buttons -->
+  <div class="flex flex-wrap gap-2 mb-5">
+    <button onclick="filterAid('all')" class="aid-btn aid-active px-3.5 py-2 rounded-lg text-xs font-semibold transition-all border border-primary bg-primary/10 text-primary" data-f="all">Semua</button>
+    {statusFilters.map(s => (
+      <button onclick={`filterAid('${s}')`} class="aid-btn px-3.5 py-2 rounded-lg text-xs font-semibold transition-all border border-gray-200 dark:border-slate-700 text-muted hover:border-primary/40" data-f={s}>{s}</button>
+    ))}
+  </div>
+
+  <!-- Table -->
+  <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm overflow-hidden">
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="border-b border-gray-100 dark:border-slate-700/50 bg-gray-50/50 dark:bg-slate-800/30">
+            <th class="text-left py-3.5 px-4 font-semibold text-muted text-[11px] uppercase tracking-wider">Program</th>
+            <th class="text-left py-3.5 px-3 font-semibold text-muted text-[11px] uppercase tracking-wider hidden sm:table-cell">Jumlah</th>
+            <th class="text-left py-3.5 px-3 font-semibold text-muted text-[11px] uppercase tracking-wider hidden md:table-cell">Jadual</th>
+            <th class="text-left py-3.5 px-3 font-semibold text-muted text-[11px] uppercase tracking-wider">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          {aidPrograms.map(p => {
+            const statusColor = p.status === 'Selesai' ? 'bg-gray-100 dark:bg-gray-800 text-gray-500' : p.status === 'Aktif' ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400' : 'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400';
+            return (
+            <tr class="aid-row border-b border-gray-50 dark:border-slate-800/50 hover:bg-gray-50 dark:hover:bg-slate-800/30 transition-colors" data-cat={p.category} data-status={p.status}>
+              <td class="py-3 px-4">
+                <div class="flex items-center gap-2">
+                  <span class="font-medium text-gray-900 dark:text-gray-100">{p.name}</span>
+                  <span class="text-[11px] text-muted/60 hidden sm:inline">{p.desc}</span>
+                </div>
+                <span class="text-xs text-muted/80 sm:hidden mt-0.5 block">{p.desc}</span>
+              </td>
+              <td class="py-3 px-3 hidden sm:table-cell"><span class="font-semibold tabular-nums">{p.amount}</span></td>
+              <td class="py-3 px-3 hidden md:table-cell"><span class="text-muted">{p.date}</span></td>
+              <td class="py-3 px-3"><span class={`px-2.5 py-1 rounded-full text-[11px] font-semibold ${statusColor}`}>{p.status}</span></td>
+            </tr>
+          )})}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Notice -->
+  <div class="rounded-xl bg-gray-50 dark:bg-slate-800/40 border border-gray-100 dark:border-slate-700/30 p-4 mt-6 text-xs text-muted/70">
+    <div class="flex items-center gap-2 mb-2">
+      <span class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-[10px] font-bold text-primary">i</span>
+      <span class="font-semibold text-muted">Nota</span>
+    </div>
+    <p>Jadual bantuan adalah berdasarkan pengumuman rasmi kerajaan Malaysia. Tarikh sebenar可能 berbeza. Rujuk portal rasmi untuk pengesahan.</p>
+    <p class="mt-1">Sumber: Kementerian Kewangan, KPDN, KWSP, PERKESO.</p>
+  </div>
+</section>
+
+<script is:inline>
+function filterAid(f) {
+  document.querySelectorAll('.aid-btn').forEach(function(b) {
+    var isActive = b.getAttribute('data-f') === f;
+    b.className = 'aid-btn shrink-0 px-3.5 py-2 rounded-lg text-xs font-semibold transition-all border ' +
+      (isActive ? 'border-primary bg-primary/10 text-primary' : 'border-gray-200 dark:border-slate-700 text-muted hover:border-primary/40');
+    if (isActive) b.classList.add('aid-active');
+  });
+  document.querySelectorAll('.aid-row').forEach(function(r) {
+    var status = r.getAttribute('data-status');
+    r.style.display = (f === 'all' || status === f) ? '' : 'none';
+  });
+}
+</script>
+</PageLayout>

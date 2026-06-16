@@ -1,0 +1,190 @@
+---
+import PageLayout from '~/layouts/PageLayout.astro';
+
+const cpiData = (await import('~/data/cpi.json')).default;
+const { yearly_cpi, latest_cpi, latest_date, purchasing_power, latest_divisions, labels } = cpiData;
+const years = Object.keys(yearly_cpi);
+
+// Latest year's first 6 months for mini chart
+const latestYear = years[years.length - 1];
+const prevYear = years[years.length - 2];
+
+// Calculate key stats
+const inflation_yoy = latest_cpi && yearly_cpi[latestYear] && yearly_cpi[prevYear] 
+  ? (((latest_cpi - yearly_cpi[prevYear]) / yearly_cpi[prevYear]) * 100).toFixed(1)
+  : '—';
+
+// Top 3 highest inflation categories
+const sortedDivs = Object.entries(latest_divisions || {})
+  .filter(([k]) => k !== 'overall')
+  .sort((a, b) => b[1].index - a[1].index);
+
+const metadata = {
+  title: `Inflasi Malaysia 2026 — CPI Terkini RM${latest_cpi} | RakyatHub`,
+  description: `Semak kadar inflasi Malaysia terkini. CPI April 2026: ${latest_cpi}. Nilai RM100 mengikut tahun. Data rasmi DOSM.`,
+};
+---
+<PageLayout metadata={metadata}>
+<section class="max-w-5xl mx-auto px-4 sm:px-6 py-8 md:py-12">
+  <div class="flex items-center gap-2 text-xs text-muted/60 mb-1">
+    <a href="/" class="hover:text-primary">Laman Utama</a> <span>/</span> <span>Inflasi Malaysia</span>
+  </div>
+  
+  <h1 class="text-2xl sm:text-4xl font-bold tracking-tight mb-3">Inflasi Malaysia 2026</h1>
+  <p class="text-sm text-muted/80 max-w-3xl mb-6">
+    Pantau kadar inflasi Malaysia berdasarkan Indeks Harga Pengguna (CPI) dari DOSM. 
+    Data dikemaskini bulanan — lihat bagaimana nilai ringgit Malaysia berubah dari tahun ke tahun.
+  </p>
+
+  <!-- Hero Card: Nilai Ringgit -->
+  <div class="rounded-2xl bg-gradient-to-br from-indigo-600 to-blue-700 text-white p-6 sm:p-8 mb-6 shadow-lg">
+    <p class="text-xs text-blue-200 font-semibold uppercase tracking-wider mb-1">Nilai Ringgit Semakin Susut</p>
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-4">
+      <div class="bg-white/10 rounded-xl p-3.5 backdrop-blur-sm">
+        <p class="text-[10px] text-blue-200 uppercase tracking-wider">RM100 pada 2000</p>
+        <p class="text-xl sm:text-2xl font-bold mt-0.5">RM{purchasing_power['2000']}</p>
+        <p class="text-[11px] text-blue-200/80">nilai hari ini</p>
+      </div>
+      <div class="bg-white/10 rounded-xl p-3.5 backdrop-blur-sm">
+        <p class="text-[10px] text-blue-200 uppercase tracking-wider">RM100 pada 2010</p>
+        <p class="text-xl sm:text-2xl font-bold mt-0.5">RM{purchasing_power['2010']}</p>
+        <p class="text-[11px] text-blue-200/80">nilai hari ini</p>
+      </div>
+      <div class="bg-white/10 rounded-xl p-3.5 backdrop-blur-sm">
+        <p class="text-[10px] text-blue-200 uppercase tracking-wider">RM100 pada 2020</p>
+        <p class="text-xl sm:text-2xl font-bold mt-0.5">RM{purchasing_power['2020']}</p>
+        <p class="text-[11px] text-blue-200/80">nilai hari ini</p>
+      </div>
+      <div class="bg-white/10 rounded-xl p-3.5 backdrop-blur-sm">
+        <p class="text-[10px] text-blue-200 uppercase tracking-wider">CPI Terkini</p>
+        <p class="text-xl sm:text-2xl font-bold mt-0.5">{latest_cpi}</p>
+        <p class="text-[11px] text-blue-200/80">{latest_date}</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quick Stats -->
+  <div class="flex flex-wrap gap-2 mb-6">
+    <span class="px-3 py-1.5 rounded-lg bg-blue-50 dark:bg-blue-900/20 text-xs font-semibold text-blue-700 dark:text-blue-400 border border-blue-100 dark:border-blue-800/30">
+      📊 CPI {latest_cpi} ({latest_date})
+    </span>
+    <span class="px-3 py-1.5 rounded-lg bg-amber-50 dark:bg-amber-900/20 text-xs font-semibold text-amber-700 dark:text-amber-400 border border-amber-100 dark:border-amber-800/30">
+      🔥 Inflasi ~{inflation_yoy}% (year-on-year)
+    </span>
+    <span class="px-3 py-1.5 rounded-lg bg-purple-50 dark:bg-purple-900/20 text-xs font-semibold text-purple-700 dark:text-purple-400 border border-purple-100 dark:border-purple-800/30">
+      📈 {Object.keys(yearly_cpi).length} tahun data
+    </span>
+  </div>
+
+  <!-- CPI Bar Chart -->
+  <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 p-5 mb-6">
+    <h2 class="text-sm font-bold text-gray-900 dark:text-gray-100 mb-3">📈 Indeks Harga Pengguna Malaysia (Tahunan)</h2>
+    <div class="overflow-x-auto pb-2">
+      <div class="flex items-end gap-[2px] min-w-[600px]" style="height:200px">
+        {years.map((y, i) => {
+          const cpi = yearly_cpi[y];
+          const maxCpi = Math.max(...Object.values(yearly_cpi));
+          const h = (cpi / maxCpi) * 180;
+          const isLatest = y === latestYear;
+          return <div class="flex flex-col items-center" style="width:100%">
+            <span class="text-[9px] text-muted/60 tabular-nums mb-0.5">{cpi}</span>
+            <div class="w-full rounded-t-sm transition-opacity hover:opacity-80" 
+              style={`height:${h}px;background:${isLatest?'#6366f1':'#c7d2fe'}`} title={`${y}: CPI ${cpi}`}></div>
+            {(i % 5 === 0 || i === years.length - 1) && <span class="text-[9px] text-muted/50 mt-1">{y}</span>}
+          </div>;
+        })}
+      </div>
+    </div>
+    <p class="text-[11px] text-muted/50 mt-2">Sumber: DOSM (2010=100). Setiap bar = purata CPI tahunan.</p>
+  </div>
+
+  <!-- CPI by Division -->
+  <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 overflow-hidden mb-6">
+    <div class="px-5 py-3.5 border-b border-gray-100 dark:border-slate-700/30">
+      <h2 class="text-sm font-bold text-gray-900 dark:text-gray-100">🏷️ CPI Ikut Kategori</h2>
+    </div>
+    <div class="divide-y divide-gray-50 dark:divide-slate-800/50">
+      {sortedDivs.map(([id, div]) => {
+        const isHigh = div.index > latest_cpi;
+        return (
+          <div class="flex items-center justify-between px-5 py-3 hover:bg-gray-50 dark:hover:bg-slate-800/30 transition-colors">
+            <span class="text-sm text-gray-800 dark:text-gray-200">{div.label}</span>
+            <span class="flex items-center gap-2">
+              <span class="font-bold tabular-nums text-sm text-gray-900 dark:text-gray-100">{div.index}</span>
+              <span class={`text-xs ${isHigh ? 'text-red-500' : 'text-green-500'}`}>
+                {isHigh ? '▲ Atas purata' : '▼ Bawah purata'}
+              </span>
+            </span>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+
+  <!-- Calculator: Nilai Wang Mengikut Tahun -->
+  <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 p-5 mb-6">
+    <h2 class="text-sm font-bold text-gray-900 dark:text-gray-100 mb-3">🧮 Kira Nilai Wang Mengikut Tahun</h2>
+    <p class="text-xs text-muted/60 mb-4">Pilih tahun dan jumlah untuk lihat nilai sebenar ringgit Malaysia.</p>
+    <div class="flex flex-col sm:flex-row gap-3 mb-4">
+      <div class="flex-1">
+        <label class="text-xs text-muted/70 mb-1 block">Tahun asal</label>
+        <select id="cpi-year-from" class="w-full rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800/60 px-3 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none">
+          {years.map(y => <option value={y} selected={y === '2010'}>{y}</option>)}
+        </select>
+      </div>
+      <div class="flex-1">
+        <label class="text-xs text-muted/70 mb-1 block">Jumlah (RM)</label>
+        <input id="cpi-amount" type="number" value="100" min="1" class="w-full rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800/60 px-3 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none" />
+      </div>
+      <div class="flex items-end">
+        <button onclick="calcCPI()" class="px-5 py-2.5 rounded-lg bg-gradient-to-r from-primary to-secondary text-white text-sm font-semibold hover:opacity-90 transition-all">
+          Kira
+        </button>
+      </div>
+    </div>
+    <div id="cpi-result" class="rounded-xl bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-950/20 dark:to-indigo-950/20 border border-blue-100 dark:border-blue-800/30 p-4 text-center hidden">
+      <p class="text-sm text-muted/70" id="cpi-result-text"></p>
+      <p class="text-2xl font-bold text-indigo-700 dark:text-indigo-300 mt-1" id="cpi-result-value"></p>
+    </div>
+  </div>
+
+  <!-- About -->
+  <div class="rounded-xl bg-gray-50 dark:bg-slate-800/40 border border-gray-100 dark:border-slate-700/30 p-4 text-xs text-muted/70">
+    <div class="flex items-center gap-2 mb-2">
+      <span class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-[10px] font-bold text-primary">i</span>
+      <span class="font-semibold text-muted">Tentang Data Ini</span>
+    </div>
+    <p>CPI (Indeks Harga Pengguna) adalah ukuran inflasi Malaysia yang diterbitkan oleh DOSM setiap bulan. 
+    Tahun asas = 2010 (CPI 100). Maksudnya, jika CPI = 136.9, harga secara purata naik 36.9% sejak 2010.
+    Data ini dikumpul dari 13 kategori barangan dan perkhidmatan di seluruh Malaysia.</p>
+    <p class="mt-1">Sumber: <a href="https://open.dosm.gov.my" class="text-primary hover:underline" target="_blank" rel="noopener">OpenDOSM</a> — DOSM (CC BY 4.0).</p>
+  </div>
+</section>
+
+<script is:inline>
+function calcCPI() {
+  var yearEl = document.getElementById('cpi-year-from');
+  var amountEl = document.getElementById('cpi-amount');
+  var resultEl = document.getElementById('cpi-result');
+  var textEl = document.getElementById('cpi-result-text');
+  var valueEl = document.getElementById('cpi-result-value');
+  if (!yearEl || !amountEl) return;
+
+  var year = yearEl.value;
+  var amount = parseFloat(amountEl.value) || 0;
+  if (!amount) { resultEl.classList.add('hidden'); return; }
+
+  // CPI data from server-side rendered JSON script
+  try {
+    var pp = JSON.parse(document.getElementById('cpi-data-json').textContent);
+    var value = pp[year];
+    if (!value) { resultEl.classList.add('hidden'); return; }
+    var todayValue = (amount * value / 100).toFixed(2);
+    textEl.textContent = 'RM' + amount.toFixed(0) + ' pada tahun ' + year + ' nilainya hari ini:';
+    valueEl.textContent = 'RM' + todayValue;
+    resultEl.classList.remove('hidden');
+  } catch(e) { resultEl.classList.add('hidden'); }
+}
+</script>
+<script id="cpi-data-json" type="application/json">{JSON.stringify(purchasing_power)}</script>
+</PageLayout>
