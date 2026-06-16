@@ -108,12 +108,30 @@ export const footerData = {
       ],
     },
     {
-      title: 'Blog',
+      title: 'Kewangan',
       links: [
         { text: 'KWSP', href: getPermalink('kwsp', 'category') },
         { text: 'Kewangan', href: getPermalink('kewangan', 'category') },
         { text: 'Kerajaan', href: getPermalink('kerajaan', 'category') },
         { text: 'Insurans', href: getPermalink('insurans', 'category') },
+        { text: 'Pelaburan', href: getPermalink('pelaburan', 'category') },
+        { text: 'Emas', href: getPermalink('emas', 'category') },
+        { text: 'ASB', href: getPermalink('asb', 'category') },
+        { text: 'Percukaian', href: getPermalink('percukaian', 'category') },
+      ],
+    },
+    {
+      title: 'Rencana',
+      links: [
+        { text: 'Kesihatan', href: getPermalink('kesihatan', 'category') },
+        { text: 'Pendidikan', href: getPermalink('pendidikan', 'category') },
+        { text: 'Teknologi', href: getPermalink('teknologi', 'category') },
+        { text: 'Bisnes', href: getPermalink('bisnes', 'category') },
+        { text: 'Hartanah', href: getPermalink('hartanah', 'category') },
+        { text: 'Kerjaya', href: getPermalink('kerjaya', 'category') },
+        { text: 'Keselamatan', href: getPermalink('keselamatan', 'category') },
+        { text: 'Pengguna', href: getPermalink('pengguna', 'category') },
+        { text: 'Kenderaan', href: getPermalink('kenderaan', 'category') },
       ],
     },
     {
