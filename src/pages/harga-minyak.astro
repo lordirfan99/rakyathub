@@ -2,13 +2,25 @@
 import Layout from '~/layouts/PageLayout.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
+const year = new Date().getFullYear();
+
 const metadata = {
-  title: 'Harga Minyak Malaysia Terkini — RON95, RON97, Diesel 2026 | RakyatHub',
-  description: 'Semak harga minyak Malaysia terkini — RON95 RM2.05, RON97 RM3.35, Diesel RM2.15. Update mingguan dari KPDN/MOF. Percuma.',
+  title: `Harga Minyak Malaysia Hari Ini ${year} — RON95, RON97 & Diesel`,
+  description: 'Semak harga minyak Malaysia terkini — RON95 RM2.05, RON97 RM3.35, Diesel RM2.15. Dikemaskini mingguan dari KPDN/MOF. Percuma.',
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Laman Utama', item: 'https://rakyathub.my/' },
+    { '@type': 'ListItem', position: 2, name: 'Harga Minyak', item: 'https://rakyathub.my/harga-minyak/' },
+  ],
 };
 ---
 
 <Layout metadata={metadata}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   <section class="max-w-4xl mx-auto px-4 sm:px-6 py-8 md:py-12">
     <div class="flex items-center gap-2 text-xs text-muted/60 mb-1">
       <a href="/" class="hover:text-primary">Laman Utama</a> <span>/</span>
@@ -51,7 +63,7 @@ const metadata = {
       <div class="space-y-3 text-sm text-muted">
         <p><strong>RON95 (RM 2.05/L)</strong> — Harga disubsidi kerajaan untuk rakyat Malaysia. Kumpulan B40 dan M40 menikmati harga ini. Golongan T45 dan warga asing membayar harga float (~RM 3.35/L).</p>
         <p><strong>RON97 (RM 3.35/L)</strong> — Harga apung (float) yang ditentukan mingguan berdasarkan harga minyak global. Sesuai untuk kereta berprestasi tinggi. Biasanya ~RM 1.30 lebih mahal dari RON95.</p>
-        <p><strong>Diesel (RM 2.15/L)</strong> — Harga disubsidi untuk kenderaan pengangkutan dan pertanian. Subsidi柴油 disasarkan untuk pengguna tertentu.</p>
+        <p><strong>Diesel (RM 2.15/L)</strong> — Harga disubsidi untuk kenderaan pengangkutan dan pertanian. Subsidi diesel disasarkan untuk pengguna tertentu.</p>
       </div>
     </div>
 
