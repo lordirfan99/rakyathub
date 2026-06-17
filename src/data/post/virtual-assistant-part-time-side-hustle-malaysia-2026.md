@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-14
-title: "Virtual Assistant (VA) Part Time: Side Hustle Modal Internet RM0, Jana RM2K–RM5K Sebulan"
-excerpt: "Nak side hustle guna laptop/phone je? Jadi Virtual Assistant (VA) part time — modal RM0, cuma perlukan internet. Panduan lengkap cara start, platform cari client, kadar bayaran terkini 2026, dan tips dapat client pertama."
+title: "Virtual Assistant (VA) Part Time: Side Hustle Modal"
+excerpt: "Nak side hustle guna laptop/phone je? Jadi Virtual Assistant (VA) part time — modal RM0, cuma perlukan internet."
 category: Kewangan
 image: "~/assets/images/hero-va-part-time-side-hustle.jpg"
 tags:

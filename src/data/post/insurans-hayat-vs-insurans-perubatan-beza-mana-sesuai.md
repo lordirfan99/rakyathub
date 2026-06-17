@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-12
-title: Insurans Hayat vs Insurans Perubatan — Apa Beza & Mana Sesuai
+title: "Insurans Hayat vs Insurans Perubatan"
 excerpt: "Beza insurans hayat dan insurans perubatan/medical card. Mana satu korang perlu dulu ikut umur, gaji & tanggungan. Panduan lengkap."
 category: Insurans
 image: "~/assets/images/hero-insurans-hayat-vs-perubatan.jpg"

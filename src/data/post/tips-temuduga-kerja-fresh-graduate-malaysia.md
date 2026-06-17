@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-08
-title: "Tips Temuduga Kerja Fresh Graduate: Lulus Interview Dengan Cemerlang"
-excerpt: "Panduan lengkap tips temuduga kerja untuk fresh graduate Malaysia. Cara jawab soalan, teknik STAR, persediaan sebelum interview, dan tips berunding gaji."
+title: "Tips Temuduga Kerja Fresh Graduate: Lulus Interview"
+excerpt: "Panduan lengkap tips temuduga kerja untuk fresh graduate Malaysia. Cara jawab soalan, teknik STAR, persediaan sebelum interview, dan tips berunding."
 category: Kerjaya
 image: "~/assets/images/hero-tips-temuduga-fresh-grad.jpg"
 tags:

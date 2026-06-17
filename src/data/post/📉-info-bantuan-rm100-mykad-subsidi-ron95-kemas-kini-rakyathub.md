@@ -1,8 +1,8 @@
 ---
 publishDate: 2025-07-23
 updateDate: 2026-06-12
-title: Bantuan Kerajaan Malaysia 2026 – MyKad, Subsidi RON95 & Inisiatif Sara Hidup
-excerpt: "Panduan lengkap bantuan kerajaan Malaysia 2026 – bantuan MyKad RM100, subsidi RON95, Sumbangan Tunai Rahmah (STR), dan pelbagai inisiatif sara hidup lain. Syarat, cara mohon, dan tarikh penting."
+title: "Bantuan Kerajaan Malaysia 2026 – MyKad, Subsidi RON95"
+excerpt: "Panduan lengkap bantuan kerajaan Malaysia 2026 – bantuan MyKad RM100, subsidi RON95, Sumbangan Tunai Rahmah (STR), dan pelbagai inisiatif sara hidup."
 category: Kerajaan
 image: "~/assets/images/hero-info-bantuan-rm100-mykad-subsidi-ron95-kemas-kini-rakyathub.jpg"
 tags:

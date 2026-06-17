@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-06
-title: "Quishing Dah Sampai Malaysia! Jangan Scan QR Sembarangan"
+title: "Quishing Dah Sampai Malaysia! Jangan Scan QR"
 excerpt: "Quishing QR code phishing makin berleluasa di Malaysia 2026. Scammer tampal QR palsu di parkir & restoran. Rugi ribuan ringgit. Ini cara lindung diri."
 category: Kewangan
 image: "~/assets/images/hero-quishing-scam-qr-code.jpg"

@@ -1,7 +1,7 @@
 ---
 publishDate: 2025-07-14
-title: "Robo-Advisor di Malaysia 2026 — Risiko, Pulangan & Perbandingan StashAway, Wahed, Syfe"
-excerpt: "Panduan lengkap robo-advisor di Malaysia 2026. Banding StashAway, Wahed Invest & Syfe dari segi pulangan, yuran, profil risiko, dan patuh Syariah. Modal minima RM1 je."
+title: "Robo-Advisor di Malaysia 2026"
+excerpt: "Panduan lengkap robo-advisor di Malaysia 2026. Banding StashAway, Wahed Invest & Syfe dari segi pulangan, yuran, profil risiko, dan patuh Syariah."
 category: Pelaburan
 image: "~/assets/images/hero-robo-advisor.jpg"
 tags:

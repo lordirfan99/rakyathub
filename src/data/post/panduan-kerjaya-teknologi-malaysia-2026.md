@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-15
-title: "Panduan Lengkap Kerjaya Teknologi (Tech) Malaysia 2026 — Gaji Ikut Bidang & Laluan Kerjaya"
-excerpt: "Panduan lengkap kerjaya dalam bidang teknologi di Malaysia 2026. Semak gaji ikut bidang (AI, data science, cybersecurity, software), laluan kerjaya dari junior ke senior, dan kemahiran wajib untuk berjaya dalam sektor tech."
+title: "Panduan Lengkap Kerjaya Teknologi (Tech) Malaysia 2026"
+excerpt: "Panduan lengkap kerjaya dalam bidang teknologi di Malaysia 2026. Semak gaji ikut bidang (AI, data science, cybersecurity, software), laluan kerjaya."
 category: Kerjaya
 image: "~/assets/images/hero-panduan-kerjaya-teknologi-malaysia-2026.jpg"
 tags:

@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-12
-title: "Cara Hilangkan Mengantuk Masa Belajar — 8 Tips Untuk Student"
-excerpt: "Mengantuk time study? Jangan biaq. Ini 8 cara hilangkan mengantuk masa belajar yang terbukti berkesan—dari teknik Pomodoro, power nap, sampai minuman kafein."
+title: "Cara Hilangkan Mengantuk Masa Belajar"
+excerpt: "Mengantuk time study? Jangan biaq. Ini 8 cara hilangkan mengantuk masa belajar yang terbukti berkesan—dari teknik Pomodoro, power nap, sampai minuman."
 category: Pendidikan
 image: "~/assets/images/hero-cara-hilangkan-mengantuk-masa-belajar.jpg"
 tags:

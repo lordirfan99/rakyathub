@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-11
-title: "Cara Buat Slaid Pembentangan Menarik — 7 Tips Design Untuk Student"
-excerpt: "Nak slaid presentation yang power tanpa jadi membosankan? Ini 7 tips cara buat slaid pembentangan menarik untuk assignment universiti, lengkap dengan contoh."
+title: "Cara Buat Slaid Pembentangan Menarik"
+excerpt: "Nak slaid presentation yang power tanpa jadi membosankan? Ini 7 tips cara buat slaid pembentangan menarik untuk assignment universiti, lengkap dengan."
 category: Pendidikan
 image: "~/assets/images/hero-cara-buat-slaid-pembentangan-menarik.jpg"
 tags:

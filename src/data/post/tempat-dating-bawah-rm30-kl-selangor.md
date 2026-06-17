@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-16
-title: "15 Tempat Dating Bawah RM30 di KL & Selangor — Aktiviti Seronok Untuk Pasangan Bajet"
+title: "15 Tempat Dating Bawah RM30 di KL & Selangor"
 excerpt: "Nak dating tapi duit terhad? Ini 15 tempat menarik di KL & Selangor bawah RM30 seorang — taman, muzium percuma, kafe murah dan aktiviti best."
 category: Gaya-Hidup
 image: "~/assets/images/hero-dating-bajet-kl.jpg"

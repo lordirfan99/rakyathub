@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-07
 title: "Ringgit Mengukuh 3.3% — Apa Maksud Untuk Duit Korang?"
-excerpt: "Ringgit Malaysia mengukuh 3.3% berbanding dolar AS pada 2026. Apa maksudnya untuk anak muda? Kami kupas impak sebenar dan langkah bijak manfaatkan ringgit kuat."
+excerpt: "Ringgit Malaysia mengukuh 3.3% berbanding dolar AS pada 2026. Apa maksudnya untuk anak muda?"
 category: Kewangan
 image: "~/assets/images/hero-ringgit-mengukuh-2026.jpg"
 tags:

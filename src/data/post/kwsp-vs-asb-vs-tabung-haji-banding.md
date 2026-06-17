@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-05
-title: "KWSP vs ASB vs Tabung Haji — Mana Paling Untung Untuk Korang?"
+title: "KWSP vs ASB vs Tabung Haji"
 excerpt: "Bandingan penuh KWSP 6.15%, ASB 5.75% dan Tabung Haji 3.25% — pulangan, risiko, fleksibiliti. Strategi terbaik ikut umur & gaji korang."
 category: KWSP
 image: "~/assets/images/hero-kwsp-asb-th-banding.jpg"

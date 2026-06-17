@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-17
-title: "Emas Vs Inflasi Malaysia 2026 — Berapa Patut Simpan Untuk Lindung Nilai Wang?"
-excerpt: "Inflasi Malaysia 1.7% — emas naik 40% setahun. Tapi berapa gram emas korang perlukan untuk lindung nilai simpanan dari inflasi? Panduan lengkap dengan kiraan sebenar."
+title: "Emas Vs Inflasi Malaysia 2026"
+excerpt: "Inflasi Malaysia 1.7% — emas naik 40% setahun. Tapi berapa gram emas korang perlukan untuk lindung nilai simpanan dari inflasi?"
 image: "~/assets/images/hero-harga-emas-rekod-2026.jpg"
 category: Emas
 tags:

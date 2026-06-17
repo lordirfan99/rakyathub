@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-06
-title: "ASB Loan vs Simpan Biasa — Mana Lebih Untung Untuk Pelabur Muda?"
-excerpt: "ASB loan vs simpan biasa guna duit sendiri — kira untung rugi dividen ASB 5.25% vs interest bank 4.65%. Mana strategi terbaik untuk pelabur muda tahun 2026?"
+title: "ASB Loan vs Simpan Biasa"
+excerpt: "ASB loan vs simpan biasa guna duit sendiri — kira untung rugi dividen ASB 5.25% vs interest bank 4.65%."
 category: ASB
 image: "~/assets/images/hero-asb-loan.jpg"
 tags:

@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-10
-title: "Bisnes Makanan Frozen Dari Rumah — Modal Bawah RM500, Side Hustle 2026"
-excerpt: "Nak bisnes dari rumah tapi modal terhad? Frozen food adalah pilihan terbaik. Modal bawah RM500, margin untung 40–60%, dan permintaan makin tinggi tahun 2026."
+title: "Bisnes Makanan Frozen Dari Rumah"
+excerpt: "Nak bisnes dari rumah tapi modal terhad? Frozen food adalah pilihan terbaik. Modal bawah RM500, margin untung 40–60%, dan permintaan makin tinggi."
 category: Kewangan
 image: "~/assets/images/hero-bisnes-frozen-food-2026.jpg"
 tags:

@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-14
-title: "Medical Card Standalone vs Rider (ILP) — Mana Paling Jimat & Berbaloi 2026?"
-excerpt: "Bingung nak pilih standalone medical card atau medical card rider dalam ILP? Artikel ni bantu korang faham perbezaan, banding harga, dan pilih ikut bajet."
+title: "Medical Card Standalone vs Rider (ILP)"
+excerpt: "Bingung nak pilih standalone medical card atau medical card rider dalam ILP? Artikel ni bantu korang faham perbezaan, banding harga, dan pilih ikut."
 category: Insurans
 image: "~/assets/images/hero-standalone-vs-rider-medical-card.jpg"
 tags:

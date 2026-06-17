@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-12
-title: "Minyak Masak Botol vs Paket — Mana Lagi Berbaloi Untuk Dompet Korang?"
+title: "Minyak Masak Botol vs Paket"
 excerpt: "Kami kira sebenar kos minyak masak botol RM30.90 vs paket subsidi RM2.50 — margin RM220 setahun yang korang tak sedar. Sama content punya, lain harga."
 category: Kewangan
 image: "~/assets/images/hero-beli-minyak-masak.jpg"

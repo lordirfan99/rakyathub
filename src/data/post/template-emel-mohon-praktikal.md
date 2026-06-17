@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-14
-title: "Template E-mel Mohon Praktikal & Internship (Copy & Paste)"
+title: "Template E-mel Mohon Praktikal & Internship (Copy &"
 excerpt: "Guna template e-mel mohon praktikal yang profesional ini. Termasuk contoh e-mel hantar resume, follow-up, dan tips dapatkan reply dari HR."
 category: Kerjaya
 image: "~/assets/images/hero-template-emel-mohon-praktikal.jpg"

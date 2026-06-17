@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-11
-title: "7 Pekerjaan Paling Laris 2026 di Malaysia — Gaji Terkini, Kemahiran Wajib & Tips Mohon"
-excerpt: "Senarai lengkap 7 pekerjaan paling laris di Malaysia 2026 lengkap dengan gaji terkini, kemahiran wajib, dan tips mohon kerja. Sesuai untuk fresh graduate dan mereka yang nak tukar kerjaya."
+title: "7 Pekerjaan Paling Laris 2026 di Malaysia"
+excerpt: "Senarai lengkap 7 pekerjaan paling laris di Malaysia 2026 lengkap dengan gaji terkini, kemahiran wajib, dan tips mohon kerja."
 category: Kerjaya
 image: "~/assets/images/hero-7-pekerjaan-paling-laris-2026-malaysia.jpg"
 tags:

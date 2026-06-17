@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-05
-title: "Beras Import vs Tempatan 2026 — Mana Lagi Jimat Untuk Dompet Korang?"
-excerpt: "Banding harga beras import RM32 vs tempatan RM26 untuk 10kg. Jimat RM144 setahun guna beras tempatan. Dalam 10 tahun, duit tu boleh jadi RM1,800 lebih dalam ASB."
+title: "Beras Import vs Tempatan 2026"
+excerpt: "Banding harga beras import RM32 vs tempatan RM26 untuk 10kg. Jimat RM144 setahun guna beras tempatan."
 category: Kewangan
 image: "~/assets/images/hero-beli-beras.jpg"
 tags:

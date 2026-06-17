@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-15
-title: "Scam Pekerjaan (Job Scam) Makin Berleluasa 2026 — 7 Red Flag"
+title: "Scam Pekerjaan (Job Scam) Makin Berleluasa 2026"
 excerpt: "1,537 kes job scam dalam 3 bulan pertama 2026, rugi RM31.8 juta. Kenal pasti red flag tawaran kerja palsu & cara lindung diri sebelum jadi mangsa."
 image: "~/assets/images/hero-scam-pekerjaan.jpg"
 category: Kewangan

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-08
-title: "Cara Urus Masa Belajar dan Aktiviti — 5 Teknik Produktif"
+title: "Cara Urus Masa Belajar dan Aktiviti"
 excerpt: "Penat study tapi tak pernah habis syllabus? Ini cara urus masa belajar dan aktiviti dengan 5 teknik mudah yang student Malaysia wajib cuba."
 category: Kewangan
 image: "~/assets/images/hero-cara-urus-masa-belajar-dan-aktiviti.jpg"

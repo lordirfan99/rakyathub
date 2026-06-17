@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-16
-title: "Public Gold vs Maybank vs UOB — Mana Platform Beli Emas Paling Murah 2026?"
+title: "Public Gold vs Maybank vs UOB"
 excerpt: "Bandingan spread emas 9 platform di Malaysia. UOB hanya 0.9% spread, Public Gold 8.7%. Mana platform paling murah & berbaloi untuk korang?"
 image: "~/assets/images/hero-emas-platform-banding.jpg"
 category: Emas

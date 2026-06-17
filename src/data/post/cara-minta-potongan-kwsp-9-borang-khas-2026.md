@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-15
-title: "Cara Minta Potongan KWSP 9% — Borang KWSP 17 (Khas) 2026"
+title: "Cara Minta Potongan KWSP 9%"
 excerpt: "Nak tambah duit gaji bulanan? Panduan lengkap mohon potongan KWSP 11% ke 9% guna Borang KWSP 17 (Khas). Syarat, cara & risiko sebelum buat."
 image: "~/assets/images/hero-potongan-kwsp-9.jpg"
 category: KWSP

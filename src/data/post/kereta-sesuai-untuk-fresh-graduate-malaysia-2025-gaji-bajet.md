@@ -1,7 +1,7 @@
 ---
 publishDate: 2025-07-16
-title: "Kereta Untuk Fresh Graduate Malaysia 2026 — Panduan Bajet RM30K–RM60K"
-excerpt: "Panduan lengkap kereta sesuai untuk fresh graduate Malaysia 2026. Perbandingan Myvi, Axia, Bezza, Saga, dan kereta terpakai dalam bajet bawah RM60K. Kira ansuran bulanan ikut gaji."
+title: "Kereta Untuk Fresh Graduate Malaysia 2026"
+excerpt: "Panduan lengkap kereta sesuai untuk fresh graduate Malaysia 2026. Perbandingan Myvi, Axia, Bezza, Saga, dan kereta terpakai dalam bajet bawah RM60K."
 category: Kerjaya
 image: "~/assets/images/hero-kereta-fresh-grad.jpg"
 tags:

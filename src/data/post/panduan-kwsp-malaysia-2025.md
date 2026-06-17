@@ -1,6 +1,6 @@
 ---
 publishDate: 2025-07-12
-title: 'Panduan KWSP Malaysia 2025: Caruman, Pengeluaran, Dividen & Tips Penting'
+title: 'Panduan KWSP Malaysia 2025: Caruman, Pengeluaran'
 excerpt: 'Panduan lengkap KWSP Malaysia 2025 — kadar caruman terkini, jenis pengeluaran, dividen tahunan, dan tips bijak untuk pekerja Malaysia.'
 category: KWSP
 image: "~/assets/images/hero-panduan-kwsp.jpg"

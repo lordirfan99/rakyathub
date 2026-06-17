@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-14
-title: "Insurans Perjalanan Malaysia 2026 — Panduan Pilih & Jimat"
+title: "Insurans Perjalanan Malaysia 2026"
 excerpt: "Panduan lengkap insurans perjalanan Malaysia 2026. Perbandingan Allianz, Etiqa, MSIG, Tune Protect, coverage wajib & tips jimat premium."
 category: Insurans
 image: "~/assets/images/hero-insurans-perjalanan-malaysia-2026.jpg"

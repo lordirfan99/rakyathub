@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-13
-title: "Versa vs KDI vs TNG GO+ — Platform Simpanan Alternatif 2026"
-excerpt: "Versa Cash, KDI Save dan TNG GO+ — platform simpanan alternatif Malaysia 2026. Perbandingan pulangan, PIDM, had simpanan dan cara pilih yang terbaik untuk korang."
+title: "Versa vs KDI vs TNG GO+"
+excerpt: "Versa Cash, KDI Save dan TNG GO+ — platform simpanan alternatif Malaysia 2026. Perbandingan pulangan, PIDM, had simpanan dan cara pilih yang terbaik."
 image: "~/assets/images/hero-versa-kdi-tng-go-simpanan-alternatif.jpg"
 tags:
   - versa

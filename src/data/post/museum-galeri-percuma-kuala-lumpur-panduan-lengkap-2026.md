@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-15
-title: "7 Muzium & Galeri Percuma di Kuala Lumpur — Panduan Lengkap 2026"
+title: "7 Muzium & Galeri Percuma di Kuala Lumpur"
 excerpt: "Nak lepak KL tanpa modal besar? 7 muzium dan galeri percuma di KL lengkap dengan waktu operasi, lokasi, pengangkutan awam dan tips sampai"
 image: "~/assets/images/hero-museum-kl.jpg"
 tags:

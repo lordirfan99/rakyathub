@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-16
-title: "Bina Personal Branding Dari Universiti — Panduan Lengkap"
+title: "Bina Personal Branding Dari Universiti"
 excerpt: "Panduan bina personal branding untuk student universiti. Cara stand out masa cari internship, job, dan bina jaringan profesional."
 category: Kerjaya
 image: "~/assets/images/hero-bina-personal-branding-dari-universiti.jpg"

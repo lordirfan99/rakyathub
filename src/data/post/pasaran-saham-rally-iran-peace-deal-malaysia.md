@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-16
-title: "Global Stocks Rally Lepas Damai Iran — Peluang Untuk Korang?"
-excerpt: "Nikkei naik 5%, minyak jatuh 5%, pasaran saham global rally besar-besaran lepas damai Iran-AS. Peluang untuk pelabur muda Malaysia? Ini panduan lengkap."
+title: "Global Stocks Rally Lepas Damai Iran"
+excerpt: "Nikkei naik 5%, minyak jatuh 5%, pasaran saham global rally besar-besaran lepas damai Iran-AS."
 category: Kewangan
 image: "~/assets/images/hero-pasaran-saham-rally-iran-peace-deal-malaysia.jpg"
 tags:

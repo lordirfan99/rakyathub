@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-13
-title: "SARA 2026 — Sumbangan Asas Rahmah & Panduan Lengkap Guna MyKad"
-excerpt: "SARA 2026 — panduan lengkap Sumbangan Asas Rahmah. Semak kelayakan, jumlah bantuan RM1,200 setahun, cara beli barang guna MyKad dan senarai pasar raya terpilih."
+title: "SARA 2026 — Sumbangan Asas Rahmah & Panduan Lengkap"
+excerpt: "SARA 2026 — panduan lengkap Sumbangan Asas Rahmah. Semak kelayakan, jumlah bantuan RM1,200 setahun, cara beli barang guna MyKad dan senarai pasar."
 image: "~/assets/images/hero-sara-2026-panduan-lengkap.jpg"
 tags:
   - sara

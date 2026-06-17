@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-10
-title: "Pelan Base MHIT 2026 — Insurans Perubatan Mampu Milik RM50 Sebulan, Alternatif Premium Mahal?"
-excerpt: "Base MHIT adalah pelan insurans perubatan asas kerajaan Malaysia. Premium serendah RM50/bulan, tiada semakan perubatan & klausa no look-back. Ini panduan lengkap."
+title: "Pelan Base MHIT 2026"
+excerpt: "Base MHIT adalah pelan insurans perubatan asas kerajaan Malaysia. Premium serendah RM50/bulan, tiada semakan perubatan & klausa no look-back."
 category: Insurans
 image: "~/assets/images/hero-base-mhit.jpg"
 tags:

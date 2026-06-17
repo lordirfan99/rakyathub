@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-11
-title: "Glossary: Apa Itu Dividen? Maksud Mudah & Contoh Untuk Korang"
+title: "Glossary: Apa Itu Dividen? Maksud Mudah & Contoh Untuk"
 excerpt: "Mudah faham: definisi dividen, cara kira dividen ASB dan KWSP, compounding effect, dan tips guna dividen untuk tambah simpanan korang."
 category: Kewangan
 image: "~/assets/images/hero-glossary-dividen.jpg"

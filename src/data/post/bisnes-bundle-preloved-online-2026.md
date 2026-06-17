@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-12
-title: "Bisnes Bundle & Preloved Online: Cara Jana RM3K–RM5K Sebulan Guna TikTok Shop Live"
-excerpt: "Nak bisnes modal rendah yang tengah viral? Bundle & preloved adalah antara side hustle paling laku 2026. Modal bawah RM300, margin untung 2–3x ganda, dan platform TikTok Shop dah sedia ribuan pembeli. Panduan lengkap untuk Malaysia."
+title: "Bisnes Bundle & Preloved Online: Cara Jana RM3K–RM5K"
+excerpt: "Nak bisnes modal rendah yang tengah viral? Bundle & preloved adalah antara side hustle paling laku 2026."
 category: Kewangan
 image: "~/assets/images/hero-bundle-preloved-2026.jpg"
 tags:

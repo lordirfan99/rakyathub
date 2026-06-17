@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-16
-title: "Biasiswa Lepasan SPM 2026 — JPA, MARA, Petronas, Bank Negara & Swasta, Mana Paling Sesuai?"
-excerpt: "Panduan lengkap biasiswa lepasan SPM 2026 — syarat kelayakan, jumlah tajaan, tarikh tutup & cara mohon JPA, MARA, Petronas, Kijang Bank Negara, Khazanah dan 20+ biasiswa korporat lain."
+title: "Biasiswa Lepasan SPM 2026"
+excerpt: "Panduan lengkap biasiswa lepasan SPM 2026 — syarat kelayakan, jumlah tajaan, tarikh tutup & cara mohon JPA, MARA, Petronas, Kijang Bank Negara."
 image: "~/assets/images/hero-biasiswa-spm.jpg"
 category: Pendidikan
 tags:

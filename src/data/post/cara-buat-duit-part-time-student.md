@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-06
-title: "Cara Buat Duit Part Time Student — 7 Side Hustle Terbaik"
+title: "Cara Buat Duit Part Time Student"
 excerpt: "Nak cari duit lebih masa study? Ini 7 cara buat duit part time student Malaysia yang practical, tak ganggu kelas & confirmed halal."
 category: Kewangan
 image: "~/assets/images/hero-cara-buat-duit-part-time-student.jpg"

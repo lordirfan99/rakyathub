@@ -1,8 +1,8 @@
 ---
 publishDate: 2025-07-31
 updateDate: 2026-06-12
-title: 'Pelaburan Asas Malaysia: ASB, KWSP, DCA – Mana Pilihan Terbaik Untuk Anda 2026?'
-excerpt: 'Bandingkan ASB, KWSP dan DCA secara mendalam — pulangan, risiko, cara mula, dan strategi gabungan terbaik untuk bina kekayaan jangka panjang di Malaysia 2026. Lengkap dengan jadual perbandingan dan simulasi kiraan.'
+title: 'Pelaburan Asas Malaysia: ASB, KWSP, DCA – Mana Pilihan'
+excerpt: "Bandingkan ASB, KWSP dan DCA secara mendalam — pulangan, risiko, cara mula, dan strategi gabungan terbaik untuk bina kekayaan jangka panjang di."
 category: Kewangan
 image: "~/assets/images/hero-pelaburan-asas-asb-kwsp-dca-apa-pilihan-terbaik-untuk-rakyat-malaysia.jpg"
 tags:

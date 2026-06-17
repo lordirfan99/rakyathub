@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-11
-title: PRS 2026 — Skim Persaraan Swasta Untuk Tambah Simpanan Pencen
-excerpt: "Panduan lengkap PRS (Private Retirement Scheme) 2026 — cara buka akaun, RM3,000 tax relief, perbandingan 8 provider & yuran. Tambah simpanan pencen selain KWSP."
+title: "PRS 2026 — Skim Persaraan Swasta Untuk Tambah Simpanan"
+excerpt: "Panduan lengkap PRS (Private Retirement Scheme) 2026 — cara buka akaun, RM3,000 tax relief, perbandingan 8 provider & yuran."
 category: Kewangan
 image: "~/assets/images/hero-prs-retirement.jpg"
 tags:

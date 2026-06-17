@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-14
-title: "Harga Emas Cecah RM764/g — 6 Platform Pelaburan Terbaik & Panduan Lengkap 2026"
+title: "Harga Emas Cecah RM764/g"
 excerpt: "Emas Malaysia capai rekod RM764/g Januari 2026. Panduan lengkap 6 platform pelaburan emas — Maybank, Public Gold, Bursa Gold Dinar, GAP & lagi."
 category: Emas
 image: "~/assets/images/hero-harga-emas-rekod-2026.jpg"

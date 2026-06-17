@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-09
-title: "10 Pekerjaan Paling Tinggi Permintaan di Malaysia 2026 — Sektor Mana Paling Banyak Cari Pekerja?"
-excerpt: "Senarai lengkap pekerjaan high demand di Malaysia 2026 berdasarkan data DOSM, Randstad, JobStreet, dan TalentCorp. Semak gaji, syarat, dan sektor mana paling banyak peluang kerja."
+title: "10 Pekerjaan Paling Tinggi Permintaan di Malaysia 2026"
+excerpt: "Senarai lengkap pekerjaan high demand di Malaysia 2026 berdasarkan data DOSM, Randstad, JobStreet, dan TalentCorp."
 category: Kerjaya
 image: "~/assets/images/hero-pekerjaan-high-demand-malaysia-2026.jpg"
 tags:

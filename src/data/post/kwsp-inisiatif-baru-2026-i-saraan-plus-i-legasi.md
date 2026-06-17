@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-17
-title: "KWSP 2026 — 5 Inisiatif Baru Yang Ramai Tak Tahu & Cara Manfaatkan"
-excerpt: "i-Saraan Plus RM600 setahun untuk p-hailing, i-Legasi, pengeluaran Haji RM10,000, had umur i-Suri dinaikkan ke 60 tahun. Panduan lengkap 5 inisiatif baru KWSP 2026."
+title: "KWSP 2026 — 5 Inisiatif Baru Yang Ramai Tak Tahu &"
+excerpt: "i-Saraan Plus RM600 setahun untuk p-hailing, i-Legasi, pengeluaran Haji RM10,000, had umur i-Suri dinaikkan ke 60 tahun."
 image: "~/assets/images/hero-kwsp-online.jpg"
 category: KWSP
 tags:

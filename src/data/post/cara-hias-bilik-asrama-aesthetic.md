@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-12
 title: "Cara Hias Bilik Asrama Aesthetic — 10 Idea Bajet RM50"
-excerpt: "Nak bilik asrama nampak aesthetic tanpa habiskan duit? Ini 10 cara hias bilik asrama rendah bajet yang korang boleh tiru — lampu fairy, deco DIY dan banyak lagi."
+excerpt: "Nak bilik asrama nampak aesthetic tanpa habiskan duit? Ini 10 cara hias bilik asrama rendah bajet yang korang boleh tiru — lampu fairy, deco DIY dan."
 category: Pendidikan
 image: "~/assets/images/hero-cara-hias-bilik-asrama-aesthetic.jpg"
 tags:

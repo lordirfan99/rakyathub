@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-16
-title: "Dropship Shopee & TikTok Shop Malaysia 2026 — Modal Bawah RM200, Jana RM500–RM5K Sebulan"
-excerpt: "Nak bisnes dropship tanpa modal besar? Panduan lengkap dropship Shopee dan TikTok Shop Malaysia 2026 — cara daftar, cari supplier, strategi marketing, dan realiti pendapatan sebenar. Modal boleh serendah RM50!"
+title: "Dropship Shopee & TikTok Shop Malaysia 2026"
+excerpt: "Nak bisnes dropship tanpa modal besar? Panduan lengkap dropship Shopee dan TikTok Shop Malaysia 2026 — cara daftar, cari supplier, strategi."
 category: Kewangan
 image: "~/assets/images/hero-dropship-shopee-tiktok-2026.jpg"
 tags:

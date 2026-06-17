@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-15
-title: "ASB 5.75% vs FD 3.50% — Mana Lagi Untung Untuk Simpanan Korang?"
+title: "ASB 5.75% vs FD 3.50%"
 excerpt: "ASB pulangan 5.75% setahun vs FD 3.50–4.00%. Tapi ada risiko, limitasi & syarat. Panduan lengkap mana sesuai ikut situasi kewangan korang."
 image: "~/assets/images/hero-asb-vs-fd.jpg"
 category: ASB

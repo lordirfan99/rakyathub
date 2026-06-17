@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-14
-title: "Subsidi Minyak Cecah RM7.5 Bilion — Apa Makna Untuk Korang?"
+title: "Subsidi Minyak Cecah RM7.5 Bilion"
 excerpt: "Subsidi minyak Malaysia naik dari RM700 juta ke RM7.5 bilion sebulan. Kini dah reda ke RM3.5 bilion. Apa makna untuk poket kau?"
 category: Kewangan
 image: "~/assets/images/hero-subsidi-minyak-cecah-rm7-5-bilion.jpg"

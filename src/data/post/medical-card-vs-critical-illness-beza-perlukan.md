@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-09
-title: "Medical Card vs Critical Illness Insurance: Apa Beza & Mana Satu Korang Perlukan?"
-excerpt: "Ramai keliru antara medical card dan critical illness insurance. Artikel ni terangkan perbezaan, kos, dan kenapa korang mungkin perlukan kedua-duanya untuk perlindungan kewangan lengkap."
+title: "Medical Card vs Critical Illness Insurance: Apa Beza &"
+excerpt: "Ramai keliru antara medical card dan critical illness insurance. Artikel ni terangkan perbezaan, kos, dan kenapa korang mungkin perlukan kedua-duanya."
 category: Insurans
 image: "~/assets/images/hero-medical-vs-critical.jpg"
 tags:

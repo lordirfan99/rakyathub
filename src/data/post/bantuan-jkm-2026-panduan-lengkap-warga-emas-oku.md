@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-16
-title: "Bantuan JKM 2026 — 8 Bantuan Bulanan Warga Emas & OKU, RM600 Sebulan"
-excerpt: "Panduan lengkap Bantuan JKM 2026 untuk warga emas dan OKU. Ketahui 8 jenis bantuan bulanan, kadar terkini sehingga RM600, syarat kelayakan & cara mohon online."
+title: "Bantuan JKM 2026 — 8 Bantuan Bulanan Warga Emas & OKU"
+excerpt: "Panduan lengkap Bantuan JKM 2026 untuk warga emas dan OKU. Ketahui 8 jenis bantuan bulanan, kadar terkini sehingga RM600, syarat kelayakan & cara."
 category: Kerajaan
 image: "~/assets/images/hero-bantuan-jkm-2026.jpg"
 tags:

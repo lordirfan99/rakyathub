@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-09
-title: "DCA Emas GAP Public Gold — Strategi Beli Emas Konsisten RM100 Sebulan"
-excerpt: "Panduan strategi DCA emas guna akaun GAP Public Gold: cara beli emas konsisten RM100 sebulan, pulangan jangka panjang, dan perbandingan dengan simpanan lain."
+title: "DCA Emas GAP Public Gold"
+excerpt: "Panduan strategi DCA emas guna akaun GAP Public Gold: cara beli emas konsisten RM100 sebulan, pulangan jangka panjang, dan perbandingan dengan."
 category: Emas
 image: "~/assets/images/hero-dca-emas-gap.jpg"
 tags:

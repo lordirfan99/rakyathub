@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-17
-title: Kos Upfront Sewa Rumah Malaysia — RM5,000? Berapa Sebenarnya Kena Sedia
+title: "Kos Upfront Sewa Rumah Malaysia"
 excerpt: "Kos upfront sewa rumah di Malaysia boleh mencecah RM5,000–RM10,000 sebelum masuk. Deposit 2+1, stamp duty, legal fee, lori — ini breakdown lengkap."
 category: Hartanah
 image: "~/assets/images/hero-kos-upfront-sewa.jpg"

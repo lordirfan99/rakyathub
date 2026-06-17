@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-08
-title: "Bursa Malaysia Cecah 1,700 Semula? Ini Peluang Untuk Korang"
+title: "Bursa Malaysia Cecah 1,700 Semula? Ini Peluang Untuk"
 excerpt: "FBM KLCI menghampiri paras 1,700 dengan sentimen positif. Apa makna untuk anak muda yang nak mula melabur saham? Ini panduan ringkas."
 category: Kewangan
 image: "~/assets/images/hero-bursa-malaysia-1700-peluang-melabur.jpg"

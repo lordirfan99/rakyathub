@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-17
-title: "Cara Kira Dividen ASB 2026 — Faham Metode Pengiraan & Strategi Maksimum Pulangan"
-excerpt: "ASB 2025 umum dividen 5.75 sen seunit. Tapi macam mana nak kira sebenarnya? Faham metode purata baki minimum bulanan & 5 strategi maksimumkan dividen ASB korang."
+title: "Cara Kira Dividen ASB 2026"
+excerpt: "ASB 2025 umum dividen 5.75 sen seunit. Tapi macam mana nak kira sebenarnya? Faham metode purata baki minimum bulanan & 5 strategi maksimumkan dividen."
 image: "~/assets/images/hero-asb-fresh-grad.jpg"
 category: ASB
 tags:

@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-12
-title: "Kerja Remote & Hibrid di Malaysia 2026 — Panduan Lengkap Gaji, Platform & Tips Dapat Kerja"
-excerpt: "Panduan lengkap kerja remote dan hibrid di Malaysia 2026. Semak perbandingan gaji, platform cari kerja, kemahiran diperlukan, dan tips dapat kerja dari rumah."
+title: "Kerja Remote & Hibrid di Malaysia 2026"
+excerpt: "Panduan lengkap kerja remote dan hibrid di Malaysia 2026. Semak perbandingan gaji, platform cari kerja, kemahiran diperlukan, dan tips dapat kerja."
 category: Kerjaya
 image: "~/assets/images/hero-kerja-remote-hibrid-malaysia-2026.jpg"
 tags:

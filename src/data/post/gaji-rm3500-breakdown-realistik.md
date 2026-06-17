@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-10
-title: "Gaji RM3,500 Sebulan — Macam Mana Nak Hidup & Jimat Duit?"
+title: "Gaji RM3,500 Sebulan"
 excerpt: "Breakdown realistik gaji RM3,500 — sewa RM700, makan RM600, simpan RM620 guna formula 50/30/20 & DCA emas. Bina wealth dari gaji middle ground."
 category: Kewangan
 image: "~/assets/images/hero-gaji-rm3500.jpg"

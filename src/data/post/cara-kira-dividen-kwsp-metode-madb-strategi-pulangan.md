@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-13
-title: Cara Kira Dividen KWSP 2026 — Faham Metode MADB & Strategi Pulangan
-excerpt: "Macam mana KWSP kira dividen guna metode MADB? Bukan guna baki akhir tahun semata-mata. Ini panduan lengkap dengan contoh kiraan dan strategi maksimumkan pulangan."
+title: "Cara Kira Dividen KWSP 2026"
+excerpt: "Macam mana KWSP kira dividen guna metode MADB? Bukan guna baki akhir tahun semata-mata. Ini panduan lengkap dengan contoh kiraan dan strategi."
 category: KWSP
 image: "~/assets/images/hero-cara-kira-dividen-kwsp.jpg"
 tags:

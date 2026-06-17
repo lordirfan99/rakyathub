@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-17
-title: "UPU Online 2026/2027 — Cara Mohon, Tarikh Penting & Tips Dapat Tawaran IPTA"
-excerpt: "Panduan lengkap UPU Online 2026/2027 lepasan SPM — tarikh penting, cara mohon 12 pilihan strategik, formula merit, tips dapat tawaran universiti awam & senarai program IPTA. Data rasmi KPT terkini."
+title: "UPU Online 2026/2027"
+excerpt: "Panduan lengkap UPU Online 2026/2027 lepasan SPM — tarikh penting, cara mohon 12 pilihan strategik, formula merit, tips dapat tawaran universiti awam."
 category: Pendidikan
 image: "~/assets/images/hero-upu-online-cara-mohon-tarikh-penting-tips-dapat-tawaran.jpg"
 tags:

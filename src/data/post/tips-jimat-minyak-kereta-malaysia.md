@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-16
-title: "Tips Jimat Minyak Kereta 2026 — 10 Cara Berkesan Kurangkan Penggunaan Petrol"
-excerpt: "Belanja minyak makan 15-20% gaji bulanan? 10 tips praktikal jimat minyak kereta — teknik pemanduan, servis berkala & tabiat harian yang boleh jimat RM100+ sebulan."
+title: "Tips Jimat Minyak Kereta 2026"
+excerpt: "Belanja minyak makan 15-20% gaji bulanan? 10 tips praktikal jimat minyak kereta — teknik pemanduan, servis berkala & tabiat harian yang boleh jimat."
 image: "~/assets/images/hero-jimat-minyak-kereta.jpg"
 category: Kenderaan
 tags:

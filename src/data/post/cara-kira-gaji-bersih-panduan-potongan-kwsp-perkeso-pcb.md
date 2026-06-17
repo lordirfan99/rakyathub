@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-12
-title: Cara Kira Gaji Bersih — Panduan Lengkap Potongan KWSP, PERKESO & PCB
+title: "Cara Kira Gaji Bersih"
 excerpt: "Cara kira gaji bersih selepas potongan KWSP (EPF), PERKESO (SOCSO), EIS & PCB. Termasuk jadual terkini, contoh & kalkulator."
 category: Kewangan
 image: "~/assets/images/hero-kira-gaji-bersih.jpg"

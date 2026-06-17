@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-14
-title: "Kerja Kerajaan vs Swasta 2026 — Perbandingan Lengkap Gaji, Pencen & Kestabilan Kerjaya"
-excerpt: "Mana lebih bagus — kerja kerajaan atau swasta di Malaysia 2026? Kami bandingkan gaji, pencen, faedah, kestabilan kerja dan prospek kerjaya secara objektif. Baca sebelum korang buat keputusan."
+title: "Kerja Kerajaan vs Swasta 2026"
+excerpt: "Mana lebih bagus — kerja kerajaan atau swasta di Malaysia 2026? Kami bandingkan gaji, pencen, faedah, kestabilan kerja dan prospek kerjaya secara."
 category: Kerjaya
 image: "~/assets/images/hero-kerja-kerajaan-vs-swasta-2026-perbandingan-gaji-pencen.jpg"
 tags:

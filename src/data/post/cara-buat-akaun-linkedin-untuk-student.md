@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-14
-title: "Cara Buat Akaun LinkedIn Untuk Student (Panduan Lengkap)"
+title: "Cara Buat Akaun LinkedIn Untuk Student (Panduan"
 excerpt: "Panduan cara buat akaun LinkedIn untuk student Malaysia — dari profile picture sampai dapat internship pertama. Lengkap dengan tips & contoh."
 category: Kerjaya
 image: "~/assets/images/hero-cara-buat-akaun-linkedin-untuk-student.jpg"

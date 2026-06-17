@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-16
-title: "SCAM ALERT: Panggilan Senyap — Jangan Angkat Telefon Ni!"
+title: "SCAM ALERT: Panggilan Senyap"
 excerpt: "CyberSecurity Malaysia amaran taktik 'panggilan senyap'. 66,204 kes scam tahun lalu, rugi RM2.97 bilion. Kenali modus operandi & cara lindung diri."
 image: "~/assets/images/hero-scam-senyap.jpg"
 category: Kewangan

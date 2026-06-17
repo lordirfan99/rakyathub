@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-09
-title: "Rule of 78 Tamat! Akta Sewa Beli Baharu Berkuat Kuasa 1 Jun"
-excerpt: "Akta Sewa Beli (Pindaan) 2026 berkuat kuasa 1 Jun. Rule of 78 dimansuhkan, diganti kaedah baki berkurangan. Jimat ribuan ringgit kalau settle awal pinjaman."
+title: "Rule of 78 Tamat! Akta Sewa Beli Baharu Berkuat Kuasa"
+excerpt: "Akta Sewa Beli (Pindaan) 2026 berkuat kuasa 1 Jun. Rule of 78 dimansuhkan, diganti kaedah baki berkurangan."
 category: Kewangan
 image: "~/assets/images/hero-rule-78-mansuh-akta-sewa-beli-2026.jpg"
 tags:

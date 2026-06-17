@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-16
-title: "Kerja Kerajaan vs Swasta 2026 — Mana Lagi Bagus? Gaji, Pencen & Kenaikan Pangkat"
-excerpt: "Masih pening nak pilih kerja kerajaan atau swasta? Kami buat perbandingan lengkap gaji, pencen vs KWSP, kenaikan pangkat, dan gaya hidup — berdasarkan data DOSM, Hays dan JobStreet terkini 2026."
+title: "Kerja Kerajaan vs Swasta 2026"
+excerpt: "Masih pening nak pilih kerja kerajaan atau swasta? Kami buat perbandingan lengkap gaji, pencen vs KWSP, kenaikan pangkat, dan gaya hidup."
 category: Kerjaya
 image: "~/assets/images/hero-kerja-kerajaan-vs-swasta-2026-mana-lebih-bagus.jpg"
 tags:

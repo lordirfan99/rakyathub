@@ -1,7 +1,7 @@
 ---
 publishDate: 2025-07-14
-title: "Cara Semak Saman JPJ & PDRM Online 2026 — Panduan Lengkap MyBayar, RILEK & MYEG"
-excerpt: "Panduan lengkap semak saman JPJ dan PDRM secara online 2026. Guna MyBayar Saman, JPJ e-JAIP, MYEG, dan RILEK. Jimat masa, elak disenarai hitam & dapat diskaun saman."
+title: "Cara Semak Saman JPJ & PDRM Online 2026"
+excerpt: "Panduan lengkap semak saman JPJ dan PDRM secara online 2026. Guna MyBayar Saman, JPJ e-JAIP, MYEG, dan RILEK."
 category: Kerjaya
 image: "~/assets/images/hero-saman-jpj.jpg"
 tags:

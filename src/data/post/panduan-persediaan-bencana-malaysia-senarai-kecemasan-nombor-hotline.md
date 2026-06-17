@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-15
-title: Panduan Persediaan Bencana Malaysia — Senarai Barang, Nombor Kecemasan & Pelan Tindakan
-excerpt: "Panduan lengkap persediaan bencana untuk rakyat Malaysia: senarai barang kecemasan, nombor hotline penting, pelan evakuasi banjir & kebakaran, dan cara mohon bantuan JKM."
+title: "Panduan Persediaan Bencana Malaysia"
+excerpt: "Panduan lengkap persediaan bencana untuk rakyat Malaysia: senarai barang kecemasan, nombor hotline penting, pelan evakuasi banjir & kebakaran, dan."
 image: "~/assets/images/hero-persediaan-bencana.jpg"
 category: Keselamatan
 tags:

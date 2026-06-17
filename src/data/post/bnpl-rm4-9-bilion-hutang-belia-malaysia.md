@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-15
-title: "BNPL Cecah RM4.9 Bilion — Ramai Malaysia Terperangkap Hutang"
+title: "BNPL Cecah RM4.9 Bilion"
 excerpt: "Hutang BNPL (Buy Now Pay Later) di Malaysia mencecah RM4.9 bilion dengan 7.5 juta pengguna. 70% dari B40. Ini cara elak perangkap hutang digital."
 category: Kewangan
 image: "~/assets/images/hero-bnpl-rm4-9-bilion-hutang-belia-malaysia.jpg"

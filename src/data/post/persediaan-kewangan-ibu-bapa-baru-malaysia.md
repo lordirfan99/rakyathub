@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-10
-title: "Persediaan Kewangan Ibu Bapa Baru — SSPN, Insurans & Tabung Anak"
+title: "Persediaan Kewangan Ibu Bapa Baru"
 excerpt: "Panduan kewangan lengkap untuk ibu bapa baru di Malaysia: kos baby, SSPN, insurans anak, tabung pendidikan dan tips jimat untuk parents."
 category: Kewangan
 image: "~/assets/images/hero-ibu-bapa-baru.jpg"

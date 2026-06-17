@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-11
-title: "Aplikasi Belajar Untuk Student — 10 Tools Digital Terbaik 2026"
-excerpt: "Nak score dalam study guna smartphone je? Ini 10 aplikasi belajar untuk student Malaysia 2026 — dari note-taking AI, flashcard, sampai pengurusan kewangan."
+title: "Aplikasi Belajar Untuk Student"
+excerpt: "Nak score dalam study guna smartphone je? Ini 10 aplikasi belajar untuk student Malaysia 2026 — dari note-taking AI, flashcard, sampai pengurusan."
 category: Pendidikan
 image: "~/assets/images/hero-aplikasi-belajar-untuk-student.jpg"
 tags:

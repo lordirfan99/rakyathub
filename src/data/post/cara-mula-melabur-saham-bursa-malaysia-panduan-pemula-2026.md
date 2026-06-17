@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-11
-title: Cara Mula Melabur Saham Bursa Malaysia — Panduan Pemula 2026
-excerpt: "Panduan lengkap melabur saham Bursa Malaysia untuk pemula 2026 — cara buka akaun CDS online, modal minimum, tips pilih saham, strategi DCA dan patuh syariah."
+title: "Cara Mula Melabur Saham Bursa Malaysia"
+excerpt: "Panduan lengkap melabur saham Bursa Malaysia untuk pemula 2026 — cara buka akaun CDS online, modal minimum, tips pilih saham, strategi DCA dan patuh."
 category: Pelaburan
 image: "~/assets/images/hero-melabur-saham-bursa.jpg"
 tags:

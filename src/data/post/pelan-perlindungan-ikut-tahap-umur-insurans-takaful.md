@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-11
-title: "Pelan Perlindungan Ikut Tahap Umur — Insurans & Takaful Apa Yang Korang Perlukan Dari 20-an Hingga 50-an?"
-excerpt: "Bingung nak ambil insurans atau takaful yang mana? Panduan lengkap pelan perlindungan ikut peringkat umur — dari student sampai veteran kerja. Lengkap dengan perbandingan harga & tips jimat."
+title: "Pelan Perlindungan Ikut Tahap Umur"
+excerpt: "Bingung nak ambil insurans atau takaful yang mana? Panduan lengkap pelan perlindungan ikut peringkat umur — dari student sampai veteran kerja."
 category: Insurans
 image: "~/assets/images/hero-perlindungan-ikut-umur.jpg"
 tags:

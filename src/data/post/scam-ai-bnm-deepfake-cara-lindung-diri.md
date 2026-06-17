@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-05
-title: "Scam Guna AI Makin Canggih: BNM Dah Amaran, Ini Cara Korang Lindung Diri"
-excerpt: "Gabenor Bank Negara Malaysia dipalsukan guna AI deepfake untuk scam pelaburan. 431 syarikat haram dalam senarai BNM. Ini cara semak & lindung wang anda."
+title: "Scam Guna AI Makin Canggih: BNM Dah Amaran, Ini Cara"
+excerpt: "Gabenor Bank Negara Malaysia dipalsukan guna AI deepfake untuk scam pelaburan. 431 syarikat haram dalam senarai BNM."
 category: Kewangan
 image: "~/assets/images/hero-scam-ai.jpg"
 tags:

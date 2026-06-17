@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-16
-title: "Tips Selamat Ribut Petir & Cuaca Ekstrem — Apa Buat, Apa Elak (Malaysia 2026)"
-excerpt: "Panduan lengkap keselamatan ribut petir dan cuaca ekstrem di Malaysia: apa buat dalam rumah, tips selamat luar rumah, peraturan 30/30, mitos kilat, dan aplikasi cuaca terbaik."
+title: "Tips Selamat Ribut Petir & Cuaca Ekstrem"
+excerpt: "Panduan lengkap keselamatan ribut petir dan cuaca ekstrem di Malaysia: apa buat dalam rumah, tips selamat luar rumah, peraturan 30/30, mitos kilat."
 image: "~/assets/images/hero-ribut-petir-cuaca-ekstrem.jpg"
 category: Keselamatan
 tags:

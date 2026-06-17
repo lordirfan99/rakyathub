@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-05
-title: "Gaji RM1,800 Sebulan — Macam Mana Nak Hidup Dan Jimat Duit?"
+title: "Gaji RM1,800 Sebulan"
 excerpt: "Breakdown realistik gaji RM1,800 fresh grad — sewa RM500, makan RM450, simpan RM360 pakai formula 50/30/20. Jimat RM4,320 setahun!"
 category: Kewangan
 image: "~/assets/images/hero-gaji-rm1800.jpg"

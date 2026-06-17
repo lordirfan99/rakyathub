@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-16
-title: "Scam Cinta Online 2026 — 5 Red Flag Elak Ditipu Ribuan Ringgit"
+title: "Scam Cinta Online 2026"
 excerpt: "RM3.5 juta lesap dalam sebulan akibat love scam. Kenali 5 red flag scam cinta di Tinder, WhatsApp & Telegram sebelum korang jadi mangsa."
 image: "~/assets/images/hero-scam-cinta.jpg"
 category: Keselamatan

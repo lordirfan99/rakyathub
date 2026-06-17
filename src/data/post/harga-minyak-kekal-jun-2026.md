@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-11
-title: "Harga Minyak Kekal Minggu Ini — Apa Maksudnya Untuk Korang?"
+title: "Harga Minyak Kekal Minggu Ini"
 excerpt: "Harga RON95, RON97 dan diesel kekal untuk 11-17 Jun 2026 selepas 3 minggu berturut-turut harga turun. Ini kesan sebenar pada dompet korang."
 category: Kewangan
 image: "~/assets/images/hero-harga-minyak-kekal-jun-2026.jpg"

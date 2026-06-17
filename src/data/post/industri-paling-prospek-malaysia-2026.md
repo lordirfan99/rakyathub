@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-10
-title: "Industri Paling Prospek di Malaysia 2026 — Perbandingan Gaji, Peluang & Prospek Kerjaya"
-excerpt: "Perbandingan lengkap industri paling prospek di Malaysia 2026. Semak gaji, peluang pekerjaan, dan prospek kerjaya mengikut sektor — teknologi, kewangan, kesihatan, pembuatan & tenaga hijau."
+title: "Industri Paling Prospek di Malaysia 2026"
+excerpt: "Perbandingan lengkap industri paling prospek di Malaysia 2026. Semak gaji, peluang pekerjaan, dan prospek kerjaya mengikut sektor — teknologi."
 category: Kerjaya
 image: "~/assets/images/hero-industri-paling-prospek-malaysia-2026.jpg"
 tags:

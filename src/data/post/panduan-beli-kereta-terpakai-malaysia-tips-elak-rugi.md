@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-06
-title: "Panduan Beli Kereta Terpakai Malaysia — Tips Elak Rugi dan Tertipu"
+title: "Panduan Beli Kereta Terpakai Malaysia"
 excerpt: "Panduan lengkap beli kereta terpakai Malaysia — cara semak sejarah kenderaan, pemeriksaan Puspakom, loan kereta terpakai, geran, dan tips elak ditipu."
 category: Kereta
 image: "~/assets/images/hero-kereta-terpakai.jpg"

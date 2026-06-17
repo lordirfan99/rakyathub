@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-13
-title: "Career Switch (Tukar Kerjaya) di Malaysia 2026 — Panduan Lengkap & Gaji Selepas Bertukar"
-excerpt: "Panduan lengkap career switch di Malaysia 2026 — dari kenal pasti bila masa sesuai tukar kerjaya, cara pindah industri, gaji selepas bertukar, sampailah tips resume dan interview untuk tukar bidang."
+title: "Career Switch (Tukar Kerjaya) di Malaysia 2026"
+excerpt: "Panduan lengkap career switch di Malaysia 2026 — dari kenal pasti bila masa sesuai tukar kerjaya, cara pindah industri, gaji selepas bertukar."
 category: Kerjaya
 image: "~/assets/images/hero-panduan-lengkap-tukar-kerjaya-malaysia-2026.jpg"
 tags:

@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-13
-title: "Damai Iran-AS: Minyak Akan Turun Lagi — Impak Pada Korang"
+title: "Damai Iran-AS: Minyak Akan Turun Lagi"
 excerpt: "Perang Iran-AS semakin hampir tamat. Apa maksudnya untuk harga minyak Malaysia dan ekonomi? Ini kiraan penuh impak pada dompet korang."
 category: Kewangan
 image: "~/assets/images/hero-gencatan-senjata-iran-as-impak-ekonomi-malaysia.jpg"

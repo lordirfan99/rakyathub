@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-08
-title: "Resepi Bajet Student Universiti — 7 Menu Jimat & Kenyang"
+title: "Resepi Bajet Student Universiti"
 excerpt: "Nak masak tapi duit tinggal sikit? Ini 7 resepi bajet student universiti yang murah, mudah & confirm kenyang. Sesuai untuk anak rantau!"
 category: Kewangan
 image: "~/assets/images/hero-resepi-bajet-student-universiti.jpg"

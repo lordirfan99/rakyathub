@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-13
-title: "Shopee Affiliate Marketing — Cara Jana RM1,000–RM5,000 Sebulan Guna Telefon (Panduan Lengkap)"
-excerpt: "Nak dapat komisen setiap kali orang beli guna link anda? Panduan lengkap Shopee Affiliate Marketing 2026 — dari pendaftaran, strategi promosi, tips dapat komisen tinggi, sampai realiti pendapatan sebenar. Modal RM0, kerja guna telefon je."
+title: "Shopee Affiliate Marketing"
+excerpt: "Nak dapat komisen setiap kali orang beli guna link anda? Panduan lengkap Shopee Affiliate Marketing 2026 — dari pendaftaran, strategi promosi, tips."
 category: Kewangan
 image: "~/assets/images/hero-shopee-affiliate-2026.jpg"
 tags:

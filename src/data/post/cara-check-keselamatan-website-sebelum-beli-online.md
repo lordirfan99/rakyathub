@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-16
-title: "Cara Check Keselamatan Website Sebelum Beli Online — 10 Langkah Elak Scam"
+title: "Cara Check Keselamatan Website Sebelum Beli Online"
 excerpt: "RM2.97 billion rakyat Malaysia rugi akibat scam online 2025. Sebelum checkout, check 10 perkara ni dulu — HTTPS, Semak Mule, domain age & banyak lagi."
 category: Teknologi
 image: "~/assets/images/hero-check-website-safety.jpg"

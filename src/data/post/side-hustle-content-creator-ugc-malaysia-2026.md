@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-11
-title: "Side Hustle Content Creator & UGC — Jana RM3,000 Sebulan Guna Telefon"
-excerpt: "Nak jadi content creator tapi tak ada ramai follower? UGC adalah jawapannya. Jana pendapatan sampingan RM1,000–RM3,000 sebulan hanya dengan hasilkan video guna telefon. Panduan lengkap untuk Malaysia 2026."
+title: "Side Hustle Content Creator & UGC"
+excerpt: "Nak jadi content creator tapi tak ada ramai follower? UGC adalah jawapannya. Jana pendapatan sampingan RM1,000–RM3,000 sebulan hanya dengan hasilkan."
 category: Kewangan
 image: "~/assets/images/hero-content-creator-ugc-2026.jpg"
 tags:

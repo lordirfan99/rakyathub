@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-07
-title: Emas Fizikal vs Emas Digital — Mana Strategi Terbaik 2026?
+title: "Emas Fizikal vs Emas Digital"
 excerpt: "Bandingkan emas fizikal vs emas digital di Malaysia. Mana lebih untung untuk pelaburan jangka panjang? Panduan lengkap spread, risiko & platform."
 category: Emas
 image: "~/assets/images/hero-emas-fizikal-digital.jpg"

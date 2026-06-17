@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-10
-title: "PM Anwar Tolak Naikkan Harga Minyak, RON95 RM1.99 Termurah"
+title: "PM Anwar Tolak Naikkan Harga Minyak, RON95 RM1.99"
 excerpt: "PM Anwar tolak naikkan harga minyak, RON95 kekal RM1.99 seliter termurah dunia. Harga RON97 & diesel turun minggu ini. Ini impak wallet korang."
 category: Kewangan
 image: "~/assets/images/hero-pm-tolak-naikkan-harga-minyak.jpg"

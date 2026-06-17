@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-06-17
-title: "Cara Turunkan Kolestrol & Darah Tinggi Secara Semulajadi — Panduan Lengkap 2026"
-excerpt: "1 dari 3 dewasa Malaysia ada darah tinggi, 1 dari 3 ada kolestrol tinggi. Panduan lengkap turunkan bacaan secara semulajadi — diet DASH, oat, senaman, dan data klinikal terkini."
+title: "Cara Turunkan Kolestrol & Darah Tinggi Secara Semulajadi"
+excerpt: "1 dari 3 dewasa Malaysia ada darah tinggi, 1 dari 3 ada kolestrol tinggi. Panduan lengkap turunkan bacaan secara semulajadi — diet DASH, oat."
 category: Kesihatan
 image: "~/assets/images/hero-cara-turunkan-kolestrol-darah-tinggi-semulajadi-2026.jpg"
 tags:
