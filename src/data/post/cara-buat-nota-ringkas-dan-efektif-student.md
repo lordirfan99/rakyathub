@@ -3,7 +3,7 @@ publishDate: 2026-06-17
 title: "Cara Buat Nota Ringkas dan Efektif Student"
 excerpt: "Panduan cara buat nota ringkas dan efektif untuk student Malaysia. Teknik Cornell, peta minda dan kod warna untuk skor peperiksaan."
 category: Pendidikan
-image: "~/assets/images/default.png"
+image: "~/assets/images/hero-cara-buat-nota-ringkas-dan-efektif-student.jpg"
 tags:
   - student
   - tip-belajar
