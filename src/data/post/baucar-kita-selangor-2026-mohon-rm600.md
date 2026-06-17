@@ -2,6 +2,7 @@
 publishDate: 2026-06-17
 title: "Baucar Kita Selangor 2026 Mohon RM600"
 excerpt: "Panduan lengkap Baucar Kita Selangor 2026 — bantuan RM100 sebulan selama 6 bulan. Semak syarat kelayakan, cara mohon, tarikh bayaran portal rasmi."
+image: "~/assets/images/hero-baucar-kita-selangor-2026.jpg"
 category: Kerajaan
 tags:
   - baucar-kita-selangor
