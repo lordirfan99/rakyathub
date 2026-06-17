@@ -15,20 +15,20 @@ tags:
   - kewangan
 author: RakyatHub
 faq:
-  - question: Berapa harga medical card Malaysia 2026 ikut umur?
-    answer: Untuk umur 19-29 tahun, premium sekitar RM100-RM170 sebulan (RM1,200-RM2,000 setahun) untuk pelan Basic. Umur 30-39 tahun naik ke RM150-RM250 sebulan. 40-49 tahun dalam RM230-RM420 sebulan. 50-59 tahun RM380-RM670 sebulan. Selepas 60 tahun, premium mencecah RM630-RM1,170 sebulan. Harga bergantung pada had tahunan, bilik, dan rider tambahan.
-  - question: Apa beza standalone medical card dengan ILP (Investment-Linked Plan)?
-    answer: Standalone medical card lebih murah dan telus — 100% premium untuk perlindungan perubatan. ILP pula campur insurans dengan pelaburan, tapi 30-50% premium pergi ke komisen agen dan yuran pengurusan dana. Untuk perlindungan perubatan semata-mata, standalone adalah pilihan lebih bijak dan jimat.
-  - question: Apa itu MHIT co-payment 5% dan siapa yang terjejas?
-    answer: MHIT (Medical and Health Insurance/Takaful) co-payment 5% adalah peraturan Bank Negara Malaysia mulai September 2024. Semua polisi baru kena ada minimum 5% co-payment — korang bayar 5% dari setiap bil hospital, insurans bayar 95%. Tapi boleh pilih untuk buang co-payment ni dengan bayar premium ~20% lebih mahal. Polisi sedia ada sebelum September 2024 tidak terjejas.
-  - question: Macam mana nak jimat premium medical card tanpa batalkan polisi?
-    answer: Ada 5 cara: (1) Tambah co-payment/ko-takaful — premium turun 20-30%, (2) Kurangkan rider tambahan seperti hospital cash allowance, (3) Pilih deductible lebih tinggi — contoh tanggung RM500 pertama sendiri, (4) Minta ejen buat review penuh pelan sedia ada, (5) Turunkan pelan ke manfaat lebih rendah. Yang paling penting, jangan batalkan terus — nanti underwriting semula dan pre-existing condition dikecualikan.
-  - question: Adakah medical card layak untuk pelepasan cukai?
-    answer: Ya. Premium medical card untuk diri sendiri layak pelepasan cukai sehingga RM3,000 setahun (gabungan dengan insurans pendidikan). Untuk ibu bapa, ada pelepasan berasingan sehingga RM8,000 setahun bawah perbelanjaan perubatan ibu bapa. Pastikan resit nyata 'Medical Insurance Premium' untuk claim masa e-Filing.
-  - question: Bila waktu terbaik beli medical card? Sebelum umur berapa?
-    answer: Waktu terbaik adalah antara umur 25 hingga 30 tahun — ketika masih muda dan sihat, tiada pre-existing condition. Premium murah (RM100-RM150 sebulan) dan underwriting mudah lulus. Lepas umur 40 tahun, premium mula naik mendadak dan risiko penyakit sedia ada lebih tinggi. Jangan tunggu sampai dah sakit baru nak beli — permohonan mungkin kena tolak atau loading tinggi.
-  - question: Cukup ke medical card standalone atau kena ada insurans hayat juga?
-    answer: Medical card dan insurans hayat adalah dua benda berbeza. Medical card cover bil hospital dan rawatan. Insurans hayat bagi perlindungan kewangan jika korang meninggal dunia atau hilang upaya — keluarga dapat pampasan. Idealnya, ada kedua-duanya: medical card untuk rawatan, dan insurans hayat (term life murah RM50-100 sebulan) untuk lindungi orang tersayang.
+  - question: "Berapa harga medical card Malaysia 2026 ikut umur?"
+    answer: "Untuk umur 19-29 tahun, premium sekitar RM100-RM170 sebulan (RM1,200-RM2,000 setahun) untuk pelan Basic. Umur 30-39 tahun naik ke RM150-RM250 sebulan. 40-49 tahun dalam RM230-RM420 sebulan. 50-59 tahun RM380-RM670 sebulan. Selepas 60 tahun, premium mencecah RM630-RM1,170 sebulan. Harga bergantung pada had tahunan, bilik, dan rider tambahan."
+  - question: "Apa beza standalone medical card dengan ILP (Investment-Linked Plan)?"
+    answer: "Standalone medical card lebih murah dan telus — 100% premium untuk perlindungan perubatan. ILP pula campur insurans dengan pelaburan, tapi 30-50% premium pergi ke komisen agen dan yuran pengurusan dana. Untuk perlindungan perubatan semata-mata, standalone adalah pilihan lebih bijak dan jimat."
+  - question: "Apa itu MHIT co-payment 5% dan siapa yang terjejas?"
+    answer: "MHIT (Medical and Health Insurance/Takaful) co-payment 5% adalah peraturan Bank Negara Malaysia mulai September 2024. Semua polisi baru kena ada minimum 5% co-payment — korang bayar 5% dari setiap bil hospital, insurans bayar 95%. Tapi boleh pilih untuk buang co-payment ni dengan bayar premium ~20% lebih mahal. Polisi sedia ada sebelum September 2024 tidak terjejas."
+  - question: "Macam mana nak jimat premium medical card tanpa batalkan polisi?"
+    answer: "Ada 5 cara: (1) Tambah co-payment/ko-takaful — premium turun 20-30%, (2) Kurangkan rider tambahan seperti hospital cash allowance, (3) Pilih deductible lebih tinggi — contoh tanggung RM500 pertama sendiri, (4) Minta ejen buat review penuh pelan sedia ada, (5) Turunkan pelan ke manfaat lebih rendah. Yang paling penting, jangan batalkan terus — nanti underwriting semula dan pre-existing condition dikecualikan."
+  - question: "Adakah medical card layak untuk pelepasan cukai?"
+    answer: "Ya. Premium medical card untuk diri sendiri layak pelepasan cukai sehingga RM3,000 setahun (gabungan dengan insurans pendidikan). Untuk ibu bapa, ada pelepasan berasingan sehingga RM8,000 setahun bawah perbelanjaan perubatan ibu bapa. Pastikan resit nyata 'Medical Insurance Premium' untuk claim masa e-Filing."
+  - question: "Bila waktu terbaik beli medical card? Sebelum umur berapa?"
+    answer: "Waktu terbaik adalah antara umur 25 hingga 30 tahun — ketika masih muda dan sihat, tiada pre-existing condition. Premium murah (RM100-RM150 sebulan) dan underwriting mudah lulus. Lepas umur 40 tahun, premium mula naik mendadak dan risiko penyakit sedia ada lebih tinggi. Jangan tunggu sampai dah sakit baru nak beli — permohonan mungkin kena tolak atau loading tinggi."
+  - question: "Cukup ke medical card standalone atau kena ada insurans hayat juga?"
+    answer: "Medical card dan insurans hayat adalah dua benda berbeza. Medical card cover bil hospital dan rawatan. Insurans hayat bagi perlindungan kewangan jika korang meninggal dunia atau hilang upaya — keluarga dapat pampasan. Idealnya, ada kedua-duanya: medical card untuk rawatan, dan insurans hayat (term life murah RM50-100 sebulan) untuk lindungi orang tersayang."
 ---
 ## 🏥 Realiti Medical Card 2026 — Premium Naik, Tapi Jangan Cancel!
 
