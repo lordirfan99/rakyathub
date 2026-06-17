@@ -61,7 +61,7 @@ apps:
         index: false
 
     isRelatedPostsEnabled: true
-    relatedPostsCount: 3
+    relatedPostsCount: 4
 
 analytics:
   vendors:
