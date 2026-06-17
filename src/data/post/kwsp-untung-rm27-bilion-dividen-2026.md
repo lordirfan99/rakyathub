@@ -3,7 +3,7 @@ publishDate: 2026-06-05
 title: "KWSP Untung RM27.7 Bilion"
 excerpt: "Pendapatan pelaburan KWSP melonjak 51% ke RM27.73 bilion. Tapi tu jamin dividen tinggi ke? Ini yang korang kena faham sebelum buat kesimpulan."
 category: KWSP
-image: "~/assets/images/hero-kwsp-online.jpg"
+image: "~/assets/images/hero-kwsp-untung.jpg"
 tags:
   - kwsp
   - dividen
