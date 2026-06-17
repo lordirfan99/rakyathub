@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-07
-title: "🔥 Konflik Asia Barat Hari ke-100 — 5 Langkah Lindung Duit"
+title: "Konflik Asia Barat Hari ke-100 — 5 Langkah Lindung Duit"
 excerpt: "Konflik Asia Barat dah 100 hari. Ekonomi Malaysia mula terjejas — harga barang naik, dana asing keluar. Ikuti 5 langkah lindung kewangan anda."
 category: Kewangan
 image: "~/assets/images/hero-ekonomi-global.jpg"

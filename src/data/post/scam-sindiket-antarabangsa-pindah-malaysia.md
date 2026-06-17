@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-05
-title: "🚨 Scam Alert: Sindiket Antarabangsa Dah Pindah Operasi Ke Malaysia!"
+title: "Scam Alert: Sindiket Antarabangsa Dah Pindah Operasi Ke Malaysia!"
 excerpt: "Sindiket scam Myanmar, Thailand & Laos kini beroperasi di Malaysia — 2 lokasi rahsia dah dikesan. Rugi RM2.77 bilion tahun lepas. Ini cara lindung diri."
 category: Kewangan
 image: "~/assets/images/hero-scam-sindiket-antarabangsa.jpg"
@@ -13,8 +13,6 @@ tags:
   - job-scam
 author: RakyatHub
 ---
-
-# 🚨 Scam Alert: Sindiket Antarabangsa Dah Pindah Operasi Ke Malaysia!
 
 Korang ingat sindiket scam ni duduk kat Myanmar, Thailand, Laos je? Sekarang mereka dah berpindah — ke Malaysia.
 

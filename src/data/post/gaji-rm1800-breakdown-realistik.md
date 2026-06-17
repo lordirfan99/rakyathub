@@ -14,8 +14,6 @@ tags:
 author: RakyatHub
 ---
 
-# 💰 Gaji RM1,800 Sebulan — Macam Mana Nak Hidup & Jimat Duit?
-
 Baru dapat offer pertama **RM1,800**? Rasa macam enough — tapi lepas tolak EPF, sewa, dan bill, tinggal berapa? Jom kita kira realistik.
 
 ---

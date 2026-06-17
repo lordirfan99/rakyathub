@@ -15,8 +15,6 @@ tags:
 author: RakyatHub
 ---
 
-# 💰 KWSP vs ASB vs Tabung Haji — Mana Paling Untung Untuk Korang?
-
 Ramai orang Malaysia simpan duit dekat **KWSP, ASB, dan Tabung Haji** — tapi korang tahu tak yang setiap satu ada kelebihan dan kekurangan tersendiri?
 
 Kami kirakan perbezaan pulangan, risiko, dan strategi terbaik berdasarkan **umur dan gaji** korang.

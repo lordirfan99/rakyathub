@@ -1,6 +1,6 @@
 ---
 publishDate: 2025-07-21
-title: '📊 Strategi DCA vs Lump Sum: Pilihan Pelaburan Bijak untuk Orang Muda'
+title: 'Strategi DCA vs Lump Sum: Pilihan Pelaburan Bijak untuk Orang Muda'
 excerpt: "Bandingkan strategi DCA vs Lump Sum untuk orang muda Malaysia. Ketahui pulangan, risiko, dan cara optimum melabur ikut situasi kewangan anda."
 category: KWSP
 image: "~/assets/images/hero-dca-vs-lumpsum.jpg"

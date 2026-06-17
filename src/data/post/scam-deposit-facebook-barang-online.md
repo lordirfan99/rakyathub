@@ -14,8 +14,6 @@ tags:
 author: RakyatHub
 ---
 
-# 🚨 SCAM ALERT: Deposit RM50 Lesap! Ubai Pun Kena Scam Facebook
-
 Korang ingat **scam deposit barang online** hanya terjadi pada orang yang tak biasa beli online? Fikir lagi.
 
 **Semalam (8 Jun 2026), Ubai — suami kepada penyanyi Shila Amzah — sendiri kena.** Rugi RM50 selepas transfer deposit untuk beli alat ganti kereta dalam grup Facebook. Lepas bayar, penjual terus senyap.

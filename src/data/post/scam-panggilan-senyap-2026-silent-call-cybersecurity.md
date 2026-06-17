@@ -16,8 +16,6 @@ tags:
 author: RakyatHub
 ---
 
-# 🚨 SCAM ALERT: 'Panggilan Senyap' — Telefon Berdering Tapi Takde Suara? Jangan Angkat!
-
 📰 **Apa Yang Berlaku:**
 
 CyberSecurity Malaysia (CSM) baru-baru ini mendedahkan taktik terbaru sindiket scam yang digelar **'Panggilan Senyap'** atau *Silent Call*. Korang pernah dapat missed call dari nombor asing, lepas tu jawab tapi dengar senyap je? Tu sebenarnya bukan kesilapan teknikal — **ia adalah langkah pertama dalam operasi penipuan berperingkat.**

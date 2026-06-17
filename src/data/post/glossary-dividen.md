@@ -13,8 +13,6 @@ tags:
 author: RakyatHub
 ---
 
-# 📖 Glossary: Apa Itu Dividen?
-
 Korang ada simpanan ASB ke? KWSP? Pernah tengok penyata setiap tahun dapat **"dividen"** tapi taktau apa maksud sebenarnya? Macam mana RM10,000 boleh jadi RM10,500 tanpa korang buat apa-apa?
 
 Tu dia — **dividen**. Duit free yang keluar dari duit korang sendiri.
