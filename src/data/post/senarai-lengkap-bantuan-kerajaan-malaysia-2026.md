@@ -3,7 +3,7 @@ publishDate: 2026-06-18 08:00:00
 title: "Senarai Lengkap Bantuan Kerajaan 2026"
 excerpt: "Panduan lengkap semua bantuan kerajaan Malaysia 2026 — STR, SARA, eKasih, Bantuan JKM, bantuan pendidikan & negeri. Semak kelayakan dan cara mohon."
 category: Kerajaan
-image: "~/assets/images/hero-senarai-lengkap-bantuan-kerajaan-malaysia-2026.jpg"
+# image: "~/assets/images/hero-senarai-lengkap-bantuan-kerajaan-malaysia-2026.jpg" — REMOVED (duplicate of hero-kerja-kerajaan-vs-swasta-2026-mana-lebih-bagus.jpg)
 tags:
   - bantuan-kerajaan
   - str

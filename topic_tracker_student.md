@@ -27,3 +27,4 @@
 | — | Budget bulanan student universiti — breakdown realistik | ✅ | 2026-06-16 | budget-bulanan-student-universiti |
 | — | Bina personal branding dari universiti — panduan lengkap | ✅ | 2026-06-16 | bina-personal-branding-dari-universiti |
 | 25 | Cara buat nota ringkas dan efektif student | ✅ | 2026-06-17 | cara-buat-nota-ringkas-dan-efektif-student |
+| 26 | Tips menulis assignment universiti yang dapat A | ✅ | 2026-06-18 | tips-menulis-assignment-universiti-markah-tinggi |
