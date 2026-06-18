@@ -1,0 +1,121 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+export function getStaticPaths() {
+  // All data entirely inside getStaticPaths scope
+  const sectors = {
+    mining: { label: 'Perlombongan & Pengkuarian', median: 4450, mean: 5000 },
+    finance: { label: 'Kewangan & Insurans', median: 4483, mean: 5500 },
+    ict: { label: 'Maklumat & Komunikasi', median: 4231, mean: 5200 },
+    real_estate: { label: 'Hartanah', median: 4698, mean: 5500 },
+    transport: { label: 'Pengangkutan', median: 3752, mean: 4200 },
+    education: { label: 'Pendidikan', median: 3677, mean: 4200 },
+    health: { label: 'Kesihatan', median: 3610, mean: 4000 },
+    manufacturing: { label: 'Pembuatan', median: 2490, mean: 3100 },
+    retail: { label: 'Perdagangan & Runcit', median: 2490, mean: 2900 },
+    construction: { label: 'Pembinaan', median: 2051, mean: 2600 },
+    accommodation: { label: 'Penginapan & Makanan', median: 1947, mean: 2300 },
+    admin_support: { label: 'Sokongan Pentadbiran', median: 1912, mean: 2200 },
+    agriculture: { label: 'Pertanian', median: 1698, mean: 2100 },
+  };
+
+  const occs = {
+    managers: { label: 'Pengurus', median: 5990, mean: 7121 },
+    professionals: { label: 'Profesional', median: 5821, mean: 6524 },
+    technicians: { label: 'Juruteknik', median: 3541, mean: 4077 },
+    clerical: { label: 'Perkeranian', median: 2550, mean: 2931 },
+    service_sales: { label: 'Perkhidmatan & Jualan', median: 2400, mean: 2561 },
+    agriculture_skilled: { label: 'Pertanian Mahir', median: 1762, mean: 2460 },
+    craft_trades: { label: 'Kraftangan', median: 1959, mean: 2510 },
+    plant_machine: { label: 'Operator Loji', median: 1947, mean: 2404 },
+    elementary: { label: 'Pekerjaan Asas', median: 1654, mean: 2128 },
+  };
+
+  const stateLabels = {
+    selangor: 'Selangor', wp_kl: 'Kuala Lumpur', pulau_pinang: 'Pulau Pinang',
+    wp_putrajaya: 'Putrajaya', wp_labuan: 'Labuan', johor: 'Johor',
+    kedah: 'Kedah', kelantan: 'Kelantan', melaka: 'Melaka',
+    n9: 'Negeri Sembilan', pahang: 'Pahang', perak: 'Perak',
+    perlis: 'Perlis', sabah: 'Sabah', sarawak: 'Sarawak', terengganu: 'Terengganu',
+  };
+
+  const paths = [];
+  for (const [sid, slabel] of Object.entries(stateLabels)) {
+    for (const [secid, sec] of Object.entries(sectors)) {
+      paths.push({ params: { state: sid, sector: secid }, props: { slabel, label: sec.label, median: sec.median, mean: sec.mean, type: 'sektor' } });
+    }
+    for (const [oid, occ] of Object.entries(occs)) {
+      paths.push({ params: { state: sid, sector: oid }, props: { slabel, label: occ.label, median: occ.median, mean: occ.mean, type: 'pekerjaan' } });
+    }
+  }
+  return paths;
+}
+
+const { slabel, label, median, mean, type } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<Layout metadata={{ title: `Gaji ${label} di ${slabel} ${year}`, description: `Gaji median pekerja ${type} ${label} di ${slabel} adalah RM${median.toLocaleString()}/bulan. Data DOSM 2024.` }}>
+  <section class="max-w-3xl mx-auto px-4 sm:px-6 py-8 md:py-12">
+    <div class="flex items-center gap-2 text-xs text-muted/60 mb-1">
+      <a href="/" class="hover:text-primary">Utama</a>
+      <span>/</span>
+      <a href="/reality-check/" class="hover:text-primary">Reality Check</a>
+      <span>/</span>
+      <span>{slabel} — {label}</span>
+    </div>
+
+    <h1 class="text-2xl sm:text-4xl font-bold tracking-tight mb-3">Gaji {label} di {slabel}</h1>
+    <p class="text-sm text-muted/80 max-w-2xl mb-6">
+      Data gaji untuk {type} <strong>{label}</strong> di <strong>{slabel}</strong>. Sumber: DOSM Salaries & Wages Survey 2024.
+    </p>
+
+    <div class="grid grid-cols-3 gap-3 mb-6">
+      <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800/30 p-4 text-center">
+        <p class="text-[10px] text-blue-600 dark:text-blue-400 font-semibold uppercase">Gaji Median</p>
+        <p class="text-xl font-bold text-blue-700 dark:text-blue-300 tab-num">RM{median.toLocaleString()}</p>
+      </div>
+      <div class="rounded-xl bg-green-50 dark:bg-green-900/20 border border-green-100 dark:border-green-800/30 p-4 text-center">
+        <p class="text-[10px] text-green-600 dark:text-green-400 font-semibold uppercase">Purata</p>
+        <p class="text-xl font-bold text-green-700 dark:text-green-300 tab-num">RM{mean?.toLocaleString() || median.toLocaleString()}</p>
+      </div>
+      <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-100 dark:border-amber-800/30 p-4 text-center">
+        <p class="text-[10px] text-amber-600 dark:text-amber-400 font-semibold uppercase">Gaji Minimum</p>
+        <p class="text-xl font-bold text-amber-700 dark:text-amber-300 tab-num">RM1,700</p>
+      </div>
+    </div>
+
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-4 sm:p-6 mb-6">
+      <h2 class="text-base font-bold mb-3">Banding Gaji Anda</h2>
+      <p class="text-xs text-muted/70 mb-4">Masukkan gaji bulanan untuk lihat kedudukan.</p>
+      <div class="flex gap-3">
+        <input type="number" id="cmpIn" placeholder="Gaji (RM)" class="flex-1 rounded-xl border px-4 py-3 text-sm bg-white dark:bg-slate-800/60 focus:border-primary outline-none transition tab-num" />
+        <button onclick="cmp({median},'{label}')" class="px-5 py-3 rounded-xl bg-primary hover:bg-primary/90 text-white font-bold text-sm shrink-0">Banding</button>
+      </div>
+      <div id="cmpOut" class="mt-4 hidden"></div>
+    </div>
+
+    <div class="text-center py-4">
+      <a href="/reality-check/" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-primary hover:bg-primary/90 text-white font-bold text-sm transition-all">
+        Reality Check Penuh →
+      </a>
+    </div>
+  </section>
+
+  <script is:inline>
+  function cmp(median, label) {
+    const input = document.getElementById('cmpIn');
+    const salary = parseFloat(input.value);
+    const out = document.getElementById('cmpOut');
+    if (!salary || salary <= 0) return;
+    out.classList.remove('hidden');
+    const pct = Math.min((salary / median) * 100, 100);
+    const above = salary >= median;
+    out.innerHTML = '<div class="rounded-xl bg-gray-50 dark:bg-slate-800/40 border p-4">' +
+      '<div class="flex justify-between items-baseline mb-2"><span class="font-semibold text-sm">Gaji anda</span><span class="font-bold text-lg tab-num">RM ' + salary.toLocaleString() + '</span></div>' +
+      '<div class="w-full bg-gray-200 dark:bg-slate-700 rounded-full h-2.5 mb-2"><div class="' + (above ? 'bg-primary' : 'bg-amber-500') + ' h-2.5 rounded-full" style="width:' + pct + '%"></div></div>' +
+      (above ? '<p class="text-green-600 text-sm font-semibold">✅ Anda di atas median gaji untuk ' + label + '.</p>' : '<p class="text-amber-600 text-sm font-semibold">⚠️ ' + Math.round(100 - pct) + '% pekerja ' + label + ' bergaji lebih tinggi.</p>') +
+      '</div>';
+  }
+  </script>
+</Layout>

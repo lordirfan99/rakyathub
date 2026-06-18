@@ -1,0 +1,380 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import { SITE } from 'astrowind:config';
+
+const reality = (await import('~/data/reality-matrix.json')).default;
+const incomeData = (await import('~/data/income-data.json')).default;
+const cpiData = (await import('~/data/cpi.json')).default;
+
+const nationalMedian = reality.median_national;
+const nationalMean = reality.mean_national;
+const minWage = reality.min_wage;
+
+// Merge DOSM household income by state into reality data for states missing wage data
+const stateKeys = Object.keys(reality.states);
+const incomeStates = incomeData.states || {};
+
+// CPI purchasing power
+const cpiLatest = cpiData.latest_cpi || 136.9;
+const rm100Value = (100 / cpiLatest * 100).toFixed(1);
+
+const year = new Date().getFullYear();
+
+const metadata = {
+  title: `Reality Check Gaji Malaysia ${year} — Adakah Gaji Anda Mencukupi?`,
+  description: `Masukkan gaji anda, negeri dan sektor untuk tahu kedudukan sebenar — berbanding purata, gaji ikut sektor dan kuasa beli.`,
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Laman Utama', item: 'https://rakyathub.my/' },
+    { '@type': 'ListItem', position: 2, name: 'Reality Check Gaji', item: 'https://rakyathub.my/reality-check/' },
+  ],
+};
+
+// Skip getStaticPaths here — done in dynamic route pages
+---
+
+<Layout metadata={metadata}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <style is:global>
+    .tab-num { font-variant-numeric: tabular-nums; }
+    @keyframes pulse-dot { 0%,100%{opacity:1} 50%{opacity:0.3} }
+    .live-dot { animation: pulse-dot 2s ease-in-out infinite; }
+    .result-card { transition: all 0.3s ease; }
+  </style>
+
+  <section class="max-w-3xl mx-auto px-4 sm:px-6 py-8 md:py-12">
+    <!-- Breadcrumb -->
+    <div class="flex items-center gap-2 text-xs text-muted/60 mb-1">
+      <a href="/" class="hover:text-primary">Laman Utama</a> <span>/</span> <span>Reality Check Gaji</span>
+    </div>
+    <h1 class="text-2xl sm:text-4xl font-bold tracking-tight mb-2">Adakah Gaji Anda Mencukupi?</h1>
+    <p class="text-sm text-muted/80 max-w-2xl mb-6">
+      Realiti gaji di Malaysia — banding gaji anda dengan pekerja lain ikut sektor, negeri dan pekerjaan. Data DOSM 2024.
+    </p>
+
+    <!-- Live indicator -->
+    <div class="rounded-xl px-4 py-2.5 mb-6 border border-gray-100 dark:border-slate-800 bg-gray-50/80 dark:bg-slate-900/60 flex items-center gap-2 text-xs">
+      <span class="live-dot w-2 h-2 rounded-full bg-green-500 inline-block"></span>
+      <span class="font-medium">Data DOSM 2024</span>
+      <span class="text-muted/50">—</span>
+      <span class="text-muted/70">Gaji Median Nasional <strong>RM{nationalMedian.toLocaleString()}</strong></span>
+    </div>
+
+    <!-- Input Form -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-4 sm:p-6 mb-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+        <div>
+          <label class="block text-xs font-semibold text-muted mb-1.5">Gaji Bulanan (RM)</label>
+          <input type="number" id="salaryInput" placeholder="cth: 3500" min="0" step="100" value="" class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800/60 px-4 py-3 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition tab-num" />
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-muted mb-1.5">Negeri</label>
+          <select id="stateSelect" class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800/60 px-4 py-3 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="">— Pilih —</option>
+            {incomeData.states && Object.entries(incomeData.states).sort((a,b) => b[1].income_mean - a[1].income_mean).map(([state, data]) => {
+              const stateKey = state.toLowerCase().replace(/[^a-z]/g, '_');
+              return <option value={stateKey}>{state} (RM {data.income_mean.toLocaleString()})</option>
+            })}
+          </select>
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-muted mb-1.5">Sektor Industri</label>
+          <select id="sectorSelect" class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800/60 px-4 py-3 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="">— Pilih —</option>
+            {Object.entries(reality.sectors).sort((a,b) => b[1].median - a[1].median).map(([key, s]) => (
+              <option value={key}>{s.label} (RM {s.median.toLocaleString()})</option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-muted mb-1.5">Kategori Pekerjaan</label>
+          <select id="occSelect" class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800/60 px-4 py-3 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="">— Pilih —</option>
+            {Object.entries(reality.occupations).sort((a,b) => b[1].median - a[1].median).map(([key, o]) => (
+              <option value={key}>{o.label} (RM {o.median.toLocaleString()})</option>
+            ))}
+          </select>
+        </div>
+      </div>
+      <button onclick="checkReality()" class="w-full py-3.5 rounded-xl bg-primary hover:bg-primary/90 text-white font-bold text-sm transition-all active:scale-[0.98]">
+        ✓ Check Reality
+      </button>
+    </div>
+
+    <!-- Results -->
+    <div id="results" class="hidden space-y-4">
+      <!-- State Comparison -->
+      <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm overflow-hidden">
+        <div class="p-4 sm:p-6">
+          <h2 class="text-base font-bold mb-3 flex items-center gap-2">📍 Banding Ikut Negeri</h2>
+          <div id="stateResult" class="text-sm text-muted">Pilih negeri untuk lihat perbandingan.</div>
+        </div>
+      </div>
+
+      <!-- Sector Comparison -->
+      <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm overflow-hidden">
+        <div class="p-4 sm:p-6">
+          <h2 class="text-base font-bold mb-3 flex items-center gap-2">🏭 Banding Ikut Sektor</h2>
+          <div id="sectorResult" class="text-sm text-muted">Pilih sektor untuk lihat perbandingan.</div>
+        </div>
+      </div>
+
+      <!-- Occupation Comparison -->
+      <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm overflow-hidden">
+        <div class="p-4 sm:p-6">
+          <h2 class="text-base font-bold mb-3 flex items-center gap-2">👔 Banding Ikut Pekerjaan</h2>
+          <div id="occResult" class="text-sm text-muted">Pilih pekerjaan untuk lihat perbandingan.</div>
+        </div>
+      </div>
+
+      <!-- Purchasing Power -->
+      <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm overflow-hidden">
+        <div class="p-4 sm:p-6">
+          <h2 class="text-base font-bold mb-3 flex items-center gap-2">📉 Kuasa Beli</h2>
+          <div id="ppResult" class="text-sm text-muted"></div>
+        </div>
+      </div>
+
+      <!-- Share -->
+      <div class="flex justify-center gap-3 pt-2">
+        <button onclick="shareResult()" class="px-5 py-2.5 rounded-xl bg-gray-100 dark:bg-slate-800 hover:bg-gray-200 dark:hover:bg-slate-700 text-sm font-semibold transition-all flex items-center gap-2">
+          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z"/></svg>
+          Kongsi
+        </button>
+        <a href="https://wa.me/?text=Check+gaji+korang+dekat+sini" target="_blank" class="px-5 py-2.5 rounded-xl bg-green-50 dark:bg-green-900/20 hover:bg-green-100 dark:hover:bg-green-900/40 text-green-700 dark:text-green-400 text-sm font-semibold transition-all flex items-center gap-2">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="rounded-xl bg-gray-50 dark:bg-slate-800/40 border border-gray-100 dark:border-slate-700/30 p-4 mt-6 text-xs text-muted/70">
+      <p><strong>Sumber:</strong> DOSM Salaries & Wages Survey Report 2024, DOSM OpenDOSM (Household Income), DOSM CPI. Gaji sebenar mungkin berbeza mengikut pengalaman, kelayakan dan syarikat.</p>
+    </div>
+  </section>
+
+  <script is:inline>
+  // Data from build time
+  const realityData = {set:html={JSON.stringify(reality)} };
+  const incomeData2 = {set:html={JSON.stringify(incomeData)} };
+  const cpiLatest2 = {cpiLatest};
+
+  // State key mapping
+  const stateKeyMap = {
+    "wp_putrajaya": "W.P. Putrajaya", "wp_kl": "W.P. Kuala Lumpur", "selangor": "Selangor",
+    "pulau_pinang": "Pulau Pinang", "wp_labuan": "W.P. Labuan", "johor": "Johor",
+    "kedah": "Kedah", "kelantan": "Kelantan", "melaka": "Melaka",
+    "n9": "Negeri Sembilan", "n_sembilan": "Negeri Sembilan", "negeri_sembilan": "Negeri Sembilan",
+    "pahang": "Pahang", "perak": "Perak", "perlis": "Perlis",
+    "sabah": "Sabah", "sarawak": "Sarawak", "terengganu": "Terengganu"
+  };
+
+  function getStateLabel(key) {
+    return stateKeyMap[key] || key.replace(/_/g, ' ').replace(/\w\S*/g, w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase());
+  }
+
+  function checkReality() {
+    const salary = parseFloat(document.getElementById('salaryInput').value);
+    const stateKey = document.getElementById('stateSelect').value;
+    const sectorKey = document.getElementById('sectorSelect').value;
+    const occKey = document.getElementById('occSelect').value;
+    const results = document.getElementById('results');
+
+    if (!salary || salary <= 0) { alert('Masukkan gaji anda.'); return; }
+
+    results.classList.remove('hidden');
+
+    // ── State comparison ──
+    const stateDiv = document.getElementById('stateResult');
+    if (stateKey && incomeData2.states) {
+      const stateName = getStateLabel(stateKey);
+      // Find matching state in incomeData
+      const match = Object.entries(incomeData2.states).find(([k]) => 
+        k.toLowerCase().replace(/[^a-z]/g, '_') === stateKey || 
+        k.toLowerCase().includes(stateKey.replace('wp_', '').replace('n9', 'n_sembilan'))
+      );
+      if (match) {
+        const [fullName, stateData] = match;
+        const stateMean = stateData.income_mean;
+        const ratio = ((salary / stateMean) * 100).toFixed(1);
+        const percentAbove = salary > stateMean ? ((salary / stateMean - 1) * 100).toFixed(1) : null;
+        const percentBelow = salary < stateMean ? ((1 - salary / stateMean) * 100).toFixed(1) : null;
+        
+        let verdict = '';
+        if (salary >= stateMean * 1.5) verdict = '✅ Anda dalam golongan atasan di negeri ini.';
+        else if (salary >= stateMean) verdict = '👍 Anda di atas purata pendapatan isi rumah negeri ini.';
+        else if (salary >= stateMean * 0.7) verdict = '📊 Anda dalam lingkungan sederhana — setanding purata isi rumah.';
+        else verdict = '⚠️ Gaji anda di bawah purata pendapatan isi rumah negeri ini.';
+
+        stateDiv.innerHTML = `
+          <div class="flex items-center gap-3 mb-3">
+            <span class="text-2xl">📍</span>
+            <div>
+              <p class="font-bold text-gray-900 dark:text-gray-100">${fullName}</p>
+              <p class="text-xs text-muted/70">Purata pendapatan isi rumah: RM ${stateMean.toLocaleString()}/bulan</p>
+            </div>
+          </div>
+          <div class="bg-gray-50 dark:bg-slate-800/40 rounded-xl p-4">
+            <div class="flex justify-between items-baseline mb-1">
+              <span class="font-semibold">Gaji anda</span>
+              <span class="font-bold text-lg tab-num">RM ${salary.toLocaleString()}</span>
+            </div>
+            <div class="w-full bg-gray-200 dark:bg-slate-700 rounded-full h-2.5 mb-2">
+              <div class="bg-primary h-2.5 rounded-full" style="width:${Math.min(ratio, 100)}%"></div>
+            </div>
+            <div class="flex justify-between text-xs text-muted/60 mb-3">
+              <span>RM 0</span>
+              <span class="font-semibold text-primary">${ratio}%</span>
+              <span>RM ${(stateMean * 1.5).toLocaleString()}</span>
+            </div>
+            ${percentAbove ? `<p class="text-green-600 dark:text-green-400 text-sm font-semibold">▲ ${percentAbove}% lebih tinggi dari purata ${fullName}</p>` : ''}
+            ${percentBelow ? `<p class="text-amber-600 dark:text-amber-400 text-sm font-semibold">▼ ${percentBelow}% lebih rendah dari purata ${fullName}</p>` : ''}
+            <p class="text-xs text-muted/70 mt-2">${verdict}</p>
+          </div>
+        `;
+      } else {
+        stateDiv.innerHTML = '<p class="text-muted/60">Data negeri tidak tersedia.</p>';
+      }
+    } else {
+      stateDiv.innerHTML = '<p class="text-muted/60">Pilih negeri untuk lihat perbandingan.</p>';
+    }
+
+    // ── Sector comparison ──
+    const sectorDiv = document.getElementById('sectorResult');
+    if (sectorKey && realityData.sectors && realityData.sectors[sectorKey]) {
+      const s = realityData.sectors[sectorKey];
+      const ratioS = ((salary / s.median) * 100).toFixed(1);
+      const isAbove = salary >= s.median;
+
+      sectorDiv.innerHTML = `
+        <div class="flex items-center gap-3 mb-3">
+          <span class="text-2xl">🏭</span>
+          <div>
+            <p class="font-bold text-gray-900 dark:text-gray-100">${s.label}</p>
+            <p class="text-xs text-muted/70">Gaji median: RM ${s.median.toLocaleString()}/bulan | YoY: +${s.yoy}%</p>
+          </div>
+        </div>
+        <div class="bg-gray-50 dark:bg-slate-800/40 rounded-xl p-4">
+          <div class="flex justify-between items-baseline mb-1">
+            <span class="font-semibold">Gaji anda</span>
+            <span class="font-bold text-lg tab-num">RM ${salary.toLocaleString()}</span>
+          </div>
+          <div class="w-full bg-gray-200 dark:bg-slate-700 rounded-full h-2.5 mb-2">
+            <div class="${isAbove ? 'bg-green-500' : 'bg-amber-500'} h-2.5 rounded-full" style="width:${Math.min(ratioS, 100)}%"></div>
+          </div>
+          <div class="flex justify-between text-xs text-muted/60 mb-3">
+            <span>RM 0</span>
+            <span class="font-semibold ${isAbove ? 'text-green-600' : 'text-amber-600'}">${ratioS}%</span>
+            <span>RM ${(s.median * 1.5).toLocaleString()}</span>
+          </div>
+          ${isAbove 
+            ? `<p class="text-green-600 dark:text-green-400 text-sm font-semibold">✅ Anda dalam ${Math.round(salary / s.median * 10) / 10}x ganda median sektor ${s.label}.</p>`
+            : `<p class="text-amber-600 dark:text-amber-400 text-sm font-semibold">⚠️ Gaji anda ${((1 - salary / s.median) * 100).toFixed(1)}% di bawah median sektor ${s.label}.</p>`
+          }
+          ${s.yoy > 0 ? `<p class="text-xs text-muted/60 mt-2">Sektor ini berkembang ${s.yoy}% setahun.</p>` : ''}
+        </div>
+      `;
+    } else {
+      sectorDiv.innerHTML = '<p class="text-muted/60">Pilih sektor untuk lihat perbandingan.</p>';
+    }
+
+    // ── Occupation comparison ──
+    const occDiv = document.getElementById('occResult');
+    if (occKey && realityData.occupations && realityData.occupations[occKey]) {
+      const o = realityData.occupations[occKey];
+      const ratioO = ((salary / o.median) * 100).toFixed(1);
+      const isAboveOcc = salary >= o.median;
+      const isManagerial = o.median >= 5000;
+
+      let occInsight = '';
+      if (salary >= o.mean) occInsight = 'Anda dalam lingkungan gaji tertinggi untuk kategori ini.';
+      else if (salary >= o.median) occInsight = 'Anda di atas median untuk kategori pekerjaan ini.';
+      else occInsight = 'Gaji anda di bawah median untuk kategori pekerjaan ini.';
+
+      occDiv.innerHTML = `
+        <div class="flex items-center gap-3 mb-3">
+          <span class="text-2xl">👔</span>
+          <div>
+            <p class="font-bold text-gray-900 dark:text-gray-100">${o.label}</p>
+            <p class="text-xs text-muted/70">Median: RM ${o.median.toLocaleString()} | Purata: RM ${o.mean.toLocaleString()}</p>
+          </div>
+        </div>
+        <div class="bg-gray-50 dark:bg-slate-800/40 rounded-xl p-4">
+          <div class="grid grid-cols-3 gap-3 text-center mb-3">
+            <div class="rounded-lg bg-gray-100 dark:bg-slate-700/50 p-2">
+              <p class="text-[10px] text-muted/60">Bottom 10%</p>
+              <p class="font-bold tab-num">RM ${Math.round(o.median * 0.4).toLocaleString()}</p>
+            </div>
+            <div class="rounded-lg bg-primary/10 p-2">
+              <p class="text-[10px] text-muted/60">Median</p>
+              <p class="font-bold tab-num text-primary">RM ${o.median.toLocaleString()}</p>
+            </div>
+            <div class="rounded-lg bg-gray-100 dark:bg-slate-700/50 p-2">
+              <p class="text-[10px] text-muted/60">Top 10%</p>
+              <p class="font-bold tab-num">RM ${Math.round(o.mean * 1.3).toLocaleString()}</p>
+            </div>
+          </div>
+          ${isAboveOcc
+            ? `<p class="text-green-600 dark:text-green-400 text-sm font-semibold">✅ Anda mengatasi ${Math.round(ratioO)}% pekerja dalam kategori ini.</p>`
+            : `<p class="text-amber-600 dark:text-amber-400 text-sm font-semibold">⚠️ ${Math.round(100 - ratioO)}% pekerja dalam kategori ini bergaji lebih tinggi.</p>`
+          }
+          <p class="text-xs text-muted/60 mt-1">${occInsight}</p>
+        </div>
+      `;
+    } else {
+      occDiv.innerHTML = '<p class="text-muted/60">Pilih pekerjaan untuk lihat perbandingan.</p>';
+    }
+
+    // ── Purchasing Power ──
+    const ppDiv = document.getElementById('ppResult');
+    const realValue = (salary / ${cpiLatest} * 100).toFixed(0);
+    const taxEst = salary > 5000 ? Math.round(salary * 0.06) : salary > 3000 ? Math.round(salary * 0.03) : 0;
+    const epfEst = Math.round(salary * 0.11);
+    const socsoEst = salary > 5000 ? 70 : Math.round(salary * 0.005);
+    const takeHome = salary - taxEst - epfEst - socsoEst;
+    const rentEst = salary > 5000 ? Math.round(salary * 0.3) : Math.round(salary * 0.35);
+
+    ppDiv.innerHTML = `
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-100 dark:border-amber-800/30 p-3 text-center">
+          <p class="text-[10px] text-amber-600 dark:text-amber-400 font-semibold uppercase">Nilai Sebenar</p>
+          <p class="text-lg font-bold tab-num text-amber-700 dark:text-amber-300">RM ${realValue}</p>
+          <p class="text-[10px] text-muted/60">Kuasa beli sebenar</p>
+        </div>
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800/30 p-3 text-center">
+          <p class="text-[10px] text-blue-600 dark:text-blue-400 font-semibold uppercase">Anggaran Potongan</p>
+          <p class="text-lg font-bold tab-num text-blue-700 dark:text-blue-300">-RM ${(taxEst + epfEst + socsoEst).toLocaleString()}</p>
+          <p class="text-[10px] text-muted/60">EPF+SOCSO+PCB</p>
+        </div>
+        <div class="rounded-xl bg-green-50 dark:bg-green-900/20 border border-green-100 dark:border-green-800/30 p-3 text-center">
+          <p class="text-[10px] text-green-600 dark:text-green-400 font-semibold uppercase">Bawa Pulang</p>
+          <p class="text-lg font-bold tab-num text-green-700 dark:text-green-300">RM ${takeHome.toLocaleString()}</p>
+          <p class="text-[10px] text-muted/60">Anggaran bersih</p>
+        </div>
+        <div class="rounded-xl bg-purple-50 dark:bg-purple-900/20 border border-purple-100 dark:border-purple-800/30 p-3 text-center">
+          <p class="text-[10px] text-purple-600 dark:text-purple-400 font-semibold uppercase">Anggaran Sewa</p>
+          <p class="text-lg font-bold tab-num text-purple-700 dark:text-purple-300">RM ${rentEst.toLocaleString()}</p>
+          <p class="text-[10px] text-muted/60">30-35% gaji</p>
+        </div>
+      </div>
+      <p class="text-xs text-muted/60">Nilai sebenar gaji RM${salary.toLocaleString()} selepas inflasi adalah RM${realValue}. RM100 pada 2010 kini hanya bernilai RM${${rm100Value}}.</p>
+    `;
+  }
+
+  function shareResult() {
+    const salary = document.getElementById('salaryInput').value || '___';
+    const text = 'Check gaji korang dekat RakyatHub Reality Check!\ngaji saya RM' + salary + '/month\nhttps://rakyathub.my/reality-check/';
+    if (navigator.share) {
+      navigator.share({ title: 'Reality Check Gaji Malaysia', text: text, url: 'https://rakyathub.my/reality-check/' });
+    } else {
+      window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
+    }
+  }
+  </script>
+</Layout>

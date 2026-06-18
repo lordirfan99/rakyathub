@@ -1,0 +1,47 @@
+{
+  "source": "DOSM Salaries & Wages Survey Report 2024",
+  "source_url": "https://storage.dosm.gov.my/labour/salaries_wages_2024.pdf",
+  "last_updated": "2026-06-18",
+  "median_national": 2793,
+  "mean_national": 3652,
+  "min_wage": 1700,
+  "occupations": {
+    "managers": { "label": "Pengurus (Managers)", "median": 5990, "mean": 7121 },
+    "professionals": { "label": "Profesional", "median": 5821, "mean": 6524 },
+    "technicians": { "label": "Juruteknik & Profesional Bersekutu", "median": 3541, "mean": 4077 },
+    "clerical": { "label": "Sokongan Perkeranian", "median": 2550, "mean": 2931 },
+    "service_sales": { "label": "Perkhidmatan & Jualan", "median": 2400, "mean": 2561 },
+    "agriculture_skilled": { "label": "Pertanian Mahir", "median": 1762, "mean": 2460 },
+    "craft_trades": { "label": "Kraftangan & Perdagangan", "median": 1959, "mean": 2510 },
+    "plant_machine": { "label": "Operator Loji & Mesin", "median": 1947, "mean": 2404 },
+    "elementary": { "label": "Pekerjaan Asas", "median": 1654, "mean": 2128 }
+  },
+  "sectors": {
+    "mining": { "label": "Perlombongan & Pengkuarian", "median": 4450, "yoy": 3.6 },
+    "finance": { "label": "Kewangan & Insurans", "median": 4483, "yoy": 4.6 },
+    "ict": { "label": "Maklumat & Komunikasi", "median": 4231, "yoy": 1.9 },
+    "real_estate": { "label": "Hartanah", "median": 4698, "yoy": 2.9 },
+    "transport": { "label": "Pengangkutan & Penyimpanan", "median": 3752, "yoy": 4.6 },
+    "education": { "label": "Pendidikan", "median": 3677, "yoy": 9.2 },
+    "health": { "label": "Kesihatan & Sosial", "median": 3610, "yoy": 5.8 },
+    "manufacturing": { "label": "Pembuatan", "median": 2490, "yoy": 5.5 },
+    "retail": { "label": "Perdagangan Borong & Runcit", "median": 2490, "yoy": 5.5 },
+    "construction": { "label": "Pembinaan", "median": 2051, "yoy": 0.3 },
+    "accommodation": { "label": "Penginapan & Makanan", "median": 1947, "yoy": 8.1 },
+    "admin_support": { "label": "Sokongan Pentadbiran", "median": 1912, "yoy": 6.6 },
+    "agriculture": { "label": "Pertanian", "median": 1698, "yoy": 6.6 }
+  },
+  "states": {
+    "wp_putrajaya": { "label": "W.P. Putrajaya", "mean_wage": 5091 },
+    "wp_kl": { "label": "W.P. Kuala Lumpur", "mean_wage": 4782 },
+    "selangor": { "label": "Selangor", "mean_wage": 4052 },
+    "pulau_pinang": { "label": "Pulau Pinang", "mean_wage": 3934 },
+    "wp_labuan": { "label": "W.P. Labuan", "mean_wage": 3812 }
+  },
+  "education": {
+    "no_formal": { "label": "Tiada Pendidikan Formal", "median": 1559, "mean": 1900 },
+    "primary": { "label": "Pendidikan Rendah", "median": 1644, "mean": 2128 },
+    "secondary": { "label": "Pendidikan Menengah", "median": 2046, "mean": 2684 },
+    "tertiary": { "label": "Tertiary (Diploma/Degree+)", "median": 4131, "mean": 4962 }
+  }
+}
