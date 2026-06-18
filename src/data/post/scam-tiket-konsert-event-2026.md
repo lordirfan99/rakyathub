@@ -3,7 +3,7 @@ publishDate: 2026-06-18 08:00:00
 title: "Scam Tiket Konsert 2026: Cara Elak & Lindung Diri"
 excerpt: "Panduan scam tiket konsert & event — 41 kes BTS rugi RM96,000, cara bezakan tiket asli, dan langkah lindung diri dari penipuan."
 category: Keselamatan
-image: "~/assets/images/hero-scam-tiket-konsert.jpg"
+# image: "~/assets/images/hero-scam-tiket-konsert.jpg" — REMOVED (duplicate of hero-atm-fee-waiver.jpg)
 tags:
   - scam-tiket
   - penipuan-konsert
