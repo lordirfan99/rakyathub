@@ -3,7 +3,7 @@ publishDate: 2026-06-18 08:00:00
 title: "Scam LHDN 2026 — Panduan Kenal & Elak"
 excerpt: "Panduan lengkap kenal pasti scam panggilan telefon dan emel palsu LHDN di Malaysia 2026. Ada senarai nombor hotline sah LHDN + cara blok dan lapor."
 category: Keselamatan
-image: "~/assets/images/hero-scam-lhdn-panggilan-emel-palsu.jpg"
+# image: "~/assets/images/hero-scam-lhdn-panggilan-emel-palsu.jpg" — REMOVED (duplicate of hero-scam-pembantu-rumah.jpg)
 tags:
   - scam
   - LHDN
