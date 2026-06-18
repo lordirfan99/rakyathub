@@ -1,6 +1,6 @@
 [build]
   publish = "dist"
-  command = "npm run build"
+  command = "python3 scripts/fetch-income-data.py && npm run build"
 
 [build.processing.html]
   pretty_urls = false
