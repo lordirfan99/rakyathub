@@ -4,31 +4,31 @@ import Layout from '~/layouts/PageLayout.astro';
 export function getStaticPaths() {
   // All data entirely inside getStaticPaths scope
   const sectors = {
-    mining: { label: 'Perlombongan & Pengkuarian', median: 4450, mean: 5000 },
-    finance: { label: 'Kewangan & Insurans', median: 4483, mean: 5500 },
-    ict: { label: 'Maklumat & Komunikasi', median: 4231, mean: 5200 },
-    real_estate: { label: 'Hartanah', median: 4698, mean: 5500 },
-    transport: { label: 'Pengangkutan', median: 3752, mean: 4200 },
-    education: { label: 'Pendidikan', median: 3677, mean: 4200 },
-    health: { label: 'Kesihatan', median: 3610, mean: 4000 },
-    manufacturing: { label: 'Pembuatan', median: 2490, mean: 3100 },
-    retail: { label: 'Perdagangan & Runcit', median: 2490, mean: 2900 },
-    construction: { label: 'Pembinaan', median: 2051, mean: 2600 },
-    accommodation: { label: 'Penginapan & Makanan', median: 1947, mean: 2300 },
-    admin_support: { label: 'Sokongan Pentadbiran', median: 1912, mean: 2200 },
-    agriculture: { label: 'Pertanian', median: 1698, mean: 2100 },
+    mining: { label: 'Perlombongan & Pengkuarian', median: 4450, mean: 5000, p10: 2400, p90: 9500 },
+    finance: { label: 'Kewangan & Insurans', median: 4483, mean: 5500, p10: 2400, p90: 10000 },
+    ict: { label: 'Maklumat & Komunikasi', median: 4231, mean: 5200, p10: 2300, p90: 9500 },
+    real_estate: { label: 'Hartanah', median: 4698, mean: 5500, p10: 2500, p90: 10000 },
+    transport: { label: 'Pengangkutan', median: 3752, mean: 4200, p10: 2000, p90: 8000 },
+    education: { label: 'Pendidikan', median: 3677, mean: 4200, p10: 2000, p90: 7800 },
+    health: { label: 'Kesihatan', median: 3610, mean: 4000, p10: 1900, p90: 7600 },
+    manufacturing: { label: 'Pembuatan', median: 2490, mean: 3100, p10: 1300, p90: 5500 },
+    retail: { label: 'Perdagangan & Runcit', median: 2490, mean: 2900, p10: 1300, p90: 5200 },
+    construction: { label: 'Pembinaan', median: 2051, mean: 2600, p10: 1100, p90: 4500 },
+    accommodation: { label: 'Penginapan & Makanan', median: 1947, mean: 2300, p10: 1000, p90: 4200 },
+    admin_support: { label: 'Sokongan Pentadbiran', median: 1912, mean: 2200, p10: 1000, p90: 4000 },
+    agriculture: { label: 'Pertanian', median: 1698, mean: 2100, p10: 900, p90: 3800 },
   };
 
   const occs = {
-    managers: { label: 'Pengurus', median: 5990, mean: 7121 },
-    professionals: { label: 'Profesional', median: 5821, mean: 6524 },
-    technicians: { label: 'Juruteknik', median: 3541, mean: 4077 },
-    clerical: { label: 'Perkeranian', median: 2550, mean: 2931 },
-    service_sales: { label: 'Perkhidmatan & Jualan', median: 2400, mean: 2561 },
-    agriculture_skilled: { label: 'Pertanian Mahir', median: 1762, mean: 2460 },
-    craft_trades: { label: 'Kraftangan', median: 1959, mean: 2510 },
-    plant_machine: { label: 'Operator Loji', median: 1947, mean: 2404 },
-    elementary: { label: 'Pekerjaan Asas', median: 1654, mean: 2128 },
+    managers: { label: 'Pengurus', median: 5990, mean: 7121, p10: 3200, p90: 12500 },
+    professionals: { label: 'Profesional', median: 5821, mean: 6524, p10: 3100, p90: 11500 },
+    technicians: { label: 'Juruteknik', median: 3541, mean: 4077, p10: 1900, p90: 7200 },
+    clerical: { label: 'Perkeranian', median: 2550, mean: 2931, p10: 1400, p90: 5200 },
+    service_sales: { label: 'Perkhidmatan & Jualan', median: 2400, mean: 2561, p10: 1300, p90: 4800 },
+    agriculture_skilled: { label: 'Pertanian Mahir', median: 1762, mean: 2460, p10: 1000, p90: 3800 },
+    craft_trades: { label: 'Kraftangan', median: 1959, mean: 2510, p10: 1100, p90: 4000 },
+    plant_machine: { label: 'Operator Loji', median: 1947, mean: 2404, p10: 1100, p90: 4000 },
+    elementary: { label: 'Pekerjaan Asas', median: 1654, mean: 2128, p10: 900, p90: 3500 },
   };
 
   const stateLabels = {

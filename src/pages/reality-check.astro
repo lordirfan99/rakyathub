@@ -140,6 +140,11 @@ const breadcrumbSchema = {
         </div>
       </div>
 
+      <!-- Hidden report card for image share -->
+      <div id="reportCard" class="hidden fixed" style="left:-9999px;top:0">
+        <div id="reportCardInner"></div>
+      </div>
+
       <!-- Share -->
       <div class="flex justify-center gap-3 pt-2">
         <button onclick="shareResult()" class="px-5 py-2.5 rounded-xl bg-gray-100 dark:bg-slate-800 hover:bg-gray-200 dark:hover:bg-slate-700 text-sm font-semibold transition-all flex items-center gap-2">
@@ -160,24 +165,19 @@ const breadcrumbSchema = {
   </section>
 
   <script is:inline>
-  // Data from build time
   const realityData = {set:html={JSON.stringify(reality)} };
   const incomeData2 = {set:html={JSON.stringify(incomeData)} };
-  const cpiLatest2 = {cpiLatest};
+  const cpiVal = {cpiData.latest_cpi || 136.9};
 
-  // State key mapping
-  const stateKeyMap = {
-    "wp_putrajaya": "W.P. Putrajaya", "wp_kl": "W.P. Kuala Lumpur", "selangor": "Selangor",
-    "pulau_pinang": "Pulau Pinang", "wp_labuan": "W.P. Labuan", "johor": "Johor",
-    "kedah": "Kedah", "kelantan": "Kelantan", "melaka": "Melaka",
-    "n9": "Negeri Sembilan", "n_sembilan": "Negeri Sembilan", "negeri_sembilan": "Negeri Sembilan",
-    "pahang": "Pahang", "perak": "Perak", "perlis": "Perlis",
-    "sabah": "Sabah", "sarawak": "Sarawak", "terengganu": "Terengganu"
-  };
-
-  function getStateLabel(key) {
-    return stateKeyMap[key] || key.replace(/_/g, ' ').replace(/\w\S*/g, w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase());
+  // ── Linear interpolation: map salary → percentile ──
+  function calcPercentile(salary, p10, med, p90) {
+    if (salary <= p10) return Math.round((salary / p10) * 10);
+    if (salary <= med) return 10 + Math.round(((salary - p10) / (med - p10)) * 40);
+    if (salary <= p90) return 50 + Math.round(((salary - med) / (p90 - med)) * 40);
+    return 90 + Math.round(Math.min(1, (salary - p90) / p90) * 9);
   }
+
+  function money(n) { return n.toLocaleString(); }
 
   function checkReality() {
     const salary = parseFloat(document.getElementById('salaryInput').value);
@@ -185,196 +185,205 @@ const breadcrumbSchema = {
     const sectorKey = document.getElementById('sectorSelect').value;
     const occKey = document.getElementById('occSelect').value;
     const results = document.getElementById('results');
-
     if (!salary || salary <= 0) { alert('Masukkan gaji anda.'); return; }
-
     results.classList.remove('hidden');
 
-    // ── State comparison ──
+    let bestPercentile = 0;
+    let bestLabel = '';
+    let html = '';
+
+    // ── State ──
     const stateDiv = document.getElementById('stateResult');
     if (stateKey && incomeData2.states) {
-      const stateName = getStateLabel(stateKey);
-      // Find matching state in incomeData
-      const match = Object.entries(incomeData2.states).find(([k]) => 
-        k.toLowerCase().replace(/[^a-z]/g, '_') === stateKey || 
-        k.toLowerCase().includes(stateKey.replace('wp_', '').replace('n9', 'n_sembilan'))
+      const match = Object.entries(incomeData2.states).find(([k]) =>
+        k.toLowerCase().replace(/[^a-z]/g, '_') === stateKey ||
+        k.toLowerCase().includes(stateKey.replace('wp_', '').replace('n9', 'n'))
       );
       if (match) {
-        const [fullName, stateData] = match;
-        const stateMean = stateData.income_mean;
-        const ratio = ((salary / stateMean) * 100).toFixed(1);
-        const percentAbove = salary > stateMean ? ((salary / stateMean - 1) * 100).toFixed(1) : null;
-        const percentBelow = salary < stateMean ? ((1 - salary / stateMean) * 100).toFixed(1) : null;
-        
-        let verdict = '';
-        if (salary >= stateMean * 1.5) verdict = '✅ Anda dalam golongan atasan di negeri ini.';
-        else if (salary >= stateMean) verdict = '👍 Anda di atas purata pendapatan isi rumah negeri ini.';
-        else if (salary >= stateMean * 0.7) verdict = '📊 Anda dalam lingkungan sederhana — setanding purata isi rumah.';
-        else verdict = '⚠️ Gaji anda di bawah purata pendapatan isi rumah negeri ini.';
-
+        const [fullName, d] = match;
+        const stateMean = d.income_mean;
+        const estMed = Math.round(stateMean * 0.78);
+        const estP10 = Math.round(stateMean * 0.35);
+        const estP90 = Math.round(stateMean * 1.5);
+        const pct = calcPercentile(salary, estP10, estMed, estP90);
+        if (pct > bestPercentile) { bestPercentile = pct; bestLabel = fullName; }
+        const barW = Math.min((salary / estP90) * 100, 100);
         stateDiv.innerHTML = `
           <div class="flex items-center gap-3 mb-3">
             <span class="text-2xl">📍</span>
-            <div>
-              <p class="font-bold text-gray-900 dark:text-gray-100">${fullName}</p>
-              <p class="text-xs text-muted/70">Purata pendapatan isi rumah: RM ${stateMean.toLocaleString()}/bulan</p>
-            </div>
+            <div><p class="font-bold text-gray-900 dark:text-gray-100">${fullName}</p>
+            <p class="text-xs text-muted/70">Purata isi rumah: RM ${money(stateMean)}</p></div>
           </div>
           <div class="bg-gray-50 dark:bg-slate-800/40 rounded-xl p-4">
-            <div class="flex justify-between items-baseline mb-1">
-              <span class="font-semibold">Gaji anda</span>
-              <span class="font-bold text-lg tab-num">RM ${salary.toLocaleString()}</span>
+            <div class="flex justify-between text-xs text-muted/60 mb-2">
+              <span>P10: RM${money(estP10)}</span>
+              <span class="font-bold text-primary">Percentile ${pct}%</span>
+              <span>P90: RM${money(estP90)}</span>
             </div>
-            <div class="w-full bg-gray-200 dark:bg-slate-700 rounded-full h-2.5 mb-2">
-              <div class="bg-primary h-2.5 rounded-full" style="width:${Math.min(ratio, 100)}%"></div>
+            <div class="w-full bg-gray-200 dark:bg-slate-700 rounded-full h-3 mb-2 relative">
+              <div class="bg-gradient-to-r from-red-400 via-yellow-400 to-green-400 h-3 rounded-full" style="width:100%"></div>
+              <div class="absolute top-0 h-3 w-0.5 bg-black dark:bg-white" style="left:${barW}%"></div>
             </div>
-            <div class="flex justify-between text-xs text-muted/60 mb-3">
-              <span>RM 0</span>
-              <span class="font-semibold text-primary">${ratio}%</span>
-              <span>RM ${(stateMean * 1.5).toLocaleString()}</span>
-            </div>
-            ${percentAbove ? `<p class="text-green-600 dark:text-green-400 text-sm font-semibold">▲ ${percentAbove}% lebih tinggi dari purata ${fullName}</p>` : ''}
-            ${percentBelow ? `<p class="text-amber-600 dark:text-amber-400 text-sm font-semibold">▼ ${percentBelow}% lebih rendah dari purata ${fullName}</p>` : ''}
-            <p class="text-xs text-muted/70 mt-2">${verdict}</p>
-          </div>
-        `;
+            <p class="font-bold text-lg tab-num text-center ${pct >= 50 ? 'text-green-600' : 'text-amber-600'}">
+              ${pct >= 50 ? `✅ Anda mengatasi ${pct}% penduduk ${fullName}` : `⚠️ ${100-pct}% penduduk ${fullName} bergaji lebih tinggi`}
+            </p>
+          </div>`;
       } else {
-        stateDiv.innerHTML = '<p class="text-muted/60">Data negeri tidak tersedia.</p>';
+        stateDiv.innerHTML = '<p class="text-muted/60">Pilih negeri.</p>';
       }
-    } else {
-      stateDiv.innerHTML = '<p class="text-muted/60">Pilih negeri untuk lihat perbandingan.</p>';
     }
 
-    // ── Sector comparison ──
+    // ── Sector ──
     const sectorDiv = document.getElementById('sectorResult');
     if (sectorKey && realityData.sectors && realityData.sectors[sectorKey]) {
       const s = realityData.sectors[sectorKey];
-      const ratioS = ((salary / s.median) * 100).toFixed(1);
-      const isAbove = salary >= s.median;
-
+      const pct = calcPercentile(salary, s.p10, s.median, s.p90);
+      if (pct > bestPercentile && !occKey) { bestPercentile = pct; bestLabel = s.label; }
       sectorDiv.innerHTML = `
         <div class="flex items-center gap-3 mb-3">
           <span class="text-2xl">🏭</span>
-          <div>
-            <p class="font-bold text-gray-900 dark:text-gray-100">${s.label}</p>
-            <p class="text-xs text-muted/70">Gaji median: RM ${s.median.toLocaleString()}/bulan | YoY: +${s.yoy}%</p>
-          </div>
+          <div><p class="font-bold text-gray-900 dark:text-gray-100">${s.label}</p>
+          <p class="text-xs text-muted/70">Median: RM${money(s.median)} | YoY: +${s.yoy}%</p></div>
         </div>
         <div class="bg-gray-50 dark:bg-slate-800/40 rounded-xl p-4">
-          <div class="flex justify-between items-baseline mb-1">
-            <span class="font-semibold">Gaji anda</span>
-            <span class="font-bold text-lg tab-num">RM ${salary.toLocaleString()}</span>
+          <div class="flex justify-between text-xs text-muted/60 mb-2">
+            <span>P10: RM${money(s.p10)}</span>
+            <span class="font-bold text-primary">Percentile ${pct}%</span>
+            <span>P90: RM${money(s.p90)}</span>
           </div>
-          <div class="w-full bg-gray-200 dark:bg-slate-700 rounded-full h-2.5 mb-2">
-            <div class="${isAbove ? 'bg-green-500' : 'bg-amber-500'} h-2.5 rounded-full" style="width:${Math.min(ratioS, 100)}%"></div>
+          <div class="w-full bg-gray-200 dark:bg-slate-700 rounded-full h-3 mb-2 relative">
+            <div class="bg-gradient-to-r from-red-400 via-yellow-400 to-green-400 h-3 rounded-full" style="width:100%"></div>
+            <div class="absolute top-0 h-3 w-0.5 bg-black dark:bg-white" style="left:${Math.min((salary/s.p90)*100,100)}%"></div>
           </div>
-          <div class="flex justify-between text-xs text-muted/60 mb-3">
-            <span>RM 0</span>
-            <span class="font-semibold ${isAbove ? 'text-green-600' : 'text-amber-600'}">${ratioS}%</span>
-            <span>RM ${(s.median * 1.5).toLocaleString()}</span>
-          </div>
-          ${isAbove 
-            ? `<p class="text-green-600 dark:text-green-400 text-sm font-semibold">✅ Anda dalam ${Math.round(salary / s.median * 10) / 10}x ganda median sektor ${s.label}.</p>`
-            : `<p class="text-amber-600 dark:text-amber-400 text-sm font-semibold">⚠️ Gaji anda ${((1 - salary / s.median) * 100).toFixed(1)}% di bawah median sektor ${s.label}.</p>`
-          }
-          ${s.yoy > 0 ? `<p class="text-xs text-muted/60 mt-2">Sektor ini berkembang ${s.yoy}% setahun.</p>` : ''}
-        </div>
-      `;
-    } else {
-      sectorDiv.innerHTML = '<p class="text-muted/60">Pilih sektor untuk lihat perbandingan.</p>';
+          <p class="font-bold text-lg tab-num text-center ${pct >= 50 ? 'text-green-600' : 'text-amber-600'}">
+            ${pct >= 50 ? `✅ Anda mengatasi ${pct}% pekerja sektor ${s.label}` : `⚠️ ${100-pct}% pekerja ${s.label} bergaji lebih tinggi`}
+          </p>
+        </div>`;
     }
 
-    // ── Occupation comparison ──
+    // ── Occupation ──
     const occDiv = document.getElementById('occResult');
     if (occKey && realityData.occupations && realityData.occupations[occKey]) {
       const o = realityData.occupations[occKey];
-      const ratioO = ((salary / o.median) * 100).toFixed(1);
-      const isAboveOcc = salary >= o.median;
-      const isManagerial = o.median >= 5000;
-
-      let occInsight = '';
-      if (salary >= o.mean) occInsight = 'Anda dalam lingkungan gaji tertinggi untuk kategori ini.';
-      else if (salary >= o.median) occInsight = 'Anda di atas median untuk kategori pekerjaan ini.';
-      else occInsight = 'Gaji anda di bawah median untuk kategori pekerjaan ini.';
-
+      const pct = calcPercentile(salary, o.p10, o.median, o.p90);
+      if (pct > bestPercentile) { bestPercentile = pct; bestLabel = o.label; }
       occDiv.innerHTML = `
         <div class="flex items-center gap-3 mb-3">
           <span class="text-2xl">👔</span>
-          <div>
-            <p class="font-bold text-gray-900 dark:text-gray-100">${o.label}</p>
-            <p class="text-xs text-muted/70">Median: RM ${o.median.toLocaleString()} | Purata: RM ${o.mean.toLocaleString()}</p>
-          </div>
+          <div><p class="font-bold text-gray-900 dark:text-gray-100">${o.label}</p>
+          <p class="text-xs text-muted/70">Median: RM${money(o.median)} | Purata: RM${money(o.mean)}</p></div>
         </div>
         <div class="bg-gray-50 dark:bg-slate-800/40 rounded-xl p-4">
-          <div class="grid grid-cols-3 gap-3 text-center mb-3">
+          <div class="grid grid-cols-3 gap-3 mb-3 text-center">
             <div class="rounded-lg bg-gray-100 dark:bg-slate-700/50 p-2">
-              <p class="text-[10px] text-muted/60">Bottom 10%</p>
-              <p class="font-bold tab-num">RM ${Math.round(o.median * 0.4).toLocaleString()}</p>
+              <p class="text-[10px] text-muted/60">P10</p>
+              <p class="font-bold tab-num">RM${money(o.p10)}</p>
             </div>
             <div class="rounded-lg bg-primary/10 p-2">
               <p class="text-[10px] text-muted/60">Median</p>
-              <p class="font-bold tab-num text-primary">RM ${o.median.toLocaleString()}</p>
+              <p class="font-bold tab-num text-primary">RM${money(o.median)}</p>
             </div>
             <div class="rounded-lg bg-gray-100 dark:bg-slate-700/50 p-2">
-              <p class="text-[10px] text-muted/60">Top 10%</p>
-              <p class="font-bold tab-num">RM ${Math.round(o.mean * 1.3).toLocaleString()}</p>
+              <p class="text-[10px] text-muted/60">P90</p>
+              <p class="font-bold tab-num">RM${money(o.p90)}</p>
             </div>
           </div>
-          ${isAboveOcc
-            ? `<p class="text-green-600 dark:text-green-400 text-sm font-semibold">✅ Anda mengatasi ${Math.round(ratioO)}% pekerja dalam kategori ini.</p>`
-            : `<p class="text-amber-600 dark:text-amber-400 text-sm font-semibold">⚠️ ${Math.round(100 - ratioO)}% pekerja dalam kategori ini bergaji lebih tinggi.</p>`
-          }
-          <p class="text-xs text-muted/60 mt-1">${occInsight}</p>
-        </div>
-      `;
-    } else {
-      occDiv.innerHTML = '<p class="text-muted/60">Pilih pekerjaan untuk lihat perbandingan.</p>';
+          <div class="w-full bg-gray-200 dark:bg-slate-700 rounded-full h-3 mb-2 relative">
+            <div class="bg-gradient-to-r from-red-400 via-yellow-400 to-green-400 h-3 rounded-full" style="width:100%"></div>
+            <div class="absolute top-0 h-3 w-0.5 bg-black dark:bg-white" style="left:${Math.min((salary/o.p90)*100,100)}%"></div>
+          </div>
+          <p class="font-bold text-lg tab-num text-center ${pct >= 50 ? 'text-green-600' : 'text-amber-600'}">
+            ${pct >= 50 ? `✅ Anda mengatasi ${pct}% pekerja ${o.label}` : `⚠️ ${100-pct}% pekerja ${o.label} bergaji lebih tinggi`}
+          </p>
+        </div>`;
     }
 
     // ── Purchasing Power ──
     const ppDiv = document.getElementById('ppResult');
-    const realValue = (salary / ${cpiLatest} * 100).toFixed(0);
-    const taxEst = salary > 5000 ? Math.round(salary * 0.06) : salary > 3000 ? Math.round(salary * 0.03) : 0;
+    const realVal = (salary / cpiVal * 100).toFixed(0);
+    const loss = (salary * (1 - 100/cpiVal)).toFixed(0);
     const epfEst = Math.round(salary * 0.11);
+    const taxEst = salary > 5000 ? Math.round(salary * 0.06) : salary > 3000 ? Math.round(salary * 0.03) : 0;
     const socsoEst = salary > 5000 ? 70 : Math.round(salary * 0.005);
-    const takeHome = salary - taxEst - epfEst - socsoEst;
-    const rentEst = salary > 5000 ? Math.round(salary * 0.3) : Math.round(salary * 0.35);
+    const takeHome = salary - epfEst - taxEst - socsoEst;
 
     ppDiv.innerHTML = `
       <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
-        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-100 dark:border-amber-800/30 p-3 text-center">
-          <p class="text-[10px] text-amber-600 dark:text-amber-400 font-semibold uppercase">Nilai Sebenar</p>
-          <p class="text-lg font-bold tab-num text-amber-700 dark:text-amber-300">RM ${realValue}</p>
-          <p class="text-[10px] text-muted/60">Kuasa beli sebenar</p>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border p-3 text-center">
+          <p class="text-[10px] font-semibold uppercase text-amber-600">Nilai Sebenar</p>
+          <p class="text-lg font-bold tab-num text-amber-700">RM ${money(parseInt(realVal))}</p>
+          <p class="text-[10px] text-muted/60">Kuasa beli selepas inflasi</p>
         </div>
-        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800/30 p-3 text-center">
-          <p class="text-[10px] text-blue-600 dark:text-blue-400 font-semibold uppercase">Anggaran Potongan</p>
-          <p class="text-lg font-bold tab-num text-blue-700 dark:text-blue-300">-RM ${(taxEst + epfEst + socsoEst).toLocaleString()}</p>
+        <div class="rounded-xl bg-red-50 dark:bg-red-900/20 border p-3 text-center">
+          <p class="text-[10px] font-semibold uppercase text-red-600">Inflasi Curi</p>
+          <p class="text-lg font-bold tab-num text-red-700">-RM ${money(parseInt(loss))}</p>
+          <p class="text-[10px] text-muted/60">Setahun</p>
+        </div>
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 border p-3 text-center">
+          <p class="text-[10px] font-semibold uppercase text-blue-600">Potongan</p>
+          <p class="text-lg font-bold tab-num text-blue-700">-RM ${money(epfEst + taxEst + socsoEst)}</p>
           <p class="text-[10px] text-muted/60">EPF+SOCSO+PCB</p>
         </div>
-        <div class="rounded-xl bg-green-50 dark:bg-green-900/20 border border-green-100 dark:border-green-800/30 p-3 text-center">
-          <p class="text-[10px] text-green-600 dark:text-green-400 font-semibold uppercase">Bawa Pulang</p>
-          <p class="text-lg font-bold tab-num text-green-700 dark:text-green-300">RM ${takeHome.toLocaleString()}</p>
+        <div class="rounded-xl bg-green-50 dark:bg-green-900/20 border p-3 text-center">
+          <p class="text-[10px] font-semibold uppercase text-green-600">Bawa Pulang</p>
+          <p class="text-lg font-bold tab-num text-green-700">RM ${money(takeHome)}</p>
           <p class="text-[10px] text-muted/60">Anggaran bersih</p>
         </div>
-        <div class="rounded-xl bg-purple-50 dark:bg-purple-900/20 border border-purple-100 dark:border-purple-800/30 p-3 text-center">
-          <p class="text-[10px] text-purple-600 dark:text-purple-400 font-semibold uppercase">Anggaran Sewa</p>
-          <p class="text-lg font-bold tab-num text-purple-700 dark:text-purple-300">RM ${rentEst.toLocaleString()}</p>
-          <p class="text-[10px] text-muted/60">30-35% gaji</p>
-        </div>
       </div>
-      <p class="text-xs text-muted/60">Nilai sebenar gaji RM${salary.toLocaleString()} selepas inflasi adalah RM${realValue}. RM100 pada 2010 kini hanya bernilai RM${${rm100Value}}.</p>
+      <p class="text-xs text-muted/60">RM100 pada 2010 kini hanya bernilai RM${(100/cpiVal*100).toFixed(1)}. Inflasi menghakis RM${money(parseInt(loss))} dari gaji tahunan anda.</p>
     `;
+
+    // ── Report Card for sharing ──
+    const cardDiv = document.getElementById('reportCard');
+    const verdict = bestPercentile >= 50
+      ? `Gaji anda mengatasi ${bestPercentile}% penerima gaji lain. Tapi inflasi masih menghakis kuasa beli anda sebanyak RM${money(parseInt(loss))} setahun.`
+      : `${100-bestPercentile}% pekerja bergaji lebih tinggi dari anda. Inflasi curi RM${money(parseInt(loss))} setahun. Masa untuk minta kenaikan?`;
+    cardDiv.innerHTML = `
+      <div class="bg-gray-900 text-white rounded-2xl p-6 text-center" style="min-width:320px">
+        <p class="text-xs uppercase tracking-widest text-gray-400 mb-1">REALITY CHECK</p>
+        <p class="text-lg font-bold mb-1">RM ${money(salary)}/bulan</p>
+        <p class="text-4xl font-black mb-2 ${bestPercentile >= 50 ? 'text-green-400' : 'text-yellow-400'}">${bestPercentile}%</p>
+        <p class="text-sm mb-4">${verdict}</p>
+        <div class="w-full bg-gray-700 rounded-full h-2 mb-2">
+          <div class="${bestPercentile >= 50 ? 'bg-green-400' : 'bg-yellow-400'} h-2 rounded-full" style="width:${bestPercentile}%"></div>
+        </div>
+        <p class="text-xs text-gray-500">rakyathub.my/reality-check</p>
+      </div>`;
+    cardDiv.classList.remove('hidden');
   }
 
-  function shareResult() {
-    const salary = document.getElementById('salaryInput').value || '___';
-    const text = 'Check gaji korang dekat RakyatHub Reality Check!\ngaji saya RM' + salary + '/month\nhttps://rakyathub.my/reality-check/';
-    if (navigator.share) {
-      navigator.share({ title: 'Reality Check Gaji Malaysia', text: text, url: 'https://rakyathub.my/reality-check/' });
-    } else {
-      window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
+  // ── Share ──
+  async function shareResult() {
+    const card = document.getElementById('reportCardInner');
+    if (!card) return;
+    try {
+      // Use html2canvas if available, else WhatsApp fallback
+      if (typeof html2canvas !== 'undefined') {
+        const canvas = await html2canvas(card, { backgroundColor: '#111827', scale: 2 });
+        canvas.toBlob(async (blob) => {
+          const file = new File([blob], 'reality-check.png', { type: 'image/png' });
+          if (navigator.share && navigator.canShare({ files: [file] })) {
+            await navigator.share({ title: 'Reality Check Gaji', files: [file] });
+          } else {
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = 'reality-check.png';
+            a.click();
+          }
+        });
+      } else {
+        fallbackShare();
+      }
+    } catch(e) {
+      fallbackShare();
     }
   }
+
+  function fallbackShare() {
+    const text = 'Check gaji korang di Reality Check RakyatHub!\nhttps://rakyathub.my/reality-check/';
+    if (navigator.share) navigator.share({ title: 'Reality Check Gaji', text, url: 'https://rakyathub.my/reality-check/' });
+    else window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
+  }
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 </Layout>
