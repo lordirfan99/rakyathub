@@ -164,11 +164,10 @@ const breadcrumbSchema = {
     </div>
   </section>
 
-  <script is:inline>
-  const realityData = {set:html={JSON.stringify(reality)} };
-  const incomeData2 = {set:html={JSON.stringify(incomeData)} };
-  const cpiVal = {cpiData.latest_cpi || 136.9};
+  <!-- Data injected at build time -->
+  <script set:html={`const realityData = ${JSON.stringify(reality)}; const incomeData2 = ${JSON.stringify(incomeData)}; const cpiVal = ${cpiData.latest_cpi || 136.9};`}></script>
 
+  <script is:inline>
   // ── Linear interpolation: map salary → percentile ──
   function calcPercentile(salary, p10, med, p90) {
     if (salary <= p10) return Math.round((salary / p10) * 10);
