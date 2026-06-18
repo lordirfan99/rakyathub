@@ -237,10 +237,10 @@ const breadcrumbSchema = {
     </div>
   </section>
 
-  <script is:inline>
-  // State filter data — embedded from Astro
-  const stateData = {set:html={JSON.stringify(stateChains)} };
+  <!-- Data injected at build time -->
+  <script set:html={`const stateData = ${JSON.stringify(stateChains)};`}></script>
 
+  <script is:inline>
   function filterState() {
     const sel = document.getElementById('stateSelect');
     const state = sel.value;
