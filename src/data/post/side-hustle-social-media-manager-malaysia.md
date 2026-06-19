@@ -3,7 +3,7 @@ publishDate: 2026-06-19 08:00:00
 title: "Side Hustle Social Media Manager Malaysia"
 excerpt: "Panduan lengkap jadi Social Media Manager side hustle di Malaysia. Jana RM1k-RM3k sebulan urus media sosial untuk bisnes SME."
 category: Bisnes
-image: "~/assets/images/hero-side-hustle-social-media-manager-malaysia.jpg"
+# image: "~/assets/images/hero-side-hustle-social-media-manager-malaysia.jpg" — REMOVED (duplicate of hero-alat-ai-produktiviti.jpg)
 tags:
   - side-hustle
   - bisnes
