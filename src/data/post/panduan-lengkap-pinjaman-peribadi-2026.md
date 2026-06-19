@@ -3,7 +3,7 @@ publishDate: 2026-06-19 08:00:00
 title: "Panduan Lengkap Pinjaman Peribadi 2026"
 excerpt: "Panduan lengkap pinjaman peribadi Malaysia 2026. Banding kadar 14 bank, syarat kelayakan, tips dapat kelulusan, dan alternatif bijak sebelum mohon."
 category: Kewangan
-image: "~/assets/images/hero-pinjaman-peribadi-panduan-lengkap-2026.jpg"
+# image: "~/assets/images/hero-pinjaman-peribadi-panduan-lengkap-2026.jpg" — REMOVED (duplicate of hero-atm-fee-waiver.jpg)
 tags:
   - pinjaman peribadi
   - personal loan
