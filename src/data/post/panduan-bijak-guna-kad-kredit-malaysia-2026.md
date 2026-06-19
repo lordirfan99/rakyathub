@@ -3,7 +3,7 @@ publishDate: 2026-06-18 08:00:00
 title: "Panduan Bijak Guna Kad Kredit Malaysia 2026"
 excerpt: "Panduan lengkap guna kad kredit dengan bijak di Malaysia 2026. Cara elak perangkap faedah, yuran & hutang, plus tips maksimum ganjaran."
 category: Kewangan
-image: "~/assets/images/hero-atm-fee-waiver.jpg"
+image: "~/assets/images/hero-ssm-daftar-online.jpg"
 tags:
   - kad-kredit
   - kewangan-peribadi

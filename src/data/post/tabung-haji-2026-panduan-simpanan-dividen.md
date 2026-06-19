@@ -3,7 +3,7 @@ publishDate: 2026-06-11
 title: "Tabung Haji 2026 — Cara Simpan, Dividen & Panduan"
 excerpt: "Panduan lengkap Tabung Haji 2026 — cara buka akaun, kadar dividen terkini, cara simpan online guna JomPAY, kelebihan simpanan TH dan banding dengan."
 category: Kewangan
-image: "~/assets/images/hero-tabung-haji.jpg"
+image: "~/assets/images/hero-sspn.jpg"
 tags:
   - tabung-haji
   - simpanan

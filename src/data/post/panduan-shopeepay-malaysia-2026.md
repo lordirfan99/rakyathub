@@ -3,7 +3,7 @@ publishDate: 2026-06-19 08:00:00
 title: "Panduan ShopeePay Malaysia 2026"
 excerpt: "Panduan lengkap ShopeePay Malaysia 2026. Cara daftar, top up, guna DuitNow QR, SPayLater, bayar bil, dapat cashback, dan tips selamat."
 category: Kewangan
-image: "~/assets/images/hero-dompet-digital.jpg"
+image: "~/assets/images/hero-beli-emas.jpg"
 tags:
   - shopeepay
   - e-wallet

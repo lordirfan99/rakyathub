@@ -3,7 +3,7 @@ publishDate: 2026-06-19 08:00:00
 title: "Cukai Tanah & Cukai Pintu Malaysia 2026"
 excerpt: "Panduan lengkap cukai tanah dan cukai pintu Malaysia 2026. Cara kira quit rent, cukai taksiran, kadar semua negeri, tarikh akhir bayar online."
 category: Percukaian
-image: "~/assets/images/hero-loan-rumah.jpg"
+image: "~/assets/images/hero-pelepasan-cukai.jpg"
 tags:
   - cukai-tanah
   - cukai-pintu

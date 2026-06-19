@@ -1,4 +1,5 @@
 ---
+image: "~/assets/images/hero-efiling.jpg"
 publishDate: 2026-06-18 08:00:00
 title: "Scam LHDN 2026 — Panduan Kenal & Elak"
 excerpt: "Panduan lengkap kenal pasti scam panggilan telefon dan emel palsu LHDN di Malaysia 2026. Ada senarai nombor hotline sah LHDN + cara blok dan lapor."

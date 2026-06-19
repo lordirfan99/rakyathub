@@ -3,7 +3,7 @@ publishDate: 2026-06-19 08:00:00
 title: "Panduan GrabPay Malaysia 2026"
 excerpt: "Panduan lengkap GrabPay Malaysia 2026. Cara daftar, top up, guna untuk ride & food, bayar di kedai, GrabRewards points, dan tips selamat."
 category: Kewangan
-image: "~/assets/images/hero-dompet-digital.jpg"
+image: "~/assets/images/hero-dca-vs-lumpsum.jpg"
 tags:
   - grabpay
   - e-wallet

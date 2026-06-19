@@ -3,7 +3,7 @@ publishDate: 2026-06-19 08:00:00
 title: "Insurans Gajet Malaysia: Panduan Lengkap 2026"
 excerpt: "Panduan lengkap insurans gajet di Malaysia 2026. Ketahui cara melindungi telefon pintar, tablet dan laptop dengan harga premium berpatutan."
 category: Insurans
-image: "~/assets/images/hero-dompet-digital.jpg"
+image: "~/assets/images/hero-asian-insurance-phone.jpg"
 tags:
   - insurans gajet
   - gadget insurance

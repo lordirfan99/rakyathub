@@ -3,7 +3,7 @@ publishDate: 2026-06-18 08:00:00
 title: "Panduan AKPK 2026: Program DMP & Kaunseling"
 excerpt: "Panduan lengkap AKPK 2026 — perkhidmatan kaunseling kewangan percuma dan Program Pengurusan Hutang (DMP) untuk bantu korang bebas dari masalah hutang."
 category: Kewangan
-image: "~/assets/images/hero-simpan-duit.jpg"
+image: "~/assets/images/hero-saham-usa.jpg"
 tags:
   - akpk
   - dmp

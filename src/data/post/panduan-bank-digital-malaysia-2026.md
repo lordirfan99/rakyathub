@@ -3,7 +3,7 @@ publishDate: 2026-06-19 08:00:00
 title: "Bank Digital Malaysia 2026 — Mana Paling Untung?"
 excerpt: "Bandingkan GXBank, AEON Bank, Boost Bank & Ryt Bank 2026 — kadar faedah, PIDM, yuran sifar, dan bank digital mana paling untung untuk simpanan."
 category: Kewangan
-image: "~/assets/images/hero-dompet-digital.jpg"
+image: "~/assets/images/hero-asian-woman-packing.jpg"
 tags:
   - bank-digital
   - GXBank
