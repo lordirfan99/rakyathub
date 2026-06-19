@@ -91,7 +91,7 @@ Juruelektrik, paip, mekanik, tukang kayu, juruteknik penyaman udara — bidang n
 
 ### 4. Jurutera AI, Data Scientist & Pakar Cybersecurity 💻 (Risiko: 10%)
 
-Ironinya, kerja yang *mencipta* AI adalah paling selamat daripada AI. AI Engineer, Data Scientist, dan Cybersecurity Specialist adalah antara pekerjaan paling laris 2026 dengan permintaan yang terus meningkat. Gaji untuk AI Engineer boleh cecah RM15,000–RM20,000 untuk posisi senior. Baca [7 Pekerjaan Paling Laris 2026 di Malaysia](https://rakyathub.my/blog/7-pekerjaan-paling-laris-2026-malaysia/) untuk info lanjut.
+Ironinya, kerja yang *mencipta* AI adalah paling selamat daripada AI. AI Engineer, Data Scientist, dan Cybersecurity Specialist adalah antara pekerjaan paling laris 2026 dengan permintaan yang terus meningkat. Gaji untuk AI Engineer boleh cecah RM15,000–RM20,000 untuk posisi senior. Baca [7 Pekerjaan Paling Laris 2026 di Malaysia](/7-pekerjaan-paling-laris-2026-malaysia) untuk info lanjut.
 
 ### 5. Usahawan, Kreatif Tinggi & Kepakaran Domain 🚀 (Risiko: 8%)
 
@@ -141,7 +141,7 @@ Menurut laporan MauKerja, kemahiran paling dicari majikan 2026 termasuk **kemahi
 
 ### 3. Bina Portfolio & Networking
 
-Gelaran degree makin kurang nilai, portfolio makin naik harga. Bina projek, publish dekat LinkedIn, dan jaringan dengan orang dalam industri. Baca [panduan bina personal branding dari universiti](https://rakyathub.my/blog/bina-personal-branding-dari-universiti/) untuk start awal.
+Gelaran degree makin kurang nilai, portfolio makin naik harga. Bina projek, publish dekat LinkedIn, dan jaringan dengan orang dalam industri. Baca [panduan bina personal branding dari universiti](/bina-personal-branding-dari-universiti) untuk start awal.
 
 ### 4. Sediakan Resume Yang Mantap
 
@@ -149,11 +149,11 @@ Dalam era AI, resume kena menonjolkan **value yang korang boleh bawa** — bukan
 
 ### 5. Urus Kewangan & Rancang Kerjaya
 
-Kerjaya yang stabil bukan jaminan kewangan yang stabil. Bila dapat gaji baru atau naik pangkat, jangan terus upgrade lifestyle. Guna [Kalkulator Gaji Bersih](https://rakyathub.my/kalkulator/gaji-bersih/) untuk tahu exact berapa duit masuk bank lepas potongan. Baca [panduan cara kira gaji bersih](https://rakyathub.my/blog/cara-kira-gaji-bersih-panduan-potongan-kwsp-perkeso-pcb/) untuk detail.
+Kerjaya yang stabil bukan jaminan kewangan yang stabil. Bila dapat gaji baru atau naik pangkat, jangan terus upgrade lifestyle. Guna [Kalkulator Gaji Bersih](https://rakyathub.my/kalkulator/gaji-bersih/) untuk tahu exact berapa duit masuk bank lepas potongan. Baca [panduan cara kira gaji bersih](/cara-kira-gaji-bersih-panduan-potongan-kwsp-perkeso-pcb) untuk detail.
 
-Yang nak switch kerjaya ke bidang lebih selamat, panduan [tukar kerjaya lengkap Malaysia 2026](https://rakyathub.my/blog/panduan-lengkap-tukar-kerjaya-malaysia-2026/) boleh bantu korang plan peralihan dengan minat risiko.
+Yang nak switch kerjaya ke bidang lebih selamat, panduan [tukar kerjaya lengkap Malaysia 2026](/panduan-lengkap-tukar-kerjaya-malaysia-2026) boleh bantu korang plan peralihan dengan minat risiko.
 
-Kalau nak tambah pendapatan sambil belajar skill baru, cuba baca [7 side hustle paling laku Malaysia 2026](https://rakyathub.my/blog/7-side-hustle-paling-laku-malaysia-2026/) — modal bawah RM500 pun boleh start.
+Kalau nak tambah pendapatan sambil belajar skill baru, cuba baca [7 side hustle paling laku Malaysia 2026](/7-side-hustle-paling-laku-malaysia-2026) — modal bawah RM500 pun boleh start.
 
 ---
 
@@ -175,7 +175,7 @@ Tiga perkara yang perlu korang ingat:
 2. **Upgrade sekarang** — Jangan tunggu sampai dah kena retrenchment baru nak belajar
 3. **Guna AI sebagai alat** — Bukan lawan, tapi gandakan produktiviti dengan AI
 
-Dan yang paling penting, **jangan lupa urus kewangan**. Kerjaya apa pun, kalau tak pandai urus duit, akhirnya sama juga. Tengok [perbandingan industri paling prospek Malaysia 2026](https://rakyathub.my/blog/industri-paling-prospek-malaysia-2026/) untuk rujuk industri mana yang patut korang tumpu.
+Dan yang paling penting, **jangan lupa urus kewangan**. Kerjaya apa pun, kalau tak pandai urus duit, akhirnya sama juga. Tengok [perbandingan industri paling prospek Malaysia 2026](/industri-paling-prospek-malaysia-2026) untuk rujuk industri mana yang patut korang tumpu.
 
 📌 *Follow rakyathub.my untuk artikel terkini pasal kerjaya, kewangan, dan tips praktikal untuk anak muda Malaysia!*
 
@@ -193,7 +193,7 @@ Jangan panik — mula upskill sekarang. Kenal pasti kemahiran baru yang relevan 
 Doktor, jurutera AI/ML, pakar cybersecurity, guru, dan tukang mahir (elektrik, paip, mekanik) adalah antara yang paling selamat. Kerja-kerja yang perlukan sentuhan manusia, empati, kemahiran fizikal, dan pertimbangan etika sukar diganti AI.
 
 **4. Berapa gaji untuk kerja yang selamat daripada AI?**
-Gaji ikut bidang dan pengalaman. Doktor boleh dapat RM4,000–RM20,000+, jurutera AI RM6,000–RM20,000+, tukang mahir RM2,500–RM8,000+. Nak detail gaji ikut industri, baca [panduan gaji graduan mengikut industri](https://rakyathub.my/blog/gaji-graduan-mengikut-industri-2026/).
+Gaji ikut bidang dan pengalaman. Doktor boleh dapat RM4,000–RM20,000+, jurutera AI RM6,000–RM20,000+, tukang mahir RM2,500–RM8,000+. Nak detail gaji ikut industri, baca [panduan gaji graduan mengikut industri](/gaji-graduan-mengikut-industri-2026).
 
 **5. Macam mana nak buat resume untuk saingan era AI?**
 Guna pendekatan skills-based resume — bukan senarai tugas, tapi tonjolkan hasil dan impak yang korang bawa. Gunakan [DocuKilat](https://docukilat.rakyathub.my) untuk hasilkan resume profesional dengan template yang direka khas untuk standard industri 2026. Dalam zaman AI ni, cara korang bentang diri dalam resume adalah sama penting dengan skill korang sendiri.

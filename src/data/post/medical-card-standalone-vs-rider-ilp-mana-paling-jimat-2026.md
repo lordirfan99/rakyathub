@@ -134,10 +134,10 @@ ILP dengan medical card rider sesuai untuk:
 - **Kompleks** — ramai insured tak faham struktur ILP, termasuk yuran dan caj tersembunyi
 
 > 📚 **Nak ilmu lebih?** Baca artikel kami yang lain:
-> - [Medical Card vs Critical Illness — Apa Beza & Mana Korang Perlukan?](/blog/medical-card-vs-critical-illness-beza-perlukan/)
-> - [Inflasi Perubatan Malaysia 2026 — Kenapa Premium Naik & Cara Lindung Diri](/blog/inflasi-perubatan-malaysia-kenapa-premium-medical-card-naik/)
-> - [Panduan Medical Card Malaysia 2026 — First Time Buyer](/blog/panduan-medical-card-malaysia-2026-first-time-buyer/)
-> - [Cara Simpan Duit Gaji RM2,500 — Panduan Realistik](/blog/cara-simpan-duit-gaji-rm2500/)
+> - [Medical Card vs Critical Illness — Apa Beza & Mana Korang Perlukan?](/medical-card-vs-critical-illness-beza-perlukan)
+> - [Inflasi Perubatan Malaysia 2026 — Kenapa Premium Naik & Cara Lindung Diri](/inflasi-perubatan-malaysia-kenapa-premium-medical-card-naik)
+> - [Panduan Medical Card Malaysia 2026 — First Time Buyer](/panduan-medical-card-malaysia-2026-first-time-buyer)
+> - [Cara Simpan Duit Gaji RM2,500 — Panduan Realistik](/cara-simpan-duit-gaji-rm2500)
 
 ---
 
@@ -198,13 +198,13 @@ Berikut adalah sumber-sumber yang boleh korang rujuk untuk dapatkan maklumat leb
 - [Bank Negara Malaysia — Info Insurans & Takaful](https://www.bnm.gov.my/insurancetakaful) — panduan pengguna dari BNM
 
 **Internal Links (RakyatHub):**
-- [Panduan Medical Card Malaysia 2026 — First Time Buyer](/blog/panduan-medical-card-malaysia-2026-first-time-buyer/)
-- [Medical Card vs Critical Illness Insurance](/blog/medical-card-vs-critical-illness-beza-perlukan/)
-- [Inflasi Perubatan Malaysia 2026](/blog/inflasi-perubatan-malaysia-kenapa-premium-medical-card-naik/)
-- [Cara Simpan Duit Gaji RM2,500](/blog/cara-simpan-duit-gaji-rm2500/)
+- [Panduan Medical Card Malaysia 2026 — First Time Buyer](/panduan-medical-card-malaysia-2026-first-time-buyer)
+- [Medical Card vs Critical Illness Insurance](/medical-card-vs-critical-illness-beza-perlukan)
+- [Inflasi Perubatan Malaysia 2026](/inflasi-perubatan-malaysia-kenapa-premium-medical-card-naik)
+- [Cara Simpan Duit Gaji RM2,500](/cara-simpan-duit-gaji-rm2500)
 - [Kalkulator Gaji Bersih](/kalkulator/gaji-bersih/)
 - [Kalkulator DSR](/kalkulator/dsr/)
-- [Panduan Bajet 50/30/20](/blog/cadangan-bajet-50-30-20-di-malaysia/)
+- [Panduan Bajet 50/30/20](/cadangan-bajet-50-30-20-di-malaysia)
 
 ---
 

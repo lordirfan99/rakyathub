@@ -78,7 +78,7 @@ Dengan cara ini, anda memanfaatkan potensi tinggi Lump Sum sambil mengurangkan r
 - [🔗 Kalkulator Loan Rumah](/loan-rumah-calculator-kiraan-ansuran-perancangan-kewangan/)
 - [🔗 Panduan Carum KWSP Freelancer](/adakah-freelancer-boleh-carum-kwsp-sendiri/)
 - [🔗 Cara Beli Emas Public Gold](/cara-beli-emas-public-gold/)
-- [🔗 Risiko & Pulangan Robo-Advisor](/risiko-dan-pulangan-robo-advisor-di-malaysia/)
+- [🔗 Risiko & Pulangan Robo-Advisor](/risiko-dan-pulangan-robo-advisor-di-malaysia-2025)
 - [🔗 Panduan Pinjaman Shopee](/adakah-pinjaman-dari-shopee-boleh-dipercayai-panduan-2025/)
 
 * * *

@@ -105,8 +105,8 @@ Ringgit RM4.07 memang buat duit korang rasa sikit, tapi **ni bukan krisis**. Eko
 - Jangan buat keputusan kewangan secara panik
 
 Nak belajar lagi pasal cara bijak urus duit masa ekonomi tak menentu? Baca artikel-artikel lain:
-- [Cara Buat Bajet Bulanan](https://rakyathub.my/cara-buat-bajet-bulanan/)
-- [KWSP vs ASB Mana Lagi Untung](https://rakyathub.my/kwsp-vs-asb-mana-pilihan-terbaik-untuk-anda/)
-- [Side Hustle Untuk Tambah Pendapatan](https://rakyathub.my/side-hustle-serba-seri-untuk-meningkatkan-pendapatan/)
-- [Gaji × Budget RM3,500](https://rakyathub.my/gaji-rm3500-budget-bulanan-malaysia/)
+- [Cara Buat Bajet Bulanan]()
+- [KWSP vs ASB Mana Lagi Untung](/kwsp-vs-asb-vs-tabung-haji-banding)
+- [Side Hustle Untuk Tambah Pendapatan]()
+- [Gaji × Budget RM3,500]()
 - Nak dokumen penting diurus dengan selamat? Guna [DocuKilat](https://docukilat.rakyathub.my/) — platform pengurusan dokumen online paling trusted di Malaysia

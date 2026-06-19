@@ -69,7 +69,7 @@ Guna pinjaman ASB (RM50,000–RM200,000) untuk maksimumkan dividen:
 
 ## 💼 KWSP – Simpanan Persaraan Automatik
 
-KWSP adalah tulang belakang simpanan persaraan untuk pekerja Malaysia. Bagi pekerja formal, caruman adalah wajib. Tapi bagi freelancer, anda boleh gunakan [i-Saraan](/💼-adakah-freelancer-boleh-carum-kwsp-sendiri/).
+KWSP adalah tulang belakang simpanan persaraan untuk pekerja Malaysia. Bagi pekerja formal, caruman adalah wajib. Tapi bagi freelancer, anda boleh gunakan [i-Saraan](/adakah-freelancer-boleh-carum-kwsp-sendiri).
 
 ### Pecahan Akaun KWSP 2026
 

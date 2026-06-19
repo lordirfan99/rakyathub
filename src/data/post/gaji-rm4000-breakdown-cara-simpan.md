@@ -128,7 +128,7 @@ Kalau korang alihkan 30% (RM1,060) untuk deposit rumah dan simpanan keras lain, 
 
 Sebelum serius melabur, pastikan dana kecemasan dah cukup. Target asas: **3 bulan perbelanjaan = RM11,000-RM13,000**. Level selesa: **6 bulan = RM22,000-RM26,000**.
 
-Simpan dalam ASB (dividen tahunan 4-6%) — senang keluar bila emergency. Baca [panduan ASB fresh graduate](https://rakyathub.my/asb-untuk-fresh-graduate-2026/) kalau belum buka akaun.
+Simpan dalam ASB (dividen tahunan 4-6%) — senang keluar bila emergency. Baca [panduan ASB fresh graduate](/asb-untuk-fresh-graduate-2026-modal-kecil-jana-dividen) kalau belum buka akaun.
 
 ### 3. Pelaburan Jangka Panjang — Power of Compounding
 

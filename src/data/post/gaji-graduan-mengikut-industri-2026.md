@@ -71,7 +71,7 @@ Lepas tahu gaji kasar, jangan lupa kira **gaji bersih** yang akan masuk bank set
 
 Guna [Kalkulator Gaji Bersih](https://rakyathub.my/kalkulator/gaji-bersih/) untuk kira dengan tepat berapa gaji bersih anda. Tool ni tolong anda faham berapa duit yang actually masuk ke bank selepas semua potongan.
 
-Memandangkan gaji pertama anda akan mula dipotong KWSP, penting untuk tahu perkembangan terkini. Baca [panduan KWSP Malaysia 2025](https://rakyathub.my/blog/panduan-kwsp-malaysia-2025/) untuk faham cara dividen dan akaun KWSP berfungsi.
+Memandangkan gaji pertama anda akan mula dipotong KWSP, penting untuk tahu perkembangan terkini. Baca [panduan KWSP Malaysia 2025](/panduan-kwsp-malaysia-2025) untuk faham cara dividen dan akaun KWSP berfungsi.
 
 Jangan lupa gunakan [Kalkulator KWSP](https://rakyathub.my/kalkulator/kwsp/) untuk lihat projeksi simpanan persaraan anda — ni penting untuk motivasi menabung awal!
 
@@ -86,13 +86,13 @@ Skill dalam **AI, data analytics, dan digital marketing** amat laku keras sekara
 Ada portfolio atau GitHub yang aktif bagi anda kelebihan besar masa temuduga. Kalau nak mantapkan resume dan cover letter, guna [DocuKilat — Penjana Dokumen AI](https://docukilat.rakyathub.my) untuk hasilkan dokumen profesional dalam beberapa minit saja.
 
 ### ✅ 3. Berunding Gaji dengan Bijak
-Jangan malu nak negotiate. Tapi sebelum berunding, kena tahu market rate. Rujuk artikel [tips temuduga kerja fresh graduate](https://rakyathub.my/blog/tips-temuduga-kerja-fresh-graduate-malaysia/) untuk teknik runding gaji dan cara jawab soalan interview dengan confident.
+Jangan malu nak negotiate. Tapi sebelum berunding, kena tahu market rate. Rujuk artikel [tips temuduga kerja fresh graduate](/tips-temuduga-kerja-fresh-graduate-malaysia) untuk teknik runding gaji dan cara jawab soalan interview dengan confident.
 
 ### ✅ 4. Urus Kewangan dari Hari Pertama
-Gaji dah masuk, jangan terus belanja membabi buta. Baca [panduan cara urus duit gaji bawah RM3000](https://rakyathub.my/blog/urus-duit-gaji-bawah-rm3000/) dan [cara simpan duit gaji RM2500](https://rakyathub.my/blog/cara-simpan-duit-gaji-rm2500/) untuk mulakan tabiat kewangan yang bijak.
+Gaji dah masuk, jangan terus belanja membabi buta. Baca [panduan cara urus duit gaji bawah RM3000](/urus-duit-gaji-bawah-rm3000) dan [cara simpan duit gaji RM2500](/cara-simpan-duit-gaji-rm2500) untuk mulakan tabiat kewangan yang bijak.
 
 ### ✅ 5. Cari Pendapatan Sampingan
-Nak tambah pendapatan? Tengok [panduan kerja sampingan online Malaysia](https://rakyathub.my/blog/panduan-kerja-sampingan-online-malaysia/) untuk idea bisnes sampingan yang sesuai dengan fresh graduate.
+Nak tambah pendapatan? Tengok [panduan kerja sampingan online Malaysia](/panduan-kerja-sampingan-online-malaysia) untuk idea bisnes sampingan yang sesuai dengan fresh graduate.
 
 ## Kesimpulan
 

@@ -18,7 +18,7 @@ faq:
   - question: "Wajib ke ambil kursus atau sijil sebelum tukar kerjaya?"
     answer: "Tak wajib, tapi sangat disarankan. Sijil atau portfolio prove kepada majikan bahawa korang serius dengan career switch dan bukan sekadar \"cuba-cuba\". Banyak kursus percuma atau murah kat platform seperti HRD Corp e-Latih."
   - question: "Macam mana kalau gaji baru lebih rendah dari gaji lama?"
-    answer: "Ini normal untuk 6-12 bulan pertama. Tapi dengan perancangan kewangan yang betul, korang boleh survive. Guna [Kalkulator Bajet 50/30/20](https://rakyathub.my/kalkulator/bajet-50-30-20/) untuk pastikan perbelanjaan terkawal. Dalam jangka panjang, gaji di industri baru biasanya akan naik melebihi gaji asal dalam 1-2 tahun."
+    answer: "Ini normal untuk 6-12 bulan pertama. Tapi dengan perancangan kewangan yang betul, korang boleh survive. Guna [Kalkulator Bajet 50/30/20](/kalkulator) untuk pastikan perbelanjaan terkawal. Dalam jangka panjang, gaji di industri baru biasanya akan naik melebihi gaji asal dalam 1-2 tahun."
   - question: "Boleh ke tukar kerjaya lepas umur 35?"
     answer: "Ya, boleh! Ramai profesional buat career switch lewat — apa yang penting adalah attitude dan kemahiran baru. Tapi perlu strategi lebih mantap: leverage pengalaman lepas, pilih industri yang hargai pengalaman, dan bersedia untuk gaji setaraf junior."
   - question: "Industri apa yang paling mesra untuk career switcher di Malaysia?"
@@ -83,7 +83,7 @@ Berdasarkan data [Hays Asia Salary Guide 2026](https://www.hays.com.my/salary-gu
 - **Healthcare** — Medical devices, healthcare admin
 - **Digital Marketing** — Content creation, SEO, social media
 
-Untuk semak sama ada gaji di industri baru realistik dengan kos sara hidup korang, guna [Kalkulator Bajet 50/30/20](https://rakyathub.my/kalkulator/bajet-50-30-20/) untuk lihat sama ada pendapatan baru mencukupi.
+Untuk semak sama ada gaji di industri baru realistik dengan kos sara hidup korang, guna [Kalkulator Bajet 50/30/20](/kalkulator) untuk lihat sama ada pendapatan baru mencukupi.
 
 ### Langkah 3: Upgrade Skill & Certification
 
@@ -155,10 +155,10 @@ Career switch di Malaysia 2026 bukan sesuatu yang mustahil — tapi kena ada **s
 Yang penting: **rancang, bukan lari**. Jangan berhenti kerja impulsif, tapi buat persediaan rapi — upgrade skill, kemas kini resume, dan guna platform seperti [DocuKilat](https://docukilat.rakyathub.my) untuk hasilkan dokumen profesional.
 
 Untuk lebih banyak tips kerjaya dan kewangan, jangan lupa baca:
-- [Panduan gaji mengikut industri Malaysia 2026](https://rakyathub.my/blog/gaji-graduan-mengikut-industri-2026/)
-- [7 pekerjaan paling laris 2026](https://rakyathub.my/blog/7-pekerjaan-paling-laris-2026-malaysia/)
-- [Cara urus duit selepas dapat kerja baru](https://rakyathub.my/blog/urus-duit-gaji-bawah-rm3000/)
-- [Tips temuduga kerja untuk fresh graduate](https://rakyathub.my/blog/tips-temuduga-kerja-fresh-graduate-malaysia/)
+- [Panduan gaji mengikut industri Malaysia 2026](/gaji-graduan-mengikut-industri-2026)
+- [7 pekerjaan paling laris 2026](/7-pekerjaan-paling-laris-2026-malaysia)
+- [Cara urus duit selepas dapat kerja baru](/urus-duit-gaji-bawah-rm3000)
+- [Tips temuduga kerja untuk fresh graduate](/tips-temuduga-kerja-fresh-graduate-malaysia)
 
 **Kongsi artikel ni** dengan kawan-kawan yang tengah fikir sama ada nak tukar kerjaya atau takut nak buat perubahan. Ingat — kerjaya yang korang cintai tu mungkin cuma satu langkah berani dari sekarang!
 
@@ -171,7 +171,7 @@ Secara purata, **3 hingga 12 bulan** — termasuk masa belajar skill baru, cari 
 Tak wajib, tapi **sangat disarankan**. Sijil atau portfolio prove kepada majikan bahawa korang serius dengan career switch dan bukan sekadar "cuba-cuba". Banyak kursus percuma atau murah kat platform seperti HRD Corp e-Latih.
 
 ### 3. Macam mana kalau gaji baru lebih rendah dari gaji lama?
-Ini normal untuk 6-12 bulan pertama. Tapi dengan perancangan kewangan yang betul, korang boleh survive. Guna [Kalkulator Bajet 50/30/20](https://rakyathub.my/kalkulator/bajet-50-30-20/) untuk pastikan perbelanjaan terkawal. Dalam jangka panjang, gaji di industri baru biasanya akan naik melebihi gaji asal dalam 1-2 tahun.
+Ini normal untuk 6-12 bulan pertama. Tapi dengan perancangan kewangan yang betul, korang boleh survive. Guna [Kalkulator Bajet 50/30/20](/kalkulator) untuk pastikan perbelanjaan terkawal. Dalam jangka panjang, gaji di industri baru biasanya akan naik melebihi gaji asal dalam 1-2 tahun.
 
 ### 4. Boleh ke tukar kerjaya lepas umur 35?
 Ya, boleh! Ramai profesional buat career switch lewat — apa yang penting adalah **attitude dan kemahiran baru**. Tapi perlu strategi lebih mantap: leverage pengalaman lepas, pilih industri yang hargai pengalaman, dan bersedia untuk gaji setaraf junior.

@@ -82,7 +82,7 @@ Dari RM20,000 jadi RM25,830 dalam 5 tahun — tanpa kau buat apa-apa. Ini lah ku
 - Dividen diterima: 1,000 × RM0.20 = **RM200 tunai**
 - Berbeza dengan ASB/KWSP — dividen saham dibayar tunai terus ke bank
 
-Nak kira sendiri? Guna [kalkulator dividen ASB](https://rakyathub.my/kalkulator-asb/) atau [kalkulator KWSP](https://rakyathub.my/kalkulator-kwsp/) dekat RakyatHub.
+Nak kira sendiri? Guna [kalkulator dividen ASB](/kalkulator) atau [kalkulator KWSP](/kalkulator) dekat RakyatHub.
 
 ---
 
@@ -96,7 +96,7 @@ Dividen ni **penting sangat** untuk young professional Malaysia sebab:
 
 3. **Dividen KWSP bantu persaraan** — RM50,000 dapat RM3,150 setahun tanpa perlu buat apa-apa. Bayangkan kalau ada RM500,000 — dividen tahunan RM31,500!
 
-Guna [calculator compounding](https://rakyathub.my/kalkulator-compound/) untuk tengok berapa banyak dividen korang boleh dapat dalam 10-20 tahun. Memang terkejut beb!
+Guna [calculator compounding](/kalkulator) untuk tengok berapa banyak dividen korang boleh dapat dalam 10-20 tahun. Memang terkejut beb!
 
 ---
 
@@ -117,7 +117,7 @@ Guna [calculator compounding](https://rakyathub.my/kalkulator-compound/) untuk t
 **"Dividen tinggi tak semestinya untung."** 
 
 Ramai fikir dividen 6% lebih bagus dari 5%. Tapi korang kena tengok juga:
-1. **Inflation** — Kalau dividen 5% tapi inflasi 4%, untung sebenar korang cuma 1% je. Baca [artikel inflasi kami](https://rakyathub.my/inflasi-malaysia-april-1.9-peratus-lindung-duit-2026/) untuk lebih faham.
+1. **Inflation** — Kalau dividen 5% tapi inflasi 4%, untung sebenar korang cuma 1% je. Baca [artikel inflasi kami](/inflasi-malaysia-april-19-peratus-lindung-duit-2026) untuk lebih faham.
 2. **Modal dilindungi ke tak?** — ASB ada modal dijamin (dividend tak tetap). Saham dividen tinggi boleh jatuh harga — rugi modal lagi besar dari dividen dapat.
 3. **Dividen KWSP belum tentu** — Pendapatan KWSP suku pertama 2026 melonjak 51%, tapi dividen akhir tahun bergantung pada banyak faktor. Jangan buat keputusan kewangan besar semata-mata expect dividen tinggi.
 
@@ -133,6 +133,6 @@ Dividen adalah kawan baik korang dalam dunia pelaburan. Ia memberikan pulangan t
 
 Kalau nak mula, tak perlu banyak-banyak. RM100 sebulan dalam ASB dah boleh. Setahun dapat dividen RM60-RM70. Tak banyak? Letak 5 tahun compounding — baru nampak power dia.
 
-Untuk baca lebih lanjut, tengok [perbandingan KWSP vs ASB vs Tabung Haji](https://rakyathub.my/kwsp-vs-asb-vs-tabung-haji-banding/) atau [panduan pelaburan asas](https://rakyathub.my/❓-pelaburan-asas-asb-kwsp-dca-apa-pilihan-terbaik-untuk-rakyat-malaysia/).
+Untuk baca lebih lanjut, tengok [perbandingan KWSP vs ASB vs Tabung Haji](https://rakyathub.my/kwsp-vs-asb-vs-tabung-haji-banding/) atau [panduan pelaburan asas](/pelaburan-asas-asb-kwsp-dca-apa-pilihan-terbaik-untuk-rakyat-malaysia).
 
 📌 *Jangan lupa bookmark [rakyathub.my](https://rakyathub.my) untuk lebih banyak tips kewangan!*

@@ -105,7 +105,7 @@ Berdasarkan data dari **RinggitPlus** dan **iMoney**, berikut perbandingan pelan
 Penunggang motor, rider Foodpanda/Grab/ShopeeFood — risiko kemalangan jalan raya tinggi. SOCSO ada, tapi coverage terhad. PA bagi lapisan perlindungan tambahan.
 
 ### 👨‍👩‍👧‍👦 Ibu Bapa Dengan Anak Kecil
-Kalau jadi sesuatu pada korang, siapa nak tampung anak? PA pastikan ada duit untuk keluarga teruskan hidup. Baca [panduan persediaan kewangan keluarga](/persediaan-kewangan-keluarga-malaysia/) untuk detail.
+Kalau jadi sesuatu pada korang, siapa nak tampung anak? PA pastikan ada duit untuk keluarga teruskan hidup. Baca [panduan persediaan kewangan keluarga](/persediaan-kewangan-ibu-bapa-baru-malaysia) untuk detail.
 
 ### 🏋️ Individu Aktif & Sukan
 Yang selalu main futsal, badminton, hiking, atau sukan lasak — risiko kemalangan lebih tinggi. Ada polisi PA khas yang cover aktiviti lasak.

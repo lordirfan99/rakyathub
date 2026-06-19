@@ -157,14 +157,14 @@ Sumber: [RinggitPlus — Best Takaful Medical Cards Malaysia 2026](https://ringg
 
 Nak lagi banyak tips insurans, takaful & kewangan? Jom baca artikel-artikel kami yang lain:
 
-- [Premium Insurans Perubatan Makin Mahal 2026? — 5 Cara Bijak Kekal Lindung](/blog/premium-insurans-perubatan-naik-2026-alternatif-mhit/)
-- [Pelan Base MHIT 2026 — Insurans Perubatan Mampu Milik RM50 Sebulan](/blog/base-mhit-plan-insurans-kerajaan-2026/)
-- [Inflasi Perubatan Malaysia 2026 Cecah 16% — Kenapa Premium Medical Card Naik](/blog/inflasi-perubatan-malaysia-16-peratus-2026/)
-- [Takaful vs Insurans Hayat — Mana Pilihan Terbaik?](/blog/takaful-vs-insurans-hayat-mana-pilihan-terbaik-perlindungan-anda/)
-- [Insurans & Takaful untuk Pekerja Gig di Malaysia 2026](/blog/insurans-dan-takaful-pekerja-gig-malaysia-2026/)
-- [Insurans Hayat vs Insurans Perubatan — Apa Beza?](/blog/insurans-hayat-vs-insurans-perubatan-beza-mana-sesuai/)
-- [Cara Simpan Duit Gaji RM2,500 — Panduan Realistik](/blog/cara-simpan-duit-gaji-rm2500/)
-- [Panduan Bajet 50/30/20 di Malaysia](/blog/cadangan-bajet-50-30-20-di-malaysia/)
+- [Premium Insurans Perubatan Makin Mahal 2026? — 5 Cara Bijak Kekal Lindung](/premium-insurans-perubatan-naik-2026-alternatif-mhit)
+- [Pelan Base MHIT 2026 — Insurans Perubatan Mampu Milik RM50 Sebulan](/base-mhit-plan-insurans-kerajaan-2026)
+- [Inflasi Perubatan Malaysia 2026 Cecah 16% — Kenapa Premium Medical Card Naik](/blog)
+- [Takaful vs Insurans Hayat — Mana Pilihan Terbaik?](/takaful-vs-insurans-hayat-mana-pilihan-terbaik-perlindungan-anda)
+- [Insurans & Takaful untuk Pekerja Gig di Malaysia 2026](/blog)
+- [Insurans Hayat vs Insurans Perubatan — Apa Beza?](/insurans-hayat-vs-insurans-perubatan-beza-mana-sesuai)
+- [Cara Simpan Duit Gaji RM2,500 — Panduan Realistik](/cara-simpan-duit-gaji-rm2500)
+- [Panduan Bajet 50/30/20 di Malaysia](/cadangan-bajet-50-30-20-di-malaysia)
 
 **Kalkulator berguna:**
 - [Kalkulator Gaji Bersih](/kalkulator/gaji-bersih/) — tahu potongan gaji sebenar korang
@@ -208,7 +208,7 @@ Guna formula mudah: **3-5 tahun pendapatan tahunan korang**. Contoh gaji RM5,000
 
 ### 5. Kalau saya dah ada penyakit sedia ada, boleh apply tak?
 
-Ada plan tertentu yang masih menerima walaupun ada pre-existing condition — contohnya **Pelan Base MHIT** yang dirancang BNM (pilot H2 2026, pelancaran awal 2027). Plan ni tak akan soal pre-existing condition (no look-back). Tapi untuk CI standalone, biasanya pre-existing condition akan dikecualikan dalam polisi. Baca lebih lanjut: [Pelan Base MHIT 2026](/blog/base-mhit-plan-insurans-kerajaan-2026/).
+Ada plan tertentu yang masih menerima walaupun ada pre-existing condition — contohnya **Pelan Base MHIT** yang dirancang BNM (pilot H2 2026, pelancaran awal 2027). Plan ni tak akan soal pre-existing condition (no look-back). Tapi untuk CI standalone, biasanya pre-existing condition akan dikecualikan dalam polisi. Baca lebih lanjut: [Pelan Base MHIT 2026](/base-mhit-plan-insurans-kerajaan-2026).
 
 ### 6. Boleh claim CI sekali je atau berkali-kali?
 

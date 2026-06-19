@@ -113,7 +113,7 @@ Subsidi minyak Malaysia pernah mencecah RM7.5 bilion sebulan — angka yang dahs
 **Apa tindakan kau?** Mula dengan semak kelayakan BUDI95, optimize pemanduan, dan paling penting — jangan panik dengan setiap berita yang viral.
 
 Nak faham lebih lanjut tentang pengurusan kewangan peribadi? Baca artikel-artikel lain:
-→ [Panduan Lengkap BUDI95 & Subsidi RON95](https://rakyathub.my/panduan-lengkap-budi-95-subsidi-ron95/)
-→ [Gaji RM3,500 Sebulan — Cara Urus Ikut 50/30/20](https://rakyathub.my/gaji-rm3500/)
-→ [Cara Kira Gaji Bersih Selepas KWSP & SOCSO](https://rakyathub.my/kira-gaji-bersih/)
+→ [Panduan Lengkap BUDI95 & Subsidi RON95]()
+→ [Gaji RM3,500 Sebulan — Cara Urus Ikut 50/30/20](/gaji-rm3500-breakdown-realistik)
+→ [Cara Kira Gaji Bersih Selepas KWSP & SOCSO](/cara-kira-gaji-bersih-panduan-potongan-kwsp-perkeso-pcb)
 → [Daftar surat kuasa wakil untuk urusan bank dengan DocuKilat](https://docukilat.rakyathub.my)

@@ -97,7 +97,7 @@ Plan takaful/insurans yang baik akan cover sampai **umur 99 atau 100 tahun**. Ja
 
 ### 4. Pre-Existing Condition
 
-Ada plan tak cover langsung pre-existing condition. Ada yang cover lepas 2-3 tahun (moratorium). Plan Base MHIT kerajaan contohnya ada konsep **no look-back** — langsung tak soal pre-existing condition. Baca detail penuh dalam artikel kami: [Pelan Base MHIT 2026 — Insurans Perubatan Mampu Milik RM50 Sebulan](/blog/base-mhit-plan-insurans-kerajaan-2026/).
+Ada plan tak cover langsung pre-existing condition. Ada yang cover lepas 2-3 tahun (moratorium). Plan Base MHIT kerajaan contohnya ada konsep **no look-back** — langsung tak soal pre-existing condition. Baca detail penuh dalam artikel kami: [Pelan Base MHIT 2026 — Insurans Perubatan Mampu Milik RM50 Sebulan](/base-mhit-plan-insurans-kerajaan-2026).
 
 ### 5. Deduktibel & Co-Payment
 
@@ -138,12 +138,12 @@ Kami dah research dari sumber-sumber sahih untuk pastikan info dalam artikel ni 
 
 Nak lagi banyak tips kewangan dan insurans? Jom baca artikel-artikel kami yang lain:
 
-- [Pelan Base MHIT 2026 — Insurans Perubatan Mampu Milik RM50 Sebulan](/blog/base-mhit-plan-insurans-kerajaan-2026/) — alternatif bajet rendah untuk perlindungan asas
-- [Gaji RM3,500 Sebulan — Macam Mana Nak Hidup & Jimat Duit?](/blog/gaji-rm3500-breakdown-realistik/) — panduan bajet bulanan yang realistik
-- [Panduan Bajet 50/30/20 di Malaysia — Cara Urus Gaji Setiap Bulan](/blog/cadangan-bajet-50-30-20-di-malaysia/) — kaedah bajet paling mudah untuk anak muda
-- [Cara Simpan Duit Gaji RM2,500](/blog/cara-simpan-duit-gaji-rm2500/) — tips jimat untuk fresh graduate
-- [ASB Loan vs Simpan Biasa — Mana Lebih Untung 2026?](/blog/asb-loan-vs-simpan-biasa-mana-lebih-untung-2026/) — banding pulangan pelaburan ASB
-- [Panduan SSPN 2026 — Cara Buka Akaun & Pelepasan Cukai](/blog/panduan-sspn-2026-simpanan-pendidikan-pelepasan-cukai/) — simpanan pendidikan dengan pelepasan cukai RM8,000
+- [Pelan Base MHIT 2026 — Insurans Perubatan Mampu Milik RM50 Sebulan](/base-mhit-plan-insurans-kerajaan-2026) — alternatif bajet rendah untuk perlindungan asas
+- [Gaji RM3,500 Sebulan — Macam Mana Nak Hidup & Jimat Duit?](/gaji-rm3500-breakdown-realistik) — panduan bajet bulanan yang realistik
+- [Panduan Bajet 50/30/20 di Malaysia — Cara Urus Gaji Setiap Bulan](/cadangan-bajet-50-30-20-di-malaysia) — kaedah bajet paling mudah untuk anak muda
+- [Cara Simpan Duit Gaji RM2,500](/cara-simpan-duit-gaji-rm2500) — tips jimat untuk fresh graduate
+- [ASB Loan vs Simpan Biasa — Mana Lebih Untung 2026?](/asb-loan-vs-simpan-biasa-mana-lebih-untung-2026) — banding pulangan pelaburan ASB
+- [Panduan SSPN 2026 — Cara Buka Akaun & Pelepasan Cukai](/panduan-sspn-2026-simpanan-pendidikan-pelepasan-cukai) — simpanan pendidikan dengan pelepasan cukai RM8,000
 
 **Kalkulator berguna:**
 - [Kalkulator DSR (Debt Service Ratio)](/kalkulator/dsr/) — tahu kemampuan korang buat loan

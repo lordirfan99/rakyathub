@@ -55,7 +55,7 @@ Simpanan ASB sangat sesuai dijadikan tabung pendidikan, persaraan, atau dana kec
 
 ## Banding Dengan Instrumen Lain
 
-Bagi mereka yang ingin membandingkan ASB dengan instrumen lain seperti Tabung Haji, FD, atau saham pasaran terbuka, sila rujuk artikel kami: [ASB vs Fixed Deposit – Mana Lebih Untung?](/fixed-deposit-vs-asb).
+Bagi mereka yang ingin membandingkan ASB dengan instrumen lain seperti Tabung Haji, FD, atau saham pasaran terbuka, sila rujuk artikel kami: [ASB vs Fixed Deposit – Mana Lebih Untung?]().
 
 ## Langkah Mula Simpanan ASB
 

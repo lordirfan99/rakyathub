@@ -135,13 +135,13 @@ Kalau nak murah, **standalone medical card** adalah pilihan. Harga bermula **RM4
 | Risiko | Premium naik ikut umur | Premium naik + pelaburan mungkin rugi |
 | Kesesuaian | Fresh grad, freelancer | Ada bajet lebih, nak simpanan sekali |
 
-Nak tahu lebih lanjut pasal standalone vs ILP? Korang boleh baca artikel kami [Panduan Medical Card Malaysia 2026 — First Time Buyer](/blog/panduan-medical-card-malaysia-2026-first-time-buyer/) untuk perbandingan lebih detail.
+Nak tahu lebih lanjut pasal standalone vs ILP? Korang boleh baca artikel kami [Panduan Medical Card Malaysia 2026 — First Time Buyer](/panduan-medical-card-malaysia-2026-first-time-buyer) untuk perbandingan lebih detail.
 
 ### 4. Guna Pelan Base MHIT (Alternatif Kerajaan)
 
 Kerajaan dengan BNM tengah bangunkan **Base MHIT** — pelan insurans perubatan asas dengan premium mampu milik. Tahun 2026 ni, konsep ni dah mula diperkenalkan. Premium dijangka serendah **RM50 sebulan**, tiada semakan perubatan, dan ada klausa **no look-back** untuk pre-existing condition.
 
-Baca panduan lengkap: [Pelan Base MHIT 2026 — Insurans Perubatan Mampu Milik RM50 Sebulan](/blog/base-mhit-plan-insurans-kerajaan-2026/)
+Baca panduan lengkap: [Pelan Base MHIT 2026 — Insurans Perubatan Mampu Milik RM50 Sebulan](/base-mhit-plan-insurans-kerajaan-2026)
 
 ### 5. Optimumkan Cukai
 
@@ -171,11 +171,11 @@ Medical card bukan ganti dana kecemasan. Kalau ada co-payment 10% pada bil RM50,
 
 Nak dalami lagi pasal perlindungan kewangan? Jom baca artikel-artikel kami yang lain:
 
-- [Medical Card vs Critical Illness Insurance — Apa Beza & Mana Satu Korang Perlukan?](/blog/medical-card-vs-critical-illness-beza-perlukan/)
-- [Takaful vs Insurans Hayat — Mana Pilihan Terbaik untuk Perlindungan Anda?](/blog/takaful-vs-insurans-hayat-mana-pilihan-terbaik-perlindungan-anda/)
-- [Panduan Bajet 50/30/20 di Malaysia — Cara Urus Gaji Setiap Bulan](/blog/cadangan-bajet-50-30-20-di-malaysia/)
-- [Cara Simpan Duit Gaji RM2,500 — Panduan Realistik](/blog/cara-simpan-duit-gaji-rm2500/)
-- [Panduan SSPN 2026 — Cara Buka Akaun & Pelepasan Cukai](/blog/panduan-sspn-2026-simpanan-pendidikan-pelepasan-cukai/)
+- [Medical Card vs Critical Illness Insurance — Apa Beza & Mana Satu Korang Perlukan?](/medical-card-vs-critical-illness-beza-perlukan)
+- [Takaful vs Insurans Hayat — Mana Pilihan Terbaik untuk Perlindungan Anda?](/takaful-vs-insurans-hayat-mana-pilihan-terbaik-perlindungan-anda)
+- [Panduan Bajet 50/30/20 di Malaysia — Cara Urus Gaji Setiap Bulan](/cadangan-bajet-50-30-20-di-malaysia)
+- [Cara Simpan Duit Gaji RM2,500 — Panduan Realistik](/cara-simpan-duit-gaji-rm2500)
+- [Panduan SSPN 2026 — Cara Buka Akaun & Pelepasan Cukai](/panduan-sspn-2026-simpanan-pendidikan-pelepasan-cukai)
 
 **Kalkulator berguna:**
 - [Kalkulator DSR (Debt Service Ratio)](/kalkulator/dsr/) — tahu kemampuan komitmen bulanan

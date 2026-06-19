@@ -73,7 +73,7 @@ Tapi mindset bijak, duit kecik bertambah jadi besar:
 2. **Lebih 14,000 ATM dah jadi "ATM korang"** — tak perlu pusing cari bank sendiri
 3. **Kurang stress** — tak perlu ingat-ingat yang mana bank apa
 
-Yang bestnya, inisiatif ni datang masa ramai rakyat Malaysia tengah usaha **perbaiki skor kredit** dan urus **[hutang dengan bijak](/panduan-urus-langsaikan-hutang-bijak/)**. Setiap ringgit yang disimpan membantu.
+Yang bestnya, inisiatif ni datang masa ramai rakyat Malaysia tengah usaha **perbaiki skor kredit** dan urus **[hutang dengan bijak](/panduan-urus-langsaikan-hutang-bijak-2026)**. Setiap ringgit yang disimpan membantu.
 
 ### 🔧 Langkah Konkrit
 
@@ -91,7 +91,7 @@ Yang bestnya, inisiatif ni datang masa ramai rakyat Malaysia tengah usaha **perb
 |-----------|-------------------|
 | 🚫 Fikir "RM1 jek" ambil mudah | 60 kali setahun = RM60 — boleh beli data internet seminggu |
 | 🚫 Lupa ada had pengeluaran harian/harian | ATM still ada limit, percuma tak bermakna unlimited amount |
-| 🚫 Terlebih guna tunai | Digital payment still better untuk track perbelanjaan — guna app macam **[panduan keselamatan perbankan online](/panduan-keselamatan-perbankan-online/)** |
+| 🚫 Terlebih guna tunai | Digital payment still better untuk track perbelanjaan — guna app macam **[panduan keselamatan perbankan online](/panduan-keselamatan-perbankan-online-2026)** |
 | 🚫 Tak update limit kad | Kalau limit rendah, terpaksa buat banyak transaksi — buang masa |
 
 ### ✅ Kesimpulan
@@ -106,4 +106,4 @@ Pemansuhan caj RM1 antara bank ni langkah kecil tapi impak besar untuk rakyat.
 
 Untuk urusan dokumen peribadi dan perbankan, **[DocuKilat](https://docukilat.rakyathub.my)** boleh tolong uruskan surat-surat penting korang dengan cepat.
 
-Nak tahu lebih lanjut pasal kewangan peribadi? Baca **[panduan lengkap urus langsaikan hutang](/panduan-urus-langsaikan-hutang-bijak/)** dan **[panduan bina skor kredit](/panduan-faham-bina-skor-kredit-ccris-ctos-malaysia/)** untuk manfaatkan setiap ringgit yang korang jimat.
+Nak tahu lebih lanjut pasal kewangan peribadi? Baca **[panduan lengkap urus langsaikan hutang](/panduan-urus-langsaikan-hutang-bijak-2026)** dan **[panduan bina skor kredit](/panduan-faham-bina-skor-kredit-ccris-ctos-malaysia/)** untuk manfaatkan setiap ringgit yang korang jimat.

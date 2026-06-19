@@ -7,7 +7,7 @@ plugins = []
 publish = "C:\\Users\\irfan\\rakyathub\\dist"
 publishOrigin = "config"
 commandOrigin = "config"
-command = "npm run build"
+command = "python3 scripts/fetch-income-data.py && npm run build"
 functions = "C:\\Users\\irfan\\rakyathub\\netlify\\functions"
 
 [build.environment]

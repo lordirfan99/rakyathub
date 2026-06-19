@@ -80,7 +80,7 @@ Cara jimat:
 
 ### 4. ✅ Cari Sumber Pendapatan Tambahan
 
-Ini bukan cadangan 'get rich quick'. Tapi realitinya, gaji sorang selalunya tak cukup nak kejar inflasi. Lihat pilihan **[kerja sampingan online](/kerja-sampingan-online-dropship-affiliate-freelance/)** yang fleksibel:
+Ini bukan cadangan 'get rich quick'. Tapi realitinya, gaji sorang selalunya tak cukup nak kejar inflasi. Lihat pilihan **[kerja sampingan online]()** yang fleksibel:
 
 - **Affiliate marketing** — promote produk guna media sosial
 - **Dropship** — modal kecil, risiko rendah

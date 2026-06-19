@@ -134,7 +134,7 @@ Sediakan dokumen berikut untuk mempercepat proses:
 5. **Borang pengesahan majikan** — Untuk sesetengah bank
 6. **Kakitangan kerajaan** — Slip gaji dengan potongan Biro Angkasa
 
-> ⚠️ **Awas Scam Pinjaman!** Jangan bayar apa-apa yuran pendahuluan untuk memohon pinjaman. Yuran pemprosesan hanya akan dipotong dari jumlah kelulusan, bukan dibayar awal. Bank yang sah TIDAK pernah minta bayaran melalui pindahan akaun peribadi atau e-wallet. Kalau ada pihak minta bayaran dulu, laporkan ke [BNM](/scam-pinjaman-online-2026-cara-elak/) atau polis.
+> ⚠️ **Awas Scam Pinjaman!** Jangan bayar apa-apa yuran pendahuluan untuk memohon pinjaman. Yuran pemprosesan hanya akan dipotong dari jumlah kelulusan, bukan dibayar awal. Bank yang sah TIDAK pernah minta bayaran melalui pindahan akaun peribadi atau e-wallet. Kalau ada pihak minta bayaran dulu, laporkan ke [BNM](/scam-cinta-online-2026-red-flag-elak-ditipu) atau polis.
 
 ## 🔍 Cara Dapat Kadar Terendah
 

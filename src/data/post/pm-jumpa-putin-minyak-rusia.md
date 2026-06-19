@@ -102,6 +102,6 @@ Perkembangan minggu ini — lawatan PM ke Russia + perjanjian damai US-Iran — 
 
 Tapi jangan leka. Harga minyak global masih rapuh. Konflik di Asia Barat dan Eropah Timur masih belum selesai sepenuhnya. Guna peluang ini untuk **betulkan tabiat perbelanjaan minyak** dan **simpan lebihan duit**.
 
-Nak belajar lebih lanjut pasal pengurusan kewangan? Baca artikel [Tips Jimat Minyak Kereta](/tips-jimat-minyak-kereta/), [Kos Sara Hidup Malaysia 2026](/realiti-kos-sara-hidup-malaysia-2026-gaji-vs-belanja/), atau cuba [Kalkulator KWSP](/kalkulator/kwsp/) untuk lihat kesan simpanan terhadap masa depan korang. Artikel [Harga Minyak Kekal Jun 2026](/harga-minyak-kekal-jun-2026/) ada info lanjut pasal subsidi minyak.
+Nak belajar lebih lanjut pasal pengurusan kewangan? Baca artikel [Tips Jimat Minyak Kereta](/tips-jimat-minyak-kereta-malaysia), [Kos Sara Hidup Malaysia 2026](/realiti-kos-sara-hidup-malaysia-2026-gaji-vs-belanja/), atau cuba [Kalkulator KWSP](/kalkulator/kwsp/) untuk lihat kesan simpanan terhadap masa depan korang. Artikel [Harga Minyak Kekal Jun 2026](/harga-minyak-kekal-jun-2026/) ada info lanjut pasal subsidi minyak.
 
 **[DocuKilat](https://docukilat.rakyathub.my)** — urus dokumen kereta dan insurans secara online, jimat masa dan duit!

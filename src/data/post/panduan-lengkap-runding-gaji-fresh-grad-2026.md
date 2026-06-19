@@ -239,5 +239,5 @@ Gaji tinggi sikit awal-awal, effect compounding dia besar untuk tahun-tahun akan
 **Kongsi artikel ni** dengan kawan-kawan fresh graduate yang baru dapat panggilan interview. Semoga korang dapat gaji yang terbaik!
 
 *Untuk lebih tips kewangan dan kerjaya, jangan lupa baca artikel kami yang lain:* 
-- [Tips temuduga kerja untuk fresh graduate](/blog/tips-temuduga-kerja-fresh-graduate-malaysia/) — persediaan interview lengkap
-- [Cara kira gaji bersih](/blog/cara-kira-gaji-bersih-panduan-potongan-kwsp-perkeso-pcb/) — faham potongan gaji bulanan
+- [Tips temuduga kerja untuk fresh graduate](/tips-temuduga-kerja-fresh-graduate-malaysia) — persediaan interview lengkap
+- [Cara kira gaji bersih](/cara-kira-gaji-bersih-panduan-potongan-kwsp-perkeso-pcb) — faham potongan gaji bulanan

@@ -38,7 +38,7 @@ Tapi sebelum korang bawa cincin emas ke kaunter Ar-Rahnu, ada banyak benda kena 
 
 Ar-Rahnu adalah skim pajak gadai Islam yang dikendalikan oleh **Bank Negara Malaysia** (BNM) dan pelbagai institusi kewangan patuh Syariah. Antaranya:
 
-| Operator Ar-Rahnu | Margin Pinjaman | Upah Simpan (/RM100 nilai marhun) |
+| Operator Ar-Rahnu | Margin Pinjaman | Upah Simpan () |
 |------------------|----------------|----------------------------------|
 | Bank Rakyat | 65-70% | RM0.65 - RM0.75/bulan |
 | YaPEIM | 80% (maks RM5k/SAG) | RM0.75/bulan |

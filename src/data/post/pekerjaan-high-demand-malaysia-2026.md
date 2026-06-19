@@ -151,15 +151,15 @@ Kalau anda bercadang nak masuk salah satu bidang high demand ni, ini antara lang
 
 **4. Bina Network** — Jangan malu reach out dekat orang dalam industri. LinkedIn adalah platform paling power untuk networking kerjaya.
 
-**5. Urus Kewangan Dengan Bijak** — Dapat kerja baru, jangan terus boros. Baca [panduan cara urus duit gaji bawah RM3000](https://rakyathub.my/blog/urus-duit-gaji-bawah-rm3000/) untuk mulakan kewangan yang sihat.
+**5. Urus Kewangan Dengan Bijak** — Dapat kerja baru, jangan terus boros. Baca [panduan cara urus duit gaji bawah RM3000](/urus-duit-gaji-bawah-rm3000) untuk mulakan kewangan yang sihat.
 
 **6. Guna Kalkulator Gaji** — Sebelum terima offer apa-apa, guna [Kalkulator Gaji Bersih](https://rakyathub.my/kalkulator/gaji-bersih/) untuk tahu berapa actually gaji yang akan masuk bank selepas potongan KWSP, PERKESO, dan PCB.
 
-Untuk fresh graduate yang baru nak start cari kerja, jangan lupa baca [tips temuduga kerja fresh graduate](https://rakyathub.my/blog/tips-temuduga-kerja-fresh-graduate-malaysia/) dan panduan [gaji ikut industri di Malaysia](https://rakyathub.my/blog/gaji-graduan-mengikut-industri-2026/) untuk rujukan lengkap.
+Untuk fresh graduate yang baru nak start cari kerja, jangan lupa baca [tips temuduga kerja fresh graduate](/tips-temuduga-kerja-fresh-graduate-malaysia) dan panduan [gaji ikut industri di Malaysia](/gaji-graduan-mengikut-industri-2026) untuk rujukan lengkap.
 
 Kalau nak kira potensi simpanan persaraan dengan gaji baru, guna [Kalkulator KWSP](https://rakyathub.my/kalkulator/kwsp/) untuk unjurkan berapa banyak duit persaraan boleh dikumpul.
 
-Dan untuk yang tengah plan nak tambah pendapatan, antara cara paling practical adalah buat side hustle. Baca [panduan kerja sampingan online Malaysia](https://rakyathub.my/blog/panduan-kerja-sampingan-online-malaysia/) untuk dapatkan idea.
+Dan untuk yang tengah plan nak tambah pendapatan, antara cara paling practical adalah buat side hustle. Baca [panduan kerja sampingan online Malaysia](/panduan-kerja-sampingan-online-malaysia) untuk dapatkan idea.
 
 ---
 

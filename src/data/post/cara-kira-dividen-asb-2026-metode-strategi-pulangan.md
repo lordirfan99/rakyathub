@@ -197,7 +197,7 @@ Setiap anak layak ASB dengan had RM300,000 sendiri. Buka sejak lahir — dividen
 - [Muat Turun myASNB](https://www.asnb.com.my/myasnb.php)
 - [Kalkulator Simpanan ASB](/kalkulator/asb/)
 - [Panduan ASB Untuk Fresh Graduate](/asb-untuk-fresh-graduate-2026-modal-kecil-jana-dividen/)
-- [ASB vs KWSP vs Emas — Perbandingan Pelaburan](/❓-pelaburan-asas-asb-kwsp-dca-apa-pilihan-terbaik-untuk-rakyat-malaysia/)
+- [ASB vs KWSP vs Emas — Perbandingan Pelaburan](/pelaburan-asas-asb-kwsp-dca-apa-pilihan-terbaik-untuk-rakyat-malaysia)
 
 ---
 

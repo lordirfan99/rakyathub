@@ -124,8 +124,8 @@ Tunggu result sambil terus apply dan pergi interview lain. Jangan letak semua ha
 Yang penting, jadi diri sendiri, jujur, dan tunjuk semangat nak belajar. Majikan lebih suka fresh graduate yang ada **attitude positif dan kemahuan nak maju** dari calon yang over-qualified tapi sombong.
 
 Untuk lebih banyak tips kerjaya dan pengurusan kewangan untuk fresh graduate, jangan lupa baca juga:
-- [Cara urus duit gaji bawah RM3000](https://rakyathub.my/blog/urus-duit-gaji-bawah-rm3000/) — panduan kewangan untuk pekerja baru
-- [Panduan kerja sampingan online Malaysia](https://rakyathub.my/blog/panduan-kerja-sampingan-online-malaysia/) — tambah pendapatan selepas kerja
+- [Cara urus duit gaji bawah RM3000](/urus-duit-gaji-bawah-rm3000) — panduan kewangan untuk pekerja baru
+- [Panduan kerja sampingan online Malaysia](/panduan-kerja-sampingan-online-malaysia) — tambah pendapatan selepas kerja
 
 **Kongsi artikel ni** dengan kawan-kawan yang tengah siap sedia untuk interview. Semoga berjaya dalam temuduga!
 

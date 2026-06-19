@@ -22,7 +22,7 @@ faq:
   - question: "Industri apa paling senang cari kerja remote?"
     answer: "Teknologi maklumat (IT) — terutama software development, data analytics, dan cybersecurity. Lepas tu digital marketing, graphic design, dan content creation. Untuk fresh graduate, bidang customer support dan virtual assistant pun banyak buka peluang remote — gaji starting RM2,500–RM3,500."
   - question: "Macam mana nak tahu majikan remote tu scam?"
-    answer: "Tanda-tanda scam: (1) minta bayaran deposit atau yuran pendaftaran, (2) gaji terlalu tinggi tanpa pengalaman, (3) takde interview langsung, (4) takde kontrak atau surat tawaran rasmi. Jangan sesekali transfer duit pada mana-mana majikan. Baca [panduan elak scam pinjaman dan kerja online](/📘-cara-elak-scam-pinjaman-online-panduan-lengkap-tips-selamat/) untuk info lanjut."
+    answer: "Tanda-tanda scam: (1) minta bayaran deposit atau yuran pendaftaran, (2) gaji terlalu tinggi tanpa pengalaman, (3) takde interview langsung, (4) takde kontrak atau surat tawaran rasmi. Jangan sesekali transfer duit pada mana-mana majikan. Baca [panduan elak scam pinjaman dan kerja online](/cara-elak-scam-pinjaman-online-panduan-lengkap-tips-selamat) untuk info lanjut."
   - question: "Berapa lama masa sesuai nak cari kerja remote?"
     answer: "Secara purata, 1–3 bulan untuk dapat job remote pertama. Bergantung pada industri, pengalaman, dan skill. Kalau dah ada pengalaman dalam bidang IT atau digital, mungkin lebih cepat. Kalau baru nak tukar dari onsite ke remote, luangkan masa untuk update portfolio dan ambil sijil digital dulu."
   - question: "Ada insurance atau KWSP untuk kerja remote?"
@@ -220,7 +220,7 @@ Ya, sah. Tapi pastikan kontrak kerja ada terma yang jelas — waktu kerja, cara 
 **Teknologi maklumat (IT)** — terutama software development, data analytics, dan cybersecurity. Lepas tu **digital marketing, graphic design, dan content creation**. Untuk fresh graduate, bidang **customer support** dan **virtual assistant** pun banyak buka peluang remote — gaji starting RM2,500–RM3,500.
 
 ### 4. Macam mana nak tahu majikan remote tu scam?
-Tanda-tanda scam: (1) minta bayaran deposit atau yuran pendaftaran, (2) gaji terlalu tinggi tanpa pengalaman, (3) takde interview langsung, (4) takde kontrak atau surat tawaran rasmi. Jangan sesekali transfer duit pada mana-mana majikan. Baca [panduan elak scam pinjaman dan kerja online](/📘-cara-elak-scam-pinjaman-online-panduan-lengkap-tips-selamat/) untuk info lanjut.
+Tanda-tanda scam: (1) minta bayaran deposit atau yuran pendaftaran, (2) gaji terlalu tinggi tanpa pengalaman, (3) takde interview langsung, (4) takde kontrak atau surat tawaran rasmi. Jangan sesekali transfer duit pada mana-mana majikan. Baca [panduan elak scam pinjaman dan kerja online](/cara-elak-scam-pinjaman-online-panduan-lengkap-tips-selamat) untuk info lanjut.
 
 ### 5. Berapa lama masa sesuai nak cari kerja remote?
 Secara purata, **1–3 bulan** untuk dapat job remote pertama. Bergantung pada industri, pengalaman, dan skill. Kalau dah ada pengalaman dalam bidang IT atau digital, mungkin lebih cepat. Kalau baru nak tukar dari onsite ke remote, luangkan masa untuk **update portfolio dan ambil sijil digital** dulu.

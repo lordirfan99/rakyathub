@@ -177,7 +177,7 @@ Guna kad kredit dengan baik boleh **naikkan skor kredit** korang. Tapi guna deng
 | Had kredit penuh (max out) | ❌ Negatif | 3-6 bulan |
 | Bank tutup akaun sebab gagal bayar | ❌❌❌ Sangat teruk | 5+ tahun |
 
-> 💡 Nak faham lebih lanjut pasal skor kredit? Baca [**panduan lengkap CCRIS & CTOS**](/panduan-ccris-ctos-skor-kredit-malaysia/) untuk detail cara semak dan baiki skor kredit korang.
+> 💡 Nak faham lebih lanjut pasal skor kredit? Baca [**panduan lengkap CCRIS & CTOS**](/panduan-faham-bina-skor-kredit-ccris-ctos-malaysia) untuk detail cara semak dan baiki skor kredit korang.
 
 ---
 

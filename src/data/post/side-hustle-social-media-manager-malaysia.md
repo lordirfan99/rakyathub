@@ -152,4 +152,4 @@ Yang korang perlu buat sekarang:
 4. Scale dari 1 ke 3-5 klien dalam 6 bulan
 5. Naikkan rate bila dah ada pengalaman setahun
 
-Jangan tunggu sampai segala-galanya perfect. Start dulu, belajar sambil jalan. Untuk lebih banyak idea, baca [panduan kerja sampingan online Malaysia](/panduan-kerja-sampingan-online-malaysia/) dan [bisnes produk digital AI](/bisnes-produk-digital-ai-side-hustle-malaysia/).
+Jangan tunggu sampai segala-galanya perfect. Start dulu, belajar sambil jalan. Untuk lebih banyak idea, baca [panduan kerja sampingan online Malaysia](/panduan-kerja-sampingan-online-malaysia/) dan [bisnes produk digital AI](/bisnes-produk-digital-ai-side-hustle-malaysia-2026).

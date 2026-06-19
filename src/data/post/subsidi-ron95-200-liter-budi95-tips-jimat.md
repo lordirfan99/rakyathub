@@ -51,7 +51,7 @@ Tapi jangan sedih dulu. Sebenarnya, perubahan ni boleh jadi **wake-up call** yan
 
 Banyak anak muda Malaysia tak pernah kira berapa sebenarnya mereka belanjakan untuk minyak kereta setiap bulan. Guna kalkulator gaji bersih di RakyatHub boleh bagi gambaran sebenar berapa banyak duit pergi ke pengangkutan.
 
-Dengan kuota makin kecil, ditambah pula dengan [inflasi yang meningkat](/inflasi-malaysia-april-1.9-peratus-lindung-duit-2026/), ini peluang untuk korang:
+Dengan kuota makin kecil, ditambah pula dengan [inflasi yang meningkat](/inflasi-malaysia-april-19-peratus-lindung-duit-2026), ini peluang untuk korang:
 1. **Optimalkan perjalanan harian** — jimat masa dan duit
 2. **Terokai alternatif** — awam, kongsi kereta, atau kerja dari rumah
 3. **Biasakan gaya hidup jimat** — yang akan menabung lebih untuk masa depan

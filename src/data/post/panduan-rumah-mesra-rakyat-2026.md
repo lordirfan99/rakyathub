@@ -245,4 +245,4 @@ Apa yang best, RMR dibina **atas tanah pemohon sendiri** — tak payah pindah te
 
 **Jangan tunggu lama-lama.** Permohonan dibuka sepanjang tahun dan kuota adalah terhad. Segera daftar di portal **[rmr.spnbonline.com.my](http://rmr.spnbonline.com.my/)** dan hantar dokumen ke pejabat SPNB terdekat.
 
-*Baca juga: [PR1MA 2026 — Cara Mohon Rumah Mampu Milik & Syarat](/pr1ma-2026-cara-mohon-rumah-mampu-milik-syarat/) | [Skim Rumah Pertama Malaysia 2026](/skim-rumah-pertama-malaysia-2026-cara-beli-rumah-bawah-rm300k/) | [KWSP Pengeluaran Perumahan Akaun 2](/kwsp-pengeluaran-perumahan-akaun-2-beli-rumah-2026/)*
+*Baca juga: [PR1MA 2026 — Cara Mohon Rumah Mampu Milik & Syarat](/cara-mohon-rumah-pr1ma-2026-syarat-kelayakan) | [Skim Rumah Pertama Malaysia 2026](/skim-rumah-pertama-malaysia-2026-cara-beli-rumah-bawah-rm300k/) | [KWSP Pengeluaran Perumahan Akaun 2](/kwsp-pengeluaran-perumahan-akaun-2-beli-rumah-2026/)*

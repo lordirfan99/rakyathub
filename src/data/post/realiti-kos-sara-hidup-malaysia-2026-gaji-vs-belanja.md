@@ -97,7 +97,7 @@ Sumber paling boleh percaya untuk harga barangan runcit Malaysia 2026 ialah sist
 
 Bijak belanja: **Lotus's dan Tesco** biasanya paling murah untuk barangan asas. Ayam standard paling murah sekitar **RM8.26/kg** di Lotus's berbanding pasar basah yang boleh mencecah RM12/kg.
 
-> 💡 Ingin jimat belanja dapur? Baca [**cara Jimat Duit Setiap Hari**](/strategi-jimat-duit-malaysia-2026/) untuk tips praktikal tanpa perlu jadi terlalu lokek.
+> 💡 Ingin jimat belanja dapur? Baca [**cara Jimat Duit Setiap Hari**]() untuk tips praktikal tanpa perlu jadi terlalu lokek.
 
 ---
 
@@ -203,7 +203,7 @@ Kereta baru dengan bayaran bulanan RM600-RM900 + minyak + parking = **habis 50-7
 
 1. **Bajet ikut 50/30/20** — 50% untuk keperluan, 30% untuk kehendak, 20% untuk simpanan. Kalau gaji RM1,700, target minimum simpanan **RM340 sebulan** — memang susah, tapi cuba target RM100 dulu.
 
-2. **Ambil insurans asas** — Jangan tunggu sampai ada emergency baru nak insurans. Medical card paling murah boleh dapat bawah **RM150 sebulan** untuk cover hospital. Baca panduan [**insurans medical card Malaysia**](/perbezaan-insurans-perubatan-dan-insurans-nyawa/) untuk pilih yang sesuai.
+2. **Ambil insurans asas** — Jangan tunggu sampai ada emergency baru nak insurans. Medical card paling murah boleh dapat bawah **RM150 sebulan** untuk cover hospital. Baca panduan [**insurans medical card Malaysia**]() untuk pilih yang sesuai.
 
 3. **Guna My50** — Kalau kerja di KL dan rumah dekat dengan LRT/MRT, guna My50 RM50/bulan. Berbanding minyak RM300+/bulan, korang jimat **RM250 sebulan** terus.
 
