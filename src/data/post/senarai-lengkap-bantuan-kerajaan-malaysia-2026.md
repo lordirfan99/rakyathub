@@ -1,5 +1,5 @@
 ---
-image: "~/assets/images/hero-bantuan-jkm-2026.jpg"
+image: "~/assets/images/hero-asian-woman-calc-18.jpg"
 publishDate: 2026-06-18 08:00:00
 title: "Senarai Lengkap Bantuan Kerajaan 2026"
 excerpt: "Panduan lengkap semua bantuan kerajaan Malaysia 2026 — STR, SARA, eKasih, Bantuan JKM, bantuan pendidikan & negeri. Semak kelayakan dan cara mohon."

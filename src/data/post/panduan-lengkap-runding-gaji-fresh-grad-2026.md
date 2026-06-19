@@ -3,7 +3,7 @@ publishDate: 2026-06-19 08:00:00
 title: "Panduan Lengkap Runding Gaji Fresh Grad 2026"
 excerpt: "Panduan lengkap runding gaji fresh graduate Malaysia. Tips nego gaji, tentukan range, jawab soalan gaji, dan dapatkan tawaran lebih tinggi."
 category: Kerjaya
-image: "~/assets/images/hero-soalan-lazim-temuduga-kerja-dan-jawapan.jpg"
+image: "~/assets/images/hero-asian-woman-calc-04.jpg"
 tags:
   - runding-gaji
   - salary-negotiation

@@ -3,7 +3,7 @@ publishDate: 2026-06-18 08:00:00
 title: "Panduan Urus & Langsaikan Hutang Bijak 2026"
 excerpt: "Panduan lengkap urus dan langsaikan hutang di Malaysia 2026. Cara guna AKPK, DMP, strategi snowball vs avalanche dan tips bebas hutang."
 category: Kewangan
-image: "~/assets/images/hero-tabung-kecemasan.jpg"
+image: "~/assets/images/hero-asian-woman-calc-01.jpg"
 tags:
   - hutang
   - akpk

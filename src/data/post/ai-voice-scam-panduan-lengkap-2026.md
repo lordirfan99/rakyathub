@@ -2,7 +2,7 @@
 publishDate: 2026-06-17
 title: "AI Voice Scam — Panduan Lengkap 2026"
 excerpt: "Scam AI voice clone semakin berleluasa di Malaysia — rugi RM2.72 juta sejak 2024. Ketahui 8 tanda panggilan scam deepfake & cara lindung diri."
-image: "~/assets/images/hero-quishing-scam-qr-code.jpg"
+image: "~/assets/images/hero-asian-woman-calc-08.jpg"
 category: Keselamatan
 tags:
   - scam

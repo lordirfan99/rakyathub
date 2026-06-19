@@ -3,7 +3,7 @@ publishDate: 2026-06-19 08:00:00
 title: "Panduan Pinjaman Perumahan Malaysia 2026"
 excerpt: "Panduan lengkap pinjaman perumahan Malaysia 2026. Cara mohon, kadar faedah bank, jenis pinjaman, tips lulus permohonan dan elak masalah."
 category: Hartanah
-image: "~/assets/images/hero-beli-vs-sewa-rumah.jpg"
+image: "~/assets/images/hero-asian-woman-calc-16.jpg"
 tags:
   - pinjaman-perumahan
   - rumah-pertama
