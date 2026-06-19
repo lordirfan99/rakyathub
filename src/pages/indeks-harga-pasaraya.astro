@@ -189,7 +189,6 @@ const breadcrumbSchema = {
                         </tr>
                       </thead>
                       <tbody class="item-list" data-chain={chain.name}>
-                        <!-- Filled by JS -->
                       </tbody>
                     </table>
                   </div>
@@ -320,7 +319,7 @@ const itemData = ${JSON.stringify(chainItemDetails)};`}></script>
     if (isHidden) {
       // Populate items if not already
       const list = detailRow.querySelector('.item-list');
-      if (list && !list.hasChildNodes()) {
+      if (list && list.children.length === 0) {
         const items = itemData[chainName] || [];
         list.innerHTML = items.map(item => {
           const priceColor = item.avgPrice < 10 ? 'text-green-600' : item.avgPrice > 20 ? 'text-red-600' : 'text-gray-900 dark:text-gray-100';
