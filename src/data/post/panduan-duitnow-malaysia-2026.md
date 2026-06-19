@@ -3,7 +3,7 @@ publishDate: 2026-06-19 08:00:00
 title: "Panduan DuitNow Malaysia 2026 - Transfer & QR"
 excerpt: "Panduan lengkap DuitNow Malaysia 2026 — cara daftar ID, buat transfer guna nombor telefon atau IC, scan QR bayar di kedai, had transaksi dan tips selamat."
 category: Kewangan
-image: "~/assets/images/hero-panduan-duitnow-malaysia-2026.jpg"
+# image: removed — duplicate of hero-atm-fee-waiver.jpg
 tags:
   - duitnow
   - paynet
