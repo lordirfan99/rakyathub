@@ -59,29 +59,37 @@ function buildChainIndex() {
     }
   }
 
-  // Calculate avg per chain
+  // Calculate avg per chain + item details
   const chainAvg = {};
+  const chainItemDetails = {};
+
   for (const [chain, data] of Object.entries(chainPrices)) {
-    const itemAvgs = {};
+    const itemAvgs = [];
     for (const [itemName, prices] of Object.entries(data.items)) {
-      itemAvgs[itemName] = prices.reduce((a, b) => a + b, 0) / prices.length;
+      itemAvgs.push({
+        name: itemName,
+        avgPrice: prices.reduce((a, b) => a + b, 0) / prices.length,
+        sampleCount: prices.length,
+      });
     }
+    // Sort by item name for consistent display
+    itemAvgs.sort((a, b) => a.name.localeCompare(b.name));
+
     // Basket total = sum of avg prices for each item
     let basketTotal = 0;
     let basketCount = 0;
-    for (const item of basketItems) {
-      if (itemAvgs[item.name]) {
-        basketTotal += itemAvgs[item.name];
-        basketCount++;
-      }
+    for (const av of itemAvgs) {
+      basketTotal += av.avgPrice;
+      basketCount++;
     }
     chainAvg[chain] = { basketTotal, basketCount, states: data.states };
+    chainItemDetails[chain] = itemAvgs;
   }
 
-  return { chainAvg, stateChains };
+  return { chainAvg, chainItemDetails, stateChains };
 }
 
-const { chainAvg, stateChains } = buildChainIndex();
+const { chainAvg, chainItemDetails, stateChains } = buildChainIndex();
 
 // Sort chains by basket total
 const chainRanking = Object.entries(chainAvg)
@@ -121,7 +129,7 @@ const breadcrumbSchema = {
     </div>
     <h1 class="text-2xl sm:text-4xl font-bold tracking-tight mb-3">🏪 Indeks Harga Pasaraya Malaysia</h1>
     <p class="text-sm text-muted/80 max-w-3xl mb-5">
-      Bandingkan harga <strong>{basketItems.length} barangan asas</strong> antara pasaraya utama seluruh Malaysia. Dikemaskini harian dari <strong>KPDN PriceCatcher</strong>.
+      Bandingkan harga <strong>{basketItems.length} barangan asas</strong> antara pasaraya utama seluruh Malaysia. Tekan mana-mana pasaraya untuk lihat harga setiap barang. Dikemaskini harian dari <strong>KPDN PriceCatcher</strong>.
     </p>
 
     <!-- Stats -->
@@ -133,15 +141,17 @@ const breadcrumbSchema = {
 
     <!-- Chain Ranking -->
     <h2 class="text-lg font-bold mb-3">🥇 Paling Murah hingga Paling Mahal</h2>
+    <p class="text-xs text-muted/70 mb-3">Tekan satu pasaraya untuk lihat harga setiap barang dalam basket.</p>
     <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm overflow-hidden mb-8">
       <div class="overflow-x-auto">
-        <table class="w-full text-sm">
+        <table class="w-full text-sm" id="chainTable">
           <thead>
             <tr class="border-b border-gray-100 dark:border-slate-700/50 bg-gray-50/50 dark:bg-slate-800/30">
-              <th class="text-left py-3.5 px-4 font-semibold text-muted text-[11px] uppercase tracking-wider">#</th>
+              <th class="text-left py-3.5 px-4 font-semibold text-muted text-[11px] uppercase tracking-wider w-10">#</th>
               <th class="text-left py-3.5 px-3 font-semibold text-muted text-[11px] uppercase tracking-wider">Pasaraya</th>
               <th class="text-right py-3.5 px-3 font-semibold text-muted text-[11px] uppercase tracking-wider tabular-nums">Basket Total</th>
               <th class="text-right py-3.5 px-3 font-semibold text-muted text-[11px] uppercase tracking-wider hidden sm:table-cell tabular-nums">Item</th>
+              <th class="w-10 py-3.5 px-3"></th>
             </tr>
           </thead>
           <tbody>
@@ -149,7 +159,8 @@ const breadcrumbSchema = {
               const isCheapest = i === 0;
               const isMostExp = i === chains.length - 1;
               return (
-              <tr class="item-row border-b border-gray-50 dark:border-slate-800/50 transition-colors">
+              <>
+              <tr class="chain-row border-b border-gray-50 dark:border-slate-800/50 transition-colors cursor-pointer hover:bg-gray-50/60 dark:hover:bg-slate-800/40" data-chain={chain.name}>
                 <td class="py-3 px-4 font-bold tabular-nums text-muted">
                   {i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : `#${i + 1}`}
                 </td>
@@ -163,7 +174,28 @@ const breadcrumbSchema = {
                 <td class="text-right py-3 px-3 hidden sm:table-cell tabular-nums text-muted">
                   {chain.basketCount}
                 </td>
+                <td class="py-3 px-3 text-center">
+                  <span class="expand-icon text-xs text-muted/40 transition-transform inline-block">▶</span>
+                </td>
               </tr>
+              <tr class="item-detail-row hidden" data-chain={chain.name}>
+                <td colspan="5" class="p-0">
+                  <div class="bg-gray-50/80 dark:bg-slate-800/40 border-b border-gray-100 dark:border-slate-700/30">
+                    <table class="w-full text-xs">
+                      <thead>
+                        <tr class="border-b border-gray-100 dark:border-slate-700/30">
+                          <th class="text-left py-2 px-4 pl-12 font-medium text-muted text-[10px] uppercase tracking-wider">Barangan</th>
+                          <th class="text-right py-2 px-3 font-medium text-muted text-[10px] uppercase tracking-wider tabular-nums">Purata Harga</th>
+                        </tr>
+                      </thead>
+                      <tbody class="item-list" data-chain={chain.name}>
+                        <!-- Filled by JS -->
+                      </tbody>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              </>
             )})}
           </tbody>
         </table>
@@ -233,12 +265,13 @@ const breadcrumbSchema = {
         <span class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-[10px] font-bold text-primary">i</span>
         <span class="font-semibold text-muted">Tentang Indeks Ini</span>
       </div>
-      <p><strong>Basket Total</strong> = jumlah harga purata setiap barangan di rangkaian tersebut. Semakin rendah, semakin murah. Harga mungkin berbeza mengikut cawangan. Sumber: <a href="https://data.gov.my" class="text-primary hover:underline" target="_blank" rel="noopener">data.gov.my</a> — KPDN PriceCatcher.</p>
+      <p><strong>Basket Total</strong> = jumlah harga purata setiap barangan di rangkaian tersebut. Semakin rendah, semakin murah. Harga mungkin berbeza mengikut cawangan. Sumber: <a href="https://data.gov.my" class="text-primary hover:underline" target="_blank" rel="noopener">data.gov.my</a> — KPDN PriceCatcher. Tekan mana-mana pasaraya untuk lihat pecahan harga setiap barang.</p>
     </div>
   </section>
 
   <!-- Data injected at build time -->
-  <script set:html={`const stateData = ${JSON.stringify(stateChains)};`}></script>
+  <script set:html={`const stateData = ${JSON.stringify(stateChains)};
+const itemData = ${JSON.stringify(chainItemDetails)};`}></script>
 
   <script is:inline>
   function filterState() {
@@ -266,5 +299,42 @@ const breadcrumbSchema = {
         '</tr>';
     }).join('');
   }
+
+  // Expandable chain rows
+  document.addEventListener('click', function(e) {
+    const row = e.target.closest('.chain-row');
+    if (!row) return;
+
+    const chainName = row.dataset.chain;
+    const detailRow = document.querySelector(`.item-detail-row[data-chain="${chainName}"]`);
+    if (!detailRow) return;
+
+    const isHidden = detailRow.classList.contains('hidden');
+    const icon = row.querySelector('.expand-icon');
+
+    // Close all others
+    document.querySelectorAll('.item-detail-row').forEach(r => r.classList.add('hidden'));
+    document.querySelectorAll('.expand-icon').forEach(ic => ic.classList.remove('rotate-90'));
+    document.querySelectorAll('.chain-row').forEach(r => r.classList.remove('bg-blue-50/50', 'dark:bg-blue-900/10'));
+
+    if (isHidden) {
+      // Populate items if not already
+      const list = detailRow.querySelector('.item-list');
+      if (list && !list.hasChildNodes()) {
+        const items = itemData[chainName] || [];
+        list.innerHTML = items.map(item => {
+          const priceColor = item.avgPrice < 10 ? 'text-green-600' : item.avgPrice > 20 ? 'text-red-600' : 'text-gray-900 dark:text-gray-100';
+          return '<tr class="border-b border-gray-50/50 dark:border-slate-800/20">' +
+            '<td class="py-1.5 px-4 pl-12 text-gray-700 dark:text-gray-300">' + item.name + '</td>' +
+            '<td class="text-right py-1.5 px-3 font-medium tabular-nums ' + priceColor + '">RM ' + item.avgPrice.toFixed(2) + '</td>' +
+            '</tr>';
+        }).join('');
+      }
+
+      detailRow.classList.remove('hidden');
+      icon.classList.add('rotate-90');
+      row.classList.add('bg-blue-50/50', 'dark:bg-blue-900/10');
+    }
+  });
   </script>
 </Layout>
