@@ -2,7 +2,7 @@
 publishDate: 2026-06-19
 title: "Panduan Mohon Biasiswa Universiti 2026"
 excerpt: "Panduan lengkap mohon biasiswa universiti 2026. Senarai biasiswa JPA, MARA, Petronas, Bank Negara dan yayasan negeri untuk pelajar Malaysia."
-image: "~/assets/images/hero-panduan-mohon-biasiswa-universiti-2026.jpg"
+# image: "~/assets/images/hero-panduan-mohon-biasiswa-universiti-2026.jpg" — REMOVED (duplicate of hero-cara-buat-nota-ringkas-dan-efektif-student.jpg)
 category: Pendidikan
 tags:
   - student
