@@ -3,7 +3,7 @@ publishDate: 2026-06-20 08:00:00
 title: "Scam Along Preloved 2026: Panduan & Cara Elak"
 excerpt: "Taktik baru along sasar penjual preloved di media sosial. Pembelian jadi perangkap pinjaman paksa, rugi RM2,000 jadi RM5,000. Ketahui cara elak."
 category: Keselamatan
-image: "~/assets/images/hero-scam-along-preloved-2026-cara-elak.jpg"
+# image: "~/assets/images/hero-scam-along-preloved-2026-cara-elak.jpg" — REMOVED (duplicate of hero-keldai-akaun.jpg, identical hash)
 tags:
   - scam
   - along
