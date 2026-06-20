@@ -29,3 +29,4 @@
 | 25 | Cara buat nota ringkas dan efektif student | ✅ | 2026-06-17 | cara-buat-nota-ringkas-dan-efektif-student |
 | 26 | Tips menulis assignment universiti yang dapat A | ✅ | 2026-06-18 | tips-menulis-assignment-universiti-markah-tinggi |
 | 27 | Panduan mohon biasiswa universiti | ✅ | 2026-06-19 | panduan-mohon-biasiswa-universiti-2026 |
+| 28 | Cara elak plagiat dalam assignment universiti | ✅ | 2026-06-20 | cara-elak-plagiat-assignment-universiti |
