@@ -23,10 +23,11 @@
 | 19 | Template e-mel mohon praktikal | ✅ | 2026-06-14 | template-emel-mohon-praktikal |
 | 20 | Cara buat akaun LinkedIn untuk student | ✅ | 2026-06-14 | cara-buat-akaun-linkedin-untuk-student |
 | — | Cara dapat first class degree — tips real dari graduan | ✅ | 2026-06-15 | cara-dapat-first-class-degree-universiti |
-|| — | Mental health student — tanda burnout & cara atasi | ✅ | 2026-06-15 | mental-health-student-tanda-burnout |
+| — | Mental health student — tanda burnout & cara atasi | ✅ | 2026-06-15 | mental-health-student-tanda-burnout |
 | — | Budget bulanan student universiti — breakdown realistik | ✅ | 2026-06-16 | budget-bulanan-student-universiti |
 | — | Bina personal branding dari universiti — panduan lengkap | ✅ | 2026-06-16 | bina-personal-branding-dari-universiti |
 | 25 | Cara buat nota ringkas dan efektif student | ✅ | 2026-06-17 | cara-buat-nota-ringkas-dan-efektif-student |
 | 26 | Tips menulis assignment universiti yang dapat A | ✅ | 2026-06-18 | tips-menulis-assignment-universiti-markah-tinggi |
 | 27 | Panduan mohon biasiswa universiti | ✅ | 2026-06-19 | panduan-mohon-biasiswa-universiti-2026 |
 | 28 | Cara elak plagiat dalam assignment universiti | ✅ | 2026-06-20 | cara-elak-plagiat-assignment-universiti |
+| 29 | Cara handle group assignment universiti | ✅ | 2026-06-20 | cara-handle-group-assignment-universiti |
