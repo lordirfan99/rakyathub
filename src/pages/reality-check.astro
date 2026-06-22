@@ -164,6 +164,52 @@ const breadcrumbSchema = {
     </div>
   </section>
 
+  <!-- STATE LINKS — for SEO internal linking to individual reality-check pages -->
+  <section class="max-w-3xl mx-auto px-4 sm:px-6 pb-12">
+    <h2 class="text-xl font-bold mb-4">Lihat Gaji Ikut Negeri</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+      {(() => {
+        const stateLabels = {
+          selangor: 'Selangor', wp_kl: 'Kuala Lumpur', pulau_pinang: 'Pulau Pinang',
+          wp_putrajaya: 'Putrajaya', wp_labuan: 'Labuan', johor: 'Johor',
+          kedah: 'Kedah', kelantan: 'Kelantan', melaka: 'Melaka',
+          n9: 'Negeri Sembilan', pahang: 'Pahang', perak: 'Perak',
+          perlis: 'Perlis', sabah: 'Sabah', sarawak: 'Sarawak', terengganu: 'Terengganu',
+        };
+        return Object.entries(stateLabels).sort().map(([key, label]) => (
+          <a href={`/reality-check/${key}/ict`}
+            class="rounded-xl border border-gray-100 dark:border-slate-700/30 p-3 text-center hover:border-primary/50 hover:shadow-sm transition-all text-xs font-medium text-muted/80 hover:text-primary">
+            {label}
+          </a>
+        ));
+      })()}
+    </div>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-4 sm:px-6 pb-12">
+    <h2 class="text-xl font-bold mb-4">Gaji Ikut Sektor</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+      {Object.entries(reality.sectors).sort((a,b) => b[1].median - a[1].median).map(([key, s]) => (
+        <a href={`/reality-check/selangor/${key}`}
+          class="rounded-xl border border-gray-100 dark:border-slate-700/30 p-3 text-center hover:border-primary/50 hover:shadow-sm transition-all text-xs font-medium text-muted/80 hover:text-primary">
+          {s.label}
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-4 sm:px-6 pb-12">
+    <h2 class="text-xl font-bold mb-4">Gaji Ikut Pekerjaan</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+      {Object.entries(reality.occupations).sort((a,b) => b[1].median - a[1].median).map(([key, o]) => (
+        <a href={`/reality-check/selangor/${key}`}
+          class="rounded-xl border border-gray-100 dark:border-slate-700/30 p-3 text-center hover:border-primary/50 hover:shadow-sm transition-all text-xs font-medium text-muted/80 hover:text-primary">
+          {o.label}
+        </a>
+      ))}
+    </div>
+  </section>
+
   <!-- Data injected at build time -->
   <script set:html={`const realityData = ${JSON.stringify(reality)}; const incomeData2 = ${JSON.stringify(incomeData)}; const cpiVal = ${cpiData.latest_cpi || 136.9};`}></script>
 

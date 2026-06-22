@@ -28,11 +28,13 @@ export default defineConfig({
   integrations: [
     sitemap({
       filter: (page) => {
-        // Remove tag, category, and pagination pages from sitemap
+        // Remove tag, category, pagination, and reality-check sub-pages from sitemap
         const url = new URL(page);
         const path = url.pathname;
         if (path.includes('/tag/') || path.includes('/category/')) return false;
         if (/\/blog\/\d+$/.test(path)) return false; // /blog/2, /blog/3 etc
+        // Exclude thin reality-check sub-pages (keep the landing page /reality-check/)
+        if (/^\/reality-check\/.+/.test(path)) return false;
         return true;
       },
     }),
