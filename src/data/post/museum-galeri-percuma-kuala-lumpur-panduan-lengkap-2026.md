@@ -32,7 +32,7 @@ faq:
 
 Korang rasa KL ni mahal? Fikir semula. Sebenarnya banyak tempat best kat Kuala Lumpur yang **percuma terus** — masuk je, jalan-jalan, lepak, puas hati. Bukan setakat一楼 (tingkat bawah) shopping mall, tapi muzium dan galeri seni bertaraf dunia yang biasanya orang skip sebab ingat kena bayar mahal.
 
-Realitinya, muzium dan galeri percuma di KL ni antara tarikan paling underrated. Dengan **[Kalkulator Bajet Bulanan](/kalkulator/bulanan/)**, korang boleh rancang percutian hujung minggu tanpa perlu risau pasal kos masuk yang melambung. Artikel ni senaraikan **7 tempat percuma terbaik** lengkap dengan alamat, waktu operasi, cara sampai guna public transport, dan tips supaya pengalaman lawatan korang lebih puas.
+Realitinya, muzium dan galeri percuma di KL ni antara tarikan paling underrated. Dengan **[Kalkulator Bajet Bulanan](/kalkulator/)**, korang boleh rancang percutian hujung minggu tanpa perlu risau pasal kos masuk yang melambung. Artikel ni senaraikan **7 tempat percuma terbaik** lengkap dengan alamat, waktu operasi, cara sampai guna public transport, dan tips supaya pengalaman lawatan korang lebih puas.
 
 > 💡 **Tahukah korang?** Sejak 2023, lebih **2 juta pengunjung** datang ke muzium dan galeri percuma di KL setiap tahun — angka ni naik 35% berbanding 2019 (sumber: Tourism Malaysia).
 
@@ -262,7 +262,7 @@ Nak cover banyak tempat dalam sehari? Ikut route ni:
 
 ## ✅ Kesimpulan & Tindakan Segera
 
-KL ni kaya dengan pengalaman percuma yang ramai tak manfaatkan. Dari **[Kalkulator Bajet](/kalkulator/bulanan/)** korang, sisihkan **RM20–RM30** untuk satu hari penerokaan muzium dan galeri — confirm puas dan dapat ilmu baru.
+KL ni kaya dengan pengalaman percuma yang ramai tak manfaatkan. Dari **[Kalkulator Bajet](/kalkulator/)** korang, sisihkan **RM20–RM30** untuk satu hari penerokaan muzium dan galeri — confirm puas dan dapat ilmu baru.
 
 **5 tindakan korang boleh buat hari ni:**
 

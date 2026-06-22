@@ -155,7 +155,7 @@ Emas bagus, tapi bukan tanpa risiko:
 ## 🔗 Pautan Berguna
 
 - [Kalkulator Zakat Emas](/kalkulator/zakat/)
-- [Kalkulator DCA Emas](/kalkulator/dca-emas/)
+- [Kalkulator DCA Emas](/kalkulator/emas/)
 - [Bandingan Platform Emas Malaysia](/public-gold-vs-maybank-vs-uob-platform-beli-emas-paling-murah-2026/)
 - [Panduan DCA Emas GAP Public Gold](/dca-emas-gap-public-gold-strategi-beli-konsisten/)
 

@@ -2,7 +2,7 @@
 import PageLayout from '~/layouts/PageLayout.astro';
 
 const cpiData = (await import('~/data/cpi.json')).default;
-const { yearly_cpi, latest_cpi, latest_date, purchasing_power, latest_divisions, labels } = cpiData;
+const { yearly_cpi, latest_cpi, latest_date, purchasing_power, latest_divisions } = cpiData;
 const years = Object.keys(yearly_cpi);
 
 // Latest year's first 6 months for mini chart

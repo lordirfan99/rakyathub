@@ -149,7 +149,7 @@ Ini paling penting — rekod kewangan. Guna Google Sheets atau buku kira-kira bi
 - Jualan harian
 - Modal vs pulangan
 
-Guna **[Kalkulator Bajet Bulanan RakyatHub](/kalkulator/bajet/)** untuk semak aliran tunai bisnes korang setiap bulan dan pastikan untung bukan rugi.
+Guna **[Kalkulator Bajet Bulanan RakyatHub](/kalkulator/)** untuk semak aliran tunai bisnes korang setiap bulan dan pastikan untung bukan rugi.
 
 ---
 
@@ -161,7 +161,7 @@ Guna **[Kalkulator Bajet Bulanan RakyatHub](/kalkulator/bajet/)** untuk semak al
 4. **Packing tak kemas** — kalau label comot, plastik bocor, sampai depan pelanggan dah cair — bye-bye repeat customer.
 5. **Tak promosi langsung** — bisnes tak laku kalau tak ada promosi. Share dekat grup WhatsApp, minta review dari pembeli pertama.
 
-Buat korang yang nak kira berapa kos produk dan margin untung, guna **[Kalkulator Margin Untung RakyatHub](/kalkulator/margin/)** untuk pastikan setiap jualan memberi keuntungan.
+Buat korang yang nak kira berapa kos produk dan margin untung, guna **[Kalkulator Margin Untung RakyatHub](/kalkulator/)** untuk pastikan setiap jualan memberi keuntungan.
 
 ---
 
