@@ -44,14 +44,28 @@ import { UI } from 'astrowind:config';
     let lastKnownScrollPosition = window.scrollY;
     let ticking = true;
 
-    attachEvent('#header nav', 'click', function () {
-      document.querySelector('[data-aw-toggle-menu]')?.classList.remove('expanded');
-      document.body.classList.remove('overflow-hidden');
-      document.getElementById('header')?.classList.remove('h-screen');
-      document.getElementById('header')?.classList.remove('expanded');
-      document.getElementById('header')?.classList.remove('bg-page');
-      document.querySelector('#header nav')?.classList.add('hidden');
-      document.querySelector('#header > div > div:last-child')?.classList.add('hidden');
+    attachEvent('#header nav', 'click', function (e, elem) {
+      // Tapping a dropdown toggle button on mobile → toggle submenu
+      const btn = e.target.closest('.dropdown > button');
+      if (btn) {
+        const dd = btn.closest('.dropdown');
+        if (dd) {
+          const isOpen = dd.classList.toggle('dropdown-open');
+          btn.setAttribute('aria-expanded', String(isOpen));
+        }
+        return;
+      }
+      // Close nav when clicking actual nav links
+      const link = e.target.closest('a');
+      if (link) {
+        document.querySelector('[data-aw-toggle-menu]')?.classList.remove('expanded');
+        document.body.classList.remove('overflow-hidden');
+        document.getElementById('header')?.classList.remove('h-screen');
+        document.getElementById('header')?.classList.remove('expanded');
+        document.getElementById('header')?.classList.remove('bg-page');
+        document.querySelector('#header nav')?.classList.add('hidden');
+        document.querySelector('#header > div > div:last-child')?.classList.add('hidden');
+      }
     });
 
     attachEvent('[data-aw-toggle-menu]', 'click', function (_, elem) {
