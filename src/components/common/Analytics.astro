@@ -19,6 +19,10 @@ const scriptType = partytown ? 'text/partytown' : undefined;
 <script is:inline id="ga-init" data-id={id} data-ads-id={adsId} type={id || adsId ? scriptType : undefined}>
   if (document.getElementById('ga-init').dataset.id) {
     var d = document.getElementById('ga-init').dataset.id;
+    // Exclude hermes testing traffic (append ?hermes=1 to URLs)
+    if (window.location.search.includes('hermes=1')) {
+      window['ga-disable-' + d] = true;
+    }
     window.dataLayer = window.dataLayer || [];
     window.gtag = function () {
       dataLayer.push(arguments);
