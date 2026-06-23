@@ -222,6 +222,8 @@ export const footerData = {
         { text: 'Hubungi', href: getPermalink('/hubungi') },
         { text: 'Dasar Privasi', href: getPermalink('/privasi') },
         { text: 'Penjana Surat AI', href: '/docukilat/' },
+        { text: 'Inflasi', href: '/inflasi-malaysia/' },
+        { text: 'Bantuan Kerajaan', href: '/bantuan-kerajaan/' },
       ],
     },
   ],

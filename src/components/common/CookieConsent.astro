@@ -24,9 +24,10 @@
     gap: 1rem;
     flex-wrap: wrap;
   }
-  #cookie-consent p { margin: 0; flex: 1 1 240px; }
+  #cookie-consent p { margin: 0; flex: 1 1 240px; font-size: 0.8125rem; }
   #cookie-consent a { color: #60a5fa; text-decoration: underline; }
-  #cookie-consent button {
+  #cookie-consent .btn-group { display: flex; gap: 0.5rem; flex-shrink: 0; }
+  #cookie-consent .btn-accept {
     background: #2563eb;
     color: #fff;
     border: 0;
@@ -38,36 +39,57 @@
     white-space: nowrap;
     transition: background 0.15s ease;
   }
-  #cookie-consent button:hover { background: #1d4ed8; }
+  #cookie-consent .btn-accept:hover { background: #1d4ed8; }
+  #cookie-consent .btn-decline {
+    background: transparent;
+    color: #cbd5e1;
+    border: 1px solid #64748b;
+    border-radius: 0.375rem;
+    padding: 0.4rem 1rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.15s ease;
+  }
+  #cookie-consent .btn-decline:hover {
+    background: #334155;
+    color: #f1f5f9;
+    border-color: #94a3b8;
+  }
 </style>
 
 <div id="cookie-consent" role="alert" aria-live="polite">
   <div class="inner">
     <p>
       Kami guna cookie Google Analytics untuk tingkatkan pengalaman anda.
-      Dengan terus melayari, anda setuju. 
       <a href="/privasi" target="_blank">Dasar Privasi</a>
     </p>
-    <button id="cookie-accept" aria-label="Terima cookie">Terima</button>
+    <div class="btn-group">
+      <button class="btn-decline" id="cookie-decline" aria-label="Tolak cookie">Tolak</button>
+      <button class="btn-accept" id="cookie-accept" aria-label="Terima cookie">Terima</button>
+    </div>
   </div>
 </div>
 
 <script is:inline>
 (function() {
   var key = 'rakyathub-cookie-consent';
-  if (localStorage.getItem(key)) return;
+  var val = localStorage.getItem(key);
+  if (val === 'accepted' || val === 'declined') return;
   var banner = document.getElementById('cookie-consent');
-  var btn = document.getElementById('cookie-accept');
-  if (!banner || !btn) return;
-  // Show banner after a short delay
+  var btnAccept = document.getElementById('cookie-accept');
+  var btnDecline = document.getElementById('cookie-decline');
+  if (!banner || !btnAccept || !btnDecline) return;
   requestAnimationFrame(function() {
     banner.classList.add('show');
   });
-  btn.addEventListener('click', function() {
-    localStorage.setItem(key, 'accepted');
+  function handle(action) {
+    localStorage.setItem(key, action);
     banner.classList.remove('show');
-    // Allow transition to finish before removing from DOM
     setTimeout(function() { banner.remove(); }, 400);
-  });
+  }
+  btnAccept.addEventListener('click', function() { handle('accepted'); });
+  btnDecline.addEventListener('click', function() { handle('declined'); });
 })();
 </script>

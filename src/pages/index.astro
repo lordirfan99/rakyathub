@@ -166,7 +166,7 @@ const orgSchema = {
       <div class="divide-y divide-slate-100 dark:divide-slate-800/80">
         {foodWidget.map((item, idx) => (
           <a href={`/harga-makanan/${slugify(item.name)}/`}
-             class="flex items-center justify-between px-5 sm:px-7 py-3.5 sm:py-4 hover:bg-gradient-to-r hover:from-teal-50/50 hover:to-orange-50/50 dark:hover:bg-slate-800/60 transition-all group"
+             class="flex items-center justify-between px-5 sm:px-7 py-3.5 sm:py-4 hover:bg-gradient-to-r hover:from-teal-50/50 hover:to-orange-50/50 dark:hover:bg-slate-800/60 transition-all group price-row"
              style={`animation-delay: ${idx * 80}ms`}
           >
             <div class="flex items-center gap-3 sm:gap-4 min-w-0">
@@ -327,7 +327,7 @@ const orgSchema = {
       <h2 class="text-xl sm:text-3xl font-bold text-gray-900 dark:text-gray-100">Paling <span class="gradient-text-warm">Popular</span></h2>
       <p class="text-xs sm:text-sm text-gray-500 dark:text-gray-400 mt-2 max-w-2xl mx-auto">Panduan kewangan yang paling banyak dibaca oleh rakyat Malaysia.</p>
     </div>
-    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
+    <div class="grid-center-last">
       {FEATURED.map((a, idx) => (
         <a href={a.href}
            class="group relative overflow-hidden rounded-2xl border border-slate-100 dark:border-slate-700/30 bg-white dark:bg-slate-900/60 p-4 sm:p-5 premium-card-hover"

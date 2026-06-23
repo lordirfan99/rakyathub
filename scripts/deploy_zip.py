@@ -30,7 +30,7 @@ req = urllib.request.Request(url, headers={
     'Content-Type': 'application/zip'
 }, data=data, method='POST')
 
-with urllib.request.urlopen(req, timeout=300) as resp:
+with urllib.request.urlopen(req, timeout=600) as resp:
     deploy = json.loads(resp.read().decode())
 
 did = deploy['id']
@@ -44,7 +44,9 @@ for i in range(30):
     )
     with urllib.request.urlopen(d_req, timeout=30) as d_resp:
         d = json.loads(d_resp.read().decode())
-        if d['state'] == 'ready':
+        state = d.get('state', '?')
+        print(f'  state={state}', end='\r')
+        if state == 'ready':
             r_req = urllib.request.Request(
                 f'https://api.netlify.com/api/v1/sites/{site_id}/deploys/{did}/restore',
                 headers={'Authorization': f'Bearer {token}'},
@@ -52,7 +54,8 @@ for i in range(30):
             )
             with urllib.request.urlopen(r_req, timeout=60) as r_resp:
                 r = json.loads(r_resp.read().decode())
-                print(f'✅ Published at {r.get("published_at", "N/A")}')
+                print(f'\nPublished at {r.get("published_at", "N/A")}')
+                print(f'URL: {r.get("ssl_url", r.get("url", "N/A"))}')
             break
     if i == 29:
-        print('⚠️ Timed out waiting for ready')
+        print('\nTimed out')

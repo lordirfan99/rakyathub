@@ -15,7 +15,7 @@ import '@fontsource-variable/inter';
 
     --aw-color-text-heading: rgb(15 23 42);    /* #0f172a — slate-900 */
     --aw-color-text-default: rgb(30 41 59);    /* #1e293b */
-    --aw-color-text-muted: rgb(71 85 105);     /* #475569 */
+    --aw-color-text-muted: rgb(100 116 139);     /* #64748b — slate-500 WCAG AA bump */
     --aw-color-text-page: rgb(15 23 42);
     --aw-color-bg-page: rgb(253 250 244);      /* #fdfaf4 — warm paper */
     --aw-color-bg-card: rgb(255 255 255);
@@ -241,7 +241,148 @@ import '@fontsource-variable/inter';
     background-clip: text;
   }
 
-  /* ========== SKELETON SHIMMER ========== */
+  /* ========== ACTIVE NAV INDICATOR ========== */
+  .aw-link-active {
+    position: relative;
+    color: var(--aw-color-primary) !important;
+    font-weight: 600;
+  }
+  .aw-link-active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0.5rem;
+    right: 0.5rem;
+    height: 2px;
+    background: var(--aw-color-primary);
+    border-radius: 1px;
+  }
+  .dark .aw-link-active {
+    color: var(--aw-color-primary) !important;
+  }
+
+  /* ========== PRICE ROW HOVER ========== */
+  .price-row {
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  .price-row:hover {
+    background-color: rgba(21,94,117,0.04);
+    transform: translateX(2px);
+  }
+  .dark .price-row:hover {
+    background-color: rgba(94,234,212,0.06);
+  }
+
+  /* ========== STATS BAR ALIGNMENT ========== */
+  .stats-bar {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .stats-bar .stat-item {
+    text-align: center;
+    flex: 0 0 auto;
+    min-width: 120px;
+  }
+
+  /* ========== DARK MODE CARD BORDER ENHANCEMENT ========== */
+  .dark .card-border-enhanced {
+    border-color: rgba(148,163,184,0.12);
+    box-shadow: 0 0 0 1px rgba(148,163,184,0.06);
+  }
+
+  /* ========== TABLE STYLING ========== */
+  .content-table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+    -webkit-overflow-scrolling: touch;
+  }
+  .content-table table {
+    min-width: 480px;
+    width: 100%;
+  }
+  .content-table th,
+  .content-table td {
+    padding: 0.625rem 0.75rem;
+    font-size: 0.875rem;
+    white-space: nowrap;
+  }
+  @media (max-width: 640px) {
+    .content-table th,
+    .content-table td {
+      padding: 0.5rem 0.5rem;
+      font-size: 0.8125rem;
+    }
+  }
+
+  /* ========== BODY TEXT ========== */
+  .article-body {
+    font-size: 1.0625rem; /* 17px */
+    line-height: 1.75;
+    max-width: 46rem;
+  }
+  @media (min-width: 1024px) {
+    .article-body {
+      max-width: 48rem;
+    }
+  }
+  .article-body table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+  .article-body table tbody tr:nth-child(even) {
+    background-color: rgba(0,0,0,0.02);
+  }
+  .dark .article-body table tbody tr:nth-child(even) {
+    background-color: rgba(255,255,255,0.02);
+  }
+  .article-body table thead {
+    background-color: rgba(0,0,0,0.03);
+  }
+  .dark .article-body table thead {
+    background-color: rgba(255,255,255,0.03);
+  }
+  @media (max-width: 640px) {
+    .article-body {
+      font-size: 1rem; /* 16px on mobile */
+    }
+  }
+
+  /* ========== HAMBURGER MENU SMOOTH SCROLL ========== */
+  .mobile-nav-open {
+    overflow: hidden;
+  }
+  /* ========== GRID CENTER LAST ROW ========== */
+  .grid-center-last {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+  @media (min-width: 640px) {
+    .grid-center-last {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media (min-width: 1024px) {
+    .grid-center-last {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+  .grid-center-last > *:last-child:nth-child(3n-2) {
+    grid-column: 2 / span 1;
+  }
+  @media (max-width: 639px) {
+    .grid-center-last > *:last-child:nth-child(odd) {
+      grid-column: 1 / -1;
+      max-width: 50%;
+      margin: 0 auto;
+    }
+  }
+
   @keyframes skeleton-shimmer {
     0% { background-position: -200% 0; }
     100% { background-position: 200% 0; }
