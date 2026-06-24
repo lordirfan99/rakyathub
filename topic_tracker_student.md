@@ -33,3 +33,4 @@
 | 29 | Cara handle group assignment universiti | ✅ | 2026-06-20 | cara-handle-group-assignment-universiti |
 | 30 | Tips pilih kursus universiti lepasan SPM | ✅ | 2026-06-22 | tips-pilih-kursus-universiti-lepasan-spm |
 | 31 | Panduan kira GPA dan CGPA universiti Malaysia | ✅ | 2026-06-23 | panduan-kira-gpa-cgpa-universiti-malaysia |
+| 32 | Cara buat kawan baru di universiti | ✅ | 2026-06-24 | cara-buat-kawan-baru-di-universiti |
