@@ -1,0 +1,388 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Cashback Combo Optimizer — Cari Kombinasi Kad Kredit Terbaik Malaysia',
+  description: 'Optimizer kad kredit cashback Malaysia. Masukkan perbelanjaan bulanan dan kami cari kombinasi 3 kad terbaik yang maksimumkan cashback anda dari 50+ kad.',
+};
+
+// Load card data
+const cards = (await import('~/data/cashback-cards.json')).default.cards;
+const cardJson = JSON.stringify(cards);
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero -->
+  <section class="relative overflow-hidden bg-gradient-to-br from-teal-700 via-teal-600 to-orange-600 dark:from-teal-950 dark:via-slate-900 dark:to-orange-950">
+    <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMiIvPjwvZz48L2c+PC9zdmc+')] opacity-40"></div>
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12 md:py-20 relative">
+      <a href="/kalkulator" class="inline-flex items-center gap-1.5 text-sm text-white/70 hover:text-white transition-colors mb-6">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        Semua Kalkulator
+      </a>
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/15 text-white/90 text-xs font-semibold backdrop-blur-sm mb-4">
+          <span>💳</span> Kad Kredit
+        </div>
+        <h1 class="text-3xl md:text-5xl font-bold tracking-tight text-white mb-4">
+          Cashback Combo<br class="sm:hidden" /> Optimizer
+        </h1>
+        <p class="text-lg md:text-xl text-white/80 max-w-2xl">
+          Cari kombinasi 3 kad kredit yang maksimumkan cashback bulanan anda — hanya dengan masukkan <span class="text-white font-semibold">perbelanjaan sebenar</span> anda.
+        </p>
+      </div>
+    </div>
+    <!-- Wave divider -->
+    <div class="absolute bottom-0 left-0 right-0">
+      <svg viewBox="0 0 1440 48" class="w-full h-auto" preserveAspectRatio="none">
+        <path fill="var(--aw-color-bg-page)" d="M0,16L80,21.3C160,27,320,37,480,37.3C640,37,800,27,960,24C1120,21,1280,27,1360,29.3L1440,32V48H0Z"/>
+      </svg>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 -mt-4 relative z-10 pb-12 md:pb-20">
+    <!-- Calculator Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/80 backdrop-blur-sm border border-gray-200 dark:border-slate-700/50 shadow-lg shadow-black/5 overflow-hidden">
+
+      <!-- Tabs -->
+      <div class="flex border-b border-gray-100 dark:border-slate-800">
+        <button id="modeOptimal" class="mode-btn flex-1 flex items-center justify-center gap-2 px-4 py-4 text-sm font-semibold border-b-2 transition-all duration-200 bg-primary text-white border-primary shadow-sm" onclick="setMode('optimal')">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          Cari Combo Terbaik
+        </button>
+        <button id="modeOwned" class="mode-btn flex-1 flex items-center justify-center gap-2 px-4 py-4 text-sm font-semibold border-b-2 border-transparent text-muted hover:text-primary hover:border-primary/30 transition-all duration-200" onclick="setMode('owned')">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+          Kad Saya Sendiri
+        </button>
+      </div>
+
+      <div class="p-5 md:p-8">
+
+        <!-- Spending Form -->
+        <div id="spendingForm">
+          <div class="flex items-center justify-between mb-5">
+            <h2 class="text-base font-bold text-heading">Perbelanjaan Bulanan</h2>
+            <span id="totalSpend" class="text-xl font-bold text-primary">RM 1,650</span>
+          </div>
+
+          <!-- Category groups -->
+          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5 mb-6">
+            <!-- Daily Essentials -->
+            <div class="sp-group-label col-span-full text-[11px] font-semibold text-muted uppercase tracking-wider mt-2 mb-0.5 flex items-center gap-2">
+              <span class="w-1 h-3.5 rounded-full bg-teal-500"></span> Keperluan Harian
+            </div>
+            <div><label class="block text-xs font-semibold text-muted mb-1">⛽ Petrol</label><input type="number" id="sp-petrol" value="200" min="0" step="50" class="sp-input w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" oninput="getSpending()" /></div>
+            <div><label class="block text-xs font-semibold text-muted mb-1">🍽️ Dining</label><input type="number" id="sp-dining" value="300" min="0" step="50" class="sp-input w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" oninput="getSpending()" /></div>
+            <div><label class="block text-xs font-semibold text-muted mb-1">🛒 Groceries</label><input type="number" id="sp-groceries" value="400" min="0" step="50" class="sp-input w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" oninput="getSpending()" /></div>
+            <div><label class="block text-xs font-semibold text-muted mb-1">🚗 Transport</label><input type="number" id="sp-transport" value="100" min="0" step="50" class="sp-input w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" oninput="getSpending()" /></div>
+            <div><label class="block text-xs font-semibold text-muted mb-1">💊 Pharmacy</label><input type="number" id="sp-pharmacy" value="50" min="0" step="50" class="sp-input w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" oninput="getSpending()" /></div>
+
+            <div class="sp-group-label col-span-full text-[11px] font-semibold text-muted uppercase tracking-wider mt-4 mb-0.5 flex items-center gap-2">
+              <span class="w-1 h-3.5 rounded-full bg-orange-500"></span> Gaya Hidup & Belanja
+            </div>
+            <div><label class="block text-xs font-semibold text-muted mb-1">🛍️ eCommerce</label><input type="number" id="sp-online" value="250" min="0" step="50" class="sp-input w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" oninput="getSpending()" /></div>
+            <div><label class="block text-xs font-semibold text-muted mb-1">🛒 Shopping</label><input type="number" id="sp-shopping" value="200" min="0" step="50" class="sp-input w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" oninput="getSpending()" /></div>
+            <div><label class="block text-xs font-semibold text-muted mb-1">🎬 Hiburan</label><input type="number" id="sp-entertainment" value="50" min="0" step="50" class="sp-input w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" oninput="getSpending()" /></div>
+            <div><label class="block text-xs font-semibold text-muted mb-1">📱 eWallet</label><input type="number" id="sp-ewallet" value="100" min="0" step="50" class="sp-input w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" oninput="getSpending()" /></div>
+            <div><label class="block text-xs font-semibold text-muted mb-1">🛡️ Insurance</label><input type="number" id="sp-insurance" value="150" min="0" step="50" class="sp-input w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" oninput="getSpending()" /></div>
+
+            <div class="sp-group-label col-span-full text-[11px] font-semibold text-muted uppercase tracking-wider mt-4 mb-0.5 flex items-center gap-2">
+              <span class="w-1 h-3.5 rounded-full bg-blue-500"></span> Bil & Perjalanan
+            </div>
+            <div><label class="block text-xs font-semibold text-muted mb-1">💡 Utilities</label><input type="number" id="sp-utilities" value="200" min="0" step="50" class="sp-input w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" oninput="getSpending()" /></div>
+            <div><label class="block text-xs font-semibold text-muted mb-1">📚 Education</label><input type="number" id="sp-education" value="0" min="0" step="50" class="sp-input w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" oninput="getSpending()" /></div>
+            <div><label class="block text-xs font-semibold text-muted mb-1">🌍 Overseas</label><input type="number" id="sp-overseas" value="0" min="0" step="50" class="sp-input w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" oninput="getSpending()" /></div>
+            <div><label class="block text-xs font-semibold text-muted mb-1">🏨 Hotel</label><input type="number" id="sp-hotel" value="0" min="0" step="50" class="sp-input w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" oninput="getSpending()" /></div>
+            <div><label class="block text-xs font-semibold text-muted mb-1">✈️ Airlines</label><input type="number" id="sp-airlines" value="0" min="0" step="50" class="sp-input w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2.5 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" oninput="getSpending()" /></div>
+          </div>
+
+          <!-- Spending bar -->
+          <div class="relative h-2 bg-gray-100 dark:bg-slate-800 rounded-full overflow-hidden mb-5">
+            <div id="spendBar" class="absolute inset-y-0 left-0 rounded-full bg-gradient-to-r from-teal-500 to-orange-500 transition-all duration-300" style="width:33%"></div>
+          </div>
+        </div>
+
+        <!-- Card Selector (owned mode) -->
+        <div id="cardSelector" class="hidden mb-6">
+          <div class="flex items-center justify-between mb-3">
+            <div>
+              <h2 class="text-base font-bold text-heading">Pilih Kad Anda</h2>
+              <p class="text-xs text-muted mt-0.5">Minimum 3 kad untuk optimumkan combo</p>
+            </div>
+            <span id="selectedCount" class="text-xs font-medium px-2.5 py-1 rounded-full bg-primary/10 text-primary">0 / 5</span>
+          </div>
+          <div id="cardList" class="grid grid-cols-1 sm:grid-cols-2 gap-1.5 max-h-72 overflow-y-auto border border-gray-100 dark:border-slate-700/50 rounded-xl p-2">
+          </div>
+          <div class="mt-3 flex gap-2">
+            <button class="text-xs font-medium px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-slate-800 text-muted hover:bg-gray-200 dark:hover:bg-slate-700 transition" onclick="selectAllCards()">Pilih Semua</button>
+            <button class="text-xs font-medium px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-slate-800 text-muted hover:bg-gray-200 dark:hover:bg-slate-700 transition" onclick="deselectAllCards()">Kosongkan</button>
+          </div>
+        </div>
+
+        <!-- Action buttons -->
+        <div class="flex flex-wrap items-center gap-3">
+          <button id="runBtn" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-teal-600 to-teal-500 text-white font-bold text-sm hover:from-teal-500 hover:to-teal-400 transition-all shadow-md shadow-teal-500/20 active:scale-[0.98]" onclick="runOptimizer()">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+            Cari Combo Terbaik
+          </button>
+          <button id="clearBtn" class="inline-flex items-center gap-1.5 px-4 py-3 rounded-xl bg-gray-100 dark:bg-slate-800 text-muted font-medium text-sm hover:bg-gray-200 dark:hover:bg-slate-700 transition" onclick="clearResults()">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            Reset
+          </button>
+        </div>
+
+        <!-- Loading -->
+        <div id="loading" class="hidden mt-8 text-center py-10">
+          <div class="inline-flex items-center gap-3 px-5 py-3 rounded-xl bg-primary/5 border border-primary/10">
+            <div class="w-5 h-5 border-2 border-primary border-t-transparent rounded-full animate-spin"></div>
+            <span class="text-sm text-muted">Mengoptimumkan 50,000+ kombinasi kad...</span>
+          </div>
+        </div>
+
+        <!-- Results -->
+        <div id="results" class="mt-8 hidden"></div>
+
+        <!-- Status -->
+        <div id="status" class="mt-4 text-xs text-muted"></div>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="max-w-3xl mx-auto mt-12">
+      <h2 class="text-lg font-bold mb-5 flex items-center gap-2">
+        <span class="w-6 h-6 rounded-full bg-primary/10 text-primary flex items-center justify-center text-xs">?</span>
+        Soalan Lazim
+      </h2>
+      <div class="space-y-2">
+        <details class="group rounded-xl bg-white dark:bg-slate-900/40 border border-gray-100 dark:border-slate-700/30 transition hover:border-gray-200 dark:hover:border-slate-600/50">
+          <summary class="flex items-center justify-between p-4 cursor-pointer text-sm font-semibold">
+            Berapa banyak kombinasi yang dinilai?
+            <svg class="w-4 h-4 text-muted group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="px-4 pb-4 text-sm text-muted">Optimizer menilai sehingga 52,394 kombinasi 3 kad dari lebih 50 kad kredit cashback Malaysia. Setiap combo dikira berdasarkan 15 kategori perbelanjaan.</div>
+        </details>
+        <details class="group rounded-xl bg-white dark:bg-slate-900/40 border border-gray-100 dark:border-slate-700/30 transition hover:border-gray-200 dark:hover:border-slate-600/50">
+          <summary class="flex items-center justify-between p-4 cursor-pointer text-sm font-semibold">
+            Macam mana cara pengiraan cashback?
+            <svg class="w-4 h-4 text-muted group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="px-4 pb-4 text-sm text-muted">Setiap kad dikira berdasarkan rate cashback sebenar, category cap, pool cap, dan minimum spend. Untuk kombinasi 3 kad, setiap kategori diagihkan ke kad terbaik dalam combo tersebut.</div>
+        </details>
+        <details class="group rounded-xl bg-white dark:bg-slate-900/40 border border-gray-100 dark:border-slate-700/30 transition hover:border-gray-200 dark:hover:border-slate-600/50">
+          <summary class="flex items-center justify-between p-4 cursor-pointer text-sm font-semibold">
+            Berapa tepat pengiraan ini?
+            <svg class="w-4 h-4 text-muted group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="px-4 pb-4 text-sm text-muted">Pengiraan menggunakan data cashback terkini dari bank-bank Malaysia. Walau bagaimanapun, selalu semak terma terkini dengan bank masing-masing kerana kadar boleh berubah.</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <CallToAction />
+  <div id="cardDataStore" data-cards={cardJson} style="display:none"></div>
+
+  <!-- Card Detail Modal -->
+  <div id="cardModal" class="fixed inset-0 z-50 hidden" style="background:rgba(0,0,0,0.6);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)">
+    <div class="flex items-center justify-center min-h-full p-4" onclick="if(event.target===this)closeCardDetail()">
+      <div id="cardModalContent" class="relative w-full max-w-lg rounded-2xl bg-white dark:bg-slate-900 border border-gray-100 dark:border-slate-700/60 shadow-2xl overflow-hidden transition-all duration-300 scale-95 opacity-0" style="max-height:90vh;overflow-y:auto">
+        <button onclick="closeCardDetail()" class="absolute top-3 right-3 z-10 w-8 h-8 flex items-center justify-center rounded-full bg-black/20 text-white hover:bg-black/40 transition text-lg leading-none">&times;</button>
+        <div id="modalCardImage" class="w-full bg-gray-50 dark:bg-slate-800/60 flex items-center justify-center p-6" style="aspect-ratio:1.586/1"></div>
+        <div class="p-5 space-y-4">
+          <div>
+            <span id="modalBank" class="text-xs font-semibold text-primary uppercase tracking-wider"></span>
+            <h3 id="modalCardName" class="text-xl font-bold mt-0.5"></h3>
+            <span id="modalCardType" class="inline-block text-xs font-medium px-2.5 py-0.5 rounded-full bg-primary/10 text-primary mt-1"></span>
+          </div>
+          <div class="grid grid-cols-3 gap-3 text-center">
+            <div class="rounded-xl bg-gray-50 dark:bg-slate-800/60 p-3">
+              <div class="text-xs text-muted">Annual Fee</div>
+              <div id="modalAnnualFee" class="text-sm font-bold mt-0.5"></div>
+            </div>
+            <div class="rounded-xl bg-gray-50 dark:bg-slate-800/60 p-3">
+              <div class="text-xs text-muted">Monthly Fee</div>
+              <div id="modalMonthlyFee" class="text-sm font-bold mt-0.5"></div>
+            </div>
+            <div class="rounded-xl bg-gray-50 dark:bg-slate-800/60 p-3">
+              <div class="text-xs text-muted">Min. Spend</div>
+              <div id="modalMinSpend" class="text-sm font-bold mt-0.5"></div>
+            </div>
+          </div>
+          <div id="modalPoolCapRow" class="hidden rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-700/30 p-3 text-sm">
+            <span class="font-semibold">Pool Cap: </span>
+            <span id="modalPoolCap" class="text-amber-700 dark:text-amber-300"></span>
+            <span class="text-muted"> — <span id="modalPoolNote">Max cashback across all categories per month</span></span>
+          </div>
+          <div>
+            <h4 class="text-sm font-bold mb-2">Cashback / Rebate Rates</h4>
+            <div id="modalCashbackTable" class="space-y-1"></div>
+          </div>
+          <div id="modalNotesRow" class="hidden rounded-xl bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-700/30 p-3 text-sm">
+            <span class="font-semibold">📝 Notes: </span>
+            <span id="modalNotes" class="text-muted"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script is:inline>
+var CATEGORIES = [
+  { id: 'petrol', label: 'Petrol' }, { id: 'dining', label: 'Dining' },
+  { id: 'groceries', label: 'Groceries' }, { id: 'online', label: 'Online / eCommerce' },
+  { id: 'shopping', label: 'Shopping' }, { id: 'utilities', label: 'Utilities' },
+  { id: 'ewallet', label: 'eWallet' }, { id: 'insurance', label: 'Insurance' },
+  { id: 'entertainment', label: 'Entertainment' }, { id: 'transport', label: 'Transport' },
+  { id: 'education', label: 'Education' }, { id: 'overseas', label: 'Overseas' },
+  { id: 'pharmacy', label: 'Pharmacy' }, { id: 'hotel', label: 'Hotel' },
+  { id: 'airlines', label: 'Airlines' },
+];
+var CATEGORY_LABELS = {
+  petrol:'⛽ Petrol', dining:'🍽️ Dining', groceries:'🛒 Groceries',
+  online:'🛍️ eCommerce', shopping:'🛒 Shopping', utilities:'💡 Utilities',
+  ewallet:'📱 eWallet', insurance:'🛡️ Insurance', entertainment:'🎬 Hiburan',
+  transport:'🚗 Transport', education:'📚 Education', overseas:'🌍 Overseas',
+  pharmacy:'💊 Pharmacy', hotel:'🏨 Hotel', airlines:'✈️ Airlines'
+};
+var CARDS = [];
+(function(){ var el=document.getElementById('cardDataStore'); if(el) try { CARDS=JSON.parse(el.textContent||'[]'); } catch(e){} })();
+var mode='optimal', selectedCards=[];
+
+function setMode(m) {
+  mode=m;
+  ['modeOptimal','modeOwned'].forEach(function(id){
+    document.getElementById(id).className='flex-1 flex items-center justify-center gap-2 px-4 py-4 text-sm font-semibold border-b-2 transition-all duration-200 border-transparent text-muted hover:text-primary hover:border-primary/30';
+  });
+  var a=document.getElementById(m==='optimal'?'modeOptimal':'modeOwned');
+  a.classList.add('bg-primary','text-white','border-primary','shadow-sm');
+  document.getElementById('cardSelector').classList.toggle('hidden',m!=='owned');
+  document.getElementById('runBtn').innerHTML=m==='optimal'
+    ? '<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>Cari Combo Terbaik'
+    : '<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>Optimumkan Kad Saya';
+}
+
+function getSpending() {
+  var s={},total=0;
+  CATEGORIES.forEach(function(c){
+    var el=document.getElementById('sp-'+c.id);
+    if(!el)return;
+    var v=parseFloat(el.value)||0; s[c.id]=v; total+=v;
+  });
+  document.getElementById('totalSpend').textContent='RM '+total.toLocaleString();
+  var bar=document.getElementById('spendBar');
+  if(bar) bar.style.width=Math.min(total/5000*100,100)+'%';
+  return s;
+}
+window.calc=getSpending;
+
+function calcCardCategory(card, categoryId, amount) {
+  if(amount<=0)return 0;
+  var best=0;
+  (card.cashback||[]).forEach(function(cb){
+    if(cb.category!==categoryId&&cb.category!=='*')return;
+    var e=amount*cb.rate/100;
+    if(cb.cap>0&&e>cb.cap)e=cb.cap;
+    if(e>best)best=e;
+  });
+  return best;
+}
+function calcCombo(cardIds,allCards,spending) {
+  var cards=cardIds.map(function(id){return allCards.find(function(c){return c.id===id})});
+  if(cards.some(function(c){return!c}))return null;
+  var ts=0;for(var k in spending)ts+=spending[k]||0;
+  var ms=0;cards.forEach(function(c){if((c.min_spend||0)>ms)ms=c.min_spend||0});
+  if(ts<ms)return null;
+  var r={cards:cardIds,total:0,breakdown:{}};
+  var u=CATEGORIES.map(function(c){return c.id}).filter(function(cid){return(spending[cid]||0)>0});
+  u.forEach(function(catId){
+    var bi=-1,bv=-1;
+    cards.forEach(function(card,idx){var e=calcCardCategory(card,catId,spending[catId]);if(e>bv){bv=e;bi=idx;}});
+    if(bi>=0){var cid=cardIds[bi];if(!r.breakdown[cid])r.breakdown[cid]={};r.breakdown[cid][catId]={amount:spending[catId],cashback:bv};r.total+=bv;}
+  });
+  cards.forEach(function(card){var pc=card.pool_cap||0;if(pc>0){var ct=0,bd=r.breakdown[card.id];if(bd){for(var c in bd)ct+=bd[c].cashback;}if(ct>pc){var ra=pc/ct;for(var c in bd)bd[c].cashback=Math.round(bd[c].cashback*ra*100)/100;}}});
+  r.total=Math.round(r.total*100)/100;
+  return r;
+}
+function runOptimizer() {
+  var s=getSpending();var ts=0;for(var k in s)ts+=s[k]||0;
+  if(ts<=0){document.getElementById('status').textContent='⚠️ Sila masukkan jumlah perbelanjaan.';return;}
+  var ld=document.getElementById('loading'),rs=document.getElementById('results'),st=document.getElementById('status');
+  ld.classList.remove('hidden');rs.classList.add('hidden');rs.innerHTML='';st.textContent='';
+  setTimeout(function(){
+    var ac=CARDS,co=[];(mode==='owned')?(selectedCards.length<3)?(ld.classList.add('hidden'),st.textContent='⚠️ Sila pilih minimum 3 kad.',void 0):ac=CARDS.filter(function(c){return selectedCards.indexOf(c.id)>=0}):0;
+    if(!ac||ac.length<3){ld.classList.add('hidden');st.textContent='⚠️ Perlu minimum 3 kad.';return;}
+    var n=ac.length;
+    for(var i=0;i<n-2;i++)for(var j=i+1;j<n-1;j++)for(var k=j+1;k<n;k++){var c=calcCombo([ac[i].id,ac[j].id,ac[k].id],CARDS,s);if(c)co.push(c);}
+    co.sort(function(a,b){return b.total-a.total});var tp=co.slice(0,20);
+    ld.classList.add('hidden');
+    if(tp.length===0){st.textContent='Tiada kombinasi yang sah.';return;}
+    renderResults(tp,CARDS,s);rs.classList.remove('hidden');st.textContent='Menilai '+co.length.toLocaleString()+' kombinasi dari '+ac.length+' kad.';
+  },50);
+}
+function cardFace(card) {
+  var p=card.primaryHex||'#333',s=card.secondaryHex||'#666',g=card.gradientStyle||'solid',l=card.logoLabel||(card.bank||'').substring(0,4).toUpperCase(),im=card.imageUrl||'';
+  var bg=g==='diagonal'?'linear-gradient(135deg,'+p+','+s+')':g==='horizontal'?'linear-gradient(90deg,'+p+','+s+')':p;
+  var cl=card.id?' onclick="showCardDetail(\''+card.id+'\')"':'';
+  if(im)return '<div'+cl+' class="relative rounded-xl overflow-hidden mb-1 shadow-sm bg-gray-50 card-clickable" style="aspect-ratio:1.586/1;display:flex;align-items:center;justify-content:center"><img src="'+im+'" alt="'+(card.name||'')+'" loading="lazy" style="width:100%;height:auto;object-fit:contain"/></div>';
+  return '<div'+cl+' class="relative rounded-xl overflow-hidden mb-1 shadow-sm card-clickable" style="background:'+bg+';min-height:76px"><div class="p-2.5 flex flex-col justify-between" style="min-height:76px"><div class="flex justify-between items-start"><span class="text-[11px] font-bold tracking-wider text-white/90">'+l+'</span><span class="text-[8px] text-white/60 font-mono">•••• 4582</span></div><div><div class="text-[10px] font-semibold text-white leading-tight truncate">'+(card.name||'').replace(/Credit Card.*$/i,'').replace(/Card-i.*$/i,'').trim()+'</div><div class="text-[8px] text-white/70 mt-0.5">'+(card.bank||'')+'</div></div></div></div>';
+}
+function renderResults(combos,allCards,spending) {
+  var best=combos[0],bestCards=best.cards.map(function(id){return allCards.find(function(c){return c.id===id})});
+  var ts=0;for(var k in spending)ts+=spending[k]||0;
+  var h='';
+  h+='<div class="rounded-2xl bg-gradient-to-br from-teal-50 to-orange-50 dark:from-teal-950/40 dark:to-orange-950/40 border border-teal-100 dark:border-teal-800/30 p-5 mb-6"><div class="flex items-center gap-3 mb-3"><div class="w-10 h-10 rounded-xl bg-gradient-to-br from-teal-500 to-orange-500 flex items-center justify-center text-white text-lg shadow-lg">🏆</div><div><div class="text-xs font-semibold text-muted uppercase tracking-wider">Combo Terbaik</div><div class="text-2xl font-bold text-heading">RM '+best.total.toFixed(2)+' <span class="text-sm font-normal text-muted">/ bulan</span></div></div></div><div class="grid grid-cols-3 gap-2 mb-3">';
+  bestCards.forEach(function(c){h+='<div class="min-w-0">'+cardFace(c)+'</div>';});
+  h+='</div><div class="flex justify-between items-center pt-3 border-t border-teal-200/50 dark:border-teal-700/30"><span class="text-xs text-muted">Belanja: RM '+ts.toLocaleString()+'</span><span class="text-xs font-medium text-primary">Eff: '+(best.total/ts*100).toFixed(1)+'% cashback</span></div></div>';
+  h+='<div class="flex items-center justify-between mb-4"><h3 class="text-sm font-bold text-heading">Kedudukan Combo</h3><span class="text-[11px] text-muted">Klik kad untuk detail</span></div><div class="space-y-2">';
+  combos.forEach(function(combo,idx){
+    var cards=combo.cards.map(function(id){return allCards.find(function(c){return c.id===id})});
+    var medal=idx===0?'🥇':idx===1?'🥈':idx===2?'🥉':null;
+    h+='<div class="group rounded-xl border transition-all duration-200 hover:shadow-md '+(idx===0?'border-teal-300 dark:border-teal-700 bg-white dark:bg-slate-900/60 shadow-sm':idx<3?'border-gray-200 dark:border-slate-700/50 bg-white dark:bg-slate-900/40':'border-gray-100 dark:border-slate-800 bg-gray-50/50 dark:bg-slate-900/20')+'"><div class="p-4"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-2.5">'+(medal?'<span class="text-lg">'+medal+'</span>':'<span class="w-6 h-6 rounded-full bg-gray-100 dark:bg-slate-800 flex items-center justify-center text-[11px] font-bold text-muted">'+(idx+1)+'</span>')+'<span class="font-bold text-base text-heading">RM '+combo.total.toFixed(2)+'</span><span class="text-[11px] text-muted">/bln</span></div><span class="text-[11px] font-medium text-primary">+'+(combo.total/ts*100).toFixed(1)+'%</span></div><div class="grid grid-cols-3 gap-2">';
+    cards.forEach(function(c){h+='<div class="min-w-0">'+cardFace(c)+'</div>';});
+    h+='</div><details class="mt-2"><summary class="flex items-center gap-1.5 text-[11px] text-muted cursor-pointer hover:text-primary transition pt-2">Lihat agihan kategori<svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></summary><div class="mt-2 space-y-1.5 pt-2 border-t border-gray-100 dark:border-slate-800">';
+    cards.forEach(function(card){
+      var bd=combo.breakdown[card.id];if(!bd)return;var o='';
+      for(var c in bd){if(bd[c].cashback>0)o+='<div class="flex justify-between text-xs py-1 px-2 rounded-lg bg-gray-50 dark:bg-slate-800/40"><span>'+(CATEGORY_LABELS[c]||c)+' <span class="text-[10px] text-muted">(RM '+bd[c].amount+')</span></span><span class="text-primary font-semibold">+RM '+bd[c].cashback.toFixed(2)+'</span></div>';}
+      if(o)h+='<div class="text-[11px] font-semibold text-muted mt-2 mb-1">'+(card.bank||'')+' — '+(card.name||'').replace(/Credit Card.*$/i,'').trim()+'</div>'+o;
+    });
+    h+='</div></details></div></div>';
+  });
+  h+='</div>';
+  document.getElementById('results').innerHTML=h;
+}
+function clearResults(){document.getElementById('results').classList.add('hidden');document.getElementById('results').innerHTML='';document.getElementById('status').textContent='';}
+function initCardSelector() {
+  var l=document.getElementById('cardList'),h='';
+  CARDS.forEach(function(card){
+    h+='<label class="flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-gray-50 dark:hover:bg-slate-800/60 cursor-pointer transition border border-transparent hover:border-gray-100 dark:hover:border-slate-700/50"><input type="checkbox" value="'+card.id+'" onchange="toggleCard(\''+card.id+'\')" class="w-4 h-4 rounded border-gray-300 text-primary focus:ring-primary/30"><span class="w-1.5 h-5 rounded-full shrink-0" style="background:'+(card.primaryHex||'#333')+'"></span><div class="flex-1 min-w-0"><span class="text-xs font-semibold text-primary block">'+(card.bank||'')+'</span><span class="text-sm truncate block">'+(card.name||'')+'</span></div></label>';
+  });
+  l.innerHTML=h;
+}
+function toggleCard(id){var i=selectedCards.indexOf(id);if(i>=0)selectedCards.splice(i,1);else if(selectedCards.length>=5){document.getElementById('status').textContent='⚠️ Maksimum 5 kad.';return;}else selectedCards.push(id);document.getElementById('selectedCount').textContent=selectedCards.length+' / 5';}
+function selectAllCards(){selectedCards=[];document.querySelectorAll('#cardList input[type=checkbox]').forEach(function(cb,i){if(i<5){cb.checked=true;selectedCards.push(cb.value);}});document.getElementById('selectedCount').textContent=selectedCards.length+' / 5';}
+function deselectAllCards(){selectedCards=[];document.querySelectorAll('#cardList input[type=checkbox]').forEach(function(cb){cb.checked=false;});document.getElementById('selectedCount').textContent='0 / 5';}
+document.addEventListener('DOMContentLoaded',function(){initCardSelector();getSpending();});
+function showCardDetail(cardId) {
+  var card=CARDS.find(function(c){return c.id===cardId});if(!card)return;
+  var img=document.getElementById('modalCardImage');
+  if(card.imageUrl)img.innerHTML='<img src="'+card.imageUrl+'" alt="'+(card.name||'')+'" style="width:auto;height:100%;max-height:180px;object-fit:contain;border-radius:12px"/>';
+  else{var p=card.primaryHex||'#333',s=card.secondaryHex||'#666',g=card.gradientStyle||'solid',bg=g==='diagonal'?'linear-gradient(135deg,'+p+','+s+')':g==='horizontal'?'linear-gradient(90deg,'+p+','+s+')':p;img.style.background=bg;img.innerHTML='<div class="text-white/80 text-4xl font-bold tracking-wider">'+(card.logoLabel||(card.bank||'').substring(0,4).toUpperCase())+'</div>';}
+  document.getElementById('modalBank').textContent=card.bank||'';document.getElementById('modalCardName').textContent=card.name||'';
+  document.getElementById('modalCardType').textContent=card.type==='cashback'?'💵 Cash Back':card.type==='points'?'⭐ Rewards Points':'';
+  document.getElementById('modalAnnualFee').textContent=(card.annual_fee||0)===0?'RM 0':'RM '+card.annual_fee;
+  document.getElementById('modalMonthlyFee').textContent=(card.monthly_fee||0)===0?'RM 0':'RM '+card.monthly_fee;
+  document.getElementById('modalMinSpend').textContent=(card.min_spend||0)===0?'Tiada':'RM '+card.min_spend;
+  var pc=document.getElementById('modalPoolCapRow');
+  if(card.pool_cap&&card.pool_cap>0){document.getElementById('modalPoolCap').textContent='RM '+card.pool_cap+'/month';pc.classList.remove('hidden');}else{pc.classList.add('hidden');}
+  var th='';
+  if(card.cashback&&card.cashback.length>0){card.cashback.forEach(function(cb){th+='<div class="flex justify-between py-1.5 px-3 rounded-lg bg-gray-50 dark:bg-slate-800/40 text-sm"><span>'+(cb.category==='*'?'✨ All Categories (Base)':CATEGORY_LABELS[cb.category]||cb.category)+(cb.merchant?' @ '+cb.merchant:'')+'</span><span class="font-semibold text-primary">'+cb.rate+'%'+(cb.cap?' (cap RM '+cb.cap+')':'')+(cb.min_spend?' [min RM '+cb.min_spend+']':'')+'</span></div>';});}else th='<div class="text-sm text-muted py-2">No cashback data available.</div>';
+  document.getElementById('modalCashbackTable').innerHTML=th;
+  var nr=document.getElementById('modalNotesRow');
+  if(card.notes){document.getElementById('modalNotes').textContent=card.notes;nr.classList.remove('hidden');}else{nr.classList.add('hidden');}
+  var modal=document.getElementById('cardModal'),content=document.getElementById('cardModalContent');
+  modal.classList.remove('hidden');requestAnimationFrame(function(){content.classList.remove('scale-95','opacity-0');content.classList.add('scale-100','opacity-100');});
+}
+function closeCardDetail(){var m=document.getElementById('cardModal'),c=document.getElementById('cardModalContent');c.classList.remove('scale-100','opacity-100');c.classList.add('scale-95','opacity-0');setTimeout(function(){m.classList.add('hidden');},200);}
+(function(){var s=document.createElement('style');s.textContent='.card-clickable{cursor:pointer;transition:transform .2s ease,box-shadow .2s ease}.card-clickable:hover{transform:scale(1.03);box-shadow:0 8px 25px rgba(0,0,0,.12)}';document.head.appendChild(s);})();
+</script>
+</Layout>

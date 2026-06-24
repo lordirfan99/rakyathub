@@ -1,0 +1,2798 @@
+{
+  "cards": [
+    {
+      "id": "aeon-biker-gold",
+      "bank": "AEON",
+      "name": "AEON Biker Gold Visa Card",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 8,
+          "cap": 30,
+          "min_spend": 0
+        },
+        {
+          "category": "groceries",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "online",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "utilities",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 30,
+      "notes": "8% petrol up to RM30/month, 0.3% uncapped on everything else",
+      "primaryHex": "#D4141C",
+      "secondaryHex": "#8B0000",
+      "gradientStyle": "horizontal",
+      "logoLabel": "AEON",
+      "imageUrl": "/images/cards/aeon-biker-gold.png"
+    },
+    {
+      "id": "aeon-biker-infinite",
+      "bank": "AEON",
+      "name": "AEON Biker Infinite Visa Card",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 10,
+          "cap": 50,
+          "min_spend": 0
+        },
+        {
+          "category": "groceries",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "online",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "utilities",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 50,
+      "notes": "10% petrol up to RM50/month, 0.5% uncapped on everything else",
+      "primaryHex": "#D4141C",
+      "secondaryHex": "#8B0000",
+      "gradientStyle": "horizontal",
+      "logoLabel": "AEON",
+      "imageUrl": "/images/cards/aeon-biker-infinite.png"
+    },
+    {
+      "id": "aeon-amp-platinum",
+      "bank": "AEON",
+      "name": "AEON Member Plus (AMP) Visa Platinum",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "groceries",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "online",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "utilities",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Flat 1% uncapped cashback on all spend",
+      "primaryHex": "#D4141C",
+      "secondaryHex": "#8B0000",
+      "gradientStyle": "horizontal",
+      "logoLabel": "AEON",
+      "imageUrl": "/images/cards/aeon-amp-platinum.png"
+    },
+    {
+      "id": "aeon-amp-gold",
+      "bank": "AEON",
+      "name": "AEON Member Plus (AMP) Visa Gold",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "groceries",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "online",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "utilities",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Flat 0.5% uncapped cashback on all spend",
+      "primaryHex": "#D4141C",
+      "secondaryHex": "#8B0000",
+      "gradientStyle": "horizontal",
+      "logoLabel": "AEON",
+      "imageUrl": "/images/cards/aeon-amp-gold.png"
+    },
+    {
+      "id": "aeon-amp-classic",
+      "bank": "AEON",
+      "name": "AEON Member Plus (AMP) Visa Classic",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "groceries",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "online",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "utilities",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Flat 0.3% uncapped cashback on all spend",
+      "primaryHex": "#D4141C",
+      "secondaryHex": "#8B0000",
+      "gradientStyle": "horizontal",
+      "logoLabel": "AEON",
+      "imageUrl": "/images/cards/aeon-amp-classic.png"
+    },
+    {
+      "id": "affin-bhpetrol",
+      "bank": "AFFIN",
+      "name": "AFFIN BHPetrol Mastercard",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 8,
+          "cap": 50,
+          "min_spend": 0,
+          "merchant": "BHPetrol"
+        },
+        {
+          "category": "groceries",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "online",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "utilities",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 50,
+      "notes": "8% BHPetrol only up to RM50/month, 0.3% others",
+      "primaryHex": "#003D7A",
+      "secondaryHex": "#0066B3",
+      "gradientStyle": "solid",
+      "logoLabel": "AFFIN",
+      "imageUrl": "/images/cards/affin-bhpetrol.png"
+    },
+    {
+      "id": "affin-duo",
+      "bank": "AFFIN",
+      "name": "AFFIN DUO Visa Cash Back",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "online",
+          "rate": 5,
+          "cap": 20,
+          "min_spend": 500
+        },
+        {
+          "category": "petrol",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "dining",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "shopping",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "utilities",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "transport",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 20,
+      "notes": "5% online up to RM20 (min RM500), 1% others uncapped",
+      "primaryHex": "#003D7A",
+      "secondaryHex": "#0066B3",
+      "gradientStyle": "solid",
+      "logoLabel": "AFFIN",
+      "imageUrl": "/images/cards/affin-duo.png"
+    },
+    {
+      "id": "affin-duo-plus",
+      "bank": "AFFIN",
+      "name": "AFFIN DUO+ Visa Cash Back",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "online",
+          "rate": 10,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "petrol",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "dining",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "shopping",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "utilities",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "transport",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 30,
+      "notes": "10% online up to RM30 (min RM500), 1% others uncapped",
+      "primaryHex": "#003D7A",
+      "secondaryHex": "#0066B3",
+      "gradientStyle": "solid",
+      "logoLabel": "AFFIN",
+      "imageUrl": "/images/cards/affin-duo-plus.png"
+    },
+    {
+      "id": "affin-duoi",
+      "bank": "AFFIN Islamic",
+      "name": "AFFIN DUO-i Visa Cash Back",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "online",
+          "rate": 5,
+          "cap": 20,
+          "min_spend": 500
+        },
+        {
+          "category": "petrol",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "dining",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "shopping",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "utilities",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "transport",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 20,
+      "notes": "Islamic variant of DUO \u2014 same rates",
+      "primaryHex": "#003D7A",
+      "secondaryHex": "#009944",
+      "gradientStyle": "solid",
+      "logoLabel": "AFFIN",
+      "imageUrl": "/images/cards/affin-duoi.png"
+    },
+    {
+      "id": "affin-duo-plus-i",
+      "bank": "AFFIN Islamic",
+      "name": "AFFIN DUO+ Visa Cash Back-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "online",
+          "rate": 10,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "petrol",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "dining",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "shopping",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "utilities",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "transport",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 30,
+      "notes": "Islamic variant of DUO+ \u2014 same rates",
+      "primaryHex": "#003D7A",
+      "secondaryHex": "#009944",
+      "gradientStyle": "solid",
+      "logoLabel": "AFFIN",
+      "imageUrl": "/images/cards/affin-duo-plus-i.png"
+    },
+    {
+      "id": "alliance-vsig",
+      "bank": "Alliance Bank",
+      "name": "Alliance Bank Visa Signature",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 1500,
+      "cashback": [
+        {
+          "category": "dining",
+          "rate": 8,
+          "cap": 58,
+          "min_spend": 1500
+        },
+        {
+          "category": "online",
+          "rate": 8,
+          "cap": 58,
+          "min_spend": 1500
+        },
+        {
+          "category": "groceries",
+          "rate": 8,
+          "cap": 58,
+          "min_spend": 1500
+        },
+        {
+          "category": "petrol",
+          "rate": 8,
+          "cap": 58,
+          "min_spend": 1500
+        },
+        {
+          "category": "shopping",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 1500
+        },
+        {
+          "category": "utilities",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 1500
+        }
+      ],
+      "pool_cap": 58,
+      "notes": "8% on selected categories up to RM1k spend each (max RM58 pooled), min RM1.5k/month",
+      "primaryHex": "#003D7A",
+      "secondaryHex": "#00A94F",
+      "gradientStyle": "diagonal",
+      "logoLabel": "Alliance",
+      "imageUrl": "/images/cards/alliance-vsig.png"
+    },
+    {
+      "id": "alliance-younique",
+      "bank": "Alliance Bank",
+      "name": "Alliance Bank You:nique Gold Credit Card",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "dining",
+          "rate": 5,
+          "cap": 20,
+          "min_spend": 500
+        },
+        {
+          "category": "online",
+          "rate": 5,
+          "cap": 20,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "petrol",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 20,
+      "notes": "5% dining & online up to RM20 pooled, min RM500",
+      "primaryHex": "#003D7A",
+      "secondaryHex": "#00A94F",
+      "gradientStyle": "diagonal",
+      "logoLabel": "Alliance",
+      "imageUrl": "/images/cards/alliance-younique.png"
+    },
+    {
+      "id": "alrajhi-platinum",
+      "bank": "Alrajhi Bank",
+      "name": "Alrajhi Bank Visa Platinum",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "groceries",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "online",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "utilities",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Flat 1% uncapped cashback",
+      "primaryHex": "#1B3A2D",
+      "secondaryHex": "#2D6E4E",
+      "gradientStyle": "solid",
+      "logoLabel": "Alrajhi",
+      "imageUrl": "/images/cards/alrajhi-platinum.png"
+    },
+    {
+      "id": "alrajhi-sig",
+      "bank": "Alrajhi Bank",
+      "name": "Alrajhi Bank Visa Signature",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 1.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "groceries",
+          "rate": 1.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 1.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "online",
+          "rate": 1.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 1.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "utilities",
+          "rate": 1.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Flat 1.5% uncapped cashback",
+      "primaryHex": "#1B3A2D",
+      "secondaryHex": "#2D6E4E",
+      "gradientStyle": "solid",
+      "logoLabel": "Alrajhi",
+      "imageUrl": "/images/cards/alrajhi-sig.png"
+    },
+    {
+      "id": "ambank-cash-rebate",
+      "bank": "AmBank",
+      "name": "AmBank Cash Rebate Visa Platinum Card",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 5,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 5,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "dining",
+          "rate": 5,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "online",
+          "rate": 5,
+          "cap": 30,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 30,
+      "notes": "5% on selected categories (max RM30/month pooled), min RM500",
+      "primaryHex": "#003399",
+      "secondaryHex": "#0099FF",
+      "gradientStyle": "diagonal",
+      "logoLabel": "AmBank",
+      "imageUrl": "/images/cards/ambank-cash-rebate.png"
+    },
+    {
+      "id": "bank-islam-gold",
+      "bank": "Bank Islam",
+      "name": "Bank Islam Visa Gold Credit Card-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "groceries",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "online",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "utilities",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Flat 0.3% cashback",
+      "primaryHex": "#005A3C",
+      "secondaryHex": "#008D5E",
+      "gradientStyle": "solid",
+      "logoLabel": "Bank Islam",
+      "imageUrl": "/images/cards/bank-islam-gold.png"
+    },
+    {
+      "id": "bank-islam-platinum",
+      "bank": "Bank Islam",
+      "name": "Bank Islam Visa Platinum Credit Card-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "groceries",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "online",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "utilities",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Flat 0.5% cashback",
+      "primaryHex": "#005A3C",
+      "secondaryHex": "#008D5E",
+      "gradientStyle": "solid",
+      "logoLabel": "Bank Islam",
+      "imageUrl": "/images/cards/bank-islam-platinum.png"
+    },
+    {
+      "id": "bank-islam-infinite",
+      "bank": "Bank Islam",
+      "name": "Bank Islam Visa Infinite Credit Card-i",
+      "type": "points",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Miles/points card \u2014 treated as 0.5% base",
+      "primaryHex": "#005A3C",
+      "secondaryHex": "#008D5E",
+      "gradientStyle": "solid",
+      "logoLabel": "Bank Islam",
+      "imageUrl": "/images/cards/bank-islam-infinite.jpg"
+    },
+    {
+      "id": "bsn-cash-rebate",
+      "bank": "BSN",
+      "name": "BSN Visa Cash Back Credit Card",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 2,
+          "cap": 20,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 2,
+          "cap": 20,
+          "min_spend": 500
+        },
+        {
+          "category": "dining",
+          "rate": 2,
+          "cap": 20,
+          "min_spend": 500
+        },
+        {
+          "category": "online",
+          "rate": 2,
+          "cap": 20,
+          "min_spend": 500
+        },
+        {
+          "category": "utilities",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 20,
+      "notes": "2% selected categories max RM20/month, min RM500",
+      "primaryHex": "#003D7A",
+      "secondaryHex": "#E8102D",
+      "gradientStyle": "horizontal",
+      "logoLabel": "BSN",
+      "imageUrl": "/images/cards/bsn-cash-rebate.jpg"
+    },
+    {
+      "id": "cimb-cash-rebate",
+      "bank": "CIMB",
+      "name": "CIMB Cash Rebate Platinum Credit Card",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 5,
+          "cap": 25,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 5,
+          "cap": 25,
+          "min_spend": 500
+        },
+        {
+          "category": "online",
+          "rate": 5,
+          "cap": 25,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 25,
+      "notes": "5% on selected categories (max RM25/month), min RM500, 1% others",
+      "primaryHex": "#8B2131",
+      "secondaryHex": "#C9303A",
+      "gradientStyle": "diagonal",
+      "logoLabel": "CIMB",
+      "imageUrl": "/images/cards/cimb-cash-rebate.png"
+    },
+    {
+      "id": "cimb-petronas-platinum",
+      "bank": "CIMB",
+      "name": "CIMB PETRONAS Visa Platinum-i Credit Card",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 8,
+          "cap": 50,
+          "min_spend": 0,
+          "merchant": "PETRONAS"
+        },
+        {
+          "category": "groceries",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 50,
+      "notes": "8% PETRONAS petrol up to RM50/month, 0.3% others",
+      "primaryHex": "#8B2131",
+      "secondaryHex": "#C9303A",
+      "gradientStyle": "diagonal",
+      "logoLabel": "CIMB",
+      "imageUrl": "/images/cards/cimb-petronas-platinum.jpg"
+    },
+    {
+      "id": "cimb-petronas-infinite",
+      "bank": "CIMB",
+      "name": "CIMB PETRONAS Visa Infinite-i Credit Card",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 10,
+          "cap": 80,
+          "min_spend": 0,
+          "merchant": "PETRONAS"
+        },
+        {
+          "category": "groceries",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 80,
+      "notes": "10% PETRONAS petrol up to RM80/month, 0.5% others",
+      "primaryHex": "#8B2131",
+      "secondaryHex": "#C9303A",
+      "gradientStyle": "diagonal",
+      "logoLabel": "CIMB",
+      "imageUrl": "/images/cards/cimb-petronas-infinite.jpg"
+    },
+    {
+      "id": "hlb-essential",
+      "bank": "HLB",
+      "name": "HLB Essential Card",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "dining",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "online",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 30,
+      "notes": "3% selected categories max RM30/month, min RM500",
+      "primaryHex": "#002F6C",
+      "secondaryHex": "#0099CC",
+      "gradientStyle": "horizontal",
+      "logoLabel": "HLB",
+      "imageUrl": "/images/cards/hlb-essential.jpg"
+    },
+    {
+      "id": "hlb-wise",
+      "bank": "HLB",
+      "name": "HLB Wise Card",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 2000,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 10,
+          "cap": 100,
+          "min_spend": 2000
+        },
+        {
+          "category": "groceries",
+          "rate": 10,
+          "cap": 100,
+          "min_spend": 2000
+        },
+        {
+          "category": "dining",
+          "rate": 10,
+          "cap": 100,
+          "min_spend": 2000
+        },
+        {
+          "category": "online",
+          "rate": 10,
+          "cap": 100,
+          "min_spend": 2000
+        },
+        {
+          "category": "shopping",
+          "rate": 10,
+          "cap": 100,
+          "min_spend": 2000
+        },
+        {
+          "category": "utilities",
+          "rate": 10,
+          "cap": 100,
+          "min_spend": 2000
+        }
+      ],
+      "pool_cap": 100,
+      "notes": "10% on top 3 spend categories (capped at RM100/month), min RM2k spend",
+      "primaryHex": "#002F6C",
+      "secondaryHex": "#0099CC",
+      "gradientStyle": "horizontal",
+      "logoLabel": "HLB",
+      "imageUrl": "/images/cards/hlb-wise.jpg"
+    },
+    {
+      "id": "hsbc-mpower",
+      "bank": "HSBC",
+      "name": "HSBC Amanah MPower Platinum Credit Card-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "dining",
+          "rate": 8,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "online",
+          "rate": 8,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 8,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "petrol",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "shopping",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 30,
+      "notes": "8% dining, online, groceries max RM30/month, min RM500",
+      "primaryHex": "#DB0011",
+      "secondaryHex": "#333333",
+      "gradientStyle": "solid",
+      "logoLabel": "HSBC",
+      "imageUrl": "/images/cards/hsbc-mpower.jpg"
+    },
+    {
+      "id": "hsbc-live-plus",
+      "bank": "HSBC",
+      "name": "HSBC Live+ Credit Card",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "dining",
+          "rate": 8,
+          "cap": 40,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 8,
+          "cap": 40,
+          "min_spend": 500
+        },
+        {
+          "category": "shopping",
+          "rate": 8,
+          "cap": 40,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 40,
+      "notes": "8% dining, groceries, shopping max RM40/month, min RM500",
+      "primaryHex": "#DB0011",
+      "secondaryHex": "#333333",
+      "gradientStyle": "solid",
+      "logoLabel": "HSBC",
+      "imageUrl": "/images/cards/hsbc-live-plus.jpg"
+    },
+    {
+      "id": "maybank-2-gold",
+      "bank": "Maybank",
+      "name": "Maybank 2 Gold Cards (AMEX+Mastercard/Visa)",
+      "type": "points",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Treat Points as 5x TP (\u22480.5%), AMEX 5x weekend dining",
+      "primaryHex": "#FFD700",
+      "secondaryHex": "#1A1A2E",
+      "gradientStyle": "diagonal",
+      "logoLabel": "Maybank",
+      "imageUrl": "/images/cards/maybank-2-gold.png"
+    },
+    {
+      "id": "maybank-2-platinum",
+      "bank": "Maybank",
+      "name": "Maybank 2 Platinum Cards (AMEX+Mastercard/Visa)",
+      "type": "points",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "dining",
+          "rate": 5,
+          "cap": 50,
+          "min_spend": 0
+        },
+        {
+          "category": "online",
+          "rate": 5,
+          "cap": 50,
+          "min_spend": 0
+        },
+        {
+          "category": "groceries",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "petrol",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 50,
+      "notes": "AMEX: 5x TP on dining/online (\u22485% CB up to RM50), Visa/MC: 1x TP (\u22481%)",
+      "primaryHex": "#FFD700",
+      "secondaryHex": "#1A1A2E",
+      "gradientStyle": "diagonal",
+      "logoLabel": "Maybank",
+      "imageUrl": "/images/cards/maybank-2-platinum.png"
+    },
+    {
+      "id": "maybank-amex-cb-gold",
+      "bank": "Maybank",
+      "name": "Maybank American Express Cash Back Gold",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "groceries",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "online",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "utilities",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Flat 1% uncapped cashback",
+      "primaryHex": "#FFD700",
+      "secondaryHex": "#1A1A2E",
+      "gradientStyle": "diagonal",
+      "logoLabel": "Maybank",
+      "imageUrl": "/images/cards/maybank-amex-cb-gold.png"
+    },
+    {
+      "id": "maybank-fcbarca",
+      "bank": "Maybank",
+      "name": "Maybank FC Barcelona Visa Signature Card",
+      "type": "points",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Miles card \u2014 treated as 0.5% base",
+      "primaryHex": "#FFD700",
+      "secondaryHex": "#1A1A2E",
+      "gradientStyle": "diagonal",
+      "logoLabel": "Maybank",
+      "imageUrl": "/images/cards/maybank-fcbarca.png"
+    },
+    {
+      "id": "maybank-myimpact",
+      "bank": "Maybank",
+      "name": "Maybank myimpact Visa Signature Credit Card",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "dining",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "online",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 30,
+      "notes": "3% selected categories max RM30/month, min RM500, charity component",
+      "primaryHex": "#FFD700",
+      "secondaryHex": "#1A1A2E",
+      "gradientStyle": "diagonal",
+      "logoLabel": "Maybank",
+      "imageUrl": "/images/cards/maybank-myimpact.png"
+    },
+    {
+      "id": "maybank-vsig",
+      "bank": "Maybank",
+      "name": "Maybank Visa Signature",
+      "type": "points",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Miles/premium card \u2014 treated as 0.5% base",
+      "primaryHex": "#FFD700",
+      "secondaryHex": "#1A1A2E",
+      "gradientStyle": "diagonal",
+      "logoLabel": "Maybank",
+      "imageUrl": "/images/cards/maybank-vsig.png"
+    },
+    {
+      "id": "maybank-islamic-ikhwan-amex",
+      "bank": "Maybank Islamic",
+      "name": "Maybank Islamic Ikhwan Amex Platinum Card-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "dining",
+          "rate": 5,
+          "cap": 50,
+          "min_spend": 0
+        },
+        {
+          "category": "online",
+          "rate": 5,
+          "cap": 50,
+          "min_spend": 0
+        },
+        {
+          "category": "petrol",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "groceries",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "utilities",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 50,
+      "notes": "5x TP dining/online (\u22485% CB up to RM50), 1x others (\u22481%)",
+      "primaryHex": "#009944",
+      "secondaryHex": "#1A1A2E",
+      "gradientStyle": "diagonal",
+      "logoLabel": "Maybank",
+      "imageUrl": "/images/cards/maybank-islamic-ikhwan-amex.png"
+    },
+    {
+      "id": "maybank-islamic-ikhwan-mc",
+      "bank": "Maybank Islamic",
+      "name": "Maybank Islamic Ikhwan Mastercard Platinum-i",
+      "type": "points",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "1x TP all spend (\u22481% CB equivalent)",
+      "primaryHex": "#009944",
+      "secondaryHex": "#1A1A2E",
+      "gradientStyle": "diagonal",
+      "logoLabel": "Maybank",
+      "imageUrl": "/images/cards/maybank-islamic-ikhwan-mc.png"
+    },
+    {
+      "id": "maybank-islamic-myimpact",
+      "bank": "Maybank Islamic",
+      "name": "Maybank Islamic myimpact Ikhwan Mastercard Platinum-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "dining",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "online",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 30,
+      "notes": "Islamic variant of myimpact \u2014 same structure",
+      "primaryHex": "#009944",
+      "secondaryHex": "#1A1A2E",
+      "gradientStyle": "diagonal",
+      "logoLabel": "Maybank",
+      "imageUrl": "/images/cards/maybank-islamic-myimpact.jpg"
+    },
+    {
+      "id": "maybank-islamic-petronas-gold",
+      "bank": "Maybank Islamic",
+      "name": "Maybank Islamic PETRONAS Ikhwan Visa Gold-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 5,
+          "cap": 30,
+          "min_spend": 0,
+          "merchant": "PETRONAS"
+        },
+        {
+          "category": "groceries",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 30,
+      "notes": "5% PETRONAS petrol up to RM30/month, 0.3% others",
+      "primaryHex": "#009944",
+      "secondaryHex": "#1A1A2E",
+      "gradientStyle": "diagonal",
+      "logoLabel": "Maybank",
+      "imageUrl": "/images/cards/maybank-islamic-petronas-gold.png"
+    },
+    {
+      "id": "maybank-islamic-petronas-platinum",
+      "bank": "Maybank Islamic",
+      "name": "Maybank Islamic PETRONAS Ikhwan Visa Platinum-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 8,
+          "cap": 50,
+          "min_spend": 0,
+          "merchant": "PETRONAS"
+        },
+        {
+          "category": "groceries",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 50,
+      "notes": "8% PETRONAS petrol up to RM50/month, 0.5% others",
+      "primaryHex": "#009944",
+      "secondaryHex": "#1A1A2E",
+      "gradientStyle": "diagonal",
+      "logoLabel": "Maybank",
+      "imageUrl": "/images/cards/maybank-islamic-petronas-platinum.png"
+    },
+    {
+      "id": "ocbc-ge",
+      "bank": "OCBC",
+      "name": "OCBC Great Eastern Platinum Mastercard",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "insurance",
+          "rate": 5,
+          "cap": 50,
+          "min_spend": 500
+        },
+        {
+          "category": "petrol",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "dining",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "online",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "shopping",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "utilities",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 50,
+      "notes": "5% insurance premium up to RM50/month, 0.3% others",
+      "primaryHex": "#00509D",
+      "secondaryHex": "#003366",
+      "gradientStyle": "solid",
+      "logoLabel": "OCBC",
+      "imageUrl": "/images/cards/ocbc-ge.png"
+    },
+    {
+      "id": "ocbc-world",
+      "bank": "OCBC",
+      "name": "OCBC World Mastercard",
+      "type": "points",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Miles card \u2014 treated as 0.5% base",
+      "primaryHex": "#00509D",
+      "secondaryHex": "#003366",
+      "gradientStyle": "solid",
+      "logoLabel": "OCBC",
+      "imageUrl": "/images/cards/ocbc-world.png"
+    },
+    {
+      "id": "pb-quantum-mc",
+      "bank": "Public Bank",
+      "name": "PB Quantum Mastercard",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "online",
+          "rate": 10,
+          "cap": 35,
+          "min_spend": 500
+        },
+        {
+          "category": "petrol",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "dining",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "shopping",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "utilities",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 35,
+      "notes": "10% online max RM35/month, 1% others, min RM500",
+      "primaryHex": "#003366",
+      "secondaryHex": "#0099CC",
+      "gradientStyle": "solid",
+      "logoLabel": "PBB",
+      "imageUrl": "/images/cards/pb-quantum-mc.png"
+    },
+    {
+      "id": "pb-quantum-visa",
+      "bank": "Public Bank",
+      "name": "PB Quantum Visa Card",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "online",
+          "rate": 10,
+          "cap": 35,
+          "min_spend": 500
+        },
+        {
+          "category": "petrol",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "dining",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "shopping",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "utilities",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 35,
+      "notes": "10% online max RM35/month, 1% others, min RM500",
+      "primaryHex": "#003366",
+      "secondaryHex": "#0099CC",
+      "gradientStyle": "solid",
+      "logoLabel": "PBB",
+      "imageUrl": "/images/cards/pb-quantum-visa.png"
+    },
+    {
+      "id": "pb-visa-sig",
+      "bank": "Public Bank",
+      "name": "PB Visa Signature Credit Card",
+      "type": "points",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Premium card \u2014 treated as 0.5% base",
+      "primaryHex": "#003366",
+      "secondaryHex": "#0099CC",
+      "gradientStyle": "solid",
+      "logoLabel": "PBB",
+      "imageUrl": "/images/cards/pb-visa-sig.jpg"
+    },
+    {
+      "id": "pb-visa-infinite",
+      "bank": "Public Bank",
+      "name": "PB Visa Infinite Credit Card",
+      "type": "points",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Premium card \u2014 treated as 0.5% base",
+      "primaryHex": "#003366",
+      "secondaryHex": "#0099CC",
+      "gradientStyle": "solid",
+      "logoLabel": "PBB",
+      "imageUrl": "/images/cards/pb-visa-infinite.png"
+    },
+    {
+      "id": "rhb-cashback",
+      "bank": "RHB",
+      "name": "RHB Visa Cash Back Credit Card",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "dining",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "online",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "utilities",
+          "rate": 0.2,
+          "cap": 0,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 30,
+      "notes": "3% selected categories max RM30/month, min RM500",
+      "primaryHex": "#004B87",
+      "secondaryHex": "#00A9E0",
+      "gradientStyle": "horizontal",
+      "logoLabel": "RHB"
+    },
+    {
+      "id": "rhb-shell",
+      "bank": "RHB",
+      "name": "RHB Shell Visa Credit Card",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 6,
+          "cap": 60,
+          "min_spend": 0,
+          "merchant": "Shell"
+        },
+        {
+          "category": "groceries",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 60,
+      "notes": "6% Shell petrol max RM60/month, 0.3% others",
+      "primaryHex": "#004B87",
+      "secondaryHex": "#00A9E0",
+      "gradientStyle": "horizontal",
+      "logoLabel": "RHB",
+      "imageUrl": "/images/cards/rhb-shell.jpg"
+    },
+    {
+      "id": "rhb-vsig",
+      "bank": "RHB",
+      "name": "RHB Visa Signature",
+      "type": "points",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Premium card \u2014 treated as 0.5% base",
+      "primaryHex": "#004B87",
+      "secondaryHex": "#00A9E0",
+      "gradientStyle": "horizontal",
+      "logoLabel": "RHB",
+      "imageUrl": "/images/cards/rhb-vsig.jpg"
+    },
+    {
+      "id": "rhb-world-mc",
+      "bank": "RHB",
+      "name": "RHB World Mastercard Credit Card",
+      "type": "points",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Miles card \u2014 treated as 0.5% base",
+      "primaryHex": "#004B87",
+      "secondaryHex": "#00A9E0",
+      "gradientStyle": "horizontal",
+      "logoLabel": "RHB",
+      "imageUrl": "/images/cards/rhb-world-mc.jpg"
+    },
+    {
+      "id": "sc-simply-cash",
+      "bank": "Standard Chartered",
+      "name": "Standard Chartered Simply Cash credit card",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 1.5,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 1.5,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "dining",
+          "rate": 1.5,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "online",
+          "rate": 1.5,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "shopping",
+          "rate": 1.5,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "utilities",
+          "rate": 1.5,
+          "cap": 0,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "1.5% uncapped cashback on all spend, min RM500",
+      "primaryHex": "#333333",
+      "secondaryHex": "#666666",
+      "gradientStyle": "solid",
+      "logoLabel": "Bank",
+      "imageUrl": "/images/cards/sc-simply-cash.png"
+    },
+    {
+      "id": "uob-evol",
+      "bank": "UOB",
+      "name": "UOB EVOL Card",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "online",
+          "rate": 8,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "dining",
+          "rate": 8,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "shopping",
+          "rate": 8,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "petrol",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 500
+        },
+        {
+          "category": "utilities",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 30,
+      "notes": "8% online, dining, shopping max RM30/month, min RM500",
+      "primaryHex": "#003D7A",
+      "secondaryHex": "#E8102D",
+      "gradientStyle": "solid",
+      "logoLabel": "UOB",
+      "imageUrl": "/images/cards/uob-evol.png"
+    },
+    {
+      "id": "uob-one-platinum",
+      "bank": "UOB",
+      "name": "UOB One Platinum Card",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 5,
+          "cap": 25,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 5,
+          "cap": 25,
+          "min_spend": 500
+        },
+        {
+          "category": "dining",
+          "rate": 5,
+          "cap": 25,
+          "min_spend": 500
+        },
+        {
+          "category": "online",
+          "rate": 5,
+          "cap": 25,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 25,
+      "notes": "5% selected categories max RM25/month, min RM500",
+      "primaryHex": "#003D7A",
+      "secondaryHex": "#E8102D",
+      "gradientStyle": "solid",
+      "logoLabel": "UOB",
+      "imageUrl": "/images/cards/uob-one-platinum.png"
+    },
+    {
+      "id": "bank-muamalat-amarahraya",
+      "bank": "Bank Muamalat",
+      "name": "Bank Muamalat AmanahRaya Visa Platinum-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Hibah card \u2014 treated as 0.5% base",
+      "primaryHex": "#003D1F",
+      "secondaryHex": "#006B36",
+      "gradientStyle": "solid",
+      "logoLabel": "Muamalat",
+      "imageUrl": "/images/cards/bank-muamalat-amarahraya.png"
+    },
+    {
+      "id": "bank-muamalat-eon-infinite",
+      "bank": "Bank Muamalat",
+      "name": "Bank Muamalat EON Visa Infinite-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Premium card \u2014 treated as 0.5% base",
+      "primaryHex": "#003D1F",
+      "secondaryHex": "#006B36",
+      "gradientStyle": "solid",
+      "logoLabel": "Muamalat",
+      "imageUrl": "/images/cards/bank-muamalat-eon-infinite.png"
+    },
+    {
+      "id": "bank-muamalat-eon-platinum",
+      "bank": "Bank Muamalat",
+      "name": "Bank Muamalat EON Visa Platinum-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Treated as 0.5% base",
+      "primaryHex": "#003D1F",
+      "secondaryHex": "#006B36",
+      "gradientStyle": "solid",
+      "logoLabel": "Muamalat",
+      "imageUrl": "/images/cards/bank-muamalat-eon-platinum.png"
+    },
+    {
+      "id": "bank-muamalat-pos-infinite",
+      "bank": "Bank Muamalat",
+      "name": "Bank Muamalat Pos Malaysia Visa Infinite-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Premium card \u2014 treated as 0.5% base",
+      "primaryHex": "#003D1F",
+      "secondaryHex": "#006B36",
+      "gradientStyle": "solid",
+      "logoLabel": "Muamalat",
+      "imageUrl": "/images/cards/bank-muamalat-pos-infinite.png"
+    },
+    {
+      "id": "bank-muamalat-pos-platinum",
+      "bank": "Bank Muamalat",
+      "name": "Bank Muamalat Pos Malaysia Visa Platinum-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Treated as 0.5% base",
+      "primaryHex": "#003D1F",
+      "secondaryHex": "#006B36",
+      "gradientStyle": "solid",
+      "logoLabel": "Muamalat"
+    },
+    {
+      "id": "bank-muamalat-visa-infinite",
+      "bank": "Bank Muamalat",
+      "name": "Bank Muamalat Visa Infinite-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Premium card \u2014 treated as 0.5% base",
+      "primaryHex": "#003D1F",
+      "secondaryHex": "#006B36",
+      "gradientStyle": "solid",
+      "logoLabel": "Muamalat",
+      "imageUrl": "/images/cards/bank-muamalat-visa-infinite.png"
+    },
+    {
+      "id": "bank-muamalat-visa-platinum",
+      "bank": "Bank Muamalat",
+      "name": "Bank Muamalat Visa Platinum-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Treated as 0.5% base",
+      "primaryHex": "#003D1F",
+      "secondaryHex": "#006B36",
+      "gradientStyle": "solid",
+      "logoLabel": "Muamalat",
+      "imageUrl": "/images/cards/bank-muamalat-visa-platinum.png"
+    },
+    {
+      "id": "bank-rakyat-cikgu-sejati",
+      "bank": "Bank Rakyat",
+      "name": "Bank Rakyat Cikgu Sejati Credit Card-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "groceries",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "online",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "utilities",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Flat 1% cashback",
+      "primaryHex": "#003366",
+      "secondaryHex": "#0066CC",
+      "gradientStyle": "horizontal",
+      "logoLabel": "Bank Rakyat",
+      "imageUrl": "/images/cards/bank-rakyat-cikgu-sejati.png"
+    },
+    {
+      "id": "bank-rakyat-muslimah",
+      "bank": "Bank Rakyat",
+      "name": "Bank Rakyat Muslimah Credit Card-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "groceries",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "online",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 1,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Flat 1% cashback",
+      "primaryHex": "#003366",
+      "secondaryHex": "#0066CC",
+      "gradientStyle": "horizontal",
+      "logoLabel": "Bank Rakyat",
+      "imageUrl": "/images/cards/bank-rakyat-muslimah.png"
+    },
+    {
+      "id": "bank-rakyat-platinum-explorer",
+      "bank": "Bank Rakyat",
+      "name": "Bank Rakyat Platinum Explorer Credit Card-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Miles card \u2014 treated as 0.5% base",
+      "primaryHex": "#003366",
+      "secondaryHex": "#0066CC",
+      "gradientStyle": "horizontal",
+      "logoLabel": "Bank Rakyat",
+      "imageUrl": "/images/cards/bank-rakyat-platinum-explorer.png"
+    },
+    {
+      "id": "bank-rakyat-world-mc",
+      "bank": "Bank Rakyat",
+      "name": "Bank Rakyat World Mastercard Credit Card-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Miles card \u2014 treated as 0.5% base",
+      "primaryHex": "#003366",
+      "secondaryHex": "#0066CC",
+      "gradientStyle": "horizontal",
+      "logoLabel": "Bank Rakyat",
+      "imageUrl": "/images/cards/bank-rakyat-world-mc.png"
+    },
+    {
+      "id": "bank-rakyat-xclusive",
+      "bank": "Bank Rakyat",
+      "name": "Bank Rakyat Xclusive Explorer Credit Card-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Miles card \u2014 treated as 0.5% base",
+      "primaryHex": "#003366",
+      "secondaryHex": "#0066CC",
+      "gradientStyle": "horizontal",
+      "logoLabel": "Bank Rakyat",
+      "imageUrl": "/images/cards/bank-rakyat-xclusive.png"
+    },
+    {
+      "id": "public-islamic-gold-mc",
+      "bank": "Public Islamic Bank",
+      "name": "Public Islamic Bank Gold MasterCard Credit Card-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Flat 0.3% cashback",
+      "primaryHex": "#003366",
+      "secondaryHex": "#009944",
+      "gradientStyle": "solid",
+      "logoLabel": "PBB",
+      "imageUrl": "/images/cards/public-islamic-gold-mc.png"
+    },
+    {
+      "id": "public-islamic-platinum-mc",
+      "bank": "Public Islamic Bank",
+      "name": "Public Islamic Bank Platinum MasterCard Credit Card-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Flat 0.5% cashback",
+      "primaryHex": "#003366",
+      "secondaryHex": "#009944",
+      "gradientStyle": "solid",
+      "logoLabel": "PBB",
+      "imageUrl": "/images/cards/public-islamic-platinum-mc.png"
+    },
+    {
+      "id": "public-islamic-visa-gold",
+      "bank": "Public Islamic Bank",
+      "name": "Public Islamic Bank Visa Gold Credit Card-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Flat 0.3% cashback",
+      "primaryHex": "#003366",
+      "secondaryHex": "#009944",
+      "gradientStyle": "solid",
+      "logoLabel": "PBB",
+      "imageUrl": "/images/cards/public-islamic-visa-gold.png"
+    },
+    {
+      "id": "public-islamic-visa-platinum",
+      "bank": "Public Islamic Bank",
+      "name": "Public Islamic Bank Visa Platinum Credit Card-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Flat 0.5% cashback",
+      "primaryHex": "#003366",
+      "secondaryHex": "#009944",
+      "gradientStyle": "solid",
+      "logoLabel": "PBB",
+      "imageUrl": "/images/cards/public-islamic-visa-platinum.png"
+    },
+    {
+      "id": "rhb-shell-i",
+      "bank": "RHB Islamic",
+      "name": "RHB Shell Visa Credit Card-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 6,
+          "cap": 60,
+          "min_spend": 0,
+          "merchant": "Shell"
+        },
+        {
+          "category": "groceries",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "dining",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        },
+        {
+          "category": "shopping",
+          "rate": 0.3,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 60,
+      "notes": "Islamic variant \u2014 same rates as RHB Shell",
+      "primaryHex": "#333333",
+      "secondaryHex": "#666666",
+      "gradientStyle": "solid",
+      "logoLabel": "Bank",
+      "imageUrl": "/images/cards/rhb-shell-i.jpg"
+    },
+    {
+      "id": "rhb-cashback-i",
+      "bank": "RHB Islamic",
+      "name": "RHB Visa Cash Back Credit Card-i",
+      "type": "cashback",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 500,
+      "cashback": [
+        {
+          "category": "petrol",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "groceries",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "dining",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "online",
+          "rate": 3,
+          "cap": 30,
+          "min_spend": 500
+        },
+        {
+          "category": "utilities",
+          "rate": 0.2,
+          "cap": 0,
+          "min_spend": 500
+        }
+      ],
+      "pool_cap": 30,
+      "notes": "Islamic variant \u2014 same as RHB Cashback",
+      "primaryHex": "#333333",
+      "secondaryHex": "#666666",
+      "gradientStyle": "solid",
+      "logoLabel": "Bank"
+    },
+    {
+      "id": "rhb-world-mc-i",
+      "bank": "RHB Islamic",
+      "name": "RHB World Mastercard Credit Card-i",
+      "type": "points",
+      "monthly_fee": 0,
+      "annual_fee": 0,
+      "min_spend": 0,
+      "cashback": [
+        {
+          "category": "*",
+          "rate": 0.5,
+          "cap": 0,
+          "min_spend": 0
+        }
+      ],
+      "pool_cap": 0,
+      "notes": "Islamic variant \u2014 miles card, 0.5% base",
+      "primaryHex": "#333333",
+      "secondaryHex": "#666666",
+      "gradientStyle": "solid",
+      "logoLabel": "Bank",
+      "imageUrl": "/images/cards/rhb-world-mc-i.jpg"
+    }
+  ]
+}
