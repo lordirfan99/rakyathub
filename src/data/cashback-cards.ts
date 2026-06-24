@@ -15,6 +15,7 @@ export interface CreditCard {
   bank: string;
   cardName: string;
   hexColor: string;            // Primary brand hex — used for gradient, no logos
+  imageUrl?: string;           // Path to card image (e.g. /images/cards/{name}.png)
   network: 'Visa' | 'Mastercard' | 'UnionPay' | 'Amex';
   minIncome: number;           // Annual income in RM
   annualFee: number;           // RM per year (0 = free)

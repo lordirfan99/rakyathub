@@ -13,6 +13,32 @@ const cardsModule = await import('~/data/cashback-cards');
 const rawCards: CreditCard[] = cardsModule.CARDS;
 
 // Convert to flat format for frontend JS engine
+// Mapping from new card IDs to existing image filenames
+// v2 — merged: old remapped images + fresh DuitGain downloads
+const IMAGE_MAP: Record<string, string> = {
+  'maybank-2-cards': '/images/cards/maybank-2-cards.png',
+  'maybank-visa-signature': '/images/cards/maybank-visa-signature.png',
+  'cimb-cash-rebate-platinum': '/images/cards/cimb-cash-rebate-platinum.png',
+  'cimb-petronas-visa': '/images/cards/cimb-petronas-visa.jpg',
+  'pb-quantum-visa': '/images/cards/pb-quantum-visa.png',
+  'pb-quantum-mc': '/images/cards/pb-quantum-mc.png',
+  'pb-visa-signature': '/images/cards/pb-visa-signature.jpg',
+  'hlb-wise-gold': '/images/cards/hlb-wise-gold.jpg',
+  'bsn-cash-visa': '/images/cards/bsn-cash-visa.jpg',
+  'bank-islam-visa': '/images/cards/bank-islam-visa.png',
+  'uob-one': '/images/cards/uob-one.png',
+  'maybank-fc-barcelona': '/images/cards/maybank-fc-barcelona.png',
+  // Old-image fallbacks (pre-scrape remap)
+  'hlb-visa-platinum': '/images/cards/hlb-essential.jpg',
+  'ambank-true-cashback': '/images/cards/ambank-cash-rebate.png',
+  'alliance-viz-visa': '/images/cards/alliance-vsig.png',
+  'sc-smart': '/images/cards/sc-simply-cash.png',
+  'uob-cashback-platinum': '/images/cards/uob-evol.png',
+  'ocbc-cashback': '/images/cards/ocbc-ge.png',
+  'maybank-2-card-amex': '/images/cards/maybank-amex-cb-gold.png',
+  'ocbc-visa-infinite': '/images/cards/ocbc-world.png',
+};
+
 const flatCards = rawCards.map(card => ({
   id: card.id,
   bank: card.bank,
@@ -20,15 +46,16 @@ const flatCards = rawCards.map(card => ({
   primaryHex: card.hexColor,
   secondaryHex: card.hexColor,
   gradientStyle: 'solid',
-  logoLabel: card.bank.substring(0, 4).toUpperCase(),
-  imageUrl: '',
+  logoLabel: card.bank.replace(/Bank$/i,'').substring(0,4).toUpperCase(),
+  network: card.network,
+  imageUrl: card.imageUrl || IMAGE_MAP[card.id] || '',
+  minIncome: card.minIncome,
   min_spend: 0,
   pool_cap: card.tiers.length > 0 ? Math.max(...card.tiers.map(t => t.poolCap)) : 0,
   annual_fee: card.annualFee,
   monthly_fee: 0,
   type: 'cashback',
   notes: card.feeWaiverCondition || '',
-  // Flatten tiers into per-category cashback entries
   cashback: card.tiers.flatMap(tier =>
     tier.categories.map(cat => ({
       category: cat.toLowerCase().replace(/\s+/g, ''),
@@ -359,11 +386,13 @@ function runOptimizer() {
   },50);
 }
 function cardFace(card) {
-  var p=card.primaryHex||'#333',s=card.secondaryHex||'#666',g=card.gradientStyle||'solid',l=card.logoLabel||(card.bank||'').substring(0,4).toUpperCase(),im=card.imageUrl||'';
-  var bg=g==='diagonal'?'linear-gradient(135deg,'+p+','+s+')':g==='horizontal'?'linear-gradient(90deg,'+p+','+s+')':p;
+  var p=card.primaryHex||'#333', s=card.secondaryHex||'#666', g=card.gradientStyle||'solid', l=card.logoLabel||(card.bank||'').substring(0,4).toUpperCase(), im=card.imageUrl||'', net=card.network||'';
+  var bg=g==='diagonal'?'linear-gradient(135deg,'+p+','+s+')':g==='horizontal'?'linear-gradient(90deg,'+p+','+s+')':'linear-gradient(135deg,'+p+','+darken(p,20)+')';
   var cl=card.id?' onclick="showCardDetail(\''+card.id+'\')"':'';
+  var networkIcon = net==='Visa'?'VISA':net==='Mastercard'?'MC':net==='Amex'?'AMEX':net;
   if(im)return '<div'+cl+' class="relative rounded-xl overflow-hidden mb-1 shadow-sm bg-gray-50 card-clickable" style="aspect-ratio:1.586/1;display:flex;align-items:center;justify-content:center"><img src="'+im+'" alt="'+(card.name||'')+'" loading="lazy" style="width:100%;height:auto;object-fit:contain"/></div>';
-  return '<div'+cl+' class="relative rounded-xl overflow-hidden mb-1 shadow-sm card-clickable" style="background:'+bg+';min-height:76px"><div class="p-2.5 flex flex-col justify-between" style="min-height:76px"><div class="flex justify-between items-start"><span class="text-[11px] font-bold tracking-wider text-white/90">'+l+'</span><span class="text-[8px] text-white/60 font-mono">•••• 4582</span></div><div><div class="text-[10px] font-semibold text-white leading-tight truncate">'+(card.name||'').replace(/Credit Card.*$/i,'').replace(/Card-i.*$/i,'').trim()+'</div><div class="text-[8px] text-white/70 mt-0.5">'+(card.bank||'')+'</div></div></div></div>';
+  return '<div'+cl+' class="relative rounded-xl overflow-hidden mb-1 shadow-sm card-clickable" style="background:'+bg+';aspect-ratio:1.586/1"><div class="absolute inset-0 bg-white/10" style="background:radial-gradient(circle at 80% 20%, rgba(255,255,255,0.15) 0%, transparent 60%)"></div><div class="relative p-2.5 flex flex-col justify-between h-full"><div class="flex justify-between items-start"><span class="text-[10px] font-bold tracking-widest text-white/80">'+l+'</span><span class="text-[10px] font-bold text-white/60">'+networkIcon+'</span></div><div><div class="text-[9px] font-semibold text-white/70">'+(card.bank||'')+'</div><div class="text-[11px] font-bold text-white leading-tight truncate">'+(card.name||'').replace(/Credit Card.*$/i,'').replace(/Card-i.*$/i,'').trim()+'</div></div><div class="flex justify-between items-end"><span class="text-[7px] text-white/40 font-mono">•••• 4582</span><div class="flex gap-0.5"><span class="w-5 h-3 rounded-sm bg-yellow-400/50"></span><span class="w-5 h-3 rounded-sm bg-yellow-400/50" style="opacity:0.7"></span></div></div></div></div>';
+  function darken(hex,pct){var c=parseInt(hex.slice(1),16),r=c>>16&255,g=c>>8&255,b=c&255;return'#'+((r*(100-pct)/100<<16)+(g*(100-pct)/100<<8)+(b*(100-pct)/100<<0)).toString(16).padStart(6,'0');}
 }
 function renderResults(combos,allCards,spending) {
   var best=combos[0],bestCards=best.cards.map(function(id){return allCards.find(function(c){return c.id===id})});
