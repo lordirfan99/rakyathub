@@ -1,0 +1,735 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import { Icon } from 'astro-icon/components';
+import { CARDS, CATEGORIES } from '~/data/cashback-cards';
+
+const metadata = {
+  title: 'Kalkulator Cashback Kad Kredit — Combo Terbaik Malaysia',
+  description: 'Cari kombinasi sehingga 3 kad kredit Malaysia yang beri cashback tertinggi berdasarkan tabiat belanja anda — petrol, runcit, makan, online shopping dan lebih.',
+};
+
+const year = new Date().getFullYear();
+
+// Serialise card data for client script — no bank logos, just data + hex
+const cardsJson = JSON.stringify(CARDS);
+const categoriesJson = JSON.stringify(CATEGORIES);
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-10 md:py-16">
+
+    <!-- Breadcrumb -->
+    <div class="mb-6">
+      <a href="/kalkulator/" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+
+    <!-- Hero -->
+    <div class="mb-8">
+      <div class="inline-flex items-center gap-2 rounded-full bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800 text-emerald-700 dark:text-emerald-400 px-3 py-1 text-xs font-semibold uppercase tracking-wide mb-4">
+        <Icon name="tabler:credit-card" class="w-3.5 h-3.5" />
+        Kalkulator Interaktif {year}
+      </div>
+      <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-3">
+        Cashback Combo Optimizer
+      </h1>
+      <p class="text-lg md:text-xl text-muted max-w-3xl">
+        Masukkan perbelanjaan bulanan anda. Enjin kami akan uji 20,000+ kombinasi kad kredit dan cadangkan combo sehingga 3 kad untuk cashback tertinggi.
+      </p>
+    </div>
+
+    <!-- ── SPEND INPUT PANEL ────────────────────────────────── -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-6">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold">Masukkan Perbelanjaan Bulanan</h2>
+        <button id="btnReset" class="text-xs text-muted hover:text-primary transition-colors underline underline-offset-2">Reset</button>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4" id="spendGrid">
+
+        <!-- Each row: icon + label + RM input -->
+        <!-- Petrol -->
+        <div class="flex items-center gap-3 rounded-xl border border-gray-100 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/60 px-4 py-3">
+          <span class="flex-shrink-0 w-9 h-9 rounded-lg bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center text-orange-600 dark:text-orange-400">
+            <Icon name="tabler:gas-station" class="w-5 h-5" stroke-width="1.5" />
+          </span>
+          <div class="flex-1 min-w-0">
+            <label for="spend-Petrol" class="block text-xs font-semibold text-default mb-0.5">Petrol</label>
+            <div class="flex items-center gap-1">
+              <span class="text-xs text-muted">RM</span>
+              <input type="number" id="spend-Petrol" data-category="Petrol"
+                class="spend-input w-full bg-transparent text-sm font-semibold text-default outline-none"
+                value="200" min="0" step="50" placeholder="0" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Groceries -->
+        <div class="flex items-center gap-3 rounded-xl border border-gray-100 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/60 px-4 py-3">
+          <span class="flex-shrink-0 w-9 h-9 rounded-lg bg-emerald-100 dark:bg-emerald-900/30 flex items-center justify-center text-emerald-600 dark:text-emerald-400">
+            <Icon name="tabler:shopping-bag" class="w-5 h-5" stroke-width="1.5" />
+          </span>
+          <div class="flex-1 min-w-0">
+            <label for="spend-Groceries" class="block text-xs font-semibold text-default mb-0.5">Runcit / Groceries</label>
+            <div class="flex items-center gap-1">
+              <span class="text-xs text-muted">RM</span>
+              <input type="number" id="spend-Groceries" data-category="Groceries"
+                class="spend-input w-full bg-transparent text-sm font-semibold text-default outline-none"
+                value="400" min="0" step="50" placeholder="0" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Dining -->
+        <div class="flex items-center gap-3 rounded-xl border border-gray-100 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/60 px-4 py-3">
+          <span class="flex-shrink-0 w-9 h-9 rounded-lg bg-red-100 dark:bg-red-900/30 flex items-center justify-center text-red-600 dark:text-red-400">
+            <Icon name="tabler:grill-fork" class="w-5 h-5" stroke-width="1.5" />
+          </span>
+          <div class="flex-1 min-w-0">
+            <label for="spend-Dining" class="block text-xs font-semibold text-default mb-0.5">Makan / Dining</label>
+            <div class="flex items-center gap-1">
+              <span class="text-xs text-muted">RM</span>
+              <input type="number" id="spend-Dining" data-category="Dining"
+                class="spend-input w-full bg-transparent text-sm font-semibold text-default outline-none"
+                value="300" min="0" step="50" placeholder="0" />
+            </div>
+          </div>
+        </div>
+
+        <!-- eWallet -->
+        <div class="flex items-center gap-3 rounded-xl border border-gray-100 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/60 px-4 py-3">
+          <span class="flex-shrink-0 w-9 h-9 rounded-lg bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center text-blue-600 dark:text-blue-400">
+            <Icon name="tabler:nfc" class="w-5 h-5" stroke-width="1.5" />
+          </span>
+          <div class="flex-1 min-w-0">
+            <label for="spend-eWallet" class="block text-xs font-semibold text-default mb-0.5">E-Wallet (TNG, Boost)</label>
+            <div class="flex items-center gap-1">
+              <span class="text-xs text-muted">RM</span>
+              <input type="number" id="spend-eWallet" data-category="eWallet"
+                class="spend-input w-full bg-transparent text-sm font-semibold text-default outline-none"
+                value="150" min="0" step="50" placeholder="0" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Online Shopping -->
+        <div class="flex items-center gap-3 rounded-xl border border-gray-100 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/60 px-4 py-3">
+          <span class="flex-shrink-0 w-9 h-9 rounded-lg bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center text-purple-600 dark:text-purple-400">
+            <Icon name="tabler:click" class="w-5 h-5" stroke-width="1.5" />
+          </span>
+          <div class="flex-1 min-w-0">
+            <label for="spend-Online Shopping" class="block text-xs font-semibold text-default mb-0.5">Belanja Online</label>
+            <div class="flex items-center gap-1">
+              <span class="text-xs text-muted">RM</span>
+              <input type="number" id="spend-Online Shopping" data-category="Online Shopping"
+                class="spend-input w-full bg-transparent text-sm font-semibold text-default outline-none"
+                value="200" min="0" step="50" placeholder="0" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Utilities -->
+        <div class="flex items-center gap-3 rounded-xl border border-gray-100 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/60 px-4 py-3">
+          <span class="flex-shrink-0 w-9 h-9 rounded-lg bg-yellow-100 dark:bg-yellow-900/30 flex items-center justify-center text-yellow-600 dark:text-yellow-400">
+            <Icon name="tabler:bulb" class="w-5 h-5" stroke-width="1.5" />
+          </span>
+          <div class="flex-1 min-w-0">
+            <label for="spend-Utilities" class="block text-xs font-semibold text-default mb-0.5">Utiliti (TNB, Air, Unifi)</label>
+            <div class="flex items-center gap-1">
+              <span class="text-xs text-muted">RM</span>
+              <input type="number" id="spend-Utilities" data-category="Utilities"
+                class="spend-input w-full bg-transparent text-sm font-semibold text-default outline-none"
+                value="150" min="0" step="50" placeholder="0" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Entertainment -->
+        <div class="flex items-center gap-3 rounded-xl border border-gray-100 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/60 px-4 py-3">
+          <span class="flex-shrink-0 w-9 h-9 rounded-lg bg-pink-100 dark:bg-pink-900/30 flex items-center justify-center text-pink-600 dark:text-pink-400">
+            <Icon name="tabler:ticket" class="w-5 h-5" stroke-width="1.5" />
+          </span>
+          <div class="flex-1 min-w-0">
+            <label for="spend-Entertainment" class="block text-xs font-semibold text-default mb-0.5">Hiburan</label>
+            <div class="flex items-center gap-1">
+              <span class="text-xs text-muted">RM</span>
+              <input type="number" id="spend-Entertainment" data-category="Entertainment"
+                class="spend-input w-full bg-transparent text-sm font-semibold text-default outline-none"
+                value="0" min="0" step="50" placeholder="0" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Pharmacy -->
+        <div class="flex items-center gap-3 rounded-xl border border-gray-100 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/60 px-4 py-3">
+          <span class="flex-shrink-0 w-9 h-9 rounded-lg bg-teal-100 dark:bg-teal-900/30 flex items-center justify-center text-teal-600 dark:text-teal-400">
+            <Icon name="tabler:pill" class="w-5 h-5" stroke-width="1.5" />
+          </span>
+          <div class="flex-1 min-w-0">
+            <label for="spend-Pharmacy" class="block text-xs font-semibold text-default mb-0.5">Farmasi / Kesihatan</label>
+            <div class="flex items-center gap-1">
+              <span class="text-xs text-muted">RM</span>
+              <input type="number" id="spend-Pharmacy" data-category="Pharmacy"
+                class="spend-input w-full bg-transparent text-sm font-semibold text-default outline-none"
+                value="0" min="0" step="50" placeholder="0" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Airlines -->
+        <div class="flex items-center gap-3 rounded-xl border border-gray-100 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/60 px-4 py-3">
+          <span class="flex-shrink-0 w-9 h-9 rounded-lg bg-sky-100 dark:bg-sky-900/30 flex items-center justify-center text-sky-600 dark:text-sky-400">
+            <Icon name="tabler:plane" class="w-5 h-5" stroke-width="1.5" />
+          </span>
+          <div class="flex-1 min-w-0">
+            <label for="spend-Airlines" class="block text-xs font-semibold text-default mb-0.5">Penerbangan / Travel</label>
+            <div class="flex items-center gap-1">
+              <span class="text-xs text-muted">RM</span>
+              <input type="number" id="spend-Airlines" data-category="Airlines"
+                class="spend-input w-full bg-transparent text-sm font-semibold text-default outline-none"
+                value="0" min="0" step="50" placeholder="0" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Telco -->
+        <div class="flex items-center gap-3 rounded-xl border border-gray-100 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/60 px-4 py-3">
+          <span class="flex-shrink-0 w-9 h-9 rounded-lg bg-indigo-100 dark:bg-indigo-900/30 flex items-center justify-center text-indigo-600 dark:text-indigo-400">
+            <Icon name="tabler:device-mobile" class="w-5 h-5" stroke-width="1.5" />
+          </span>
+          <div class="flex-1 min-w-0">
+            <label for="spend-Telco" class="block text-xs font-semibold text-default mb-0.5">Telco (Maxis, Celcom, Digi)</label>
+            <div class="flex items-center gap-1">
+              <span class="text-xs text-muted">RM</span>
+              <input type="number" id="spend-Telco" data-category="Telco"
+                class="spend-input w-full bg-transparent text-sm font-semibold text-default outline-none"
+                value="0" min="0" step="50" placeholder="0" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="flex items-center gap-3 rounded-xl border border-gray-100 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/60 px-4 py-3">
+          <span class="flex-shrink-0 w-9 h-9 rounded-lg bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center text-amber-600 dark:text-amber-400">
+            <Icon name="tabler:book" class="w-5 h-5" stroke-width="1.5" />
+          </span>
+          <div class="flex-1 min-w-0">
+            <label for="spend-Education" class="block text-xs font-semibold text-default mb-0.5">Pendidikan / Kursus</label>
+            <div class="flex items-center gap-1">
+              <span class="text-xs text-muted">RM</span>
+              <input type="number" id="spend-Education" data-category="Education"
+                class="spend-input w-full bg-transparent text-sm font-semibold text-default outline-none"
+                value="0" min="0" step="50" placeholder="0" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Insurance -->
+        <div class="flex items-center gap-3 rounded-xl border border-gray-100 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/60 px-4 py-3">
+          <span class="flex-shrink-0 w-9 h-9 rounded-lg bg-cyan-100 dark:bg-cyan-900/30 flex items-center justify-center text-cyan-600 dark:text-cyan-400">
+            <Icon name="tabler:shield" class="w-5 h-5" stroke-width="1.5" />
+          </span>
+          <div class="flex-1 min-w-0">
+            <label for="spend-Insurance" class="block text-xs font-semibold text-default mb-0.5">Insurans / Takaful</label>
+            <div class="flex items-center gap-1">
+              <span class="text-xs text-muted">RM</span>
+              <input type="number" id="spend-Insurance" data-category="Insurance"
+                class="spend-input w-full bg-transparent text-sm font-semibold text-default outline-none"
+                value="0" min="0" step="50" placeholder="0" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Hospital -->
+        <div class="flex items-center gap-3 rounded-xl border border-gray-100 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/60 px-4 py-3">
+          <span class="flex-shrink-0 w-9 h-9 rounded-lg bg-rose-100 dark:bg-rose-900/30 flex items-center justify-center text-rose-600 dark:text-rose-400">
+            <Icon name="tabler:building-community" class="w-5 h-5" stroke-width="1.5" />
+          </span>
+          <div class="flex-1 min-w-0">
+            <label for="spend-Hospital" class="block text-xs font-semibold text-default mb-0.5">Hospital / Klinik</label>
+            <div class="flex items-center gap-1">
+              <span class="text-xs text-muted">RM</span>
+              <input type="number" id="spend-Hospital" data-category="Hospital"
+                class="spend-input w-full bg-transparent text-sm font-semibold text-default outline-none"
+                value="0" min="0" step="50" placeholder="0" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Government -->
+        <div class="flex items-center gap-3 rounded-xl border border-gray-100 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/60 px-4 py-3">
+          <span class="flex-shrink-0 w-9 h-9 rounded-lg bg-slate-100 dark:bg-slate-700/60 flex items-center justify-center text-slate-600 dark:text-slate-400">
+            <Icon name="tabler:building-bank" class="w-5 h-5" stroke-width="1.5" />
+          </span>
+          <div class="flex-1 min-w-0">
+            <label for="spend-Government" class="block text-xs font-semibold text-default mb-0.5">Kerajaan / JPJ / LHDNm</label>
+            <div class="flex items-center gap-1">
+              <span class="text-xs text-muted">RM</span>
+              <input type="number" id="spend-Government" data-category="Government"
+                class="spend-input w-full bg-transparent text-sm font-semibold text-default outline-none"
+                value="0" min="0" step="50" placeholder="0" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Others -->
+        <div class="flex items-center gap-3 rounded-xl border border-gray-100 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/60 px-4 py-3">
+          <span class="flex-shrink-0 w-9 h-9 rounded-lg bg-gray-100 dark:bg-gray-700/60 flex items-center justify-center text-gray-500 dark:text-gray-400">
+            <Icon name="tabler:category" class="w-5 h-5" stroke-width="1.5" />
+          </span>
+          <div class="flex-1 min-w-0">
+            <label for="spend-Others" class="block text-xs font-semibold text-default mb-0.5">Lain-lain</label>
+            <div class="flex items-center gap-1">
+              <span class="text-xs text-muted">RM</span>
+              <input type="number" id="spend-Others" data-category="Others"
+                class="spend-input w-full bg-transparent text-sm font-semibold text-default outline-none"
+                value="0" min="0" step="50" placeholder="0" />
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /spendGrid -->
+
+      <!-- Total spend summary row -->
+      <div class="mt-5 pt-5 border-t border-gray-100 dark:border-slate-700 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+        <div class="flex items-center gap-4 text-sm text-muted">
+          <span>Jumlah perbelanjaan: <strong class="text-default" id="totalSpend">RM 1,400</strong>/bulan</span>
+        </div>
+        <button id="btnCalculate"
+          class="inline-flex items-center justify-center gap-2 rounded-xl bg-primary text-white font-semibold px-6 py-3 text-sm hover:bg-primary/90 transition-colors shadow-sm">
+          <Icon name="tabler:sparkles" class="w-4 h-4" />
+          Cari Combo Terbaik
+        </button>
+      </div>
+    </div><!-- /spend panel -->
+
+    <!-- ── LOADING STATE ────────────────────────────────────── -->
+    <div id="loadingState" class="hidden rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-8 text-center mb-6">
+      <div class="inline-block w-8 h-8 border-4 border-primary/20 border-t-primary rounded-full animate-spin mb-4"></div>
+      <p class="text-muted text-sm">Menilai kombinasi kad… <span id="progressText">0%</span></p>
+    </div>
+
+    <!-- ── RESULTS PANEL ────────────────────────────────────── -->
+    <div id="resultsPanel" class="hidden space-y-5 mb-8">
+      <div class="flex items-center justify-between">
+        <h2 class="text-2xl font-bold">Hasil Pengoptimuman</h2>
+        <p class="text-xs text-muted" id="combosChecked"></p>
+      </div>
+
+      <!-- Top 5 combo result cards rendered by JS -->
+      <div id="resultCards"></div>
+    </div>
+
+    <!-- ── INFO / DISCLAIMER ────────────────────────────────── -->
+    <div class="rounded-2xl bg-amber-50 dark:bg-amber-900/10 border border-amber-200 dark:border-amber-800/30 p-5 mb-8">
+      <h3 class="font-semibold text-amber-800 dark:text-amber-300 mb-2 text-sm">Nota Penting</h3>
+      <ul class="text-xs text-amber-700 dark:text-amber-400 space-y-1 list-disc list-inside">
+        <li>Kadar cashback, had, dan syarat adalah anggaran berdasarkan maklumat umum. Semak terma terkini di laman bank sebelum mohon.</li>
+        <li>Kad dengan <code>isWeekendOnly: true</code> dikira pada 50% kadar (anggaran 50% perbelanjaan berlaku hujung minggu).</li>
+        <li>Fee tahunan ditolak (bahagi 12) untuk mendapatkan cashback bersih bulanan.</li>
+        <li>Kalkulator ini tidak menyimpan data peribadi anda.</li>
+      </ul>
+    </div>
+
+    <!-- Related links -->
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6">
+      <h3 class="text-lg font-bold mb-4">Kalkulator Berkaitan</h3>
+      <div class="grid sm:grid-cols-2 gap-3">
+        <a href="/kalkulator/kad-kredit/" class="flex items-center gap-2 text-sm text-primary font-medium hover:underline">
+          <Icon name="tabler:credit-card" class="w-4 h-4" /> Kalkulator Kad Kredit
+        </a>
+        <a href="/kalkulator/dsr/" class="flex items-center gap-2 text-sm text-primary font-medium hover:underline">
+          <Icon name="tabler:scale" class="w-4 h-4" /> Kalkulator DSR
+        </a>
+        <a href="/kalkulator/gaji-bersih/" class="flex items-center gap-2 text-sm text-primary font-medium hover:underline">
+          <Icon name="tabler:wallet" class="w-4 h-4" /> Kalkulator Gaji Bersih
+        </a>
+        <a href="/cadangan-bajet-50-30-20-di-malaysia/" class="flex items-center gap-2 text-sm text-primary font-medium hover:underline">
+          <Icon name="tabler:chart-pie" class="w-4 h-4" /> Panduan Bajet 50/30/20
+        </a>
+      </div>
+    </div>
+
+  </section>
+</Layout>
+
+<!-- ══════════════════════════════════════════════════════════
+     CLIENT SCRIPT — runs entirely in the browser, no SSR
+     All card data passed via inline JSON from the Astro build.
+     ══════════════════════════════════════════════════════════ -->
+<script define:vars={{ cardsJson, categoriesJson }}>
+
+// ── Type notes (JSDoc for editor hints, stripped at runtime) ──
+/** @type {import('~/data/cashback-cards').CreditCard[]} */
+const CARDS = JSON.parse(cardsJson);
+
+// ─────────────────────────────────────────────────────────────
+// CORE ENGINE (mirrored from cashback-engine.ts for browser use)
+// ─────────────────────────────────────────────────────────────
+
+function computeCombo(spend, combo) {
+  const K = combo.length;
+  const categoryPriority = {};
+
+  for (const { category } of spend) {
+    const entries = [];
+    for (let i = 0; i < K; i++) {
+      const card = combo[i];
+      let bestRate = card.baseCashbackRate;
+      let bestTierIdx = -1;
+      for (let t = 0; t < card.tiers.length; t++) {
+        const tier = card.tiers[t];
+        if (tier.categories.includes(category)) {
+          const effectiveRate = tier.isWeekendOnly ? tier.rate * 0.5 : tier.rate;
+          if (effectiveRate > bestRate) {
+            bestRate = effectiveRate;
+            bestTierIdx = t;
+          }
+        }
+      }
+      entries.push({ cardIdx: i, tierIdx: bestTierIdx, rate: bestRate });
+    }
+    entries.sort((a, b) => b.rate - a.rate);
+    categoryPriority[category] = entries;
+  }
+
+  const allocatedSpend = new Array(K).fill(0);
+  const tierCashback = combo.map(c => new Array(c.tiers.length).fill(0));
+  const catCashback = {};
+  for (const { category } of spend) catCashback[category] = new Array(K).fill(0);
+  const breakdowns = combo.map(() => []);
+
+  for (const { category, amount } of spend) {
+    let remainingSpend = amount;
+    const priority = categoryPriority[category];
+
+    for (const { cardIdx, tierIdx, rate } of priority) {
+      if (remainingSpend <= 0) break;
+      const card = combo[cardIdx];
+
+      if (tierIdx === -1) {
+        const cashback = remainingSpend * rate;
+        allocatedSpend[cardIdx] += remainingSpend;
+        breakdowns[cardIdx].push({ category, spend: remainingSpend, rate, cashback, cappedBy: 'none' });
+        remainingSpend = 0;
+        break;
+      }
+
+      const tier = card.tiers[tierIdx];
+      const effectiveRate = tier.isWeekendOnly ? tier.rate * 0.5 : tier.rate;
+      const tierEarnedSoFar = tierCashback[cardIdx][tierIdx];
+      const tierRemaining = tier.poolCap > 0 ? Math.max(0, tier.poolCap - tierEarnedSoFar) : Infinity;
+      const catEarnedSoFar = catCashback[category][cardIdx];
+      const catRemaining = tier.categoryCap > 0 ? Math.max(0, tier.categoryCap - catEarnedSoFar) : Infinity;
+      const maxCashback = Math.min(tierRemaining, catRemaining);
+      if (maxCashback <= 0) continue;
+
+      const spendToHitCap = maxCashback / effectiveRate;
+      const spendHere = Math.min(remainingSpend, spendToHitCap);
+      const cashbackHere = Math.min(spendHere * effectiveRate, maxCashback);
+
+      let cappedBy = 'none';
+      if (cashbackHere < remainingSpend * effectiveRate) {
+        cappedBy = catRemaining <= tierRemaining ? 'categoryCap' : 'poolCap';
+      }
+
+      allocatedSpend[cardIdx] += spendHere;
+      tierCashback[cardIdx][tierIdx] += cashbackHere;
+      catCashback[category][cardIdx] += cashbackHere;
+      remainingSpend -= spendHere;
+      breakdowns[cardIdx].push({ category, spend: spendHere, rate: effectiveRate, cashback: cashbackHere, cappedBy });
+    }
+
+    // Overflow to highest-base card
+    if (remainingSpend > 0) {
+      const best = priority[0];
+      const baseRate = combo[best.cardIdx].baseCashbackRate;
+      const cashback = remainingSpend * baseRate;
+      allocatedSpend[best.cardIdx] += remainingSpend;
+      breakdowns[best.cardIdx].push({ category, spend: remainingSpend, rate: baseRate, cashback, cappedBy: 'none' });
+    }
+  }
+
+  const cardDetails = combo.map((card, i) => {
+    const maxMinSpend = card.tiers.reduce((m, t) => Math.max(m, t.minMonthlySpend), 0);
+    const metMinSpend = allocatedSpend[i] >= maxMinSpend;
+    let earnedCashback, finalBreakdowns;
+
+    if (metMinSpend) {
+      earnedCashback = tierCashback[i].reduce((s, v) => s + v, 0);
+      const categoriesInTiers = new Set(card.tiers.flatMap(t => t.categories));
+      const baseExtra = breakdowns[i]
+        .filter(b => !categoriesInTiers.has(b.category))
+        .reduce((s, b) => s + b.cashback, 0);
+      earnedCashback += baseExtra;
+      finalBreakdowns = breakdowns[i];
+    } else {
+      earnedCashback = allocatedSpend[i] * card.baseCashbackRate;
+      finalBreakdowns = breakdowns[i].map(b => ({
+        ...b, rate: card.baseCashbackRate, cashback: b.spend * card.baseCashbackRate, cappedBy: 'none',
+      }));
+    }
+
+    return {
+      cardId: card.id, cardName: card.cardName, bank: card.bank, hexColor: card.hexColor,
+      network: card.network, allocatedSpend: allocatedSpend[i],
+      earnedCashback: Math.round(earnedCashback * 100) / 100,
+      breakdown: finalBreakdowns, metMinSpend,
+    };
+  });
+
+  const totalCashback = cardDetails.reduce((s, c) => s + c.earnedCashback, 0);
+  const monthlyFeeAmortized = combo.reduce((s, c) => s + c.annualFee / 12, 0);
+  return {
+    cards: cardDetails,
+    totalCashback: Math.round(totalCashback * 100) / 100,
+    monthlyFeeAmortized: Math.round(monthlyFeeAmortized * 100) / 100,
+    netCashback: Math.round((totalCashback - monthlyFeeAmortized) * 100) / 100,
+  };
+}
+
+function findBestCombos(spend, cards, topK = 5) {
+  const spendCategories = new Set(spend.filter(s => s.amount > 0).map(s => s.category));
+  const relevant = cards.filter(card =>
+    card.tiers.some(t => t.categories.some(c => spendCategories.has(c))) || card.baseCashbackRate > 0
+  );
+  const N = relevant.length;
+  const results = [];
+  let totalCombos = 0;
+  for (let i = 0; i < N; i++) {
+    results.push({ combo: [relevant[i]], result: computeCombo(spend, [relevant[i]]) });
+    totalCombos++;
+    for (let j = i + 1; j < N; j++) {
+      results.push({ combo: [relevant[i], relevant[j]], result: computeCombo(spend, [relevant[i], relevant[j]]) });
+      totalCombos++;
+      for (let k = j + 1; k < N; k++) {
+        results.push({ combo: [relevant[i], relevant[j], relevant[k]], result: computeCombo(spend, [relevant[i], relevant[j], relevant[k]]) });
+        totalCombos++;
+      }
+    }
+  }
+  results.sort((a, b) => b.result.netCashback - a.result.netCashback);
+  return { results: results.slice(0, topK), totalCombos };
+}
+
+// ─────────────────────────────────────────────────────────────
+// CREDIT CARD BADGE — trademark-safe SVG render
+// ─────────────────────────────────────────────────────────────
+function buildCardBadge(card, cashback) {
+  const hex = card.hexColor || '#1a1a2e';
+  // Derive a slightly lighter variant for the gradient
+  const r = parseInt(hex.slice(1,3),16);
+  const g = parseInt(hex.slice(3,5),16);
+  const b2 = parseInt(hex.slice(5,7),16);
+  const lighter = `rgba(${Math.min(r+60,255)},${Math.min(g+60,255)},${Math.min(b2+60,255)},0.9)`;
+
+  const networkSvg = card.network === 'Mastercard'
+    ? `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30" width="38" height="22">
+        <circle cx="19" cy="15" r="11" fill="#EB001B" opacity="0.9"/>
+        <circle cx="31" cy="15" r="11" fill="#F79E1B" opacity="0.9"/>
+        <path d="M25 7.5a11 11 0 0 1 0 15 11 11 0 0 1 0-15z" fill="#FF5F00" opacity="0.9"/>
+      </svg>`
+    : card.network === 'Visa'
+    ? `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 20" width="44" height="15">
+        <text x="0" y="16" font-family="Arial,sans-serif" font-size="16" font-weight="bold" font-style="italic" fill="white" letter-spacing="-1" opacity="0.9">VISA</text>
+      </svg>`
+    : card.network === 'Amex'
+    ? `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 20" width="50" height="14">
+        <text x="0" y="14" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="white" letter-spacing="1" opacity="0.9">AMEX</text>
+      </svg>`
+    : `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 20" width="56" height="14">
+        <text x="0" y="14" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" opacity="0.9">UnionPay</text>
+      </svg>`;
+
+  // EMV chip SVG
+  const chipSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 30" width="32" height="24" class="flex-shrink-0">
+    <rect x="2" y="2" width="36" height="26" rx="3" fill="#CFB53B" stroke="#B8A030" stroke-width="1"/>
+    <rect x="6" y="2" width="28" height="26" rx="2" fill="none" stroke="#B8A030" stroke-width="0.5"/>
+    <line x1="20" y1="2" x2="20" y2="28" stroke="#B8A030" stroke-width="0.5"/>
+    <line x1="2" y1="10" x2="38" y2="10" stroke="#B8A030" stroke-width="0.5"/>
+    <line x1="2" y1="20" x2="38" y2="20" stroke="#B8A030" stroke-width="0.5"/>
+  </svg>`;
+
+  return `
+    <div class="relative rounded-2xl overflow-hidden shadow-md w-full max-w-xs"
+         style="background: linear-gradient(135deg, ${hex} 0%, ${lighter} 60%, ${hex}cc 100%); aspect-ratio: 1.586; min-height: 120px;">
+      <!-- Decorative circles -->
+      <div class="absolute top-0 right-0 w-32 h-32 rounded-full opacity-10" style="background: white; transform: translate(30%,-30%);"></div>
+      <div class="absolute bottom-0 left-0 w-24 h-24 rounded-full opacity-10" style="background: white; transform: translate(-30%,30%);"></div>
+
+      <div class="relative z-10 h-full p-4 flex flex-col justify-between">
+        <!-- Top row: chip + network -->
+        <div class="flex items-start justify-between">
+          ${chipSvg}
+          <div class="flex-shrink-0">${networkSvg}</div>
+        </div>
+
+        <!-- Card name -->
+        <div>
+          <p class="text-[9px] text-white/60 uppercase tracking-widest mb-0.5">${card.bank}</p>
+          <p class="text-white font-semibold text-xs leading-tight">${card.cardName}</p>
+        </div>
+      </div>
+
+      <!-- Cashback overlay badge -->
+      <div class="absolute top-2 right-2 bg-black/30 backdrop-blur-sm rounded-lg px-2 py-1 text-center">
+        <p class="text-[9px] text-white/70">Cashback</p>
+        <p class="text-white font-bold text-sm">RM ${cashback.toFixed(2)}</p>
+      </div>
+    </div>`;
+}
+
+// ─────────────────────────────────────────────────────────────
+// RESULT RENDERER
+// ─────────────────────────────────────────────────────────────
+function renderResults(results, totalCombos) {
+  const container = document.getElementById('resultCards');
+  const combosEl = document.getElementById('combosChecked');
+  if (combosEl) combosEl.textContent = `${totalCombos.toLocaleString()} kombinasi dinilai`;
+
+  container.innerHTML = results.map(({ combo, result }, idx) => {
+    const rank = idx + 1;
+    const isTop = rank === 1;
+    const borderClass = isTop
+      ? 'border-2 border-primary'
+      : 'border border-gray-100 dark:border-slate-700/30';
+
+    const cardBadges = result.cards.map(c =>
+      buildCardBadge({ ...c, network: combo.find(x=>x.id===c.cardId).network }, c.earnedCashback)
+    ).join('');
+
+    // Per-card breakdown table rows
+    const breakdownRows = result.cards.map(c => {
+      const topCats = c.breakdown
+        .filter(b => b.cashback > 0)
+        .sort((a,b) => b.cashback - a.cashback)
+        .slice(0,4);
+      return `
+        <div class="mb-3">
+          <p class="text-xs font-semibold text-default mb-1">${c.cardName}</p>
+          <table class="w-full text-[11px]">
+            ${topCats.map(b => `
+              <tr>
+                <td class="py-0.5 text-muted pr-2">${b.category}</td>
+                <td class="py-0.5 tabular-nums text-right pr-2">RM ${b.spend.toFixed(0)}</td>
+                <td class="py-0.5 tabular-nums text-right text-emerald-700 dark:text-emerald-400">${(b.rate*100).toFixed(1)}%</td>
+                <td class="py-0.5 tabular-nums text-right font-semibold">RM ${b.cashback.toFixed(2)}</td>
+                ${b.cappedBy!=='none' ? `<td class="py-0.5 pl-1 text-amber-600 dark:text-amber-400 text-[10px]">[capped]</td>` : '<td></td>'}
+              </tr>`).join('')}
+          </table>
+          ${!c.metMinSpend ? '<p class="text-[10px] text-amber-600 dark:text-amber-400 mt-1">Perbelanjaan minimum tidak capai — cashback dikira pada kadar asas</p>' : ''}
+        </div>`;
+    }).join('');
+
+    const feeNote = result.monthlyFeeAmortized > 0
+      ? `<span class="text-xs text-muted ml-2">(Fee bulanan: −RM ${result.monthlyFeeAmortized.toFixed(2)})</span>`
+      : '';
+
+    return `
+      <div class="rounded-2xl bg-white dark:bg-slate-900/60 ${borderClass} shadow-sm overflow-hidden mb-5">
+        ${isTop ? '<div class="bg-primary text-white text-xs font-bold text-center py-1.5 tracking-wide uppercase">Combo Terbaik</div>' : ''}
+
+        <div class="p-5 md:p-6">
+          <!-- Header: rank + total cashback -->
+          <div class="flex items-start justify-between mb-5">
+            <div>
+              <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-primary/10 text-primary font-bold text-sm mr-2">#${rank}</span>
+              <span class="text-sm text-muted">${combo.map(c=>c.bank).join(' + ')}</span>
+            </div>
+            <div class="text-right">
+              <p class="text-2xl font-bold text-primary">RM ${result.totalCashback.toFixed(2)}</p>
+              <p class="text-xs text-muted">Cashback bersih: <strong class="text-emerald-600 dark:text-emerald-400">RM ${result.netCashback.toFixed(2)}</strong>/bulan${feeNote}</p>
+            </div>
+          </div>
+
+          <!-- Card badges grid -->
+          <div class="grid grid-cols-${result.cards.length} gap-3 mb-5">
+            ${cardBadges}
+          </div>
+
+          <!-- Breakdown accordion -->
+          <details class="group">
+            <summary class="cursor-pointer list-none flex items-center justify-between text-sm font-semibold text-default hover:text-primary transition-colors">
+              <span>Lihat pecahan perbelanjaan</span>
+              <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <div class="mt-4 pt-4 border-t border-gray-100 dark:border-slate-700">
+              ${breakdownRows}
+            </div>
+          </details>
+        </div>
+      </div>`;
+  }).join('');
+}
+
+// ─────────────────────────────────────────────────────────────
+// UI WIRING
+// ─────────────────────────────────────────────────────────────
+
+function getSpend() {
+  const inputs = document.querySelectorAll('.spend-input');
+  const spend = [];
+  inputs.forEach(el => {
+    const category = el.dataset.category;
+    const amount = parseFloat(el.value) || 0;
+    if (amount > 0) spend.push({ category, amount });
+  });
+  return spend;
+}
+
+function updateTotalSpend() {
+  const total = getSpend().reduce((s, x) => s + x.amount, 0);
+  const el = document.getElementById('totalSpend');
+  if (el) el.textContent = 'RM ' + total.toLocaleString('ms-MY', { minimumFractionDigits: 0 });
+}
+
+function runCalculation() {
+  const spend = getSpend();
+  if (spend.length === 0) {
+    alert('Sila masukkan sekurang-kurangnya satu kategori perbelanjaan.');
+    return;
+  }
+
+  // Show loading
+  document.getElementById('loadingState').classList.remove('hidden');
+  document.getElementById('resultsPanel').classList.add('hidden');
+  const progress = document.getElementById('progressText');
+
+  // Use setTimeout to yield to browser for loading spinner, then run
+  setTimeout(() => {
+    try {
+      if (progress) progress.textContent = '50%';
+      const { results, totalCombos } = findBestCombos(spend, CARDS, 5);
+      if (progress) progress.textContent = '100%';
+      setTimeout(() => {
+        document.getElementById('loadingState').classList.add('hidden');
+        renderResults(results, totalCombos);
+        document.getElementById('resultsPanel').classList.remove('hidden');
+        document.getElementById('resultsPanel').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 50);
+    } catch (e) {
+      document.getElementById('loadingState').classList.add('hidden');
+      console.error('Calculation error:', e);
+    }
+  }, 30);
+}
+
+// Bind events
+document.getElementById('btnCalculate').addEventListener('click', runCalculation);
+document.getElementById('btnReset').addEventListener('click', () => {
+  document.querySelectorAll('.spend-input').forEach(el => { el.value = '0'; });
+  document.getElementById('spend-Petrol').value = '200';
+  document.getElementById('spend-Groceries').value = '400';
+  document.getElementById('spend-Dining').value = '300';
+  document.getElementById('spend-eWallet').value = '150';
+  document.getElementById('spend-Online Shopping').value = '200';
+  document.getElementById('spend-Utilities').value = '150';
+  updateTotalSpend();
+  document.getElementById('resultsPanel').classList.add('hidden');
+});
+document.querySelectorAll('.spend-input').forEach(el => {
+  el.addEventListener('input', updateTotalSpend);
+});
+
+// Run on load with defaults
+updateTotalSpend();
+</script>
