@@ -1,15 +1,54 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import type { CreditCard } from '~/data/cashback-cards';
 
 const metadata = {
   title: 'Cashback Combo Optimizer — Cari Kombinasi Kad Kredit Terbaik Malaysia',
   description: 'Optimizer kad kredit cashback Malaysia. Masukkan perbelanjaan bulanan dan kami cari kombinasi 3 kad terbaik yang maksimumkan cashback anda dari 50+ kad.',
 };
 
-// Load card data
-const cards = (await import('~/data/cashback-cards.json')).default.cards;
-const cardJson = JSON.stringify(cards);
+// Load card data from TypeScript source
+const cardsModule = await import('~/data/cashback-cards');
+const rawCards: CreditCard[] = cardsModule.CARDS;
+
+// Convert to flat format for frontend JS engine
+const flatCards = rawCards.map(card => ({
+  id: card.id,
+  bank: card.bank,
+  name: card.cardName,
+  primaryHex: card.hexColor,
+  secondaryHex: card.hexColor,
+  gradientStyle: 'solid',
+  logoLabel: card.bank.substring(0, 4).toUpperCase(),
+  imageUrl: '',
+  min_spend: 0,
+  pool_cap: card.tiers.length > 0 ? Math.max(...card.tiers.map(t => t.poolCap)) : 0,
+  annual_fee: card.annualFee,
+  monthly_fee: 0,
+  type: 'cashback',
+  notes: card.feeWaiverCondition || '',
+  // Flatten tiers into per-category cashback entries
+  cashback: card.tiers.flatMap(tier =>
+    tier.categories.map(cat => ({
+      category: cat.toLowerCase().replace(/\s+/g, ''),
+      rate: tier.rate * 100,
+      cap: tier.categoryCap || 0,
+      min_spend: tier.minMonthlySpend || 0,
+    }))
+  ),
+}));
+
+// Also export the category mapping for UI
+const TS_CATEGORIES: string[] = cardsModule.CATEGORIES;
+const categoryIdMap: Record<string, string> = {};
+TS_CATEGORIES.forEach(c => {
+  const id = c.toLowerCase().replace(/\s+/g, '');
+  categoryIdMap[id] = c;
+});
+
+const cardJson = JSON.stringify(flatCards);
+const categoriesJson = JSON.stringify(TS_CATEGORIES);
 ---
 
 <Layout metadata={metadata}>
