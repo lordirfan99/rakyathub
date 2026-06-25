@@ -1,0 +1,339 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import { Icon } from 'astro-icon/components';
+import salaryData from '~/data/salary-data.json';
+
+const salaryJson = JSON.stringify(salaryData);
+
+const metadata = {
+  title: 'Kalkulator Benchmark Gaji Malaysia 2024 — Setimpal Pasaran?',
+  description: 'Bandingkan gaji anda dengan median sektor dan negeri menggunakan data DOSM 2023. Semak sama ada gaji anda setimpal dengan pasaran semasa.',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator/" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+
+    <!-- Badge chip -->
+    <div class="inline-flex items-center gap-2 rounded-full bg-violet-50 dark:bg-violet-900/20 border border-violet-200 dark:border-violet-800 text-violet-700 dark:text-violet-400 px-3 py-1 text-xs font-semibold uppercase tracking-wide mb-4">
+      <Icon name="tabler:trending-up" class="w-3.5 h-3.5" />
+      Data DOSM Gaji 2023
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Benchmark Gaji Malaysia 2024
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-8">
+      Bandingkan gaji anda dengan median sektor dan negeri. Semak sama ada gaji anda setimpal dengan pasaran semasa.
+    </p>
+
+    <!-- Input Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-6">
+      <h2 class="text-lg font-bold mb-4">Maklumat Gaji Anda</h2>
+      <div class="grid md:grid-cols-3 gap-4 md:gap-6">
+        <div>
+          <label for="inputSalary" class="block text-sm font-semibold text-default mb-1.5">Gaji Kasar Bulanan (RM)</label>
+          <input
+            type="number"
+            id="inputSalary"
+            value="3500"
+            min="0"
+            step="100"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition"
+          />
+        </div>
+        <div>
+          <label for="inputSector" class="block text-sm font-semibold text-default mb-1.5">Sektor Industri</label>
+          <select
+            id="inputSector"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition"
+          >
+            {salaryData.sectors.map((s) => (
+              <option value={s.id}>{s.label}</option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label for="inputState" class="block text-sm font-semibold text-default mb-1.5">Negeri</label>
+          <select
+            id="inputState"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition"
+          >
+            {Object.keys(salaryData.states).map((state) => (
+              <option value={state}>{state}</option>
+            ))}
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Verdict Badge -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-6 text-center">
+      <p class="text-sm text-muted uppercase tracking-wide mb-3 font-semibold">Status Gaji Anda</p>
+      <div id="verdictBadge" class="inline-flex items-center gap-3 rounded-full px-6 py-3 text-xl md:text-2xl font-bold mb-3">
+        <span id="verdictIcon" class="text-2xl"></span>
+        <span id="verdictText">—</span>
+      </div>
+      <p id="verdictDesc" class="text-sm text-muted mt-1"></p>
+    </div>
+
+    <!-- Salary Range Bar -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-6">
+      <h2 class="text-lg font-bold mb-5">Kedudukan Gaji dalam Julat Pasaran</h2>
+      <p class="text-sm text-muted mb-4" id="barTitle">Julat sektor untuk negeri terpilih</p>
+
+      <!-- Bar -->
+      <div class="relative mb-8" id="salaryBarWrapper">
+        <!-- Colored track -->
+        <div class="relative h-5 rounded-full overflow-visible flex">
+          <!-- P0 to P25: red -->
+          <div class="h-full rounded-l-full" id="barSegRed" style="width:25%; background:#ef4444;"></div>
+          <!-- P25 to P75: green -->
+          <div class="h-full" id="barSegGreen" style="width:50%; background:#22c55e;"></div>
+          <!-- P75+: teal -->
+          <div class="h-full rounded-r-full" id="barSegTeal" style="width:25%; background:#14b8a6;"></div>
+        </div>
+
+        <!-- Marker dot -->
+        <div
+          id="markerDot"
+          style="left:50%; top:50%; transform:translate(-50%,-50%);"
+          class="absolute w-6 h-6 rounded-full bg-white border-4 border-slate-800 dark:border-white shadow-lg z-10 transition-all duration-300"
+        ></div>
+
+        <!-- Labels -->
+        <div class="flex justify-between mt-3 text-xs text-muted font-medium">
+          <div class="text-left">
+            <div class="text-red-500 font-bold" id="labelP25">P25</div>
+            <div id="valP25">—</div>
+          </div>
+          <div class="text-center">
+            <div class="text-blue-600 font-bold">Median</div>
+            <div id="valMedian">—</div>
+          </div>
+          <div class="text-right">
+            <div class="text-teal-600 font-bold" id="labelP75">P75</div>
+            <div id="valP75">—</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Your salary label -->
+      <div class="text-center">
+        <span class="text-sm text-muted">Gaji anda: </span>
+        <span class="font-bold text-default" id="barYourSalary">RM 3,500</span>
+      </div>
+    </div>
+
+    <!-- 3 Comparison Cards -->
+    <div class="grid md:grid-cols-3 gap-4 mb-6">
+      <!-- vs National -->
+      <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5">
+        <p class="text-xs text-muted uppercase tracking-wide font-semibold mb-2">vs Nasional</p>
+        <p class="text-sm text-muted mb-1">Median Malaysia: <span class="font-bold text-default">RM 2,900</span></p>
+        <p class="text-lg font-bold text-default" id="cmpNationalSalary">RM 3,500</p>
+        <p class="text-sm font-semibold mt-1" id="cmpNationalPct">—</p>
+      </div>
+      <!-- vs Sector -->
+      <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5">
+        <p class="text-xs text-muted uppercase tracking-wide font-semibold mb-2">vs Sektor</p>
+        <p class="text-sm text-muted mb-1">Median sektor: <span class="font-bold text-default" id="cmpSectorMedianLabel">—</span></p>
+        <p class="text-lg font-bold text-default" id="cmpSectorSalary">RM 3,500</p>
+        <p class="text-sm font-semibold mt-1" id="cmpSectorPct">—</p>
+      </div>
+      <!-- vs State + Sector -->
+      <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5">
+        <p class="text-xs text-muted uppercase tracking-wide font-semibold mb-2">vs Negeri + Sektor</p>
+        <p class="text-sm text-muted mb-1">Median disesuai: <span class="font-bold text-default" id="cmpStateMedianLabel">—</span></p>
+        <p class="text-lg font-bold text-default" id="cmpStateSalary">RM 3,500</p>
+        <p class="text-sm font-semibold mt-1" id="cmpStatePct">—</p>
+      </div>
+    </div>
+
+    <!-- Market Range Section -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-6">
+      <h2 class="text-lg font-bold mb-1">Julat Pasaran Wajar</h2>
+      <p class="text-sm text-muted mb-5" id="marketRangeDesc">—</p>
+      <div class="grid grid-cols-3 gap-3">
+        <div class="rounded-xl bg-red-50 dark:bg-red-900/20 p-4 text-center">
+          <p class="text-xs text-red-600 dark:text-red-400 font-semibold uppercase tracking-wide mb-1">P25</p>
+          <p class="text-lg font-bold text-default" id="mrP25">—</p>
+          <p class="text-xs text-muted mt-1">25% pekerja sektor ini dapat bawah ini</p>
+        </div>
+        <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center">
+          <p class="text-xs text-blue-600 dark:text-blue-400 font-semibold uppercase tracking-wide mb-1">Median</p>
+          <p class="text-lg font-bold text-default" id="mrMedian">—</p>
+          <p class="text-xs text-muted mt-1">50% pekerja sektor ini</p>
+        </div>
+        <div class="rounded-xl bg-teal-50 dark:bg-teal-900/20 p-4 text-center">
+          <p class="text-xs text-teal-600 dark:text-teal-400 font-semibold uppercase tracking-wide mb-1">P75</p>
+          <p class="text-lg font-bold text-default" id="mrP75">—</p>
+          <p class="text-xs text-muted mt-1">25% pekerja sektor ini dapat lebih dari ini</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sector Growth Note -->
+    <div class="rounded-2xl bg-violet-50 dark:bg-violet-900/20 border border-violet-100 dark:border-violet-800/30 p-5 md:p-6 mb-6">
+      <div class="flex items-start gap-3">
+        <Icon name="tabler:trending-up" class="w-5 h-5 text-violet-600 dark:text-violet-400 mt-0.5 shrink-0" />
+        <p class="text-sm text-violet-800 dark:text-violet-300" id="growthNote">—</p>
+      </div>
+    </div>
+
+    <!-- Source Note -->
+    <p class="text-xs text-muted text-center mb-8">
+      Data: DOSM Survei Gaji &amp; Upah 2023 + EPF/SOCSO Data Sektor Formal S4 2023.
+    </p>
+
+    <!-- Related calculators -->
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">Kalkulator Berkaitan</h3>
+      <ul class="space-y-2">
+        <li>
+          <a href="/kalkulator/gaji-bersih/" class="text-primary font-medium hover:underline text-sm">
+            → Kalkulator Gaji Bersih — Kira Potongan KWSP, SOCSO &amp; PCB
+          </a>
+        </li>
+        <li>
+          <a href="/kalkulator/kenaikan-gaji/" class="text-primary font-medium hover:underline text-sm">
+            → Kalkulator Kenaikan Gaji — Berapa Patut Anda Minta?
+          </a>
+        </li>
+        <li>
+          <a href="/kalkulator/pcb-cukai-pendapatan/" class="text-primary font-medium hover:underline text-sm">
+            → Kalkulator PCB &amp; Cukai Pendapatan
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <script is:inline define:vars={{ salaryJson }}>
+    var data = JSON.parse(salaryJson);
+
+    function fmt(v) {
+      if (typeof v !== 'number' || isNaN(v) || !isFinite(v)) return 'RM 0';
+      return 'RM ' + Math.round(v).toLocaleString('ms-MY');
+    }
+
+    function pctLabel(pct) {
+      var rounded = Math.round(Math.abs(pct));
+      if (pct >= 0) {
+        return '<span style="color:#16a34a">+' + rounded + '% di atas pasaran</span>';
+      } else {
+        return '<span style="color:#dc2626">-' + rounded + '% di bawah pasaran</span>';
+      }
+    }
+
+    function calculate() {
+      var salary = parseFloat(document.getElementById('inputSalary').value) || 3500;
+      var sectorId = document.getElementById('inputSector').value;
+      var stateName = document.getElementById('inputState').value;
+
+      var sector = data.sectors.find(function(s) { return s.id === sectorId; });
+      var stateData = data.states[stateName];
+
+      if (!sector || !stateData) return;
+
+      var mult = stateData.multiplier;
+      var state_sector_median = sector.median * mult;
+      var state_sector_p25 = sector.p25 * mult;
+      var state_sector_p75 = sector.p75 * mult;
+
+      var pct_vs_national = ((salary / data.national_median) - 1) * 100;
+      var pct_vs_sector = ((salary / sector.median) - 1) * 100;
+      var pct_vs_state_sector = ((salary / state_sector_median) - 1) * 100;
+
+      // --- Verdict ---
+      var verdictBadge = document.getElementById('verdictBadge');
+      var verdictText = document.getElementById('verdictText');
+      var verdictDesc = document.getElementById('verdictDesc');
+      var verdictIcon = document.getElementById('verdictIcon');
+
+      verdictBadge.className = 'inline-flex items-center gap-3 rounded-full px-6 py-3 text-xl md:text-2xl font-bold mb-3';
+
+      if (salary >= state_sector_p75) {
+        verdictBadge.style.cssText = 'background:#dcfce7; color:#15803d; border:2px solid #86efac;';
+        verdictIcon.textContent = '🏆';
+        verdictText.textContent = 'Gaji Atas Purata';
+        verdictDesc.textContent = 'Tahniah! Gaji anda melebihi 75% pekerja dalam sektor dan negeri yang sama.';
+      } else if (salary >= state_sector_median) {
+        verdictBadge.style.cssText = 'background:#dbeafe; color:#1d4ed8; border:2px solid #93c5fd;';
+        verdictIcon.textContent = '✅';
+        verdictText.textContent = 'Setimpal Pasaran';
+        verdictDesc.textContent = 'Gaji anda berada pada atau melebihi median pasaran untuk sektor dan negeri anda.';
+      } else if (salary >= state_sector_p25) {
+        verdictBadge.style.cssText = 'background:#fef9c3; color:#92400e; border:2px solid #fde68a;';
+        verdictIcon.textContent = '⚠️';
+        verdictText.textContent = 'Sedikit Di Bawah';
+        verdictDesc.textContent = 'Gaji anda berada antara P25 dan median pasaran. Ada ruang untuk negosiasi.';
+      } else {
+        verdictBadge.style.cssText = 'background:#fee2e2; color:#991b1b; border:2px solid #fca5a5;';
+        verdictIcon.textContent = '📉';
+        verdictText.textContent = 'Jauh Di Bawah Pasaran';
+        verdictDesc.textContent = 'Gaji anda berada di bawah 25% terendah dalam pasaran sektor ini. Pertimbangkan untuk berunding atau cari peluang baru.';
+      }
+
+      // --- Salary Bar ---
+      // Determine display range: from 0 to 120% of P75 (to give some headroom beyond P75)
+      var barMin = 0;
+      var barMax = state_sector_p75 * 1.3;
+      if (salary > barMax) barMax = salary * 1.1;
+
+      var range = barMax - barMin;
+
+      var posP25 = ((state_sector_p25 - barMin) / range) * 100;
+      var posP75 = ((state_sector_p75 - barMin) / range) * 100;
+      var posYou = Math.min(100, Math.max(0, ((salary - barMin) / range) * 100));
+
+      // Recalculate bar segments based on actual positions
+      document.getElementById('barSegRed').style.width = posP25 + '%';
+      document.getElementById('barSegGreen').style.width = (posP75 - posP25) + '%';
+      document.getElementById('barSegTeal').style.width = (100 - posP75) + '%';
+
+      document.getElementById('markerDot').style.left = posYou + '%';
+
+      document.getElementById('barTitle').textContent = 'Julat sektor ' + sector.label + ' di ' + stateName;
+      document.getElementById('barYourSalary').textContent = fmt(salary);
+      document.getElementById('valP25').textContent = fmt(state_sector_p25);
+      document.getElementById('valMedian').textContent = fmt(state_sector_median);
+      document.getElementById('valP75').textContent = fmt(state_sector_p75);
+
+      // --- Comparison cards ---
+      document.getElementById('cmpNationalSalary').textContent = fmt(salary);
+      document.getElementById('cmpNationalPct').innerHTML = pctLabel(pct_vs_national);
+
+      document.getElementById('cmpSectorMedianLabel').textContent = fmt(sector.median);
+      document.getElementById('cmpSectorSalary').textContent = fmt(salary);
+      document.getElementById('cmpSectorPct').innerHTML = pctLabel(pct_vs_sector);
+
+      document.getElementById('cmpStateMedianLabel').textContent = fmt(state_sector_median);
+      document.getElementById('cmpStateSalary').textContent = fmt(salary);
+      document.getElementById('cmpStatePct').innerHTML = pctLabel(pct_vs_state_sector);
+
+      // --- Market Range ---
+      document.getElementById('marketRangeDesc').textContent = 'Sektor ' + sector.label + ' di ' + stateName;
+      document.getElementById('mrP25').textContent = fmt(state_sector_p25);
+      document.getElementById('mrMedian').textContent = fmt(state_sector_median);
+      document.getElementById('mrP75').textContent = fmt(state_sector_p75);
+
+      // --- Growth note ---
+      document.getElementById('growthNote').textContent =
+        'Sektor ' + sector.label + ' mencatatkan pertumbuhan gaji ' + sector.growth_pct + '% tahun lepas (2023).';
+    }
+
+    ['inputSalary', 'inputSector', 'inputState'].forEach(function(id) {
+      var el = document.getElementById(id);
+      if (el) {
+        el.addEventListener('input', calculate);
+        el.addEventListener('change', calculate);
+      }
+    });
+
+    calculate();
+  </script>
+</Layout>

@@ -1,0 +1,274 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import { Icon } from 'astro-icon/components';
+import cpiData from '~/data/cpi.json';
+
+const cpiJson = JSON.stringify(cpiData);
+
+const metadata = {
+  title: 'Kalkulator Kuasa Beli — Inflasi & Nilai Wang Malaysia',
+  description: 'Kira berapa nilai sebenar wang anda hari ini berbanding tahun lalu. Gunakan data CPI DOSM untuk lihat kesan inflasi pada setiap kategori perbelanjaan anda.',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8"><a href="/kalkulator/" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a></div>
+
+    <div class="inline-flex items-center gap-2 rounded-full bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 text-amber-700 dark:text-amber-400 px-3 py-1 text-xs font-semibold uppercase tracking-wide mb-4">
+      <Icon name="tabler:chart-line" class="w-3.5 h-3.5" />
+      Data CPI DOSM 2026
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">Kalkulator Kuasa Beli</h1>
+    <p class="text-lg md:text-xl text-muted mb-8">Lihat berapa nilai sebenar wang anda hari ini berbanding tahun lalu. Inflasi perlahan-lahan menghakis kuasa beli — kalkulator ini tunjukkan dengan tepat berapa banyak.</p>
+
+    <!-- Input Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-6">
+      <div class="grid md:grid-cols-2 gap-6">
+        <div>
+          <label for="kbJumlah" class="block text-sm font-semibold text-default mb-1.5">Jumlah Wang (RM)</label>
+          <input type="number" id="kbJumlah" value="1000" min="1" step="100"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="kbTahun" class="block text-sm font-semibold text-default mb-1.5">Tahun Asal</label>
+          <div class="flex items-center gap-4">
+            <input type="range" id="kbTahun" min="1990" max="2025" value="2010" step="1"
+              class="flex-1 h-2 rounded-lg appearance-none cursor-pointer accent-primary" />
+            <span id="kbTahunDisplay" class="text-2xl font-bold text-primary min-w-[4rem] text-right">2010</span>
+          </div>
+          <div class="flex justify-between text-xs text-muted mt-1">
+            <span>1990</span>
+            <span>2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="mt-4">
+        <label class="block text-sm font-semibold text-default mb-1.5">Tahun Semasa</label>
+        <div class="rounded-xl border border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/50 px-4 py-3 text-base text-muted">
+          Sekarang (2026) — April 2026
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Result -->
+    <div class="rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 shadow-sm p-6 md:p-10 mb-6 text-center">
+      <p class="text-sm text-muted mb-2" id="kbHeroLabel">RM 1,000 pada 2010 bersamaan dengan...</p>
+      <p class="text-4xl md:text-5xl font-bold text-primary mb-2" id="kbHeroAmount">RM 0</p>
+      <p class="text-base text-muted" id="kbHeroSubtext">hari ini</p>
+      <p class="text-sm text-red-600 dark:text-red-400 mt-3 font-semibold" id="kbValueLost"></p>
+    </div>
+
+    <!-- 3 Stat Cards -->
+    <div class="grid grid-cols-3 gap-3 md:gap-4 mb-6">
+      <div class="rounded-xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-4 text-center">
+        <p class="text-xs text-muted uppercase tracking-wide mb-1">CPI Asal</p>
+        <p class="text-xs text-muted" id="kbCpiAslLabel">(2010)</p>
+        <p class="text-xl font-bold text-default" id="kbCpiAsl">—</p>
+      </div>
+      <div class="rounded-xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-4 text-center">
+        <p class="text-xs text-muted uppercase tracking-wide mb-1">CPI Semasa</p>
+        <p class="text-xs text-muted">(2026)</p>
+        <p class="text-xl font-bold text-primary">136.9</p>
+      </div>
+      <div class="rounded-xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-4 text-center">
+        <p class="text-xs text-muted uppercase tracking-wide mb-1">Kehilangan Kuasa Beli</p>
+        <p class="text-xs text-muted">&nbsp;</p>
+        <p class="text-xl font-bold text-red-600 dark:text-red-400" id="kbPctLost">—</p>
+      </div>
+    </div>
+
+    <!-- Category Breakdown Table -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-6">
+      <h2 class="text-xl font-bold mb-1">Pecahan Mengikut Kategori</h2>
+      <p class="text-sm text-muted mb-5">Sekiranya RM <span id="kbAmountLabel">1,000</span> dibelanjakan sepenuhnya untuk satu kategori, berapa nilainya hari ini.</p>
+      <div class="overflow-x-auto -mx-5 md:-mx-0">
+        <div class="min-w-[520px] px-5 md:px-0">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b border-gray-100 dark:border-slate-700">
+                <th class="text-left py-3 px-2 font-semibold text-muted">Kategori</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Asal (RM)</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Hari Ini (RM)</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Perubahan</th>
+              </tr>
+            </thead>
+            <tbody id="kbCatTable"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Context Note -->
+    <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 p-4 mb-8 text-xs text-muted">
+      Data CPI Malaysia (Base Tahun 2010 = 100) oleh DOSM. Dikemaskini April 2026. Kalkulator ini adalah anggaran berdasarkan data CPI keseluruhan dan pecahan kategori. Perbelanjaan sebenar individu mungkin berbeza.
+    </div>
+
+    <!-- Related links -->
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
+      <h3 class="text-xl font-bold mb-4">Alat Kewangan Lain</h3>
+      <ul class="space-y-2">
+        <li><a href="/kalkulator/interest-compound/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Compound Interest</a></li>
+        <li><a href="/kalkulator/asb/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator ASB</a></li>
+        <li><a href="/kalkulator/kwsp/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator KWSP</a></li>
+        <li><a href="/kalkulator/gaji-bersih/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Gaji Bersih</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <script define:vars={{ cpiJson }} is:inline>
+(function() {
+  var cpi = JSON.parse(cpiJson);
+
+  var CATEGORIES = [
+    { code: '01', icon: 'tabler:soup' },
+    { code: '03', icon: 'tabler:shirt' },
+    { code: '04', icon: 'tabler:home' },
+    { code: '05', icon: 'tabler:sofa' },
+    { code: '06', icon: 'tabler:heart-plus' },
+    { code: '07', icon: 'tabler:car' },
+    { code: '08', icon: 'tabler:device-mobile' },
+    { code: '09', icon: 'tabler:device-tv' },
+    { code: '10', icon: 'tabler:school' },
+    { code: '11', icon: 'tabler:tools-kitchen-2' },
+    { code: '12', icon: 'tabler:backpack' },
+    { code: '13', icon: 'tabler:shield' },
+  ];
+
+  // SVG icons inline map (tabler icons as simple paths)
+  var ICON_SVG = {
+    'tabler:soup': '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11h16a1 1 0 0 1 1 1v.5a8.5 8.5 0 0 1-17 0V12a1 1 0 0 1 1-1z"/><path d="M2 11V9a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2"/><path d="M12 2v3"/><path d="M9 5l3-3 3 3"/></svg>',
+    'tabler:shirt': '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 4l3 3-5 4v9H11V11L6 7l3-3"/><path d="M15 4c0 0-1.5 2-3 2S9 4 9 4"/></svg>',
+    'tabler:home': '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12H3l9-9 9 9h-2"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/><path d="M9 21v-6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v6"/></svg>',
+    'tabler:sofa': '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11V8a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v3"/><path d="M2 11h2a2 2 0 0 1 2 2v2H4a2 2 0 0 1-2-2v-2z"/><path d="M22 11h-2a2 2 0 0 0-2 2v2h2a2 2 0 0 0 2-2v-2z"/><path d="M6 15h12v2a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-2z"/><path d="M6 19v2"/><path d="M18 19v2"/></svg>',
+    'tabler:heart-plus': '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20l-7-7a5 5 0 0 1 7-7.07A5 5 0 0 1 19.07 13"/><path d="M16 19h6"/><path d="M19 16v6"/></svg>',
+    'tabler:car': '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17H3v-7l2-5h14l2 5v7h-2"/><path d="M5 17a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"/><path d="M15 17a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"/><path d="M5 10h14"/></svg>',
+    'tabler:device-mobile': '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="3" width="12" height="18" rx="2"/><path d="M11 18h2"/></svg>',
+    'tabler:device-tv': '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M8 21h8"/><path d="M12 19v2"/></svg>',
+    'tabler:school': '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 9l-10-5L2 9l10 5z"/><path d="M6 11v6"/><path d="M18 11v6"/><path d="M6 17c0 2 2.686 3 6 3s6-1 6-3"/><path d="M22 9v6"/></svg>',
+    'tabler:tools-kitchen-2': '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 3v12h-5c-.023-3.681.184-7.406 5-12z"/><path d="M19 15v6"/><path d="M5 3a3 3 0 0 1 2 5.235V20h-4V8.235A3 3 0 0 1 5 3z"/></svg>',
+    'tabler:backpack': '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3a3 3 0 1 0 6 0"/><path d="M7 3a9 9 0 0 0-2 6v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9a9 9 0 0 0-2-6"/><path d="M9 12h6"/><path d="M9 16h6"/></svg>',
+    'tabler:shield': '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4v5c0 5-3.5 8.5-8 10C7.5 20.5 4 17 4 12V7z"/></svg>',
+  };
+
+  function fmtRM(v) {
+    return 'RM ' + v.toLocaleString('ms-MY', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  }
+
+  function fmtInt(v) {
+    return v.toLocaleString('ms-MY', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+  }
+
+  function calc() {
+    var amount = parseFloat(document.getElementById('kbJumlah').value) || 1000;
+    var year = parseInt(document.getElementById('kbTahun').value) || 2010;
+
+    document.getElementById('kbTahunDisplay').textContent = year;
+    document.getElementById('kbCpiAslLabel').textContent = '(' + year + ')';
+
+    var cpiBase = cpi.yearly_cpi[String(year)];
+    var cpiNow = cpi.latest_cpi; // 136.9
+
+    if (!cpiBase) {
+      document.getElementById('kbHeroAmount').textContent = '—';
+      return;
+    }
+
+    var todayEq = amount * (cpiNow / cpiBase);
+    var pctInflation = ((cpiNow / cpiBase) - 1) * 100;
+
+    // Hero
+    document.getElementById('kbHeroLabel').textContent =
+      'RM ' + fmtInt(amount) + ' pada ' + year + ' bersamaan dengan...';
+    document.getElementById('kbHeroAmount').textContent = fmtRM(todayEq);
+    document.getElementById('kbHeroSubtext').textContent = 'hari ini (April 2026)';
+    document.getElementById('kbValueLost').textContent =
+      'Nilai sebenar anda telah turun ' + pctInflation.toFixed(1) + '% disebabkan inflasi';
+
+    // Stat cards
+    document.getElementById('kbCpiAsl').textContent = cpiBase.toFixed(1);
+    document.getElementById('kbPctLost').textContent = pctInflation.toFixed(1) + '%';
+
+    // Amount label in table description
+    document.getElementById('kbAmountLabel').textContent = fmtInt(amount);
+
+    // Category breakdown
+    var overallNow = cpi.latest_divisions['overall'].index; // 136.9
+    var rows = CATEGORIES.map(function(cat) {
+      var div = cpi.latest_divisions[cat.code];
+      if (!div) return null;
+      var catCurrentIndex = div.index;
+      var catRatio = catCurrentIndex / overallNow;
+      var catCpiBase = cpiBase * catRatio;
+      var catTodayEq = amount * (catCurrentIndex / catCpiBase);
+      var catPct = ((catCurrentIndex / catCpiBase) - 1) * 100;
+      return {
+        code: cat.code,
+        icon: cat.icon,
+        label: div.label,
+        original: amount,
+        today: catTodayEq,
+        pct: catPct,
+      };
+    }).filter(Boolean);
+
+    // Sort descending by pct (worst inflation first)
+    rows.sort(function(a, b) { return b.pct - a.pct; });
+
+    var tb = document.getElementById('kbCatTable');
+    var fr = document.createDocumentFragment();
+    rows.forEach(function(r, i) {
+      var tr = document.createElement('tr');
+      tr.className = i % 2 === 0
+        ? 'border-b border-gray-50 dark:border-slate-800/50'
+        : 'border-b border-gray-50 dark:border-slate-800/50 bg-gray-50/50 dark:bg-slate-800/20';
+
+      var isHighInflation = r.pct > 20;
+      var isDeflation = r.pct < 0;
+      var pctColor = isDeflation
+        ? 'text-emerald-600 dark:text-emerald-400 font-semibold'
+        : isHighInflation
+          ? 'text-red-600 dark:text-red-400 font-semibold'
+          : 'text-amber-600 dark:text-amber-400 font-semibold';
+
+      var tdCat = document.createElement('td');
+      tdCat.className = 'py-3 px-2';
+      tdCat.innerHTML =
+        '<div class="flex items-center gap-2">' +
+        '<span class="' + (isDeflation ? 'text-emerald-500' : isHighInflation ? 'text-red-500' : 'text-amber-500') + '">' +
+        (ICON_SVG[r.icon] || '') +
+        '</span>' +
+        '<span class="font-medium">' + r.label + '</span>' +
+        '</div>';
+
+      var tdOrig = document.createElement('td');
+      tdOrig.className = 'text-right py-3 px-2 text-muted';
+      tdOrig.textContent = fmtRM(r.original);
+
+      var tdToday = document.createElement('td');
+      tdToday.className = 'text-right py-3 px-2 font-semibold';
+      tdToday.textContent = fmtRM(r.today);
+
+      var tdPct = document.createElement('td');
+      tdPct.className = 'text-right py-3 px-2 ' + pctColor;
+      tdPct.textContent = (r.pct >= 0 ? '+' : '') + r.pct.toFixed(1) + '%';
+
+      tr.appendChild(tdCat);
+      tr.appendChild(tdOrig);
+      tr.appendChild(tdToday);
+      tr.appendChild(tdPct);
+      fr.appendChild(tr);
+    });
+    tb.textContent = '';
+    tb.appendChild(fr);
+  }
+
+  var jumlah = document.getElementById('kbJumlah');
+  var tahun = document.getElementById('kbTahun');
+  if (jumlah) { jumlah.addEventListener('input', calc); jumlah.addEventListener('change', calc); }
+  if (tahun) { tahun.addEventListener('input', calc); tahun.addEventListener('change', calc); }
+  calc();
+})();
+  </script>
+</Layout>

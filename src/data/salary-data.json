@@ -1,0 +1,41 @@
+{
+  "source": "DOSM Salaries & Wages Survey 2023 + EPF/SOCSO Formal Sector Wages Q4 2023",
+  "year": "2023",
+  "national_median": 2900,
+  "national_mean": 3975,
+  "sectors": [
+    { "id": "ict",       "label": "ICT & Komunikasi",               "median": 4800, "mean": 6500, "p25": 3200, "p75": 8200, "growth_pct": 7.2 },
+    { "id": "fin",       "label": "Kewangan & Insurans",            "median": 5500, "mean": 7200, "p25": 3600, "p75": 9400, "growth_pct": 5.8 },
+    { "id": "mining",    "label": "Perlombongan & Petroleum",       "median": 4200, "mean": 6100, "p25": 2800, "p75": 8500, "growth_pct": 3.1 },
+    { "id": "pro",       "label": "Profesional, Saintifik & Teknikal","median": 4500,"mean": 5900, "p25": 2900, "p75": 7600, "growth_pct": 5.5 },
+    { "id": "health",    "label": "Kesihatan & Kerja Sosial",       "median": 3600, "mean": 5100, "p25": 2200, "p75": 7000, "growth_pct": 6.4 },
+    { "id": "edu",       "label": "Pendidikan",                     "median": 3800, "mean": 4900, "p25": 2600, "p75": 6400, "growth_pct": 4.2 },
+    { "id": "pub",       "label": "Pentadbiran Awam & Pertahanan",  "median": 4000, "mean": 4800, "p25": 2800, "p75": 6200, "growth_pct": 3.8 },
+    { "id": "realestate","label": "Hartanah",                       "median": 3200, "mean": 4100, "p25": 2100, "p75": 5600, "growth_pct": 4.7 },
+    { "id": "trans",     "label": "Pengangkutan & Penyimpanan",     "median": 2800, "mean": 3400, "p25": 1900, "p75": 4600, "growth_pct": 4.1 },
+    { "id": "trade",     "label": "Perniagaan Borong & Runcit",     "median": 2400, "mean": 3000, "p25": 1700, "p75": 4200, "growth_pct": 5.3 },
+    { "id": "mfg",       "label": "Pembuatan (Industri)",           "median": 2300, "mean": 2800, "p25": 1600, "p75": 3900, "growth_pct": 6.2 },
+    { "id": "admin",     "label": "Pentadbiran & Sokongan Pejabat", "median": 2200, "mean": 2700, "p25": 1600, "p75": 3400, "growth_pct": 5.0 },
+    { "id": "construct", "label": "Pembinaan",                      "median": 2100, "mean": 2700, "p25": 1500, "p75": 3600, "growth_pct": 7.8 },
+    { "id": "food",      "label": "Makanan, Minuman & Penginapan",  "median": 1850, "mean": 2200, "p25": 1400, "p75": 2900, "growth_pct": 8.5 },
+    { "id": "agri",      "label": "Pertanian, Perhutanan & Perikanan","median": 1750,"mean": 2100,"p25": 1350, "p75": 2700, "growth_pct": 3.2 }
+  ],
+  "states": {
+    "W.P. Kuala Lumpur": { "median": 4800, "multiplier": 1.655 },
+    "W.P. Putrajaya":    { "median": 4200, "multiplier": 1.448 },
+    "W.P. Labuan":       { "median": 2900, "multiplier": 1.000 },
+    "Selangor":          { "median": 3800, "multiplier": 1.310 },
+    "Pulau Pinang":      { "median": 3400, "multiplier": 1.172 },
+    "Johor":             { "median": 3000, "multiplier": 1.034 },
+    "Melaka":            { "median": 2900, "multiplier": 1.000 },
+    "Negeri Sembilan":   { "median": 2800, "multiplier": 0.966 },
+    "Pahang":            { "median": 2600, "multiplier": 0.897 },
+    "Perak":             { "median": 2550, "multiplier": 0.879 },
+    "Terengganu":        { "median": 2600, "multiplier": 0.897 },
+    "Kelantan":          { "median": 2200, "multiplier": 0.759 },
+    "Kedah":             { "median": 2300, "multiplier": 0.793 },
+    "Perlis":            { "median": 2200, "multiplier": 0.759 },
+    "Sabah":             { "median": 2400, "multiplier": 0.828 },
+    "Sarawak":           { "median": 2600, "multiplier": 0.897 }
+  }
+}

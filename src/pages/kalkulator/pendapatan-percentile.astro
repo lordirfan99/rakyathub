@@ -1,0 +1,292 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import { Icon } from 'astro-icon/components';
+import hiesData from '~/data/hies-percentile.json';
+
+const metadata = {
+  title: 'Kalkulator Tangga Pendapatan Malaysia — B40, M40 atau T20?',
+  description: 'Semak anda berada di tangga ke berapa dalam pendapatan isi rumah Malaysia berdasarkan data DOSM HIES 2022. Ketahui sama ada anda B40, M40 atau T20.',
+};
+
+const hiesJson = JSON.stringify(hiesData);
+const states = Object.keys(hiesData.states);
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="mb-8">
+      <a href="/kalkulator/" class="text-sm text-muted hover:text-primary transition-colors">← Semua Kalkulator</a>
+    </div>
+
+    <div class="inline-flex items-center gap-2 rounded-full bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 text-blue-700 dark:text-blue-400 px-3 py-1 text-xs font-semibold uppercase tracking-wide mb-4">
+      <Icon name="tabler:chart-bar" class="w-3.5 h-3.5" />
+      Data DOSM HIES 2022
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+      Kalkulator Tangga Pendapatan Malaysia
+    </h1>
+    <p class="text-lg md:text-xl text-muted mb-8">
+      Semak kedudukan pendapatan isi rumah anda berbanding seluruh Malaysia. Ketahui sama ada anda B40, M40 atau T20 berdasarkan HIES 2022.
+    </p>
+
+    <!-- Input Card -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
+      <div class="grid md:grid-cols-3 gap-4 md:gap-6">
+        <div>
+          <label for="pendapatan" class="block text-sm font-semibold text-default mb-1.5">Pendapatan Isi Rumah (RM/bulan)</label>
+          <input type="number" id="pendapatan" value="5000" min="0" step="100"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
+        </div>
+        <div>
+          <label for="ahli" class="block text-sm font-semibold text-default mb-1.5">Bilangan Ahli Isi Rumah</label>
+          <select id="ahli"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="1">1 orang</option>
+            <option value="2">2 orang</option>
+            <option value="3">3 orang</option>
+            <option value="4" selected>4 orang</option>
+            <option value="5">5 orang</option>
+            <option value="6">6 orang</option>
+            <option value="7">7 orang</option>
+            <option value="8">8 orang</option>
+          </select>
+        </div>
+        <div>
+          <label for="negeri" class="block text-sm font-semibold text-default mb-1.5">Negeri</label>
+          <select id="negeri"
+            class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
+            <option value="">Seluruh Malaysia</option>
+            {states.map((s) => (
+              <option value={s}>{s}</option>
+            ))}
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Percentile Result -->
+    <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-6">
+      <p class="text-sm font-semibold text-muted uppercase tracking-wide mb-1">Kedudukan Anda</p>
+      <div class="flex items-end gap-3 mb-4">
+        <span class="text-6xl md:text-7xl font-black text-primary" id="pctNumber">—</span>
+        <span class="text-xl text-muted mb-2">daripada 100</span>
+      </div>
+      <p class="text-base text-default mb-5" id="pctDesc">Masukkan pendapatan untuk melihat kedudukan anda.</p>
+
+      <!-- Gradient progress bar -->
+      <div class="relative h-6 rounded-full overflow-hidden mb-2" style="background: linear-gradient(to right, #ef4444 0%, #ef4444 40%, #f59e0b 40%, #f59e0b 80%, #22c55e 80%, #22c55e 100%);">
+        <div id="pctMarker"
+          class="absolute top-0 bottom-0 w-1 bg-white shadow-lg transition-all duration-500"
+          style="left: 0%; transform: translateX(-50%);">
+        </div>
+      </div>
+      <div class="flex justify-between text-xs text-muted mt-1 px-0.5">
+        <span>B40 (0–40%)</span>
+        <span>M40 (40–80%)</span>
+        <span>T20 (80–100%)</span>
+      </div>
+    </div>
+
+    <!-- Tier Badge -->
+    <div id="tierCard" class="rounded-2xl border p-6 mb-6 transition-all duration-300">
+      <div class="flex items-center gap-4">
+        <div id="tierBadge" class="text-4xl font-black">—</div>
+        <div>
+          <p id="tierTitle" class="font-bold text-lg"></p>
+          <p id="tierDesc" class="text-sm text-muted"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 Stat Cards -->
+    <div class="grid md:grid-cols-3 gap-4 mb-6">
+      <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 text-center">
+        <p class="text-xs text-muted uppercase tracking-wide mb-2">Median Nasional</p>
+        <p class="text-2xl font-bold text-default">RM 6,338</p>
+        <p id="vsMedianNasional" class="text-sm mt-1 font-semibold"></p>
+      </div>
+      <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 text-center">
+        <p class="text-xs text-muted uppercase tracking-wide mb-2">Median Negeri</p>
+        <p class="text-2xl font-bold text-default" id="stateMedianVal">—</p>
+        <p id="vsMedianNegeri" class="text-sm mt-1 font-semibold"></p>
+      </div>
+      <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 text-center">
+        <p class="text-xs text-muted uppercase tracking-wide mb-2">Pendapatan Per Kapita</p>
+        <p class="text-2xl font-bold text-default" id="perKapitaVal">—</p>
+        <p class="text-xs text-muted mt-1" id="perKapitaNote"></p>
+      </div>
+    </div>
+
+    <!-- Tier Gap -->
+    <div id="tierGapSection" class="rounded-2xl bg-amber-50 dark:bg-amber-900/10 border border-amber-200 dark:border-amber-800/30 p-5 md:p-6 mb-8 hidden">
+      <p class="text-sm font-semibold text-amber-700 dark:text-amber-400 uppercase tracking-wide mb-1">Sasaran Seterusnya</p>
+      <p id="tierGapText" class="text-base text-default"></p>
+    </div>
+
+    <!-- Source note -->
+    <p class="text-xs text-muted mb-8">Data: DOSM HIES 2022. Pendapatan isi rumah kasar bulanan. Kutipan data 2022, dikemas kini oleh DOSM.</p>
+
+    <!-- Info Section -->
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6">
+        <h3 class="font-semibold text-lg mb-2 text-red-500">B40</h3>
+        <p class="text-muted text-sm">40% isi rumah berpendapatan terendah Malaysia. Pendapatan isi rumah di bawah RM5,249 sebulan (HIES 2022).</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6">
+        <h3 class="font-semibold text-lg mb-2 text-amber-500">M40</h3>
+        <p class="text-muted text-sm">40% isi rumah kelas menengah Malaysia. Pendapatan isi rumah antara RM5,249 hingga RM13,148 sebulan.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6">
+        <h3 class="font-semibold text-lg mb-2 text-green-500">T20</h3>
+        <p class="text-muted text-sm">20% isi rumah berpendapatan tertinggi Malaysia. Pendapatan isi rumah melebihi RM13,148 sebulan.</p>
+      </div>
+    </div>
+  </section>
+
+  <script define:vars={{ hiesJson }}>
+  (function() {
+    var hies = JSON.parse(hiesJson);
+    var pts = hies.national_percentiles;
+
+    function fmtRM(v) {
+      return 'RM ' + Math.round(v).toLocaleString('ms-MY');
+    }
+
+    function getPercentile(income) {
+      if (income <= 0) return 0;
+      if (income >= pts[pts.length - 1].income) return pts[pts.length - 1].p;
+      if (income <= pts[0].income) {
+        // interpolate between 0 and first point
+        return Math.round((income / pts[0].income) * pts[0].p);
+      }
+      for (var i = 0; i < pts.length - 1; i++) {
+        var lo = pts[i];
+        var hi = pts[i + 1];
+        if (income >= lo.income && income <= hi.income) {
+          var ratio = (income - lo.income) / (hi.income - lo.income);
+          return Math.round(lo.p + ratio * (hi.p - lo.p));
+        }
+      }
+      return 99;
+    }
+
+    function calc() {
+      var income = parseFloat(document.getElementById('pendapatan').value) || 0;
+      var members = parseInt(document.getElementById('ahli').value) || 4;
+      var negeri = document.getElementById('negeri').value;
+
+      var pct = getPercentile(income);
+      pct = Math.max(1, Math.min(99, pct));
+
+      // Big number
+      document.getElementById('pctNumber').textContent = pct;
+      document.getElementById('pctDesc').textContent =
+        'Pendapatan isi rumah anda (' + fmtRM(income) + '/bulan) lebih tinggi daripada ' + pct + '% isi rumah Malaysia.';
+
+      // Progress bar marker
+      document.getElementById('pctMarker').style.left = pct + '%';
+
+      // Tier
+      var tierCard = document.getElementById('tierCard');
+      var tierBadge = document.getElementById('tierBadge');
+      var tierTitle = document.getElementById('tierTitle');
+      var tierDesc = document.getElementById('tierDesc');
+
+      if (pct < 40) {
+        tierCard.className = 'rounded-2xl border border-red-200 dark:border-red-800/40 bg-red-50 dark:bg-red-900/10 p-6 mb-6 transition-all duration-300';
+        tierBadge.textContent = 'B40';
+        tierBadge.className = 'text-4xl font-black text-red-500';
+        tierTitle.textContent = 'Kumpulan B40 — 40% bawah';
+        tierDesc.textContent = 'Anda berada dalam kumpulan 40% isi rumah berpendapatan rendah Malaysia. Pendapatan isi rumah anda di bawah RM5,249/bulan.';
+      } else if (pct < 80) {
+        tierCard.className = 'rounded-2xl border border-amber-200 dark:border-amber-800/40 bg-amber-50 dark:bg-amber-900/10 p-6 mb-6 transition-all duration-300';
+        tierBadge.textContent = 'M40';
+        tierBadge.className = 'text-4xl font-black text-amber-500';
+        tierTitle.textContent = 'Kumpulan M40 — 40% pertengahan';
+        tierDesc.textContent = 'Anda berada dalam kumpulan kelas menengah Malaysia. Pendapatan isi rumah anda antara RM5,249 hingga RM13,148/bulan.';
+      } else {
+        tierCard.className = 'rounded-2xl border border-green-200 dark:border-green-800/40 bg-green-50 dark:bg-green-900/10 p-6 mb-6 transition-all duration-300';
+        tierBadge.textContent = 'T20';
+        tierBadge.className = 'text-4xl font-black text-green-500';
+        tierTitle.textContent = 'Kumpulan T20 — 20% teratas';
+        tierDesc.textContent = 'Tahniah! Anda berada dalam kumpulan 20% isi rumah berpendapatan tertinggi Malaysia. Pendapatan isi rumah anda melebihi RM13,148/bulan.';
+      }
+
+      // vs National median
+      var natMedian = hies.median;
+      var vsNat = document.getElementById('vsMedianNasional');
+      if (income > natMedian) {
+        vsNat.textContent = '▲ ' + fmtRM(income - natMedian) + ' lebih tinggi';
+        vsNat.className = 'text-sm mt-1 font-semibold text-green-600 dark:text-green-400';
+      } else if (income < natMedian) {
+        vsNat.textContent = '▼ ' + fmtRM(natMedian - income) + ' lebih rendah';
+        vsNat.className = 'text-sm mt-1 font-semibold text-red-500 dark:text-red-400';
+      } else {
+        vsNat.textContent = '= Sama dengan median nasional';
+        vsNat.className = 'text-sm mt-1 font-semibold text-muted';
+      }
+
+      // vs State median
+      var stateMedianEl = document.getElementById('stateMedianVal');
+      var vsNegeri = document.getElementById('vsMedianNegeri');
+      if (negeri && hies.states[negeri]) {
+        var stateMedian = hies.states[negeri].median;
+        stateMedianEl.textContent = fmtRM(stateMedian);
+        if (income > stateMedian) {
+          vsNegeri.textContent = '▲ ' + fmtRM(income - stateMedian) + ' lebih tinggi';
+          vsNegeri.className = 'text-sm mt-1 font-semibold text-green-600 dark:text-green-400';
+        } else if (income < stateMedian) {
+          vsNegeri.textContent = '▼ ' + fmtRM(stateMedian - income) + ' lebih rendah';
+          vsNegeri.className = 'text-sm mt-1 font-semibold text-red-500 dark:text-red-400';
+        } else {
+          vsNegeri.textContent = '= Sama dengan median negeri';
+          vsNegeri.className = 'text-sm mt-1 font-semibold text-muted';
+        }
+      } else {
+        stateMedianEl.textContent = '—';
+        vsNegeri.textContent = 'Pilih negeri untuk perbandingan';
+        vsNegeri.className = 'text-sm mt-1 text-muted';
+      }
+
+      // Per capita
+      var perKapita = income / members;
+      document.getElementById('perKapitaVal').textContent = fmtRM(perKapita);
+      document.getElementById('perKapitaNote').textContent = fmtRM(income) + ' ÷ ' + members + ' ahli';
+
+      // Tier gap
+      var gapSection = document.getElementById('tierGapSection');
+      var gapText = document.getElementById('tierGapText');
+      if (pct < 40) {
+        var needed = hies.b40_cutoff - income;
+        if (needed > 0) {
+          gapSection.classList.remove('hidden');
+          gapText.textContent = 'Untuk masuk M40, anda perlu tambah kira-kira ' + fmtRM(needed) + '/bulan (capai RM5,249/bulan).';
+        } else {
+          gapSection.classList.add('hidden');
+        }
+      } else if (pct < 80) {
+        var needed2 = hies.m40_upper - income;
+        if (needed2 > 0) {
+          gapSection.classList.remove('hidden');
+          gapText.textContent = 'Untuk masuk T20, anda perlu tambah kira-kira ' + fmtRM(needed2) + '/bulan (capai RM13,148/bulan).';
+        } else {
+          gapSection.classList.add('hidden');
+        }
+      } else {
+        gapSection.classList.add('hidden');
+      }
+    }
+
+    ['pendapatan', 'ahli', 'negeri'].forEach(function(id) {
+      var el = document.getElementById(id);
+      if (el) {
+        el.addEventListener('input', calc);
+        el.addEventListener('change', calc);
+      }
+    });
+
+    calc();
+  })();
+  </script>
+</Layout>
