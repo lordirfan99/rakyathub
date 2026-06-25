@@ -1,7 +1,7 @@
 ---
 publishDate: 2025-07-14
-title: "Cara Renew Roadtax JPJ Online 2026"
-excerpt: "Panduan lengkap renew roadtax JPJ online 2026. Guna myJPJ, MySikap, JPJ E-Bayar, dan MYEG. Jimat masa tanpa pergi kaunter."
+title: "Cara Renew & Perbaharui Roadtax JPJ Online 2026 — Bayar Cukai Jalan"
+excerpt: "Panduan renew & perbaharui cukai jalan (roadtax) JPJ online 2026. Bayar gunakan myJPJ, MySikap, JPJ E-Bayar & MYEG. Jimat masa — siap dalam 5 minit."
 category: Kerjaya
 image: "~/assets/images/hero-roadtax.jpg"
 tags:
