@@ -34,3 +34,4 @@
 | 30 | Tips pilih kursus universiti lepasan SPM | ✅ | 2026-06-22 | tips-pilih-kursus-universiti-lepasan-spm |
 | 31 | Panduan kira GPA dan CGPA universiti Malaysia | ✅ | 2026-06-23 | panduan-kira-gpa-cgpa-universiti-malaysia |
 | 32 | Cara buat kawan baru di universiti | ✅ | 2026-06-24 | cara-buat-kawan-baru-di-universiti |
+| 33 | Panduan belajar kumpulan efektif student | ✅ | 2026-06-25 | panduan-belajar-kumpulan-efektif-student |
