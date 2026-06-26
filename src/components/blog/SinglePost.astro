@@ -213,12 +213,16 @@ const author = getAuthor(post.author);
       if (linkCount >= MAX_LINKS) return;
 
       var text = textNode.textContent || '';
-      var idx = text.toLowerCase().indexOf(link.word.toLowerCase());
-      if (idx === -1) return;
+      // Use word-boundary regex instead of indexOf to prevent partial-word matches
+      // e.g. "Emas" should NOT match "Pemasaran", "STR" should NOT match "Industri"
+      var pattern = new RegExp('\\b' + link.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'i');
+      var match = pattern.exec(text);
+      if (!match) return;
 
       linkCount++;
+      var idx = match.index;
+      var matched = match[0];
       var before = text.slice(0, idx);
-      var matched = text.slice(idx, idx + link.word.length);
       var after = text.slice(idx + link.word.length);
 
       var linkEl = document.createElement('a');
