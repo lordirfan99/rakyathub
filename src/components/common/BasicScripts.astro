@@ -145,6 +145,57 @@ import { UI } from 'astrowind:config';
     }
     applyHeaderStylesOnScroll();
 
+    /* ── Responsive Card Tables ── */
+    (function initResponsiveTables() {
+      var tables = document.querySelectorAll('.article-body table');
+      if (!tables.length) return;
+      var isMobile = window.matchMedia('(max-width: 640px)');
+      var tableData = [];
+      tables.forEach(function(table, idx) {
+        var headers = [];
+        var ths = table.querySelectorAll('thead th');
+        for (var j = 0; j < ths.length; j++) {
+          headers.push(ths[j].textContent.trim());
+        }
+        if (!headers.length) return;
+
+        var rows = table.querySelectorAll('tbody tr');
+        for (var r = 0; r < rows.length; r++) {
+          var tds = rows[r].querySelectorAll('td');
+          for (var c = 0; c < tds.length; c++) {
+            if (headers[c]) {
+              tds[c].setAttribute('data-label', headers[c]);
+            }
+          }
+        }
+
+        // Store ref + initial state
+        tableData.push({ el: table, headers: headers });
+        var container = findArticleBody(table);
+        if (container) {
+          container.classList.toggle('responsive-table', isMobile.matches);
+        }
+      });
+
+      function findArticleBody(el) {
+        while (el && el.parentElement) {
+          if (el.classList && el.classList.contains('article-body')) return el;
+          el = el.parentElement;
+        }
+        return null;
+      }
+
+      // Listen for resize to toggle responsive mode
+      isMobile.addEventListener('change', function(e) {
+        tableData.forEach(function(item) {
+          var container = findArticleBody(item.el);
+          if (container) {
+            container.classList.toggle('responsive-table', e.matches);
+          }
+        });
+      });
+    })();
+
     attachEvent([document], 'scroll', function () {
       lastKnownScrollPosition = window.scrollY;
 
