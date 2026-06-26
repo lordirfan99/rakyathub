@@ -35,3 +35,4 @@
 | 31 | Panduan kira GPA dan CGPA universiti Malaysia | ✅ | 2026-06-23 | panduan-kira-gpa-cgpa-universiti-malaysia |
 | 32 | Cara buat kawan baru di universiti | ✅ | 2026-06-24 | cara-buat-kawan-baru-di-universiti |
 | 33 | Panduan belajar kumpulan efektif student | ✅ | 2026-06-25 | panduan-belajar-kumpulan-efektif-student |
+| 34 | Tips mengatasi stress sebelum final exam | ✅ | 2026-06-26 | tips-mengatasi-stress-sebelum-final-exam |

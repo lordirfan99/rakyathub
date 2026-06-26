@@ -14,6 +14,28 @@ const metadata = {
     <h1 class="text-3xl md:text-5xl font-bold tracking-tight mb-4">Kalkulator Kos Minyak Malaysia</h1>
     <p class="text-lg md:text-xl text-muted mb-8">Kira anggaran kos minyak bulanan kereta atau motosikal berdasarkan jarak perjalanan harian, jenis kenderaan, dan jenis minyak.</p>
 
+    <!-- Live price banner fetched from API -->
+    <div id="fuel-live-banner" class="hidden rounded-2xl bg-gradient-to-r from-green-50 via-blue-50 to-amber-50 dark:from-green-950/20 dark:via-blue-950/20 dark:to-amber-950/20 border border-gray-100 dark:border-slate-700/30 shadow-sm p-4 md:p-5 mb-6">
+      <div class="flex items-start gap-2 mb-2">
+        <span class="w-2 h-2 rounded-full bg-green-500 mt-1 shrink-0 animate-pulse"></span>
+        <p class="text-xs font-semibold text-default">Harga Minyak Terkini <span id="fuel-live-date" class="text-muted/60 font-normal"></span></p>
+      </div>
+      <div class="grid grid-cols-3 gap-3 text-center">
+        <div class="bg-white/70 dark:bg-slate-800/50 rounded-xl py-2 px-1">
+          <p class="text-[10px] text-green-600 dark:text-green-400 font-semibold">RON95</p>
+          <p id="live-ron95" class="text-sm font-black text-green-700 dark:text-green-300 tabular-nums">—</p>
+        </div>
+        <div class="bg-white/70 dark:bg-slate-800/50 rounded-xl py-2 px-1">
+          <p class="text-[10px] text-blue-600 dark:text-blue-400 font-semibold">RON97</p>
+          <p id="live-ron97" class="text-sm font-black text-blue-700 dark:text-blue-300 tabular-nums">—</p>
+        </div>
+        <div class="bg-white/70 dark:bg-slate-800/50 rounded-xl py-2 px-1">
+          <p class="text-[10px] text-amber-600 dark:text-amber-400 font-semibold">Diesel</p>
+          <p id="live-diesel" class="text-sm font-black text-amber-700 dark:text-amber-300 tabular-nums">—</p>
+        </div>
+      </div>
+    </div>
+
     <div class="rounded-2xl bg-white dark:bg-slate-900/60 backdrop-blur-sm border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-8">
       <div class="grid md:grid-cols-2 gap-4 md:gap-6">
         <div>
@@ -42,9 +64,9 @@ const metadata = {
           <label for="flJenis" class="block text-sm font-semibold text-default mb-1.5">Jenis Minyak</label>
           <select id="flJenis"
             class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition">
-            <option value="2.05">RON95 — RM 2.05/L (subsidi)</option>
-            <option value="3.35">RON97 — RM 3.35/L (float)</option>
-            <option value="2.15">Diesel — RM 2.15/L (subsidi)</option>
+            <option value="1.99">RON95 — RM 1.99/L (subsidi BUDI95)</option>
+            <option value="4.35">RON97 — RM 4.35/L</option>
+            <option value="4.67">Diesel — RM 4.67/L (Semenanjung)</option>
           </select>
         </div>
       </div>
@@ -109,6 +131,7 @@ const metadata = {
     <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
       <h3 class="text-xl font-bold mb-4">Alat Kenderaan</h3>
       <ul class="space-y-2">
+        <li><a href="/harga-minyak/" class="text-primary font-medium hover:underline text-sm">→ Harga Minyak Terkini RON95, RON97 & Diesel</a></li>
         <li><a href="/kalkulator/cukai-jalan/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Cukai Jalan</a></li>
         <li><a href="/kalkulator/kereta/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Loan Kereta</a></li>
         <li><a href="/kalkulator/insurans-kereta/" class="text-primary font-medium hover:underline text-sm">→ Kalkulator Insurans Kereta</a></li>
@@ -125,13 +148,59 @@ const metadata = {
   </CallToAction>
 
   <script is:inline>
+// ---- Live fuel prices (same API as /harga-minyak/) ----
+(async function() {
+  var banner = document.getElementById('fuel-live-banner');
+  try {
+    var r = await fetch('/.netlify/functions/harga-minyak', { signal: AbortSignal.timeout(8000) });
+    if (!r.ok) return;
+    var d = await r.json();
+    if (!d || !d.prices) return;
+    var fmt = function(n) { return 'RM ' + Number(n).toFixed(2); };
+    // Update live price banner — RON95 is fixed RM 1.99 (BUDI95 subsidised)
+    document.getElementById('live-ron95').textContent = 'RM 1.99';
+    document.getElementById('live-ron97').textContent = fmt(d.prices.ron97);
+    document.getElementById('live-diesel').textContent = fmt(d.prices.diesel);
+    if (d.date) {
+      try {
+        document.getElementById('fuel-live-date').textContent = '— ' + new Date(d.date).toLocaleDateString('ms-MY', { day:'numeric', month:'long', year:'numeric' });
+      } catch(e) { document.getElementById('fuel-live-date').textContent = '— ' + d.date; }
+    }
+    banner.classList.remove('hidden');
+    // Update dropdown options with live prices
+    var jenisEl = document.getElementById('flJenis');
+    if (jenisEl) {
+      var ops = jenisEl.options;
+      // RON95 (index 0) — use subsidised RM1.99 if available, else unsubsidised
+      var ron95live = 1.99;
+      if (d.prices.ron95 != null && d.prices.ron95 > 2.5) {
+        ron95live = 1.99; // BUDI95 subsidised price
+      }
+      ops[0].value = ron95live.toFixed(2);
+      ops[0].text = 'RON95 — ' + fmt(ron95live) + '/L (subsidi BUDI95)';
+      // RON97 (index 1)
+      if (d.prices.ron97 != null) {
+        ops[1].value = d.prices.ron97.toFixed(2);
+        ops[1].text = 'RON97 — ' + fmt(d.prices.ron97) + '/L';
+      }
+      // Diesel (index 2) — use Semenanjung price
+      if (d.prices.diesel != null) {
+        ops[2].value = d.prices.diesel.toFixed(2);
+        ops[2].text = 'Diesel — ' + fmt(d.prices.diesel) + '/L (Semenanjung)';
+      }
+    }
+    // Recalculate with new prices
+    if (typeof calc === 'function') calc();
+  } catch(e) { /* keep fallback defaults */ }
+})();
+
 function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
 function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
 function calc() {
   var jarak = sn(document.getElementById('flJarak').value, 25);
   var hari = parseInt(document.getElementById('flHari').value) || 22;
   var kmpl = parseFloat(document.getElementById('flKenderaan').value) || 14;
-  var harga = parseFloat(document.getElementById('flJenis').value) || 2.05;
+  var harga = parseFloat(document.getElementById('flJenis').value) || 1.99;
   if (jarak <= 0 || hari <= 0) { document.getElementById('flFinal').textContent = 'RM 0.00'; return; }
   var pp = jarak * 2;
   var bulanKm = pp * hari;
