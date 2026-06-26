@@ -103,6 +103,8 @@ A: Dua-dua. Simpan minimum RM100 — kalau emergency, guna duit tu jangan hutang
 **3. Macam mana nak naikkan pendapatan kalau gaji rendah?**
 A: Side hustle. Baca [panduan kerja sampingan online Malaysia](/panduan-kerja-sampingan-online-malaysia/) untuk pilihan.
 
+Sebelum cari side hustle, semak dulu [Kalkulator Benchmark Gaji](/kalkulator/benchmark-gaji/) — tahu sama ada gaji semasa anda setara dengan pasaran. Kalau tak, maybe better negotiate dulu. Guna juga [Kalkulator Pendapatan Percentile](/kalkulator/pendapatan-percentile/) untuk lihat kedudukan gaji anda dan tetapkan target yang realistik.
+
 **4. Berapa patut ada dalam emergency fund?**
 A: 3-6 bulan gaji. Kalau gaji RM2,500, target RM7,500-RM15,000. Simpan dalam ASB — mudah keluar.
 

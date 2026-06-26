@@ -71,7 +71,9 @@ Lepas tahu gaji kasar, jangan lupa kira **gaji bersih** yang akan masuk bank set
 
 Guna [Kalkulator Gaji Bersih](https://rakyathub.my/kalkulator/gaji-bersih/) untuk kira dengan tepat berapa gaji bersih anda. Tool ni tolong anda faham berapa duit yang actually masuk ke bank selepas semua potongan.
 
-Memandangkan gaji pertama anda akan mula dipotong KWSP, penting untuk tahu perkembangan terkini. Baca [panduan KWSP Malaysia 2025](/panduan-kwsp-malaysia-2025) untuk faham cara dividen dan akaun KWSP berfungsi.
+Nak tahu **di mana kedudukan gaji anda** dalam kalangan pekerja Malaysia? Guna [Kalkulator Pendapatan Percentile](/kalkulator/pendapatan-percentile/) untuk lihat ranking pendapatan anda ikut kumpulan. Dan kalau nak **banding gaji dengan pasaran semasa**, semak [Kalkulator Benchmark Gaji](/kalkulator/benchmark-gaji/) — nampak sama ada gaji anda setara dengan industri & pengalaman anda.
+
+Memandangkan gaji pertama anda akan mula dipotong KWSP
 
 Jangan lupa gunakan [Kalkulator KWSP](https://rakyathub.my/kalkulator/kwsp/) untuk lihat projeksi simpanan persaraan anda — ni penting untuk motivasi menabung awal!
 

@@ -61,6 +61,8 @@ Gunakan formula **[panduan bajet 50/30/20](/cadangan-bajet-50-30-20-di-malaysia/
 
 Kalau duit simpanan ni dilaburkan dalam **[simpanan ASB](/7-kelebihan-simpanan-asb-pelaburan-bijak-pulangan-konsisten-yang-pasti-korang-tak-tahu/)** dengan dividen ~5.75%, jumlah akhir lagi tinggi. Guna **[Kalkulator ASB](/kalkulator/asb/)** untuk kira.
 
+Nak faham **nilai sebenar duit simpanan kahwin** anda? Inflasi boleh makan nilai simpanan diam-diam. Semak [Kalkulator Kuasa Beli](/kalkulator/kuasa-beli/) untuk tahu berapa nilai RM10,000 hari ni dalam 2-3 tahun — penting untuk plan bajet kahwin realistis.
+
 ---
 
 ## 🏦 Strategi Simpan Duit Kahwin
