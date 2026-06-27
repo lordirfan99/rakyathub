@@ -84,6 +84,26 @@ TS_CATEGORIES.forEach(c => {
 
 const cardJson = JSON.stringify(flatCards);
 const categoriesJson = JSON.stringify(TS_CATEGORIES);
+
+// Full card data with tiers intact for the engine (not the lossy flat shape)
+const rawCardJson = JSON.stringify(rawCards.map(card => ({
+  id: card.id,
+  bank: card.bank,
+  cardName: card.cardName,
+  hexColor: card.hexColor,
+  network: card.network,
+  annualFee: card.annualFee,
+  baseCashbackRate: card.baseCashbackRate,
+  tiers: card.tiers.map(t => ({
+    minMonthlySpend: t.minMonthlySpend,
+    categories: t.categories.map(c => CAT_ID[c] || c.toLowerCase().replace(/\s+/g, '')),
+    rate: t.rate,
+    categoryCap: t.categoryCap,
+    poolCap: t.poolCap,
+    isWeekendOnly: t.isWeekendOnly,
+  })),
+})));
+const CATEGORY_LOOKUP = JSON.stringify(CAT_ID);
 ---
 
 <Layout metadata={metadata}>
@@ -256,6 +276,7 @@ const categoriesJson = JSON.stringify(TS_CATEGORIES);
 
   <CallToAction />
   <div id="cardDataStore" data-cards={cardJson} style="display:none"></div>
+  <div id="rawCardDataStore" data-cards={rawCardJson} style="display:none"></div>
 
   <!-- Card Detail Modal -->
   <div id="cardModal" class="fixed inset-0 z-50 hidden" style="background:rgba(0,0,0,0.6);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)">
@@ -318,9 +339,264 @@ var CATEGORY_LABELS = {
   telco:'📞 Telco', education:'📚 Education', government:'🏛️ Kerajaan',
   pharmacy:'💊 Pharmacy', hospital:'🏥 Hospital', airlines:'✈️ Airlines'
 };
-var CARDS = [];
-(function(){ var el=document.getElementById('cardDataStore'); if(el) try { CARDS=JSON.parse(el.getAttribute('data-cards')||'[]'); } catch(e){} })();
+var CARDS = [], RAW_CARDS = [];
+(function(){
+  var el = document.getElementById('cardDataStore');
+  if(el) try { CARDS = JSON.parse(el.getAttribute('data-cards')||'[]'); } catch(e){}
+  var el2 = document.getElementById('rawCardDataStore');
+  if(el2) try { RAW_CARDS = JSON.parse(el2.getAttribute('data-cards')||'[]'); } catch(e){}
+})();
 var mode='optimal', selectedCards=[];
+
+// ═══════════════════════════════════════════════════════════════
+// PORTED ENGINE — computeCombo & findBestCombos from cashback-engine.ts
+// ═══════════════════════════════════════════════════════════════
+
+function computeCombo(spending, combo) {
+  // spending: { catId: amount } — same as getSpending() output
+  // combo: array of raw card objects (with tiers, baseCashbackRate)
+  var K = combo.length;
+  var spendList = [];
+  for (var catId in spending) {
+    if (spending.hasOwnProperty(catId) && spending[catId] > 0) {
+      spendList.push({ category: catId, amount: spending[catId] });
+    }
+  }
+  if (spendList.length === 0) {
+    return { cards: [], totalCashback: 0, monthlyFeeAmortized: 0, netCashback: 0 };
+  }
+
+  // Step 1: Build category priority (best card per category by rate)
+  var categoryPriority = {};
+  for (var si = 0; si < spendList.length; si++) {
+    var cat = spendList[si].category;
+    var entries = [];
+    for (var ci = 0; ci < K; ci++) {
+      var card = combo[ci];
+      var bestRate = card.baseCashbackRate;
+      var bestTierIdx = -1;
+      for (var t = 0; t < card.tiers.length; t++) {
+        var tier = card.tiers[t];
+        if (tier.categories.indexOf(cat) >= 0) {
+          var effectiveRate = tier.isWeekendOnly ? tier.rate * 0.5 : tier.rate;
+          if (effectiveRate > bestRate) {
+            bestRate = effectiveRate;
+            bestTierIdx = t;
+          }
+        }
+      }
+      entries.push({ cardIdx: ci, tierIdx: bestTierIdx, rate: bestRate });
+    }
+    entries.sort(function(a, b) { return b.rate - a.rate; });
+    categoryPriority[cat] = entries;
+  }
+
+  // State
+  var allocatedSpend = new Array(K).fill(0);
+  var tierCashback = [];
+  for (var ci = 0; ci < K; ci++) {
+    tierCashback.push(new Array(combo[ci].tiers.length).fill(0));
+  }
+  var catCashback = {};
+  for (var si = 0; si < spendList.length; si++) {
+    catCashback[spendList[si].category] = new Array(K).fill(0);
+  }
+  var breakdowns = [];
+  for (var ci = 0; ci < K; ci++) breakdowns.push([]);
+
+  // Step 2 & 3: Greedy allocation with cap tracking
+  for (var si = 0; si < spendList.length; si++) {
+    var cat = spendList[si].category;
+    var amount = spendList[si].amount;
+    var remainingSpend = amount;
+    var priority = categoryPriority[cat];
+
+    for (var pi = 0; pi < priority.length; pi++) {
+      if (remainingSpend <= 0) break;
+      var entry = priority[pi];
+      var cardIdx = entry.cardIdx;
+      var tierIdx = entry.tierIdx;
+      var rate = entry.rate;
+      var card = combo[cardIdx];
+
+      if (tierIdx === -1) {
+        // Base rate — no tier covers this category
+        var cashback = remainingSpend * rate;
+        allocatedSpend[cardIdx] += remainingSpend;
+        breakdowns[cardIdx].push({ category: cat, spend: remainingSpend, rate: rate, cashback: cashback, cappedBy: 'none' });
+        remainingSpend = 0;
+        break;
+      }
+
+      var tier = card.tiers[tierIdx];
+      var effectiveRate = tier.isWeekendOnly ? tier.rate * 0.5 : tier.rate;
+
+      var tierEarnedSoFar = tierCashback[cardIdx][tierIdx];
+      var tierRemaining = tier.poolCap > 0 ? Math.max(0, tier.poolCap - tierEarnedSoFar) : Infinity;
+
+      var catEarnedSoFar = catCashback[cat][cardIdx];
+      var catRemaining = tier.categoryCap > 0 ? Math.max(0, tier.categoryCap - catEarnedSoFar) : Infinity;
+
+      var maxCashback = Math.min(tierRemaining, catRemaining);
+      if (maxCashback <= 0) continue;
+
+      var spendToHitCap = maxCashback / effectiveRate;
+      var spendHere = Math.min(remainingSpend, spendToHitCap);
+      var cashbackHere = Math.min(spendHere * effectiveRate, maxCashback);
+
+      var cappedBy = 'none';
+      if (cashbackHere < remainingSpend * effectiveRate) {
+        cappedBy = catRemaining <= tierRemaining ? 'categoryCap' : 'poolCap';
+      }
+
+      allocatedSpend[cardIdx] += spendHere;
+      tierCashback[cardIdx][tierIdx] += cashbackHere;
+      catCashback[cat][cardIdx] += cashbackHere;
+      remainingSpend -= spendHere;
+
+      breakdowns[cardIdx].push({ category: cat, spend: spendHere, rate: effectiveRate, cashback: cashbackHere, cappedBy: cappedBy });
+    }
+
+    // Unallocated remainder → highest base-rate card
+    if (remainingSpend > 0 && priority.length > 0) {
+      var bestBase = priority[0];
+      var baseRate = combo[bestBase.cardIdx].baseCashbackRate;
+      var cb = remainingSpend * baseRate;
+      allocatedSpend[bestBase.cardIdx] += remainingSpend;
+      breakdowns[bestBase.cardIdx].push({ category: cat, spend: remainingSpend, rate: baseRate, cashback: cb, cappedBy: 'none' });
+    }
+  }
+
+  // Step 4: Check minMonthlySpend
+  var cardDetails = [];
+  for (var ci = 0; ci < K; ci++) {
+    var card = combo[ci];
+    var maxMinSpend = 0;
+    for (var t = 0; t < card.tiers.length; t++) {
+      if (card.tiers[t].minMonthlySpend > maxMinSpend) maxMinSpend = card.tiers[t].minMonthlySpend;
+    }
+    var metMinSpend = allocatedSpend[ci] >= maxMinSpend;
+
+    var earnedCashback;
+    var finalBreakdowns;
+
+    if (metMinSpend) {
+      earnedCashback = 0;
+      for (var t = 0; t < tierCashback[ci].length; t++) earnedCashback += tierCashback[ci][t];
+      // Base-rate spends
+      for (var b = 0; b < breakdowns[ci].length; b++) {
+        var bd = breakdowns[ci][b];
+        var isTiered = false;
+        for (var t = 0; t < card.tiers.length; t++) {
+          if (card.tiers[t].categories.indexOf(bd.category) >= 0) { isTiered = true; break; }
+        }
+        if (!isTiered) earnedCashback += bd.cashback;
+      }
+      finalBreakdowns = breakdowns[ci];
+    } else {
+      earnedCashback = allocatedSpend[ci] * card.baseCashbackRate;
+      finalBreakdowns = [];
+      for (var b = 0; b < breakdowns[ci].length; b++) {
+        var bd = breakdowns[ci][b];
+        finalBreakdowns.push({ category: bd.category, spend: bd.spend, rate: card.baseCashbackRate, cashback: bd.spend * card.baseCashbackRate, cappedBy: 'none' });
+      }
+    }
+
+    cardDetails.push({
+      cardId: card.id,
+      cardName: card.cardName,
+      bank: card.bank,
+      hexColor: card.hexColor,
+      allocatedSpend: allocatedSpend[ci],
+      earnedCashback: Math.round(earnedCashback * 100) / 100,
+      breakdown: finalBreakdowns,
+      metMinSpend: metMinSpend,
+    });
+  }
+
+  var totalCashback = 0;
+  for (var ci = 0; ci < cardDetails.length; ci++) totalCashback += cardDetails[ci].earnedCashback;
+  var monthlyFee = 0;
+  for (var ci = 0; ci < K; ci++) monthlyFee += combo[ci].annualFee / 12;
+
+  return {
+    cards: cardDetails,
+    totalCashback: Math.round(totalCashback * 100) / 100,
+    monthlyFeeAmortized: Math.round(monthlyFee * 100) / 100,
+    netCashback: Math.round((totalCashback - monthlyFee) * 100) / 100,
+  };
+}
+
+function engineToOldShape(comboResult, cardIds) {
+  // Convert ComboResult to the shape renderResults expects:
+  // { cards: [id], breakdown: { id: { catId: {amount, cashback} } }, total: net, gross: gross, fee: monthly }
+  var old = {
+    cards: cardIds,
+    total: comboResult.netCashback,
+    gross: comboResult.totalCashback,
+    fee: comboResult.monthlyFeeAmortized,
+    breakdown: {},
+  };
+  for (var ci = 0; ci < comboResult.cards.length; ci++) {
+    var cd = comboResult.cards[ci];
+    old.breakdown[cd.cardId] = {};
+    for (var b = 0; b < cd.breakdown.length; b++) {
+      var bd = cd.breakdown[b];
+      old.breakdown[cd.cardId][bd.category] = { amount: bd.spend, cashback: bd.cashback };
+    }
+  }
+  return old;
+}
+
+function runOptimizer() {
+  var s = getSpending();
+  var ts = 0;
+  for (var k in s) ts += s[k] || 0;
+  if (ts <= 0) { document.getElementById('status').textContent = '⚠️ Sila masukkan jumlah perbelanjaan.'; return; }
+  var ld = document.getElementById('loading'), rs = document.getElementById('results'), st = document.getElementById('status');
+  ld.classList.remove('hidden'); rs.classList.add('hidden'); rs.innerHTML = ''; st.textContent = '';
+  setTimeout(function(){
+    var ac = RAW_CARDS, co = [];
+    if (mode === 'owned') {
+      if (selectedCards.length < 3) { ld.classList.add('hidden'); st.textContent = '⚠️ Sila pilih minimum 3 kad.'; return; }
+      ac = RAW_CARDS.filter(function(c) { return selectedCards.indexOf(c.id) >= 0; });
+    }
+    if (!ac || ac.length < 3) { ld.classList.add('hidden'); st.textContent = '⚠️ Perlu minimum 3 kad.'; return; }
+
+    // Filter relevant cards (those matching spend categories)
+    var spendCats = {};
+    for (var k in s) { if (s[k] > 0) spendCats[k] = true; }
+    var relevant = ac.filter(function(card) {
+      if (card.baseCashbackRate > 0) return true;
+      for (var t = 0; t < card.tiers.length; t++) {
+        for (var c = 0; c < card.tiers[t].categories.length; c++) {
+          if (spendCats[card.tiers[t].categories[c]]) return true;
+        }
+      }
+      return false;
+    });
+
+    var n = relevant.length;
+    for (var i = 0; i < n - 2; i++) {
+      for (var j = i + 1; j < n - 1; j++) {
+        for (var k = j + 1; k < n; k++) {
+          var comboResult = computeCombo(s, [relevant[i], relevant[j], relevant[k]]);
+          var cardIds = [relevant[i].id, relevant[j].id, relevant[k].id];
+          co.push(engineToOldShape(comboResult, cardIds));
+        }
+      }
+    }
+    co.sort(function(a, b) { return b.total - a.total; });
+    var tp = co.slice(0, 20);
+
+    ld.classList.add('hidden');
+    if (tp.length === 0) { st.textContent = 'Tiada kombinasi yang sah.'; return; }
+    renderResults(tp, CARDS, s);
+    rs.classList.remove('hidden');
+    st.textContent = 'Menilai ' + co.length.toLocaleString() + ' kombinasi dari ' + relevant.length + ' kad.';
+    try { localStorage.setItem('rh_combo', JSON.stringify({cards: tp[0].cards, total: tp[0].total})); } catch(e) {}
+  }, 50);
+}
 
 function setMode(m) {
   mode=m;
@@ -350,61 +626,6 @@ function getSpending() {
 }
 window.calc=getSpending;
 
-function calcCardCategory(card, categoryId, amount, eligibleSpend) {
-  if(amount<=0)return 0;
-  var best=0;
-  (card.cashback||[]).forEach(function(cb){
-    if(cb.category!==categoryId&&cb.category!=='*')return;
-    // Tier hanya layak jika jumlah belanja cukup syarat minimum bulanan
-    if((cb.min_spend||0) > (eligibleSpend||0))return;
-    var e=amount*cb.rate/100;
-    if(cb.cap>0&&e>cb.cap)e=cb.cap;
-    if(e>best)best=e;
-  });
-  return best;
-}
-function calcCombo(cardIds,allCards,spending) {
-  var cards=cardIds.map(function(id){return allCards.find(function(c){return c.id===id})});
-  if(cards.some(function(c){return!c}))return null;
-  var ts=0;for(var k in spending)ts+=spending[k]||0;
-  var ms=0;cards.forEach(function(c){if((c.min_spend||0)>ms)ms=c.min_spend||0});
-  if(ts<ms)return null;
-  var r={cards:cardIds,total:0,breakdown:{}};
-  var u=CATEGORIES.map(function(c){return c.id}).filter(function(cid){return(spending[cid]||0)>0});
-  u.forEach(function(catId){
-    var bi=-1,bv=-1;
-    cards.forEach(function(card,idx){var e=calcCardCategory(card,catId,spending[catId],ts);if(e>bv){bv=e;bi=idx;}});
-    if(bi>=0){var cid=cardIds[bi];if(!r.breakdown[cid])r.breakdown[cid]={};r.breakdown[cid][catId]={amount:spending[catId],cashback:bv};r.total+=bv;}
-  });
-  cards.forEach(function(card){var pc=card.pool_cap||0;if(pc>0){var ct=0,bd=r.breakdown[card.id];if(bd){for(var c in bd)ct+=bd[c].cashback;}if(ct>pc){var ra=pc/ct;for(var c in bd)bd[c].cashback=Math.round(bd[c].cashback*ra*100)/100;}}});
-  // Tolak yuran tahunan (dibahagi 12) → ranking ikut cashback bersih, bukan kasar
-  var fee=0;cards.forEach(function(c){fee+=(c.annual_fee||0)/12;});
-  r.gross=Math.round(r.total*100)/100;
-  r.fee=Math.round(fee*100)/100;
-  r.total=Math.round((r.total-fee)*100)/100;
-  return r;
-}
-function runOptimizer() {
-  var s=getSpending();var ts=0;for(var k in s)ts+=s[k]||0;
-  if(ts<=0){document.getElementById('status').textContent='⚠️ Sila masukkan jumlah perbelanjaan.';return;}
-  var ld=document.getElementById('loading'),rs=document.getElementById('results'),st=document.getElementById('status');
-  ld.classList.remove('hidden');rs.classList.add('hidden');rs.innerHTML='';st.textContent='';
-  setTimeout(function(){
-    var ac=CARDS,co=[];
-    if(mode==='owned'){
-      if(selectedCards.length<3){ld.classList.add('hidden');st.textContent='⚠️ Sila pilih minimum 3 kad.';return;}
-      ac=CARDS.filter(function(c){return selectedCards.indexOf(c.id)>=0});
-    }
-    if(!ac||ac.length<3){ld.classList.add('hidden');st.textContent='⚠️ Perlu minimum 3 kad.';return;}
-    var n=ac.length;
-    for(var i=0;i<n-2;i++)for(var j=i+1;j<n-1;j++)for(var k=j+1;k<n;k++){var c=calcCombo([ac[i].id,ac[j].id,ac[k].id],CARDS,s);if(c)co.push(c);}
-    co.sort(function(a,b){return b.total-a.total});var tp=co.slice(0,20);
-    ld.classList.add('hidden');
-    if(tp.length===0){st.textContent='Tiada kombinasi yang sah.';return;}
-    renderResults(tp,CARDS,s);rs.classList.remove('hidden');st.textContent='Menilai '+co.length.toLocaleString()+' kombinasi dari '+ac.length+' kad.';
-    try{localStorage.setItem('rh_combo',JSON.stringify({cards:tp[0].cards,total:tp[0].total}));}catch(e){}
-  },50);
-}
 function cardFace(card) {
   var p=card.primaryHex||'#333', s=card.secondaryHex||'#666', g=card.gradientStyle||'solid', l=card.logoLabel||(card.bank||'').substring(0,4).toUpperCase(), im=card.imageUrl||'', net=card.network||'';
   var bg=g==='diagonal'?'linear-gradient(135deg,'+p+','+s+')':g==='horizontal'?'linear-gradient(90deg,'+p+','+s+')':'linear-gradient(135deg,'+p+','+darken(p,20)+')';
@@ -481,7 +702,17 @@ function showCardDetail(cardId) {
   document.getElementById('modalCardType').textContent=card.type==='cashback'?'💵 Cash Back':card.type==='points'?'⭐ Rewards Points':'';
   document.getElementById('modalAnnualFee').textContent=(card.annual_fee||0)===0?'RM 0':'RM '+card.annual_fee;
   document.getElementById('modalMonthlyFee').textContent=(card.monthly_fee||0)===0?'RM 0':'RM '+card.monthly_fee;
-  document.getElementById('modalMinSpend').textContent=(card.min_spend||0)===0?'Tiada':'RM '+card.min_spend;
+  document.getElementById('modalMinSpend').textContent = (function(){
+    var rawCard = RAW_CARDS.find(function(c){ return c.id === cardId; });
+    if (rawCard && rawCard.tiers) {
+      var maxMs = 0;
+      for (var t = 0; t < rawCard.tiers.length; t++) {
+        if (rawCard.tiers[t].minMonthlySpend > maxMs) maxMs = rawCard.tiers[t].minMonthlySpend;
+      }
+      return maxMs > 0 ? 'RM ' + maxMs.toLocaleString() : 'Tiada';
+    }
+    return 'Tiada';
+  })();
   var pc=document.getElementById('modalPoolCapRow');
   if(card.pool_cap&&card.pool_cap>0){document.getElementById('modalPoolCap').textContent='RM '+card.pool_cap+'/month';pc.classList.remove('hidden');}else{pc.classList.add('hidden');}
   var th='';
