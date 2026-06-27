@@ -1,0 +1,12 @@
+{
+  "stats": [
+    {
+      "voters_total": 21173638,
+      "voter_turnout": 15817307,
+      "voter_turnout_perc": 74.70283094478143,
+      "votes_rejected": 160340,
+      "votes_rejected_perc": 1.0164621993214287,
+      "n_candidates": 945
+    }
+  ]
+}

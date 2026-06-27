@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "python3 scripts/update-harga-makanan.py && astro build",
+    "build": "python3 scripts/update-harga-makanan.py && python3 scripts/fetch-election-data.py && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "check": "npm run check:astro && npm run check:eslint && npm run check:prettier",

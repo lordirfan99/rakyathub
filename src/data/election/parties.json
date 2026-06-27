@@ -1,0 +1,1100 @@
+{
+  "data": [
+    {
+      "type": "party",
+      "uid": "063-AKAR",
+      "maps_to": "063-AKAR-BERSATU",
+      "acronym": "AKAR",
+      "name_en": "People's Justice Movement",
+      "name_bm": "Angkatan Keadilan Rakyat"
+    },
+    {
+      "type": "party",
+      "uid": "070-AKIM",
+      "maps_to": "070-KITA",
+      "acronym": "AKIM",
+      "name_en": "Malaysian People's Justice Front",
+      "name_bm": "Angkatan Keadilan Insan Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "046-AMANAH",
+      "maps_to": "046-AMANAH",
+      "acronym": "AMANAH",
+      "name_en": "National Trust Party",
+      "name_bm": "Parti Amanah Negara"
+    },
+    {
+      "type": "party",
+      "uid": "096-ANAK-NEGERI",
+      "maps_to": "096-ANAK-NEGERI",
+      "acronym": "ANAK-NEGERI",
+      "name_en": "Native Cooperation Party",
+      "name_bm": "Parti Kerjasama Anak Negeri"
+    },
+    {
+      "type": "party",
+      "uid": "071-ASPIRASI",
+      "maps_to": "071-ASPIRASI",
+      "acronym": "ASPIRASI",
+      "name_en": "Sarawak People's Aspirations Party",
+      "name_bm": "Parti Aspirasi Rakyat Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "000-BEBAS",
+      "maps_to": "000-BEBAS",
+      "acronym": "BEBAS",
+      "name_en": "Independent",
+      "name_bm": "Bebas"
+    },
+    {
+      "type": "party",
+      "uid": "036-BERJASA",
+      "maps_to": "036-BERJASA",
+      "acronym": "BERJASA",
+      "name_en": "Malaysian Islamic Justice Party",
+      "name_bm": "Barisan Jemaah Islamiah Se-Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "034-BERJAYA",
+      "maps_to": "034-BERJAYA",
+      "acronym": "BERJAYA",
+      "name_en": "Sabah People's United Front",
+      "name_bm": "Parti Bersatu Rakyat Jelata Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "069-BERSAMA",
+      "maps_to": "069-BERSAMA",
+      "acronym": "BERSAMA",
+      "name_en": "Malaysia United People's Party",
+      "name_bm": "Parti Bersatu Sasa Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "107-BERSATU",
+      "maps_to": "107-BERSATU",
+      "acronym": "BERSATU",
+      "name_en": "Malaysian United Indigenous Party",
+      "name_bm": "Parti Pribumi Bersatu Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "065-BERSEKUTU",
+      "maps_to": "065-PBM",
+      "acronym": "BERSEKUTU",
+      "name_en": "Federated Sabah People's Front",
+      "name_bm": "Barisan Rakyat Sabah Bersekutu"
+    },
+    {
+      "type": "party",
+      "uid": "051-BERSEPADU",
+      "maps_to": "051-BERSEPADU",
+      "acronym": "BERSEPADU",
+      "name_en": "Sabah United Native People's Party",
+      "name_bm": "Parti Bersatu Rakyat Bumiputera Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "052-BERSIH",
+      "maps_to": "052-BERSIH",
+      "acronym": "BERSIH",
+      "name_en": "United Sabah People's Action Party",
+      "name_bm": "Parti Tindakan Rakyat Sabah Bersatu"
+    },
+    {
+      "type": "party",
+      "uid": "021-DAP",
+      "maps_to": "021-DAP",
+      "acronym": "DAP",
+      "name_en": "Democratic Action Party",
+      "name_bm": "Parti Tindakan Demokratik"
+    },
+    {
+      "type": "party",
+      "uid": "127-GAS",
+      "maps_to": "127-GAS",
+      "acronym": "GAS",
+      "name_en": "Sabahan's Glory Party",
+      "name_bm": "Parti Gemilang Anak Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "122-GB",
+      "maps_to": "122-GB",
+      "acronym": "GB",
+      "name_en": "Nation's Vision",
+      "name_bm": "Gagasan Bangsa"
+    },
+    {
+      "type": "party",
+      "uid": "026-GERAKAN",
+      "maps_to": "026-GERAKAN",
+      "acronym": "GERAKAN",
+      "name_en": "Malaysian People's Movement Party",
+      "name_bm": "Parti Gerakan Rakyat Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "048-HAMIM",
+      "maps_to": "048-HAMIM",
+      "acronym": "HAMIM",
+      "name_en": "Malaysian Muslim People's Party",
+      "name_bm": "Parti Hizbul Muslimin Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "102-HR",
+      "maps_to": "102-HR",
+      "acronym": "HR",
+      "name_en": "Sabah People's Hope Party",
+      "name_bm": "Parti Harapan Rakyat Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "100-IKATAN",
+      "maps_to": "100-IKATAN",
+      "acronym": "IKATAN",
+      "name_en": "Malaysian People's Unity Party",
+      "name_bm": "Parti Ikatan Bangsa Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "117-IMAN",
+      "maps_to": "117-IMAN",
+      "acronym": "IMAN",
+      "name_en": "National Indian Muslim Alliance Party",
+      "name_bm": "Parti Perikatan India Muslim Nasional"
+    },
+    {
+      "type": "party",
+      "uid": "124-IMPIAN",
+      "maps_to": "124-IMPIAN",
+      "acronym": "IMPIAN",
+      "name_en": "Sabah Dream Party",
+      "name_bm": "Parti Impian Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "064-IPF",
+      "maps_to": "064-IPF",
+      "acronym": "IPF",
+      "name_en": "All Malaysia Indian Progressive Front",
+      "name_bm": "Barisan Kemajuan India SeMalaysia"
+    },
+    {
+      "type": "party",
+      "uid": "032-IPPP",
+      "maps_to": "032-IPPP",
+      "acronym": "IPPP",
+      "name_en": "Independent People's Progressive Party",
+      "name_bm": "Parti Bebas Progresif Rakyat"
+    },
+    {
+      "type": "party",
+      "uid": "123-KDM",
+      "maps_to": "123-KDM",
+      "acronym": "KDM",
+      "name_en": "People's Solidarity Democracy Party",
+      "name_bm": "Parti Kesejahteraan Demokratik Masyarakat"
+    },
+    {
+      "type": "party",
+      "uid": "035-KIMMA",
+      "maps_to": "035-KIMMA",
+      "acronym": "KIMMA",
+      "name_en": "Malaysian Indian Muslim Congress",
+      "name_bm": "Kongres India Muslim Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "031-KITA",
+      "maps_to": "031-KITA",
+      "acronym": "KITA",
+      "name_en": "Homeland Revival Movement",
+      "name_bm": "Kesatuan Insaf Tanah Air"
+    },
+    {
+      "type": "party",
+      "uid": "070-KITA",
+      "maps_to": "070-KITA",
+      "acronym": "KITA",
+      "name_en": "People's Welfare Party",
+      "name_bm": "Parti Kesejahteraan Insan Tanah Air"
+    },
+    {
+      "type": "party",
+      "uid": "059-LDP",
+      "maps_to": "059-LDP",
+      "acronym": "LDP",
+      "name_en": "Liberal Democratic Party",
+      "name_bm": "Parti Demokratik Liberal"
+    },
+    {
+      "type": "party",
+      "uid": "005-LPM",
+      "maps_to": "005-LPM",
+      "acronym": "LPM",
+      "name_en": "Labour Party of Malaya",
+      "name_bm": "Parti Buruh Malaya"
+    },
+    {
+      "type": "party",
+      "uid": "003-MCA",
+      "maps_to": "003-MCA",
+      "acronym": "MCA",
+      "name_en": "Malaysian Chinese Association",
+      "name_bm": "Persatuan Cina Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "073-MDP",
+      "maps_to": "073-MDP",
+      "acronym": "MDP",
+      "name_en": "Malaysian Democratic Party",
+      "name_bm": "Parti Demokratik Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "002-MIC",
+      "maps_to": "002-MIC",
+      "acronym": "MIC",
+      "name_en": "Malaysian Indian Congress",
+      "name_bm": "Kongres India Se-Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "081-MMSP",
+      "maps_to": "081-MMSP",
+      "acronym": "MMSP",
+      "name_en": "Malaysia Makkal Sakti Party",
+      "name_bm": "Parti Makkal Sakti Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "053-MOMOGUN",
+      "maps_to": "053-MOMOGUN",
+      "acronym": "MOMOGUN",
+      "name_en": "Parti Momogun Kebangsaan Sabah",
+      "name_bm": "Parti Momogun Kebangsaan Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "011-MP",
+      "maps_to": "011-MP",
+      "acronym": "MP",
+      "name_en": "Malaya Party",
+      "name_bm": "Parti Malaya"
+    },
+    {
+      "type": "party",
+      "uid": "120-MUDA",
+      "maps_to": "120-MUDA",
+      "acronym": "MUDA",
+      "name_en": "Malaysian United Democratic Alliance",
+      "name_bm": "Malaysian United Democratic Alliance"
+    },
+    {
+      "type": "party",
+      "uid": "106-MUP",
+      "maps_to": "106-BERSAMA",
+      "acronym": "MUP",
+      "name_en": "Malaysian United Party",
+      "name_bm": "Parti Bersama Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "006-MYPPP",
+      "maps_to": "006-MYPPP",
+      "acronym": "MYPPP",
+      "name_en": "People's Progressive Party",
+      "name_bm": "Parti Progresif Penduduk"
+    },
+    {
+      "type": "party",
+      "uid": "007-NAP",
+      "maps_to": "007-NAP",
+      "acronym": "NAP",
+      "name_en": "National Association of Perak",
+      "name_bm": "Persatuan Kebangsaan Perak"
+    },
+    {
+      "type": "party",
+      "uid": "055-NASMA",
+      "maps_to": "055-NASMA",
+      "acronym": "NASMA",
+      "name_en": "Malaysian Nationalist Party",
+      "name_bm": "Parti Nasionalis Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "020-NCP",
+      "maps_to": "020-NCP",
+      "acronym": "NCP",
+      "name_en": "National Convention Party",
+      "name_bm": "Parti Perhimpunan Kebangsaan"
+    },
+    {
+      "type": "party",
+      "uid": "008-NEG",
+      "maps_to": "008-NEG",
+      "acronym": "NEG",
+      "name_en": "National Party",
+      "name_bm": "Parti Negara"
+    },
+    {
+      "type": "party",
+      "uid": "041-PAJAR",
+      "maps_to": "041-PAJAR",
+      "acronym": "PAJAR",
+      "name_en": "Sarawak Natives Party",
+      "name_bm": "Parti Anak Jati Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "103-PAP",
+      "maps_to": "103-PAP",
+      "acronym": "PAP",
+      "name_en": "People's Alternative Party",
+      "name_bm": "Parti Alternatif Rakyat"
+    },
+    {
+      "type": "party",
+      "uid": "004-PAS",
+      "maps_to": "004-PAS",
+      "acronym": "PAS",
+      "name_en": "Pan-Malaysian Islamic Party",
+      "name_bm": "Parti Islam Se-Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "042-PASOK",
+      "maps_to": "042-PASOK",
+      "acronym": "PASOK",
+      "name_en": "United Pasok Nunukragang National Organisation",
+      "name_bm": "Pertubuhan Kebangsaan Pasok Nunukragang Bersatu"
+    },
+    {
+      "type": "party",
+      "uid": "029-PBB",
+      "maps_to": "029-PBB",
+      "acronym": "PBB",
+      "name_en": "Parti Pesaka Bumiputera Bersatu Sarawak",
+      "name_bm": "Parti Pesaka Bumiputera Bersatu Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "049-PBDS",
+      "maps_to": "049-PBDSB",
+      "acronym": "PBDS",
+      "name_en": "Parti Bansa Dayak Sarawak",
+      "name_bm": "Parti Bansa Dayak Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "049-PBDSB",
+      "maps_to": "049-PBDSB",
+      "acronym": "PBDSB",
+      "name_en": "New Sarawak Dayak People's Party",
+      "name_bm": "Parti Bansa Dayak Sarawak Baru"
+    },
+    {
+      "type": "party",
+      "uid": "097-PBK",
+      "maps_to": "097-PBK",
+      "acronym": "PBK",
+      "name_en": "Parti Bumi Kenyalang",
+      "name_bm": "Parti Bumi Kenyalang"
+    },
+    {
+      "type": "party",
+      "uid": "065-PBM",
+      "maps_to": "065-PBM",
+      "acronym": "PBM",
+      "name_en": "Malaysian Nation Party",
+      "name_bm": "Parti Bangsa Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "027-PBRS-SWK",
+      "maps_to": "027-PBRS-SWK",
+      "acronym": "PBRS",
+      "name_en": "Sarawak Bumiputera People's Party",
+      "name_bm": "Parti Bumiputera Rakyat Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "067-PBRS-SBH",
+      "maps_to": "067-PBRS-SBH",
+      "acronym": "PBRS",
+      "name_en": "United Sabah People's Party",
+      "name_bm": "Parti Bersatu Rakyat Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "054-PBS",
+      "maps_to": "054-PBS",
+      "acronym": "PBS",
+      "name_en": "Parti Bersatu Sabah",
+      "name_bm": "Parti Bersatu Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "082-PCM",
+      "maps_to": "082-PCM",
+      "acronym": "PCM",
+      "name_en": "Love Malaysia Party",
+      "name_bm": "Parti Cinta Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "025-PCMB",
+      "maps_to": "025-PCMB",
+      "acronym": "PCMB",
+      "name_en": "United Malaysia Chinese Organisation",
+      "name_bm": "Pertubuhan Cina Malaysia Bersatu"
+    },
+    {
+      "type": "party",
+      "uid": "057-PCS",
+      "maps_to": "057-PCS",
+      "acronym": "PCS",
+      "name_en": "Sabah Chinese Party",
+      "name_bm": "Parti Cina Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "095-PCS",
+      "maps_to": "095-PCS",
+      "acronym": "PCS",
+      "name_en": "Parti Cinta Sabah",
+      "name_bm": "Parti Cinta Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "077-PDP",
+      "maps_to": "077-PDP",
+      "acronym": "PDP",
+      "name_en": "Sarawak Progressive Democratic Party",
+      "name_bm": "Parti Demokratik Progresif Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "066-PDS",
+      "maps_to": "066-UPKO-2",
+      "acronym": "PDS",
+      "name_en": "Democratic Sabah Party",
+      "name_bm": "Parti Demokratik Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "094-PEACE",
+      "maps_to": "094-PEACE",
+      "acronym": "PEACE",
+      "name_en": "People's Alliance for Justice of Peace",
+      "name_bm": "Parti Rakyat Gabungan Jaksa Pendamai"
+    },
+    {
+      "type": "party",
+      "uid": "119-PEJUANG",
+      "maps_to": "119-PEJUANG",
+      "acronym": "PEJUANG",
+      "name_en": "Homeland Fighter's Party",
+      "name_bm": "Parti Pejuang Tanah Air"
+    },
+    {
+      "type": "party",
+      "uid": "028-PEKEMAS",
+      "maps_to": "028-PEKEMAS",
+      "acronym": "PEKEMAS",
+      "name_en": "Malaysian Social Justice Party",
+      "name_bm": "Parti Keadilan Masyarakat Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "058-PERMAS",
+      "maps_to": "058-PERMAS",
+      "acronym": "PERMAS",
+      "name_en": "Sarawak Malaysian People's Association",
+      "name_bm": "Persatuan Rakyat Malaysia Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "088-PERPADUAN",
+      "maps_to": "088-PERPADUAN",
+      "acronym": "PERPADUAN",
+      "name_en": "Sabah National People's Unity Organisation",
+      "name_bm": "Pertubuhan Perpaduan Rakyat Kebangsaan Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "018-PESAKA",
+      "maps_to": "018-PESAKA",
+      "acronym": "PESAKA",
+      "name_en": "Pesaka Sarawak",
+      "name_bm": "Parti Pesaka Anak Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "105-PFP",
+      "maps_to": "105-PFP",
+      "acronym": "PFP",
+      "name_en": "Penang Front Party",
+      "name_bm": "Parti Barisan Pulau Pinang"
+    },
+    {
+      "type": "party",
+      "uid": "087-PGRS",
+      "maps_to": "087-PGRS",
+      "acronym": "PGRS",
+      "name_en": "Sabah People's Ideas Party",
+      "name_bm": "Parti Gagasan Rakyat Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "075-PKN",
+      "maps_to": "075-PKN",
+      "acronym": "PKN",
+      "name_en": "National Justice Party",
+      "name_bm": "Parti Keadilan Nasional"
+    },
+    {
+      "type": "party",
+      "uid": "078-PKR",
+      "maps_to": "078-PKR",
+      "acronym": "PKR",
+      "name_en": "People's Justice Party",
+      "name_bm": "Parti Keadilan Rakyat"
+    },
+    {
+      "type": "party",
+      "uid": "089-PKS",
+      "maps_to": "089-PKS",
+      "acronym": "PKS",
+      "name_en": "Sabah National Party",
+      "name_bm": "Parti Kebangsaan Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "050-PLUS",
+      "maps_to": "050-PLUS",
+      "acronym": "PLUS",
+      "name_en": "Sarawak United Labour Party",
+      "name_bm": "Parti Buruh Bersatu Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "010-PML",
+      "maps_to": "010-PML",
+      "acronym": "PML",
+      "name_en": "Perak Malay League",
+      "name_bm": "Liga Melayu Perak"
+    },
+    {
+      "type": "party",
+      "uid": "030-PNRS",
+      "maps_to": "030-PNRS",
+      "acronym": "PNRS",
+      "name_en": "Sarawak People's National Party",
+      "name_bm": "Parti Negara Rakyat Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "006-PPP",
+      "maps_to": "006-MYPPP",
+      "acronym": "PPP",
+      "name_en": "People's Progressive Party",
+      "name_bm": "Parti Progresif Penduduk"
+    },
+    {
+      "type": "party",
+      "uid": "046-PPPM",
+      "maps_to": "046-AMANAH",
+      "acronym": "PPPM",
+      "name_en": "Malaysian Workers' Party",
+      "name_bm": "Parti Pekerja-Pekerja Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "110-PPRS",
+      "maps_to": "110-PPRS",
+      "acronym": "PPRS",
+      "name_en": "Sabah People's Unity Party",
+      "name_bm": "Parti Perpaduan Rakyat Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "009-PR",
+      "maps_to": "009-PRM",
+      "acronym": "PR",
+      "name_en": "Malayan People's Party",
+      "name_bm": "Partai Ra'ayat Malaya"
+    },
+    {
+      "type": "party",
+      "uid": "128-PR-SBH",
+      "maps_to": "128-PR-SBH",
+      "acronym": "PR",
+      "name_en": "The People's Struggle",
+      "name_bm": "Perjuangan Rakyat"
+    },
+    {
+      "type": "party",
+      "uid": "009-PRM",
+      "maps_to": "009-PRM",
+      "acronym": "PRM",
+      "name_en": "Malaysian People's Party",
+      "name_bm": "Parti Rakyat Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "061-PRS-SBH",
+      "maps_to": "061-PRS-SBH",
+      "acronym": "PRS",
+      "name_en": "Parti Rakyat Sabah",
+      "name_bm": "Parti Rakyat Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "080-PRS-SWK",
+      "maps_to": "080-PRS-SWK",
+      "acronym": "PRS",
+      "name_en": "Sarawak People's Party",
+      "name_bm": "Parti Rakyat Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "099-PSB",
+      "maps_to": "099-PSB",
+      "acronym": "PSB",
+      "name_en": "Sarawak United Party",
+      "name_bm": "Parti Sarawak Bersatu"
+    },
+    {
+      "type": "party",
+      "uid": "074-PSM",
+      "maps_to": "074-PSM",
+      "acronym": "PSM",
+      "name_en": "Socialist Party of Malaysia",
+      "name_bm": "Parti Sosialis Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "009-PSRM",
+      "maps_to": "009-PRM",
+      "acronym": "PSRM",
+      "name_en": "Malaysian People's Socialist Party",
+      "name_bm": "Parti Sosialis Rakyat Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "116-PUR",
+      "maps_to": "116-PUR",
+      "acronym": "PUR",
+      "name_en": "Parti Utama Rakyat",
+      "name_bm": "Parti Utama Rakyat"
+    },
+    {
+      "type": "party",
+      "uid": "037-PUSAKA",
+      "maps_to": "037-PUSAKA",
+      "acronym": "PUSAKA",
+      "name_en": "United Social Gathering Party",
+      "name_bm": "Parti Perhimpunan Sosial Bersatu"
+    },
+    {
+      "type": "party",
+      "uid": "112-PUTRA",
+      "maps_to": "112-PUTRA",
+      "acronym": "PUTRA",
+      "name_en": "Malaysian Sovereign Bumiputera Party",
+      "name_bm": "Parti Bumiputera Perkasa Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "126-RUMPUN",
+      "maps_to": "126-RUMPUN",
+      "acronym": "RUMPUN",
+      "name_en": "Rumpun Sabah Party",
+      "name_bm": "Parti Rumpun Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "062-S46",
+      "maps_to": "062-S46",
+      "acronym": "S46",
+      "name_en": "Spirit of 46 Malay Party",
+      "name_bm": "Parti Melayu Semangat 46"
+    },
+    {
+      "type": "party",
+      "uid": "040-SAPO",
+      "maps_to": "040-SAPO",
+      "acronym": "SAPO",
+      "name_en": "Sarawak People's Organisation",
+      "name_bm": "Pertubuhan Rakyat Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "068-SAPP",
+      "maps_to": "068-SAPP",
+      "acronym": "SAPP",
+      "name_en": "Sabah Progressive Party",
+      "name_bm": "Parti Maju Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "017-SCA-SBH",
+      "maps_to": "017-SCA-SBH",
+      "acronym": "SCA",
+      "name_en": "Sabah Chinese Association",
+      "name_bm": "Persatuan Cina Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "019-SCA-SWK",
+      "maps_to": "019-SCA-SWK",
+      "acronym": "SCA",
+      "name_en": "Sarawak Chinese Association",
+      "name_bm": "Persatuan Cina Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "047-SCCP",
+      "maps_to": "047-SCCP",
+      "acronym": "SCCP",
+      "name_en": "Sabah Chinese Consolidated Party",
+      "name_bm": "Parti Cina Bersatu Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "044-SDP",
+      "maps_to": "044-SDP",
+      "acronym": "SDP",
+      "name_en": "Social Democratic Party",
+      "name_bm": "Parti Demokratik Sosial"
+    },
+    {
+      "type": "party",
+      "uid": "039-SEDAR",
+      "maps_to": "039-SEDAR",
+      "acronym": "SEDAR",
+      "name_en": "Homeland Consciousness Union",
+      "name_bm": "Kesatuan Kesedaran Tanah Air"
+    },
+    {
+      "type": "party",
+      "uid": "111-SEDAR",
+      "maps_to": "111-SEDAR",
+      "acronym": "SEDAR",
+      "name_en": "Sarawak People's Consciousness Party",
+      "name_bm": "Parti Sedar Rakyat Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "069-SETIA",
+      "maps_to": "069-BERSAMA",
+      "acronym": "SETIA",
+      "name_en": "United Democratic Sabah People's Power Party",
+      "name_bm": "Parti Kuasa Rakyat Sabah Demokratik Bersatu"
+    },
+    {
+      "type": "party",
+      "uid": "015-SNAP",
+      "maps_to": "015-SNAP",
+      "acronym": "SNAP",
+      "name_en": "Sarawak National Party",
+      "name_bm": "Parti Kebangsaan Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "077-SPDP",
+      "maps_to": "077-PDP",
+      "acronym": "SPDP",
+      "name_en": "Sarawak Progressive Democratic Party",
+      "name_bm": "Parti Demokratik Progresif Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "092-SPP",
+      "maps_to": "092-SPP",
+      "acronym": "SPP",
+      "name_en": "Sabah Peace Party",
+      "name_bm": "Parti Damai Sabah"
+    },
+    {
+      "type": "party",
+      "uid": "072-STAR-SWK",
+      "maps_to": "072-STAR-SWK",
+      "acronym": "STAR",
+      "name_en": "State Reform Party",
+      "name_bm": "Parti Reformasi Negeri"
+    },
+    {
+      "type": "party",
+      "uid": "108-STAR-SBH",
+      "maps_to": "108-STAR-SBH",
+      "acronym": "STAR",
+      "name_en": "Homeland Solidarity Party",
+      "name_bm": "Parti Solidariti Tanah Airku"
+    },
+    {
+      "type": "party",
+      "uid": "043-SUDP",
+      "maps_to": "043-SUDP",
+      "acronym": "SUDP",
+      "name_en": "United Democratic Sarawak Party",
+      "name_bm": "Parti Sarawak Demokratik Bersatu"
+    },
+    {
+      "type": "party",
+      "uid": "013-SUPP",
+      "maps_to": "013-SUPP",
+      "acronym": "SUPP",
+      "name_en": "Sarawak United Peoples' Party",
+      "name_bm": "Parti Rakyat Bersatu Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "065-SWP",
+      "maps_to": "065-PBM",
+      "acronym": "SWP",
+      "name_en": "Sarawak Workers Party",
+      "name_bm": "Parti Pekerja Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "016-UDP",
+      "maps_to": "016-UDP",
+      "acronym": "UDP",
+      "name_en": "United Democratic Party",
+      "name_bm": "Parti Demokratik Bersatu"
+    },
+    {
+      "type": "party",
+      "uid": "038-UMAT",
+      "maps_to": "038-UMAT",
+      "acronym": "UMAT",
+      "name_en": "Sarawak People's Party",
+      "name_bm": "Parti Umat Sarawak"
+    },
+    {
+      "type": "party",
+      "uid": "001-UMNO",
+      "maps_to": "001-UMNO",
+      "acronym": "UMNO",
+      "name_en": "United Malays National Organisation",
+      "name_bm": "Pertubuhan Kebangsaan Melayu Bersatu"
+    },
+    {
+      "type": "party",
+      "uid": "022-UPKO",
+      "maps_to": "022-UPKO",
+      "acronym": "UPKO",
+      "name_en": "United Pasokmomogun Kadazan Organisation",
+      "name_bm": "Pertubuhan Pasok-Momogun Kadazan Bersatu"
+    },
+    {
+      "type": "party",
+      "uid": "066-UPKO-1",
+      "maps_to": "066-UPKO-2",
+      "acronym": "UPKO",
+      "name_en": "United Pasokmomogun Kadazandusun Murut Organisation",
+      "name_bm": "Pertubuhan Pasok-Momogun Kadazan Bersatu"
+    },
+    {
+      "type": "party",
+      "uid": "066-UPKO-2",
+      "maps_to": "066-UPKO-2",
+      "acronym": "UPKO",
+      "name_en": "United Progressive Kinabalu Organisation",
+      "name_bm": "United Progressive Kinabalu Organisation"
+    },
+    {
+      "type": "party",
+      "uid": "033-UPP",
+      "maps_to": "033-UPP",
+      "acronym": "UPP",
+      "name_en": "United People's Party",
+      "name_bm": "Parti Rakyat Bersatu"
+    },
+    {
+      "type": "party",
+      "uid": "014-USNO",
+      "maps_to": "014-USNO",
+      "acronym": "USNO",
+      "name_en": "United Sabah National Organisation",
+      "name_bm": "Pertubuhan Kebangsaan Sabah Bersatu"
+    },
+    {
+      "type": "party",
+      "uid": "091-USNO-BARU",
+      "maps_to": "091-USNO-BARU",
+      "acronym": "USNO",
+      "name_en": "United Sabah National Organisation (New)",
+      "name_bm": "Pertubuhan Kebangsaan Sabah Bersatu (Baru)"
+    },
+    {
+      "type": "party",
+      "uid": "045-USPO",
+      "maps_to": "045-USPO",
+      "acronym": "USPO",
+      "name_en": "United Sabah People's Organisation",
+      "name_bm": "Pertubuhan Rakyat Sabah Bersatu"
+    },
+    {
+      "type": "party",
+      "uid": "104-WARISAN",
+      "maps_to": "104-WARISAN",
+      "acronym": "WARISAN",
+      "name_en": "Heritage Party",
+      "name_bm": "Parti Warisan Sabah"
+    },
+    {
+      "type": "coalition",
+      "uid": "005-APU",
+      "maps_to": "005-APU",
+      "acronym": "APU",
+      "name_en": "Angkatan Perpaduan Ummah",
+      "name_bm": "Angkatan Perpaduan Ummah"
+    },
+    {
+      "type": "coalition",
+      "uid": "007-BA",
+      "maps_to": "007-PH",
+      "acronym": "BA",
+      "name_en": "Barisan Alternatif",
+      "name_bm": "Barisan Alternatif"
+    },
+    {
+      "type": "coalition",
+      "uid": "001-BN",
+      "maps_to": "001-BN",
+      "acronym": "BN",
+      "name_en": "Barisan Nasional",
+      "name_bm": "Barisan Nasional"
+    },
+    {
+      "type": "coalition",
+      "uid": "003-BS",
+      "maps_to": "003-BS",
+      "acronym": "BS",
+      "name_en": "Barisan Sabah",
+      "name_bm": "Barisan Sabah"
+    },
+    {
+      "type": "coalition",
+      "uid": "014-GASAK",
+      "maps_to": "014-GASAK",
+      "acronym": "GASAK",
+      "name_en": "Gabungan Anak Sarawak",
+      "name_bm": "Gabungan Anak Sarawak"
+    },
+    {
+      "type": "coalition",
+      "uid": "009-GPS",
+      "maps_to": "009-GPS",
+      "acronym": "GPS",
+      "name_en": "Gabungan Parti Sarawak",
+      "name_bm": "Gabungan Parti Sarawak"
+    },
+    {
+      "type": "coalition",
+      "uid": "006-GR",
+      "maps_to": "006-GR",
+      "acronym": "GR",
+      "name_en": "Gagasan Rakyat",
+      "name_bm": "Gagasan Rakyat"
+    },
+    {
+      "type": "coalition",
+      "uid": "012-GRS",
+      "maps_to": "012-GRS",
+      "acronym": "GRS",
+      "name_en": "Gabungan Rakyat Sabah",
+      "name_bm": "Gabungan Rakyat Sabah"
+    },
+    {
+      "type": "coalition",
+      "uid": "008-GS",
+      "maps_to": "008-GS",
+      "acronym": "GS",
+      "name_en": "Gagasan Sejahtera",
+      "name_bm": "Gagasan Sejahtera"
+    },
+    {
+      "type": "coalition",
+      "uid": "015-GTA",
+      "maps_to": "015-GTA",
+      "acronym": "GTA",
+      "name_en": "Gerakan Tanah Air",
+      "name_bm": "Gerakan Tanah Air"
+    },
+    {
+      "type": "coalition",
+      "uid": "004-HAK",
+      "maps_to": "004-HAK",
+      "acronym": "HAK",
+      "name_en": "Harakah Keadilan Rakyat",
+      "name_bm": "Harakah Keadilan Rakyat"
+    },
+    {
+      "type": "coalition",
+      "uid": "001-PERIKATAN",
+      "maps_to": "001-BN",
+      "acronym": "PERIKATAN",
+      "name_en": "Alliance",
+      "name_bm": "Parti Perikatan"
+    },
+    {
+      "type": "coalition",
+      "uid": "007-PH",
+      "maps_to": "007-PH",
+      "acronym": "PH",
+      "name_en": "Pakatan Harapan",
+      "name_bm": "Pakatan Harapan"
+    },
+    {
+      "type": "coalition",
+      "uid": "011-PN",
+      "maps_to": "011-PN",
+      "acronym": "PN",
+      "name_en": "Perikatan Nasional",
+      "name_bm": "Perikatan Nasional"
+    },
+    {
+      "type": "coalition",
+      "uid": "007-PR",
+      "maps_to": "007-PH",
+      "acronym": "PR",
+      "name_en": "Pakatan Rakyat",
+      "name_bm": "Pakatan Rakyat"
+    },
+    {
+      "type": "coalition",
+      "uid": "002-SF",
+      "maps_to": "002-SF",
+      "acronym": "SF",
+      "name_en": "Socialist Front",
+      "name_bm": "Barisan Sosialis"
+    },
+    {
+      "type": "coalition",
+      "uid": "010-USA",
+      "maps_to": "010-USA",
+      "acronym": "USA",
+      "name_en": "United Sabah Alliance",
+      "name_bm": "Gabungan Sabah Bersatu"
+    },
+    {
+      "type": "coalition",
+      "uid": "013-WARISAN-PLUS",
+      "maps_to": "013-WARISAN-PLUS",
+      "acronym": "WARISAN-PLUS",
+      "name_en": "Warisan Plus",
+      "name_bm": "Warisan Plus"
+    }
+  ]
+}

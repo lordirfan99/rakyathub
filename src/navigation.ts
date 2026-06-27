@@ -164,6 +164,10 @@ export const headerData = {
       href: getPermalink('/harga-makanan-hari-ini'),
     },
     {
+      text: 'Pilihan Raya',
+      href: '/pilihan-raya/',
+    },
+    {
       text: 'Inflasi',
       href: '/inflasi-malaysia/',
     },

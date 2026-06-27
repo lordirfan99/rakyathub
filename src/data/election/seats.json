@@ -1,0 +1,4114 @@
+{
+  "seats": [
+    {
+      "seat": "P.001 Padang Besar, Perlis",
+      "slug": "p001-padang-besar-perlis",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.002 Kangar, Perlis",
+      "slug": "p002-kangar-perlis",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.003 Arau, Perlis",
+      "slug": "p003-arau-perlis",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.004 Langkawi, Kedah",
+      "slug": "p004-langkawi-kedah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.005 Jerlun, Kedah",
+      "slug": "p005-jerlun-kedah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.006 Kubang Pasu, Kedah",
+      "slug": "p006-kubang-pasu-kedah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.007 Padang Terap, Kedah",
+      "slug": "p007-padang-terap-kedah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.008 Pokok Sena, Kedah",
+      "slug": "p008-pokok-sena-kedah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.009 Alor Setar, Kedah",
+      "slug": "p009-alor-setar-kedah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.010 Kuala Kedah, Kedah",
+      "slug": "p010-kuala-kedah-kedah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.011 Pendang, Kedah",
+      "slug": "p011-pendang-kedah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.012 Jerai, Kedah",
+      "slug": "p012-jerai-kedah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.013 Sik, Kedah",
+      "slug": "p013-sik-kedah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.014 Merbok, Kedah",
+      "slug": "p014-merbok-kedah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.015 Sungai Petani, Kedah",
+      "slug": "p015-sungai-petani-kedah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.016 Baling, Kedah",
+      "slug": "p016-baling-kedah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.017 Padang Serai, Kedah",
+      "slug": "p017-padang-serai-kedah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.018 Kulim-Bandar Baharu, Kedah",
+      "slug": "p018-kulim-bandar-baharu-kedah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.019 Tumpat, Kelantan",
+      "slug": "p019-tumpat-kelantan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.020 Pengkalan Chepa, Kelantan",
+      "slug": "p020-pengkalan-chepa-kelantan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.021 Kota Bharu, Kelantan",
+      "slug": "p021-kota-bharu-kelantan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.022 Pasir Mas, Kelantan",
+      "slug": "p022-pasir-mas-kelantan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.023 Rantau Panjang, Kelantan",
+      "slug": "p023-rantau-panjang-kelantan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.024 Kubang Kerian, Kelantan",
+      "slug": "p024-kubang-kerian-kelantan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.025 Bachok, Kelantan",
+      "slug": "p025-bachok-kelantan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.026 Ketereh, Kelantan",
+      "slug": "p026-ketereh-kelantan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.027 Tanah Merah, Kelantan",
+      "slug": "p027-tanah-merah-kelantan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.028 Pasir Puteh, Kelantan",
+      "slug": "p028-pasir-puteh-kelantan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.029 Machang, Kelantan",
+      "slug": "p029-machang-kelantan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.030 Jeli, Kelantan",
+      "slug": "p030-jeli-kelantan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.031 Kuala Krai, Kelantan",
+      "slug": "p031-kuala-krai-kelantan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.032 Gua Musang, Kelantan",
+      "slug": "p032-gua-musang-kelantan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.033 Besut, Terengganu",
+      "slug": "p033-besut-terengganu",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.034 Setiu, Terengganu",
+      "slug": "p034-setiu-terengganu",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.035 Kuala Nerus, Terengganu",
+      "slug": "p035-kuala-nerus-terengganu",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.036 Kuala Terengganu, Terengganu",
+      "slug": "p036-kuala-terengganu-terengganu",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.037 Marang, Terengganu",
+      "slug": "p037-marang-terengganu",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.038 Hulu Terengganu, Terengganu",
+      "slug": "p038-hulu-terengganu-terengganu",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.039 Dungun, Terengganu",
+      "slug": "p039-dungun-terengganu",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.040 Kemaman, Terengganu",
+      "slug": "p040-kemaman-terengganu",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.041 Kepala Batas, Pulau Pinang",
+      "slug": "p041-kepala-batas-pulau-pinang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.042 Tasek Gelugor, Pulau Pinang",
+      "slug": "p042-tasek-gelugor-pulau-pinang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.043 Bagan, Pulau Pinang",
+      "slug": "p043-bagan-pulau-pinang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.044 Permatang Pauh, Pulau Pinang",
+      "slug": "p044-permatang-pauh-pulau-pinang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.045 Bukit Mertajam, Pulau Pinang",
+      "slug": "p045-bukit-mertajam-pulau-pinang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.046 Batu Kawan, Pulau Pinang",
+      "slug": "p046-batu-kawan-pulau-pinang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.047 Nibong Tebal, Pulau Pinang",
+      "slug": "p047-nibong-tebal-pulau-pinang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.048 Bukit Bendera, Pulau Pinang",
+      "slug": "p048-bukit-bendera-pulau-pinang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.049 Tanjong, Pulau Pinang",
+      "slug": "p049-tanjong-pulau-pinang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.050 Jelutong, Pulau Pinang",
+      "slug": "p050-jelutong-pulau-pinang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.051 Bukit Gelugor, Pulau Pinang",
+      "slug": "p051-bukit-gelugor-pulau-pinang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.052 Bayan Baru, Pulau Pinang",
+      "slug": "p052-bayan-baru-pulau-pinang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.053 Balik Pulau, Pulau Pinang",
+      "slug": "p053-balik-pulau-pulau-pinang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.054 Gerik, Perak",
+      "slug": "p054-gerik-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.055 Lenggong, Perak",
+      "slug": "p055-lenggong-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.056 Larut, Perak",
+      "slug": "p056-larut-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.057 Parit Buntar, Perak",
+      "slug": "p057-parit-buntar-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.058 Bagan Serai, Perak",
+      "slug": "p058-bagan-serai-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.059 Bukit Gantang, Perak",
+      "slug": "p059-bukit-gantang-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.060 Taiping, Perak",
+      "slug": "p060-taiping-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.061 Padang Rengas, Perak",
+      "slug": "p061-padang-rengas-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.062 Sungai Siput, Perak",
+      "slug": "p062-sungai-siput-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.063 Tambun, Perak",
+      "slug": "p063-tambun-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.064 Ipoh Timor, Perak",
+      "slug": "p064-ipoh-timor-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.065 Ipoh Barat, Perak",
+      "slug": "p065-ipoh-barat-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.066 Batu Gajah, Perak",
+      "slug": "p066-batu-gajah-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.067 Kuala Kangsar, Perak",
+      "slug": "p067-kuala-kangsar-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.068 Beruas, Perak",
+      "slug": "p068-beruas-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.069 Parit, Perak",
+      "slug": "p069-parit-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.070 Kampar, Perak",
+      "slug": "p070-kampar-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.071 Gopeng, Perak",
+      "slug": "p071-gopeng-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.072 Tapah, Perak",
+      "slug": "p072-tapah-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.073 Pasir Salak, Perak",
+      "slug": "p073-pasir-salak-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.074 Lumut, Perak",
+      "slug": "p074-lumut-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.075 Bagan Datuk, Perak",
+      "slug": "p075-bagan-datuk-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.076 Teluk Intan, Perak",
+      "slug": "p076-teluk-intan-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.077 Tanjong Malim, Perak",
+      "slug": "p077-tanjong-malim-perak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.078 Cameron Highlands, Pahang",
+      "slug": "p078-cameron-highlands-pahang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.079 Lipis, Pahang",
+      "slug": "p079-lipis-pahang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.080 Raub, Pahang",
+      "slug": "p080-raub-pahang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.081 Jerantut, Pahang",
+      "slug": "p081-jerantut-pahang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.082 Indera Mahkota, Pahang",
+      "slug": "p082-indera-mahkota-pahang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.083 Kuantan, Pahang",
+      "slug": "p083-kuantan-pahang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.084 Paya Besar, Pahang",
+      "slug": "p084-paya-besar-pahang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.085 Pekan, Pahang",
+      "slug": "p085-pekan-pahang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.086 Maran, Pahang",
+      "slug": "p086-maran-pahang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.087 Kuala Krau, Pahang",
+      "slug": "p087-kuala-krau-pahang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.088 Temerloh, Pahang",
+      "slug": "p088-temerloh-pahang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.089 Bentong, Pahang",
+      "slug": "p089-bentong-pahang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.090 Bera, Pahang",
+      "slug": "p090-bera-pahang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.091 Rompin, Pahang",
+      "slug": "p091-rompin-pahang",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.092 Sabak Bernam, Selangor",
+      "slug": "p092-sabak-bernam-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.093 Sungai Besar, Selangor",
+      "slug": "p093-sungai-besar-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.094 Hulu Selangor, Selangor",
+      "slug": "p094-hulu-selangor-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.095 Tanjong Karang, Selangor",
+      "slug": "p095-tanjong-karang-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.096 Kuala Selangor, Selangor",
+      "slug": "p096-kuala-selangor-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.097 Selayang, Selangor",
+      "slug": "p097-selayang-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.098 Gombak, Selangor",
+      "slug": "p098-gombak-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.099 Ampang, Selangor",
+      "slug": "p099-ampang-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.100 Pandan, Selangor",
+      "slug": "p100-pandan-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.101 Hulu Langat, Selangor",
+      "slug": "p101-hulu-langat-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.102 Bangi, Selangor",
+      "slug": "p102-bangi-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.103 Puchong, Selangor",
+      "slug": "p103-puchong-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.104 Subang, Selangor",
+      "slug": "p104-subang-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.105 Petaling Jaya, Selangor",
+      "slug": "p105-petaling-jaya-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.106 Damansara, Selangor",
+      "slug": "p106-damansara-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.107 Sungai Buloh, Selangor",
+      "slug": "p107-sungai-buloh-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.108 Shah Alam, Selangor",
+      "slug": "p108-shah-alam-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.109 Kapar, Selangor",
+      "slug": "p109-kapar-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.110 Klang, Selangor",
+      "slug": "p110-klang-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.111 Kota Raja, Selangor",
+      "slug": "p111-kota-raja-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.112 Kuala Langat, Selangor",
+      "slug": "p112-kuala-langat-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.113 Sepang, Selangor",
+      "slug": "p113-sepang-selangor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.114 Kepong, W.P. Kuala Lumpur",
+      "slug": "p114-kepong-wp-kuala-lumpur",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.115 Batu, W.P. Kuala Lumpur",
+      "slug": "p115-batu-wp-kuala-lumpur",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.116 Wangsa Maju, W.P. Kuala Lumpur",
+      "slug": "p116-wangsa-maju-wp-kuala-lumpur",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.117 Segambut, W.P. Kuala Lumpur",
+      "slug": "p117-segambut-wp-kuala-lumpur",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.118 Setiawangsa, W.P. Kuala Lumpur",
+      "slug": "p118-setiawangsa-wp-kuala-lumpur",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.119 Titiwangsa, W.P. Kuala Lumpur",
+      "slug": "p119-titiwangsa-wp-kuala-lumpur",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.120 Bukit Bintang, W.P. Kuala Lumpur",
+      "slug": "p120-bukit-bintang-wp-kuala-lumpur",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.121 Lembah Pantai, W.P. Kuala Lumpur",
+      "slug": "p121-lembah-pantai-wp-kuala-lumpur",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.122 Seputeh, W.P. Kuala Lumpur",
+      "slug": "p122-seputeh-wp-kuala-lumpur",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.123 Cheras, W.P. Kuala Lumpur",
+      "slug": "p123-cheras-wp-kuala-lumpur",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.124 Bandar Tun Razak, W.P. Kuala Lumpur",
+      "slug": "p124-bandar-tun-razak-wp-kuala-lumpur",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.125 Putrajaya, W.P. Putrajaya",
+      "slug": "p125-putrajaya-wp-putrajaya",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.126 Jelebu, Negeri Sembilan",
+      "slug": "p126-jelebu-negeri-sembilan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.127 Jempol, Negeri Sembilan",
+      "slug": "p127-jempol-negeri-sembilan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.128 Seremban, Negeri Sembilan",
+      "slug": "p128-seremban-negeri-sembilan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.129 Kuala Pilah, Negeri Sembilan",
+      "slug": "p129-kuala-pilah-negeri-sembilan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.130 Rasah, Negeri Sembilan",
+      "slug": "p130-rasah-negeri-sembilan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.131 Rembau, Negeri Sembilan",
+      "slug": "p131-rembau-negeri-sembilan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.132 Port Dickson, Negeri Sembilan",
+      "slug": "p132-port-dickson-negeri-sembilan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.133 Tampin, Negeri Sembilan",
+      "slug": "p133-tampin-negeri-sembilan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.134 Masjid Tanah, Melaka",
+      "slug": "p134-masjid-tanah-melaka",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.135 Alor Gajah, Melaka",
+      "slug": "p135-alor-gajah-melaka",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.136 Tangga Batu, Melaka",
+      "slug": "p136-tangga-batu-melaka",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.137 Hang Tuah Jaya, Melaka",
+      "slug": "p137-hang-tuah-jaya-melaka",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.138 Kota Melaka, Melaka",
+      "slug": "p138-kota-melaka-melaka",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.139 Jasin, Melaka",
+      "slug": "p139-jasin-melaka",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.140 Segamat, Johor",
+      "slug": "p140-segamat-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.141 Sekijang, Johor",
+      "slug": "p141-sekijang-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.142 Labis, Johor",
+      "slug": "p142-labis-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.143 Pagoh, Johor",
+      "slug": "p143-pagoh-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.144 Ledang, Johor",
+      "slug": "p144-ledang-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.145 Bakri, Johor",
+      "slug": "p145-bakri-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.146 Muar, Johor",
+      "slug": "p146-muar-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.147 Parit Sulong, Johor",
+      "slug": "p147-parit-sulong-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.148 Ayer Hitam, Johor",
+      "slug": "p148-ayer-hitam-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.149 Sri Gading, Johor",
+      "slug": "p149-sri-gading-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.150 Batu Pahat, Johor",
+      "slug": "p150-batu-pahat-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.151 Simpang Renggam, Johor",
+      "slug": "p151-simpang-renggam-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.152 Kluang, Johor",
+      "slug": "p152-kluang-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.153 Sembrong, Johor",
+      "slug": "p153-sembrong-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.154 Mersing, Johor",
+      "slug": "p154-mersing-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.155 Tenggara, Johor",
+      "slug": "p155-tenggara-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.156 Kota Tinggi, Johor",
+      "slug": "p156-kota-tinggi-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.157 Pengerang, Johor",
+      "slug": "p157-pengerang-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.158 Tebrau, Johor",
+      "slug": "p158-tebrau-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.159 Pasir Gudang, Johor",
+      "slug": "p159-pasir-gudang-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.160 Johor Bahru, Johor",
+      "slug": "p160-johor-bahru-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.161 Pulai, Johor",
+      "slug": "p161-pulai-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.162 Iskandar Puteri, Johor",
+      "slug": "p162-iskandar-puteri-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.163 Kulai, Johor",
+      "slug": "p163-kulai-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.164 Pontian, Johor",
+      "slug": "p164-pontian-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.165 Tanjung Piai, Johor",
+      "slug": "p165-tanjung-piai-johor",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.166 Labuan, W.P. Labuan",
+      "slug": "p166-labuan-wp-labuan",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.167 Kudat, Sabah",
+      "slug": "p167-kudat-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.168 Kota Marudu, Sabah",
+      "slug": "p168-kota-marudu-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.169 Kota Belud, Sabah",
+      "slug": "p169-kota-belud-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.170 Tuaran, Sabah",
+      "slug": "p170-tuaran-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.171 Sepanggar, Sabah",
+      "slug": "p171-sepanggar-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.172 Kota Kinabalu, Sabah",
+      "slug": "p172-kota-kinabalu-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.173 Putatan, Sabah",
+      "slug": "p173-putatan-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.174 Penampang, Sabah",
+      "slug": "p174-penampang-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.175 Papar, Sabah",
+      "slug": "p175-papar-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.176 Kimanis, Sabah",
+      "slug": "p176-kimanis-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.177 Beaufort, Sabah",
+      "slug": "p177-beaufort-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.178 Sipitang, Sabah",
+      "slug": "p178-sipitang-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.179 Ranau, Sabah",
+      "slug": "p179-ranau-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.180 Keningau, Sabah",
+      "slug": "p180-keningau-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.181 Tenom, Sabah",
+      "slug": "p181-tenom-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.182 Pensiangan, Sabah",
+      "slug": "p182-pensiangan-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.183 Beluran, Sabah",
+      "slug": "p183-beluran-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.184 Libaran, Sabah",
+      "slug": "p184-libaran-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.185 Batu Sapi, Sabah",
+      "slug": "p185-batu-sapi-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.186 Sandakan, Sabah",
+      "slug": "p186-sandakan-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.187 Kinabatangan, Sabah",
+      "slug": "p187-kinabatangan-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.188 Lahad Datu, Sabah",
+      "slug": "p188-lahad-datu-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.189 Semporna, Sabah",
+      "slug": "p189-semporna-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.190 Tawau, Sabah",
+      "slug": "p190-tawau-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.191 Kalabakan, Sabah",
+      "slug": "p191-kalabakan-sabah",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.192 Mas Gading, Sarawak",
+      "slug": "p192-mas-gading-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.193 Santubong, Sarawak",
+      "slug": "p193-santubong-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.194 Petra Jaya, Sarawak",
+      "slug": "p194-petra-jaya-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.195 Bandar Kuching, Sarawak",
+      "slug": "p195-bandar-kuching-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.196 Stampin, Sarawak",
+      "slug": "p196-stampin-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.197 Kota Samarahan, Sarawak",
+      "slug": "p197-kota-samarahan-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.198 Puncak Borneo, Sarawak",
+      "slug": "p198-puncak-borneo-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.199 Serian, Sarawak",
+      "slug": "p199-serian-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.200 Batang Sadong, Sarawak",
+      "slug": "p200-batang-sadong-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.201 Batang Lupar, Sarawak",
+      "slug": "p201-batang-lupar-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.202 Sri Aman, Sarawak",
+      "slug": "p202-sri-aman-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.203 Lubok Antu, Sarawak",
+      "slug": "p203-lubok-antu-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.204 Betong, Sarawak",
+      "slug": "p204-betong-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.205 Saratok, Sarawak",
+      "slug": "p205-saratok-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.206 Tanjong Manis, Sarawak",
+      "slug": "p206-tanjong-manis-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.207 Igan, Sarawak",
+      "slug": "p207-igan-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.208 Sarikei, Sarawak",
+      "slug": "p208-sarikei-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.209 Julau, Sarawak",
+      "slug": "p209-julau-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.210 Kanowit, Sarawak",
+      "slug": "p210-kanowit-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.211 Lanang, Sarawak",
+      "slug": "p211-lanang-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.212 Sibu, Sarawak",
+      "slug": "p212-sibu-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.213 Mukah, Sarawak",
+      "slug": "p213-mukah-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.214 Selangau, Sarawak",
+      "slug": "p214-selangau-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.215 Kapit, Sarawak",
+      "slug": "p215-kapit-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.216 Hulu Rajang, Sarawak",
+      "slug": "p216-hulu-rajang-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.217 Bintulu, Sarawak",
+      "slug": "p217-bintulu-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.218 Sibuti, Sarawak",
+      "slug": "p218-sibuti-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.219 Miri, Sarawak",
+      "slug": "p219-miri-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.220 Baram, Sarawak",
+      "slug": "p220-baram-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.221 Limbang, Sarawak",
+      "slug": "p221-limbang-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "P.222 Lawas, Sarawak",
+      "slug": "p222-lawas-sarawak",
+      "type": "parlimen"
+    },
+    {
+      "seat": "N.01 Titi Tinggi, Perlis",
+      "slug": "n01-titi-tinggi-perlis",
+      "type": "dun"
+    },
+    {
+      "seat": "N.02 Beseri, Perlis",
+      "slug": "n02-beseri-perlis",
+      "type": "dun"
+    },
+    {
+      "seat": "N.03 Chuping, Perlis",
+      "slug": "n03-chuping-perlis",
+      "type": "dun"
+    },
+    {
+      "seat": "N.04 Mata Ayer, Perlis",
+      "slug": "n04-mata-ayer-perlis",
+      "type": "dun"
+    },
+    {
+      "seat": "N.05 Santan, Perlis",
+      "slug": "n05-santan-perlis",
+      "type": "dun"
+    },
+    {
+      "seat": "N.06 Bintong, Perlis",
+      "slug": "n06-bintong-perlis",
+      "type": "dun"
+    },
+    {
+      "seat": "N.07 Sena, Perlis",
+      "slug": "n07-sena-perlis",
+      "type": "dun"
+    },
+    {
+      "seat": "N.08 Indera Kayangan, Perlis",
+      "slug": "n08-indera-kayangan-perlis",
+      "type": "dun"
+    },
+    {
+      "seat": "N.09 Kuala Perlis, Perlis",
+      "slug": "n09-kuala-perlis-perlis",
+      "type": "dun"
+    },
+    {
+      "seat": "N.10 Kayang, Perlis",
+      "slug": "n10-kayang-perlis",
+      "type": "dun"
+    },
+    {
+      "seat": "N.11 Pauh, Perlis",
+      "slug": "n11-pauh-perlis",
+      "type": "dun"
+    },
+    {
+      "seat": "N.12 Tambun Tulang, Perlis",
+      "slug": "n12-tambun-tulang-perlis",
+      "type": "dun"
+    },
+    {
+      "seat": "N.13 Guar Sanji, Perlis",
+      "slug": "n13-guar-sanji-perlis",
+      "type": "dun"
+    },
+    {
+      "seat": "N.14 Simpang Empat, Perlis",
+      "slug": "n14-simpang-empat-perlis",
+      "type": "dun"
+    },
+    {
+      "seat": "N.15 Sanglang, Perlis",
+      "slug": "n15-sanglang-perlis",
+      "type": "dun"
+    },
+    {
+      "seat": "N.01 Ayer Hangat, Kedah",
+      "slug": "n01-ayer-hangat-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.02 Kuah, Kedah",
+      "slug": "n02-kuah-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.03 Kota Siputeh, Kedah",
+      "slug": "n03-kota-siputeh-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.04 Ayer Hitam, Kedah",
+      "slug": "n04-ayer-hitam-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.05 Bukit Kayu Hitam, Kedah",
+      "slug": "n05-bukit-kayu-hitam-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.06 Jitra, Kedah",
+      "slug": "n06-jitra-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.07 Kuala Nerang, Kedah",
+      "slug": "n07-kuala-nerang-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.08 Pedu, Kedah",
+      "slug": "n08-pedu-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.09 Bukit Lada, Kedah",
+      "slug": "n09-bukit-lada-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.10 Bukit Pinang, Kedah",
+      "slug": "n10-bukit-pinang-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.11 Derga, Kedah",
+      "slug": "n11-derga-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.12 Suka Menanti, Kedah",
+      "slug": "n12-suka-menanti-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.13 Kota Darul Aman, Kedah",
+      "slug": "n13-kota-darul-aman-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.14 Alor Mengkudu, Kedah",
+      "slug": "n14-alor-mengkudu-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.15 Anak Bukit, Kedah",
+      "slug": "n15-anak-bukit-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.16 Kubang Rotan, Kedah",
+      "slug": "n16-kubang-rotan-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.17 Pengkalan Kundor, Kedah",
+      "slug": "n17-pengkalan-kundor-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.18 Tokai, Kedah",
+      "slug": "n18-tokai-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.19 Sungai Tiang, Kedah",
+      "slug": "n19-sungai-tiang-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.20 Sungai Limau, Kedah",
+      "slug": "n20-sungai-limau-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.21 Guar Chempedak, Kedah",
+      "slug": "n21-guar-chempedak-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.22 Gurun, Kedah",
+      "slug": "n22-gurun-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.23 Belantek, Kedah",
+      "slug": "n23-belantek-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.24 Jeneri, Kedah",
+      "slug": "n24-jeneri-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.25 Bukit Selambau, Kedah",
+      "slug": "n25-bukit-selambau-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.26 Tanjong Dawai, Kedah",
+      "slug": "n26-tanjong-dawai-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.27 Pantai Merdeka, Kedah",
+      "slug": "n27-pantai-merdeka-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.28 Bakar Arang, Kedah",
+      "slug": "n28-bakar-arang-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.29 Sidam, Kedah",
+      "slug": "n29-sidam-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.30 Bayu, Kedah",
+      "slug": "n30-bayu-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.31 Kupang, Kedah",
+      "slug": "n31-kupang-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.32 Kuala Ketil, Kedah",
+      "slug": "n32-kuala-ketil-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.33 Merbau Pulas, Kedah",
+      "slug": "n33-merbau-pulas-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.34 Lunas, Kedah",
+      "slug": "n34-lunas-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.35 Kulim, Kedah",
+      "slug": "n35-kulim-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.36 Bandar Baharu, Kedah",
+      "slug": "n36-bandar-baharu-kedah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.01 Pengkalan Kubor, Kelantan",
+      "slug": "n01-pengkalan-kubor-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.02 Kelaboran, Kelantan",
+      "slug": "n02-kelaboran-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.03 Pasir Pekan, Kelantan",
+      "slug": "n03-pasir-pekan-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.04 Wakaf Bharu, Kelantan",
+      "slug": "n04-wakaf-bharu-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.05 Kijang, Kelantan",
+      "slug": "n05-kijang-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.06 Chempaka, Kelantan",
+      "slug": "n06-chempaka-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.07 Panchor, Kelantan",
+      "slug": "n07-panchor-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.08 Tanjong Mas, Kelantan",
+      "slug": "n08-tanjong-mas-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.09 Kota Lama, Kelantan",
+      "slug": "n09-kota-lama-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.10 Bunut Payong, Kelantan",
+      "slug": "n10-bunut-payong-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.11 Tendong, Kelantan",
+      "slug": "n11-tendong-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.12 Pengkalan Pasir, Kelantan",
+      "slug": "n12-pengkalan-pasir-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.13 Meranti, Kelantan",
+      "slug": "n13-meranti-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.14 Chetok, Kelantan",
+      "slug": "n14-chetok-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.15 Gual Periok, Kelantan",
+      "slug": "n15-gual-periok-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.16 Apam Putra, Kelantan",
+      "slug": "n16-apam-putra-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.17 Salor, Kelantan",
+      "slug": "n17-salor-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.18 Pasir Tumboh, Kelantan",
+      "slug": "n18-pasir-tumboh-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.19 Demit, Kelantan",
+      "slug": "n19-demit-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.20 Tawang, Kelantan",
+      "slug": "n20-tawang-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.21 Pantai Irama, Kelantan",
+      "slug": "n21-pantai-irama-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.22 Jelawat, Kelantan",
+      "slug": "n22-jelawat-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.23 Melor, Kelantan",
+      "slug": "n23-melor-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.24 Kadok, Kelantan",
+      "slug": "n24-kadok-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.25 Kok Lanas, Kelantan",
+      "slug": "n25-kok-lanas-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.26 Bukit Panau, Kelantan",
+      "slug": "n26-bukit-panau-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.27 Gual Ipoh, Kelantan",
+      "slug": "n27-gual-ipoh-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.28 Kemahang, Kelantan",
+      "slug": "n28-kemahang-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.29 Selising, Kelantan",
+      "slug": "n29-selising-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.30 Limbongan, Kelantan",
+      "slug": "n30-limbongan-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.31 Semerak, Kelantan",
+      "slug": "n31-semerak-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.32 Gaal, Kelantan",
+      "slug": "n32-gaal-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.33 Pulai Chondong, Kelantan",
+      "slug": "n33-pulai-chondong-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.34 Temangan, Kelantan",
+      "slug": "n34-temangan-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.35 Kemuning, Kelantan",
+      "slug": "n35-kemuning-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.36 Bukit Bunga, Kelantan",
+      "slug": "n36-bukit-bunga-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.37 Air Lanas, Kelantan",
+      "slug": "n37-air-lanas-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.38 Kuala Balah, Kelantan",
+      "slug": "n38-kuala-balah-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.39 Mengkebang, Kelantan",
+      "slug": "n39-mengkebang-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.40 Guchil, Kelantan",
+      "slug": "n40-guchil-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.41 Manek Urai, Kelantan",
+      "slug": "n41-manek-urai-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.42 Dabong, Kelantan",
+      "slug": "n42-dabong-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.43 Nenggiri, Kelantan",
+      "slug": "n43-nenggiri-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.44 Paloh, Kelantan",
+      "slug": "n44-paloh-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.45 Galas, Kelantan",
+      "slug": "n45-galas-kelantan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.01 Kuala Besut, Terengganu",
+      "slug": "n01-kuala-besut-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.02 Kota Putera, Terengganu",
+      "slug": "n02-kota-putera-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.03 Jertih, Terengganu",
+      "slug": "n03-jertih-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.04 Hulu Besut, Terengganu",
+      "slug": "n04-hulu-besut-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.05 Jabi, Terengganu",
+      "slug": "n05-jabi-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.06 Permaisuri, Terengganu",
+      "slug": "n06-permaisuri-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.07 Langkap, Terengganu",
+      "slug": "n07-langkap-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.08 Batu Rakit, Terengganu",
+      "slug": "n08-batu-rakit-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.09 Tepuh, Terengganu",
+      "slug": "n09-tepuh-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.10 Buluh Gading, Terengganu",
+      "slug": "n10-buluh-gading-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.11 Seberang Takir, Terengganu",
+      "slug": "n11-seberang-takir-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.12 Bukit Tunggal, Terengganu",
+      "slug": "n12-bukit-tunggal-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.13 Wakaf Mempelam, Terengganu",
+      "slug": "n13-wakaf-mempelam-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.14 Bandar, Terengganu",
+      "slug": "n14-bandar-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.15 Ladang, Terengganu",
+      "slug": "n15-ladang-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.16 Batu Buruk, Terengganu",
+      "slug": "n16-batu-buruk-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.17 Alur Limbat, Terengganu",
+      "slug": "n17-alur-limbat-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.18 Bukit Payung, Terengganu",
+      "slug": "n18-bukit-payung-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.19 Ru Rendang, Terengganu",
+      "slug": "n19-ru-rendang-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.20 Pengkalan Berangan, Terengganu",
+      "slug": "n20-pengkalan-berangan-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.21 Telemung, Terengganu",
+      "slug": "n21-telemung-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.22 Manir, Terengganu",
+      "slug": "n22-manir-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.23 Kuala Berang, Terengganu",
+      "slug": "n23-kuala-berang-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.24 Ajil, Terengganu",
+      "slug": "n24-ajil-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.25 Bukit Besi, Terengganu",
+      "slug": "n25-bukit-besi-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.26 Rantau Abang, Terengganu",
+      "slug": "n26-rantau-abang-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.27 Sura, Terengganu",
+      "slug": "n27-sura-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.28 Paka, Terengganu",
+      "slug": "n28-paka-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.29 Kemasik, Terengganu",
+      "slug": "n29-kemasik-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.30 Kijal, Terengganu",
+      "slug": "n30-kijal-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.31 Cukai, Terengganu",
+      "slug": "n31-cukai-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.32 Air Putih, Terengganu",
+      "slug": "n32-air-putih-terengganu",
+      "type": "dun"
+    },
+    {
+      "seat": "N.01 Penaga, Pulau Pinang",
+      "slug": "n01-penaga-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.02 Bertam, Pulau Pinang",
+      "slug": "n02-bertam-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.03 Pinang Tunggal, Pulau Pinang",
+      "slug": "n03-pinang-tunggal-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.04 Permatang Berangan, Pulau Pinang",
+      "slug": "n04-permatang-berangan-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.05 Sungai Dua, Pulau Pinang",
+      "slug": "n05-sungai-dua-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.06 Telok Ayer Tawar, Pulau Pinang",
+      "slug": "n06-telok-ayer-tawar-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.07 Sungai Puyu, Pulau Pinang",
+      "slug": "n07-sungai-puyu-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.08 Bagan Jermal, Pulau Pinang",
+      "slug": "n08-bagan-jermal-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.09 Bagan Dalam, Pulau Pinang",
+      "slug": "n09-bagan-dalam-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.10 Seberang Jaya, Pulau Pinang",
+      "slug": "n10-seberang-jaya-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.11 Permatang Pasir, Pulau Pinang",
+      "slug": "n11-permatang-pasir-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.12 Penanti, Pulau Pinang",
+      "slug": "n12-penanti-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.13 Berapit, Pulau Pinang",
+      "slug": "n13-berapit-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.14 Machang Bubuk, Pulau Pinang",
+      "slug": "n14-machang-bubuk-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.15 Padang Lalang, Pulau Pinang",
+      "slug": "n15-padang-lalang-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.16 Perai, Pulau Pinang",
+      "slug": "n16-perai-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.17 Bukit Tengah, Pulau Pinang",
+      "slug": "n17-bukit-tengah-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.18 Bukit Tambun, Pulau Pinang",
+      "slug": "n18-bukit-tambun-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.19 Jawi, Pulau Pinang",
+      "slug": "n19-jawi-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.20 Sungai Bakap, Pulau Pinang",
+      "slug": "n20-sungai-bakap-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.21 Sungai Acheh, Pulau Pinang",
+      "slug": "n21-sungai-acheh-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.22 Tanjong Bunga, Pulau Pinang",
+      "slug": "n22-tanjong-bunga-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.23 Air Putih, Pulau Pinang",
+      "slug": "n23-air-putih-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.24 Kebun Bunga, Pulau Pinang",
+      "slug": "n24-kebun-bunga-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.25 Pulau Tikus, Pulau Pinang",
+      "slug": "n25-pulau-tikus-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.26 Padang Kota, Pulau Pinang",
+      "slug": "n26-padang-kota-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.27 Pengkalan Kota, Pulau Pinang",
+      "slug": "n27-pengkalan-kota-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.28 Komtar, Pulau Pinang",
+      "slug": "n28-komtar-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.29 Datok Keramat, Pulau Pinang",
+      "slug": "n29-datok-keramat-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.30 Sungai Pinang, Pulau Pinang",
+      "slug": "n30-sungai-pinang-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.31 Batu Lancang, Pulau Pinang",
+      "slug": "n31-batu-lancang-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.32 Seri Delima, Pulau Pinang",
+      "slug": "n32-seri-delima-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.33 Air Itam, Pulau Pinang",
+      "slug": "n33-air-itam-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.34 Paya Terubong, Pulau Pinang",
+      "slug": "n34-paya-terubong-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.35 Batu Uban, Pulau Pinang",
+      "slug": "n35-batu-uban-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.36 Pantai Jerejak, Pulau Pinang",
+      "slug": "n36-pantai-jerejak-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.37 Batu Maung, Pulau Pinang",
+      "slug": "n37-batu-maung-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.38 Bayan Lepas, Pulau Pinang",
+      "slug": "n38-bayan-lepas-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.39 Pulau Betong, Pulau Pinang",
+      "slug": "n39-pulau-betong-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.40 Telok Bahang, Pulau Pinang",
+      "slug": "n40-telok-bahang-pulau-pinang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.01 Pengkalan Hulu, Perak",
+      "slug": "n01-pengkalan-hulu-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.02 Temengor, Perak",
+      "slug": "n02-temengor-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.03 Kenering, Perak",
+      "slug": "n03-kenering-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.04 Kota Tampan, Perak",
+      "slug": "n04-kota-tampan-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.05 Selama, Perak",
+      "slug": "n05-selama-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.06 Kubu Gajah, Perak",
+      "slug": "n06-kubu-gajah-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.07 Batu Kurau, Perak",
+      "slug": "n07-batu-kurau-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.08 Titi Serong, Perak",
+      "slug": "n08-titi-serong-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.09 Kuala Kurau, Perak",
+      "slug": "n09-kuala-kurau-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.10 Alor Pongsu, Perak",
+      "slug": "n10-alor-pongsu-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.11 Gunong Semanggol, Perak",
+      "slug": "n11-gunong-semanggol-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.12 Selinsing, Perak",
+      "slug": "n12-selinsing-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.13 Kuala Sepetang, Perak",
+      "slug": "n13-kuala-sepetang-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.14 Changkat Jering, Perak",
+      "slug": "n14-changkat-jering-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.15 Trong, Perak",
+      "slug": "n15-trong-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.16 Kamunting, Perak",
+      "slug": "n16-kamunting-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.17 Pokok Assam, Perak",
+      "slug": "n17-pokok-assam-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.18 Aulong, Perak",
+      "slug": "n18-aulong-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.19 Chenderoh, Perak",
+      "slug": "n19-chenderoh-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.20 Lubok Merbau, Perak",
+      "slug": "n20-lubok-merbau-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.21 Lintang, Perak",
+      "slug": "n21-lintang-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.22 Jalong, Perak",
+      "slug": "n22-jalong-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.23 Manjoi, Perak",
+      "slug": "n23-manjoi-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.24 Hulu Kinta, Perak",
+      "slug": "n24-hulu-kinta-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.25 Canning, Perak",
+      "slug": "n25-canning-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.26 Tebing Tinggi, Perak",
+      "slug": "n26-tebing-tinggi-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.27 Pasir Pinji, Perak",
+      "slug": "n27-pasir-pinji-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.28 Bercham, Perak",
+      "slug": "n28-bercham-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.29 Kepayang, Perak",
+      "slug": "n29-kepayang-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.30 Buntong, Perak",
+      "slug": "n30-buntong-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.31 Jelapang, Perak",
+      "slug": "n31-jelapang-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.32 Menglembu, Perak",
+      "slug": "n32-menglembu-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.33 Tronoh, Perak",
+      "slug": "n33-tronoh-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.34 Bukit Chandan, Perak",
+      "slug": "n34-bukit-chandan-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.35 Manong, Perak",
+      "slug": "n35-manong-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.36 Pengkalan Baharu, Perak",
+      "slug": "n36-pengkalan-baharu-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.37 Pantai Remis, Perak",
+      "slug": "n37-pantai-remis-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.38 Astaka, Perak",
+      "slug": "n38-astaka-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.39 Belanja, Perak",
+      "slug": "n39-belanja-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.40 Bota, Perak",
+      "slug": "n40-bota-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.41 Malim Nawar, Perak",
+      "slug": "n41-malim-nawar-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.42 Keranji, Perak",
+      "slug": "n42-keranji-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.43 Tualang Sekah, Perak",
+      "slug": "n43-tualang-sekah-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.44 Sungai Rapat, Perak",
+      "slug": "n44-sungai-rapat-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.45 Simpang Pulai, Perak",
+      "slug": "n45-simpang-pulai-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.46 Teja, Perak",
+      "slug": "n46-teja-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.47 Chenderiang, Perak",
+      "slug": "n47-chenderiang-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.48 Ayer Kuning, Perak",
+      "slug": "n48-ayer-kuning-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.49 Sungai Manik, Perak",
+      "slug": "n49-sungai-manik-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.50 Kampong Gajah, Perak",
+      "slug": "n50-kampong-gajah-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.51 Pasir Panjang, Perak",
+      "slug": "n51-pasir-panjang-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.52 Pangkor, Perak",
+      "slug": "n52-pangkor-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.53 Rungkup, Perak",
+      "slug": "n53-rungkup-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.54 Hutan Melintang, Perak",
+      "slug": "n54-hutan-melintang-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.55 Pasir Bedamar, Perak",
+      "slug": "n55-pasir-bedamar-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.56 Changkat Jong, Perak",
+      "slug": "n56-changkat-jong-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.57 Sungkai, Perak",
+      "slug": "n57-sungkai-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.58 Slim, Perak",
+      "slug": "n58-slim-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.59 Behrang, Perak",
+      "slug": "n59-behrang-perak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.01 Tanah Rata, Pahang",
+      "slug": "n01-tanah-rata-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.02 Jelai, Pahang",
+      "slug": "n02-jelai-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.03 Padang Tengku, Pahang",
+      "slug": "n03-padang-tengku-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.04 Cheka, Pahang",
+      "slug": "n04-cheka-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.05 Benta, Pahang",
+      "slug": "n05-benta-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.06 Batu Talam, Pahang",
+      "slug": "n06-batu-talam-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.07 Tras, Pahang",
+      "slug": "n07-tras-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.08 Dong, Pahang",
+      "slug": "n08-dong-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.09 Tahan, Pahang",
+      "slug": "n09-tahan-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.10 Damak, Pahang",
+      "slug": "n10-damak-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.11 Pulau Tawar, Pahang",
+      "slug": "n11-pulau-tawar-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.12 Beserah, Pahang",
+      "slug": "n12-beserah-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.13 Semambu, Pahang",
+      "slug": "n13-semambu-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.14 Teruntum, Pahang",
+      "slug": "n14-teruntum-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.15 Tanjung Lumpur, Pahang",
+      "slug": "n15-tanjung-lumpur-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.16 Inderapura, Pahang",
+      "slug": "n16-inderapura-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.17 Sungai Lembing, Pahang",
+      "slug": "n17-sungai-lembing-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.18 Lepar, Pahang",
+      "slug": "n18-lepar-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.19 Panching, Pahang",
+      "slug": "n19-panching-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.20 Pulau Manis, Pahang",
+      "slug": "n20-pulau-manis-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.21 Peramu Jaya, Pahang",
+      "slug": "n21-peramu-jaya-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.22 Bebar, Pahang",
+      "slug": "n22-bebar-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.23 Chini, Pahang",
+      "slug": "n23-chini-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.24 Luit, Pahang",
+      "slug": "n24-luit-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.25 Kuala Sentul, Pahang",
+      "slug": "n25-kuala-sentul-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.26 Chenor, Pahang",
+      "slug": "n26-chenor-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.27 Jenderak, Pahang",
+      "slug": "n27-jenderak-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.28 Kerdau, Pahang",
+      "slug": "n28-kerdau-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.29 Jengka, Pahang",
+      "slug": "n29-jengka-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.30 Mentakab, Pahang",
+      "slug": "n30-mentakab-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.31 Lanchang, Pahang",
+      "slug": "n31-lanchang-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.32 Kuala Semantan, Pahang",
+      "slug": "n32-kuala-semantan-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.33 Bilut, Pahang",
+      "slug": "n33-bilut-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.34 Ketari, Pahang",
+      "slug": "n34-ketari-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.35 Sabai, Pahang",
+      "slug": "n35-sabai-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.36 Pelangai, Pahang",
+      "slug": "n36-pelangai-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.37 Guai, Pahang",
+      "slug": "n37-guai-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.38 Triang, Pahang",
+      "slug": "n38-triang-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.39 Kemayan, Pahang",
+      "slug": "n39-kemayan-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.40 Bukit Ibam, Pahang",
+      "slug": "n40-bukit-ibam-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.41 Muadzam Shah, Pahang",
+      "slug": "n41-muadzam-shah-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.42 Tioman, Pahang",
+      "slug": "n42-tioman-pahang",
+      "type": "dun"
+    },
+    {
+      "seat": "N.01 Sungai Air Tawar, Selangor",
+      "slug": "n01-sungai-air-tawar-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.02 Sabak, Selangor",
+      "slug": "n02-sabak-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.03 Sungai Panjang, Selangor",
+      "slug": "n03-sungai-panjang-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.04 Sekinchan, Selangor",
+      "slug": "n04-sekinchan-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.05 Hulu Bernam, Selangor",
+      "slug": "n05-hulu-bernam-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.06 Kuala Kubu Baharu, Selangor",
+      "slug": "n06-kuala-kubu-baharu-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.07 Batang Kali, Selangor",
+      "slug": "n07-batang-kali-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.08 Sungai Burong, Selangor",
+      "slug": "n08-sungai-burong-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.09 Permatang, Selangor",
+      "slug": "n09-permatang-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.10 Bukit Melawati, Selangor",
+      "slug": "n10-bukit-melawati-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.11 Ijok, Selangor",
+      "slug": "n11-ijok-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.12 Jeram, Selangor",
+      "slug": "n12-jeram-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.13 Kuang, Selangor",
+      "slug": "n13-kuang-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.14 Rawang, Selangor",
+      "slug": "n14-rawang-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.15 Taman Templer, Selangor",
+      "slug": "n15-taman-templer-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.16 Sungai Tua, Selangor",
+      "slug": "n16-sungai-tua-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.17 Gombak Setia, Selangor",
+      "slug": "n17-gombak-setia-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.18 Hulu Kelang, Selangor",
+      "slug": "n18-hulu-kelang-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.19 Bukit Antarabangsa, Selangor",
+      "slug": "n19-bukit-antarabangsa-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.20 Lembah Jaya, Selangor",
+      "slug": "n20-lembah-jaya-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.21 Pandan Indah, Selangor",
+      "slug": "n21-pandan-indah-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.22 Teratai, Selangor",
+      "slug": "n22-teratai-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.23 Dusun Tua, Selangor",
+      "slug": "n23-dusun-tua-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.24 Semenyih, Selangor",
+      "slug": "n24-semenyih-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.25 Kajang, Selangor",
+      "slug": "n25-kajang-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.26 Sungai Ramal, Selangor",
+      "slug": "n26-sungai-ramal-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.27 Balakong, Selangor",
+      "slug": "n27-balakong-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.28 Seri Kembangan, Selangor",
+      "slug": "n28-seri-kembangan-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.29 Seri Serdang, Selangor",
+      "slug": "n29-seri-serdang-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.30 Kinrara, Selangor",
+      "slug": "n30-kinrara-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.31 Subang Jaya, Selangor",
+      "slug": "n31-subang-jaya-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.32 Seri Setia, Selangor",
+      "slug": "n32-seri-setia-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.33 Taman Medan, Selangor",
+      "slug": "n33-taman-medan-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.34 Bukit Gasing, Selangor",
+      "slug": "n34-bukit-gasing-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.35 Kampung Tunku, Selangor",
+      "slug": "n35-kampung-tunku-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.36 Bandar Utama, Selangor",
+      "slug": "n36-bandar-utama-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.37 Bukit Lanjan, Selangor",
+      "slug": "n37-bukit-lanjan-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.38 Paya Jaras, Selangor",
+      "slug": "n38-paya-jaras-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.39 Kota Damansara, Selangor",
+      "slug": "n39-kota-damansara-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.40 Kota Anggerik, Selangor",
+      "slug": "n40-kota-anggerik-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.41 Batu Tiga, Selangor",
+      "slug": "n41-batu-tiga-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.42 Meru, Selangor",
+      "slug": "n42-meru-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.43 Sementa, Selangor",
+      "slug": "n43-sementa-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.44 Selat Klang, Selangor",
+      "slug": "n44-selat-klang-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.45 Bandar Baru Klang, Selangor",
+      "slug": "n45-bandar-baru-klang-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.46 Pelabuhan Klang, Selangor",
+      "slug": "n46-pelabuhan-klang-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.47 Pandamaran, Selangor",
+      "slug": "n47-pandamaran-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.48 Sentosa, Selangor",
+      "slug": "n48-sentosa-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.49 Sungai Kandis, Selangor",
+      "slug": "n49-sungai-kandis-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.50 Kota Kemuning, Selangor",
+      "slug": "n50-kota-kemuning-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.51 Sijangkang, Selangor",
+      "slug": "n51-sijangkang-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.52 Banting, Selangor",
+      "slug": "n52-banting-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.53 Morib, Selangor",
+      "slug": "n53-morib-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.54 Tanjong Sepat, Selangor",
+      "slug": "n54-tanjong-sepat-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.55 Dengkil, Selangor",
+      "slug": "n55-dengkil-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.56 Sungai Pelek, Selangor",
+      "slug": "n56-sungai-pelek-selangor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.01 Chennah, Negeri Sembilan",
+      "slug": "n01-chennah-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.02 Pertang, Negeri Sembilan",
+      "slug": "n02-pertang-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.03 Sungai Lui, Negeri Sembilan",
+      "slug": "n03-sungai-lui-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.04 Klawang, Negeri Sembilan",
+      "slug": "n04-klawang-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.05 Serting, Negeri Sembilan",
+      "slug": "n05-serting-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.06 Palong, Negeri Sembilan",
+      "slug": "n06-palong-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.07 Jeram Padang, Negeri Sembilan",
+      "slug": "n07-jeram-padang-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.08 Bahau, Negeri Sembilan",
+      "slug": "n08-bahau-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.09 Lenggeng, Negeri Sembilan",
+      "slug": "n09-lenggeng-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.10 Nilai, Negeri Sembilan",
+      "slug": "n10-nilai-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.11 Lobak, Negeri Sembilan",
+      "slug": "n11-lobak-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.12 Temiang, Negeri Sembilan",
+      "slug": "n12-temiang-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.13 Sikamat, Negeri Sembilan",
+      "slug": "n13-sikamat-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.14 Ampangan, Negeri Sembilan",
+      "slug": "n14-ampangan-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.15 Juasseh, Negeri Sembilan",
+      "slug": "n15-juasseh-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.16 Seri Menanti, Negeri Sembilan",
+      "slug": "n16-seri-menanti-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.17 Senaling, Negeri Sembilan",
+      "slug": "n17-senaling-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.18 Pilah, Negeri Sembilan",
+      "slug": "n18-pilah-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.19 Johol, Negeri Sembilan",
+      "slug": "n19-johol-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.20 Labu, Negeri Sembilan",
+      "slug": "n20-labu-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.21 Bukit Kepayang, Negeri Sembilan",
+      "slug": "n21-bukit-kepayang-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.22 Rahang, Negeri Sembilan",
+      "slug": "n22-rahang-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.23 Mambau, Negeri Sembilan",
+      "slug": "n23-mambau-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.24 Seremban Jaya, Negeri Sembilan",
+      "slug": "n24-seremban-jaya-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.25 Paroi, Negeri Sembilan",
+      "slug": "n25-paroi-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.26 Chembong, Negeri Sembilan",
+      "slug": "n26-chembong-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.27 Rantau, Negeri Sembilan",
+      "slug": "n27-rantau-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.28 Kota, Negeri Sembilan",
+      "slug": "n28-kota-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.29 Chuah, Negeri Sembilan",
+      "slug": "n29-chuah-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.30 Lukut, Negeri Sembilan",
+      "slug": "n30-lukut-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.31 Bagan Pinang, Negeri Sembilan",
+      "slug": "n31-bagan-pinang-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.32 Linggi, Negeri Sembilan",
+      "slug": "n32-linggi-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.33 Sri Tanjung, Negeri Sembilan",
+      "slug": "n33-sri-tanjung-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.34 Gemas, Negeri Sembilan",
+      "slug": "n34-gemas-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.35 Gemencheh, Negeri Sembilan",
+      "slug": "n35-gemencheh-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.36 Repah, Negeri Sembilan",
+      "slug": "n36-repah-negeri-sembilan",
+      "type": "dun"
+    },
+    {
+      "seat": "N.01 Kuala Linggi, Melaka",
+      "slug": "n01-kuala-linggi-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.02 Tanjung Bidara, Melaka",
+      "slug": "n02-tanjung-bidara-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.03 Ayer Limau, Melaka",
+      "slug": "n03-ayer-limau-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.04 Lendu, Melaka",
+      "slug": "n04-lendu-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.05 Taboh Naning, Melaka",
+      "slug": "n05-taboh-naning-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.06 Rembia, Melaka",
+      "slug": "n06-rembia-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.07 Gadek, Melaka",
+      "slug": "n07-gadek-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.08 Machap Jaya, Melaka",
+      "slug": "n08-machap-jaya-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.09 Durian Tunggal, Melaka",
+      "slug": "n09-durian-tunggal-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.10 Asahan, Melaka",
+      "slug": "n10-asahan-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.11 Sungai Udang, Melaka",
+      "slug": "n11-sungai-udang-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.12 Pantai Kundor, Melaka",
+      "slug": "n12-pantai-kundor-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.13 Paya Rumput, Melaka",
+      "slug": "n13-paya-rumput-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.14 Kelebang, Melaka",
+      "slug": "n14-kelebang-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.15 Pengkalan Batu, Melaka",
+      "slug": "n15-pengkalan-batu-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.16 Ayer Keroh, Melaka",
+      "slug": "n16-ayer-keroh-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.17 Bukit Katil, Melaka",
+      "slug": "n17-bukit-katil-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.18 Ayer Molek, Melaka",
+      "slug": "n18-ayer-molek-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.19 Kesidang, Melaka",
+      "slug": "n19-kesidang-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.20 Kota Laksamana, Melaka",
+      "slug": "n20-kota-laksamana-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.21 Duyong, Melaka",
+      "slug": "n21-duyong-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.22 Bandar Hilir, Melaka",
+      "slug": "n22-bandar-hilir-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.23 Telok Mas, Melaka",
+      "slug": "n23-telok-mas-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.24 Bemban, Melaka",
+      "slug": "n24-bemban-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.25 Rim, Melaka",
+      "slug": "n25-rim-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.26 Serkam, Melaka",
+      "slug": "n26-serkam-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.27 Merlimau, Melaka",
+      "slug": "n27-merlimau-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.28 Sungai Rambai, Melaka",
+      "slug": "n28-sungai-rambai-melaka",
+      "type": "dun"
+    },
+    {
+      "seat": "N.01 Buloh Kasap, Johor",
+      "slug": "n01-buloh-kasap-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.02 Jementah, Johor",
+      "slug": "n02-jementah-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.03 Pemanis, Johor",
+      "slug": "n03-pemanis-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.04 Kemelah, Johor",
+      "slug": "n04-kemelah-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.05 Tenang, Johor",
+      "slug": "n05-tenang-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.06 Bekok, Johor",
+      "slug": "n06-bekok-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.07 Bukit Kepong, Johor",
+      "slug": "n07-bukit-kepong-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.08 Bukit Pasir, Johor",
+      "slug": "n08-bukit-pasir-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.09 Gambir, Johor",
+      "slug": "n09-gambir-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.10 Tangkak, Johor",
+      "slug": "n10-tangkak-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.11 Serom, Johor",
+      "slug": "n11-serom-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.12 Bentayan, Johor",
+      "slug": "n12-bentayan-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.13 Simpang Jeram, Johor",
+      "slug": "n13-simpang-jeram-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.14 Bukit Naning, Johor",
+      "slug": "n14-bukit-naning-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.15 Maharani, Johor",
+      "slug": "n15-maharani-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.16 Sungai Balang, Johor",
+      "slug": "n16-sungai-balang-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.17 Semerah, Johor",
+      "slug": "n17-semerah-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.18 Sri Medan, Johor",
+      "slug": "n18-sri-medan-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.19 Yong Peng, Johor",
+      "slug": "n19-yong-peng-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.20 Semarang, Johor",
+      "slug": "n20-semarang-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.21 Parit Yaani, Johor",
+      "slug": "n21-parit-yaani-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.22 Parit Raja, Johor",
+      "slug": "n22-parit-raja-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.23 Penggaram, Johor",
+      "slug": "n23-penggaram-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.24 Senggarang, Johor",
+      "slug": "n24-senggarang-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.25 Rengit, Johor",
+      "slug": "n25-rengit-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.26 Machap, Johor",
+      "slug": "n26-machap-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.27 Layang-Layang, Johor",
+      "slug": "n27-layang-layang-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.28 Mengkibol, Johor",
+      "slug": "n28-mengkibol-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.29 Mahkota, Johor",
+      "slug": "n29-mahkota-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.30 Paloh, Johor",
+      "slug": "n30-paloh-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.31 Kahang, Johor",
+      "slug": "n31-kahang-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.32 Endau, Johor",
+      "slug": "n32-endau-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.33 Tenggaroh, Johor",
+      "slug": "n33-tenggaroh-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.34 Panti, Johor",
+      "slug": "n34-panti-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.35 Pasir Raja, Johor",
+      "slug": "n35-pasir-raja-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.36 Sedili, Johor",
+      "slug": "n36-sedili-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.37 Johor Lama, Johor",
+      "slug": "n37-johor-lama-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.38 Penawar, Johor",
+      "slug": "n38-penawar-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.39 Tanjung Surat, Johor",
+      "slug": "n39-tanjung-surat-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.40 Tiram, Johor",
+      "slug": "n40-tiram-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.41 Puteri Wangsa, Johor",
+      "slug": "n41-puteri-wangsa-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.42 Johor Jaya, Johor",
+      "slug": "n42-johor-jaya-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.43 Permas, Johor",
+      "slug": "n43-permas-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.44 Larkin, Johor",
+      "slug": "n44-larkin-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.45 Stulang, Johor",
+      "slug": "n45-stulang-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.46 Perling, Johor",
+      "slug": "n46-perling-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.47 Kempas, Johor",
+      "slug": "n47-kempas-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.48 Skudai, Johor",
+      "slug": "n48-skudai-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.49 Kota Iskandar, Johor",
+      "slug": "n49-kota-iskandar-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.50 Bukit Permai, Johor",
+      "slug": "n50-bukit-permai-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.51 Bukit Batu, Johor",
+      "slug": "n51-bukit-batu-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.52 Senai, Johor",
+      "slug": "n52-senai-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.53 Benut, Johor",
+      "slug": "n53-benut-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.54 Pulai Sebatang, Johor",
+      "slug": "n54-pulai-sebatang-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.55 Pekan Nanas, Johor",
+      "slug": "n55-pekan-nanas-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.56 Kukup, Johor",
+      "slug": "n56-kukup-johor",
+      "type": "dun"
+    },
+    {
+      "seat": "N.01 Banggi, Sabah",
+      "slug": "n01-banggi-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.02 Bengkoka, Sabah",
+      "slug": "n02-bengkoka-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.03 Pitas, Sabah",
+      "slug": "n03-pitas-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.04 Tanjong Kapor, Sabah",
+      "slug": "n04-tanjong-kapor-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.05 Matunggong, Sabah",
+      "slug": "n05-matunggong-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.06 Bandau, Sabah",
+      "slug": "n06-bandau-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.07 Tandek, Sabah",
+      "slug": "n07-tandek-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.08 Pintasan, Sabah",
+      "slug": "n08-pintasan-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.09 Tempasuk, Sabah",
+      "slug": "n09-tempasuk-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.10 Usukan, Sabah",
+      "slug": "n10-usukan-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.11 Kadamaian, Sabah",
+      "slug": "n11-kadamaian-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.12 Sulaman, Sabah",
+      "slug": "n12-sulaman-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.13 Pantai Dalit, Sabah",
+      "slug": "n13-pantai-dalit-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.14 Tamparuli, Sabah",
+      "slug": "n14-tamparuli-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.15 Kiulu, Sabah",
+      "slug": "n15-kiulu-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.16 Karambunai, Sabah",
+      "slug": "n16-karambunai-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.17 Darau, Sabah",
+      "slug": "n17-darau-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.18 Inanam, Sabah",
+      "slug": "n18-inanam-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.19 Likas, Sabah",
+      "slug": "n19-likas-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.20 Api-Api, Sabah",
+      "slug": "n20-api-api-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.21 Luyang, Sabah",
+      "slug": "n21-luyang-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.22 Tanjung Aru, Sabah",
+      "slug": "n22-tanjung-aru-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.23 Petagas, Sabah",
+      "slug": "n23-petagas-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.24 Tanjung Keramat, Sabah",
+      "slug": "n24-tanjung-keramat-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.25 Kapayan, Sabah",
+      "slug": "n25-kapayan-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.26 Moyog, Sabah",
+      "slug": "n26-moyog-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.27 Limbahau, Sabah",
+      "slug": "n27-limbahau-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.28 Kawang, Sabah",
+      "slug": "n28-kawang-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.29 Pantai Manis, Sabah",
+      "slug": "n29-pantai-manis-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.30 Bongawan, Sabah",
+      "slug": "n30-bongawan-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.31 Membakut, Sabah",
+      "slug": "n31-membakut-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.32 Klias, Sabah",
+      "slug": "n32-klias-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.33 Kuala Penyu, Sabah",
+      "slug": "n33-kuala-penyu-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.34 Lumadan, Sabah",
+      "slug": "n34-lumadan-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.35 Sindumin, Sabah",
+      "slug": "n35-sindumin-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.36 Kundasang, Sabah",
+      "slug": "n36-kundasang-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.37 Karanaan, Sabah",
+      "slug": "n37-karanaan-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.38 Paginatan, Sabah",
+      "slug": "n38-paginatan-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.39 Tambunan, Sabah",
+      "slug": "n39-tambunan-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.40 Bingkor, Sabah",
+      "slug": "n40-bingkor-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.41 Liawan, Sabah",
+      "slug": "n41-liawan-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.42 Melalap, Sabah",
+      "slug": "n42-melalap-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.43 Kemabong, Sabah",
+      "slug": "n43-kemabong-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.44 Tulid, Sabah",
+      "slug": "n44-tulid-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.45 Sook, Sabah",
+      "slug": "n45-sook-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.46 Nabawan, Sabah",
+      "slug": "n46-nabawan-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.47 Telupid, Sabah",
+      "slug": "n47-telupid-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.48 Sugut, Sabah",
+      "slug": "n48-sugut-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.49 Labuk, Sabah",
+      "slug": "n49-labuk-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.50 Gum-Gum, Sabah",
+      "slug": "n50-gum-gum-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.51 Sungai Manila, Sabah",
+      "slug": "n51-sungai-manila-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.52 Sungai Sibuga, Sabah",
+      "slug": "n52-sungai-sibuga-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.53 Sekong, Sabah",
+      "slug": "n53-sekong-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.54 Karamunting, Sabah",
+      "slug": "n54-karamunting-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.55 Elopura, Sabah",
+      "slug": "n55-elopura-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.56 Tanjong Papat, Sabah",
+      "slug": "n56-tanjong-papat-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.57 Kuamut, Sabah",
+      "slug": "n57-kuamut-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.58 Lamag, Sabah",
+      "slug": "n58-lamag-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.59 Sukau, Sabah",
+      "slug": "n59-sukau-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.60 Tungku, Sabah",
+      "slug": "n60-tungku-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.61 Segama, Sabah",
+      "slug": "n61-segama-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.62 Silam, Sabah",
+      "slug": "n62-silam-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.63 Kunak, Sabah",
+      "slug": "n63-kunak-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.64 Sulabayan, Sabah",
+      "slug": "n64-sulabayan-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.65 Senallang, Sabah",
+      "slug": "n65-senallang-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.66 Bugaya, Sabah",
+      "slug": "n66-bugaya-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.67 Balung, Sabah",
+      "slug": "n67-balung-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.68 Apas, Sabah",
+      "slug": "n68-apas-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.69 Sri Tanjong, Sabah",
+      "slug": "n69-sri-tanjong-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.70 Kukusan, Sabah",
+      "slug": "n70-kukusan-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.71 Tanjung Batu, Sabah",
+      "slug": "n71-tanjung-batu-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.72 Merotai, Sabah",
+      "slug": "n72-merotai-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.73 Sebatik, Sabah",
+      "slug": "n73-sebatik-sabah",
+      "type": "dun"
+    },
+    {
+      "seat": "N.01 Opar, Sarawak",
+      "slug": "n01-opar-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.02 Tasik Biru, Sarawak",
+      "slug": "n02-tasik-biru-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.03 Tanjong Datu, Sarawak",
+      "slug": "n03-tanjong-datu-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.04 Pantai Damai, Sarawak",
+      "slug": "n04-pantai-damai-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.05 Demak Laut, Sarawak",
+      "slug": "n05-demak-laut-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.06 Tupong, Sarawak",
+      "slug": "n06-tupong-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.07 Samariang, Sarawak",
+      "slug": "n07-samariang-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.08 Satok, Sarawak",
+      "slug": "n08-satok-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.09 Padungan, Sarawak",
+      "slug": "n09-padungan-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.10 Pending, Sarawak",
+      "slug": "n10-pending-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.11 Batu Lintang, Sarawak",
+      "slug": "n11-batu-lintang-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.12 Kota Sentosa, Sarawak",
+      "slug": "n12-kota-sentosa-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.13 Batu Kitang, Sarawak",
+      "slug": "n13-batu-kitang-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.14 Batu Kawah, Sarawak",
+      "slug": "n14-batu-kawah-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.15 Asajaya, Sarawak",
+      "slug": "n15-asajaya-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.16 Muara Tuang, Sarawak",
+      "slug": "n16-muara-tuang-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.17 Stakan, Sarawak",
+      "slug": "n17-stakan-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.18 Serembu, Sarawak",
+      "slug": "n18-serembu-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.19 Mambong, Sarawak",
+      "slug": "n19-mambong-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.20 Tarat, Sarawak",
+      "slug": "n20-tarat-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.21 Tebedu, Sarawak",
+      "slug": "n21-tebedu-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.22 Kedup, Sarawak",
+      "slug": "n22-kedup-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.23 Bukit Semuja, Sarawak",
+      "slug": "n23-bukit-semuja-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.24 Sadong Jaya, Sarawak",
+      "slug": "n24-sadong-jaya-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.25 Simunjan, Sarawak",
+      "slug": "n25-simunjan-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.26 Gedong, Sarawak",
+      "slug": "n26-gedong-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.27 Sebuyau, Sarawak",
+      "slug": "n27-sebuyau-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.28 Lingga, Sarawak",
+      "slug": "n28-lingga-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.29 Beting Maro, Sarawak",
+      "slug": "n29-beting-maro-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.30 Balai Ringin, Sarawak",
+      "slug": "n30-balai-ringin-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.31 Bukit Begunan, Sarawak",
+      "slug": "n31-bukit-begunan-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.32 Simanggang, Sarawak",
+      "slug": "n32-simanggang-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.33 Engkilili, Sarawak",
+      "slug": "n33-engkilili-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.34 Batang Ai, Sarawak",
+      "slug": "n34-batang-ai-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.35 Saribas, Sarawak",
+      "slug": "n35-saribas-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.36 Layar, Sarawak",
+      "slug": "n36-layar-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.37 Bukit Saban, Sarawak",
+      "slug": "n37-bukit-saban-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.38 Kalaka, Sarawak",
+      "slug": "n38-kalaka-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.39 Krian, Sarawak",
+      "slug": "n39-krian-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.40 Kabong, Sarawak",
+      "slug": "n40-kabong-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.41 Kuala Rajang, Sarawak",
+      "slug": "n41-kuala-rajang-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.42 Semop, Sarawak",
+      "slug": "n42-semop-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.43 Daro, Sarawak",
+      "slug": "n43-daro-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.44 Jemoreng, Sarawak",
+      "slug": "n44-jemoreng-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.45 Repok, Sarawak",
+      "slug": "n45-repok-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.46 Meradong, Sarawak",
+      "slug": "n46-meradong-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.47 Pakan, Sarawak",
+      "slug": "n47-pakan-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.48 Meluan, Sarawak",
+      "slug": "n48-meluan-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.49 Ngemah, Sarawak",
+      "slug": "n49-ngemah-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.50 Machan, Sarawak",
+      "slug": "n50-machan-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.51 Bukit Assek, Sarawak",
+      "slug": "n51-bukit-assek-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.52 Dudong, Sarawak",
+      "slug": "n52-dudong-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.53 Bawang Assan, Sarawak",
+      "slug": "n53-bawang-assan-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.54 Pelawan, Sarawak",
+      "slug": "n54-pelawan-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.55 Nangka, Sarawak",
+      "slug": "n55-nangka-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.56 Dalat, Sarawak",
+      "slug": "n56-dalat-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.57 Tellian, Sarawak",
+      "slug": "n57-tellian-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.58 Balingian, Sarawak",
+      "slug": "n58-balingian-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.59 Tamin, Sarawak",
+      "slug": "n59-tamin-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.60 Kakus, Sarawak",
+      "slug": "n60-kakus-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.61 Pelagus, Sarawak",
+      "slug": "n61-pelagus-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.62 Katibas, Sarawak",
+      "slug": "n62-katibas-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.63 Bukit Goram, Sarawak",
+      "slug": "n63-bukit-goram-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.64 Baleh, Sarawak",
+      "slug": "n64-baleh-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.65 Belaga, Sarawak",
+      "slug": "n65-belaga-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.66 Murum, Sarawak",
+      "slug": "n66-murum-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.67 Jepak, Sarawak",
+      "slug": "n67-jepak-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.68 Tanjong Batu, Sarawak",
+      "slug": "n68-tanjong-batu-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.69 Kemena, Sarawak",
+      "slug": "n69-kemena-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.70 Samalaju, Sarawak",
+      "slug": "n70-samalaju-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.71 Bekenu, Sarawak",
+      "slug": "n71-bekenu-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.72 Lambir, Sarawak",
+      "slug": "n72-lambir-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.73 Piasau, Sarawak",
+      "slug": "n73-piasau-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.74 Pujut, Sarawak",
+      "slug": "n74-pujut-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.75 Senadin, Sarawak",
+      "slug": "n75-senadin-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.76 Marudi, Sarawak",
+      "slug": "n76-marudi-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.77 Telang Usan, Sarawak",
+      "slug": "n77-telang-usan-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.78 Mulu, Sarawak",
+      "slug": "n78-mulu-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.79 Bukit Kota, Sarawak",
+      "slug": "n79-bukit-kota-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.80 Batu Danau, Sarawak",
+      "slug": "n80-batu-danau-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.81 Ba'kelalan, Sarawak",
+      "slug": "n81-bakelalan-sarawak",
+      "type": "dun"
+    },
+    {
+      "seat": "N.82 Bukit Sari, Sarawak",
+      "slug": "n82-bukit-sari-sarawak",
+      "type": "dun"
+    }
+  ]
+}

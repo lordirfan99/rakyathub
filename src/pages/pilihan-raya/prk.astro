@@ -1,0 +1,132 @@
+---
+import PageLayout from '~/layouts/PageLayout.astro';
+
+const byelectionsData = (await import('~/data/election/byelections.json')).default;
+const allByelections = byelectionsData?.byelections || [];
+
+// Sort most recent first
+const byelections = [...allByelections].sort((a, b) => (a.date > b.date ? -1 : 1));
+
+// Group by decade
+const decades = {};
+byelections.forEach(be => {
+  const year = parseInt(be.date?.substring(0, 4) || '0');
+  const decade = Math.floor(year / 10) * 10;
+  if (!decades[decade]) decades[decade] = [];
+  decades[decade].push(be);
+});
+
+// Latest 5
+const latest = byelections.slice(0, 5);
+
+const metadata = {
+  title: 'PRK — Pilihan Raya Kecil Malaysia (1957–Kini) | RakyatHub',
+  description: 'Senarai lengkap semua Pilihan Raya Kecil (PRK / by-election) yang pernah diadakan di Malaysia dari 1957 hingga kini. Keputusan, majoriti, partisipasi.',
+};
+---
+
+<PageLayout metadata={metadata}>
+<section class="max-w-5xl mx-auto px-4 sm:px-6 py-8 md:py-12">
+  <div class="flex items-center gap-2 text-xs text-muted/60 mb-1">
+    <a href="/" class="hover:text-primary">Laman Utama</a> <span>/</span>
+    <a href="/pilihan-raya/" class="hover:text-primary">Pilihan Raya</a> <span>/</span>
+    <span>PRK (Pilihan Raya Kecil)</span>
+  </div>
+
+  <h1 class="text-2xl sm:text-4xl font-bold tracking-tight mb-2">Pilihan Raya Kecil (PRK)</h1>
+  <p class="text-sm text-muted/80 max-w-3xl mb-6">
+    Senarai lengkap semua Pilihan Raya Kecil (By-Elections) yang pernah diadakan di Malaysia 
+    dari 1957 hingga kini — {byelections.length} PRK keseluruhan. Data dari 
+    <a href="https://electiondata.my" class="text-primary underline underline-offset-2" target="_blank">ElectionData.MY</a>.
+  </p>
+
+  <!-- Latest 5 PRK -->
+  <div class="rounded-2xl bg-gradient-to-br from-rose-600 to-pink-700 text-white p-6 sm:p-8 mb-6">
+    <p class="text-xs text-rose-200 font-semibold uppercase tracking-wider mb-1">PRK Terkini</p>
+    <div class="space-y-3 mt-3">
+      {latest.map(be => (
+        <div class="bg-white/10 rounded-xl p-3.5 backdrop-blur-sm">
+          <div class="flex items-start justify-between gap-2">
+            <div>
+              <p class="text-sm font-semibold">{be.seat}</p>
+              <p class="text-xs text-rose-200/80">{be.state} · {be.date}</p>
+            </div>
+            <div class="text-right shrink-0">
+              <p class="text-sm font-bold">{be.party}</p>
+              <p class="text-xs text-rose-200/80">{be.name?.substring(0, 40)}</p>
+            </div>
+          </div>
+          {be.majority ? (
+            <p class="text-xs text-rose-200/70 mt-1.5">Majoriti: {(be.majority || 0).toLocaleString()} undi</p>
+          ) : <p class="text-xs text-rose-200/70 mt-1.5">Turnout: {be.voter_turnout_perc?.toFixed(1)}%</p>}
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <!-- Search/filter -->
+  <div class="mb-6">
+    <input type="text" id="prk-search"
+      class="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800/60 text-sm focus:ring-2 focus:ring-primary/30 focus:border-primary outline-none transition-all"
+      placeholder="Cari PRK mengikut kawasan, negeri, parti atau tahun..."
+      autocomplete="off" />
+  </div>
+
+  <!-- Full list by decade -->
+  <div id="prk-container">
+    {Object.entries(decades).sort((a, b) => parseInt(b[0]) - parseInt(a[0])).map(([decade, prks]) => (
+      <div class="mb-6 prk-decade" data-decade={decade}>
+        <h2 class="font-semibold text-base mb-3 flex items-center gap-2">
+          <span class="w-7 h-7 rounded-lg bg-rose-100 dark:bg-rose-900/30 flex items-center justify-center text-xs font-bold text-rose-600 dark:text-rose-400">{decade}s</span>
+          <span class="text-muted/50 text-xs font-normal">({prks.length} PRK)</span>
+        </h2>
+        <div class="space-y-1">
+          {prks.map(be => (
+            <div class="prk-item flex items-start gap-3 p-3 rounded-xl hover:bg-gray-50 dark:hover:bg-slate-800/40 transition-colors border border-transparent hover:border-gray-100 dark:hover:border-slate-700/30" 
+                 data-search={`${be.seat} ${be.state} ${be.party} ${be.name} ${be.date}`.toLowerCase()}>
+              <div class="shrink-0 text-center min-w-[2.5rem]">
+                <p class="text-xs font-bold text-muted/70">{be.date?.substring(0, 4)}</p>
+                <p class="text-[10px] text-muted/40">{be.date?.substring(5, 10)}</p>
+              </div>
+              <div class="flex-1 min-w-0">
+                <p class="text-sm font-medium">{be.seat}</p>
+                <p class="text-xs text-muted/60">{be.state}</p>
+              </div>
+              <div class="text-right shrink-0 min-w-[100px]">
+                <span class="inline-flex px-2 py-0.5 rounded text-xs font-semibold bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400">{be.party}</span>
+                <p class="text-[11px] text-muted/50 mt-0.5 truncate max-w-[160px]">{be.name?.substring(0, 35)}</p>
+              </div>
+              {be.majority ? (
+                <div class="shrink-0 text-right hidden sm:block">
+                  <p class="text-xs font-medium tabular-nums">{(be.majority || 0).toLocaleString()}</p>
+                  <p class="text-[10px] text-muted/40">majoriti</p>
+                </div>
+              ) : null}
+            </div>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <div class="flex justify-between mt-8">
+    <a href="/pilihan-raya/" class="inline-flex items-center gap-1 text-sm text-muted/70 hover:text-primary transition-colors">← Kembali ke Pilihan Raya</a>
+    <a href="/pilihan-raya/pru/ge-15/" class="inline-flex items-center gap-1 text-sm text-muted/70 hover:text-primary transition-colors">Lihat PRU-15 →</a>
+  </div>
+</section>
+
+<script>
+const searchInput = document.getElementById('prk-search');
+searchInput.addEventListener('input', () => {
+  const q = searchInput.value.toLowerCase().trim();
+  document.querySelectorAll('.prk-item').forEach(el => {
+    const match = !q || el.dataset.search.includes(q);
+    el.style.display = match ? '' : 'none';
+  });
+  document.querySelectorAll('.prk-decade').forEach(decade => {
+    const visible = [...decade.querySelectorAll('.prk-item')].some(el => el.style.display !== 'none');
+    decade.style.display = visible ? '' : 'none';
+  });
+});
+</script>
+</PageLayout>

@@ -1,0 +1,7082 @@
+{
+  "by_seat": [
+    {
+      "seat": "P.001 Padang Besar",
+      "state": "Perlis",
+      "date": "2013-05-05",
+      "name": "Zahidi bin Zainul Abidin",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 41974,
+      "voter_turnout": 36142,
+      "voter_turnout_perc": 86.1056844713394,
+      "majority": 7426,
+      "majority_perc": 20.90653153153153,
+      "votes_rejected": 531,
+      "votes_rejected_perc": 1.4729133727219772
+    },
+    {
+      "seat": "P.002 Kangar",
+      "state": "Perlis",
+      "date": "2013-05-05",
+      "name": "Shaharuddin bin Ismail",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 51207,
+      "voter_turnout": 43431,
+      "voter_turnout_perc": 84.81457613216944,
+      "majority": 4037,
+      "majority_perc": 9.465638115782316,
+      "votes_rejected": 667,
+      "votes_rejected_perc": 1.5398467079139349
+    },
+    {
+      "seat": "P.003 Arau",
+      "state": "Perlis",
+      "date": "2013-05-05",
+      "name": "Shahidan bin Kassim",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 43876,
+      "voter_turnout": 38439,
+      "voter_turnout_perc": 87.60825964080591,
+      "majority": 1371,
+      "majority_perc": 3.6282319316166936,
+      "votes_rejected": 525,
+      "votes_rejected_perc": 1.3703278346210066
+    },
+    {
+      "seat": "P.004 Langkawi",
+      "state": "Kedah",
+      "date": "2013-05-05",
+      "name": "Nawawi bin Ahmad",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "078-PKR",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 37536,
+      "voter_turnout": 32096,
+      "voter_turnout_perc": 85.5072463768116,
+      "majority": 11861,
+      "majority_perc": 38.097838306619984,
+      "votes_rejected": 744,
+      "votes_rejected_perc": 2.3339712018069454
+    },
+    {
+      "seat": "P.005 Jerlun",
+      "state": "Kedah",
+      "date": "2013-05-05",
+      "name": "Othman bin Aziz",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 52383,
+      "voter_turnout": 45899,
+      "voter_turnout_perc": 87.62193841513468,
+      "majority": 3270,
+      "majority_perc": 7.258279321672734,
+      "votes_rejected": 730,
+      "votes_rejected_perc": 1.5945131274299942
+    },
+    {
+      "seat": "P.006 Kubang Pasu",
+      "state": "Kedah",
+      "date": "2013-05-05",
+      "name": "Mohd Johari bin Baharom",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 65550,
+      "voter_turnout": 57296,
+      "voter_turnout_perc": 87.40808543096873,
+      "majority": 10444,
+      "majority_perc": 18.57569721115538,
+      "votes_rejected": 834,
+      "votes_rejected_perc": 1.4616705808125066
+    },
+    {
+      "seat": "P.007 Padang Terap",
+      "state": "Kedah",
+      "date": "2013-05-05",
+      "name": "Mahdzir bin Khalid",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 41960,
+      "voter_turnout": 37904,
+      "voter_turnout_perc": 90.33365109628218,
+      "majority": 4442,
+      "majority_perc": 11.970142014066669,
+      "votes_rejected": 691,
+      "votes_rejected_perc": 1.828042328042328
+    },
+    {
+      "seat": "P.008 Pokok Sena",
+      "state": "Kedah",
+      "date": "2013-05-05",
+      "name": "Mahfuz bin Omar",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 80714,
+      "voter_turnout": 69524,
+      "voter_turnout_perc": 86.13623411056322,
+      "majority": 3935,
+      "majority_perc": 5.747798016388892,
+      "votes_rejected": 848,
+      "votes_rejected_perc": 1.223506326739673
+    },
+    {
+      "seat": "P.009 Alor Star",
+      "state": "Kedah",
+      "date": "2013-05-05",
+      "name": "Gooi Hsiao Leung",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA",
+        "BERJASA",
+        "BERSAMA"
+      ],
+      "party_lost_uid": [
+        "003-MCA",
+        "036-BERJASA",
+        "069-BERSAMA"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 4,
+      "voters_total": 69009,
+      "voter_turnout": 57912,
+      "voter_turnout_perc": 83.91948876233535,
+      "majority": 1873,
+      "majority_perc": 3.306733519296635,
+      "votes_rejected": 1070,
+      "votes_rejected_perc": 1.8540338231217077
+    },
+    {
+      "seat": "P.010 Kuala Kedah",
+      "state": "Kedah",
+      "date": "2013-05-05",
+      "name": "Azman bin Ismail",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 95328,
+      "voter_turnout": 82253,
+      "voter_turnout_perc": 86.28419771735481,
+      "majority": 4947,
+      "majority_perc": 6.123055215179533,
+      "votes_rejected": 1212,
+      "votes_rejected_perc": 1.4779586610572526
+    },
+    {
+      "seat": "P.011 Pendang",
+      "state": "Kedah",
+      "date": "2013-05-05",
+      "name": "Othman bin Abdul",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 70135,
+      "voter_turnout": 62578,
+      "voter_turnout_perc": 89.22506594425037,
+      "majority": 2638,
+      "majority_perc": 4.276081177462232,
+      "votes_rejected": 759,
+      "votes_rejected_perc": 1.215352836623913
+    },
+    {
+      "seat": "P.012 Jerai",
+      "state": "Kedah",
+      "date": "2013-05-05",
+      "name": "Jamil Khir bin Baharom",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 74410,
+      "voter_turnout": 64778,
+      "voter_turnout_perc": 87.0555032925682,
+      "majority": 1196,
+      "majority_perc": 1.878671735101002,
+      "votes_rejected": 952,
+      "votes_rejected_perc": 1.47336490543845
+    },
+    {
+      "seat": "P.013 Sik",
+      "state": "Kedah",
+      "date": "2013-05-05",
+      "name": "Mansor bin Abdul Rahman",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 46786,
+      "voter_turnout": 42077,
+      "voter_turnout_perc": 89.93502329756765,
+      "majority": 2807,
+      "majority_perc": 6.786586397814366,
+      "votes_rejected": 631,
+      "votes_rejected_perc": 1.5026671746999427
+    },
+    {
+      "seat": "P.014 Merbok",
+      "state": "Kedah",
+      "date": "2013-05-05",
+      "name": "Ismail bin Daut",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 85908,
+      "voter_turnout": 74520,
+      "voter_turnout_perc": 86.74395865344322,
+      "majority": 4122,
+      "majority_perc": 5.650135701949174,
+      "votes_rejected": 1340,
+      "votes_rejected_perc": 1.8036449780601396
+    },
+    {
+      "seat": "P.015 Sungai Petani",
+      "state": "Kedah",
+      "date": "2013-05-05",
+      "name": "Johari bin Abdul",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO",
+        "BEBAS",
+        "KITA"
+      ],
+      "party_lost_uid": [
+        "001-UMNO",
+        "000-BEBAS",
+        "070-KITA"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 4,
+      "voters_total": 93176,
+      "voter_turnout": 81024,
+      "voter_turnout_perc": 86.95801493946938,
+      "majority": 9548,
+      "majority_perc": 11.963113316293288,
+      "votes_rejected": 959,
+      "votes_rejected_perc": 1.1873073256490572
+    },
+    {
+      "seat": "P.016 Baling",
+      "state": "Kedah",
+      "date": "2013-05-05",
+      "name": "Abdul Azeez bin Abdul Rahim",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 93168,
+      "voter_turnout": 83109,
+      "voter_turnout_perc": 89.20337454920144,
+      "majority": 5185,
+      "majority_perc": 6.3368490522224805,
+      "votes_rejected": 1091,
+      "votes_rejected_perc": 1.3158212123404975
+    },
+    {
+      "seat": "P.017 Padang Serai",
+      "state": "Kedah",
+      "date": "2013-05-05",
+      "name": "Surendran a/l Nagarajan",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "BERJASA",
+        "BEBAS",
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "036-BERJASA",
+        "000-BEBAS",
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "001-BN"
+      ],
+      "n_candidates": 5,
+      "voters_total": 74095,
+      "voter_turnout": 64584,
+      "voter_turnout_perc": 87.16377623321412,
+      "majority": 8437,
+      "majority_perc": 13.357292128427586,
+      "votes_rejected": 1223,
+      "votes_rejected_perc": 1.899451752682995
+    },
+    {
+      "seat": "P.018 Kulim-Bandar Baharu",
+      "state": "Kedah",
+      "date": "2013-05-05",
+      "name": "Abdul Aziz bin Sheikh Fadzir",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 60910,
+      "voter_turnout": 52766,
+      "voter_turnout_perc": 86.62945329174191,
+      "majority": 1871,
+      "majority_perc": 3.6194455729015536,
+      "votes_rejected": 839,
+      "votes_rejected_perc": 1.5971217543592475
+    },
+    {
+      "seat": "P.019 Tumpat",
+      "state": "Kelantan",
+      "date": "2013-05-05",
+      "name": "Kamarudin bin Jaffar",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 98632,
+      "voter_turnout": 82962,
+      "voter_turnout_perc": 84.11266120528835,
+      "majority": 10704,
+      "majority_perc": 13.105120105781237,
+      "votes_rejected": 1086,
+      "votes_rejected_perc": 1.312164709293896
+    },
+    {
+      "seat": "P.020 Pengkalan Chepa",
+      "state": "Kelantan",
+      "date": "2013-05-05",
+      "name": "Izani bin Husin",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 64409,
+      "voter_turnout": 54985,
+      "voter_turnout_perc": 85.36850440155878,
+      "majority": 15120,
+      "majority_perc": 27.941013416121525,
+      "votes_rejected": 683,
+      "votes_rejected_perc": 1.2464185995583699
+    },
+    {
+      "seat": "P.021 Kota Bharu",
+      "state": "Kelantan",
+      "date": "2013-05-05",
+      "name": "Takiyuddin bin Hassan",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "001-UMNO",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 81268,
+      "voter_turnout": 66277,
+      "voter_turnout_perc": 81.55362504306738,
+      "majority": 15970,
+      "majority_perc": 24.412241279158643,
+      "votes_rejected": 666,
+      "votes_rejected_perc": 1.0078082440530234
+    },
+    {
+      "seat": "P.022 Pasir Mas",
+      "state": "Kelantan",
+      "date": "2013-05-05",
+      "name": "Nik Mohamad Abduh bin Nik Abdul Aziz",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE"
+      ],
+      "n_candidates": 2,
+      "voters_total": 71965,
+      "voter_turnout": 60168,
+      "voter_turnout_perc": 83.60730910859445,
+      "majority": 8047,
+      "majority_perc": 13.681883873161608,
+      "votes_rejected": 1115,
+      "votes_rejected_perc": 1.8605039212414483
+    },
+    {
+      "seat": "P.023 Rantau Panjang",
+      "state": "Kelantan",
+      "date": "2013-05-05",
+      "name": "Siti Zailah binti Mohd Yusoff (Kak Lah)",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 52903,
+      "voter_turnout": 41934,
+      "voter_turnout_perc": 79.26582613462374,
+      "majority": 6362,
+      "majority_perc": 15.452249101331,
+      "votes_rejected": 632,
+      "votes_rejected_perc": 1.5118170509999043
+    },
+    {
+      "seat": "P.024 Kubang Kerian",
+      "state": "Kelantan",
+      "date": "2013-05-05",
+      "name": "Ahmad Baihaki bin Atiqullah",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 65390,
+      "voter_turnout": 55108,
+      "voter_turnout_perc": 84.27588316256308,
+      "majority": 16741,
+      "majority_perc": 30.842498940658448,
+      "votes_rejected": 605,
+      "votes_rejected_perc": 1.1023249034326945
+    },
+    {
+      "seat": "P.025 Bachok",
+      "state": "Kelantan",
+      "date": "2013-05-05",
+      "name": "Ahmad Marzuk bin Shaary",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 81566,
+      "voter_turnout": 71792,
+      "voter_turnout_perc": 88.01706593433538,
+      "majority": 201,
+      "majority_perc": 0.28455342101165115,
+      "votes_rejected": 947,
+      "votes_rejected_perc": 1.3229213232007153
+    },
+    {
+      "seat": "P.026 Ketereh",
+      "state": "Kelantan",
+      "date": "2013-05-05",
+      "name": "Annuar bin Musa",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 62217,
+      "voter_turnout": 53906,
+      "voter_turnout_perc": 86.64191458926017,
+      "majority": 974,
+      "majority_perc": 1.8429517502365185,
+      "votes_rejected": 876,
+      "votes_rejected_perc": 1.630495477050218
+    },
+    {
+      "seat": "P.027 Tanah Merah",
+      "state": "Kelantan",
+      "date": "2013-05-05",
+      "name": "Ikmal Hisham bin Abdul Aziz",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "078-PKR",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 58237,
+      "voter_turnout": 50009,
+      "voter_turnout_perc": 85.87152497553102,
+      "majority": 4227,
+      "majority_perc": 8.627234876316434,
+      "votes_rejected": 876,
+      "votes_rejected_perc": 1.7564966313763235
+    },
+    {
+      "seat": "P.028 Pasir Puteh",
+      "state": "Kelantan",
+      "date": "2013-05-05",
+      "name": "Nik Mazian bin Nik Mohamad",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 76259,
+      "voter_turnout": 66232,
+      "voter_turnout_perc": 86.85138803288793,
+      "majority": 1888,
+      "majority_perc": 2.8925999693580513,
+      "votes_rejected": 770,
+      "votes_rejected_perc": 1.1659600242277408
+    },
+    {
+      "seat": "P.029 Machang",
+      "state": "Kelantan",
+      "date": "2013-05-05",
+      "name": "Ahmad Jazlan bin Yaakub",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 59226,
+      "voter_turnout": 51372,
+      "voter_turnout_perc": 86.73893222571168,
+      "majority": 805,
+      "majority_perc": 1.5935860635454817,
+      "votes_rejected": 729,
+      "votes_rejected_perc": 1.422605573335415
+    },
+    {
+      "seat": "P.030 Jeli",
+      "state": "Kelantan",
+      "date": "2013-05-05",
+      "name": "Mustapa bin Mohamed (Tok Pa)",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 43224,
+      "voter_turnout": 37871,
+      "voter_turnout_perc": 87.61567647603184,
+      "majority": 5336,
+      "majority_perc": 14.284949403009048,
+      "votes_rejected": 424,
+      "votes_rejected_perc": 1.1223463391391817
+    },
+    {
+      "seat": "P.031 Kuala Krai",
+      "state": "Kelantan",
+      "date": "2013-05-05",
+      "name": "Mohd Hatta bin Md. Ramli",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 63101,
+      "voter_turnout": 54643,
+      "voter_turnout_perc": 86.59609197952489,
+      "majority": 2043,
+      "majority_perc": 3.797750720327168,
+      "votes_rejected": 720,
+      "votes_rejected_perc": 1.3207374117215445
+    },
+    {
+      "seat": "P.032 Gua Musang",
+      "state": "Kelantan",
+      "date": "2013-05-05",
+      "name": "Tengku Razaleigh bin Mohd. Hamzah (Ku Li)",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 40176,
+      "voter_turnout": 35097,
+      "voter_turnout_perc": 87.35812425328554,
+      "majority": 8413,
+      "majority_perc": 24.51268902421258,
+      "votes_rejected": 712,
+      "votes_rejected_perc": 2.032369480204379
+    },
+    {
+      "seat": "P.033 Besut",
+      "state": "Terengganu",
+      "date": "2013-05-05",
+      "name": "Idris bin Jusoh",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 72566,
+      "voter_turnout": 63017,
+      "voter_turnout_perc": 86.8409447950831,
+      "majority": 8342,
+      "majority_perc": 13.428415054248092,
+      "votes_rejected": 641,
+      "votes_rejected_perc": 1.0213023596705066
+    },
+    {
+      "seat": "P.034 Setiu",
+      "state": "Terengganu",
+      "date": "2013-05-05",
+      "name": "Che Mohamad Zulkifly bin Jusoh",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 67280,
+      "voter_turnout": 59262,
+      "voter_turnout_perc": 88.08263971462544,
+      "majority": 7943,
+      "majority_perc": 13.58869519100816,
+      "votes_rejected": 685,
+      "votes_rejected_perc": 1.1583076871047382
+    },
+    {
+      "seat": "P.035 Kuala Nerus",
+      "state": "Terengganu",
+      "date": "2013-05-05",
+      "name": "Mohd Khairuddin bin Aman Razali",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 76238,
+      "voter_turnout": 68036,
+      "voter_turnout_perc": 89.24158556100632,
+      "majority": 610,
+      "majority_perc": 0.9089283585647873,
+      "votes_rejected": 772,
+      "votes_rejected_perc": 1.1372341052383477
+    },
+    {
+      "seat": "P.036 Kuala Terengganu",
+      "state": "Terengganu",
+      "date": "2013-05-05",
+      "name": "Raja Kamarul Bahrin Shah bin Raja Ahmad Baharuddin Ismail Shah",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "001-UMNO",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 94406,
+      "voter_turnout": 82122,
+      "voter_turnout_perc": 86.9881151621719,
+      "majority": 10785,
+      "majority_perc": 13.306108348858153,
+      "votes_rejected": 845,
+      "votes_rejected_perc": 1.0317712276246063
+    },
+    {
+      "seat": "P.037 Marang",
+      "state": "Terengganu",
+      "date": "2013-05-05",
+      "name": "Abdul Hadi bin Awang",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 90795,
+      "voter_turnout": 81829,
+      "voter_turnout_perc": 90.12500688363897,
+      "majority": 5124,
+      "majority_perc": 6.338132700014844,
+      "votes_rejected": 805,
+      "votes_rejected_perc": 0.9859275680045071
+    },
+    {
+      "seat": "P.038 Hulu Terengganu",
+      "state": "Terengganu",
+      "date": "2013-05-05",
+      "name": "Jailani bin Johari",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 63543,
+      "voter_turnout": 56634,
+      "voter_turnout_perc": 89.12704782588169,
+      "majority": 8213,
+      "majority_perc": 14.753803869437906,
+      "votes_rejected": 823,
+      "votes_rejected_perc": 1.45689502566826
+    },
+    {
+      "seat": "P.039 Dungun",
+      "state": "Terengganu",
+      "date": "2013-05-05",
+      "name": "Wan Hassan bin Mohd Ramli",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "001-UMNO",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 78174,
+      "voter_turnout": 68204,
+      "voter_turnout_perc": 87.2463990585105,
+      "majority": 3942,
+      "majority_perc": 5.871488575769311,
+      "votes_rejected": 909,
+      "votes_rejected_perc": 1.3358414037356534
+    },
+    {
+      "seat": "P.040 Kemaman",
+      "state": "Terengganu",
+      "date": "2013-05-05",
+      "name": "Ahmad Shabery bin Cheek",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 91942,
+      "voter_turnout": 80168,
+      "voter_turnout_perc": 87.1941006286572,
+      "majority": 12306,
+      "majority_perc": 15.627857360560803,
+      "votes_rejected": 1227,
+      "votes_rejected_perc": 1.5343061859924223
+    },
+    {
+      "seat": "P.041 Kepala Batas",
+      "state": "Pulau Pinang",
+      "date": "2013-05-05",
+      "name": "Reezal Merican bin Naina Merican",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 51635,
+      "voter_turnout": 46740,
+      "voter_turnout_perc": 90.51999612665827,
+      "majority": 4176,
+      "majority_perc": 9.0625,
+      "votes_rejected": 585,
+      "votes_rejected_perc": 1.253616200578592
+    },
+    {
+      "seat": "P.042 Tasek Gelugor",
+      "state": "Pulau Pinang",
+      "date": "2013-05-05",
+      "name": "Shabudin Yahaya",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "BEBAS",
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 3,
+      "voters_total": 54042,
+      "voter_turnout": 48121,
+      "voter_turnout_perc": 89.04370674660449,
+      "majority": 3042,
+      "majority_perc": 6.426670046900748,
+      "votes_rejected": 675,
+      "votes_rejected_perc": 1.4059863775542085
+    },
+    {
+      "seat": "P.043 Bagan",
+      "state": "Pulau Pinang",
+      "date": "2013-05-05",
+      "name": "Lim Guan Eng",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "PCM",
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "082-PCM",
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "001-BN"
+      ],
+      "n_candidates": 3,
+      "voters_total": 68503,
+      "voter_turnout": 59792,
+      "voter_turnout_perc": 87.28376859407618,
+      "majority": 34159,
+      "majority_perc": 57.79766839816585,
+      "votes_rejected": 634,
+      "votes_rejected_perc": 1.0613543148907676
+    },
+    {
+      "seat": "P.044 Permatang Pauh",
+      "state": "Pulau Pinang",
+      "date": "2013-05-05",
+      "name": "Anwar bin Ibrahim",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "001-UMNO",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 71699,
+      "voter_turnout": 63475,
+      "voter_turnout_perc": 88.52982607846693,
+      "majority": 11721,
+      "majority_perc": 18.705713373763167,
+      "votes_rejected": 672,
+      "votes_rejected_perc": 1.0610749699993685
+    },
+    {
+      "seat": "P.045 Bukit Mertajam",
+      "state": "Pulau Pinang",
+      "date": "2013-05-05",
+      "name": "Sim Chee Keong",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 78996,
+      "voter_turnout": 69588,
+      "voter_turnout_perc": 88.09053622968251,
+      "majority": 43063,
+      "majority_perc": 62.69089109199167,
+      "votes_rejected": 712,
+      "votes_rejected_perc": 1.02589225249629
+    },
+    {
+      "seat": "P.046 Batu Kawan",
+      "state": "Pulau Pinang",
+      "date": "2013-05-05",
+      "name": "Kasthuriraani a/p Patto",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "GERAKAN",
+        "PCM",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "026-GERAKAN",
+        "082-PCM",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 4,
+      "voters_total": 57500,
+      "voter_turnout": 50208,
+      "voter_turnout_perc": 87.31826086956522,
+      "majority": 25962,
+      "majority_perc": 52.537639630888776,
+      "votes_rejected": 723,
+      "votes_rejected_perc": 1.4419912642852868
+    },
+    {
+      "seat": "P.047 Nibong Tebal",
+      "state": "Pulau Pinang",
+      "date": "2013-05-05",
+      "name": "Mansor bin Othman",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "001-UMNO",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 59345,
+      "voter_turnout": 52599,
+      "voter_turnout_perc": 88.63257224703008,
+      "majority": 8598,
+      "majority_perc": 16.628952712503626,
+      "votes_rejected": 833,
+      "votes_rejected_perc": 1.5855190528760135
+    },
+    {
+      "seat": "P.048 Bukit Bendera",
+      "state": "Pulau Pinang",
+      "date": "2013-05-05",
+      "name": "Zairil Khir Johari",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "GERAKAN"
+      ],
+      "party_lost_uid": [
+        "026-GERAKAN"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 71085,
+      "voter_turnout": 59118,
+      "voter_turnout_perc": 83.1652247309559,
+      "majority": 32778,
+      "majority_perc": 56.122868296692005,
+      "votes_rejected": 615,
+      "votes_rejected_perc": 1.0420373100188074
+    },
+    {
+      "seat": "P.049 Tanjong",
+      "state": "Pulau Pinang",
+      "date": "2013-05-05",
+      "name": "Ng Wei Aik",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "GERAKAN"
+      ],
+      "party_lost_uid": [
+        "026-GERAKAN"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 51487,
+      "voter_turnout": 42903,
+      "voter_turnout_perc": 83.32783032610173,
+      "majority": 28645,
+      "majority_perc": 67.59882005899705,
+      "votes_rejected": 495,
+      "votes_rejected_perc": 1.1546536039188244
+    },
+    {
+      "seat": "P.050 Jelutong",
+      "state": "Pulau Pinang",
+      "date": "2013-05-05",
+      "name": "Ooi Chuan Aun",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "GERAKAN"
+      ],
+      "party_lost_uid": [
+        "026-GERAKAN"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 71247,
+      "voter_turnout": 61715,
+      "voter_turnout_perc": 86.62119106769408,
+      "majority": 25750,
+      "majority_perc": 42.441323839662445,
+      "votes_rejected": 769,
+      "votes_rejected_perc": 1.2516072329551926
+    },
+    {
+      "seat": "P.051 Bukit Gelugor",
+      "state": "Pulau Pinang",
+      "date": "2013-05-05",
+      "name": "Karpal Singh a/l Ram Singh",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 81897,
+      "voter_turnout": 70683,
+      "voter_turnout_perc": 86.30719073958754,
+      "majority": 42706,
+      "majority_perc": 61.095851216022886,
+      "votes_rejected": 654,
+      "votes_rejected_perc": 0.9269495705417127
+    },
+    {
+      "seat": "P.052 Bayan Baru",
+      "state": "Pulau Pinang",
+      "date": "2013-05-05",
+      "name": "Sim Tze Tzin",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 79155,
+      "voter_turnout": 68846,
+      "voter_turnout_perc": 86.97618596424736,
+      "majority": 19307,
+      "majority_perc": 28.47262162839741,
+      "votes_rejected": 850,
+      "votes_rejected_perc": 1.238002301227807
+    },
+    {
+      "seat": "P.053 Balik Pulau",
+      "state": "Pulau Pinang",
+      "date": "2013-05-05",
+      "name": "Hilmi bin Yahaya",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 49641,
+      "voter_turnout": 43773,
+      "voter_turnout_perc": 88.17912612558167,
+      "majority": 1539,
+      "majority_perc": 3.57101422372787,
+      "votes_rejected": 612,
+      "votes_rejected_perc": 1.4001693015168502
+    },
+    {
+      "seat": "P.054 Gerik",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Hasbullah bin Osman",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 32725,
+      "voter_turnout": 27414,
+      "voter_turnout_perc": 83.77081741787624,
+      "majority": 6216,
+      "majority_perc": 23.35612835349816,
+      "votes_rejected": 494,
+      "votes_rejected_perc": 1.8223402685554078
+    },
+    {
+      "seat": "P.055 Lenggong",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Shamsul Anuar bin Nasarah",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 27950,
+      "voter_turnout": 23736,
+      "voter_turnout_perc": 84.92307692307692,
+      "majority": 4161,
+      "majority_perc": 17.99974045075053,
+      "votes_rejected": 368,
+      "votes_rejected_perc": 1.566957632531403
+    },
+    {
+      "seat": "P.056 Larut",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Hamzah bin Zainudin",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 46577,
+      "voter_turnout": 40100,
+      "voter_turnout_perc": 86.09399489018185,
+      "majority": 5296,
+      "majority_perc": 13.458703939008895,
+      "votes_rejected": 579,
+      "votes_rejected_perc": 1.450073881139022
+    },
+    {
+      "seat": "P.057 Parit Buntar",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Mujahid bin Yusof",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 51422,
+      "voter_turnout": 44306,
+      "voter_turnout_perc": 86.16156508887246,
+      "majority": 8476,
+      "majority_perc": 19.460899113743857,
+      "votes_rejected": 618,
+      "votes_rejected_perc": 1.3990763379516435
+    },
+    {
+      "seat": "P.058 Bagan Serai",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Noor Azmi bin Ghazali",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "078-PKR",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 54792,
+      "voter_turnout": 46384,
+      "voter_turnout_perc": 84.65469411592933,
+      "majority": 1140,
+      "majority_perc": 2.5211756640201695,
+      "votes_rejected": 1096,
+      "votes_rejected_perc": 2.366506164575821
+    },
+    {
+      "seat": "P.059 Bukit Gantang",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Idris bin Ahmad",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 71257,
+      "voter_turnout": 61018,
+      "voter_turnout_perc": 85.63088538669885,
+      "majority": 986,
+      "majority_perc": 1.6395078150981044,
+      "votes_rejected": 748,
+      "votes_rejected_perc": 1.2284850873735382
+    },
+    {
+      "seat": "P.060 Taiping",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Nga Kor Ming",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "GERAKAN"
+      ],
+      "party_lost_uid": [
+        "026-GERAKAN"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 78148,
+      "voter_turnout": 63913,
+      "voter_turnout_perc": 81.78456262476327,
+      "majority": 11745,
+      "majority_perc": 18.70074038691187,
+      "votes_rejected": 944,
+      "votes_rejected_perc": 1.4808075420790914
+    },
+    {
+      "seat": "P.061 Padang Rengas",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Mohamed Nazri bin Abdul Aziz",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 28518,
+      "voter_turnout": 24230,
+      "voter_turnout_perc": 84.96388246020058,
+      "majority": 2230,
+      "majority_perc": 9.377628259041211,
+      "votes_rejected": 410,
+      "votes_rejected_perc": 1.694915254237288
+    },
+    {
+      "seat": "P.062 Sungai Siput",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Michael Jeyakumar Devaraj",
+      "party": "PSM",
+      "party_uid": "074-PSM",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "BEBAS",
+        "MIC"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "002-MIC"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "001-BN"
+      ],
+      "n_candidates": 3,
+      "voters_total": 51596,
+      "voter_turnout": 41617,
+      "voter_turnout_perc": 80.65935343825103,
+      "majority": 2793,
+      "majority_perc": 6.881005173688101,
+      "votes_rejected": 982,
+      "votes_rejected_perc": 2.362166843067449
+    },
+    {
+      "seat": "P.063 Tambun",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Ahmad Husni bin Mohamad Hanadzlah",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 89435,
+      "voter_turnout": 76275,
+      "voter_turnout_perc": 85.28540280650752,
+      "majority": 9325,
+      "majority_perc": 12.456419230306835,
+      "votes_rejected": 1196,
+      "votes_rejected_perc": 1.5725048319023889
+    },
+    {
+      "seat": "P.064 Ipoh Timor",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Thomas Su Keong Siong",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 81818,
+      "voter_turnout": 65217,
+      "voter_turnout_perc": 79.70984379965289,
+      "majority": 34000,
+      "majority_perc": 52.98260923767375,
+      "votes_rejected": 834,
+      "votes_rejected_perc": 1.2829584961388178
+    },
+    {
+      "seat": "P.065 Ipoh Barat",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "M. Kulasegaran a/l V. Murugeson ",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "BEBAS",
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "001-BN"
+      ],
+      "n_candidates": 3,
+      "voters_total": 77761,
+      "voter_turnout": 63074,
+      "voter_turnout_perc": 81.11264001234552,
+      "majority": 29038,
+      "majority_perc": 46.80755033286587,
+      "votes_rejected": 875,
+      "votes_rejected_perc": 1.3908316378433367
+    },
+    {
+      "seat": "P.066 Batu Gajah",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Sivakumar a/l Varatharaju Naidu",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 87587,
+      "voter_turnout": 70270,
+      "voter_turnout_perc": 80.22880107778552,
+      "majority": 38410,
+      "majority_perc": 55.56198466657023,
+      "votes_rejected": 966,
+      "votes_rejected_perc": 1.378110020543255
+    },
+    {
+      "seat": "P.067 Kuala Kangsar",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Wan Mohammad Khair-il Anuar bin Wan Ahmad",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "BEBAS",
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 3,
+      "voters_total": 33540,
+      "voter_turnout": 28283,
+      "voter_turnout_perc": 84.32617769827073,
+      "majority": 1082,
+      "majority_perc": 3.8919463328657242,
+      "votes_rejected": 407,
+      "votes_rejected_perc": 1.4428530913216109
+    },
+    {
+      "seat": "P.068 Beruas",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Ngeh Koo Ham",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "GERAKAN"
+      ],
+      "party_lost_uid": [
+        "026-GERAKAN"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 49205,
+      "voter_turnout": 39586,
+      "voter_turnout_perc": 80.45117366121329,
+      "majority": 5057,
+      "majority_perc": 13.026454753870329,
+      "votes_rejected": 687,
+      "votes_rejected_perc": 1.7388883264149033
+    },
+    {
+      "seat": "P.069 Parit",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Mohd Zaim bin Abu Hasan",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 33503,
+      "voter_turnout": 28613,
+      "voter_turnout_perc": 85.40429215294154,
+      "majority": 4497,
+      "majority_perc": 16.055553572066124,
+      "votes_rejected": 532,
+      "votes_rejected_perc": 1.8639851441785502
+    },
+    {
+      "seat": "P.070 Kampar",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Ko Chung Sen",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 63619,
+      "voter_turnout": 49272,
+      "voter_turnout_perc": 77.44856096449175,
+      "majority": 5400,
+      "majority_perc": 11.174109175185201,
+      "votes_rejected": 820,
+      "votes_rejected_perc": 1.6684979448988728
+    },
+    {
+      "seat": "P.071 Gopeng",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Lee Boon Chye",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 97092,
+      "voter_turnout": 81442,
+      "voter_turnout_perc": 83.88126725167882,
+      "majority": 15309,
+      "majority_perc": 19.182527848434347,
+      "votes_rejected": 1456,
+      "votes_rejected_perc": 1.7917133258678613
+    },
+    {
+      "seat": "P.072 Tapah",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Saravanan a/l Murugan",
+      "party": "MIC",
+      "party_uid": "002-MIC",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "BEBAS",
+        "PKR",
+        "BERJASA"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "078-PKR",
+        "036-BERJASA"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 4,
+      "voters_total": 45485,
+      "voter_turnout": 36957,
+      "voter_turnout_perc": 81.25096185555678,
+      "majority": 7927,
+      "majority_perc": 22.140602742786918,
+      "votes_rejected": 1052,
+      "votes_rejected_perc": 2.8544295210961876
+    },
+    {
+      "seat": "P.073 Pasir Salak",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Tajuddin bin Abdul Rahman",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 51498,
+      "voter_turnout": 43533,
+      "voter_turnout_perc": 84.53337993708494,
+      "majority": 7386,
+      "majority_perc": 17.434614295156265,
+      "votes_rejected": 1008,
+      "votes_rejected_perc": 2.324080051646223
+    },
+    {
+      "seat": "P.074 Lumut",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Mohamad Imran bin Abdul Hamid",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 88300,
+      "voter_turnout": 73756,
+      "voter_turnout_perc": 83.52887882219704,
+      "majority": 8168,
+      "majority_perc": 11.27429328621908,
+      "votes_rejected": 1133,
+      "votes_rejected_perc": 1.5397996765469346
+    },
+    {
+      "seat": "P.075 Bagan Datok",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Ahmad Zahid bin Hamidi",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 39924,
+      "voter_turnout": 33069,
+      "voter_turnout_perc": 82.82987676585513,
+      "majority": 2108,
+      "majority_perc": 6.537650415581194,
+      "votes_rejected": 716,
+      "votes_rejected_perc": 2.1723300970873787
+    },
+    {
+      "seat": "P.076 Telok Intan",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Seah Leong Peng",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "GERAKAN",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "026-GERAKAN",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 60483,
+      "voter_turnout": 48839,
+      "voter_turnout_perc": 80.74830944232264,
+      "majority": 7313,
+      "majority_perc": 15.310694246713005,
+      "votes_rejected": 885,
+      "votes_rejected_perc": 1.8191535283356288
+    },
+    {
+      "seat": "P.077 Tanjong Malim",
+      "state": "Perak",
+      "date": "2013-05-05",
+      "name": "Ong Ka Chuan",
+      "party": "MCA",
+      "party_uid": "003-MCA",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 64499,
+      "voter_turnout": 53399,
+      "voter_turnout_perc": 82.79043085939317,
+      "majority": 4328,
+      "majority_perc": 8.303595410767047,
+      "votes_rejected": 1115,
+      "votes_rejected_perc": 2.0944080244942427
+    },
+    {
+      "seat": "P.078 Cameron Highlands",
+      "state": "Pahang",
+      "date": "2013-05-05",
+      "name": "Palanivel a/l K. Govindasamy",
+      "party": "MIC",
+      "party_uid": "002-MIC",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "BERJASA",
+        "DAP",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "036-BERJASA",
+        "021-DAP",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 5,
+      "voters_total": 27980,
+      "voter_turnout": 22754,
+      "voter_turnout_perc": 81.32237312365976,
+      "majority": 462,
+      "majority_perc": 2.1123862649170135,
+      "votes_rejected": 877,
+      "votes_rejected_perc": 3.855283981009319
+    },
+    {
+      "seat": "P.079 Lipis",
+      "state": "Pahang",
+      "date": "2013-05-05",
+      "name": "Abdul Rahman bin Mohamad",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "BEBAS",
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 3,
+      "voters_total": 32324,
+      "voter_turnout": 27126,
+      "voter_turnout_perc": 83.91906942210122,
+      "majority": 3469,
+      "majority_perc": 13.060993975903616,
+      "votes_rejected": 426,
+      "votes_rejected_perc": 1.5785963091973616
+    },
+    {
+      "seat": "P.080 Raub",
+      "state": "Pahang",
+      "date": "2013-05-05",
+      "name": "Mohamad Ariff Sabri bin Abdul Aziz",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 54214,
+      "voter_turnout": 45059,
+      "voter_turnout_perc": 83.11321798797358,
+      "majority": 2814,
+      "majority_perc": 6.393129770992366,
+      "votes_rejected": 927,
+      "votes_rejected_perc": 2.0626126426807287
+    },
+    {
+      "seat": "P.081 Jerantut",
+      "state": "Pahang",
+      "date": "2013-05-05",
+      "name": "Ahmad Nazlan bin Idris",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 58364,
+      "voter_turnout": 49600,
+      "voter_turnout_perc": 84.98389418134467,
+      "majority": 4532,
+      "majority_perc": 9.333553010956422,
+      "votes_rejected": 905,
+      "votes_rejected_perc": 1.8297244293483756
+    },
+    {
+      "seat": "P.082 Indera Mahkota",
+      "state": "Pahang",
+      "date": "2013-05-05",
+      "name": "Fauzi bin Abdul Rahman",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "001-UMNO",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 64219,
+      "voter_turnout": 54737,
+      "voter_turnout_perc": 85.23489932885906,
+      "majority": 7523,
+      "majority_perc": 13.973401686541104,
+      "votes_rejected": 689,
+      "votes_rejected_perc": 1.2635941826984796
+    },
+    {
+      "seat": "P.083 Kuantan",
+      "state": "Pahang",
+      "date": "2013-05-05",
+      "name": "Fuziah binti Salleh",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 56280,
+      "voter_turnout": 47858,
+      "voter_turnout_perc": 85.03553660270077,
+      "majority": 4515,
+      "majority_perc": 9.575212605772697,
+      "votes_rejected": 570,
+      "votes_rejected_perc": 1.1943926408649916
+    },
+    {
+      "seat": "P.084 Paya Besar",
+      "state": "Pahang",
+      "date": "2013-05-05",
+      "name": "Abdul Manan bin Ismail",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "BEBAS",
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 3,
+      "voters_total": 48067,
+      "voter_turnout": 40834,
+      "voter_turnout_perc": 84.95225414525558,
+      "majority": 7715,
+      "majority_perc": 19.262939751816436,
+      "votes_rejected": 643,
+      "votes_rejected_perc": 1.5800855162923282
+    },
+    {
+      "seat": "P.085 Pekan",
+      "state": "Pahang",
+      "date": "2013-05-05",
+      "name": "Najib bin Abdul Razak",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 80260,
+      "voter_turnout": 68464,
+      "voter_turnout_perc": 85.30276601046597,
+      "majority": 35613,
+      "majority_perc": 53.19899018568035,
+      "votes_rejected": 1275,
+      "votes_rejected_perc": 1.8690081796593274
+    },
+    {
+      "seat": "P.086 Maran",
+      "state": "Pahang",
+      "date": "2013-05-05",
+      "name": "Ismail bin Abdul Muttalib",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 38436,
+      "voter_turnout": 32750,
+      "voter_turnout_perc": 85.20657716723905,
+      "majority": 6475,
+      "majority_perc": 20.219841988570714,
+      "votes_rejected": 572,
+      "votes_rejected_perc": 1.7548703788924682
+    },
+    {
+      "seat": "P.087 Kuala Krau",
+      "state": "Pahang",
+      "date": "2013-05-05",
+      "name": "Ismail bin Mohamed Said",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 43003,
+      "voter_turnout": 37663,
+      "voter_turnout_perc": 87.5822617026719,
+      "majority": 6205,
+      "majority_perc": 16.795236161862228,
+      "votes_rejected": 603,
+      "votes_rejected_perc": 1.6059443911792906
+    },
+    {
+      "seat": "P.088 Temerloh",
+      "state": "Pahang",
+      "date": "2013-05-05",
+      "name": "Nasrudin bin Hassan Tantawi",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 66105,
+      "voter_turnout": 56595,
+      "voter_turnout_perc": 85.61379623326526,
+      "majority": 1070,
+      "majority_perc": 1.9291792874657436,
+      "votes_rejected": 977,
+      "votes_rejected_perc": 1.731011144380858
+    },
+    {
+      "seat": "P.089 Bentong",
+      "state": "Pahang",
+      "date": "2013-05-05",
+      "name": "Liow Tiong Lai",
+      "party": "MCA",
+      "party_uid": "003-MCA",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "DAP"
+      ],
+      "party_lost_uid": [
+        "021-DAP"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 62266,
+      "voter_turnout": 52628,
+      "voter_turnout_perc": 84.52124755083031,
+      "majority": 379,
+      "majority_perc": 0.735708046200136,
+      "votes_rejected": 988,
+      "votes_rejected_perc": 1.88179723063444
+    },
+    {
+      "seat": "P.090 Bera",
+      "state": "Pahang",
+      "date": "2013-05-05",
+      "name": "Ismail Sabri bin Yaakob",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "078-PKR",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 50997,
+      "voter_turnout": 42944,
+      "voter_turnout_perc": 84.20887503186462,
+      "majority": 2143,
+      "majority_perc": 5.118834348501135,
+      "votes_rejected": 965,
+      "votes_rejected_perc": 2.25309362596311
+    },
+    {
+      "seat": "P.091 Rompin",
+      "state": "Pahang",
+      "date": "2013-05-05",
+      "name": "Jamaluddin bin Mohd Jarjis",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 53596,
+      "voter_turnout": 46014,
+      "voter_turnout_perc": 85.8534218971565,
+      "majority": 15114,
+      "majority_perc": 33.61206244718232,
+      "votes_rejected": 883,
+      "votes_rejected_perc": 1.92588715130101
+    },
+    {
+      "seat": "P.092 Sabak Bernam",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Mohd Fasiah bin Mohd Fakeh",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 37318,
+      "voter_turnout": 31859,
+      "voter_turnout_perc": 85.37167050752987,
+      "majority": 1890,
+      "majority_perc": 6.071313845165435,
+      "votes_rejected": 576,
+      "votes_rejected_perc": 1.8166908471582663
+    },
+    {
+      "seat": "P.093 Sungai Besar",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Noriah binti Kasnon",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 42837,
+      "voter_turnout": 37810,
+      "voter_turnout_perc": 88.26481779769824,
+      "majority": 399,
+      "majority_perc": 1.0786407504528128,
+      "votes_rejected": 690,
+      "votes_rejected_perc": 1.831161593375972
+    },
+    {
+      "seat": "P.094 Hulu Selangor",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Kamalanathan a/l Panchanathan",
+      "party": "MIC",
+      "party_uid": "002-MIC",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "BEBAS",
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 4,
+      "voters_total": 85697,
+      "voter_turnout": 75113,
+      "voter_turnout_perc": 87.6495093177124,
+      "majority": 3414,
+      "majority_perc": 4.645150756503756,
+      "votes_rejected": 1451,
+      "votes_rejected_perc": 1.9360347979238663
+    },
+    {
+      "seat": "P.095 Tanjong Karang",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Noh Omar",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "BEBAS",
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 3,
+      "voters_total": 42333,
+      "voter_turnout": 37768,
+      "voter_turnout_perc": 89.21645052323247,
+      "majority": 4394,
+      "majority_perc": 11.862210463797851,
+      "votes_rejected": 634,
+      "votes_rejected_perc": 1.6827688714300884
+    },
+    {
+      "seat": "P.096 Kuala Selangor",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Irmohizam bin Ibrahim",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 62298,
+      "voter_turnout": 55592,
+      "voter_turnout_perc": 89.23560948987127,
+      "majority": 460,
+      "majority_perc": 0.8434176751008434,
+      "votes_rejected": 934,
+      "votes_rejected_perc": 1.6836716299527705
+    },
+    {
+      "seat": "P.097 Selayang",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "William Leong Jee Keen",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA",
+        "BERJASA"
+      ],
+      "party_lost_uid": [
+        "003-MCA",
+        "036-BERJASA"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 105895,
+      "voter_turnout": 92528,
+      "voter_turnout_perc": 87.37711884413805,
+      "majority": 17958,
+      "majority_perc": 19.76012323943662,
+      "votes_rejected": 1435,
+      "votes_rejected_perc": 1.5544602718951417
+    },
+    {
+      "seat": "P.098 Gombak",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Mohamed Azmin bin Ali",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "BEBAS",
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "001-BN"
+      ],
+      "n_candidates": 3,
+      "voters_total": 123290,
+      "voter_turnout": 107140,
+      "voter_turnout_perc": 86.90080298483251,
+      "majority": 4734,
+      "majority_perc": 4.491716796022544,
+      "votes_rejected": 1353,
+      "votes_rejected_perc": 1.267482926920663
+    },
+    {
+      "seat": "P.099 Ampang",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Zuraida binti Kamaruddin",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 83135,
+      "voter_turnout": 71574,
+      "voter_turnout_perc": 86.09370301317135,
+      "majority": 13278,
+      "majority_perc": 18.79139541466176,
+      "votes_rejected": 738,
+      "votes_rejected_perc": 1.0336423989467491
+    },
+    {
+      "seat": "P.100 Pandan",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Mohd Rafizi bin Ramli",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "BEBAS",
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "001-BN"
+      ],
+      "n_candidates": 3,
+      "voters_total": 83857,
+      "voter_turnout": 73228,
+      "voter_turnout_perc": 87.32485063858711,
+      "majority": 26729,
+      "majority_perc": 37.09681896408149,
+      "votes_rejected": 1023,
+      "votes_rejected_perc": 1.399931577146767
+    },
+    {
+      "seat": "P.101 Hulu Langat",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Che Rosli bin Che Mat",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 127347,
+      "voter_turnout": 112856,
+      "voter_turnout_perc": 88.62085482971723,
+      "majority": 17267,
+      "majority_perc": 15.557677926243615,
+      "votes_rejected": 1335,
+      "votes_rejected_perc": 1.1885472124784102
+    },
+    {
+      "seat": "P.102 Serdang",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Ong Kian Ming",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 133139,
+      "voter_turnout": 118339,
+      "voter_turnout_perc": 88.8837981357829,
+      "majority": 42206,
+      "majority_perc": 36.299991399329144,
+      "votes_rejected": 1778,
+      "votes_rejected_perc": 1.5061669829222013
+    },
+    {
+      "seat": "P.103 Puchong",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Gobind Singh Deo",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "GERAKAN"
+      ],
+      "party_lost_uid": [
+        "026-GERAKAN"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 107010,
+      "voter_turnout": 94529,
+      "voter_turnout_perc": 88.33660405569573,
+      "majority": 32802,
+      "majority_perc": 35.242924984420995,
+      "votes_rejected": 1261,
+      "votes_rejected_perc": 1.336725499549478
+    },
+    {
+      "seat": "P.104 Kelana Jaya",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Wong Chen",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "003-MCA",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 101236,
+      "voter_turnout": 86497,
+      "voter_turnout_perc": 85.44094985973369,
+      "majority": 28827,
+      "majority_perc": 33.86789792753419,
+      "votes_rejected": 1171,
+      "votes_rejected_perc": 1.3570989836244163
+    },
+    {
+      "seat": "P.105 Petaling Jaya Selatan",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Hee Loy Sian",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "BEBAS",
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "001-BN"
+      ],
+      "n_candidates": 3,
+      "voters_total": 79558,
+      "voter_turnout": 65323,
+      "voter_turnout_perc": 82.10739334824908,
+      "majority": 19216,
+      "majority_perc": 29.859373786030613,
+      "votes_rejected": 830,
+      "votes_rejected_perc": 1.2732990718723631
+    },
+    {
+      "seat": "P.106 Petaling Jaya Utara",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Tony Pua Kiam Wee",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 85401,
+      "voter_turnout": 70727,
+      "voter_turnout_perc": 82.81753141063922,
+      "majority": 44672,
+      "majority_perc": 63.687947306891736,
+      "votes_rejected": 472,
+      "votes_rejected_perc": 0.6684226923839466
+    },
+    {
+      "seat": "P.107 Subang",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Sivarasa a/l K. Rasiah",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "BEBAS",
+        "BERJASA",
+        "MIC"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "036-BERJASA",
+        "002-MIC"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "001-BN"
+      ],
+      "n_candidates": 5,
+      "voters_total": 128543,
+      "voter_turnout": 112937,
+      "voter_turnout_perc": 87.85931555977378,
+      "majority": 26719,
+      "majority_perc": 24.082235982298172,
+      "votes_rejected": 1669,
+      "votes_rejected_perc": 1.482001101067325
+    },
+    {
+      "seat": "P.108 Shah Alam",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Khalid bin Abdul Samad",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 99957,
+      "voter_turnout": 88128,
+      "voter_turnout_perc": 88.165911341877,
+      "majority": 10939,
+      "majority_perc": 12.562156202988092,
+      "votes_rejected": 863,
+      "votes_rejected_perc": 0.9813286029428486
+    },
+    {
+      "seat": "P.109 Kapar",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "G. Manivannan a/l Gowindasamy",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MIC",
+        "BEBAS",
+        "BERJASA"
+      ],
+      "party_lost_uid": [
+        "002-MIC",
+        "000-BEBAS",
+        "036-BERJASA"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 6,
+      "voters_total": 144159,
+      "voter_turnout": 127023,
+      "voter_turnout_perc": 88.1131250910453,
+      "majority": 23790,
+      "majority_perc": 19.134561248290836,
+      "votes_rejected": 2379,
+      "votes_rejected_perc": 1.877530404312243
+    },
+    {
+      "seat": "P.110 Klang",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Charles Anthony a/l Santiago",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 97073,
+      "voter_turnout": 84219,
+      "voter_turnout_perc": 86.75841892184233,
+      "majority": 24685,
+      "majority_perc": 29.82973426945247,
+      "votes_rejected": 1342,
+      "votes_rejected_perc": 1.5958142576847614
+    },
+    {
+      "seat": "P.111 Kota Raja",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Siti Mariah binti Mahmud",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "BEBAS",
+        "MIC"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "002-MIC"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "001-BN"
+      ],
+      "n_candidates": 4,
+      "voters_total": 105909,
+      "voter_turnout": 92729,
+      "voter_turnout_perc": 87.55535412476749,
+      "majority": 29395,
+      "majority_perc": 32.139381813013195,
+      "votes_rejected": 1102,
+      "votes_rejected_perc": 1.1905404967427589
+    },
+    {
+      "seat": "P.112 Kuala Langat",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Abdullah Sani Abdul Hamid",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "001-UMNO",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 88474,
+      "voter_turnout": 78726,
+      "voter_turnout_perc": 88.98207382959966,
+      "majority": 5358,
+      "majority_perc": 6.955370355946725,
+      "votes_rejected": 1523,
+      "votes_rejected_perc": 1.9387196557913364
+    },
+    {
+      "seat": "P.113 Sepang",
+      "state": "Selangor",
+      "date": "2013-05-05",
+      "name": "Mohamed Hanipa bin Maidin",
+      "party": "PAS",
+      "party_uid": "004-PAS",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "BEBAS",
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "001-BN"
+      ],
+      "n_candidates": 4,
+      "voters_total": 84362,
+      "voter_turnout": 75135,
+      "voter_turnout_perc": 89.06261112823309,
+      "majority": 1142,
+      "majority_perc": 1.548789584322235,
+      "votes_rejected": 1226,
+      "votes_rejected_perc": 1.6355171355771667
+    },
+    {
+      "seat": "P.114 Kepong",
+      "state": "W.P. Kuala Lumpur",
+      "date": "2013-05-05",
+      "name": "Tan Seng Giaw",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "BEBAS",
+        "MYPPP"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "006-MYPPP"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "001-BN"
+      ],
+      "n_candidates": 3,
+      "voters_total": 68035,
+      "voter_turnout": 58585,
+      "voter_turnout_perc": 86.1100903946498,
+      "majority": 40307,
+      "majority_perc": 69.34656940334457,
+      "votes_rejected": 388,
+      "votes_rejected_perc": 0.663111840306262
+    },
+    {
+      "seat": "P.115 Batu",
+      "state": "W.P. Kuala Lumpur",
+      "date": "2013-05-05",
+      "name": "Chua Tian Chang (Tian Chua)",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "BEBAS",
+        "BERJASA",
+        "GERAKAN"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "036-BERJASA",
+        "026-GERAKAN"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "001-BN"
+      ],
+      "n_candidates": 5,
+      "voters_total": 85402,
+      "voter_turnout": 72147,
+      "voter_turnout_perc": 84.47928619938642,
+      "majority": 13284,
+      "majority_perc": 18.60973354627217,
+      "votes_rejected": 606,
+      "votes_rejected_perc": 0.8418069678279714
+    },
+    {
+      "seat": "P.116 Wangsa Maju",
+      "state": "W.P. Kuala Lumpur",
+      "date": "2013-05-05",
+      "name": "Tan Kee Kwong",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 67775,
+      "voter_turnout": 58291,
+      "voter_turnout_perc": 86.00663961637773,
+      "majority": 5511,
+      "majority_perc": 9.539388274393728,
+      "votes_rejected": 375,
+      "votes_rejected_perc": 0.644928283974822
+    },
+    {
+      "seat": "P.117 Segambut",
+      "state": "W.P. Kuala Lumpur",
+      "date": "2013-05-05",
+      "name": "Lim Lip Eng",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "GERAKAN"
+      ],
+      "party_lost_uid": [
+        "026-GERAKAN"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 75631,
+      "voter_turnout": 64184,
+      "voter_turnout_perc": 84.86467189380016,
+      "majority": 19199,
+      "majority_perc": 30.202778171063606,
+      "votes_rejected": 485,
+      "votes_rejected_perc": 0.757197277212265
+    },
+    {
+      "seat": "P.118 Setiawangsa",
+      "state": "W.P. Kuala Lumpur",
+      "date": "2013-05-05",
+      "name": "Ahmad Fauzi bin Zahari",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 62309,
+      "voter_turnout": 52910,
+      "voter_turnout_perc": 84.91550177341956,
+      "majority": 1390,
+      "majority_perc": 2.6614076740445736,
+      "votes_rejected": 502,
+      "votes_rejected_perc": 0.9520197231177698
+    },
+    {
+      "seat": "P.119 Titiwangsa",
+      "state": "W.P. Kuala Lumpur",
+      "date": "2013-05-05",
+      "name": "Johari bin Abdul Ghani",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 55282,
+      "voter_turnout": 45631,
+      "voter_turnout_perc": 82.5422379798126,
+      "majority": 866,
+      "majority_perc": 1.9158444316623158,
+      "votes_rejected": 311,
+      "votes_rejected_perc": 0.6833212488739481
+    },
+    {
+      "seat": "P.120 Bukit Bintang",
+      "state": "W.P. Kuala Lumpur",
+      "date": "2013-05-05",
+      "name": "Fong Kui Lun",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 55721,
+      "voter_turnout": 41824,
+      "voter_turnout_perc": 75.0596722959028,
+      "majority": 19399,
+      "majority_perc": 46.83825482289881,
+      "votes_rejected": 355,
+      "votes_rejected_perc": 0.8498515752178493
+    },
+    {
+      "seat": "P.121 Lembah Pantai",
+      "state": "W.P. Kuala Lumpur",
+      "date": "2013-05-05",
+      "name": "Nurul Izzah binti Anwar",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "BEBAS",
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "001-BN"
+      ],
+      "n_candidates": 3,
+      "voters_total": 72396,
+      "voter_turnout": 61048,
+      "voter_turnout_perc": 84.32510083430024,
+      "majority": 1847,
+      "majority_perc": 3.06119066560594,
+      "votes_rejected": 519,
+      "votes_rejected_perc": 0.8528469312299728
+    },
+    {
+      "seat": "P.122 Seputeh",
+      "state": "W.P. Kuala Lumpur",
+      "date": "2013-05-05",
+      "name": "Teresa Kok Suh Sim",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 85976,
+      "voter_turnout": 71859,
+      "voter_turnout_perc": 83.58030147948264,
+      "majority": 51552,
+      "majority_perc": 72.15317433658045,
+      "votes_rejected": 302,
+      "votes_rejected_perc": 0.4209059233449477
+    },
+    {
+      "seat": "P.123 Cheras",
+      "state": "W.P. Kuala Lumpur",
+      "date": "2013-05-05",
+      "name": "Tan Kok Wai",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 72551,
+      "voter_turnout": 59492,
+      "voter_turnout_perc": 82.00024810133561,
+      "majority": 37409,
+      "majority_perc": 63.30958384809355,
+      "votes_rejected": 315,
+      "votes_rejected_perc": 0.5302673220658541
+    },
+    {
+      "seat": "P.124 Bandar Tun Razak",
+      "state": "W.P. Kuala Lumpur",
+      "date": "2013-05-05",
+      "name": "Abdul Khalid bin Ibrahim",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "BEBAS",
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "001-BN"
+      ],
+      "n_candidates": 4,
+      "voters_total": 90993,
+      "voter_turnout": 78157,
+      "voter_turnout_perc": 85.89342037299572,
+      "majority": 11832,
+      "majority_perc": 15.309370390497632,
+      "votes_rejected": 861,
+      "votes_rejected_perc": 1.1017697416407541
+    },
+    {
+      "seat": "P.125 Putrajaya",
+      "state": "W.P. Putrajaya",
+      "date": "2013-05-05",
+      "name": "Tengku Adnan bin Tengku Mansor",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 15791,
+      "voter_turnout": 14465,
+      "voter_turnout_perc": 91.60281172819961,
+      "majority": 5541,
+      "majority_perc": 38.62669919832694,
+      "votes_rejected": 73,
+      "votes_rejected_perc": 0.5063115550006936
+    },
+    {
+      "seat": "P.126 Jelebu",
+      "state": "Negeri Sembilan",
+      "date": "2013-05-05",
+      "name": "Zainudin bin Ismail",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 44937,
+      "voter_turnout": 38020,
+      "voter_turnout_perc": 84.6073391637181,
+      "majority": 7101,
+      "majority_perc": 19.126242357314084,
+      "votes_rejected": 756,
+      "votes_rejected_perc": 1.9956180872686957
+    },
+    {
+      "seat": "P.127 Jempol",
+      "state": "Negeri Sembilan",
+      "date": "2013-05-05",
+      "name": "Mohd Isa Abdul Samad",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 65213,
+      "voter_turnout": 54858,
+      "voter_turnout_perc": 84.12126416512045,
+      "majority": 8629,
+      "majority_perc": 16.093175926443983,
+      "votes_rejected": 1082,
+      "votes_rejected_perc": 1.9780259958684483
+    },
+    {
+      "seat": "P.128 Seremban",
+      "state": "Negeri Sembilan",
+      "date": "2013-05-05",
+      "name": "Loke Siew Fook (Anthony Loke)",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "BERJASA",
+        "BEBAS",
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "036-BERJASA",
+        "000-BEBAS",
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "001-BN"
+      ],
+      "n_candidates": 5,
+      "voters_total": 102305,
+      "voter_turnout": 87617,
+      "voter_turnout_perc": 85.64293045305703,
+      "majority": 12553,
+      "majority_perc": 14.618098820350983,
+      "votes_rejected": 1486,
+      "votes_rejected_perc": 1.7010267974679198
+    },
+    {
+      "seat": "P.129 Kuala Pilah",
+      "state": "Negeri Sembilan",
+      "date": "2013-05-05",
+      "name": "Hasan bin Malek",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 47671,
+      "voter_turnout": 40291,
+      "voter_turnout_perc": 84.51888989112878,
+      "majority": 9661,
+      "majority_perc": 24.549589611973673,
+      "votes_rejected": 794,
+      "votes_rejected_perc": 1.977731835504521
+    },
+    {
+      "seat": "P.130 Rasah",
+      "state": "Negeri Sembilan",
+      "date": "2013-05-05",
+      "name": "Teo Kok Seong",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 88403,
+      "voter_turnout": 75860,
+      "voter_turnout_perc": 85.8115674807416,
+      "majority": 24101,
+      "majority_perc": 32.375105785634645,
+      "votes_rejected": 1208,
+      "votes_rejected_perc": 1.5968063872255487
+    },
+    {
+      "seat": "P.131 Rembau",
+      "state": "Negeri Sembilan",
+      "date": "2013-05-05",
+      "name": "Khairy Jamaluddin bin Abu Bakar",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "BEBAS",
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 3,
+      "voters_total": 79661,
+      "voter_turnout": 69548,
+      "voter_turnout_perc": 87.30495474573505,
+      "majority": 18357,
+      "majority_perc": 26.96624261832711,
+      "votes_rejected": 1217,
+      "votes_rejected_perc": 1.7563608549450869
+    },
+    {
+      "seat": "P.132 Telok Kemang",
+      "state": "Negeri Sembilan",
+      "date": "2013-05-05",
+      "name": "Kamarul Baharin bin Abbas",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "BEBAS",
+        "MIC"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "002-MIC"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "001-BN"
+      ],
+      "n_candidates": 3,
+      "voters_total": 70524,
+      "voter_turnout": 59984,
+      "voter_turnout_perc": 85.05473314049118,
+      "majority": 1579,
+      "majority_perc": 2.698637862965938,
+      "votes_rejected": 1344,
+      "votes_rejected_perc": 2.2454264472475147
+    },
+    {
+      "seat": "P.133 Tampin",
+      "state": "Negeri Sembilan",
+      "date": "2013-05-05",
+      "name": "Shaziman bin Abu Mansor",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 57268,
+      "voter_turnout": 48799,
+      "voter_turnout_perc": 85.2116365160299,
+      "majority": 11162,
+      "majority_perc": 23.440715695745308,
+      "votes_rejected": 1042,
+      "votes_rejected_perc": 2.141389231401562
+    },
+    {
+      "seat": "P.134 Masjid Tanah",
+      "state": "Melaka",
+      "date": "2013-05-05",
+      "name": "Mas Ermieyati binti Samsudin",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 45952,
+      "voter_turnout": 39827,
+      "voter_turnout_perc": 86.67087395543176,
+      "majority": 16200,
+      "majority_perc": 41.35184807024709,
+      "votes_rejected": 566,
+      "votes_rejected_perc": 1.4241859996980526
+    },
+    {
+      "seat": "P.135 Alor Gajah",
+      "state": "Melaka",
+      "date": "2013-05-05",
+      "name": "Koh Nai Kwong",
+      "party": "MCA",
+      "party_uid": "003-MCA",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "DAP"
+      ],
+      "party_lost_uid": [
+        "021-DAP"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 63591,
+      "voter_turnout": 55131,
+      "voter_turnout_perc": 86.69623059866962,
+      "majority": 11597,
+      "majority_perc": 21.639827582989682,
+      "votes_rejected": 1437,
+      "votes_rejected_perc": 2.61139783383005
+    },
+    {
+      "seat": "P.136 Tangga Batu",
+      "state": "Melaka",
+      "date": "2013-05-05",
+      "name": "Abu Bakar bin Mohamad Diah",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 73282,
+      "voter_turnout": 64426,
+      "voter_turnout_perc": 87.91517698752763,
+      "majority": 15633,
+      "majority_perc": 24.69551206103976,
+      "votes_rejected": 985,
+      "votes_rejected_perc": 1.5321677451468392
+    },
+    {
+      "seat": "P.137 Bukit Katil",
+      "state": "Melaka",
+      "date": "2013-05-05",
+      "name": "Shamsul Iskandar bin Mohd Akin",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 99438,
+      "voter_turnout": 88271,
+      "voter_turnout_perc": 88.7698867636115,
+      "majority": 5733,
+      "majority_perc": 6.591094606868167,
+      "votes_rejected": 1102,
+      "votes_rejected_perc": 1.2510927193669608
+    },
+    {
+      "seat": "P.138 Kota Melaka",
+      "state": "Melaka",
+      "date": "2013-05-05",
+      "name": "Sim Tong Him",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 92322,
+      "voter_turnout": 79651,
+      "voter_turnout_perc": 86.27521067567861,
+      "majority": 20746,
+      "majority_perc": 26.496883621130067,
+      "votes_rejected": 1168,
+      "votes_rejected_perc": 1.4698479814758885
+    },
+    {
+      "seat": "P.139 Jasin",
+      "state": "Melaka",
+      "date": "2013-05-05",
+      "name": "Ahmad bin Hamzah",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 64455,
+      "voter_turnout": 56856,
+      "voter_turnout_perc": 88.21037933441936,
+      "majority": 11763,
+      "majority_perc": 21.115080148629488,
+      "votes_rejected": 1001,
+      "votes_rejected_perc": 1.7651207899841297
+    },
+    {
+      "seat": "P.140 Segamat",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Subramaniam a/l Sathasivam",
+      "party": "MIC",
+      "party_uid": "002-MIC",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 47009,
+      "voter_turnout": 39895,
+      "voter_turnout_perc": 84.8667276478972,
+      "majority": 1217,
+      "majority_perc": 3.1319968088117967,
+      "votes_rejected": 950,
+      "votes_rejected_perc": 2.3865149345592482
+    },
+    {
+      "seat": "P.141 Sekijang",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Anuar bin Abdul Manap",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 43066,
+      "voter_turnout": 37519,
+      "voter_turnout_perc": 87.11976965587702,
+      "majority": 3007,
+      "majority_perc": 8.15767342177369,
+      "votes_rejected": 587,
+      "votes_rejected_perc": 1.5675069429609056
+    },
+    {
+      "seat": "P.142 Labis",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Chua Tee Yong",
+      "party": "MCA",
+      "party_uid": "003-MCA",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "DAP"
+      ],
+      "party_lost_uid": [
+        "021-DAP"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 37714,
+      "voter_turnout": 32027,
+      "voter_turnout_perc": 84.92071909635679,
+      "majority": 353,
+      "majority_perc": 1.1281920163635784,
+      "votes_rejected": 689,
+      "votes_rejected_perc": 2.15460629182563
+    },
+    {
+      "seat": "P.143 Pagoh",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Muhyiddin bin Md Yasin",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 46793,
+      "voter_turnout": 40613,
+      "voter_turnout_perc": 86.79289637338918,
+      "majority": 12842,
+      "majority_perc": 32.34271898453634,
+      "votes_rejected": 816,
+      "votes_rejected_perc": 2.013720941710676
+    },
+    {
+      "seat": "P.144 Ledang",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Hamim bin Samuri",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 69316,
+      "voter_turnout": 60382,
+      "voter_turnout_perc": 87.11120087714235,
+      "majority": 1967,
+      "majority_perc": 3.318654991479813,
+      "votes_rejected": 1077,
+      "votes_rejected_perc": 1.7846490355935571
+    },
+    {
+      "seat": "P.145 Bakri",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Er Teck Hwa",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 67202,
+      "voter_turnout": 58453,
+      "voter_turnout_perc": 86.98104223088599,
+      "majority": 5067,
+      "majority_perc": 8.863195088247126,
+      "votes_rejected": 1101,
+      "votes_rejected_perc": 1.8894800068645956
+    },
+    {
+      "seat": "P.146 Muar",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Razali bin Ibrahim",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 48208,
+      "voter_turnout": 40992,
+      "voter_turnout_perc": 85.03153003650846,
+      "majority": 1646,
+      "majority_perc": 4.105966872879665,
+      "votes_rejected": 804,
+      "votes_rejected_perc": 1.9661547490951774
+    },
+    {
+      "seat": "P.147 Parit Sulong",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Noraini binti Ahmad",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 56896,
+      "voter_turnout": 49855,
+      "voter_turnout_perc": 87.62478908886389,
+      "majority": 11753,
+      "majority_perc": 24.10229067120563,
+      "votes_rejected": 952,
+      "votes_rejected_perc": 1.9149150155888566
+    },
+    {
+      "seat": "P.148 Ayer Hitam",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Wee Ka Siong",
+      "party": "MCA",
+      "party_uid": "003-MCA",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 42913,
+      "voter_turnout": 37841,
+      "voter_turnout_perc": 88.1807377717708,
+      "majority": 7310,
+      "majority_perc": 19.874932028276238,
+      "votes_rejected": 967,
+      "votes_rejected_perc": 2.5617929901714045
+    },
+    {
+      "seat": "P.149 Sri Gading",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Ab Aziz bin Kaprawi",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 44816,
+      "voter_turnout": 39899,
+      "voter_turnout_perc": 89.0284719742949,
+      "majority": 5761,
+      "majority_perc": 14.717077532251885,
+      "votes_rejected": 673,
+      "votes_rejected_perc": 1.6901903661660556
+    },
+    {
+      "seat": "P.150 Batu Pahat",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Mohd Idris bin Jusi",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 88272,
+      "voter_turnout": 77202,
+      "voter_turnout_perc": 87.45921696574224,
+      "majority": 1524,
+      "majority_perc": 2.0158196873098597,
+      "votes_rejected": 1445,
+      "votes_rejected_perc": 1.875478603969006
+    },
+    {
+      "seat": "P.151 Simpang Renggam",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Liang Teck Meng",
+      "party": "GERAKAN",
+      "party_uid": "026-GERAKAN",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 40143,
+      "voter_turnout": 34754,
+      "voter_turnout_perc": 86.5754926139053,
+      "majority": 5706,
+      "majority_perc": 16.880657949233775,
+      "votes_rejected": 868,
+      "votes_rejected_perc": 2.5036054225555238
+    },
+    {
+      "seat": "P.152 Kluang",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Liew Chin Tong",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA"
+      ],
+      "party_lost_uid": [
+        "003-MCA"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 86732,
+      "voter_turnout": 75262,
+      "voter_turnout_perc": 86.77535396393488,
+      "majority": 7359,
+      "majority_perc": 9.97303121061405,
+      "votes_rejected": 1292,
+      "votes_rejected_perc": 1.7208081938173438
+    },
+    {
+      "seat": "P.153 Sembrong",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Hishammuddin bin Hussein",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 41588,
+      "voter_turnout": 35910,
+      "voter_turnout_perc": 86.3470231797634,
+      "majority": 10631,
+      "majority_perc": 30.33009043964509,
+      "votes_rejected": 809,
+      "votes_rejected_perc": 2.2559955382041275
+    },
+    {
+      "seat": "P.154 Mersing",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Abdul Latiff bin Ahmad",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 44497,
+      "voter_turnout": 37393,
+      "voter_turnout_perc": 84.03487875587118,
+      "majority": 15747,
+      "majority_perc": 42.999918079790284,
+      "votes_rejected": 678,
+      "votes_rejected_perc": 1.817743103032253
+    },
+    {
+      "seat": "P.155 Tenggara",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Halimah binti Mohamed Sadique",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 39694,
+      "voter_turnout": 34946,
+      "voter_turnout_perc": 88.03849448279337,
+      "majority": 17196,
+      "majority_perc": 50.28070175438597,
+      "votes_rejected": 676,
+      "votes_rejected_perc": 1.9382956761096457
+    },
+    {
+      "seat": "P.156 Kota Tinggi",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Noor Ehsanuddin bin Mohd Harun Narrashid",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 41894,
+      "voter_turnout": 36943,
+      "voter_turnout_perc": 88.18207857927149,
+      "majority": 24574,
+      "majority_perc": 67.93652548932876,
+      "votes_rejected": 696,
+      "votes_rejected_perc": 1.8878159921883477
+    },
+    {
+      "seat": "P.157 Pengerang",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Azalina binti Othman Said",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "078-PKR",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 37999,
+      "voter_turnout": 33067,
+      "voter_turnout_perc": 87.02071107134398,
+      "majority": 22508,
+      "majority_perc": 69.74683152056026,
+      "votes_rejected": 698,
+      "votes_rejected_perc": 2.1171403439594774
+    },
+    {
+      "seat": "P.158 Tebrau",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Khoo Soo Seang",
+      "party": "MCA",
+      "party_uid": "003-MCA",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 90482,
+      "voter_turnout": 79835,
+      "voter_turnout_perc": 88.23301872195574,
+      "majority": 1767,
+      "majority_perc": 2.2595041110954823,
+      "votes_rejected": 1551,
+      "votes_rejected_perc": 1.944730044888031
+    },
+    {
+      "seat": "P.159 Pasir Gudang",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Normala binti Abdul Samad",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 101041,
+      "voter_turnout": 88550,
+      "voter_turnout_perc": 87.63769163013035,
+      "majority": 935,
+      "majority_perc": 1.0780210531170373,
+      "votes_rejected": 1704,
+      "votes_rejected_perc": 1.9267953458394111
+    },
+    {
+      "seat": "P.160 Johor Bahru",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Shahrir bin Abdul Samad",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 96321,
+      "voter_turnout": 79965,
+      "voter_turnout_perc": 83.01927928489114,
+      "majority": 10495,
+      "majority_perc": 13.365510742075571,
+      "votes_rejected": 1284,
+      "votes_rejected_perc": 1.6088814264412898
+    },
+    {
+      "seat": "P.161 Pulai",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Nur Jazlan bin Mohamad",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 100490,
+      "voter_turnout": 85924,
+      "voter_turnout_perc": 85.50502537565927,
+      "majority": 3226,
+      "majority_perc": 3.827898808676254,
+      "votes_rejected": 1487,
+      "votes_rejected_perc": 1.7338479297599199
+    },
+    {
+      "seat": "P.162 Gelang Patah",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Lim Kit Siang",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UMNO"
+      ],
+      "party_lost_uid": [
+        "001-UMNO"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 106726,
+      "voter_turnout": 95068,
+      "voter_turnout_perc": 89.07670108502145,
+      "majority": 14762,
+      "majority_perc": 15.736733258000553,
+      "votes_rejected": 1059,
+      "votes_rejected_perc": 1.1163231961208033
+    },
+    {
+      "seat": "P.163 Kulai",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Teo Nie Ching",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "MCA",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "003-MCA",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 83991,
+      "voter_turnout": 75015,
+      "voter_turnout_perc": 89.31314069364575,
+      "majority": 13450,
+      "majority_perc": 18.308287052161603,
+      "votes_rejected": 1432,
+      "votes_rejected_perc": 1.9119846186712242
+    },
+    {
+      "seat": "P.164 Pontian",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Ahmad bin Maslan",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 49633,
+      "voter_turnout": 42831,
+      "voter_turnout_perc": 86.29540829689924,
+      "majority": 13727,
+      "majority_perc": 32.77619923115494,
+      "votes_rejected": 871,
+      "votes_rejected_perc": 2.0373315868263475
+    },
+    {
+      "seat": "P.165 Tanjong Piai",
+      "state": "Johor",
+      "date": "2013-05-05",
+      "name": "Wee Jeck Seng",
+      "party": "MCA",
+      "party_uid": "003-MCA",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "DAP"
+      ],
+      "party_lost_uid": [
+        "021-DAP"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 51875,
+      "voter_turnout": 45622,
+      "voter_turnout_perc": 87.94602409638554,
+      "majority": 5457,
+      "majority_perc": 12.23021582733813,
+      "votes_rejected": 918,
+      "votes_rejected_perc": 2.015943079254233
+    },
+    {
+      "seat": "P.166 Labuan",
+      "state": "W.P. Labuan",
+      "date": "2013-05-05",
+      "name": "Rozman bin Isli",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR",
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "078-PKR",
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 3,
+      "voters_total": 24474,
+      "voter_turnout": 19377,
+      "voter_turnout_perc": 79.17381711203726,
+      "majority": 6625,
+      "majority_perc": 34.59710689853256,
+      "votes_rejected": 207,
+      "votes_rejected_perc": 1.069435833849969
+    },
+    {
+      "seat": "P.167 Kudat",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Abdul Rahim Bakri",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "SAPP",
+        "PKR",
+        "STAR"
+      ],
+      "party_lost_uid": [
+        "068-SAPP",
+        "078-PKR",
+        "072-STAR-SWK"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 4,
+      "voters_total": 47249,
+      "voter_turnout": 36421,
+      "voter_turnout_perc": 77.08311287011365,
+      "majority": 12376,
+      "majority_perc": 34.92493509425443,
+      "votes_rejected": 919,
+      "votes_rejected_perc": 2.52785036446156
+    },
+    {
+      "seat": "P.168 Kota Marudu",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Maximus bin Ongkili (Johnity)",
+      "party": "PBS",
+      "party_uid": "054-PBS",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "STAR",
+        "SAPP",
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "072-STAR-SWK",
+        "068-SAPP",
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 4,
+      "voters_total": 42197,
+      "voter_turnout": 33125,
+      "voter_turnout_perc": 78.50084129203498,
+      "majority": 842,
+      "majority_perc": 2.617670832556115,
+      "votes_rejected": 911,
+      "votes_rejected_perc": 2.7541796414426942
+    },
+    {
+      "seat": "P.169 Kota Belud",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Abdul Rahman bin Dahlan",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR",
+        "BEBAS",
+        "STAR"
+      ],
+      "party_lost_uid": [
+        "078-PKR",
+        "000-BEBAS",
+        "072-STAR-SWK"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 5,
+      "voters_total": 51467,
+      "voter_turnout": 43502,
+      "voter_turnout_perc": 84.5240639633163,
+      "majority": 5095,
+      "majority_perc": 12.04093207921728,
+      "votes_rejected": 1109,
+      "votes_rejected_perc": 2.553946065449186
+    },
+    {
+      "seat": "P.170 Tuaran",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Wilfred Madius Tangau",
+      "party": "UPKO",
+      "party_uid": "066-UPKO-1",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "STAR",
+        "BEBAS",
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "072-STAR-SWK",
+        "000-BEBAS",
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 4,
+      "voters_total": 48276,
+      "voter_turnout": 40849,
+      "voter_turnout_perc": 84.6155439555887,
+      "majority": 5190,
+      "majority_perc": 12.990263559682628,
+      "votes_rejected": 807,
+      "votes_rejected_perc": 1.9798822374877332
+    },
+    {
+      "seat": "P.171 Sepanggar",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Jumat bin Idris",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "SAPP",
+        "STAR",
+        "DAP"
+      ],
+      "party_lost_uid": [
+        "068-SAPP",
+        "072-STAR-SWK",
+        "021-DAP"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 4,
+      "voters_total": 53374,
+      "voter_turnout": 43500,
+      "voter_turnout_perc": 81.50035597856635,
+      "majority": 9442,
+      "majority_perc": 22.348457951667495,
+      "votes_rejected": 1167,
+      "votes_rejected_perc": 2.687949143173024
+    },
+    {
+      "seat": "P.172 Kota Kinabalu",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Jimmy Wong Sze Phin",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "PBS",
+        "STAR"
+      ],
+      "party_lost_uid": [
+        "054-PBS",
+        "072-STAR-SWK"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 50516,
+      "voter_turnout": 39548,
+      "voter_turnout_perc": 78.28806714704251,
+      "majority": 18959,
+      "majority_perc": 48.635267559386385,
+      "votes_rejected": 506,
+      "votes_rejected_perc": 1.2814019448946514
+    },
+    {
+      "seat": "P.173 Putatan",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Marcus Mojigoh (Makin)",
+      "party": "UPKO",
+      "party_uid": "066-UPKO-1",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "DAP",
+        "SAPP",
+        "STAR"
+      ],
+      "party_lost_uid": [
+        "021-DAP",
+        "068-SAPP",
+        "072-STAR-SWK"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 4,
+      "voters_total": 37490,
+      "voter_turnout": 29936,
+      "voter_turnout_perc": 79.85062683382236,
+      "majority": 9507,
+      "majority_perc": 32.67571747722977,
+      "votes_rejected": 665,
+      "votes_rejected_perc": 2.2345430107526885
+    },
+    {
+      "seat": "P.174 Penampang",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Ignatius Dorell Leiking (Darell Leiking)",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "UPKO",
+        "STAR"
+      ],
+      "party_lost_uid": [
+        "066-UPKO-1",
+        "072-STAR-SWK"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 44323,
+      "voter_turnout": 36882,
+      "voter_turnout_perc": 83.2118764524062,
+      "majority": 10216,
+      "majority_perc": 28.299952907282748,
+      "votes_rejected": 719,
+      "votes_rejected_perc": 1.952849149872345
+    },
+    {
+      "seat": "P.175 Papar",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Rosnah binti Abdul Rashid Shirlin",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR",
+        "STAR"
+      ],
+      "party_lost_uid": [
+        "078-PKR",
+        "072-STAR-SWK"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 38771,
+      "voter_turnout": 33262,
+      "voter_turnout_perc": 85.79092620773258,
+      "majority": 10535,
+      "majority_perc": 32.22205230157517,
+      "votes_rejected": 499,
+      "votes_rejected_perc": 1.5032837259745737
+    },
+    {
+      "seat": "P.176 Kimanis",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Anifah bin Aman",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR",
+        "SAPP",
+        "STAR"
+      ],
+      "party_lost_uid": [
+        "078-PKR",
+        "068-SAPP",
+        "072-STAR-SWK"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 4,
+      "voters_total": 26628,
+      "voter_turnout": 23170,
+      "voter_turnout_perc": 87.0136698212408,
+      "majority": 5723,
+      "majority_perc": 25.239250275633957,
+      "votes_rejected": 453,
+      "votes_rejected_perc": 1.958664821860948
+    },
+    {
+      "seat": "P.177 Beaufort",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Azizah Mohd Dun",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "STAR",
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "072-STAR-SWK",
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 3,
+      "voters_total": 30097,
+      "voter_turnout": 26000,
+      "voter_turnout_perc": 86.38734757617038,
+      "majority": 672,
+      "majority_perc": 2.646607065495648,
+      "votes_rejected": 559,
+      "votes_rejected_perc": 2.1541425818882463
+    },
+    {
+      "seat": "P.178 Sipitang",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Sapawi bin Amat Wasali",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "SAPP",
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "068-SAPP",
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 3,
+      "voters_total": 29177,
+      "voter_turnout": 24387,
+      "voter_turnout_perc": 83.58295918017616,
+      "majority": 9469,
+      "majority_perc": 39.80243799915931,
+      "votes_rejected": 539,
+      "votes_rejected_perc": 2.2154630276624605
+    },
+    {
+      "seat": "P.179 Ranau",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Ewon Ebin",
+      "party": "UPKO",
+      "party_uid": "066-UPKO-1",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR",
+        "BEBAS",
+        "STAR"
+      ],
+      "party_lost_uid": [
+        "078-PKR",
+        "000-BEBAS",
+        "072-STAR-SWK"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 4,
+      "voters_total": 39053,
+      "voter_turnout": 31458,
+      "voter_turnout_perc": 80.55207026348809,
+      "majority": 3611,
+      "majority_perc": 11.750732183534005,
+      "votes_rejected": 666,
+      "votes_rejected_perc": 2.121289336221175
+    },
+    {
+      "seat": "P.180 Keningau",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Joseph Pairin Kitingan",
+      "party": "PBS",
+      "party_uid": "054-PBS",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "STAR",
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "072-STAR-SWK",
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 3,
+      "voters_total": 43691,
+      "voter_turnout": 36144,
+      "voter_turnout_perc": 82.7264196287565,
+      "majority": 3918,
+      "majority_perc": 11.023267591368203,
+      "votes_rejected": 555,
+      "votes_rejected_perc": 1.5374813009030972
+    },
+    {
+      "seat": "P.181 Tenom",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Raime bin Unggi",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "KITA",
+        "SAPP",
+        "PKR",
+        "STAR"
+      ],
+      "party_lost_uid": [
+        "070-KITA",
+        "068-SAPP",
+        "078-PKR",
+        "072-STAR-SWK"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 5,
+      "voters_total": 25304,
+      "voter_turnout": 20944,
+      "voter_turnout_perc": 82.76952260512172,
+      "majority": 3886,
+      "majority_perc": 19.14851680299596,
+      "votes_rejected": 632,
+      "votes_rejected_perc": 3.020166300296282
+    },
+    {
+      "seat": "P.182 Pensiangan",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Joseph Kurup",
+      "party": "PBRS",
+      "party_uid": "067-PBRS-SBH",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "STAR",
+        "PKR",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "072-STAR-SWK",
+        "078-PKR",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 4,
+      "voters_total": 26194,
+      "voter_turnout": 21391,
+      "voter_turnout_perc": 81.66373978773765,
+      "majority": 1744,
+      "majority_perc": 8.346094946401225,
+      "votes_rejected": 483,
+      "votes_rejected_perc": 2.259226343608214
+    },
+    {
+      "seat": "P.183 Beluran",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Ronald Kiandee",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "STAR",
+        "PKR",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "072-STAR-SWK",
+        "078-PKR",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 4,
+      "voters_total": 24688,
+      "voter_turnout": 18915,
+      "voter_turnout_perc": 76.61616979909269,
+      "majority": 9988,
+      "majority_perc": 54.39494608430454,
+      "votes_rejected": 552,
+      "votes_rejected_perc": 2.9184730887173522
+    },
+    {
+      "seat": "P.184 Libaran",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Juslie bin Ajirol",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "BEBAS",
+        "PKR",
+        "STAR"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "078-PKR",
+        "072-STAR-SWK"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 4,
+      "voters_total": 39772,
+      "voter_turnout": 32119,
+      "voter_turnout_perc": 80.75781957155787,
+      "majority": 11586,
+      "majority_perc": 37.012426923937,
+      "votes_rejected": 713,
+      "votes_rejected_perc": 2.227011494252874
+    },
+    {
+      "seat": "P.185 Batu Sapi",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Linda Tsen Thau Lin",
+      "party": "PBS",
+      "party_uid": "054-PBS",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS",
+        "STAR"
+      ],
+      "party_lost_uid": [
+        "004-PAS",
+        "072-STAR-SWK"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 30199,
+      "voter_turnout": 23400,
+      "voter_turnout_perc": 77.48600947051227,
+      "majority": 3798,
+      "majority_perc": 16.671056096918623,
+      "votes_rejected": 574,
+      "votes_rejected_perc": 2.457612604898099
+    },
+    {
+      "seat": "P.186 Sandakan",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Stephen Wong Tien Fatt",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "LDP"
+      ],
+      "party_lost_uid": [
+        "059-LDP"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 37058,
+      "voter_turnout": 27923,
+      "voter_turnout_perc": 75.34945221004912,
+      "majority": 1088,
+      "majority_perc": 3.9760268966525363,
+      "votes_rejected": 525,
+      "votes_rejected_perc": 1.8824626196708378
+    },
+    {
+      "seat": "P.187 Kinabatangan",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Bung Moktar bin Radin",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR",
+        "BEBAS",
+        "STAR"
+      ],
+      "party_lost_uid": [
+        "078-PKR",
+        "000-BEBAS",
+        "072-STAR-SWK"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 4,
+      "voters_total": 24748,
+      "voter_turnout": 19997,
+      "voter_turnout_perc": 80.80248909002748,
+      "majority": 9731,
+      "majority_perc": 50.40401947581062,
+      "votes_rejected": 654,
+      "votes_rejected_perc": 3.276553106212425
+    },
+    {
+      "seat": "P.188 Silam",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Nasrun bin Mansur",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "STAR",
+        "PKR",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "072-STAR-SWK",
+        "078-PKR",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 4,
+      "voters_total": 51662,
+      "voter_turnout": 39663,
+      "voter_turnout_perc": 76.77403120281832,
+      "majority": 13387,
+      "majority_perc": 34.745256819538525,
+      "votes_rejected": 1077,
+      "votes_rejected_perc": 2.7192849568247235
+    },
+    {
+      "seat": "P.189 Semporna",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Mohd Shafie bin Apdal",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "078-PKR",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 41549,
+      "voter_turnout": 31595,
+      "voter_turnout_perc": 76.04274471106405,
+      "majority": 20905,
+      "majority_perc": 68.45569454450194,
+      "votes_rejected": 985,
+      "votes_rejected_perc": 3.1247025981029726
+    },
+    {
+      "seat": "P.190 Tawau",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Mary Yap Kain Ching",
+      "party": "PBS",
+      "party_uid": "054-PBS",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR",
+        "SAPP",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "078-PKR",
+        "068-SAPP",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 4,
+      "voters_total": 51538,
+      "voter_turnout": 39787,
+      "voter_turnout_perc": 77.19934805386318,
+      "majority": 4979,
+      "majority_perc": 12.809694100697214,
+      "votes_rejected": 789,
+      "votes_rejected_perc": 1.989510313177669
+    },
+    {
+      "seat": "P.191 Kalabakan",
+      "state": "Sabah",
+      "date": "2013-05-05",
+      "name": "Abdul Ghapur bin Salleh",
+      "party": "UMNO",
+      "party_uid": "001-UMNO",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "BEBAS",
+        "STAR",
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "072-STAR-SWK",
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 7,
+      "voters_total": 46793,
+      "voter_turnout": 36230,
+      "voter_turnout_perc": 77.42611074305987,
+      "majority": 14221,
+      "majority_perc": 40.50989887480416,
+      "votes_rejected": 1027,
+      "votes_rejected_perc": 2.8423558064873244
+    },
+    {
+      "seat": "P.192 Mas Gading",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Nogeh anak Gumbek",
+      "party": "SPDP",
+      "party_uid": "077-SPDP",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "STAR",
+        "DAP",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "072-STAR-SWK",
+        "021-DAP",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 4,
+      "voters_total": 25771,
+      "voter_turnout": 20384,
+      "voter_turnout_perc": 79.09665903534982,
+      "majority": 2156,
+      "majority_perc": 10.710914600824681,
+      "votes_rejected": 224,
+      "votes_rejected_perc": 1.1005748538299023
+    },
+    {
+      "seat": "P.193 Santubong",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Wan Junaidi bin Tuanku Jaafar",
+      "party": "PBB",
+      "party_uid": "029-PBB",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "BEBAS",
+        "PKR",
+        "STAR"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "078-PKR",
+        "072-STAR-SWK"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 4,
+      "voters_total": 37017,
+      "voter_turnout": 29286,
+      "voter_turnout_perc": 79.11500121565767,
+      "majority": 20936,
+      "majority_perc": 72.66164578488876,
+      "votes_rejected": 394,
+      "votes_rejected_perc": 1.348991680076694
+    },
+    {
+      "seat": "P.194 Petra Jaya",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Fadillah bin Yusof",
+      "party": "PBB",
+      "party_uid": "029-PBB",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 49750,
+      "voter_turnout": 38170,
+      "voter_turnout_perc": 76.72361809045226,
+      "majority": 21443,
+      "majority_perc": 56.91572660915727,
+      "votes_rejected": 321,
+      "votes_rejected_perc": 0.8448257711338036
+    },
+    {
+      "seat": "P.195 Bandar Kuching",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Chong Chieng Jen",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "SUPP"
+      ],
+      "party_lost_uid": [
+        "013-SUPP"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 53336,
+      "voter_turnout": 40879,
+      "voter_turnout_perc": 76.64429278536073,
+      "majority": 19642,
+      "majority_perc": 48.35072863332021,
+      "votes_rejected": 201,
+      "votes_rejected_perc": 0.4923453766074709
+    },
+    {
+      "seat": "P.196 Stampin",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Julian Tan Kok Ping",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "SUPP",
+        "STAR"
+      ],
+      "party_lost_uid": [
+        "013-SUPP",
+        "072-STAR-SWK"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 84732,
+      "voter_turnout": 65515,
+      "voter_turnout_perc": 77.3202568097059,
+      "majority": 18670,
+      "majority_perc": 28.76955081285153,
+      "votes_rejected": 488,
+      "votes_rejected_perc": 0.7463713809399997
+    },
+    {
+      "seat": "P.197 Kota Samarahan",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Rubiah binti Wang",
+      "party": "PBB",
+      "party_uid": "029-PBB",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 38158,
+      "voter_turnout": 31612,
+      "voter_turnout_perc": 82.84501284134389,
+      "majority": 17401,
+      "majority_perc": 56.12682643615135,
+      "votes_rejected": 528,
+      "votes_rejected_perc": 1.6745425137166599
+    },
+    {
+      "seat": "P.198 Mambong",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "James Dawos Mamit",
+      "party": "PBB",
+      "party_uid": "029-PBB",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR",
+        "STAR"
+      ],
+      "party_lost_uid": [
+        "078-PKR",
+        "072-STAR-SWK"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 42344,
+      "voter_turnout": 32695,
+      "voter_turnout_perc": 77.21282826374457,
+      "majority": 9721,
+      "majority_perc": 30.46857859269707,
+      "votes_rejected": 674,
+      "votes_rejected_perc": 2.068817336320943
+    },
+    {
+      "seat": "P.199 Serian",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Richard Riot anak Jaem",
+      "party": "SUPP",
+      "party_uid": "013-SUPP",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "DAP",
+        "STAR"
+      ],
+      "party_lost_uid": [
+        "021-DAP",
+        "072-STAR-SWK"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 33713,
+      "voter_turnout": 26562,
+      "voter_turnout_perc": 78.78859787025776,
+      "majority": 13151,
+      "majority_perc": 50.142982422694175,
+      "votes_rejected": 296,
+      "votes_rejected_perc": 1.1160125174376956
+    },
+    {
+      "seat": "P.200 Batang Sadong",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Nancy Shukri",
+      "party": "PBB",
+      "party_uid": "029-PBB",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 19839,
+      "voter_turnout": 15541,
+      "voter_turnout_perc": 78.33560159282223,
+      "majority": 11260,
+      "majority_perc": 73.6236432587943,
+      "votes_rejected": 227,
+      "votes_rejected_perc": 1.462534630500612
+    },
+    {
+      "seat": "P.201 Batang Lupar",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Rohani binti Abdul Karim",
+      "party": "PBB",
+      "party_uid": "029-PBB",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 27360,
+      "voter_turnout": 20754,
+      "voter_turnout_perc": 75.85526315789474,
+      "majority": 10964,
+      "majority_perc": 54.04712609681553,
+      "votes_rejected": 425,
+      "votes_rejected_perc": 2.0520496354594178
+    },
+    {
+      "seat": "P.202 Sri Aman",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Masir anak Kujat",
+      "party": "PRS",
+      "party_uid": "080-PRS-SWK",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR",
+        "SWP",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "078-PKR",
+        "065-SWP",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 4,
+      "voters_total": 29789,
+      "voter_turnout": 22409,
+      "voter_turnout_perc": 75.22575447312767,
+      "majority": 6550,
+      "majority_perc": 29.599168511907454,
+      "votes_rejected": 224,
+      "votes_rejected_perc": 1.0021026260457209
+    },
+    {
+      "seat": "P.203 Lubok Antu",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "William Nyallau anak Badak",
+      "party": "PRS",
+      "party_uid": "080-PRS-SWK",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR",
+        "SWP"
+      ],
+      "party_lost_uid": [
+        "078-PKR",
+        "065-SWP"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 19303,
+      "voter_turnout": 15166,
+      "voter_turnout_perc": 78.56809822307413,
+      "majority": 4091,
+      "majority_perc": 27.282427475825276,
+      "votes_rejected": 143,
+      "votes_rejected_perc": 0.9446426212181267
+    },
+    {
+      "seat": "P.204 Betong",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Douglas Uggah Embas",
+      "party": "PBB",
+      "party_uid": "029-PBB",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 26322,
+      "voter_turnout": 20439,
+      "voter_turnout_perc": 77.64987462958742,
+      "majority": 10887,
+      "majority_perc": 54.258659357089456,
+      "votes_rejected": 315,
+      "votes_rejected_perc": 1.5456329735034346
+    },
+    {
+      "seat": "P.205 Saratok",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "William Mawan Ikom",
+      "party": "SPDP",
+      "party_uid": "077-SPDP",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "078-PKR",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 27562,
+      "voter_turnout": 22136,
+      "voter_turnout_perc": 80.31347507437778,
+      "majority": 2081,
+      "majority_perc": 9.545871559633028,
+      "votes_rejected": 258,
+      "votes_rejected_perc": 1.16964366669689
+    },
+    {
+      "seat": "P.206 Tanjong Manis",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Norah binti Abdul Rahman",
+      "party": "PBB",
+      "party_uid": "029-PBB",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 19215,
+      "voter_turnout": 14402,
+      "voter_turnout_perc": 74.95186052563102,
+      "majority": 10964,
+      "majority_perc": 77.72579044378278,
+      "votes_rejected": 238,
+      "votes_rejected_perc": 1.6592303402119355
+    },
+    {
+      "seat": "P.207 Igan",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Wahab bin Dolah",
+      "party": "PBB",
+      "party_uid": "029-PBB",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 17771,
+      "voter_turnout": 13898,
+      "voter_turnout_perc": 78.2060660626864,
+      "majority": 10149,
+      "majority_perc": 74.3897969654768,
+      "votes_rejected": 222,
+      "votes_rejected_perc": 1.6011539848539487
+    },
+    {
+      "seat": "P.208 Sarikei",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Wong Ling Biu",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "SUPP"
+      ],
+      "party_lost_uid": [
+        "013-SUPP"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 36550,
+      "voter_turnout": 28353,
+      "voter_turnout_perc": 77.5731874145007,
+      "majority": 505,
+      "majority_perc": 1.8022197637486173,
+      "votes_rejected": 277,
+      "votes_rejected_perc": 0.9788677645063255
+    },
+    {
+      "seat": "P.209 Julau",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Joseph Salang anak Gandum",
+      "party": "PRS",
+      "party_uid": "080-PRS-SWK",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "SWP",
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "065-SWP",
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 3,
+      "voters_total": 22522,
+      "voter_turnout": 16973,
+      "voter_turnout_perc": 75.36186839534678,
+      "majority": 5955,
+      "majority_perc": 35.70357935128005,
+      "votes_rejected": 278,
+      "votes_rejected_perc": 1.6394409388453146
+    },
+    {
+      "seat": "P.210 Kanowit",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Aaron Ago Dagang",
+      "party": "PRS",
+      "party_uid": "080-PRS-SWK",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "SWP",
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "065-SWP",
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 3,
+      "voters_total": 19433,
+      "voter_turnout": 13759,
+      "voter_turnout_perc": 70.80224360623681,
+      "majority": 3042,
+      "majority_perc": 22.588549788371576,
+      "votes_rejected": 276,
+      "votes_rejected_perc": 2.008295132067234
+    },
+    {
+      "seat": "P.211 Lanang",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Alice Lau Kiong Yieng",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "SUPP"
+      ],
+      "party_lost_uid": [
+        "013-SUPP"
+      ],
+      "coalition_lost": [
+        "BN"
+      ],
+      "coalition_lost_uid": [
+        "001-BN"
+      ],
+      "n_candidates": 2,
+      "voters_total": 57143,
+      "voter_turnout": 44956,
+      "voter_turnout_perc": 78.67280331799171,
+      "majority": 8630,
+      "majority_perc": 19.351511346309085,
+      "votes_rejected": 304,
+      "votes_rejected_perc": 0.6770601336302895
+    },
+    {
+      "seat": "P.212 Sibu",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Oscar Ling Chai Yew",
+      "party": "DAP",
+      "party_uid": "021-DAP",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "SUPP",
+        "BEBAS"
+      ],
+      "party_lost_uid": [
+        "013-SUPP",
+        "000-BEBAS"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 64601,
+      "voter_turnout": 51588,
+      "voter_turnout_perc": 79.85634897292611,
+      "majority": 2841,
+      "majority_perc": 5.572992271175801,
+      "votes_rejected": 496,
+      "votes_rejected_perc": 0.9635932703889343
+    },
+    {
+      "seat": "P.213 Mukah",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Muhammad Leo Michael Toyad bin Abdullah",
+      "party": "PBB",
+      "party_uid": "029-PBB",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "BEBAS",
+        "DAP"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "021-DAP"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 3,
+      "voters_total": 26477,
+      "voter_turnout": 19879,
+      "voter_turnout_perc": 75.08025833742494,
+      "majority": 12764,
+      "majority_perc": 65.72267133515267,
+      "votes_rejected": 417,
+      "votes_rejected_perc": 2.1020264139530194
+    },
+    {
+      "seat": "P.214 Selangau",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Joseph Entulu Belaun",
+      "party": "PRS",
+      "party_uid": "080-PRS-SWK",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "SWP",
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "065-SWP",
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 3,
+      "voters_total": 25461,
+      "voter_turnout": 20753,
+      "voter_turnout_perc": 81.50897451003496,
+      "majority": 7555,
+      "majority_perc": 37.005289968652036,
+      "votes_rejected": 309,
+      "votes_rejected_perc": 1.490952955367913
+    },
+    {
+      "seat": "P.215 Kapit",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Alexander Nanta Linggi",
+      "party": "PBB",
+      "party_uid": "029-PBB",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "DAP"
+      ],
+      "party_lost_uid": [
+        "021-DAP"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 26195,
+      "voter_turnout": 17474,
+      "voter_turnout_perc": 66.70738690589808,
+      "majority": 9731,
+      "majority_perc": 56.70415476953558,
+      "votes_rejected": 271,
+      "votes_rejected_perc": 1.554612207434603
+    },
+    {
+      "seat": "P.216 Hulu Rajang",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Wilson Ugak anak Kumbong",
+      "party": "PRS",
+      "party_uid": "080-PRS-SWK",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "SWP",
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "065-SWP",
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 3,
+      "voters_total": 21686,
+      "voter_turnout": 14763,
+      "voter_turnout_perc": 68.07617817947063,
+      "majority": 5834,
+      "majority_perc": 40.15417440980109,
+      "votes_rejected": 213,
+      "votes_rejected_perc": 1.444851444851445
+    },
+    {
+      "seat": "P.217 Bintulu",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Tiong King Sing",
+      "party": "SPDP",
+      "party_uid": "077-SPDP",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "DAP"
+      ],
+      "party_lost_uid": [
+        "021-DAP"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 59893,
+      "voter_turnout": 45968,
+      "voter_turnout_perc": 76.75020453141435,
+      "majority": 7433,
+      "majority_perc": 16.34236967658246,
+      "votes_rejected": 458,
+      "votes_rejected_perc": 0.9969308460851962
+    },
+    {
+      "seat": "P.218 Sibuti",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Ahmad Lai bin Bujang",
+      "party": "PBB",
+      "party_uid": "029-PBB",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PAS"
+      ],
+      "party_lost_uid": [
+        "004-PAS"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 28351,
+      "voter_turnout": 20947,
+      "voter_turnout_perc": 73.88451906458326,
+      "majority": 6066,
+      "majority_perc": 29.403780901599614,
+      "votes_rejected": 288,
+      "votes_rejected_perc": 1.3768046658380342
+    },
+    {
+      "seat": "P.219 Miri",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Michael Teo Yu Keng",
+      "party": "PKR",
+      "party_uid": "078-PKR",
+      "coalition": "PR",
+      "coalition_uid": "007-PR",
+      "party_lost": [
+        "SUPP",
+        "STAR"
+      ],
+      "party_lost_uid": [
+        "013-SUPP",
+        "072-STAR-SWK"
+      ],
+      "coalition_lost": [
+        "BN",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "001-BN",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 71170,
+      "voter_turnout": 52813,
+      "voter_turnout_perc": 74.20682871996628,
+      "majority": 1992,
+      "majority_perc": 3.8210695925727,
+      "votes_rejected": 630,
+      "votes_rejected_perc": 1.1940411659906751
+    },
+    {
+      "seat": "P.220 Baram",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Anyi Ngau",
+      "party": "SPDP",
+      "party_uid": "077-SPDP",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "BEBAS",
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "000-BEBAS",
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "ALONE",
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "000-ALONE",
+        "007-PR"
+      ],
+      "n_candidates": 3,
+      "voters_total": 29385,
+      "voter_turnout": 18796,
+      "voter_turnout_perc": 63.96460779309171,
+      "majority": 194,
+      "majority_perc": 1.0467814169319591,
+      "votes_rejected": 242,
+      "votes_rejected_perc": 1.288948069241012
+    },
+    {
+      "seat": "P.221 Limbang",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Hasbi bin Habibollah",
+      "party": "PBB",
+      "party_uid": "029-PBB",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "PKR"
+      ],
+      "party_lost_uid": [
+        "078-PKR"
+      ],
+      "coalition_lost": [
+        "PR"
+      ],
+      "coalition_lost_uid": [
+        "007-PR"
+      ],
+      "n_candidates": 2,
+      "voters_total": 24278,
+      "voter_turnout": 17912,
+      "voter_turnout_perc": 73.7787297141445,
+      "majority": 8301,
+      "majority_perc": 46.906255297508054,
+      "votes_rejected": 162,
+      "votes_rejected_perc": 0.9071056610112548
+    },
+    {
+      "seat": "P.222 Lawas",
+      "state": "Sarawak",
+      "date": "2013-05-05",
+      "name": "Henry Sum Agong",
+      "party": "PBB",
+      "party_uid": "029-PBB",
+      "coalition": "BN",
+      "coalition_uid": "001-BN",
+      "party_lost": [
+        "DAP",
+        "STAR"
+      ],
+      "party_lost_uid": [
+        "021-DAP",
+        "072-STAR-SWK"
+      ],
+      "coalition_lost": [
+        "PR",
+        "ALONE"
+      ],
+      "coalition_lost_uid": [
+        "007-PR",
+        "000-ALONE"
+      ],
+      "n_candidates": 3,
+      "voters_total": 18845,
+      "voter_turnout": 14113,
+      "voter_turnout_perc": 74.88989121782966,
+      "majority": 6030,
+      "majority_perc": 43.39690536164088,
+      "votes_rejected": 177,
+      "votes_rejected_perc": 1.2578169414440021
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+---
+import PageLayout from '~/layouts/PageLayout.astro';
+
+export async function getStaticPaths() {
+  const PRU_MAP = {
+    'ge-15': { num: '15', year: '2022', name: 'Pilihan Raya Umum ke-15' },
+    'ge-14': { num: '14', year: '2018', name: 'Pilihan Raya Umum ke-14' },
+    'ge-13': { num: '13', year: '2013', name: 'Pilihan Raya Umum ke-13' },
+  };
+  return Object.entries(PRU_MAP).map(([slug, info]) => ({
+    params: { slug },
+    props: { slug, info },
+  }));
+}
+
+const { slug, info } = Astro.props;
+
+// Import cached election data for this PRU (using relative paths for build compatibility)
+let byParty = { by_party: [] };
+let bySeat = { by_seat: [] };
+let stats = { stats: [{}] };
+
+try {
+  byParty = (await import(`../../../data/election/election_${slug}_malaysia_by_party.json`)).default;
+  bySeat = (await import(`../../../data/election/election_${slug}_malaysia_by_seat.json`)).default;
+  stats = (await import(`../../../data/election/election_${slug}_malaysia_stats.json`)).default;
+} catch (e) {
+  console.warn(`Could not load election data for ${slug}:`, e.message);
+}
+
+const partyData = byParty?.by_party || [];
+const seatData = bySeat?.by_seat || [];
+const statsData = stats?.stats?.[0] || {};
+
+// Sort parties by seats_won descending
+const sortedParties = [...partyData].sort((a, b) => (b.seats_won || 0) - (a.seats_won || 0));
+const winningParty = sortedParties[0];
+
+// Coalition totals
+const coalitionTotals = {};
+partyData.forEach(p => {
+  const coalition = p.coalition === 'ALONE' ? 'Bebas' : (p.coalition || 'Bebas');
+  coalitionTotals[coalition] = (coalitionTotals[coalition] || 0) + (p.seats_won || 0);
+});
+const sortedCoalitions = Object.entries(coalitionTotals).sort((a, b) => b[1] - a[1]);
+
+const metadata = {
+  title: `${info.name} (${info.year}) — Keputusan PRU-${info.num} | RakyatHub`,
+  description: `Keputusan penuh ${info.name} (PRU-${info.num}) tahun ${info.year}. ${winningParty?.party || '?'} menang ${winningParty?.seats_won || 0} kerusi. Turnout ${statsData.voter_turnout_perc?.toFixed(1)}%.`,
+};
+---
+
+<PageLayout metadata={metadata}>
+<section class="max-w-5xl mx-auto px-4 sm:px-6 py-8 md:py-12">
+  <!-- Breadcrumb -->
+  <div class="flex items-center gap-2 text-xs text-muted/60 mb-1 flex-wrap">
+    <a href="/" class="hover:text-primary">Laman Utama</a>
+    <span>/</span>
+    <a href="/pilihan-raya/" class="hover:text-primary">Pilihan Raya</a>
+    <span>/</span>
+    <span>PRU-{info.num}</span>
+  </div>
+
+  <!-- Header with PRU switcher -->
+  <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3 mb-6">
+    <div>
+      <h1 class="text-2xl sm:text-4xl font-bold tracking-tight">{info.name} ({info.year})</h1>
+      <p class="text-sm text-muted/70 mt-1">
+        Keputusan penuh Pilihan Raya Umum ke-{info.num} — peringkat Kebangsaan (Parlimen)
+      </p>
+    </div>
+    <div class="flex gap-2">
+      <a href="/pilihan-raya/pru/ge-15/"
+         class={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors ${slug === 'ge-15' ? 'bg-primary text-white' : 'bg-gray-100 dark:bg-slate-800 text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-slate-700'}`}>
+        PRU-15
+      </a>
+      <a href="/pilihan-raya/pru/ge-14/"
+         class={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors ${slug === 'ge-14' ? 'bg-primary text-white' : 'bg-gray-100 dark:bg-slate-800 text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-slate-700'}`}>
+        PRU-14
+      </a>
+      <a href="/pilihan-raya/pru/ge-13/"
+         class={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors ${slug === 'ge-13' ? 'bg-primary text-white' : 'bg-gray-100 dark:bg-slate-800 text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-slate-700'}`}>
+        PRU-13
+      </a>
+    </div>
+  </div>
+
+  <!-- Hero Stats Card -->
+  <div class="rounded-2xl bg-gradient-to-br from-slate-800 to-slate-900 text-white p-6 sm:p-8 mb-6">
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+      <div class="bg-white/10 rounded-xl p-3.5">
+        <p class="text-[10px] text-slate-400 uppercase tracking-wider">Menang</p>
+        <p class="text-xl sm:text-2xl font-bold mt-0.5">{winningParty?.party || '?'}</p>
+        <p class="text-[11px] text-slate-400/80">{winningParty?.seats_won || 0}/{winningParty?.seats_total || 222} kerusi</p>
+      </div>
+      <div class="bg-white/10 rounded-xl p-3.5">
+        <p class="text-[10px] text-slate-400 uppercase tracking-wider">Jumlah Pengundi</p>
+        <p class="text-xl sm:text-2xl font-bold mt-0.5">{(statsData.voters_total || 0).toLocaleString()}</p>
+        <p class="text-[11px] text-slate-400/80">berdaftar</p>
+      </div>
+      <div class="bg-white/10 rounded-xl p-3.5">
+        <p class="text-[10px] text-slate-400 uppercase tracking-wider">Peratus Keluar Mengundi</p>
+        <p class="text-xl sm:text-2xl font-bold mt-0.5">{statsData.voter_turnout_perc?.toFixed(1) || '?'}%</p>
+        <p class="text-[11px] text-slate-400/80">{(statsData.voter_turnout || 0).toLocaleString()} undi</p>
+      </div>
+      <div class="bg-white/10 rounded-xl p-3.5">
+        <p class="text-[10px] text-slate-400 uppercase tracking-wider">Undi Rosak</p>
+        <p class="text-xl sm:text-2xl font-bold mt-0.5">{statsData.votes_rejected_perc?.toFixed(2) || '?'}%</p>
+        <p class="text-[11px] text-slate-400/80">{(statsData.votes_rejected || 0).toLocaleString()} undi</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Party Breakdown Table -->
+  <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 p-5 mb-6 overflow-hidden">
+    <h2 class="font-semibold text-lg mb-4">Keputusan Mengikut Parti</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="border-b border-gray-200 dark:border-slate-700 text-left text-xs text-muted/60 font-semibold uppercase tracking-wider">
+            <th class="pb-2 pr-2">Parti</th>
+            <th class="pb-2 pr-2">Gabungan</th>
+            <th class="pb-2 pr-2 text-right">Ditandingi</th>
+            <th class="pb-2 pr-2 text-right">Menang</th>
+          </tr>
+        </thead>
+        <tbody>
+          {sortedParties.map(p => (
+            <tr class="border-b border-gray-100 dark:border-slate-800/60 hover:bg-gray-50 dark:hover:bg-slate-800/40 transition-colors">
+              <td class="py-2.5 pr-2 font-medium">{p.party}</td>
+              <td class="py-2.5 pr-2 text-muted/70">
+                {p.coalition === 'ALONE' ? (
+                  <span class="text-xs bg-gray-100 dark:bg-slate-800 px-1.5 py-0.5 rounded">Bebas</span>
+                ) : p.coalition}
+              </td>
+              <td class="py-2.5 pr-2 text-right tabular-nums">{p.seats_contested ?? '-'}</td>
+              <td class="py-2.5 pr-2 text-right tabular-nums font-semibold">{p.seats_won ?? '-'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Coalition Summary -->
+  <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 p-5 mb-6">
+    <h2 class="font-semibold text-lg mb-4">Ringkasan Gabungan</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+      {sortedCoalitions.map(([coalition, seats]) => {
+        const pct = (seats / (winningParty?.seats_total || 222) * 100).toFixed(1);
+        return (
+          <div class="bg-gray-50 dark:bg-slate-800/40 rounded-xl p-3.5 border border-gray-100 dark:border-slate-700/30">
+            <p class="text-[11px] text-muted/60 uppercase tracking-wider font-semibold">{coalition}</p>
+            <p class="text-xl font-bold mt-0.5">{seats}</p>
+            <div class="w-full bg-gray-200 dark:bg-slate-700 rounded-full h-1.5 mt-2">
+              <div class="bg-primary h-1.5 rounded-full" style={`width: ${pct}%`}></div>
+            </div>
+            <p class="text-[11px] text-muted/60 mt-1">{pct}% kerusi</p>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+
+  <!-- All Seats List -->
+  <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 p-5 mb-6">
+    <h2 class="font-semibold text-lg mb-4">Keputusan Mengikut Kerusi</h2>
+    <div class="overflow-x-auto max-h-96 overflow-y-auto">
+      <table class="w-full text-sm">
+        <thead class="sticky top-0 bg-white dark:bg-slate-900">
+          <tr class="border-b border-gray-200 dark:border-slate-700 text-left text-xs text-muted/60 font-semibold uppercase tracking-wider">
+            <th class="pb-2 pr-2">Kerusi</th>
+            <th class="pb-2 pr-2">Negeri</th>
+            <th class="pb-2 pr-2">Pemenang</th>
+            <th class="pb-2 pr-2">Parti</th>
+          </tr>
+        </thead>
+        <tbody>
+          {seatData.map(s => (
+            <tr class="border-b border-gray-100 dark:border-slate-800/60 hover:bg-gray-50 dark:hover:bg-slate-800/40 transition-colors">
+              <td class="py-2 pr-2 font-medium whitespace-nowrap">{s.seat}</td>
+              <td class="py-2 pr-2 text-muted/70 whitespace-nowrap">{s.state}</td>
+              <td class="py-2 pr-2">{s.name}</td>
+              <td class="py-2 pr-2">
+                <span class="inline-flex px-2 py-0.5 rounded text-xs font-semibold bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400">{s.party}</span>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <div class="flex justify-between mt-8">
+    <a href="/pilihan-raya/" class="inline-flex items-center gap-1 text-sm text-muted/70 hover:text-primary transition-colors">← Kembali ke Pilihan Raya</a>
+    <a href="/pilihan-raya/prk/" class="inline-flex items-center gap-1 text-sm text-muted/70 hover:text-primary transition-colors">Lihat PRK →</a>
+  </div>
+</section>
+</PageLayout>

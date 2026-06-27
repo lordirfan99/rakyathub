@@ -1,0 +1,168 @@
+---
+import PageLayout from '~/layouts/PageLayout.astro';
+
+// Load cached seats for client-side search
+const seatsJson = (await import('~/data/election/seats.json')).default;
+const allSeats = seatsJson?.seats || [];
+
+const metadata = {
+  title: 'Cek Wakil Rakyat — Cari ADUN & MP Anda | RakyatHub',
+  description: 'Cari wakil rakyat anda — ADUN (Dewan Undangan Negeri) dan Ahli Parlimen Malaysia. Taip nama kawasan atau nombor DUN/Parlimen.',
+};
+
+// State groupings for filter
+const STATES = [
+  'Perlis', 'Kedah', 'Kelantan', 'Terengganu', 'Pulau Pinang', 'Perak',
+  'Pahang', 'Selangor', 'Negeri Sembilan', 'Melaka', 'Johor',
+  'Sabah', 'Sarawak',
+  'W.P. Kuala Lumpur', 'W.P. Labuan', 'W.P. Putrajaya'
+];
+---
+
+<PageLayout metadata={metadata}>
+<section class="max-w-5xl mx-auto px-4 sm:px-6 py-8 md:py-12">
+  <div class="flex items-center gap-2 text-xs text-muted/60 mb-1">
+    <a href="/" class="hover:text-primary">Laman Utama</a> <span>/</span>
+    <a href="/pilihan-raya/" class="hover:text-primary">Pilihan Raya</a> <span>/</span>
+    <span>Cek Wakil Rakyat</span>
+  </div>
+
+  <h1 class="text-2xl sm:text-4xl font-bold tracking-tight mb-2">Cek Wakil Rakyat</h1>
+  <p class="text-sm text-muted/80 max-w-3xl mb-6">
+    Cari ADUN (Dewan Undangan Negeri) atau Ahli Parlimen (MP) Malaysia mengikut kawasan. 
+    Taip nama kawasan, nombor kerusi (contoh: <kbd class="px-1.5 py-0.5 rounded bg-gray-100 dark:bg-slate-800 text-xs font-mono">N.24</kbd> atau <kbd class="px-1.5 py-0.5 rounded bg-gray-100 dark:bg-slate-800 text-xs font-mono">P.102</kbd>), atau negeri.
+  </p>
+
+  <!-- Search -->
+  <div class="relative mb-6" id="election-search-app">
+    <div class="relative">
+      <svg class="absolute left-3.5 top-1/2 -translate-y-1/2 w-5 h-5 text-muted/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+      </svg>
+      <input type="text" id="seat-search" 
+        class="w-full pl-10 pr-4 py-3.5 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800/60 text-sm focus:ring-2 focus:ring-primary/30 focus:border-primary outline-none transition-all"
+        placeholder="Taip nama kerusi, nombor atau negeri... cth: Semenyih, P.102, N.24, Selangor"
+        autocomplete="off" />
+    </div>
+    
+    <!-- Filter pills -->
+    <div class="flex flex-wrap gap-1.5 mt-3" id="state-filters">
+      <button data-state="all" class="active-filter px-3 py-1 rounded-lg text-xs font-semibold transition-colors bg-primary text-white">Semua</button>
+      {STATES.map(s => (
+        <button data-state={s} class="px-3 py-1 rounded-lg text-xs font-semibold transition-colors bg-gray-100 dark:bg-slate-800 text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-slate-700">{s}</button>
+      ))}
+    </div>
+
+    <!-- Results -->
+    <div id="results-container" class="mt-4 space-y-1"></div>
+    <div id="results-count" class="text-xs text-muted/50 mt-3"></div>
+  </div>
+
+  <!-- Info Note -->
+  <div class="rounded-xl bg-amber-50 dark:bg-amber-900/10 border border-amber-200 dark:border-amber-800/30 p-4 text-xs text-amber-800 dark:text-amber-300">
+    <p class="font-semibold mb-1">📝 Nota</p>
+    <p>Data ini menunjukkan senarai kerusi DUN dan Parlimen yang sedia ada. Untuk keputusan pilihan raya terkini (siapa menang, majoriti, turnout), data perlu diambil dari API ElectionData.MY. Halaman ini akan dikemaskini secara berkala.</p>
+  </div>
+</section>
+
+<!-- Load seat data as external JS (bundled at build time) -->
+<script is:inline src="/data/election-seats.js"></script>
+
+<script>
+const SEATS = window.ELECTION_SEATS || [];
+
+function highlight(text, query) {
+  if (!query) return text;
+  const idx = text.toLowerCase().indexOf(query.toLowerCase());
+  if (idx === -1) return text;
+  return text.slice(0, idx) + '<mark class="bg-yellow-200 dark:bg-yellow-800/50 rounded px-0.5">' + text.slice(idx, idx + query.length) + '</mark>' + text.slice(idx + query.length);
+}
+
+function renderSeats(seats, query) {
+  const container = document.getElementById('results-container');
+  const count = document.getElementById('results-count');
+  
+  if (!seats.length) {
+    container.innerHTML = '<div class="text-center py-12 text-muted/50 text-sm">Tiada keputusan dijumpai. Cuba taip nama kawasan lain.</div>';
+    count.textContent = '';
+    return;
+  }
+  
+  container.innerHTML = seats.map(s => {
+    const typeLabel = s.type === 'parlimen' ? 'Parlimen' : 'DUN';
+    const typeClass = s.type === 'parlimen' 
+      ? 'bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400' 
+      : 'bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400';
+    const stateSlug = (s.seat.split(', ')[1] || '').toLowerCase().replace(/\s+/g, '-');
+    
+    return '<a href="/pilihan-raya/kerusi/' + encodeURIComponent(s.slug) + '/" class="flex items-center gap-3 p-3 rounded-xl hover:bg-gray-50 dark:hover:bg-slate-800/40 transition-colors border border-transparent hover:border-gray-100 dark:hover:border-slate-700/30 no-underline">' +
+      '<span class="shrink-0 px-2 py-0.5 rounded text-xs font-bold ' + typeClass + '">' + typeLabel + '</span>' +
+      '<div class="flex-1 min-w-0">' +
+        '<p class="text-sm font-medium text-gray-900 dark:text-white truncate">' + highlight(s.seat, query) + '</p>' +
+        '<p class="text-xs text-muted/60 truncate">' + highlight(s.slug, query) + '</p>' +
+      '</div>' +
+      '<svg class="shrink-0 w-4 h-4 text-muted/30" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>' +
+    '</a>';
+  }).join('');
+  
+  count.textContent = seats.length + ' kerusi dipaparkan';
+}
+
+function filterSeats() {
+  const query = document.getElementById('seat-search').value.trim();
+  const activeState = document.querySelector('#state-filters [data-state].active-filter');
+  const stateFilter = activeState ? activeState.dataset.state : 'all';
+  
+  let filtered = SEATS;
+  
+  if (query) {
+    const q = query.toLowerCase();
+    filtered = filtered.filter(s => 
+      s.seat.toLowerCase().includes(q) ||
+      s.slug.toLowerCase().includes(q) ||
+      (s.slug.includes('p') || s.slug.includes('n')) && s.slug.includes(q.replace(/[^a-z0-9-]/g, ''))
+    );
+  }
+  
+  if (stateFilter !== 'all') {
+    filtered = filtered.filter(s => s.seat.includes(stateFilter));
+  }
+  
+  // Sort: parliament first, then state
+  filtered.sort((a, b) => {
+    if (a.type !== b.type) return a.type === 'parlimen' ? -1 : 1;
+    return a.slug.localeCompare(b.slug);
+  });
+  
+  renderSeats(filtered, query);
+}
+
+// Debounced input
+let debounceTimer;
+document.getElementById('seat-search').addEventListener('input', () => {
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(filterSeats, 150);
+});
+
+// State filter clicks
+document.querySelectorAll('#state-filters button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('#state-filters button').forEach(b => {
+      b.classList.remove('active-filter', 'bg-primary', 'text-white');
+      b.classList.add('bg-gray-100', 'dark:bg-slate-800', 'text-gray-600', 'dark:text-gray-400');
+    });
+    btn.classList.remove('bg-gray-100', 'dark:bg-slate-800', 'text-gray-600', 'dark:text-gray-400');
+    btn.classList.add('active-filter', 'bg-primary', 'text-white');
+    filterSeats();
+  });
+});
+
+// Initial render
+filterSeats();
+</script>
+
+<style is:global>
+  #seat-search:focus + .search-icon { color: var(--color-primary); }
+  #results-container a:last-child { border-bottom: none; }
+</style>
+</PageLayout>

@@ -1,0 +1,113 @@
+---
+import PageLayout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Pilihan Raya Malaysia — PRU, PRK & Cek Wakil Rakyat | RakyatHub',
+  description: 'Semak data pilihan raya Malaysia — keputusan PRU terkini, senarai PRK, dan cari wakil rakyat anda mengikut kawasan. Data dari ElectionData.MY (CC0).',
+};
+---
+
+<PageLayout metadata={metadata}>
+<section class="max-w-5xl mx-auto px-4 sm:px-6 py-8 md:py-12">
+  <div class="flex items-center gap-2 text-xs text-muted/60 mb-1">
+    <a href="/" class="hover:text-primary">Laman Utama</a> <span>/</span> <span>Pilihan Raya</span>
+  </div>
+
+  <h1 class="text-2xl sm:text-4xl font-bold tracking-tight mb-3">Pilihan Raya Malaysia</h1>
+  <p class="text-sm text-muted/80 max-w-3xl mb-8">
+    Data pilihan raya Malaysia dari 1954 hingga kini — keputusan PRU, senarai Pilihan Raya Kecil (PRK), 
+    dan alat untuk menyemak wakil rakyat anda. Sumber data: <a href="https://electiondata.my" class="text-primary underline underline-offset-2" target="_blank" rel="noopener">ElectionData.MY</a> (Domain Awam CC0).
+  </p>
+
+  <!-- Feature Grid -->
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
+    <a href="/pilihan-raya/cek-wakil-rakyat/" class="group block rounded-2xl border border-gray-200 dark:border-slate-700/40 bg-white dark:bg-slate-800/40 p-5 hover:shadow-lg hover:border-primary/40 transition-all no-underline">
+      <div class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center mb-3">
+        <span class="text-xl">🔍</span>
+      </div>
+      <h2 class="font-semibold text-base text-gray-900 dark:text-white mb-1 group-hover:text-primary transition-colors">Cek Wakil Rakyat</h2>
+      <p class="text-sm text-muted/70">Cari ADUN atau MP anda — taip nama kawasan atau nombor DUN/Parlimen.</p>
+    </a>
+
+    <a href="/pilihan-raya/pru/ge-15/" class="group block rounded-2xl border border-gray-200 dark:border-slate-700/40 bg-white dark:bg-slate-800/40 p-5 hover:shadow-lg hover:border-primary/40 transition-all no-underline">
+      <div class="w-10 h-10 rounded-xl bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center mb-3">
+        <span class="text-xl">🗳️</span>
+      </div>
+      <h2 class="font-semibold text-base text-gray-900 dark:text-white mb-1 group-hover:text-primary transition-colors">PRU-15 (2022)</h2>
+      <p class="text-sm text-muted/70">Keputusan penuh Pilihan Raya Umum ke-15 — kerusi, undi, majoriti.</p>
+    </a>
+
+    <a href="/pilihan-raya/pru/ge-14/" class="group block rounded-2xl border border-gray-200 dark:border-slate-700/40 bg-white dark:bg-slate-800/40 p-5 hover:shadow-lg hover:border-primary/40 transition-all no-underline">
+      <div class="w-10 h-10 rounded-xl bg-green-100 dark:bg-green-900/30 flex items-center justify-center mb-3">
+        <span class="text-xl">📊</span>
+      </div>
+      <h2 class="font-semibold text-base text-gray-900 dark:text-white mb-1 group-hover:text-primary transition-colors">PRU-14 (2018)</h2>
+      <p class="text-sm text-muted/70">Keputusan PRU-14 — kali pertama pertukaran kerajaan dalam sejarah Malaysia.</p>
+    </a>
+
+    <a href="/pilihan-raya/pru/ge-13/" class="group block rounded-2xl border border-gray-200 dark:border-slate-700/40 bg-white dark:bg-slate-800/40 p-5 hover:shadow-lg hover:border-primary/40 transition-all no-underline">
+      <div class="w-10 h-10 rounded-xl bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center mb-3">
+        <span class="text-xl">📈</span>
+      </div>
+      <h2 class="font-semibold text-base text-gray-900 dark:text-white mb-1 group-hover:text-primary transition-colors">PRU-13 (2013)</h2>
+      <p class="text-sm text-muted/70">Keputusan PRU-13 — undi popular dan kerusi mengikut parti.</p>
+    </a>
+
+    <a href="/pilihan-raya/prk/" class="group block rounded-2xl border border-gray-200 dark:border-slate-700/40 bg-white dark:bg-slate-800/40 p-5 hover:shadow-lg hover:border-primary/40 transition-all no-underline">
+      <div class="w-10 h-10 rounded-xl bg-rose-100 dark:bg-rose-900/30 flex items-center justify-center mb-3">
+        <span class="text-xl">⚡</span>
+      </div>
+      <h2 class="font-semibold text-base text-gray-900 dark:text-white mb-1 group-hover:text-primary transition-colors">PRK — By-Elections</h2>
+      <p class="text-sm text-muted/70">Senarai semua Pilihan Raya Kecil dari 1957 hingga kini.</p>
+    </a>
+
+    <a href="https://electiondata.my" target="_blank" rel="noopener" class="group block rounded-2xl border border-gray-200 dark:border-slate-700/40 bg-white dark:bg-slate-800/40 p-5 hover:shadow-lg hover:border-primary/40 transition-all no-underline">
+      <div class="w-10 h-10 rounded-xl bg-gray-100 dark:bg-gray-700/40 flex items-center justify-center mb-3">
+        <span class="text-xl">🌐</span>
+      </div>
+      <h2 class="font-semibold text-base text-gray-900 dark:text-white mb-1 group-hover:text-primary transition-colors">Sumber Data Penuh</h2>
+      <p class="text-sm text-muted/70">Terokai data penuh di ElectionData.MY — Query Builder, Data Catalogue & API.</p>
+    </a>
+  </div>
+
+  <!-- Quick Stats (static placeholder) -->
+  <div class="rounded-2xl bg-gradient-to-br from-slate-800 to-slate-900 text-white p-6 sm:p-8 mb-6">
+    <p class="text-xs text-slate-400 font-semibold uppercase tracking-wider mb-1">Data Pilihan Raya Malaysia</p>
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-4">
+      <div class="bg-white/10 rounded-xl p-3.5">
+        <p class="text-[10px] text-slate-400 uppercase tracking-wider">Parlimen</p>
+        <p class="text-xl sm:text-2xl font-bold mt-0.5">222</p>
+        <p class="text-[11px] text-slate-400/80">kerusi Persekutuan</p>
+      </div>
+      <div class="bg-white/10 rounded-xl p-3.5">
+        <p class="text-[10px] text-slate-400 uppercase tracking-wider">DUN</p>
+        <p class="text-xl sm:text-2xl font-bold mt-0.5">600</p>
+        <p class="text-[11px] text-slate-400/80">kerusi Negeri</p>
+      </div>
+      <div class="bg-white/10 rounded-xl p-3.5">
+        <p class="text-[10px] text-slate-400 uppercase tracking-wider">PRU Diadakan</p>
+        <p class="text-xl sm:text-2xl font-bold mt-0.5">15</p>
+        <p class="text-[11px] text-slate-400/80">sejak 1955</p>
+      </div>
+      <div class="bg-white/10 rounded-xl p-3.5">
+        <p class="text-[10px] text-slate-400 uppercase tracking-wider">Data Dari</p>
+        <p class="text-xl sm:text-2xl font-bold mt-0.5">1954</p>
+        <p class="text-[11px] text-slate-400/80">hingga kini</p>
+      </div>
+    </div>
+  </div>
+</section>
+</PageLayout>
+
+<style is:global>
+  @keyframes fade-in-up {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .group { animation: fade-in-up 0.4s ease-out both; }
+  .group:nth-child(2) { animation-delay: 0.05s; }
+  .group:nth-child(3) { animation-delay: 0.1s; }
+  .group:nth-child(4) { animation-delay: 0.15s; }
+  .group:nth-child(5) { animation-delay: 0.2s; }
+  .group:nth-child(6) { animation-delay: 0.25s; }
+</style>
