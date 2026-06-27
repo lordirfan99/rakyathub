@@ -1,0 +1,512 @@
+[
+  {
+    "city": "Kathmandu",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Dhaka",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Colombo",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Singapore",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Alor Setar",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Johor Bharu",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Kota Bharu",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Kuala Terengganu",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Kuantan",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Penang",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Langkawi",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Bintulu",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Sibu",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Miri",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Kuching",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Labuan",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Sandakan",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Tawau",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Kota Kinabalu",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Phnom Penh",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Yangon",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Manila",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Chiang Mai",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Ho Chi Minh",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Danang",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Hanoi",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Denpasar Bali",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Jakarta",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Surabaya",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Medan",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Bangkok",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Phuket",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Male",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Doha",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Beijing",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Shanghai",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Hong Kong",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "GuangZhou",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Xiamen",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Taipei",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Seoul",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Osaka Kansai",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Tokyo",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Paris",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "London",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Auckland",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Brisbane",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Perth",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Sydney",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Melbourne",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  },
+  {
+    "city": "Adelaide",
+    "zone": "",
+    "zone_id": "",
+    "country": "",
+    "eco_saver": 0,
+    "eco_flex": 0,
+    "biz_saver": 0,
+    "biz_flex": 0
+  }
+]

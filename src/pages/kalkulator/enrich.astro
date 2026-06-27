@@ -1,0 +1,168 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import { MILE_CARDS, CATEGORIES } from '~/data/mile-cards';
+
+const metadata = {
+  title: 'Enrich Points Calculator — Cari Kad Terbaik Untuk Enrich Points | RakyatHub',
+  description: 'Kira Enrich points yang anda dapat berdasarkan perbelanjaan bulanan. Bandingkan 10+ kad Enrich Malaysia.',
+};
+
+const catIds: Record<string, string> = {
+  'Petrol': 'petrol', 'Groceries': 'groceries', 'Dining': 'dining',
+  'Online Shopping': 'online', 'Utilities': 'utilities', 'Entertainment': 'entertainment',
+  'Pharmacy': 'pharmacy', 'Airlines': 'airlines', 'Telco': 'telco',
+  'Education': 'education', 'Insurance': 'insurance', 'Hospital': 'hospital',
+  'Government': 'government', 'eWallet': 'ewallet', 'Others': 'others',
+};
+
+const enrichCards = MILE_CARDS.filter(c => c.program === 'enrich' || c.program === 'both');
+const cardsJson = JSON.stringify(enrichCards);
+const catsJson = JSON.stringify(CATEGORIES);
+const catIdJson = JSON.stringify(catIds);
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-8 md:py-12">
+    <a href="/kalkulator" class="inline-flex items-center gap-1.5 text-sm text-muted hover:text-primary transition-colors mb-6">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+      Semua Kalkulator
+    </a>
+
+    <div class="flex items-center gap-3 mb-6">
+      <div class="w-12 h-12 rounded-xl bg-[#CC0000]/5 flex items-center justify-center text-2xl shrink-0">🏆</div>
+      <div>
+        <h1 class="text-2xl sm:text-4xl font-bold tracking-tight">Enrich Points Calculator</h1>
+        <p class="text-sm text-muted mt-1">Kira Enrich points yang anda dapat berdasarkan perbelanjaan bulanan. Banding 10+ kad Enrich Malaysia.</p>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2 sm:gap-3 mb-6" id="spendGrid">
+      {CATEGORIES.filter(c => c !== 'Others').map(cat => {
+        const id = catIds[cat] || cat.toLowerCase().replace(/\s+/g, '');
+        return (
+          <div class="bg-gray-50 dark:bg-slate-800/40 rounded-xl p-3 border border-gray-100 dark:border-slate-700/30">
+            <label for={"sp-" + id} class="text-[11px] font-semibold text-muted block mb-1">{cat}</label>
+            <input type="number" id={"sp-" + id} placeholder="0" min="0" step="100"
+              class="w-full rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800/60 px-2.5 py-1.5 text-sm focus:ring-2 focus:ring-primary/30 focus:border-primary outline-none" />
+          </div>
+        );
+      })}
+    </div>
+
+    <div class="flex items-center justify-between mb-6">
+      <div>
+        <span class="text-xs text-muted">Jumlah Belanja: </span>
+        <span id="totalSpend" class="text-lg font-bold tabular-nums">RM 0</span>
+      </div>
+      <button onclick="runCalc()" class="px-6 py-3 rounded-xl bg-[#CC0000] hover:bg-[#990000] text-white font-bold text-sm transition-all hover:-translate-y-0.5">
+        <svg class="w-4 h-4 inline -mt-0.5 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+        Kira Points
+      </button>
+    </div>
+
+    <div id="loading" class="hidden text-center py-10">
+      <div class="w-6 h-6 border-2 border-[#CC0000] border-t-transparent rounded-full animate-spin inline-block"></div>
+      <p class="text-sm text-muted mt-2">Mengira points...</p>
+    </div>
+
+    <div id="results" class="hidden space-y-4"></div>
+    <div id="status" class="text-xs text-muted mt-4"></div>
+  </section>
+
+  <div id="enCardData" data-cards={cardsJson} data-cats={catsJson} data-catids={catIdJson} style="display:none"></div>
+
+  <script is:inline>
+  var EN_CARDS = JSON.parse(document.getElementById('enCardData').getAttribute('data-cards'));
+  var CATS = JSON.parse(document.getElementById('enCardData').getAttribute('data-cats'));
+  var CAT_IDS = JSON.parse(document.getElementById('enCardData').getAttribute('data-catids'));
+
+  function getSpending() {
+    var s = {}, total = 0;
+    CATS.forEach(function(c) {
+      var id = CAT_IDS[c] || c.toLowerCase().replace(/\s+/g, '');
+      var el = document.getElementById('sp-' + id);
+      var v = parseFloat(el ? el.value : '0') || 0;
+      s[id] = v;
+      total += v;
+    });
+    document.getElementById('totalSpend').textContent = 'RM ' + total.toLocaleString();
+    return s;
+  }
+
+  function runCalc() {
+    var s = getSpending();
+    var total = 0;
+    for (var k in s) total += s[k] || 0;
+    if (total <= 0) { document.getElementById('status').textContent = '⚠️ Sila masukkan jumlah perbelanjaan.'; return; }
+
+    var ld = document.getElementById('loading');
+    var rs = document.getElementById('results');
+    var st = document.getElementById('status');
+    ld.classList.remove('hidden');
+    rs.classList.add('hidden');
+    st.textContent = '';
+
+    setTimeout(function() {
+      var results = [];
+      EN_CARDS.forEach(function(card) {
+        var totalPts = 0;
+        var breakdown = [];
+        for (var k in s) {
+          if ((s[k] || 0) <= 0) continue;
+          var amt = s[k];
+          var bestRate = card.earnRate;
+          for (var t = 0; t < card.tiers.length; t++) {
+            var tier = card.tiers[t];
+            if (tier.categories.indexOf(k) >= 0) {
+              var rate = tier.isWeekendOnly ? tier.earnRate * 0.5 : tier.earnRate;
+              if (rate > bestRate) bestRate = rate;
+            }
+          }
+          var pts = amt * bestRate;
+          totalPts += pts;
+          breakdown.push({ category: k, spend: amt, rate: bestRate, points: pts });
+        }
+        var monthlyFee = card.annualFee / 12;
+        results.push({
+          id: card.id, name: card.cardName, bank: card.bank,
+          points: Math.round(totalPts * 100) / 100,
+          fee: Math.round(monthlyFee * 100) / 100,
+          net: Math.round((totalPts - monthlyFee) * 100) / 100,
+        });
+      });
+      results.sort(function(a, b) { return b.net - a.net; });
+
+      ld.classList.add('hidden');
+      if (results.length === 0) { st.textContent = 'Tiada keputusan.'; return; }
+
+      var html = '';
+      var best = results[0];
+      html += '<div class="rounded-xl border border-gray-100 dark:border-slate-700/30 bg-gradient-to-br from-[#CC0000] to-[#990000] text-white p-5 sm:p-6">';
+      html += '<p class="text-xs text-white/60 font-semibold uppercase tracking-wider mb-1">Kad Terbaik</p>';
+      html += '<p class="text-lg font-bold mb-1">' + best.bank + ' — ' + best.name + '</p>';
+      html += '<div class="grid grid-cols-3 gap-3 mt-3">';
+      html += '<div><p class="text-[10px] text-white/60 uppercase">Points/Bln</p><p class="text-xl font-bold tabular-nums">' + best.points.toLocaleString() + '</p></div>';
+      html += '<div><p class="text-[10px] text-white/60 uppercase">Yuran (÷12)</p><p class="text-xl font-bold tabular-nums">-RM' + best.fee.toFixed(0) + '</p></div>';
+      html += '<div><p class="text-[10px] text-white/60 uppercase">Bersih/Bln</p><p class="text-xl font-bold tabular-nums">' + best.net.toFixed(0) + '</p></div>';
+      html += '</div></div>';
+
+      html += '<div class="space-y-2 mt-4">';
+      results.forEach(function(r, idx) {
+        html += '<div class="rounded-xl border border-gray-100 dark:border-slate-700/30 bg-white dark:bg-slate-900/40 p-4 hover:shadow-md transition">';
+        html += '<div class="flex items-center justify-between mb-2">';
+        html += '<div class="flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-gray-100 dark:bg-slate-800 flex items-center justify-center text-xs font-bold text-muted">' + (idx + 1) + '</span>';
+        html += '<div><p class="text-sm font-semibold">' + r.bank + ' — ' + r.name + '</p></div></div>';
+        html += '<p class="text-base font-bold tabular-nums">' + r.points.toFixed(0) + ' <span class="text-xs text-muted font-normal">pts</span></p>';
+        html += '</div>';
+        html += '<div class="text-xs text-muted">Yuran: RM' + r.fee.toFixed(0) + '/bln | Bersih: <span class="font-semibold text-[#CC0000]">' + r.net.toFixed(0) + ' pts/bln</span></div>';
+        html += '</div>';
+      });
+      html += '</div>';
+
+      rs.innerHTML = html;
+      rs.classList.remove('hidden');
+      st.textContent = 'Menilai ' + results.length + ' kad Enrich.';
+    }, 50);
+  }
+  </script>
+</Layout>

@@ -1,0 +1,4164 @@
+[
+  {
+    "id": 6381,
+    "slug": "kathmandu",
+    "title": "Kathmandu",
+    "link": "https://duitgain.com/enrich_points_databa/kathmandu/",
+    "location": "Kathmandu",
+    "Location_Country": "Nepal",
+    "economy_saver_return": "34800",
+    "economy_tax_return": "496",
+    "business_saver_return": "87600",
+    "business_tax_return": "730",
+    "plane_type": [
+      "Airbus 330-300",
+      "Boeing 737-800 (738)"
+    ],
+    "enrich_point_bracket": [
+      "20001 to 50000",
+      "50001 to 100000"
+    ],
+    "flight_duration": "4hr 55min<br>4hr 55min",
+    "flight_code_and_departure_time": "<p><strong>KUL to KTM</strong><br />\nMH 170 [B737 MAX 8]<br />\nDep: 09:20 | Arv: 12:00<br />\n&#8212;<br />\nMH 114 [B737 MAX 8]<br />\nDep: 19:15 | Arv: 21:45<br />\n&#8212;<br />\n<strong>KTM to KUL</strong><br />\nMH 115 [B737 MAX 8]<br />\nDep: 05:40 | Arv: 12:50<br />\n&#8212;<br />\nMH 171 [B737 MAX 8]<br />\nDep: 13:00 | Arv: 20:10<br />\n&#8212;</p>\n",
+    "airport_code": "KTM",
+    "plane_group": [
+      "Wide Body",
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "10",
+    "last_update": "28/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5846,
+        "post_author": "1",
+        "post_date": "2025-09-20 22:05:20",
+        "post_date_gmt": "2025-09-20 14:05:20",
+        "post_content": "",
+        "post_title": "B737 Max 8 (7M8)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-max-8",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:49:57",
+        "post_modified_gmt": "2025-09-27 16:49:57",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5846",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737 Max 8 7M8)"
+    ],
+    "flight_distance": "2,033 mi (3,273 km)"
+  },
+  {
+    "id": 6380,
+    "slug": "dhaka",
+    "title": "Dhaka",
+    "link": "https://duitgain.com/enrich_points_databa/dhaka/",
+    "location": "Dhaka",
+    "Location_Country": "Bangladesh",
+    "economy_saver_return": "35000",
+    "economy_tax_return": "522",
+    "business_saver_return": "70800",
+    "business_tax_return": "673",
+    "plane_type": [
+      "Airbus 330-300",
+      "Boeing 737-800 (73H)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "20001 to 50000",
+      "50001 to 100000"
+    ],
+    "flight_duration": "4hr 05min<br>4hr 00min",
+    "flight_code_and_departure_time": "<p><strong>KUL to DAC</strong><br />\nMH 102 [B737-800]<br />\nDep: 09:20 | Arv: 11:20<br />\nM|<span style = \"color : red;\">T</span>|<span style = \"color : red;\">W</span>|T|<span style = \"color : red;\">F</span>|<span style = \"color : red;\">S</span>|<span style = \"color : red;\">S</span><br />\n&#8212;<br />\nMH 196 [A330-300]<br />\nDep: 19:50 | Arv: 21:50<br />\n&#8212;<br />\n<strong>DAC to KUL</strong><br />\nMH 197 [A330-300]<br />\nDep: 22:55 | Arv: 04:55+1<br />\n&#8212;<br />\nMH 103 [B737-800]<br />\nDep: 12:30 | Arv: 18:40<br />\nM|<span style = \"color : red;\">T</span>|<span style = \"color : red;\">W</span>|T|<span style = \"color : red;\">F</span>|<span style = \"color : red;\">S</span>|<span style = \"color : red;\">S</span><br />\n&#8212;</p>\n",
+    "airport_code": "DAC",
+    "plane_group": [
+      "Wide Body",
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "12",
+    "last_update": "28/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5781,
+        "post_author": "1",
+        "post_date": "2025-09-20 16:18:52",
+        "post_date_gmt": "2025-09-20 08:18:52",
+        "post_content": "",
+        "post_title": "A330-300",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-300",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:08",
+        "post_modified_gmt": "2025-09-23 23:58:08",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5781",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5846,
+        "post_author": "1",
+        "post_date": "2025-09-20 22:05:20",
+        "post_date_gmt": "2025-09-20 14:05:20",
+        "post_content": "",
+        "post_title": "B737 Max 8 (7M8)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-max-8",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:49:57",
+        "post_modified_gmt": "2025-09-27 16:49:57",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5846",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Airbus 330-300)"
+    ],
+    "flight_distance": "1,642 mi (2,642 km)"
+  },
+  {
+    "id": 6379,
+    "slug": "colombo",
+    "title": "Colombo",
+    "link": "https://duitgain.com/enrich_points_databa/colombo/",
+    "location": "Colombo",
+    "Location_Country": "Sri Lanka",
+    "economy_saver_return": "19400",
+    "economy_tax_return": "427",
+    "business_saver_return": "92000",
+    "business_tax_return": "577",
+    "plane_type": [
+      "Airbus 330-200",
+      "Airbus 330-300",
+      "Boeing 737-800 (73H)"
+    ],
+    "enrich_point_bracket": [
+      "20001 to 50000",
+      "50001 to 100000"
+    ],
+    "flight_duration": "3hr 30min<br>3hr 45min",
+    "flight_code_and_departure_time": "<p><strong>KUL to CMB</strong><br />\nMH 179 [B737-800]<br />\nDep: 22:35 | Arv: 23:35<br />\n&#8212;<br />\n<strong>CMB to KUL</strong><br />\nMH 178 [B737-800]<br />\nDep: 00:40 | Arv: 06:55<br />\n&#8212;</p>\n",
+    "airport_code": "CMB",
+    "plane_group": [
+      "Wide Body",
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "7",
+    "last_update": "28/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "1,533 mi (2,467 km)"
+  },
+  {
+    "id": 6342,
+    "slug": "singapore",
+    "title": "Singapore",
+    "link": "https://duitgain.com/enrich_points_databa/singapore/",
+    "location": "Singapore",
+    "Location_Country": "Singapore",
+    "economy_saver_return": "10800",
+    "economy_tax_return": "357",
+    "business_saver_return": "40000",
+    "business_tax_return": "419",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737-800 (738)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "10001 to 20000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "1hr 15min<br>1hr 15min",
+    "flight_code_and_departure_time": "<p><strong>KUL to SIN</strong><br />\nMH 601 [B737-800]<br />\nDep: 07:50 | Arv: 09:05<br />\n&#8212;<br />\nMH 611 [B737-800]<br />\nDep: 09:05 | Arv: 10:20<br />\n&#8212;<br />\nMH 627 [B737-800]<br />\nDep: 10:10 | Arv: 11:25<br />\n&#8212;<br />\nMH 603 [B737-800]<br />\nDep: 11:45 | Arv: 13:00<br />\n&#8212;<br />\nMH 623 [B737-800]<br />\nDep: 13:25 | Arv: 14:40<br />\n&#8212;<br />\nMH 619 [B737-800]<br />\nDep: 14:20 | Arv: 15:35<br />\n&#8212;<br />\nMH 605 [B737-800]<br />\nDep: 16:10 | Arv: 17:25<br />\n&#8212;<br />\nMH 613 [B737-800]<br />\nDep: 17:00 | Arv: 18:15<br />\n&#8212;<br />\nMH 607 [B737-800]<br />\nDep: 19:10 | Arv: 20:25<br />\n&#8212;<br />\nMH 609 [B737-800]<br />\nDep: 23:05 | Arv: 00:20+1<br />\n&#8212;<br />\n<strong>SIN to KUL</strong><br />\nMH 602 [B737-800]<br />\nDep: 07:40 | Arv: 08:55<br />\n&#8212;<br />\nMH 604 [B737-800]<br />\nDep: 11:10 | Arv: 12:25<br />\n&#8212;<br />\nMH 614 [B737-800]<br />\nDep: 12:25 | Arv: 13:40<br />\n&#8212;<br />\nMH 628 [B737-800]<br />\nDep: 13:25 | Arv: 14:40<br />\n&#8212;<br />\nMH 606 [B737-800]<br />\nDep: 15:00 | Arv: 16:15<br />\n&#8212;<br />\nMH 624 [B737-800]<br />\nDep: 16:55 | Arv: 18:10<br />\n&#8212;<br />\nMH 620 [B737-800]<br />\nDep: 17:45 | Arv: 19:00<br />\n&#8212;<br />\nMH 608 [B737-800]<br />\nDep: 19:25 | Arv: 20:40<br />\n&#8212;<br />\nMH 616 [B737-800]<br />\nDep: 20:25 | Arv: 21:40<br />\n&#8212;<br />\nMH 610 [B737-800]<br />\nDep: 22:20 | Arv: 23:35<br />\n&#8212;</p>\n",
+    "airport_code": "SIN",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "70",
+    "last_update": "28/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "185 mi (298 km)"
+  },
+  {
+    "id": 6341,
+    "slug": "alor-setar",
+    "title": "Alor Setar",
+    "link": "https://duitgain.com/enrich_points_databa/alor-setar/",
+    "location": "Alor Setar",
+    "Location_Country": "Malaysia",
+    "economy_saver_return": "4200",
+    "economy_tax_return": "67.52",
+    "business_saver_return": "18600",
+    "business_tax_return": "156.32",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737-800 (738)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "below 5000",
+      "10001 to 20000"
+    ],
+    "flight_duration": "1hr 05min<br>1hr 15min",
+    "flight_code_and_departure_time": "<p><strong>KUL to AOR</strong><br />\nMH 1204 [B737-800]<br />\nDep: 06:40 | Arv: 07:45<br />\nM|T|W|<span style = \"color : red;\">T</span>|<span style = \"color : red;\">F</span>|S|S<br />\n&#8212;<br />\nMH 1208 [B737-800]<br />\nDep: 13:05 | Arv: 14:10<br />\n&#8212;<br />\nMH 1252 [B737-800]<br />\nDep: 19:10 | Arv: 20:15<br />\nM|T|W|<span style = \"color : red;\">T</span>|<span style = \"color : red;\">F</span>|S|<span style = \"color : red;\">S</span><br />\n&#8212;<br />\n<strong>AOR to KUL</strong><br />\nMH 1205 [B737-800]<br />\nDep: 09:35 | Arv: 10:50<br />\nM|T|W|T|<span style = \"color : red;\">F</span>|<span style = \"color : red;\">S</span>|S<br />\n&#8212;<br />\nMH 1209 [B737-800]<br />\nDep: 15:50 | Arv: 17:05<br />\n&#8212;<br />\nMH 1253 [B737-800]<br />\nDep: 22:05 | Arv: 23:20<br />\nM|T|W|<span style = \"color : red;\">T</span>|<span style = \"color : red;\">F</span>|S|<span style = \"color : red;\">S</span><br />\n&#8212;</p>\n",
+    "airport_code": "AOR",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "12",
+    "last_update": "28/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "255 mi (410 km)"
+  },
+  {
+    "id": 6340,
+    "slug": "johor-bharu",
+    "title": "Johor Bharu",
+    "link": "https://duitgain.com/enrich_points_databa/johor-bharu/",
+    "location": "Johor Bharu",
+    "Location_Country": "Malaysia",
+    "economy_saver_return": "4200",
+    "economy_tax_return": "83.72",
+    "business_saver_return": "18600",
+    "business_tax_return": "161.32",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737-800 (738)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "below 5000",
+      "10001 to 20000"
+    ],
+    "flight_duration": "1hr 00min<br>1hr 00min",
+    "flight_code_and_departure_time": "<p><strong>KUL to JHB</strong><br />\nMH 1037 [B737-800]<br />\nDep: 07:55 | Arv: 08:55<br />\n&#8212;<br />\nMH 1051 [B737-800]<br />\nDep: 09:30 | Arv: 10:30<br />\nM|T|<span style = \"color : red;\">W</span>|<span style = \"color : red;\">T</span>|<span style = \"color : red;\">F</span>|S|S<br />\n&#8212;<br />\nMH 1057 [B737-800]<br />\nDep: 18:05 | Arv: 19:05<br />\n&#8212;<br />\nMH 1063 [B737-800]<br />\nDep: 21:10 | Arv: 22:10<br />\n&#8212;<br />\n<strong>JHB to KUL</strong><br />\nMH 1034 [B737-800]<br />\nDep: 07:35 | Arv: 08:35<br />\n&#8212;<br />\nMH 1038 [B737-800]<br />\nDep: 10:25 | Arv: 11:25<br />\nM|T|<span style = \"color : red;\">W</span>|<span style = \"color : red;\">T</span>|<span style = \"color : red;\">F</span>|S|S<br />\n&#8212;<br />\nMH 1052 [B737-800]<br />\nDep: 12:10 | Arv: 13:10<br />\nM|T|W|T|F|<span style = \"color : red;\">S</span>|<span style = \"color : red;\">S</span><br />\n&#8212;<br />\nMH 1058 [B737-800]<br />\nDep: 20:45 | Arv: 21:45<br />\n&#8212;</p>\n",
+    "airport_code": "JHB",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "15",
+    "last_update": "28/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "155 mi (250 km)"
+  },
+  {
+    "id": 6339,
+    "slug": "kota-bharu",
+    "title": "Kota Bharu",
+    "link": "https://duitgain.com/enrich_points_databa/kota-bharu/",
+    "location": "Kota Bharu",
+    "Location_Country": "Malaysia",
+    "economy_saver_return": "4200",
+    "economy_tax_return": "67.52",
+    "business_saver_return": "18600",
+    "business_tax_return": "156.32",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737-800 (738)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "below 5000",
+      "10001 to 20000"
+    ],
+    "flight_duration": "1hr 05min<br>1hr 10min",
+    "flight_code_and_departure_time": "<p><strong>KUL to KBR</strong><br />\nMH 1384 [B737-800]<br />\nDep: 08:45 | Arv: 09:50<br />\n&#8212;<br />\nMH 1426 [B737-800]<br />\nDep: 13:05 | Arv: 14:10<br />\n&#8212;<br />\nMH 1396 [B737-800]<br />\nDep: 16:45 | Arv: 17:50<br />\n&#8212;<br />\n<strong>KBR to KUL</strong><br />\nMH 1385 [B737-800]<br />\nDep: 11:10 | Arv: 12:15<br />\n&#8212;<br />\nMH 1427 [B737-800]<br />\nDep: 16:05 | Arv: 17:10<br />\n&#8212;<br />\nMH 1397 [B737-800]<br />\nDep: 19:40 | Arv: 20:40<br />\n&#8212;</p>\n",
+    "airport_code": "KBR",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "21",
+    "last_update": "28/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "240 mi (386 km)"
+  },
+  {
+    "id": 6338,
+    "slug": "kuala-terengganu",
+    "title": "Kuala Terengganu",
+    "link": "https://duitgain.com/enrich_points_databa/kuala-terengganu/",
+    "location": "Kuala Terengganu",
+    "Location_Country": "Malaysia",
+    "economy_saver_return": "4200",
+    "economy_tax_return": "76.32",
+    "business_saver_return": "18600",
+    "business_tax_return": "156.32",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737-800 (738)"
+    ],
+    "enrich_point_bracket": [
+      "below 5000",
+      "10001 to 20000"
+    ],
+    "flight_duration": "1hr 00min<br>1hr 00min",
+    "flight_code_and_departure_time": "<p><strong>KUL to TGG</strong><br />\nMH 1326 [B737-800]<br />\nDep: 07:10 | Arv: 08:10<br />\n&#8212;<br />\nMH 1336 [B737-800]<br />\nDep: 16:45 | Arv: 17:45<br />\n&#8212;<br />\n<strong>TGG to KUL</strong><br />\nMH 1327 [B737-800]<br />\nDep: 09:45 | Arv: 10:45<br />\n&#8212;<br />\nMH 1335 [B737-800]<br />\nDep: 19:30 | Arv: 20:30<br />\n&#8212;</p>\n",
+    "airport_code": "TGG",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)"
+    ],
+    "flight_frequency_weekly": "14",
+    "last_update": "28/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "206 mi (331 km)"
+  },
+  {
+    "id": 6337,
+    "slug": "kuantan",
+    "title": "Kuantan",
+    "link": "https://duitgain.com/enrich_points_databa/kuantan/",
+    "location": "Kuantan",
+    "Location_Country": "Malaysia",
+    "economy_saver_return": "4200",
+    "economy_tax_return": "69.92",
+    "business_saver_return": "18600",
+    "business_tax_return": "156.32",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737-800 (738)"
+    ],
+    "enrich_point_bracket": [
+      "below 5000",
+      "10001 to 20000"
+    ],
+    "flight_duration": "0hr 45min<br>1hr 00min",
+    "flight_code_and_departure_time": "<p><strong>KUL to KUA</strong><br />\nMH 1268 [B737-800]<br />\nDep: 09:25 | Arv: 10:10<br />\n&#8212;<br />\nMH 1276 [B737-800]<br />\nDep: 18:25 | Arv: 19:10<br />\n&#8212;<br />\n<strong>KUA to KUL</strong><br />\nMH 1269 [B737-800]<br />\nDep: 11:50 | Arv: 12:50<br />\n&#8212;<br />\nMH 1281 [B737-800]<br />\nDep: 20:55 | Arv: 21:55<br />\n&#8212;</p>\n",
+    "airport_code": "KUA",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)"
+    ],
+    "flight_frequency_weekly": "14",
+    "last_update": "28/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "126 mi (202 km)"
+  },
+  {
+    "id": 6336,
+    "slug": "penang",
+    "title": "Penang",
+    "link": "https://duitgain.com/enrich_points_databa/penang/",
+    "location": "Penang",
+    "Location_Country": "Malaysia",
+    "economy_saver_return": "4600",
+    "economy_tax_return": "70.72",
+    "business_saver_return": "18600",
+    "business_tax_return": "159.36",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737-800 (738)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "below 5000",
+      "10001 to 20000"
+    ],
+    "flight_duration": "1hr 00min<br>1hr 00min",
+    "flight_code_and_departure_time": "<p><strong>KUL to PEN</strong><br />\nMH 1138 [B737-800]<br />\nDep: 08:05 | Arv: 09:05<br />\n&#8212;<br />\nMH 1140 [B737-800]<br />\nDep: 11:45 | Arv: 12:45<br />\n&#8212;<br />\nMH 1148 [B737-800]<br />\nDep: 14:05 | Arv: 15:05<br />\n&#8212;<br />\nMH 1152 [B737-800]<br />\nDep: 17:35 | Arv: 18:35<br />\n&#8212;<br />\nMH 1162 [B737-800]<br />\nDep: 19:30 | Arv: 20:30<br />\n&#8212;<br />\nMH 1194 [B737-800]<br />\nDep: 23:35 | Arv: 00:35+1<br />\n&#8212;<br />\n<strong>PEN to KUL</strong><br />\nMH 1137 [B737-800]<br />\nDep: 06:55 | Arv: 07:55<br />\n&#8212;<br />\nMH 1133 [B737-800]<br />\nDep: 08:45 | Arv: 09:45<br />\n&#8212;<br />\nMH 1143 [B737-800]<br />\nDep: 10:55 | Arv: 11:55<br />\n&#8212;<br />\nMH 1145 [B737-800]<br />\nDep: 14:35 | Arv: 15:35<br />\n&#8212;<br />\nMH 1149 [B737-800]<br />\nDep: 16:55 | Arv: 17:55<br />\n&#8212;<br />\nMH 1155 [B737-800]<br />\nDep: 20:25 | Arv: 21:25<br />\n&#8212;<br />\nMH 1165 [B737-800]<br />\nDep: 22:20 | Arv: 23:20<br />\n&#8212;</p>\n",
+    "airport_code": "PEN",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)"
+    ],
+    "flight_frequency_weekly": "49",
+    "last_update": "28/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "202 mi (325 km)"
+  },
+  {
+    "id": 6335,
+    "slug": "langkawi",
+    "title": "Langkawi",
+    "link": "https://duitgain.com/enrich_points_databa/langkawi/",
+    "location": "Langkawi",
+    "Location_Country": "Malaysia",
+    "economy_saver_return": "4600",
+    "economy_tax_return": "76.32",
+    "business_saver_return": "18600",
+    "business_tax_return": "159.36",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737-800 (738)"
+    ],
+    "enrich_point_bracket": [
+      "below 5000",
+      "10001 to 20000"
+    ],
+    "flight_duration": "1hr 10min<br>1hr 15min",
+    "flight_code_and_departure_time": "<p><strong>KUL to LGK</strong><br />\nMH 1432 [B737-800]<br />\nDep: 09:25 | Arv: 10:35<br />\n&#8212;<br />\nMH 1438 [B737-800]<br />\nDep: 11:55 | Arv: 13:05<br />\n&#8212;<br />\nMH 1436 [B737-800]<br />\nDep: 13:10 | Arv: 14:20<br />\n&#8212;<br />\nMH 1446 [B737-800]<br />\nDep: 15:50 | Arv: 17:00<br />\n&#8212;<br />\nMH 1450 [B737-800]<br />\nDep: 18:20 | Arv: 19:30<br />\n&#8212;<br />\n<strong>LGK to KUL</strong><br />\nMH 1433 [B737-800]<br />\nDep: 12:30 | Arv: 13:45<br />\n&#8212;<br />\nMH 1447 [B737-800]<br />\nDep: 15:00 | Arv: 16:15<br />\n&#8212;<br />\nMH 1437 [B737-800]<br />\nDep: 16:15 | Arv: 17:30<br />\n&#8212;<br />\nMH 1455 [B737-800]<br />\nDep: 18:50 | Arv: 20:05<br />\n&#8212;<br />\nMH 1459 [B737-800]<br />\nDep: 21:30 | Arv: 22:45<br />\n&#8212;</p>\n",
+    "airport_code": "LGK",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)"
+    ],
+    "flight_frequency_weekly": "35",
+    "last_update": "28/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "283 mi (455 km)"
+  },
+  {
+    "id": 6334,
+    "slug": "bintulu",
+    "title": "Bintulu",
+    "link": "https://duitgain.com/enrich_points_databa/bintulu/",
+    "location": "Bintulu",
+    "Location_Country": "Malaysia",
+    "economy_saver_return": "6000",
+    "economy_tax_return": "89.28",
+    "business_saver_return": "36000",
+    "business_tax_return": "212.72",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737-800 (738)"
+    ],
+    "enrich_point_bracket": [
+      "5001 to 10000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "2hr 10min<br>2hr 10min",
+    "flight_code_and_departure_time": "<p><strong>KUL to BTU</strong><br />\nMH 2742 [B737-800]<br />\nDep: 08:20 | Arv: 10:30<br />\nM|T|W|<span style = \"color : red;\">T</span>|<span style = \"color : red;\">F</span>|S|<span style = \"color : red;\">S</span><br />\n&#8212;<br />\nMH 2746 [B737-800]<br />\nDep: 17:10 | Arv: 19:20<br />\n&#8212;<br />\n<strong>BTU to KUL</strong><br />\nMH 2743 [B737-800]<br />\nDep: 13:40 | Arv: 15:50<br />\nM|T|W|<span style = \"color : red;\">T</span>|<span style = \"color : red;\">F</span>|S|<span style = \"color : red;\">S</span><br />\n&#8212;<br />\nMH 2747 [B737-800]<br />\nDep: 20:05 | Arv: 22:15<br />\n&#8212;</p>\n",
+    "airport_code": "BTU",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)"
+    ],
+    "flight_frequency_weekly": "10",
+    "last_update": "28/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "781 mi (1,257 km)"
+  },
+  {
+    "id": 6333,
+    "slug": "sibu",
+    "title": "Sibu",
+    "link": "https://duitgain.com/enrich_points_databa/sibu/",
+    "location": "Sibu",
+    "Location_Country": "Malaysia",
+    "economy_saver_return": "6400",
+    "economy_tax_return": "98.88",
+    "business_saver_return": "36000",
+    "business_tax_return": "212.72",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737-800 (738)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "5001 to 10000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "2hr 05min<br>2hr 00min",
+    "flight_code_and_departure_time": "<p><strong>KUL to SBW</strong><br />\nMH 2716 [B737-800]<br />\nDep: 08:30 | Arv: 10:30<br />\nM|T|<span style = \"color : red;\">W</span>|T|<span style = \"color : red;\">F</span>|S|<span style = \"color : red;\">S</span><br />\n&#8212;<br />\nMH 2718 [B737-800]<br />\nDep: 16:15 | Arv: 18:20<br />\n&#8212;<br />\n<strong>SBW to KUL</strong><br />\nMH 2715 [B737-800]<br />\nDep: 13:15 | Arv: 15:15<br />\nM|<span style = \"color : red;\">T</span>|W|<span style = \"color : red;\">T</span>|F|S|S<br />\n&#8212;<br />\nMH 2717 [B737-800]<br />\nDep: 19:10 | Arv: 21:10<br />\n&#8212;</p>\n",
+    "airport_code": "SBW",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)"
+    ],
+    "flight_frequency_weekly": "10",
+    "last_update": "28/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "710 mi (1,143 km)"
+  },
+  {
+    "id": 6332,
+    "slug": "miri",
+    "title": "Miri",
+    "link": "https://duitgain.com/enrich_points_databa/miri/",
+    "location": "Miri",
+    "Location_Country": "Malaysia",
+    "economy_saver_return": "6400",
+    "economy_tax_return": "109.28",
+    "business_saver_return": "36000",
+    "business_tax_return": "212.72",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737-800 (738)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "5001 to 10000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "2hr 25min<br>2hr 25min",
+    "flight_code_and_departure_time": "<p><strong>KUL to MYY</strong><br />\nMH 2574 [B737-800]<br />\nDep: 09:00 | Arv: 11:25<br />\n&#8212;<br />\nMH 2594 [B737-800]<br />\nDep: 14:20 | Arv: 16:45<br />\n&#8212;<br />\nMH 2584 [B737-800]<br />\nDep: 17:15 | Arv: 19:50<br />\n&#8212;<br />\nMH 2598 [B737-800]<br />\nDep: 21:05 | Arv: 23:30<br />\n<span style = \"color : red;\">M</span>|T|<span style = \"color : red;\">W</span>|T|F|S|S<br />\n&#8212;<br />\n<strong>MYY to KUL</strong><br />\nMH 2551 [B737-800]<br />\nDep: 10:20 | Arv: 12:45<br />\nM|<span style = \"color : red;\">T</span>|W|<span style = \"color : red;\">T</span>|F|S|S<br />\n&#8212;<br />\nMH 2575 [B737-800]<br />\nDep: 12:10 | Arv: 14:35<br />\n&#8212;<br />\nMH 2593 [B737-800]<br />\nDep: 17:30 | Arv: 19:55<br />\n&#8212;<br />\nMH 2585 [B737-800]<br />\nDep: 20:35 | Arv: 23:00<br />\n&#8212;</p>\n",
+    "airport_code": "MYY",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "23",
+    "last_update": "28/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "854 mi (1,374km)"
+  },
+  {
+    "id": 6331,
+    "slug": "kuching",
+    "title": "Kuching",
+    "link": "https://duitgain.com/enrich_points_databa/kuching/",
+    "location": "Kuching",
+    "Location_Country": "Malaysia",
+    "economy_saver_return": "7800",
+    "economy_tax_return": "89.28",
+    "business_saver_return": "36000",
+    "business_tax_return": "212.72",
+    "plane_type": [
+      "Airbus 330-300",
+      "Boeing 737-800 (73H)",
+      "Boeing 737-800 (738)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "5001 to 10000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "1hr 50min<br>1hr 50min",
+    "flight_code_and_departure_time": "<p><strong>KUL to KCH</strong><br />\nMH 2542 [B737-800]<br />\nDep: 07:50 | Arv: 09:40<br />\n&#8212;<br />\nMH 2520 [B737-800]<br />\nDep: 10:55 | Arv: 12:45<br />\n&#8212;<br />\nMH 2530 [B737-800]<br />\nDep: 12:30 | Arv: 14:20<br />\n&#8212;<br />\nMH 2536 [B737-800]<br />\nDep: 13:45 | Arv: 15:35<br />\n&#8212;<br />\nMH 2544 [B737-800]<br />\nDep: 15:15 | Arv: 17:15<br />\n&#8212;<br />\nMH 2528 [B737-800]<br />\nDep: 18:20 | Arv: 20:15<br />\n&#8212;<br />\nMH 2522 [B737-800]<br />\nDep: 19:35 | Arv: 21:25<br />\n&#8212;<br />\nMH 2532 [B737-800]<br />\nDep: 21:15 | Arv: 23:05<br />\n&#8212;<br />\n<strong>KCH to KUL</strong><br />\nMH 2547 [B737-800]<br />\nDep: 08:25 | Arv: 11:00<br />\n&#8212;<br />\nMH 2505 [B737-800]<br />\nDep: 06:50 | Arv: 20:40<br />\n&#8212;<br />\nMH 2543 [B737-800]<br />\nDep: 08:25 | Arv: 11:00<br />\n&#8212;<br />\nMH 2513 [B737-800]<br />\nDep: 13:30 | Arv: 15:20<br />\n&#8212;<br />\nMH 2521 [B737-800]<br />\nDep: 15:15 | Arv: 17:05<br />\n&#8212;<br />\nMH 2517 [B737-800]<br />\nDep: 16:20 | Arv: 18:10<br />\n&#8212;<br />\nMH 2545 [B737-800]<br />\nDep: 18:00 | Arv: 20:00<br />\n&#8212;<br />\nMH 2597 [B737-800]<br />\nDep: 21:00 | Arv: 22:50<br />\n&#8212;</p>\n",
+    "airport_code": "KCH",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "56",
+    "last_update": "28/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5846,
+        "post_author": "1",
+        "post_date": "2025-09-20 22:05:20",
+        "post_date_gmt": "2025-09-20 14:05:20",
+        "post_content": "",
+        "post_title": "B737 Max 8 (7M8)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-max-8",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:49:57",
+        "post_modified_gmt": "2025-09-27 16:49:57",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5846",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "603 mi (970 km)"
+  },
+  {
+    "id": 6330,
+    "slug": "labuan",
+    "title": "Labuan",
+    "link": "https://duitgain.com/enrich_points_databa/labuan/",
+    "location": "Labuan",
+    "Location_Country": "Malaysia",
+    "economy_saver_return": "8800",
+    "economy_tax_return": "88",
+    "business_saver_return": "42600",
+    "business_tax_return": "200.8",
+    "plane_type": [
+      "Airbus 330-300",
+      "Boeing 737-800 (73H)",
+      "Boeing 737-800 (738)"
+    ],
+    "enrich_point_bracket": [
+      "5001 to 10000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "2hr 35min<br>2hr 35min",
+    "flight_code_and_departure_time": "<p><strong>KUL to LBU</strong><br />\nMH 2608 [B737-800]<br />\nDep: 08:25 | Arv: 11:00<br />\n&#8212;<br />\nMH 2634 [B737-800]<br />\nDep: 14:45 | Arv: 17:15<br />\n&#8212;<br />\n<strong>LBU to KUL</strong><br />\nMH 2609 [B737-800]<br />\nDep: 11:45 | Arv: 14:20<br />\n&#8212;<br />\nMH 2635 [B737-800]<br />\nDep: 18:00 | Arv: 20:30<br />\n&#8212;</p>\n",
+    "airport_code": "LBU",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)"
+    ],
+    "flight_frequency_weekly": "14",
+    "last_update": "28/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5801,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:39:59",
+        "post_date_gmt": "2025-09-20 11:39:59",
+        "post_content": "",
+        "post_title": "B737-800 (738)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-2",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:18",
+        "post_modified_gmt": "2025-09-27 16:50:18",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5801",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "949 mi (1,528 km)"
+  },
+  {
+    "id": 6329,
+    "slug": "sandakan",
+    "title": "Sandakan",
+    "link": "https://duitgain.com/enrich_points_databa/sandakan/",
+    "location": "Sandakan",
+    "Location_Country": "Malaysia",
+    "economy_saver_return": "8800",
+    "economy_tax_return": "92.8",
+    "business_saver_return": "42600",
+    "business_tax_return": "200.8",
+    "plane_type": [
+      "Airbus 330-300",
+      "Boeing 737-800 (73H)",
+      "Boeing 737-800 (738)"
+    ],
+    "enrich_point_bracket": [
+      "5001 to 10000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "2hr 50min<br>2hr 50min",
+    "flight_code_and_departure_time": "<p><strong>KUL to SDK</strong><br />\nMH 2710 [B737-800]<br />\nDep: 10:15 | Arv: 13:05<br />\n&#8212;<br />\nMH 2668 [B737-800]<br />\nDep: 14:15 | Arv: 17:05<br />\n<span style = \"color : red;\">M</span>|T|<span style = \"color : red;\">W</span>|T|<span style = \"color : red;\">F</span>|S|S<br />\n&#8212;<br />\n<strong>SDK to KUL</strong><br />\nMH 2711 [B737-800]<br />\nDep: 13:50 | Arv: 16:40<br />\n&#8212;<br />\nMH 2669 [B737-800]<br />\nDep: 17:50 | Arv: 20:40<br />\n<span style = \"color : red;\">M</span>|T|<span style = \"color : red;\">W</span>|T|<span style = \"color : red;\">F</span>|S|S<br />\n&#8212;</p>\n",
+    "airport_code": "SDK",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)"
+    ],
+    "flight_frequency_weekly": "10",
+    "last_update": "28/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "1,147 mi (1,846 km)"
+  },
+  {
+    "id": 6322,
+    "slug": "tawau",
+    "title": "Tawau",
+    "link": "https://duitgain.com/enrich_points_databa/tawau/",
+    "location": "Tawau",
+    "Location_Country": "Malaysia",
+    "economy_saver_return": "9200",
+    "economy_tax_return": "102.4",
+    "business_saver_return": "42600",
+    "business_tax_return": "200.8",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "5001 to 10000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "2hr 55min<br>2hr 50min",
+    "flight_code_and_departure_time": "<p><strong>KUL to TWU</strong><br />\nMH 2660 [B737-800]<br />\nDep: 07:30 | Arv: 10:25<br />\n&#8212;<br />\nMH 2664 [B737 MAX 8]<br />\nDep: 14:45 | Arv: 17:40<br />\n&#8212;<br />\n<strong>TWU to KUL</strong><br />\nMH 2661 [B737 MAX 8]<br />\nDep: 11:10 | Arv: 14:00<br />\n&#8212;<br />\nMH 2665 [B737 MAX 8]<br />\nDep: 18:25 | Arv: 21:15<br />\n&#8212;</p>\n",
+    "airport_code": "TWU",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)"
+    ],
+    "flight_frequency_weekly": "14",
+    "last_update": "27/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "1,137 mi (1,830 km)"
+  },
+  {
+    "id": 6321,
+    "slug": "kota-kinabalu",
+    "title": "Kota Kinabalu",
+    "link": "https://duitgain.com/enrich_points_databa/kota-kinabalu/",
+    "location": "Kota Kinabalu",
+    "Location_Country": "Malaysia",
+    "economy_saver_return": "9200",
+    "economy_tax_return": "84.8",
+    "business_saver_return": "42600",
+    "business_tax_return": "200.8",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "5001 to 10000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "2hr 45min<br>2hr 40min",
+    "flight_code_and_departure_time": "<p><strong>KUL to BKI</strong><br />\n10 flights daily<br />\nMH code|departure hours<br />\nMH2612|0825, MH2610|0935, MH2646|1115, MH2614|1240, MH2616|1425, MH2640|1540, MH2638|1830, MH2606|1940, MH2628|2100, MH2626|2215<br />\n<strong>BKI to KUL</strong><br />\n10 flights daily<br />\nMH code|departure hours<br />\nMH2637|0520, MH2603|0720, MH2613|0950, MH2621|1155, MH2611|1300, MH2641|1440, MH2607|1605, MH2645|1800, MH2631|1905, MH2639|2200</p>\n",
+    "airport_code": "BKI",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "70",
+    "last_update": "27/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5846,
+        "post_author": "1",
+        "post_date": "2025-09-20 22:05:20",
+        "post_date_gmt": "2025-09-20 14:05:20",
+        "post_content": "",
+        "post_title": "B737 Max 8 (7M8)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-max-8",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:49:57",
+        "post_modified_gmt": "2025-09-27 16:49:57",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5846",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "1,012 mi (1,629 km)"
+  },
+  {
+    "id": 6320,
+    "slug": "kratie",
+    "title": "Phnom Penh",
+    "link": "https://duitgain.com/enrich_points_databa/kratie/",
+    "location": "Phnom Penh",
+    "Location_Country": "Cambodia",
+    "economy_saver_return": "13400",
+    "economy_tax_return": "310",
+    "business_saver_return": "43200",
+    "business_tax_return": "372",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "10001 to 20000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "1hr 50min<br>1hr 50min",
+    "flight_code_and_departure_time": "<p><strong>KUL to KTI</strong><br />\nMH 754 [B737-800]<br />\nDep: 09:00 | Arv: 09:50<br />\n&#8212;<br />\nMH 762 [B737-800]<br />\nDep: 16:40 | Arv: 17:30<br />\n&#8212;<br />\n<strong>KTI to KUL</strong><br />\nMH 755 [B737-800]<br />\nDep: 11:10 | Arv: 14:00<br />\n&#8212;<br />\nMH 763 [B737-800]<br />\nDep: 18:30 | Arv: 21:30<br />\n&#8212;</p>\n",
+    "airport_code": "KTI",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)"
+    ],
+    "flight_frequency_weekly": "14",
+    "last_update": "27/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5846,
+        "post_author": "1",
+        "post_date": "2025-09-20 22:05:20",
+        "post_date_gmt": "2025-09-20 14:05:20",
+        "post_content": "",
+        "post_title": "B737 Max 8 (7M8)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-max-8",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:49:57",
+        "post_modified_gmt": "2025-09-27 16:49:57",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5846",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "634 mi (1,021 km)"
+  },
+  {
+    "id": 6319,
+    "slug": "yangon",
+    "title": "Yangon",
+    "link": "https://duitgain.com/enrich_points_databa/yangon/",
+    "location": "Yangon",
+    "Location_Country": "Myanmar",
+    "economy_saver_return": "14600",
+    "economy_tax_return": "210",
+    "business_saver_return": "39000",
+    "business_tax_return": "338",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737-800 (738)"
+    ],
+    "enrich_point_bracket": [
+      "10001 to 20000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "2hr 45min<br>3hr 00min",
+    "flight_code_and_departure_time": "<p><strong>KUL to RGN</strong><br />\nMH 740 [B737-800]<br />\nDep: 09:10 | Arv: 10:25<br />\nM|<span style = \"color : red;\">T<span>|W|<span style = \"color : red;\">T<span>|F|<span style = \"color : red;\">S<span>|<span style = \"color : red;\">S<span><br />\n&#8212;<br />\n<strong>RGN to KUL</strong><br />\nMH 741 [B737-800]<br />\nDep: 11:15 | Arv: 15:45<br />\nM|<span style = \"color : red;\">T<span>|W|<span style = \"color : red;\">T<span>|F|<span style = \"color : red;\">S<span>|<span style = \"color : red;\">S<span><br />\n&#8212;</p>\n",
+    "airport_code": "RGN",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)"
+    ],
+    "flight_frequency_weekly": "4",
+    "last_update": "27/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "1,049 mi (1,688 km)"
+  },
+  {
+    "id": 6298,
+    "slug": "manila",
+    "title": "Manila",
+    "link": "https://duitgain.com/enrich_points_databa/manila/",
+    "location": "Manila",
+    "Location_Country": "Philippines",
+    "economy_saver_return": "23400",
+    "economy_tax_return": "211",
+    "business_saver_return": "73800",
+    "business_tax_return": "273",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737-800 (738)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "20001 to 50000",
+      "50001 to 100000"
+    ],
+    "flight_duration": "3hr 50min<br>4hr 00min",
+    "flight_code_and_departure_time": "<p><strong>KUL to MNL</strong><br />\nMH 806 [B737 MAX 8]<br />\nDep: 08:30 | Arv: 12:20<br />\n&#8212;<br />\nMH 704 [B737 MAX 8]<br />\nDep: 12:45 | Arv: 16:30<br />\n&#8212;<br />\nMH 804 [B737 MAX 8]<br />\nDep: 17:35 | Arv: 21:30<br />\n&#8212;<br />\n<strong>MNL to KUL</strong><br />\nMH 805 [B737 MAX 8]<br />\nDep: 06:40 | Arv: 10:35<br />\n&#8212;<br />\nMH 807 [B737 MAX 8]<br />\nDep: 13:15 | Arv: 17:15<br />\n&#8212;<br />\nMH 705 [B737 MAX 8]<br />\nDep: 17:20 | Arv: 21:25<br />\n&#8212;</p>\n",
+    "airport_code": "MNL",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)"
+    ],
+    "flight_frequency_weekly": "21",
+    "last_update": "26/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5846,
+        "post_author": "1",
+        "post_date": "2025-09-20 22:05:20",
+        "post_date_gmt": "2025-09-20 14:05:20",
+        "post_content": "",
+        "post_title": "B737 Max 8 (7M8)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-max-8",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:49:57",
+        "post_modified_gmt": "2025-09-27 16:49:57",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5846",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5801,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:39:59",
+        "post_date_gmt": "2025-09-20 11:39:59",
+        "post_content": "",
+        "post_title": "B737-800 (738)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-2",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:18",
+        "post_modified_gmt": "2025-09-27 16:50:18",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5801",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "1,547 mi (2,490 km)"
+  },
+  {
+    "id": 6297,
+    "slug": "chiang-mai",
+    "title": "Chiang Mai",
+    "link": "https://duitgain.com/enrich_points_databa/chiang-mai/",
+    "location": "Chiang Mai",
+    "Location_Country": "Thailand",
+    "economy_saver_return": "16000",
+    "economy_tax_return": "252",
+    "business_saver_return": "48400",
+    "business_tax_return": "314",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "10001 to 20000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "2hr 40min<br>3hr 00min",
+    "flight_code_and_departure_time": "<p><strong>KUL to CNX</strong><br />\nMH 772 [B737-800]<br />\nDep: 09:45 | Arv: 11:25<br />\n&#8212;<br />\n<strong>CNX to KUL</strong><br />\nMH 793 [B737-800]<br />\nDep: 14:50 | Arv: 18:50<br />\n&#8212;</p>\n",
+    "airport_code": "CNX",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)"
+    ],
+    "flight_frequency_weekly": "7",
+    "last_update": "26/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5846,
+        "post_author": "1",
+        "post_date": "2025-09-20 22:05:20",
+        "post_date_gmt": "2025-09-20 14:05:20",
+        "post_content": "",
+        "post_title": "B737 Max 8 (7M8)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-max-8",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:49:57",
+        "post_modified_gmt": "2025-09-27 16:49:57",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5846",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "1,122 mi (1,806 km)"
+  },
+  {
+    "id": 6296,
+    "slug": "ho-chi-minh",
+    "title": "Ho Chi Minh",
+    "link": "https://duitgain.com/enrich_points_databa/ho-chi-minh/",
+    "location": "Ho Chi Minh",
+    "Location_Country": "Vietnam",
+    "economy_saver_return": "14200",
+    "economy_tax_return": "236",
+    "business_saver_return": "37800",
+    "business_tax_return": "298",
+    "plane_type": [
+      "Boeing 737-800 (73H)"
+    ],
+    "enrich_point_bracket": [
+      "10001 to 20000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "2hr 05min<br>2hr 10min",
+    "flight_code_and_departure_time": "<p><strong>KUL to SGN</strong><br />\nMH 750 [B737-800]<br />\nDep: 08:55 | Arv: 10:00<br />\n&#8212;<br />\nMH 758 [B737-800]<br />\nDep: 14:40 | Arv: 15:40<br />\n&#8212;<br />\nMH 766 [B737-800]<br />\nDep: 17:10 | Arv: 18:10<br />\n&#8212;<br />\n<strong>SGN to KUL</strong><br />\nMH 751 [B737-800]<br />\nDep: 11:00 | Arv: 14:10<br />\n&#8212;<br />\nMH 759 [B737-800]<br />\nDep: 16:40 | Arv: 19:45<br />\n&#8212;<br />\nMH 767 [B737-800]<br />\nDep: 19:00 | Arv: 22:00<br />\n&#8212;</p>\n",
+    "airport_code": "SGN",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)"
+    ],
+    "flight_frequency_weekly": "21",
+    "last_update": "27/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "652 miles (1,050 km)"
+  },
+  {
+    "id": 6295,
+    "slug": "danang",
+    "title": "Danang",
+    "link": "https://duitgain.com/enrich_points_databa/danang/",
+    "location": "Danang",
+    "Location_Country": "Vietnam",
+    "economy_saver_return": "10800",
+    "economy_tax_return": "236",
+    "business_saver_return": "38400",
+    "business_tax_return": "298",
+    "plane_type": [
+      "Boeing 737-800 (73H)"
+    ],
+    "enrich_point_bracket": [
+      "10001 to 20000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "2hr 40min<br>3hr 00min",
+    "flight_code_and_departure_time": "<p><strong>KUL to DAD</strong><br />\nMH 748 [B737-800]<br />\nDep: 12:00 | Arv: 13:40<br />\n&#8212;<br />\n<strong>DAD to KUL</strong><br />\nMH 747 [B737-800]<br />\nDep: 11:25 | Arv: 15:25<br />\n&#8212;</p>\n",
+    "airport_code": "DAD",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "1200 to 1759 (Midday)"
+    ],
+    "flight_frequency_weekly": "7",
+    "last_update": "27/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "1,019 mi (1,640 km)"
+  },
+  {
+    "id": 6294,
+    "slug": "hanoi",
+    "title": "Hanoi",
+    "link": "https://duitgain.com/enrich_points_databa/hanoi/",
+    "location": "Hanoi",
+    "Location_Country": "Vietnam",
+    "economy_saver_return": "13800",
+    "economy_tax_return": "257",
+    "business_saver_return": "38800",
+    "business_tax_return": "309",
+    "plane_type": [
+      "Boeing 737-800 (73H)"
+    ],
+    "enrich_point_bracket": [
+      "10001 to 20000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "3hr 30min<br>3hr 40min",
+    "flight_code_and_departure_time": "<p><strong>KUL to HAN</strong><br />\nMH 752 [B737-800]<br />\nDep: 09:30 | Arv: 12:00<br />\n&#8212;<br />\n<strong>HAN to KUL</strong><br />\nMH 753 [B737-800]<br />\nDep: 13:00 | Arv: 17:40<br />\n&#8212;</p>\n",
+    "airport_code": "HAN",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)"
+    ],
+    "flight_frequency_weekly": "7",
+    "last_update": "27/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "1,306 mi (2,102 km)"
+  },
+  {
+    "id": 6290,
+    "slug": "denpasar-bali",
+    "title": "Denpasar Bali",
+    "link": "https://duitgain.com/enrich_points_databa/denpasar-bali/",
+    "location": "Denpasar Bali",
+    "Location_Country": "Indonesia",
+    "economy_saver_return": "17000",
+    "economy_tax_return": "203",
+    "business_saver_return": "50000",
+    "business_tax_return": "265",
+    "plane_type": [
+      "Airbus 330-300",
+      "Airbus 330-900 neo",
+      "Boeing 737-800 (73H)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "10001 to 20000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "3hr 05min<br>3hr 00min",
+    "flight_code_and_departure_time": "<p><strong>KUL to DPS</strong><br />\nMH 715 [A330-300]<br />\nDep: 09:00 | Arv: 12:05<br />\n<span style =\"color : red;\">M</span>|T|<span style =\"color : red;\">W</span>|<span style =\"color : red;\">T</span>|F|<span style =\"color : red;\">S</span>|S<br />\n&#8212;<br />\nMH 715 [A330-900neo]<br />\nDep: 09:00 | Arv: 12:05<br />\nM|<span style =\"color : red;\">T</span>|W|T|<span style =\"color : red;\">F</span>|S|<span style =\"color : red;\">S</span><br />\n&#8212;<br />\nMH 851 [B737 MAX 8]<br />\nDep: 12:20 | Arv: 15:25<br />\n&#8212;<br />\nMH 853 [B737 MAX 8]<br />\nDep: 15:20 | Arv: 18:25<br />\n&#8212;<br />\n<strong>DPS to KUL</strong><br />\nMH 714 [A330-300]<br />\nDep: 13:10 | Arv: 16:05<br />\n<span style =\"color : red;\">M</span>|T|<span style =\"color : red;\">W</span>|<span style =\"color : red;\">T</span>|F|<span style =\"color : red;\">S</span>|S<br />\n&#8212;<br />\nMH 714 [A330-900neo]<br />\nDep: 13:10 | Arv: 16:05<br />\nM|<span style =\"color : red;\">T</span>|W|T|<span style =\"color : red;\">F</span>|S|<span style =\"color : red;\">S</span><br />\n&#8212;<br />\nMH 850 [B737 MAX 8]<br />\nDep: 16:25 | Arv: 19:35<br />\n&#8212;<br />\nMH 852 [B737-800]<br />\nDep: 19:15 | Arv: 22:15<br />\n&#8212;</p>\n",
+    "airport_code": "DPS",
+    "plane_group": [
+      "Wide Body",
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)"
+    ],
+    "flight_frequency_weekly": "21",
+    "last_update": "26/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5786,
+        "post_author": "1",
+        "post_date": "2025-09-20 18:42:40",
+        "post_date_gmt": "2025-09-20 10:42:40",
+        "post_content": "",
+        "post_title": "A330-900 neo",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-900-neo",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:39",
+        "post_modified_gmt": "2025-09-23 23:58:39",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5786",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5781,
+        "post_author": "1",
+        "post_date": "2025-09-20 16:18:52",
+        "post_date_gmt": "2025-09-20 08:18:52",
+        "post_content": "",
+        "post_title": "A330-300",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-300",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:08",
+        "post_modified_gmt": "2025-09-23 23:58:08",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5781",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5846,
+        "post_author": "1",
+        "post_date": "2025-09-20 22:05:20",
+        "post_date_gmt": "2025-09-20 14:05:20",
+        "post_content": "",
+        "post_title": "B737 Max 8 (7M8)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-max-8",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:49:57",
+        "post_modified_gmt": "2025-09-27 16:49:57",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5846",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "<p>Malaysia Airlines in March 2025 plans to launch new A330-900neo-operating route, scheduled on Kuala Lumpur – Denpasar route from 16 MAR 2025. The A330neo will serve this route 3 round-trip flights per week on MH715/714 service. Schedule below focuses on 30 MAR 2025 – 25 OCT 2025.</p>\n",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Airbus 330-900 neo)"
+    ],
+    "flight_distance": "1,220 mi (1,964 km)"
+  },
+  {
+    "id": 6289,
+    "slug": "jakarta",
+    "title": "Jakarta",
+    "link": "https://duitgain.com/enrich_points_databa/jakarta/",
+    "location": "Jakarta",
+    "Location_Country": "Indonesia",
+    "economy_saver_return": "13400",
+    "economy_tax_return": "210",
+    "business_saver_return": "42800",
+    "business_tax_return": "272",
+    "plane_type": [
+      "Airbus 330-300",
+      "Boeing 737-800 (73H)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "10001 to 20000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "2hr 05min<br>2hr 10min",
+    "flight_code_and_departure_time": "<p><strong>KUL to CGK</strong><br />\nMH 713 [B737-800]<br />\nDep: 07:25 | Arv: 08:30<br />\n&#8212;<br />\nMH 711 [B737 MAX 8]<br />\nDep: 09:00 | Arv: 10:10<br />\n&#8212;<br />\nMH 717 [B737 MAX 8]<br />\nDep: 10:10 | Arv: 11:15<br />\n&#8212;<br />\nMH 721 [A330-300]<br />\nDep: 13:30 | Arv: 14:40<br />\n&#8212;<br />\nMH 723 [B737 MAX 8]<br />\nDep: 16:20 | Arv: 17:30<br />\n&#8212;<br />\nMH 725 [B737 MAX 8]<br />\nDep: 17:55 | Arv: 19:05<br />\n&#8212;<br />\nMH 727 [B737 MAX 8]<br />\nDep: 22:30 | Arv: 23:40<br />\n&#8212;<br />\n<strong>CGK to KUL</strong><br />\nMH 726 [B737 MAX 8]<br />\nDep: 04:25 | Arv: 07:30<br />\n&#8212;<br />\nMH 712 [B737-800]<br />\nDep: 09:40 | Arv: 12:55<br />\n&#8212;<br />\nMH 710 [B737-800]<br />\nDep: 11:10 | Arv: 14:20<br />\n&#8212;<br />\nMH 716 [B737-800]<br />\nDep: 12:15 | Arv: 15:20<br />\n&#8212;<br />\nMH 720 [B737-800]<br />\nDep: 15:40 | Arv: 18:50<br />\n&#8212;<br />\nMH 722 [B737-800]<br />\nDep: 18:25 | Arv: 21:35<br />\n&#8212;<br />\nMH 724 [B737-800]<br />\nDep: 19:55 | Arv: 23:00<br />\n&#8212;</p>\n",
+    "airport_code": "CGK",
+    "plane_group": [
+      "Wide Body",
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "49",
+    "last_update": "26/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5846,
+        "post_author": "1",
+        "post_date": "2025-09-20 22:05:20",
+        "post_date_gmt": "2025-09-20 14:05:20",
+        "post_content": "",
+        "post_title": "B737 Max 8 (7M8)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-max-8",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:49:57",
+        "post_modified_gmt": "2025-09-27 16:49:57",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5846",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5781,
+        "post_author": "1",
+        "post_date": "2025-09-20 16:18:52",
+        "post_date_gmt": "2025-09-20 08:18:52",
+        "post_content": "",
+        "post_title": "A330-300",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-300",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:08",
+        "post_modified_gmt": "2025-09-23 23:58:08",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5781",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "702 mi (1,129 km)"
+  },
+  {
+    "id": 6288,
+    "slug": "surabaya",
+    "title": "Surabaya",
+    "link": "https://duitgain.com/enrich_points_databa/surabaya/",
+    "location": "Surabaya",
+    "Location_Country": "Indonesia",
+    "economy_saver_return": "13400",
+    "economy_tax_return": "200",
+    "business_saver_return": "40800",
+    "business_tax_return": "262",
+    "plane_type": [
+      "Boeing 737-800 (73H)"
+    ],
+    "enrich_point_bracket": [
+      "10001 to 20000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "2hr 50min<br>2hr 40min",
+    "flight_code_and_departure_time": "<p><strong>KUL to SUB</strong><br />\nMH 871 [B737-800]<br />\nDep: 07:20 | Arv: 10:00<br />\n&#8212;<br />\nMH 873 [B737-800]<br />\nDep: 13:15 | Arv: 14:50<br />\nM|T|<span style=\"color : red;\">W</span>|<span style=\"color : red;\">T</span>|F|<span style=\"color : red;\">S</span>|<span style=\"color : red;\">S</span><br />\n&#8212;<br />\nMH 875 [B737-800]<br />\nDep: 15:25 | Arv: 17:05<br />\n<span style=\"color : red;\">M</span>|<span style=\"color : red;\">T</span>|W|T|<span style=\"color : red;\">F</span>|S|S<br />\n&#8212;<br />\n<strong>SUB to KUL</strong><br />\nMH 870 [B737-800]<br />\nDep: 10:00 | Arv: 13:40<br />\n&#8212;<br />\nMH 872 [B737-800]<br />\nDep: 15:50 | Arv: 19:30<br />\nM|T|<span style=\"color : red;\">W</span>|<span style=\"color : red;\">T</span>|F|<span style=\"color : red;\">S</span>|<span style=\"color : red;\">S</span><br />\n&#8212;<br />\nMH 874 [B737-800]<br />\nDep: 18:20 | Arv: 22:00<br />\n<span style=\"color : red;\">M</span>|<span style=\"color : red;\">T</span>|W|T|<span style=\"color : red;\">F</span>|S|S<br />\n&#8212;</p>\n",
+    "airport_code": "SUB",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)"
+    ],
+    "flight_frequency_weekly": "14",
+    "last_update": "26/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "<p>Malaysia Airlines from mid-June 2025 schedules service increase on Kuala Lumpur – Surabaya route, announced by the carrier last week. From 16 JUN 2025, the oneWorld member schedules 14 weekly flights, instead of 11.</p>\n",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "1,036 mi (1,667 km)"
+  },
+  {
+    "id": 6287,
+    "slug": "medan",
+    "title": "Medan",
+    "link": "https://duitgain.com/enrich_points_databa/medan/",
+    "location": "Medan",
+    "Location_Country": "Indonesia",
+    "economy_saver_return": "8400",
+    "economy_tax_return": "210",
+    "business_saver_return": "33800",
+    "business_tax_return": "272",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "5001 to 10000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "1hr 00min<br>1hr 10min",
+    "flight_code_and_departure_time": "<p><strong>KUL to KNO</strong><br />\nMH 860 [B737-800]<br />\nDep: 08:30 | Arv: 08:30<br />\n&#8212;<br />\nMH 864 [B737-800]<br />\nDep: 15:50 | Arv: 16:00<br />\n&#8212;<br />\n<strong>KNO to KUL</strong><br />\nMH 861 [B737-800]<br />\nDep: 09:20 | Arv: 11:30<br />\n&#8212;<br />\nMH 865 [B737-800]<br />\nDep: 16:50 | Arv: 19:00<br />\n&#8212;</p>\n",
+    "airport_code": "KNO",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)"
+    ],
+    "flight_frequency_weekly": "14",
+    "last_update": "26/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5846,
+        "post_author": "1",
+        "post_date": "2025-09-20 22:05:20",
+        "post_date_gmt": "2025-09-20 14:05:20",
+        "post_content": "",
+        "post_title": "B737 Max 8 (7M8)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-max-8",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:49:57",
+        "post_modified_gmt": "2025-09-27 16:49:57",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5846",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "205 mi (330 km)"
+  },
+  {
+    "id": 6286,
+    "slug": "bangkok",
+    "title": "Bangkok",
+    "link": "https://duitgain.com/enrich_points_databa/bangkok/",
+    "location": "Bangkok",
+    "Location_Country": "Thailand",
+    "economy_saver_return": "14400",
+    "economy_tax_return": "252",
+    "business_saver_return": "40000",
+    "business_tax_return": "314",
+    "plane_type": [
+      "Airbus 330-300",
+      "Boeing 737-800 (73H)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "10001 to 20000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "2hr 15min<br>2hr 15min",
+    "flight_code_and_departure_time": "<p><strong>KUL to BKK</strong><br />\nMH 784 [B737-800]<br />\nDep: 09:00 | Arv: 10:15<br />\n&#8212;<br />\nMH 788 [B737-800]<br />\nDep: 12:15 | Arv: 13:25<br />\n&#8212;<br />\nMH 782 [B737-800]<br />\nDep: 14:50 | Arv: 16:05<br />\n&#8212;<br />\nMH 774 [B737-800]<br />\nDep: 16:20 | Arv: 17:40<br />\n&#8212;<br />\nMH 780 [B737-800]<br />\nDep: 18:05 | Arv: 19:20<br />\n&#8212;<br />\nMH 796 [B737-800]<br />\nDep: 22:00 | Arv: 23:10<br />\n&#8212;<br />\n<strong>BKK to KUL</strong><br />\nMH 797 [B737-800]<br />\nDep: 05:40 | Arv: 08:55<br />\n&#8212;<br />\nMH 781 [B737-800]<br />\nDep: 20:05 | Arv: 23:25<br />\n&#8212;<br />\nMH 775 [B737-800]<br />\nDep: 18:40 | Arv: 22:00<br />\n&#8212;<br />\nMH 791 [B737-800]<br />\nDep: 18:05 | Arv: 20:45<br />\n&#8212;</p>\n",
+    "airport_code": "BKK",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "42",
+    "last_update": "26/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5846,
+        "post_author": "1",
+        "post_date": "2025-09-20 22:05:20",
+        "post_date_gmt": "2025-09-20 14:05:20",
+        "post_content": "",
+        "post_title": "B737 Max 8 (7M8)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-max-8",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:49:57",
+        "post_modified_gmt": "2025-09-27 16:49:57",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5846",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "759 mi (1,221 km)"
+  },
+  {
+    "id": 6285,
+    "slug": "phuket",
+    "title": "Phuket",
+    "link": "https://duitgain.com/enrich_points_databa/phuket/",
+    "location": "Phuket",
+    "Location_Country": "Thailand",
+    "economy_saver_return": "10000",
+    "economy_tax_return": "252",
+    "business_saver_return": "31800",
+    "business_tax_return": "314",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "10001 to 20000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "1hr 25min<br>1hr 30min",
+    "flight_code_and_departure_time": "<p><strong>KUL to HKT</strong><br />\nMH 786 [B737-800]<br />\nDep: 09:10 | Arv: 09:45<br />\n&#8212;<br />\nMH 794 [B737-800]<br />\nDep: 12:55 | Arv: 13:20<br />\n&#8212;<br />\nMH 790 [B737-800]<br />\nDep: 17:00 | Arv: 17:25<br />\n&#8212;<br />\n<strong>HKT to KUL</strong><br />\nMH 787 [B737-800]<br />\nDep: 10:30 | Arv: 13:00<br />\n&#8212;<br />\nMH 795 [B737-800]<br />\nDep: 14:05 | Arv: 16:40<br />\n&#8212;<br />\nMH 791 [B737-800]<br />\nDep: 18:05 | Arv: 20:45<br />\n&#8212;</p>\n",
+    "airport_code": "HKT",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1200 to 1759 (Midday)"
+    ],
+    "flight_frequency_weekly": "21",
+    "last_update": "26/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5801,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:39:59",
+        "post_date_gmt": "2025-09-20 11:39:59",
+        "post_content": "",
+        "post_title": "B737-800 (738)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-2",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:18",
+        "post_modified_gmt": "2025-09-27 16:50:18",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5801",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "<p>Malaysia Airlines in the second half of Northern summer 2025 season plans to increase Kuala Lumpur – Phuket route, where the airline plans to launch 3rd daily flight on 01JUL25, with the new evening departures by 737-800 aircraft.</p>\n",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "438 mi (705 km)"
+  },
+  {
+    "id": 6284,
+    "slug": "male",
+    "title": "Male",
+    "link": "https://duitgain.com/enrich_points_databa/male/",
+    "location": "Male",
+    "Location_Country": "Maldives",
+    "economy_saver_return": "11000",
+    "economy_tax_return": "596",
+    "business_saver_return": "32600",
+    "business_tax_return": "1334",
+    "plane_type": [
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "10001 to 20000",
+      "20001 to 50000"
+    ],
+    "flight_duration": "4hr 20min<br>4hr 45min",
+    "flight_code_and_departure_time": "<p><strong>KUL to MLE</strong><br />\nMH 485 [B737-Max 8]<br />\nDep: 09:40 | Arv: 11:00<br />\n&#8212;<br />\nMH 487 [B737-Max 8]<br />\nDep: 21:00 | Arv: 22:20<br />\n<span style=\"color: red;\">M</span>|T|<span style=\"color: red;\">W</span>|T|<span style=\"color: red;\">F</span>|S|<span style=\"color: red;\">S</span><br />\n&#8212;<br />\n<strong>MLE to KUL</strong><br />\nMH 484 [B737-Max 8]<br />\nDep: 12:00 | Arv: 19:45<br />\n&#8212;<br />\nMH 486 [B737-Max 8]<br />\nDep: 23:20 | Arv: 07:05+1<br />\n<span style=\"color: red;\">M</span>|T|<span style=\"color: red;\">W</span>|T|<span style=\"color: red;\">F</span>|S|<span style=\"color: red;\">S</span><br />\n&#8212;</p>\n",
+    "airport_code": "MLE",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "11",
+    "last_update": "26/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5846,
+        "post_author": "1",
+        "post_date": "2025-09-20 22:05:20",
+        "post_date_gmt": "2025-09-20 14:05:20",
+        "post_content": "",
+        "post_title": "B737 Max 8 (7M8)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-max-8",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:49:57",
+        "post_modified_gmt": "2025-09-27 16:49:57",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5846",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "<p>Malaysia Airlines during Northern winter 2025/26 season schedules service increase to The Maldives, as Kuala Lumpur – Male route to see 11 weekly flights from 26 OCT 2025, instead of 7 weekly. Boeing 737 MAX 8 aircraft operates this route.</p>\n",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737 Max 8 7M8)"
+    ],
+    "flight_distance": "1,946 mi (3,132 km)"
+  },
+  {
+    "id": 6273,
+    "slug": "doha",
+    "title": "Doha",
+    "link": "https://duitgain.com/enrich_points_databa/doha/",
+    "location": "Doha",
+    "Location_Country": "Qatar",
+    "economy_saver_return": "77400",
+    "economy_tax_return": "1106",
+    "business_saver_return": "350200",
+    "business_tax_return": "2078",
+    "plane_type": [
+      "Airbus 330-300",
+      "Airbus 350-900 type 1",
+      "Airbus 350-900 type 2"
+    ],
+    "enrich_point_bracket": [
+      "50001 to 100000",
+      "above 200000"
+    ],
+    "flight_duration": "7hr 35min<br>7hr 30min",
+    "flight_code_and_departure_time": "<p><strong>KUL to DOH</strong><br />\nMH 164 [A330-300]<br />\nDep: 02:40 | Arv: 05:15<br />\n&#8212;<br />\nMH 160 [A350-900]<br />\nDep: 21:15 | Arv: 23:40<br />\n&#8212;<br />\n<strong>DOH to KUL</strong><br />\nMH 165 [A330-300]<br />\nDep: 08:10 | Arv: 20:40<br />\n&#8212;<br />\nMH 161 [A350-900]<br />\nDep: 01:30 | Arv: 13:55<br />\n&#8212;</p>\n",
+    "airport_code": "DOH",
+    "plane_group": [
+      "Wide Body"
+    ],
+    "departure_time_frame": [
+      "0000 to 0559 (Overnight)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "14",
+    "last_update": "26/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5781,
+        "post_author": "1",
+        "post_date": "2025-09-20 16:18:52",
+        "post_date_gmt": "2025-09-20 08:18:52",
+        "post_content": "",
+        "post_title": "A330-300",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-300",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:08",
+        "post_modified_gmt": "2025-09-23 23:58:08",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5781",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5794,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:11:55",
+        "post_date_gmt": "2025-09-20 11:11:55",
+        "post_content": "",
+        "post_title": "A350-900 type 2",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a350-900-type-2",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:59:47",
+        "post_modified_gmt": "2025-09-23 23:59:47",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5794",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5788,
+        "post_author": "1",
+        "post_date": "2025-09-20 18:52:31",
+        "post_date_gmt": "2025-09-20 10:52:31",
+        "post_content": "",
+        "post_title": "A350-900 type 1",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a350-900-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 23:38:41",
+        "post_modified_gmt": "2025-09-24 15:38:41",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5788",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Airbus 350-900 type 2)"
+    ],
+    "flight_distance": "3,672 mi (5,909 km)"
+  },
+  {
+    "id": 6256,
+    "slug": "beijing",
+    "title": "Beijing",
+    "link": "https://duitgain.com/enrich_points_databa/beijing/",
+    "location": "Beijing",
+    "Location_Country": "China",
+    "economy_saver_return": "39800",
+    "economy_tax_return": "248",
+    "business_saver_return": "97400",
+    "business_tax_return": "398",
+    "plane_type": [
+      "Airbus 330-300"
+    ],
+    "enrich_point_bracket": [
+      "20001 to 50000",
+      "50001 to 100000"
+    ],
+    "flight_duration": "6hr 10min<br>6hr 30min",
+    "flight_code_and_departure_time": "<p><strong>KUL to PKX</strong><br />\nMH 318 [A330-300]<br />\nDep: 00:50 | Arv: 07:00<br />\n&#8212;<br />\n<strong>PKX to KUL</strong><br />\nMH 319 [A330-300]<br />\nDep: 09:30 | Arv: 16:00<br />\n&#8212;</p>\n",
+    "airport_code": "PKX",
+    "plane_group": [
+      "Wide Body"
+    ],
+    "departure_time_frame": [
+      "0000 to 0559 (Overnight)"
+    ],
+    "flight_frequency_weekly": "7",
+    "last_update": "26/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5781,
+        "post_author": "1",
+        "post_date": "2025-09-20 16:18:52",
+        "post_date_gmt": "2025-09-20 08:18:52",
+        "post_content": "",
+        "post_title": "A330-300",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-300",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:08",
+        "post_modified_gmt": "2025-09-23 23:58:08",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5781",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Airbus 330-300)"
+    ],
+    "flight_distance": "2,702 mi (4,349 km)"
+  },
+  {
+    "id": 6254,
+    "slug": "shanghai",
+    "title": "Shanghai",
+    "link": "https://duitgain.com/enrich_points_databa/shanghai/",
+    "location": "Shanghai",
+    "Location_Country": "China",
+    "economy_saver_return": "28800",
+    "economy_tax_return": "344",
+    "business_saver_return": "80000",
+    "business_tax_return": "532",
+    "plane_type": [
+      "Airbus 330-300"
+    ],
+    "enrich_point_bracket": [
+      "20001 to 50000",
+      "50001 to 100000"
+    ],
+    "flight_duration": "5hr 30min<br>5hr 50min",
+    "flight_code_and_departure_time": "<p><strong>KUL to PVG</strong><br />\nMH 388 [A330-300]<br />\nDep: 08:55 | Arv: 14:15<br />\n&#8212;<br />\nMH 386 [A330-300]<br />\nDep: 19:35 | Arv: 01:05+1<br />\n&#8212;<br />\n<strong>PVG to KUL</strong><br />\nMH 387 [A330-300]<br />\nDep: 02:15 | Arv: 08:05<br />\n&#8212;<br />\nMH 389 [A330-300]<br />\nDep: 16:05 | Arv: 21:50<br />\n&#8212;</p>\n",
+    "airport_code": "PVG",
+    "plane_group": [
+      "Wide Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "14",
+    "last_update": "26/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5781,
+        "post_author": "1",
+        "post_date": "2025-09-20 16:18:52",
+        "post_date_gmt": "2025-09-20 08:18:52",
+        "post_content": "",
+        "post_title": "A330-300",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-300",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:08",
+        "post_modified_gmt": "2025-09-23 23:58:08",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5781",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Airbus 330-300)"
+    ],
+    "flight_distance": "2,359 mi (3,797km)"
+  },
+  {
+    "id": 6253,
+    "slug": "hong-kong",
+    "title": "Hong Kong",
+    "link": "https://duitgain.com/enrich_points_databa/hong-kong/",
+    "location": "Hong Kong",
+    "Location_Country": "China",
+    "economy_saver_return": "28800",
+    "economy_tax_return": "344",
+    "business_saver_return": "80000",
+    "business_tax_return": "532",
+    "plane_type": [
+      "Boeing 737-800 (73H)"
+    ],
+    "enrich_point_bracket": [
+      "20001 to 50000",
+      "50001 to 100000"
+    ],
+    "flight_duration": "4hr 0min<br>4hr 05min",
+    "flight_code_and_departure_time": "<p><strong>KUL to HKG</strong><br />\nMH 072 [B737-8 MAX]<br />\nDep: 08:55 | Arv: 12:25<br />\n&#8212;<br />\nMH 078 [B737-8 MAX]<br />\nDep: 19:50 | Arv: 23:50<br />\n&#8212;<br />\n<strong>HKG to KUL</strong><br />\nMH 073 [B737-8 MAX]<br />\nDep: 14:50 | Arv: 18:55<br />\n&#8212;<br />\nMH 079 [B737-8 MAX]<br />\nDep: 08:45 | Arv: 12:50<br />\n&#8212;</p>\n",
+    "airport_code": "HKG",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "14",
+    "last_update": "26/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5846,
+        "post_author": "1",
+        "post_date": "2025-09-20 22:05:20",
+        "post_date_gmt": "2025-09-20 14:05:20",
+        "post_content": "",
+        "post_title": "B737 Max 8 (7M8)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-max-8",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:49:57",
+        "post_modified_gmt": "2025-09-27 16:49:57",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5846",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "1,580 mi (2,543 km)"
+  },
+  {
+    "id": 6252,
+    "slug": "guangzhou",
+    "title": "GuangZhou",
+    "link": "https://duitgain.com/enrich_points_databa/guangzhou/",
+    "location": "GuangZhou",
+    "Location_Country": "China",
+    "economy_saver_return": "28000",
+    "economy_tax_return": "248",
+    "business_saver_return": "80000",
+    "business_tax_return": "398",
+    "plane_type": [
+      "Airbus 330-200",
+      "Airbus 330-300"
+    ],
+    "enrich_point_bracket": [
+      "20001 to 50000",
+      "50001 to 100000"
+    ],
+    "flight_duration": "4hr 10min<br>4hr 10min",
+    "flight_code_and_departure_time": "<p><strong>KUL to CAN</strong><br />\nMH 376 [A330-300]<br />\nDep: 09:25 | Arv: 13:35<br />\n&#8212;<br />\n<strong>CAN to KUL</strong><br />\nMH 377 [A330-300]<br />\nDep: 14:40 | Arv: 18:50<br />\n&#8212;</p>\n",
+    "airport_code": "CAN",
+    "plane_group": [
+      "Wide Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)"
+    ],
+    "flight_frequency_weekly": "7",
+    "last_update": "26/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5781,
+        "post_author": "1",
+        "post_date": "2025-09-20 16:18:52",
+        "post_date_gmt": "2025-09-20 08:18:52",
+        "post_content": "",
+        "post_title": "A330-300",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-300",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:08",
+        "post_modified_gmt": "2025-09-23 23:58:08",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5781",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Airbus 330-300)"
+    ],
+    "flight_distance": "1,624 mi (2,613 km)"
+  },
+  {
+    "id": 6250,
+    "slug": "xiamen",
+    "title": "Xiamen",
+    "link": "https://duitgain.com/enrich_points_databa/xiamen/",
+    "location": "Xiamen",
+    "Location_Country": "China",
+    "economy_saver_return": "22400",
+    "economy_tax_return": "248",
+    "business_saver_return": "74200",
+    "business_tax_return": "398",
+    "plane_type": [
+      "Boeing 737-800 (73H)",
+      "Boeing 737-800 (738)"
+    ],
+    "enrich_point_bracket": [
+      "20001 to 50000",
+      "50001 to 100000"
+    ],
+    "flight_duration": "4hr 25min<br>4hr 55min",
+    "flight_code_and_departure_time": "<p><strong>KUL to XMN</strong><br />\nMH 390 [B737-800]<br />\nDep: 09:25 | Arv: 13:50<br />\nM|<span style=\"color: red;\">T</span>|W|<span style=\"color: red;\">T</span>|F|<span style=\"color: red;\">S</span>|S<br />\n&#8212;<br />\n<strong>XMN to KUL</strong><br />\nMH 391 [B737-800]<br />\nDep: 15:10 | Arv: 20:05<br />\nM|<span style=\"color: red;\">T</span>|W|<span style=\"color: red;\">T</span>|F|<span style=\"color: red;\">S</span>|S<br />\n&#8212;</p>\n",
+    "airport_code": "XMN",
+    "plane_group": [
+      "Narrow Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)"
+    ],
+    "flight_frequency_weekly": "3",
+    "last_update": "26/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5846,
+        "post_author": "1",
+        "post_date": "2025-09-20 22:05:20",
+        "post_date_gmt": "2025-09-20 14:05:20",
+        "post_content": "",
+        "post_title": "B737 Max 8 (7M8)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-max-8",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:49:57",
+        "post_modified_gmt": "2025-09-27 16:49:57",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5846",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "<p>Effective 26 OCT 2025, 3 weekly 737 MAX 8, replacing B737-800</p>\n",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Boeing 737-800 73H)"
+    ],
+    "flight_distance": "1,862 mi (2,996 km)"
+  },
+  {
+    "id": 6247,
+    "slug": "taipei",
+    "title": "Taipei",
+    "link": "https://duitgain.com/enrich_points_databa/taipei/",
+    "location": "Taipei",
+    "Location_Country": "Taiwan",
+    "economy_saver_return": "26400",
+    "economy_tax_return": "264",
+    "business_saver_return": "72000",
+    "business_tax_return": "414",
+    "plane_type": [
+      "Airbus 330-300"
+    ],
+    "enrich_point_bracket": [
+      "20001 to 50000",
+      "50001 to 100000"
+    ],
+    "flight_duration": "4hr 50min<br>4hr 55min",
+    "flight_code_and_departure_time": "<p><strong>KUL to TPE</strong><br />\nMH 366 [A330-300]<br />\nDep: 09:20 | Arv: 14:10<br />\n&#8212;<br />\n<strong>TPE to KUL</strong><br />\nMH 367 [A330-300]<br />\nDep: 15:10 | Arv: 20:05<br />\n&#8212;</p>\n",
+    "airport_code": "TPE",
+    "plane_group": [
+      "Wide Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)"
+    ],
+    "flight_frequency_weekly": "7",
+    "last_update": "26/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5781,
+        "post_author": "1",
+        "post_date": "2025-09-20 16:18:52",
+        "post_date_gmt": "2025-09-20 08:18:52",
+        "post_content": "",
+        "post_title": "A330-300",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-300",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:08",
+        "post_modified_gmt": "2025-09-23 23:58:08",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5781",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Airbus 330-300)"
+    ],
+    "flight_distance": "2,017 mi (3,246 km)"
+  },
+  {
+    "id": 6246,
+    "slug": "seoul",
+    "title": "Seoul",
+    "link": "https://duitgain.com/enrich_points_databa/seoul/",
+    "location": "Seoul",
+    "Location_Country": "Korea",
+    "economy_saver_return": "40000",
+    "economy_tax_return": "267",
+    "business_saver_return": "96000",
+    "business_tax_return": "417",
+    "plane_type": [
+      "Airbus 330-300"
+    ],
+    "enrich_point_bracket": [
+      "20001 to 50000",
+      "50001 to 100000"
+    ],
+    "flight_duration": "6hr 15min<br>6hr 40min",
+    "flight_code_and_departure_time": "<p><strong>KUL to ICN</strong><br />\nMH 038 [A330-300]<br />\nDep: 13:25 | Arv: 20:55<br />\nM|T|<span style=\"color: red;\">W</span>|<span style=\"color: red;\">T</span>|<span style=\"color: red;\">F</span>|<span style=\"color: red;\">S</span>|<span style=\"color: red;\">S</span><br />\n&#8212;<br />\nMH 066 [A330-300]<br />\nDep: 23:15 | Arv: 06:30+1<br />\n&#8212;<br />\n<strong>ICN to KUL</strong><br />\nMH 039 [A330-300]<br />\nDep: 00:10 | Arv: 06:15<br />\n<span style=\"color: red;\">M</span>|T|W|<span style=\"color: red;\">T</span>|<span style=\"color: red;\">F</span>|<span style=\"color: red;\">S</span>|<span style=\"color: red;\">S</span><br />\n&#8212;<br />\nMH 067 [A330-300]<br />\nDep: 11:05 | Arv: 16:45<br />\n&#8212;</p>\n",
+    "airport_code": "ICN",
+    "plane_group": [
+      "Wide Body"
+    ],
+    "departure_time_frame": [
+      "1200 to 1759 (Midday)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "12",
+    "last_update": "25/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5781,
+        "post_author": "1",
+        "post_date": "2025-09-20 16:18:52",
+        "post_date_gmt": "2025-09-20 08:18:52",
+        "post_content": "",
+        "post_title": "A330-300",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-300",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:08",
+        "post_modified_gmt": "2025-09-23 23:58:08",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5781",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Airbus 330-300)"
+    ],
+    "flight_distance": "2,866 mi (4,613 km)"
+  },
+  {
+    "id": 6245,
+    "slug": "osaka-kansai",
+    "title": "Osaka Kansai",
+    "link": "https://duitgain.com/enrich_points_databa/osaka-kansai/",
+    "location": "Osaka Kansai",
+    "Location_Country": "Japan",
+    "economy_saver_return": "39200",
+    "economy_tax_return": "662",
+    "business_saver_return": "100000",
+    "business_tax_return": "792",
+    "plane_type": [
+      "Airbus 330-300"
+    ],
+    "enrich_point_bracket": [
+      "20001 to 50000",
+      "50001 to 100000"
+    ],
+    "flight_duration": "6hr 10min<br>7hr 00min",
+    "flight_code_and_departure_time": "<p><strong>KUL to KIX</strong><br />\nMH 052 [A330-300]<br />\nDep: 22:40 | Arv: 05:50+1<br />\n&#8212;<br />\n<strong>KIX to KUL</strong><br />\nMH 053 [A330-300]<br />\nDep: 09:55 | Arv: 15:55<br />\n&#8212;</p>\n",
+    "airport_code": "KIX",
+    "plane_group": [
+      "Wide Body"
+    ],
+    "departure_time_frame": [
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "7",
+    "last_update": "25/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5781,
+        "post_author": "1",
+        "post_date": "2025-09-20 16:18:52",
+        "post_date_gmt": "2025-09-20 08:18:52",
+        "post_content": "",
+        "post_title": "A330-300",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-300",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:08",
+        "post_modified_gmt": "2025-09-23 23:58:08",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5781",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Airbus 330-300)"
+    ],
+    "flight_distance": "3,071 mi (4,943 km)"
+  },
+  {
+    "id": 6243,
+    "slug": "tokyo",
+    "title": "Tokyo",
+    "link": "https://duitgain.com/enrich_points_databa/tokyo/",
+    "location": "Tokyo (Narita)",
+    "Location_Country": "Japan",
+    "economy_saver_return": "40800",
+    "economy_tax_return": "583",
+    "business_saver_return": "100000",
+    "business_tax_return": "779",
+    "plane_type": [
+      "Airbus 330-300",
+      "Airbus 350-900 type 1",
+      "Airbus 350-900 type 2"
+    ],
+    "enrich_point_bracket": [
+      "20001 to 50000",
+      "50001 to 100000"
+    ],
+    "flight_duration": "7hr 10min<br>7hr 50min",
+    "flight_code_and_departure_time": "<p><strong>KUL to NRT</strong><br />\nMH 070 [A350-900]<br />\nDep: 09:50 | Arv: 18:05<br />\nM|T|<span style=\"color: red;\">W</span>|<span style=\"color: red;\">T</span>|<span style=\"color: red;\">F</span>|<span style=\"color: red;\">S</span>|<span style=\"color: red;\">S</span><br />\n&#8212;<br />\nMH 088 [A330-900 neo]<br />\nDep: 23:30 | Arv: 07:40+1<br />\n&#8212;<br />\n<strong>NRT to KUL</strong><br />\nMH 089 [A330-900 neo]<br />\nDep: 10:20 | Arv: 16:45<br />\n&#8212;<br />\nMH 071 [A350-900]<br />\nDep: 22:30 | Arv: 04:55+1<br />\nM|T|<span style=\"color: red;\">W</span>|<span style=\"color: red;\">T</span>|<span style=\"color: red;\">F</span>|<span style=\"color: red;\">S</span>|<span style=\"color: red;\">S</span><br />\n&#8212;</p>\n",
+    "airport_code": "NRT",
+    "plane_group": [
+      "Wide Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "12",
+    "last_update": "25/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5788,
+        "post_author": "1",
+        "post_date": "2025-09-20 18:52:31",
+        "post_date_gmt": "2025-09-20 10:52:31",
+        "post_content": "",
+        "post_title": "A350-900 type 1",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a350-900-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 23:38:41",
+        "post_modified_gmt": "2025-09-24 15:38:41",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5788",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5781,
+        "post_author": "1",
+        "post_date": "2025-09-20 16:18:52",
+        "post_date_gmt": "2025-09-20 08:18:52",
+        "post_content": "",
+        "post_title": "A330-300",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-300",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:08",
+        "post_modified_gmt": "2025-09-23 23:58:08",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5781",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5786,
+        "post_author": "1",
+        "post_date": "2025-09-20 18:42:40",
+        "post_date_gmt": "2025-09-20 10:42:40",
+        "post_content": "",
+        "post_title": "A330-900 neo",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-900-neo",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:39",
+        "post_modified_gmt": "2025-09-23 23:58:39",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5786",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "<p>Malaysia Airlines in recent schedule update filed its 4th route to be operated by the new Airbus A330-900neo aircraft, set to scheduled on Kuala Lumpur – Tokyo Narita route on 01 MAR 2025. The A330neo aircraft will operate on MH088/089 service.</p>\n<p>Malaysia Airlines this week revised planned operational aircraft on Kuala Lumpur – Tokyo Narita route. From 17 SEP 2025 to 25 OCT 2025, MH070/071 service during this period will be operated by Airbus A330-300 (except selected dates in October), instead of A350-900.</p>\n",
+    "plane_type_bs": [
+      "(Airbus 350-900 type 1)"
+    ],
+    "plane_type_bc": [
+      "(Airbus 350-900 type 1)"
+    ],
+    "flight_distance": "3,361 mi (5,409 km)"
+  },
+  {
+    "id": 6217,
+    "slug": "paris",
+    "title": "Paris",
+    "link": "https://duitgain.com/enrich_points_databa/paris/",
+    "location": "Paris",
+    "Location_Country": "France",
+    "economy_saver_return": "86200",
+    "economy_tax_return": "720",
+    "business_saver_return": "330400",
+    "business_tax_return": "1381",
+    "plane_type": [
+      "Airbus 350-900 type 1",
+      "Airbus 350-900 type 2"
+    ],
+    "enrich_point_bracket": [
+      "50001 to 100000",
+      "above 200000"
+    ],
+    "flight_duration": "13hr 55min<br>12hr 25min",
+    "flight_code_and_departure_time": "<p><strong>KUL to CDG</strong><br />\nMH 020 [A350-900]<br />\nDep: 23:40 | Arv: 06:40+1<br />\n&#8212;<br />\n<strong>CDG to KUL</strong><br />\nMH 021 [A350-900]<br />\nDep: 11:25 | Arv: 06:10+1<br />\n&#8212;</p>\n",
+    "airport_code": "CDG",
+    "plane_group": [
+      "Wide Body"
+    ],
+    "departure_time_frame": [
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "7",
+    "last_update": "24/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5788,
+        "post_author": "1",
+        "post_date": "2025-09-20 18:52:31",
+        "post_date_gmt": "2025-09-20 10:52:31",
+        "post_content": "",
+        "post_title": "A350-900 type 1",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a350-900-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 23:38:41",
+        "post_modified_gmt": "2025-09-24 15:38:41",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5788",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5794,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:11:55",
+        "post_date_gmt": "2025-09-20 11:11:55",
+        "post_content": "",
+        "post_title": "A350-900 type 2",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a350-900-type-2",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:59:47",
+        "post_modified_gmt": "2025-09-23 23:59:47",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5794",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "<p>Malaysia Airlines in Northern summer 2025 season plans to resume service to France, as the oneWorld member resumes Kuala Lumpur – Paris Charles de Gaulle route on 22 MAR 2025. Airbus A350-900XWB aircraft to operate this route 4 times a week, increasing to 1 daily from 29 MAR 2025.</p>\n<p>Malaysia Airlines in the fourth quarter of 2025 schedules frequency reductions on Kuala Lumpur – Paris Charles de Gaulle route, where the airline schedules 6 weekly flights, instead of 7, during the period of 06 OCT 2025 – 30 NOV 2025 (Malaysia departure).</p>\n",
+    "plane_type_bs": [
+      "(Airbus 350-900 type 1)"
+    ],
+    "plane_type_bc": [
+      "(Airbus 350-900 type 1)"
+    ],
+    "flight_distance": "6,488 mi (10,441 km)"
+  },
+  {
+    "id": 6215,
+    "slug": "london-heathrow",
+    "title": "London",
+    "link": "https://duitgain.com/enrich_points_databa/london-heathrow/",
+    "location": "London",
+    "Location_Country": "United Kingdom",
+    "economy_saver_return": "66000",
+    "economy_tax_return": "1071",
+    "business_saver_return": "216000",
+    "business_tax_return": "2073",
+    "plane_type": [
+      "Airbus 350-900 type 1",
+      "Airbus 350-900 type 2"
+    ],
+    "enrich_point_bracket": [
+      "50001 to 100000",
+      "above 200000"
+    ],
+    "flight_duration": "14hr 10min<br>12hr 55min",
+    "flight_code_and_departure_time": "<p><strong>KUL to LHR</strong><br />\nMH 004 [A350-900]<br />\nDep: 09:15 | Arv: 15:25<br />\n&#8212;<br />\nMH 002 [A350-900]<br />\nDep: 23:30 | Arv: 05:35+1<br />\n&#8212;<br />\n<strong>LHR to KUL</strong><br />\nMH 003 [A350-900]<br />\nDep: 10:25 | Arv: 07:15+1<br />\n&#8212;<br />\nMH 001 [A350-900]<br />\nDep: 21:25 | Arv: 18:20+1<br />\n&#8212;</p>\n",
+    "airport_code": "LHR",
+    "plane_group": [
+      "Wide Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "14",
+    "last_update": "24/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5788,
+        "post_author": "1",
+        "post_date": "2025-09-20 18:52:31",
+        "post_date_gmt": "2025-09-20 10:52:31",
+        "post_content": "",
+        "post_title": "A350-900 type 1",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a350-900-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 23:38:41",
+        "post_modified_gmt": "2025-09-24 15:38:41",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5788",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5794,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:11:55",
+        "post_date_gmt": "2025-09-20 11:11:55",
+        "post_content": "",
+        "post_title": "A350-900 type 2",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a350-900-type-2",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:59:47",
+        "post_modified_gmt": "2025-09-23 23:59:47",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5794",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "<p>Malaysia Airlines in November 2025 schedules selected service reductions on Kuala Lumpur – London Heathrow route, as MH004/001 to be cancelled on selected dates: 05, 11, 18, 24. With the recent adjustments, the airline schedules 13 weekly flights for the month of November.</p>\n",
+    "plane_type_bs": [
+      "(Airbus 350-900 type 1)"
+    ],
+    "plane_type_bc": [
+      "(Airbus 350-900 type 1)"
+    ],
+    "flight_distance": "6,590 mi (10,605 km)"
+  },
+  {
+    "id": 6184,
+    "slug": "auckland",
+    "title": "Auckland",
+    "link": "https://duitgain.com/enrich_points_databa/auckland/",
+    "location": "Auckland",
+    "Location_Country": "New Zealand",
+    "economy_saver_return": "70000",
+    "economy_tax_return": "520",
+    "business_saver_return": "210000",
+    "business_tax_return": "670",
+    "plane_type": [
+      "Airbus 330-300",
+      "Airbus 330-900 neo"
+    ],
+    "enrich_point_bracket": [
+      "50001 to 100000",
+      "above 200000"
+    ],
+    "flight_duration": "10hr 25min<br>11hr 10min",
+    "flight_code_and_departure_time": "<p><strong>KUL to AKL</strong><br />\nMH 133 [A330-300]<br />\nDep: 08:30 | Arv: 23:55<br />\nM|T|<span style=\"color: red;\">W</span>|T|<span style=\"color: red;\">F</span>|S|<span style=\"color: red;\">S</span><br />\n&#8212;<br />\nMH 145 [A330-300]<br />\nDep: 20:45 | Arv: 12:05+1<br />\n<span style=\"color: red;\">M</span>|T|W|<span style=\"color: red;\">T</span>|F|<span style=\"color: red;\">S</span>|S<br />\n&#8212;<br />\nMH 145 [A330-200]<br />\nDep: 20:55 | Arv: 12:15+1<br />\n<span style=\"color: red;\">M</span>|T|W|T|F|<span style=\"color: red;\">S</span>|S<br />\n&#8212;<br />\n<strong>AKL to KUL</strong><br />\nMH 132 [A330-300]<br />\nDep: 01:40 | Arv: 07:50<br />\n<span style=\"color: red;\">M</span>|T|W|<span style=\"color: red;\">T</span>|F|<span style=\"color: red;\">S</span>|S<br />\n&#8212;<br />\nMH 144 [A330-200]<br />\nDep: 13:45 | Arv: 19:55<br />\nM|<span style=\"color: red;\">T</span>|W|T|F|S|<span style=\"color: red;\">S</span><br />\n&#8212;<br />\nMH 144 [A330-300]<br />\nDep: 13:50 | Arv: 20:00<br />\nM|<span style=\"color: red;\">T</span>|W|T|<span style=\"color: red;\">F</span>|S|<span style=\"color: red;\">S</span><br />\n&#8212;</p>\n",
+    "airport_code": "AKL",
+    "plane_group": [
+      "Wide Body"
+    ],
+    "departure_time_frame": [
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "8",
+    "last_update": "24/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5786,
+        "post_author": "1",
+        "post_date": "2025-09-20 18:42:40",
+        "post_date_gmt": "2025-09-20 10:42:40",
+        "post_content": "",
+        "post_title": "A330-900 neo",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-900-neo",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:39",
+        "post_modified_gmt": "2025-09-23 23:58:39",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5786",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "<p>Effective from 28 OCT 2025, Increase from 8 to 10 weekly, A330-200/-300</p>\n",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Airbus 330-900 neo)"
+    ],
+    "flight_distance": "5,408 mi (8,703 km)"
+  },
+  {
+    "id": 6181,
+    "slug": "brisbane",
+    "title": "Brisbane",
+    "link": "https://duitgain.com/enrich_points_databa/brisbane/",
+    "location": "Brisbane",
+    "Location_Country": "Australia",
+    "economy_saver_return": "34000",
+    "economy_tax_return": "645",
+    "business_saver_return": "205200",
+    "business_tax_return": "795",
+    "plane_type": [
+      "Airbus 330-300"
+    ],
+    "enrich_point_bracket": [
+      "20001 to 50000",
+      "above 200000"
+    ],
+    "flight_duration": "8hr 05min<br>8hr 10min",
+    "flight_code_and_departure_time": "<p><strong>KUL to BNE</strong><br />\nMH 135 [A330-300]<br />\nDep: 20:40 | Arv: 06:45+1<br />\n<span style=\"color: red;\">M</span>|T|<span style=\"color: red;\">W</span>|T|F|S|S<br />\n&#8212;<br />\n<strong>BNE to KUL</strong><br />\nMH 134 [A330-300]<br />\nDep: 08:00 | Arv: 14:10<br />\nM|<span style=\"color: red;\">T</span>|W|<span style=\"color: red;\">T</span>|F|S|S<br />\n&#8212;</p>\n",
+    "airport_code": "BNE",
+    "plane_group": [
+      "Wide Body"
+    ],
+    "departure_time_frame": [
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "5",
+    "last_update": "24/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5781,
+        "post_author": "1",
+        "post_date": "2025-09-20 16:18:52",
+        "post_date_gmt": "2025-09-20 08:18:52",
+        "post_content": "",
+        "post_title": "A330-300",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-300",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:08",
+        "post_modified_gmt": "2025-09-23 23:58:08",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5781",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "<p>Effective from 29 NOV 2025, 5 weekly A330-300, service resumption since March 2023</p>\n",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Airbus 330-300)"
+    ],
+    "flight_distance": "4,000 mi (6,438 km)"
+  },
+  {
+    "id": 6180,
+    "slug": "perth",
+    "title": "Perth",
+    "link": "https://duitgain.com/enrich_points_databa/perth/",
+    "location": "Perth",
+    "Location_Country": "Australia",
+    "economy_saver_return": "39200",
+    "economy_tax_return": "539",
+    "business_saver_return": "110000",
+    "business_tax_return": "689",
+    "plane_type": [
+      "Airbus 330-200",
+      "Airbus 330-300",
+      "Boeing 737-800 (73H)",
+      "Boeing 737 Max 8 (7M8)"
+    ],
+    "enrich_point_bracket": [
+      "20001 to 50000",
+      "100001 to 200000"
+    ],
+    "flight_duration": "6hr 00min<br>5hr 35min",
+    "flight_code_and_departure_time": "<p><strong>KUL to PER</strong><br />\nMH 125 [B737-MAX8]<br />\nDep: 09:15 | Arv: 15:15<br />\n&#8212;<br />\nMH 127 [A330-300]<br />\nDep: 19:50 | Arv: 01:25+1<br />\n&#8212;<br />\n<strong>PER to KUL</strong><br />\nMH 124 [B737-MAX8]<br />\nDep: 16:15 | Arv: 22:00<br />\n&#8212;<br />\nMH 126 [A330-300]<br />\nDep: 02:25| Arv: 07:55<br />\n&#8212;</p>\n",
+    "airport_code": "PER",
+    "plane_group": [
+      "Wide Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "12",
+    "last_update": "24/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5781,
+        "post_author": "1",
+        "post_date": "2025-09-20 16:18:52",
+        "post_date_gmt": "2025-09-20 08:18:52",
+        "post_content": "",
+        "post_title": "A330-300",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-300",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:08",
+        "post_modified_gmt": "2025-09-23 23:58:08",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5781",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5773,
+        "post_author": "1",
+        "post_date": "2025-09-20 15:56:58",
+        "post_date_gmt": "2025-09-20 07:56:58",
+        "post_content": "",
+        "post_title": "A330-200 type 1",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-200-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:57:06",
+        "post_modified_gmt": "2025-09-23 23:57:06",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5773",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5846,
+        "post_author": "1",
+        "post_date": "2025-09-20 22:05:20",
+        "post_date_gmt": "2025-09-20 14:05:20",
+        "post_content": "",
+        "post_title": "B737 Max 8 (7M8)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-max-8",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:49:57",
+        "post_modified_gmt": "2025-09-27 16:49:57",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5846",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5799,
+        "post_author": "1",
+        "post_date": "2025-09-20 19:34:44",
+        "post_date_gmt": "2025-09-20 11:34:44",
+        "post_content": "",
+        "post_title": "B737-800 (73H)",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "b737-800-type-1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-28 00:50:31",
+        "post_modified_gmt": "2025-09-27 16:50:31",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5799",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "<p>Effective from 27 OCT 2024, MH125/124 737 MAX 8 replaces -800 (5 weekly)<br />\nEffective from 03 JAN 2025, MH127/126 2 of 7 weekly A330-300 replaces A330-200 (3 from 04 FEB 2025)</p>\n",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Airbus 330-300)"
+    ],
+    "flight_distance": "2,572 mi (4,140 km)"
+  },
+  {
+    "id": 6178,
+    "slug": "sydney",
+    "title": "Sydney",
+    "link": "https://duitgain.com/enrich_points_databa/sydney/",
+    "location": "Sydney",
+    "Location_Country": "Australia",
+    "economy_saver_return": "50000",
+    "economy_tax_return": "617",
+    "business_saver_return": "150000",
+    "business_tax_return": "767",
+    "plane_type": [
+      "Airbus 330-300",
+      "Airbus 330-900 neo"
+    ],
+    "enrich_point_bracket": [
+      "20001 to 50000",
+      "100001 to 200000"
+    ],
+    "flight_duration": "8hr 25min<br>8hr 35min",
+    "flight_code_and_departure_time": "<p><strong>KUL to SYD</strong><br />\nMH 141 [A330-300]<br />\nDep: 09:10 | Arv: 20:35<br />\n&#8212;<br />\nMH 251 [A330-300]<br />\nDep: 20:30 | Arv: 07:55+1<br />\n&#8212;<br />\nMH 123 [A330-300]<br />\nDep: 23:00 | Arv: 10:20+1<br />\n&#8212;<br />\n<strong>SYD to KUL</strong><br />\nMH 250 [A330-300]<br />\nDep: 10:25 | Arv: 16:00<br />\n&#8212;<br />\nMH 122 [A330-300]<br />\nDep: 12:10| Arv: 17:45<br />\n&#8212;<br />\nMH 140 [A330-300]<br />\nDep: 22:15 | Arv: 03:50+1<br />\n&#8212;</p>\n",
+    "airport_code": "SYD",
+    "plane_group": [
+      "Wide Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "17",
+    "last_update": "24/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5781,
+        "post_author": "1",
+        "post_date": "2025-09-20 16:18:52",
+        "post_date_gmt": "2025-09-20 08:18:52",
+        "post_content": "",
+        "post_title": "A330-300",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-300",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:08",
+        "post_modified_gmt": "2025-09-23 23:58:08",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5781",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5786,
+        "post_author": "1",
+        "post_date": "2025-09-20 18:42:40",
+        "post_date_gmt": "2025-09-20 10:42:40",
+        "post_content": "",
+        "post_title": "A330-900 neo",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-900-neo",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:39",
+        "post_modified_gmt": "2025-09-23 23:58:39",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5786",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "<p>18 weekly from 04 OCT 2025, 21 weekly from 31 OCT 2025. A330-300 operating</p>\n",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Airbus 330-300)"
+    ],
+    "flight_distance": "4,092 mi (6,585 km)"
+  },
+  {
+    "id": 6170,
+    "slug": "melbourne",
+    "title": "Melbourne",
+    "link": "https://duitgain.com/enrich_points_databa/melbourne/",
+    "location": "Melbourne",
+    "Location_Country": "Australia",
+    "economy_saver_return": "50000",
+    "economy_tax_return": "648",
+    "business_saver_return": "150000",
+    "business_tax_return": "798",
+    "plane_type": [
+      "Airbus 330-300",
+      "Airbus 330-900 neo"
+    ],
+    "enrich_point_bracket": [
+      "50001 to 100000",
+      "100001 to 200000"
+    ],
+    "flight_duration": "7hr 55min<br>8hr 30min",
+    "flight_code_and_departure_time": "<p><strong>KUL to MEL</strong><br />\nMH 129 [A330-900neo]<br />\nDep: 09:50 | Arv: 20:45<br />\n&#8212;<br />\nMH 147 [A330-900neo]<br />\nDep: 20:35 | Arv: 07:15+1<br />\n&#8212;<br />\nMH 149 [A330-900neo]<br />\nDep: 22:30 | Arv: 09:25+1<br />\n&#8212;<br />\n<strong>MEL to KUL</strong><br />\nMH 128 [A330-900neo]<br />\nDep: 00:30 | Arv: 05:45<br />\n&#8212;<br />\nMH 146 [A330-900neo]<br />\nDep: 08:45| Arv: 14:15<br />\n&#8212;<br />\nMH 148 [A330-900neo]<br />\nDep: 15:10 | Arv: 20:25<br />\n&#8212;</p>\n",
+    "airport_code": "MEL",
+    "plane_group": [
+      "Wide Body"
+    ],
+    "departure_time_frame": [
+      "0600 to 1159 (Day)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "18",
+    "last_update": "24/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5786,
+        "post_author": "1",
+        "post_date": "2025-09-20 18:42:40",
+        "post_date_gmt": "2025-09-20 10:42:40",
+        "post_content": "",
+        "post_title": "A330-900 neo",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-900-neo",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:39",
+        "post_modified_gmt": "2025-09-23 23:58:39",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5786",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      },
+      {
+        "ID": 5781,
+        "post_author": "1",
+        "post_date": "2025-09-20 16:18:52",
+        "post_date_gmt": "2025-09-20 08:18:52",
+        "post_content": "",
+        "post_title": "A330-300",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-300",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:08",
+        "post_modified_gmt": "2025-09-23 23:58:08",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5781",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "<p>18 weekly from 29 SEP 2025, 21 weekly from 30 OCT 2025. A330-300/-900neo operating</p>\n",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Airbus 330-900 neo)"
+    ],
+    "flight_distance": "3,923 mi (6,314 km)"
+  },
+  {
+    "id": 5695,
+    "slug": "adelaide",
+    "title": "Adelaide",
+    "link": "https://duitgain.com/enrich_points_databa/adelaide/",
+    "location": "Adelaide",
+    "Location_Country": "Australia",
+    "economy_saver_return": "50000",
+    "economy_tax_return": "554",
+    "business_saver_return": "150000",
+    "business_tax_return": "704",
+    "plane_type": [
+      "Airbus 330-300",
+      "Airbus 330-900 neo"
+    ],
+    "enrich_point_bracket": [
+      "50001 to 100000",
+      "100001 to 200000"
+    ],
+    "flight_duration": "7hr 10min<br>7hr 25min",
+    "flight_code_and_departure_time": "<p><strong>KUL to ADL</strong><br />\nMH 139 [A330-300]<br />\nDep: 22:30 | Arv: 08:10+1<br />\n<span style=\"color: red;\">M</span>|T|<span style=\"color: red;\">W</span>|<span style=\"color: red;\">T</span>|<span style=\"color: red;\">F</span>|<span style=\"color: red;\">S</span>|S<br />\n&#8212;<br />\n<strong>ADL to KUL</strong><br />\nMH 138 [A330-300]<br />\nDep: 11:00 | Arv: 15:55<br />\n<span style=\"color: red;\">M</span>|T|<span style=\"color: red;\">W</span>|<span style=\"color: red;\">T</span>|<span style=\"color: red;\">F</span>|<span style=\"color: red;\">S</span>|S<br />\n&#8212;</p>\n",
+    "airport_code": "ADL",
+    "plane_group": [
+      "Wide Body"
+    ],
+    "departure_time_frame": [
+      "1200 to 1759 (Midday)",
+      "1800 to 2359 (Night)"
+    ],
+    "flight_frequency_weekly": "5",
+    "last_update": "21/09/2025",
+    "aircraft_info": [
+      {
+        "ID": 5781,
+        "post_author": "1",
+        "post_date": "2025-09-20 16:18:52",
+        "post_date_gmt": "2025-09-20 08:18:52",
+        "post_content": "",
+        "post_title": "A330-300",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "a330-300",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2025-09-24 07:58:08",
+        "post_modified_gmt": "2025-09-23 23:58:08",
+        "post_content_filtered": "",
+        "post_parent": 0,
+        "guid": "https://duitgain.com/?post_type=aircraft&#038;p=5781",
+        "menu_order": 0,
+        "post_type": "aircraft",
+        "post_mime_type": "",
+        "comment_count": "0",
+        "filter": "raw"
+      }
+    ],
+    "extra_notes": "<p>Plans to add 6th weekly flight, departing Kuala Lumpur with A350 on 04 NOV 2025, 11 NOV 2025, 18 NOV 2025 and 27 NOV 2025.<br />\nThe A330-900neo will replace A330-300 from 29 JAN 2026, while increasing overall service from 5 weekly to 1 daily for the remainder of Northern winter 2025/26 season.</p>\n",
+    "plane_type_bs": [],
+    "plane_type_bc": [
+      "(Airbus 330-300)"
+    ],
+    "flight_distance": "3,531 mi (5,682 km)"
+  }
+]

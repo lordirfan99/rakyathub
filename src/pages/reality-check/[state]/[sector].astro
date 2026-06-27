@@ -90,7 +90,7 @@ const year = new Date().getFullYear();
       <p class="text-xs text-muted/70 mb-4">Masukkan gaji bulanan untuk lihat kedudukan.</p>
       <div class="flex gap-3">
         <input type="number" id="cmpIn" placeholder="Gaji (RM)" class="flex-1 rounded-xl border px-4 py-3 text-sm bg-white dark:bg-slate-800/60 focus:border-primary outline-none transition tab-num" />
-        <button id="cmpBtn" data-median={median} data-label={label} class="px-5 py-3 rounded-xl bg-primary hover:bg-primary/90 text-white font-bold text-sm shrink-0">Banding</button>
+        <button id="cmpBtn" onclick="cmpBtnClick()" data-median={median} data-label={label} class="px-5 py-3 rounded-xl bg-primary hover:bg-primary/90 text-white font-bold text-sm shrink-0">Banding</button>
       </div>
       <div id="cmpOut" class="mt-4 hidden"></div>
     </div>
@@ -103,25 +103,23 @@ const year = new Date().getFullYear();
   </section>
 
   <script is:inline>
-  function cmp(median, label) {
-    const input = document.getElementById('cmpIn');
-    const salary = parseFloat(input.value);
-    const out = document.getElementById('cmpOut');
+  function cmpBtnClick() {
+    var btn = document.getElementById('cmpBtn');
+    var input = document.getElementById('cmpIn');
+    var out = document.getElementById('cmpOut');
+    if (!btn || !input || !out) return;
+    var salary = parseFloat(input.value);
     if (!salary || salary <= 0) return;
+    var median = parseFloat(btn.getAttribute('data-median'));
+    var label = btn.getAttribute('data-label');
     out.classList.remove('hidden');
-    const pct = Math.min((salary / median) * 100, 100);
-    const above = salary >= median;
+    var pct = Math.min((salary / median) * 100, 100);
+    var above = salary >= median;
     out.innerHTML = '<div class="rounded-xl bg-gray-50 dark:bg-slate-800/40 border p-4">' +
       '<div class="flex justify-between items-baseline mb-2"><span class="font-semibold text-sm">Gaji anda</span><span class="font-bold text-lg tab-num">RM ' + salary.toLocaleString() + '</span></div>' +
       '<div class="w-full bg-gray-200 dark:bg-slate-700 rounded-full h-2.5 mb-2"><div class="' + (above ? 'bg-primary' : 'bg-amber-500') + ' h-2.5 rounded-full" style="width:' + pct + '%"></div></div>' +
       (above ? '<p class="text-green-600 text-sm font-semibold">✅ Anda di atas median gaji untuk ' + label + '.</p>' : '<p class="text-amber-600 text-sm font-semibold">⚠️ ' + Math.round(100 - pct) + '% pekerja ' + label + ' bergaji lebih tinggi.</p>') +
       '</div>';
   }
-  (function () {
-    var btn = document.getElementById('cmpBtn');
-    var input = document.getElementById('cmpIn');
-    if (btn) btn.addEventListener('click', function () { cmp(parseFloat(btn.dataset.median), btn.dataset.label); });
-    if (input) input.addEventListener('keydown', function (e) { if (e.key === 'Enter' && btn) cmp(parseFloat(btn.dataset.median), btn.dataset.label); });
-  })();
   </script>
 </Layout>
