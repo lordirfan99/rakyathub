@@ -258,22 +258,68 @@ function filterState(state) {
   });
 }
 
+// List of states that actually have premise data (from the filter chips)
+function rhStates() {
+  var out = [];
+  allStateBtns.forEach(function(b){ var s=b.getAttribute('data-state'); if(s && s!=='all' && out.indexOf(s)<0) out.push(s); });
+  return out;
+}
+function scrollToPremises() {
+  var el = document.getElementById('premisesList');
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+// Apply a state, collapse the helper panel, scroll to the (now filtered) list
+function pickState(state) {
+  filterState(state);
+  var r = document.getElementById('nearYouResults'); if (r) r.classList.add('hidden');
+  var s = document.getElementById('nearYouStatus'); if (s) s.textContent = 'Menunjukkan harga di ' + state;
+  scrollToPremises();
+}
+window.pickState = pickState;
+// Render a clickable picker of states (the reliable fallback — always works)
+function showStatePicker(prefix) {
+  var results = document.getElementById('nearYouResults'); if (!results) return;
+  var chips = rhStates().map(function(s){
+    var esc = s.replace(/'/g, "\\'");
+    return '<button onclick="pickState(\'' + esc + '\')" class="px-2.5 py-1.5 rounded-lg text-[11px] sm:text-xs font-semibold border border-indigo-300 dark:border-indigo-700 bg-white dark:bg-slate-800 text-indigo-700 dark:text-indigo-300 hover:bg-indigo-100 dark:hover:bg-indigo-900/40 transition-colors">' + s + '</button>';
+  }).join('');
+  results.innerHTML = '<div class="rounded-xl bg-indigo-50 dark:bg-indigo-950/20 border border-indigo-200 dark:border-indigo-800/30 p-3 fade-in">' +
+    '<p class="text-[11px] sm:text-xs text-muted mb-2">' + (prefix || 'Pilih negeri anda untuk lihat harga berdekatan:') + '</p>' +
+    '<div class="flex flex-wrap gap-1.5">' + chips + '</div></div>';
+  results.classList.remove('hidden');
+}
+// Map a reverse-geocoded subdivision name to the data's state label
+function matchState(name) {
+  var states = rhStates();
+  var n = (name || '').toLowerCase().trim();
+  if (!n) return null;
+  var alias = { 'penang':'Pulau Pinang', 'kuala lumpur':'W.P. Kuala Lumpur', 'wilayah persekutuan kuala lumpur':'W.P. Kuala Lumpur', 'putrajaya':'W.P. Putrajaya', 'labuan':'W.P. Labuan', 'malacca':'Melaka' };
+  if (alias[n] && states.indexOf(alias[n]) >= 0) return alias[n];
+  for (var i=0;i<states.length;i++){ var sl=states[i].toLowerCase(); if(sl===n || sl.indexOf(n)>=0 || n.indexOf(sl)>=0) return states[i]; }
+  return null;
+}
 function detectLocation() {
   var status = document.getElementById('nearYouStatus');
   var results = document.getElementById('nearYouResults');
+  if (!status || !results) return;
+  if (!navigator.geolocation) { status.textContent = 'Pilih negeri anda:'; showStatePicker(); return; }
   status.textContent = 'Mengesan lokasi...';
-  if (!navigator.geolocation) { status.textContent = 'Lokasi tidak disokong'; return; }
   navigator.geolocation.getCurrentPosition(
-    function() {
-      status.textContent = 'Lokasi dikenalpasti ✓';
-      results.classList.remove('hidden');
-      results.innerHTML = '<div class="rounded-xl bg-green-50 dark:bg-green-950/20 border border-green-200 dark:border-green-800/30 p-2.5 text-xs fade-in"><p class="text-muted">Guna filter negeri di atas untuk lihat harga di kawasan anda.</p></div>';
+    function(pos) {
+      status.textContent = 'Mengenalpasti negeri...';
+      var lat = pos.coords.latitude, lon = pos.coords.longitude;
+      fetch('https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=' + lat + '&longitude=' + lon + '&localityLanguage=en')
+        .then(function(r){ return r.json(); })
+        .then(function(d){
+          var match = matchState(d && d.principalSubdivision);
+          if (match) { status.textContent = '📍 ' + match; pickState(match); }
+          else { status.textContent = 'Pilih negeri anda:'; showStatePicker(); }
+        })
+        .catch(function(){ status.textContent = 'Pilih negeri anda:'; showStatePicker(); });
     },
     function(err) {
-      var msg = err.code === 1 ? 'Kebenaran ditolak. Pilih negeri manual.' : 'Gagal. Pilih negeri manual.';
-      status.textContent = msg;
-      results.classList.remove('hidden');
-      results.innerHTML = '<div class="rounded-xl bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800/30 p-2.5 text-xs fade-in"><p class="text-muted">Sila pilih negeri dari filter di atas.</p></div>';
+      status.textContent = err.code === 1 ? 'Kebenaran lokasi ditolak.' : 'Tidak dapat lokasi.';
+      showStatePicker(err.code === 1 ? 'Kebenaran lokasi ditolak — pilih negeri anda:' : 'Pilih negeri anda:');
     },
     { enableHighAccuracy: false, timeout: 8000, maximumAge: 300000 }
   );
