@@ -45,7 +45,7 @@ def save(name, data):
 def main():
     if not API_KEY:
         print("❌ ELECTION_API_KEY not set. Skipping election data fetch.")
-        sys.exit(1)
+        return
 
     print("\n📡 Fetching election data from ElectionData.MY...\n")
 

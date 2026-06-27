@@ -95,7 +95,7 @@ function renderSeats(seats, query) {
       : 'bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400';
     const stateSlug = (s.seat.split(', ')[1] || '').toLowerCase().replace(/\s+/g, '-');
     
-    return '<a href="/pilihan-raya/kerusi/' + encodeURIComponent(s.slug) + '/" class="flex items-center gap-3 p-3 rounded-xl hover:bg-gray-50 dark:hover:bg-slate-800/40 transition-colors border border-transparent hover:border-gray-100 dark:hover:border-slate-700/30 no-underline">' +
+    return '<a href="/pilihan-raya/kerusi/?slug=' + encodeURIComponent(s.slug).replace(/%2F/g, '/') + '" class="flex items-center gap-3 p-3 rounded-xl hover:bg-gray-50 dark:hover:bg-slate-800/40 transition-colors border border-transparent hover:border-gray-100 dark:hover:border-slate-700/30 no-underline">' +
       '<span class="shrink-0 px-2 py-0.5 rounded text-xs font-bold ' + typeClass + '">' + typeLabel + '</span>' +
       '<div class="flex-1 min-w-0">' +
         '<p class="text-sm font-medium text-gray-900 dark:text-white truncate">' + highlight(s.seat, query) + '</p>' +
