@@ -25,7 +25,7 @@ const metadata = {
       <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
         <div class="rounded-xl bg-blue-50 dark:bg-blue-900/20 p-4 text-center"><p class="text-xs text-muted uppercase tracking-wide">BMR</p><p class="text-lg font-bold text-default" id="bmrNilai">1,550</p><p class="text-[10px] text-muted">kcal/hari</p></div>
         <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center"><p class="text-xs text-muted uppercase tracking-wide">TDEE</p><p class="text-lg font-bold text-emerald-700" id="bmrTdee">2,131</p><p class="text-[10px] text-muted">kcal/hari</p></div>
-        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center"><p class="text-xs text-muted uppercase tracking-wide">Turun 0.5kg/minggu</p><p class="text-lg font-bold text-amber-700" id="bmrTurun">0</p><p class="text-[10px] text-muted">kcal/hari</p></div>
+        <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center"><p class="text-xs text-muted uppercase tracking-wide">Turun Berat (min 1,200)</p><p class="text-lg font-bold text-amber-700" id="bmrTurun">0</p><p class="text-[10px] text-muted">kcal/hari</p></div>
         <div class="rounded-xl bg-indigo-50 dark:bg-indigo-900/20 p-4 text-center"><p class="text-xs text-muted uppercase tracking-wide">Naik 0.5kg/minggu</p><p class="text-lg font-bold text-indigo-700" id="bmrNaik">0</p><p class="text-[10px] text-muted">kcal/hari</p></div>
       </div>
       <div class="mt-4 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center"><p class="text-sm text-muted">BMR = <span id="bmrFormula">(10×65)+(6.25×170)−(5×28)+5</span></p><p class="text-2xl font-bold text-primary mt-1" id="bmrFinal">1,550 kcal/hari</p></div>
@@ -80,9 +80,9 @@ function calc() {
   var tdee = bmr * act;
   document.getElementById('bmrNilai').textContent = fmtK(bmr);
   document.getElementById('bmrTdee').textContent = fmtK(tdee);
-  // Defisit sebenar 500 kcal = ~0.5kg/minggu (padan dengan label). Tidak diapit pada
-  // 1,200 supaya angka konsisten dengan maksudnya.
-  document.getElementById('bmrTurun').textContent = fmtK(Math.max(tdee-500,0));
+  // Defisit 500 kcal ≈ 0.5kg/minggu, tetapi diapit pada 1,200 kcal (paras minimum
+  // selamat) supaya tidak mencadangkan pengambilan kalori berbahaya untuk pengguna kecil.
+  document.getElementById('bmrTurun').textContent = fmtK(Math.max(tdee-500,1200));
   document.getElementById('bmrNaik').textContent = fmtK(tdee+500);
   document.getElementById('bmrFormula').textContent = '(10×'+w+')+(6.25×'+h+')−(5×'+a+')'+(isMale?'+5':'−161');
   document.getElementById('bmrFinal').textContent = fmtK(bmr)+' kcal/hari';
