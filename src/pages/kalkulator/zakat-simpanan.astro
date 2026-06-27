@@ -24,9 +24,9 @@ const metadata = {
         </div>
         <div>
           <label for="zsNisab" class="block text-sm font-semibold text-default mb-1.5">Nisab Semasa (RM)</label>
-          <input type="number" id="zsNisab" value="49000" min="0" step="100"
+          <input type="number" id="zsNisab" value="49300" min="0" step="100"
             class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
-          <p class="text-[10px] text-muted mt-1">*Nilai 85g emas semasa (~RM49,000)</p>
+          <p class="text-[10px] text-muted mt-1">*Nilai 85g emas semasa (~RM49,300)</p>
         </div>
       </div>
 
@@ -66,7 +66,7 @@ const metadata = {
       <h2 class="text-xl font-bold mb-4">Syarat Wajib Zakat Simpanan</h2>
       <ul class="text-muted text-sm space-y-2">
         <li>1️⃣ <strong>Islam</strong> dan merdeka</li>
-        <li>2️⃣ <strong>Nisab:</strong> Mencapai nilai 85g emas (~RM49,000 pada 2026 — kadarnya berubah ikut harga emas semasa)</li>
+        <li>2️⃣ <strong>Nisab:</strong> Mencapai nilai 85g emas (~RM49,300 pada 2026 — kadarnya berubah ikut harga emas semasa)</li>
         <li>3️⃣ <strong>Haul:</strong> Telah disimpan selama 1 tahun qamariah (354 hari)</li>
         <li>4️⃣ <strong>Milik penuh:</strong> Wang tersebut adalah milik anda dan bebas dari hutang</li>
       </ul>
@@ -112,7 +112,7 @@ function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite
 function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
 function calc() {
   var baki = sn(document.getElementById('zsBaki').value, 10000);
-  var nisab = sn(document.getElementById('zsNisab').value, 49000);
+  var nisab = sn(document.getElementById('zsNisab').value, 49300);
   var haul = document.getElementById('zsHaul').checked;
   if (!haul) {
     document.getElementById('zsStatus').textContent = 'Belum cukup haul';

@@ -107,7 +107,7 @@ const metadata = {
     <div class="grid md:grid-cols-2 gap-6 mb-8">
       <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
         <h3 class="font-semibold text-lg mb-2">Motosikal</h3>
-        <p class="text-muted text-sm">Cukai jalan motosikal &lt;250cc: RM30 (Semenanjung) / RM15 (Sabah/Sarawak). &gt;250cc guna formula berbeza. Bayaran lebih murah dari kereta — rata-rata RM30–RM200 setahun.</p>
+        <p class="text-muted text-sm">Cukai jalan motosikal (Semenanjung): ≤150cc RM2, 151–200cc RM30, 201–250cc RM50, 251–500cc RM100, 501–800cc RM250, &gt;800cc RM350. Kadar Sabah/Sarawak lebih rendah. Jauh lebih murah dari kereta.</p>
       </div>
       <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
         <h3 class="font-semibold text-lg mb-2">Bila Bayar?</h3>
@@ -158,8 +158,17 @@ function setRegion(r) {
 }
 
 function kiraRoadTax(cc, jenis, kawasan) {
-  if (jenis === 'motor') return cc <= 250 ? (kawasan === 'peninsular' ? 30 : 15) : 60;
-  var table = kawasan === 'peninsular' ? 
+  if (jenis === 'motor') {
+    // Cukai jalan motosikal persendirian JPJ (kadar tetap ikut band cc)
+    var mtable = kawasan === 'peninsular' ?
+      [[150,2],[200,30],[250,50],[500,100],[800,250],[Infinity,350]] :
+      [[150,2],[200,9],[250,12],[500,30],[800,40],[Infinity,42]];
+    for (var m = 0; m < mtable.length; m++) {
+      if (cc <= mtable[m][0]) return mtable[m][1];
+    }
+    return 0;
+  }
+  var table = kawasan === 'peninsular' ?
     [[1000,20],[1200,55],[1400,70],[1600,90],[1800,150],[2000,200],[2500,300],[3000,450],[Infinity,-1]] :
     [[1000,10],[1200,27.5],[1400,35],[1600,45],[1800,75],[2000,100],[2500,150],[3000,225],[Infinity,-1]];
   for (var i = 0; i < table.length; i++) {

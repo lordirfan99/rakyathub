@@ -156,17 +156,16 @@ var CURRENCY_NAMES = { MYR:'Ringgit',USD:'Dolar AS',SGD:'Dolar SG',THB:'Baht',ID
 
 var liveRates = {};
 function fetchRates() {
-  var f = document.getElementById('cvDari').value;
-  var t = document.getElementById('cvKe').value;
-  var url = 'https://api.frankfurter.app/latest?from=' + f + '&to=' + t;
+  // Ambil kadar asas MYR penuh (ECB) sekali — semua pasangan dikira silang dari sini,
+  // jadi jadual rujukan juga dikemaskini live, bukan hanya pasangan aktif.
   var x = new XMLHttpRequest();
-  x.open('GET', url, true);
+  x.open('GET', 'https://api.frankfurter.app/latest?from=MYR', true);
   x.timeout = 5000;
   x.onload = function() {
     if (x.status === 200) try {
       var d = JSON.parse(x.responseText);
       if (d && d.rates) {
-        liveRates[d.base] = d.rates;
+        liveRates['MYR'] = d.rates;
         document.getElementById('cvSource').textContent = '*Kadar live dari Frankfurter API (ECB). Kadar sebenar bank mungkin berbeza.';
         calc();
       }
@@ -184,14 +183,22 @@ function swapCurrency() {
 }
 
 function getRate(from, to) {
-  // Try live rates first
+  if (from === to) return 1;
+  // Prefer live ECB rates: liveRates['MYR'][X] = units of X per 1 MYR.
+  // from→to = (to per MYR) / (from per MYR).
+  var L = liveRates['MYR'];
+  if (L) {
+    var fromPerMYR = (from === 'MYR') ? 1 : L[from];
+    var toPerMYR = (to === 'MYR') ? 1 : L[to];
+    if (fromPerMYR && toPerMYR) return toPerMYR / fromPerMYR;
+  }
+  // Live direct pair
   if (liveRates[from] && liveRates[from][to]) return liveRates[from][to];
   // Fallback to hardcoded
   var key1 = from + '/' + to;
   if (FALLBACK_RATES[key1]) return FALLBACK_RATES[key1];
   var key2 = to + '/' + from;
   if (FALLBACK_RATES[key2]) return 1 / FALLBACK_RATES[key2];
-  if (from === to) return 1;
   // Cross rate via MYR
   var rateA = FALLBACK_RATES[from + '/MYR'];
   var rateB = FALLBACK_RATES[to + '/MYR'];
@@ -211,22 +218,21 @@ function calc() {
   document.getElementById('cvRate').textContent = '1 ' + dari + ' = ' + rate.toFixed(4) + ' ' + ke;
   document.getElementById('cvFinal').textContent = fmt(hasil, ke);
 
-  // Reference table
+  // Reference table — rebuilt each calc so it reflects live ECB rates once loaded
   var tb = document.getElementById('cvRujukan');
-  if (!tb.childNodes.length) {
-    var pairs = [
-      ['MYR','USD'],['MYR','SGD'],['MYR','THB'],['MYR','IDR'],
-      ['MYR','JPY'],['MYR','GBP'],['MYR','EUR'],['MYR','AUD'],
-      ['MYR','CNY'],['MYR','KRW'],['MYR','INR']
-    ];
-    pairs.forEach(function(p){
-      var r = getRate(p[0], p[1]);
-      var tr = document.createElement('tr');
-      tr.className = 'border-b border-gray-50 dark:border-slate-800';
-      tr.innerHTML = '<td class="py-1.5 font-medium">1 ' + p[0] + ' → ' + p[1] + '</td><td class="text-right py-1.5">' + r.toFixed(4) + '</td><td class="text-right py-1.5">' + (1/r).toFixed(4) + '</td>';
-      tb.appendChild(tr);
-    });
-  }
+  var pairs = [
+    ['MYR','USD'],['MYR','SGD'],['MYR','THB'],['MYR','IDR'],
+    ['MYR','JPY'],['MYR','GBP'],['MYR','EUR'],['MYR','AUD'],
+    ['MYR','CNY'],['MYR','KRW'],['MYR','INR']
+  ];
+  tb.innerHTML = '';
+  pairs.forEach(function(p){
+    var r = getRate(p[0], p[1]);
+    var tr = document.createElement('tr');
+    tr.className = 'border-b border-gray-50 dark:border-slate-800';
+    tr.innerHTML = '<td class="py-1.5 font-medium">1 ' + p[0] + ' → ' + p[1] + '</td><td class="text-right py-1.5">' + r.toFixed(4) + '</td><td class="text-right py-1.5">' + (1/r).toFixed(4) + '</td>';
+    tb.appendChild(tr);
+  });
 }
 
 ['cvJumlah','cvDari','cvKe'].forEach(function(id){var el=document.getElementById(id);if(el){el.addEventListener('input',calc);el.addEventListener('change',calc);}});

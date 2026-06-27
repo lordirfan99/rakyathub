@@ -26,7 +26,7 @@ const metadata = {
       <div class="grid md:grid-cols-2 gap-4 md:gap-6">
         <div>
           <label for="harga" class="block text-sm font-semibold text-default mb-1.5">Harga Emas Semasa (RM/g)</label>
-          <input type="number" id="harga" value="420" min="0" step="1"
+          <input type="number" id="harga" value="580" min="0" step="1"
             class="w-full rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-base focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
         </div>
         <div>
@@ -157,7 +157,7 @@ const metadata = {
   </CallToAction>
   <script is:inline>
 // Gold price fetcher
-var PG_HARGA = 420;
+var PG_HARGA = 580;
 // Store actual PG prices from API for reference table
 var PG_API = { beli: 0, jual: 0 };
 (function() {
@@ -171,9 +171,9 @@ var PG_API = { beli: 0, jual: 0 };
           PG_HARGA = Math.round(d.emas.harga_pg_beli);
           PG_API.beli = d.emas.harga_pg_beli || PG_HARGA;
           PG_API.jual = (d.emas.harga_pg_jual != null) ? d.emas.harga_pg_jual : PG_HARGA;
-          // Only seed initial value if user hasn't changed it (value still default 420)
+          // Only seed initial value if user hasn't changed it (value still default 580)
           var hi = document.getElementById('harga');
-          if (hi && parseFloat(hi.value) === 420) {
+          if (hi && parseFloat(hi.value) === 580) {
             hi.value = PG_HARGA;
           }
           calc(); // rujPgBeli/rujPgJual follow input inside calc()

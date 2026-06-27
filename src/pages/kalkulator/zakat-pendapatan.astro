@@ -34,7 +34,7 @@ const metadata = {
         </div>
         <div class="rounded-xl bg-emerald-50 dark:bg-emerald-900/20 p-4 text-center">
           <p class="text-xs text-muted uppercase tracking-wide">Nisab 2026</p>
-          <p class="text-lg font-bold text-emerald-700" id="zkNisab">RM 29,961</p>
+          <p class="text-lg font-bold text-emerald-700" id="zkNisab">RM 49,300</p>
         </div>
         <div class="rounded-xl bg-amber-50 dark:bg-amber-900/20 p-4 text-center">
           <p class="text-xs text-muted uppercase tracking-wide">Status</p>
@@ -49,7 +49,7 @@ const metadata = {
       <div class="mt-6 p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/5 border border-primary/20 text-center">
         <p class="text-sm text-muted" id="zkLabel">Zakat Pendapatan 2.5%</p>
         <p class="text-3xl md:text-4xl font-bold text-primary" id="zkProjected">RM 0</p>
-        <p class="text-xs text-muted mt-1" id="zkDetail">*Nisab 2026: RM 29,961 (nilai 86g emas).</p>
+        <p class="text-xs text-muted mt-1" id="zkDetail">*Nisab 2026: RM 49,300 (nilai 85g emas).</p>
       </div>
     </div>
 
@@ -62,7 +62,7 @@ const metadata = {
     <div class="grid md:grid-cols-3 gap-6 mb-8">
       <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover"><h3 class="font-semibold text-lg mb-2">Zakat Pendapatan</h3><p class="text-muted text-sm">2.5% dari pendapatan bersih tahunan jika melebihi nisab. Wajib bagi Muslim.</p></div>
       <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover"><h3 class="font-semibold text-lg mb-2">Rebat Cukai</h3><p class="text-muted text-sm">Bayaran zakat melalui institusi zakat negeri layak mendapat rebat cukai LHDN.</p></div>
-      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover"><h3 class="font-semibold text-lg mb-2">Nisab 2026</h3><p class="text-muted text-sm">RM 29,961 — berdasarkan nilai 86g emas. Nisab dikemaskini setiap tahun.</p></div>
+      <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover"><h3 class="font-semibold text-lg mb-2">Nisab 2026</h3><p class="text-muted text-sm">RM 49,300 — berdasarkan nilai 85g emas (RM580/g). Nisab dikemaskini setiap tahun.</p></div>
     </div>
 
     <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 border border-blue-100 dark:border-slate-700 p-6 md:p-8">
@@ -91,7 +91,7 @@ function calc() {
   var l = sn(document.getElementById('zl').value, 200);
   var perbelanjaan = (d + i + a*ba + l) * 12;
   var bersih = p - k - perbelanjaan;
-  var nisab = 29961;
+  var nisab = 49300;
   var zakat = bersih > nisab ? Math.round(bersih * 0.025) : 0;
   document.getElementById('zkBersih').textContent = fmt(bersih);
   document.getElementById('zkNisab').textContent = fmt(nisab);
