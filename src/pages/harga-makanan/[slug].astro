@@ -300,29 +300,26 @@ function matchState(name) {
 }
 function detectLocation() {
   var status = document.getElementById('nearYouStatus');
-  var results = document.getElementById('nearYouResults');
-  if (!status || !results) return;
-  if (!navigator.geolocation) { status.textContent = 'Pilih negeri anda:'; showStatePicker(); return; }
-  status.textContent = 'Mengesan lokasi...';
-  navigator.geolocation.getCurrentPosition(
-    function(pos) {
-      status.textContent = 'Mengenalpasti negeri...';
-      var lat = pos.coords.latitude, lon = pos.coords.longitude;
-      fetch('https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=' + lat + '&longitude=' + lon + '&localityLanguage=en')
-        .then(function(r){ return r.json(); })
-        .then(function(d){
-          var match = matchState(d && d.principalSubdivision);
-          if (match) { status.textContent = '📍 ' + match; pickState(match); }
-          else { status.textContent = 'Pilih negeri anda:'; showStatePicker(); }
-        })
-        .catch(function(){ status.textContent = 'Pilih negeri anda:'; showStatePicker(); });
-    },
-    function(err) {
-      status.textContent = err.code === 1 ? 'Kebenaran lokasi ditolak.' : 'Tidak dapat lokasi.';
-      showStatePicker(err.code === 1 ? 'Kebenaran lokasi ditolak — pilih negeri anda:' : 'Pilih negeri anda:');
-    },
-    { enableHighAccuracy: false, timeout: 8000, maximumAge: 300000 }
-  );
+  // Always show the clickable state picker IMMEDIATELY — works in every browser,
+  // no permission needed. This is the reliable core of the feature.
+  showStatePicker('Pilih negeri anda untuk lihat harga berdekatan:');
+  if (status) status.textContent = 'Pilih negeri di bawah';
+  // Geolocation is a pure background enhancement: if granted + we can resolve the
+  // state, auto-select it. It can never block or break the picker above.
+  if (!navigator.geolocation) return;
+  try {
+    navigator.geolocation.getCurrentPosition(
+      function(pos) {
+        var lat = pos.coords.latitude, lon = pos.coords.longitude;
+        fetch('https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=' + lat + '&longitude=' + lon + '&localityLanguage=en')
+          .then(function(r){ return r.json(); })
+          .then(function(d){ var m = matchState(d && d.principalSubdivision); if (m) pickState(m); })
+          .catch(function(){ /* picker already shown */ });
+      },
+      function(){ /* denied/failed — picker already shown, nothing to do */ },
+      { enableHighAccuracy: false, timeout: 8000, maximumAge: 300000 }
+    );
+  } catch (e) { /* picker already shown */ }
 }
 </script>
 </Layout>
