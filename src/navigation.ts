@@ -160,32 +160,46 @@ export const headerData = {
       href: getBlogPermalink(),
     },
     {
-      text: 'Harga Makanan',
-      href: getPermalink('/harga-makanan-hari-ini'),
-    },
-    {
-      text: 'Pilihan Raya',
-      href: '/pilihan-raya/',
-    },
-    {
-      text: 'Inflasi',
-      href: '/inflasi-malaysia/',
-    },
-    {
-      text: 'Bantuan',
-      href: '/bantuan-kerajaan/',
+      text: 'Data Rakyat',
+      links: [
+        {
+          text: 'Harga Makanan Terkini',
+          href: getPermalink('/harga-makanan-hari-ini'),
+        },
+        {
+          text: 'Harga Minyak Terkini',
+          href: '/harga-minyak/',
+        },
+        {
+          text: 'Inflasi Malaysia',
+          href: '/inflasi-malaysia/',
+        },
+        {
+          text: 'Bantuan Kerajaan',
+          href: '/bantuan-kerajaan/',
+        },
+        {
+          text: 'Pilihan Raya',
+          href: '/pilihan-raya/',
+        },
+      ],
     },
     {
       text: 'Alat Dokumen',
       href: '/docukilat/',
     },
     {
-      text: 'Tentang',
-      href: getPermalink('/tentang'),
-    },
-    {
-      text: 'Hubungi',
-      href: getPermalink('/hubungi'),
+      text: 'Info',
+      links: [
+        {
+          text: 'Tentang Kami',
+          href: getPermalink('/tentang'),
+        },
+        {
+          text: 'Hubungi',
+          href: getPermalink('/hubungi'),
+        },
+      ],
     },
   ],
   actions: [

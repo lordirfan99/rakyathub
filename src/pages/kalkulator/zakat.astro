@@ -233,13 +233,13 @@ function switchTab(tab) {
 }
 
 function updateNisab() {
-  var hargaEmas = sn(document.getElementById('hargaEmas').value, 420);
+  var hargaEmas = sn(document.getElementById('hargaEmas').value, 580);
   var nisab = hargaEmas * 85;
   document.getElementById('nisabValue').textContent = fmt(nisab);
 }
 
 function calc() {
-  var hargaEmas = sn(document.getElementById('hargaEmas').value, 420);
+  var hargaEmas = sn(document.getElementById('hargaEmas').value, 580);
   var nisab = hargaEmas * 85;
   updateNisab();
 
@@ -347,7 +347,7 @@ calc();
       var d = JSON.parse(x.responseText);
       if (d.emas && d.emas.harga_pg_beli) {
         var el = document.getElementById('hargaEmas');
-        if (el && parseFloat(el.value) === 420) el.value = Math.round(d.emas.harga_pg_beli);
+        if (el && parseFloat(el.value) === 580) el.value = Math.round(d.emas.harga_pg_beli);
       }
       if (d.rujukan && d.rujukan.asb_dividen_terkini) {
         ['dividen'].forEach(function(id) {
