@@ -58,7 +58,7 @@ const metadata = {
         <div class="rounded-xl bg-sky-50 dark:bg-sky-900/20 p-4 text-center">
           <p class="text-xs text-muted uppercase tracking-wide">Disbursements</p>
           <p class="text-lg font-bold text-sky-700" id="lgDisb">RM 550</p>
-          <p class="text-[10px] text-muted">Carrian + pendaftaran</p>
+          <p class="text-[10px] text-muted">Carian + pendaftaran</p>
         </div>
         <div class="rounded-xl bg-primary/10 p-4 text-center">
           <p class="text-xs text-muted uppercase tracking-wide">Jumlah Guaman</p>
@@ -90,9 +90,9 @@ const metadata = {
             <div id="lgLoanBreakdown"></div>
           </div>
           <div class="border-t border-gray-200 dark:border-slate-700 pt-2">
-            <div class="flex justify-between"><span>Carrian Tanah</span><span class="font-semibold">RM 60</span></div>
+            <div class="flex justify-between"><span>Carian Tanah</span><span class="font-semibold">RM 60</span></div>
             <div class="flex justify-between"><span>Pendaftaran Pemindahan</span><span class="font-semibold">RM 100</span></div>
-            <div class="flex justify-between"><span>Carrian Kebankrapan</span><span class="font-semibold">RM 30</span></div>
+            <div class="flex justify-between"><span>Carian Kebankrapan</span><span class="font-semibold">RM 30</span></div>
             <div class="flex justify-between"><span>Fotokopi</span><span class="font-semibold">RM 60</span></div>
             <div class="flex justify-between"><span>Lain-lain</span><span class="font-semibold">RM 300</span></div>
             <div class="flex justify-between border-t border-gray-200 dark:border-slate-700 pt-2 mt-2"><span class="font-bold">Jumlah Kos Guaman</span><span class="font-bold text-primary" id="lgTotalDetail">RM 5,550</span></div>
@@ -109,8 +109,8 @@ const metadata = {
         <table class="w-full text-xs">
           <thead><tr class="border-b border-gray-100 dark:border-slate-700"><th class="text-left py-2">Nilai (RM)</th><th class="text-left py-2">Kadar</th></tr></thead>
           <tbody>
-            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2">500,000 pertama</td><td>1.0%</td></tr>
-            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2">500,001 – 1,000,000</td><td>0.8%</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2">500,000 pertama</td><td>1.25%</td></tr>
+            <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2">500,001 – 1,000,000</td><td>1.0%</td></tr>
             <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2">1,000,001 – 3,000,000</td><td>0.7%</td></tr>
             <tr class="border-b border-gray-50 dark:border-slate-800"><td class="py-2">3,000,001 – 5,000,000</td><td>0.6%</td></tr>
             <tr><td class="py-2">5,000,001 – 7,500,000</td><td>0.5%</td></tr>
@@ -180,8 +180,8 @@ function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n
 
 function kiraYuranSkala(amount) {
   var tiers = [
-    { max: 500000, rate: 0.01, label: 'RM500,000 pertama (1%)' },
-    { max: 1000000, rate: 0.008, label: 'RM500,001–RM1,000,000 (0.8%)' },
+    { max: 500000, rate: 0.0125, label: 'RM500,000 pertama (1.25%)' },
+    { max: 1000000, rate: 0.01, label: 'RM500,001–RM1,000,000 (1.0%)' },
     { max: 3000000, rate: 0.007, label: 'RM1,000,001–RM3,000,000 (0.7%)' },
     { max: 5000000, rate: 0.006, label: 'RM3,000,001–RM5,000,000 (0.6%)' },
     { max: 7500000, rate: 0.005, label: 'RM5,000,001–RM7,500,000 (0.5%)' },

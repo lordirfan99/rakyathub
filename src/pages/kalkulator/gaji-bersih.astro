@@ -203,23 +203,43 @@ const metadata = {
   <script is:inline>
 function fmt(v) { return 'RM ' + (typeof v === 'number' && !isNaN(v) && isFinite(v) ? v.toLocaleString('ms-MY', {minimumFractionDigits:2,maximumFractionDigits:2}) : '0.00'); }
 function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
+// Jadual cukai individu LHDN (YA 2024/2025/2026): [had atas, kadar]
+function incomeTax(ci) {
+  var bands = [[5000,0],[20000,0.01],[35000,0.03],[50000,0.06],[70000,0.11],[100000,0.19],[400000,0.25],[600000,0.26],[2000000,0.28],[Infinity,0.30]];
+  var tax = 0, prev = 0;
+  for (var i = 0; i < bands.length; i++) {
+    if (ci > bands[i][0]) { tax += (bands[i][0] - prev) * bands[i][1]; prev = bands[i][0]; }
+    else { tax += (ci - prev) * bands[i][1]; break; }
+  }
+  return tax;
+}
 function calc() {
   var g = sn(document.getElementById('gaji').value, 3500);
   var kw = parseInt(document.getElementById('kwsp').value) || 11;
   var b = sn(document.getElementById('bonus').value, 0);
   var pv = document.getElementById('pcb').value;
   var ks = Math.round(g*kw/100);
-  var soc=0;
-  if(g<=30)soc=2.5;else if(g<=100)soc=5;else if(g<=200)soc=10;else if(g<=400)soc=18;else if(g<=600)soc=28;else if(g<=800)soc=38;else if(g<=1000)soc=47;else if(g<=1200)soc=56;else if(g<=1400)soc=63;else if(g<=1600)soc=70;else if(g<=1800)soc=76;else if(g<=2000)soc=82;else if(g<=2200)soc=88;else if(g<=2400)soc=93;else if(g<=2600)soc=97;else if(g<=2800)soc=101;else if(g<=3000)soc=105;else if(g<=3200)soc=109;else if(g<=3400)soc=112;else if(g<=3600)soc=115;else if(g<=3800)soc=118;else if(g<=4000)soc=121;else if(g<=4200)soc=124;else if(g<=4400)soc=127;else if(g<=4600)soc=130;else if(g<=4800)soc=132;else if(g<=5000)soc=134;else soc=Math.round(g*0.028);
-  soc=Math.round(soc);
-  var eis=0;
-  if(g<=30)eis=0.5;else if(g<=100)eis=1;else if(g<=200)eis=2;else if(g<=400)eis=3;else if(g<=600)eis=5;else if(g<=800)eis=7;else if(g<=1000)eis=8;else if(g<=1200)eis=10;else if(g<=1400)eis=11;else if(g<=1600)eis=13;else if(g<=1800)eis=14;else if(g<=2000)eis=15;else if(g<=2200)eis=17;else if(g<=2400)eis=18;else if(g<=2600)eis=19;else if(g<=2800)eis=20;else if(g<=3000)eis=21;else if(g<=3200)eis=22;else if(g<=3400)eis=23;else if(g<=3600)eis=24;else if(g<=3800)eis=25;else if(g<=4000)eis=26;else if(g<=4200)eis=27;else if(g<=4400)eis=28;else if(g<=4600)eis=29;else if(g<=4800)eis=30;else if(g<=5000)eis=31;else eis=Math.round(g*0.006);
-  eis=Math.round(eis);
+  // SOCSO & EIS — caruman PERKESO (siling gaji RM6,000 sejak 1 Okt 2024).
+  // Bahagian pekerja: SOCSO 0.5%, EIS 0.2% atas titik tengah band gaji RM100.
+  var socWage = Math.min(g, 6000);
+  var bandMid = socWage > 0 ? (Math.ceil(socWage / 100) * 100 - 50) : 0;
+  var soc = Math.round(bandMid * 0.005 * 100) / 100;
+  var eis = Math.round(bandMid * 0.002 * 100) / 100;
+  // PCB (auto) — anggaran jadual cukai LHDN tahunan, tolak relief KWSP & individu RM9,000.
   var pcb=0;
-  if(pv==='auto'){if(g>5000)pcb=Math.round(g*0.08);else if(g>4000)pcb=Math.round(g*0.04);else if(g>3000)pcb=Math.round(g*0.02);else pcb=0;}
-  else pcb=parseInt(pv);
+  if(pv==='auto'){
+    var annualGross = g*12 + b;
+    var epfRelief = Math.min(g*12*kw/100, 4000);
+    var chargeable = Math.max(0, annualGross - epfRelief - 9000);
+    var annualTax = incomeTax(chargeable);
+    if(chargeable <= 35000) annualTax = Math.max(0, annualTax - 400);
+    pcb = Math.round(annualTax/12);
+  } else pcb=parseInt(pv);
   var tp = ks+soc+eis+pcb;
-  var gajiBersih = g - tp;
+  // Bonus (sekali) — tertakluk caruman KWSP pekerja; ditambah pada gaji bersih bulan ia dibayar.
+  var bonusKwsp = Math.round(b*kw/100);
+  var bonusNet = b > 0 ? (b - bonusKwsp) : 0;
+  var gajiBersih = g - tp + bonusNet;
   document.getElementById('gbGaji').textContent = fmt(g);
   document.getElementById('gbPotongan').textContent = fmt(tp);
   document.getElementById('gbKwsp').textContent = fmt(ks+soc);
@@ -236,8 +256,11 @@ function calc() {
     {l:'EIS',v:eis,p:true},
     {l:'PCB',v:pcb,p:true},
     {l:'JUMLAH POTONGAN',v:tp,p:true,hl:true},
-    {l:'GAJI BERSIH',v:gajiBersih,p:false,hl:true},
   ];
+  if (b > 0) {
+    items.push({l:'Bonus (bersih KWSP)',v:bonusNet,p:false});
+  }
+  items.push({l:'GAJI BERSIH'+(b>0?' (termasuk bonus)':''),v:gajiBersih,p:false,hl:true});
   items.forEach(function(i){
     var tr=document.createElement('tr');
     tr.className=(i.hl?'font-bold bg-primary/5':'border-b border-gray-50 dark:border-slate-800');

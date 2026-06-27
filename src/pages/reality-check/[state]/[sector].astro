@@ -90,7 +90,7 @@ const year = new Date().getFullYear();
       <p class="text-xs text-muted/70 mb-4">Masukkan gaji bulanan untuk lihat kedudukan.</p>
       <div class="flex gap-3">
         <input type="number" id="cmpIn" placeholder="Gaji (RM)" class="flex-1 rounded-xl border px-4 py-3 text-sm bg-white dark:bg-slate-800/60 focus:border-primary outline-none transition tab-num" />
-        <button onclick="cmp({median},'{label}')" class="px-5 py-3 rounded-xl bg-primary hover:bg-primary/90 text-white font-bold text-sm shrink-0">Banding</button>
+        <button id="cmpBtn" data-median={median} data-label={label} class="px-5 py-3 rounded-xl bg-primary hover:bg-primary/90 text-white font-bold text-sm shrink-0">Banding</button>
       </div>
       <div id="cmpOut" class="mt-4 hidden"></div>
     </div>
@@ -117,5 +117,11 @@ const year = new Date().getFullYear();
       (above ? '<p class="text-green-600 text-sm font-semibold">✅ Anda di atas median gaji untuk ' + label + '.</p>' : '<p class="text-amber-600 text-sm font-semibold">⚠️ ' + Math.round(100 - pct) + '% pekerja ' + label + ' bergaji lebih tinggi.</p>') +
       '</div>';
   }
+  (function () {
+    var btn = document.getElementById('cmpBtn');
+    var input = document.getElementById('cmpIn');
+    if (btn) btn.addEventListener('click', function () { cmp(parseFloat(btn.dataset.median), btn.dataset.label); });
+    if (input) input.addEventListener('keydown', function (e) { if (e.key === 'Enter' && btn) cmp(parseFloat(btn.dataset.median), btn.dataset.label); });
+  })();
   </script>
 </Layout>

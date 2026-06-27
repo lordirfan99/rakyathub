@@ -346,7 +346,7 @@ const breadcrumbSchema = {
     // ── Purchasing Power ──
     const ppDiv = document.getElementById('ppResult');
     const realVal = (salary / cpiVal * 100).toFixed(0);
-    const loss = (salary * (1 - 100/cpiVal)).toFixed(0);
+    const loss = (salary * (1 - 100/cpiVal) * 12).toFixed(0);
     const epfEst = Math.round(salary * 0.11);
     const taxEst = salary > 5000 ? Math.round(salary * 0.06) : salary > 3000 ? Math.round(salary * 0.03) : 0;
     const socsoEst = salary > 5000 ? 70 : Math.round(salary * 0.005);

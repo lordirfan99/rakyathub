@@ -80,7 +80,9 @@ function calc() {
   var tdee = bmr * act;
   document.getElementById('bmrNilai').textContent = fmtK(bmr);
   document.getElementById('bmrTdee').textContent = fmtK(tdee);
-  document.getElementById('bmrTurun').textContent = fmtK(Math.max(tdee-500,1200));
+  // Defisit sebenar 500 kcal = ~0.5kg/minggu (padan dengan label). Tidak diapit pada
+  // 1,200 supaya angka konsisten dengan maksudnya.
+  document.getElementById('bmrTurun').textContent = fmtK(Math.max(tdee-500,0));
   document.getElementById('bmrNaik').textContent = fmtK(tdee+500);
   document.getElementById('bmrFormula').textContent = '(10×'+w+')+(6.25×'+h+')−(5×'+a+')'+(isMale?'+5':'−161');
   document.getElementById('bmrFinal').textContent = fmtK(bmr)+' kcal/hari';

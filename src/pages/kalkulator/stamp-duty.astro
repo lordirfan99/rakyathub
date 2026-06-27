@@ -129,7 +129,7 @@ const metadata = {
       </div>
       <div class="bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-xl p-6 card-hover">
         <h3 class="font-semibold text-lg mb-2">FTB Exemption</h3>
-        <p class="text-muted text-sm">Pembeli rumah pertama layak pengecualian duti setem MOT untuk RM300,000 pertama — syarat: harga rumah ≤ RM500,000 dan belum pernah beli rumah sebelum ini. Jimat sehingga RM10,000!</p>
+        <p class="text-muted text-sm">Pembeli rumah pertama layak pengecualian duti setem MOT untuk RM300,000 pertama — syarat: harga rumah ≤ RM500,000 dan belum pernah beli rumah sebelum ini. Jimat sehingga RM5,000 duti MOT. *Sahkan skim semasa dengan LHDN.</p>
       </div>
     </div>
 
@@ -179,6 +179,9 @@ function kiraDutiSetem(harga, ftb) {
     { max: 1000000, rate: 0.03, label: 'RM500,001–RM1,000,000 (3%)' },
     { max: Infinity, rate: 0.04, label: 'RM1,000,001 ke atas (4%)' },
   ];
+  // Pengecualian pembeli rumah pertama: duti setem ke atas RM300,000 pertama
+  // nilai hartanah dikecualikan (untuk rumah berharga ≤ RM500,000).
+  var exemptCeiling = (ftb && harga <= 500000) ? 300000 : 0;
   var remaining = harga;
   var results = [];
   var total = 0;
@@ -187,20 +190,14 @@ function kiraDutiSetem(harga, ftb) {
 
   tiers.forEach(function(tier) {
     var bracket = Math.max(0, Math.min(remaining, tier.max - prevMax));
-    if (bracket <= 0) return;
+    if (bracket <= 0) { prevMax = tier.max; return; }
     var duty = bracket * tier.rate;
-    var exempt = 0;
-    // FTB exemption: first RM300k of MOT is free (for property ≤ RM500k)
-    if (ftb && harga <= 500000 && total + duty <= 3000) {
-      // Simple check: exemption on first RM300k of property at applicable rate
-      exempt = Math.min(duty, 3000 - ftbExempted);
-      var exBracket = Math.min(bracket, 300000 - ftbExempted * 100);
-      exempt = exBracket * tier.rate;
-      if (exempt + ftbExempted > 3000) exempt = 3000 - ftbExempted;
-      ftbExempted += exempt;
-    }
+    // Bahagian band ini yang jatuh dalam RM300k pertama → dikecualikan pada kadar band.
+    var exemptBracket = Math.max(0, Math.min(prevMax + bracket, exemptCeiling) - prevMax);
+    var exempt = exemptBracket * tier.rate;
     results.push({ label: tier.label, bracket: bracket, duty: Math.round(duty), exempt: Math.round(exempt) });
     total += duty;
+    ftbExempted += exempt;
     remaining -= bracket;
     prevMax = tier.max;
   });

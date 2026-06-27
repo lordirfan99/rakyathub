@@ -169,21 +169,23 @@ const metadata = {
   </CallToAction>
 
   <script is:inline>
-// Tax brackets Malaysia 2026 (individual — progressive)
+// Jadual cukai individu LHDN (YA 2024/2025/2026 — progresif)
 var BRACKETS = [
   { max: 5000, rate: 0, base: 0 },
   { max: 20000, rate: 1, base: 0 },
   { max: 35000, rate: 3, base: 150 },
-  { max: 50000, rate: 8, base: 600 },
-  { max: 70000, rate: 14, base: 1800 },
-  { max: 100000, rate: 21, base: 4600 },
-  { max: 250000, rate: 24, base: 10900 },
-  { max: 400000, rate: 25, base: 46900 },
+  { max: 50000, rate: 6, base: 600 },
+  { max: 70000, rate: 11, base: 1500 },
+  { max: 100000, rate: 19, base: 3700 },
+  { max: 400000, rate: 25, base: 9400 },
   { max: 600000, rate: 26, base: 84400 },
-  { max: 1000000, rate: 28, base: 136400 },
-  { max: 2000000, rate: 30, base: 248400 },
-  { max: Infinity, rate: 33, base: 548400 },
+  { max: 2000000, rate: 28, base: 136400 },
+  { max: Infinity, rate: 30, base: 528400 },
 ];
+
+// Pelepasan tambahan ikut status cukai (atas relief individu RM9,000 yang sudah termasuk dalam input)
+var STATUS_RELIEF = { ka: 0, kb: 4000, kc: 0, kd: 4000, ke: 4000 };
+var STATUS_CHILD = { ka: 0, kb: 0, kc: 0, kd: 2 * 2000, ke: 4 * 2000 };
 
 // Rebate threshold
 var REBATE_MAX_INCOME = 35000;
@@ -220,7 +222,9 @@ function calc() {
   var status = document.getElementById('status').value;
 
   var gajiTahunan = gajiBulanan * 12 + bonusTahunan;
-  var pendapatanBercukai = Math.max(0, gajiTahunan - pelepasan);
+  // Pelepasan tambahan ikut status (pasangan + anak) atas relief yang dimasukkan pengguna
+  var pelepasanStatus = (STATUS_RELIEF[status] || 0) + (STATUS_CHILD[status] || 0);
+  var pendapatanBercukai = Math.max(0, gajiTahunan - pelepasan - pelepasanStatus);
 
   // Personal relief RM9,000 is included in pelepasan input
   var cukai = calcTax(pendapatanBercukai);

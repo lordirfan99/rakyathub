@@ -91,17 +91,17 @@ const metadata = {
 
     <!-- Category Breakdown Table -->
     <div class="rounded-2xl bg-white dark:bg-slate-900/60 border border-gray-100 dark:border-slate-700/30 shadow-sm p-5 md:p-8 mb-6">
-      <h2 class="text-xl font-bold mb-1">Pecahan Mengikut Kategori</h2>
-      <p class="text-sm text-muted mb-5">Sekiranya RM <span id="kbAmountLabel">1,000</span> dibelanjakan sepenuhnya untuk satu kategori, berapa nilainya hari ini.</p>
+      <h2 class="text-xl font-bold mb-1">Inflasi Mengikut Kategori (sejak 2010)</h2>
+      <p class="text-sm text-muted mb-5">Jika RM <span id="kbAmountLabel">1,000</span> dibelanjakan sepenuhnya untuk satu kategori pada <strong>2010</strong> (tahun asas CPI), berapa nilai setara hari ini. Inflasi setiap kategori berbeza — sesetengah barang (cth. komunikasi) sebenarnya turun harga.</p>
       <div class="overflow-x-auto -mx-5 md:-mx-0">
         <div class="min-w-[520px] px-5 md:px-0">
           <table class="w-full text-sm">
             <thead>
               <tr class="border-b border-gray-100 dark:border-slate-700">
                 <th class="text-left py-3 px-2 font-semibold text-muted">Kategori</th>
-                <th class="text-right py-3 px-2 font-semibold text-muted">Asal (RM)</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">2010 (RM)</th>
                 <th class="text-right py-3 px-2 font-semibold text-muted">Hari Ini (RM)</th>
-                <th class="text-right py-3 px-2 font-semibold text-muted">Perubahan</th>
+                <th class="text-right py-3 px-2 font-semibold text-muted">Inflasi</th>
               </tr>
             </thead>
             <tbody id="kbCatTable"></tbody>
@@ -203,16 +203,15 @@ const metadata = {
     // Amount label in table description
     document.getElementById('kbAmountLabel').textContent = fmtInt(amount);
 
-    // Category breakdown
-    var overallNow = cpi.latest_divisions['overall'].index; // 136.9
+    // Pecahan kategori — indeks divisyen DOSM berasaskan 2010 = 100, jadi inflasi
+    // sebenar setiap kategori sejak 2010 = (indeks/100 − 1). Data indeks kategori
+    // mengikut tahun tidak tersedia, maka pecahan ini diukur dari tahun asas 2010.
     var rows = CATEGORIES.map(function(cat) {
       var div = cpi.latest_divisions[cat.code];
       if (!div) return null;
-      var catCurrentIndex = div.index;
-      var catRatio = catCurrentIndex / overallNow;
-      var catCpiBase = cpiBase * catRatio;
-      var catTodayEq = amount * (catCurrentIndex / catCpiBase);
-      var catPct = ((catCurrentIndex / catCpiBase) - 1) * 100;
+      var catCurrentIndex = div.index;      // base 2010 = 100
+      var catTodayEq = amount * (catCurrentIndex / 100);
+      var catPct = (catCurrentIndex / 100 - 1) * 100;
       return {
         code: cat.code,
         icon: cat.icon,

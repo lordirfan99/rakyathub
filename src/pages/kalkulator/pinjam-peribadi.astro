@@ -187,21 +187,14 @@ function calc() {
     return;
   }
 
-  var monthlyRate = (rate / 100) / 12;
   var months = tempoh * 12;
   var feeAmount = jumlah * (feePct / 100);
 
-  // Standard loan amortization
-  var monthly;
-  if (monthlyRate === 0) {
-    monthly = jumlah / months;
-  } else {
-    var factor = Math.pow(1 + monthlyRate, months);
-    monthly = jumlah * (monthlyRate * factor) / (factor - 1);
-  }
-
-  var totalPayment = monthly * months;
-  var totalInterest = totalPayment - jumlah;
+  // Pinjaman peribadi Malaysia guna kadar RATA (flat), bukan baki berkurang.
+  // Jumlah faedah = pokok × kadar setahun × tempoh; ansuran = (pokok + faedah) / bilangan bulan.
+  var totalInterest = jumlah * (rate / 100) * tempoh;
+  var monthly = (jumlah + totalInterest) / months;
+  var totalPayment = jumlah + totalInterest;
 
   document.getElementById('hasilLoan').textContent = fmt(jumlah);
   document.getElementById('hasilAnsuran').textContent = fmt(monthly);
@@ -214,15 +207,16 @@ function calc() {
   var tb = document.getElementById('amortBody');
   tb.innerHTML = '';
   var balance = jumlah;
+  // Kadar rata: faedah & pokok dibahagi sama rata setiap bulan
+  var monthlyInterestFlat = totalInterest / months;
+  var monthlyPrincipalFlat = jumlah / months;
   for (var y = 1; y <= tempoh; y++) {
     var yrInterest = 0;
     var yrPrincipal = 0;
     for (var m = 0; m < 12; m++) {
-      var intBlock = balance * monthlyRate;
-      var prinBlock = monthly - intBlock;
-      balance -= prinBlock;
-      yrInterest += intBlock;
-      yrPrincipal += prinBlock;
+      yrInterest += monthlyInterestFlat;
+      yrPrincipal += monthlyPrincipalFlat;
+      balance -= monthlyPrincipalFlat;
     }
     if (balance < 0) balance = 0;
     var row = '<tr class="border-b border-gray-50 dark:border-slate-800">' +

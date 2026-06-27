@@ -174,8 +174,9 @@ function calc() {
   }
   var extra = total - totalKekal;
 
-  // Hardcode untuk display tahun akhir
-  document.getElementById('hasilGajiAkhir').textContent = fmtWhole(rows[rows.length - 1].bulanan);
+  // Gaji akhir = gaji selepas SEMUA kenaikan tahunan (gaji × (1+kadar)^tahun).
+  // 'current' selepas gelung = nilai terkompaun penuh; baris jadual Tahun 1 = gaji semasa.
+  document.getElementById('hasilGajiAkhir').textContent = fmtWhole(current);
   document.getElementById('hasilTotal').textContent = fmtWhole(total);
   document.getElementById('hasilBonus').textContent = fmtWhole(totalBonus);
   document.getElementById('hasilExtra').textContent = fmtWhole(Math.max(0, extra));

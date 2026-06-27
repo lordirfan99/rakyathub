@@ -30,12 +30,12 @@ const metadata = {
             <p class="text-sm font-semibold">Harga Emas Semasa (RM/g)</p>
             <p class="text-xs text-muted">Guna untuk kira nisab (85g emas)</p>
           </div>
-          <input type="number" id="hargaEmas" value="420" min="0" step="1"
+          <input type="number" id="hargaEmas" value="580" min="0" step="1"
             class="w-28 rounded-xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2 text-base text-right font-bold focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition" />
         </div>
         <p class="mt-2 text-sm">
-          Nisab: <strong id="nisabValue" class="text-primary">RM 35,700.00</strong>
-          <span class="text-muted"> (85g × RM420)</span>
+          Nisab: <strong id="nisabValue" class="text-primary">RM 49,300.00</strong>
+          <span class="text-muted"> (85g × RM580)</span>
         </p>
       </div>
 
@@ -267,22 +267,17 @@ function calc() {
   } else if (currentTab === 'emas') {
     var gram = sn(document.getElementById('gramEmas').value);
     var gramPakai = sn(document.getElementById('gramPakai').value);
+    // Emas simpanan = jumlah emas − emas yang dipakai (perhiasan). Emas dipakai
+    // tertakluk uruf (dikira berasingan); emas simpanan TIADA uruf — wajib zakat
+    // penuh jika nilainya mencapai nisab (85g emas).
     var gramBersih = Math.max(0, gram - gramPakai);
     var nilaiEmas = gramBersih * hargaEmas;
-    label = 'Nilai Emas Layak';
-    // Uruf emas simpanan: 200g (jika melebihi 200g, zakat dikenakan)
-    if (gramBersih > 200) {
-      var gramLebih = gramBersih - 200;
-      eligible = gramLebih * hargaEmas;
-      zakat = eligible * 0.025;
-    } else if (gramBersih > 0 && gramBersih <= 200) {
-      // Emas simpanan bawah 200g dikenakan zakat jika melebihi nisab
-      if (nilaiEmas >= nisab) {
-        eligible = nilaiEmas;
-        zakat = nilaiEmas * 0.025;
-      } else {
-        eligible = 0;
-      }
+    label = 'Nilai Emas Simpanan Layak';
+    if (nilaiEmas >= nisab) {
+      eligible = nilaiEmas;
+      zakat = nilaiEmas * 0.025;
+    } else {
+      eligible = 0;
     }
   }
 
