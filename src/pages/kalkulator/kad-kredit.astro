@@ -379,7 +379,10 @@ function initUrlParams(){
   if(cards){cards.split(",").forEach(function(id){selectedCards.push(id);});}
 }
 
-document.addEventListener("DOMContentLoaded",function(){
+// Expose handlers globally immediately (IIFE-scoped otherwise) so inline onclick/
+// oninput work even on View-Transitions navigation, where DOMContentLoaded won't fire.
+window.filterCards=filterCards;window.resetFilters=resetFilters;window.toggleCardSelect=toggleCardSelect;
+function kkInit(){
   if(!CARDS.length)return;
   populateFilters();initUrlParams();
   setTimeout(function(){
@@ -387,7 +390,8 @@ document.addEventListener("DOMContentLoaded",function(){
     filterCards();initStickyFilter();initScrollTop();initLocalStorageBanners();
     if(selectedCards.length){updateSelectBar();}
   },400);
-  window.filterCards=filterCards;window.resetFilters=resetFilters;window.toggleCardSelect=toggleCardSelect;
-});
+}
+if (document.readyState === 'loading') document.addEventListener("DOMContentLoaded", kkInit);
+else kkInit();
 })();
 </script>

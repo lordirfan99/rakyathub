@@ -312,12 +312,15 @@ async function refreshData() {
   if(icon) icon.classList.remove('animate-spin');
 }
 
-// ── INIT ──
-document.addEventListener('DOMContentLoaded', function(){
+// ── INIT — run on initial load AND on View-Transitions (ClientRouter) navigation.
+// DOMContentLoaded does NOT fire on SPA navigation, so guard on readyState and
+// run immediately when the DOM is already ready (the SPA-nav case).
+function hInit(){
   renderW();
-  var w=getW();
-  w.forEach(function(slug){updateWBtn(slug);});
+  getW().forEach(function(slug){updateWBtn(slug);});
   setTimeout(refreshData, 1000);
-});
+}
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', hInit);
+else hInit();
 </script>
 </Layout>

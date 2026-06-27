@@ -68,7 +68,7 @@ const STATES = [
 <!-- Load seat data as external JS (bundled at build time) -->
 <script is:inline src="/data/election-seats.js"></script>
 
-<script>
+<script is:inline>
 const SEATS = window.ELECTION_SEATS || [];
 
 function highlight(text, query) {
@@ -120,7 +120,7 @@ function filterSeats() {
     filtered = filtered.filter(s => 
       s.seat.toLowerCase().includes(q) ||
       s.slug.toLowerCase().includes(q) ||
-      (s.slug.includes('p') || s.slug.includes('n')) && s.slug.includes(q.replace(/[^a-z0-9-]/g, ''))
+      ((s.slug.includes('p') || s.slug.includes('n')) && s.slug.includes(q.replace(/[^a-z0-9-]/g, '')))
     );
   }
   
