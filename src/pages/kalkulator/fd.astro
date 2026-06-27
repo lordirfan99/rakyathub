@@ -203,12 +203,14 @@ function calc() {
   document.getElementById('hasilTahunan').textContent = fmt(tahunan);
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+function fdInit() {
   calc();
   ['jumlah','interest','tempoh','compounding'].forEach(function(id) {
-    document.getElementById(id).addEventListener('input', calc);
-    document.getElementById(id).addEventListener('change', calc);
+    var el = document.getElementById(id);
+    if (el) { el.addEventListener('input', calc); el.addEventListener('change', calc); }
   });
-});
+}
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fdInit);
+else fdInit();
   </script>
 </Layout>
