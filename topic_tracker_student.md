@@ -37,3 +37,4 @@
 | 33 | Panduan belajar kumpulan efektif student | ✅ | 2026-06-25 | panduan-belajar-kumpulan-efektif-student |
 | 34 | Tips mengatasi stress sebelum final exam | ✅ | 2026-06-26 | tips-mengatasi-stress-sebelum-final-exam |
 | 35 | Cara cari sumber rujukan ilmiah untuk assignment | ✅ | 2026-06-27 | cara-cari-sumber-rujukan-ilmiah-untuk-assignment |
+| 36 | Tips atasi prokrastinasi pelajar universiti | ✅ | 2026-06-28 | tips-mengatasi-prokrastinasi-pelajar-universiti |

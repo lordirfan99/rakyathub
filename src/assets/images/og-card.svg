@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#001F3F"/>
+      <stop offset="50%" stop-color="#002D5A"/>
+      <stop offset="100%" stop-color="#003D7A"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="accent-bar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#CC0000"/>
+    </linearGradient>
+    <clipPath id="mask-round">
+      <rect width="1200" height="628" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="628" fill="url(#bg)" rx="16"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.04">
+    <line x1="0" y1="0" x2="0" y2="628" stroke="white" stroke-width="1"/>
+    <line x1="120" y1="0" x2="120" y2="628" stroke="white" stroke-width="1"/>
+    <line x1="240" y1="0" x2="240" y2="628" stroke="white" stroke-width="1"/>
+    <line x1="360" y1="0" x2="360" y2="628" stroke="white" stroke-width="1"/>
+    <line x1="480" y1="0" x2="480" y2="628" stroke="white" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="628" stroke="white" stroke-width="1"/>
+    <line x1="720" y1="0" x2="720" y2="628" stroke="white" stroke-width="1"/>
+    <line x1="840" y1="0" x2="840" y2="628" stroke="white" stroke-width="1"/>
+    <line x1="960" y1="0" x2="960" y2="628" stroke="white" stroke-width="1"/>
+    <line x1="1080" y1="0" x2="1080" y2="628" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="0" x2="1200" y2="0" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="125" x2="1200" y2="125" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="250" x2="1200" y2="250" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="375" x2="1200" y2="375" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="500" x2="1200" y2="500" stroke="white" stroke-width="1"/>
+  </g>
+
+  <!-- Glow orbs -->
+  <circle cx="1000" cy="500" r="300" fill="url(#glow)"/>
+  <circle cx="200" cy="150" r="200" fill="#FFD700" opacity="0.06"/>
+
+  <!-- Decorative geometric shapes -->
+  <rect x="80" y="80" width="60" height="60" rx="8" fill="none" stroke="#FFD700" stroke-width="2" opacity="0.12"/>
+  <rect x="1060" y="440" width="50" height="50" rx="6" fill="none" stroke="#FFD700" stroke-width="2" opacity="0.12"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="6" height="628" fill="url(#accent-bar)"/>
+
+  <!-- Content -->
+  <!-- Gold decorative line -->
+  <rect x="80" y="140" width="80" height="3" rx="1.5" fill="#FFD700" opacity="0.8"/>
+
+  <!-- Header label -->
+  <text x="80" y="125" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFD700" font-weight="600" letter-spacing="3" text-transform="uppercase">
+    PORTAL KEWANGAN RAKYAT
+  </text>
+
+  <!-- Main title -->
+  <text x="80" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="86" fill="white" font-weight="800" letter-spacing="-1">
+    RakyatHub
+  </text>
+
+  <!-- Tagline -->
+  <text x="80" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#B0C4DE" font-weight="400" letter-spacing="0">
+    <tspan x="80" dy="0">Panduan Kewangan &amp; Harga Makanan Malaysia</tspan>
+  </text>
+
+  <!-- Feature badges -->
+  <g transform="translate(80, 340)">
+    <rect x="0" y="0" width="160" height="36" rx="18" fill="rgba(255,215,0,0.12)"/>
+    <text x="80" y="24" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#FFD700" font-weight="500" text-anchor="middle">
+      📊 PriceCatcher
+    </text>
+
+    <rect x="180" y="0" width="140" height="36" rx="18" fill="rgba(255,255,255,0.08)"/>
+    <text x="250" y="24" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="white" font-weight="500" text-anchor="middle">
+      🧮 Kalkulator
+    </text>
+
+    <rect x="340" y="0" width="155" height="36" rx="18" fill="rgba(255,255,255,0.08)"/>
+    <text x="417" y="24" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="white" font-weight="500" text-anchor="middle">
+      📰 Artikel &amp; Tips
+    </text>
+  </g>
+
+  <!-- URL badge -->
+  <rect x="80" y="420" width="260" height="44" rx="22" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="210" y="447" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#B0C4DE" font-weight="400" text-anchor="middle">
+    rakyathub.my
+  </text>
+
+  <!-- Right side decorative element -->
+  <g transform="translate(900, 314)" opacity="0.08">
+    <circle cx="0" cy="0" r="200" fill="none" stroke="#FFD700" stroke-width="2"/>
+    <circle cx="0" cy="0" r="140" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="80" fill="none" stroke="#FFD700" stroke-width="1"/>
+    <line x1="-200" y1="0" x2="200" y2="0" stroke="#FFD700" stroke-width="1"/>
+    <line x1="0" y1="-200" x2="0" y2="200" stroke="#FFD700" stroke-width="1"/>
+  </g>
+
+  <!-- Bottom decorative gold line -->
+  <rect x="80" y="530" width="120" height="2" rx="1" fill="url(#line)" opacity="0.6"/>
+
+  <!-- Bottom right brand mark -->
+  <text x="1100" y="590" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="rgba(255,255,255,0.2)" font-weight="400" letter-spacing="2" text-anchor="end">
+    RAKYATHUB.MY
+  </text>
+</svg>
