@@ -1,0 +1,652 @@
+[
+  {
+    "date": "2015-01-01",
+    "value": 282255.0,
+    "series": "abs"
+  },
+  {
+    "date": "2015-04-01",
+    "value": 288975.0,
+    "series": "abs"
+  },
+  {
+    "date": "2015-07-01",
+    "value": 297965.0,
+    "series": "abs"
+  },
+  {
+    "date": "2015-10-01",
+    "value": 307745.0,
+    "series": "abs"
+  },
+  {
+    "date": "2016-01-01",
+    "value": 294329.0,
+    "series": "abs"
+  },
+  {
+    "date": "2016-04-01",
+    "value": 301015.0,
+    "series": "abs"
+  },
+  {
+    "date": "2016-07-01",
+    "value": 311510.0,
+    "series": "abs"
+  },
+  {
+    "date": "2016-10-01",
+    "value": 322458.0,
+    "series": "abs"
+  },
+  {
+    "date": "2017-01-01",
+    "value": 310744.0,
+    "series": "abs"
+  },
+  {
+    "date": "2017-04-01",
+    "value": 318231.0,
+    "series": "abs"
+  },
+  {
+    "date": "2017-07-01",
+    "value": 330664.0,
+    "series": "abs"
+  },
+  {
+    "date": "2017-10-01",
+    "value": 341129.0,
+    "series": "abs"
+  },
+  {
+    "date": "2018-01-01",
+    "value": 327096.0,
+    "series": "abs"
+  },
+  {
+    "date": "2018-04-01",
+    "value": 333438.0,
+    "series": "abs"
+  },
+  {
+    "date": "2018-07-01",
+    "value": 345685.0,
+    "series": "abs"
+  },
+  {
+    "date": "2018-10-01",
+    "value": 357547.0,
+    "series": "abs"
+  },
+  {
+    "date": "2019-01-01",
+    "value": 342373.0,
+    "series": "abs"
+  },
+  {
+    "date": "2019-04-01",
+    "value": 349910.0,
+    "series": "abs"
+  },
+  {
+    "date": "2019-07-01",
+    "value": 361117.0,
+    "series": "abs"
+  },
+  {
+    "date": "2019-10-01",
+    "value": 370552.0,
+    "series": "abs"
+  },
+  {
+    "date": "2020-01-01",
+    "value": 344690.0,
+    "series": "abs"
+  },
+  {
+    "date": "2020-04-01",
+    "value": 290686.0,
+    "series": "abs"
+  },
+  {
+    "date": "2020-07-01",
+    "value": 352137.0,
+    "series": "abs"
+  },
+  {
+    "date": "2020-10-01",
+    "value": 358736.0,
+    "series": "abs"
+  },
+  {
+    "date": "2021-01-01",
+    "value": 343912.379,
+    "series": "abs"
+  },
+  {
+    "date": "2021-04-01",
+    "value": 338160.18,
+    "series": "abs"
+  },
+  {
+    "date": "2021-07-01",
+    "value": 337421.281,
+    "series": "abs"
+  },
+  {
+    "date": "2021-10-01",
+    "value": 371388.111,
+    "series": "abs"
+  },
+  {
+    "date": "2022-01-01",
+    "value": 361334.789,
+    "series": "abs"
+  },
+  {
+    "date": "2022-04-01",
+    "value": 369428.932,
+    "series": "abs"
+  },
+  {
+    "date": "2022-07-01",
+    "value": 386819.905,
+    "series": "abs"
+  },
+  {
+    "date": "2022-10-01",
+    "value": 398919.128,
+    "series": "abs"
+  },
+  {
+    "date": "2023-01-01",
+    "value": 381841.342,
+    "series": "abs"
+  },
+  {
+    "date": "2023-04-01",
+    "value": 379442.821,
+    "series": "abs"
+  },
+  {
+    "date": "2023-07-01",
+    "value": 398974.95,
+    "series": "abs"
+  },
+  {
+    "date": "2023-10-01",
+    "value": 410515.067,
+    "series": "abs"
+  },
+  {
+    "date": "2024-01-01",
+    "value": 397764.525,
+    "series": "abs"
+  },
+  {
+    "date": "2024-04-01",
+    "value": 402102.247,
+    "series": "abs"
+  },
+  {
+    "date": "2024-07-01",
+    "value": 420853.777,
+    "series": "abs"
+  },
+  {
+    "date": "2024-10-01",
+    "value": 431152.239,
+    "series": "abs"
+  },
+  {
+    "date": "2025-01-01",
+    "value": 415440.954,
+    "series": "abs"
+  },
+  {
+    "date": "2025-04-01",
+    "value": 420534.085,
+    "series": "abs"
+  },
+  {
+    "date": "2025-07-01",
+    "value": 443119.629,
+    "series": "abs"
+  },
+  {
+    "date": "2025-10-01",
+    "value": 457858.602,
+    "series": "abs"
+  },
+  {
+    "date": "2026-01-01",
+    "value": 437719.404,
+    "series": "abs"
+  },
+  {
+    "date": "2016-01-01",
+    "value": 4.3,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2016-04-01",
+    "value": 4.2,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2016-07-01",
+    "value": 4.5,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2016-10-01",
+    "value": 4.8,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2017-01-01",
+    "value": 5.6,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2017-04-01",
+    "value": 5.7,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2017-07-01",
+    "value": 6.1,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2017-10-01",
+    "value": 5.8,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2018-01-01",
+    "value": 5.3,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2018-04-01",
+    "value": 4.8,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2018-07-01",
+    "value": 4.5,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2018-10-01",
+    "value": 4.8,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2019-01-01",
+    "value": 4.7,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2019-04-01",
+    "value": 4.9,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2019-07-01",
+    "value": 4.5,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2019-10-01",
+    "value": 3.6,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2020-01-01",
+    "value": 0.7,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2020-04-01",
+    "value": -16.9,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2020-07-01",
+    "value": -2.5,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2020-10-01",
+    "value": -3.2,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2021-01-01",
+    "value": -0.2,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2021-04-01",
+    "value": 16.3,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2021-07-01",
+    "value": -4.2,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2021-10-01",
+    "value": 3.5,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2022-01-01",
+    "value": 5.1,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2022-04-01",
+    "value": 9.2,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2022-07-01",
+    "value": 14.6,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2022-10-01",
+    "value": 7.4,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2023-01-01",
+    "value": 5.7,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2023-04-01",
+    "value": 2.7,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2023-07-01",
+    "value": 3.1,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2023-10-01",
+    "value": 2.9,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2024-01-01",
+    "value": 4.2,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2024-04-01",
+    "value": 6.0,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2024-07-01",
+    "value": 5.5,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2024-10-01",
+    "value": 5.0,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2025-01-01",
+    "value": 4.4,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2025-04-01",
+    "value": 4.6,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2025-07-01",
+    "value": 5.3,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2025-10-01",
+    "value": 6.2,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2026-01-01",
+    "value": 5.4,
+    "series": "growth_yoy"
+  },
+  {
+    "date": "2015-04-01",
+    "value": 2.4,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2015-07-01",
+    "value": 3.1,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2015-10-01",
+    "value": 3.3,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2016-01-01",
+    "value": -4.4,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2016-04-01",
+    "value": 2.3,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2016-07-01",
+    "value": 3.5,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2016-10-01",
+    "value": 3.5,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2017-01-01",
+    "value": -3.6,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2017-04-01",
+    "value": 2.4,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2017-07-01",
+    "value": 3.9,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2017-10-01",
+    "value": 3.2,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2018-01-01",
+    "value": -4.1,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2018-04-01",
+    "value": 1.9,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2018-07-01",
+    "value": 3.7,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2018-10-01",
+    "value": 3.4,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2019-01-01",
+    "value": -4.2,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2019-04-01",
+    "value": 2.2,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2019-07-01",
+    "value": 3.2,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2019-10-01",
+    "value": 2.6,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2020-01-01",
+    "value": -7.0,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2020-04-01",
+    "value": -15.7,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2020-07-01",
+    "value": 21.1,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2020-10-01",
+    "value": 1.9,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2021-01-01",
+    "value": -4.1,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2021-04-01",
+    "value": -1.7,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2021-07-01",
+    "value": -0.2,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2021-10-01",
+    "value": 10.1,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2022-01-01",
+    "value": -2.7,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2022-04-01",
+    "value": 2.2,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2022-07-01",
+    "value": 4.7,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2022-10-01",
+    "value": 3.1,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2023-01-01",
+    "value": -4.3,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2023-04-01",
+    "value": -0.6,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2023-07-01",
+    "value": 5.1,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2023-10-01",
+    "value": 2.9,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2024-01-01",
+    "value": -3.1,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2024-04-01",
+    "value": 1.1,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2024-07-01",
+    "value": 4.7,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2024-10-01",
+    "value": 2.4,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2025-01-01",
+    "value": -3.6,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2025-04-01",
+    "value": 1.2,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2025-07-01",
+    "value": 5.4,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2025-10-01",
+    "value": 3.3,
+    "series": "growth_qoq"
+  },
+  {
+    "date": "2026-01-01",
+    "value": -4.4,
+    "series": "growth_qoq"
+  }
+]

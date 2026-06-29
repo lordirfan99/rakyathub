@@ -1,0 +1,4002 @@
+[
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Malaysia",
+    "schools": 7776,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Malaysia",
+    "schools": 7774,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Malaysia",
+    "schools": 7773,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Malaysia",
+    "schools": 7780,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Malaysia",
+    "schools": 7780,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Malaysia",
+    "schools": 7778,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Malaysia",
+    "schools": 2416,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Malaysia",
+    "schools": 2433,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Malaysia",
+    "schools": 2439,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Malaysia",
+    "schools": 2440,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Malaysia",
+    "schools": 2444,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Malaysia",
+    "schools": 2452,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Malaysia",
+    "schools": 20,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Malaysia",
+    "schools": 20,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Malaysia",
+    "schools": 20,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Malaysia",
+    "schools": 20,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Malaysia",
+    "schools": 20,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Malaysia",
+    "schools": 20,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 906,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 907,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 907,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 906,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 906,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 908,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 277,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 280,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 282,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 283,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 284,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 284,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 2,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 2,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 2,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 2,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 2,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 2,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Kedah",
+    "schools": 546,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Kedah",
+    "schools": 547,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Kedah",
+    "schools": 547,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Kedah",
+    "schools": 548,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Kedah",
+    "schools": 548,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Kedah",
+    "schools": 548,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Kedah",
+    "schools": 201,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Kedah",
+    "schools": 201,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Kedah",
+    "schools": 202,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Kedah",
+    "schools": 202,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Kedah",
+    "schools": 203,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Kedah",
+    "schools": 204,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Kedah",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Kedah",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Kedah",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Kedah",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Kedah",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Kedah",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Kelantan",
+    "schools": 418,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Kelantan",
+    "schools": 418,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Kelantan",
+    "schools": 418,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Kelantan",
+    "schools": 418,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Kelantan",
+    "schools": 418,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Kelantan",
+    "schools": 418,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Kelantan",
+    "schools": 175,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Kelantan",
+    "schools": 177,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Kelantan",
+    "schools": 177,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Kelantan",
+    "schools": 177,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Kelantan",
+    "schools": 178,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Kelantan",
+    "schools": 178,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Kelantan",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Kelantan",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Kelantan",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Kelantan",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Kelantan",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Kelantan",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Melaka",
+    "schools": 237,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Melaka",
+    "schools": 237,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Melaka",
+    "schools": 238,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Melaka",
+    "schools": 238,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Melaka",
+    "schools": 238,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Melaka",
+    "schools": 238,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Melaka",
+    "schools": 77,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Melaka",
+    "schools": 77,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Melaka",
+    "schools": 77,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Melaka",
+    "schools": 77,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Melaka",
+    "schools": 77,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Melaka",
+    "schools": 78,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Melaka",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Melaka",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Melaka",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Melaka",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Melaka",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Melaka",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Negeri Sembilan",
+    "schools": 350,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Negeri Sembilan",
+    "schools": 350,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Negeri Sembilan",
+    "schools": 350,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Negeri Sembilan",
+    "schools": 352,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Negeri Sembilan",
+    "schools": 352,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Negeri Sembilan",
+    "schools": 353,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Negeri Sembilan",
+    "schools": 125,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Negeri Sembilan",
+    "schools": 125,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Negeri Sembilan",
+    "schools": 125,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Negeri Sembilan",
+    "schools": 125,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Negeri Sembilan",
+    "schools": 125,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Negeri Sembilan",
+    "schools": 126,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Negeri Sembilan",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Negeri Sembilan",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Negeri Sembilan",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Negeri Sembilan",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Negeri Sembilan",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Negeri Sembilan",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Pahang",
+    "schools": 541,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Pahang",
+    "schools": 541,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Pahang",
+    "schools": 542,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Pahang",
+    "schools": 543,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Pahang",
+    "schools": 543,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Pahang",
+    "schools": 543,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Pahang",
+    "schools": 196,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Pahang",
+    "schools": 197,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Pahang",
+    "schools": 198,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Pahang",
+    "schools": 198,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Pahang",
+    "schools": 198,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Pahang",
+    "schools": 198,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Pahang",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Pahang",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Pahang",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Pahang",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Pahang",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Pahang",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Perak",
+    "schools": 852,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Perak",
+    "schools": 852,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Perak",
+    "schools": 852,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Perak",
+    "schools": 852,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Perak",
+    "schools": 852,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Perak",
+    "schools": 852,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Perak",
+    "schools": 248,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Perak",
+    "schools": 250,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Perak",
+    "schools": 250,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Perak",
+    "schools": 250,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Perak",
+    "schools": 250,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Perak",
+    "schools": 253,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Perak",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Perak",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Perak",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Perak",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Perak",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Perak",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Perlis",
+    "schools": 74,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Perlis",
+    "schools": 74,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Perlis",
+    "schools": 74,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Perlis",
+    "schools": 74,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Perlis",
+    "schools": 74,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Perlis",
+    "schools": 74,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Perlis",
+    "schools": 30,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Perlis",
+    "schools": 30,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Perlis",
+    "schools": 30,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Perlis",
+    "schools": 30,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Perlis",
+    "schools": 30,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Perlis",
+    "schools": 30,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Perlis",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Perlis",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Perlis",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Perlis",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Perlis",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Perlis",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Pulau Pinang",
+    "schools": 271,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Pulau Pinang",
+    "schools": 271,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Pulau Pinang",
+    "schools": 271,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Pulau Pinang",
+    "schools": 271,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Pulau Pinang",
+    "schools": 271,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Pulau Pinang",
+    "schools": 270,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Pulau Pinang",
+    "schools": 127,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Pulau Pinang",
+    "schools": 128,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Pulau Pinang",
+    "schools": 128,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Pulau Pinang",
+    "schools": 128,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Pulau Pinang",
+    "schools": 129,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Pulau Pinang",
+    "schools": 128,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Pulau Pinang",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Pulau Pinang",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Pulau Pinang",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Pulau Pinang",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Pulau Pinang",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Pulau Pinang",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Sabah",
+    "schools": 1074,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Sabah",
+    "schools": 1074,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Sabah",
+    "schools": 1074,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Sabah",
+    "schools": 1075,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Sabah",
+    "schools": 1075,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Sabah",
+    "schools": 1075,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Sabah",
+    "schools": 219,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Sabah",
+    "schools": 222,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Sabah",
+    "schools": 222,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Sabah",
+    "schools": 222,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Sabah",
+    "schools": 221,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Sabah",
+    "schools": 221,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Sabah",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Sabah",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Sabah",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Sabah",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Sabah",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Sabah",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Sarawak",
+    "schools": 1264,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Sarawak",
+    "schools": 1265,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Sarawak",
+    "schools": 1265,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Sarawak",
+    "schools": 1265,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Sarawak",
+    "schools": 1265,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Sarawak",
+    "schools": 1265,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Sarawak",
+    "schools": 190,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Sarawak",
+    "schools": 192,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Sarawak",
+    "schools": 193,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Sarawak",
+    "schools": 193,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Sarawak",
+    "schools": 193,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Sarawak",
+    "schools": 193,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Sarawak",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Sarawak",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Sarawak",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Sarawak",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Sarawak",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Sarawak",
+    "schools": 1,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Selangor",
+    "schools": 659,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Selangor",
+    "schools": 661,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Selangor",
+    "schools": 661,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Selangor",
+    "schools": 662,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Selangor",
+    "schools": 663,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Selangor",
+    "schools": 661,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Selangor",
+    "schools": 277,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Selangor",
+    "schools": 278,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Selangor",
+    "schools": 278,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Selangor",
+    "schools": 278,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Selangor",
+    "schools": 278,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Selangor",
+    "schools": 279,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Selangor",
+    "schools": 4,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Selangor",
+    "schools": 4,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Selangor",
+    "schools": 4,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Selangor",
+    "schools": 4,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Selangor",
+    "schools": 4,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Selangor",
+    "schools": 4,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Terengganu",
+    "schools": 352,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Terengganu",
+    "schools": 352,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Terengganu",
+    "schools": 352,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Terengganu",
+    "schools": 352,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Terengganu",
+    "schools": 352,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Terengganu",
+    "schools": 352,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Terengganu",
+    "schools": 150,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Terengganu",
+    "schools": 151,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Terengganu",
+    "schools": 152,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Terengganu",
+    "schools": 152,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Terengganu",
+    "schools": 153,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Terengganu",
+    "schools": 154,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Terengganu",
+    "schools": 2,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Terengganu",
+    "schools": 2,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Terengganu",
+    "schools": 2,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Terengganu",
+    "schools": 2,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Terengganu",
+    "schools": 2,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Terengganu",
+    "schools": 2,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "W.P. Kuala Lumpur",
+    "schools": 201,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "W.P. Kuala Lumpur",
+    "schools": 194,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "W.P. Kuala Lumpur",
+    "schools": 191,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "W.P. Kuala Lumpur",
+    "schools": 191,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "W.P. Kuala Lumpur",
+    "schools": 190,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "W.P. Kuala Lumpur",
+    "schools": 188,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "W.P. Kuala Lumpur",
+    "schools": 103,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "W.P. Kuala Lumpur",
+    "schools": 104,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "W.P. Kuala Lumpur",
+    "schools": 104,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "W.P. Kuala Lumpur",
+    "schools": 104,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "W.P. Kuala Lumpur",
+    "schools": 104,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "W.P. Kuala Lumpur",
+    "schools": 104,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "W.P. Kuala Lumpur",
+    "schools": 2,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "W.P. Kuala Lumpur",
+    "schools": 2,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "W.P. Kuala Lumpur",
+    "schools": 2,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "W.P. Kuala Lumpur",
+    "schools": 2,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "W.P. Kuala Lumpur",
+    "schools": 2,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "W.P. Kuala Lumpur",
+    "schools": 2,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "W.P. Labuan",
+    "schools": 17,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "W.P. Labuan",
+    "schools": 17,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "W.P. Labuan",
+    "schools": 17,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "W.P. Labuan",
+    "schools": 17,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "W.P. Labuan",
+    "schools": 17,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "W.P. Labuan",
+    "schools": 17,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "W.P. Labuan",
+    "schools": 10,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "W.P. Labuan",
+    "schools": 10,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "W.P. Labuan",
+    "schools": 10,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "W.P. Labuan",
+    "schools": 10,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "W.P. Labuan",
+    "schools": 10,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "W.P. Labuan",
+    "schools": 11,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "W.P. Labuan",
+    "schools": 0,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "W.P. Labuan",
+    "schools": 0,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "W.P. Labuan",
+    "schools": 0,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "W.P. Labuan",
+    "schools": 0,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "W.P. Labuan",
+    "schools": 0,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "W.P. Labuan",
+    "schools": 0,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "W.P. Putrajaya",
+    "schools": 14,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "W.P. Putrajaya",
+    "schools": 14,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "W.P. Putrajaya",
+    "schools": 14,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "W.P. Putrajaya",
+    "schools": 16,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "W.P. Putrajaya",
+    "schools": 16,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "W.P. Putrajaya",
+    "schools": 16,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "W.P. Putrajaya",
+    "schools": 11,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "W.P. Putrajaya",
+    "schools": 11,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "W.P. Putrajaya",
+    "schools": 11,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "W.P. Putrajaya",
+    "schools": 11,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "W.P. Putrajaya",
+    "schools": 11,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "W.P. Putrajaya",
+    "schools": 11,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "W.P. Putrajaya",
+    "schools": 0,
+    "district": "All Districts"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "W.P. Putrajaya",
+    "schools": 0,
+    "district": "All Districts"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "W.P. Putrajaya",
+    "schools": 0,
+    "district": "All Districts"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "W.P. Putrajaya",
+    "schools": 0,
+    "district": "All Districts"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "W.P. Putrajaya",
+    "schools": 0,
+    "district": "All Districts"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "W.P. Putrajaya",
+    "schools": 0,
+    "district": "All Districts"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 144,
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 144,
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 144,
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 144,
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 144,
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 144,
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 32,
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 32,
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 32,
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 32,
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 32,
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 32,
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 1,
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 1,
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 1,
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 1,
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 1,
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 1,
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 170,
+    "district": "Johor Bahru"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 180,
+    "district": "Johor Bahru"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 180,
+    "district": "Johor Bahru"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 181,
+    "district": "Johor Bahru"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 181,
+    "district": "Johor Bahru"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 183,
+    "district": "Johor Bahru"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 84,
+    "district": "Johor Bahru"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 87,
+    "district": "Johor Bahru"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 87,
+    "district": "Johor Bahru"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 87,
+    "district": "Johor Bahru"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 87,
+    "district": "Johor Bahru"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 87,
+    "district": "Johor Bahru"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 1,
+    "district": "Johor Bahru"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 1,
+    "district": "Johor Bahru"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 1,
+    "district": "Johor Bahru"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 1,
+    "district": "Johor Bahru"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 1,
+    "district": "Johor Bahru"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 1,
+    "district": "Johor Bahru"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 89,
+    "district": "Kluang"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 88,
+    "district": "Kluang"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 88,
+    "district": "Kluang"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 88,
+    "district": "Kluang"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 88,
+    "district": "Kluang"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 88,
+    "district": "Kluang"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 28,
+    "district": "Kluang"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 28,
+    "district": "Kluang"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 29,
+    "district": "Kluang"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 29,
+    "district": "Kluang"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 29,
+    "district": "Kluang"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 29,
+    "district": "Kluang"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Kluang"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Kluang"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Kluang"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Kluang"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Kluang"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Kluang"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 74,
+    "district": "Kota Tinggi"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 83,
+    "district": "Kota Tinggi"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 83,
+    "district": "Kota Tinggi"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 83,
+    "district": "Kota Tinggi"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 83,
+    "district": "Kota Tinggi"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 83,
+    "district": "Kota Tinggi"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 22,
+    "district": "Kota Tinggi"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 27,
+    "district": "Kota Tinggi"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 28,
+    "district": "Kota Tinggi"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 28,
+    "district": "Kota Tinggi"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 28,
+    "district": "Kota Tinggi"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 27,
+    "district": "Kota Tinggi"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Kota Tinggi"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Kota Tinggi"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Kota Tinggi"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Kota Tinggi"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Kota Tinggi"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Kota Tinggi"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 54,
+    "district": "Kulai"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 37,
+    "district": "Kulai"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 37,
+    "district": "Kulai"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 36,
+    "district": "Kulai"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 36,
+    "district": "Kulai"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 37,
+    "district": "Kulai"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 19,
+    "district": "Kulai"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 12,
+    "district": "Kulai"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 12,
+    "district": "Kulai"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 12,
+    "district": "Kulai"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 12,
+    "district": "Kulai"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 13,
+    "district": "Kulai"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Kulai"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Kulai"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Kulai"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Kulai"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Kulai"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Kulai"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 37,
+    "district": "Mersing"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 38,
+    "district": "Mersing"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 38,
+    "district": "Mersing"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 38,
+    "district": "Mersing"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 38,
+    "district": "Mersing"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 38,
+    "district": "Mersing"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 10,
+    "district": "Mersing"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 10,
+    "district": "Mersing"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 10,
+    "district": "Mersing"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 10,
+    "district": "Mersing"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 10,
+    "district": "Mersing"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 10,
+    "district": "Mersing"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Mersing"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Mersing"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Mersing"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Mersing"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Mersing"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Mersing"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 104,
+    "district": "Muar"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 104,
+    "district": "Muar"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 104,
+    "district": "Muar"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 104,
+    "district": "Muar"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 104,
+    "district": "Muar"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 103,
+    "district": "Muar"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 24,
+    "district": "Muar"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 25,
+    "district": "Muar"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 25,
+    "district": "Muar"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 26,
+    "district": "Muar"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 27,
+    "district": "Muar"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 27,
+    "district": "Muar"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Muar"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Muar"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Muar"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Muar"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Muar"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Muar"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 82,
+    "district": "Pontian"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 82,
+    "district": "Pontian"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 82,
+    "district": "Pontian"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 82,
+    "district": "Pontian"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 82,
+    "district": "Pontian"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 82,
+    "district": "Pontian"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 17,
+    "district": "Pontian"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 18,
+    "district": "Pontian"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 18,
+    "district": "Pontian"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 18,
+    "district": "Pontian"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 18,
+    "district": "Pontian"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 18,
+    "district": "Pontian"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Pontian"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Pontian"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Pontian"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Pontian"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Pontian"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Pontian"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 85,
+    "district": "Segamat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 85,
+    "district": "Segamat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 85,
+    "district": "Segamat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 85,
+    "district": "Segamat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 85,
+    "district": "Segamat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 85,
+    "district": "Segamat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 25,
+    "district": "Segamat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 25,
+    "district": "Segamat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 25,
+    "district": "Segamat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 25,
+    "district": "Segamat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 25,
+    "district": "Segamat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 25,
+    "district": "Segamat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Segamat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Segamat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Segamat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Segamat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Segamat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Segamat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 67,
+    "district": "Tangkak"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 66,
+    "district": "Tangkak"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 66,
+    "district": "Tangkak"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 65,
+    "district": "Tangkak"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 65,
+    "district": "Tangkak"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Johor",
+    "schools": 65,
+    "district": "Tangkak"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 16,
+    "district": "Tangkak"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 16,
+    "district": "Tangkak"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 16,
+    "district": "Tangkak"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 16,
+    "district": "Tangkak"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 16,
+    "district": "Tangkak"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Johor",
+    "schools": 16,
+    "district": "Tangkak"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Tangkak"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Tangkak"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Tangkak"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Tangkak"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Tangkak"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Johor",
+    "schools": 0,
+    "district": "Tangkak"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Kedah",
+    "schools": 85,
+    "district": "Baling"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Kedah",
+    "schools": 62,
+    "district": "Baling"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Kedah",
+    "schools": 62,
+    "district": "Baling"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Kedah",
+    "schools": 62,
+    "district": "Baling"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Kedah",
+    "schools": 62,
+    "district": "Baling"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Rendah Kerajaan",
+    "stage": "primary",
+    "state": "Kedah",
+    "schools": 62,
+    "district": "Baling"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Kedah",
+    "schools": 25,
+    "district": "Baling"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Kedah",
+    "schools": 16,
+    "district": "Baling"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Kedah",
+    "schools": 16,
+    "district": "Baling"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Kedah",
+    "schools": 16,
+    "district": "Baling"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Kedah",
+    "schools": 16,
+    "district": "Baling"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "Sekolah Menengah Kerajaan",
+    "stage": "secondary",
+    "state": "Kedah",
+    "schools": 16,
+    "district": "Baling"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Kedah",
+    "schools": 0,
+    "district": "Baling"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "IPTA",
+    "stage": "tertiary",
+    "state": "Kedah",
+    "schools": 0,
+    "district": "Baling"
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "area": 356922.0,
+    "date": "2003-01-01",
+    "state": "Johor"
+  },
+  {
+    "area": 344530.0,
+    "date": "2003-01-01",
+    "state": "Kedah"
+  },
+  {
+    "area": 629687.0,
+    "date": "2003-01-01",
+    "state": "Kelantan"
+  },
+  {
+    "area": 5468.0,
+    "date": "2003-01-01",
+    "state": "Melaka"
+  },
+  {
+    "area": 165639.0,
+    "date": "2003-01-01",
+    "state": "Negeri Sembilan"
+  },
+  {
+    "area": 1524132.0,
+    "date": "2003-01-01",
+    "state": "Pahang"
+  },
+  {
+    "area": 884205.0,
+    "date": "2003-01-01",
+    "state": "Perak"
+  },
+  {
+    "area": 10718.0,
+    "date": "2003-01-01",
+    "state": "Perlis"
+  },
+  {
+    "area": 5139.0,
+    "date": "2003-01-01",
+    "state": "Pulau Pinang"
+  },
+  {
+    "area": 3563186.0,
+    "date": "2003-01-01",
+    "state": "Sabah"
+  },
+  {
+    "area": 4836800.0,
+    "date": "2003-01-01",
+    "state": "Sarawak"
+  },
+  {
+    "area": 233781.0,
+    "date": "2003-01-01",
+    "state": "Selangor"
+  },
+  {
+    "area": 4696211.0,
+    "date": "2003-01-01",
+    "state": "Semenanjung Malaysia"
+  },
+  {
+    "area": 535929.0,
+    "date": "2003-01-01",
+    "state": "Terengganu"
+  },
+  {
+    "area": 61.0,
+    "date": "2003-01-01",
+    "state": "W.P. Kuala Lumpur"
+  },
+  {
+    "area": 0.0,
+    "date": "2003-01-01",
+    "state": "W.P. Labuan"
+  },
+  {
+    "area": 0.0,
+    "date": "2003-01-01",
+    "state": "W.P. Putrajaya"
+  },
+  {
+    "area": 355772.0,
+    "date": "2004-01-01",
+    "state": "Johor"
+  },
+  {
+    "area": 342613.0,
+    "date": "2004-01-01",
+    "state": "Kedah"
+  },
+  {
+    "area": 629367.0,
+    "date": "2004-01-01",
+    "state": "Kelantan"
+  },
+  {
+    "area": 5185.0,
+    "date": "2004-01-01",
+    "state": "Melaka"
+  },
+  {
+    "area": 162075.0,
+    "date": "2004-01-01",
+    "state": "Negeri Sembilan"
+  },
+  {
+    "area": 1524132.0,
+    "date": "2004-01-01",
+    "state": "Pahang"
+  },
+  {
+    "area": 884205.0,
+    "date": "2004-01-01",
+    "state": "Perak"
+  },
+  {
+    "area": 10718.0,
+    "date": "2004-01-01",
+    "state": "Perlis"
+  },
+  {
+    "area": 5434.0,
+    "date": "2004-01-01",
+    "state": "Pulau Pinang"
+  },
+  {
+    "area": 3543186.0,
+    "date": "2004-01-01",
+    "state": "Sabah"
+  },
+  {
+    "area": 4806300.0,
+    "date": "2004-01-01",
+    "state": "Sarawak"
+  },
+  {
+    "area": 233781.0,
+    "date": "2004-01-01",
+    "state": "Selangor"
+  },
+  {
+    "area": 4683505.0,
+    "date": "2004-01-01",
+    "state": "Semenanjung Malaysia"
+  },
+  {
+    "area": 530162.0,
+    "date": "2004-01-01",
+    "state": "Terengganu"
+  },
+  {
+    "area": 61.0,
+    "date": "2004-01-01",
+    "state": "W.P. Kuala Lumpur"
+  },
+  {
+    "area": 0.0,
+    "date": "2004-01-01",
+    "state": "W.P. Labuan"
+  },
+  {
+    "area": 0.0,
+    "date": "2004-01-01",
+    "state": "W.P. Putrajaya"
+  },
+  {
+    "area": 375864.0,
+    "date": "2005-01-01",
+    "state": "Johor"
+  },
+  {
+    "area": 342613.0,
+    "date": "2005-01-01",
+    "state": "Kedah"
+  },
+  {
+    "area": 629687.0,
+    "date": "2005-01-01",
+    "state": "Kelantan"
+  },
+  {
+    "area": 5185.0,
+    "date": "2005-01-01",
+    "state": "Melaka"
+  },
+  {
+    "area": 160151.0,
+    "date": "2005-01-01",
+    "state": "Negeri Sembilan"
+  },
+  {
+    "area": 1519501.0,
+    "date": "2005-01-01",
+    "state": "Pahang"
+  },
+  {
+    "area": 884205.0,
+    "date": "2005-01-01",
+    "state": "Perak"
+  },
+  {
+    "area": 10718.0,
+    "date": "2005-01-01",
+    "state": "Perlis"
+  },
+  {
+    "area": 5434.0,
+    "date": "2005-01-01",
+    "state": "Pulau Pinang"
+  },
+  {
+    "area": 3523186.0,
+    "date": "2005-01-01",
+    "state": "Sabah"
+  },
+  {
+    "area": 4779900.0,
+    "date": "2005-01-01",
+    "state": "Sarawak"
+  },
+  {
+    "area": 239782.0,
+    "date": "2005-01-01",
+    "state": "Selangor"
+  },
+  {
+    "area": 4711264.0,
+    "date": "2005-01-01",
+    "state": "Semenanjung Malaysia"
+  },
+  {
+    "area": 538063.0,
+    "date": "2005-01-01",
+    "state": "Terengganu"
+  },
+  {
+    "area": 61.0,
+    "date": "2005-01-01",
+    "state": "W.P. Kuala Lumpur"
+  },
+  {
+    "area": 0.0,
+    "date": "2005-01-01",
+    "state": "W.P. Labuan"
+  },
+  {
+    "area": 0.0,
+    "date": "2005-01-01",
+    "state": "W.P. Putrajaya"
+  },
+  {
+    "area": 391499.0,
+    "date": "2006-01-01",
+    "state": "Johor"
+  },
+  {
+    "area": 342613.0,
+    "date": "2006-01-01",
+    "state": "Kedah"
+  },
+  {
+    "area": 629687.0,
+    "date": "2006-01-01",
+    "state": "Kelantan"
+  },
+  {
+    "area": 5159.0,
+    "date": "2006-01-01",
+    "state": "Melaka"
+  },
+  {
+    "area": 156275.0,
+    "date": "2006-01-01",
+    "state": "Negeri Sembilan"
+  },
+  {
+    "area": 1519501.0,
+    "date": "2006-01-01",
+    "state": "Pahang"
+  },
+  {
+    "area": 884205.0,
+    "date": "2006-01-01",
+    "state": "Perak"
+  },
+  {
+    "area": 10718.0,
+    "date": "2006-01-01",
+    "state": "Perlis"
+  },
+  {
+    "area": 5434.0,
+    "date": "2006-01-01",
+    "state": "Pulau Pinang"
+  },
+  {
+    "area": 3503186.0,
+    "date": "2006-01-01",
+    "state": "Sabah"
+  },
+  {
+    "area": 4778300.0,
+    "date": "2006-01-01",
+    "state": "Sarawak"
+  },
+  {
+    "area": 235212.0,
+    "date": "2006-01-01",
+    "state": "Selangor"
+  },
+  {
+    "area": 4726182.0,
+    "date": "2006-01-01",
+    "state": "Semenanjung Malaysia"
+  },
+  {
+    "area": 545818.0,
+    "date": "2006-01-01",
+    "state": "Terengganu"
+  },
+  {
+    "area": 61.0,
+    "date": "2006-01-01",
+    "state": "W.P. Kuala Lumpur"
+  },
+  {
+    "area": 0.0,
+    "date": "2006-01-01",
+    "state": "W.P. Labuan"
+  },
+  {
+    "area": 0.0,
+    "date": "2006-01-01",
+    "state": "W.P. Putrajaya"
+  },
+  {
+    "area": 391499.0,
+    "date": "2007-01-01",
+    "state": "Johor"
+  },
+  {
+    "area": 342613.0,
+    "date": "2007-01-01",
+    "state": "Kedah"
+  },
+  {
+    "area": 629687.0,
+    "date": "2007-01-01",
+    "state": "Kelantan"
+  },
+  {
+    "area": 5079.0,
+    "date": "2007-01-01",
+    "state": "Melaka"
+  },
+  {
+    "area": 154185.0,
+    "date": "2007-01-01",
+    "state": "Negeri Sembilan"
+  },
+  {
+    "area": 1484099.0,
+    "date": "2007-01-01",
+    "state": "Pahang"
+  },
+  {
+    "area": 884205.0,
+    "date": "2007-01-01",
+    "state": "Perak"
+  },
+  {
+    "area": 10718.0,
+    "date": "2007-01-01",
+    "state": "Perlis"
+  },
+  {
+    "area": 6098.0,
+    "date": "2007-01-01",
+    "state": "Pulau Pinang"
+  },
+  {
+    "area": 3604867.0,
+    "date": "2007-01-01",
+    "state": "Sabah"
+  },
+  {
+    "area": 4692900.0,
+    "date": "2007-01-01",
+    "state": "Sarawak"
+  },
+  {
+    "area": 241568.0,
+    "date": "2007-01-01",
+    "state": "Selangor"
+  },
+  {
+    "area": 4695630.0,
+    "date": "2007-01-01",
+    "state": "Semenanjung Malaysia"
+  },
+  {
+    "area": 545818.0,
+    "date": "2007-01-01",
+    "state": "Terengganu"
+  },
+  {
+    "area": 61.0,
+    "date": "2007-01-01",
+    "state": "W.P. Kuala Lumpur"
+  },
+  {
+    "area": 0.0,
+    "date": "2007-01-01",
+    "state": "W.P. Labuan"
+  },
+  {
+    "area": 0.0,
+    "date": "2007-01-01",
+    "state": "W.P. Putrajaya"
+  },
+  {
+    "area": 441251.0,
+    "date": "2008-01-01",
+    "state": "Johor"
+  },
+  {
+    "area": 342613.0,
+    "date": "2008-01-01",
+    "state": "Kedah"
+  },
+  {
+    "area": 623849.0,
+    "date": "2008-01-01",
+    "state": "Kelantan"
+  },
+  {
+    "area": 5080.0,
+    "date": "2008-01-01",
+    "state": "Melaka"
+  },
+  {
+    "area": 155909.0,
+    "date": "2008-01-01",
+    "state": "Negeri Sembilan"
+  },
+  {
+    "area": 1562496.0,
+    "date": "2008-01-01",
+    "state": "Pahang"
+  },
+  {
+    "area": 873936.0,
+    "date": "2008-01-01",
+    "state": "Perak"
+  },
+  {
+    "area": 10586.0,
+    "date": "2008-01-01",
+    "state": "Perlis"
+  },
+  {
+    "area": 6098.0,
+    "date": "2008-01-01",
+    "state": "Pulau Pinang"
+  },
+  {
+    "area": 3604867.0,
+    "date": "2008-01-01",
+    "state": "Sabah"
+  },
+  {
+    "area": 4681543.0,
+    "date": "2008-01-01",
+    "state": "Sarawak"
+  },
+  {
+    "area": 241568.0,
+    "date": "2008-01-01",
+    "state": "Selangor"
+  },
+  {
+    "area": 4807565.0,
+    "date": "2008-01-01",
+    "state": "Semenanjung Malaysia"
+  },
+  {
+    "area": 544118.0,
+    "date": "2008-01-01",
+    "state": "Terengganu"
+  },
+  {
+    "area": 61.0,
+    "date": "2008-01-01",
+    "state": "W.P. Kuala Lumpur"
+  }
+]

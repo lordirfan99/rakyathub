@@ -1,0 +1,502 @@
+[
+  {
+    "date": "2000-01-01",
+    "rate": 88.4,
+    "disease": "measles"
+  },
+  {
+    "date": "2001-01-01",
+    "rate": 92.2,
+    "disease": "measles"
+  },
+  {
+    "date": "2002-01-01",
+    "rate": 75.5,
+    "disease": "measles"
+  },
+  {
+    "date": "2003-01-01",
+    "rate": 93.9,
+    "disease": "measles"
+  },
+  {
+    "date": "2004-01-01",
+    "rate": 71.2,
+    "disease": "measles"
+  },
+  {
+    "date": "2005-01-01",
+    "rate": 16.0,
+    "disease": "measles"
+  },
+  {
+    "date": "2006-01-01",
+    "rate": 11.4,
+    "disease": "measles"
+  },
+  {
+    "date": "2007-01-01",
+    "rate": 12.9,
+    "disease": "measles"
+  },
+  {
+    "date": "2008-01-01",
+    "rate": 11.73,
+    "disease": "measles"
+  },
+  {
+    "date": "2009-01-01",
+    "rate": 11.89,
+    "disease": "measles"
+  },
+  {
+    "date": "2010-01-01",
+    "rate": 11.77,
+    "disease": "measles"
+  },
+  {
+    "date": "2011-01-01",
+    "rate": 12.95,
+    "disease": "measles"
+  },
+  {
+    "date": "2012-01-01",
+    "rate": 13.47,
+    "disease": "measles"
+  },
+  {
+    "date": "2013-01-01",
+    "rate": 13.11,
+    "disease": "measles"
+  },
+  {
+    "date": "2014-01-01",
+    "rate": 12.64,
+    "disease": "measles"
+  },
+  {
+    "date": "2015-01-01",
+    "rate": 12.69,
+    "disease": "measles"
+  },
+  {
+    "date": "2016-01-01",
+    "rate": null,
+    "disease": "measles"
+  },
+  {
+    "date": "2017-01-01",
+    "rate": null,
+    "disease": "measles"
+  },
+  {
+    "date": "2018-01-01",
+    "rate": null,
+    "disease": "measles"
+  },
+  {
+    "date": "2019-01-01",
+    "rate": null,
+    "disease": "measles"
+  },
+  {
+    "date": "2020-01-01",
+    "rate": null,
+    "disease": "measles"
+  },
+  {
+    "date": "2021-01-01",
+    "rate": null,
+    "disease": "measles"
+  },
+  {
+    "date": "2022-01-01",
+    "rate": null,
+    "disease": "measles"
+  },
+  {
+    "date": "2023-01-01",
+    "rate": null,
+    "disease": "measles"
+  },
+  {
+    "date": "2000-01-01",
+    "rate": 0.0,
+    "disease": "mmr"
+  },
+  {
+    "date": "2001-01-01",
+    "rate": 0.0,
+    "disease": "mmr"
+  },
+  {
+    "date": "2002-01-01",
+    "rate": 0.0,
+    "disease": "mmr"
+  },
+  {
+    "date": "2003-01-01",
+    "rate": 0.0,
+    "disease": "mmr"
+  },
+  {
+    "date": "2004-01-01",
+    "rate": 33.2,
+    "disease": "mmr"
+  },
+  {
+    "date": "2005-01-01",
+    "rate": 89.9,
+    "disease": "mmr"
+  },
+  {
+    "date": "2006-01-01",
+    "rate": 65.4,
+    "disease": "mmr"
+  },
+  {
+    "date": "2007-01-01",
+    "rate": 87.5,
+    "disease": "mmr"
+  },
+  {
+    "date": "2008-01-01",
+    "rate": 94.3,
+    "disease": "mmr"
+  },
+  {
+    "date": "2009-01-01",
+    "rate": 96.88,
+    "disease": "mmr"
+  },
+  {
+    "date": "2010-01-01",
+    "rate": 96.1,
+    "disease": "mmr"
+  },
+  {
+    "date": "2011-01-01",
+    "rate": 95.24,
+    "disease": "mmr"
+  },
+  {
+    "date": "2012-01-01",
+    "rate": 95.47,
+    "disease": "mmr"
+  },
+  {
+    "date": "2013-01-01",
+    "rate": 95.25,
+    "disease": "mmr"
+  },
+  {
+    "date": "2014-01-01",
+    "rate": 92.06,
+    "disease": "mmr"
+  },
+  {
+    "date": "2015-01-01",
+    "rate": 93.07,
+    "disease": "mmr"
+  },
+  {
+    "date": "2016-01-01",
+    "rate": 94.37,
+    "disease": "mmr"
+  },
+  {
+    "date": "2017-01-01",
+    "rate": 88.8,
+    "disease": "mmr"
+  },
+  {
+    "date": "2018-01-01",
+    "rate": 87.75,
+    "disease": "mmr"
+  },
+  {
+    "date": "2019-01-01",
+    "rate": 97.67,
+    "disease": "mmr"
+  },
+  {
+    "date": "2020-01-01",
+    "rate": 97.42,
+    "disease": "mmr"
+  },
+  {
+    "date": "2021-01-01",
+    "rate": 99.5,
+    "disease": "mmr"
+  },
+  {
+    "date": "2022-01-01",
+    "rate": 96.27806341045415,
+    "disease": "mmr"
+  },
+  {
+    "date": "2023-01-01",
+    "rate": 100.56,
+    "disease": "mmr"
+  },
+  {
+    "date": "2000-01-01",
+    "rate": 95.3,
+    "disease": "dpt"
+  },
+  {
+    "date": "2001-01-01",
+    "rate": 96.8,
+    "disease": "dpt"
+  },
+  {
+    "date": "2002-01-01",
+    "rate": 85.4,
+    "disease": "dpt"
+  },
+  {
+    "date": "2003-01-01",
+    "rate": 98.7,
+    "disease": "dpt"
+  },
+  {
+    "date": "2004-01-01",
+    "rate": 94.2,
+    "disease": "dpt"
+  },
+  {
+    "date": "2005-01-01",
+    "rate": 95.3,
+    "disease": "dpt"
+  },
+  {
+    "date": "2006-01-01",
+    "rate": 96.4,
+    "disease": "dpt"
+  },
+  {
+    "date": "2007-01-01",
+    "rate": 96.16,
+    "disease": "dpt"
+  },
+  {
+    "date": "2008-01-01",
+    "rate": 95.75,
+    "disease": "dpt"
+  },
+  {
+    "date": "2009-01-01",
+    "rate": 97.44,
+    "disease": "dpt"
+  },
+  {
+    "date": "2010-01-01",
+    "rate": 94.28,
+    "disease": "dpt"
+  },
+  {
+    "date": "2011-01-01",
+    "rate": 99.54,
+    "disease": "dpt"
+  },
+  {
+    "date": "2012-01-01",
+    "rate": 99.71,
+    "disease": "dpt"
+  },
+  {
+    "date": "2013-01-01",
+    "rate": 96.92,
+    "disease": "dpt"
+  },
+  {
+    "date": "2014-01-01",
+    "rate": 96.77,
+    "disease": "dpt"
+  },
+  {
+    "date": "2015-01-01",
+    "rate": 99.04,
+    "disease": "dpt"
+  },
+  {
+    "date": "2016-01-01",
+    "rate": 97.97,
+    "disease": "dpt"
+  },
+  {
+    "date": "2017-01-01",
+    "rate": 98.89,
+    "disease": "dpt"
+  },
+  {
+    "date": "2018-01-01",
+    "rate": 100.22,
+    "disease": "dpt"
+  },
+  {
+    "date": "2019-01-01",
+    "rate": 98.39,
+    "disease": "dpt"
+  },
+  {
+    "date": "2020-01-01",
+    "rate": 97.68,
+    "disease": "dpt"
+  },
+  {
+    "date": "2021-01-01",
+    "rate": 94.2,
+    "disease": "dpt"
+  },
+  {
+    "date": "2022-01-01",
+    "rate": 97.17,
+    "disease": "dpt"
+  },
+  {
+    "date": "2023-01-01",
+    "rate": 107.71,
+    "disease": "dpt"
+  },
+  {
+    "date": "2000-01-01",
+    "rate": 93.5,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2001-01-01",
+    "rate": 95.0,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2002-01-01",
+    "rate": 93.1,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2003-01-01",
+    "rate": 90.9,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2004-01-01",
+    "rate": 93.8,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2005-01-01",
+    "rate": 91.5,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2006-01-01",
+    "rate": 87.4,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2007-01-01",
+    "rate": 96.21,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2008-01-01",
+    "rate": 94.9,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2009-01-01",
+    "rate": 85.37,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2010-01-01",
+    "rate": 82.57,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2011-01-01",
+    "rate": 97.14000793707326,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2012-01-01",
+    "rate": 98.07,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2013-01-01",
+    "rate": 96.32,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2014-01-01",
+    "rate": 96.29,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2015-01-01",
+    "rate": 99.27,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2016-01-01",
+    "rate": 97.97,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2017-01-01",
+    "rate": 98.15,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2018-01-01",
+    "rate": 99.16,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2019-01-01",
+    "rate": 97.3,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2020-01-01",
+    "rate": 101.23,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2021-01-01",
+    "rate": 93.0,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2022-01-01",
+    "rate": 97.13,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2023-01-01",
+    "rate": 107.68,
+    "disease": "hep_b"
+  },
+  {
+    "date": "2000-01-01",
+    "rate": 95.4,
+    "disease": "polio"
+  },
+  {
+    "date": "2001-01-01",
+    "rate": 96.7,
+    "disease": "polio"
+  },
+  {
+    "date": "2002-01-01",
+    "rate": 94.9,
+    "disease": "polio"
+  },
+  {
+    "date": "2003-01-01",
+    "rate": 93.4,
+    "disease": "polio"
+  }
+]

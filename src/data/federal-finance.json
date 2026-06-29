@@ -1,0 +1,602 @@
+[
+  {
+    "date": "1970-01-01",
+    "value": -475,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1971-01-01",
+    "value": -1050,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1972-01-01",
+    "value": -1371,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1973-01-01",
+    "value": -1049,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1974-01-01",
+    "value": -1381,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1975-01-01",
+    "value": -1901,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1976-01-01",
+    "value": -1705,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1977-01-01",
+    "value": -2476,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1978-01-01",
+    "value": -2249,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1979-01-01",
+    "value": -1535,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1980-01-01",
+    "value": -3704,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1981-01-01",
+    "value": -9015,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1982-01-01",
+    "value": -10421,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1983-01-01",
+    "value": -6933,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1984-01-01",
+    "value": -4775,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1985-01-01",
+    "value": -4407,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1986-01-01",
+    "value": -7506,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1987-01-01",
+    "value": -6153,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1988-01-01",
+    "value": -3290,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1989-01-01",
+    "value": -3410,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1990-01-01",
+    "value": -3437,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1991-01-01",
+    "value": -2640,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1992-01-01",
+    "value": -1243,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1993-01-01",
+    "value": 354,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1994-01-01",
+    "value": 4408,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1995-01-01",
+    "value": 1861,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1996-01-01",
+    "value": 1815,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1997-01-01",
+    "value": 6626,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1998-01-01",
+    "value": -5002,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1999-01-01",
+    "value": -9486,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2000-01-01",
+    "value": -19715,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2001-01-01",
+    "value": -18422,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2002-01-01",
+    "value": -20253,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2003-01-01",
+    "value": -20928,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2004-01-01",
+    "value": -19419,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2005-01-01",
+    "value": -18724,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2006-01-01",
+    "value": -19109,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2007-01-01",
+    "value": -20659,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2008-01-01",
+    "value": -35594,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2009-01-01",
+    "value": -47424,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2010-01-01",
+    "value": -43275,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2011-01-01",
+    "value": -42509,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2012-01-01",
+    "value": -41951,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2013-01-01",
+    "value": -38584,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2014-01-01",
+    "value": -37414,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2015-01-01",
+    "value": -37194,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2016-01-01",
+    "value": -38400,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2017-01-01",
+    "value": -40321,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2018-01-01",
+    "value": -53385,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2019-01-01",
+    "value": -51498,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2020-01-01",
+    "value": -87644,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2021-01-01",
+    "value": -98757,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2022-01-01",
+    "value": -99482,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "2023-01-01",
+    "value": -91391,
+    "category": "budget",
+    "variable": "balance"
+  },
+  {
+    "date": "1970-01-01",
+    "value": 2400,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1971-01-01",
+    "value": 2418,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1972-01-01",
+    "value": 2920,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1973-01-01",
+    "value": 3399,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1974-01-01",
+    "value": 4791,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1975-01-01",
+    "value": 5117,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1976-01-01",
+    "value": 6157,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1977-01-01",
+    "value": 7760,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1978-01-01",
+    "value": 8841,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1979-01-01",
+    "value": 10505,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1980-01-01",
+    "value": 13926,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1981-01-01",
+    "value": 15806,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1982-01-01",
+    "value": 16690,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1983-01-01",
+    "value": 18608,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1984-01-01",
+    "value": 20805,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1985-01-01",
+    "value": 21115,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1986-01-01",
+    "value": 19518,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1987-01-01",
+    "value": 18143,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1988-01-01",
+    "value": 21967,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1989-01-01",
+    "value": 25273,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1990-01-01",
+    "value": 29521,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1991-01-01",
+    "value": 34053,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1992-01-01",
+    "value": 39250,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1993-01-01",
+    "value": 41691,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1994-01-01",
+    "value": 49446,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1995-01-01",
+    "value": 50954,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1996-01-01",
+    "value": 58280,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1997-01-01",
+    "value": 65736,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1998-01-01",
+    "value": 56710,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "1999-01-01",
+    "value": 58675,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "2000-01-01",
+    "value": 61864,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "2001-01-01",
+    "value": 79567,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "2002-01-01",
+    "value": 83515,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "2003-01-01",
+    "value": 92608,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "2004-01-01",
+    "value": 99397,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "2005-01-01",
+    "value": 106304,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "2006-01-01",
+    "value": 123546,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "2007-01-01",
+    "value": 139885,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "2008-01-01",
+    "value": 159793,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "2009-01-01",
+    "value": 158639,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "2010-01-01",
+    "value": 159653,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "2011-01-01",
+    "value": 185419,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "2012-01-01",
+    "value": 207913,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "2013-01-01",
+    "value": 213370,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "2014-01-01",
+    "value": 220626,
+    "category": "budget",
+    "variable": "revenue"
+  },
+  {
+    "date": "2015-01-01",
+    "value": 219089,
+    "category": "budget",
+    "variable": "revenue"
+  }
+]

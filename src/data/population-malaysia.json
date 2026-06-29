@@ -1,0 +1,1402 @@
+[
+  {
+    "age": "overall",
+    "sex": "both",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 10881.8
+  },
+  {
+    "age": "0-4",
+    "sex": "both",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 1702.4
+  },
+  {
+    "age": "5-9",
+    "sex": "both",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 1690.3
+  },
+  {
+    "age": "10-14",
+    "sex": "both",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 1454.7
+  },
+  {
+    "age": "15-19",
+    "sex": "both",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 1197.6
+  },
+  {
+    "age": "20-24",
+    "sex": "both",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 921.6
+  },
+  {
+    "age": "25-29",
+    "sex": "both",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 692.5
+  },
+  {
+    "age": "30-34",
+    "sex": "both",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 659.1
+  },
+  {
+    "age": "35-39",
+    "sex": "both",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 521.7
+  },
+  {
+    "age": "40-44",
+    "sex": "both",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 457.8
+  },
+  {
+    "age": "45-49",
+    "sex": "both",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 382.1
+  },
+  {
+    "age": "50-54",
+    "sex": "both",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 336.7
+  },
+  {
+    "age": "55-59",
+    "sex": "both",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 273.7
+  },
+  {
+    "age": "60-64",
+    "sex": "both",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 234.7
+  },
+  {
+    "age": "65-69",
+    "sex": "both",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 145.8
+  },
+  {
+    "age": "70+",
+    "sex": "both",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 211.1
+  },
+  {
+    "age": "overall",
+    "sex": "female",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 5364.7
+  },
+  {
+    "age": "0-4",
+    "sex": "female",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 833.1
+  },
+  {
+    "age": "5-9",
+    "sex": "female",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 826.6
+  },
+  {
+    "age": "10-14",
+    "sex": "female",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 714.6
+  },
+  {
+    "age": "15-19",
+    "sex": "female",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 599.8
+  },
+  {
+    "age": "20-24",
+    "sex": "female",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 461.2
+  },
+  {
+    "age": "25-29",
+    "sex": "female",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 344.6
+  },
+  {
+    "age": "30-34",
+    "sex": "female",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 325.8
+  },
+  {
+    "age": "35-39",
+    "sex": "female",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 262.9
+  },
+  {
+    "age": "40-44",
+    "sex": "female",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 226.6
+  },
+  {
+    "age": "45-49",
+    "sex": "female",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 191.4
+  },
+  {
+    "age": "50-54",
+    "sex": "female",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 165.2
+  },
+  {
+    "age": "55-59",
+    "sex": "female",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 129.4
+  },
+  {
+    "age": "60-64",
+    "sex": "female",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 111.5
+  },
+  {
+    "age": "65-69",
+    "sex": "female",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 65.7
+  },
+  {
+    "age": "70+",
+    "sex": "female",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 106.3
+  },
+  {
+    "age": "overall",
+    "sex": "male",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 5517.0
+  },
+  {
+    "age": "0-4",
+    "sex": "male",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 869.3
+  },
+  {
+    "age": "5-9",
+    "sex": "male",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 863.7
+  },
+  {
+    "age": "10-14",
+    "sex": "male",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 740.1
+  },
+  {
+    "age": "15-19",
+    "sex": "male",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 597.8
+  },
+  {
+    "age": "20-24",
+    "sex": "male",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 460.4
+  },
+  {
+    "age": "25-29",
+    "sex": "male",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 347.9
+  },
+  {
+    "age": "30-34",
+    "sex": "male",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 333.3
+  },
+  {
+    "age": "35-39",
+    "sex": "male",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 258.8
+  },
+  {
+    "age": "40-44",
+    "sex": "male",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 231.2
+  },
+  {
+    "age": "45-49",
+    "sex": "male",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 190.8
+  },
+  {
+    "age": "50-54",
+    "sex": "male",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 171.5
+  },
+  {
+    "age": "55-59",
+    "sex": "male",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 144.3
+  },
+  {
+    "age": "60-64",
+    "sex": "male",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 123.2
+  },
+  {
+    "age": "65-69",
+    "sex": "male",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 80.0
+  },
+  {
+    "age": "70+",
+    "sex": "male",
+    "date": "1970-01-01",
+    "ethnicity": "overall",
+    "population": 104.8
+  },
+  {
+    "age": "overall",
+    "sex": "both",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 11159.7
+  },
+  {
+    "age": "0-4",
+    "sex": "both",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 1725.9
+  },
+  {
+    "age": "5-9",
+    "sex": "both",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 1689.8
+  },
+  {
+    "age": "10-14",
+    "sex": "both",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 1491.3
+  },
+  {
+    "age": "15-19",
+    "sex": "both",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 1238.7
+  },
+  {
+    "age": "20-24",
+    "sex": "both",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 970.7
+  },
+  {
+    "age": "25-29",
+    "sex": "both",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 734.2
+  },
+  {
+    "age": "30-34",
+    "sex": "both",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 666.2
+  },
+  {
+    "age": "35-39",
+    "sex": "both",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 545.4
+  },
+  {
+    "age": "40-44",
+    "sex": "both",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 468.5
+  },
+  {
+    "age": "45-49",
+    "sex": "both",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 393.8
+  },
+  {
+    "age": "50-54",
+    "sex": "both",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 342.1
+  },
+  {
+    "age": "55-59",
+    "sex": "both",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 280.6
+  },
+  {
+    "age": "60-64",
+    "sex": "both",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 236.1
+  },
+  {
+    "age": "65-69",
+    "sex": "both",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 155.1
+  },
+  {
+    "age": "70+",
+    "sex": "both",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 221.2
+  },
+  {
+    "age": "overall",
+    "sex": "female",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 5506.3
+  },
+  {
+    "age": "0-4",
+    "sex": "female",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 844.2
+  },
+  {
+    "age": "5-9",
+    "sex": "female",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 828.3
+  },
+  {
+    "age": "10-14",
+    "sex": "female",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 734.4
+  },
+  {
+    "age": "15-19",
+    "sex": "female",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 619.1
+  },
+  {
+    "age": "20-24",
+    "sex": "female",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 485.4
+  },
+  {
+    "age": "25-29",
+    "sex": "female",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 365.0
+  },
+  {
+    "age": "30-34",
+    "sex": "female",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 329.2
+  },
+  {
+    "age": "35-39",
+    "sex": "female",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 273.6
+  },
+  {
+    "age": "40-44",
+    "sex": "female",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 232.8
+  },
+  {
+    "age": "45-49",
+    "sex": "female",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 196.8
+  },
+  {
+    "age": "50-54",
+    "sex": "female",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 168.9
+  },
+  {
+    "age": "55-59",
+    "sex": "female",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 134.2
+  },
+  {
+    "age": "60-64",
+    "sex": "female",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 112.4
+  },
+  {
+    "age": "65-69",
+    "sex": "female",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 71.1
+  },
+  {
+    "age": "70+",
+    "sex": "female",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 111.2
+  },
+  {
+    "age": "overall",
+    "sex": "male",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 5653.4
+  },
+  {
+    "age": "0-4",
+    "sex": "male",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 881.6
+  },
+  {
+    "age": "5-9",
+    "sex": "male",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 861.5
+  },
+  {
+    "age": "10-14",
+    "sex": "male",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 757.0
+  },
+  {
+    "age": "15-19",
+    "sex": "male",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 619.6
+  },
+  {
+    "age": "20-24",
+    "sex": "male",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 485.3
+  },
+  {
+    "age": "25-29",
+    "sex": "male",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 369.2
+  },
+  {
+    "age": "30-34",
+    "sex": "male",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 337.0
+  },
+  {
+    "age": "35-39",
+    "sex": "male",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 271.8
+  },
+  {
+    "age": "40-44",
+    "sex": "male",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 235.8
+  },
+  {
+    "age": "45-49",
+    "sex": "male",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 197.0
+  },
+  {
+    "age": "50-54",
+    "sex": "male",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 173.3
+  },
+  {
+    "age": "55-59",
+    "sex": "male",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 146.4
+  },
+  {
+    "age": "60-64",
+    "sex": "male",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 123.7
+  },
+  {
+    "age": "65-69",
+    "sex": "male",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 84.1
+  },
+  {
+    "age": "70+",
+    "sex": "male",
+    "date": "1971-01-01",
+    "ethnicity": "overall",
+    "population": 110.0
+  },
+  {
+    "age": "overall",
+    "sex": "both",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 11441.3
+  },
+  {
+    "age": "0-4",
+    "sex": "both",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 1758.0
+  },
+  {
+    "age": "5-9",
+    "sex": "both",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 1688.4
+  },
+  {
+    "age": "10-14",
+    "sex": "both",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 1528.7
+  },
+  {
+    "age": "15-19",
+    "sex": "both",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 1279.5
+  },
+  {
+    "age": "20-24",
+    "sex": "both",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 1019.3
+  },
+  {
+    "age": "25-29",
+    "sex": "both",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 777.5
+  },
+  {
+    "age": "30-34",
+    "sex": "both",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 673.0
+  },
+  {
+    "age": "35-39",
+    "sex": "both",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 570.3
+  },
+  {
+    "age": "40-44",
+    "sex": "both",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 478.8
+  },
+  {
+    "age": "45-49",
+    "sex": "both",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 405.9
+  },
+  {
+    "age": "50-54",
+    "sex": "both",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 347.2
+  },
+  {
+    "age": "55-59",
+    "sex": "both",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 287.9
+  },
+  {
+    "age": "60-64",
+    "sex": "both",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 237.4
+  },
+  {
+    "age": "65-69",
+    "sex": "both",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 164.8
+  },
+  {
+    "age": "70+",
+    "sex": "both",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 224.5
+  },
+  {
+    "age": "overall",
+    "sex": "female",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 5649.8
+  },
+  {
+    "age": "0-4",
+    "sex": "female",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 859.8
+  },
+  {
+    "age": "5-9",
+    "sex": "female",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 828.7
+  },
+  {
+    "age": "10-14",
+    "sex": "female",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 754.5
+  },
+  {
+    "age": "15-19",
+    "sex": "female",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 638.6
+  },
+  {
+    "age": "20-24",
+    "sex": "female",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 509.8
+  },
+  {
+    "age": "25-29",
+    "sex": "female",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 386.1
+  },
+  {
+    "age": "30-34",
+    "sex": "female",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 332.4
+  },
+  {
+    "age": "35-39",
+    "sex": "female",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 284.7
+  },
+  {
+    "age": "40-44",
+    "sex": "female",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 238.7
+  },
+  {
+    "age": "45-49",
+    "sex": "female",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 202.5
+  },
+  {
+    "age": "50-54",
+    "sex": "female",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 172.3
+  },
+  {
+    "age": "55-59",
+    "sex": "female",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 139.1
+  },
+  {
+    "age": "60-64",
+    "sex": "female",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 113.3
+  },
+  {
+    "age": "65-69",
+    "sex": "female",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 76.7
+  },
+  {
+    "age": "70+",
+    "sex": "female",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 112.6
+  },
+  {
+    "age": "overall",
+    "sex": "male",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 5791.5
+  },
+  {
+    "age": "0-4",
+    "sex": "male",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 898.2
+  },
+  {
+    "age": "5-9",
+    "sex": "male",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 859.7
+  },
+  {
+    "age": "10-14",
+    "sex": "male",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 774.2
+  },
+  {
+    "age": "15-19",
+    "sex": "male",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 640.9
+  },
+  {
+    "age": "20-24",
+    "sex": "male",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 509.5
+  },
+  {
+    "age": "25-29",
+    "sex": "male",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 391.4
+  },
+  {
+    "age": "30-34",
+    "sex": "male",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 340.6
+  },
+  {
+    "age": "35-39",
+    "sex": "male",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 285.6
+  },
+  {
+    "age": "40-44",
+    "sex": "male",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 240.1
+  },
+  {
+    "age": "45-49",
+    "sex": "male",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 203.4
+  },
+  {
+    "age": "50-54",
+    "sex": "male",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 174.9
+  },
+  {
+    "age": "55-59",
+    "sex": "male",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 148.8
+  },
+  {
+    "age": "60-64",
+    "sex": "male",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 124.1
+  },
+  {
+    "age": "65-69",
+    "sex": "male",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 88.1
+  },
+  {
+    "age": "70+",
+    "sex": "male",
+    "date": "1972-01-01",
+    "ethnicity": "overall",
+    "population": 111.9
+  },
+  {
+    "age": "overall",
+    "sex": "both",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 11719.8
+  },
+  {
+    "age": "0-4",
+    "sex": "both",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 1786.9
+  },
+  {
+    "age": "5-9",
+    "sex": "both",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 1686.2
+  },
+  {
+    "age": "10-14",
+    "sex": "both",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 1564.4
+  },
+  {
+    "age": "15-19",
+    "sex": "both",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 1319.9
+  },
+  {
+    "age": "20-24",
+    "sex": "both",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 1066.1
+  },
+  {
+    "age": "25-29",
+    "sex": "both",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 822.2
+  },
+  {
+    "age": "30-34",
+    "sex": "both",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 679.3
+  },
+  {
+    "age": "35-39",
+    "sex": "both",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 596.2
+  },
+  {
+    "age": "40-44",
+    "sex": "both",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 488.3
+  },
+  {
+    "age": "45-49",
+    "sex": "both",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 418.4
+  },
+  {
+    "age": "50-54",
+    "sex": "both",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 351.7
+  },
+  {
+    "age": "55-59",
+    "sex": "both",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 295.5
+  },
+  {
+    "age": "60-64",
+    "sex": "both",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 238.3
+  },
+  {
+    "age": "65-69",
+    "sex": "both",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 174.7
+  },
+  {
+    "age": "70+",
+    "sex": "both",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 231.6
+  },
+  {
+    "age": "overall",
+    "sex": "female",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 5791.9
+  },
+  {
+    "age": "0-4",
+    "sex": "female",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 873.8
+  },
+  {
+    "age": "5-9",
+    "sex": "female",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 827.9
+  },
+  {
+    "age": "10-14",
+    "sex": "female",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 773.7
+  },
+  {
+    "age": "15-19",
+    "sex": "female",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 658.7
+  },
+  {
+    "age": "20-24",
+    "sex": "female",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 533.9
+  },
+  {
+    "age": "25-29",
+    "sex": "female",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 408.0
+  },
+  {
+    "age": "30-34",
+    "sex": "female",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 335.2
+  },
+  {
+    "age": "35-39",
+    "sex": "female",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 296.1
+  },
+  {
+    "age": "40-44",
+    "sex": "female",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 244.1
+  },
+  {
+    "age": "45-49",
+    "sex": "female",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 208.3
+  },
+  {
+    "age": "50-54",
+    "sex": "female",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 175.4
+  },
+  {
+    "age": "55-59",
+    "sex": "female",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 144.3
+  },
+  {
+    "age": "60-64",
+    "sex": "female",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 114.1
+  },
+  {
+    "age": "65-69",
+    "sex": "female",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 82.5
+  },
+  {
+    "age": "70+",
+    "sex": "female",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 116.0
+  },
+  {
+    "age": "overall",
+    "sex": "male",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 5927.9
+  },
+  {
+    "age": "0-4",
+    "sex": "male",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 913.1
+  },
+  {
+    "age": "5-9",
+    "sex": "male",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 858.3
+  },
+  {
+    "age": "10-14",
+    "sex": "male",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 790.8
+  },
+  {
+    "age": "15-19",
+    "sex": "male",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 661.2
+  },
+  {
+    "age": "20-24",
+    "sex": "male",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 532.3
+  },
+  {
+    "age": "25-29",
+    "sex": "male",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 414.3
+  },
+  {
+    "age": "30-34",
+    "sex": "male",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 344.1
+  },
+  {
+    "age": "35-39",
+    "sex": "male",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 300.1
+  },
+  {
+    "age": "40-44",
+    "sex": "male",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 244.2
+  },
+  {
+    "age": "45-49",
+    "sex": "male",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 210.1
+  },
+  {
+    "age": "50-54",
+    "sex": "male",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 176.3
+  },
+  {
+    "age": "55-59",
+    "sex": "male",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 151.2
+  },
+  {
+    "age": "60-64",
+    "sex": "male",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 124.2
+  },
+  {
+    "age": "65-69",
+    "sex": "male",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 92.2
+  },
+  {
+    "age": "70+",
+    "sex": "male",
+    "date": "1973-01-01",
+    "ethnicity": "overall",
+    "population": 115.6
+  },
+  {
+    "age": "overall",
+    "sex": "both",
+    "date": "1974-01-01",
+    "ethnicity": "overall",
+    "population": 12001.3
+  },
+  {
+    "age": "0-4",
+    "sex": "both",
+    "date": "1974-01-01",
+    "ethnicity": "overall",
+    "population": 1816.2
+  },
+  {
+    "age": "5-9",
+    "sex": "both",
+    "date": "1974-01-01",
+    "ethnicity": "overall",
+    "population": 1686.4
+  },
+  {
+    "age": "10-14",
+    "sex": "both",
+    "date": "1974-01-01",
+    "ethnicity": "overall",
+    "population": 1597.8
+  },
+  {
+    "age": "15-19",
+    "sex": "both",
+    "date": "1974-01-01",
+    "ethnicity": "overall",
+    "population": 1361.1
+  },
+  {
+    "age": "20-24",
+    "sex": "both",
+    "date": "1974-01-01",
+    "ethnicity": "overall",
+    "population": 1110.9
+  },
+  {
+    "age": "25-29",
+    "sex": "both",
+    "date": "1974-01-01",
+    "ethnicity": "overall",
+    "population": 868.8
+  },
+  {
+    "age": "30-34",
+    "sex": "both",
+    "date": "1974-01-01",
+    "ethnicity": "overall",
+    "population": 685.7
+  }
+]

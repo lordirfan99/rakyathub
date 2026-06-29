@@ -1,0 +1,252 @@
+[
+  {
+    "date": "2015-01-01",
+    "category": "total",
+    "allocation": 23311912500
+  },
+  {
+    "date": "2015-01-01",
+    "category": "de",
+    "allocation": 1597702500
+  },
+  {
+    "date": "2015-01-01",
+    "category": "oe",
+    "allocation": 21714210000
+  },
+  {
+    "date": "2015-01-01",
+    "category": "oe_10000",
+    "allocation": 11761622400
+  },
+  {
+    "date": "2015-01-01",
+    "category": "oe_20000",
+    "allocation": 9489699100
+  },
+  {
+    "date": "2015-01-01",
+    "category": "oe_30000",
+    "allocation": 59766400
+  },
+  {
+    "date": "2015-01-01",
+    "category": "oe_40000",
+    "allocation": 403037100
+  },
+  {
+    "date": "2015-01-01",
+    "category": "oe_50000",
+    "allocation": 85000
+  },
+  {
+    "date": "2016-01-01",
+    "category": "total",
+    "allocation": 23031066400
+  },
+  {
+    "date": "2016-01-01",
+    "category": "de",
+    "allocation": 1600264400
+  },
+  {
+    "date": "2016-01-01",
+    "category": "oe",
+    "allocation": 21430802000
+  },
+  {
+    "date": "2016-01-01",
+    "category": "oe_10000",
+    "allocation": 13439325900
+  },
+  {
+    "date": "2016-01-01",
+    "category": "oe_20000",
+    "allocation": 7618084100
+  },
+  {
+    "date": "2016-01-01",
+    "category": "oe_30000",
+    "allocation": 1877400
+  },
+  {
+    "date": "2016-01-01",
+    "category": "oe_40000",
+    "allocation": 371429600
+  },
+  {
+    "date": "2016-01-01",
+    "category": "oe_50000",
+    "allocation": 85000
+  },
+  {
+    "date": "2017-01-01",
+    "category": "total",
+    "allocation": 24800986200
+  },
+  {
+    "date": "2017-01-01",
+    "category": "de",
+    "allocation": 1338188800
+  },
+  {
+    "date": "2017-01-01",
+    "category": "oe",
+    "allocation": 23462797400
+  },
+  {
+    "date": "2017-01-01",
+    "category": "oe_10000",
+    "allocation": 14794434700
+  },
+  {
+    "date": "2017-01-01",
+    "category": "oe_20000",
+    "allocation": 8577660400
+  },
+  {
+    "date": "2017-01-01",
+    "category": "oe_30000",
+    "allocation": 100
+  },
+  {
+    "date": "2017-01-01",
+    "category": "oe_40000",
+    "allocation": 90618100
+  },
+  {
+    "date": "2017-01-01",
+    "category": "oe_50000",
+    "allocation": 84100
+  },
+  {
+    "date": "2018-01-01",
+    "category": "total",
+    "allocation": 26581938800
+  },
+  {
+    "date": "2018-01-01",
+    "category": "de",
+    "allocation": 1845055100
+  },
+  {
+    "date": "2018-01-01",
+    "category": "oe",
+    "allocation": 24736883700
+  },
+  {
+    "date": "2018-01-01",
+    "category": "oe_10000",
+    "allocation": 15068204600
+  },
+  {
+    "date": "2018-01-01",
+    "category": "oe_20000",
+    "allocation": 9271174900
+  },
+  {
+    "date": "2018-01-01",
+    "category": "oe_30000",
+    "allocation": 100
+  },
+  {
+    "date": "2018-01-01",
+    "category": "oe_40000",
+    "allocation": 397420000
+  },
+  {
+    "date": "2018-01-01",
+    "category": "oe_50000",
+    "allocation": 84100
+  },
+  {
+    "date": "2019-01-01",
+    "category": "total",
+    "allocation": 28678743500
+  },
+  {
+    "date": "2019-01-01",
+    "category": "de",
+    "allocation": 2180426200
+  },
+  {
+    "date": "2019-01-01",
+    "category": "oe",
+    "allocation": 26498317300
+  },
+  {
+    "date": "2019-01-01",
+    "category": "oe_10000",
+    "allocation": 15970724700
+  },
+  {
+    "date": "2019-01-01",
+    "category": "oe_20000",
+    "allocation": 10026455900
+  },
+  {
+    "date": "2019-01-01",
+    "category": "oe_30000",
+    "allocation": 61400000
+  },
+  {
+    "date": "2019-01-01",
+    "category": "oe_40000",
+    "allocation": 439652600
+  },
+  {
+    "date": "2019-01-01",
+    "category": "oe_50000",
+    "allocation": 84100
+  },
+  {
+    "date": "2020-01-01",
+    "category": "total",
+    "allocation": 30602080900
+  },
+  {
+    "date": "2020-01-01",
+    "category": "de",
+    "allocation": 2660550000
+  },
+  {
+    "date": "2020-01-01",
+    "category": "oe",
+    "allocation": 27941530900
+  },
+  {
+    "date": "2020-01-01",
+    "category": "oe_10000",
+    "allocation": 16483972900
+  },
+  {
+    "date": "2020-01-01",
+    "category": "oe_20000",
+    "allocation": 10869421300
+  },
+  {
+    "date": "2020-01-01",
+    "category": "oe_30000",
+    "allocation": 76400000
+  },
+  {
+    "date": "2020-01-01",
+    "category": "oe_40000",
+    "allocation": 511652600
+  },
+  {
+    "date": "2020-01-01",
+    "category": "oe_50000",
+    "allocation": 84100
+  },
+  {
+    "date": "2021-01-01",
+    "category": "total",
+    "allocation": 31941504300
+  },
+  {
+    "date": "2021-01-01",
+    "category": "de",
+    "allocation": 4717819000
+  }
+]

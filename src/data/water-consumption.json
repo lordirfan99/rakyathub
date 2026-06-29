@@ -1,0 +1,602 @@
+[
+  {
+    "date": "2003-01-01",
+    "state": "Malaysia",
+    "value": 4394,
+    "sector": "domestic"
+  },
+  {
+    "date": "2004-01-01",
+    "state": "Malaysia",
+    "value": 4770,
+    "sector": "domestic"
+  },
+  {
+    "date": "2005-01-01",
+    "state": "Malaysia",
+    "value": 4992,
+    "sector": "domestic"
+  },
+  {
+    "date": "2006-01-01",
+    "state": "Malaysia",
+    "value": 5025,
+    "sector": "domestic"
+  },
+  {
+    "date": "2007-01-01",
+    "state": "Malaysia",
+    "value": 5381,
+    "sector": "domestic"
+  },
+  {
+    "date": "2008-01-01",
+    "state": "Malaysia",
+    "value": 5466,
+    "sector": "domestic"
+  },
+  {
+    "date": "2009-01-01",
+    "state": "Malaysia",
+    "value": 5531,
+    "sector": "domestic"
+  },
+  {
+    "date": "2010-01-01",
+    "state": "Malaysia",
+    "value": 5602,
+    "sector": "domestic"
+  },
+  {
+    "date": "2011-01-01",
+    "state": "Malaysia",
+    "value": 5695,
+    "sector": "domestic"
+  },
+  {
+    "date": "2012-01-01",
+    "state": "Malaysia",
+    "value": 5873,
+    "sector": "domestic"
+  },
+  {
+    "date": "2013-01-01",
+    "state": "Malaysia",
+    "value": 6064,
+    "sector": "domestic"
+  },
+  {
+    "date": "2014-01-01",
+    "state": "Malaysia",
+    "value": 6267,
+    "sector": "domestic"
+  },
+  {
+    "date": "2015-01-01",
+    "state": "Malaysia",
+    "value": 6378,
+    "sector": "domestic"
+  },
+  {
+    "date": "2016-01-01",
+    "state": "Malaysia",
+    "value": 6490,
+    "sector": "domestic"
+  },
+  {
+    "date": "2017-01-01",
+    "state": "Malaysia",
+    "value": 6447,
+    "sector": "domestic"
+  },
+  {
+    "date": "2018-01-01",
+    "state": "Malaysia",
+    "value": 6605,
+    "sector": "domestic"
+  },
+  {
+    "date": "2019-01-01",
+    "state": "Malaysia",
+    "value": 6811,
+    "sector": "domestic"
+  },
+  {
+    "date": "2020-01-01",
+    "state": "Malaysia",
+    "value": 7179,
+    "sector": "domestic"
+  },
+  {
+    "date": "2021-01-01",
+    "state": "Malaysia",
+    "value": 7540,
+    "sector": "domestic"
+  },
+  {
+    "date": "2022-01-01",
+    "state": "Malaysia",
+    "value": 7353,
+    "sector": "domestic"
+  },
+  {
+    "date": "2003-01-01",
+    "state": "Malaysia",
+    "value": 2281,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2004-01-01",
+    "state": "Malaysia",
+    "value": 2339,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2005-01-01",
+    "state": "Malaysia",
+    "value": 2366,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2006-01-01",
+    "state": "Malaysia",
+    "value": 2606,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2007-01-01",
+    "state": "Malaysia",
+    "value": 2696,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2008-01-01",
+    "state": "Malaysia",
+    "value": 2868,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2009-01-01",
+    "state": "Malaysia",
+    "value": 3020,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2010-01-01",
+    "state": "Malaysia",
+    "value": 3370,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2011-01-01",
+    "state": "Malaysia",
+    "value": 3469,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2012-01-01",
+    "state": "Malaysia",
+    "value": 3659,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2013-01-01",
+    "state": "Malaysia",
+    "value": 3790,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2014-01-01",
+    "state": "Malaysia",
+    "value": 3909,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2015-01-01",
+    "state": "Malaysia",
+    "value": 4067,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2016-01-01",
+    "state": "Malaysia",
+    "value": 4249,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2017-01-01",
+    "state": "Malaysia",
+    "value": 4341,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2018-01-01",
+    "state": "Malaysia",
+    "value": 4476,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2019-01-01",
+    "state": "Malaysia",
+    "value": 4688,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2020-01-01",
+    "state": "Malaysia",
+    "value": 4298,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2021-01-01",
+    "state": "Malaysia",
+    "value": 4173,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2022-01-01",
+    "state": "Malaysia",
+    "value": 4433,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2003-01-01",
+    "state": "Johor",
+    "value": 560,
+    "sector": "domestic"
+  },
+  {
+    "date": "2004-01-01",
+    "state": "Johor",
+    "value": 610,
+    "sector": "domestic"
+  },
+  {
+    "date": "2005-01-01",
+    "state": "Johor",
+    "value": 621,
+    "sector": "domestic"
+  },
+  {
+    "date": "2006-01-01",
+    "state": "Johor",
+    "value": 644,
+    "sector": "domestic"
+  },
+  {
+    "date": "2007-01-01",
+    "state": "Johor",
+    "value": 664,
+    "sector": "domestic"
+  },
+  {
+    "date": "2008-01-01",
+    "state": "Johor",
+    "value": 682,
+    "sector": "domestic"
+  },
+  {
+    "date": "2009-01-01",
+    "state": "Johor",
+    "value": 713,
+    "sector": "domestic"
+  },
+  {
+    "date": "2010-01-01",
+    "state": "Johor",
+    "value": 730,
+    "sector": "domestic"
+  },
+  {
+    "date": "2011-01-01",
+    "state": "Johor",
+    "value": 738,
+    "sector": "domestic"
+  },
+  {
+    "date": "2012-01-01",
+    "state": "Johor",
+    "value": 769,
+    "sector": "domestic"
+  },
+  {
+    "date": "2013-01-01",
+    "state": "Johor",
+    "value": 797,
+    "sector": "domestic"
+  },
+  {
+    "date": "2014-01-01",
+    "state": "Johor",
+    "value": 823,
+    "sector": "domestic"
+  },
+  {
+    "date": "2015-01-01",
+    "state": "Johor",
+    "value": 811,
+    "sector": "domestic"
+  },
+  {
+    "date": "2016-01-01",
+    "state": "Johor",
+    "value": 773,
+    "sector": "domestic"
+  },
+  {
+    "date": "2017-01-01",
+    "state": "Johor",
+    "value": 785,
+    "sector": "domestic"
+  },
+  {
+    "date": "2018-01-01",
+    "state": "Johor",
+    "value": 809,
+    "sector": "domestic"
+  },
+  {
+    "date": "2019-01-01",
+    "state": "Johor",
+    "value": 835,
+    "sector": "domestic"
+  },
+  {
+    "date": "2020-01-01",
+    "state": "Johor",
+    "value": 867,
+    "sector": "domestic"
+  },
+  {
+    "date": "2021-01-01",
+    "state": "Johor",
+    "value": 879,
+    "sector": "domestic"
+  },
+  {
+    "date": "2022-01-01",
+    "state": "Johor",
+    "value": 867,
+    "sector": "domestic"
+  },
+  {
+    "date": "2003-01-01",
+    "state": "Johor",
+    "value": 246,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2004-01-01",
+    "state": "Johor",
+    "value": 225,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2005-01-01",
+    "state": "Johor",
+    "value": 235,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2006-01-01",
+    "state": "Johor",
+    "value": 255,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2007-01-01",
+    "state": "Johor",
+    "value": 289,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2008-01-01",
+    "state": "Johor",
+    "value": 300,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2009-01-01",
+    "state": "Johor",
+    "value": 285,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2010-01-01",
+    "state": "Johor",
+    "value": 306,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2011-01-01",
+    "state": "Johor",
+    "value": 323,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2012-01-01",
+    "state": "Johor",
+    "value": 341,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2013-01-01",
+    "state": "Johor",
+    "value": 366,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2014-01-01",
+    "state": "Johor",
+    "value": 391,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2015-01-01",
+    "state": "Johor",
+    "value": 448,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2016-01-01",
+    "state": "Johor",
+    "value": 513,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2017-01-01",
+    "state": "Johor",
+    "value": 535,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2018-01-01",
+    "state": "Johor",
+    "value": 576,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2019-01-01",
+    "state": "Johor",
+    "value": 599,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2020-01-01",
+    "state": "Johor",
+    "value": 526,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2021-01-01",
+    "state": "Johor",
+    "value": 505,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2022-01-01",
+    "state": "Johor",
+    "value": 536,
+    "sector": "nondomestic"
+  },
+  {
+    "date": "2003-01-01",
+    "state": "Kedah",
+    "value": 388,
+    "sector": "domestic"
+  },
+  {
+    "date": "2004-01-01",
+    "state": "Kedah",
+    "value": 412,
+    "sector": "domestic"
+  },
+  {
+    "date": "2005-01-01",
+    "state": "Kedah",
+    "value": 420,
+    "sector": "domestic"
+  },
+  {
+    "date": "2006-01-01",
+    "state": "Kedah",
+    "value": 434,
+    "sector": "domestic"
+  },
+  {
+    "date": "2007-01-01",
+    "state": "Kedah",
+    "value": 471,
+    "sector": "domestic"
+  },
+  {
+    "date": "2008-01-01",
+    "state": "Kedah",
+    "value": 470,
+    "sector": "domestic"
+  },
+  {
+    "date": "2009-01-01",
+    "state": "Kedah",
+    "value": 474,
+    "sector": "domestic"
+  },
+  {
+    "date": "2010-01-01",
+    "state": "Kedah",
+    "value": 444,
+    "sector": "domestic"
+  },
+  {
+    "date": "2011-01-01",
+    "state": "Kedah",
+    "value": 459,
+    "sector": "domestic"
+  },
+  {
+    "date": "2012-01-01",
+    "state": "Kedah",
+    "value": 474,
+    "sector": "domestic"
+  },
+  {
+    "date": "2013-01-01",
+    "state": "Kedah",
+    "value": 487,
+    "sector": "domestic"
+  },
+  {
+    "date": "2014-01-01",
+    "state": "Kedah",
+    "value": 510,
+    "sector": "domestic"
+  },
+  {
+    "date": "2015-01-01",
+    "state": "Kedah",
+    "value": 511,
+    "sector": "domestic"
+  },
+  {
+    "date": "2016-01-01",
+    "state": "Kedah",
+    "value": 525,
+    "sector": "domestic"
+  },
+  {
+    "date": "2017-01-01",
+    "state": "Kedah",
+    "value": 523,
+    "sector": "domestic"
+  },
+  {
+    "date": "2018-01-01",
+    "state": "Kedah",
+    "value": 544,
+    "sector": "domestic"
+  },
+  {
+    "date": "2019-01-01",
+    "state": "Kedah",
+    "value": 551,
+    "sector": "domestic"
+  },
+  {
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "value": 574,
+    "sector": "domestic"
+  },
+  {
+    "date": "2021-01-01",
+    "state": "Kedah",
+    "value": 590,
+    "sector": "domestic"
+  },
+  {
+    "date": "2022-01-01",
+    "state": "Kedah",
+    "value": 560,
+    "sector": "domestic"
+  }
+]

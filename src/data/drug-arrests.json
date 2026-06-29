@@ -1,0 +1,702 @@
+[
+  {
+    "age": "all",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 47952
+  },
+  {
+    "age": "all",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 1667
+  },
+  {
+    "age": "all",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 46285
+  },
+  {
+    "age": "all",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 17985
+  },
+  {
+    "age": "all",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 16318
+  },
+  {
+    "age": "all",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 1667
+  },
+  {
+    "age": "all",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 46285
+  },
+  {
+    "age": "all",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 43606
+  },
+  {
+    "age": "all",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 2679
+  },
+  {
+    "age": "all",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 54967
+  },
+  {
+    "age": "all",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 51562
+  },
+  {
+    "age": "all",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 3405
+  },
+  {
+    "age": "<13",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 64
+  },
+  {
+    "age": "<13",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 12
+  },
+  {
+    "age": "<13",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 52
+  },
+  {
+    "age": "<13",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 23
+  },
+  {
+    "age": "<13",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 11
+  },
+  {
+    "age": "<13",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 12
+  },
+  {
+    "age": "<13",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 52
+  },
+  {
+    "age": "<13",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 41
+  },
+  {
+    "age": "<13",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 11
+  },
+  {
+    "age": "<13",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 61
+  },
+  {
+    "age": "<13",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 54
+  },
+  {
+    "age": "<13",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 7
+  },
+  {
+    "age": "14-18",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 3890
+  },
+  {
+    "age": "14-18",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 180
+  },
+  {
+    "age": "14-18",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 3710
+  },
+  {
+    "age": "14-18",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 841
+  },
+  {
+    "age": "14-18",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 661
+  },
+  {
+    "age": "14-18",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 180
+  },
+  {
+    "age": "14-18",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 3710
+  },
+  {
+    "age": "14-18",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 3367
+  },
+  {
+    "age": "14-18",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 343
+  },
+  {
+    "age": "14-18",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 3870
+  },
+  {
+    "age": "14-18",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 3457
+  },
+  {
+    "age": "14-18",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 413
+  },
+  {
+    "age": "19-24",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 13960
+  },
+  {
+    "age": "19-24",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 429
+  },
+  {
+    "age": "19-24",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 13531
+  },
+  {
+    "age": "19-24",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 3964
+  },
+  {
+    "age": "19-24",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 3535
+  },
+  {
+    "age": "19-24",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 429
+  },
+  {
+    "age": "19-24",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 13418
+  },
+  {
+    "age": "19-24",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 12634
+  },
+  {
+    "age": "19-24",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 784
+  },
+  {
+    "age": "19-24",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 15527
+  },
+  {
+    "age": "19-24",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 14460
+  },
+  {
+    "age": "19-24",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 1067
+  },
+  {
+    "age": "25-29",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 17508
+  },
+  {
+    "age": "25-29",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 447
+  },
+  {
+    "age": "25-29",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 17061
+  },
+  {
+    "age": "25-29",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 4227
+  },
+  {
+    "age": "25-29",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 3780
+  },
+  {
+    "age": "25-29",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 447
+  },
+  {
+    "age": "25-29",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 11647
+  },
+  {
+    "age": "25-29",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 10927
+  },
+  {
+    "age": "25-29",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 720
+  },
+  {
+    "age": "25-29",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 14912
+  },
+  {
+    "age": "25-29",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 13970
+  },
+  {
+    "age": "25-29",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 942
+  },
+  {
+    "age": "30-34",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 28868
+  },
+  {
+    "age": "30-34",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 375
+  },
+  {
+    "age": "30-34",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 28493
+  },
+  {
+    "age": "30-34",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 4626
+  },
+  {
+    "age": "30-34",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 4251
+  },
+  {
+    "age": "30-34",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 375
+  },
+  {
+    "age": "30-34",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 11463
+  },
+  {
+    "age": "30-34",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 10749
+  },
+  {
+    "age": "30-34",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 714
+  },
+  {
+    "age": "30-34",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 15390
+  },
+  {
+    "age": "30-34",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 14542
+  },
+  {
+    "age": "30-34",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 848
+  },
+  {
+    "age": "35-40",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 11694
+  },
+  {
+    "age": "35-40",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 345
+  },
+  {
+    "age": "35-40",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 11349
+  },
+  {
+    "age": "35-40",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 5314
+  },
+  {
+    "age": "35-40",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 4969
+  },
+  {
+    "age": "35-40",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 345
+  },
+  {
+    "age": "35-40",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 11349
+  },
+  {
+    "age": "35-40",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 10756
+  },
+  {
+    "age": "35-40",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 593
+  },
+  {
+    "age": "35-40",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 15488
+  },
+  {
+    "age": "35-40",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 14795
+  },
+  {
+    "age": "35-40",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 693
+  },
+  {
+    "age": ">41",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 41552
+  },
+  {
+    "age": ">41",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 336
+  },
+  {
+    "age": ">41",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 41216
+  },
+  {
+    "age": ">41",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 7651
+  },
+  {
+    "age": ">41",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 7315
+  },
+  {
+    "age": ">41",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 336
+  },
+  {
+    "age": ">41",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 14379
+  },
+  {
+    "age": ">41",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 13874
+  },
+  {
+    "age": ">41",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "posses",
+    "drug_arrests": 505
+  },
+  {
+    "age": ">41",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 16058
+  },
+  {
+    "age": ">41",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 15593
+  },
+  {
+    "age": ">41",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "urine_positive",
+    "drug_arrests": 465
+  },
+  {
+    "age": "no_information",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 25938
+  },
+  {
+    "age": "no_information",
+    "sex": "male",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 29
+  },
+  {
+    "age": "no_information",
+    "sex": "female",
+    "date": "2019-01-01",
+    "arrest_type": "overall",
+    "drug_arrests": 25909
+  },
+  {
+    "age": "no_information",
+    "sex": "both",
+    "date": "2019-01-01",
+    "arrest_type": "supply",
+    "drug_arrests": 157
+  }
+]

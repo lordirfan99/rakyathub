@@ -1,0 +1,1402 @@
+[
+  {
+    "beds": 45087,
+    "date": "2015-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 36447,
+    "date": "2015-01-01",
+    "type": "hospital_moh",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 3698,
+    "date": "2015-01-01",
+    "type": "hospital_non_moh",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 4942,
+    "date": "2015-01-01",
+    "type": "special_medical_institution",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 45678,
+    "date": "2016-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 37293,
+    "date": "2016-01-01",
+    "type": "hospital_moh",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 3683,
+    "date": "2016-01-01",
+    "type": "hospital_non_moh",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 4702,
+    "date": "2016-01-01",
+    "type": "special_medical_institution",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 46054,
+    "date": "2017-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 37330,
+    "date": "2017-01-01",
+    "type": "hospital_moh",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 3892,
+    "date": "2017-01-01",
+    "type": "hospital_non_moh",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 4832,
+    "date": "2017-01-01",
+    "type": "special_medical_institution",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 46611,
+    "date": "2018-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 37609,
+    "date": "2018-01-01",
+    "type": "hospital_moh",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 4187,
+    "date": "2018-01-01",
+    "type": "hospital_non_moh",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 4815,
+    "date": "2018-01-01",
+    "type": "special_medical_institution",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 46988,
+    "date": "2019-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 38131,
+    "date": "2019-01-01",
+    "type": "hospital_moh",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 4052,
+    "date": "2019-01-01",
+    "type": "hospital_non_moh",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 4805,
+    "date": "2019-01-01",
+    "type": "special_medical_institution",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 48305,
+    "date": "2020-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 38543,
+    "date": "2020-01-01",
+    "type": "hospital_moh",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 4188,
+    "date": "2020-01-01",
+    "type": "hospital_non_moh",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 5574,
+    "date": "2020-01-01",
+    "type": "special_medical_institution",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 49781,
+    "date": "2021-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 39263,
+    "date": "2021-01-01",
+    "type": "hospital_moh",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 4932,
+    "date": "2021-01-01",
+    "type": "hospital_non_moh",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 5586,
+    "date": "2021-01-01",
+    "type": "special_medical_institution",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 49985,
+    "date": "2022-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 39581,
+    "date": "2022-01-01",
+    "type": "hospital_moh",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 4818,
+    "date": "2022-01-01",
+    "type": "hospital_non_moh",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 5586,
+    "date": "2022-01-01",
+    "type": "special_medical_institution",
+    "state": "Malaysia",
+    "district": "All"
+  },
+  {
+    "beds": 4968,
+    "date": "2015-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 5185,
+    "date": "2016-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 5185,
+    "date": "2017-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 5200,
+    "date": "2018-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 5200,
+    "date": "2019-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 5270,
+    "date": "2020-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 5278,
+    "date": "2021-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 5433,
+    "date": "2022-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 3836,
+    "date": "2015-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 4053,
+    "date": "2016-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 4053,
+    "date": "2017-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 4068,
+    "date": "2018-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 4068,
+    "date": "2019-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 4138,
+    "date": "2020-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 4146,
+    "date": "2021-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 4301,
+    "date": "2022-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 0,
+    "date": "2015-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 0,
+    "date": "2016-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 0,
+    "date": "2017-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 0,
+    "date": "2018-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 0,
+    "date": "2019-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 0,
+    "date": "2020-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 0,
+    "date": "2021-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 0,
+    "date": "2022-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 1132,
+    "date": "2015-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 1132,
+    "date": "2016-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 1132,
+    "date": "2017-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 1132,
+    "date": "2018-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 1132,
+    "date": "2019-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 1132,
+    "date": "2020-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 1132,
+    "date": "2021-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 1132,
+    "date": "2022-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "All Districts"
+  },
+  {
+    "beds": 516,
+    "date": "2015-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 516,
+    "date": "2016-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 516,
+    "date": "2017-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 516,
+    "date": "2018-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 516,
+    "date": "2019-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 546,
+    "date": "2020-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 554,
+    "date": "2021-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 610,
+    "date": "2022-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 516,
+    "date": "2015-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 516,
+    "date": "2016-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 516,
+    "date": "2017-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 516,
+    "date": "2018-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 516,
+    "date": "2019-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 546,
+    "date": "2020-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 554,
+    "date": "2021-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 610,
+    "date": "2022-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 0,
+    "date": "2015-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 0,
+    "date": "2016-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 0,
+    "date": "2017-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 0,
+    "date": "2018-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 0,
+    "date": "2019-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 0,
+    "date": "2020-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 0,
+    "date": "2021-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 0,
+    "date": "2022-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 0,
+    "date": "2015-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 0,
+    "date": "2016-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 0,
+    "date": "2017-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 0,
+    "date": "2018-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 0,
+    "date": "2019-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 0,
+    "date": "2020-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 0,
+    "date": "2021-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 0,
+    "date": "2022-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Batu Pahat"
+  },
+  {
+    "beds": 2825,
+    "date": "2015-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 3042,
+    "date": "2016-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 3042,
+    "date": "2017-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 3042,
+    "date": "2018-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 3042,
+    "date": "2019-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 3042,
+    "date": "2020-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 3042,
+    "date": "2021-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 3042,
+    "date": "2022-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 1693,
+    "date": "2015-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 1910,
+    "date": "2016-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 1910,
+    "date": "2017-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 1910,
+    "date": "2018-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 1910,
+    "date": "2019-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 1910,
+    "date": "2020-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 1910,
+    "date": "2021-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 1910,
+    "date": "2022-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 0,
+    "date": "2015-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 0,
+    "date": "2016-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 0,
+    "date": "2017-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 0,
+    "date": "2018-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 0,
+    "date": "2019-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 0,
+    "date": "2020-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 0,
+    "date": "2021-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 0,
+    "date": "2022-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 1132,
+    "date": "2015-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 1132,
+    "date": "2016-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 1132,
+    "date": "2017-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 1132,
+    "date": "2018-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 1132,
+    "date": "2019-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 1132,
+    "date": "2020-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 1132,
+    "date": "2021-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 1132,
+    "date": "2022-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Johor Bahru"
+  },
+  {
+    "beds": 268,
+    "date": "2015-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 268,
+    "date": "2016-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 268,
+    "date": "2017-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 268,
+    "date": "2018-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 268,
+    "date": "2019-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 308,
+    "date": "2020-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 308,
+    "date": "2021-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 382,
+    "date": "2022-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 268,
+    "date": "2015-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 268,
+    "date": "2016-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 268,
+    "date": "2017-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 268,
+    "date": "2018-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 268,
+    "date": "2019-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 308,
+    "date": "2020-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 308,
+    "date": "2021-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 382,
+    "date": "2022-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 0,
+    "date": "2015-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 0,
+    "date": "2016-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 0,
+    "date": "2017-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 0,
+    "date": "2018-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 0,
+    "date": "2019-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 0,
+    "date": "2020-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 0,
+    "date": "2021-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 0,
+    "date": "2022-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 0,
+    "date": "2015-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 0,
+    "date": "2016-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 0,
+    "date": "2017-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 0,
+    "date": "2018-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 0,
+    "date": "2019-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 0,
+    "date": "2020-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 0,
+    "date": "2021-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 0,
+    "date": "2022-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Kluang"
+  },
+  {
+    "beds": 158,
+    "date": "2015-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 158,
+    "date": "2016-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 158,
+    "date": "2017-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 158,
+    "date": "2018-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 158,
+    "date": "2019-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 158,
+    "date": "2020-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 158,
+    "date": "2021-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 158,
+    "date": "2022-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 158,
+    "date": "2015-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 158,
+    "date": "2016-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 158,
+    "date": "2017-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 158,
+    "date": "2018-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 158,
+    "date": "2019-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 158,
+    "date": "2020-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 158,
+    "date": "2021-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 158,
+    "date": "2022-01-01",
+    "type": "hospital_moh",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 0,
+    "date": "2015-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 0,
+    "date": "2016-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 0,
+    "date": "2017-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 0,
+    "date": "2018-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 0,
+    "date": "2019-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 0,
+    "date": "2020-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 0,
+    "date": "2021-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 0,
+    "date": "2022-01-01",
+    "type": "hospital_non_moh",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 0,
+    "date": "2015-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 0,
+    "date": "2016-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 0,
+    "date": "2017-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 0,
+    "date": "2018-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 0,
+    "date": "2019-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 0,
+    "date": "2020-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 0,
+    "date": "2021-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 0,
+    "date": "2022-01-01",
+    "type": "special_medical_institution",
+    "state": "Johor",
+    "district": "Kota Tinggi"
+  },
+  {
+    "beds": 93,
+    "date": "2015-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kulaijaya"
+  },
+  {
+    "beds": 93,
+    "date": "2016-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kulaijaya"
+  },
+  {
+    "beds": 93,
+    "date": "2017-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kulaijaya"
+  },
+  {
+    "beds": 93,
+    "date": "2018-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kulaijaya"
+  },
+  {
+    "beds": 93,
+    "date": "2019-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kulaijaya"
+  },
+  {
+    "beds": 93,
+    "date": "2020-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kulaijaya"
+  },
+  {
+    "beds": 93,
+    "date": "2021-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kulaijaya"
+  },
+  {
+    "beds": 93,
+    "date": "2022-01-01",
+    "type": "all",
+    "state": "Johor",
+    "district": "Kulaijaya"
+  }
+]

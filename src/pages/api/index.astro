@@ -1,0 +1,167 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import { SITE } from 'astrowind:config';
+
+const metadata = {
+  title: `RakyatHub Open Data API — Data Kerajaan Malaysia`,
+  description: 'Akses data terbuka kerajaan Malaysia — EPF dividen, KDNK, kadar pertukaran, populasi, jenayah, perdagangan dan banyak lagi. API percuma.',
+};
+
+const datasets = [
+  { id: "epf-dividend", title: "Dividen KWSP", desc: "Dividen tahunan KWSP konvensional & shariah, 1952-2025 (74 tahun data!)", icon: "💰", cat: "Kewangan" },
+  { id: "exchange-rates", title: "Kadar Pertukaran Harian", desc: "Kadar pertukaran MYR terhadap 27 matawang utama (0900 snapshot)", icon: "💱", cat: "Kewangan" },
+  { id: "exchange-rates-monthly", title: "Kadar Pertukaran Bulanan", desc: "Data kadar pertukaran bulanan untuk analisis trend jangka panjang", icon: "📈", cat: "Kewangan" },
+  { id: "fpx-transactions", title: "Transaksi FPX Harian", desc: "Transaksi pembayaran FPX harian — volume dan nilai", icon: "💳", cat: "Kewangan" },
+  { id: "jompay-transactions", title: "Transaksi JomPAY Harian", desc: "Transaksi pembayaran bil JomPAY harian", icon: "📄", cat: "Kewangan" },
+  { id: "payment-instruments", title: "Penggunaan Instrumen Bayaran", desc: "Penggunaan kad kredit/debit, e-wallet dan instrumen pembayaran lain", icon: "🏦", cat: "Kewangan" },
+  { id: "monetary-aggregates", title: "Agregat Monetari (M1/M2/M3)", desc: "Bekalan wang Malaysia — M1, M2, M3 dari BNM", icon: "💰", cat: "Kewangan" },
+  { id: "interest-rates", title: "Kadar Faedah Bulanan", desc: "Kadar dasar dan kadar faedah pasaran dari BNM, 1997-2024", icon: "📊", cat: "Kewangan" },
+  { id: "gdp-quarterly-real", title: "KDNK Suku Tahun (Nyata)", desc: "KDNK benar Malaysia ikut suku tahun, series diselaras dan asal", icon: "📈", cat: "Ekonomi" },
+  { id: "gdp-quarterly-nominal", title: "KDNK Suku Tahun (Nominal)", desc: "KDNK nominal Malaysia ikut suku tahun", icon: "📈", cat: "Ekonomi" },
+  { id: "gdp-annual-nominal", title: "KDNK & KNK Tahunan (Nominal)", desc: "KDNK dan KNK nominal tahunan Malaysia, 1947-2025", icon: "📊", cat: "Ekonomi" },
+  { id: "gdp-annual-real", title: "KDNK & KNK Tahunan (Nyata)", desc: "KDNK dan KNK benar tahunan, 1970-2025", icon: "📊", cat: "Ekonomi" },
+  { id: "trade-sitc", title: "Perdagangan Mengikut SITC", desc: "Eksport dan import Malaysia mengikut sektor SITC, 2000-2026", icon: "🚢", cat: "Ekonomi" },
+  { id: "ipi", title: "Indeks Pengeluaran Perindustrian", desc: "IPI Malaysia mengikut sektor, 2015-2024", icon: "🏭", cat: "Ekonomi" },
+  { id: "wholesale-retail-trade", title: "Perdagangan Borong & Runcit", desc: "Indeks perolehan borong, runcit dan kenderaan", icon: "🛒", cat: "Ekonomi" },
+  { id: "population-malaysia", title: "Populasi Malaysia", desc: "Populasi Malaysia mengikut jantina, etnik dan umur, 1970-2025", icon: "👨‍👩‍👧‍👦", cat: "Demografi" },
+  { id: "population-state", title: "Populasi Mengikut Negeri", desc: "Populasi setiap negeri mengikut demografi terperinci", icon: "🗺️", cat: "Demografi" },
+  { id: "births", title: "Kelahiran Tahunan", desc: "Jumlah kelahiran hidup di Malaysia, 2000-2023", icon: "👶", cat: "Demografi" },
+  { id: "fertility", title: "Kesuburan (TFR/ASFR)", desc: "Kadar kesuburan jumlah dan mengikut umur, 1958-2023", icon: "🤱", cat: "Demografi" },
+  { id: "marriages", title: "Perkahwinan", desc: "Jumlah perkahwinan di Malaysia, 2017-2022", icon: "💍", cat: "Demografi" },
+  { id: "income-data", title: "Pendapatan Isi Rumah", desc: "Pendapatan isi rumah dan guna tenaga mengikut negeri (DOSM)", icon: "💵", cat: "Isi Rumah" },
+  { id: "poverty-state", title: "Kemiskinan Mengikut Negeri", desc: "Kadar kemiskinan dan populasi miskin setiap negeri, 1970-2022", icon: "📉", cat: "Isi Rumah" },
+  { id: "inequality-state", title: "Ketaksamaan Pendapatan", desc: "Gini coefficient dan ketaksamaan pendapatan mengikut negeri", icon: "⚖️", cat: "Isi Rumah" },
+  { id: "household-profile", title: "Profil Isi Rumah", desc: "Bilangan isi rumah dan tempat kediaman, 1970-2024", icon: "🏠", cat: "Isi Rumah" },
+  { id: "crime-district", title: "Jenayah Mengikut Daerah", desc: "Kes jenayah mengikut daerah dan jenis, 2016-2023", icon: "🚔", cat: "Keselamatan" },
+  { id: "drug-arrests", title: "Tangkapan Dadah", desc: "Tangkapan dadah mengikut umur dan jantina", icon: "🚫", cat: "Keselamatan" },
+  { id: "prisoners", title: "Banduan Penjara", desc: "Banduan mengikut negeri dan jantina", icon: "⛓️", cat: "Keselamatan" },
+  { id: "harga-makanan", title: "Harga Makanan (PriceCatcher)", desc: "Harga runcit barangan asas dari KPDN PriceCatcher — dikemaskini setiap build", icon: "🛒", cat: "Harga" },
+  { id: "cpi", title: "CPI / Inflasi", desc: "Indeks Harga Pengguna Malaysia mengikut kategori", icon: "📊", cat: "Harga" },
+  { id: "vehicle-fuel-registrations", title: "Pendaftaran Kenderaan", desc: "Pendaftaran kenderaan baru mengikut jenis dan bahan api, 2000-2026", icon: "🚗", cat: "Pengangkutan" },
+  { id: "electricity-consumption", title: "Penggunaan Elektrik", desc: "Penggunaan elektrik mengikut sektor, 2018-2024", icon: "⚡", cat: "Tenaga" },
+  { id: "federal-finance", title: "Kewangan Kerajaan Persekutuan", desc: "Hasil, perbelanjaan mengurus dan pembangunan kerajaan, 1970-2022", icon: "🏛️", cat: "Kerajaan" },
+  { id: "budget-education", title: "Belanjawan Pendidikan", desc: "Peruntukan belanjawan tahunan Kementerian Pendidikan, 2015-2024", icon: "📚", cat: "Kerajaan" },
+  { id: "budget-health", title: "Belanjawan Kesihatan", desc: "Peruntukan belanjawan tahunan Kementerian Kesihatan, 2015-2024", icon: "🏥", cat: "Kerajaan" },
+  { id: "government-apps", title: "Aplikasi Kerajaan", desc: "Aplikasi mudah alih kerajaan yang aktif, 2015-2026", icon: "📱", cat: "Kerajaan" },
+  { id: "hospital-beds", title: "Katil Hospital", desc: "Kapasiti katil hospital mengikut negeri dan jenis hospital", icon: "🏥", cat: "Kesihatan" },
+  { id: "blood-donations", title: "Derma Darah", desc: "Derma darah harian mengikut kumpulan darah, 2006-2024", icon: "🩸", cat: "Kesihatan" },
+  { id: "infant-immunisation", title: "Imunisasi Bayi", desc: "Liputan imunisasi bayi di Malaysia, 2000-2023", icon: "💉", cat: "Kesihatan" },
+  { id: "schools-district", title: "Sekolah Mengikut Daerah", desc: "Institusi pendidikan awam mengikut daerah, 2017-2022", icon: "🏫", cat: "Pendidikan" },
+  { id: "forest-reserves", title: "Hutan Simpan Kekal", desc: "Keluasan hutan simpan kekal mengikut negeri", icon: "🌲", cat: "Alam Sekitar" },
+  { id: "water-consumption", title: "Penggunaan Air", desc: "Penggunaan air mengikut negeri dan sektor", icon: "💧", cat: "Alam Sekitar" },
+];
+
+const categories = [...new Set(datasets.map(d => d.cat))];
+const counts = {};
+for (const d of datasets) counts[d.cat] = (counts[d.cat] || 0) + 1;
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 py-8 md:py-12">
+    <div class="flex items-center gap-2 text-xs text-muted/60 mb-1">
+      <a href="/" class="hover:text-primary">Laman Utama</a> <span>/</span>
+      <span>API Data Terbuka</span>
+    </div>
+
+    <h1 class="text-2xl sm:text-4xl font-bold tracking-tight mb-2">🌐 RakyatHub Open Data API</h1>
+    <p class="text-sm text-muted/80 max-w-3xl mb-1">
+      Data terbuka kerajaan Malaysia daripada <strong>data.gov.my</strong>, DOSM, BNM, JPJ, KPDN, MOH, PDRM dan agensi-agensi lain. 
+      Semua data adalah <strong>percuma</strong> dan <strong>tiada API key</strong> diperlukan. Dikemaskini setiap kali build.
+    </p>
+    <p class="text-xs text-muted/60 mb-8">
+      Sumber: <a href="https://api.data.gov.my" class="underline hover:text-primary" target="_blank">data.gov.my</a> 
+      &middot; Lesen: CC BY 4.0 &middot; 
+      <span id="dataset-count">{datasets.length}</span> dataset &middot; 
+      <span id="cat-count">{categories.length}</span> kategori
+    </p>
+
+    <!-- API Usage Guide -->
+    <div class="rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-950/20 dark:to-indigo-950/20 border border-blue-100 dark:border-blue-800/20 p-5 md:p-6 mb-8">
+      <h2 class="font-bold text-base mb-3">📖 Cara Guna API</h2>
+      <div class="grid sm:grid-cols-2 gap-4 text-sm">
+        <div>
+          <p class="font-semibold mb-1">JSON endpoint:</p>
+          <code class="block bg-white/60 dark:bg-slate-900/60 rounded-lg px-3 py-2 text-xs font-mono break-all">
+            GET https://rakyathub.my/api/&#123;dataset-name&#125;.json
+          </code>
+        </div>
+        <div>
+          <p class="font-semibold mb-1">Senarai semua dataset:</p>
+          <code class="block bg-white/60 dark:bg-slate-900/60 rounded-lg px-3 py-2 text-xs font-mono break-all">
+            GET https://rakyathub.my/api/index.json
+          </code>
+        </div>
+      </div>
+      <div class="mt-3 text-xs text-muted/70">
+        <p>💡 Contoh: <code class="bg-white/40 dark:bg-slate-900/40 px-1.5 py-0.5 rounded text-xs font-mono">curl https://rakyathub.my/api/epf-dividend.json</code></p>
+        <p class="mt-1">📌 Semua data adalah JSON array (senarai rekod) dengan format yang sama seperti API asal data.gov.my.</p>
+      </div>
+    </div>
+
+    <!-- Category Tabs -->
+    <div class="flex flex-wrap gap-2 mb-6" id="cat-tabs">
+      <button type="button" class="cat-filter active px-3 py-1.5 rounded-full text-xs font-semibold bg-primary text-white" data-cat="all">Semua ({datasets.length})</button>
+      {categories.map(cat => (
+        <button type="button" class="cat-filter px-3 py-1.5 rounded-full text-xs font-semibold bg-gray-100 dark:bg-slate-800 text-muted/80 hover:bg-gray-200 dark:hover:bg-slate-700 transition" data-cat={cat}>{cat} ({counts[cat]})</button>
+      ))}
+    </div>
+
+    <!-- Dataset Cards -->
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3" id="dataset-grid">
+      {datasets.map(d => (
+        <a href={`/api/${d.id}.json`} target="_blank" class="dataset-card group rounded-xl bg-white dark:bg-slate-900/50 border border-gray-100 dark:border-slate-700/30 p-4 hover:border-primary/40 hover:shadow-md transition-all" data-cat={d.cat}>
+          <div class="flex items-start gap-3">
+            <span class="text-2xl shrink-0 mt-0.5">{d.icon}</span>
+            <div class="min-w-0">
+              <div class="flex items-center gap-1.5 mb-0.5">
+                <span class="text-[10px] font-semibold text-primary/70 uppercase tracking-wider">{d.cat}</span>
+              </div>
+              <h3 class="font-semibold text-sm leading-tight group-hover:text-primary transition-colors">{d.title}</h3>
+              <p class="text-xs text-muted/70 mt-1 line-clamp-2">{d.desc}</p>
+              <div class="flex items-center gap-2 mt-2">
+                <code class="text-[10px] font-mono bg-gray-100 dark:bg-slate-800 px-1.5 py-0.5 rounded text-muted/60">{d.id}</code>
+                <span class="text-[10px] text-primary/60">↗ JSON</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <!-- Data Sources -->
+    <div class="mt-10 rounded-2xl bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-950/20 dark:to-emerald-950/20 border border-green-100 dark:border-green-800/20 p-5 md:p-6">
+      <h2 class="font-bold text-base mb-3">📡 Sumber Data</h2>
+      <div class="grid sm:grid-cols-3 gap-3 text-sm">
+        <div class="bg-white/60 dark:bg-slate-900/40 rounded-xl p-3">
+          <p class="font-semibold text-xs">🏛️ DOSM (OpenDOSM)</p>
+          <p class="text-xs text-muted/70 mt-1">GDP, CPI, trade, IPI, HIES, LFS, populasi — via api.data.gov.my/opendosm</p>
+        </div>
+        <div class="bg-white/60 dark:bg-slate-900/40 rounded-xl p-3">
+          <p class="font-semibold text-xs">🏦 BNM / PayNet / EPF</p>
+          <p class="text-xs text-muted/70 mt-1">Kadar pertukaran, dividen KWSP, agregat monetari, transaksi FPX — via data-catalogue</p>
+        </div>
+        <div class="bg-white/60 dark:bg-slate-900/40 rounded-xl p-3">
+          <p class="font-semibold text-xs">👮 JPJ / PDRM / MOH / MOE</p>
+          <p class="text-xs text-muted/70 mt-1">Pendaftaran kenderaan, jenayah, kesihatan, pendidikan — pelbagai agensi</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  // Category filter
+  document.querySelectorAll('.cat-filter').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const cat = btn.dataset.cat;
+      document.querySelectorAll('.cat-filter').forEach(b => {
+        b.className = b.className.replace(/bg-primary text-white/, 'bg-gray-100 dark:bg-slate-800 text-muted/80 hover:bg-gray-200 dark:hover:bg-slate-700');
+      });
+      btn.className = btn.className.replace(/bg-gray-100 dark:bg-slate-800 text-muted\/80/, 'bg-primary text-white');
+      
+      document.querySelectorAll('.dataset-card').forEach(card => {
+        card.style.display = (cat === 'all' || card.dataset.cat === cat) ? '' : 'none';
+      });
+    });
+  });
+</script>

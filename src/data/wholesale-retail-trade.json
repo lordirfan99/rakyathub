@@ -1,0 +1,2011 @@
+[
+  {
+    "date": "2018-01-01",
+    "sales": 101059.462,
+    "series": "abs",
+    "volume": 118.117,
+    "volume_sa": 117.249
+  },
+  {
+    "date": "2018-02-01",
+    "sales": 97152.225,
+    "series": "abs",
+    "volume": 114.032,
+    "volume_sa": 117.775
+  },
+  {
+    "date": "2018-03-01",
+    "sales": 103777.25,
+    "series": "abs",
+    "volume": 121.689,
+    "volume_sa": 117.75
+  },
+  {
+    "date": "2018-04-01",
+    "sales": 99769.545,
+    "series": "abs",
+    "volume": 115.489,
+    "volume_sa": 119.255
+  },
+  {
+    "date": "2018-05-01",
+    "sales": 103705.123,
+    "series": "abs",
+    "volume": 120.131,
+    "volume_sa": 120.384
+  },
+  {
+    "date": "2018-06-01",
+    "sales": 106130.865,
+    "series": "abs",
+    "volume": 125.571,
+    "volume_sa": 123.258
+  },
+  {
+    "date": "2018-07-01",
+    "sales": 106450.962,
+    "series": "abs",
+    "volume": 125.001,
+    "volume_sa": 124.798
+  },
+  {
+    "date": "2018-08-01",
+    "sales": 107865.59,
+    "series": "abs",
+    "volume": 125.862,
+    "volume_sa": 126.815
+  },
+  {
+    "date": "2018-09-01",
+    "sales": 104716.819,
+    "series": "abs",
+    "volume": 122.634,
+    "volume_sa": 122.181
+  },
+  {
+    "date": "2018-10-01",
+    "sales": 106017.669,
+    "series": "abs",
+    "volume": 125.532,
+    "volume_sa": 124.84
+  },
+  {
+    "date": "2018-11-01",
+    "sales": 106190.454,
+    "series": "abs",
+    "volume": 124.503,
+    "volume_sa": 125.784
+  },
+  {
+    "date": "2018-12-01",
+    "sales": 109309.196,
+    "series": "abs",
+    "volume": 127.073,
+    "volume_sa": 125.415
+  },
+  {
+    "date": "2019-01-01",
+    "sales": 108943.917,
+    "series": "abs",
+    "volume": 127.431,
+    "volume_sa": 126.651
+  },
+  {
+    "date": "2019-02-01",
+    "sales": 103482.327,
+    "series": "abs",
+    "volume": 121.333,
+    "volume_sa": 125.89
+  },
+  {
+    "date": "2019-03-01",
+    "sales": 109437.571,
+    "series": "abs",
+    "volume": 127.824,
+    "volume_sa": 124.216
+  },
+  {
+    "date": "2019-04-01",
+    "sales": 105373.259,
+    "series": "abs",
+    "volume": 121.523,
+    "volume_sa": 126.336
+  },
+  {
+    "date": "2019-05-01",
+    "sales": 110797.421,
+    "series": "abs",
+    "volume": 128.121,
+    "volume_sa": 128.412
+  },
+  {
+    "date": "2019-06-01",
+    "sales": 112340.664,
+    "series": "abs",
+    "volume": 133.661,
+    "volume_sa": 130.51
+  },
+  {
+    "date": "2019-07-01",
+    "sales": 112540.232,
+    "series": "abs",
+    "volume": 132.864,
+    "volume_sa": 131.662
+  },
+  {
+    "date": "2019-08-01",
+    "sales": 114068.76,
+    "series": "abs",
+    "volume": 133.227,
+    "volume_sa": 132.827
+  },
+  {
+    "date": "2019-09-01",
+    "sales": 110621.307,
+    "series": "abs",
+    "volume": 129.957,
+    "volume_sa": 130.685
+  },
+  {
+    "date": "2019-10-01",
+    "sales": 111317.644,
+    "series": "abs",
+    "volume": 132.116,
+    "volume_sa": 131.294
+  },
+  {
+    "date": "2019-11-01",
+    "sales": 111697.846,
+    "series": "abs",
+    "volume": 131.566,
+    "volume_sa": 132.594
+  },
+  {
+    "date": "2019-12-01",
+    "sales": 115825.006,
+    "series": "abs",
+    "volume": 134.739,
+    "volume_sa": 133.067
+  },
+  {
+    "date": "2020-01-01",
+    "sales": 114776.278,
+    "series": "abs",
+    "volume": 134.4,
+    "volume_sa": 130.15
+  },
+  {
+    "date": "2020-02-01",
+    "sales": 108972.505,
+    "series": "abs",
+    "volume": 127.937,
+    "volume_sa": 133.668
+  },
+  {
+    "date": "2020-03-01",
+    "sales": 103182.074,
+    "series": "abs",
+    "volume": 120.052,
+    "volume_sa": 120.422
+  },
+  {
+    "date": "2020-04-01",
+    "sales": 66851.887,
+    "series": "abs",
+    "volume": 74.615,
+    "volume_sa": 79.404
+  },
+  {
+    "date": "2020-05-01",
+    "sales": 84440.371,
+    "series": "abs",
+    "volume": 97.211,
+    "volume_sa": 100.972
+  },
+  {
+    "date": "2020-06-01",
+    "sales": 102869.378,
+    "series": "abs",
+    "volume": 121.721,
+    "volume_sa": 121.063
+  },
+  {
+    "date": "2020-07-01",
+    "sales": 108652.893,
+    "series": "abs",
+    "volume": 127.745,
+    "volume_sa": 126.963
+  },
+  {
+    "date": "2020-08-01",
+    "sales": 111420.748,
+    "series": "abs",
+    "volume": 129.906,
+    "volume_sa": 129.171
+  },
+  {
+    "date": "2020-09-01",
+    "sales": 110992.081,
+    "series": "abs",
+    "volume": 130.555,
+    "volume_sa": 129.254
+  },
+  {
+    "date": "2020-10-01",
+    "sales": 110452.811,
+    "series": "abs",
+    "volume": 130.239,
+    "volume_sa": 126.758
+  },
+  {
+    "date": "2020-11-01",
+    "sales": 110395.235,
+    "series": "abs",
+    "volume": 129.668,
+    "volume_sa": 127.186
+  },
+  {
+    "date": "2020-12-01",
+    "sales": 116408.801,
+    "series": "abs",
+    "volume": 135.101,
+    "volume_sa": 129.244
+  },
+  {
+    "date": "2021-01-01",
+    "sales": 111845.709,
+    "series": "abs",
+    "volume": 131.209,
+    "volume_sa": 126.346
+  },
+  {
+    "date": "2021-02-01",
+    "sales": 108009.129,
+    "series": "abs",
+    "volume": 126.884,
+    "volume_sa": 132.28
+  },
+  {
+    "date": "2021-03-01",
+    "sales": 112734.46,
+    "series": "abs",
+    "volume": 130.684,
+    "volume_sa": 130.749
+  },
+  {
+    "date": "2021-04-01",
+    "sales": 111094.831,
+    "series": "abs",
+    "volume": 127.848,
+    "volume_sa": 135.672
+  },
+  {
+    "date": "2021-05-01",
+    "sales": 108241.362,
+    "series": "abs",
+    "volume": 123.65,
+    "volume_sa": 128.848
+  },
+  {
+    "date": "2021-06-01",
+    "sales": 92226.658,
+    "series": "abs",
+    "volume": 106.284,
+    "volume_sa": 106.237
+  },
+  {
+    "date": "2021-07-01",
+    "sales": 92678.686,
+    "series": "abs",
+    "volume": 106.595,
+    "volume_sa": 106.387
+  },
+  {
+    "date": "2021-08-01",
+    "sales": 100050.61,
+    "series": "abs",
+    "volume": 114.591,
+    "volume_sa": 114.943
+  },
+  {
+    "date": "2021-09-01",
+    "sales": 108113.689,
+    "series": "abs",
+    "volume": 123.268,
+    "volume_sa": 121.521
+  },
+  {
+    "date": "2021-10-01",
+    "sales": 116233.532,
+    "series": "abs",
+    "volume": 131.998,
+    "volume_sa": 127.568
+  },
+  {
+    "date": "2021-11-01",
+    "sales": 117559.834,
+    "series": "abs",
+    "volume": 132.83,
+    "volume_sa": 129.528
+  },
+  {
+    "date": "2021-12-01",
+    "sales": 120635.343,
+    "series": "abs",
+    "volume": 136.229,
+    "volume_sa": 129.719
+  },
+  {
+    "date": "2022-01-01",
+    "sales": 120184.635,
+    "series": "abs",
+    "volume": 135.628,
+    "volume_sa": 131.349
+  },
+  {
+    "date": "2022-02-01",
+    "sales": 117089.911,
+    "series": "abs",
+    "volume": 131.503,
+    "volume_sa": 135.98
+  },
+  {
+    "date": "2022-03-01",
+    "sales": 123773.353,
+    "series": "abs",
+    "volume": 136.874,
+    "volume_sa": 136.158
+  },
+  {
+    "date": "2022-04-01",
+    "sales": 127983.599,
+    "series": "abs",
+    "volume": 140.638,
+    "volume_sa": 151.506
+  },
+  {
+    "date": "2022-05-01",
+    "sales": 129503.813,
+    "series": "abs",
+    "volume": 141.809,
+    "volume_sa": 145.6
+  },
+  {
+    "date": "2022-06-01",
+    "sales": 132794.976,
+    "series": "abs",
+    "volume": 144.284,
+    "volume_sa": 144.436
+  },
+  {
+    "date": "2022-07-01",
+    "sales": 130393.181,
+    "series": "abs",
+    "volume": 142.189,
+    "volume_sa": 144.511
+  },
+  {
+    "date": "2022-08-01",
+    "sales": 133625.727,
+    "series": "abs",
+    "volume": 145.452,
+    "volume_sa": 145.006
+  },
+  {
+    "date": "2022-09-01",
+    "sales": 134015.12,
+    "series": "abs",
+    "volume": 146.048,
+    "volume_sa": 144.956
+  },
+  {
+    "date": "2022-10-01",
+    "sales": 133596.163,
+    "series": "abs",
+    "volume": 145.653,
+    "volume_sa": 141.839
+  },
+  {
+    "date": "2022-11-01",
+    "sales": 134263.833,
+    "series": "abs",
+    "volume": 145.913,
+    "volume_sa": 142.574
+  },
+  {
+    "date": "2022-12-01",
+    "sales": 137293.664,
+    "series": "abs",
+    "volume": 149.2,
+    "volume_sa": 142.198
+  },
+  {
+    "date": "2023-01-01",
+    "sales": 135130.133,
+    "series": "abs",
+    "volume": 147.13,
+    "volume_sa": 142.768
+  },
+  {
+    "date": "2023-02-01",
+    "sales": 133792.018,
+    "series": "abs",
+    "volume": 145.44,
+    "volume_sa": 147.411
+  },
+  {
+    "date": "2023-03-01",
+    "sales": 138497.306,
+    "series": "abs",
+    "volume": 149.761,
+    "volume_sa": 151.496
+  },
+  {
+    "date": "2023-04-01",
+    "sales": 135987.541,
+    "series": "abs",
+    "volume": 147.315,
+    "volume_sa": 149.004
+  },
+  {
+    "date": "2023-05-01",
+    "sales": 137996.067,
+    "series": "abs",
+    "volume": 148.315,
+    "volume_sa": 150.344
+  },
+  {
+    "date": "2023-06-01",
+    "sales": 138464.939,
+    "series": "abs",
+    "volume": 148.796,
+    "volume_sa": 154.545
+  },
+  {
+    "date": "2023-07-01",
+    "sales": 139692.409,
+    "series": "abs",
+    "volume": 149.904,
+    "volume_sa": 156.364
+  },
+  {
+    "date": "2023-08-01",
+    "sales": 142525.597,
+    "series": "abs",
+    "volume": 152.797,
+    "volume_sa": 154.328
+  },
+  {
+    "date": "2023-09-01",
+    "sales": 142718.61,
+    "series": "abs",
+    "volume": 152.692,
+    "volume_sa": 151.869
+  },
+  {
+    "date": "2023-10-01",
+    "sales": 142281.839,
+    "series": "abs",
+    "volume": 152.196,
+    "volume_sa": 149.569
+  },
+  {
+    "date": "2023-11-01",
+    "sales": 142581.672,
+    "series": "abs",
+    "volume": 152.712,
+    "volume_sa": 149.839
+  },
+  {
+    "date": "2023-12-01",
+    "sales": 143938.553,
+    "series": "abs",
+    "volume": 154.274,
+    "volume_sa": 148.689
+  },
+  {
+    "date": "2024-01-01",
+    "sales": 142407.447,
+    "series": "abs",
+    "volume": 152.322,
+    "volume_sa": 151.869
+  },
+  {
+    "date": "2024-02-01",
+    "sales": 141105.405,
+    "series": "abs",
+    "volume": 151.161,
+    "volume_sa": 154.164
+  },
+  {
+    "date": "2024-03-01",
+    "sales": 145722.829,
+    "series": "abs",
+    "volume": 155.058,
+    "volume_sa": 153.477
+  },
+  {
+    "date": "2024-04-01",
+    "sales": 144896.533,
+    "series": "abs",
+    "volume": 153.956,
+    "volume_sa": 152.226
+  },
+  {
+    "date": "2024-05-01",
+    "sales": 147850.211,
+    "series": "abs",
+    "volume": 156.802,
+    "volume_sa": 158.416
+  },
+  {
+    "date": "2024-06-01",
+    "sales": 145995.126,
+    "series": "abs",
+    "volume": 155.507,
+    "volume_sa": 157.182
+  },
+  {
+    "date": "2024-07-01",
+    "sales": 149031.123,
+    "series": "abs",
+    "volume": 158.153,
+    "volume_sa": 161.3
+  },
+  {
+    "date": "2024-08-01",
+    "sales": 149224.274,
+    "series": "abs",
+    "volume": 158.572,
+    "volume_sa": 160.845
+  },
+  {
+    "date": "2024-09-01",
+    "sales": 148180.946,
+    "series": "abs",
+    "volume": 158.035,
+    "volume_sa": 158.867
+  },
+  {
+    "date": "2024-10-01",
+    "sales": 150117.995,
+    "series": "abs",
+    "volume": 159.915,
+    "volume_sa": 158.772
+  },
+  {
+    "date": "2024-11-01",
+    "sales": 149332.359,
+    "series": "abs",
+    "volume": 158.668,
+    "volume_sa": 156.366
+  },
+  {
+    "date": "2024-12-01",
+    "sales": 152171.534,
+    "series": "abs",
+    "volume": 160.994,
+    "volume_sa": 156.862
+  },
+  {
+    "date": "2025-01-01",
+    "sales": 148909.775,
+    "series": "abs",
+    "volume": 158.111,
+    "volume_sa": 158.111
+  },
+  {
+    "date": "2025-02-01",
+    "sales": 148495.725,
+    "series": "abs",
+    "volume": 157.259,
+    "volume_sa": 157.259
+  },
+  {
+    "date": "2025-03-01",
+    "sales": 153982.12,
+    "series": "abs",
+    "volume": 162.803,
+    "volume_sa": 162.803
+  },
+  {
+    "date": "2025-04-01",
+    "sales": 151706.211,
+    "series": "abs",
+    "volume": 160.626,
+    "volume_sa": 160.626
+  },
+  {
+    "date": "2025-05-01",
+    "sales": 154341.395,
+    "series": "abs",
+    "volume": 163.436,
+    "volume_sa": 163.436
+  },
+  {
+    "date": "2025-06-01",
+    "sales": 152969.012,
+    "series": "abs",
+    "volume": 162.351,
+    "volume_sa": 162.351
+  },
+  {
+    "date": "2025-07-01",
+    "sales": 156429.912,
+    "series": "abs",
+    "volume": 165.383,
+    "volume_sa": 165.383
+  },
+  {
+    "date": "2025-08-01",
+    "sales": 156587.679,
+    "series": "abs",
+    "volume": 165.453,
+    "volume_sa": 165.453
+  },
+  {
+    "date": "2025-09-01",
+    "sales": 158010.775,
+    "series": "abs",
+    "volume": 166.534,
+    "volume_sa": 166.534
+  },
+  {
+    "date": "2025-10-01",
+    "sales": 160910.144,
+    "series": "abs",
+    "volume": 169.07,
+    "volume_sa": 169.07
+  },
+  {
+    "date": "2025-11-01",
+    "sales": 158949.632,
+    "series": "abs",
+    "volume": 166.989,
+    "volume_sa": 167.041
+  },
+  {
+    "date": "2025-12-01",
+    "sales": 163719.18,
+    "series": "abs",
+    "volume": 171.326,
+    "volume_sa": 171.326
+  },
+  {
+    "date": "2026-01-01",
+    "sales": 159769.819,
+    "series": "abs",
+    "volume": 167.292,
+    "volume_sa": 167.313
+  },
+  {
+    "date": "2026-02-01",
+    "sales": 156294.423,
+    "series": "abs",
+    "volume": 164.238,
+    "volume_sa": 164.238
+  },
+  {
+    "date": "2026-03-01",
+    "sales": 169016.911,
+    "series": "abs",
+    "volume": 169.976,
+    "volume_sa": 169.976
+  },
+  {
+    "date": "2026-04-01",
+    "sales": 174849.673,
+    "series": "abs",
+    "volume": 170.65,
+    "volume_sa": 170.65
+  },
+  {
+    "date": "2019-01-01",
+    "sales": 7.802,
+    "series": "growth_yoy",
+    "volume": 7.886,
+    "volume_sa": 8.019
+  },
+  {
+    "date": "2019-02-01",
+    "sales": 6.516,
+    "series": "growth_yoy",
+    "volume": 6.402,
+    "volume_sa": 6.89
+  },
+  {
+    "date": "2019-03-01",
+    "sales": 5.454,
+    "series": "growth_yoy",
+    "volume": 5.042,
+    "volume_sa": 5.491
+  },
+  {
+    "date": "2019-04-01",
+    "sales": 5.617,
+    "series": "growth_yoy",
+    "volume": 5.225,
+    "volume_sa": 5.938
+  },
+  {
+    "date": "2019-05-01",
+    "sales": 6.839,
+    "series": "growth_yoy",
+    "volume": 6.651,
+    "volume_sa": 6.669
+  },
+  {
+    "date": "2019-06-01",
+    "sales": 5.851,
+    "series": "growth_yoy",
+    "volume": 6.443,
+    "volume_sa": 5.884
+  },
+  {
+    "date": "2019-07-01",
+    "sales": 5.72,
+    "series": "growth_yoy",
+    "volume": 6.29,
+    "volume_sa": 5.5
+  },
+  {
+    "date": "2019-08-01",
+    "sales": 5.751,
+    "series": "growth_yoy",
+    "volume": 5.851,
+    "volume_sa": 4.741
+  },
+  {
+    "date": "2019-09-01",
+    "sales": 5.639,
+    "series": "growth_yoy",
+    "volume": 5.971,
+    "volume_sa": 6.96
+  },
+  {
+    "date": "2019-10-01",
+    "sales": 4.999,
+    "series": "growth_yoy",
+    "volume": 5.245,
+    "volume_sa": 5.17
+  },
+  {
+    "date": "2019-11-01",
+    "sales": 5.186,
+    "series": "growth_yoy",
+    "volume": 5.673,
+    "volume_sa": 5.414
+  },
+  {
+    "date": "2019-12-01",
+    "sales": 5.961,
+    "series": "growth_yoy",
+    "volume": 6.033,
+    "volume_sa": 6.101
+  },
+  {
+    "date": "2020-01-01",
+    "sales": 5.354,
+    "series": "growth_yoy",
+    "volume": 5.469,
+    "volume_sa": 2.763
+  },
+  {
+    "date": "2020-02-01",
+    "sales": 5.305,
+    "series": "growth_yoy",
+    "volume": 5.443,
+    "volume_sa": 6.178
+  },
+  {
+    "date": "2020-03-01",
+    "sales": -5.716,
+    "series": "growth_yoy",
+    "volume": -6.08,
+    "volume_sa": -3.054
+  },
+  {
+    "date": "2020-04-01",
+    "sales": -36.557,
+    "series": "growth_yoy",
+    "volume": -38.601,
+    "volume_sa": -37.149
+  },
+  {
+    "date": "2020-05-01",
+    "sales": -23.789,
+    "series": "growth_yoy",
+    "volume": -24.125,
+    "volume_sa": -21.369
+  },
+  {
+    "date": "2020-06-01",
+    "sales": -8.431,
+    "series": "growth_yoy",
+    "volume": -8.933,
+    "volume_sa": -7.239
+  },
+  {
+    "date": "2020-07-01",
+    "sales": -3.454,
+    "series": "growth_yoy",
+    "volume": -3.853,
+    "volume_sa": -3.569
+  },
+  {
+    "date": "2020-08-01",
+    "sales": -2.321,
+    "series": "growth_yoy",
+    "volume": -2.493,
+    "volume_sa": -2.752
+  },
+  {
+    "date": "2020-09-01",
+    "sales": 0.335,
+    "series": "growth_yoy",
+    "volume": 0.461,
+    "volume_sa": -1.095
+  },
+  {
+    "date": "2020-10-01",
+    "sales": -0.777,
+    "series": "growth_yoy",
+    "volume": -1.421,
+    "volume_sa": -3.455
+  },
+  {
+    "date": "2020-11-01",
+    "sales": -1.166,
+    "series": "growth_yoy",
+    "volume": -1.443,
+    "volume_sa": -4.079
+  },
+  {
+    "date": "2020-12-01",
+    "sales": 0.504,
+    "series": "growth_yoy",
+    "volume": 0.268,
+    "volume_sa": -2.873
+  },
+  {
+    "date": "2021-01-01",
+    "sales": -2.553,
+    "series": "growth_yoy",
+    "volume": -2.374,
+    "volume_sa": -2.923
+  },
+  {
+    "date": "2021-02-01",
+    "sales": -0.884,
+    "series": "growth_yoy",
+    "volume": -0.823,
+    "volume_sa": -1.038
+  },
+  {
+    "date": "2021-03-01",
+    "sales": 9.258,
+    "series": "growth_yoy",
+    "volume": 8.856,
+    "volume_sa": 8.576
+  },
+  {
+    "date": "2021-04-01",
+    "sales": 66.181,
+    "series": "growth_yoy",
+    "volume": 71.345,
+    "volume_sa": 70.863
+  },
+  {
+    "date": "2021-05-01",
+    "sales": 28.187,
+    "series": "growth_yoy",
+    "volume": 27.197,
+    "volume_sa": 27.608
+  },
+  {
+    "date": "2021-06-01",
+    "sales": -10.346,
+    "series": "growth_yoy",
+    "volume": -12.682,
+    "volume_sa": -12.247
+  },
+  {
+    "date": "2021-07-01",
+    "sales": -14.702,
+    "series": "growth_yoy",
+    "volume": -16.556,
+    "volume_sa": -16.206
+  },
+  {
+    "date": "2021-08-01",
+    "sales": -10.205,
+    "series": "growth_yoy",
+    "volume": -11.789,
+    "volume_sa": -11.015
+  },
+  {
+    "date": "2021-09-01",
+    "sales": -2.593,
+    "series": "growth_yoy",
+    "volume": -5.582,
+    "volume_sa": -5.983
+  },
+  {
+    "date": "2021-10-01",
+    "sales": 5.234,
+    "series": "growth_yoy",
+    "volume": 1.35,
+    "volume_sa": 0.639
+  },
+  {
+    "date": "2021-11-01",
+    "sales": 6.49,
+    "series": "growth_yoy",
+    "volume": 2.439,
+    "volume_sa": 1.841
+  },
+  {
+    "date": "2021-12-01",
+    "sales": 3.631,
+    "series": "growth_yoy",
+    "volume": 0.836,
+    "volume_sa": 0.368
+  },
+  {
+    "date": "2022-01-01",
+    "sales": 7.456,
+    "series": "growth_yoy",
+    "volume": 3.368,
+    "volume_sa": 3.96
+  },
+  {
+    "date": "2022-02-01",
+    "sales": 8.407,
+    "series": "growth_yoy",
+    "volume": 3.64,
+    "volume_sa": 2.797
+  },
+  {
+    "date": "2022-03-01",
+    "sales": 9.792,
+    "series": "growth_yoy",
+    "volume": 4.736,
+    "volume_sa": 4.137
+  },
+  {
+    "date": "2022-04-01",
+    "sales": 15.202,
+    "series": "growth_yoy",
+    "volume": 10.004,
+    "volume_sa": 11.671
+  },
+  {
+    "date": "2022-05-01",
+    "sales": 19.644,
+    "series": "growth_yoy",
+    "volume": 14.686,
+    "volume_sa": 13.001
+  },
+  {
+    "date": "2022-06-01",
+    "sales": 43.988,
+    "series": "growth_yoy",
+    "volume": 35.753,
+    "volume_sa": 35.956
+  },
+  {
+    "date": "2022-07-01",
+    "sales": 40.694,
+    "series": "growth_yoy",
+    "volume": 33.391,
+    "volume_sa": 35.835
+  },
+  {
+    "date": "2022-08-01",
+    "sales": 33.558,
+    "series": "growth_yoy",
+    "volume": 26.932,
+    "volume_sa": 26.155
+  },
+  {
+    "date": "2022-09-01",
+    "sales": 23.958,
+    "series": "growth_yoy",
+    "volume": 18.48,
+    "volume_sa": 19.285
+  },
+  {
+    "date": "2022-10-01",
+    "sales": 14.938,
+    "series": "growth_yoy",
+    "volume": 10.345,
+    "volume_sa": 11.187
+  },
+  {
+    "date": "2022-11-01",
+    "sales": 14.209,
+    "series": "growth_yoy",
+    "volume": 9.849,
+    "volume_sa": 10.072
+  },
+  {
+    "date": "2022-12-01",
+    "sales": 13.809,
+    "series": "growth_yoy",
+    "volume": 9.521,
+    "volume_sa": 9.62
+  },
+  {
+    "date": "2023-01-01",
+    "sales": 12.435,
+    "series": "growth_yoy",
+    "volume": 8.481,
+    "volume_sa": 8.694
+  },
+  {
+    "date": "2023-02-01",
+    "sales": 14.264,
+    "series": "growth_yoy",
+    "volume": 10.599,
+    "volume_sa": 8.406
+  },
+  {
+    "date": "2023-03-01",
+    "sales": 11.896,
+    "series": "growth_yoy",
+    "volume": 9.415,
+    "volume_sa": 11.265
+  },
+  {
+    "date": "2023-04-01",
+    "sales": 6.254,
+    "series": "growth_yoy",
+    "volume": 4.748,
+    "volume_sa": -1.652
+  },
+  {
+    "date": "2023-05-01",
+    "sales": 6.558,
+    "series": "growth_yoy",
+    "volume": 4.588,
+    "volume_sa": 3.258
+  },
+  {
+    "date": "2023-06-01",
+    "sales": 4.27,
+    "series": "growth_yoy",
+    "volume": 3.127,
+    "volume_sa": 6.999
+  },
+  {
+    "date": "2023-07-01",
+    "sales": 7.132,
+    "series": "growth_yoy",
+    "volume": 5.426,
+    "volume_sa": 8.202
+  },
+  {
+    "date": "2023-08-01",
+    "sales": 6.66,
+    "series": "growth_yoy",
+    "volume": 5.049,
+    "volume_sa": 6.429
+  },
+  {
+    "date": "2023-09-01",
+    "sales": 6.494,
+    "series": "growth_yoy",
+    "volume": 4.549,
+    "volume_sa": 4.769
+  },
+  {
+    "date": "2023-10-01",
+    "sales": 6.501,
+    "series": "growth_yoy",
+    "volume": 4.492,
+    "volume_sa": 5.45
+  },
+  {
+    "date": "2023-11-01",
+    "sales": 6.195,
+    "series": "growth_yoy",
+    "volume": 4.66,
+    "volume_sa": 5.096
+  },
+  {
+    "date": "2023-12-01",
+    "sales": 4.84,
+    "series": "growth_yoy",
+    "volume": 3.401,
+    "volume_sa": 4.565
+  },
+  {
+    "date": "2024-01-01",
+    "sales": 5.385,
+    "series": "growth_yoy",
+    "volume": 3.528,
+    "volume_sa": 6.374
+  },
+  {
+    "date": "2024-02-01",
+    "sales": 5.466,
+    "series": "growth_yoy",
+    "volume": 3.933,
+    "volume_sa": 4.581
+  },
+  {
+    "date": "2024-03-01",
+    "sales": 5.217,
+    "series": "growth_yoy",
+    "volume": 3.537,
+    "volume_sa": 1.308
+  },
+  {
+    "date": "2024-04-01",
+    "sales": 6.551,
+    "series": "growth_yoy",
+    "volume": 4.508,
+    "volume_sa": 2.162
+  },
+  {
+    "date": "2024-05-01",
+    "sales": 7.141,
+    "series": "growth_yoy",
+    "volume": 5.723,
+    "volume_sa": 5.369
+  },
+  {
+    "date": "2024-06-01",
+    "sales": 5.438,
+    "series": "growth_yoy",
+    "volume": 4.51,
+    "volume_sa": 1.707
+  },
+  {
+    "date": "2024-07-01",
+    "sales": 6.685,
+    "series": "growth_yoy",
+    "volume": 5.503,
+    "volume_sa": 3.156
+  },
+  {
+    "date": "2024-08-01",
+    "sales": 4.7,
+    "series": "growth_yoy",
+    "volume": 3.779,
+    "volume_sa": 4.222
+  },
+  {
+    "date": "2024-09-01",
+    "sales": 3.827,
+    "series": "growth_yoy",
+    "volume": 3.499,
+    "volume_sa": 4.608
+  },
+  {
+    "date": "2024-10-01",
+    "sales": 5.507,
+    "series": "growth_yoy",
+    "volume": 5.072,
+    "volume_sa": 6.153
+  },
+  {
+    "date": "2024-11-01",
+    "sales": 4.735,
+    "series": "growth_yoy",
+    "volume": 3.9,
+    "volume_sa": 4.356
+  },
+  {
+    "date": "2024-12-01",
+    "sales": 5.72,
+    "series": "growth_yoy",
+    "volume": 4.356,
+    "volume_sa": 5.497
+  },
+  {
+    "date": "2025-01-01",
+    "sales": 4.566,
+    "series": "growth_yoy",
+    "volume": 3.801,
+    "volume_sa": 4.11
+  },
+  {
+    "date": "2025-02-01",
+    "sales": 5.237,
+    "series": "growth_yoy",
+    "volume": 4.034,
+    "volume_sa": 2.007
+  },
+  {
+    "date": "2025-03-01",
+    "sales": 5.668,
+    "series": "growth_yoy",
+    "volume": 4.995,
+    "volume_sa": 6.077
+  },
+  {
+    "date": "2025-04-01",
+    "sales": 4.7,
+    "series": "growth_yoy",
+    "volume": 4.332,
+    "volume_sa": 5.518
+  },
+  {
+    "date": "2025-05-01",
+    "sales": 4.39,
+    "series": "growth_yoy",
+    "volume": 4.231,
+    "volume_sa": 3.169
+  },
+  {
+    "date": "2025-06-01",
+    "sales": 4.777,
+    "series": "growth_yoy",
+    "volume": 4.401,
+    "volume_sa": 3.288
+  },
+  {
+    "date": "2025-07-01",
+    "sales": 4.965,
+    "series": "growth_yoy",
+    "volume": 4.572,
+    "volume_sa": 2.531
+  },
+  {
+    "date": "2025-08-01",
+    "sales": 4.934,
+    "series": "growth_yoy",
+    "volume": 4.34,
+    "volume_sa": 2.865
+  },
+  {
+    "date": "2025-09-01",
+    "sales": 6.634,
+    "series": "growth_yoy",
+    "volume": 5.378,
+    "volume_sa": 4.826
+  },
+  {
+    "date": "2025-10-01",
+    "sales": 7.189,
+    "series": "growth_yoy",
+    "volume": 5.725,
+    "volume_sa": 6.486
+  },
+  {
+    "date": "2025-11-01",
+    "sales": 6.44,
+    "series": "growth_yoy",
+    "volume": 5.245,
+    "volume_sa": 6.827
+  },
+  {
+    "date": "2025-12-01",
+    "sales": 7.589,
+    "series": "growth_yoy",
+    "volume": 6.418,
+    "volume_sa": 9.221
+  },
+  {
+    "date": "2026-01-01",
+    "sales": 7.293,
+    "series": "growth_yoy",
+    "volume": 5.807,
+    "volume_sa": 5.82
+  },
+  {
+    "date": "2026-02-01",
+    "sales": 5.252,
+    "series": "growth_yoy",
+    "volume": 4.438,
+    "volume_sa": 4.438
+  },
+  {
+    "date": "2026-03-01",
+    "sales": 9.764,
+    "series": "growth_yoy",
+    "volume": 4.406,
+    "volume_sa": 4.406
+  },
+  {
+    "date": "2026-04-01",
+    "sales": 15.255,
+    "series": "growth_yoy",
+    "volume": 6.241,
+    "volume_sa": 6.241
+  },
+  {
+    "date": "2018-02-01",
+    "sales": -3.866,
+    "series": "growth_mom",
+    "volume": -3.458,
+    "volume_sa": 0.449
+  },
+  {
+    "date": "2018-03-01",
+    "sales": 6.819,
+    "series": "growth_mom",
+    "volume": 6.715,
+    "volume_sa": -0.021
+  },
+  {
+    "date": "2018-04-01",
+    "sales": -3.862,
+    "series": "growth_mom",
+    "volume": -5.095,
+    "volume_sa": 1.278
+  },
+  {
+    "date": "2018-05-01",
+    "sales": 3.945,
+    "series": "growth_mom",
+    "volume": 4.019,
+    "volume_sa": 0.947
+  },
+  {
+    "date": "2018-06-01",
+    "sales": 2.339,
+    "series": "growth_mom",
+    "volume": 4.528,
+    "volume_sa": 2.387
+  },
+  {
+    "date": "2018-07-01",
+    "sales": 0.302,
+    "series": "growth_mom",
+    "volume": -0.454,
+    "volume_sa": 1.249
+  },
+  {
+    "date": "2018-08-01",
+    "sales": 1.329,
+    "series": "growth_mom",
+    "volume": 0.689,
+    "volume_sa": 1.616
+  },
+  {
+    "date": "2018-09-01",
+    "sales": -2.919,
+    "series": "growth_mom",
+    "volume": -2.565,
+    "volume_sa": -3.654
+  },
+  {
+    "date": "2018-10-01",
+    "sales": 1.242,
+    "series": "growth_mom",
+    "volume": 2.363,
+    "volume_sa": 2.176
+  },
+  {
+    "date": "2018-11-01",
+    "sales": 0.163,
+    "series": "growth_mom",
+    "volume": -0.82,
+    "volume_sa": 0.756
+  },
+  {
+    "date": "2018-12-01",
+    "sales": 2.937,
+    "series": "growth_mom",
+    "volume": 2.064,
+    "volume_sa": -0.293
+  },
+  {
+    "date": "2019-01-01",
+    "sales": -0.334,
+    "series": "growth_mom",
+    "volume": 0.282,
+    "volume_sa": 0.986
+  },
+  {
+    "date": "2019-02-01",
+    "sales": -5.013,
+    "series": "growth_mom",
+    "volume": -4.786,
+    "volume_sa": -0.601
+  },
+  {
+    "date": "2019-03-01",
+    "sales": 5.755,
+    "series": "growth_mom",
+    "volume": 5.35,
+    "volume_sa": -1.33
+  },
+  {
+    "date": "2019-04-01",
+    "sales": -3.714,
+    "series": "growth_mom",
+    "volume": -4.929,
+    "volume_sa": 1.707
+  },
+  {
+    "date": "2019-05-01",
+    "sales": 5.148,
+    "series": "growth_mom",
+    "volume": 5.429,
+    "volume_sa": 1.643
+  },
+  {
+    "date": "2019-06-01",
+    "sales": 1.393,
+    "series": "growth_mom",
+    "volume": 4.324,
+    "volume_sa": 1.634
+  },
+  {
+    "date": "2019-07-01",
+    "sales": 0.178,
+    "series": "growth_mom",
+    "volume": -0.596,
+    "volume_sa": 0.883
+  },
+  {
+    "date": "2019-08-01",
+    "sales": 1.358,
+    "series": "growth_mom",
+    "volume": 0.273,
+    "volume_sa": 0.885
+  },
+  {
+    "date": "2019-09-01",
+    "sales": -3.022,
+    "series": "growth_mom",
+    "volume": -2.455,
+    "volume_sa": -1.613
+  },
+  {
+    "date": "2019-10-01",
+    "sales": 0.629,
+    "series": "growth_mom",
+    "volume": 1.662,
+    "volume_sa": 0.466
+  },
+  {
+    "date": "2019-11-01",
+    "sales": 0.342,
+    "series": "growth_mom",
+    "volume": -0.416,
+    "volume_sa": 0.99
+  },
+  {
+    "date": "2019-12-01",
+    "sales": 3.695,
+    "series": "growth_mom",
+    "volume": 2.412,
+    "volume_sa": 0.357
+  },
+  {
+    "date": "2020-01-01",
+    "sales": -0.905,
+    "series": "growth_mom",
+    "volume": -0.252,
+    "volume_sa": -2.192
+  },
+  {
+    "date": "2020-02-01",
+    "sales": -5.057,
+    "series": "growth_mom",
+    "volume": -4.809,
+    "volume_sa": 2.703
+  },
+  {
+    "date": "2020-03-01",
+    "sales": -5.314,
+    "series": "growth_mom",
+    "volume": -6.163,
+    "volume_sa": -9.91
+  },
+  {
+    "date": "2020-04-01",
+    "sales": -35.21,
+    "series": "growth_mom",
+    "volume": -37.848,
+    "volume_sa": -34.062
+  },
+  {
+    "date": "2020-05-01",
+    "sales": 26.31,
+    "series": "growth_mom",
+    "volume": 30.285,
+    "volume_sa": 27.162
+  },
+  {
+    "date": "2020-06-01",
+    "sales": 21.825,
+    "series": "growth_mom",
+    "volume": 25.212,
+    "volume_sa": 19.898
+  },
+  {
+    "date": "2020-07-01",
+    "sales": 5.622,
+    "series": "growth_mom",
+    "volume": 4.95,
+    "volume_sa": 4.873
+  },
+  {
+    "date": "2020-08-01",
+    "sales": 2.547,
+    "series": "growth_mom",
+    "volume": 1.691,
+    "volume_sa": 1.739
+  },
+  {
+    "date": "2020-09-01",
+    "sales": -0.385,
+    "series": "growth_mom",
+    "volume": 0.5,
+    "volume_sa": 0.064
+  },
+  {
+    "date": "2020-10-01",
+    "sales": -0.486,
+    "series": "growth_mom",
+    "volume": -0.242,
+    "volume_sa": -1.931
+  },
+  {
+    "date": "2020-11-01",
+    "sales": -0.052,
+    "series": "growth_mom",
+    "volume": -0.438,
+    "volume_sa": 0.338
+  },
+  {
+    "date": "2020-12-01",
+    "sales": 5.447,
+    "series": "growth_mom",
+    "volume": 4.189,
+    "volume_sa": 1.618
+  },
+  {
+    "date": "2021-01-01",
+    "sales": -3.92,
+    "series": "growth_mom",
+    "volume": -2.88,
+    "volume_sa": -2.242
+  },
+  {
+    "date": "2021-02-01",
+    "sales": -3.43,
+    "series": "growth_mom",
+    "volume": -3.297,
+    "volume_sa": 4.697
+  },
+  {
+    "date": "2021-03-01",
+    "sales": 4.375,
+    "series": "growth_mom",
+    "volume": 2.996,
+    "volume_sa": -1.157
+  },
+  {
+    "date": "2021-04-01",
+    "sales": -1.454,
+    "series": "growth_mom",
+    "volume": -2.17,
+    "volume_sa": 3.765
+  },
+  {
+    "date": "2021-05-01",
+    "sales": -2.568,
+    "series": "growth_mom",
+    "volume": -3.284,
+    "volume_sa": -5.03
+  },
+  {
+    "date": "2021-06-01",
+    "sales": -14.795,
+    "series": "growth_mom",
+    "volume": -14.044,
+    "volume_sa": -17.549
+  },
+  {
+    "date": "2021-07-01",
+    "sales": 0.49,
+    "series": "growth_mom",
+    "volume": 0.293,
+    "volume_sa": 0.141
+  },
+  {
+    "date": "2021-08-01",
+    "sales": 7.954,
+    "series": "growth_mom",
+    "volume": 7.501,
+    "volume_sa": 8.042
+  },
+  {
+    "date": "2021-09-01",
+    "sales": 8.059,
+    "series": "growth_mom",
+    "volume": 7.572,
+    "volume_sa": 5.723
+  },
+  {
+    "date": "2021-10-01",
+    "sales": 7.51,
+    "series": "growth_mom",
+    "volume": 7.082,
+    "volume_sa": 4.976
+  },
+  {
+    "date": "2021-11-01",
+    "sales": 1.141,
+    "series": "growth_mom",
+    "volume": 0.631,
+    "volume_sa": 1.536
+  },
+  {
+    "date": "2021-12-01",
+    "sales": 2.616,
+    "series": "growth_mom",
+    "volume": 2.559,
+    "volume_sa": 0.147
+  },
+  {
+    "date": "2022-01-01",
+    "sales": -0.374,
+    "series": "growth_mom",
+    "volume": -0.442,
+    "volume_sa": 1.257
+  },
+  {
+    "date": "2022-02-01",
+    "sales": -2.575,
+    "series": "growth_mom",
+    "volume": -3.041,
+    "volume_sa": 3.526
+  },
+  {
+    "date": "2022-03-01",
+    "sales": 5.708,
+    "series": "growth_mom",
+    "volume": 4.085,
+    "volume_sa": 0.131
+  },
+  {
+    "date": "2022-04-01",
+    "sales": 3.402,
+    "series": "growth_mom",
+    "volume": 2.75,
+    "volume_sa": 11.272
+  },
+  {
+    "date": "2022-05-01",
+    "sales": 1.188,
+    "series": "growth_mom",
+    "volume": 0.833,
+    "volume_sa": -3.898
+  },
+  {
+    "date": "2022-06-01",
+    "sales": 2.541,
+    "series": "growth_mom",
+    "volume": 1.746,
+    "volume_sa": -0.799
+  },
+  {
+    "date": "2022-07-01",
+    "sales": -1.809,
+    "series": "growth_mom",
+    "volume": -1.452,
+    "volume_sa": 0.052
+  },
+  {
+    "date": "2022-08-01",
+    "sales": 2.479,
+    "series": "growth_mom",
+    "volume": 2.295,
+    "volume_sa": 0.343
+  },
+  {
+    "date": "2022-09-01",
+    "sales": 0.291,
+    "series": "growth_mom",
+    "volume": 0.409,
+    "volume_sa": -0.034
+  },
+  {
+    "date": "2022-10-01",
+    "sales": -0.313,
+    "series": "growth_mom",
+    "volume": -0.27,
+    "volume_sa": -2.15
+  },
+  {
+    "date": "2022-11-01",
+    "sales": 0.5,
+    "series": "growth_mom",
+    "volume": 0.178,
+    "volume_sa": 0.518
+  },
+  {
+    "date": "2022-12-01",
+    "sales": 2.257,
+    "series": "growth_mom",
+    "volume": 2.253,
+    "volume_sa": -0.264
+  },
+  {
+    "date": "2023-01-01",
+    "sales": -1.576,
+    "series": "growth_mom",
+    "volume": -1.387,
+    "volume_sa": 0.401
+  },
+  {
+    "date": "2023-02-01",
+    "sales": -0.99,
+    "series": "growth_mom",
+    "volume": -1.149,
+    "volume_sa": 3.252
+  },
+  {
+    "date": "2023-03-01",
+    "sales": 3.517,
+    "series": "growth_mom",
+    "volume": 2.971,
+    "volume_sa": 2.771
+  },
+  {
+    "date": "2023-04-01",
+    "sales": -1.812,
+    "series": "growth_mom",
+    "volume": -1.633,
+    "volume_sa": -1.645
+  },
+  {
+    "date": "2023-05-01",
+    "sales": 1.477,
+    "series": "growth_mom",
+    "volume": 0.679,
+    "volume_sa": 0.899
+  },
+  {
+    "date": "2023-06-01",
+    "sales": 0.34,
+    "series": "growth_mom",
+    "volume": 0.324,
+    "volume_sa": 2.794
+  },
+  {
+    "date": "2023-07-01",
+    "sales": 0.886,
+    "series": "growth_mom",
+    "volume": 0.745,
+    "volume_sa": 1.177
+  },
+  {
+    "date": "2023-08-01",
+    "sales": 2.028,
+    "series": "growth_mom",
+    "volume": 1.93,
+    "volume_sa": -1.302
+  },
+  {
+    "date": "2023-09-01",
+    "sales": 0.135,
+    "series": "growth_mom",
+    "volume": -0.069,
+    "volume_sa": -1.594
+  },
+  {
+    "date": "2023-10-01",
+    "sales": -0.306,
+    "series": "growth_mom",
+    "volume": -0.325,
+    "volume_sa": -1.514
+  },
+  {
+    "date": "2023-11-01",
+    "sales": 0.211,
+    "series": "growth_mom",
+    "volume": 0.339,
+    "volume_sa": 0.181
+  },
+  {
+    "date": "2023-12-01",
+    "sales": 0.952,
+    "series": "growth_mom",
+    "volume": 1.023,
+    "volume_sa": -0.768
+  },
+  {
+    "date": "2024-01-01",
+    "sales": -1.064,
+    "series": "growth_mom",
+    "volume": -1.266,
+    "volume_sa": 2.139
+  },
+  {
+    "date": "2024-02-01",
+    "sales": -0.914,
+    "series": "growth_mom",
+    "volume": -0.762,
+    "volume_sa": 1.511
+  },
+  {
+    "date": "2024-03-01",
+    "sales": 3.272,
+    "series": "growth_mom",
+    "volume": 2.578,
+    "volume_sa": -0.446
+  },
+  {
+    "date": "2024-04-01",
+    "sales": -0.567,
+    "series": "growth_mom",
+    "volume": -0.71,
+    "volume_sa": -0.815
+  },
+  {
+    "date": "2024-05-01",
+    "sales": 2.038,
+    "series": "growth_mom",
+    "volume": 1.849,
+    "volume_sa": 4.067
+  },
+  {
+    "date": "2024-06-01",
+    "sales": -1.255,
+    "series": "growth_mom",
+    "volume": -0.826,
+    "volume_sa": -0.779
+  },
+  {
+    "date": "2024-07-01",
+    "sales": 2.08,
+    "series": "growth_mom",
+    "volume": 1.702,
+    "volume_sa": 2.619
+  },
+  {
+    "date": "2024-08-01",
+    "sales": 0.13,
+    "series": "growth_mom",
+    "volume": 0.265,
+    "volume_sa": -0.282
+  },
+  {
+    "date": "2024-09-01",
+    "sales": -0.699,
+    "series": "growth_mom",
+    "volume": -0.338,
+    "volume_sa": -1.23
+  },
+  {
+    "date": "2024-10-01",
+    "sales": 1.307,
+    "series": "growth_mom",
+    "volume": 1.19,
+    "volume_sa": -0.06
+  },
+  {
+    "date": "2024-11-01",
+    "sales": -0.523,
+    "series": "growth_mom",
+    "volume": -0.78,
+    "volume_sa": -1.515
+  },
+  {
+    "date": "2024-12-01",
+    "sales": 1.901,
+    "series": "growth_mom",
+    "volume": 1.466,
+    "volume_sa": 0.317
+  },
+  {
+    "date": "2025-01-01",
+    "sales": -2.143,
+    "series": "growth_mom",
+    "volume": -1.791,
+    "volume_sa": 0.796
+  },
+  {
+    "date": "2025-02-01",
+    "sales": -0.278,
+    "series": "growth_mom",
+    "volume": -0.539,
+    "volume_sa": -0.539
+  },
+  {
+    "date": "2025-03-01",
+    "sales": 3.695,
+    "series": "growth_mom",
+    "volume": 3.526,
+    "volume_sa": 3.526
+  },
+  {
+    "date": "2025-04-01",
+    "sales": -1.478,
+    "series": "growth_mom",
+    "volume": -1.337,
+    "volume_sa": -1.337
+  },
+  {
+    "date": "2025-05-01",
+    "sales": 1.737,
+    "series": "growth_mom",
+    "volume": 1.749,
+    "volume_sa": 1.749
+  },
+  {
+    "date": "2025-06-01",
+    "sales": -0.889,
+    "series": "growth_mom",
+    "volume": -0.664,
+    "volume_sa": -0.664
+  },
+  {
+    "date": "2025-07-01",
+    "sales": 2.262,
+    "series": "growth_mom",
+    "volume": 1.868,
+    "volume_sa": 1.868
+  },
+  {
+    "date": "2025-08-01",
+    "sales": 0.101,
+    "series": "growth_mom",
+    "volume": 0.042,
+    "volume_sa": 0.042
+  },
+  {
+    "date": "2025-09-01",
+    "sales": 0.909,
+    "series": "growth_mom",
+    "volume": 0.653,
+    "volume_sa": 0.653
+  },
+  {
+    "date": "2025-10-01",
+    "sales": 1.835,
+    "series": "growth_mom",
+    "volume": 1.523,
+    "volume_sa": 1.523
+  },
+  {
+    "date": "2025-11-01",
+    "sales": -1.218,
+    "series": "growth_mom",
+    "volume": -1.231,
+    "volume_sa": -1.2
+  },
+  {
+    "date": "2025-12-01",
+    "sales": 3.001,
+    "series": "growth_mom",
+    "volume": 2.597,
+    "volume_sa": 2.565
+  },
+  {
+    "date": "2026-01-01",
+    "sales": -2.412,
+    "series": "growth_mom",
+    "volume": -2.355,
+    "volume_sa": -2.342
+  },
+  {
+    "date": "2026-02-01",
+    "sales": -2.175,
+    "series": "growth_mom",
+    "volume": -1.825,
+    "volume_sa": -1.838
+  },
+  {
+    "date": "2026-03-01",
+    "sales": 8.14,
+    "series": "growth_mom",
+    "volume": 3.494,
+    "volume_sa": 3.494
+  },
+  {
+    "date": "2026-04-01",
+    "sales": 3.451,
+    "series": "growth_mom",
+    "volume": 0.396,
+    "volume_sa": 0.396
+  }
+]

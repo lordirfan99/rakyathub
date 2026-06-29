@@ -1,0 +1,602 @@
+[
+  {
+    "date": "2019-01-01",
+    "value": null,
+    "volume": null,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2019-02-01",
+    "value": null,
+    "volume": null,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2019-03-01",
+    "value": null,
+    "volume": null,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2019-04-01",
+    "value": 823845053.0,
+    "volume": 465311.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2019-05-01",
+    "value": 826836024.0,
+    "volume": 340428.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2019-06-01",
+    "value": 738326031.0,
+    "volume": 322902.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2019-07-01",
+    "value": 814159256.9999998,
+    "volume": 368060.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2019-08-01",
+    "value": 864757414.0,
+    "volume": 358874.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2019-09-01",
+    "value": 823128357.0,
+    "volume": 347238.99999999994,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2019-10-01",
+    "value": 812091728.0,
+    "volume": 377872.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2019-11-01",
+    "value": 806058553.0000001,
+    "volume": 362220.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2019-12-01",
+    "value": 811876823.0,
+    "volume": 338427.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2020-01-01",
+    "value": 864581647.9999999,
+    "volume": 325815.99999999994,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2020-02-01",
+    "value": 749694955.0,
+    "volume": 284488.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2020-03-01",
+    "value": 740707226.0,
+    "volume": 216033.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2020-04-01",
+    "value": 629388437.0,
+    "volume": 114595.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2020-05-01",
+    "value": 625522113.9999999,
+    "volume": 143543.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2020-06-01",
+    "value": 625771531.9999999,
+    "volume": 175792.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2020-07-01",
+    "value": 703848159.0,
+    "volume": 200614.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2020-08-01",
+    "value": 742269353.0,
+    "volume": 199665.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2020-09-01",
+    "value": 760842736.0,
+    "volume": 207751.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2020-10-01",
+    "value": 734629775.9999999,
+    "volume": 191505.00000000003,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2020-11-01",
+    "value": 683448283.0,
+    "volume": 180043.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2020-12-01",
+    "value": 700755137.0,
+    "volume": 207032.00000000006,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2021-01-01",
+    "value": 819491953.0,
+    "volume": 188042.00000000003,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2021-02-01",
+    "value": 643155537.0,
+    "volume": 166536.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2021-03-01",
+    "value": 820356220.0,
+    "volume": 211795.00000000006,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2021-04-01",
+    "value": 778858525.0,
+    "volume": 207365.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2021-05-01",
+    "value": 702848242.0000001,
+    "volume": 180861.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2021-06-01",
+    "value": 723999569.0,
+    "volume": 167173.99999999997,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2021-07-01",
+    "value": 713890973.0,
+    "volume": 197721.99999999997,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2021-08-01",
+    "value": 765612700.0,
+    "volume": 235401.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2021-09-01",
+    "value": 790251275.0,
+    "volume": 236399.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2021-10-01",
+    "value": 790886044.9999999,
+    "volume": 244322.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2021-11-01",
+    "value": 813376106.0,
+    "volume": 254427.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2021-12-01",
+    "value": 767778034.0,
+    "volume": 258261.99999999994,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2022-01-01",
+    "value": 934473441.0000002,
+    "volume": 266321.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2022-02-01",
+    "value": 793558452.0000001,
+    "volume": 243361.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2022-03-01",
+    "value": 872299234.9999998,
+    "volume": 303278.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2022-04-01",
+    "value": 947306493.0,
+    "volume": 315545.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2022-05-01",
+    "value": 847705773.0,
+    "volume": 316079.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2022-06-01",
+    "value": 964689317.0,
+    "volume": 353319.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2022-07-01",
+    "value": 939867607.9999998,
+    "volume": 322337.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2022-08-01",
+    "value": 1023817492.0,
+    "volume": 329583.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2022-09-01",
+    "value": 935806897.0,
+    "volume": 285145.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2022-10-01",
+    "value": 991302364.0000002,
+    "volume": 293473.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2022-11-01",
+    "value": 957150051.0,
+    "volume": 290450.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2022-12-01",
+    "value": 938794797.0,
+    "volume": 295923.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2023-01-01",
+    "value": 1084666139.0000002,
+    "volume": 278571.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2023-02-01",
+    "value": 980949940.0,
+    "volume": 281478.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2023-03-01",
+    "value": 1073137935.0000002,
+    "volume": 330688.00000000006,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2023-04-01",
+    "value": 983858223.0,
+    "volume": 287797.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2023-05-01",
+    "value": 1042824016.9999998,
+    "volume": 325129.99999999994,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2023-06-01",
+    "value": 1013531437.0,
+    "volume": 319416.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2023-07-01",
+    "value": 1021364505.0,
+    "volume": 326627.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2023-08-01",
+    "value": 1083634563.0,
+    "volume": 338773.0000000001,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2023-09-01",
+    "value": 1021984608.0,
+    "volume": 340368.99999999994,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2023-10-01",
+    "value": 1067919202.0,
+    "volume": 357725.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2023-11-01",
+    "value": 1064368398.9999998,
+    "volume": 351528.0000000001,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2023-12-01",
+    "value": 1012990350.0,
+    "volume": 340143.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2024-01-01",
+    "value": 1134300661.9999998,
+    "volume": 362718.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2024-02-01",
+    "value": 984410233.0,
+    "volume": 337594.99999999994,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2024-03-01",
+    "value": 1057585672.0000002,
+    "volume": 377333.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2024-04-01",
+    "value": 961805447.0000002,
+    "volume": 354743.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2024-05-01",
+    "value": 1018916472.0,
+    "volume": 401106.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2024-06-01",
+    "value": 1014000210.0,
+    "volume": 381083.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2024-07-01",
+    "value": 1068045175.0,
+    "volume": 413087.0000000001,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2024-08-01",
+    "value": 1001750138.0,
+    "volume": 410357.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2024-09-01",
+    "value": 941387598.0,
+    "volume": 392258.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2024-10-01",
+    "value": 1014194783.0000002,
+    "volume": 423798.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2024-11-01",
+    "value": 1019199818.0,
+    "volume": 412618.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2024-12-01",
+    "value": 1003549477.0,
+    "volume": 392204.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2025-01-01",
+    "value": 1151636742.9999998,
+    "volume": 395289.9999999999,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2025-02-01",
+    "value": 1020094372.0,
+    "volume": 373289.9999999999,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2025-03-01",
+    "value": 1107591541.9999998,
+    "volume": 411966.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2025-04-01",
+    "value": 1051817828.0,
+    "volume": 401517.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2025-05-01",
+    "value": 1102328080.0,
+    "volume": 441140.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2025-06-01",
+    "value": 1078512018.0,
+    "volume": 415588.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2025-07-01",
+    "value": 1151605685.0,
+    "volume": 464826.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2025-08-01",
+    "value": 1153310535.0,
+    "volume": 465795.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2025-09-01",
+    "value": 1099358498.9999998,
+    "volume": 439484.0000000001,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2025-10-01",
+    "value": 1208546424.0000002,
+    "volume": 481749.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2025-11-01",
+    "value": 1149023617.0,
+    "volume": 474203.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2025-12-01",
+    "value": 1093493761.0,
+    "volume": 455764.0000000001,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2026-01-01",
+    "value": 1334894621.0,
+    "volume": 474134.0000000001,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2026-02-01",
+    "value": 1077012677.0,
+    "volume": 398839.0,
+    "instrument": "charge_f2f"
+  },
+  {
+    "date": "2019-01-01",
+    "value": null,
+    "volume": null,
+    "instrument": "charge_online"
+  },
+  {
+    "date": "2019-02-01",
+    "value": null,
+    "volume": null,
+    "instrument": "charge_online"
+  },
+  {
+    "date": "2019-03-01",
+    "value": null,
+    "volume": null,
+    "instrument": "charge_online"
+  },
+  {
+    "date": "2019-04-01",
+    "value": 301140090.0,
+    "volume": 174117.0,
+    "instrument": "charge_online"
+  },
+  {
+    "date": "2019-05-01",
+    "value": 288281069.0,
+    "volume": 197663.0,
+    "instrument": "charge_online"
+  },
+  {
+    "date": "2019-06-01",
+    "value": 274858627.0,
+    "volume": 172725.0,
+    "instrument": "charge_online"
+  },
+  {
+    "date": "2019-07-01",
+    "value": 289701201.0,
+    "volume": 193998.0,
+    "instrument": "charge_online"
+  },
+  {
+    "date": "2019-08-01",
+    "value": 291087916.0,
+    "volume": 189343.0,
+    "instrument": "charge_online"
+  },
+  {
+    "date": "2019-09-01",
+    "value": 278283282.0,
+    "volume": 164360.0,
+    "instrument": "charge_online"
+  },
+  {
+    "date": "2019-10-01",
+    "value": 308212332.0,
+    "volume": 162083.0,
+    "instrument": "charge_online"
+  },
+  {
+    "date": "2019-11-01",
+    "value": 240595647.0,
+    "volume": 156057.0,
+    "instrument": "charge_online"
+  },
+  {
+    "date": "2019-12-01",
+    "value": 194590255.0,
+    "volume": 132836.0,
+    "instrument": "charge_online"
+  },
+  {
+    "date": "2020-01-01",
+    "value": 184057982.0,
+    "volume": 129497.0,
+    "instrument": "charge_online"
+  },
+  {
+    "date": "2020-02-01",
+    "value": 169517869.0,
+    "volume": 117947.0,
+    "instrument": "charge_online"
+  }
+]

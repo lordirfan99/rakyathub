@@ -27,3 +27,6 @@ scripts/indexnow-key.txt
 scripts/.fb_token
 .fb_posted.log
 audit_log.md
+
+# Generated API data
+public/api/

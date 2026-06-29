@@ -1,0 +1,4002 @@
+[
+  {
+    "date": "2016-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "crimes": 22327,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "crimes": 21366,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "crimes": 16902,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "crimes": 16489,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "crimes": 13279,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "crimes": 11495,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "crimes": 10348,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "crimes": 10453,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "causing_injury",
+    "state": "Malaysia",
+    "crimes": 5531,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "causing_injury",
+    "state": "Malaysia",
+    "crimes": 5024,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "causing_injury",
+    "state": "Malaysia",
+    "crimes": 4660,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "causing_injury",
+    "state": "Malaysia",
+    "crimes": 4712,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "causing_injury",
+    "state": "Malaysia",
+    "crimes": 4118,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "causing_injury",
+    "state": "Malaysia",
+    "crimes": 4063,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "causing_injury",
+    "state": "Malaysia",
+    "crimes": 3807,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "causing_injury",
+    "state": "Malaysia",
+    "crimes": 3693,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "murder",
+    "state": "Malaysia",
+    "crimes": 456,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "murder",
+    "state": "Malaysia",
+    "crimes": 379,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "murder",
+    "state": "Malaysia",
+    "crimes": 323,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "murder",
+    "state": "Malaysia",
+    "crimes": 310,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "murder",
+    "state": "Malaysia",
+    "crimes": 253,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "murder",
+    "state": "Malaysia",
+    "crimes": 243,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "murder",
+    "state": "Malaysia",
+    "crimes": 240,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "murder",
+    "state": "Malaysia",
+    "crimes": 258,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "rape",
+    "state": "Malaysia",
+    "crimes": 1886,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "rape",
+    "state": "Malaysia",
+    "crimes": 1835,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "rape",
+    "state": "Malaysia",
+    "crimes": 1648,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "rape",
+    "state": "Malaysia",
+    "crimes": 1738,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "rape",
+    "state": "Malaysia",
+    "crimes": 1582,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "rape",
+    "state": "Malaysia",
+    "crimes": 1553,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "rape",
+    "state": "Malaysia",
+    "crimes": 1712,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "rape",
+    "state": "Malaysia",
+    "crimes": 1914,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Malaysia",
+    "crimes": 65,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Malaysia",
+    "crimes": 31,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Malaysia",
+    "crimes": 31,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Malaysia",
+    "crimes": 21,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Malaysia",
+    "crimes": 6,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Malaysia",
+    "crimes": 5,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Malaysia",
+    "crimes": 16,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Malaysia",
+    "crimes": 30,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Malaysia",
+    "crimes": 10907,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Malaysia",
+    "crimes": 9779,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Malaysia",
+    "crimes": 6543,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Malaysia",
+    "crimes": 6058,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Malaysia",
+    "crimes": 2992,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Malaysia",
+    "crimes": 3071,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Malaysia",
+    "crimes": 2432,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Malaysia",
+    "crimes": 2578,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Malaysia",
+    "crimes": 19,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Malaysia",
+    "crimes": 3,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Malaysia",
+    "crimes": 9,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Malaysia",
+    "crimes": 9,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Malaysia",
+    "crimes": 5,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Malaysia",
+    "crimes": 2,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Malaysia",
+    "crimes": 7,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Malaysia",
+    "crimes": 13,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Malaysia",
+    "crimes": 3463,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Malaysia",
+    "crimes": 4315,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Malaysia",
+    "crimes": 3688,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Malaysia",
+    "crimes": 3641,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Malaysia",
+    "crimes": 4323,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Malaysia",
+    "crimes": 2558,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Malaysia",
+    "crimes": 2134,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Malaysia",
+    "crimes": 1967,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "crimes": 90028,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "crimes": 77804,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "crimes": 71760,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "crimes": 66967,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "crimes": 52344,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "crimes": 41479,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "crimes": 40465,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "all",
+    "state": "Malaysia",
+    "crimes": 41991,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "break_in",
+    "state": "Malaysia",
+    "crimes": 18760,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "break_in",
+    "state": "Malaysia",
+    "crimes": 16201,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "break_in",
+    "state": "Malaysia",
+    "crimes": 15742,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "break_in",
+    "state": "Malaysia",
+    "crimes": 16497,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "break_in",
+    "state": "Malaysia",
+    "crimes": 14040,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "break_in",
+    "state": "Malaysia",
+    "crimes": 11352,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "break_in",
+    "state": "Malaysia",
+    "crimes": 10585,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "break_in",
+    "state": "Malaysia",
+    "crimes": 11557,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "theft_other",
+    "state": "Malaysia",
+    "crimes": 22857,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "theft_other",
+    "state": "Malaysia",
+    "crimes": 19444,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "theft_other",
+    "state": "Malaysia",
+    "crimes": 20065,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "theft_other",
+    "state": "Malaysia",
+    "crimes": 19603,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "theft_other",
+    "state": "Malaysia",
+    "crimes": 16725,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "theft_other",
+    "state": "Malaysia",
+    "crimes": 16695,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "theft_other",
+    "state": "Malaysia",
+    "crimes": 15434,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "theft_other",
+    "state": "Malaysia",
+    "crimes": 15837,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Malaysia",
+    "crimes": 3050,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Malaysia",
+    "crimes": 2102,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Malaysia",
+    "crimes": 1761,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Malaysia",
+    "crimes": 1549,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Malaysia",
+    "crimes": 921,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Malaysia",
+    "crimes": 639,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Malaysia",
+    "crimes": 718,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Malaysia",
+    "crimes": 764,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Malaysia",
+    "crimes": 10607,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Malaysia",
+    "crimes": 8480,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Malaysia",
+    "crimes": 7413,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Malaysia",
+    "crimes": 6817,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Malaysia",
+    "crimes": 4599,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Malaysia",
+    "crimes": 2849,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Malaysia",
+    "crimes": 3271,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Malaysia",
+    "crimes": 3245,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Malaysia",
+    "crimes": 34754,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Malaysia",
+    "crimes": 31577,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Malaysia",
+    "crimes": 26779,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Malaysia",
+    "crimes": 22501,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Malaysia",
+    "crimes": 16059,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Malaysia",
+    "crimes": 9944,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Malaysia",
+    "crimes": 10457,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Malaysia",
+    "crimes": 10588,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 2820,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 2578,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 1880,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 1923,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 1384,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 925,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 973,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 1228,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 708,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 614,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 578,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 599,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 447,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 365,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 333,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 366,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 70,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 66,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 43,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 35,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 36,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 21,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 30,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 31,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 274,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 196,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 187,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 206,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 164,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 144,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 147,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 194,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 10,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 1,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 2,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 1,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 1,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 1,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 1308,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 1220,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 740,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 753,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 257,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 256,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 270,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 394,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 3,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 1,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 447,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 481,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 330,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 328,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 479,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 138,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 193,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 243,
+    "category": "assault",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 10121,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 8729,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 8458,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 7947,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 5966,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 3440,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 3489,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 4102,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 1475,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 1211,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 1239,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 1364,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 1273,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 883,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 767,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 993,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 2117,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 2043,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 2025,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 1912,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 1403,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 942,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 1041,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 1335,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 400,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 274,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 278,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 219,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 141,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 71,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 73,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 69,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 1443,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 1097,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 1035,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 981,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 802,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 400,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 429,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 415,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 4686,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 4104,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 3881,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 3471,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 2347,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 1144,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 1179,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 1290,
+    "category": "property",
+    "district": "All"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 160,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 123,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 104,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 139,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 127,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 60,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 52,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 88,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 39,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 41,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 28,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 41,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 43,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 22,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 19,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 22,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 6,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 3,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 3,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 3,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 3,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 4,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 29,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 23,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 13,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 29,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 16,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 18,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 13,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 19,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 1,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 56,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 47,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 33,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 37,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 32,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 9,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 5,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 16,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 1,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 28,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 12,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 27,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 29,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 33,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 11,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 12,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 27,
+    "category": "assault",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 621,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 558,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 584,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 524,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 415,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 200,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 262,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 285,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 115,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 90,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 158,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 157,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 122,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 55,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 80,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 87,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 192,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 119,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 140,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 127,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 122,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 72,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 83,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 109,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 16,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 10,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 15,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 4,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 12,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 2,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 7,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 8,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 41,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 52,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 46,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 28,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 38,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 12,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 16,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 13,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 257,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 287,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 225,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 208,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 121,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 59,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 76,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 68,
+    "category": "property",
+    "district": "Batu Pahat"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 195,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 149,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 170,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 96,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 68,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 80,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 123,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 54,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 61,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 46,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 23,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 20,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 30,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 45,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 4,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 4,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 4,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 3,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 2,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 3,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 9,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 13,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 16,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 9,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 4,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 9,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 7,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 1,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 102,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 53,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 74,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 17,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 31,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 21,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 52,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 26,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 18,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 30,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 44,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 10,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 17,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "robbery_solo_unarmed",
+    "state": "Johor",
+    "crimes": 19,
+    "category": "assault",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 727,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 784,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 784,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 538,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 332,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 356,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 448,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 92,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 47,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 76,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 77,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 68,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 77,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "break_in",
+    "state": "Johor",
+    "crimes": 103,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 151,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 176,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 228,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 156,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 114,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 125,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "theft_other",
+    "state": "Johor",
+    "crimes": 205,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 17,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 20,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 36,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 11,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 6,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 5,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "theft_vehicle_lorry",
+    "state": "Johor",
+    "crimes": 7,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 130,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 138,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 131,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 122,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 56,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 54,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "theft_vehicle_motorcar",
+    "state": "Johor",
+    "crimes": 44,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 337,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 403,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 313,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 172,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 88,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 95,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "theft_vehicle_motorcycle",
+    "state": "Johor",
+    "crimes": 89,
+    "category": "property",
+    "district": "Iskandar Puteri"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 977,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 956,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 474,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 429,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 226,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 150,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 213,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "all",
+    "state": "Johor",
+    "crimes": 252,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 200,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 170,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 115,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 126,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 67,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 62,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 45,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "causing_injury",
+    "state": "Johor",
+    "crimes": 46,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 15,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 23,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 9,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 10,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 4,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 5,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 7,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "murder",
+    "state": "Johor",
+    "crimes": 8,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 42,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 28,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 24,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 27,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 17,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 17,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 26,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "rape",
+    "state": "Johor",
+    "crimes": 20,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 5,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 1,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "robbery_gang_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 506,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 528,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 217,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 192,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2020-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 44,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2021-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 39,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2022-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 68,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "robbery_gang_unarmed",
+    "state": "Johor",
+    "crimes": 90,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2016-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 2,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2017-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2018-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 0,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  },
+  {
+    "date": "2019-01-01",
+    "type": "robbery_solo_armed",
+    "state": "Johor",
+    "crimes": 1,
+    "category": "assault",
+    "district": "Johor Bahru Selatan"
+  }
+]

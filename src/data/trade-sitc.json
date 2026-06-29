@@ -1,0 +1,3002 @@
+[
+  {
+    "date": "2000-01-01",
+    "exports": 25431356829.0,
+    "imports": 20823323043.0,
+    "section": "overall"
+  },
+  {
+    "date": "2000-02-01",
+    "exports": 27283174258.0,
+    "imports": 22067338380.0,
+    "section": "overall"
+  },
+  {
+    "date": "2000-03-01",
+    "exports": 31988645788.0,
+    "imports": 24984873231.0,
+    "section": "overall"
+  },
+  {
+    "date": "2000-04-01",
+    "exports": 28902713733.0,
+    "imports": 25500475032.0,
+    "section": "overall"
+  },
+  {
+    "date": "2000-05-01",
+    "exports": 30269492381.0,
+    "imports": 26032155365.0,
+    "section": "overall"
+  },
+  {
+    "date": "2000-06-01",
+    "exports": 31762585998.0,
+    "imports": 26992274608.0,
+    "section": "overall"
+  },
+  {
+    "date": "2000-07-01",
+    "exports": 32704770280.0,
+    "imports": 28657527281.0,
+    "section": "overall"
+  },
+  {
+    "date": "2000-08-01",
+    "exports": 34007709517.0,
+    "imports": 29089502799.0,
+    "section": "overall"
+  },
+  {
+    "date": "2000-09-01",
+    "exports": 34941150362.0,
+    "imports": 28742466416.0,
+    "section": "overall"
+  },
+  {
+    "date": "2000-10-01",
+    "exports": 32971839574.0,
+    "imports": 27281317008.0,
+    "section": "overall"
+  },
+  {
+    "date": "2000-11-01",
+    "exports": 32778559823.0,
+    "imports": 26765489297.0,
+    "section": "overall"
+  },
+  {
+    "date": "2000-12-01",
+    "exports": 30228316955.0,
+    "imports": 24522125807.0,
+    "section": "overall"
+  },
+  {
+    "date": "2001-01-01",
+    "exports": 28054917092.0,
+    "imports": 25014292247.0,
+    "section": "overall"
+  },
+  {
+    "date": "2001-02-01",
+    "exports": 28434980985.0,
+    "imports": 22202158380.0,
+    "section": "overall"
+  },
+  {
+    "date": "2001-03-01",
+    "exports": 29585276901.0,
+    "imports": 25426231891.0,
+    "section": "overall"
+  },
+  {
+    "date": "2001-04-01",
+    "exports": 27333623326.0,
+    "imports": 22863418850.0,
+    "section": "overall"
+  },
+  {
+    "date": "2001-05-01",
+    "exports": 28030322908.0,
+    "imports": 23219540745.0,
+    "section": "overall"
+  },
+  {
+    "date": "2001-06-01",
+    "exports": 27416637806.0,
+    "imports": 24191012370.0,
+    "section": "overall"
+  },
+  {
+    "date": "2001-07-01",
+    "exports": 26923582116.0,
+    "imports": 22568164442.0,
+    "section": "overall"
+  },
+  {
+    "date": "2001-08-01",
+    "exports": 27665106965.0,
+    "imports": 22201261374.0,
+    "section": "overall"
+  },
+  {
+    "date": "2001-09-01",
+    "exports": 27532841779.0,
+    "imports": 22236474758.0,
+    "section": "overall"
+  },
+  {
+    "date": "2001-10-01",
+    "exports": 28708859071.0,
+    "imports": 24373243340.0,
+    "section": "overall"
+  },
+  {
+    "date": "2001-11-01",
+    "exports": 28329918367.0,
+    "imports": 24352770731.0,
+    "section": "overall"
+  },
+  {
+    "date": "2001-12-01",
+    "exports": 26267747322.0,
+    "imports": 21580523897.0,
+    "section": "overall"
+  },
+  {
+    "date": "2002-01-01",
+    "exports": 27316928138.0,
+    "imports": 23032946501.0,
+    "section": "overall"
+  },
+  {
+    "date": "2002-02-01",
+    "exports": 24012915306.0,
+    "imports": 20364232876.0,
+    "section": "overall"
+  },
+  {
+    "date": "2002-03-01",
+    "exports": 30576213580.0,
+    "imports": 25581215994.0,
+    "section": "overall"
+  },
+  {
+    "date": "2002-04-01",
+    "exports": 28983013933.0,
+    "imports": 26948791099.0,
+    "section": "overall"
+  },
+  {
+    "date": "2002-05-01",
+    "exports": 28995522832.0,
+    "imports": 25368194525.0,
+    "section": "overall"
+  },
+  {
+    "date": "2002-06-01",
+    "exports": 29105760441.0,
+    "imports": 24841759927.0,
+    "section": "overall"
+  },
+  {
+    "date": "2002-07-01",
+    "exports": 30946934681.0,
+    "imports": 26869778749.0,
+    "section": "overall"
+  },
+  {
+    "date": "2002-08-01",
+    "exports": 31509652096.0,
+    "imports": 26830891766.0,
+    "section": "overall"
+  },
+  {
+    "date": "2002-09-01",
+    "exports": 31196582867.0,
+    "imports": 26416151108.0,
+    "section": "overall"
+  },
+  {
+    "date": "2002-10-01",
+    "exports": 33023867947.0,
+    "imports": 26994854552.0,
+    "section": "overall"
+  },
+  {
+    "date": "2002-11-01",
+    "exports": 32075412101.0,
+    "imports": 25606045802.0,
+    "section": "overall"
+  },
+  {
+    "date": "2002-12-01",
+    "exports": 29687213053.0,
+    "imports": 24235602593.0,
+    "section": "overall"
+  },
+  {
+    "date": "2003-01-01",
+    "exports": 31622061328.0,
+    "imports": 24541827701.0,
+    "section": "overall"
+  },
+  {
+    "date": "2003-02-01",
+    "exports": 27006772637.0,
+    "imports": 21284135134.0,
+    "section": "overall"
+  },
+  {
+    "date": "2003-03-01",
+    "exports": 33107681531.0,
+    "imports": 25834140270.0,
+    "section": "overall"
+  },
+  {
+    "date": "2003-04-01",
+    "exports": 32155266872.0,
+    "imports": 25463889805.0,
+    "section": "overall"
+  },
+  {
+    "date": "2003-05-01",
+    "exports": 31952415059.0,
+    "imports": 24973417969.0,
+    "section": "overall"
+  },
+  {
+    "date": "2003-06-01",
+    "exports": 32391394845.0,
+    "imports": 24911579076.0,
+    "section": "overall"
+  },
+  {
+    "date": "2003-07-01",
+    "exports": 32997985742.0,
+    "imports": 27596949473.0,
+    "section": "overall"
+  },
+  {
+    "date": "2003-08-01",
+    "exports": 33461772492.0,
+    "imports": 25519297789.0,
+    "section": "overall"
+  },
+  {
+    "date": "2003-09-01",
+    "exports": 34059586361.0,
+    "imports": 27317682752.0,
+    "section": "overall"
+  },
+  {
+    "date": "2003-10-01",
+    "exports": 37106151914.0,
+    "imports": 30368985271.0,
+    "section": "overall"
+  },
+  {
+    "date": "2003-11-01",
+    "exports": 33256041420.0,
+    "imports": 26602971794.0,
+    "section": "overall"
+  },
+  {
+    "date": "2003-12-01",
+    "exports": 38767261027.0,
+    "imports": 32122976140.0,
+    "section": "overall"
+  },
+  {
+    "date": "2004-01-01",
+    "exports": 35316065206.0,
+    "imports": 28518240804.0,
+    "section": "overall"
+  },
+  {
+    "date": "2004-02-01",
+    "exports": 32432734860.0,
+    "imports": 26382054409.0,
+    "section": "overall"
+  },
+  {
+    "date": "2004-03-01",
+    "exports": 40238448602.0,
+    "imports": 33323302835.0,
+    "section": "overall"
+  },
+  {
+    "date": "2004-04-01",
+    "exports": 39876514956.0,
+    "imports": 33525332913.0,
+    "section": "overall"
+  },
+  {
+    "date": "2004-05-01",
+    "exports": 38630957600.0,
+    "imports": 31589334324.0,
+    "section": "overall"
+  },
+  {
+    "date": "2004-06-01",
+    "exports": 39877834310.0,
+    "imports": 34645553686.0,
+    "section": "overall"
+  },
+  {
+    "date": "2004-07-01",
+    "exports": 42435331205.0,
+    "imports": 34929971772.0,
+    "section": "overall"
+  },
+  {
+    "date": "2004-08-01",
+    "exports": 41529135846.0,
+    "imports": 33329564410.0,
+    "section": "overall"
+  },
+  {
+    "date": "2004-09-01",
+    "exports": 44450311537.0,
+    "imports": 37635523962.0,
+    "section": "overall"
+  },
+  {
+    "date": "2004-10-01",
+    "exports": 44128365943.0,
+    "imports": 36031193994.0,
+    "section": "overall"
+  },
+  {
+    "date": "2004-11-01",
+    "exports": 38741533723.0,
+    "imports": 32769530878.0,
+    "section": "overall"
+  },
+  {
+    "date": "2004-12-01",
+    "exports": 43595758641.0,
+    "imports": 36952566941.0,
+    "section": "overall"
+  },
+  {
+    "date": "2005-01-01",
+    "exports": 39205808930.0,
+    "imports": 31245787987.0,
+    "section": "overall"
+  },
+  {
+    "date": "2005-02-01",
+    "exports": 36824804960.0,
+    "imports": 29459812858.0,
+    "section": "overall"
+  },
+  {
+    "date": "2005-03-01",
+    "exports": 46987097029.0,
+    "imports": 36538367802.0,
+    "section": "overall"
+  },
+  {
+    "date": "2005-04-01",
+    "exports": 43797531125.0,
+    "imports": 34996874420.0,
+    "section": "overall"
+  },
+  {
+    "date": "2005-05-01",
+    "exports": 42915869585.0,
+    "imports": 35960427961.0,
+    "section": "overall"
+  },
+  {
+    "date": "2005-06-01",
+    "exports": 44749721803.0,
+    "imports": 36731166921.0,
+    "section": "overall"
+  },
+  {
+    "date": "2005-07-01",
+    "exports": 43784289554.0,
+    "imports": 37599442074.0,
+    "section": "overall"
+  },
+  {
+    "date": "2005-08-01",
+    "exports": 46746312908.0,
+    "imports": 36654458072.0,
+    "section": "overall"
+  },
+  {
+    "date": "2005-09-01",
+    "exports": 48016870418.0,
+    "imports": 39967688863.0,
+    "section": "overall"
+  },
+  {
+    "date": "2005-10-01",
+    "exports": 49748242713.0,
+    "imports": 39129358191.0,
+    "section": "overall"
+  },
+  {
+    "date": "2005-11-01",
+    "exports": 43711720972.0,
+    "imports": 34610917341.0,
+    "section": "overall"
+  },
+  {
+    "date": "2005-12-01",
+    "exports": 49745390585.0,
+    "imports": 39976495173.0,
+    "section": "overall"
+  },
+  {
+    "date": "2006-01-01",
+    "exports": 43199834655.0,
+    "imports": 34170419111.0,
+    "section": "overall"
+  },
+  {
+    "date": "2006-02-01",
+    "exports": 42409082571.0,
+    "imports": 34732835413.0,
+    "section": "overall"
+  },
+  {
+    "date": "2006-03-01",
+    "exports": 51429024693.0,
+    "imports": 41522379826.0,
+    "section": "overall"
+  },
+  {
+    "date": "2006-04-01",
+    "exports": 45900138502.0,
+    "imports": 38715697672.0,
+    "section": "overall"
+  },
+  {
+    "date": "2006-05-01",
+    "exports": 48243868633.0,
+    "imports": 39922705561.0,
+    "section": "overall"
+  },
+  {
+    "date": "2006-06-01",
+    "exports": 49157212456.0,
+    "imports": 40629381278.0,
+    "section": "overall"
+  },
+  {
+    "date": "2006-07-01",
+    "exports": 50558415878.0,
+    "imports": 41131605572.0,
+    "section": "overall"
+  },
+  {
+    "date": "2006-08-01",
+    "exports": 53409587314.0,
+    "imports": 43088296816.0,
+    "section": "overall"
+  },
+  {
+    "date": "2006-09-01",
+    "exports": 53120776711.0,
+    "imports": 42540097169.0,
+    "section": "overall"
+  },
+  {
+    "date": "2006-10-01",
+    "exports": 48039233962.0,
+    "imports": 38296930412.0,
+    "section": "overall"
+  },
+  {
+    "date": "2006-11-01",
+    "exports": 51331488691.0,
+    "imports": 42045124906.0,
+    "section": "overall"
+  },
+  {
+    "date": "2006-12-01",
+    "exports": 52441680434.0,
+    "imports": 41352448828.0,
+    "section": "overall"
+  },
+  {
+    "date": "2007-01-01",
+    "exports": 47982139078.0,
+    "imports": 40337814350.0,
+    "section": "overall"
+  },
+  {
+    "date": "2007-02-01",
+    "exports": 40894793672.0,
+    "imports": 34116194941.0,
+    "section": "overall"
+  },
+  {
+    "date": "2007-03-01",
+    "exports": 48793518306.0,
+    "imports": 42357448820.0,
+    "section": "overall"
+  },
+  {
+    "date": "2007-04-01",
+    "exports": 45968460257.0,
+    "imports": 40212907057.0,
+    "section": "overall"
+  },
+  {
+    "date": "2007-05-01",
+    "exports": 49702123724.0,
+    "imports": 41571812540.0,
+    "section": "overall"
+  },
+  {
+    "date": "2007-06-01",
+    "exports": 49118554366.0,
+    "imports": 40296430982.0,
+    "section": "overall"
+  },
+  {
+    "date": "2007-07-01",
+    "exports": 50384374708.0,
+    "imports": 42443212029.0,
+    "section": "overall"
+  },
+  {
+    "date": "2007-08-01",
+    "exports": 53863036467.0,
+    "imports": 44590871421.0,
+    "section": "overall"
+  },
+  {
+    "date": "2007-09-01",
+    "exports": 54123978975.0,
+    "imports": 42530759776.0,
+    "section": "overall"
+  },
+  {
+    "date": "2007-10-01",
+    "exports": 54763008243.0,
+    "imports": 45374628800.0,
+    "section": "overall"
+  },
+  {
+    "date": "2007-11-01",
+    "exports": 54453930843.0,
+    "imports": 43948747030.0,
+    "section": "overall"
+  },
+  {
+    "date": "2007-12-01",
+    "exports": 54251713780.0,
+    "imports": 44263796596.0,
+    "section": "overall"
+  },
+  {
+    "date": "2008-01-01",
+    "exports": 53180806399.0,
+    "imports": 43209404432.0,
+    "section": "overall"
+  },
+  {
+    "date": "2008-02-01",
+    "exports": 47265650380.0,
+    "imports": 37902956153.0,
+    "section": "overall"
+  },
+  {
+    "date": "2008-03-01",
+    "exports": 51800899053.0,
+    "imports": 43612984629.0,
+    "section": "overall"
+  },
+  {
+    "date": "2008-04-01",
+    "exports": 55743052768.0,
+    "imports": 43230710388.0,
+    "section": "overall"
+  },
+  {
+    "date": "2008-05-01",
+    "exports": 61171154113.0,
+    "imports": 45403684956.0,
+    "section": "overall"
+  },
+  {
+    "date": "2008-06-01",
+    "exports": 58439018495.0,
+    "imports": 45101993279.0,
+    "section": "overall"
+  },
+  {
+    "date": "2008-07-01",
+    "exports": 63471705615.0,
+    "imports": 48727478539.0,
+    "section": "overall"
+  },
+  {
+    "date": "2008-08-01",
+    "exports": 59971938884.0,
+    "imports": 46856632099.0,
+    "section": "overall"
+  },
+  {
+    "date": "2008-09-01",
+    "exports": 62824502592.0,
+    "imports": 47400685451.0,
+    "section": "overall"
+  },
+  {
+    "date": "2008-10-01",
+    "exports": 52823431047.0,
+    "imports": 43708568387.0,
+    "section": "overall"
+  },
+  {
+    "date": "2008-11-01",
+    "exports": 51308452347.0,
+    "imports": 40211898440.0,
+    "section": "overall"
+  },
+  {
+    "date": "2008-12-01",
+    "exports": 45012902913.0,
+    "imports": 34437296964.0,
+    "section": "overall"
+  },
+  {
+    "date": "2009-01-01",
+    "exports": 37002648486.0,
+    "imports": 30070504118.0,
+    "section": "overall"
+  },
+  {
+    "date": "2009-02-01",
+    "exports": 38456095993.0,
+    "imports": 27362322874.0,
+    "section": "overall"
+  },
+  {
+    "date": "2009-03-01",
+    "exports": 42523581045.0,
+    "imports": 30909358931.0,
+    "section": "overall"
+  },
+  {
+    "date": "2009-04-01",
+    "exports": 41181082433.0,
+    "imports": 33715400719.0,
+    "section": "overall"
+  },
+  {
+    "date": "2009-05-01",
+    "exports": 43100989159.0,
+    "imports": 32996217735.0,
+    "section": "overall"
+  },
+  {
+    "date": "2009-06-01",
+    "exports": 45369425461.0,
+    "imports": 35980539906.0,
+    "section": "overall"
+  },
+  {
+    "date": "2009-07-01",
+    "exports": 49312749069.0,
+    "imports": 40988869787.0,
+    "section": "overall"
+  },
+  {
+    "date": "2009-08-01",
+    "exports": 48290955470.0,
+    "imports": 38255048665.0,
+    "section": "overall"
+  },
+  {
+    "date": "2009-09-01",
+    "exports": 47778690853.0,
+    "imports": 37959731261.0,
+    "section": "overall"
+  },
+  {
+    "date": "2009-10-01",
+    "exports": 54687916585.0,
+    "imports": 42803401516.0,
+    "section": "overall"
+  },
+  {
+    "date": "2009-11-01",
+    "exports": 50084844633.0,
+    "imports": 41115630946.0,
+    "section": "overall"
+  },
+  {
+    "date": "2009-12-01",
+    "exports": 54729127467.0,
+    "imports": 42512775825.0,
+    "section": "overall"
+  },
+  {
+    "date": "2010-01-01",
+    "exports": 52527084826.0,
+    "imports": 39445934003.0,
+    "section": "overall"
+  },
+  {
+    "date": "2010-02-01",
+    "exports": 46641030131.0,
+    "imports": 35104863869.0,
+    "section": "overall"
+  },
+  {
+    "date": "2010-03-01",
+    "exports": 59433342729.0,
+    "imports": 45061534362.0,
+    "section": "overall"
+  },
+  {
+    "date": "2010-04-01",
+    "exports": 51896054735.0,
+    "imports": 42706858437.0,
+    "section": "overall"
+  },
+  {
+    "date": "2010-05-01",
+    "exports": 52289540476.0,
+    "imports": 44093839779.0,
+    "section": "overall"
+  },
+  {
+    "date": "2010-06-01",
+    "exports": 52785411913.0,
+    "imports": 46743711854.0,
+    "section": "overall"
+  },
+  {
+    "date": "2010-07-01",
+    "exports": 55329798346.0,
+    "imports": 48386135154.0,
+    "section": "overall"
+  },
+  {
+    "date": "2010-08-01",
+    "exports": 52795410850.0,
+    "imports": 44522912597.0,
+    "section": "overall"
+  },
+  {
+    "date": "2010-09-01",
+    "exports": 50321711031.0,
+    "imports": 43462698542.0,
+    "section": "overall"
+  },
+  {
+    "date": "2010-10-01",
+    "exports": 54903920167.0,
+    "imports": 48123330374.0,
+    "section": "overall"
+  },
+  {
+    "date": "2010-11-01",
+    "exports": 52637383728.0,
+    "imports": 43699771253.0,
+    "section": "overall"
+  },
+  {
+    "date": "2010-12-01",
+    "exports": 57261799111.0,
+    "imports": 47476593113.0,
+    "section": "overall"
+  },
+  {
+    "date": "2011-01-01",
+    "exports": 54683016662.0,
+    "imports": 44904001493.0,
+    "section": "overall"
+  },
+  {
+    "date": "2011-02-01",
+    "exports": 50073854166.0,
+    "imports": 39232560871.0,
+    "section": "overall"
+  },
+  {
+    "date": "2011-03-01",
+    "exports": 62478547229.0,
+    "imports": 50645016733.0,
+    "section": "overall"
+  },
+  {
+    "date": "2011-04-01",
+    "exports": 58315213638.0,
+    "imports": 46777824113.0,
+    "section": "overall"
+  },
+  {
+    "date": "2011-05-01",
+    "exports": 55354448687.0,
+    "imports": 46604122525.0,
+    "section": "overall"
+  },
+  {
+    "date": "2011-06-01",
+    "exports": 59050183477.0,
+    "imports": 50340683663.0,
+    "section": "overall"
+  },
+  {
+    "date": "2011-07-01",
+    "exports": 59656829344.0,
+    "imports": 49780890765.0,
+    "section": "overall"
+  },
+  {
+    "date": "2011-08-01",
+    "exports": 58622809123.0,
+    "imports": 47549200486.0,
+    "section": "overall"
+  },
+  {
+    "date": "2011-09-01",
+    "exports": 58695595436.0,
+    "imports": 49043309539.0,
+    "section": "overall"
+  },
+  {
+    "date": "2011-10-01",
+    "exports": 63347032594.0,
+    "imports": 48939877454.0,
+    "section": "overall"
+  },
+  {
+    "date": "2011-11-01",
+    "exports": 56820840954.0,
+    "imports": 47357700898.0,
+    "section": "overall"
+  },
+  {
+    "date": "2011-12-01",
+    "exports": 60763566000.0,
+    "imports": 52451137812.0,
+    "section": "overall"
+  },
+  {
+    "date": "2012-01-01",
+    "exports": 55113798764.0,
+    "imports": 46299370760.0,
+    "section": "overall"
+  },
+  {
+    "date": "2012-02-01",
+    "exports": 56960978238.0,
+    "imports": 46281107551.0,
+    "section": "overall"
+  },
+  {
+    "date": "2012-03-01",
+    "exports": 62004146713.0,
+    "imports": 51331419683.0,
+    "section": "overall"
+  },
+  {
+    "date": "2012-04-01",
+    "exports": 57876348153.0,
+    "imports": 50222817660.0,
+    "section": "overall"
+  },
+  {
+    "date": "2012-05-01",
+    "exports": 58930911972.0,
+    "imports": 54166561790.0,
+    "section": "overall"
+  },
+  {
+    "date": "2012-06-01",
+    "exports": 61059412421.0,
+    "imports": 51770512288.0,
+    "section": "overall"
+  },
+  {
+    "date": "2012-07-01",
+    "exports": 58051281794.0,
+    "imports": 54504239100.0,
+    "section": "overall"
+  },
+  {
+    "date": "2012-08-01",
+    "exports": 55668073212.0,
+    "imports": 48871576321.0,
+    "section": "overall"
+  },
+  {
+    "date": "2012-09-01",
+    "exports": 59942321870.0,
+    "imports": 53142734185.0,
+    "section": "overall"
+  },
+  {
+    "date": "2012-10-01",
+    "exports": 61229715163.0,
+    "imports": 51686300092.0,
+    "section": "overall"
+  },
+  {
+    "date": "2012-11-01",
+    "exports": 58316825835.0,
+    "imports": 49377602699.0,
+    "section": "overall"
+  },
+  {
+    "date": "2012-12-01",
+    "exports": 57487433652.0,
+    "imports": 49022707677.0,
+    "section": "overall"
+  },
+  {
+    "date": "2013-01-01",
+    "exports": 57080009968.0,
+    "imports": 53724592564.0,
+    "section": "overall"
+  },
+  {
+    "date": "2013-02-01",
+    "exports": 52493269342.0,
+    "imports": 44254804367.0,
+    "section": "overall"
+  },
+  {
+    "date": "2013-03-01",
+    "exports": 60049396558.0,
+    "imports": 55111512364.0,
+    "section": "overall"
+  },
+  {
+    "date": "2013-04-01",
+    "exports": 55836591370.0,
+    "imports": 54771255537.0,
+    "section": "overall"
+  },
+  {
+    "date": "2013-05-01",
+    "exports": 55656734155.0,
+    "imports": 52922490040.0,
+    "section": "overall"
+  },
+  {
+    "date": "2013-06-01",
+    "exports": 56648840040.0,
+    "imports": 52423218308.0,
+    "section": "overall"
+  },
+  {
+    "date": "2013-07-01",
+    "exports": 60629588129.0,
+    "imports": 57863972251.0,
+    "section": "overall"
+  },
+  {
+    "date": "2013-08-01",
+    "exports": 62795949689.0,
+    "imports": 55788771651.0,
+    "section": "overall"
+  },
+  {
+    "date": "2013-09-01",
+    "exports": 63283497110.0,
+    "imports": 54599253291.0,
+    "section": "overall"
+  },
+  {
+    "date": "2013-10-01",
+    "exports": 67193590152.0,
+    "imports": 58561683032.0,
+    "section": "overall"
+  },
+  {
+    "date": "2013-11-01",
+    "exports": 62408583265.0,
+    "imports": 52523550275.0,
+    "section": "overall"
+  },
+  {
+    "date": "2013-12-01",
+    "exports": 65916348664.0,
+    "imports": 56149769627.0,
+    "section": "overall"
+  },
+  {
+    "date": "2014-01-01",
+    "exports": 64053466843.0,
+    "imports": 57609512916.0,
+    "section": "overall"
+  },
+  {
+    "date": "2014-02-01",
+    "exports": 58927613776.0,
+    "imports": 48477971118.0,
+    "section": "overall"
+  },
+  {
+    "date": "2014-03-01",
+    "exports": 64892878701.0,
+    "imports": 55428407399.0,
+    "section": "overall"
+  },
+  {
+    "date": "2014-04-01",
+    "exports": 66197568668.0,
+    "imports": 57488341030.0,
+    "section": "overall"
+  },
+  {
+    "date": "2014-05-01",
+    "exports": 64750457124.0,
+    "imports": 59162806558.0,
+    "section": "overall"
+  },
+  {
+    "date": "2014-06-01",
+    "exports": 61202242885.0,
+    "imports": 57120353139.0,
+    "section": "overall"
+  },
+  {
+    "date": "2014-07-01",
+    "exports": 61062672099.0,
+    "imports": 57476526817.0,
+    "section": "overall"
+  },
+  {
+    "date": "2014-08-01",
+    "exports": 63890106457.0,
+    "imports": 60019750921.0,
+    "section": "overall"
+  },
+  {
+    "date": "2014-09-01",
+    "exports": 64502722880.0,
+    "imports": 55193524314.0,
+    "section": "overall"
+  },
+  {
+    "date": "2014-10-01",
+    "exports": 64986498797.0,
+    "imports": 63903658806.0,
+    "section": "overall"
+  },
+  {
+    "date": "2014-11-01",
+    "exports": 63590930968.0,
+    "imports": 52599104137.0,
+    "section": "overall"
+  },
+  {
+    "date": "2014-12-01",
+    "exports": 67359724198.0,
+    "imports": 58457190152.0,
+    "section": "overall"
+  },
+  {
+    "date": "2015-01-01",
+    "exports": 62971400635.0,
+    "imports": 54641285144.0,
+    "section": "overall"
+  },
+  {
+    "date": "2015-02-01",
+    "exports": 52473779734.0,
+    "imports": 48643971878.0,
+    "section": "overall"
+  },
+  {
+    "date": "2015-03-01",
+    "exports": 65510833005.0,
+    "imports": 58607087941.0,
+    "section": "overall"
+  },
+  {
+    "date": "2015-04-01",
+    "exports": 60046763429.0,
+    "imports": 53707720377.0,
+    "section": "overall"
+  },
+  {
+    "date": "2015-05-01",
+    "exports": 60419471581.0,
+    "imports": 55076894560.0,
+    "section": "overall"
+  },
+  {
+    "date": "2015-06-01",
+    "exports": 64309892901.0,
+    "imports": 56498955578.0,
+    "section": "overall"
+  },
+  {
+    "date": "2015-07-01",
+    "exports": 63319085654.0,
+    "imports": 60830347311.0,
+    "section": "overall"
+  },
+  {
+    "date": "2015-08-01",
+    "exports": 66572612902.0,
+    "imports": 56332681872.0,
+    "section": "overall"
+  },
+  {
+    "date": "2015-09-01",
+    "exports": 70152287958.0,
+    "imports": 60503376192.0,
+    "section": "overall"
+  },
+  {
+    "date": "2015-10-01",
+    "exports": 75741409616.0,
+    "imports": 63635786035.0,
+    "section": "overall"
+  },
+  {
+    "date": "2015-11-01",
+    "exports": 67563449137.0,
+    "imports": 57384937450.0,
+    "section": "overall"
+  },
+  {
+    "date": "2015-12-01",
+    "exports": 68274096386.0,
+    "imports": 59915393156.0,
+    "section": "overall"
+  },
+  {
+    "date": "2016-01-01",
+    "exports": 61850814361.0,
+    "imports": 56455203814.0,
+    "section": "overall"
+  },
+  {
+    "date": "2016-02-01",
+    "exports": 56716656429.0,
+    "imports": 49365944097.0,
+    "section": "overall"
+  },
+  {
+    "date": "2016-03-01",
+    "exports": 66554989271.0,
+    "imports": 55390987779.0,
+    "section": "overall"
+  },
+  {
+    "date": "2016-04-01",
+    "exports": 61319194254.0,
+    "imports": 52285629768.0,
+    "section": "overall"
+  },
+  {
+    "date": "2016-05-01",
+    "exports": 59990439396.0,
+    "imports": 56772615755.0,
+    "section": "overall"
+  },
+  {
+    "date": "2016-06-01",
+    "exports": 66508278398.0,
+    "imports": 60926497367.0,
+    "section": "overall"
+  },
+  {
+    "date": "2016-07-01",
+    "exports": 60067303412.0,
+    "imports": 57967604002.0,
+    "section": "overall"
+  },
+  {
+    "date": "2016-08-01",
+    "exports": 67667606708.0,
+    "imports": 59044699902.0,
+    "section": "overall"
+  },
+  {
+    "date": "2016-09-01",
+    "exports": 68182138079.0,
+    "imports": 60468803189.0,
+    "section": "overall"
+  },
+  {
+    "date": "2016-10-01",
+    "exports": 69334232068.0,
+    "imports": 59452047169.0,
+    "section": "overall"
+  },
+  {
+    "date": "2016-11-01",
+    "exports": 72971032724.0,
+    "imports": 63857551154.0,
+    "section": "overall"
+  },
+  {
+    "date": "2016-12-01",
+    "exports": 75801473347.0,
+    "imports": 66831083624.0,
+    "section": "overall"
+  },
+  {
+    "date": "2017-01-01",
+    "exports": 70309404589.0,
+    "imports": 65439555215.0,
+    "section": "overall"
+  },
+  {
+    "date": "2017-02-01",
+    "exports": 71979306222.0,
+    "imports": 63058521239.0,
+    "section": "overall"
+  },
+  {
+    "date": "2017-03-01",
+    "exports": 82890858103.0,
+    "imports": 77240296485.0,
+    "section": "overall"
+  },
+  {
+    "date": "2017-04-01",
+    "exports": 74243425839.0,
+    "imports": 65210734893.0,
+    "section": "overall"
+  },
+  {
+    "date": "2017-05-01",
+    "exports": 79215990063.0,
+    "imports": 72973424563.0,
+    "section": "overall"
+  },
+  {
+    "date": "2017-06-01",
+    "exports": 72823576835.0,
+    "imports": 62627394536.0,
+    "section": "overall"
+  },
+  {
+    "date": "2017-07-01",
+    "exports": 78747828253.0,
+    "imports": 70589577401.0,
+    "section": "overall"
+  },
+  {
+    "date": "2017-08-01",
+    "exports": 82024847847.0,
+    "imports": 72113002987.0,
+    "section": "overall"
+  },
+  {
+    "date": "2017-09-01",
+    "exports": 77861456973.0,
+    "imports": 69650394535.0,
+    "section": "overall"
+  },
+  {
+    "date": "2017-10-01",
+    "exports": 81862196892.0,
+    "imports": 71851134024.0,
+    "section": "overall"
+  },
+  {
+    "date": "2017-11-01",
+    "exports": 83485946610.0,
+    "imports": 73551888413.0,
+    "section": "overall"
+  },
+  {
+    "date": "2017-12-01",
+    "exports": 79481981178.0,
+    "imports": 72116257900.0,
+    "section": "overall"
+  },
+  {
+    "date": "2018-01-01",
+    "exports": 83252374097.0,
+    "imports": 73201318749.0,
+    "section": "overall"
+  },
+  {
+    "date": "2018-02-01",
+    "exports": 70552338027.0,
+    "imports": 61416781311.0,
+    "section": "overall"
+  },
+  {
+    "date": "2018-03-01",
+    "exports": 84855731676.0,
+    "imports": 69896689462.0,
+    "section": "overall"
+  },
+  {
+    "date": "2018-04-01",
+    "exports": 84636362311.0,
+    "imports": 71373505674.0,
+    "section": "overall"
+  },
+  {
+    "date": "2018-05-01",
+    "exports": 82862036666.0,
+    "imports": 74039605524.0,
+    "section": "overall"
+  },
+  {
+    "date": "2018-06-01",
+    "exports": 78845180411.0,
+    "imports": 72746234032.0,
+    "section": "overall"
+  },
+  {
+    "date": "2018-07-01",
+    "exports": 86474633443.0,
+    "imports": 78349145431.0,
+    "section": "overall"
+  },
+  {
+    "date": "2018-08-01",
+    "exports": 81982175631.0,
+    "imports": 80536081015.0,
+    "section": "overall"
+  },
+  {
+    "date": "2018-09-01",
+    "exports": 83341938041.0,
+    "imports": 67770939016.0,
+    "section": "overall"
+  },
+  {
+    "date": "2018-10-01",
+    "exports": 97122030236.0,
+    "imports": 80270465604.0,
+    "section": "overall"
+  },
+  {
+    "date": "2018-11-01",
+    "exports": 85542538247.0,
+    "imports": 77046310904.0,
+    "section": "overall"
+  },
+  {
+    "date": "2018-12-01",
+    "exports": 84119529105.0,
+    "imports": 73156938920.0,
+    "section": "overall"
+  },
+  {
+    "date": "2019-01-01",
+    "exports": 86340816726.0,
+    "imports": 73921663552.0,
+    "section": "overall"
+  },
+  {
+    "date": "2019-02-01",
+    "exports": 67683054771.0,
+    "imports": 55567217045.0,
+    "section": "overall"
+  },
+  {
+    "date": "2019-03-01",
+    "exports": 85677001848.0,
+    "imports": 69681372619.0,
+    "section": "overall"
+  },
+  {
+    "date": "2019-04-01",
+    "exports": 86227856480.0,
+    "imports": 74376807130.0,
+    "section": "overall"
+  },
+  {
+    "date": "2019-05-01",
+    "exports": 84678578412.0,
+    "imports": 75108549218.0,
+    "section": "overall"
+  },
+  {
+    "date": "2019-06-01",
+    "exports": 76690883882.0,
+    "imports": 65630287982.0,
+    "section": "overall"
+  },
+  {
+    "date": "2019-07-01",
+    "exports": 89764904260.0,
+    "imports": 73796315739.0,
+    "section": "overall"
+  },
+  {
+    "date": "2019-08-01",
+    "exports": 81513265567.0,
+    "imports": 70460901208.0,
+    "section": "overall"
+  },
+  {
+    "date": "2019-09-01",
+    "exports": 78251519636.0,
+    "imports": 69437628887.0,
+    "section": "overall"
+  },
+  {
+    "date": "2019-10-01",
+    "exports": 90860958317.0,
+    "imports": 73288784297.0,
+    "section": "overall"
+  },
+  {
+    "date": "2019-11-01",
+    "exports": 80947366191.0,
+    "imports": 74261125522.0,
+    "section": "overall"
+  },
+  {
+    "date": "2019-12-01",
+    "exports": 86435709989.0,
+    "imports": 73880158481.0,
+    "section": "overall"
+  },
+  {
+    "date": "2020-01-01",
+    "exports": 84288448529.0,
+    "imports": 72249892504.0,
+    "section": "overall"
+  },
+  {
+    "date": "2020-02-01",
+    "exports": 74604085453.0,
+    "imports": 62160441629.0,
+    "section": "overall"
+  },
+  {
+    "date": "2020-03-01",
+    "exports": 80229216382.0,
+    "imports": 68737275003.0,
+    "section": "overall"
+  },
+  {
+    "date": "2020-04-01",
+    "exports": 64911019816.0,
+    "imports": 69375547785.0,
+    "section": "overall"
+  },
+  {
+    "date": "2020-05-01",
+    "exports": 62800999398.0,
+    "imports": 52942892286.0,
+    "section": "overall"
+  },
+  {
+    "date": "2020-06-01",
+    "exports": 82905374179.0,
+    "imports": 62995791618.0,
+    "section": "overall"
+  },
+  {
+    "date": "2020-07-01",
+    "exports": 92682081891.0,
+    "imports": 67424248124.0,
+    "section": "overall"
+  },
+  {
+    "date": "2020-08-01",
+    "exports": 80754283800.0,
+    "imports": 65974870402.0,
+    "section": "overall"
+  },
+  {
+    "date": "2020-09-01",
+    "exports": 88892145201.0,
+    "imports": 66955956809.0,
+    "section": "overall"
+  },
+  {
+    "date": "2020-10-01",
+    "exports": 91190220008.0,
+    "imports": 68930985423.0,
+    "section": "overall"
+  },
+  {
+    "date": "2020-11-01",
+    "exports": 84721268600.0,
+    "imports": 67616623101.0,
+    "section": "overall"
+  },
+  {
+    "date": "2020-12-01",
+    "exports": 95847622662.0,
+    "imports": 75116795059.0,
+    "section": "overall"
+  },
+  {
+    "date": "2021-01-01",
+    "exports": 89676766017.0,
+    "imports": 73057699889.0,
+    "section": "overall"
+  },
+  {
+    "date": "2021-02-01",
+    "exports": 87804311926.0,
+    "imports": 69680094650.0,
+    "section": "overall"
+  },
+  {
+    "date": "2021-03-01",
+    "exports": 105228130706.0,
+    "imports": 80867130551.0,
+    "section": "overall"
+  },
+  {
+    "date": "2021-04-01",
+    "exports": 105630904879.0,
+    "imports": 85293186379.0,
+    "section": "overall"
+  },
+  {
+    "date": "2021-05-01",
+    "exports": 92387496974.0,
+    "imports": 78531656132.0,
+    "section": "overall"
+  },
+  {
+    "date": "2021-06-01",
+    "exports": 105316873234.0,
+    "imports": 83217277093.0,
+    "section": "overall"
+  },
+  {
+    "date": "2021-07-01",
+    "exports": 97124455453.0,
+    "imports": 83564140447.0,
+    "section": "overall"
+  },
+  {
+    "date": "2021-08-01",
+    "exports": 95379368745.0,
+    "imports": 74245022750.0,
+    "section": "overall"
+  },
+  {
+    "date": "2021-09-01",
+    "exports": 110882447759.0,
+    "imports": 84650170712.0,
+    "section": "overall"
+  },
+  {
+    "date": "2021-10-01",
+    "exports": 114488118913.0,
+    "imports": 87905449537.0,
+    "section": "overall"
+  },
+  {
+    "date": "2021-11-01",
+    "exports": 112670570259.0,
+    "imports": 93383639697.0,
+    "section": "overall"
+  },
+  {
+    "date": "2021-12-01",
+    "exports": 124432647966.0,
+    "imports": 92948506276.0,
+    "section": "overall"
+  },
+  {
+    "date": "2022-01-01",
+    "exports": 111060009398.0,
+    "imports": 92822474443.0,
+    "section": "overall"
+  },
+  {
+    "date": "2022-02-01",
+    "exports": 101741736349.0,
+    "imports": 82589281335.0,
+    "section": "overall"
+  },
+  {
+    "date": "2022-03-01",
+    "exports": 131488115750.0,
+    "imports": 105244068249.0,
+    "section": "overall"
+  },
+  {
+    "date": "2022-04-01",
+    "exports": 127482872603.0,
+    "imports": 104107465827.0,
+    "section": "overall"
+  },
+  {
+    "date": "2022-05-01",
+    "exports": 120589641890.0,
+    "imports": 107791338885.0,
+    "section": "overall"
+  },
+  {
+    "date": "2022-06-01",
+    "exports": 144275465344.0,
+    "imports": 121093513037.0,
+    "section": "overall"
+  },
+  {
+    "date": "2022-07-01",
+    "exports": 134325516668.0,
+    "imports": 118486734147.0,
+    "section": "overall"
+  },
+  {
+    "date": "2022-08-01",
+    "exports": 141518884251.0,
+    "imports": 124231338673.0,
+    "section": "overall"
+  },
+  {
+    "date": "2022-09-01",
+    "exports": 144249619884.0,
+    "imports": 112410395977.0,
+    "section": "overall"
+  },
+  {
+    "date": "2022-10-01",
+    "exports": 131977237731.0,
+    "imports": 113518137284.0,
+    "section": "overall"
+  },
+  {
+    "date": "2022-11-01",
+    "exports": 129693918792.0,
+    "imports": 107890405297.0,
+    "section": "overall"
+  },
+  {
+    "date": "2022-12-01",
+    "exports": 131606255974.0,
+    "imports": 103626239002.0,
+    "section": "overall"
+  },
+  {
+    "date": "2023-01-01",
+    "exports": 112665503447.0,
+    "imports": 94508322194.0,
+    "section": "overall"
+  },
+  {
+    "date": "2023-02-01",
+    "exports": 112682126759.0,
+    "imports": 92702965465.0,
+    "section": "overall"
+  },
+  {
+    "date": "2023-03-01",
+    "exports": 129744831494.0,
+    "imports": 104468654122.0,
+    "section": "overall"
+  },
+  {
+    "date": "2023-04-01",
+    "exports": 105165660262.0,
+    "imports": 93820563188.0,
+    "section": "overall"
+  },
+  {
+    "date": "2023-05-01",
+    "exports": 119515771061.0,
+    "imports": 104104705103.0,
+    "section": "overall"
+  },
+  {
+    "date": "2023-06-01",
+    "exports": 123941958756.0,
+    "imports": 94874801836.0,
+    "section": "overall"
+  },
+  {
+    "date": "2023-07-01",
+    "exports": 116765364662.0,
+    "imports": 99458206325.0,
+    "section": "overall"
+  },
+  {
+    "date": "2023-08-01",
+    "exports": 115180797911.0,
+    "imports": 97850425300.0,
+    "section": "overall"
+  },
+  {
+    "date": "2023-09-01",
+    "exports": 124334098167.0,
+    "imports": 99936529323.0,
+    "section": "overall"
+  },
+  {
+    "date": "2023-10-01",
+    "exports": 126151698556.0,
+    "imports": 113187277268.0,
+    "section": "overall"
+  },
+  {
+    "date": "2023-11-01",
+    "exports": 121603985323.0,
+    "imports": 109500988928.0,
+    "section": "overall"
+  },
+  {
+    "date": "2023-12-01",
+    "exports": 118446907960.0,
+    "imports": 106630601597.0,
+    "section": "overall"
+  },
+  {
+    "date": "2024-01-01",
+    "exports": 122410483788.0,
+    "imports": 112237969000.0,
+    "section": "overall"
+  },
+  {
+    "date": "2024-02-01",
+    "exports": 111356905075.0,
+    "imports": 100116365899.0,
+    "section": "overall"
+  },
+  {
+    "date": "2024-03-01",
+    "exports": 128564532464.0,
+    "imports": 115845336043.0,
+    "section": "overall"
+  },
+  {
+    "date": "2024-04-01",
+    "exports": 114695194503.0,
+    "imports": 106953536948.0,
+    "section": "overall"
+  },
+  {
+    "date": "2024-05-01",
+    "exports": 128037443455.0,
+    "imports": 118082517423.0,
+    "section": "overall"
+  },
+  {
+    "date": "2024-06-01",
+    "exports": 126016519225.0,
+    "imports": 100413753072.0,
+    "section": "overall"
+  },
+  {
+    "date": "2024-07-01",
+    "exports": 131146689133.0,
+    "imports": 105034615894.0,
+    "section": "overall"
+  },
+  {
+    "date": "2024-08-01",
+    "exports": 129003536468.0,
+    "imports": 123489842567.0,
+    "section": "overall"
+  },
+  {
+    "date": "2024-09-01",
+    "exports": 123557385057.0,
+    "imports": 110790021705.0,
+    "section": "overall"
+  },
+  {
+    "date": "2024-10-01",
+    "exports": 128138741607.0,
+    "imports": 116269336659.0,
+    "section": "overall"
+  },
+  {
+    "date": "2024-11-01",
+    "exports": 126309940934.0,
+    "imports": 111259497681.0,
+    "section": "overall"
+  },
+  {
+    "date": "2024-12-01",
+    "exports": 138475767192.0,
+    "imports": 119342145998.0,
+    "section": "overall"
+  },
+  {
+    "date": "2025-01-01",
+    "exports": 122814047068.0,
+    "imports": 119155121782.0,
+    "section": "overall"
+  },
+  {
+    "date": "2025-02-01",
+    "exports": 118241868379.0,
+    "imports": 105624939200.0,
+    "section": "overall"
+  },
+  {
+    "date": "2025-03-01",
+    "exports": 137303572007.0,
+    "imports": 112534811159.0,
+    "section": "overall"
+  },
+  {
+    "date": "2025-04-01",
+    "exports": 133499369510.0,
+    "imports": 128369392945.0,
+    "section": "overall"
+  },
+  {
+    "date": "2025-05-01",
+    "exports": 126617562729.0,
+    "imports": 125857686971.0,
+    "section": "overall"
+  },
+  {
+    "date": "2025-06-01",
+    "exports": 121549776461.0,
+    "imports": 113145295367.0,
+    "section": "overall"
+  },
+  {
+    "date": "2025-07-01",
+    "exports": 140062672726.0,
+    "imports": 125457705337.0,
+    "section": "overall"
+  },
+  {
+    "date": "2025-08-01",
+    "exports": 131318386788.0,
+    "imports": 115468555273.0,
+    "section": "overall"
+  },
+  {
+    "date": "2025-09-01",
+    "exports": 139026288355.0,
+    "imports": 118796021480.0,
+    "section": "overall"
+  },
+  {
+    "date": "2025-10-01",
+    "exports": 148329781304.0,
+    "imports": 127912134268.0,
+    "section": "overall"
+  },
+  {
+    "date": "2025-11-01",
+    "exports": 134935089909.0,
+    "imports": 128849859719.0,
+    "section": "overall"
+  },
+  {
+    "date": "2025-12-01",
+    "exports": 152774625539.0,
+    "imports": 130708231035.0,
+    "section": "overall"
+  },
+  {
+    "date": "2026-01-01",
+    "exports": 146827728181.0,
+    "imports": 124869232122.0,
+    "section": "overall"
+  },
+  {
+    "date": "2026-02-01",
+    "exports": 130952350790.0,
+    "imports": 114244329980.0,
+    "section": "overall"
+  },
+  {
+    "date": "2026-03-01",
+    "exports": 148752304156.0,
+    "imports": 124199086437.0,
+    "section": "overall"
+  },
+  {
+    "date": "2000-01-01",
+    "exports": 491864874.0,
+    "imports": 846099009.0,
+    "section": "0"
+  },
+  {
+    "date": "2000-02-01",
+    "exports": 425641394.0,
+    "imports": 830343028.0,
+    "section": "0"
+  },
+  {
+    "date": "2000-03-01",
+    "exports": 553169207.0,
+    "imports": 916847192.0,
+    "section": "0"
+  },
+  {
+    "date": "2000-04-01",
+    "exports": 509671983.0,
+    "imports": 902658686.0,
+    "section": "0"
+  },
+  {
+    "date": "2000-05-01",
+    "exports": 553327793.0,
+    "imports": 998721851.0,
+    "section": "0"
+  },
+  {
+    "date": "2000-06-01",
+    "exports": 574066614.0,
+    "imports": 912421156.0,
+    "section": "0"
+  },
+  {
+    "date": "2000-07-01",
+    "exports": 551376941.0,
+    "imports": 943803644.0,
+    "section": "0"
+  },
+  {
+    "date": "2000-08-01",
+    "exports": 564107493.0,
+    "imports": 936668912.0,
+    "section": "0"
+  },
+  {
+    "date": "2000-09-01",
+    "exports": 579122481.0,
+    "imports": 1010042988.0,
+    "section": "0"
+  },
+  {
+    "date": "2000-10-01",
+    "exports": 541286968.0,
+    "imports": 1053360696.0,
+    "section": "0"
+  },
+  {
+    "date": "2000-11-01",
+    "exports": 580391685.0,
+    "imports": 982309825.0,
+    "section": "0"
+  },
+  {
+    "date": "2000-12-01",
+    "exports": 546274866.0,
+    "imports": 1059836120.0,
+    "section": "0"
+  },
+  {
+    "date": "2001-01-01",
+    "exports": 488496781.0,
+    "imports": 1000678835.0,
+    "section": "0"
+  },
+  {
+    "date": "2001-02-01",
+    "exports": 506056455.0,
+    "imports": 977962266.0,
+    "section": "0"
+  },
+  {
+    "date": "2001-03-01",
+    "exports": 520627270.0,
+    "imports": 931108312.0,
+    "section": "0"
+  },
+  {
+    "date": "2001-04-01",
+    "exports": 527119076.0,
+    "imports": 938563839.0,
+    "section": "0"
+  },
+  {
+    "date": "2001-05-01",
+    "exports": 553798125.0,
+    "imports": 1089869896.0,
+    "section": "0"
+  },
+  {
+    "date": "2001-06-01",
+    "exports": 547169168.0,
+    "imports": 1029817569.0,
+    "section": "0"
+  },
+  {
+    "date": "2001-07-01",
+    "exports": 559665097.0,
+    "imports": 954133170.0,
+    "section": "0"
+  },
+  {
+    "date": "2001-08-01",
+    "exports": 579510226.0,
+    "imports": 1034258649.0,
+    "section": "0"
+  },
+  {
+    "date": "2001-09-01",
+    "exports": 557334557.0,
+    "imports": 1036878312.0,
+    "section": "0"
+  },
+  {
+    "date": "2001-10-01",
+    "exports": 562199767.0,
+    "imports": 1124235746.0,
+    "section": "0"
+  },
+  {
+    "date": "2001-11-01",
+    "exports": 624307845.0,
+    "imports": 1067494850.0,
+    "section": "0"
+  },
+  {
+    "date": "2001-12-01",
+    "exports": 554984663.0,
+    "imports": 1091952831.0,
+    "section": "0"
+  },
+  {
+    "date": "2002-01-01",
+    "exports": 618807890.0,
+    "imports": 1092015086.0,
+    "section": "0"
+  },
+  {
+    "date": "2002-02-01",
+    "exports": 507922027.0,
+    "imports": 851369244.0,
+    "section": "0"
+  },
+  {
+    "date": "2002-03-01",
+    "exports": 608539699.0,
+    "imports": 1038511131.0,
+    "section": "0"
+  },
+  {
+    "date": "2002-04-01",
+    "exports": 589273368.0,
+    "imports": 1032066729.0,
+    "section": "0"
+  },
+  {
+    "date": "2002-05-01",
+    "exports": 575206682.0,
+    "imports": 996594785.0,
+    "section": "0"
+  },
+  {
+    "date": "2002-06-01",
+    "exports": 568683676.0,
+    "imports": 941611765.0,
+    "section": "0"
+  },
+  {
+    "date": "2002-07-01",
+    "exports": 629609655.0,
+    "imports": 1128266920.0,
+    "section": "0"
+  },
+  {
+    "date": "2002-08-01",
+    "exports": 610320314.0,
+    "imports": 1004156211.0,
+    "section": "0"
+  },
+  {
+    "date": "2002-09-01",
+    "exports": 667441109.0,
+    "imports": 1067077977.0,
+    "section": "0"
+  },
+  {
+    "date": "2002-10-01",
+    "exports": 718628382.0,
+    "imports": 1162427932.0,
+    "section": "0"
+  },
+  {
+    "date": "2002-11-01",
+    "exports": 733003956.0,
+    "imports": 1203712015.0,
+    "section": "0"
+  },
+  {
+    "date": "2002-12-01",
+    "exports": 649558467.0,
+    "imports": 921569677.0,
+    "section": "0"
+  },
+  {
+    "date": "2003-01-01",
+    "exports": 755813515.0,
+    "imports": 1202577527.0,
+    "section": "0"
+  },
+  {
+    "date": "2003-02-01",
+    "exports": 557425271.0,
+    "imports": 871309670.0,
+    "section": "0"
+  },
+  {
+    "date": "2003-03-01",
+    "exports": 677252281.0,
+    "imports": 1109637525.0,
+    "section": "0"
+  },
+  {
+    "date": "2003-04-01",
+    "exports": 680298827.0,
+    "imports": 883932738.0,
+    "section": "0"
+  },
+  {
+    "date": "2003-05-01",
+    "exports": 638476867.0,
+    "imports": 931179513.0,
+    "section": "0"
+  },
+  {
+    "date": "2003-06-01",
+    "exports": 682078088.0,
+    "imports": 960067111.0,
+    "section": "0"
+  },
+  {
+    "date": "2003-07-01",
+    "exports": 676117310.0,
+    "imports": 1106935635.0,
+    "section": "0"
+  },
+  {
+    "date": "2003-08-01",
+    "exports": 704538863.0,
+    "imports": 843098442.0,
+    "section": "0"
+  },
+  {
+    "date": "2003-09-01",
+    "exports": 702981181.0,
+    "imports": 963707116.0,
+    "section": "0"
+  },
+  {
+    "date": "2003-10-01",
+    "exports": 824924714.0,
+    "imports": 1217635124.0,
+    "section": "0"
+  },
+  {
+    "date": "2003-11-01",
+    "exports": 700517083.0,
+    "imports": 1196179710.0,
+    "section": "0"
+  },
+  {
+    "date": "2003-12-01",
+    "exports": 823534906.0,
+    "imports": 1441387094.0,
+    "section": "0"
+  },
+  {
+    "date": "2004-01-01",
+    "exports": 669946869.0,
+    "imports": 1351476313.0,
+    "section": "0"
+  },
+  {
+    "date": "2004-02-01",
+    "exports": 712309222.0,
+    "imports": 1063270886.0,
+    "section": "0"
+  },
+  {
+    "date": "2004-03-01",
+    "exports": 800518012.0,
+    "imports": 1286647208.0,
+    "section": "0"
+  },
+  {
+    "date": "2004-04-01",
+    "exports": 863161439.0,
+    "imports": 1401939326.0,
+    "section": "0"
+  },
+  {
+    "date": "2004-05-01",
+    "exports": 796464765.0,
+    "imports": 1239866057.0,
+    "section": "0"
+  },
+  {
+    "date": "2004-06-01",
+    "exports": 880772147.0,
+    "imports": 1470493201.0,
+    "section": "0"
+  },
+  {
+    "date": "2004-07-01",
+    "exports": 869892830.0,
+    "imports": 1449482611.0,
+    "section": "0"
+  },
+  {
+    "date": "2004-08-01",
+    "exports": 870151262.0,
+    "imports": 1437291495.0,
+    "section": "0"
+  },
+  {
+    "date": "2004-09-01",
+    "exports": 892520987.0,
+    "imports": 1424039514.0,
+    "section": "0"
+  },
+  {
+    "date": "2004-10-01",
+    "exports": 934018181.0,
+    "imports": 1518507087.0,
+    "section": "0"
+  },
+  {
+    "date": "2004-11-01",
+    "exports": 796465584.0,
+    "imports": 1322851799.0,
+    "section": "0"
+  },
+  {
+    "date": "2004-12-01",
+    "exports": 940201831.0,
+    "imports": 1516207549.0,
+    "section": "0"
+  },
+  {
+    "date": "2005-01-01",
+    "exports": 788861275.0,
+    "imports": 1529794190.0,
+    "section": "0"
+  },
+  {
+    "date": "2005-02-01",
+    "exports": 721091699.0,
+    "imports": 1140178872.0,
+    "section": "0"
+  },
+  {
+    "date": "2005-03-01",
+    "exports": 936103843.0,
+    "imports": 1464390135.0,
+    "section": "0"
+  },
+  {
+    "date": "2005-04-01",
+    "exports": 843887467.0,
+    "imports": 1693925472.0,
+    "section": "0"
+  },
+  {
+    "date": "2005-05-01",
+    "exports": 862581569.0,
+    "imports": 1226076065.0,
+    "section": "0"
+  },
+  {
+    "date": "2005-06-01",
+    "exports": 884680773.0,
+    "imports": 1568560633.0,
+    "section": "0"
+  },
+  {
+    "date": "2005-07-01",
+    "exports": 876860366.0,
+    "imports": 1575732681.0,
+    "section": "0"
+  },
+  {
+    "date": "2005-08-01",
+    "exports": 960401471.0,
+    "imports": 1357424380.0,
+    "section": "0"
+  },
+  {
+    "date": "2005-09-01",
+    "exports": 1007950141.0,
+    "imports": 1497565628.0,
+    "section": "0"
+  },
+  {
+    "date": "2005-10-01",
+    "exports": 1042556403.0,
+    "imports": 1674862101.0,
+    "section": "0"
+  },
+  {
+    "date": "2005-11-01",
+    "exports": 835027274.0,
+    "imports": 1365962053.0,
+    "section": "0"
+  },
+  {
+    "date": "2005-12-01",
+    "exports": 994944167.0,
+    "imports": 1685697044.0,
+    "section": "0"
+  },
+  {
+    "date": "2006-01-01",
+    "exports": 856111006.0,
+    "imports": 1475040809.0,
+    "section": "0"
+  },
+  {
+    "date": "2006-02-01",
+    "exports": 779645226.0,
+    "imports": 1393848279.0,
+    "section": "0"
+  },
+  {
+    "date": "2006-03-01",
+    "exports": 971002805.0,
+    "imports": 1609911820.0,
+    "section": "0"
+  },
+  {
+    "date": "2006-04-01",
+    "exports": 877837288.0,
+    "imports": 1752884830.0,
+    "section": "0"
+  },
+  {
+    "date": "2006-05-01",
+    "exports": 989455168.0,
+    "imports": 1650607954.0,
+    "section": "0"
+  },
+  {
+    "date": "2006-06-01",
+    "exports": 923962105.0,
+    "imports": 1666700845.0,
+    "section": "0"
+  },
+  {
+    "date": "2006-07-01",
+    "exports": 939836065.0,
+    "imports": 1564581590.0,
+    "section": "0"
+  },
+  {
+    "date": "2006-08-01",
+    "exports": 1007767979.0,
+    "imports": 1802519869.0,
+    "section": "0"
+  },
+  {
+    "date": "2006-09-01",
+    "exports": 1082203208.0,
+    "imports": 1900144255.0,
+    "section": "0"
+  },
+  {
+    "date": "2006-10-01",
+    "exports": 963317265.0,
+    "imports": 1672545434.0,
+    "section": "0"
+  },
+  {
+    "date": "2006-11-01",
+    "exports": 1070887508.0,
+    "imports": 1708812420.0,
+    "section": "0"
+  },
+  {
+    "date": "2006-12-01",
+    "exports": 1019513866.0,
+    "imports": 1770344344.0,
+    "section": "0"
+  },
+  {
+    "date": "2007-01-01",
+    "exports": 1063357572.0,
+    "imports": 1854875338.0,
+    "section": "0"
+  },
+  {
+    "date": "2007-02-01",
+    "exports": 875984014.0,
+    "imports": 1640785514.0,
+    "section": "0"
+  },
+  {
+    "date": "2007-03-01",
+    "exports": 1113137914.0,
+    "imports": 1979927009.0,
+    "section": "0"
+  },
+  {
+    "date": "2007-04-01",
+    "exports": 1080300771.0,
+    "imports": 1875505571.0,
+    "section": "0"
+  },
+  {
+    "date": "2007-05-01",
+    "exports": 1073430948.0,
+    "imports": 1789932610.0,
+    "section": "0"
+  },
+  {
+    "date": "2007-06-01",
+    "exports": 1045789667.0,
+    "imports": 1880421057.0,
+    "section": "0"
+  },
+  {
+    "date": "2007-07-01",
+    "exports": 1123618533.0,
+    "imports": 1762982901.0,
+    "section": "0"
+  },
+  {
+    "date": "2007-08-01",
+    "exports": 1241039175.0,
+    "imports": 2328786914.0,
+    "section": "0"
+  },
+  {
+    "date": "2007-09-01",
+    "exports": 1312080614.0,
+    "imports": 2207031286.0,
+    "section": "0"
+  },
+  {
+    "date": "2007-10-01",
+    "exports": 1252916021.0,
+    "imports": 2049071188.0,
+    "section": "0"
+  },
+  {
+    "date": "2007-11-01",
+    "exports": 1323412319.0,
+    "imports": 1950867611.0,
+    "section": "0"
+  },
+  {
+    "date": "2007-12-01",
+    "exports": 1345424631.0,
+    "imports": 2095667996.0,
+    "section": "0"
+  },
+  {
+    "date": "2008-01-01",
+    "exports": 1343392412.0,
+    "imports": 2249332724.0,
+    "section": "0"
+  },
+  {
+    "date": "2008-02-01",
+    "exports": 1168752553.0,
+    "imports": 2141070124.0,
+    "section": "0"
+  },
+  {
+    "date": "2008-03-01",
+    "exports": 1390029822.0,
+    "imports": 2126888780.0,
+    "section": "0"
+  },
+  {
+    "date": "2008-04-01",
+    "exports": 1385386697.0,
+    "imports": 2411500110.0,
+    "section": "0"
+  },
+  {
+    "date": "2008-05-01",
+    "exports": 1478237328.0,
+    "imports": 2345244053.0,
+    "section": "0"
+  },
+  {
+    "date": "2008-06-01",
+    "exports": 1529913812.0,
+    "imports": 2497363290.0,
+    "section": "0"
+  },
+  {
+    "date": "2008-07-01",
+    "exports": 1617410439.0,
+    "imports": 3032413870.0,
+    "section": "0"
+  },
+  {
+    "date": "2008-08-01",
+    "exports": 1857528478.0,
+    "imports": 2404578639.0,
+    "section": "0"
+  },
+  {
+    "date": "2008-09-01",
+    "exports": 1662793056.0,
+    "imports": 2257600236.0,
+    "section": "0"
+  },
+  {
+    "date": "2008-10-01",
+    "exports": 1476984718.0,
+    "imports": 1889086620.0,
+    "section": "0"
+  },
+  {
+    "date": "2008-11-01",
+    "exports": 1591842592.0,
+    "imports": 2134327521.0,
+    "section": "0"
+  },
+  {
+    "date": "2008-12-01",
+    "exports": 1349440017.0,
+    "imports": 2479854720.0,
+    "section": "0"
+  },
+  {
+    "date": "2009-01-01",
+    "exports": 1220565721.0,
+    "imports": 2204213752.0,
+    "section": "0"
+  },
+  {
+    "date": "2009-02-01",
+    "exports": 1254665437.0,
+    "imports": 1861921722.0,
+    "section": "0"
+  },
+  {
+    "date": "2009-03-01",
+    "exports": 1282217642.0,
+    "imports": 2302641917.0,
+    "section": "0"
+  },
+  {
+    "date": "2009-04-01",
+    "exports": 1254279473.0,
+    "imports": 2247120820.0,
+    "section": "0"
+  },
+  {
+    "date": "2009-05-01",
+    "exports": 1340195990.0,
+    "imports": 2221490522.0,
+    "section": "0"
+  },
+  {
+    "date": "2009-06-01",
+    "exports": 1367877530.0,
+    "imports": 2046973503.0,
+    "section": "0"
+  },
+  {
+    "date": "2009-07-01",
+    "exports": 1296775077.0,
+    "imports": 2493769506.0,
+    "section": "0"
+  },
+  {
+    "date": "2009-08-01",
+    "exports": 1294423456.0,
+    "imports": 2199972585.0,
+    "section": "0"
+  },
+  {
+    "date": "2009-09-01",
+    "exports": 1230723830.0,
+    "imports": 2222967513.0,
+    "section": "0"
+  },
+  {
+    "date": "2009-10-01",
+    "exports": 1448992251.0,
+    "imports": 2399792374.0,
+    "section": "0"
+  },
+  {
+    "date": "2009-11-01",
+    "exports": 1293427604.0,
+    "imports": 2130757155.0,
+    "section": "0"
+  },
+  {
+    "date": "2009-12-01",
+    "exports": 1506853234.0,
+    "imports": 2400499163.0,
+    "section": "0"
+  },
+  {
+    "date": "2010-01-01",
+    "exports": 1413867598.0,
+    "imports": 2600360909.0,
+    "section": "0"
+  },
+  {
+    "date": "2010-02-01",
+    "exports": 1187106832.0,
+    "imports": 2007992743.0,
+    "section": "0"
+  },
+  {
+    "date": "2010-03-01",
+    "exports": 1543728641.0,
+    "imports": 2434839846.0,
+    "section": "0"
+  },
+  {
+    "date": "2010-04-01",
+    "exports": 1473327184.0,
+    "imports": 2632139078.0,
+    "section": "0"
+  },
+  {
+    "date": "2010-05-01",
+    "exports": 1397776912.0,
+    "imports": 2364721326.0,
+    "section": "0"
+  },
+  {
+    "date": "2010-06-01",
+    "exports": 1515580182.0,
+    "imports": 2642802492.0,
+    "section": "0"
+  },
+  {
+    "date": "2010-07-01",
+    "exports": 1590915997.0,
+    "imports": 2780054059.0,
+    "section": "0"
+  },
+  {
+    "date": "2010-08-01",
+    "exports": 1545243760.0,
+    "imports": 2390701900.0,
+    "section": "0"
+  },
+  {
+    "date": "2010-09-01",
+    "exports": 1462438464.0,
+    "imports": 2448625743.0,
+    "section": "0"
+  },
+  {
+    "date": "2010-10-01",
+    "exports": 1676019978.0,
+    "imports": 2315749432.0,
+    "section": "0"
+  },
+  {
+    "date": "2010-11-01",
+    "exports": 1602823959.0,
+    "imports": 2792803926.0,
+    "section": "0"
+  },
+  {
+    "date": "2010-12-01",
+    "exports": 1759139886.0,
+    "imports": 2841968556.0,
+    "section": "0"
+  },
+  {
+    "date": "2011-01-01",
+    "exports": 1628916283.0,
+    "imports": 2715166128.0,
+    "section": "0"
+  },
+  {
+    "date": "2011-02-01",
+    "exports": 1298484107.0,
+    "imports": 2237860949.0,
+    "section": "0"
+  },
+  {
+    "date": "2011-03-01",
+    "exports": 1707159490.0,
+    "imports": 2670584894.0,
+    "section": "0"
+  },
+  {
+    "date": "2011-04-01",
+    "exports": 1686566468.0,
+    "imports": 2946477668.0,
+    "section": "0"
+  },
+  {
+    "date": "2011-05-01",
+    "exports": 1684706807.0,
+    "imports": 2909747006.0,
+    "section": "0"
+  },
+  {
+    "date": "2011-06-01",
+    "exports": 1730539282.0,
+    "imports": 2657855190.0,
+    "section": "0"
+  },
+  {
+    "date": "2011-07-01",
+    "exports": 1760206739.0,
+    "imports": 3340068672.0,
+    "section": "0"
+  },
+  {
+    "date": "2011-08-01",
+    "exports": 1802108477.0,
+    "imports": 2811016450.0,
+    "section": "0"
+  },
+  {
+    "date": "2011-09-01",
+    "exports": 1659414426.0,
+    "imports": 2911267224.0,
+    "section": "0"
+  },
+  {
+    "date": "2011-10-01",
+    "exports": 1852540856.0,
+    "imports": 2761123373.0,
+    "section": "0"
+  },
+  {
+    "date": "2011-11-01",
+    "exports": 1849503721.0,
+    "imports": 3127201024.0,
+    "section": "0"
+  },
+  {
+    "date": "2011-12-01",
+    "exports": 1895072389.0,
+    "imports": 3404149851.0,
+    "section": "0"
+  },
+  {
+    "date": "2012-01-01",
+    "exports": 1526154487.0,
+    "imports": 2971039482.0,
+    "section": "0"
+  },
+  {
+    "date": "2012-02-01",
+    "exports": 1629187894.0,
+    "imports": 2630514377.0,
+    "section": "0"
+  },
+  {
+    "date": "2012-03-01",
+    "exports": 1735642736.0,
+    "imports": 2898189318.0,
+    "section": "0"
+  },
+  {
+    "date": "2012-04-01",
+    "exports": 1606542187.0,
+    "imports": 2858601260.0,
+    "section": "0"
+  },
+  {
+    "date": "2012-05-01",
+    "exports": 1798830758.0,
+    "imports": 3026228211.0,
+    "section": "0"
+  },
+  {
+    "date": "2012-06-01",
+    "exports": 1718673366.0,
+    "imports": 3055428468.0,
+    "section": "0"
+  },
+  {
+    "date": "2012-07-01",
+    "exports": 1718423940.0,
+    "imports": 2867958287.0,
+    "section": "0"
+  },
+  {
+    "date": "2012-08-01",
+    "exports": 1644694536.0,
+    "imports": 3153499924.0,
+    "section": "0"
+  },
+  {
+    "date": "2012-09-01",
+    "exports": 1782839982.0,
+    "imports": 3065036894.0,
+    "section": "0"
+  },
+  {
+    "date": "2012-10-01",
+    "exports": 1844583189.0,
+    "imports": 3254928627.0,
+    "section": "0"
+  },
+  {
+    "date": "2012-11-01",
+    "exports": 1895356457.0,
+    "imports": 3136884092.0,
+    "section": "0"
+  },
+  {
+    "date": "2012-12-01",
+    "exports": 1790970939.0,
+    "imports": 3172197844.0,
+    "section": "0"
+  },
+  {
+    "date": "2013-01-01",
+    "exports": 1782513081.0,
+    "imports": 3024862855.0,
+    "section": "0"
+  },
+  {
+    "date": "2013-02-01",
+    "exports": 1475043436.0,
+    "imports": 2521610855.0,
+    "section": "0"
+  },
+  {
+    "date": "2013-03-01",
+    "exports": 1926441370.0,
+    "imports": 3238917582.0,
+    "section": "0"
+  },
+  {
+    "date": "2013-04-01",
+    "exports": 1868161214.0,
+    "imports": 3055510130.0,
+    "section": "0"
+  },
+  {
+    "date": "2013-05-01",
+    "exports": 1785445129.0,
+    "imports": 3408218954.0,
+    "section": "0"
+  },
+  {
+    "date": "2013-06-01",
+    "exports": 1735944342.0,
+    "imports": 2768494653.0,
+    "section": "0"
+  },
+  {
+    "date": "2013-07-01",
+    "exports": 1909388514.0,
+    "imports": 3474786840.0,
+    "section": "0"
+  },
+  {
+    "date": "2013-08-01",
+    "exports": 1768079556.0,
+    "imports": 3288452427.0,
+    "section": "0"
+  },
+  {
+    "date": "2013-09-01",
+    "exports": 1822570215.0,
+    "imports": 3472837175.0,
+    "section": "0"
+  },
+  {
+    "date": "2013-10-01",
+    "exports": 2065677545.0,
+    "imports": 3548012463.0,
+    "section": "0"
+  },
+  {
+    "date": "2013-11-01",
+    "exports": 2005575454.0,
+    "imports": 3445566368.0,
+    "section": "0"
+  },
+  {
+    "date": "2013-12-01",
+    "exports": 1955700463.0,
+    "imports": 3610089732.0,
+    "section": "0"
+  },
+  {
+    "date": "2014-01-01",
+    "exports": 1924147905.0,
+    "imports": 3861978956.0,
+    "section": "0"
+  },
+  {
+    "date": "2014-02-01",
+    "exports": 1864437058.0,
+    "imports": 3085466347.0,
+    "section": "0"
+  },
+  {
+    "date": "2014-03-01",
+    "exports": 2147872213.0,
+    "imports": 3359734415.0,
+    "section": "0"
+  },
+  {
+    "date": "2014-04-01",
+    "exports": 2217051378.0,
+    "imports": 3245695902.0,
+    "section": "0"
+  },
+  {
+    "date": "2014-05-01",
+    "exports": 2148240165.0,
+    "imports": 3812961160.0,
+    "section": "0"
+  },
+  {
+    "date": "2014-06-01",
+    "exports": 2107861340.0,
+    "imports": 3620084671.0,
+    "section": "0"
+  },
+  {
+    "date": "2014-07-01",
+    "exports": 2063864980.0,
+    "imports": 3370290533.0,
+    "section": "0"
+  },
+  {
+    "date": "2014-08-01",
+    "exports": 2274563620.0,
+    "imports": 3877515677.0,
+    "section": "0"
+  },
+  {
+    "date": "2014-09-01",
+    "exports": 2250055780.0,
+    "imports": 3322208566.0,
+    "section": "0"
+  },
+  {
+    "date": "2014-10-01",
+    "exports": 2266552649.0,
+    "imports": 3885595069.0,
+    "section": "0"
+  },
+  {
+    "date": "2014-11-01",
+    "exports": 2103281134.0,
+    "imports": 3342400973.0,
+    "section": "0"
+  },
+  {
+    "date": "2014-12-01",
+    "exports": 2278736181.0,
+    "imports": 3858698029.0,
+    "section": "0"
+  },
+  {
+    "date": "2015-01-01",
+    "exports": 2135105038.0,
+    "imports": 3775777748.0,
+    "section": "0"
+  },
+  {
+    "date": "2015-02-01",
+    "exports": 1821181716.0,
+    "imports": 3255047678.0,
+    "section": "0"
+  },
+  {
+    "date": "2015-03-01",
+    "exports": 2210867191.0,
+    "imports": 3562183291.0,
+    "section": "0"
+  },
+  {
+    "date": "2015-04-01",
+    "exports": 2130335665.0,
+    "imports": 3570287439.0,
+    "section": "0"
+  },
+  {
+    "date": "2015-05-01",
+    "exports": 2086501793.0,
+    "imports": 3586721496.0,
+    "section": "0"
+  }
+]

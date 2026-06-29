@@ -1,0 +1,902 @@
+[
+  {
+    "app_id": "7",
+    "purpose": "",
+    "app_name": "MyFoodSafe",
+    "released": "2014-12-18",
+    "shutdown": null,
+    "last_updated": "2015-04-03",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "7",
+    "purpose": "",
+    "app_name": "MyFoodSafe",
+    "released": "2014-12-18",
+    "shutdown": null,
+    "last_updated": "2015-04-03",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "7",
+    "purpose": "",
+    "app_name": "MyFoodSafe",
+    "released": "2014-12-18",
+    "shutdown": null,
+    "last_updated": "2015-04-03",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "9",
+    "purpose": "Aplikasi MyHRMIS Mobile merupakan aplikasi mudah alih terbaharu JPA",
+    "app_name": "MyHRMIS Mobile",
+    "released": "2014-12-18",
+    "shutdown": null,
+    "last_updated": "2026-02-24",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "9",
+    "purpose": "Aplikasi MyHRMIS Mobile merupakan aplikasi mudah alih terbaharu JPA",
+    "app_name": "MyHRMIS Mobile",
+    "released": "2014-12-18",
+    "shutdown": null,
+    "last_updated": "2026-02-24",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "9",
+    "purpose": "Aplikasi MyHRMIS Mobile merupakan aplikasi mudah alih terbaharu JPA",
+    "app_name": "MyHRMIS Mobile",
+    "released": "2014-12-18",
+    "shutdown": null,
+    "last_updated": "2026-02-24",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "15",
+    "purpose": "",
+    "app_name": "myJakim",
+    "released": "2014-12-22",
+    "shutdown": null,
+    "last_updated": "2014-12-22",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "15",
+    "purpose": "",
+    "app_name": "myJakim",
+    "released": "2014-12-22",
+    "shutdown": null,
+    "last_updated": "2014-12-22",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "19",
+    "purpose": "",
+    "app_name": "mySPAD",
+    "released": "2014-12-23",
+    "shutdown": null,
+    "last_updated": "2015-04-21",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "19",
+    "purpose": "",
+    "app_name": "mySPAD",
+    "released": "2014-12-23",
+    "shutdown": null,
+    "last_updated": "2015-04-21",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "21",
+    "purpose": "",
+    "app_name": "myHealth",
+    "released": "2015-02-10",
+    "shutdown": null,
+    "last_updated": "2015-04-21",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "21",
+    "purpose": "",
+    "app_name": "myHealth",
+    "released": "2015-02-10",
+    "shutdown": null,
+    "last_updated": "2015-04-21",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "23",
+    "purpose": "",
+    "app_name": "myKPDNKK",
+    "released": "2015-02-11",
+    "shutdown": null,
+    "last_updated": "2015-02-11",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "23",
+    "purpose": "",
+    "app_name": "myKPDNKK",
+    "released": "2015-02-11",
+    "shutdown": null,
+    "last_updated": "2015-02-11",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "27",
+    "purpose": "",
+    "app_name": "1MOCC@Labuan",
+    "released": "2015-04-15",
+    "shutdown": null,
+    "last_updated": "2015-04-15",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "29",
+    "purpose": "",
+    "app_name": "SELAWAT",
+    "released": "2015-04-20",
+    "shutdown": null,
+    "last_updated": "2015-04-21",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "31",
+    "purpose": "",
+    "app_name": "myGiN",
+    "released": "2015-04-20",
+    "shutdown": null,
+    "last_updated": "2015-04-20",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "33",
+    "purpose": "",
+    "app_name": "myMahtas",
+    "released": "2015-04-21",
+    "shutdown": null,
+    "last_updated": "2020-04-03",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "33",
+    "purpose": "",
+    "app_name": "myMahtas",
+    "released": "2015-04-21",
+    "shutdown": null,
+    "last_updated": "2020-04-03",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "35",
+    "purpose": "myCuaca oleh Jabatan Meteorologi Malaysia",
+    "app_name": "myCuaca",
+    "released": "2015-04-21",
+    "shutdown": null,
+    "last_updated": "2024-10-11",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "35",
+    "purpose": "myCuaca oleh Jabatan Meteorologi Malaysia",
+    "app_name": "myCuaca",
+    "released": "2015-04-21",
+    "shutdown": null,
+    "last_updated": "2024-10-11",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "35",
+    "purpose": "myCuaca oleh Jabatan Meteorologi Malaysia",
+    "app_name": "myCuaca",
+    "released": "2015-04-21",
+    "shutdown": null,
+    "last_updated": "2024-10-11",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "39",
+    "purpose": "",
+    "app_name": "NRE Malaysia Eco-Park",
+    "released": "2015-04-21",
+    "shutdown": null,
+    "last_updated": "2015-04-21",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "39",
+    "purpose": "",
+    "app_name": "NRE Malaysia Eco-Park",
+    "released": "2015-04-21",
+    "shutdown": null,
+    "last_updated": "2015-04-21",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "49",
+    "purpose": "",
+    "app_name": "Harga Getah",
+    "released": "2015-06-09",
+    "shutdown": null,
+    "last_updated": "2019-11-15",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "55",
+    "purpose": "",
+    "app_name": "GovDirec",
+    "released": "2015-06-22",
+    "shutdown": null,
+    "last_updated": "2015-06-22",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "57",
+    "purpose": "",
+    "app_name": "iMonitor",
+    "released": "2015-07-07",
+    "shutdown": null,
+    "last_updated": "2015-07-07",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "75",
+    "purpose": "",
+    "app_name": "DocDx",
+    "released": "2015-08-17",
+    "shutdown": null,
+    "last_updated": "2016-05-17",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "75",
+    "purpose": "",
+    "app_name": "DocDx",
+    "released": "2015-08-17",
+    "shutdown": null,
+    "last_updated": "2016-05-17",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "75",
+    "purpose": "",
+    "app_name": "DocDx",
+    "released": "2015-08-17",
+    "shutdown": null,
+    "last_updated": "2016-05-17",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "91",
+    "purpose": "",
+    "app_name": "MeterOn",
+    "released": "2015-10-29",
+    "shutdown": null,
+    "last_updated": "2015-10-29",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "91",
+    "purpose": "",
+    "app_name": "MeterOn",
+    "released": "2015-10-29",
+    "shutdown": null,
+    "last_updated": "2015-10-29",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "93",
+    "purpose": "",
+    "app_name": "KEDAH",
+    "released": "2015-11-03",
+    "shutdown": null,
+    "last_updated": null,
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "93",
+    "purpose": "",
+    "app_name": "KEDAH",
+    "released": "2015-11-03",
+    "shutdown": null,
+    "last_updated": null,
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "113",
+    "purpose": "",
+    "app_name": "NRE*CIA",
+    "released": "2015-11-19",
+    "shutdown": null,
+    "last_updated": "2015-11-19",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "113",
+    "purpose": "",
+    "app_name": "NRE*CIA",
+    "released": "2015-11-19",
+    "shutdown": null,
+    "last_updated": "2015-11-19",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "119",
+    "purpose": "MARDI membangunkan aplikasi ini untuk menyalurkan pengetahuan asas berkaitan penternakan kambing di samping memberi bimbingan dalam aspek pengeluaran kambing.",
+    "app_name": "MARDI Tek. Kambing Pedaging",
+    "released": "2015-12-22",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-15",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "119",
+    "purpose": "MARDI membangunkan aplikasi ini untuk menyalurkan pengetahuan asas berkaitan penternakan kambing di samping memberi bimbingan dalam aspek pengeluaran kambing.",
+    "app_name": "MARDI Tek. Kambing Pedaging",
+    "released": "2015-12-22",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-15",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "119",
+    "purpose": "MARDI membangunkan aplikasi ini untuk menyalurkan pengetahuan asas berkaitan penternakan kambing di samping memberi bimbingan dalam aspek pengeluaran kambing.",
+    "app_name": "MARDI Tek. Kambing Pedaging",
+    "released": "2015-12-22",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-15",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "121",
+    "purpose": "Program penyelidikan dan pembangunan teknologi penternakan lebah kelulut",
+    "app_name": "MARDI Teknologi Lebah Kelulut",
+    "released": "2015-12-22",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-15",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "121",
+    "purpose": "Program penyelidikan dan pembangunan teknologi penternakan lebah kelulut",
+    "app_name": "MARDI Teknologi Lebah Kelulut",
+    "released": "2015-12-22",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-15",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "121",
+    "purpose": "Program penyelidikan dan pembangunan teknologi penternakan lebah kelulut",
+    "app_name": "MARDI Teknologi Lebah Kelulut",
+    "released": "2015-12-22",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-15",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "123",
+    "purpose": "",
+    "app_name": "MARDI Direktori Usahawan",
+    "released": "2015-12-22",
+    "shutdown": null,
+    "last_updated": "2017-12-19",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "125",
+    "purpose": "Aplikasi ini dibangunkan oleh MARDI sebagai panduan permulaan bagi sesiapa yang berminat untuk mendapatkan maklumat berkaitan penanaman cendawan tiram kelabu.",
+    "app_name": "MARDI Penanaman Cendawan Tiram",
+    "released": "2015-12-24",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-15",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "125",
+    "purpose": "Aplikasi ini dibangunkan oleh MARDI sebagai panduan permulaan bagi sesiapa yang berminat untuk mendapatkan maklumat berkaitan penanaman cendawan tiram kelabu.",
+    "app_name": "MARDI Penanaman Cendawan Tiram",
+    "released": "2015-12-24",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-15",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "125",
+    "purpose": "Aplikasi ini dibangunkan oleh MARDI sebagai panduan permulaan bagi sesiapa yang berminat untuk mendapatkan maklumat berkaitan penanaman cendawan tiram kelabu.",
+    "app_name": "MARDI Penanaman Cendawan Tiram",
+    "released": "2015-12-24",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-15",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "127",
+    "purpose": "",
+    "app_name": "MARDI Fertigasi Cili",
+    "released": "2015-12-24",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-21",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "127",
+    "purpose": "",
+    "app_name": "MARDI Fertigasi Cili",
+    "released": "2015-12-24",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-21",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "127",
+    "purpose": "",
+    "app_name": "MARDI Fertigasi Cili",
+    "released": "2015-12-24",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-21",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "129",
+    "purpose": "",
+    "app_name": "MARDI Fertigasi Melon",
+    "released": "2015-12-24",
+    "shutdown": "2023-08-15",
+    "last_updated": "2015-12-24",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "131",
+    "purpose": "",
+    "app_name": "MARDI Hidroponik Salad",
+    "released": "2015-12-24",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-23",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "131",
+    "purpose": "",
+    "app_name": "MARDI Hidroponik Salad",
+    "released": "2015-12-24",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-23",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "131",
+    "purpose": "",
+    "app_name": "MARDI Hidroponik Salad",
+    "released": "2015-12-24",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-23",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "133",
+    "purpose": "",
+    "app_name": "MARDI Padi Aerob",
+    "released": "2015-12-24",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-23",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "133",
+    "purpose": "",
+    "app_name": "MARDI Padi Aerob",
+    "released": "2015-12-24",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-23",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "133",
+    "purpose": "",
+    "app_name": "MARDI Padi Aerob",
+    "released": "2015-12-24",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-23",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "135",
+    "purpose": "MARDI Green Pharmacy",
+    "app_name": "MARDI Green Pharmacy",
+    "released": "2015-12-24",
+    "shutdown": null,
+    "last_updated": "2025-04-29",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "135",
+    "purpose": "MARDI Green Pharmacy",
+    "app_name": "MARDI Green Pharmacy",
+    "released": "2015-12-24",
+    "shutdown": null,
+    "last_updated": "2025-04-29",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "135",
+    "purpose": "MARDI Green Pharmacy",
+    "app_name": "MARDI Green Pharmacy",
+    "released": "2015-12-24",
+    "shutdown": null,
+    "last_updated": "2025-04-29",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "137",
+    "purpose": "",
+    "app_name": "MARDI Fertigasi Tomato",
+    "released": "2015-12-24",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-21",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "137",
+    "purpose": "",
+    "app_name": "MARDI Fertigasi Tomato",
+    "released": "2015-12-24",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-21",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "137",
+    "purpose": "",
+    "app_name": "MARDI Fertigasi Tomato",
+    "released": "2015-12-24",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-21",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "141",
+    "purpose": "",
+    "app_name": "Ez ADU KPDNHEP",
+    "released": "2015-12-24",
+    "shutdown": null,
+    "last_updated": "2020-04-15",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "141",
+    "purpose": "",
+    "app_name": "Ez ADU KPDNHEP",
+    "released": "2015-12-24",
+    "shutdown": null,
+    "last_updated": "2020-04-15",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "143",
+    "purpose": "",
+    "app_name": "MARDI Penternakan Ayam Kampung",
+    "released": "2016-01-08",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-15",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "143",
+    "purpose": "",
+    "app_name": "MARDI Penternakan Ayam Kampung",
+    "released": "2016-01-08",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-15",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "143",
+    "purpose": "",
+    "app_name": "MARDI Penternakan Ayam Kampung",
+    "released": "2016-01-08",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-15",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "145",
+    "purpose": "",
+    "app_name": "MARDI Cendawan Tiram Kelabu",
+    "released": "2016-01-08",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-21",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "145",
+    "purpose": "",
+    "app_name": "MARDI Cendawan Tiram Kelabu",
+    "released": "2016-01-08",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-21",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "145",
+    "purpose": "",
+    "app_name": "MARDI Cendawan Tiram Kelabu",
+    "released": "2016-01-08",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-21",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "147",
+    "purpose": "Aplikasi mudah alih Diagnosa Penyakit dan Serangga Perosak Cili dan juga panduan kepada pengguna untuk mengenalpasti penyakit, cara pengawalan dan cara pengurusan tanaman dengan betul.",
+    "app_name": "MARDI DoktorCili",
+    "released": "2016-01-08",
+    "shutdown": null,
+    "last_updated": "2025-02-19",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "147",
+    "purpose": "Aplikasi mudah alih Diagnosa Penyakit dan Serangga Perosak Cili dan juga panduan kepada pengguna untuk mengenalpasti penyakit, cara pengawalan dan cara pengurusan tanaman dengan betul.",
+    "app_name": "MARDI DoktorCili",
+    "released": "2016-01-08",
+    "shutdown": null,
+    "last_updated": "2025-02-19",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "147",
+    "purpose": "Aplikasi mudah alih Diagnosa Penyakit dan Serangga Perosak Cili dan juga panduan kepada pengguna untuk mengenalpasti penyakit, cara pengawalan dan cara pengurusan tanaman dengan betul.",
+    "app_name": "MARDI DoktorCili",
+    "released": "2016-01-08",
+    "shutdown": null,
+    "last_updated": "2025-02-19",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "149",
+    "purpose": "",
+    "app_name": "MARDI MyKonsultan",
+    "released": "2016-01-08",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-21",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "149",
+    "purpose": "",
+    "app_name": "MARDI MyKonsultan",
+    "released": "2016-01-08",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-21",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "149",
+    "purpose": "",
+    "app_name": "MARDI MyKonsultan",
+    "released": "2016-01-08",
+    "shutdown": "2023-08-15",
+    "last_updated": "2023-08-21",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "159",
+    "purpose": "",
+    "app_name": "MOHR iSTATS",
+    "released": "2016-01-08",
+    "shutdown": null,
+    "last_updated": "2020-04-15",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "159",
+    "purpose": "",
+    "app_name": "MOHR iSTATS",
+    "released": "2016-01-08",
+    "shutdown": null,
+    "last_updated": "2020-04-15",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "161",
+    "purpose": "",
+    "app_name": "i-Pesara",
+    "released": "2016-01-08",
+    "shutdown": null,
+    "last_updated": "2016-01-08",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "163",
+    "purpose": "Sistem Pengurusan Maklumat RELA merupakan satu sistem bersepadu yang menyediakan",
+    "app_name": "RELA Mobile",
+    "released": "2016-01-10",
+    "shutdown": null,
+    "last_updated": "2019-11-15",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "165",
+    "purpose": "Sistem m-PQ",
+    "app_name": "m-PQ",
+    "released": "2016-01-10",
+    "shutdown": null,
+    "last_updated": "2016-09-27",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "165",
+    "purpose": "Sistem m-PQ",
+    "app_name": "m-PQ",
+    "released": "2016-01-10",
+    "shutdown": null,
+    "last_updated": "2016-09-27",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "165",
+    "purpose": "Sistem m-PQ",
+    "app_name": "m-PQ",
+    "released": "2016-01-10",
+    "shutdown": null,
+    "last_updated": "2016-09-27",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "167",
+    "purpose": "",
+    "app_name": "CAMS AGC",
+    "released": "2016-01-12",
+    "shutdown": null,
+    "last_updated": "2019-04-02",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "167",
+    "purpose": "",
+    "app_name": "CAMS AGC",
+    "released": "2016-01-12",
+    "shutdown": null,
+    "last_updated": "2019-04-02",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "169",
+    "purpose": "",
+    "app_name": "PgGOV SMP",
+    "released": "2016-01-18",
+    "shutdown": null,
+    "last_updated": "2016-10-10",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "169",
+    "purpose": "",
+    "app_name": "PgGOV SMP",
+    "released": "2016-01-18",
+    "shutdown": null,
+    "last_updated": "2016-10-10",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "171",
+    "purpose": "",
+    "app_name": "AppSejahtera",
+    "released": "2016-01-21",
+    "shutdown": null,
+    "last_updated": "2018-08-04",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "171",
+    "purpose": "",
+    "app_name": "AppSejahtera",
+    "released": "2016-01-21",
+    "shutdown": null,
+    "last_updated": "2018-08-04",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "171",
+    "purpose": "",
+    "app_name": "AppSejahtera",
+    "released": "2016-01-21",
+    "shutdown": null,
+    "last_updated": "2018-08-04",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "101",
+    "purpose": "",
+    "app_name": "eLatihan Perikanan 1.0",
+    "released": "2016-01-27",
+    "shutdown": "2022-07-15",
+    "last_updated": "2016-01-27",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "101",
+    "purpose": "",
+    "app_name": "eLatihan Perikanan 1.0",
+    "released": "2016-01-27",
+    "shutdown": "2022-07-15",
+    "last_updated": "2016-01-27",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "103",
+    "purpose": "My Ujana merupakan aplikasi bagi membuat carian taman berdekatan anda.",
+    "app_name": "My Ujana",
+    "released": "2016-01-27",
+    "shutdown": null,
+    "last_updated": "2024-12-13",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "103",
+    "purpose": "My Ujana merupakan aplikasi bagi membuat carian taman berdekatan anda.",
+    "app_name": "My Ujana",
+    "released": "2016-01-27",
+    "shutdown": null,
+    "last_updated": "2024-12-13",
+    "app_os_platform": "Huawei"
+  },
+  {
+    "app_id": "103",
+    "purpose": "My Ujana merupakan aplikasi bagi membuat carian taman berdekatan anda.",
+    "app_name": "My Ujana",
+    "released": "2016-01-27",
+    "shutdown": null,
+    "last_updated": "2024-12-13",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "105",
+    "purpose": "",
+    "app_name": "mySPAv2",
+    "released": "2016-01-27",
+    "shutdown": null,
+    "last_updated": "2016-01-27",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "105",
+    "purpose": "",
+    "app_name": "mySPAv2",
+    "released": "2016-01-27",
+    "shutdown": null,
+    "last_updated": "2016-01-27",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "107",
+    "purpose": "",
+    "app_name": "eLesen Perikanan 1.0",
+    "released": "2016-01-27",
+    "shutdown": "2022-07-15",
+    "last_updated": "2020-04-10",
+    "app_os_platform": "Android"
+  },
+  {
+    "app_id": "107",
+    "purpose": "",
+    "app_name": "eLesen Perikanan 1.0",
+    "released": "2016-01-27",
+    "shutdown": "2022-07-15",
+    "last_updated": "2020-04-10",
+    "app_os_platform": "iOS"
+  },
+  {
+    "app_id": "109",
+    "purpose": "",
+    "app_name": "NRE ECO PARK",
+    "released": "2016-01-27",
+    "shutdown": null,
+    "last_updated": "2020-04-15",
+    "app_os_platform": "Android"
+  }
+]

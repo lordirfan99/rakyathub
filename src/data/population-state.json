@@ -1,0 +1,4002 @@
+[
+  {
+    "age": "overall_age",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 4009.7
+  },
+  {
+    "age": "0-4",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 306.3
+  },
+  {
+    "age": "5-9",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 322.3
+  },
+  {
+    "age": "10-14",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 330.7
+  },
+  {
+    "age": "15-19",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 345.2
+  },
+  {
+    "age": "20-24",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 388.9
+  },
+  {
+    "age": "25-29",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 362.6
+  },
+  {
+    "age": "30-34",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 338.1
+  },
+  {
+    "age": "35-39",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 318.1
+  },
+  {
+    "age": "40-44",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 260.1
+  },
+  {
+    "age": "45-49",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 234.3
+  },
+  {
+    "age": "50-54",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 212.1
+  },
+  {
+    "age": "55-59",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 189.1
+  },
+  {
+    "age": "60-64",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 157.2
+  },
+  {
+    "age": "65-69",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 94.9
+  },
+  {
+    "age": "70-74",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 66.0
+  },
+  {
+    "age": "75-79",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 38.1
+  },
+  {
+    "age": "80-84",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 24.7
+  },
+  {
+    "age": "85+",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 20.9
+  },
+  {
+    "age": "overall_age",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 2141.3
+  },
+  {
+    "age": "0-4",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 152.0
+  },
+  {
+    "age": "5-9",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 165.6
+  },
+  {
+    "age": "10-14",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 171.3
+  },
+  {
+    "age": "15-19",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 181.9
+  },
+  {
+    "age": "20-24",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 221.9
+  },
+  {
+    "age": "25-29",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 208.9
+  },
+  {
+    "age": "30-34",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 190.2
+  },
+  {
+    "age": "35-39",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 173.1
+  },
+  {
+    "age": "40-44",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 142.1
+  },
+  {
+    "age": "45-49",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 123.7
+  },
+  {
+    "age": "50-54",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 109.0
+  },
+  {
+    "age": "55-59",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 99.7
+  },
+  {
+    "age": "60-64",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 79.2
+  },
+  {
+    "age": "65-69",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 47.3
+  },
+  {
+    "age": "70-74",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 32.8
+  },
+  {
+    "age": "75-79",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 18.7
+  },
+  {
+    "age": "80-84",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 12.2
+  },
+  {
+    "age": "85+",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 11.6
+  },
+  {
+    "age": "overall_age",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 1868.4
+  },
+  {
+    "age": "0-4",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 154.3
+  },
+  {
+    "age": "5-9",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 156.7
+  },
+  {
+    "age": "10-14",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 159.4
+  },
+  {
+    "age": "15-19",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 163.2
+  },
+  {
+    "age": "20-24",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 167.0
+  },
+  {
+    "age": "25-29",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 153.7
+  },
+  {
+    "age": "30-34",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 147.9
+  },
+  {
+    "age": "35-39",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 144.9
+  },
+  {
+    "age": "40-44",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 118.1
+  },
+  {
+    "age": "45-49",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 110.6
+  },
+  {
+    "age": "50-54",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 103.1
+  },
+  {
+    "age": "55-59",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 89.4
+  },
+  {
+    "age": "60-64",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 78.0
+  },
+  {
+    "age": "65-69",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 47.5
+  },
+  {
+    "age": "70-74",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 33.1
+  },
+  {
+    "age": "75-79",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 19.4
+  },
+  {
+    "age": "80-84",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 12.6
+  },
+  {
+    "age": "85+",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "ethnicity": "overall_ethnicity",
+    "population": 9.3
+  },
+  {
+    "age": "overall_age",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 2131.4
+  },
+  {
+    "age": "0-4",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 181.0
+  },
+  {
+    "age": "5-9",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 183.4
+  },
+  {
+    "age": "10-14",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 174.5
+  },
+  {
+    "age": "15-19",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 187.4
+  },
+  {
+    "age": "20-24",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 219.7
+  },
+  {
+    "age": "25-29",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 196.7
+  },
+  {
+    "age": "30-34",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 154.8
+  },
+  {
+    "age": "35-39",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 132.8
+  },
+  {
+    "age": "40-44",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 117.9
+  },
+  {
+    "age": "45-49",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 113.3
+  },
+  {
+    "age": "50-54",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 109.7
+  },
+  {
+    "age": "55-59",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 103.0
+  },
+  {
+    "age": "60-64",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 88.8
+  },
+  {
+    "age": "65-69",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 66.7
+  },
+  {
+    "age": "70-74",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 45.9
+  },
+  {
+    "age": "75-79",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 25.9
+  },
+  {
+    "age": "80-84",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 17.6
+  },
+  {
+    "age": "85+",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 12.4
+  },
+  {
+    "age": "overall_age",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 1087.3
+  },
+  {
+    "age": "0-4",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 94.1
+  },
+  {
+    "age": "5-9",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 94.7
+  },
+  {
+    "age": "10-14",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 89.7
+  },
+  {
+    "age": "15-19",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 98.4
+  },
+  {
+    "age": "20-24",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 118.6
+  },
+  {
+    "age": "25-29",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 106.0
+  },
+  {
+    "age": "30-34",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 79.7
+  },
+  {
+    "age": "35-39",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 67.3
+  },
+  {
+    "age": "40-44",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 59.7
+  },
+  {
+    "age": "45-49",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 55.3
+  },
+  {
+    "age": "50-54",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 52.5
+  },
+  {
+    "age": "55-59",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 50.3
+  },
+  {
+    "age": "60-64",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 42.1
+  },
+  {
+    "age": "65-69",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 31.9
+  },
+  {
+    "age": "70-74",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 22.3
+  },
+  {
+    "age": "75-79",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 11.5
+  },
+  {
+    "age": "80-84",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 7.6
+  },
+  {
+    "age": "85+",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 5.5
+  },
+  {
+    "age": "overall_age",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 1044.1
+  },
+  {
+    "age": "0-4",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 86.8
+  },
+  {
+    "age": "5-9",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 88.6
+  },
+  {
+    "age": "10-14",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 84.8
+  },
+  {
+    "age": "15-19",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 89.0
+  },
+  {
+    "age": "20-24",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 101.2
+  },
+  {
+    "age": "25-29",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 90.7
+  },
+  {
+    "age": "30-34",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 75.1
+  },
+  {
+    "age": "35-39",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 65.5
+  },
+  {
+    "age": "40-44",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 58.2
+  },
+  {
+    "age": "45-49",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 58.0
+  },
+  {
+    "age": "50-54",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 57.1
+  },
+  {
+    "age": "55-59",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 52.8
+  },
+  {
+    "age": "60-64",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 46.7
+  },
+  {
+    "age": "65-69",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 34.9
+  },
+  {
+    "age": "70-74",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 23.6
+  },
+  {
+    "age": "75-79",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 14.4
+  },
+  {
+    "age": "80-84",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 10.0
+  },
+  {
+    "age": "85+",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "ethnicity": "overall_ethnicity",
+    "population": 6.9
+  },
+  {
+    "age": "overall_age",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 1792.5
+  },
+  {
+    "age": "0-4",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 173.8
+  },
+  {
+    "age": "5-9",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 185.5
+  },
+  {
+    "age": "10-14",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 177.9
+  },
+  {
+    "age": "15-19",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 207.2
+  },
+  {
+    "age": "20-24",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 171.6
+  },
+  {
+    "age": "25-29",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 130.1
+  },
+  {
+    "age": "30-34",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 118.2
+  },
+  {
+    "age": "35-39",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 107.5
+  },
+  {
+    "age": "40-44",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 88.2
+  },
+  {
+    "age": "45-49",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 86.6
+  },
+  {
+    "age": "50-54",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 82.1
+  },
+  {
+    "age": "55-59",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 83.5
+  },
+  {
+    "age": "60-64",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 66.3
+  },
+  {
+    "age": "65-69",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 46.8
+  },
+  {
+    "age": "70-74",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 33.0
+  },
+  {
+    "age": "75-79",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 18.5
+  },
+  {
+    "age": "80-84",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 10.1
+  },
+  {
+    "age": "85+",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 5.8
+  },
+  {
+    "age": "overall_age",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 900.1
+  },
+  {
+    "age": "0-4",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 88.6
+  },
+  {
+    "age": "5-9",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 95.7
+  },
+  {
+    "age": "10-14",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 91.8
+  },
+  {
+    "age": "15-19",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 104.6
+  },
+  {
+    "age": "20-24",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 84.3
+  },
+  {
+    "age": "25-29",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 67.8
+  },
+  {
+    "age": "30-34",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 61.6
+  },
+  {
+    "age": "35-39",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 55.6
+  },
+  {
+    "age": "40-44",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 44.8
+  },
+  {
+    "age": "45-49",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 41.9
+  },
+  {
+    "age": "50-54",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 39.0
+  },
+  {
+    "age": "55-59",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 40.3
+  },
+  {
+    "age": "60-64",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 31.3
+  },
+  {
+    "age": "65-69",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 22.4
+  },
+  {
+    "age": "70-74",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 16.0
+  },
+  {
+    "age": "75-79",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 8.3
+  },
+  {
+    "age": "80-84",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 3.9
+  },
+  {
+    "age": "85+",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 2.1
+  },
+  {
+    "age": "overall_age",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 892.4
+  },
+  {
+    "age": "0-4",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 85.2
+  },
+  {
+    "age": "5-9",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 89.8
+  },
+  {
+    "age": "10-14",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 86.1
+  },
+  {
+    "age": "15-19",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 102.6
+  },
+  {
+    "age": "20-24",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 87.3
+  },
+  {
+    "age": "25-29",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 62.4
+  },
+  {
+    "age": "30-34",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 56.7
+  },
+  {
+    "age": "35-39",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 51.8
+  },
+  {
+    "age": "40-44",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 43.4
+  },
+  {
+    "age": "45-49",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 44.7
+  },
+  {
+    "age": "50-54",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 43.1
+  },
+  {
+    "age": "55-59",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 43.2
+  },
+  {
+    "age": "60-64",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 34.9
+  },
+  {
+    "age": "65-69",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 24.3
+  },
+  {
+    "age": "70-74",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 17.0
+  },
+  {
+    "age": "75-79",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 10.2
+  },
+  {
+    "age": "80-84",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 6.1
+  },
+  {
+    "age": "85+",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "ethnicity": "overall_ethnicity",
+    "population": 3.7
+  },
+  {
+    "age": "overall_age",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 998.4
+  },
+  {
+    "age": "0-4",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 83.1
+  },
+  {
+    "age": "5-9",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 82.2
+  },
+  {
+    "age": "10-14",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 68.7
+  },
+  {
+    "age": "15-19",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 102.6
+  },
+  {
+    "age": "20-24",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 91.5
+  },
+  {
+    "age": "25-29",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 84.4
+  },
+  {
+    "age": "30-34",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 101.8
+  },
+  {
+    "age": "35-39",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 74.3
+  },
+  {
+    "age": "40-44",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 83.4
+  },
+  {
+    "age": "45-49",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 46.1
+  },
+  {
+    "age": "50-54",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 40.7
+  },
+  {
+    "age": "55-59",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 42.4
+  },
+  {
+    "age": "60-64",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 34.0
+  },
+  {
+    "age": "65-69",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 27.4
+  },
+  {
+    "age": "70-74",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 17.5
+  },
+  {
+    "age": "75-79",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 9.1
+  },
+  {
+    "age": "80-84",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 5.9
+  },
+  {
+    "age": "85+",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 3.3
+  },
+  {
+    "age": "overall_age",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 524.9
+  },
+  {
+    "age": "0-4",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 42.9
+  },
+  {
+    "age": "5-9",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 42.6
+  },
+  {
+    "age": "10-14",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 35.9
+  },
+  {
+    "age": "15-19",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 54.3
+  },
+  {
+    "age": "20-24",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 49.0
+  },
+  {
+    "age": "25-29",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 44.5
+  },
+  {
+    "age": "30-34",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 61.7
+  },
+  {
+    "age": "35-39",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 40.4
+  },
+  {
+    "age": "40-44",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 43.5
+  },
+  {
+    "age": "45-49",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 22.9
+  },
+  {
+    "age": "50-54",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 20.0
+  },
+  {
+    "age": "55-59",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 21.0
+  },
+  {
+    "age": "60-64",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 16.8
+  },
+  {
+    "age": "65-69",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 12.9
+  },
+  {
+    "age": "70-74",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 8.5
+  },
+  {
+    "age": "75-79",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 4.3
+  },
+  {
+    "age": "80-84",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 2.5
+  },
+  {
+    "age": "85+",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 1.3
+  },
+  {
+    "age": "overall_age",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 473.5
+  },
+  {
+    "age": "0-4",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 40.2
+  },
+  {
+    "age": "5-9",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 39.6
+  },
+  {
+    "age": "10-14",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 32.7
+  },
+  {
+    "age": "15-19",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 48.2
+  },
+  {
+    "age": "20-24",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 42.5
+  },
+  {
+    "age": "25-29",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 39.9
+  },
+  {
+    "age": "30-34",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 40.1
+  },
+  {
+    "age": "35-39",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 34.0
+  },
+  {
+    "age": "40-44",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 39.9
+  },
+  {
+    "age": "45-49",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 23.2
+  },
+  {
+    "age": "50-54",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 20.7
+  },
+  {
+    "age": "55-59",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 21.5
+  },
+  {
+    "age": "60-64",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 17.3
+  },
+  {
+    "age": "65-69",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 14.5
+  },
+  {
+    "age": "70-74",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 9.0
+  },
+  {
+    "age": "75-79",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 4.8
+  },
+  {
+    "age": "80-84",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 3.4
+  },
+  {
+    "age": "85+",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "ethnicity": "overall_ethnicity",
+    "population": 2.0
+  },
+  {
+    "age": "overall_age",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 1200.0
+  },
+  {
+    "age": "0-4",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 92.4
+  },
+  {
+    "age": "5-9",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 115.8
+  },
+  {
+    "age": "10-14",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 93.9
+  },
+  {
+    "age": "15-19",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 99.6
+  },
+  {
+    "age": "20-24",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 100.8
+  },
+  {
+    "age": "25-29",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 101.3
+  },
+  {
+    "age": "30-34",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 110.7
+  },
+  {
+    "age": "35-39",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 102.6
+  },
+  {
+    "age": "40-44",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 76.3
+  },
+  {
+    "age": "45-49",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 62.8
+  },
+  {
+    "age": "50-54",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 53.8
+  },
+  {
+    "age": "55-59",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 63.0
+  },
+  {
+    "age": "60-64",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 45.7
+  },
+  {
+    "age": "65-69",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 36.8
+  },
+  {
+    "age": "70-74",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 22.9
+  },
+  {
+    "age": "75-79",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 11.2
+  },
+  {
+    "age": "80-84",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 7.1
+  },
+  {
+    "age": "85+",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 3.4
+  },
+  {
+    "age": "overall_age",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 624.0
+  },
+  {
+    "age": "0-4",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 45.5
+  },
+  {
+    "age": "5-9",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 60.4
+  },
+  {
+    "age": "10-14",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 49.9
+  },
+  {
+    "age": "15-19",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 52.4
+  },
+  {
+    "age": "20-24",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 51.9
+  },
+  {
+    "age": "25-29",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 54.5
+  },
+  {
+    "age": "30-34",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 61.4
+  },
+  {
+    "age": "35-39",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 56.3
+  },
+  {
+    "age": "40-44",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 40.1
+  },
+  {
+    "age": "45-49",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 32.5
+  },
+  {
+    "age": "50-54",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 25.9
+  },
+  {
+    "age": "55-59",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 31.3
+  },
+  {
+    "age": "60-64",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 22.1
+  },
+  {
+    "age": "65-69",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 18.4
+  },
+  {
+    "age": "70-74",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 11.4
+  },
+  {
+    "age": "75-79",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 5.4
+  },
+  {
+    "age": "80-84",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 3.2
+  },
+  {
+    "age": "85+",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 1.3
+  },
+  {
+    "age": "overall_age",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 576.0
+  },
+  {
+    "age": "0-4",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 47.0
+  },
+  {
+    "age": "5-9",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 55.4
+  },
+  {
+    "age": "10-14",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 44.0
+  },
+  {
+    "age": "15-19",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 47.3
+  },
+  {
+    "age": "20-24",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 48.9
+  },
+  {
+    "age": "25-29",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 46.8
+  },
+  {
+    "age": "30-34",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 49.3
+  },
+  {
+    "age": "35-39",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 46.3
+  },
+  {
+    "age": "40-44",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 36.3
+  },
+  {
+    "age": "45-49",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 30.3
+  },
+  {
+    "age": "50-54",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 27.9
+  },
+  {
+    "age": "55-59",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 31.6
+  },
+  {
+    "age": "60-64",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 23.5
+  },
+  {
+    "age": "65-69",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 18.3
+  },
+  {
+    "age": "70-74",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 11.5
+  },
+  {
+    "age": "75-79",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 5.8
+  },
+  {
+    "age": "80-84",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 3.8
+  },
+  {
+    "age": "85+",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Negeri Sembilan",
+    "ethnicity": "overall_ethnicity",
+    "population": 2.1
+  },
+  {
+    "age": "overall_age",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 1591.3
+  },
+  {
+    "age": "0-4",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 135.3
+  },
+  {
+    "age": "5-9",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 139.8
+  },
+  {
+    "age": "10-14",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 149.5
+  },
+  {
+    "age": "15-19",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 157.0
+  },
+  {
+    "age": "20-24",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 122.2
+  },
+  {
+    "age": "25-29",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 121.3
+  },
+  {
+    "age": "30-34",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 133.7
+  },
+  {
+    "age": "35-39",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 137.2
+  },
+  {
+    "age": "40-44",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 120.1
+  },
+  {
+    "age": "45-49",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 89.0
+  },
+  {
+    "age": "50-54",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 69.6
+  },
+  {
+    "age": "55-59",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 66.7
+  },
+  {
+    "age": "60-64",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 49.6
+  },
+  {
+    "age": "65-69",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 38.6
+  },
+  {
+    "age": "70-74",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 29.6
+  },
+  {
+    "age": "75-79",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 14.8
+  },
+  {
+    "age": "80-84",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 9.6
+  },
+  {
+    "age": "85+",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 7.7
+  },
+  {
+    "age": "overall_age",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 844.2
+  },
+  {
+    "age": "0-4",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 68.4
+  },
+  {
+    "age": "5-9",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 71.4
+  },
+  {
+    "age": "10-14",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 78.7
+  },
+  {
+    "age": "15-19",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 82.3
+  },
+  {
+    "age": "20-24",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 66.5
+  },
+  {
+    "age": "25-29",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 69.5
+  },
+  {
+    "age": "30-34",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 75.1
+  },
+  {
+    "age": "35-39",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 76.7
+  },
+  {
+    "age": "40-44",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 63.7
+  },
+  {
+    "age": "45-49",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 47.2
+  },
+  {
+    "age": "50-54",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 35.9
+  },
+  {
+    "age": "55-59",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 34.0
+  },
+  {
+    "age": "60-64",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 24.6
+  },
+  {
+    "age": "65-69",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 19.5
+  },
+  {
+    "age": "70-74",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 14.7
+  },
+  {
+    "age": "75-79",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 7.4
+  },
+  {
+    "age": "80-84",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 4.6
+  },
+  {
+    "age": "85+",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 4.0
+  },
+  {
+    "age": "overall_age",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 747.1
+  },
+  {
+    "age": "0-4",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 67.0
+  },
+  {
+    "age": "5-9",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 68.4
+  },
+  {
+    "age": "10-14",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 70.8
+  },
+  {
+    "age": "15-19",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 74.6
+  },
+  {
+    "age": "20-24",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 55.7
+  },
+  {
+    "age": "25-29",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 51.8
+  },
+  {
+    "age": "30-34",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 58.6
+  },
+  {
+    "age": "35-39",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 60.5
+  },
+  {
+    "age": "40-44",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 56.5
+  },
+  {
+    "age": "45-49",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 41.9
+  },
+  {
+    "age": "50-54",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 33.8
+  },
+  {
+    "age": "55-59",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 32.7
+  },
+  {
+    "age": "60-64",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 25.0
+  },
+  {
+    "age": "65-69",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 19.2
+  },
+  {
+    "age": "70-74",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 14.8
+  },
+  {
+    "age": "75-79",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 7.4
+  },
+  {
+    "age": "80-84",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 5.0
+  },
+  {
+    "age": "85+",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pahang",
+    "ethnicity": "overall_ethnicity",
+    "population": 3.7
+  },
+  {
+    "age": "overall_age",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 2496.0
+  },
+  {
+    "age": "0-4",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 170.2
+  },
+  {
+    "age": "5-9",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 210.3
+  },
+  {
+    "age": "10-14",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 198.2
+  },
+  {
+    "age": "15-19",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 222.5
+  },
+  {
+    "age": "20-24",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 220.0
+  },
+  {
+    "age": "25-29",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 187.4
+  },
+  {
+    "age": "30-34",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 189.9
+  },
+  {
+    "age": "35-39",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 192.3
+  },
+  {
+    "age": "40-44",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 168.2
+  },
+  {
+    "age": "45-49",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 135.4
+  },
+  {
+    "age": "50-54",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 128.7
+  },
+  {
+    "age": "55-59",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 138.1
+  },
+  {
+    "age": "60-64",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 111.7
+  },
+  {
+    "age": "65-69",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 90.4
+  },
+  {
+    "age": "70-74",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 63.7
+  },
+  {
+    "age": "75-79",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 34.3
+  },
+  {
+    "age": "80-84",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 22.3
+  },
+  {
+    "age": "85+",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 12.6
+  },
+  {
+    "age": "overall_age",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 1300.2
+  },
+  {
+    "age": "0-4",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 87.6
+  },
+  {
+    "age": "5-9",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 109.5
+  },
+  {
+    "age": "10-14",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 104.0
+  },
+  {
+    "age": "15-19",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 115.9
+  },
+  {
+    "age": "20-24",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 118.4
+  },
+  {
+    "age": "25-29",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 107.5
+  },
+  {
+    "age": "30-34",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 106.6
+  },
+  {
+    "age": "35-39",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 106.0
+  },
+  {
+    "age": "40-44",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 90.4
+  },
+  {
+    "age": "45-49",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 67.4
+  },
+  {
+    "age": "50-54",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 62.6
+  },
+  {
+    "age": "55-59",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 67.4
+  },
+  {
+    "age": "60-64",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 53.8
+  },
+  {
+    "age": "65-69",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 43.1
+  },
+  {
+    "age": "70-74",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 30.1
+  },
+  {
+    "age": "75-79",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 15.7
+  },
+  {
+    "age": "80-84",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 9.5
+  },
+  {
+    "age": "85+",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 4.6
+  },
+  {
+    "age": "overall_age",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 1195.8
+  },
+  {
+    "age": "0-4",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 82.6
+  },
+  {
+    "age": "5-9",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 100.8
+  },
+  {
+    "age": "10-14",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 94.2
+  },
+  {
+    "age": "15-19",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 106.6
+  },
+  {
+    "age": "20-24",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 101.6
+  },
+  {
+    "age": "25-29",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 79.9
+  },
+  {
+    "age": "30-34",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 83.3
+  },
+  {
+    "age": "35-39",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 86.3
+  },
+  {
+    "age": "40-44",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 77.8
+  },
+  {
+    "age": "45-49",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 67.9
+  },
+  {
+    "age": "50-54",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 66.0
+  },
+  {
+    "age": "55-59",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 70.7
+  },
+  {
+    "age": "60-64",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 57.9
+  },
+  {
+    "age": "65-69",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 47.2
+  },
+  {
+    "age": "70-74",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 33.6
+  },
+  {
+    "age": "75-79",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 18.5
+  },
+  {
+    "age": "80-84",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 12.8
+  },
+  {
+    "age": "85+",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perak",
+    "ethnicity": "overall_ethnicity",
+    "population": 8.0
+  },
+  {
+    "age": "overall_age",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 284.9
+  },
+  {
+    "age": "0-4",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 19.1
+  },
+  {
+    "age": "5-9",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 19.4
+  },
+  {
+    "age": "10-14",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 19.7
+  },
+  {
+    "age": "15-19",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 37.1
+  },
+  {
+    "age": "20-24",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 32.3
+  },
+  {
+    "age": "25-29",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 20.9
+  },
+  {
+    "age": "30-34",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 19.6
+  },
+  {
+    "age": "35-39",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 19.3
+  },
+  {
+    "age": "40-44",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 25.9
+  },
+  {
+    "age": "45-49",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 13.1
+  },
+  {
+    "age": "50-54",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 12.5
+  },
+  {
+    "age": "55-59",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 13.0
+  },
+  {
+    "age": "60-64",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 10.5
+  },
+  {
+    "age": "65-69",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 9.3
+  },
+  {
+    "age": "70-74",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 6.0
+  },
+  {
+    "age": "75-79",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 3.5
+  },
+  {
+    "age": "80-84",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 2.2
+  },
+  {
+    "age": "85+",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 1.4
+  },
+  {
+    "age": "overall_age",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 142.3
+  },
+  {
+    "age": "0-4",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 9.9
+  },
+  {
+    "age": "5-9",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 10.1
+  },
+  {
+    "age": "10-14",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 10.3
+  },
+  {
+    "age": "15-19",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 19.4
+  },
+  {
+    "age": "20-24",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 16.0
+  },
+  {
+    "age": "25-29",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 11.1
+  },
+  {
+    "age": "30-34",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 10.1
+  },
+  {
+    "age": "35-39",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 9.9
+  },
+  {
+    "age": "40-44",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 12.7
+  },
+  {
+    "age": "45-49",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 5.7
+  },
+  {
+    "age": "50-54",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 6.0
+  },
+  {
+    "age": "55-59",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 6.3
+  },
+  {
+    "age": "60-64",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 5.0
+  },
+  {
+    "age": "65-69",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 4.1
+  },
+  {
+    "age": "70-74",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 2.9
+  },
+  {
+    "age": "75-79",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 1.6
+  },
+  {
+    "age": "80-84",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 0.9
+  },
+  {
+    "age": "85+",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 0.5
+  },
+  {
+    "age": "overall_age",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 142.5
+  },
+  {
+    "age": "0-4",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 9.3
+  },
+  {
+    "age": "5-9",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 9.3
+  },
+  {
+    "age": "10-14",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 9.4
+  },
+  {
+    "age": "15-19",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 17.7
+  },
+  {
+    "age": "20-24",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 16.3
+  },
+  {
+    "age": "25-29",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 9.8
+  },
+  {
+    "age": "30-34",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 9.5
+  },
+  {
+    "age": "35-39",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 9.5
+  },
+  {
+    "age": "40-44",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 13.2
+  },
+  {
+    "age": "45-49",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 7.4
+  },
+  {
+    "age": "50-54",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 6.5
+  },
+  {
+    "age": "55-59",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 6.7
+  },
+  {
+    "age": "60-64",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 5.5
+  },
+  {
+    "age": "65-69",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 5.2
+  },
+  {
+    "age": "70-74",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 3.2
+  },
+  {
+    "age": "75-79",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 1.9
+  },
+  {
+    "age": "80-84",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 1.3
+  },
+  {
+    "age": "85+",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Perlis",
+    "ethnicity": "overall_ethnicity",
+    "population": 0.9
+  },
+  {
+    "age": "overall_age",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 1740.4
+  },
+  {
+    "age": "0-4",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 117.6
+  },
+  {
+    "age": "5-9",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 117.0
+  },
+  {
+    "age": "10-14",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 115.2
+  },
+  {
+    "age": "15-19",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 127.7
+  },
+  {
+    "age": "20-24",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 162.3
+  },
+  {
+    "age": "25-29",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 175.0
+  },
+  {
+    "age": "30-34",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 153.7
+  },
+  {
+    "age": "35-39",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 147.6
+  },
+  {
+    "age": "40-44",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 119.8
+  },
+  {
+    "age": "45-49",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 113.3
+  },
+  {
+    "age": "50-54",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 105.0
+  },
+  {
+    "age": "55-59",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 91.4
+  },
+  {
+    "age": "60-64",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 79.8
+  },
+  {
+    "age": "65-69",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 52.3
+  },
+  {
+    "age": "70-74",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 32.0
+  },
+  {
+    "age": "75-79",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 16.5
+  },
+  {
+    "age": "80-84",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 9.2
+  },
+  {
+    "age": "85+",
+    "sex": "overall_sex",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 5.1
+  },
+  {
+    "age": "overall_age",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 892.6
+  },
+  {
+    "age": "0-4",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 61.6
+  },
+  {
+    "age": "5-9",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 62.4
+  },
+  {
+    "age": "10-14",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 61.4
+  },
+  {
+    "age": "15-19",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 65.3
+  },
+  {
+    "age": "20-24",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 84.4
+  },
+  {
+    "age": "25-29",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 92.3
+  },
+  {
+    "age": "30-34",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 76.9
+  },
+  {
+    "age": "35-39",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 75.9
+  },
+  {
+    "age": "40-44",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 62.2
+  },
+  {
+    "age": "45-49",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 57.7
+  },
+  {
+    "age": "50-54",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 52.6
+  },
+  {
+    "age": "55-59",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 46.0
+  },
+  {
+    "age": "60-64",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 39.7
+  },
+  {
+    "age": "65-69",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 25.4
+  },
+  {
+    "age": "70-74",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 15.5
+  },
+  {
+    "age": "75-79",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 7.7
+  },
+  {
+    "age": "80-84",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 3.9
+  },
+  {
+    "age": "85+",
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 1.7
+  },
+  {
+    "age": "overall_age",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 847.9
+  },
+  {
+    "age": "0-4",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 56.0
+  },
+  {
+    "age": "5-9",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 54.6
+  },
+  {
+    "age": "10-14",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 53.8
+  },
+  {
+    "age": "15-19",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 62.4
+  },
+  {
+    "age": "20-24",
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Pulau Pinang",
+    "ethnicity": "overall_ethnicity",
+    "population": 78.0
+  }
+]

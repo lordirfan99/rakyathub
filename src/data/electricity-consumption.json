@@ -1,0 +1,2342 @@
+[
+  {
+    "date": "2018-01-01",
+    "sector": "total",
+    "consumption": 13156.104056110958
+  },
+  {
+    "date": "2018-02-01",
+    "sector": "total",
+    "consumption": 12097.296631038118
+  },
+  {
+    "date": "2018-03-01",
+    "sector": "total",
+    "consumption": 14028.97949296315
+  },
+  {
+    "date": "2018-04-01",
+    "sector": "total",
+    "consumption": 13604.82168855314
+  },
+  {
+    "date": "2018-05-01",
+    "sector": "total",
+    "consumption": 13934.682724633209
+  },
+  {
+    "date": "2018-06-01",
+    "sector": "total",
+    "consumption": 13347.707247758404
+  },
+  {
+    "date": "2018-07-01",
+    "sector": "total",
+    "consumption": 14252.213182557198
+  },
+  {
+    "date": "2018-08-01",
+    "sector": "total",
+    "consumption": 14342.897929654371
+  },
+  {
+    "date": "2018-09-01",
+    "sector": "total",
+    "consumption": 13359.051890100947
+  },
+  {
+    "date": "2018-10-01",
+    "sector": "total",
+    "consumption": 14082.365777453364
+  },
+  {
+    "date": "2018-11-01",
+    "sector": "total",
+    "consumption": 13550.993234309417
+  },
+  {
+    "date": "2018-12-01",
+    "sector": "total",
+    "consumption": 13730.575007967718
+  },
+  {
+    "date": "2019-01-01",
+    "sector": "total",
+    "consumption": 14108.832544588864
+  },
+  {
+    "date": "2019-02-01",
+    "sector": "total",
+    "consumption": 12616.771694541756
+  },
+  {
+    "date": "2019-03-01",
+    "sector": "total",
+    "consumption": 14632.336974068377
+  },
+  {
+    "date": "2019-04-01",
+    "sector": "total",
+    "consumption": 14371.725167308241
+  },
+  {
+    "date": "2019-05-01",
+    "sector": "total",
+    "consumption": 14694.2339605227
+  },
+  {
+    "date": "2019-06-01",
+    "sector": "total",
+    "consumption": 13546.968095815266
+  },
+  {
+    "date": "2019-07-01",
+    "sector": "total",
+    "consumption": 14501.535452615077
+  },
+  {
+    "date": "2019-08-01",
+    "sector": "total",
+    "consumption": 14356.73955328454
+  },
+  {
+    "date": "2019-09-01",
+    "sector": "total",
+    "consumption": 13967.939356520088
+  },
+  {
+    "date": "2019-10-01",
+    "sector": "total",
+    "consumption": 14104.110340336487
+  },
+  {
+    "date": "2019-11-01",
+    "sector": "total",
+    "consumption": 13727.232622115796
+  },
+  {
+    "date": "2019-12-01",
+    "sector": "total",
+    "consumption": 13811.128407282811
+  },
+  {
+    "date": "2020-01-01",
+    "sector": "total",
+    "consumption": 14196.160220969576
+  },
+  {
+    "date": "2020-02-01",
+    "sector": "total",
+    "consumption": 13556.968139401051
+  },
+  {
+    "date": "2020-03-01",
+    "sector": "total",
+    "consumption": 13522.390798413617
+  },
+  {
+    "date": "2020-04-01",
+    "sector": "total",
+    "consumption": 11685.346570940272
+  },
+  {
+    "date": "2020-05-01",
+    "sector": "total",
+    "consumption": 13263.175715859014
+  },
+  {
+    "date": "2020-06-01",
+    "sector": "total",
+    "consumption": 13290.318082218557
+  },
+  {
+    "date": "2020-07-01",
+    "sector": "total",
+    "consumption": 13866.936196377797
+  },
+  {
+    "date": "2020-08-01",
+    "sector": "total",
+    "consumption": 14262.416222790402
+  },
+  {
+    "date": "2020-09-01",
+    "sector": "total",
+    "consumption": 13726.89329859833
+  },
+  {
+    "date": "2020-10-01",
+    "sector": "total",
+    "consumption": 14291.295161922279
+  },
+  {
+    "date": "2020-11-01",
+    "sector": "total",
+    "consumption": 13434.773193759025
+  },
+  {
+    "date": "2020-12-01",
+    "sector": "total",
+    "consumption": 13849.255644614743
+  },
+  {
+    "date": "2021-01-01",
+    "sector": "total",
+    "consumption": 13569.243090006545
+  },
+  {
+    "date": "2021-02-01",
+    "sector": "total",
+    "consumption": 12805.177817773103
+  },
+  {
+    "date": "2021-03-01",
+    "sector": "total",
+    "consumption": 14849.603943127371
+  },
+  {
+    "date": "2021-04-01",
+    "sector": "total",
+    "consumption": 14349.456008570443
+  },
+  {
+    "date": "2021-05-01",
+    "sector": "total",
+    "consumption": 14451.451246251247
+  },
+  {
+    "date": "2021-06-01",
+    "sector": "total",
+    "consumption": 12675.286826846845
+  },
+  {
+    "date": "2021-07-01",
+    "sector": "total",
+    "consumption": 13227.838629922124
+  },
+  {
+    "date": "2021-08-01",
+    "sector": "total",
+    "consumption": 13589.054742596794
+  },
+  {
+    "date": "2021-09-01",
+    "sector": "total",
+    "consumption": 13810.493340577848
+  },
+  {
+    "date": "2021-10-01",
+    "sector": "total",
+    "consumption": 14879.946884161962
+  },
+  {
+    "date": "2021-11-01",
+    "sector": "total",
+    "consumption": 14137.371034829546
+  },
+  {
+    "date": "2021-12-01",
+    "sector": "total",
+    "consumption": 14505.968158195014
+  },
+  {
+    "date": "2022-01-01",
+    "sector": "total",
+    "consumption": 14321.22266543781
+  },
+  {
+    "date": "2022-02-01",
+    "sector": "total",
+    "consumption": 12833.771962361856
+  },
+  {
+    "date": "2022-03-01",
+    "sector": "total",
+    "consumption": 14840.09976007125
+  },
+  {
+    "date": "2022-04-01",
+    "sector": "total",
+    "consumption": 14471.668097829996
+  },
+  {
+    "date": "2022-05-01",
+    "sector": "total",
+    "consumption": 14868.395857793854
+  },
+  {
+    "date": "2022-06-01",
+    "sector": "total",
+    "consumption": 14507.142867019453
+  },
+  {
+    "date": "2022-07-01",
+    "sector": "total",
+    "consumption": 14950.457427254234
+  },
+  {
+    "date": "2022-08-01",
+    "sector": "total",
+    "consumption": 14930.658295484422
+  },
+  {
+    "date": "2022-09-01",
+    "sector": "total",
+    "consumption": 14273.38032943555
+  },
+  {
+    "date": "2022-10-01",
+    "sector": "total",
+    "consumption": 14555.450282022772
+  },
+  {
+    "date": "2022-11-01",
+    "sector": "total",
+    "consumption": 14072.688792123277
+  },
+  {
+    "date": "2022-12-01",
+    "sector": "total",
+    "consumption": 14194.847895082159
+  },
+  {
+    "date": "2023-01-01",
+    "sector": "total",
+    "consumption": 14079.372866387892
+  },
+  {
+    "date": "2023-02-01",
+    "sector": "total",
+    "consumption": 13128.728768307175
+  },
+  {
+    "date": "2023-03-01",
+    "sector": "total",
+    "consumption": 14900.191701966496
+  },
+  {
+    "date": "2023-04-01",
+    "sector": "total",
+    "consumption": 14417.522463521951
+  },
+  {
+    "date": "2023-05-01",
+    "sector": "total",
+    "consumption": 15763.358719041107
+  },
+  {
+    "date": "2023-06-01",
+    "sector": "total",
+    "consumption": 14907.699525000004
+  },
+  {
+    "date": "2023-07-01",
+    "sector": "total",
+    "consumption": 15199.793747
+  },
+  {
+    "date": "2023-08-01",
+    "sector": "total",
+    "consumption": 15310.096258000001
+  },
+  {
+    "date": "2023-09-01",
+    "sector": "total",
+    "consumption": 14790.533463999998
+  },
+  {
+    "date": "2023-10-01",
+    "sector": "total",
+    "consumption": 15594.351988999999
+  },
+  {
+    "date": "2023-11-01",
+    "sector": "total",
+    "consumption": 14722.831024
+  },
+  {
+    "date": "2023-12-01",
+    "sector": "total",
+    "consumption": 14931.447376
+  },
+  {
+    "date": "2024-01-01",
+    "sector": "total",
+    "consumption": 15175.768119999997
+  },
+  {
+    "date": "2024-02-01",
+    "sector": "total",
+    "consumption": 14560.930988645057
+  },
+  {
+    "date": "2024-03-01",
+    "sector": "total",
+    "consumption": 16192.666538403739
+  },
+  {
+    "date": "2024-04-01",
+    "sector": "total",
+    "consumption": 15508.054513047116
+  },
+  {
+    "date": "2024-05-01",
+    "sector": "total",
+    "consumption": 16396.77517399459
+  },
+  {
+    "date": "2024-06-01",
+    "sector": "total",
+    "consumption": 15431.39970458838
+  },
+  {
+    "date": "2018-01-01",
+    "sector": "local",
+    "consumption": 11845.900250366072
+  },
+  {
+    "date": "2018-02-01",
+    "sector": "local",
+    "consumption": 11091.957006488283
+  },
+  {
+    "date": "2018-03-01",
+    "sector": "local",
+    "consumption": 12244.089946954538
+  },
+  {
+    "date": "2018-04-01",
+    "sector": "local",
+    "consumption": 12018.584576828398
+  },
+  {
+    "date": "2018-05-01",
+    "sector": "local",
+    "consumption": 12267.998389828028
+  },
+  {
+    "date": "2018-06-01",
+    "sector": "local",
+    "consumption": 11718.327747654244
+  },
+  {
+    "date": "2018-07-01",
+    "sector": "local",
+    "consumption": 12549.891139322239
+  },
+  {
+    "date": "2018-08-01",
+    "sector": "local",
+    "consumption": 12523.897610381391
+  },
+  {
+    "date": "2018-09-01",
+    "sector": "local",
+    "consumption": 11959.078381002888
+  },
+  {
+    "date": "2018-10-01",
+    "sector": "local",
+    "consumption": 12524.427860172873
+  },
+  {
+    "date": "2018-11-01",
+    "sector": "local",
+    "consumption": 12068.57475425387
+  },
+  {
+    "date": "2018-12-01",
+    "sector": "local",
+    "consumption": 12375.386214747177
+  },
+  {
+    "date": "2019-01-01",
+    "sector": "local",
+    "consumption": 12551.019664803756
+  },
+  {
+    "date": "2019-02-01",
+    "sector": "local",
+    "consumption": 11566.876328724595
+  },
+  {
+    "date": "2019-03-01",
+    "sector": "local",
+    "consumption": 12750.44043299862
+  },
+  {
+    "date": "2019-04-01",
+    "sector": "local",
+    "consumption": 12943.806407009228
+  },
+  {
+    "date": "2019-05-01",
+    "sector": "local",
+    "consumption": 12786.932297938525
+  },
+  {
+    "date": "2019-06-01",
+    "sector": "local",
+    "consumption": 12157.910354688142
+  },
+  {
+    "date": "2019-07-01",
+    "sector": "local",
+    "consumption": 12766.752171364002
+  },
+  {
+    "date": "2019-08-01",
+    "sector": "local",
+    "consumption": 12730.101089160806
+  },
+  {
+    "date": "2019-09-01",
+    "sector": "local",
+    "consumption": 12359.448876536553
+  },
+  {
+    "date": "2019-10-01",
+    "sector": "local",
+    "consumption": 12544.54287188919
+  },
+  {
+    "date": "2019-11-01",
+    "sector": "local",
+    "consumption": 12220.807380677976
+  },
+  {
+    "date": "2019-12-01",
+    "sector": "local",
+    "consumption": 12375.776498279754
+  },
+  {
+    "date": "2020-01-01",
+    "sector": "local",
+    "consumption": 12663.716738107407
+  },
+  {
+    "date": "2020-02-01",
+    "sector": "local",
+    "consumption": 12249.906878283657
+  },
+  {
+    "date": "2020-03-01",
+    "sector": "local",
+    "consumption": 11699.290989351843
+  },
+  {
+    "date": "2020-04-01",
+    "sector": "local",
+    "consumption": 10349.141634806634
+  },
+  {
+    "date": "2020-05-01",
+    "sector": "local",
+    "consumption": 11570.619048745171
+  },
+  {
+    "date": "2020-06-01",
+    "sector": "local",
+    "consumption": 11751.316874619091
+  },
+  {
+    "date": "2020-07-01",
+    "sector": "local",
+    "consumption": 12381.463346189073
+  },
+  {
+    "date": "2020-08-01",
+    "sector": "local",
+    "consumption": 12543.160058752128
+  },
+  {
+    "date": "2020-09-01",
+    "sector": "local",
+    "consumption": 12436.148407303446
+  },
+  {
+    "date": "2020-10-01",
+    "sector": "local",
+    "consumption": 12758.637190295922
+  },
+  {
+    "date": "2020-11-01",
+    "sector": "local",
+    "consumption": 12122.769498085523
+  },
+  {
+    "date": "2020-12-01",
+    "sector": "local",
+    "consumption": 12231.228997967688
+  },
+  {
+    "date": "2021-01-01",
+    "sector": "local",
+    "consumption": 12157.209476818183
+  },
+  {
+    "date": "2021-02-01",
+    "sector": "local",
+    "consumption": 11595.539692391305
+  },
+  {
+    "date": "2021-03-01",
+    "sector": "local",
+    "consumption": 12960.81040007616
+  },
+  {
+    "date": "2021-04-01",
+    "sector": "local",
+    "consumption": 12718.137118598423
+  },
+  {
+    "date": "2021-05-01",
+    "sector": "local",
+    "consumption": 12675.56142460442
+  },
+  {
+    "date": "2021-06-01",
+    "sector": "local",
+    "consumption": 11100.331582430035
+  },
+  {
+    "date": "2021-07-01",
+    "sector": "local",
+    "consumption": 11590.082115172583
+  },
+  {
+    "date": "2021-08-01",
+    "sector": "local",
+    "consumption": 12011.964066766823
+  },
+  {
+    "date": "2021-09-01",
+    "sector": "local",
+    "consumption": 12446.853350471847
+  },
+  {
+    "date": "2021-10-01",
+    "sector": "local",
+    "consumption": 13086.443119099726
+  },
+  {
+    "date": "2021-11-01",
+    "sector": "local",
+    "consumption": 12708.140604309527
+  },
+  {
+    "date": "2021-12-01",
+    "sector": "local",
+    "consumption": 12956.134257063819
+  },
+  {
+    "date": "2022-01-01",
+    "sector": "local",
+    "consumption": 12936.42689543781
+  },
+  {
+    "date": "2022-02-01",
+    "sector": "local",
+    "consumption": 11899.223610061854
+  },
+  {
+    "date": "2022-03-01",
+    "sector": "local",
+    "consumption": 13252.140207006954
+  },
+  {
+    "date": "2022-04-01",
+    "sector": "local",
+    "consumption": 13132.168277829996
+  },
+  {
+    "date": "2022-05-01",
+    "sector": "local",
+    "consumption": 13254.941392793851
+  },
+  {
+    "date": "2022-06-01",
+    "sector": "local",
+    "consumption": 13244.199491819452
+  },
+  {
+    "date": "2022-07-01",
+    "sector": "local",
+    "consumption": 13367.95899038873
+  },
+  {
+    "date": "2022-08-01",
+    "sector": "local",
+    "consumption": 13463.730428484421
+  },
+  {
+    "date": "2022-09-01",
+    "sector": "local",
+    "consumption": 13090.583107615548
+  },
+  {
+    "date": "2022-10-01",
+    "sector": "local",
+    "consumption": 13214.60363302277
+  },
+  {
+    "date": "2022-11-01",
+    "sector": "local",
+    "consumption": 12934.27658154336
+  },
+  {
+    "date": "2022-12-01",
+    "sector": "local",
+    "consumption": 13041.875463252161
+  },
+  {
+    "date": "2023-01-01",
+    "sector": "local",
+    "consumption": 12866.45402460375
+  },
+  {
+    "date": "2023-02-01",
+    "sector": "local",
+    "consumption": 12347.508572493649
+  },
+  {
+    "date": "2023-03-01",
+    "sector": "local",
+    "consumption": 13666.946274966496
+  },
+  {
+    "date": "2023-04-01",
+    "sector": "local",
+    "consumption": 13230.75327655195
+  },
+  {
+    "date": "2023-05-01",
+    "sector": "local",
+    "consumption": 14297.382882971107
+  },
+  {
+    "date": "2023-06-01",
+    "sector": "local",
+    "consumption": 13659.669004
+  },
+  {
+    "date": "2023-07-01",
+    "sector": "local",
+    "consumption": 13905.178093999999
+  },
+  {
+    "date": "2023-08-01",
+    "sector": "local",
+    "consumption": 13807.184996
+  },
+  {
+    "date": "2023-09-01",
+    "sector": "local",
+    "consumption": 13756.76017
+  },
+  {
+    "date": "2023-10-01",
+    "sector": "local",
+    "consumption": 14134.651263
+  },
+  {
+    "date": "2023-11-01",
+    "sector": "local",
+    "consumption": 13731.54457
+  },
+  {
+    "date": "2023-12-01",
+    "sector": "local",
+    "consumption": 13858.089457
+  },
+  {
+    "date": "2024-01-01",
+    "sector": "local",
+    "consumption": 14244.575463691239
+  },
+  {
+    "date": "2024-02-01",
+    "sector": "local",
+    "consumption": 13762.007150617977
+  },
+  {
+    "date": "2024-03-01",
+    "sector": "local",
+    "consumption": 14845.855921150898
+  },
+  {
+    "date": "2024-04-01",
+    "sector": "local",
+    "consumption": 14388.609898922687
+  },
+  {
+    "date": "2024-05-01",
+    "sector": "local",
+    "consumption": 15028.827927020782
+  },
+  {
+    "date": "2024-06-01",
+    "sector": "local",
+    "consumption": 14325.641302491349
+  },
+  {
+    "date": "2018-01-01",
+    "sector": "local_commercial",
+    "consumption": 9390.080800769996
+  },
+  {
+    "date": "2018-02-01",
+    "sector": "local_commercial",
+    "consumption": 8561.415143228729
+  },
+  {
+    "date": "2018-03-01",
+    "sector": "local_commercial",
+    "consumption": 9659.320214866322
+  },
+  {
+    "date": "2018-04-01",
+    "sector": "local_commercial",
+    "consumption": 9340.784016555946
+  },
+  {
+    "date": "2018-05-01",
+    "sector": "local_commercial",
+    "consumption": 9525.937601765223
+  },
+  {
+    "date": "2018-06-01",
+    "sector": "local_commercial",
+    "consumption": 9090.549881417612
+  },
+  {
+    "date": "2018-07-01",
+    "sector": "local_commercial",
+    "consumption": 9804.790350016034
+  },
+  {
+    "date": "2018-08-01",
+    "sector": "local_commercial",
+    "consumption": 9839.948202785974
+  },
+  {
+    "date": "2018-09-01",
+    "sector": "local_commercial",
+    "consumption": 9395.25980619074
+  },
+  {
+    "date": "2018-10-01",
+    "sector": "local_commercial",
+    "consumption": 9939.99099146087
+  },
+  {
+    "date": "2018-11-01",
+    "sector": "local_commercial",
+    "consumption": 9530.094915774338
+  },
+  {
+    "date": "2018-12-01",
+    "sector": "local_commercial",
+    "consumption": 9695.131200168214
+  },
+  {
+    "date": "2019-01-01",
+    "sector": "local_commercial",
+    "consumption": 9806.591170539537
+  },
+  {
+    "date": "2019-02-01",
+    "sector": "local_commercial",
+    "consumption": 8762.477741368668
+  },
+  {
+    "date": "2019-03-01",
+    "sector": "local_commercial",
+    "consumption": 10001.938713610458
+  },
+  {
+    "date": "2019-04-01",
+    "sector": "local_commercial",
+    "consumption": 9984.77257315931
+  },
+  {
+    "date": "2019-05-01",
+    "sector": "local_commercial",
+    "consumption": 9955.331262060286
+  },
+  {
+    "date": "2019-06-01",
+    "sector": "local_commercial",
+    "consumption": 9325.607423053161
+  },
+  {
+    "date": "2019-07-01",
+    "sector": "local_commercial",
+    "consumption": 9924.7516467178
+  },
+  {
+    "date": "2019-08-01",
+    "sector": "local_commercial",
+    "consumption": 9885.678436813008
+  },
+  {
+    "date": "2019-09-01",
+    "sector": "local_commercial",
+    "consumption": 9624.753384354068
+  },
+  {
+    "date": "2019-10-01",
+    "sector": "local_commercial",
+    "consumption": 9867.044969501034
+  },
+  {
+    "date": "2019-11-01",
+    "sector": "local_commercial",
+    "consumption": 9579.05358154765
+  },
+  {
+    "date": "2019-12-01",
+    "sector": "local_commercial",
+    "consumption": 9650.754813146164
+  },
+  {
+    "date": "2020-01-01",
+    "sector": "local_commercial",
+    "consumption": 9794.372473013062
+  },
+  {
+    "date": "2020-02-01",
+    "sector": "local_commercial",
+    "consumption": 9381.811342181763
+  },
+  {
+    "date": "2020-03-01",
+    "sector": "local_commercial",
+    "consumption": 8809.560864715995
+  },
+  {
+    "date": "2020-04-01",
+    "sector": "local_commercial",
+    "consumption": 7209.282719754847
+  },
+  {
+    "date": "2020-05-01",
+    "sector": "local_commercial",
+    "consumption": 7623.061580682024
+  },
+  {
+    "date": "2020-06-01",
+    "sector": "local_commercial",
+    "consumption": 8733.469808289672
+  },
+  {
+    "date": "2020-07-01",
+    "sector": "local_commercial",
+    "consumption": 9376.72161572112
+  },
+  {
+    "date": "2020-08-01",
+    "sector": "local_commercial",
+    "consumption": 9553.317405522816
+  },
+  {
+    "date": "2020-09-01",
+    "sector": "local_commercial",
+    "consumption": 9534.58470597987
+  },
+  {
+    "date": "2020-10-01",
+    "sector": "local_commercial",
+    "consumption": 9784.699068542443
+  },
+  {
+    "date": "2020-11-01",
+    "sector": "local_commercial",
+    "consumption": 9179.293057956924
+  },
+  {
+    "date": "2020-12-01",
+    "sector": "local_commercial",
+    "consumption": 9410.638187147053
+  },
+  {
+    "date": "2021-01-01",
+    "sector": "local_commercial",
+    "consumption": 9118.32410606924
+  },
+  {
+    "date": "2021-02-01",
+    "sector": "local_commercial",
+    "consumption": 8500.055352939267
+  },
+  {
+    "date": "2021-03-01",
+    "sector": "local_commercial",
+    "consumption": 9885.082042015252
+  },
+  {
+    "date": "2021-04-01",
+    "sector": "local_commercial",
+    "consumption": 9595.732563152076
+  },
+  {
+    "date": "2021-05-01",
+    "sector": "local_commercial",
+    "consumption": 9243.155745480215
+  },
+  {
+    "date": "2021-06-01",
+    "sector": "local_commercial",
+    "consumption": 7802.305208957809
+  },
+  {
+    "date": "2021-07-01",
+    "sector": "local_commercial",
+    "consumption": 8173.249012716132
+  },
+  {
+    "date": "2021-08-01",
+    "sector": "local_commercial",
+    "consumption": 8739.395240665728
+  },
+  {
+    "date": "2021-09-01",
+    "sector": "local_commercial",
+    "consumption": 9205.928582849265
+  },
+  {
+    "date": "2021-10-01",
+    "sector": "local_commercial",
+    "consumption": 9907.907410338321
+  },
+  {
+    "date": "2021-11-01",
+    "sector": "local_commercial",
+    "consumption": 9700.69295667445
+  },
+  {
+    "date": "2021-12-01",
+    "sector": "local_commercial",
+    "consumption": 9922.392808945093
+  },
+  {
+    "date": "2022-01-01",
+    "sector": "local_commercial",
+    "consumption": 9787.33242143781
+  },
+  {
+    "date": "2022-02-01",
+    "sector": "local_commercial",
+    "consumption": 8821.415245061855
+  },
+  {
+    "date": "2022-03-01",
+    "sector": "local_commercial",
+    "consumption": 9985.710552576955
+  },
+  {
+    "date": "2022-04-01",
+    "sector": "local_commercial",
+    "consumption": 9813.861697829996
+  },
+  {
+    "date": "2022-05-01",
+    "sector": "local_commercial",
+    "consumption": 9890.299725793851
+  },
+  {
+    "date": "2022-06-01",
+    "sector": "local_commercial",
+    "consumption": 9961.861196819453
+  },
+  {
+    "date": "2022-07-01",
+    "sector": "local_commercial",
+    "consumption": 10087.65293938873
+  },
+  {
+    "date": "2022-08-01",
+    "sector": "local_commercial",
+    "consumption": 10261.33668548442
+  },
+  {
+    "date": "2022-09-01",
+    "sector": "local_commercial",
+    "consumption": 9971.862925615547
+  },
+  {
+    "date": "2022-10-01",
+    "sector": "local_commercial",
+    "consumption": 10117.581373022771
+  },
+  {
+    "date": "2022-11-01",
+    "sector": "local_commercial",
+    "consumption": 9895.133927025032
+  },
+  {
+    "date": "2022-12-01",
+    "sector": "local_commercial",
+    "consumption": 10003.771034082161
+  },
+  {
+    "date": "2023-01-01",
+    "sector": "local_commercial",
+    "consumption": 9836.337414603751
+  },
+  {
+    "date": "2023-02-01",
+    "sector": "local_commercial",
+    "consumption": 9300.96566949365
+  },
+  {
+    "date": "2023-03-01",
+    "sector": "local_commercial",
+    "consumption": 10302.550199966496
+  },
+  {
+    "date": "2023-04-01",
+    "sector": "local_commercial",
+    "consumption": 9714.32648345195
+  },
+  {
+    "date": "2023-05-01",
+    "sector": "local_commercial",
+    "consumption": 10586.575233971107
+  },
+  {
+    "date": "2023-06-01",
+    "sector": "local_commercial",
+    "consumption": 10145.5
+  },
+  {
+    "date": "2023-07-01",
+    "sector": "local_commercial",
+    "consumption": 10394.207293
+  },
+  {
+    "date": "2023-08-01",
+    "sector": "local_commercial",
+    "consumption": 10382.274403
+  },
+  {
+    "date": "2023-09-01",
+    "sector": "local_commercial",
+    "consumption": 10264.298592
+  },
+  {
+    "date": "2023-10-01",
+    "sector": "local_commercial",
+    "consumption": 10729.876046
+  },
+  {
+    "date": "2023-11-01",
+    "sector": "local_commercial",
+    "consumption": 10466.22553
+  },
+  {
+    "date": "2023-12-01",
+    "sector": "local_commercial",
+    "consumption": 10518.995648
+  },
+  {
+    "date": "2024-01-01",
+    "sector": "local_commercial",
+    "consumption": 10693.137788691238
+  },
+  {
+    "date": "2024-02-01",
+    "sector": "local_commercial",
+    "consumption": 10086.551990617978
+  },
+  {
+    "date": "2024-03-01",
+    "sector": "local_commercial",
+    "consumption": 10938.0071451509
+  },
+  {
+    "date": "2024-04-01",
+    "sector": "local_commercial",
+    "consumption": 10528.203483922687
+  },
+  {
+    "date": "2024-05-01",
+    "sector": "local_commercial",
+    "consumption": 11208.544402020783
+  },
+  {
+    "date": "2024-06-01",
+    "sector": "local_commercial",
+    "consumption": 10703.791218175198
+  },
+  {
+    "date": "2018-01-01",
+    "sector": "local_domestic",
+    "consumption": 2455.819449596076
+  },
+  {
+    "date": "2018-02-01",
+    "sector": "local_domestic",
+    "consumption": 2530.5418632595533
+  },
+  {
+    "date": "2018-03-01",
+    "sector": "local_domestic",
+    "consumption": 2584.7697320882157
+  },
+  {
+    "date": "2018-04-01",
+    "sector": "local_domestic",
+    "consumption": 2677.8005602724515
+  },
+  {
+    "date": "2018-05-01",
+    "sector": "local_domestic",
+    "consumption": 2742.0607880628045
+  },
+  {
+    "date": "2018-06-01",
+    "sector": "local_domestic",
+    "consumption": 2627.7778662366327
+  },
+  {
+    "date": "2018-07-01",
+    "sector": "local_domestic",
+    "consumption": 2745.1007893062047
+  },
+  {
+    "date": "2018-08-01",
+    "sector": "local_domestic",
+    "consumption": 2683.9494075954162
+  },
+  {
+    "date": "2018-09-01",
+    "sector": "local_domestic",
+    "consumption": 2563.818574812149
+  },
+  {
+    "date": "2018-10-01",
+    "sector": "local_domestic",
+    "consumption": 2584.4368687120027
+  },
+  {
+    "date": "2018-11-01",
+    "sector": "local_domestic",
+    "consumption": 2538.4798384795317
+  },
+  {
+    "date": "2018-12-01",
+    "sector": "local_domestic",
+    "consumption": 2680.2550145789623
+  },
+  {
+    "date": "2019-01-01",
+    "sector": "local_domestic",
+    "consumption": 2744.42849426422
+  },
+  {
+    "date": "2019-02-01",
+    "sector": "local_domestic",
+    "consumption": 2804.3985873559272
+  },
+  {
+    "date": "2019-03-01",
+    "sector": "local_domestic",
+    "consumption": 2748.501719388161
+  },
+  {
+    "date": "2019-04-01",
+    "sector": "local_domestic",
+    "consumption": 2959.033833849919
+  },
+  {
+    "date": "2019-05-01",
+    "sector": "local_domestic",
+    "consumption": 2831.6010358782382
+  },
+  {
+    "date": "2019-06-01",
+    "sector": "local_domestic",
+    "consumption": 2832.3029316349803
+  },
+  {
+    "date": "2019-07-01",
+    "sector": "local_domestic",
+    "consumption": 2842.0005246462033
+  },
+  {
+    "date": "2019-08-01",
+    "sector": "local_domestic",
+    "consumption": 2844.4226523477973
+  },
+  {
+    "date": "2019-09-01",
+    "sector": "local_domestic",
+    "consumption": 2734.6954921824845
+  },
+  {
+    "date": "2019-10-01",
+    "sector": "local_domestic",
+    "consumption": 2677.497902388157
+  },
+  {
+    "date": "2019-11-01",
+    "sector": "local_domestic",
+    "consumption": 2641.7537991303248
+  },
+  {
+    "date": "2019-12-01",
+    "sector": "local_domestic",
+    "consumption": 2725.0216851335895
+  },
+  {
+    "date": "2020-01-01",
+    "sector": "local_domestic",
+    "consumption": 2869.3442650943457
+  },
+  {
+    "date": "2020-02-01",
+    "sector": "local_domestic",
+    "consumption": 2868.0955361018932
+  },
+  {
+    "date": "2020-03-01",
+    "sector": "local_domestic",
+    "consumption": 2889.7301246358475
+  },
+  {
+    "date": "2020-04-01",
+    "sector": "local_domestic",
+    "consumption": 3139.858915051787
+  },
+  {
+    "date": "2020-05-01",
+    "sector": "local_domestic",
+    "consumption": 3947.557468063146
+  },
+  {
+    "date": "2020-06-01",
+    "sector": "local_domestic",
+    "consumption": 3017.847066329419
+  },
+  {
+    "date": "2020-07-01",
+    "sector": "local_domestic",
+    "consumption": 3004.741730467953
+  },
+  {
+    "date": "2020-08-01",
+    "sector": "local_domestic",
+    "consumption": 2989.8426532293133
+  },
+  {
+    "date": "2020-09-01",
+    "sector": "local_domestic",
+    "consumption": 2901.563701323576
+  },
+  {
+    "date": "2020-10-01",
+    "sector": "local_domestic",
+    "consumption": 2973.93812175348
+  },
+  {
+    "date": "2020-11-01",
+    "sector": "local_domestic",
+    "consumption": 2943.4764401285984
+  },
+  {
+    "date": "2020-12-01",
+    "sector": "local_domestic",
+    "consumption": 2820.5908108206354
+  },
+  {
+    "date": "2021-01-01",
+    "sector": "local_domestic",
+    "consumption": 3038.885370748943
+  },
+  {
+    "date": "2021-02-01",
+    "sector": "local_domestic",
+    "consumption": 3095.4843394520376
+  },
+  {
+    "date": "2021-03-01",
+    "sector": "local_domestic",
+    "consumption": 3075.7283580609064
+  },
+  {
+    "date": "2021-04-01",
+    "sector": "local_domestic",
+    "consumption": 3122.4045554463464
+  },
+  {
+    "date": "2021-05-01",
+    "sector": "local_domestic",
+    "consumption": 3432.405679124206
+  },
+  {
+    "date": "2021-06-01",
+    "sector": "local_domestic",
+    "consumption": 3298.026373472227
+  },
+  {
+    "date": "2021-07-01",
+    "sector": "local_domestic",
+    "consumption": 3416.8331024564504
+  },
+  {
+    "date": "2021-08-01",
+    "sector": "local_domestic",
+    "consumption": 3272.568826101095
+  },
+  {
+    "date": "2021-09-01",
+    "sector": "local_domestic",
+    "consumption": 3240.924767622583
+  },
+  {
+    "date": "2021-10-01",
+    "sector": "local_domestic",
+    "consumption": 3178.5357087614043
+  },
+  {
+    "date": "2021-11-01",
+    "sector": "local_domestic",
+    "consumption": 3007.4476476350774
+  },
+  {
+    "date": "2021-12-01",
+    "sector": "local_domestic",
+    "consumption": 3033.741448118727
+  },
+  {
+    "date": "2022-01-01",
+    "sector": "local_domestic",
+    "consumption": 3149.094474
+  },
+  {
+    "date": "2022-02-01",
+    "sector": "local_domestic",
+    "consumption": 3077.808365
+  },
+  {
+    "date": "2022-03-01",
+    "sector": "local_domestic",
+    "consumption": 3266.42965443
+  },
+  {
+    "date": "2022-04-01",
+    "sector": "local_domestic",
+    "consumption": 3318.30658
+  },
+  {
+    "date": "2022-05-01",
+    "sector": "local_domestic",
+    "consumption": 3364.641667
+  },
+  {
+    "date": "2022-06-01",
+    "sector": "local_domestic",
+    "consumption": 3282.338295
+  },
+  {
+    "date": "2022-07-01",
+    "sector": "local_domestic",
+    "consumption": 3280.306051
+  },
+  {
+    "date": "2022-08-01",
+    "sector": "local_domestic",
+    "consumption": 3202.393743
+  },
+  {
+    "date": "2022-09-01",
+    "sector": "local_domestic",
+    "consumption": 3118.720182
+  },
+  {
+    "date": "2022-10-01",
+    "sector": "local_domestic",
+    "consumption": 3097.02226
+  },
+  {
+    "date": "2022-11-01",
+    "sector": "local_domestic",
+    "consumption": 3039.1426545183267
+  },
+  {
+    "date": "2022-12-01",
+    "sector": "local_domestic",
+    "consumption": 3038.10442917
+  },
+  {
+    "date": "2023-01-01",
+    "sector": "local_domestic",
+    "consumption": 3030.11661
+  },
+  {
+    "date": "2023-02-01",
+    "sector": "local_domestic",
+    "consumption": 3046.542903
+  },
+  {
+    "date": "2023-03-01",
+    "sector": "local_domestic",
+    "consumption": 3364.396075
+  },
+  {
+    "date": "2023-04-01",
+    "sector": "local_domestic",
+    "consumption": 3516.4267931
+  },
+  {
+    "date": "2023-05-01",
+    "sector": "local_domestic",
+    "consumption": 3710.807649
+  },
+  {
+    "date": "2023-06-01",
+    "sector": "local_domestic",
+    "consumption": 3514.2
+  },
+  {
+    "date": "2023-07-01",
+    "sector": "local_domestic",
+    "consumption": 3510.970801
+  },
+  {
+    "date": "2023-08-01",
+    "sector": "local_domestic",
+    "consumption": 3424.910593
+  },
+  {
+    "date": "2023-09-01",
+    "sector": "local_domestic",
+    "consumption": 3492.461578
+  },
+  {
+    "date": "2023-10-01",
+    "sector": "local_domestic",
+    "consumption": 3404.775217
+  },
+  {
+    "date": "2023-11-01",
+    "sector": "local_domestic",
+    "consumption": 3265.31904
+  },
+  {
+    "date": "2023-12-01",
+    "sector": "local_domestic",
+    "consumption": 3339.093809
+  },
+  {
+    "date": "2024-01-01",
+    "sector": "local_domestic",
+    "consumption": 3551.437675
+  },
+  {
+    "date": "2024-02-01",
+    "sector": "local_domestic",
+    "consumption": 3675.45516
+  },
+  {
+    "date": "2024-03-01",
+    "sector": "local_domestic",
+    "consumption": 3907.848776
+  },
+  {
+    "date": "2024-04-01",
+    "sector": "local_domestic",
+    "consumption": 3860.406415
+  },
+  {
+    "date": "2024-05-01",
+    "sector": "local_domestic",
+    "consumption": 3820.283525
+  },
+  {
+    "date": "2024-06-01",
+    "sector": "local_domestic",
+    "consumption": 3621.850084316152
+  },
+  {
+    "date": "2018-01-01",
+    "sector": "exports",
+    "consumption": 109.82
+  },
+  {
+    "date": "2018-02-01",
+    "sector": "exports",
+    "consumption": 101.5
+  },
+  {
+    "date": "2018-03-01",
+    "sector": "exports",
+    "consumption": 103.785
+  },
+  {
+    "date": "2018-04-01",
+    "sector": "exports",
+    "consumption": 102.002
+  },
+  {
+    "date": "2018-05-01",
+    "sector": "exports",
+    "consumption": 142.261
+  },
+  {
+    "date": "2018-06-01",
+    "sector": "exports",
+    "consumption": 141.659
+  },
+  {
+    "date": "2018-07-01",
+    "sector": "exports",
+    "consumption": 138.707
+  },
+  {
+    "date": "2018-08-01",
+    "sector": "exports",
+    "consumption": 139.507
+  },
+  {
+    "date": "2018-09-01",
+    "sector": "exports",
+    "consumption": 137.718
+  },
+  {
+    "date": "2018-10-01",
+    "sector": "exports",
+    "consumption": 132.991
+  },
+  {
+    "date": "2018-11-01",
+    "sector": "exports",
+    "consumption": 126.182
+  },
+  {
+    "date": "2018-12-01",
+    "sector": "exports",
+    "consumption": 132.36
+  },
+  {
+    "date": "2019-01-01",
+    "sector": "exports",
+    "consumption": 146.324
+  },
+  {
+    "date": "2019-02-01",
+    "sector": "exports",
+    "consumption": 127.714
+  },
+  {
+    "date": "2019-03-01",
+    "sector": "exports",
+    "consumption": 146.318
+  },
+  {
+    "date": "2019-04-01",
+    "sector": "exports",
+    "consumption": 145.907
+  },
+  {
+    "date": "2019-05-01",
+    "sector": "exports",
+    "consumption": 144.063
+  },
+  {
+    "date": "2019-06-01",
+    "sector": "exports",
+    "consumption": 134.789
+  },
+  {
+    "date": "2019-07-01",
+    "sector": "exports",
+    "consumption": 144.631
+  },
+  {
+    "date": "2019-08-01",
+    "sector": "exports",
+    "consumption": 154.706
+  },
+  {
+    "date": "2019-09-01",
+    "sector": "exports",
+    "consumption": 148.348
+  },
+  {
+    "date": "2019-10-01",
+    "sector": "exports",
+    "consumption": 142.979
+  },
+  {
+    "date": "2019-11-01",
+    "sector": "exports",
+    "consumption": 131.062
+  },
+  {
+    "date": "2019-12-01",
+    "sector": "exports",
+    "consumption": 130.68
+  },
+  {
+    "date": "2020-01-01",
+    "sector": "exports",
+    "consumption": 129.7
+  },
+  {
+    "date": "2020-02-01",
+    "sector": "exports",
+    "consumption": 145.745
+  },
+  {
+    "date": "2020-03-01",
+    "sector": "exports",
+    "consumption": 148.75855
+  },
+  {
+    "date": "2020-04-01",
+    "sector": "exports",
+    "consumption": 143.921
+  },
+  {
+    "date": "2020-05-01",
+    "sector": "exports",
+    "consumption": 138.609
+  },
+  {
+    "date": "2020-06-01",
+    "sector": "exports",
+    "consumption": 125.662
+  },
+  {
+    "date": "2020-07-01",
+    "sector": "exports",
+    "consumption": 128.298
+  },
+  {
+    "date": "2020-08-01",
+    "sector": "exports",
+    "consumption": 140.393
+  },
+  {
+    "date": "2020-09-01",
+    "sector": "exports",
+    "consumption": 124.32709
+  },
+  {
+    "date": "2020-10-01",
+    "sector": "exports",
+    "consumption": 129.284
+  },
+  {
+    "date": "2020-11-01",
+    "sector": "exports",
+    "consumption": 116.514
+  },
+  {
+    "date": "2020-12-01",
+    "sector": "exports",
+    "consumption": 99.263
+  },
+  {
+    "date": "2021-01-01",
+    "sector": "exports",
+    "consumption": 134.76173
+  },
+  {
+    "date": "2021-02-01",
+    "sector": "exports",
+    "consumption": 84.21
+  },
+  {
+    "date": "2021-03-01",
+    "sector": "exports",
+    "consumption": 122.645
+  },
+  {
+    "date": "2021-04-01",
+    "sector": "exports",
+    "consumption": 112.167
+  },
+  {
+    "date": "2021-05-01",
+    "sector": "exports",
+    "consumption": 103.623
+  },
+  {
+    "date": "2021-06-01",
+    "sector": "exports",
+    "consumption": 57.788
+  },
+  {
+    "date": "2021-07-01",
+    "sector": "exports",
+    "consumption": 67.48905
+  },
+  {
+    "date": "2021-08-01",
+    "sector": "exports",
+    "consumption": 46.02522
+  },
+  {
+    "date": "2021-09-01",
+    "sector": "exports",
+    "consumption": 70.984
+  },
+  {
+    "date": "2021-10-01",
+    "sector": "exports",
+    "consumption": 58.20315
+  },
+  {
+    "date": "2021-11-01",
+    "sector": "exports",
+    "consumption": 45.92575
+  },
+  {
+    "date": "2021-12-01",
+    "sector": "exports",
+    "consumption": 70.63773
+  },
+  {
+    "date": "2022-01-01",
+    "sector": "exports",
+    "consumption": 58.25445
+  },
+  {
+    "date": "2022-02-01",
+    "sector": "exports",
+    "consumption": 58.2294
+  },
+  {
+    "date": "2022-03-01",
+    "sector": "exports",
+    "consumption": 62.61265
+  },
+  {
+    "date": "2022-04-01",
+    "sector": "exports",
+    "consumption": 59.90336
+  },
+  {
+    "date": "2022-05-01",
+    "sector": "exports",
+    "consumption": 60.152
+  },
+  {
+    "date": "2022-06-01",
+    "sector": "exports",
+    "consumption": 60.80461
+  },
+  {
+    "date": "2022-07-01",
+    "sector": "exports",
+    "consumption": 60.245
+  },
+  {
+    "date": "2022-08-01",
+    "sector": "exports",
+    "consumption": 67.617
+  },
+  {
+    "date": "2022-09-01",
+    "sector": "exports",
+    "consumption": 67.921
+  },
+  {
+    "date": "2022-10-01",
+    "sector": "exports",
+    "consumption": 83.311
+  },
+  {
+    "date": "2022-11-01",
+    "sector": "exports",
+    "consumption": 88.21
+  },
+  {
+    "date": "2022-12-01",
+    "sector": "exports",
+    "consumption": 90.70768
+  },
+  {
+    "date": "2023-01-01",
+    "sector": "exports",
+    "consumption": 71.90245
+  },
+  {
+    "date": "2023-02-01",
+    "sector": "exports",
+    "consumption": 75.827
+  },
+  {
+    "date": "2023-03-01",
+    "sector": "exports",
+    "consumption": 75.4751
+  },
+  {
+    "date": "2023-04-01",
+    "sector": "exports",
+    "consumption": 72.563
+  },
+  {
+    "date": "2023-05-01",
+    "sector": "exports",
+    "consumption": 71.047
+  },
+  {
+    "date": "2023-06-01",
+    "sector": "exports",
+    "consumption": 70.557
+  },
+  {
+    "date": "2023-07-01",
+    "sector": "exports",
+    "consumption": 70.642
+  },
+  {
+    "date": "2023-08-01",
+    "sector": "exports",
+    "consumption": 73.76585
+  },
+  {
+    "date": "2023-09-01",
+    "sector": "exports",
+    "consumption": 72.8069
+  },
+  {
+    "date": "2023-10-01",
+    "sector": "exports",
+    "consumption": 72.1938
+  },
+  {
+    "date": "2023-11-01",
+    "sector": "exports",
+    "consumption": 73.726
+  },
+  {
+    "date": "2023-12-01",
+    "sector": "exports",
+    "consumption": 72.864
+  },
+  {
+    "date": "2024-01-01",
+    "sector": "exports",
+    "consumption": 72.91
+  },
+  {
+    "date": "2024-02-01",
+    "sector": "exports",
+    "consumption": 74.406
+  },
+  {
+    "date": "2024-03-01",
+    "sector": "exports",
+    "consumption": 73.583
+  },
+  {
+    "date": "2024-04-01",
+    "sector": "exports",
+    "consumption": 73.559
+  },
+  {
+    "date": "2024-05-01",
+    "sector": "exports",
+    "consumption": 73.67294
+  },
+  {
+    "date": "2024-06-01",
+    "sector": "exports",
+    "consumption": 73.63878
+  },
+  {
+    "date": "2018-01-01",
+    "sector": "losses",
+    "consumption": 1200.3838057448863
+  },
+  {
+    "date": "2018-02-01",
+    "sector": "losses",
+    "consumption": 903.8396245498352
+  },
+  {
+    "date": "2018-03-01",
+    "sector": "losses",
+    "consumption": 1681.1045460086114
+  },
+  {
+    "date": "2018-04-01",
+    "sector": "losses",
+    "consumption": 1484.2351117247422
+  },
+  {
+    "date": "2018-05-01",
+    "sector": "losses",
+    "consumption": 1524.4233348051807
+  },
+  {
+    "date": "2018-06-01",
+    "sector": "losses",
+    "consumption": 1487.7205001041598
+  },
+  {
+    "date": "2018-07-01",
+    "sector": "losses",
+    "consumption": 1563.615043234959
+  },
+  {
+    "date": "2018-08-01",
+    "sector": "losses",
+    "consumption": 1679.49331927298
+  },
+  {
+    "date": "2018-09-01",
+    "sector": "losses",
+    "consumption": 1262.2555090980593
+  },
+  {
+    "date": "2018-10-01",
+    "sector": "losses",
+    "consumption": 1424.946917280491
+  },
+  {
+    "date": "2018-11-01",
+    "sector": "losses",
+    "consumption": 1356.2364800555467
+  },
+  {
+    "date": "2018-12-01",
+    "sector": "losses",
+    "consumption": 1222.8287932205408
+  },
+  {
+    "date": "2019-01-01",
+    "sector": "losses",
+    "consumption": 1411.4888797851077
+  },
+  {
+    "date": "2019-02-01",
+    "sector": "losses",
+    "consumption": 922.1813658171613
+  },
+  {
+    "date": "2019-03-01",
+    "sector": "losses",
+    "consumption": 1735.5785410697583
+  },
+  {
+    "date": "2019-04-01",
+    "sector": "losses",
+    "consumption": 1282.0117602990133
+  },
+  {
+    "date": "2019-05-01",
+    "sector": "losses",
+    "consumption": 1763.2386625841755
+  },
+  {
+    "date": "2019-06-01",
+    "sector": "losses",
+    "consumption": 1254.2687411271243
+  },
+  {
+    "date": "2019-07-01",
+    "sector": "losses",
+    "consumption": 1590.152281251075
+  },
+  {
+    "date": "2019-08-01",
+    "sector": "losses",
+    "consumption": 1471.9324641237347
+  },
+  {
+    "date": "2019-09-01",
+    "sector": "losses",
+    "consumption": 1460.142479983535
+  },
+  {
+    "date": "2019-10-01",
+    "sector": "losses",
+    "consumption": 1416.588468447296
+  },
+  {
+    "date": "2019-11-01",
+    "sector": "losses",
+    "consumption": 1375.3632414378208
+  },
+  {
+    "date": "2019-12-01",
+    "sector": "losses",
+    "consumption": 1304.6719090030567
+  },
+  {
+    "date": "2020-01-01",
+    "sector": "losses",
+    "consumption": 1402.7434828621688
+  },
+  {
+    "date": "2020-02-01",
+    "sector": "losses",
+    "consumption": 1161.316261117393
+  },
+  {
+    "date": "2020-03-01",
+    "sector": "losses",
+    "consumption": 1674.341259061774
+  },
+  {
+    "date": "2020-04-01",
+    "sector": "losses",
+    "consumption": 1192.2839361336376
+  },
+  {
+    "date": "2020-05-01",
+    "sector": "losses",
+    "consumption": 1553.9476671138423
+  },
+  {
+    "date": "2020-06-01",
+    "sector": "losses",
+    "consumption": 1413.3392075994655
+  },
+  {
+    "date": "2020-07-01",
+    "sector": "losses",
+    "consumption": 1357.174850188724
+  },
+  {
+    "date": "2020-08-01",
+    "sector": "losses",
+    "consumption": 1578.8631640382737
+  },
+  {
+    "date": "2020-09-01",
+    "sector": "losses",
+    "consumption": 1166.417801294884
+  },
+  {
+    "date": "2020-10-01",
+    "sector": "losses",
+    "consumption": 1403.3739716263567
+  },
+  {
+    "date": "2020-11-01",
+    "sector": "losses",
+    "consumption": 1195.4896956735022
+  },
+  {
+    "date": "2020-12-01",
+    "sector": "losses",
+    "consumption": 1518.763646647053
+  },
+  {
+    "date": "2021-01-01",
+    "sector": "losses",
+    "consumption": 1277.2718831883615
+  },
+  {
+    "date": "2021-02-01",
+    "sector": "losses",
+    "consumption": 1125.4281253817999
+  },
+  {
+    "date": "2021-03-01",
+    "sector": "losses",
+    "consumption": 1766.1485430512116
+  },
+  {
+    "date": "2021-04-01",
+    "sector": "losses",
+    "consumption": 1519.1518899720209
+  },
+  {
+    "date": "2021-05-01",
+    "sector": "losses",
+    "consumption": 1672.266821646826
+  },
+  {
+    "date": "2021-06-01",
+    "sector": "losses",
+    "consumption": 1517.1672444168094
+  },
+  {
+    "date": "2021-07-01",
+    "sector": "losses",
+    "consumption": 1570.2674647495407
+  },
+  {
+    "date": "2021-08-01",
+    "sector": "losses",
+    "consumption": 1531.0654558299716
+  },
+  {
+    "date": "2021-09-01",
+    "sector": "losses",
+    "consumption": 1292.6559901060014
+  },
+  {
+    "date": "2021-10-01",
+    "sector": "losses",
+    "consumption": 1735.3006150622361
+  },
+  {
+    "date": "2021-11-01",
+    "sector": "losses",
+    "consumption": 1383.3046805200195
+  },
+  {
+    "date": "2021-12-01",
+    "sector": "losses",
+    "consumption": 1479.1961711311947
+  },
+  {
+    "date": "2022-01-01",
+    "sector": "losses",
+    "consumption": 1326.5413200000007
+  },
+  {
+    "date": "2022-02-01",
+    "sector": "losses",
+    "consumption": 876.3189523000021
+  },
+  {
+    "date": "2022-03-01",
+    "sector": "losses",
+    "consumption": 1525.3469030642982
+  },
+  {
+    "date": "2022-04-01",
+    "sector": "losses",
+    "consumption": 1279.596459999999
+  },
+  {
+    "date": "2022-05-01",
+    "sector": "losses",
+    "consumption": 1553.3024650000025
+  },
+  {
+    "date": "2022-06-01",
+    "sector": "losses",
+    "consumption": 1202.1387652000005
+  },
+  {
+    "date": "2022-07-01",
+    "sector": "losses",
+    "consumption": 1522.2534368655042
+  },
+  {
+    "date": "2022-08-01",
+    "sector": "losses",
+    "consumption": 1399.3108670000004
+  },
+  {
+    "date": "2022-09-01",
+    "sector": "losses",
+    "consumption": 1114.876221820001
+  },
+  {
+    "date": "2022-10-01",
+    "sector": "losses",
+    "consumption": 1257.535649000001
+  },
+  {
+    "date": "2022-11-01",
+    "sector": "losses",
+    "consumption": 1050.2022105799197
+  },
+  {
+    "date": "2022-12-01",
+    "sector": "losses",
+    "consumption": 1062.2647518299977
+  },
+  {
+    "date": "2023-01-01",
+    "sector": "losses",
+    "consumption": 1141.0163917841414
+  },
+  {
+    "date": "2023-02-01",
+    "sector": "losses",
+    "consumption": 705.3931958135265
+  },
+  {
+    "date": "2023-03-01",
+    "sector": "losses",
+    "consumption": 1157.7703269999997
+  },
+  {
+    "date": "2023-04-01",
+    "sector": "losses",
+    "consumption": 1114.206186970001
+  },
+  {
+    "date": "2023-05-01",
+    "sector": "losses",
+    "consumption": 1394.9288360699998
+  },
+  {
+    "date": "2023-06-01",
+    "sector": "losses",
+    "consumption": 1177.442525000003
+  },
+  {
+    "date": "2023-07-01",
+    "sector": "losses",
+    "consumption": 1223.9736530000007
+  },
+  {
+    "date": "2023-08-01",
+    "sector": "losses",
+    "consumption": 1429.1454120000014
+  },
+  {
+    "date": "2023-09-01",
+    "sector": "losses",
+    "consumption": 960.9663939999987
+  },
+  {
+    "date": "2023-10-01",
+    "sector": "losses",
+    "consumption": 1387.506926000001
+  },
+  {
+    "date": "2023-11-01",
+    "sector": "losses",
+    "consumption": 917.5604539999991
+  },
+  {
+    "date": "2023-12-01",
+    "sector": "losses",
+    "consumption": 1000.493919
+  },
+  {
+    "date": "2024-01-01",
+    "sector": "losses",
+    "consumption": 858.2826563087582
+  },
+  {
+    "date": "2024-02-01",
+    "sector": "losses",
+    "consumption": 724.51783802708
+  },
+  {
+    "date": "2024-03-01",
+    "sector": "losses",
+    "consumption": 1273.2276172528404
+  },
+  {
+    "date": "2024-04-01",
+    "sector": "losses",
+    "consumption": 1045.8856141244298
+  },
+  {
+    "date": "2024-05-01",
+    "sector": "losses",
+    "consumption": 1294.2743069738067
+  },
+  {
+    "date": "2024-06-01",
+    "sector": "losses",
+    "consumption": 1032.1196220970317
+  }
+]
