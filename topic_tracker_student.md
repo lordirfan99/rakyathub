@@ -38,3 +38,4 @@
 | 34 | Tips mengatasi stress sebelum final exam | ✅ | 2026-06-26 | tips-mengatasi-stress-sebelum-final-exam |
 | 35 | Cara cari sumber rujukan ilmiah untuk assignment | ✅ | 2026-06-27 | cara-cari-sumber-rujukan-ilmiah-untuk-assignment |
 | 36 | Tips atasi prokrastinasi pelajar universiti | ✅ | 2026-06-28 | tips-mengatasi-prokrastinasi-pelajar-universiti |
+| 37 | Tips presentasi lisan universiti dengan yakin | ✅ | 2026-06-29 | tips-presentasi-lisan-universiti-dengan-yakin |
