@@ -3,7 +3,7 @@ publishDate: 2026-06-27 08:00:00
 title: "MyKad Baru 2026 — Ciri Keselamatan & Cara Tukar"
 excerpt: "MyKad generasi baharu mula dilancarkan Jun 2026 dengan ciri keselamatan dipertingkat. Peralihan berfasa, tempoh 3 tahun, dan bantuan kerajaan tak terjejas."
 category: Kerajaan
-image: "~/assets/images/hero-ssm-daftar-online.jpg"
+image: "~/assets/images/hero-mykad-baru-2026.jpg"
 tags:
   - mykad
   - kad-pengenalan

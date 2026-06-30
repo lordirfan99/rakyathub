@@ -3,7 +3,7 @@ publishDate: 2026-06-19 08:00:00
 title: "Panduan Rumah Mesra Rakyat 2026"
 excerpt: "Panduan lengkap RMR 2026 oleh SPNB — syarat kelayakan RM750-RM5,000, cara mohon online, subsidi RM20,000 & bayaran bulanan RM300."
 category: Kerajaan
-image: "~/assets/images/hero-asian-woman-calc-07.jpg"
+image: "~/assets/images/hero-rumah-mesra-rakyat-2026.jpg"
 tags:
   - rmr
   - rumah-mesra-rakyat

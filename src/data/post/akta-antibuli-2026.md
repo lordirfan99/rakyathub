@@ -3,7 +3,7 @@ publishDate: 2026-06-23 08:00:00
 title: "Akta Antibuli 2026: Ibu Bapa Boleh Didenda RM250K"
 excerpt: "Akta Antibuli 2026 (Akta 876) berkuat kuasa dengan Tribunal Antibuli. Ibu bapa boleh didenda RM250,000 jika anak buli. Portal aduan tab.bheuu.gov.my."
 category: Kerajaan
-image: "~/assets/images/hero-aplikasi-belajar-untuk-student.jpg"
+image: "~/assets/images/hero-akta-antibuli-2026.jpg"
 tags:
   - antibuli
   - akta-876

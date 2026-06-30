@@ -3,7 +3,7 @@ publishDate: 2026-06-30
 title: "Pembiayaan TEKUN 2026: Kelulusan 24 Jam"
 excerpt: "TEKUN Nasional sasar kelulusan pembiayaan bawah RM20,000 dalam 24 jam. Portal baharu dilancar, dana Bumiputera naik RM1 bilion. Semak syarat & cara mohon."
 category: Kerajaan
-image: "~/assets/images/hero-asian-payment-card.jpg"
+image: "~/assets/images/hero-pembiayaan-tekun-nasional-2026.jpg"
 tags:
   - TEKUN
   - pembiayaan
