@@ -315,6 +315,34 @@ html { scroll-behavior: smooth; }
 .delay-400 { animation-delay: 400ms; }
 .delay-500 { animation-delay: 500ms; }
 
+/* ========== GLOBAL TEXT OVERFLOW FIX ========== */
+/* Prevent any text from overflowing its container — fixes all articles */
+.prose {
+  overflow-wrap: break-word;
+}
+
+/* Responsive tables: fixed layout forces equal columns within 100% width */
+.prose table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+/* Break long unbreakable strings (URLs, kereta/komitmen, etc.) in cells */
+.prose table td,
+.prose table th {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+/* Also fix any custom HTML cards/divs in articles */
+.prose div,
+.prose span,
+.premium-card,
+.premium-card-hover {
+  overflow-wrap: break-word;
+}
+
 /* ========== REDUCED MOTION ========== */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
