@@ -319,20 +319,31 @@ html { scroll-behavior: smooth; }
 /* Prevent any text from overflowing its container — fixes all articles */
 .prose {
   overflow-wrap: break-word;
+  word-break: break-word;
 }
 
-/* Responsive tables: fixed layout forces equal columns within 100% width */
-.prose table {
-  width: 100%;
-  table-layout: fixed;
+/* Override Tailwind Typography plugin's table-layout:auto */
+.prose table,
+.prose :where(table) {
+  width: 100% !important;
+  table-layout: fixed !important;
+  display: table !important;
 }
 
 /* Break long unbreakable strings (URLs, kereta/komitmen, etc.) in cells */
 .prose table td,
-.prose table th {
-  overflow-wrap: break-word;
-  word-break: break-word;
-  hyphens: auto;
+.prose table th,
+.prose :where(table) td,
+.prose :where(table) th {
+  overflow-wrap: break-word !important;
+  word-break: break-word !important;
+  hyphens: auto !important;
+}
+
+/* Fix the overflow:auto wrapper divs around tables — prevent horizontal scroll */
+.prose div[style*="overflow"] {
+  overflow-x: hidden !important;
+  max-width: 100% !important;
 }
 
 /* Also fix any custom HTML cards/divs in articles */
