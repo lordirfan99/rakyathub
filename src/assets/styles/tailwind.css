@@ -325,9 +325,8 @@ html { scroll-behavior: smooth; }
 /* Override Tailwind Typography plugin's table-layout:auto */
 .prose table,
 .prose :where(table) {
-  width: 100% !important;
-  table-layout: fixed !important;
-  display: table !important;
+  width: 100%;
+  table-layout: fixed;
 }
 
 /* Break long unbreakable strings (URLs, kereta/komitmen, etc.) in cells */
@@ -335,22 +334,18 @@ html { scroll-behavior: smooth; }
 .prose table th,
 .prose :where(table) td,
 .prose :where(table) th {
-  overflow-wrap: break-word !important;
-  word-break: break-word !important;
-  hyphens: auto !important;
-}
-
-/* Fix the overflow:auto wrapper divs around tables — prevent horizontal scroll */
-.prose div[style*="overflow"] {
-  overflow-x: hidden !important;
-  max-width: 100% !important;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 /* Also fix any custom HTML cards/divs in articles */
 .prose div,
 .prose span,
 .premium-card,
-.premium-card-hover {
+.premium-card-hover,
+.table-wrapper,
+div[style*="overflow"] {
   overflow-wrap: break-word;
 }
 

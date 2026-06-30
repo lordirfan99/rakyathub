@@ -21,11 +21,12 @@ export const responsiveTablesRehypePlugin: RehypePlugin = () => {
       const child = tree.children[i];
 
       if (child.type === 'element' && child.tagName === 'table') {
+        // Wrap table in a div — no overflow:auto so CSS word-break works
         tree.children[i] = {
           type: 'element',
           tagName: 'div',
           properties: {
-            style: 'overflow:auto',
+            class: 'table-wrapper',
           },
           children: [child],
         };

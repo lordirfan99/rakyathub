@@ -111,7 +111,8 @@ import '@fontsource-variable/roboto';
     display: block;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    white-space: nowrap;
+    word-break: break-word;
+    overflow-wrap: break-word;
   }
   .article-body table tbody tr:nth-child(even) {
     background-color: rgba(0,0,0,0.02);
@@ -154,21 +155,23 @@ import '@fontsource-variable/roboto';
       border-color: rgba(71,85,105,0.3);
     }
     .article-body.responsive-table td {
-      display: flex;
-      justify-content: space-between;
+      display: grid;
+      grid-template-columns: 38% 1fr;
       align-items: baseline;
       gap: 8px;
       padding: 8px 0;
       border: none;
       border-bottom: 1px solid rgba(0,0,0,0.04);
       font-size: 0.875rem;
+      overflow-wrap: break-word;
+      word-break: break-word;
+      hyphens: auto;
     }
     .article-body.responsive-table td:last-child {
       border-bottom: none;
     }
     .article-body.responsive-table td::before {
       content: attr(data-label);
-      flex: 0 0 38%;
       font-weight: 700;
       font-size: 0.6875rem;
       text-transform: uppercase;
