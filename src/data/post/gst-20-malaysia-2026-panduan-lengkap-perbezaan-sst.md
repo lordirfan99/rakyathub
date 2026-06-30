@@ -1,5 +1,5 @@
 ---
-image: "~/assets/images/hero-asian-woman-calc-15.jpg"
+image: "~/assets/images/hero-gst-20.jpg"
 publishDate: 2026-06-19 08:00:00
 title: "GST 2.0 Malaysia 2026: Apa Yang Korang Kena Tahu"
 excerpt: "Panduan lengkap GST 2.0 Malaysia yang mula 1 Julai 2026. Perbezaan dengan SST, kadar cukai, senarai barang dikecualikan, kesan harga, dan tips persediaan."

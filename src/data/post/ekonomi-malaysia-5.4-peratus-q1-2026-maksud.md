@@ -3,7 +3,7 @@ publishDate: 2026-06-29 08:00:00
 title: "Ekonomi Malaysia 5.4% Q1 2026: Apa Maksudnya"
 excerpt: "Ekonomi Malaysia berkembang 5.4% pada suku pertama 2026, atasi jangkaan. Pengangguran terendah sedekad 2.9%, inflasi 1.6%. Ini maksudnya untuk korang."
 category: Kewangan
-image: "~/assets/images/hero-subsidi-ron95-200.jpg"
+image: "~/assets/images/hero-ekonomi-malaysia-5.4-q1.jpg"
 tags:
   - ekonomi
   - KDNK

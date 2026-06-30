@@ -3,7 +3,7 @@ publishDate: 2026-06-23 16:00:00
 title: "KWSP Tutup Kaunter Bayaran — 5 Cara Alternatif"
 excerpt: "KWSP tutup semua kaunter bayar caruman (peresitan) mulai 1 Julai 2026. Ini 5 saluran alternatif termasuk i-Akaun, internet banking, ejen bank dan SST."
 category: KWSP
-image: "~/assets/images/hero-kwsp-online.jpg"
+image: "~/assets/images/hero-kwsp-tutup-kaunter.jpg"
 tags:
   - kwsp
   - epf
