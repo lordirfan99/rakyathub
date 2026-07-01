@@ -232,6 +232,13 @@
   background: transparent !important;
   padding: 0.25rem 0 0.25rem 0.75rem !important;
   min-width: auto !important;
+  /* Neutralise the desktop mega-menu positioning on mobile (was pushing the
+     Kalkulator dropdown 50% off-screen and adding a nested 80vh scroll area) */
+  left: auto !important;
+  right: auto !important;
+  transform: none !important;
+  max-height: none !important;
+  width: auto !important;
 }
 #header.expanded .dropdown > .dropdown-menu { display: none !important; }
 #header.expanded .dropdown.dropdown-open > .dropdown-menu { display: block !important; }
