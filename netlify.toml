@@ -1,6 +1,7 @@
 [build]
   publish = "dist"
-  command = "python3 scripts/fetch-income-data.py && python3 scripts/fetch-gov-data.py && python3 scripts/deploy-api.py && npm run build"
+  command = "python3 scripts/deploy-api.py && npm run build"
+  ignore = "exit 0"
 
 [build.processing.html]
   pretty_urls = false

@@ -16,7 +16,7 @@ Usage:
     python scripts/full-deploy.py --deploy-only                 # deploy only (skip git+clean)
 """
 
-import os, sys, subprocess, json, urllib.request, zipfile, io, time
+import os, sys, subprocess
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent.resolve()
@@ -75,15 +75,15 @@ def npm_build():
     return DIST_DIR.exists()
 
 
-def zip_deploy():
-    """Deploy dist/ to Netlify via zip upload."""
+def netlify_deploy():
+    """Deploy dist/ + functions to Netlify via Netlify CLI (zero build minutes)."""
     if not DIST_DIR.exists():
         print("  ❌ dist/ not found. Build first.")
         return False
 
-    print("\n📤 Deploying to Netlify...")
+    print("\n📤 Deploying to Netlify via CLI (direct deploy)...")
 
-    # Get token
+    # Ensure NETLIFY_AUTH_TOKEN is available
     token = os.environ.get('NETLIFY_AUTH_TOKEN', '')
     env_path = os.path.expanduser('~/AppData/Local/hermes/.env')
     if not token and os.path.exists(env_path):
@@ -97,62 +97,20 @@ def zip_deploy():
         print("  ❌ NETLIFY_AUTH_TOKEN not found")
         return False
 
-    site_id = '6a5f68a4-d25a-4c02-880a-77a154e73472'
-
-    # Zip dist/ to memory
-    print("  Zipping...")
-    zip_buffer = io.BytesIO()
-    total_files = 0
-    with zipfile.ZipFile(zip_buffer, 'w', zipfile.ZIP_DEFLATED) as zf:
-        for root, dirs, filenames in os.walk(str(DIST_DIR)):
-            for fn in filenames:
-                full = os.path.join(root, fn)
-                rel = os.path.relpath(full, str(DIST_DIR)).replace(os.sep, '/')
-                zf.write(full, rel)
-                total_files += 1
-
-    data = zip_buffer.getvalue()
-    print(f"  📦 {total_files} files, {len(data)/1024:.0f} KB")
-
-    # Upload
-    url = f'https://api.netlify.com/api/v1/sites/{site_id}/deploys'
-    req = urllib.request.Request(url, headers={
-        'Authorization': f'Bearer {token}',
-        'Content-Type': 'application/zip'
-    }, data=data, method='POST')
-
-    with urllib.request.urlopen(req, timeout=600) as resp:
-        deploy = json.loads(resp.read().decode())
-
-    did = deploy['id']
-    print(f"  🔗 Deploy ID: {did}")
-
-    # Poll until ready, then publish
-    for i in range(30):
-        time.sleep(3)
-        d_req = urllib.request.Request(
-            f'https://api.netlify.com/api/v1/sites/{site_id}/deploys/{did}',
-            headers={'Authorization': f'Bearer {token}'}
-        )
-        with urllib.request.urlopen(d_req, timeout=30) as d_resp:
-            d = json.loads(d_resp.read().decode())
-            state = d.get('state', '?')
-            print(f"     state={state}", end='\r')
-            if state == 'ready':
-                # Publish (restore to make it live)
-                r_req = urllib.request.Request(
-                    f'https://api.netlify.com/api/v1/sites/{site_id}/deploys/{did}/restore',
-                    headers={'Authorization': f'Bearer {token}'},
-                    method='POST'
-                )
-                with urllib.request.urlopen(r_req, timeout=60) as r_resp:
-                    r = json.loads(r_resp.read().decode())
-                    print(f"\n  ✅ Published at {r.get('published_at', 'N/A')}")
-                    print(f"  🌐 {r.get('ssl_url', r.get('url', 'N/A'))}")
-                break
-        if i == 29:
-            print("\n  ⏰ Timed out waiting for deploy")
+    # netlify deploy --prod --dir=dist --functions=netlify/functions
+    # Uses the API token from the env var
+    result = run(
+        f'npx netlify deploy --prod --dir=dist --functions=netlify/functions --message "Direct deploy: $(date +%Y-%m-%d_%H:%M)"',
+        timeout=600
+    )
     
+    # Check for success in output
+    output = result.stdout + result.stderr
+    if 'Website URL' in output or 'published' in output.lower() or 'Unique Deploy URL' in output:
+        print("  ✅ Deploy successful (direct upload, 0 build minutes)")
+        return True
+    
+    print("  ⚠️  Deploy result ambiguous — check Netlify dashboard")
     return True
 
 
@@ -200,7 +158,7 @@ def main():
 
     # Step 3: Deploy
     if not build_only:
-        if not zip_deploy():
+        if not netlify_deploy():
             print("  ❌ Deploy failed")
             sys.exit(1)
 

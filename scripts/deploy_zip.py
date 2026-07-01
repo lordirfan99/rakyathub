@@ -1,61 +1,36 @@
-import os, json, urllib.request, zipfile, io, time
+#!/usr/bin/env python3
+"""Deploy dist/ + functions to Netlify via CLI (zero build minutes).
 
-# Get token
-token = os.environ.get('NETLIFY_AUTH_TOKEN', '')
-with open(os.path.expanduser('~/AppData/Local/hermes/.env')) as f:
-    for line in f:
-        if line.startswith('NETLIFY_AUTH_TOKEN='):
-            token = line.strip().split('=', 1)[1]
-            break
+Usage:
+    python3 scripts/deploy_zip.py
+"""
+import os, subprocess, sys
 
-print(f'Token length: {len(token)}')
-site_id = '6a5f68a4-d25a-4c02-880a-77a154e73472'
-dist_path = os.path.expanduser('~/rakyathub/dist')
+def deploy():
+    token = os.environ.get('NETLIFY_AUTH_TOKEN', '')
+    env_path = os.path.expanduser('~/AppData/Local/hermes/.env')
+    if not token and os.path.exists(env_path):
+        with open(env_path) as f:
+            for line in f:
+                if line.startswith('NETLIFY_AUTH_TOKEN='):
+                    token = line.strip().split('=', 1)[1]
+                    break
+    if not token:
+        print("❌ NETLIFY_AUTH_TOKEN not found")
+        sys.exit(1)
 
-print('Zipping...')
-zip_buffer = io.BytesIO()
-with zipfile.ZipFile(zip_buffer, 'w', zipfile.ZIP_DEFLATED) as zf:
-    for root, dirs, filenames in os.walk(dist_path):
-        for fn in filenames:
-            full = os.path.join(root, fn)
-            rel = os.path.relpath(full, dist_path).replace(os.sep, '/')
-            zf.write(full, rel)
-
-data = zip_buffer.getvalue()
-print(f'Zipped {len(data)/1024:.0f} KB')
-
-url = f'https://api.netlify.com/api/v1/sites/{site_id}/deploys'
-req = urllib.request.Request(url, headers={
-    'Authorization': f'Bearer {token}',
-    'Content-Type': 'application/zip'
-}, data=data, method='POST')
-
-with urllib.request.urlopen(req, timeout=600) as resp:
-    deploy = json.loads(resp.read().decode())
-
-did = deploy['id']
-print(f'Deploy ID: {did}')
-
-for i in range(30):
-    time.sleep(3)
-    d_req = urllib.request.Request(
-        f'https://api.netlify.com/api/v1/sites/{site_id}/deploys/{did}',
-        headers={'Authorization': f'Bearer {token}'}
+    print("🚀 Deploying dist/ + functions via Netlify CLI (direct deploy)...")
+    result = subprocess.run(
+        'npx netlify deploy --prod --dir=dist --functions=netlify/functions --message "Direct deploy: auto"',
+        shell=True, capture_output=True, text=True, timeout=600,
+        cwd=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     )
-    with urllib.request.urlopen(d_req, timeout=30) as d_resp:
-        d = json.loads(d_resp.read().decode())
-        state = d.get('state', '?')
-        print(f'  state={state}', end='\r')
-        if state == 'ready':
-            r_req = urllib.request.Request(
-                f'https://api.netlify.com/api/v1/sites/{site_id}/deploys/{did}/restore',
-                headers={'Authorization': f'Bearer {token}'},
-                method='POST'
-            )
-            with urllib.request.urlopen(r_req, timeout=60) as r_resp:
-                r = json.loads(r_resp.read().decode())
-                print(f'\nPublished at {r.get("published_at", "N/A")}')
-                print(f'URL: {r.get("ssl_url", r.get("url", "N/A"))}')
-            break
-    if i == 29:
-        print('\nTimed out')
+    out = result.stdout + result.stderr
+    print(out)
+    if 'Website URL' in out or 'published' in out.lower():
+        print("✅ Deploy successful (0 build minutes)")
+    else:
+        print("⚠️  Check output above")
+
+if __name__ == '__main__':
+    deploy()
