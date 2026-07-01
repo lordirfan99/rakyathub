@@ -1,7 +1,7 @@
 ---
 publishDate: 2025-07-31
-title: "Panduan Bajet 50/30/20 di Malaysia"
-excerpt: "Panduan bajet 50/30/20 untuk rakyat Malaysia — bahagikan gaji kepada 50% keperluan, 30% kehendak dan 20% simpanan untuk kebebasan kewangan lebih."
+title: "Panduan Bajet 50/30/20 Malaysia — Cara Urus Gaji & Simpanan Duit Gaji"
+excerpt: "Panduan lengkap bajet 50/30/20 untuk rakyat Malaysia. Cara bahagikan gaji — 50% keperluan, 30% kehendak dan 20% simpanan. Tips praktikal urus kewangan bulanan tanpa spreadsheet rumit."
 category: Kewangan
 image: "~/assets/images/hero-bajet.jpg"
 tags:
@@ -11,6 +11,17 @@ tags:
 - simpanan
 - pengurusan-wang
 author: RakyatHub
+faq:
+  - question: "Apa itu bajet 50/30/20?"
+    answer: "Bajet 50/30/20 adalah kaedah pengurusan kewangan yang membahagikan pendapatan bersih kepada tiga bahagian: 50% untuk keperluan (sewa, bil, makan, pengangkutan), 30% untuk kehendak (hiburan, makan luar, shopping), dan 20% untuk simpanan dan pelaburan. Kaedah ni diperkenalkan oleh Senator Elizabeth Warren."
+  - question: "Bajet 50/30/20 sesuai untuk gaji berapa?"
+    answer: "Bajet 50/30/20 sesuai untuk semua peringkat gaji — dari fresh graduate (RM2,500) hingga eksekutif (RM6,000+). Untuk gaji bawah RM2,000, 50% keperluan mungkin ketat. Dalam kes ni, targetkan dulu untuk tingkatkan pendapatan atau adjust peratusan ikut situasi."
+  - question: "Macam mana nak mula bajet 50/30/20?"
+    answer: "Langkah pertama: kira pendapatan bersih (gaji tolak EPF 11%, SOCSO 0.5%, PCB). Kemudian kategorikan semua belanja bulanan — keperluan vs kehendak. Set auto-debit 20% simpanan pada hari gaji masuk. Guna Google Sheets atau aplikasi tracking untuk pantau."
+  - question: "20% untuk simpanan tu cukup ke?"
+    answer: "20% adalah minimum yang disarankan. Kalau ada target besar macam beli rumah atau kahwin, targetkan 30-40%. Yang penting konsisten setiap bulan. Dengan RM500 sebulan dan pulangan 5% setahun, korang boleh kumpul RM83,000 dalam 10 tahun."
+  - question: "Apa beza bajet 50/30/20 dengan zero-based budget?"
+    answer: "Bajet 50/30/20 mudah dan automatik — pecah gaji ikut peratus tetap. Zero-based budget lebih detail — setiap ringgit diberi 'tugas' spesifik. 50/30/20 sesuai untuk beginner, zero-based untuk yang serius nak kawal setiap sen perbelanjaan."
 ---
 
 ## ❓ Apa Itu Bajet 50/30/20 & Kenapa Penting?

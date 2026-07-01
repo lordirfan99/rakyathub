@@ -3,7 +3,7 @@ publishDate: 2026-06-23 08:00:00
 title: "Scam Warga Emas: RM986 Juta Lesap"
 excerpt: "Warga emas rugi RM986.15 juta dalam 3,837 kes scam pada 2024. Sindiket 'gores dan menang' ditahan Jun 2026. Ketahui cara lindung orang tersayang."
 category: Keselamatan
-image: "~/assets/images/hero-scam-online-shopping.jpg"
+image: "~/assets/images/hero-scam-warga-emas-malaysia-2026-cara-lindung.jpg"
 tags:
   - scam
   - warga-emas

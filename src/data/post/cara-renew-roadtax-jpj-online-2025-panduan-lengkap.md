@@ -1,8 +1,8 @@
 ---
 publishDate: 2025-07-14
-title: "Cara Renew & Perbaharui Roadtax JPJ Online 2026 — Bayar Cukai Jalan"
-excerpt: "Panduan renew & perbaharui cukai jalan (roadtax) JPJ online 2026. Bayar gunakan myJPJ, MySikap, JPJ E-Bayar & MYEG. Jimat masa — siap dalam 5 minit."
-category: Kerjaya
+title: "Cara Renew Roadtax JPJ Online 2026 — Harga, Panduan & 5 Platform Bayar Cukai Jalan"
+excerpt: "Panduan lengkap renew roadtax JPJ online 2026 — cara bayar cukai jalan guna myJPJ, MySikap, MYEG & JPJ E-Bayar. Semak harga roadtax kereta & motor terkini. Jimat masa — siap dalam 5 minit."
+category: Kenderaan
 image: "~/assets/images/hero-roadtax.jpg"
 tags:
   - roadtax
@@ -15,7 +15,21 @@ tags:
   - myjpj
   - e-lkm
   - cukai-jalan
+  - harga-roadtax
+  - bayar-cukai-jalan
+  - pembaharuan-lesen
 author: RakyatHub
+faq:
+  - question: "Berapa harga roadtax kereta 2026?"
+    answer: "Harga roadtax LKM kereta bergantung pada kapasiti enjin. Untuk kereta bawah 1,600cc, roadtax 12 bulan sekitar RM130-RM180. Untuk kereta 1,600cc-2,000cc, anggaran RM200-RM300. Untuk motosikal bawah 250cc, roadtax 12 bulan sekitar RM30-RM50."
+  - question: "Boleh renew roadtax online kalau expired?"
+    answer: "Ya — selagi expired bawah 1 tahun. Kalau dah lebih setahun expired, kena pergi kaunter JPJ secara fizikal. Proses online tak boleh untuk roadtax yang dah tamat lebih 12 bulan."
+  - question: "Berapa lama proses renew roadtax online?"
+    answer: "Proses online ambil masa 5-10 minit sahaja. Tapi kalau pilih penghantaran fizikal (sticker), pos ambil masa 3-5 hari bekerja. Kalau guna myJPJ app, e-LKM digital terus dapat dalam app tanpa perlu tunggu pos."
+  - question: "Boleh pakai e-LKM kalau roadtax sticker tak tampal?"
+    answer: "Ya. e-LKM (digital) dalam myJPJ app adalah sah di sisi undang-undang. Polis trafik dan JPJ terima e-LKM sebagai bukti sah pembaharuan cukai jalan. Tak perlu tampal sticker roadtax kat cermin."
+  - question: "Renew roadtax guna myEG charge berapa?"
+    answer: "MYEG caj yuran perkhidmatan sekitar RM1-RM3 untuk renew roadtax. Yuran ni berbeza dari harga roadtax sebenar. Kadang ada promosi — boleh semak di portal MYEG sebelum bayar."
 ---
 
 Tahukah korang — memandu dengan **roadtax tamat tempoh** adalah satu kesalahan di bawah Akta Pengangkutan Jalan 1987? Kalau kena tangkap, denda maksimum sehingga **RM2,000** atau penjara maksimum 6 bulan. So jangan ambil mudah.
@@ -155,19 +169,39 @@ FPX (online banking semua bank), kad kredit/debit — dan kadang ada pilihan Sho
 
 ---
 
+## ❓ FAQ — Soalan Lazim Renew Roadtax JPJ Online
+
+**1. Berapa harga roadtax kereta 2026?**
+Harga roadtax LKM kereta bergantung pada kapasiti enjin. Untuk kereta bawah 1,600cc, roadtax 12 bulan sekitar RM130–RM180. Untuk kereta 1,600cc–2,000cc, anggaran RM200–RM300. Semak jadual harga lengkap di atas untuk detail ikut jenis kenderaan.
+
+**2. Boleh renew roadtax online kalau expired?**
+Ya — selagi expired bawah 1 tahun. Kalau dah lebih setahun, kena pergi kaunter JPJ secara fizikal. Proses online tak boleh untuk roadtax yang dah tamat lebih 12 bulan.
+
+**3. Berapa lama proses renew roadtax online?**
+Proses online ambil masa 5–10 minit je. Tapi kalau pilih penghantaran fizikal (sticker), pos ambil masa 3–5 hari bekerja. Kalau guna myJPJ app, e-LKM terus dapat dalam app — zero waiting time.
+
+**4. Renew roadtax guna myEG charge berapa?**
+MYEG caj yuran perkhidmatan sekitar RM1–RM3 untuk renew roadtax. Yuran ni berbeza dari harga roadtax sebenar. Kadang ada promosi — boleh semak di portal MYEG sebelum bayar.
+
+**5. Boleh pakai e-LKM kalau roadtax sticker tak tampal?**
+Ya. e-LKM (digital) dalam myJPJ app adalah sah di sisi undang-undang. Polis trafik dan JPJ terima e-LKM sebagai bukti sah pembaharuan cukai jalan. Tak perlu tampal sticker roadtax kat cermin.
+
 ## ✅ Kesimpulan
 
 Renew roadtax sekarang dah mudah — tak perlu beratur panjang. Guna salah satu cara ni:
 
-| Platform | Kelebihan | Yuran |
-|----------|----------|-------|
-| **myJPJ App** | e-LKM digital terus | RM0 |
-| **Portal MySikap** | Official JPJ, boleh pilih pos | RM0–RM5 |
-| **MYEG** | Ada alert reminder, sedia guna | RM1–RM3 |
+|| Platform | Kelebihan | Yuran |
+||----------|----------|-------|
+|| **myJPJ App** | e-LKM digital terus | RM0 |
+|| **Portal MySikap** | Official JPJ, boleh pilih pos | RM0–RM5 |
+|| **MYEG** | Ada alert reminder, sedia guna | RM1–RM3 |
 
 📖 **Baca juga:**
+- [Cara Renew Lesen Memandu JPJ Online](/cara-renew-lesen-memandu-jpj-online-yuran-proses-2026/)
 - [Cara Semak Saman JPJ & PDRM Online](/semakan-saman-jpj-pdrm/)
 - [Panduan Insurans Kereta Malaysia (First Time Owner)](/panduan-insurans-kereta-malaysia-first-time-owner/)
-- [Kalkulator DSR — Nisbah Hutang](/kalkulator/dsr/)
+- [Sistem Kejara JPJ — Panduan Lengkap 2026](/sistem-kejara-jpj-malaysia-panduan-lengkap-2026/)
 - [Kalkulator Beli Kereta](/kalkulator/kereta/)
 - [DocuKilat — Penjana Surat Rasmi & Dokumen AI](https://docukilat.rakyathub.my)
+
+**Kata Kunci:** renew roadtax online, cara renew roadtax JPJ, harga roadtax 2026, myJPJ app, mySikap portal, cukai jalan online, bayar roadtax JPJ
