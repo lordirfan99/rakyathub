@@ -252,6 +252,10 @@
   top: 100%;
 }
 
+/* Click/tap toggle for dropdowns — works with JS toggleDropdown() class toggle */
+.dropdown.dropdown-open > .dropdown-menu { display: block !important; }
+.dropdown-mega.dropdown-open > .dropdown-menu { display: grid !important; }
+
 [astro-icon].icon-light > * { stroke-width: 1.2; }
 [astro-icon].icon-bold > * { stroke-width: 2.4; }
 
