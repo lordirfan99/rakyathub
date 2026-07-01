@@ -221,7 +221,7 @@
   left: 0;
   right: 0;
   bottom: 0 !important;
-  padding: 0.5rem 0.75rem 2rem;
+  padding: 0.5rem 0.75rem 5rem;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
