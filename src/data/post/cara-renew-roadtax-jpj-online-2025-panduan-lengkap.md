@@ -20,7 +20,7 @@ author: RakyatHub
 
 Tahukah korang — memandu dengan **roadtax tamat tempoh** adalah satu kesalahan di bawah Akta Pengangkutan Jalan 1987? Kalau kena tangkap, denda maksimum sehingga **RM2,000** atau penjara maksimum 6 bulan. So jangan ambil mudah.
 
-Syukurnya, sekarang korang **tak perlu beratur panjang di kaunter JPJ**. Semua boleh dibuat online — dari MySikap, myJPJ app, sampai MYEG. Dalam artikel ni kami tunjuk **5 cara sah renew roadtax** dengan harga terkini, step-by-step.
+Syukurnya, sekarang korang **tak perlu beratur panjang di kaunter JPJ**. Semua boleh dibuat online — dari MySikap, myJPJ app, sampai MYEG. Dalam artikel ni kami tunjuk **5 cara sah renew roadtax** dengan harga terkini, step-by-step. Oh ya, kalau lesen memandu pun nak renew, baca juga **[Cara Renew Lesen Memandu JPJ Online](/cara-renew-lesen-memandu-jpj-online-yuran-proses-2026)**.
 
 ---
 
@@ -130,7 +130,7 @@ Kalau nak bayar guna portal JPJ tanpa perlu daftar MYEG, guna **JPJ E-Bayar**:
 ## ⚠️ Perangkap Yang Kena Elak
 
 1. **Jangan guna ejen tidak rasmi** — ada yang charge markup 200% untuk perkhidmatan mudah.
-2. **Insurans kena aktif dulu** — sebelum renew roadtax, pastikan insurans kereta dah dibayar. Kalau tak, sistem JPJ akan blok.
+2. **Insurans kena aktif dulu** — sebelum renew roadtax, pastikan **[insurans kereta](/panduan-insurans-kereta-malaysia-first-time-owner/)** dah dibayar. Kalau tak, sistem JPJ akan blok.
 3. **Roadtax expired > 1 tahun** — kena pergi kaunter JPJ, tak boleh online.
 4. **Jangan tunggu last minute** — proses online cepat tapi ambil masa 3-5 hari untuk pos (kalau pilih sticker).
 

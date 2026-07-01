@@ -188,3 +188,10 @@ Ringkasan penting:
 5. **Simpan rekod**: Bawa laporan tahun lepas untuk rujukan doktor — trend lebih penting dari satu bacaan
 
 > 💡 **Tip akhir:** Kalau kali pertama nak buat medical check up, start dengan **pakej Basic** dulu. Lepastu baru upgrade ke Standard atau Executive ikut keputusan dan nasihat doktor.
+
+📖 **Baca juga:**
+- [Medical Card Malaysia 2026 — Harga & Pilihan](/medical-card-malaysia-2026-harga-pilihan/)
+- [Pelepasan Cukai Malaysia 2026](/pelepasan-cukai-malaysia-2026-panduan-lengkap-rebat-potongan/)
+- [Panduan Lengkap Insurans Perubatan Malaysia](/panduan-medical-card-malaysia-2026-first-time-buyer/)
+- [Kencing Manis (Diabetes) di Malaysia — Kos & Pencegahan](/diabetes-kencing-manis-malaysia-kos-pencegahan/)
+- [Pemeriksaan Kesihatan — KKM & Swasta](/perkhidmatan-kkm-percuma-klinik-kesihatan-kerajaan-malaysia/)

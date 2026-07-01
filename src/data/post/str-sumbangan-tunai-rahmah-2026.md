@@ -90,7 +90,7 @@ STR dibayar dalam beberapa fasa sepanjang tahun. Secara umumnya:
 
 ## Cara Guna Bantuan STR Dengan Bijak
 
-Dapat duit STR, jangan terus habiskan untuk benda tak perlu. Ikut **panduan bajet 50/30/20** yang kami kongsikan sebelum ni untuk urus bantuan kerajaan dengan lebih efektif.
+Dapat duit STR, jangan terus habiskan untuk benda tak perlu. Ikut **[panduan bajet 50/30/20](/cadangan-bajet-50-30-20-di-malaysia)** yang kami kongsikan sebelum ni untuk urus bantuan kerajaan dengan lebih efektif.
 
 Antara cara bijak guna STR:
 - **Bayar bil tertunggak** — Utamakan elektrik, air dan internet
@@ -99,19 +99,27 @@ Antara cara bijak guna STR:
 - **Simpan sikit** — Asingkan 10-20% untuk dana kecemasan
 - **Bayar zakat** — Guna **Kalkulator Zakat** untuk kira zakat pendapatan
 
-Baca juga **cara urus duit gaji bawah RM3000** untuk tips urus kewangan dengan pendapatan terhad.
+Baca juga **[cara urus duit gaji bawah RM3000](/urus-duit-gaji-bawah-rm3000)** untuk tips urus kewangan dengan pendapatan terhad.
 
 ## STR vs Bantuan Kerajaan Lain
 
 Selain STR, ada beberapa bantuan kerajaan lain yang anda mungkin layak:
-- **eBelia** — Kredit e-wallet untuk belia 18-20 tahun
-- **SARA** — Bantuan barangan asas untuk golongan layak
-- **Bantuan awal persekolahan** — RM150 untuk anak-anak sekolah
+- **[e-Tunai Belia Rahmah RM200](/e-tunai-belia-rahmah-2026-cara-daftar-tebus-rm200)** — Kredit e-wallet untuk belia 18-20 tahun
+- **[SARA Sumbangan Asas Rahmah](/sara-2026-sumbangan-asas-rahmah-panduan-lengkap)** — Bantuan barangan asas untuk golongan layak
+- **[Bantuan Awal Persekolahan & eKasih](/baek-ptptn-biasiswa-anak-ekasih-2026)** — Bantuan untuk anak-anak sekolah
 
 ## Kesimpulan
 
 STR Sumbangan Tunai Rahmah adalah bantuan penting untuk rakyat Malaysia yang layak. Pastikan anda daftar dan semak status secara berkala supaya tak terlepas. Ingat, bantuan ni bukan duit percuma — gunakan dengan bijak untuk kurangkan beban kos sara hidup.
 
 **Kongsi artikel ni** dengan ahli keluarga dan kawan-kawan yang layak dapat STR!
+
+📖 **Baca juga:**
+- [Baucar Kita Selangor 2026 — Mohon RM600](/baucar-kita-selangor-2026-mohon-rm600)
+- [SARA Sumbangan Asas Rahmah 2026](/sara-2026-sumbangan-asas-rahmah-panduan-lengkap)
+- [e-Tunai Belia Rahmah RM200](/e-tunai-belia-rahmah-2026-cara-daftar-tebus-rm200)
+- [Panduan Bantuan Kerajaan Malaysia 2026](/bantuan-kerajaan/)
+- [Skim Rumah Pertama Malaysia](/skim-rumah-pertama-malaysia-2026-cara-beli-rumah-bawah-rm300k)
+- [Bantuan JKM untuk Warga Emas & OKU](/bantuan-jkm-2026-panduan-lengkap-warga-emas-oku)
 
 📌 *Jangan lupa bookmark rakyathub.my untuk lebih banyak tips kewangan!*

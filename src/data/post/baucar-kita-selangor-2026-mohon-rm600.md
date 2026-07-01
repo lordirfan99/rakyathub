@@ -63,7 +63,7 @@ Sebelum korang terus mohon, pastikan korang memenuhi **SEMUA** syarat ni:
 - **Ibu tunggal** yang memerlukan
 - Warga emas tanpa sumber pendapatan tetap
 
-> **Nota Penting:** Keutamaan akan diberi kepada golongan yang paling terjejas. Kalau korang dah terima bantuan STR/SARA kebangsaan, korang **MASIH BOLEH MOHON** — program negeri ni berasingan dari bantuan persekutuan.
+> **Nota Penting:** Keutamaan akan diberi kepada golongan yang paling terjejas. Kalau korang dah terima bantuan STR/SARA kebangsaan, korang **MASIH BOLEH MOHON** — program negeri ni berasingan dari bantuan persekutuan. Nak tahu lebih lanjut tentang bantuan kerajaan lain? Semak panduan lengkap **[STR Sumbangan Tunai Rahmah 2026](/str-sumbangan-tunai-rahmah-2026)** dan **[SARA Sumbangan Asas Rahmah 2026](/sara-2026-sumbangan-asas-rahmah-panduan-lengkap)**. Pelajar pun boleh mohon **[e-Tunai Belia Rahmah RM200](/e-tunai-belia-rahmah-2026-cara-daftar-tebus-rm200)**.
 
 ## Cara Mohon Baucar Kita Selangor 2026 (Langkah Demi Langkah)
 
@@ -116,7 +116,7 @@ Tak ada smartphone atau aplikasi Selangkah? Boleh guna portal web:
 | **Tempoh Bantuan** | Jun – November 2026 |
 | **Pengumuman Rasmi Negeri** | 22 Jun 2026 |
 
-**Jangan terpedaya dengan panggilan atau mesej palsu** yang kononnya dari Baucar Kita Selangor. Hanya SMS rasmi dari Kerajaan Negeri Selangor yang sah. Kerajaan Negeri akan membuat pengumuman rasmi pada **22 Jun 2026** — tunggu pengumuman tu sebelum buat sebarang tindakan.
+**Jangan terpedaya dengan panggilan atau mesej palsu** yang kononnya dari Baucar Kita Selangor. Hanya SMS rasmi dari Kerajaan Negeri Selangor yang sah. Kalau nak tahu lebih tentang scam kerajaan palsu, baca panduan lengkap **[Scam Panggilan Palsu BNM & Polis 2026](/scam-panggilan-palsu-bnm-polis-bank-cara-blok)** dan **[Scam SMS Bank Palsu Malaysia 2026](/fake-bts-scam-sms-palsu-malaysia-cara-lindung-diri)**. Kerajaan Negeri akan membuat pengumuman rasmi pada **22 Jun 2026** — tunggu pengumuman tu sebelum buat sebarang tindakan.
 
 ## Cara Semak Status Permohonan
 
@@ -179,6 +179,14 @@ Baucar Kita Selangor hanyalah SEBAHAGIAN daripada pakej lebih besar. Ada **6 lag
 | **Sarapan Percuma Sekolah** | — | 873 sekolah (mulai Ogos 2026) |
 | **Bantuan Pesawah/Nelayan/Petani** | — | Golongan asas tani |
 | **Bantuan Peniaga Kecil** | — | Peniaga mikro |
+
+📖 **Baca juga:**
+- [STR Sumbangan Tunai Rahmah 2026](/str-sumbangan-tunai-rahmah-2026)
+- [SARA Sumbangan Asas Rahmah 2026](/sara-2026-sumbangan-asas-rahmah-panduan-lengkap)
+- [e-Tunai Belia Rahmah RM200](/e-tunai-belia-rahmah-2026-cara-daftar-tebus-rm200)
+- [Panduan Bantuan Kerajaan Malaysia 2026](/bantuan-kerajaan/)
+- [Scam Panggilan Palsu BNM — Cara Blok](/scam-panggilan-palsu-bnm-polis-bank-cara-blok)
+- [Scam SMS Bank Palsu Malaysia 2026](/fake-bts-scam-sms-palsu-malaysia-cara-lindung-diri)
 
 ## Sumber Rujukan & Pautan Rasmi
 
