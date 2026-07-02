@@ -14,7 +14,7 @@ tags:
   - import
   - ckd
   - proton
-  - 2026
+  - "2026"
 author: RakyatHub
 faq:
   - question: "Apa perubahan dasar EV CBU yang berkuat kuasa 1 Julai 2026?"
