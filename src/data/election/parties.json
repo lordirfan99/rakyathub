@@ -34,6 +34,14 @@
     },
     {
       "type": "party",
+      "uid": "125-ASLI",
+      "maps_to": "125-ASLI",
+      "acronym": "ASLI",
+      "name_en": "Malaysian Indigenous People's Party",
+      "name_bm": "Parti Orang Asli Malaysia"
+    },
+    {
+      "type": "party",
       "uid": "071-ASPIRASI",
       "maps_to": "071-ASPIRASI",
       "acronym": "ASPIRASI",
@@ -71,6 +79,14 @@
       "acronym": "BERSAMA",
       "name_en": "Malaysia United People's Party",
       "name_bm": "Parti Bersatu Sasa Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "106-BERSAMA",
+      "maps_to": "106-BERSAMA",
+      "acronym": "BERSAMA",
+      "name_en": "Malaysian United Party",
+      "name_bm": "Parti Bersama Malaysia"
     },
     {
       "type": "party",
@@ -263,6 +279,14 @@
       "acronym": "MIC",
       "name_en": "Malaysian Indian Congress",
       "name_bm": "Kongres India Se-Malaysia"
+    },
+    {
+      "type": "party",
+      "uid": "113-MIPP",
+      "maps_to": "113-MIPP",
+      "acronym": "MIPP",
+      "name_en": "Malaysian Indian People Party",
+      "name_bm": "Parti Rakyat India Malaysia"
     },
     {
       "type": "party",

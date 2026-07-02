@@ -10,11 +10,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 48282,
-      "voter_turnout": 26827,
+      "voter_turnout": 26827.0,
       "voter_turnout_perc": 55.56314982809328,
-      "votes_rejected": 369,
+      "votes_rejected": 369.0,
       "votes_rejected_perc": 1.3766088416340236,
-      "majority": 14214,
+      "majority": 14214.0,
       "majority_perc": 53.76758965047662
     },
     {
@@ -27,11 +27,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 13515,
-      "voter_turnout": 9024,
+      "voter_turnout": 9024.0,
       "voter_turnout_perc": 66.77025527192009,
-      "votes_rejected": 160,
+      "votes_rejected": 160.0,
       "votes_rejected_perc": 1.7744260840634358,
-      "majority": 5681,
+      "majority": 5681.0,
       "majority_perc": 64.1413571186632
     },
     {
@@ -44,11 +44,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 31897,
-      "voter_turnout": 18523,
+      "voter_turnout": 18523.0,
       "voter_turnout_perc": 58.071291971031755,
-      "votes_rejected": 289,
+      "votes_rejected": 289.0,
       "votes_rejected_perc": 1.5605594254549382,
-      "majority": 5006,
+      "majority": 5006.0,
       "majority_perc": 27.46023038946791
     },
     {
@@ -61,11 +61,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 66318,
-      "voter_turnout": 35705,
+      "voter_turnout": 35705.0,
       "voter_turnout_perc": 53.83907837992702,
-      "votes_rejected": 339,
+      "votes_rejected": 339.0,
       "votes_rejected_perc": 0.9500854796670497,
-      "majority": 20648,
+      "majority": 20648.0,
       "majority_perc": 58.423405579763454
     },
     {
@@ -78,11 +78,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 20259,
-      "voter_turnout": 14968,
+      "voter_turnout": 14968.0,
       "voter_turnout_perc": 73.8832123994274,
-      "votes_rejected": 135,
+      "votes_rejected": 135.0,
       "votes_rejected_perc": 0.9021049114600734,
-      "majority": 3352,
+      "majority": 3352.0,
       "majority_perc": 22.60283209710047
     },
     {
@@ -95,11 +95,11 @@
       "coalition_uid": "011-PN",
       "coalition": "PN",
       "voters_total": 39279,
-      "voter_turnout": 24923,
+      "voter_turnout": 24923.0,
       "voter_turnout_perc": 63.45120802464421,
-      "votes_rejected": 208,
+      "votes_rejected": 208.0,
       "votes_rejected_perc": 0.8347044423933544,
-      "majority": 4267,
+      "majority": 4267.0,
       "majority_perc": 17.267613613370564
     },
     {
@@ -112,11 +112,11 @@
       "coalition_uid": "007-PH",
       "coalition": "PH",
       "voters_total": 40226,
-      "voter_turnout": 24734,
+      "voter_turnout": 24734.0,
       "voter_turnout_perc": 61.48759508775419,
-      "votes_rejected": 263,
+      "votes_rejected": 263.0,
       "votes_rejected_perc": 1.063313657313819,
-      "majority": 3869,
+      "majority": 3869.0,
       "majority_perc": 15.81055126476237
     },
     {
@@ -129,11 +129,11 @@
       "coalition_uid": "011-PN",
       "coalition": "PN",
       "voters_total": 141790,
-      "voter_turnout": 93239,
+      "voter_turnout": 93239.0,
       "voter_turnout_perc": 65.75851611538191,
-      "votes_rejected": 428,
+      "votes_rejected": 428.0,
       "votes_rejected_perc": 0.4592077593236342,
-      "majority": 37220,
+      "majority": 37220.0,
       "majority_perc": 40.118134000172454
     },
     {
@@ -146,11 +146,11 @@
       "coalition_uid": "009-GPS",
       "coalition": "GPS",
       "voters_total": 22804,
-      "voter_turnout": 11077,
+      "voter_turnout": 11077.0,
       "voter_turnout_perc": 48.57481143659007,
-      "votes_rejected": 152,
+      "votes_rejected": 152.0,
       "votes_rejected_perc": 1.3724604966139955,
-      "majority": 8784,
+      "majority": 8784.0,
       "majority_perc": 80.41746772864597
     },
     {
@@ -163,11 +163,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 16456,
-      "voter_turnout": 11868,
+      "voter_turnout": 11868.0,
       "voter_turnout_perc": 72.11959163830821,
-      "votes_rejected": 120,
+      "votes_rejected": 120.0,
       "votes_rejected_perc": 1.0112927692566998,
-      "majority": 2949,
+      "majority": 2949.0,
       "majority_perc": 25.106419206538394
     },
     {
@@ -180,11 +180,11 @@
       "coalition_uid": "007-PH",
       "coalition": "PH",
       "voters_total": 40379,
-      "voter_turnout": 24571,
+      "voter_turnout": 24571.0,
       "voter_turnout_perc": 60.85093736843409,
-      "votes_rejected": 74,
+      "votes_rejected": 74.0,
       "votes_rejected_perc": 0.30131520013029844,
-      "majority": 3514,
+      "majority": 3514.0,
       "majority_perc": 14.351643863589953
     },
     {
@@ -197,11 +197,11 @@
       "coalition_uid": "007-PH",
       "coalition": "PH",
       "voters_total": 166653,
-      "voter_turnout": 78882,
+      "voter_turnout": 78882.0,
       "voter_turnout_perc": 47.33308131266764,
-      "votes_rejected": 363,
+      "votes_rejected": 363.0,
       "votes_rejected_perc": 0.46056638246041415,
-      "majority": 18641,
+      "majority": 18641.0,
       "majority_perc": 23.76072298063809
     },
     {
@@ -214,11 +214,11 @@
       "coalition_uid": "011-PN",
       "coalition": "PN",
       "voters_total": 123397,
-      "voter_turnout": 90632,
+      "voter_turnout": 90632.0,
       "voter_turnout_perc": 73.44749061970712,
-      "votes_rejected": 1049,
+      "votes_rejected": 1049.0,
       "votes_rejected_perc": 1.1588471183482285,
-      "majority": 47266,
+      "majority": 47266.0,
       "majority_perc": 52.82770028612303
     },
     {
@@ -231,11 +231,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 32761,
-      "voter_turnout": 18376,
+      "voter_turnout": 18376.0,
       "voter_turnout_perc": 56.09108391074753,
-      "votes_rejected": 482,
+      "votes_rejected": 482.0,
       "votes_rejected_perc": 2.6410958904109587,
-      "majority": 6629,
+      "majority": 6629.0,
       "majority_perc": 37.30864475461504
     },
     {
@@ -248,11 +248,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 23094,
-      "voter_turnout": 15796,
+      "voter_turnout": 15796.0,
       "voter_turnout_perc": 68.39871828180479,
-      "votes_rejected": 327,
+      "votes_rejected": 327.0,
       "votes_rejected_perc": 2.0725060210419572,
-      "majority": 10945,
+      "majority": 10945.0,
       "majority_perc": 70.83683903954436
     },
     {
@@ -265,11 +265,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 20990,
-      "voter_turnout": 15506,
+      "voter_turnout": 15506.0,
       "voter_turnout_perc": 73.87327298713673,
-      "votes_rejected": 239,
+      "votes_rejected": 239.0,
       "votes_rejected_perc": 1.5449256625727215,
-      "majority": 12650,
+      "majority": 12650.0,
       "majority_perc": 83.05429715711378
     },
     {
@@ -282,11 +282,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 29664,
-      "voter_turnout": 23708,
+      "voter_turnout": 23708.0,
       "voter_turnout_perc": 79.9217907227616,
-      "votes_rejected": 320,
+      "votes_rejected": 320.0,
       "votes_rejected_perc": 1.3500400793148546,
-      "majority": 2029,
+      "majority": 2029.0,
       "majority_perc": 8.677244151734167
     },
     {
@@ -299,11 +299,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 52986,
-      "voter_turnout": 39440,
+      "voter_turnout": 39440.0,
       "voter_turnout_perc": 74.43475635073415,
-      "votes_rejected": 595,
+      "votes_rejected": 595.0,
       "votes_rejected_perc": 1.5097690941385435,
-      "majority": 15086,
+      "majority": 15086.0,
       "majority_perc": 38.866417622053326
     },
     {
@@ -316,11 +316,11 @@
       "coalition_uid": "007-PH",
       "coalition": "PH",
       "voters_total": 40131,
-      "voter_turnout": 21847,
+      "voter_turnout": 21847.0,
       "voter_turnout_perc": 54.43921158206872,
-      "votes_rejected": 234,
+      "votes_rejected": 234.0,
       "votes_rejected_perc": 1.0719684822941957,
-      "majority": 11521,
+      "majority": 11521.0,
       "majority_perc": 53.35031257235471
     },
     {
@@ -333,11 +333,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 20926,
-      "voter_turnout": 16596,
+      "voter_turnout": 16596.0,
       "voter_turnout_perc": 79.30803784765364,
-      "votes_rejected": 146,
+      "votes_rejected": 146.0,
       "votes_rejected_perc": 0.8799421407907425,
-      "majority": 4510,
+      "majority": 4510.0,
       "majority_perc": 27.423081600389153
     },
     {
@@ -350,11 +350,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 54503,
-      "voter_turnout": 39918,
+      "voter_turnout": 39918.0,
       "voter_turnout_perc": 73.24000513733189,
-      "votes_rejected": 650,
+      "votes_rejected": 650.0,
       "votes_rejected_perc": 1.6303802548409752,
-      "majority": 1914,
+      "majority": 1914.0,
       "majority_perc": 4.880412055688715
     },
     {
@@ -367,11 +367,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 32009,
-      "voter_turnout": 22019,
+      "voter_turnout": 22019.0,
       "voter_turnout_perc": 68.79002780467994,
-      "votes_rejected": 568,
+      "votes_rejected": 568.0,
       "votes_rejected_perc": 2.5822876886706676,
-      "majority": 3238,
+      "majority": 3238.0,
       "majority_perc": 15.111069628523428
     },
     {
@@ -384,11 +384,11 @@
       "coalition_uid": "007-PH",
       "coalition": "PH",
       "voters_total": 75317,
-      "voter_turnout": 44136,
+      "voter_turnout": 44136.0,
       "voter_turnout_perc": 58.60031599771632,
-      "votes_rejected": 598,
+      "votes_rejected": 598.0,
       "votes_rejected_perc": 1.356408918728877,
-      "majority": 23560,
+      "majority": 23560.0,
       "majority_perc": 54.17461886913932
     },
     {
@@ -401,11 +401,11 @@
       "coalition_uid": "007-PH",
       "coalition": "PH",
       "voters_total": 62219,
-      "voter_turnout": 26734,
+      "voter_turnout": 26734.0,
       "voter_turnout_perc": 42.96758224979508,
-      "votes_rejected": 227,
+      "votes_rejected": 227.0,
       "votes_rejected_perc": 0.8498689629352303,
-      "majority": 18533,
+      "majority": 18533.0,
       "majority_perc": 69.98074236302534
     },
     {
@@ -418,11 +418,11 @@
       "coalition_uid": "007-PH",
       "coalition": "PH",
       "voters_total": 53492,
-      "voter_turnout": 23615,
+      "voter_turnout": 23615.0,
       "voter_turnout_perc": 44.14678830479324,
-      "votes_rejected": 164,
+      "votes_rejected": 164.0,
       "votes_rejected_perc": 0.6952982575147327,
-      "majority": 4027,
+      "majority": 4027.0,
       "majority_perc": 17.19250309524826
     },
     {
@@ -435,11 +435,11 @@
       "coalition_uid": "007-PH",
       "coalition": "PH",
       "voters_total": 51230,
-      "voter_turnout": 25303,
+      "voter_turnout": 25303.0,
       "voter_turnout_perc": 49.39098184657427,
-      "votes_rejected": 173,
+      "votes_rejected": 173.0,
       "votes_rejected_perc": 0.6842813068586346,
-      "majority": 5842,
+      "majority": 5842.0,
       "majority_perc": 23.266557807957305
     },
     {
@@ -452,11 +452,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 9959,
-      "voter_turnout": 6892,
+      "voter_turnout": 6892.0,
       "voter_turnout_perc": 69.20373531479063,
-      "votes_rejected": 80,
+      "votes_rejected": 80.0,
       "votes_rejected_perc": 1.1609345523146133,
-      "majority": 6443,
+      "majority": 6443.0,
       "majority_perc": 94.59697548083982
     },
     {
@@ -469,11 +469,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 32949,
-      "voter_turnout": 23523,
+      "voter_turnout": 23523.0,
       "voter_turnout_perc": 71.39215150687426,
-      "votes_rejected": 239,
+      "votes_rejected": 239.0,
       "votes_rejected_perc": 1.0164589801386468,
-      "majority": 6969,
+      "majority": 6969.0,
       "majority_perc": 29.94328435163702
     },
     {
@@ -486,11 +486,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 42655,
-      "voter_turnout": 31721,
+      "voter_turnout": 31721.0,
       "voter_turnout_perc": 74.36642832024381,
-      "votes_rejected": 379,
+      "votes_rejected": 379.0,
       "votes_rejected_perc": 1.1959608709372043,
-      "majority": 9191,
+      "majority": 9191.0,
       "majority_perc": 29.3539011848871
     },
     {
@@ -503,11 +503,11 @@
       "coalition_uid": "007-PR",
       "coalition": "PR",
       "voters_total": 71890,
-      "voter_turnout": 53145,
+      "voter_turnout": 53145.0,
       "voter_turnout_perc": 73.92544164696064,
-      "votes_rejected": 843,
+      "votes_rejected": 843.0,
       "votes_rejected_perc": 1.5875108282173929,
-      "majority": 8841,
+      "majority": 8841.0,
       "majority_perc": 16.917660115960885
     },
     {
@@ -520,11 +520,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 53294,
-      "voter_turnout": 39352,
+      "voter_turnout": 39352.0,
       "voter_turnout_perc": 73.83945659924194,
-      "votes_rejected": 591,
+      "votes_rejected": 591.0,
       "votes_rejected_perc": 1.5042761148442272,
-      "majority": 8895,
+      "majority": 8895.0,
       "majority_perc": 22.98627800604698
     },
     {
@@ -537,11 +537,11 @@
       "coalition_uid": "007-PR",
       "coalition": "PR",
       "voters_total": 21890,
-      "voter_turnout": 12020,
+      "voter_turnout": 12020.0,
       "voter_turnout_perc": 54.910918227501135,
-      "votes_rejected": 140,
+      "votes_rejected": 140.0,
       "votes_rejected_perc": 1.1654041455090318,
-      "majority": 10092,
+      "majority": 10092.0,
       "majority_perc": 84.99957887644236
     },
     {
@@ -554,11 +554,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 24039,
-      "voter_turnout": 17558,
+      "voter_turnout": 17558.0,
       "voter_turnout_perc": 73.03964391197637,
-      "votes_rejected": 230,
+      "votes_rejected": 230.0,
       "votes_rejected_perc": 1.3101680432925094,
-      "majority": 2635,
+      "majority": 2635.0,
       "majority_perc": 15.209235209235208
     },
     {
@@ -571,11 +571,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 60349,
-      "voter_turnout": 40668,
+      "voter_turnout": 40668.0,
       "voter_turnout_perc": 67.38802631360917,
-      "votes_rejected": 543,
+      "votes_rejected": 543.0,
       "votes_rejected_perc": 1.3368128215859574,
-      "majority": 238,
+      "majority": 238.0,
       "majority_perc": 0.5938716438766344
     },
     {
@@ -588,11 +588,11 @@
       "coalition_uid": "007-PR",
       "coalition": "PR",
       "voters_total": 82431,
-      "voter_turnout": 46438,
+      "voter_turnout": 46438.0,
       "voter_turnout_perc": 56.335601897344446,
-      "votes_rejected": 539,
+      "votes_rejected": 539.0,
       "votes_rejected_perc": 1.1619384323531947,
-      "majority": 37659,
+      "majority": 37659.0,
       "majority_perc": 82.13701498396911
     },
     {
@@ -605,11 +605,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 13366,
-      "voter_turnout": 9624,
+      "voter_turnout": 9624.0,
       "voter_turnout_perc": 72.00359120155618,
-      "votes_rejected": 146,
+      "votes_rejected": 146.0,
       "votes_rejected_perc": 1.5171983788839238,
-      "majority": 6911,
+      "majority": 6911.0,
       "majority_perc": 72.92392107206922
     },
     {
@@ -622,11 +622,11 @@
       "coalition_uid": "007-PR",
       "coalition": "PR",
       "voters_total": 39278,
-      "voter_turnout": 28317,
+      "voter_turnout": 28317.0,
       "voter_turnout_perc": 72.09379296298182,
-      "votes_rejected": 176,
+      "votes_rejected": 176.0,
       "votes_rejected_perc": 0.6223699565048268,
-      "majority": 5379,
+      "majority": 5379.0,
       "majority_perc": 19.140305305483402
     },
     {
@@ -639,11 +639,11 @@
       "coalition_uid": "007-PR",
       "coalition": "PR",
       "voters_total": 27222,
-      "voter_turnout": 23205,
+      "voter_turnout": 23205.0,
       "voter_turnout_perc": 85.24355300859598,
-      "votes_rejected": 145,
+      "votes_rejected": 145.0,
       "votes_rejected_perc": 0.6250269408164145,
-      "majority": 1084,
+      "majority": 1084.0,
       "majority_perc": 4.702003990630693
     },
     {
@@ -656,11 +656,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 17683,
-      "voter_turnout": 14109,
+      "voter_turnout": 14109.0,
       "voter_turnout_perc": 79.7884974269072,
-      "votes_rejected": 125,
+      "votes_rejected": 125.0,
       "votes_rejected_perc": 0.885959316748175,
-      "majority": 2592,
+      "majority": 2592.0,
       "majority_perc": 18.53546910755149
     },
     {
@@ -673,11 +673,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 10679,
-      "voter_turnout": 8417,
+      "voter_turnout": 8417.0,
       "voter_turnout_perc": 78.81824140837156,
-      "votes_rejected": 135,
+      "votes_rejected": 135.0,
       "votes_rejected_perc": 1.6040874524714828,
-      "majority": 3643,
+      "majority": 3643.0,
       "majority_perc": 43.99227146479894
     },
     {
@@ -690,11 +690,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 8999,
-      "voter_turnout": 7487,
+      "voter_turnout": 7487.0,
       "voter_turnout_perc": 83.19813312590287,
-      "votes_rejected": 90,
+      "votes_rejected": 90.0,
       "votes_rejected_perc": 1.2022441891530857,
-      "majority": 2724,
+      "majority": 2724.0,
       "majority_perc": 36.83071930773391
     },
     {
@@ -707,11 +707,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 14676,
-      "voter_turnout": 9833,
+      "voter_turnout": 9833.0,
       "voter_turnout_perc": 67.00054510765877,
-      "votes_rejected": 139,
+      "votes_rejected": 139.0,
       "votes_rejected_perc": 1.4140386571719228,
-      "majority": 3707,
+      "majority": 3707.0,
       "majority_perc": 38.25198637911464
     },
     {
@@ -724,11 +724,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 11553,
-      "voter_turnout": 9593,
+      "voter_turnout": 9593.0,
       "voter_turnout_perc": 83.03470959923828,
-      "votes_rejected": 132,
+      "votes_rejected": 132.0,
       "votes_rejected_perc": 1.3764337851929094,
-      "majority": 1190,
+      "majority": 1190.0,
       "majority_perc": 12.581941213787271
     },
     {
@@ -741,11 +741,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 25582,
-      "voter_turnout": 15613,
+      "voter_turnout": 15613.0,
       "voter_turnout_perc": 61.031193808146355,
-      "votes_rejected": 372,
+      "votes_rejected": 372.0,
       "votes_rejected_perc": 2.386144964720975,
-      "majority": 6359,
+      "majority": 6359.0,
       "majority_perc": 41.78604284400053
     },
     {
@@ -758,11 +758,11 @@
       "coalition_uid": "007-PR",
       "coalition": "PR",
       "voters_total": 54695,
-      "voter_turnout": 38111,
+      "voter_turnout": 38111.0,
       "voter_turnout_perc": 69.67912971935277,
-      "votes_rejected": 395,
+      "votes_rejected": 395.0,
       "votes_rejected_perc": 1.0416941375036262,
-      "majority": 398,
+      "majority": 398.0,
       "majority_perc": 1.060654514444089
     },
     {
@@ -775,11 +775,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 64500,
-      "voter_turnout": 49067,
+      "voter_turnout": 49067.0,
       "voter_turnout_perc": 76.07286821705426,
-      "votes_rejected": 731,
+      "votes_rejected": 731.0,
       "votes_rejected_perc": 1.4918367346938775,
-      "majority": 1725,
+      "majority": 1725.0,
       "majority_perc": 3.5737222648076403
     },
     {
@@ -792,11 +792,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 13664,
-      "voter_turnout": 11170,
+      "voter_turnout": 11170.0,
       "voter_turnout_perc": 81.7476580796253,
-      "votes_rejected": 223,
+      "votes_rejected": 223.0,
       "votes_rejected_perc": 2.062141668207879,
-      "majority": 5435,
+      "majority": 5435.0,
       "majority_perc": 51.317156075913516
     },
     {
@@ -809,11 +809,11 @@
       "coalition_uid": "007-PR",
       "coalition": "PR",
       "voters_total": 20290,
-      "voter_turnout": 14769,
+      "voter_turnout": 14769.0,
       "voter_turnout_perc": 72.78955150320355,
-      "votes_rejected": 83,
+      "votes_rejected": 83.0,
       "votes_rejected_perc": 0.5620260021668473,
-      "majority": 4551,
+      "majority": 4551.0,
       "majority_perc": 30.990806945863124
     },
     {
@@ -826,11 +826,11 @@
       "coalition_uid": "007-PR",
       "coalition": "PR",
       "voters_total": 12293,
-      "voter_turnout": 10754,
+      "voter_turnout": 10754.0,
       "voter_turnout_perc": 87.4806800618238,
-      "votes_rejected": 117,
+      "votes_rejected": 117.0,
       "votes_rejected_perc": 1.0885746185336806,
-      "majority": 65,
+      "majority": 65.0,
       "majority_perc": 0.6114194337315398
     },
     {
@@ -843,11 +843,11 @@
       "coalition_uid": "007-PR",
       "coalition": "PR",
       "voters_total": 15384,
-      "voter_turnout": 7102,
+      "voter_turnout": 7102.0,
       "voter_turnout_perc": 46.16484659386376,
-      "votes_rejected": 107,
+      "votes_rejected": 107.0,
       "votes_rejected_perc": 1.50683002394029,
-      "majority": 5558,
+      "majority": 5558.0,
       "majority_perc": 79.46811552759509
     },
     {
@@ -860,11 +860,11 @@
       "coalition_uid": "007-PR",
       "coalition": "PR",
       "voters_total": 35140,
-      "voter_turnout": 24611,
+      "voter_turnout": 24611.0,
       "voter_turnout_perc": 70.03699487763232,
-      "votes_rejected": 415,
+      "votes_rejected": 415.0,
       "votes_rejected_perc": 1.6868547272579464,
-      "majority": 2403,
+      "majority": 2403.0,
       "majority_perc": 9.935089097449042
     },
     {
@@ -877,11 +877,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 8006,
-      "voter_turnout": 6030,
+      "voter_turnout": 6030.0,
       "voter_turnout_perc": 75.3185111166625,
-      "votes_rejected": 59,
+      "votes_rejected": 59.0,
       "votes_rejected_perc": 0.9802292739657751,
-      "majority": 1854,
+      "majority": 1854.0,
       "majority_perc": 31.107382550335572
     },
     {
@@ -894,11 +894,11 @@
       "coalition_uid": "007-PR",
       "coalition": "PR",
       "voters_total": 55562,
-      "voter_turnout": 41467,
+      "voter_turnout": 41467.0,
       "voter_turnout_perc": 74.63194269464742,
-      "votes_rejected": 456,
+      "votes_rejected": 456.0,
       "votes_rejected_perc": 1.1001471688098627,
-      "majority": 2789,
+      "majority": 2789.0,
       "majority_perc": 6.803600614739101
     },
     {
@@ -911,11 +911,11 @@
       "coalition_uid": "007-PR",
       "coalition": "PR",
       "voters_total": 80229,
-      "voter_turnout": 64102,
+      "voter_turnout": 64102.0,
       "voter_turnout_perc": 79.89878971444242,
-      "votes_rejected": 665,
+      "votes_rejected": 665.0,
       "votes_rejected_perc": 1.0391761598924882,
-      "majority": 2631,
+      "majority": 2631.0,
       "majority_perc": 4.154560384032339
     },
     {
@@ -928,11 +928,11 @@
       "coalition_uid": "007-PR",
       "coalition": "PR",
       "voters_total": 58459,
-      "voter_turnout": 47268,
+      "voter_turnout": 47268.0,
       "voter_turnout_perc": 80.85666877640739,
-      "votes_rejected": 447,
+      "votes_rejected": 447.0,
       "votes_rejected_perc": 0.94587159845952,
-      "majority": 15671,
+      "majority": 15671.0,
       "majority_perc": 33.47717416846468
     },
     {
@@ -945,11 +945,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 12272,
-      "voter_turnout": 10053,
+      "voter_turnout": 10053.0,
       "voter_turnout_perc": 81.91818774445892,
-      "votes_rejected": 134,
+      "votes_rejected": 134.0,
       "votes_rejected_perc": 1.3330680461599682,
-      "majority": 1850,
+      "majority": 1850.0,
       "majority_perc": 18.652954224642066
     },
     {
@@ -962,11 +962,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 9623,
-      "voter_turnout": 7155,
+      "voter_turnout": 7155.0,
       "voter_turnout_perc": 74.35311233503066,
-      "votes_rejected": 166,
+      "votes_rejected": 166.0,
       "votes_rejected_perc": 2.3213536568312123,
-      "majority": 4081,
+      "majority": 4081.0,
       "majority_perc": 58.425196850393704
     },
     {
@@ -979,11 +979,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 10525,
-      "voter_turnout": 7085,
+      "voter_turnout": 7085.0,
       "voter_turnout_perc": 67.31591448931117,
-      "votes_rejected": 385,
+      "votes_rejected": 385.0,
       "votes_rejected_perc": 5.437853107344632,
-      "majority": 5857,
+      "majority": 5857.0,
       "majority_perc": 87.48319641523526
     },
     {
@@ -996,11 +996,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 18411,
-      "voter_turnout": 15450,
+      "voter_turnout": 15450.0,
       "voter_turnout_perc": 83.9172233990549,
-      "votes_rejected": 325,
+      "votes_rejected": 325.0,
       "votes_rejected_perc": 2.103559870550162,
-      "majority": 134,
+      "majority": 134.0,
       "majority_perc": 0.8859504132231405
     },
     {
@@ -1013,11 +1013,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 7696,
-      "voter_turnout": 4313,
+      "voter_turnout": 4313.0,
       "voter_turnout_perc": 56.0420997920998,
-      "votes_rejected": 79,
+      "votes_rejected": 79.0,
       "votes_rejected_perc": 1.831671690238813,
-      "majority": 1452,
+      "majority": 1452.0,
       "majority_perc": 34.293811998110534
     },
     {
@@ -1030,11 +1030,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 11430,
-      "voter_turnout": 10147,
+      "voter_turnout": 10147.0,
       "voter_turnout_perc": 88.77515310586178,
-      "votes_rejected": 103,
+      "votes_rejected": 103.0,
       "votes_rejected_perc": 1.0151783954267692,
-      "majority": 2059,
+      "majority": 2059.0,
       "majority_perc": 20.501842079060044
     },
     {
@@ -1047,11 +1047,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 49427,
-      "voter_turnout": 22108,
+      "voter_turnout": 22108.0,
       "voter_turnout_perc": 44.728589637242806,
-      "votes_rejected": 132,
+      "votes_rejected": 132.0,
       "votes_rejected_perc": 0.5972850678733032,
-      "majority": 11923,
+      "majority": 11923.0,
       "majority_perc": 54.27439912600146
     },
     {
@@ -1064,11 +1064,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 53128,
-      "voter_turnout": 45725,
+      "voter_turnout": 45725.0,
       "voter_turnout_perc": 86.06572805300407,
-      "votes_rejected": 346,
+      "votes_rejected": 346.0,
       "votes_rejected_perc": 0.7568962877080918,
-      "majority": 283,
+      "majority": 283.0,
       "majority_perc": 0.6238014415764763
     },
     {
@@ -1081,11 +1081,11 @@
       "coalition_uid": "007-BA",
       "coalition": "BA",
       "voters_total": 19399,
-      "voter_turnout": 16220,
+      "voter_turnout": 16220.0,
       "voter_turnout_perc": 83.61255734831691,
-      "votes_rejected": 127,
+      "votes_rejected": 127.0,
       "votes_rejected_perc": 0.7832254085723096,
-      "majority": 508,
+      "majority": 508.0,
       "majority_perc": 3.1576330183988066
     },
     {
@@ -1098,11 +1098,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 17144,
-      "voter_turnout": 12255,
+      "voter_turnout": 12255.0,
       "voter_turnout_perc": 71.48273448436771,
-      "votes_rejected": 149,
+      "votes_rejected": 149.0,
       "votes_rejected_perc": 1.216227246755367,
-      "majority": 2204,
+      "majority": 2204.0,
       "majority_perc": 18.211865807304576
     },
     {
@@ -1115,11 +1115,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 7976,
-      "voter_turnout": 6061,
+      "voter_turnout": 6061.0,
       "voter_turnout_perc": 75.99047141424273,
-      "votes_rejected": 81,
+      "votes_rejected": 81.0,
       "votes_rejected_perc": 1.3395071936497436,
-      "majority": 2592,
+      "majority": 2592.0,
       "majority_perc": 43.44619510559839
     },
     {
@@ -1132,11 +1132,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 26196,
-      "voter_turnout": 13872,
+      "voter_turnout": 13872.0,
       "voter_turnout_perc": 52.95464956481906,
-      "votes_rejected": 114,
+      "votes_rejected": 114.0,
       "votes_rejected_perc": 0.8223328283921228,
-      "majority": 7541,
+      "majority": 7541.0,
       "majority_perc": 54.847625281838674
     },
     {
@@ -1149,11 +1149,11 @@
       "coalition_uid": "007-BA",
       "coalition": "BA",
       "voters_total": 26746,
-      "voter_turnout": 20750,
+      "voter_turnout": 20750.0,
       "voter_turnout_perc": 77.58169445898451,
-      "votes_rejected": 204,
+      "votes_rejected": 204.0,
       "votes_rejected_perc": 0.9833220861852888,
-      "majority": 530,
+      "majority": 530.0,
       "majority_perc": 2.5800798364326747
     },
     {
@@ -1166,11 +1166,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 66646,
-      "voter_turnout": 45441,
+      "voter_turnout": 45441.0,
       "voter_turnout_perc": 68.18263661735138,
-      "votes_rejected": 1051,
+      "votes_rejected": 1051.0,
       "votes_rejected_perc": 2.384355361963747,
-      "majority": 5972,
+      "majority": 5972.0,
       "majority_perc": 13.87933438691085
     },
     {
@@ -1183,11 +1183,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 15276,
-      "voter_turnout": 11653,
+      "voter_turnout": 11653.0,
       "voter_turnout_perc": 76.28305839224929,
-      "votes_rejected": 116,
+      "votes_rejected": 116.0,
       "votes_rejected_perc": 0.9966491966663802,
-      "majority": 1963,
+      "majority": 1963.0,
       "majority_perc": 17.035494228933437
     },
     {
@@ -1200,11 +1200,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 35221,
-      "voter_turnout": 24755,
+      "voter_turnout": 24755.0,
       "voter_turnout_perc": 70.28477328866302,
-      "votes_rejected": 344,
+      "votes_rejected": 344.0,
       "votes_rejected_perc": 1.3899551497030183,
-      "majority": 1323,
+      "majority": 1323.0,
       "majority_perc": 5.421020282728949
     },
     {
@@ -1217,11 +1217,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 16589,
-      "voter_turnout": 10596,
+      "voter_turnout": 10596.0,
       "voter_turnout_perc": 63.87365121466032,
-      "votes_rejected": 230,
+      "votes_rejected": 230.0,
       "votes_rejected_perc": 2.1710402114404377,
-      "majority": 1440,
+      "majority": 1440.0,
       "majority_perc": 13.894249324585104
     },
     {
@@ -1234,11 +1234,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 19212,
-      "voter_turnout": 11069,
+      "voter_turnout": 11069.0,
       "voter_turnout_perc": 57.61503227149698,
-      "votes_rejected": 160,
+      "votes_rejected": 160.0,
       "votes_rejected_perc": 1.4469162597214686,
-      "majority": 3544,
+      "majority": 3544.0,
       "majority_perc": 32.519728390530375
     },
     {
@@ -1251,11 +1251,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 16707,
-      "voter_turnout": 11287,
+      "voter_turnout": 11287.0,
       "voter_turnout_perc": 67.55850840964865,
-      "votes_rejected": 99,
+      "votes_rejected": 99.0,
       "votes_rejected_perc": 0.8783603939313283,
-      "majority": 384,
+      "majority": 384.0,
       "majority_perc": 3.4371643394199785
     },
     {
@@ -1268,11 +1268,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 12224,
-      "voter_turnout": 10075,
+      "voter_turnout": 10075.0,
       "voter_turnout_perc": 82.41982984293193,
-      "votes_rejected": 85,
+      "votes_rejected": 85.0,
       "votes_rejected_perc": 0.843756204089736,
-      "majority": 778,
+      "majority": 778.0,
       "majority_perc": 7.788567424166583
     },
     {
@@ -1285,11 +1285,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 7874,
-      "voter_turnout": 4797,
+      "voter_turnout": 4797.0,
       "voter_turnout_perc": 60.922021844043684,
-      "votes_rejected": 110,
+      "votes_rejected": 110.0,
       "votes_rejected_perc": 2.293099854075464,
-      "majority": 4431,
+      "majority": 4431.0,
       "majority_perc": 94.53808406229997
     },
     {
@@ -1302,11 +1302,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 49527,
-      "voter_turnout": 30736,
+      "voter_turnout": 30736.0,
       "voter_turnout_perc": 62.05907888626406,
-      "votes_rejected": 1050,
+      "votes_rejected": 1050.0,
       "votes_rejected_perc": 3.420195439739414,
-      "majority": 18418,
+      "majority": 18418.0,
       "majority_perc": 62.118043844856665
     },
     {
@@ -1319,11 +1319,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 18517,
-      "voter_turnout": 11906,
+      "voter_turnout": 11906.0,
       "voter_turnout_perc": 64.29767240913755,
-      "votes_rejected": 484,
+      "votes_rejected": 484.0,
       "votes_rejected_perc": 4.072702793672164,
-      "majority": 7780,
+      "majority": 7780.0,
       "majority_perc": 68.24561403508773
     },
     {
@@ -1336,11 +1336,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 11571,
-      "voter_turnout": 7030,
+      "voter_turnout": 7030.0,
       "voter_turnout_perc": 60.75533661740559,
-      "votes_rejected": 147,
+      "votes_rejected": 147.0,
       "votes_rejected_perc": 2.121824480369515,
-      "majority": 2319,
+      "majority": 2319.0,
       "majority_perc": 34.19849579708008
     },
     {
@@ -1353,11 +1353,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 12746,
-      "voter_turnout": 8563,
+      "voter_turnout": 8563.0,
       "voter_turnout_perc": 67.18186097599246,
-      "votes_rejected": 176,
+      "votes_rejected": 176.0,
       "votes_rejected_perc": 2.055834598761827,
-      "majority": 5471,
+      "majority": 5471.0,
       "majority_perc": 65.24746571258198
     },
     {
@@ -1370,11 +1370,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 51936,
-      "voter_turnout": 27639,
+      "voter_turnout": 27639.0,
       "voter_turnout_perc": 53.21742144177449,
-      "votes_rejected": 541,
+      "votes_rejected": 541.0,
       "votes_rejected_perc": 1.9573790658128007,
-      "majority": 2916,
+      "majority": 2916.0,
       "majority_perc": 10.760941766920068
     },
     {
@@ -1387,11 +1387,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 10926,
-      "voter_turnout": 6824,
+      "voter_turnout": 6824.0,
       "voter_turnout_perc": 62.4565257184697,
-      "votes_rejected": 102,
+      "votes_rejected": 102.0,
       "votes_rejected_perc": 1.5073149105955372,
-      "majority": 4615,
+      "majority": 4615.0,
       "majority_perc": 69.2423105776444
     },
     {
@@ -1404,11 +1404,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 12635,
-      "voter_turnout": 9531,
+      "voter_turnout": 9531.0,
       "voter_turnout_perc": 75.43332014246141,
-      "votes_rejected": 80,
+      "votes_rejected": 80.0,
       "votes_rejected_perc": 0.8405127127547805,
-      "majority": 118,
+      "majority": 118.0,
       "majority_perc": 1.2502648866285229
     },
     {
@@ -1421,11 +1421,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 11191,
-      "voter_turnout": 7153,
+      "voter_turnout": 7153.0,
       "voter_turnout_perc": 63.91743365204182,
-      "votes_rejected": 88,
+      "votes_rejected": 88.0,
       "votes_rejected_perc": 1.2305971192840164,
-      "majority": 3518,
+      "majority": 3518.0,
       "majority_perc": 49.80886308933881
     },
     {
@@ -1438,11 +1438,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -1455,11 +1455,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 70622,
-      "voter_turnout": 43402,
+      "voter_turnout": 43402.0,
       "voter_turnout_perc": 61.45676984509076,
-      "votes_rejected": 681,
+      "votes_rejected": 681.0,
       "votes_rejected_perc": 1.5732569421984013,
-      "majority": 11802,
+      "majority": 11802.0,
       "majority_perc": 27.700974064076988
     },
     {
@@ -1472,11 +1472,11 @@
       "coalition_uid": "005-APU",
       "coalition": "APU",
       "voters_total": 28004,
-      "voter_turnout": 21850,
+      "voter_turnout": 21850.0,
       "voter_turnout_perc": 78.02456791886874,
-      "votes_rejected": 223,
+      "votes_rejected": 223.0,
       "votes_rejected_perc": 1.0245807489087984,
-      "majority": 4746,
+      "majority": 4746.0,
       "majority_perc": 22.03138055890818
     },
     {
@@ -1489,11 +1489,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 18020,
-      "voter_turnout": 11990,
+      "voter_turnout": 11990.0,
       "voter_turnout_perc": 66.53718091009989,
-      "votes_rejected": 200,
+      "votes_rejected": 200.0,
       "votes_rejected_perc": 1.6704251231938527,
-      "majority": 6013,
+      "majority": 6013.0,
       "majority_perc": 51.07449248279963
     },
     {
@@ -1506,11 +1506,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 37559,
-      "voter_turnout": 18122,
+      "voter_turnout": 18122.0,
       "voter_turnout_perc": 48.249420911099875,
-      "votes_rejected": 247,
+      "votes_rejected": 247.0,
       "votes_rejected_perc": 1.3641133263378804,
-      "majority": 10829,
+      "majority": 10829.0,
       "majority_perc": 60.63269876819709
     },
     {
@@ -1523,11 +1523,11 @@
       "coalition_uid": "005-APU",
       "coalition": "APU",
       "voters_total": 19790,
-      "voter_turnout": 14461,
+      "voter_turnout": 14461.0,
       "voter_turnout_perc": 73.07225871652349,
-      "votes_rejected": 145,
+      "votes_rejected": 145.0,
       "votes_rejected_perc": 1.0042246692984278,
-      "majority": 4246,
+      "majority": 4246.0,
       "majority_perc": 29.70477123268504
     },
     {
@@ -1540,11 +1540,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 17219,
-      "voter_turnout": 9975,
+      "voter_turnout": 9975.0,
       "voter_turnout_perc": 57.93019339102155,
-      "votes_rejected": 211,
+      "votes_rejected": 211.0,
       "votes_rejected_perc": 2.116349047141424,
-      "majority": 6037,
+      "majority": 6037.0,
       "majority_perc": 61.860846398196536
     },
     {
@@ -1557,11 +1557,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 10217,
-      "voter_turnout": 8319,
+      "voter_turnout": 8319.0,
       "voter_turnout_perc": 81.42311833219145,
-      "votes_rejected": 120,
+      "votes_rejected": 120.0,
       "votes_rejected_perc": 1.4466546112115732,
-      "majority": 1049,
+      "majority": 1049.0,
       "majority_perc": 12.831804281345565
     },
     {
@@ -1574,11 +1574,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 11421,
-      "voter_turnout": 7838,
+      "voter_turnout": 7838.0,
       "voter_turnout_perc": 68.62796602749322,
-      "votes_rejected": 109,
+      "votes_rejected": 109.0,
       "votes_rejected_perc": 1.3922595478349726,
-      "majority": 2990,
+      "majority": 2990.0,
       "majority_perc": 38.73056994818653
     },
     {
@@ -1591,11 +1591,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -1608,11 +1608,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 10059,
-      "voter_turnout": 8521,
+      "voter_turnout": 8521.0,
       "voter_turnout_perc": 84.71020976240183,
-      "votes_rejected": 104,
+      "votes_rejected": 104.0,
       "votes_rejected_perc": 1.2210872372901256,
-      "majority": 389,
+      "majority": 389.0,
       "majority_perc": 4.623796505408297
     },
     {
@@ -1625,11 +1625,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 37171,
-      "voter_turnout": 25633,
+      "voter_turnout": 25633.0,
       "voter_turnout_perc": 68.9596728632536,
-      "votes_rejected": 263,
+      "votes_rejected": 263.0,
       "votes_rejected_perc": 1.0268223167922539,
-      "majority": 3726,
+      "majority": 3726.0,
       "majority_perc": 14.698224852071007
     },
     {
@@ -1642,11 +1642,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 27823,
-      "voter_turnout": 20977,
+      "voter_turnout": 20977.0,
       "voter_turnout_perc": 75.3944578226647,
-      "votes_rejected": 270,
+      "votes_rejected": 270.0,
       "votes_rejected_perc": 1.2875536480686696,
-      "majority": 784,
+      "majority": 784.0,
       "majority_perc": 3.78743961352657
     },
     {
@@ -1659,11 +1659,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 13631,
-      "voter_turnout": 9848,
+      "voter_turnout": 9848.0,
       "voter_turnout_perc": 72.24708385298217,
-      "votes_rejected": 121,
+      "votes_rejected": 121.0,
       "votes_rejected_perc": 1.2295498424956812,
-      "majority": 3808,
+      "majority": 3808.0,
       "majority_perc": 39.17695473251029
     },
     {
@@ -1676,11 +1676,11 @@
       "coalition_uid": "005-APU",
       "coalition": "APU",
       "voters_total": 15430,
-      "voter_turnout": 11033,
+      "voter_turnout": 11033.0,
       "voter_turnout_perc": 71.50356448476994,
-      "votes_rejected": 223,
+      "votes_rejected": 223.0,
       "votes_rejected_perc": 2.02837911588139,
-      "majority": 1994,
+      "majority": 1994.0,
       "majority_perc": 18.512672918020613
     },
     {
@@ -1693,11 +1693,11 @@
       "coalition_uid": "005-APU",
       "coalition": "APU",
       "voters_total": 13681,
-      "voter_turnout": 10255,
+      "voter_turnout": 10255.0,
       "voter_turnout_perc": 74.95797090855932,
-      "votes_rejected": 92,
+      "votes_rejected": 92.0,
       "votes_rejected_perc": 0.8989642368575338,
-      "majority": 1560,
+      "majority": 1560.0,
       "majority_perc": 15.381581542102149
     },
     {
@@ -1710,11 +1710,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 14092,
-      "voter_turnout": 9639,
+      "voter_turnout": 9639.0,
       "voter_turnout_perc": 68.40051092818621,
-      "votes_rejected": 103,
+      "votes_rejected": 103.0,
       "votes_rejected_perc": 1.0706860706860708,
-      "majority": 862,
+      "majority": 862.0,
       "majority_perc": 9.057476095408216
     },
     {
@@ -1727,11 +1727,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 11226,
-      "voter_turnout": 8942,
+      "voter_turnout": 8942.0,
       "voter_turnout_perc": 79.6543737751648,
-      "votes_rejected": 76,
+      "votes_rejected": 76.0,
       "votes_rejected_perc": 0.8512544802867384,
-      "majority": 2492,
+      "majority": 2492.0,
       "majority_perc": 28.15183009489381
     },
     {
@@ -1744,11 +1744,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 20822,
-      "voter_turnout": 15684,
+      "voter_turnout": 15684.0,
       "voter_turnout_perc": 75.32417635193546,
-      "votes_rejected": 156,
+      "votes_rejected": 156.0,
       "votes_rejected_perc": 0.9965504024530472,
-      "majority": 3592,
+      "majority": 3592.0,
       "majority_perc": 23.17718415279391
     },
     {
@@ -1761,11 +1761,11 @@
       "coalition_uid": "006-GR",
       "coalition": "GR",
       "voters_total": 8366,
-      "voter_turnout": 6770,
+      "voter_turnout": 6770.0,
       "voter_turnout_perc": 80.92278269184796,
-      "votes_rejected": 56,
+      "votes_rejected": 56.0,
       "votes_rejected_perc": 0.8274231678486997,
-      "majority": 203,
+      "majority": 203.0,
       "majority_perc": 3.0244338498212158
     },
     {
@@ -1778,11 +1778,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 14897,
-      "voter_turnout": 9647,
+      "voter_turnout": 9647.0,
       "voter_turnout_perc": 64.7580049674431,
-      "votes_rejected": 165,
+      "votes_rejected": 165.0,
       "votes_rejected_perc": 1.716961498439126,
-      "majority": 917,
+      "majority": 917.0,
       "majority_perc": 9.708840656431974
     },
     {
@@ -1795,11 +1795,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 7096,
-      "voter_turnout": 5713,
+      "voter_turnout": 5713.0,
       "voter_turnout_perc": 80.51014656144307,
-      "votes_rejected": 86,
+      "votes_rejected": 86.0,
       "votes_rejected_perc": 1.5053387012077717,
-      "majority": 1689,
+      "majority": 1689.0,
       "majority_perc": 30.01599431313311
     },
     {
@@ -1812,11 +1812,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 8900,
-      "voter_turnout": 6530,
+      "voter_turnout": 6530.0,
       "voter_turnout_perc": 73.37078651685394,
-      "votes_rejected": 145,
+      "votes_rejected": 145.0,
       "votes_rejected_perc": 2.2820270695624805,
-      "majority": 4685,
+      "majority": 4685.0,
       "majority_perc": 75.45498469962956
     },
     {
@@ -1829,11 +1829,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 25734,
-      "voter_turnout": 17530,
+      "voter_turnout": 17530.0,
       "voter_turnout_perc": 68.11999689127225,
-      "votes_rejected": 171,
+      "votes_rejected": 171.0,
       "votes_rejected_perc": 0.975470621791215,
-      "majority": 3409,
+      "majority": 3409.0,
       "majority_perc": 19.638228008525836
     },
     {
@@ -1846,11 +1846,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 8171,
-      "voter_turnout": 6457,
+      "voter_turnout": 6457.0,
       "voter_turnout_perc": 79.02337535185411,
-      "votes_rejected": 88,
+      "votes_rejected": 88.0,
       "votes_rejected_perc": 1.362862010221465,
-      "majority": 1130,
+      "majority": 1130.0,
       "majority_perc": 17.742188726644688
     },
     {
@@ -1863,11 +1863,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 12094,
-      "voter_turnout": 7688,
+      "voter_turnout": 7688.0,
       "voter_turnout_perc": 63.56871175789648,
-      "votes_rejected": 122,
+      "votes_rejected": 122.0,
       "votes_rejected_perc": 1.5868886576482828,
-      "majority": 2630,
+      "majority": 2630.0,
       "majority_perc": 34.76077187417393
     },
     {
@@ -1880,11 +1880,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 24166,
-      "voter_turnout": 12443,
+      "voter_turnout": 12443.0,
       "voter_turnout_perc": 51.48969626748324,
-      "votes_rejected": 257,
+      "votes_rejected": 257.0,
       "votes_rejected_perc": 2.065418307482118,
-      "majority": 5717,
+      "majority": 5717.0,
       "majority_perc": 46.91449204004595
     },
     {
@@ -1897,11 +1897,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 22718,
-      "voter_turnout": 14376,
+      "voter_turnout": 14376.0,
       "voter_turnout_perc": 63.28021832907827,
-      "votes_rejected": 115,
+      "votes_rejected": 115.0,
       "votes_rejected_perc": 0.7999443516972732,
-      "majority": 1075,
+      "majority": 1075.0,
       "majority_perc": 7.538040810602342
     },
     {
@@ -1914,11 +1914,11 @@
       "coalition_uid": "004-HAK",
       "coalition": "HAK",
       "voters_total": 8428,
-      "voter_turnout": 7269,
+      "voter_turnout": 7269.0,
       "voter_turnout_perc": 86.24822021831989,
-      "votes_rejected": 68,
+      "votes_rejected": 68.0,
       "votes_rejected_perc": 0.9354794332095198,
-      "majority": 141,
+      "majority": 141.0,
       "majority_perc": 1.9580613803638385
     },
     {
@@ -1931,11 +1931,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 40252,
-      "voter_turnout": 28977,
+      "voter_turnout": 28977.0,
       "voter_turnout_perc": 71.98896949219915,
-      "votes_rejected": 309,
+      "votes_rejected": 309.0,
       "votes_rejected_perc": 1.066362977533906,
-      "majority": 8506,
+      "majority": 8506.0,
       "majority_perc": 29.670712990093485
     },
     {
@@ -1948,11 +1948,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 68546,
-      "voter_turnout": 43848,
+      "voter_turnout": 43848.0,
       "voter_turnout_perc": 63.96872173430981,
-      "votes_rejected": 395,
+      "votes_rejected": 395.0,
       "votes_rejected_perc": 0.9008392629082285,
-      "majority": 4250,
+      "majority": 4250.0,
       "majority_perc": 9.780682576576991
     },
     {
@@ -1965,11 +1965,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 19651,
-      "voter_turnout": 14437,
+      "voter_turnout": 14437.0,
       "voter_turnout_perc": 73.46699913490407,
-      "votes_rejected": 165,
+      "votes_rejected": 165.0,
       "votes_rejected_perc": 1.1428967236960585,
-      "majority": 413,
+      "majority": 413.0,
       "majority_perc": 2.8937780269058297
     },
     {
@@ -1982,11 +1982,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 60292,
-      "voter_turnout": 37094,
+      "voter_turnout": 37094.0,
       "voter_turnout_perc": 61.52391693757049,
-      "votes_rejected": 285,
+      "votes_rejected": 285.0,
       "votes_rejected_perc": 0.7683183264139753,
-      "majority": 12613,
+      "majority": 12613.0,
       "majority_perc": 34.266076231356465
     },
     {
@@ -1999,11 +1999,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 35446,
-      "voter_turnout": 20605,
+      "voter_turnout": 20605.0,
       "voter_turnout_perc": 58.130677650510634,
-      "votes_rejected": 274,
+      "votes_rejected": 274.0,
       "votes_rejected_perc": 1.3297743266197526,
-      "majority": 31,
+      "majority": 31.0,
       "majority_perc": 0.15247651369829326
     },
     {
@@ -2016,11 +2016,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 9001,
-      "voter_turnout": 6167,
+      "voter_turnout": 6167.0,
       "voter_turnout_perc": 68.51460948783469,
-      "votes_rejected": 53,
+      "votes_rejected": 53.0,
       "votes_rejected_perc": 0.8594130047024485,
-      "majority": 444,
+      "majority": 444.0,
       "majority_perc": 7.262021589793916
     },
     {
@@ -2033,11 +2033,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 11389,
-      "voter_turnout": 8492,
+      "voter_turnout": 8492.0,
       "voter_turnout_perc": 74.56317499341469,
-      "votes_rejected": 60,
+      "votes_rejected": 60.0,
       "votes_rejected_perc": 0.7065473386716911,
-      "majority": 118,
+      "majority": 118.0,
       "majority_perc": 1.3994307400379506
     },
     {
@@ -2050,11 +2050,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 34142,
-      "voter_turnout": 21243,
+      "voter_turnout": 21243.0,
       "voter_turnout_perc": 62.2195536289614,
-      "votes_rejected": 425,
+      "votes_rejected": 425.0,
       "votes_rejected_perc": 2.000659040625147,
-      "majority": 4523,
+      "majority": 4523.0,
       "majority_perc": 21.726390623498894
     },
     {
@@ -2067,11 +2067,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 15165,
-      "voter_turnout": 9400,
+      "voter_turnout": 9400.0,
       "voter_turnout_perc": 61.98483349818661,
-      "votes_rejected": 107,
+      "votes_rejected": 107.0,
       "votes_rejected_perc": 1.1382978723404256,
-      "majority": 1794,
+      "majority": 1794.0,
       "majority_perc": 19.304853115248036
     },
     {
@@ -2084,11 +2084,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 9907,
-      "voter_turnout": 7217,
+      "voter_turnout": 7217.0,
       "voter_turnout_perc": 72.84748157868174,
-      "votes_rejected": 58,
+      "votes_rejected": 58.0,
       "votes_rejected_perc": 0.80365802965221,
-      "majority": 396,
+      "majority": 396.0,
       "majority_perc": 5.531498812683336
     },
     {
@@ -2101,11 +2101,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 13386,
-      "voter_turnout": 7786,
+      "voter_turnout": 7786.0,
       "voter_turnout_perc": 58.16524727327058,
-      "votes_rejected": 133,
+      "votes_rejected": 133.0,
       "votes_rejected_perc": 1.7081941947084511,
-      "majority": 2941,
+      "majority": 2941.0,
       "majority_perc": 38.429374101659484
     },
     {
@@ -2118,11 +2118,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 8391,
-      "voter_turnout": 5776,
+      "voter_turnout": 5776.0,
       "voter_turnout_perc": 68.83565725181742,
-      "votes_rejected": 29,
+      "votes_rejected": 29.0,
       "votes_rejected_perc": 0.5020775623268697,
-      "majority": 704,
+      "majority": 704.0,
       "majority_perc": 12.249869497128937
     },
     {
@@ -2135,11 +2135,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 6042,
-      "voter_turnout": 4526,
+      "voter_turnout": 4526.0,
       "voter_turnout_perc": 74.90897053955644,
-      "votes_rejected": 26,
+      "votes_rejected": 26.0,
       "votes_rejected_perc": 0.5744586831639417,
-      "majority": 403,
+      "majority": 403.0,
       "majority_perc": 8.955555555555556
     },
     {
@@ -2152,11 +2152,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 8537,
-      "voter_turnout": 6752,
+      "voter_turnout": 6752.0,
       "voter_turnout_perc": 79.09101557924329,
-      "votes_rejected": 77,
+      "votes_rejected": 77.0,
       "votes_rejected_perc": 1.1404028436018958,
-      "majority": 1755,
+      "majority": 1755.0,
       "majority_perc": 26.29213483146067
     },
     {
@@ -2169,11 +2169,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 9809,
-      "voter_turnout": 6601,
+      "voter_turnout": 6601.0,
       "voter_turnout_perc": 67.29534101335508,
-      "votes_rejected": 28,
+      "votes_rejected": 28.0,
       "votes_rejected_perc": 0.4241781548250266,
-      "majority": 1648,
+      "majority": 1648.0,
       "majority_perc": 25.07226532785638
     },
     {
@@ -2186,11 +2186,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 9133,
-      "voter_turnout": 6568,
+      "voter_turnout": 6568.0,
       "voter_turnout_perc": 71.9150333953794,
-      "votes_rejected": 51,
+      "votes_rejected": 51.0,
       "votes_rejected_perc": 0.7764920828258222,
-      "majority": 260,
+      "majority": 260.0,
       "majority_perc": 3.9895657511124747
     },
     {
@@ -2203,11 +2203,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 8910,
-      "voter_turnout": 5977,
+      "voter_turnout": 5977.0,
       "voter_turnout_perc": 67.08193041526374,
-      "votes_rejected": 41,
+      "votes_rejected": 41.0,
       "votes_rejected_perc": 0.68596285762088,
-      "majority": 303,
+      "majority": 303.0,
       "majority_perc": 5.1044474393531
     },
     {
@@ -2220,11 +2220,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 5792,
-      "voter_turnout": 2775,
+      "voter_turnout": 2775.0,
       "voter_turnout_perc": 47.91091160220994,
-      "votes_rejected": 36,
+      "votes_rejected": 36.0,
       "votes_rejected_perc": 1.2972972972972971,
-      "majority": 439,
+      "majority": 439.0,
       "majority_perc": 16.027747353048557
     },
     {
@@ -2237,11 +2237,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -2254,11 +2254,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 16713,
-      "voter_turnout": 12281,
+      "voter_turnout": 12281.0,
       "voter_turnout_perc": 73.48172081613116,
-      "votes_rejected": 151,
+      "votes_rejected": 151.0,
       "votes_rejected_perc": 1.229541568276199,
-      "majority": 2262,
+      "majority": 2262.0,
       "majority_perc": 18.6479802143446
     },
     {
@@ -2271,11 +2271,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 39818,
-      "voter_turnout": 31402,
+      "voter_turnout": 31402.0,
       "voter_turnout_perc": 78.86383042844945,
-      "votes_rejected": 369,
+      "votes_rejected": 369.0,
       "votes_rejected_perc": 1.1750843895293293,
-      "majority": 5702,
+      "majority": 5702.0,
       "majority_perc": 18.373988979473463
     },
     {
@@ -2288,11 +2288,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 6048,
-      "voter_turnout": 4474,
+      "voter_turnout": 4474.0,
       "voter_turnout_perc": 73.97486772486772,
-      "votes_rejected": 152,
+      "votes_rejected": 152.0,
       "votes_rejected_perc": 3.3974072418417522,
-      "majority": 3048,
+      "majority": 3048.0,
       "majority_perc": 70.52290606200833
     },
     {
@@ -2305,11 +2305,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 18084,
-      "voter_turnout": 11875,
+      "voter_turnout": 11875.0,
       "voter_turnout_perc": 65.66578190665781,
-      "votes_rejected": 333,
+      "votes_rejected": 333.0,
       "votes_rejected_perc": 2.8042105263157895,
-      "majority": 4134,
+      "majority": 4134.0,
       "majority_perc": 35.817016115058046
     },
     {
@@ -2322,11 +2322,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 60899,
-      "voter_turnout": 42269,
+      "voter_turnout": 42269.0,
       "voter_turnout_perc": 69.4083646693706,
-      "votes_rejected": 868,
+      "votes_rejected": 868.0,
       "votes_rejected_perc": 2.053514395892971,
-      "majority": 6393,
+      "majority": 6393.0,
       "majority_perc": 15.441655998647374
     },
     {
@@ -2339,11 +2339,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 50180,
-      "voter_turnout": 31192,
+      "voter_turnout": 31192.0,
       "voter_turnout_perc": 62.16022319649262,
-      "votes_rejected": 578,
+      "votes_rejected": 578.0,
       "votes_rejected_perc": 1.8530392408309824,
-      "majority": 21676,
+      "majority": 21676.0,
       "majority_perc": 70.80420722545242
     },
     {
@@ -2356,11 +2356,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 12378,
-      "voter_turnout": 9163,
+      "voter_turnout": 9163.0,
       "voter_turnout_perc": 74.02649862659557,
-      "votes_rejected": 48,
+      "votes_rejected": 48.0,
       "votes_rejected_perc": 0.5238459019971625,
-      "majority": 2514,
+      "majority": 2514.0,
       "majority_perc": 27.580910586944597
     },
     {
@@ -2373,11 +2373,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 11964,
-      "voter_turnout": 8341,
+      "voter_turnout": 8341.0,
       "voter_turnout_perc": 69.71748579070545,
-      "votes_rejected": 66,
+      "votes_rejected": 66.0,
       "votes_rejected_perc": 0.791272029732646,
-      "majority": 662,
+      "majority": 662.0,
       "majority_perc": 8.0
     },
     {
@@ -2390,11 +2390,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 6841,
-      "voter_turnout": 4470,
+      "voter_turnout": 4470.0,
       "voter_turnout_perc": 65.34132436778248,
-      "votes_rejected": 80,
+      "votes_rejected": 80.0,
       "votes_rejected_perc": 1.7897091722595078,
-      "majority": 1346,
+      "majority": 1346.0,
       "majority_perc": 30.660592255125284
     },
     {
@@ -2407,11 +2407,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 13378,
-      "voter_turnout": 9741,
+      "voter_turnout": 9741.0,
       "voter_turnout_perc": 72.8135745253401,
-      "votes_rejected": 149,
+      "votes_rejected": 149.0,
       "votes_rejected_perc": 1.5296170824350683,
-      "majority": 1846,
+      "majority": 1846.0,
       "majority_perc": 19.245204336947456
     },
     {
@@ -2424,11 +2424,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 13587,
-      "voter_turnout": 8828,
+      "voter_turnout": 8828.0,
       "voter_turnout_perc": 64.97387208360934,
-      "votes_rejected": 174,
+      "votes_rejected": 174.0,
       "votes_rejected_perc": 1.971001359311282,
-      "majority": 3578,
+      "majority": 3578.0,
       "majority_perc": 41.34504275479547
     },
     {
@@ -2441,11 +2441,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 34133,
-      "voter_turnout": 25699,
+      "voter_turnout": 25699.0,
       "voter_turnout_perc": 75.29077432396801,
-      "votes_rejected": 335,
+      "votes_rejected": 335.0,
       "votes_rejected_perc": 1.3035526674189657,
-      "majority": 4673,
+      "majority": 4673.0,
       "majority_perc": 18.42375019712979
     },
     {
@@ -2458,11 +2458,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -2475,11 +2475,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 8889,
-      "voter_turnout": 7411,
+      "voter_turnout": 7411.0,
       "voter_turnout_perc": 83.37270784115198,
-      "votes_rejected": 189,
+      "votes_rejected": 189.0,
       "votes_rejected_perc": 2.550263122385643,
-      "majority": 860,
+      "majority": 860.0,
       "majority_perc": 11.908058709498754
     },
     {
@@ -2492,11 +2492,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 38418,
-      "voter_turnout": 23011,
+      "voter_turnout": 23011.0,
       "voter_turnout_perc": 59.89640272788797,
-      "votes_rejected": 283,
+      "votes_rejected": 283.0,
       "votes_rejected_perc": 1.2298465951066881,
-      "majority": 9764,
+      "majority": 9764.0,
       "majority_perc": 42.96022527279127
     },
     {
@@ -2509,11 +2509,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 5001,
-      "voter_turnout": 3033,
+      "voter_turnout": 3033.0,
       "voter_turnout_perc": 60.64787042591482,
-      "votes_rejected": 47,
+      "votes_rejected": 47.0,
       "votes_rejected_perc": 1.5496208374546654,
-      "majority": 87,
+      "majority": 87.0,
       "majority_perc": 2.913596784996651
     },
     {
@@ -2526,11 +2526,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 8527,
-      "voter_turnout": 6753,
+      "voter_turnout": 6753.0,
       "voter_turnout_perc": 79.19549665767562,
-      "votes_rejected": 108,
+      "votes_rejected": 108.0,
       "votes_rejected_perc": 1.5992892047978675,
-      "majority": 263,
+      "majority": 263.0,
       "majority_perc": 3.9578630549285174
     },
     {
@@ -2543,11 +2543,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 12063,
-      "voter_turnout": 8113,
+      "voter_turnout": 8113.0,
       "voter_turnout_perc": 67.25524330597695,
-      "votes_rejected": 199,
+      "votes_rejected": 199.0,
       "votes_rejected_perc": 2.45285344508813,
-      "majority": 476,
+      "majority": 476.0,
       "majority_perc": 6.014657568865302
     },
     {
@@ -2560,11 +2560,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 6121,
-      "voter_turnout": 4586,
+      "voter_turnout": 4586.0,
       "voter_turnout_perc": 74.92239830093122,
-      "votes_rejected": 80,
+      "votes_rejected": 80.0,
       "votes_rejected_perc": 1.744439598778892,
-      "majority": 688,
+      "majority": 688.0,
       "majority_perc": 15.268530847758544
     },
     {
@@ -2577,11 +2577,11 @@
       "coalition_uid": "003-BS",
       "coalition": "BS",
       "voters_total": 5773,
-      "voter_turnout": 3944,
+      "voter_turnout": 3944.0,
       "voter_turnout_perc": 68.3180322189503,
-      "votes_rejected": 48,
+      "votes_rejected": 48.0,
       "votes_rejected_perc": 1.2170385395537524,
-      "majority": 500,
+      "majority": 500.0,
       "majority_perc": 12.833675564681723
     },
     {
@@ -2594,11 +2594,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 7368,
-      "voter_turnout": 4124,
+      "voter_turnout": 4124.0,
       "voter_turnout_perc": 55.97176981541803,
-      "votes_rejected": 44,
+      "votes_rejected": 44.0,
       "votes_rejected_perc": 1.066925315227934,
-      "majority": 1137,
+      "majority": 1137.0,
       "majority_perc": 27.86764705882353
     },
     {
@@ -2611,11 +2611,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 33250,
-      "voter_turnout": 23474,
+      "voter_turnout": 23474.0,
       "voter_turnout_perc": 70.5984962406015,
-      "votes_rejected": 463,
+      "votes_rejected": 463.0,
       "votes_rejected_perc": 1.9723949902019255,
-      "majority": 19063,
+      "majority": 19063.0,
       "majority_perc": 82.84298813610881
     },
     {
@@ -2628,11 +2628,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -2645,11 +2645,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 6094,
-      "voter_turnout": 3860,
+      "voter_turnout": 3860.0,
       "voter_turnout_perc": 63.340991138825075,
-      "votes_rejected": 108,
+      "votes_rejected": 108.0,
       "votes_rejected_perc": 2.7979274611398965,
-      "majority": 1320,
+      "majority": 1320.0,
       "majority_perc": 35.18123667377399
     },
     {
@@ -2662,11 +2662,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 18412,
-      "voter_turnout": 9983,
+      "voter_turnout": 9983.0,
       "voter_turnout_perc": 54.220073864870734,
-      "votes_rejected": 152,
+      "votes_rejected": 152.0,
       "votes_rejected_perc": 1.5225884002804768,
-      "majority": 5883,
+      "majority": 5883.0,
       "majority_perc": 59.84131827891363
     },
     {
@@ -2679,11 +2679,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 10379,
-      "voter_turnout": 6372,
+      "voter_turnout": 6372.0,
       "voter_turnout_perc": 61.39319780325657,
-      "votes_rejected": 177,
+      "votes_rejected": 177.0,
       "votes_rejected_perc": 2.7777777777777777,
-      "majority": 4259,
+      "majority": 4259.0,
       "majority_perc": 68.74899112187248
     },
     {
@@ -2696,11 +2696,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -2713,11 +2713,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -2730,11 +2730,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -2747,11 +2747,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 19777,
-      "voter_turnout": 14800,
+      "voter_turnout": 14800.0,
       "voter_turnout_perc": 74.83440360014157,
-      "votes_rejected": 117,
+      "votes_rejected": 117.0,
       "votes_rejected_perc": 0.7905405405405406,
-      "majority": 554,
+      "majority": 554.0,
       "majority_perc": 3.7730708983177825
     },
     {
@@ -2764,11 +2764,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 4689,
-      "voter_turnout": 2004,
+      "voter_turnout": 2004.0,
       "voter_turnout_perc": 42.73832373640435,
-      "votes_rejected": 113,
+      "votes_rejected": 113.0,
       "votes_rejected_perc": 5.63872255489022,
-      "majority": 1071,
+      "majority": 1071.0,
       "majority_perc": 56.636700158646214
     },
     {
@@ -2781,11 +2781,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 4027,
-      "voter_turnout": 2677,
+      "voter_turnout": 2677.0,
       "voter_turnout_perc": 66.47628507573876,
-      "votes_rejected": 159,
+      "votes_rejected": 159.0,
       "votes_rejected_perc": 5.939484497571909,
-      "majority": 1496,
+      "majority": 1496.0,
       "majority_perc": 59.41223193010325
     },
     {
@@ -2798,11 +2798,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 16618,
-      "voter_turnout": 13608,
+      "voter_turnout": 13608.0,
       "voter_turnout_perc": 81.8871103622578,
-      "votes_rejected": 75,
+      "votes_rejected": 75.0,
       "votes_rejected_perc": 0.5511463844797178,
-      "majority": 69,
+      "majority": 69.0,
       "majority_perc": 0.509864774994458
     },
     {
@@ -2815,11 +2815,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -2832,11 +2832,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -2849,11 +2849,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 49532,
-      "voter_turnout": 33311,
+      "voter_turnout": 33311.0,
       "voter_turnout_perc": 67.25147379471856,
-      "votes_rejected": 528,
+      "votes_rejected": 528.0,
       "votes_rejected_perc": 1.585061991534328,
-      "majority": 9442,
+      "majority": 9442.0,
       "majority_perc": 28.801512979288045
     },
     {
@@ -2866,11 +2866,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 5881,
-      "voter_turnout": 3422,
+      "voter_turnout": 3422.0,
       "voter_turnout_perc": 58.18738309811257,
-      "votes_rejected": 62,
+      "votes_rejected": 62.0,
       "votes_rejected_perc": 1.8118059614260666,
-      "majority": 2076,
+      "majority": 2076.0,
       "majority_perc": 61.78571428571429
     },
     {
@@ -2883,11 +2883,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 5803,
-      "voter_turnout": 3940,
+      "voter_turnout": 3940.0,
       "voter_turnout_perc": 67.89591590556608,
-      "votes_rejected": 122,
+      "votes_rejected": 122.0,
       "votes_rejected_perc": 3.0964467005076144,
-      "majority": 1174,
+      "majority": 1174.0,
       "majority_perc": 30.749083289680463
     },
     {
@@ -2900,11 +2900,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 7874,
-      "voter_turnout": 6278,
+      "voter_turnout": 6278.0,
       "voter_turnout_perc": 79.73075946151891,
-      "votes_rejected": 62,
+      "votes_rejected": 62.0,
       "votes_rejected_perc": 0.9875756610385472,
-      "majority": 726,
+      "majority": 726.0,
       "majority_perc": 11.67953667953668
     },
     {
@@ -2917,11 +2917,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 17068,
-      "voter_turnout": 10637,
+      "voter_turnout": 10637.0,
       "voter_turnout_perc": 62.32130302320131,
-      "votes_rejected": 130,
+      "votes_rejected": 130.0,
       "votes_rejected_perc": 1.2221491021904671,
-      "majority": 5737,
+      "majority": 5737.0,
       "majority_perc": 54.60169410868944
     },
     {
@@ -2934,11 +2934,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 6126,
-      "voter_turnout": 4568,
+      "voter_turnout": 4568.0,
       "voter_turnout_perc": 74.56741756447927,
-      "votes_rejected": 79,
+      "votes_rejected": 79.0,
       "votes_rejected_perc": 1.7294220665499123,
-      "majority": 2797,
+      "majority": 2797.0,
       "majority_perc": 62.30786366674093
     },
     {
@@ -2951,11 +2951,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 17625,
-      "voter_turnout": 12769,
+      "voter_turnout": 12769.0,
       "voter_turnout_perc": 72.44822695035461,
-      "votes_rejected": 246,
+      "votes_rejected": 246.0,
       "votes_rejected_perc": 1.9265408410995377,
-      "majority": 3665,
+      "majority": 3665.0,
       "majority_perc": 29.2661502834784
     },
     {
@@ -2968,11 +2968,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 6243,
-      "voter_turnout": 4268,
+      "voter_turnout": 4268.0,
       "voter_turnout_perc": 68.3645683165145,
-      "votes_rejected": 47,
+      "votes_rejected": 47.0,
       "votes_rejected_perc": 1.1012183692596065,
-      "majority": 63,
+      "majority": 63.0,
       "majority_perc": 1.4925373134328357
     },
     {
@@ -2985,11 +2985,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 5365,
-      "voter_turnout": 3863,
+      "voter_turnout": 3863.0,
       "voter_turnout_perc": 72.00372786579683,
-      "votes_rejected": 58,
+      "votes_rejected": 58.0,
       "votes_rejected_perc": 1.5014237639140564,
-      "majority": 1641,
+      "majority": 1641.0,
       "majority_perc": 43.12746386333771
     },
     {
@@ -3002,11 +3002,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 4772,
-      "voter_turnout": 3790,
+      "voter_turnout": 3790.0,
       "voter_turnout_perc": 79.42162615255658,
-      "votes_rejected": 22,
+      "votes_rejected": 22.0,
       "votes_rejected_perc": 0.5804749340369393,
-      "majority": 743,
+      "majority": 743.0,
       "majority_perc": 19.71868365180467
     },
     {
@@ -3019,11 +3019,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 6877,
-      "voter_turnout": 4524,
+      "voter_turnout": 4524.0,
       "voter_turnout_perc": 65.78449905482042,
-      "votes_rejected": 65,
+      "votes_rejected": 65.0,
       "votes_rejected_perc": 1.4367816091954022,
-      "majority": 3032,
+      "majority": 3032.0,
       "majority_perc": 67.99730881363534
     },
     {
@@ -3036,11 +3036,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 11091,
-      "voter_turnout": 8445,
+      "voter_turnout": 8445.0,
       "voter_turnout_perc": 76.1428185014877,
-      "votes_rejected": 123,
+      "votes_rejected": 123.0,
       "votes_rejected_perc": 1.4564831261101243,
-      "majority": 3580,
+      "majority": 3580.0,
       "majority_perc": 43.01850516702716
     },
     {
@@ -3053,11 +3053,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 8974,
-      "voter_turnout": 6753,
+      "voter_turnout": 6753.0,
       "voter_turnout_perc": 75.25072431468688,
-      "votes_rejected": 246,
+      "votes_rejected": 246.0,
       "votes_rejected_perc": 3.6428254109284763,
-      "majority": 1511,
+      "majority": 1511.0,
       "majority_perc": 23.22114645766098
     },
     {
@@ -3070,11 +3070,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 37717,
-      "voter_turnout": 27292,
+      "voter_turnout": 27292.0,
       "voter_turnout_perc": 72.35994379192407,
-      "votes_rejected": 413,
+      "votes_rejected": 413.0,
       "votes_rejected_perc": 1.513263960134838,
-      "majority": 18779,
+      "majority": 18779.0,
       "majority_perc": 69.86495033297369
     },
     {
@@ -3087,11 +3087,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 5086,
-      "voter_turnout": 3626,
+      "voter_turnout": 3626.0,
       "voter_turnout_perc": 71.2937475422729,
-      "votes_rejected": 62,
+      "votes_rejected": 62.0,
       "votes_rejected_perc": 1.709873138444567,
-      "majority": 2452,
+      "majority": 2452.0,
       "majority_perc": 68.79910213243546
     },
     {
@@ -3104,11 +3104,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -3121,11 +3121,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 10666,
-      "voter_turnout": 7991,
+      "voter_turnout": 7991.0,
       "voter_turnout_perc": 74.92030751921995,
-      "votes_rejected": 127,
+      "votes_rejected": 127.0,
       "votes_rejected_perc": 1.5892879489425602,
-      "majority": 3195,
+      "majority": 3195.0,
       "majority_perc": 40.62817904374364
     },
     {
@@ -3138,11 +3138,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 16069,
-      "voter_turnout": 11305,
+      "voter_turnout": 11305.0,
       "voter_turnout_perc": 70.35285332005725,
-      "votes_rejected": 208,
+      "votes_rejected": 208.0,
       "votes_rejected_perc": 1.8398938522777533,
-      "majority": 4965,
+      "majority": 4965.0,
       "majority_perc": 44.74182211408489
     },
     {
@@ -3155,11 +3155,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 16236,
-      "voter_turnout": 11163,
+      "voter_turnout": 11163.0,
       "voter_turnout_perc": 68.75461936437546,
-      "votes_rejected": 302,
+      "votes_rejected": 302.0,
       "votes_rejected_perc": 2.705365941055272,
-      "majority": 5959,
+      "majority": 5959.0,
       "majority_perc": 54.86603443513489
     },
     {
@@ -3172,11 +3172,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -3189,11 +3189,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 9316,
-      "voter_turnout": 5370,
+      "voter_turnout": 5370.0,
       "voter_turnout_perc": 57.64276513525118,
-      "votes_rejected": 353,
+      "votes_rejected": 353.0,
       "votes_rejected_perc": 6.573556797020484,
-      "majority": 1089,
+      "majority": 1089.0,
       "majority_perc": 21.70619892365956
     },
     {
@@ -3206,11 +3206,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -3223,11 +3223,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 24379,
-      "voter_turnout": 15646,
+      "voter_turnout": 15646.0,
       "voter_turnout_perc": 64.1781861438123,
-      "votes_rejected": 264,
+      "votes_rejected": 264.0,
       "votes_rejected_perc": 1.687332225488943,
-      "majority": 9807,
+      "majority": 9807.0,
       "majority_perc": 63.75633857755818
     },
     {
@@ -3240,11 +3240,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 15643,
-      "voter_turnout": 11616,
+      "voter_turnout": 11616.0,
       "voter_turnout_perc": 74.25685610177077,
-      "votes_rejected": 137,
+      "votes_rejected": 137.0,
       "votes_rejected_perc": 1.1794077134986225,
-      "majority": 2762,
+      "majority": 2762.0,
       "majority_perc": 24.06132938409269
     },
     {
@@ -3257,11 +3257,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 13695,
-      "voter_turnout": 9692,
+      "voter_turnout": 9692.0,
       "voter_turnout_perc": 70.77035414384812,
-      "votes_rejected": 194,
+      "votes_rejected": 194.0,
       "votes_rejected_perc": 2.001650846058605,
-      "majority": 5436,
+      "majority": 5436.0,
       "majority_perc": 57.23310170562223
     },
     {
@@ -3274,11 +3274,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 9254,
-      "voter_turnout": 6481,
+      "voter_turnout": 6481.0,
       "voter_turnout_perc": 70.03457964123623,
-      "votes_rejected": 248,
+      "votes_rejected": 248.0,
       "votes_rejected_perc": 3.8265699737694803,
-      "majority": 2883,
+      "majority": 2883.0,
       "majority_perc": 46.2538103641906
     },
     {
@@ -3291,11 +3291,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 10341,
-      "voter_turnout": 6032,
+      "voter_turnout": 6032.0,
       "voter_turnout_perc": 58.330915772169035,
-      "votes_rejected": 50,
+      "votes_rejected": 50.0,
       "votes_rejected_perc": 0.8289124668435014,
-      "majority": 4540,
+      "majority": 4540.0,
       "majority_perc": 75.89434971581412
     },
     {
@@ -3308,11 +3308,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 6153,
-      "voter_turnout": 4506,
+      "voter_turnout": 4506.0,
       "voter_turnout_perc": 73.23256947830326,
-      "votes_rejected": 67,
+      "votes_rejected": 67.0,
       "votes_rejected_perc": 1.4869063470927653,
-      "majority": 3965,
+      "majority": 3965.0,
       "majority_perc": 89.32191935120522
     },
     {
@@ -3325,11 +3325,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -3342,11 +3342,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -3359,11 +3359,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -3376,11 +3376,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 15991,
-      "voter_turnout": 12257,
+      "voter_turnout": 12257.0,
       "voter_turnout_perc": 76.64936526796323,
-      "votes_rejected": 190,
+      "votes_rejected": 190.0,
       "votes_rejected_perc": 1.5501346169535775,
-      "majority": 2423,
+      "majority": 2423.0,
       "majority_perc": 20.079555813375322
     },
     {
@@ -3393,11 +3393,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 28450,
-      "voter_turnout": 18920,
+      "voter_turnout": 18920.0,
       "voter_turnout_perc": 66.50263620386643,
-      "votes_rejected": 430,
+      "votes_rejected": 430.0,
       "votes_rejected_perc": 2.272727272727273,
-      "majority": 3918,
+      "majority": 3918.0,
       "majority_perc": 21.18983234180638
     },
     {
@@ -3410,11 +3410,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -3427,11 +3427,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 6716,
-      "voter_turnout": 5591,
+      "voter_turnout": 5591.0,
       "voter_turnout_perc": 83.24895771292437,
-      "votes_rejected": 54,
+      "votes_rejected": 54.0,
       "votes_rejected_perc": 0.965837953854409,
-      "majority": 1088,
+      "majority": 1088.0,
       "majority_perc": 19.64962976340979
     },
     {
@@ -3444,11 +3444,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 7435,
-      "voter_turnout": 5097,
+      "voter_turnout": 5097.0,
       "voter_turnout_perc": 68.55413584398117,
-      "votes_rejected": 38,
+      "votes_rejected": 38.0,
       "votes_rejected_perc": 0.7455365901510693,
-      "majority": 1295,
+      "majority": 1295.0,
       "majority_perc": 25.59794425775845
     },
     {
@@ -3461,11 +3461,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -3478,11 +3478,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 48885,
-      "voter_turnout": 27961,
+      "voter_turnout": 27961.0,
       "voter_turnout_perc": 57.19750434693669,
-      "votes_rejected": 708,
+      "votes_rejected": 708.0,
       "votes_rejected_perc": 2.53209827974679,
-      "majority": 11904,
+      "majority": 11904.0,
       "majority_perc": 43.679594906982715
     },
     {
@@ -3495,11 +3495,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 15464,
-      "voter_turnout": 11055,
+      "voter_turnout": 11055.0,
       "voter_turnout_perc": 71.4886187273668,
-      "votes_rejected": 144,
+      "votes_rejected": 144.0,
       "votes_rejected_perc": 1.3025780189959293,
-      "majority": 136,
+      "majority": 136.0,
       "majority_perc": 1.2464485381724864
     },
     {
@@ -3512,11 +3512,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 17997,
-      "voter_turnout": 11889,
+      "voter_turnout": 11889.0,
       "voter_turnout_perc": 66.06101016836139,
-      "votes_rejected": 470,
+      "votes_rejected": 470.0,
       "votes_rejected_perc": 3.953234081924468,
-      "majority": 4312,
+      "majority": 4312.0,
       "majority_perc": 37.761625361240036
     },
     {
@@ -3529,11 +3529,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 16123,
-      "voter_turnout": 8452,
+      "voter_turnout": 8452.0,
       "voter_turnout_perc": 52.42200583018048,
-      "votes_rejected": 144,
+      "votes_rejected": 144.0,
       "votes_rejected_perc": 1.7037387600567913,
-      "majority": 6630,
+      "majority": 6630.0,
       "majority_perc": 79.80259990370728
     },
     {
@@ -3546,11 +3546,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 8434,
-      "voter_turnout": 6021,
+      "voter_turnout": 6021.0,
       "voter_turnout_perc": 71.38961346929096,
-      "votes_rejected": 107,
+      "votes_rejected": 107.0,
       "votes_rejected_perc": 1.7771134363062615,
-      "majority": 3222,
+      "majority": 3222.0,
       "majority_perc": 54.480892796753466
     },
     {
@@ -3563,11 +3563,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 3154,
-      "voter_turnout": 2173,
+      "voter_turnout": 2173.0,
       "voter_turnout_perc": 68.89663918833227,
-      "votes_rejected": 21,
+      "votes_rejected": 21.0,
       "votes_rejected_perc": 0.966405890473999,
-      "majority": 599,
+      "majority": 599.0,
       "majority_perc": 27.83457249070632
     },
     {
@@ -3580,11 +3580,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 11737,
-      "voter_turnout": 8189,
+      "voter_turnout": 8189.0,
       "voter_turnout_perc": 69.77081025815797,
-      "votes_rejected": 41,
+      "votes_rejected": 41.0,
       "votes_rejected_perc": 0.5006716326779826,
-      "majority": 1671,
+      "majority": 1671.0,
       "majority_perc": 20.508100147275403
     },
     {
@@ -3597,11 +3597,11 @@
       "coalition_uid": "001-BN",
       "coalition": "BN",
       "voters_total": 13796,
-      "voter_turnout": 7430,
+      "voter_turnout": 7430.0,
       "voter_turnout_perc": 53.85619020005799,
-      "votes_rejected": 212,
+      "votes_rejected": 212.0,
       "votes_rejected_perc": 2.853297442799462,
-      "majority": 684,
+      "majority": 684.0,
       "majority_perc": 9.476309226932669
     },
     {
@@ -3614,11 +3614,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -3631,11 +3631,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 13493,
-      "voter_turnout": 8456,
+      "voter_turnout": 8456.0,
       "voter_turnout_perc": 62.66953235010746,
-      "votes_rejected": 209,
+      "votes_rejected": 209.0,
       "votes_rejected_perc": 2.4716177861873225,
-      "majority": 3055,
+      "majority": 3055.0,
       "majority_perc": 37.043773493391534
     },
     {
@@ -3648,11 +3648,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 8896,
-      "voter_turnout": 6331,
+      "voter_turnout": 6331.0,
       "voter_turnout_perc": 71.16681654676259,
-      "votes_rejected": 135,
+      "votes_rejected": 135.0,
       "votes_rejected_perc": 2.132364555362502,
-      "majority": 2112,
+      "majority": 2112.0,
       "majority_perc": 34.08650742414461
     },
     {
@@ -3665,11 +3665,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 16159,
-      "voter_turnout": 10613,
+      "voter_turnout": 10613.0,
       "voter_turnout_perc": 65.67856921839223,
-      "votes_rejected": 198,
+      "votes_rejected": 198.0,
       "votes_rejected_perc": 1.8656364835579007,
-      "majority": 4110,
+      "majority": 4110.0,
       "majority_perc": 39.462313970235236
     },
     {
@@ -3682,11 +3682,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -3699,11 +3699,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -3716,11 +3716,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -3733,11 +3733,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 11985,
-      "voter_turnout": 7330,
+      "voter_turnout": 7330.0,
       "voter_turnout_perc": 61.15978306216103,
-      "votes_rejected": 76,
+      "votes_rejected": 76.0,
       "votes_rejected_perc": 1.0368349249658937,
-      "majority": 2517,
+      "majority": 2517.0,
       "majority_perc": 34.69809760132341
     },
     {
@@ -3750,11 +3750,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 8074,
-      "voter_turnout": 6011,
+      "voter_turnout": 6011.0,
       "voter_turnout_perc": 74.44884815457023,
-      "votes_rejected": 84,
+      "votes_rejected": 84.0,
       "votes_rejected_perc": 1.397438030277824,
-      "majority": 3382,
+      "majority": 3382.0,
       "majority_perc": 57.06090771047747
     },
     {
@@ -3767,11 +3767,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 40595,
-      "voter_turnout": 27132,
+      "voter_turnout": 27132.0,
       "voter_turnout_perc": 66.83581721886932,
-      "votes_rejected": 251,
+      "votes_rejected": 251.0,
       "votes_rejected_perc": 0.9251068848592068,
-      "majority": 6061,
+      "majority": 6061.0,
       "majority_perc": 22.547524273650534
     },
     {
@@ -3784,11 +3784,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 29122,
-      "voter_turnout": 21101,
+      "voter_turnout": 21101.0,
       "voter_turnout_perc": 72.45724881532861,
-      "votes_rejected": 372,
+      "votes_rejected": 372.0,
       "votes_rejected_perc": 1.7629496232406048,
-      "majority": 9210,
+      "majority": 9210.0,
       "majority_perc": 44.430507983983794
     },
     {
@@ -3801,11 +3801,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 22675,
-      "voter_turnout": 16779,
+      "voter_turnout": 16779.0,
       "voter_turnout_perc": 73.99779492833517,
-      "votes_rejected": 288,
+      "votes_rejected": 288.0,
       "votes_rejected_perc": 1.7164312533524049,
-      "majority": 5613,
+      "majority": 5613.0,
       "majority_perc": 34.036747316718206
     },
     {
@@ -3818,11 +3818,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 32390,
-      "voter_turnout": 19770,
+      "voter_turnout": 19770.0,
       "voter_turnout_perc": 61.03735720901513,
-      "votes_rejected": 463,
+      "votes_rejected": 463.0,
       "votes_rejected_perc": 2.3419322205361657,
-      "majority": 12097,
+      "majority": 12097.0,
       "majority_perc": 62.656031491169
     },
     {
@@ -3835,11 +3835,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 9793,
-      "voter_turnout": 7027,
+      "voter_turnout": 7027.0,
       "voter_turnout_perc": 71.75533544368426,
-      "votes_rejected": 70,
+      "votes_rejected": 70.0,
       "votes_rejected_perc": 0.996157677529529,
-      "majority": 457,
+      "majority": 457.0,
       "majority_perc": 6.568923386517176
     },
     {
@@ -3852,11 +3852,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 12014,
-      "voter_turnout": 9383,
+      "voter_turnout": 9383.0,
       "voter_turnout_perc": 78.10054935908107,
-      "votes_rejected": 155,
+      "votes_rejected": 155.0,
       "votes_rejected_perc": 1.6519236917830118,
-      "majority": 2434,
+      "majority": 2434.0,
       "majority_perc": 26.376246207195493
     },
     {
@@ -3869,11 +3869,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 15414,
-      "voter_turnout": 9397,
+      "voter_turnout": 9397.0,
       "voter_turnout_perc": 60.964058647982355,
-      "votes_rejected": 610,
+      "votes_rejected": 610.0,
       "votes_rejected_perc": 6.491433436203044,
-      "majority": 939,
+      "majority": 939.0,
       "majority_perc": 10.686241037896894
     },
     {
@@ -3886,11 +3886,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 11654,
-      "voter_turnout": 8624,
+      "voter_turnout": 8624.0,
       "voter_turnout_perc": 74.00034322979235,
-      "votes_rejected": 156,
+      "votes_rejected": 156.0,
       "votes_rejected_perc": 1.8089053803339517,
-      "majority": 2278,
+      "majority": 2278.0,
       "majority_perc": 26.901275389702413
     },
     {
@@ -3903,11 +3903,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 8443,
-      "voter_turnout": 5890,
+      "voter_turnout": 5890.0,
       "voter_turnout_perc": 69.76193296221722,
-      "votes_rejected": 79,
+      "votes_rejected": 79.0,
       "votes_rejected_perc": 1.3412563667232598,
-      "majority": 2753,
+      "majority": 2753.0,
       "majority_perc": 47.375666838754086
     },
     {
@@ -3920,11 +3920,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 4604,
-      "voter_turnout": 3560,
+      "voter_turnout": 3560.0,
       "voter_turnout_perc": 77.32406602953952,
-      "votes_rejected": 109,
+      "votes_rejected": 109.0,
       "votes_rejected_perc": 3.061797752808989,
-      "majority": 231,
+      "majority": 231.0,
       "majority_perc": 6.693711967545639
     },
     {
@@ -3937,11 +3937,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 14831,
-      "voter_turnout": 10625,
+      "voter_turnout": 10625.0,
       "voter_turnout_perc": 71.64048277257096,
-      "votes_rejected": 77,
+      "votes_rejected": 77.0,
       "votes_rejected_perc": 0.7247058823529412,
-      "majority": 3846,
+      "majority": 3846.0,
       "majority_perc": 36.46188850967008
     },
     {
@@ -3954,11 +3954,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 13737,
-      "voter_turnout": 9023,
+      "voter_turnout": 9023.0,
       "voter_turnout_perc": 65.68391934192327,
-      "votes_rejected": 137,
+      "votes_rejected": 137.0,
       "votes_rejected_perc": 1.5183420148509366,
-      "majority": 1552,
+      "majority": 1552.0,
       "majority_perc": 17.465676344812064
     },
     {
@@ -3971,11 +3971,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 26334,
-      "voter_turnout": 16516,
+      "voter_turnout": 16516.0,
       "voter_turnout_perc": 62.71739955950483,
-      "votes_rejected": 650,
+      "votes_rejected": 650.0,
       "votes_rejected_perc": 3.9355776217001694,
-      "majority": 8762,
+      "majority": 8762.0,
       "majority_perc": 55.22500945417874
     },
     {
@@ -3988,11 +3988,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 23978,
-      "voter_turnout": 14004,
+      "voter_turnout": 14004.0,
       "voter_turnout_perc": 58.403536575193925,
-      "votes_rejected": 211,
+      "votes_rejected": 211.0,
       "votes_rejected_perc": 1.506712367894887,
-      "majority": 607,
+      "majority": 607.0,
       "majority_perc": 4.400783005872544
     },
     {
@@ -4005,11 +4005,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 16029,
-      "voter_turnout": 12275,
+      "voter_turnout": 12275.0,
       "voter_turnout_perc": 76.57994884272257,
-      "votes_rejected": 189,
+      "votes_rejected": 189.0,
       "votes_rejected_perc": 1.539714867617108,
-      "majority": 712,
+      "majority": 712.0,
       "majority_perc": 5.891113685255667
     },
     {
@@ -4022,11 +4022,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -4039,11 +4039,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 20779,
-      "voter_turnout": 15428,
+      "voter_turnout": 15428.0,
       "voter_turnout_perc": 74.24803888541317,
-      "votes_rejected": 212,
+      "votes_rejected": 212.0,
       "votes_rejected_perc": 1.3741249675913922,
-      "majority": 3754,
+      "majority": 3754.0,
       "majority_perc": 24.671398527865403
     },
     {
@@ -4056,11 +4056,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 13153,
-      "voter_turnout": 9656,
+      "voter_turnout": 9656.0,
       "voter_turnout_perc": 73.41290960237208,
-      "votes_rejected": 127,
+      "votes_rejected": 127.0,
       "votes_rejected_perc": 1.3152444076222038,
-      "majority": 6307,
+      "majority": 6307.0,
       "majority_perc": 66.18742785182076
     },
     {
@@ -4073,11 +4073,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -4090,11 +4090,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 10961,
-      "voter_turnout": 8628,
+      "voter_turnout": 8628.0,
       "voter_turnout_perc": 78.71544567101542,
-      "votes_rejected": 161,
+      "votes_rejected": 161.0,
       "votes_rejected_perc": 1.8660176170607323,
-      "majority": 473,
+      "majority": 473.0,
       "majority_perc": 5.586394236447384
     },
     {
@@ -4107,11 +4107,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 16242,
-      "voter_turnout": 11000,
+      "voter_turnout": 11000.0,
       "voter_turnout_perc": 67.72564955054796,
-      "votes_rejected": 265,
+      "votes_rejected": 265.0,
       "votes_rejected_perc": 2.409090909090909,
-      "majority": 1587,
+      "majority": 1587.0,
       "majority_perc": 14.78341872380065
     },
     {
@@ -4124,11 +4124,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 27710,
-      "voter_turnout": 20737,
+      "voter_turnout": 20737.0,
       "voter_turnout_perc": 74.83579935041502,
-      "votes_rejected": 286,
+      "votes_rejected": 286.0,
       "votes_rejected_perc": 1.3791773159087621,
-      "majority": 3259,
+      "majority": 3259.0,
       "majority_perc": 15.935651068407413
     },
     {
@@ -4141,11 +4141,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 13554,
-      "voter_turnout": 9001,
+      "voter_turnout": 9001.0,
       "voter_turnout_perc": 66.40844031282278,
-      "votes_rejected": 201,
+      "votes_rejected": 201.0,
       "votes_rejected_perc": 2.2330852127541387,
-      "majority": 2066,
+      "majority": 2066.0,
       "majority_perc": 23.477272727272727
     },
     {
@@ -4158,11 +4158,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 23618,
-      "voter_turnout": 16916,
+      "voter_turnout": 16916.0,
       "voter_turnout_perc": 71.62333813193327,
-      "votes_rejected": 252,
+      "votes_rejected": 252.0,
       "votes_rejected_perc": 1.4897138803499645,
-      "majority": 2802,
+      "majority": 2802.0,
       "majority_perc": 16.814690350456075
     },
     {
@@ -4175,11 +4175,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 0,
-      "voter_turnout": 0,
+      "voter_turnout": 0.0,
       "voter_turnout_perc": null,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": null,
-      "majority": 0,
+      "majority": 0.0,
       "majority_perc": null
     },
     {
@@ -4192,11 +4192,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 12787,
-      "voter_turnout": 6237,
+      "voter_turnout": 6237.0,
       "voter_turnout_perc": 48.77610072730116,
-      "votes_rejected": 62,
+      "votes_rejected": 62.0,
       "votes_rejected_perc": 0.9940676607343274,
-      "majority": 2239,
+      "majority": 2239.0,
       "majority_perc": 36.259109311740886
     },
     {
@@ -4209,11 +4209,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 27014,
-      "voter_turnout": 19611,
+      "voter_turnout": 19611.0,
       "voter_turnout_perc": 72.59569112312134,
-      "votes_rejected": 364,
+      "votes_rejected": 364.0,
       "votes_rejected_perc": 1.8561011677119983,
-      "majority": 3038,
+      "majority": 3038.0,
       "majority_perc": 15.784278069309504
     },
     {
@@ -4226,11 +4226,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 7447,
-      "voter_turnout": 5798,
+      "voter_turnout": 5798.0,
       "voter_turnout_perc": 77.85685510944005,
-      "votes_rejected": 84,
+      "votes_rejected": 84.0,
       "votes_rejected_perc": 1.44877543980683,
-      "majority": 3097,
+      "majority": 3097.0,
       "majority_perc": 54.20021001050053
     },
     {
@@ -4243,11 +4243,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 26594,
-      "voter_turnout": 20036,
+      "voter_turnout": 20036.0,
       "voter_turnout_perc": 75.34030232383245,
-      "votes_rejected": 346,
+      "votes_rejected": 346.0,
       "votes_rejected_perc": 1.7268915951287682,
-      "majority": 2722,
+      "majority": 2722.0,
       "majority_perc": 13.824276282376841
     },
     {
@@ -4260,11 +4260,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 9965,
-      "voter_turnout": 6914,
+      "voter_turnout": 6914.0,
       "voter_turnout_perc": 69.38283993978926,
-      "votes_rejected": 69,
+      "votes_rejected": 69.0,
       "votes_rejected_perc": 0.9979751229389645,
-      "majority": 1538,
+      "majority": 1538.0,
       "majority_perc": 22.468955441928415
     },
     {
@@ -4277,11 +4277,11 @@
       "coalition_uid": "002-SF",
       "coalition": "SF",
       "voters_total": 10237,
-      "voter_turnout": 8023,
+      "voter_turnout": 8023.0,
       "voter_turnout_perc": 78.37257008889324,
-      "votes_rejected": 41,
+      "votes_rejected": 41.0,
       "votes_rejected_perc": 0.5110307864888446,
-      "majority": 153,
+      "majority": 153.0,
       "majority_perc": 1.9168128288649462
     },
     {
@@ -4294,11 +4294,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 15248,
-      "voter_turnout": 10986,
+      "voter_turnout": 10986.0,
       "voter_turnout_perc": 72.04879328436516,
-      "votes_rejected": 194,
+      "votes_rejected": 194.0,
       "votes_rejected_perc": 1.7658838521754963,
-      "majority": 3802,
+      "majority": 3802.0,
       "majority_perc": 35.22979985174203
     },
     {
@@ -4311,11 +4311,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 21198,
-      "voter_turnout": 16781,
+      "voter_turnout": 16781.0,
       "voter_turnout_perc": 79.16312859703746,
-      "votes_rejected": 187,
+      "votes_rejected": 187.0,
       "votes_rejected_perc": 1.114355521125082,
-      "majority": 2002,
+      "majority": 2002.0,
       "majority_perc": 12.064601663251779
     },
     {
@@ -4328,11 +4328,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 9154,
-      "voter_turnout": 7327,
+      "voter_turnout": 7327.0,
       "voter_turnout_perc": 80.0415119073629,
-      "votes_rejected": 96,
+      "votes_rejected": 96.0,
       "votes_rejected_perc": 1.310222464856012,
-      "majority": 1743,
+      "majority": 1743.0,
       "majority_perc": 24.10454985479187
     },
     {
@@ -4345,11 +4345,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 5712,
-      "voter_turnout": 4223,
+      "voter_turnout": 4223.0,
       "voter_turnout_perc": 73.93207282913166,
-      "votes_rejected": 113,
+      "votes_rejected": 113.0,
       "votes_rejected_perc": 2.6758228747336017,
-      "majority": 2566,
+      "majority": 2566.0,
       "majority_perc": 62.433090024330895
     },
     {
@@ -4362,11 +4362,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 26274,
-      "voter_turnout": 21060,
+      "voter_turnout": 21060.0,
       "voter_turnout_perc": 80.15528659511304,
-      "votes_rejected": 499,
+      "votes_rejected": 499.0,
       "votes_rejected_perc": 2.369420702754036,
-      "majority": 3239,
+      "majority": 3239.0,
       "majority_perc": 15.753124848013227
     },
     {
@@ -4379,11 +4379,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 28877,
-      "voter_turnout": 20342,
+      "voter_turnout": 20342.0,
       "voter_turnout_perc": 70.44360563770475,
-      "votes_rejected": 641,
+      "votes_rejected": 641.0,
       "votes_rejected_perc": 3.1511159178055257,
-      "majority": 14507,
+      "majority": 14507.0,
       "majority_perc": 73.63585604791635
     },
     {
@@ -4396,11 +4396,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 6577,
-      "voter_turnout": 5238,
+      "voter_turnout": 5238.0,
       "voter_turnout_perc": 79.64117378744108,
-      "votes_rejected": 56,
+      "votes_rejected": 56.0,
       "votes_rejected_perc": 1.069110347460863,
-      "majority": 31,
+      "majority": 31.0,
       "majority_perc": 0.5982246236974141
     },
     {
@@ -4413,11 +4413,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 10249,
-      "voter_turnout": 7527,
+      "voter_turnout": 7527.0,
       "voter_turnout_perc": 73.44131134744853,
-      "votes_rejected": 404,
+      "votes_rejected": 404.0,
       "votes_rejected_perc": 5.367344227447854,
-      "majority": 1780,
+      "majority": 1780.0,
       "majority_perc": 24.98947072862558
     },
     {
@@ -4430,11 +4430,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 6571,
-      "voter_turnout": 5229,
+      "voter_turnout": 5229.0,
       "voter_turnout_perc": 79.57692893014762,
-      "votes_rejected": 107,
+      "votes_rejected": 107.0,
       "votes_rejected_perc": 2.0462803595333714,
-      "majority": 3291,
+      "majority": 3291.0,
       "majority_perc": 64.25224521671223
     },
     {
@@ -4447,11 +4447,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 12563,
-      "voter_turnout": 8725,
+      "voter_turnout": 8725.0,
       "voter_turnout_perc": 69.44997214041231,
-      "votes_rejected": 190,
+      "votes_rejected": 190.0,
       "votes_rejected_perc": 2.177650429799427,
-      "majority": 3391,
+      "majority": 3391.0,
       "majority_perc": 39.73052138254247
     },
     {
@@ -4464,11 +4464,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 25865,
-      "voter_turnout": 19377,
+      "voter_turnout": 19377.0,
       "voter_turnout_perc": 74.91590953025323,
-      "votes_rejected": 322,
+      "votes_rejected": 322.0,
       "votes_rejected_perc": 1.661763946947412,
-      "majority": 8493,
+      "majority": 8493.0,
       "majority_perc": 44.57097874573603
     },
     {
@@ -4481,11 +4481,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 5250,
-      "voter_turnout": 4057,
+      "voter_turnout": 4057.0,
       "voter_turnout_perc": 77.27619047619048,
-      "votes_rejected": 48,
+      "votes_rejected": 48.0,
       "votes_rejected_perc": 1.1831402514173033,
-      "majority": 1051,
+      "majority": 1051.0,
       "majority_perc": 26.216013968570717
     },
     {
@@ -4498,11 +4498,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 20441,
-      "voter_turnout": 13615,
+      "voter_turnout": 13615.0,
       "voter_turnout_perc": 66.60633041436328,
-      "votes_rejected": 253,
+      "votes_rejected": 253.0,
       "votes_rejected_perc": 1.8582445831803156,
-      "majority": 2077,
+      "majority": 2077.0,
       "majority_perc": 15.54408022751085
     },
     {
@@ -4515,11 +4515,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 4478,
-      "voter_turnout": 3504,
+      "voter_turnout": 3504.0,
       "voter_turnout_perc": 78.24921840107191,
-      "votes_rejected": 62,
+      "votes_rejected": 62.0,
       "votes_rejected_perc": 1.7694063926940637,
-      "majority": 674,
+      "majority": 674.0,
       "majority_perc": 19.58163858221964
     },
     {
@@ -4532,11 +4532,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 10895,
-      "voter_turnout": 8780,
+      "voter_turnout": 8780.0,
       "voter_turnout_perc": 80.58742542450665,
-      "votes_rejected": 95,
+      "votes_rejected": 95.0,
       "votes_rejected_perc": 1.082004555808656,
-      "majority": 1810,
+      "majority": 1810.0,
       "majority_perc": 20.840529648819807
     },
     {
@@ -4549,11 +4549,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 24831,
-      "voter_turnout": 21199,
+      "voter_turnout": 21199.0,
       "voter_turnout_perc": 85.37312230679393,
-      "votes_rejected": 195,
+      "votes_rejected": 195.0,
       "votes_rejected_perc": 0.9198547101278363,
-      "majority": 3156,
+      "majority": 3156.0,
       "majority_perc": 15.025709388687869
     },
     {
@@ -4566,11 +4566,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 4191,
-      "voter_turnout": 3477,
+      "voter_turnout": 3477.0,
       "voter_turnout_perc": 82.96349319971367,
-      "votes_rejected": 28,
+      "votes_rejected": 28.0,
       "votes_rejected_perc": 0.805291918320391,
-      "majority": 68,
+      "majority": 68.0,
       "majority_perc": 1.9715859669469413
     },
     {
@@ -4583,11 +4583,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 9315,
-      "voter_turnout": 6930,
+      "voter_turnout": 6930.0,
       "voter_turnout_perc": 74.39613526570048,
-      "votes_rejected": 48,
+      "votes_rejected": 48.0,
       "votes_rejected_perc": 0.6926406926406926,
-      "majority": 2504,
+      "majority": 2504.0,
       "majority_perc": 36.38477186864284
     },
     {
@@ -4600,11 +4600,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 7286,
-      "voter_turnout": 5656,
+      "voter_turnout": 5656.0,
       "voter_turnout_perc": 77.62832830085095,
-      "votes_rejected": 71,
+      "votes_rejected": 71.0,
       "votes_rejected_perc": 1.2553041018387552,
-      "majority": 729,
+      "majority": 729.0,
       "majority_perc": 13.052820053715308
     },
     {
@@ -4617,11 +4617,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 28687,
-      "voter_turnout": 22271,
+      "voter_turnout": 22271.0,
       "voter_turnout_perc": 77.63446857461568,
-      "votes_rejected": 133,
+      "votes_rejected": 133.0,
       "votes_rejected_perc": 0.5971891697723497,
-      "majority": 1999,
+      "majority": 1999.0,
       "majority_perc": 9.029722648839101
     },
     {
@@ -4634,11 +4634,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 7515,
-      "voter_turnout": 5548,
+      "voter_turnout": 5548.0,
       "voter_turnout_perc": 73.82568196939454,
-      "votes_rejected": 0,
+      "votes_rejected": 0.0,
       "votes_rejected_perc": 0.0,
-      "majority": 2320,
+      "majority": 2320.0,
       "majority_perc": 41.8168709444845
     },
     {
@@ -4651,11 +4651,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 28451,
-      "voter_turnout": 19493,
+      "voter_turnout": 19493.0,
       "voter_turnout_perc": 68.5142877227514,
-      "votes_rejected": 323,
+      "votes_rejected": 323.0,
       "votes_rejected_perc": 1.6570050787462165,
-      "majority": 6565,
+      "majority": 6565.0,
       "majority_perc": 34.24621804903495
     },
     {
@@ -4668,11 +4668,11 @@
       "coalition_uid": "000-ALONE",
       "coalition": "ALONE",
       "voters_total": 16013,
-      "voter_turnout": 10116,
+      "voter_turnout": 10116.0,
       "voter_turnout_perc": 63.173671391994,
-      "votes_rejected": 114,
+      "votes_rejected": 114.0,
       "votes_rejected_perc": 1.1269276393831553,
-      "majority": 1820,
+      "majority": 1820.0,
       "majority_perc": 18.19636072785443
     },
     {
@@ -4685,11 +4685,11 @@
       "coalition_uid": "001-PERIKATAN",
       "coalition": "PERIKATAN",
       "voters_total": 32376,
-      "voter_turnout": 18795,
+      "voter_turnout": 18795.0,
       "voter_turnout_perc": 58.0522609340252,
-      "votes_rejected": 349,
+      "votes_rejected": 349.0,
       "votes_rejected_perc": 1.856876828943868,
-      "majority": 7144,
+      "majority": 7144.0,
       "majority_perc": 38.72926379702917
     }
   ]
