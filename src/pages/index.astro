@@ -18,27 +18,15 @@ function getEmoji(n) {
 }
 function iconSVG(name) {
   const MAP = {
-    piggy: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>',
-    trend: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"/></svg>',
-    gold: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"/></svg>',
-    car: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"/></svg>',
-    home: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955a1.126 1.126 0 011.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></svg>',
-    cash: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>',
-    chart: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"/></svg>',
-    scale: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.589-1.202L18.75 4.971zm-13.5 0L9.47 15.697c.122.5-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.589-1.202L5.25 4.971z"/></svg>',
-    target: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 9l10.5-3m0 0l-3 10.5m3-10.5l-10.5 3m0 0l-3 10.5m0 0l10.5-3"/></svg>',
-    tag: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z"/><path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6z"/></svg>',
-    gift: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18"/></svg>',
-    grid: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z"/></svg>',
-    zakah: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>',
-    heart: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 00-3.75 3.75v1.5c0 .621.504 1.125 1.125 1.125h3.75a1.125 1.125 0 001.125-1.125v-1.5A3.75 3.75 0 0015.75 6zM4.5 15.75a3.75 3.75 0 003.75 3.75h1.5c.621 0 1.125-.504 1.125-1.125v-3.75a1.125 1.125 0 00-1.125-1.125h-1.5A3.75 3.75 0 004.5 15.75z"/></svg>',
-    calc: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V13.5zm0 2.25h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V18zm2.498-6.75h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V13.5zm0 2.25h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V18zm2.504-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zm0 2.25h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V18zm2.498-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zM8.25 6h7.5v2.25h-7.5V6zM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 002.25 2.25h10.5a2.25 2.25 0 002.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0012 2.25z"/></svg>',
-    fuel: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 7.5l10.5-4.5M12 6v13.5m9-7.5v5.25a2.25 2.25 0 01-2.25 2.25H5.25a2.25 2.25 0 01-2.25-2.25V11.25a2.25 2.25 0 012.25-2.25h13.5a2.25 2.25 0 012.25 2.25z"/></svg>',
-    stamp: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"/></svg>',
-    split: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"/></svg>',
-    currency: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>',
-    calendar: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5"/></svg>',
-    age: '<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/></svg>',
+    calc: '<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V13.5zm0 2.25h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V18zm2.498-6.75h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V13.5zm0 2.25h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V18zm2.504-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zm0 2.25h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V18zm2.498-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zM8.25 6h7.5v2.25h-7.5V6zM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 002.25 2.25h10.5a2.25 2.25 0 002.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0012 2.25z"/></svg>',
+    cart: '<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"/></svg>',
+    fuel: '<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 7.5l10.5-4.5M12 6v13.5m9-7.5v5.25a2.25 2.25 0 01-2.25 2.25H5.25a2.25 2.25 0 01-2.25-2.25V11.25a2.25 2.25 0 012.25-2.25h13.5a2.25 2.25 0 012.25 2.25z"/></svg>',
+    chart: '<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"/></svg>',
+    cash: '<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z"/></svg>',
+    trend: '<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>',
+    vote: '<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"/></svg>',
+    doc: '<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>',
+    article: '<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z"/></svg>',
   };
   return MAP[name] || '';
 }
@@ -47,103 +35,22 @@ function slugify(n) {
 }
 const foodWidget = foodItems.slice(0, 6);
 
-// Top calculators (most popular — kept compact for grid)
-const CALCULATORS_MAIN = [
-  { name: 'KWSP', href: '/kalkulator/kwsp/', desc: 'Caruman & dividen terkini', icon: 'piggy' },
-  { name: 'ASB', href: '/kalkulator/asb/', desc: 'Dividen & bonus tahunan', icon: 'trend' },
-  { name: 'Emas', href: '/kalkulator/emas/', desc: 'Harga emas semasa Malaysia', icon: 'gold' },
-  { name: 'Gaji Bersih', href: '/kalkulator/gaji-bersih/', desc: 'EPF + SOCSO + PCB', icon: 'cash' },
-  { name: 'Kereta', href: '/kalkulator/kereta/', desc: 'Ansuran bulanan kereta', icon: 'car' },
-  { name: 'Loan Rumah', href: '/kalkulator/loan-rumah/', desc: 'Kelayakan & ansuran', icon: 'home' },
-  { name: 'SST', href: '/kalkulator/sst/', desc: 'Cukai perkhidmatan', icon: 'tag' },
-  { name: 'STR & SARA', href: '/kalkulator/str-sara/', desc: 'Bantuan kerajaan', icon: 'gift' },
-  { name: 'Diskaun', href: '/kalkulator/diskaun/', desc: 'Harga selepas diskaun', icon: 'tag' },
-  { name: 'Compound Interest', href: '/kalkulator/interest-compound/', desc: 'Faedah kompaun', icon: 'trend' },
-  { name: 'Percentile', href: '/kalkulator/pendapatan-percentile/', desc: 'Kedudukan gaji anda', icon: 'chart' },
-  { name: 'Kuasa Beli', href: '/kalkulator/kuasa-beli/', desc: 'Nilai RM & inflasi', icon: 'scale' },
-  { name: 'Benchmark', href: '/kalkulator/benchmark-gaji/', desc: 'Banding ikut profesion', icon: 'target' },
-  { name: 'Pelaburan', href: '/kalkulator/pelaburan/', desc: 'Emas vs ASB vs FD', icon: 'gold' },
-  { name: 'Beli vs Sewa', href: '/kalkulator/beli-sewa-rumah/', desc: 'Rumah — beli atau sewa', icon: 'home' },
-  { name: 'Refinance', href: '/kalkulator/refinance/', desc: 'Pembiayaan semula', icon: 'currency' },
-  { name: 'Duti Setem', href: '/kalkulator/stamp-duty/', desc: 'Duti setem hartanah', icon: 'stamp' },
-  { name: 'Yuran Guaman', href: '/kalkulator/legal-fees/', desc: 'Legal fees rumah', icon: 'stamp' },
-  { name: 'Bahagi Bil', href: '/kalkulator/bahagi-bil/', desc: 'Split bil housemate', icon: 'split' },
-  { name: 'Cukai Jalan', href: '/kalkulator/cukai-jalan/', desc: 'Cukai jalan kenderaan', icon: 'car' },
-  { name: 'Kos Minyak', href: '/kalkulator/kos-minyak/', desc: 'Anggaran minyak bulanan', icon: 'fuel' },
-  { name: 'Penukar Wang', href: '/kalkulator/currency-converter/', desc: 'Mata wang asing', icon: 'currency' },
-  { name: 'Penukar Unit', href: '/kalkulator/unit-converter/', desc: 'Panjang, berat, suhu', icon: 'calc' },
-  { name: 'Lagi Alat →', href: '/kalkulator/', desc: '30+ kalkulator percuma', icon: 'grid' },
-];
-
-const CALCULATORS_EXTRA = [
-  { name: 'Kad Kredit', href: '/kalkulator/kad-kredit/', desc: '281+ kad — banding & pilih', icon: 'tag' },
-  { name: 'FD', href: '/kalkulator/fd/', desc: 'Dividen simpanan tetap', icon: 'trend' },
-  { name: 'PTPTN', href: '/kalkulator/ptptn/', desc: 'Ansuran & tempoh bayar', icon: 'cash' },
-  { name: 'Pinjaman Peribadi', href: '/kalkulator/pinjam-peribadi/', desc: 'Ansuran & kadar bunga', icon: 'currency' },
-  { name: 'Insurans Kereta', href: '/kalkulator/insurans-kereta/', desc: 'Premium & cukai jalan', icon: 'car' },
-  { name: 'DSR', href: '/kalkulator/dsr/', desc: 'Debt Service Ratio', icon: 'scale' },
-  { name: 'Kenaikan Gaji', href: '/kalkulator/kenaikan-gaji/', desc: '% kenaikan & nilai baru', icon: 'chart' },
-  { name: 'PCB Cukai', href: '/kalkulator/pcb-cukai-pendapatan/', desc: 'Anggaran cukai 2026', icon: 'calc' },
-  { name: 'Cashback Combo', href: '/kalkulator/cashback-combo/', desc: 'Optimasi kad kredit', icon: 'gold' },
-  { name: 'Enrich Points', href: '/kalkulator/enrich/', desc: 'Kira points MAS', icon: 'trend' },
-  { name: 'KrisFlyer Miles', href: '/kalkulator/krisflyer/', desc: 'Kira miles SIA', icon: 'trend' },
-  { name: 'Lagi Alat →', href: '/kalkulator/', desc: '30+ kalkulator percuma', icon: 'grid' },
-];
-
-const CALCULATORS_ZAKAT = [
-  { name: 'Zakat Pendapatan', href: '/kalkulator/zakat-pendapatan/', desc: 'Zakat gaji bulanan', icon: 'zakah' },
-  { name: 'Zakat Simpanan', href: '/kalkulator/zakat-simpanan/', desc: 'Zakat duit simpanan', icon: 'zakah' },
-  { name: 'Zakat Emas', href: '/kalkulator/zakat-emas/', desc: 'Zakat emas simpan', icon: 'gold' },
-  { name: 'Zakat Fitrah', href: '/kalkulator/zakat-fitrah/', desc: 'Zakat fitrah tahunan', icon: 'zakah' },
-  { name: 'Zakat', href: '/kalkulator/zakat/', desc: 'Kalkulator zakat penuh', icon: 'zakah' },
-];
-
-const CALCULATORS_KESIHATAN = [
-  { name: 'BMI', href: '/kalkulator/bmi/', desc: 'Body Mass Index', icon: 'heart' },
-  { name: 'BMR', href: '/kalkulator/bmr/', desc: 'Kalori harian badan', icon: 'heart' },
-  { name: 'Berat Ideal', href: '/kalkulator/berat-ideal/', desc: 'Berat badan unggul', icon: 'heart' },
-  { name: 'Tarikh Bersalin', href: '/kalkulator/tarikh-bersalin/', desc: 'Anggaran due date', icon: 'calendar' },
-  { name: 'Umur', href: '/kalkulator/umur/', desc: 'Kira umur tepat', icon: 'age' },
-  { name: 'Beza Tarikh', href: '/kalkulator/beza-tarikh/', desc: 'Beza hari & bulan', icon: 'calendar' },
-];
-
-const DATA_TOOLS = [
-  { title: 'Inflasi Malaysia', href: '/inflasi-malaysia/', desc: 'CPI terkini & kalkulator inflasi', sub: 'RM100 pada 2010 = RM73 hari ini', color: 'primary' },
-  { title: 'Bantuan Kerajaan', href: '/bantuan-kerajaan/', desc: 'STR, SARA, BUDI95 & e-Tunai', sub: 'RM8,000+ setahun — bila & berapa', color: 'red' },
-  { title: 'Harga Minyak Terkini', href: '/harga-minyak/', desc: 'RON95, RON97, Diesel harian', sub: 'Kemaskini setiap minggu', color: 'primary' },
-];
-
-const REALITY_TOOLS = [
-  { title: 'Reality Check Gaji', href: '/reality-check/', desc: 'Banding gaji ikut negeri & sektor', sub: 'Percentile ranking & potongan EPF', icon: 'chart' },
-  { title: 'Gaji Ikut Negeri', href: '/gaji-malaysia/', desc: 'Ranking pendapatan 16 negeri', sub: 'Putrajaya RM13,473 vs Kelantan RM4,885', icon: 'chart' },
-  { title: 'Indeks Pasaraya', href: '/indeks-harga-pasaraya/', desc: 'Mana pasaraya termurah', sub: "Lotus's, Econsave, Mydin, AEON", icon: 'scale' },
+const PILLARS = [
+  { name: 'Kalkulator', href: '/kalkulator/', desc: '40+ alat kewangan percuma — KWSP, ASB, emas, kereta, loan rumah, zakat, BMI dan banyak lagi', icon: 'calc' },
+  { name: 'Harga Barang Runcit', href: '/harga-makanan-hari-ini/', desc: 'Data KPDN PriceCatcher — harga harian ayam, ikan, sayur, telur & barangan asas', icon: 'cart' },
+  { name: 'Harga Minyak Terkini', href: '/harga-minyak/', desc: 'RON95, RON97 & Diesel — kemaskini mingguan Kerajaan Malaysia', icon: 'fuel' },
+  { name: 'Inflasi Malaysia', href: '/inflasi-malaysia/', desc: 'CPI terkini, kalkulator inflasi & kuasa beli ringgit dari 2010–2026', icon: 'chart' },
+  { name: 'Bantuan Kerajaan', href: '/bantuan-kerajaan/', desc: 'STR, SARA, BUDI95, e-Tunai — RM8,000+ setahun bantuan tunai & subsidi', icon: 'cash' },
+  { name: 'Gaji & Reality Check', href: '/reality-check/', desc: 'Banding gaji ikut negeri & sektor, percentile ranking, gaji ikut industri', icon: 'trend' },
+  { name: 'Pilihan Raya', href: '/pilihan-raya/', desc: 'Keputusan PRU, PRN, profil wakil rakyat, data pengundi & kerusi', icon: 'vote' },
+  { name: 'Blog & Panduan', href: '/blog/', desc: '500+ artikel — KWSP, kewangan, kerajaan, insurans, kesihatan, teknologi', icon: 'article' },
+  { name: 'DocuKilat', href: 'https://docukilat.rakyathub.my', desc: 'Penjana dokumen AI — surat rasmi, invois, resume, perjanjian sewa & 26 template', icon: 'doc' },
 ];
 
 const FEATURED = [
-  { title: 'Bajet 50/30/20', href: '/cadangan-bajet-50-30-20-di-malaysia/', desc: 'Cara bahagi gaji bulanan' },
   { title: 'Panduan KWSP', href: '/panduan-kwsp-malaysia-2025/', desc: 'Caruman, dividen & pengeluaran' },
-  { title: 'Beli Emas GAP', href: '/cara-beli-emas-public-gold/', desc: 'Panduan Public Gold lengkap' },
-  { title: 'Urus Gaji <RM3K', href: '/urus-duit-gaji-bawah-rm3000/', desc: 'Tips praktikal gaji kecil' },
-  { title: 'Medical Card', href: '/panduan-medical-card-malaysia-2026-first-time-buyer/', desc: 'Panduan first buyer' },
-  { title: 'Gaji Graduan', href: '/gaji-graduan-mengikut-industri-2026/', desc: 'Ikut industri & negeri' },
-  { title: 'E-Filing 2026', href: '/panduan-e-filing-cukai-pendapatan-2026/', desc: 'Cara isi cukai online' },
-  { title: 'eWallet', href: '/gxbank-vs-bigpay-vs-tng-ewallet-dompet-digital-terbaik-2026/', desc: 'GXBank vs BigPay vs TNG' },
-  { title: 'Baucar Selangor', href: '/baucar-kita-selangor-2026-mohon-rm600/', desc: 'RM600 bantuan Selangor' },
-  { title: 'Bantuan JKM', href: '/bantuan-jkm-2026-panduan-lengkap-warga-emas-oku/', desc: 'Bulanan warga emas & OKU' },
-  { title: 'Countdown Gaji', href: '/berapa-hari-lagi-nak-gaji/', desc: 'Hari ke gaji seterusnya' },
-  { title: 'Bajet Kahwin', href: '/bajet-kahwin-malaysia-2026-cara-simpan-dan-urus/', desc: 'Cara simpan & urus' },
+  { title: 'Bajet 50/30/20', href: '/cadangan-bajet-50-30-20-di-malaysia/', desc: 'Cara bahagi gaji bulanan' },
   { title: 'Pelepasan Cukai', href: '/pelepasan-cukai-malaysia-2026-panduan-lengkap-rebat-potongan/', desc: '25+ rebat & potongan' },
-  { title: 'Side Hustle', href: '/7-side-hustle-paling-laku-malaysia-2026/', desc: '7 pekerjaan sampingan' },
-  { title: 'Quiz Kewangan', href: '/quiz-kesihatan-kewangan/', desc: 'Uji skor kesihatan duit' },
-];
-
-const CATEGORY_LINKS = [
-  { name: 'KWSP', href: '/category/kwsp', color: 'primary' },
-  { name: 'Kewangan', href: '/category/kewangan', color: 'primary' },
-  { name: 'Kerajaan', href: '/category/kerajaan', color: 'red' },
-  { name: 'Insurans', href: '/category/insurans', color: 'primary' },
-  { name: 'Kesihatan', href: '/category/kesihatan', color: 'primary' },
-  { name: 'Teknologi', href: '/category/teknologi', color: 'primary' },
 ];
 
 const metadata = {
@@ -171,7 +78,7 @@ const orgSchema = {
   <!-- 🇲🇾 HERO                                    -->
   <!-- ════════════════════════════════════════════ -->
   <section class="relative overflow-hidden bg-white dark:bg-[#1a1a1a] border-b border-gray-100 dark:border-gray-800">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-24 md:py-32">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-24 md:py-28">
       <div class="max-w-3xl">
         <p class="inline-flex items-center gap-2 text-xs font-semibold text-[#001F3F] dark:text-[#FFD700] uppercase tracking-[0.15em] mb-5 border border-[#001F3F]/10 dark:border-[#FFD700]/20 rounded-full px-4 py-1.5">
           <span class="w-1.5 h-1.5 rounded-full bg-[#001F3F] dark:bg-[#FFD700]"></span>
@@ -189,27 +96,15 @@ const orgSchema = {
           <span class="font-semibold text-[#333] dark:text-[#d2d2d2]">Semua dalam Bahasa Malaysia.</span>
         </p>
 
-        <!-- CTAs -->
         <div class="flex flex-wrap items-center gap-3 mt-8">
-          <a href="/harga-makanan-hari-ini/"
-             class="inline-flex items-center gap-2 px-6 sm:px-8 py-3.5 sm:py-4 rounded-lg bg-[#001F3F] hover:bg-[#002550] text-white text-sm sm:text-base font-bold transition-all hover:-translate-y-0.5">
-            <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"/></svg>
-            Harga Makanan
-            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
-          </a>
           <a href="/kalkulator/"
-             class="inline-flex items-center gap-2 px-6 sm:px-8 py-3.5 sm:py-4 rounded-lg border-2 border-[#001F3F]/15 dark:border-white/20 hover:bg-[#001F3F]/5 dark:hover:bg-white/5 text-[#333] dark:text-[#d2d2d2] text-sm sm:text-base font-semibold transition-all hover:-translate-y-0.5">
+             class="inline-flex items-center gap-2 px-7 sm:px-9 py-3.5 sm:py-4 rounded-lg bg-[#001F3F] hover:bg-[#002550] text-white text-sm sm:text-base font-bold transition-all hover:-translate-y-0.5">
             <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V13.5zm0 2.25h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V18zm2.498-6.75h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V13.5zm0 2.25h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V18zm2.504-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zm0 2.25h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V18zm2.498-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zM8.25 6h7.5v2.25h-7.5V6zM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 002.25 2.25h10.5a2.25 2.25 0 002.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0012 2.25z"/></svg>
-            Kalkulator
-          </a>
-          <a href="/inflasi-malaysia/"
-             class="inline-flex items-center gap-2 px-6 sm:px-8 py-3.5 sm:py-4 rounded-lg border-2 border-[#001F3F]/15 dark:border-white/20 hover:bg-[#001F3F]/5 dark:hover:bg-white/5 text-[#666] dark:text-[#969696] text-sm sm:text-base font-semibold transition-all hover:-translate-y-0.5">
-            <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"/></svg>
-            Inflasi
+            Semua Kalkulator
+            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
           </a>
         </div>
 
-        <!-- Stats -->
         <div class="flex flex-wrap items-center gap-6 sm:gap-10 mt-10 pt-8 border-t border-gray-100 dark:border-gray-800">
           <div>
             <p class="text-2xl sm:text-3xl font-black text-[#001F3F] dark:text-[#FFD700] tabular-nums">{foodTotal.toLocaleString()}</p>
@@ -220,7 +115,7 @@ const orgSchema = {
             <p class="text-xs sm:text-sm text-[#666] dark:text-[#969696]">Barangan Dipantau</p>
           </div>
           <div>
-            <p class="text-2xl sm:text-3xl font-black text-[#001F3F] dark:text-[#FFD700] tabular-nums">30+</p>
+            <p class="text-2xl sm:text-3xl font-black text-[#001F3F] dark:text-[#FFD700] tabular-nums">40+</p>
             <p class="text-xs sm:text-sm text-[#666] dark:text-[#969696]">Kalkulator Percuma</p>
           </div>
           <div>
@@ -233,9 +128,42 @@ const orgSchema = {
   </section>
 
   <!-- ════════════════════════════════════════════ -->
-  <!-- 🛒 HARGA MAKANAN                             -->
+  <!-- 🗺️ TEROKAI RAKYATHUB — Pillar grid          -->
   <!-- ════════════════════════════════════════════ -->
   <section class="max-w-6xl mx-auto px-4 sm:px-6 -mt-6 relative z-10 pb-2">
+    <div class="rounded-xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#2a2a2a] shadow-sm">
+      <div class="px-5 sm:px-7 py-5 border-b border-gray-100 dark:border-gray-800">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-lg bg-[#001F3F] dark:bg-[#FFD700] flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5 text-white dark:text-[#1a1a1a]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z"/></svg>
+          </div>
+          <div>
+            <h2 class="text-base sm:text-lg font-bold text-[#333] dark:text-[#F5F5F5]">Terokai <span class="text-[#001F3F] dark:text-[#FFD700]">RakyatHub</span></h2>
+            <p class="text-xs text-[#666] dark:text-[#969696]">Kalkulator, data & panduan untuk semua</p>
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-px bg-gray-100 dark:bg-gray-800">
+        {PILLARS.map((pillar) => (
+          <a href={pillar.href}
+             class="group flex items-start gap-4 px-5 sm:px-6 py-5 bg-white dark:bg-[#2a2a2a] hover:bg-[#001F3F]/[0.02] dark:hover:bg-white/[0.02] transition-colors"
+          >
+            <div class="w-11 h-11 rounded-lg bg-[#001F3F]/5 dark:bg-[#FFD700]/10 flex items-center justify-center shrink-0 text-[#001F3F] dark:text-[#FFD700]" set:html={iconSVG(pillar.icon)}></div>
+            <div class="min-w-0 flex-1">
+              <h3 class="text-sm sm:text-base font-bold text-[#333] dark:text-[#F5F5F5] group-hover:text-[#001F3F] dark:group-hover:text-[#FFD700] transition-colors">{pillar.name}</h3>
+              <p class="text-xs text-[#666] dark:text-[#969696] mt-0.5 leading-relaxed">{pillar.desc}</p>
+            </div>
+            <svg class="w-4 h-4 text-gray-300 dark:text-gray-600 group-hover:text-[#001F3F] dark:group-hover:text-[#FFD700] transition-colors shrink-0 mt-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/></svg>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════ -->
+  <!-- 🛒 HARGA MAKANAN                             -->
+  <!-- ════════════════════════════════════════════ -->
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 pt-10 pb-2">
     <div class="rounded-xl border border-gray-100 dark:border-gray-800 overflow-hidden bg-white dark:bg-[#2a2a2a] shadow-sm">
       <div class="px-5 sm:px-7 py-4 border-b border-gray-100 dark:border-gray-800 flex items-center justify-between">
         <div class="flex items-center gap-3 sm:gap-4">
@@ -293,288 +221,26 @@ const orgSchema = {
   </section>
 
   <!-- ════════════════════════════════════════════ -->
-  <!-- 📊 DATA: Inflasi · Bantuan · Harga Minyak   -->
+  <!-- 📰 ARTIKEL PILIHAN — 3 evergreen             -->
   <!-- ════════════════════════════════════════════ -->
   <section class="max-w-6xl mx-auto px-4 sm:px-6 py-10 md:py-14">
-    <div class="text-center mb-8 sm:mb-10">
-      <p class="inline-flex items-center gap-2 text-xs font-semibold text-[#001F3F] dark:text-[#FFD700] uppercase tracking-[0.15em] mb-3">
-        <span class="w-1.5 h-1.5 rounded-full bg-[#001F3F] dark:bg-[#FFD700]"></span>
-        DATA TERKINI
-      </p>
-      <h2 class="text-xl sm:text-3xl font-bold text-[#333] dark:text-[#F5F5F5]">Inflasi, Minyak & Bantuan Kerajaan</h2>
-      <p class="text-xs sm:text-sm text-[#666] dark:text-[#969696] mt-2 max-w-2xl mx-auto">Data terkini DOSM, KPDN dan pengumuman kerajaan untuk rakyat Malaysia.</p>
-    </div>
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
-      <!-- Inflasi -->
-      <a href="/inflasi-malaysia/"
-         class="group block rounded-xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#2a2a2a] p-6 sm:p-8 hover:shadow-md transition-all duration-250">
-        <div class="flex items-start gap-4 sm:gap-5">
-          <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-lg bg-[#001F3F] dark:bg-[#FFD700] flex items-center justify-center shrink-0">
-            <svg class="w-6 h-6 sm:w-7 sm:h-7 text-white dark:text-[#1a1a1a]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"/></svg>
-          </div>
-          <div class="min-w-0 flex-1">
-            <h3 class="text-lg sm:text-xl font-bold text-[#333] dark:text-[#F5F5F5] group-hover:text-[#001F3F] dark:group-hover:text-[#FFD700] transition-colors">Inflasi Malaysia</h3>
-            <p class="text-xs sm:text-sm text-[#666] dark:text-[#969696] mt-0.5">CPI terkini & kalkulator inflasi</p>
-            <p class="text-xs sm:text-sm text-[#969696] dark:text-[#969696] mt-2 leading-relaxed">RM100 pada 2010 = RM73 hari ini</p>
-          </div>
-          <svg class="w-5 h-5 text-gray-300 dark:text-gray-600 group-hover:text-[#001F3F] dark:group-hover:text-[#FFD700] transition-colors shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
-        </div>
-      </a>
-      <!-- Bantuan Kerajaan -->
-      <a href="/bantuan-kerajaan/"
-         class="group block rounded-xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#2a2a2a] p-6 sm:p-8 hover:shadow-md transition-all duration-250">
-        <div class="flex items-start gap-4 sm:gap-5">
-          <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-lg bg-[#CC0000] flex items-center justify-center shrink-0">
-            <svg class="w-6 h-6 sm:w-7 sm:h-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z"/></svg>
-          </div>
-          <div class="min-w-0 flex-1">
-            <h3 class="text-lg sm:text-xl font-bold text-[#333] dark:text-[#F5F5F5] group-hover:text-[#CC0000] transition-colors">Bantuan Kerajaan</h3>
-            <p class="text-xs sm:text-sm text-[#666] dark:text-[#969696] mt-0.5">STR, SARA, BUDI95 & e-Tunai</p>
-            <p class="text-xs sm:text-sm text-[#969696] dark:text-[#969696] mt-2 leading-relaxed">RM8,000+ setahun — bila & berapa</p>
-          </div>
-          <svg class="w-5 h-5 text-gray-300 dark:text-gray-600 group-hover:text-[#CC0000] transition-colors shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
-        </div>
-      </a>
-      <!-- Harga Minyak (NEW) -->
-      <a href="/harga-minyak/"
-         class="group block rounded-xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#2a2a2a] p-6 sm:p-8 hover:shadow-md transition-all duration-250">
-        <div class="flex items-start gap-4 sm:gap-5">
-          <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-lg bg-[#001F3F] dark:bg-[#FFD700] flex items-center justify-center shrink-0">
-            <svg class="w-6 h-6 sm:w-7 sm:h-7 text-white dark:text-[#1a1a1a]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 7.5l10.5-4.5M12 6v13.5m9-7.5v5.25a2.25 2.25 0 01-2.25 2.25H5.25a2.25 2.25 0 01-2.25-2.25V11.25a2.25 2.25 0 012.25-2.25h13.5a2.25 2.25 0 012.25 2.25z"/></svg>
-          </div>
-          <div class="min-w-0 flex-1">
-            <h3 class="text-lg sm:text-xl font-bold text-[#333] dark:text-[#F5F5F5] group-hover:text-[#001F3F] dark:group-hover:text-[#FFD700] transition-colors">Harga Minyak Terkini</h3>
-            <p class="text-xs sm:text-sm text-[#666] dark:text-[#969696] mt-0.5">RON95, RON97, Diesel mingguan</p>
-            <p class="text-xs sm:text-sm text-[#969696] dark:text-[#969696] mt-2 leading-relaxed">Kemaskini setiap minggu oleh Kerajaan</p>
-          </div>
-          <svg class="w-5 h-5 text-gray-300 dark:text-gray-600 group-hover:text-[#001F3F] dark:group-hover:text-[#FFD700] transition-colors shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
-        </div>
-      </a>
-    </div>
-  </section>
-
-  <!-- ════════════════════════════════════════════ -->
-  <!-- 📊 REALITY TOOLS (existing + Pilihan Raya)  -->
-  <!-- ════════════════════════════════════════════ -->
-  <section class="max-w-6xl mx-auto px-4 sm:px-6 py-4 md:py-6">
-    <div class="grid grid-cols-1 sm:grid-cols-4 gap-4 sm:gap-6">
-      <a href="/reality-check/"
-         class="group block rounded-xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#2a2a2a] p-5 sm:p-6 hover:shadow-md transition-all duration-250">
-        <div class="flex items-start gap-4">
-          <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-lg bg-[#001F3F] dark:bg-[#FFD700] flex items-center justify-center shrink-0">
-            <svg class="w-5 h-5 sm:w-6 sm:h-6 text-white dark:text-[#1a1a1a]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-          </div>
-          <div class="min-w-0 flex-1">
-            <h3 class="text-sm sm:text-base font-bold text-[#333] dark:text-[#F5F5F5] group-hover:text-[#001F3F] dark:group-hover:text-[#FFD700] transition-colors">Reality Check Gaji</h3>
-            <p class="text-[11px] sm:text-xs text-[#666] dark:text-[#969696] mt-0.5">Banding gaji ikut negeri & sektor</p>
-          </div>
-        </div>
-        <p class="text-xs sm:text-sm text-[#969696] dark:text-[#969696] mt-3 leading-relaxed">Percentile ranking & potongan EPF</p>
-      </a>
-      <a href="/gaji-malaysia/"
-         class="group block rounded-xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#2a2a2a] p-5 sm:p-6 hover:shadow-md transition-all duration-250">
-        <div class="flex items-start gap-4">
-          <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-lg bg-[#001F3F] dark:bg-[#FFD700] flex items-center justify-center shrink-0">
-            <svg class="w-5 h-5 sm:w-6 sm:h-6 text-white dark:text-[#1a1a1a]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605"/></svg>
-          </div>
-          <div class="min-w-0 flex-1">
-            <h3 class="text-sm sm:text-base font-bold text-[#333] dark:text-[#F5F5F5] group-hover:text-[#001F3F] dark:group-hover:text-[#FFD700] transition-colors">Gaji Ikut Negeri</h3>
-            <p class="text-[11px] sm:text-xs text-[#666] dark:text-[#969696] mt-0.5">Ranking pendapatan 16 negeri</p>
-          </div>
-        </div>
-        <p class="text-xs sm:text-sm text-[#969696] dark:text-[#969696] mt-3 leading-relaxed">Putrajaya RM13,473 vs Kelantan RM4,885</p>
-      </a>
-      <a href="/indeks-harga-pasaraya/"
-         class="group block rounded-xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#2a2a2a] p-5 sm:p-6 hover:shadow-md transition-all duration-250">
-        <div class="flex items-start gap-4">
-          <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-lg bg-[#CC0000] flex items-center justify-center shrink-0">
-            <svg class="w-5 h-5 sm:w-6 sm:h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 21v-7.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349m-16.5 11.65V9.35m0 0a3.001 3.001 0 003.75-.615A2.993 2.993 0 019.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 002.25 1.016c.896 0 1.7-.393 2.25-1.016a3.001 3.001 0 003.75.614m-16.5 0a3.004 3.004 0 01-.621-4.72L4.318 3.44A1.5 1.5 0 015.378 3h13.243a1.5 1.5 0 011.06.44l1.19 1.189a3 3 0 01-.621 4.72m-13.5 8.65h3.75a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75H6.75a.75.75 0 00-.75.75v3.75c0 .415.336.75.75.75z"/></svg>
-          </div>
-          <div class="min-w-0 flex-1">
-            <h3 class="text-sm sm:text-base font-bold text-[#333] dark:text-[#F5F5F5] group-hover:text-[#CC0000] transition-colors">Indeks Pasaraya</h3>
-            <p class="text-[11px] sm:text-xs text-[#666] dark:text-[#969696] mt-0.5">Mana pasaraya termurah</p>
-          </div>
-        </div>
-        <p class="text-xs sm:text-sm text-[#969696] dark:text-[#969696] mt-3 leading-relaxed">Lotus's, Econsave, Mydin, AEON</p>
-      </a>
-      <!-- Pilihan Raya (NEW) -->
-      <a href="/pilihan-raya/"
-         class="group block rounded-xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#2a2a2a] p-5 sm:p-6 hover:shadow-md transition-all duration-250">
-        <div class="flex items-start gap-4">
-          <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-lg bg-[#001F3F] dark:bg-[#FFD700] flex items-center justify-center shrink-0">
-            <svg class="w-5 h-5 sm:w-6 sm:h-6 text-white dark:text-[#1a1a1a]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"/></svg>
-          </div>
-          <div class="min-w-0 flex-1">
-            <h3 class="text-sm sm:text-base font-bold text-[#333] dark:text-[#F5F5F5] group-hover:text-[#001F3F] dark:group-hover:text-[#FFD700] transition-colors">Pilihan Raya</h3>
-            <p class="text-[11px] sm:text-xs text-[#666] dark:text-[#969696] mt-0.5">Keputusan PRU & analisis</p>
-          </div>
-        </div>
-        <p class="text-xs sm:text-sm text-[#969696] dark:text-[#969696] mt-3 leading-relaxed">GE-15, PRN & data pengundi</p>
-      </a>
-    </div>
-  </section>
-
-  <!-- ════════════════════════════════════════════ -->
-  <!-- 🧮 KALKULATOR UTAMA — expanded grid         -->
-  <!-- ════════════════════════════════════════════ -->
-  <section class="max-w-6xl mx-auto px-4 sm:px-6 py-10 md:py-16" id="kalkulator">
-    <div class="text-center mb-8 sm:mb-10">
-      <p class="inline-flex items-center gap-2 text-xs font-semibold text-[#001F3F] dark:text-[#FFD700] uppercase tracking-[0.15em] mb-3">
-        <span class="w-1.5 h-1.5 rounded-full bg-[#001F3F] dark:bg-[#FFD700]"></span>
-        KALKULATOR PERCUMA
-      </p>
-      <h2 class="text-xl sm:text-3xl font-bold text-[#333] dark:text-[#F5F5F5]">Alat <span class="text-[#001F3F] dark:text-[#FFD700]">Kewangan</span> & Keperluan Harian</h2>
-      <p class="text-xs sm:text-sm text-[#666] dark:text-[#969696] mt-2 max-w-2xl mx-auto">Kira simpanan KWSP, dividen ASB, harga emas, ansuran kereta, zakat, BMI dan banyak lagi. Semua percuma.</p>
-    </div>
-
-    <!-- Kewangan & Hartanah -->
-    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-5">
-      {CALCULATORS_MAIN.map((calc, idx) => (
-        <a href={calc.href}
-           class="group block rounded-xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#2a2a2a] p-4 sm:p-6 hover:shadow-md hover:border-[#001F3F]/20 dark:hover:border-[#FFD700]/20 transition-all duration-250"
-        >
-          <div class="w-10 h-10 rounded-lg bg-[#001F3F]/5 dark:bg-[#FFD700]/10 flex items-center justify-center mb-3 text-[#001F3F] dark:text-[#FFD700]" set:html={iconSVG(calc.icon)}></div>
-          <h3 class="text-sm sm:text-base font-bold text-[#333] dark:text-[#F5F5F5] group-hover:text-[#001F3F] dark:group-hover:text-[#FFD700] transition-colors mb-1">{calc.name}</h3>
-          <p class="text-[11px] sm:text-xs text-[#666] dark:text-[#969696] leading-relaxed">{calc.desc}</p>
-        </a>
-      ))}
-    </div>
-  </section>
-
-  <!-- ════════════════════════════════════════════ -->
-  <!-- 🤲 ZAKAT Calculators                        -->
-  <!-- ════════════════════════════════════════════ -->
-  <section class="max-w-6xl mx-auto px-4 sm:px-6 pb-10 md:pb-16">
-    <div class="text-center mb-6 sm:mb-8">
-      <p class="inline-flex items-center gap-2 text-xs font-semibold text-[#001F3F] dark:text-[#FFD700] uppercase tracking-[0.15em] mb-3">
-        <span class="w-1.5 h-1.5 rounded-full bg-[#001F3F] dark:bg-[#FFD700]"></span>
-        ZAKAT
-      </p>
-      <h2 class="text-xl sm:text-2xl font-bold text-[#333] dark:text-[#F5F5F5]">Kalkulator <span class="text-[#001F3F] dark:text-[#FFD700]">Zakat</span> Malaysia</h2>
-      <p class="text-xs sm:text-sm text-[#666] dark:text-[#969696] mt-2">Kira zakat pendapatan, simpanan, emas dan fitrah ikut kadar terkini.</p>
-    </div>
-    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
-      {CALCULATORS_ZAKAT.map((calc, idx) => (
-        <a href={calc.href}
-           class="group block rounded-xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#2a2a2a] p-4 sm:p-5 hover:shadow-md hover:border-[#001F3F]/20 dark:hover:border-[#FFD700]/20 transition-all duration-250"
-        >
-          <div class="w-10 h-10 rounded-lg bg-[#001F3F]/5 dark:bg-[#FFD700]/10 flex items-center justify-center mb-3 text-[#001F3F] dark:text-[#FFD700]" set:html={iconSVG(calc.icon)}></div>
-          <h3 class="text-sm sm:text-base font-bold text-[#333] dark:text-[#F5F5F5] group-hover:text-[#001F3F] dark:group-hover:text-[#FFD700] transition-colors mb-1">{calc.name}</h3>
-          <p class="text-[11px] sm:text-xs text-[#666] dark:text-[#969696] leading-relaxed">{calc.desc}</p>
-        </a>
-      ))}
-    </div>
-  </section>
-
-  <!-- ════════════════════════════════════════════ -->
-  <!-- ❤️ KESIHATAN Calculators                    -->
-  <!-- ════════════════════════════════════════════ -->
-  <section class="max-w-6xl mx-auto px-4 sm:px-6 pb-10 md:pb-16">
-    <div class="text-center mb-6 sm:mb-8">
-      <p class="inline-flex items-center gap-2 text-xs font-semibold text-[#001F3F] dark:text-[#FFD700] uppercase tracking-[0.15em] mb-3">
-        <span class="w-1.5 h-1.5 rounded-full bg-[#001F3F] dark:bg-[#FFD700]"></span>
-        KESIHATAN & UMUR
-      </p>
-      <h2 class="text-xl sm:text-2xl font-bold text-[#333] dark:text-[#F5F5F5]">BMI, BMR & Alat <span class="text-[#001F3F] dark:text-[#FFD700]">Kesihatan</span></h2>
-      <p class="text-xs sm:text-sm text-[#666] dark:text-[#969696] mt-2">Kira indeks jisim badan, kalori harian, berat ideal, tarikh bersalin dan umur tepat.</p>
-    </div>
-    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
-      {CALCULATORS_KESIHATAN.map((calc, idx) => (
-        <a href={calc.href}
-           class="group block rounded-xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#2a2a2a] p-4 sm:p-5 hover:shadow-md hover:border-[#001F3F]/20 dark:hover:border-[#FFD700]/20 transition-all duration-250"
-        >
-          <div class="w-10 h-10 rounded-lg bg-[#001F3F]/5 dark:bg-[#FFD700]/10 flex items-center justify-center mb-3 text-[#001F3F] dark:text-[#FFD700]" set:html={iconSVG(calc.icon)}></div>
-          <h3 class="text-sm sm:text-base font-bold text-[#333] dark:text-[#F5F5F5] group-hover:text-[#001F3F] dark:group-hover:text-[#FFD700] transition-colors mb-1">{calc.name}</h3>
-          <p class="text-[11px] sm:text-xs text-[#666] dark:text-[#969696] leading-relaxed">{calc.desc}</p>
-        </a>
-      ))}
-    </div>
-  </section>
-
-  <!-- ════════════════════════════════════════════ -->
-  <!-- 🧮 LAGI KALKULATOR — Kad Kredit, PTPTN etc -->
-  <!-- ════════════════════════════════════════════ -->
-  <section class="max-w-6xl mx-auto px-4 sm:px-6 pb-10 md:pb-16">
-    <div class="text-center mb-6 sm:mb-8">
-      <p class="inline-flex items-center gap-2 text-xs font-semibold text-[#001F3F] dark:text-[#FFD700] uppercase tracking-[0.15em] mb-3">
-        <span class="w-1.5 h-1.5 rounded-full bg-[#001F3F] dark:bg-[#FFD700]"></span>
-        LAGI ALAT
-      </p>
-      <h2 class="text-xl sm:text-2xl font-bold text-[#333] dark:text-[#F5F5F5]">Kad Kredit, PTPTN, Insurans & <span class="text-[#001F3F] dark:text-[#FFD700]">Pinjaman</span></h2>
-      <p class="text-xs sm:text-sm text-[#666] dark:text-[#969696] mt-2">Banding kad kredit, kira ansuran PTPTN, premium insurans kereta dan banyak lagi.</p>
-    </div>
-    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-5">
-      {CALCULATORS_EXTRA.map((calc, idx) => (
-        <a href={calc.href}
-           class="group block rounded-xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#2a2a2a] p-4 sm:p-6 hover:shadow-md hover:border-[#001F3F]/20 dark:hover:border-[#FFD700]/20 transition-all duration-250"
-        >
-          <div class="w-10 h-10 rounded-lg bg-[#001F3F]/5 dark:bg-[#FFD700]/10 flex items-center justify-center mb-3 text-[#001F3F] dark:text-[#FFD700]" set:html={iconSVG(calc.icon)}></div>
-          <h3 class="text-sm sm:text-base font-bold text-[#333] dark:text-[#F5F5F5] group-hover:text-[#001F3F] dark:group-hover:text-[#FFD700] transition-colors mb-1">{calc.name}</h3>
-          <p class="text-[11px] sm:text-xs text-[#666] dark:text-[#969696] leading-relaxed">{calc.desc}</p>
-        </a>
-      ))}
-    </div>
-  </section>
-
-  <!-- ════════════════════════════════════════════ -->
-  <!-- 🚀 DocuKilat CTA                             -->
-  <!-- ════════════════════════════════════════════ -->
-  <section class="max-w-6xl mx-auto px-4 sm:px-6 py-6 md:py-10">
-    <div class="rounded-xl border border-gray-100 dark:border-gray-800 bg-[#F5F5F5] dark:bg-[#2a2a2a] p-8 sm:p-12 text-center">
-      <p class="inline-flex items-center gap-2 text-xs font-semibold text-[#001F3F] dark:text-[#FFD700] uppercase tracking-[0.15em] mb-3">
-        <span class="w-1.5 h-1.5 rounded-full bg-[#001F3F] dark:bg-[#FFD700]"></span>
-        PRODUK RAKYATHUB
-      </p>
-      <h2 class="text-xl sm:text-3xl font-bold text-[#333] dark:text-[#F5F5F5] mb-3">Perlu Surat Rasmi, Invois atau Resume?</h2>
-      <p class="text-sm sm:text-base text-[#666] dark:text-[#969696] max-w-xl mx-auto mb-6">
-        Gunakan DocuKilat — platform penjanaan dokumen AI dengan 26 template percuma.
-        Surat rasmi, invois premium, resume dan banyak lagi.
-      </p>
-      <a href="https://docukilat.rakyathub.my"
-         class="inline-flex items-center gap-2.5 px-8 py-3.5 rounded-lg bg-[#001F3F] hover:bg-[#002550] text-white text-sm font-bold transition-all hover:-translate-y-0.5">
-        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>
-        Bina Dokumen di DocuKilat
-      </a>
-    </div>
-  </section>
-
-  <!-- ════════════════════════════════════════════ -->
-  <!-- 📰 ARTIKEL PILIHAN                           -->
-  <!-- ════════════════════════════════════════════ -->
-  <section class="max-w-6xl mx-auto px-4 sm:px-6 py-6 md:py-10">
-    <div class="text-center mb-8 sm:mb-10">
+    <div class="text-center mb-8">
       <p class="inline-flex items-center gap-2 text-xs font-semibold text-[#001F3F] dark:text-[#FFD700] uppercase tracking-[0.15em] mb-3">
         <span class="w-1.5 h-1.5 rounded-full bg-[#001F3F] dark:bg-[#FFD700]"></span>
         ARTIKEL PILIHAN
       </p>
       <h2 class="text-xl sm:text-3xl font-bold text-[#333] dark:text-[#F5F5F5]">Panduan & Tips Kewangan</h2>
-      <p class="text-xs sm:text-sm text-[#666] dark:text-[#969696] mt-2">500+ artikel dalam 6 kategori — KWSP, Kewangan, Kerajaan, Insurans, Kesihatan & Teknologi.</p>
     </div>
-
-    <!-- Category pills -->
-    <div class="flex flex-wrap justify-center gap-2 mb-8">
-      {CATEGORY_LINKS.map((cat) => (
-        <a href={cat.href}
-           class="inline-flex items-center gap-1.5 text-xs font-semibold px-4 py-2 rounded-full border border-gray-200 dark:border-gray-700 bg-white dark:bg-[#2a2a2a] text-[#666] dark:text-[#969696] hover:border-[#001F3F]/30 dark:hover:border-[#FFD700]/30 hover:text-[#001F3F] dark:hover:text-[#FFD700] transition-colors"
-        >
-          {cat.name}
-        </a>
-      ))}
-    </div>
-
-    <!-- Featured articles -->
-    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
-      {FEATURED.map((art, idx) => (
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
+      {FEATURED.map((art) => (
         <a href={art.href}
-           class="group block rounded-xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#2a2a2a] p-4 sm:p-5 hover:shadow-md hover:border-[#001F3F]/20 dark:hover:border-[#FFD700]/20 transition-all duration-250"
+           class="group block rounded-xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-[#2a2a2a] p-6 sm:p-8 hover:shadow-md hover:border-[#001F3F]/20 dark:hover:border-[#FFD700]/20 transition-all duration-250"
         >
-          <h3 class="text-sm sm:text-base font-bold text-[#333] dark:text-[#F5F5F5] group-hover:text-[#001F3F] dark:group-hover:text-[#FFD700] transition-colors leading-snug">{art.title}</h3>
-          <p class="text-[11px] sm:text-xs text-[#666] dark:text-[#969696] mt-1.5 leading-relaxed">{art.desc}</p>
+          <h3 class="text-base sm:text-xl font-bold text-[#333] dark:text-[#F5F5F5] group-hover:text-[#001F3F] dark:group-hover:text-[#FFD700] transition-colors leading-snug">{art.title}</h3>
+          <p class="text-sm text-[#666] dark:text-[#969696] mt-2 leading-relaxed">{art.desc}</p>
         </a>
       ))}
     </div>
-
-    <!-- Blog link -->
     <div class="text-center mt-8">
       <a href="/blog"
          class="inline-flex items-center gap-1 text-sm font-semibold text-[#001F3F] dark:text-[#FFD700] hover:underline transition-colors">
@@ -584,7 +250,28 @@ const orgSchema = {
     </div>
   </section>
 
+  <!-- ════════════════════════════════════════════ -->
+  <!-- 🚀 DocuKilat CTA                             -->
+  <!-- ════════════════════════════════════════════ -->
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 pb-6 md:pb-10">
+    <div class="rounded-xl border border-gray-100 dark:border-gray-800 bg-[#F5F5F5] dark:bg-[#2a2a2a] p-8 sm:p-12 text-center">
+      <p class="inline-flex items-center gap-2 text-xs font-semibold text-[#001F3F] dark:text-[#FFD700] uppercase tracking-[0.15em] mb-3">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#001F3F] dark:bg-[#FFD700]"></span>
+        PRODUK RAKYATHUB
+      </p>
+      <h2 class="text-xl sm:text-3xl font-bold text-[#333] dark:text-[#F5F5F5] mb-3">Perlu Surat Rasmi, Invois atau Resume?</h2>
+      <p class="text-sm sm:text-base text-[#666] dark:text-[#969696] max-w-xl mx-auto mb-6">
+        Gunakan DocuKilat — platform penjanaan dokumen AI dengan 26 template percuma.
+      </p>
+      <a href="https://docukilat.rakyathub.my"
+         class="inline-flex items-center gap-2.5 px-8 py-3.5 rounded-lg bg-[#001F3F] hover:bg-[#002550] text-white text-sm font-bold transition-all hover:-translate-y-0.5">
+        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>
+        Bina Dokumen di DocuKilat
+      </a>
+    </div>
+  </section>
+
   <!-- Blog + CTA -->
-  <BlogLatestPosts />
+  <BlogLatestPosts count={3} />
   <CallToAction />
 </Layout>
