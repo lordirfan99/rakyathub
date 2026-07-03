@@ -1,0 +1,55 @@
+---
+import { fetchPosts } from '~/utils/blog';
+import { getPermalink, getBlogPermalink } from '~/utils/permalinks';
+
+interface Props {
+  activeCategory?: string; // category slug; undefined on the main /blog/ list
+}
+
+const { activeCategory } = Astro.props;
+
+// Derive categories + post counts from all posts (build-time, static)
+const posts = await fetchPosts();
+const map = new Map<string, { slug: string; title: string; count: number }>();
+for (const post of posts) {
+  const c = post.category;
+  if (!c?.slug) continue;
+  const existing = map.get(c.slug);
+  if (existing) existing.count++;
+  else map.set(c.slug, { slug: c.slug, title: c.title, count: 1 });
+}
+const allCategories = Array.from(map.values()).sort((a, b) => b.count - a.count);
+const total = posts.length;
+
+// Cap the bar to the top-N most-populated categories to keep it tidy, but always
+// keep the currently-active category visible even if it falls outside the top N.
+const LIMIT = 14;
+let categories = allCategories.slice(0, LIMIT);
+if (activeCategory && !categories.some((c) => c.slug === activeCategory)) {
+  const act = allCategories.find((c) => c.slug === activeCategory);
+  if (act) categories = [act, ...categories.slice(0, LIMIT - 1)];
+}
+
+const base =
+  'inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-sm font-medium border transition-colors whitespace-nowrap';
+const active = 'bg-primary text-white border-primary';
+const idle =
+  'bg-transparent text-muted border-gray-200 dark:border-slate-700 hover:border-primary/50 hover:text-primary';
+---
+
+{
+  categories.length > 0 && (
+    <nav class="mb-8 -mx-4 px-4 sm:mx-0 sm:px-0" aria-label="Tapis mengikut kategori">
+      <div class="flex flex-wrap gap-2">
+        <a href={getBlogPermalink()} class:list={[base, !activeCategory ? active : idle]}>
+          Semua <span class="text-xs opacity-70">{total}</span>
+        </a>
+        {categories.map((c) => (
+          <a href={getPermalink(c.slug, 'category')} class:list={[base, activeCategory === c.slug ? active : idle]}>
+            {c.title} <span class="text-xs opacity-70">{c.count}</span>
+          </a>
+        ))}
+      </div>
+    </nav>
+  )
+}
