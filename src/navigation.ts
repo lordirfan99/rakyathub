@@ -242,6 +242,8 @@ export const footerData = {
         { text: 'Penjana Surat AI', href: '/docukilat/' },
         { text: 'Inflasi', href: '/inflasi-malaysia/' },
         { text: 'Bantuan Kerajaan', href: '/bantuan-kerajaan/' },
+        { text: 'API Data Terbuka', href: getPermalink('/api') },
+        { text: 'Glosari Kewangan', href: getPermalink('/glosari-kewangan') },
       ],
     },
   ],
