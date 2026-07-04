@@ -10,7 +10,7 @@ tags:
   - mquit-kkm
   - nicotine-replacement-therapy
   - kesihatan-malaysia
-  - 2026
+  - "2026"
 author: RakyatHub
 faq:
   - question: "Berapa kos rawatan di Klinik JomQuit KKM?"
