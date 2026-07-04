@@ -139,17 +139,17 @@ function fmt(v, c) { return (typeof v === 'number' && !isNaN(v) && isFinite(v) ?
 function sn(v, d) { var n = parseFloat(v); return (!isNaN(n) && isFinite(n) && n >= 0) ? n : (d || 0); }
 
 var FALLBACK_RATES = {
-  'USD/MYR': 4.45, 'MYR/USD': 0.2247,
-  'SGD/MYR': 3.30, 'MYR/SGD': 0.3030,
-  'THB/MYR': 0.122, 'MYR/THB': 8.20,
-  'IDR/MYR': 0.000275, 'MYR/IDR': 3636.36,
-  'JPY/MYR': 0.028, 'MYR/JPY': 35.71,
-  'GBP/MYR': 5.68, 'MYR/GBP': 0.1761,
-  'EUR/MYR': 4.82, 'MYR/EUR': 0.2075,
-  'AUD/MYR': 2.97, 'MYR/AUD': 0.3367,
-  'CNY/MYR': 0.615, 'MYR/CNY': 1.626,
-  'KRW/MYR': 0.00325, 'MYR/KRW': 307.69,
-  'INR/MYR': 0.0535, 'MYR/INR': 18.69,
+  'USD/MYR': 4.0710, 'MYR/USD': 0.2456,
+  'SGD/MYR': 3.1546, 'MYR/SGD': 0.3170,
+  'THB/MYR': 0.1229, 'MYR/THB': 8.1393,
+  'IDR/MYR': 0.0002, 'MYR/IDR': 4412.62,
+  'JPY/MYR': 0.0253, 'MYR/JPY': 39.584,
+  'GBP/MYR': 5.4369, 'MYR/GBP': 0.1839,
+  'EUR/MYR': 4.6605, 'MYR/EUR': 0.2146,
+  'AUD/MYR': 2.8245, 'MYR/AUD': 0.3540,
+  'CNY/MYR': 0.6003, 'MYR/CNY': 1.6658,
+  'KRW/MYR': 0.0027, 'MYR/KRW': 376.13,
+  'INR/MYR': 0.0428, 'MYR/INR': 23.388,
 };
 
 var CURRENCY_NAMES = { MYR:'Ringgit',USD:'Dolar AS',SGD:'Dolar SG',THB:'Baht',IDR:'Rupiah',JPY:'Yen',GBP:'Pound',EUR:'Euro',AUD:'Dolar AU',CNY:'Yuan',KRW:'Won',INR:'Rupee' };
