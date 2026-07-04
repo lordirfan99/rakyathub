@@ -1,0 +1,310 @@
+{
+  "fetched_at": "2026-07-04T00:23:46.709494+08:00",
+  "source": "advanced_gsc MCP - sc-domain:rakyathub.my (30 days)",
+  "data_period": "2026-06-03 to 2026-07-03",
+  "low_hanging_fruit": [
+    {
+      "query": "berapa harga ikan kembung 1 kg",
+      "page": "https://rakyathub.my/harga-makanan/ikan-kembung/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 5.0,
+      "intent": "tof",
+      "category": "harga",
+      "note": "TOF — informational query. pos 5.0, 1 impressions, 0 clicks"
+    },
+    {
+      "query": "harga ikan kembung 1kg hari ini",
+      "page": "https://rakyathub.my/harga-makanan/ikan-kembung/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 5.0,
+      "intent": "tof",
+      "category": "harga",
+      "note": "TOF — informational query. pos 5.0, 1 impressions, 0 clicks"
+    },
+    {
+      "query": "harga ikan kembung hari ini",
+      "page": "https://rakyathub.my/harga-makanan/ikan-kembung/",
+      "clicks": 0,
+      "impressions": 5,
+      "position": 5.2,
+      "intent": "tof",
+      "category": "harga",
+      "note": "TOF — informational query. pos 5.2, 5 impressions, 0 clicks. — banyak impression, rugi 0 clicks!"
+    },
+    {
+      "query": "harga kembung 1 kg",
+      "page": "https://rakyathub.my/harga-makanan/ikan-kembung/",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 5.7,
+      "intent": "tof",
+      "category": "harga",
+      "note": "TOF — informational query. pos 5.7, 3 impressions, 0 clicks"
+    },
+    {
+      "query": "harga minyak di malaysia terkini",
+      "page": "https://rakyathub.my/harga-minyak/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 7.0,
+      "intent": "tof",
+      "category": "harga",
+      "note": "TOF — informational query. pos 7.0, 1 impressions, 0 clicks"
+    },
+    {
+      "query": "berapa harga ikan kembung",
+      "page": "https://rakyathub.my/harga-makanan/ikan-kembung/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 8.0,
+      "intent": "tof",
+      "category": "harga",
+      "note": "TOF — informational query. pos 8.0, 1 impressions, 0 clicks"
+    },
+    {
+      "query": "harga pasaran ikan kembung",
+      "page": "https://rakyathub.my/harga-makanan/ikan-kembung/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 8.0,
+      "intent": "tof",
+      "category": "harga",
+      "note": "TOF — informational query. pos 8.0, 1 impressions, 0 clicks"
+    },
+    {
+      "query": "bantuan selangor rm600",
+      "page": "https://rakyathub.my/baucar-kita-selangor-2026-mohon-rm600",
+      "clicks": 0,
+      "impressions": 9,
+      "position": 8.3,
+      "intent": "tof",
+      "category": "kerajaan",
+      "note": "TOF — informational query. pos 8.3, 9 impressions, 0 clicks. — banyak impression, rugi 0 clicks!"
+    },
+    {
+      "query": "harga ikan kembung",
+      "page": "https://rakyathub.my/harga-makanan/ikan-kembung/",
+      "clicks": 0,
+      "impressions": 8,
+      "position": 8.5,
+      "intent": "tof",
+      "category": "harga",
+      "note": "TOF — informational query. pos 8.5, 8 impressions, 0 clicks. — banyak impression, rugi 0 clicks!"
+    },
+    {
+      "query": "harga ayam 1kg malaysia 2026",
+      "page": "https://rakyathub.my/harga-makanan-hari-ini/",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 9.0,
+      "intent": "tof",
+      "category": "harga",
+      "note": "TOF — informational query. pos 9.0, 2 impressions, 0 clicks"
+    },
+    {
+      "query": "harga minyak ron95 ron97 diesel malaysia hari ini 2026",
+      "page": "https://rakyathub.my/harga-minyak/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 9.0,
+      "intent": "tof",
+      "category": "kerajaan",
+      "note": "TOF — informational query. pos 9.0, 1 impressions, 0 clicks"
+    },
+    {
+      "query": "harga sekilo ikan kembung",
+      "page": "https://rakyathub.my/harga-makanan/ikan-kembung/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 9.0,
+      "intent": "tof",
+      "category": "harga",
+      "note": "TOF — informational query. pos 9.0, 1 impressions, 0 clicks"
+    },
+    {
+      "query": "harga ayam terkini 2026",
+      "page": "https://rakyathub.my/harga-makanan-hari-ini/",
+      "clicks": 0,
+      "impressions": 7,
+      "position": 9.4,
+      "intent": "tof",
+      "category": "harga",
+      "note": "TOF — informational query. pos 9.4, 7 impressions, 0 clicks. — banyak impression, rugi 0 clicks!"
+    },
+    {
+      "query": "harga ikan kembung sekilo",
+      "page": "https://rakyathub.my/harga-makanan/ikan-kembung/",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 9.5,
+      "intent": "tof",
+      "category": "harga",
+      "note": "TOF — informational query. pos 9.5, 2 impressions, 0 clicks"
+    },
+    {
+      "query": "agriculture salary",
+      "page": "https://rakyathub.my/reality-check/sarawak/agriculture",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 10.0,
+      "intent": "tof",
+      "category": "kerjaya",
+      "note": "TOF — informational query. pos 10.0, 1 impressions, 0 clicks"
+    },
+    {
+      "query": "cara kira diskaun harga",
+      "page": "https://rakyathub.my/kalkulator/diskaun/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 10.0,
+      "intent": "bof",
+      "category": "kewangan",
+      "note": "BOF — orang nak cari cara/tindakan. pos 10.0, 1 impressions, 0 clicks"
+    },
+    {
+      "query": "harga kembung",
+      "page": "https://rakyathub.my/harga-makanan/ikan-kembung/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 10.0,
+      "intent": "tof",
+      "category": "harga",
+      "note": "TOF — informational query. pos 10.0, 1 impressions, 0 clicks"
+    },
+    {
+      "query": "harga minyak malaysia terkini",
+      "page": "https://rakyathub.my/harga-minyak/",
+      "clicks": 0,
+      "impressions": 5,
+      "position": 10.0,
+      "intent": "tof",
+      "category": "harga",
+      "note": "TOF — informational query. pos 10.0, 5 impressions, 0 clicks. — banyak impression, rugi 0 clicks!"
+    },
+    {
+      "query": "harga minyak malaysia terkini ron95 ron97 diesel 2026",
+      "page": "https://rakyathub.my/harga-minyak/",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 10.0,
+      "intent": "tof",
+      "category": "kerajaan",
+      "note": "TOF — informational query. pos 10.0, 2 impressions, 0 clicks"
+    },
+    {
+      "query": "berat 74 tinggi 170",
+      "page": "https://rakyathub.my/kalkulator/berat-ideal/",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 10.5,
+      "intent": "tof",
+      "category": "kesihatan",
+      "note": "TOF — informational query. pos 10.5, 2 impressions, 0 clicks"
+    },
+    {
+      "query": "148 cm berat badan ideal berapa",
+      "page": "https://rakyathub.my/kalkulator/berat-ideal/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 11.0,
+      "intent": "tof",
+      "category": "kesihatan",
+      "note": "TOF — informational query. pos 11.0, 1 impressions, 0 clicks"
+    },
+    {
+      "query": "cara apply akpk dan kelayakan 2026",
+      "page": "https://rakyathub.my/panduan-akpk-2026",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 11.0,
+      "intent": "bof",
+      "category": "kewangan",
+      "note": "BOF — orang nak cari cara/tindakan. pos 11.0, 1 impressions, 0 clicks"
+    },
+    {
+      "query": "cara suara ai ditiktok",
+      "page": "https://rakyathub.my/ai-voice-scam-panduan-lengkap-2026",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 11.0,
+      "intent": "bof",
+      "category": "teknologi",
+      "note": "BOF — orang nak cari cara/tindakan. pos 11.0, 2 impressions, 0 clicks"
+    },
+    {
+      "query": "harga minyak malaysia ron95 2026",
+      "page": "https://rakyathub.my/harga-minyak/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 11.0,
+      "intent": "tof",
+      "category": "harga",
+      "note": "TOF — informational query. pos 11.0, 1 impressions, 0 clicks"
+    },
+    {
+      "query": "harga minyak ron95 ron97 diesel malaysia terkini 2026",
+      "page": "https://rakyathub.my/harga-minyak/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 11.0,
+      "intent": "tof",
+      "category": "kerajaan",
+      "note": "TOF — informational query. pos 11.0, 1 impressions, 0 clicks"
+    },
+    {
+      "query": "harga minyak terkini malaysia",
+      "page": "https://rakyathub.my/harga-minyak/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 12.0,
+      "intent": "tof",
+      "category": "harga",
+      "note": "TOF — informational query. pos 12.0, 1 impressions, 0 clicks"
+    },
+    {
+      "query": "harga minyak malaysia",
+      "page": "https://rakyathub.my/harga-minyak/",
+      "clicks": 0,
+      "impressions": 12,
+      "position": 13.6,
+      "intent": "tof",
+      "category": "harga",
+      "note": "TOF — informational query. pos 13.6, 12 impressions, 0 clicks. — banyak impression, rugi 0 clicks!. PERLU OPTIMIZE SEGERA"
+    }
+  ],
+  "bof_opportunities": [
+    "cara mohon str fasa 3 2026",
+    "cara daftar e kasih online",
+    "cara isi borang e filing 2026",
+    "cara buka akaun asb maybank online",
+    "cara mohon rumoh mesra rakyat 2026",
+    "cara tuntut insurans perubatan step by step",
+    "cara bayar ptptn online tanpa daftar",
+    "cara renew lesen memandu online jpj 2026",
+    "cara semak status bantuan kerajaan 2026",
+    "cara mohon biasiswa yayasan negeri",
+    "bayar roadtax",
+    "bayar roadtax kereta",
+    "bayar roadtax motor",
+    "bayar roadtax online",
+    "cara apply akpk dan kelayakan 2026",
+    "cara buat tuntutan tribunal pengguna",
+    "cara hidupkan roadtax",
+    "cara kira diskaun",
+    "cara kira diskaun harga",
+    "cara kira dividen kwsp",
+    "cara kira zakat simpanan",
+    "cara kira zakat wang simpanan",
+    "cara pembahagian gaji",
+    "cara pengiraan dividen kwsp",
+    "cara renew roadtax",
+    "cara renew roadtax di jpj",
+    "cara renew roadtax di kiosk jpj",
+    "cara renew roadtax di mysikap",
+    "cara renew roadtax motor",
+    "cara renew roadtax online",
+    "cara suara ai ditiktok"
+  ]
+}
