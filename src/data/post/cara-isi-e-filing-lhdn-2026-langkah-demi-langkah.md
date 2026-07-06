@@ -4,6 +4,7 @@ title: "Cara Isi e-Filing LHDN 2026 Langkah Demi Langkah"
 excerpt: "Panduan lengkap cara isi e-Filing LHDN 2026 untuk Borang BE — daftar MyTax, isi pendapatan, tuntut pelepasan & hantar dalam 30 minit."
 category: Percukaian
 image: "~/assets/images/hero-cara-isi-e-filing-lhdn-2026-langkah-demi-langkah.jpg"
+image_strategy: screenshot
 tags:
   - e-filing
   - lhdn
@@ -21,8 +22,6 @@ faq:
     answer: "Boleh. Log masuk MyTax, klik pada borang yang dah dihantar, dan pilih 'Pindaan'. Tapi LHDN ada hak untuk audit dan minta dokumen sokongan. Elakkan buat pindaan banyak kali — ia boleh trigger audit. Kalau lepas 6 bulan dari tarikh hantar, kena hantar borang pindaan manual ke cawangan LHDN. Paling penting, pastikan kali pertama isi dah betul sebolehnya."
   - question: "Macam mana kalau saya takut buat silap masa isi e-Filing?"
     answer: "Jangan risau, sistem MyTax ada pengesahan (validation) untuk pastikan maklumat lengkap sebelum hantar. Tapi kalau masih ragu, ada tiga cara: (1) Guna khidmat ejen cukai bertauliah (rundingan percuma di kaunter LHDN), (2) Pergi kaunter LHDN dan minta bantuan pegawai hasiltraining (percuma), atau (3) Guna panduan langkah demi langkah ni — dah cukup lengkap untuk 90% pekerja gaji."
-image_strategy: ai_gen
-image_prompt: ""
 ---
 
 ## 📋 Cara Isi e-Filing LHDN 2026 — Panduan Lengkap Borang BE
