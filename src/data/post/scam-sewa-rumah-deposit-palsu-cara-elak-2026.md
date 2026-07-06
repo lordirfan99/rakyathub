@@ -3,7 +3,7 @@ publishDate: 2026-06-18 08:00:00
 title: "Scam Sewa Rumah Deposit Palsu & Cara Elak 2026"
 excerpt: "Panduan lengkap scam sewa rumah deposit palsu di Malaysia 2026 — modus operandi, red flag, cara semak sebelum bayar, dan tindakan jika dah jadi mangsa."
 category: Keselamatan
-image: "~/assets/images/hero-test-a.jpg"
+image: "~/assets/images/hero-scam-sewa-rumah-deposit-palsu-cara-elak-2026.jpg"
 tags:
   - scam
   - penipuan

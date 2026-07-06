@@ -3,7 +3,7 @@ publishDate: 2026-06-18 08:00:00
 title: "Scam Parcel SMS Palsu & Cara Elak 2026"
 excerpt: "Cara kenal pasti dan elak scam parcel SMS bungkusan palsu di Malaysia 2026. Panduan lengkap taktik scammer, red flag, dan langkah selamat."
 category: Keselamatan
-image: "~/assets/images/hero-test-b.jpg"
+image: "~/assets/images/hero-scam-parcel-panduan-2026.jpg"
 tags:
   - scam
   - penipuan
