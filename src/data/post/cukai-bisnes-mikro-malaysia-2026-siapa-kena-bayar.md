@@ -3,7 +3,7 @@ publishDate: 2026-06-17
 title: "Cukai Bisnes Mikro 2026 — Siapa Kena Bayar & Siapa Tak?"
 excerpt: "Panduan lengkap cukai bisnes mikro Malaysia 2026. Siapa wajib bayar, ambang pengecualian, cara kira cukai Borang B, perbezaan enterprise vs Sdn Bhd."
 category: Bisnes
-image: "~/assets/images/hero-cukai-bisnes-mikro.jpg"
+image: "~/assets/images/hero-cukai-bisnes-mikro-malaysia-2026-siapa-kena-bayar.jpg"
 tags:
   - cukai-bisnes
   - cukai-mikro

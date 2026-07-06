@@ -3,7 +3,7 @@ publishDate: 2026-07-03
 title: "Panduan Insurans Penyakit Kritikal Malaysia 2026"
 excerpt: "Apa itu insurans penyakit kritikal, cara ia berfungsi, dan beza dengan medical card. Panduan lengkap lindung diri dari kanser dan serangan jantung."
 category: Insurans
-image: "~/assets/images/hero-panduan-insurans-penyakit-kritikal.jpg"
+image: "~/assets/images/hero-panduan-insurans-penyakit-kritikal-malaysia.jpg"
 tags:
   - insurans-penyakit-kritikal
   - critical-illness

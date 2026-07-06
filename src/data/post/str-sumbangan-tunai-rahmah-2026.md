@@ -3,7 +3,7 @@ publishDate: 2026-06-05
 title: "STR 2026: Cara Daftar & Semak Sumbangan Tunai Rahmah"
 excerpt: "Panduan lengkap STR Sumbangan Tunai Rahmah 2026. Semak status kelayakan, cara daftar online, jumlah bantuan & tarikh pembayaran terkini."
 category: Kerajaan
-image: "~/assets/images/hero-str.jpg"
+image: "~/assets/images/hero-str-sumbangan-tunai-rahmah-2026.jpg"
 tags:
   - str
   - sumbangan-tunai-rahmah

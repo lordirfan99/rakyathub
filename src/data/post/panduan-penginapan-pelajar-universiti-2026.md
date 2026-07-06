@@ -3,7 +3,7 @@ publishDate: 2026-06-22 08:00:00
 title: "Panduan Penginapan Pelajar Universiti 2026"
 excerpt: "Panduan lengkap penginapan pelajar universiti Malaysia 2026. Banding kolej kediaman vs sewa rumah, kos bulanan, tips pilih penginapan terbaik."
 category: Student
-image: "~/assets/images/hero-panduan-penginapan-pelajar-universiti-malaysia-2026.jpg"
+image: "~/assets/images/hero-panduan-penginapan-pelajar-universiti-2026.jpg"
 tags:
   - student
   - penginapan

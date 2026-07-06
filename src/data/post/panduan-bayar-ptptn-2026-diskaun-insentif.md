@@ -3,7 +3,7 @@ publishDate: 2026-06-09
 title: "Panduan Bayar PTPTN 2026"
 excerpt: "Panduan lengkap bayaran balik PTPTN 2026: diskaun terkini, insentif Budget 2026, cara elak blacklist dan travel ban, serta strategi pengurusan."
 category: Kewangan
-image: "~/assets/images/hero-ptptn.jpg"
+image: "~/assets/images/hero-panduan-bayar-ptptn-2026-diskaun-insentif.jpg"
 tags:
   - ptptn
   - pinjaman

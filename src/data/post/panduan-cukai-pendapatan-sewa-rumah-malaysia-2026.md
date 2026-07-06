@@ -3,7 +3,7 @@ publishDate: 2026-06-30 08:00:00
 title: "Cukai Sewa Rumah: Panduan Lengkap 2026"
 excerpt: "Panduan lengkap cukai pendapatan sewa rumah Malaysia 2026. Cara kira, potongan dibenarkan LHDN, tarikh akhir e-Filing dan tips kurangkan cukai sewa."
 category: Percukaian
-image: "~/assets/images/hero-cukai-pendapatan-sewa-rumah.jpg"
+image: "~/assets/images/hero-panduan-cukai-pendapatan-sewa-rumah-malaysia-2026.jpg"
 tags:
   - cukai sewa rumah
   - pendapatan sewa

@@ -3,7 +3,7 @@ publishDate: 2026-06-20 08:00:00
 title: "Panduan Lengkap Kerjaya Freelance Malaysia 2026"
 excerpt: "Panduan lengkap kerjaya freelance (pekerja bebas) di Malaysia 2026 — platform terbaik, gaji ikut bidang, cara daftar SSM, bayar cukai dan EPF."
 category: Kerjaya
-image: "~/assets/images/hero-panduan-lengkap-kerjaya-freelance.jpg"
+image: "~/assets/images/hero-panduan-lengkap-kerjaya-freelance-malaysia-2026.jpg"
 tags:
   - freelance-malaysia
   - pekerja-bebas

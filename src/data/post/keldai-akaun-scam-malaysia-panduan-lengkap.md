@@ -3,7 +3,7 @@ publishDate: 2026-06-20 08:00:00
 title: "Keldai Akaun: Panduan Lengkap Elak Jadi Mangsa"
 excerpt: "Panduan lengkap tentang keldai akaun: maksud, modus operandi sindiket, hukuman bawah Seksyen 424A-424C Kanun Keseksaan, dan cara elak jadi mangsa."
 category: Keselamatan
-image: "~/assets/images/hero-keldai-akaun.jpg"
+image: "~/assets/images/hero-keldai-akaun-scam-malaysia-panduan-lengkap.jpg"
 tags:
   - keldai akaun
   - scam

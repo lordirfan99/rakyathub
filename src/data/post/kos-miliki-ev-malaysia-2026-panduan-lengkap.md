@@ -3,7 +3,7 @@ publishDate: 2026-06-19 08:00:00
 title: "Kos Miliki EV Malaysia 2026 - Panduan Lengkap"
 excerpt: "Panduan lengkap kos miliki EV di Malaysia 2026 - perbandingan harga road tax, charging, maintenance vs petrol. Berapa lebih jimat? Baca sini."
 category: Kenderaan
-image: "~/assets/images/hero-kos-miliki-ev-malaysia-2026.jpg"
+image: "~/assets/images/hero-kos-miliki-ev-malaysia-2026-panduan-lengkap.jpg"
 tags:
   - EV
   - kereta elektrik

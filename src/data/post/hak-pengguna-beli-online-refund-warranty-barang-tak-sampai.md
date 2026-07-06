@@ -3,7 +3,7 @@ publishDate: 2026-06-16
 title: "Hak Pengguna Bila Beli Online"
 excerpt: "Beli online barang tak sampai atau rosak? Ketahui hak pengguna Malaysia di bawah Akta Perlindungan Pengguna 1999 — refund, warranty, dan cara buat."
 category: Pengguna
-image: "~/assets/images/hero-hak-pengguna-beli-online.jpg"
+image: "~/assets/images/hero-hak-pengguna-beli-online-refund-warranty-barang-tak-sampai.jpg"
 tags:
   - hak-pengguna
   - beli-online

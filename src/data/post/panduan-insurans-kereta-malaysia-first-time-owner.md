@@ -3,7 +3,7 @@ publishDate: 2026-06-10
 title: "Panduan Insurans Kereta Malaysia"
 excerpt: "Panduan lengkap insurans kereta Malaysia: jenis coverage, NCD, cara pilih polisi terbaik dan tips jimat premium untuk first time car owner."
 category: Insurans
-image: "~/assets/images/hero-insurans-kereta.jpg"
+image: "~/assets/images/hero-panduan-insurans-kereta-malaysia-first-time-owner.jpg"
 tags:
   - insurans-kereta
   - ncd

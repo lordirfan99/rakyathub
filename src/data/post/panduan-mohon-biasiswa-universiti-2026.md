@@ -1,5 +1,5 @@
 ---
-image: "~/assets/images/hero-asian-students-study.jpg"
+image: "~/assets/images/hero-panduan-mohon-biasiswa-universiti-2026.jpg"
 publishDate: 2026-06-19
 title: "Panduan Mohon Biasiswa Universiti 2026"
 excerpt: "Panduan lengkap mohon biasiswa universiti 2026. Senarai biasiswa JPA, MARA, Petronas, Bank Negara dan yayasan negeri untuk pelajar Malaysia."

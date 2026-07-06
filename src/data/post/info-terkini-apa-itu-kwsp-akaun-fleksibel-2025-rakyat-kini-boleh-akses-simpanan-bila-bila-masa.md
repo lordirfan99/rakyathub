@@ -4,7 +4,7 @@ publishDate: 2025-07-26
 title: "KWSP Akaun Fleksibel 2026 — Panduan Pengeluaran"
 excerpt: "Apa itu KWSP Akaun Fleksibel 2025/2026? Panduan lengkap cara pengeluaran, had minima RM50, perbandingan dengan Akaun 1 & 2, dan tips guna duit fleksibel dengan bijak."
 category: KWSP
-image: "~/assets/images/hero-kwsp-fleksibel.jpg"
+image: "~/assets/images/hero-info-terkini-apa-itu-kwsp-akaun-fleksibel-2025-rakyat-kini-boleh-akses-simpanan-bila-bila-masa.jpg"
 tags:
   - kwsp
   - akaun-fleksibel

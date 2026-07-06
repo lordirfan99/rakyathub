@@ -3,7 +3,7 @@ publishDate: 2026-07-02
 title: "Panduan Beli Smartphone Malaysia 2026 — Lengkap"
 excerpt: "Panduan lengkap beli smartphone baru di Malaysia 2026 — tips pilih processor, RAM, kamera, bateri, budget ikut keperluan, beli online vs kedai."
 category: Teknologi
-image: "~/assets/images/hero-beli-smartphone.jpg"
+image: "~/assets/images/hero-cara-beli-smartphone-baru-malaysia-panduan-lengkap-2026.jpg"
 tags:
   - smartphone
   - telefon-pintar

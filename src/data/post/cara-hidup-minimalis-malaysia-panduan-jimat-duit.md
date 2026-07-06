@@ -3,7 +3,7 @@ publishDate: 2026-06-19 08:00:00
 title: "Gaya Hidup Minimalis — Jimat Duit & Hidup Tenang"
 excerpt: "Nak hidup lebih sederhana dengan duit lebih? Panduan gaya minimalis di Malaysia — declutter barang, jimat belanja, fokus pada apa yang benar-benar penting."
 category: Gaya-Hidup
-image: "~/assets/images/hero-hidup-minimalis.jpg"
+image: "~/assets/images/hero-cara-hidup-minimalis-malaysia-panduan-jimat-duit.jpg"
 tags:
   - gaya-hidup-minimalis
   - jimat-duit

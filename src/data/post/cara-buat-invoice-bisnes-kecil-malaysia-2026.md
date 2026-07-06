@@ -2,7 +2,7 @@
 publishDate: 2026-07-05
 title: "Cara Buat Invoice Bisnes Kecil Malaysia 2026"
 excerpt: "Panduan cara buat invoice bisnes kecil Malaysia 2026. Termasuk format, maklumat wajib LHDN, contoh template dan aplikasi percuma. Sesuai usahawan baru."
-image: "~/assets/images/hero-cara-buat-invoice-bisnes-kecil.jpg"
+image: "~/assets/images/hero-cara-buat-invoice-bisnes-kecil-malaysia-2026.jpg"
 image_strategy: ai_gen
 agency_logo: ""
 image_prompt: "A Malaysian small business owner creating an invoice on a laptop, Asian Malay woman in her 30s dressed in casual batik, home office setting, natural lighting"

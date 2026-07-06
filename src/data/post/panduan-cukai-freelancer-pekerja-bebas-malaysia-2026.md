@@ -3,7 +3,7 @@ publishDate: 2026-06-20 08:00:00
 title: "Panduan Cukai Freelancer & Pekerja Bebas 2026"
 excerpt: "Panduan lengkap cukai freelancer dan pekerja bebas Malaysia 2026. Cara daftar LHDN, borang B, perbelanjaan boleh tuntut, contoh kiraan dan tips."
 category: Percukaian
-image: "~/assets/images/hero-cukai-freelancer-pekerja-bebas.jpg"
+image: "~/assets/images/hero-panduan-cukai-freelancer-pekerja-bebas-malaysia-2026.jpg"
 tags:
   - cukai freelancer
   - cukai pekerja bebas

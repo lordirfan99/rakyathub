@@ -30,3 +30,4 @@ audit_log.md
 
 # Generated API data
 public/api/
+scripts/__pycache__/

@@ -3,7 +3,7 @@ publishDate: 2026-06-06
 title: "Inflasi Malaysia Cecah 1.9%"
 excerpt: "Inflasi Malaysia meningkat ke 1.9% pada April 2026, tertinggi 18 bulan. Jangan panik — ini 5 langkah praktikal lindung nilai duit korang."
 category: Kewangan
-image: "~/assets/images/hero-inflasi-malaysia.jpg"
+image: "~/assets/images/hero-inflasi-malaysia-april-1.9-peratus-lindung-duit-2026.jpg"
 tags:
   - inflasi
   - kewangan

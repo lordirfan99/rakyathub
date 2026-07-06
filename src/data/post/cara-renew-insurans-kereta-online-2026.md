@@ -3,7 +3,7 @@ publishDate: 2026-07-04
 title: "Cara Renew Insurans Kereta Online — 5 Platform"
 excerpt: "Panduan renew insurans kereta online 2026. Bandingkan Bjak, Shopee, PolicyStreet, Qoala dan MyEG. Tips jimat NCD dan cara dapat roadtax percuma."
 category: Insurans
-image: "~/assets/images/hero-renew-insurans-kereta-online.jpg"
+image: "~/assets/images/hero-cara-renew-insurans-kereta-online-2026.jpg"
 tags:
   - renew-insurans-kereta
   - insurans-online

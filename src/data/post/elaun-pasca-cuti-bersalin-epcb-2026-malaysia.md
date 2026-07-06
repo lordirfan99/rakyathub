@@ -3,7 +3,7 @@ publishDate: 2026-07-02
 title: "Elaun Pasca Cuti Bersalin EPCB 2026"
 excerpt: "Kerajaan umum EPCB 80% gaji untuk ibu bekerja selepas cuti bersalin. Sebahagian PACE RM710 juta — ini syarat, cara mohon, dan impacts."
 category: Kerajaan
-image: "~/assets/images/hero-elaun-pasca-cuti-bersalin-epcb-2026.jpg"
+image: "~/assets/images/hero-elaun-pasca-cuti-bersalin-epcb-2026-malaysia.jpg"
 tags:
   - epcb
   - elaun-bersalin

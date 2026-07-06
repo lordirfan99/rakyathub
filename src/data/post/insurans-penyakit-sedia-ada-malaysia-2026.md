@@ -3,7 +3,7 @@ publishDate: 2026-06-21 08:00:00
 title: "Insurans Penyakit Sedia Ada Panduan Lengkap 2026"
 excerpt: "Ada penyakit sedia ada macam diabetes atau darah tinggi? Jangan risau — masih ada pilihan insurans. Panduan lengkap pre-existing condition Malaysia 2026."
 category: Insurans
-image: "~/assets/images/hero-penyakit-sedia-ada.jpg"
+image: "~/assets/images/hero-insurans-penyakit-sedia-ada-malaysia-2026.jpg"
 tags:
   - insurans
   - takaful

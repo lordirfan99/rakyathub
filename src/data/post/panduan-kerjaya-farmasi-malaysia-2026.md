@@ -3,7 +3,7 @@ publishDate: 2026-07-03
 title: "Panduan Kerjaya Farmasi Malaysia 2026"
 excerpt: "Panduan lengkap kerjaya farmasi di Malaysia 2026 — kursus, gaji pegawai farmasi kerajaan dan swasta, pathway jadi ahli farmasi, dan peluang kerja."
 category: Kerjaya
-image: "~/assets/images/hero-kerjaya-farmasi-2026.jpg"
+image: "~/assets/images/hero-panduan-kerjaya-farmasi-malaysia-2026.jpg"
 tags:
   - kerjaya-farmasi
   - ahli-farmasi

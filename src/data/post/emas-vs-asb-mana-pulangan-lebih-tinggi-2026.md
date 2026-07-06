@@ -3,7 +3,7 @@ publishDate: 2026-06-30 08:00:00
 title: "Emas vs ASB: Mana Pulangan Lebih Tinggi"
 excerpt: "Bandingkan pulangan emas vs ASB untuk pelabur Malaysia. Data dividen 5 tahun, kenaikan harga emas, risiko, spread, dan kesimpulan ikut matlamat."
 category: Emas
-image: "~/assets/images/hero-emas-vs-asb.jpg"
+image: "~/assets/images/hero-emas-vs-asb-mana-pulangan-lebih-tinggi-2026.jpg"
 tags:
   - emas
   - asb

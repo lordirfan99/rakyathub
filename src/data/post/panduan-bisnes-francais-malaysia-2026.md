@@ -3,7 +3,7 @@ publishDate: 2026-06-30
 title: "Panduan Bisnes Francais Malaysia 2026"
 excerpt: "Panduan lengkap bisnes francais Malaysia 2026 — cara mula, modal minima, senarai francais murah bawah RM50k, bantuan PERNAS, tips pilih francais terbaik."
 category: Bisnes
-image: "~/assets/images/hero-bisnes-francais.jpg"
+image: "~/assets/images/hero-panduan-bisnes-francais-malaysia-2026.jpg"
 tags:
   - bisnes francais
   - franchise malaysia

@@ -3,7 +3,7 @@ publishDate: 2026-07-06
 title: "Panduan Beli Kereta Pertama Malaysia — Proses A-Z"
 excerpt: "Panduan lengkap beli kereta pertama di Malaysia 2026. Cara kira bajet, pilih kereta baru vs terpakai, mohon pinjaman, insurans, cukai jalan & kos tahunan."
 category: Kereta
-image: "~/assets/images/hero-panduan-beli-kereta-pertama.jpg"
+image: "~/assets/images/hero-panduan-beli-kereta-pertama-malaysia-2026.jpg"
 tags:
   - beli-kereta-pertama
   - panduan-kereta

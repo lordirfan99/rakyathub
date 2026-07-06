@@ -3,7 +3,7 @@ publishDate: 2026-06-24 08:00:00
 title: "Gaji RM2,500 Sebulan — Panduan Hidup & Jimat"
 excerpt: "Breakdown realistik gaji RM2,500 — sewa RM600, makan RM500, simpan RM441 guna formula 50/30/20. Cara survive dan bina simpanan dari gaji permulaan biasa."
 category: Kewangan
-image: "~/assets/images/hero-gaji-rm2500.jpg"
+image: "~/assets/images/hero-gaji-rm2500-breakdown-realistik.jpg"
 tags:
   - gaji
   - bajet

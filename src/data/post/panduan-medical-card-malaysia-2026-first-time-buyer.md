@@ -3,7 +3,7 @@ publishDate: 2026-06-07
 title: "Panduan Medical Card Malaysia 2026"
 excerpt: "First time beli medical card? Panduan lengkap jenis coverage, harga premium, panel hospital & cara pilih insurans kesihatan terbaik di Malaysia."
 category: Insurans
-image: "~/assets/images/hero-medical-card.jpg"
+image: "~/assets/images/hero-panduan-medical-card-malaysia-2026-first-time-buyer.jpg"
 tags:
   - insurans
   - medical-card

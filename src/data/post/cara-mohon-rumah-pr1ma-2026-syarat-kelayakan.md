@@ -3,7 +3,7 @@ publishDate: 2026-06-11
 title: "PR1MA 2026 — Cara Mohon Rumah Mampu Milik & Syarat"
 excerpt: "Panduan lengkap mohon rumah PR1MA 2026 — syarat kelayakan RM2,500-RM15,000, cara daftar online, harga rumah, senarai projek terkini dan tips lulus."
 category: Kerajaan
-image: "~/assets/images/hero-mohon-rumah-pr1ma.jpg"
+image: "~/assets/images/hero-cara-mohon-rumah-pr1ma-2026-syarat-kelayakan.jpg"
 tags:
   - pr1ma
   - rumah-pertama

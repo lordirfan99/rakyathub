@@ -3,7 +3,7 @@ publishDate: 2026-06-10
 title: "Pajak Gadai Emas Ar-Rahnu"
 excerpt: "Panduan lengkap pajak gadai emas Ar-Rahnu di Malaysia: cara kira upah simpan, beza Ar-Rahnu vs konvensional, strategi tebus dan risiko yang perlu."
 category: Emas
-image: "~/assets/images/hero-pajak-gadai-emas.jpg"
+image: "~/assets/images/hero-pajak-gadai-emas-ar-rahnu-panduan-kira-upah-simpan.jpg"
 tags:
   - pajak-gadai
   - ar-rahnu

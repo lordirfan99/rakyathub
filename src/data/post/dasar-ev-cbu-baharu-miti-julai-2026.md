@@ -3,7 +3,7 @@ publishDate: 2026-07-02
 title: "Dasar EV CBU Baharu MITI Julai 2026"
 excerpt: "Mulai 1 Julai 2026, EV import CBU minimum RM300k dan 245 PS. Ini apa maksud dasar baru MITI, kesan harga, dan senarai EV yang masih selamat."
 category: Kenderaan
-image: "~/assets/images/hero-dasar-ev-cbu-baharu-miti-2026.jpg"
+image: "~/assets/images/hero-dasar-ev-cbu-baharu-miti-julai-2026.jpg"
 tags:
   - ev
   - cbu

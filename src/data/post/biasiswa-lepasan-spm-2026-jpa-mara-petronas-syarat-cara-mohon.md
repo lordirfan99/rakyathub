@@ -2,7 +2,7 @@
 publishDate: 2026-06-16
 title: "Biasiswa Lepasan SPM 2026"
 excerpt: "Panduan lengkap biasiswa lepasan SPM 2026 — syarat kelayakan, jumlah tajaan, tarikh tutup & cara mohon JPA, MARA, Petronas, Kijang Bank Negara."
-image: "~/assets/images/hero-biasiswa-spm.jpg"
+image: "~/assets/images/hero-biasiswa-lepasan-spm-2026-jpa-mara-petronas-syarat-cara-mohon.jpg"
 category: Pendidikan
 tags:
   - biasiswa

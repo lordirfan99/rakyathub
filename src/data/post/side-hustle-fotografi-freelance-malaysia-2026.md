@@ -3,7 +3,7 @@ publishDate: 2026-07-02
 title: "Side Hustle Fotografi Freelance Malaysia 2026"
 excerpt: "Panduan lengkap jana pendapatan sampingan sebagai juru foto freelance di Malaysia. Daripada equipment modal RM500 hingga charge RM2,000 sesi."
 category: Kewangan
-image: "~/assets/images/hero-side-hustle-fotografi-malaysia.jpg"
+image: "~/assets/images/hero-side-hustle-fotografi-freelance-malaysia-2026.jpg"
 tags:
   - side-hustle
   - fotografi

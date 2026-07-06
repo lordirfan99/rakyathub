@@ -3,7 +3,7 @@ publishDate: 2025-07-13
 title: "Cara Buat Pengeluaran KWSP 2026"
 excerpt: "Panduan lengkap cara buat pengeluaran KWSP secara online 2026. Cara mohon pengeluaran Akaun 1 (55 tahun), Akaun 2 (perumahan, pendidikan, kesihatan)."
 category: KWSP
-image: "~/assets/images/hero-kwsp-withdraw.jpg"
+image: "~/assets/images/hero-carawithdrawkwsp.jpg"
 tags:
   - kwsp
   - pengeluaran-kwsp

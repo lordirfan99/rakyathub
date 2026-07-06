@@ -3,7 +3,7 @@ publishDate: 2026-07-01 15:30:00
 title: "Bajet Dengan Pendapatan Tidak Tetap — Panduan Kewangan Freelance & Komisen"
 excerpt: "Panduan bajet untuk pendapatan tidak tetap di Malaysia — freelance, komisen, kerja gig. Cara urus kewangan bila gaji tak menentu, tips simpanan dan rancang kewangan tanpa gaji tetap."
 category: Kewangan
-image: "~/assets/images/hero-bajet.jpg"
+image: "~/assets/images/hero-bajet-pendapatan-tidak-tetap-freelance-malaysia.jpg"
 tags:
   - bajet
   - pendapatan-tidak-tetap

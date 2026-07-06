@@ -4,7 +4,7 @@ updateDate: 2026-06-12
 title: "Adakah Freelancer Boleh Carum KWSP Sendiri? Panduan"
 excerpt: "Panduan lengkap cara freelancer dan pekerja bebas di Malaysia boleh carum KWSP sendiri melalui i-Saraan."
 category: KWSP
-image: "~/assets/images/hero-adakah-freelancer-boleh-carum-kwsp-sendiri.jpg"
+image: "~/assets/images/hero-💼-adakah-freelancer-boleh-carum-kwsp-sendiri.jpg"
 tags:
   - kwsp
   - freelancer

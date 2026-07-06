@@ -3,7 +3,7 @@ publishDate: 2026-06-08
 title: "Premium Insurans Perubatan Makin Mahal 2026? Jangan Panik"
 excerpt: "Premium insurans perubatan naik 10-15%? BNM lancar Pelan MHIT Asas 2026. Panduan lengkap alternatif & cara optimakan perlindungan tanpa bankrapkan."
 category: Insurans
-image: "~/assets/images/hero-insurans-premium.jpg"
+image: "~/assets/images/hero-premium-insurans-perubatan-naik-2026-alternatif-mhit.jpg"
 tags:
   - insurans
   - takaful

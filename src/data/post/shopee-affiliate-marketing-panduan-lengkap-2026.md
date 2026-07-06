@@ -3,7 +3,7 @@ publishDate: 2026-06-13
 title: "Shopee Affiliate Marketing"
 excerpt: "Nak dapat komisen setiap kali orang beli guna link anda? Panduan lengkap Shopee Affiliate Marketing 2026 — dari pendaftaran, strategi promosi, tips."
 category: Kewangan
-image: "~/assets/images/hero-shopee-affiliate-2026.jpg"
+image: "~/assets/images/hero-shopee-affiliate-marketing-panduan-lengkap-2026.jpg"
 tags:
   - side-hustle
   - affiliate-marketing

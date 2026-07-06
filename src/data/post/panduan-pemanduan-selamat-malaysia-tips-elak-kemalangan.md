@@ -3,7 +3,7 @@ publishDate: 2026-07-01
 title: "Tips Pemanduan Selamat Malaysia - Elak Kemalangan"
 excerpt: "Panduan pemanduan selamat Malaysia 2026 - tips elak kemalangan, teknik defensive driving, peraturan jalan raya patuh JPJ, dan senarai semak sebelum pandu."
 category: Kenderaan
-image: "~/assets/images/hero-panduan-pemanduan-selamat-malaysia.jpg"
+image: "~/assets/images/hero-panduan-pemanduan-selamat-malaysia-tips-elak-kemalangan.jpg"
 tags:
   - pemanduan-selamat
   - road-safety

@@ -2,7 +2,7 @@
 publishDate: 2026-06-15
 title: "Perjanjian Sewa Rumah Malaysia"
 excerpt: "Fahami hak penyewa rumah di Malaysia — deposit, perjanjian sewa, tribunal perumahan & cara elak scam tuan rumah. Panduan lengkap anak muda 2026."
-image: "~/assets/images/hero-perjanjian-sewa-rumah.jpg"
+image: "~/assets/images/hero-perjanjian-sewa-rumah-malaysia-hak-penyewa-tips-elak-rugi.jpg"
 category: Hartanah
 tags:
   - sewa-rumah

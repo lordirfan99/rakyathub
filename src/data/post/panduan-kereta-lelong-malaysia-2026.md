@@ -3,7 +3,7 @@ publishDate: 2026-07-04
 title: "Panduan Beli Kereta Lelong Malaysia 2026"
 excerpt: "Panduan lengkap beli kereta lelong Malaysia — jenis lelongan, platform JPJvBID dan bank, cara bida, risiko utama, dan tips elak rugi."
 category: Kereta
-image: "~/assets/images/hero-kereta-lelong.jpg"
+image: "~/assets/images/hero-panduan-kereta-lelong-malaysia-2026.jpg"
 tags:
   - kereta-lelong
   - lelong-kereta

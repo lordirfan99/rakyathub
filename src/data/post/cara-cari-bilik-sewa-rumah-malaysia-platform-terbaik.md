@@ -3,7 +3,7 @@ publishDate: 2026-06-25 08:00:00
 title: "Cara Cari Bilik & Rumah Sewa Malaysia"
 excerpt: "Panduan lengkap cari bilik sewa dan rumah sewa Malaysia — platform terbaik, tips viewing, cara cari roommate, dan checklist pindah masuk untuk anak muda."
 category: Hartanah
-image: "~/assets/images/hero-cari-bilik-sewa.jpg"
+image: "~/assets/images/hero-cara-cari-bilik-sewa-rumah-malaysia-platform-terbaik.jpg"
 tags:
   - sewa-rumah
   - bilik-sewa

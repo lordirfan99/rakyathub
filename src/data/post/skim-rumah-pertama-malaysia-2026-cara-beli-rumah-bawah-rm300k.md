@@ -3,7 +3,7 @@ publishDate: 2026-06-06
 title: "Skim Rumah Pertama Malaysia 2026"
 excerpt: "Panduan lengkap skim rumah pertama Malaysia 2026 — PR1MA, RUMAWIP, SJKP, Skim Rumah Pertamaku dan tips beli rumah bawah RM300K untuk anak muda."
 category: Kerajaan
-image: "~/assets/images/hero-rumah-pertama.jpg"
+image: "~/assets/images/hero-skim-rumah-pertama-malaysia-2026-cara-beli-rumah-bawah-rm300k.jpg"
 tags:
   - rumah-pertama
   - PR1MA

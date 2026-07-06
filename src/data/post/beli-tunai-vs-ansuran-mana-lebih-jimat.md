@@ -3,7 +3,7 @@ publishDate: 2026-06-26 08:00:00
 title: "Beli Tunai vs Ansuran — Mana Lagi Jimat?"
 excerpt: "Beli tunai vs ansuran — mana pilihan lebih bijak untuk poket korang? Kami kira kos sebenar, faedah, dan opportunity cost setiap cara bayar."
 category: Kewangan
-image: "~/assets/images/hero-beli-tunai-vs-ansuran.jpg"
+image: "~/assets/images/hero-beli-tunai-vs-ansuran-mana-lebih-jimat.jpg"
 tags:
   - beli-tunai
   - ansuran

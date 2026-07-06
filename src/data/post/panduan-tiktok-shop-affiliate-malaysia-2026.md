@@ -3,7 +3,7 @@ publishDate: 2026-06-20 08:00:00
 title: "Panduan TikTok Shop Affiliate Malaysia 2026"
 excerpt: "Nak jana pendapatan sampingan dengan TikTok Shop Affiliate? Panduan lengkap cara daftar, buat content, strategi komisen, tips hasilkan duit dari rumah."
 category: Bisnes
-image: "~/assets/images/hero-tiktok-shop-affiliate-2026.jpg"
+image: "~/assets/images/hero-panduan-tiktok-shop-affiliate-malaysia-2026.jpg"
 tags:
   - tiktok-shop
   - affiliate-marketing

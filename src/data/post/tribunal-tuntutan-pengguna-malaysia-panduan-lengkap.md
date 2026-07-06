@@ -3,7 +3,7 @@ publishDate: 2026-06-15
 title: "Tribunal Tuntutan Pengguna Malaysia"
 excerpt: "Pernah被骗 beli barang rosak atau servis tak siap? TTPM boleh bantu tuntut ganti rugi sehingga RM50,000 — hanya RM5 yuran, tanpa peguam."
 category: Pengguna
-image: "~/assets/images/hero-tribunal-pengguna-ttpm.jpg"
+image: "~/assets/images/hero-tribunal-tuntutan-pengguna-malaysia-panduan-lengkap.jpg"
 tags:
   - tribunal-tuntutan-pengguna
   - TTPM

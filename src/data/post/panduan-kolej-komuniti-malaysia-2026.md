@@ -3,7 +3,7 @@ publishDate: 2026-07-03
 title: "Panduan Lengkap Kolej Komuniti Malaysia 2026"
 excerpt: "Panduan lengkap Kolej Komuniti Malaysia 2026 — kursus ditawarkan, syarat kemasukan, yuran pengajian, dan cara mohon secara online untuk lepasan SPM."
 category: Pendidikan
-image: "~/assets/images/hero-kolej-komuniti-2026.jpg"
+image: "~/assets/images/hero-panduan-kolej-komuniti-malaysia-2026.jpg"
 tags:
   - kolej-komuniti
   - pendidikan

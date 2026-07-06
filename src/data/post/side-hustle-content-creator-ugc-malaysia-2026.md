@@ -3,7 +3,7 @@ publishDate: 2026-06-11
 title: "Side Hustle Content Creator & UGC"
 excerpt: "Nak jadi content creator tapi tak ada ramai follower? UGC adalah jawapannya. Jana pendapatan sampingan RM1,000–RM3,000 sebulan hanya dengan hasilkan."
 category: Kewangan
-image: "~/assets/images/hero-content-creator-ugc-2026.jpg"
+image: "~/assets/images/hero-side-hustle-content-creator-ugc-malaysia-2026.jpg"
 tags:
   - side-hustle
   - content-creator

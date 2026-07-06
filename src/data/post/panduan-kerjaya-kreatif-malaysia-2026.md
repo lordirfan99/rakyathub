@@ -3,7 +3,7 @@ publishDate: 2026-06-29 08:00:00
 title: "Panduan Kerjaya Kreatif Malaysia 2026"
 excerpt: "Panduan lengkap kerjaya kreatif di Malaysia — gaji graphic designer, content creator, video editor, UI/UX, laluan kerjaya, dan tips fresh graduate."
 category: Kerjaya
-image: "~/assets/images/hero-kerjaya-kreatif-malaysia-2026.jpg"
+image: "~/assets/images/hero-panduan-kerjaya-kreatif-malaysia-2026.jpg"
 tags:
   - kerjaya-kreatif
   - graphic-designer

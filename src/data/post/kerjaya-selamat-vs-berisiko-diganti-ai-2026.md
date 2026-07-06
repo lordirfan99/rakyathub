@@ -3,7 +3,7 @@ publishDate: 2026-06-17
 title: "Kerjaya Paling Selamat vs Paling Berisiko Kena Gantikan AI di Malaysia 2026 — Siapa Yang Akan Terus Bertahan?"
 excerpt: "Artikel ni kongsikan kerjaya mana paling selamat dan paling berisiko diganti AI di Malaysia 2026 berdasarkan data DOSM, Hays, Randstad, Goldman Sachs dan JobStreet. Lengkap dengan jadual perbandingan gaji, tips upskill, dan langkah yang boleh korang ambil sekarang."
 category: Kerjaya
-image: "~/assets/images/hero-kerjaya-ai-vs-manusia-2026.jpg"
+image: "~/assets/images/hero-kerjaya-selamat-vs-berisiko-diganti-ai-2026.jpg"
 tags:
   - ai-gantikan-pekerjaan
   - kerjaya-malaysia-2026

@@ -3,7 +3,7 @@ publishDate: 2026-06-07
 title: "Kuota RON95 Dipotong Lagi? 5 Cara Bijak Jimat Minyak"
 excerpt: "Kerajaan kekalkan subsidi RON95 RM1.99/liter tapi kuota Budi95 dipotong 200L. Apa maksudnya untuk anak muda? 5 strategi jimat minyak dan belanjawan."
 category: Kewangan
-image: "~/assets/images/hero-subsidi-ron95-200.jpg"
+image: "~/assets/images/hero-subsidi-ron95-200-liter-budi95-tips-jimat.jpg"
 tags:
   - subsidi
   - ron95

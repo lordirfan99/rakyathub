@@ -3,7 +3,7 @@ publishDate: 2026-06-20 08:00:00
 title: "Kos Pemeriksaan Kesihatan Malaysia 2026"
 excerpt: "Bandingkan harga pakej medical check up hospital swasta & klinik kerajaan KKM. Dari basic RM40 hingga executive RM5,500 — plus rebat cukai LHDN RM1,000."
 category: Kesihatan
-image: "~/assets/images/hero-kos-pemeriksaan-kesihatan-malaysia-2026.jpg"
+image: "~/assets/images/hero-kos-pemeriksaan-kesihatan-malaysia-2026-perbandingan-pakej.jpg"
 tags:
   - pemeriksaan-kesihatan
   - medical-check-up

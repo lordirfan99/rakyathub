@@ -3,7 +3,7 @@ publishDate: 2026-06-20 08:00:00
 title: "Panduan Pinjaman Kereta Malaysia 2026"
 excerpt: "Panduan lengkap pinjaman kereta Malaysia 2026. Kadar faedah terkini, margin pembiayaan, cara kira ansuran bulanan, syarat kelulusan dan tips elak rugi."
 category: Kereta
-image: "~/assets/images/hero-pinjaman-kereta.jpg"
+image: "~/assets/images/hero-panduan-pinjaman-kereta-malaysia-2026.jpg"
 tags:
   - pinjaman-kereta
   - loan-kereta

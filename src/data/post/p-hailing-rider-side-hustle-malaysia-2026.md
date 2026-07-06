@@ -3,7 +3,7 @@ publishDate: 2026-06-15
 title: "P-Hailing Rider Side Hustle 2026"
 excerpt: "Nak buat side hustle sebagai rider GrabFood atau Foodpanda? Artikel ni kupas realiti pendapatan sebenar, kos tersembunyi, tips maksimumkan earnings."
 category: Kewangan
-image: "~/assets/images/hero-rider-side-hustle.jpg"
+image: "~/assets/images/hero-p-hailing-rider-side-hustle-malaysia-2026.jpg"
 tags:
   - side-hustle
   - p-hailing

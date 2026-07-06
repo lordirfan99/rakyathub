@@ -3,7 +3,7 @@ publishDate: 2025-07-18
 title: "SST Malaysia 2026 — Cukai Jualan & Perkhidmatan"
 excerpt: "Panduan lengkap SST Malaysia 2026. Kadar cukai perkhidmatan 8% bermula Julai 2025. Senarai barang & servis terjejas (logistik, pengiklanan."
 category: Kerajaan
-image: "~/assets/images/hero-cukai-sst.jpg"
+image: "~/assets/images/hero-cukai-jualan-cukai-perkhidmatan-malaysia-2025-barang-dan-servis-yang-akan-terjejas.jpg"
 tags:
   - sst
   - cukai-jualan

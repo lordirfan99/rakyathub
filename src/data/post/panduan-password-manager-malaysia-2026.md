@@ -3,7 +3,7 @@ publishDate: 2026-06-30
 title: "Panduan Password Manager Malaysia 2026"
 excerpt: "Panduan lengkap password manager Malaysia 2026 — cara guna, pilihan terbaik Bitwarden, Proton Pass & Dashlane yang free, jimat masa dan lindung akaun."
 category: Teknologi
-image: "~/assets/images/hero-password-manager.jpg"
+image: "~/assets/images/hero-panduan-password-manager-malaysia-2026.jpg"
 tags:
   - password manager
   - keselamatan siber

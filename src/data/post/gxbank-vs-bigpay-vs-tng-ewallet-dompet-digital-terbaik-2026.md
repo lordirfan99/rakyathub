@@ -3,7 +3,7 @@ publishDate: 2026-06-06
 title: "GXBank vs BigPay vs Touch n Go"
 excerpt: "Bandingkan GXBank, BigPay dan Touch n Go eWallet 2026 — savings interest, cashback, yuran, had transaksi dan ciri keselamatan."
 category: Kewangan
-image: "~/assets/images/hero-dompet-digital.jpg"
+image: "~/assets/images/hero-gxbank-vs-bigpay-vs-tng-ewallet-dompet-digital-terbaik-2026.jpg"
 tags:
   - dompet-digital
   - GXBank

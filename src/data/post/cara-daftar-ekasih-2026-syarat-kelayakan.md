@@ -11,7 +11,7 @@ tags:
   - STR
   - ICU
   - "2026"
-image: "~/assets/images/hero-ekasih-daftar-online.jpg"
+image: "~/assets/images/hero-cara-daftar-ekasih-2026-syarat-kelayakan.jpg"
 image_strategy: screenshot
 agency_logo: ""
 image_prompt: ""

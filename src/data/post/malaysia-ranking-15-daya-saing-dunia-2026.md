@@ -3,7 +3,7 @@ publishDate: 2026-06-21
 title: "Malaysia Ranking Ke-15 Paling Kompetitif"
 excerpt: "Malaysia naik 8 anak tangga ke-15 dalam IMD World Competitiveness Ranking 2026. Ranking ke-4 ekonomi dunia — ini maksudnya untuk gaji dan masa depan korang"
 category: Kewangan
-image: "~/assets/images/hero-malaysia-ranking-daya-saing-2026.jpg"
+image: "~/assets/images/hero-malaysia-ranking-15-daya-saing-dunia-2026.jpg"
 tags:
   - daya-saing
   - ranking-global

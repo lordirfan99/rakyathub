@@ -3,7 +3,7 @@ publishDate: 2026-06-09
 title: "SCAM ALERT: Deposit RM50 Lesap! Ubai Pun Kena Scam"
 excerpt: "Suami Shila Amzah, Ubai, kena scam deposit RM50 beli sparepart kereta kat Facebook. Scammer lesap lepas dapat duit. Jangan jadi mangsa seterusnya!"
 category: Kewangan
-image: "~/assets/images/hero-scam-facebook-deposit.jpg"
+image: "~/assets/images/hero-scam-deposit-facebook-barang-online.jpg"
 tags:
   - scam
   - penipuan

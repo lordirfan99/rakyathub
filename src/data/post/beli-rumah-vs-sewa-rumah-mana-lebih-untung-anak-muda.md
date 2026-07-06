@@ -3,7 +3,7 @@ publishDate: 2026-06-12
 title: "Beli Rumah vs Sewa Rumah"
 excerpt: "Beli rumah atau sewa rumah? Banding kos, fleksibiliti & pulangan jangka panjang. Panduan buat anak muda Malaysia buat keputusan bijak."
 category: Kewangan
-image: "~/assets/images/hero-beli-vs-sewa-rumah.jpg"
+image: "~/assets/images/hero-beli-rumah-vs-sewa-rumah-mana-lebih-untung-anak-muda.jpg"
 tags:
   - rumah
   - sewa

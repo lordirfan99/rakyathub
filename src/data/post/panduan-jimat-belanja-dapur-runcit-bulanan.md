@@ -3,7 +3,7 @@ publishDate: 2026-06-29 08:00:00
 title: "Jimat Belanja Dapur — 10 Cara Kurangkan Runcit"
 excerpt: "Nak kurangkan belanja dapur bulanan? 10 cara praktikal jimat barang runcit — pasar tani, borong, meal planning & tips lain untuk Malaysia 2026."
 category: Gaya-Hidup
-image: "~/assets/images/hero-jimat-belanja-dapur.jpg"
+image: "~/assets/images/hero-panduan-jimat-belanja-dapur-runcit-bulanan.jpg"
 tags:
   - jimat-duit
   - grocery-murah

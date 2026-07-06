@@ -3,7 +3,7 @@ publishDate: 2026-06-30
 title: "Panduan Lengkap Bisnes Perkhidmatan Malaysia"
 excerpt: "Panduan lengkap bisnes perkhidmatan Malaysia 2026 — cara mula tanpa produk fizikal, modal bawah RM300, jenis servis paling laris, dan tips marketing."
 category: Bisnes
-image: "~/assets/images/hero-bisnes-perkhidmatan-2026.jpg"
+image: "~/assets/images/hero-panduan-bisnes-perkhidmatan-malaysia-2026.jpg"
 tags:
   - bisnes
   - side-hustle

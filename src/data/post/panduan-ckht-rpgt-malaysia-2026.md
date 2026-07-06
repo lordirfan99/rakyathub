@@ -3,7 +3,7 @@ publishDate: 2026-06-30
 title: "Panduan CKHT & RPGT Malaysia 2026"
 excerpt: "Panduan lengkap Cukai Keuntungan Harta Tanah (CKHT/RPGT) Malaysia 2026 — kadar terkini, cara kira, pengecualian dan siapa kena bayar bila jual rumah."
 category: Percukaian
-image: "~/assets/images/hero-panduan-ckht-rpgt.jpg"
+image: "~/assets/images/hero-panduan-ckht-rpgt-malaysia-2026.jpg"
 tags:
   - CKHT
   - RPGT

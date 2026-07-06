@@ -3,7 +3,7 @@ publishDate: 2026-06-08
 title: e-Tunai Belia Rahmah 2026 — Cara Daftar & Tebus RM200
 excerpt: "Panduan lengkap e-Tunai Belia Rahmah RM200 2026. Syarat kelayakan, cara tebus kredit e-wallet, tarikh penting & e-wallet yang disokong."
 category: Kerajaan
-image: "~/assets/images/hero-etunai-belia.jpg"
+image: "~/assets/images/hero-e-tunai-belia-rahmah-2026-cara-daftar-tebus-rm200.jpg"
 tags:
   - e-Tunai Belia Rahmah
   - eBelia

@@ -3,7 +3,7 @@ publishDate: 2026-06-18 08:00:00
 title: "Insurans Kemalangan Diri Malaysia 2026"
 excerpt: "Panduan lengkap insurans kemalangan diri Malaysia 2026. Perbandingan premium, manfaat pelan PA, cara pilih ikut pekerjaan & bajet, dan tips claim."
 category: Insurans
-image: "~/assets/images/hero-insurans-kemalangan-diri-2026.jpg"
+image: "~/assets/images/hero-insurans-kemalangan-diri-malaysia-panduan-lengkap-2026.jpg"
 tags:
   - insurans
   - personal-accident

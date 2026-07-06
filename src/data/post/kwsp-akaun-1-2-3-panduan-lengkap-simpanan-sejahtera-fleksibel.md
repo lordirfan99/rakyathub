@@ -3,7 +3,7 @@ publishDate: 2026-06-12
 title: KWSP Akaun 1, 2 & 3 — Panduan Lengkap Guna Setiap Akaun
 excerpt: "Faham bezanya 3 akaun KWSP: Persaraan, Sejahtera & Fleksibel. Cara guna setiap akaun, berapa peratus caruman dan bila boleh keluarkan."
 category: KWSP
-image: "~/assets/images/hero-kwsp-akaun-1-2-3.jpg"
+image: "~/assets/images/hero-kwsp-akaun-1-2-3-panduan-lengkap-simpanan-sejahtera-fleksibel.jpg"
 tags:
   - kwsp
   - akaun-persaraan

@@ -3,7 +3,7 @@ publishDate: 2026-06-17
 title: "SSPA Fasa 2 2026 — Panduan Lengkap & Cara Kira"
 excerpt: "Panduan lengkap SSPA Fasa 2 2026 — kenaikan gaji penjawat awam 7%, gaji minimum RM2,115, cara kira gaji baru, tarikh bayar dan BKK RM500."
 category: Kerajaan
-image: "~/assets/images/hero-sspa-fasa-2.jpg"
+image: "~/assets/images/hero-sspa-fasa-2-2026-panduan-gaji-kenaikan.jpg"
 tags:
   - sspa
   - gaji-penjawat-awam

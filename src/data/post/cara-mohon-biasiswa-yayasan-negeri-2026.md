@@ -3,7 +3,7 @@ publishDate: 2026-07-06
 title: "Cara Mohon Biasiswa Yayasan Negeri 2026"
 excerpt: "Panduan biasiswa yayasan negeri 2026 — senarai program, syarat & cara mohon Yayasan Selangor, Terengganu, Johor, Perak, Pahang, Sarawak dan Sabah."
 category: Pendidikan
-image: "~/assets/images/hero-biasiswa-yayasan-negeri-2026.jpg"
+image: "~/assets/images/hero-cara-mohon-biasiswa-yayasan-negeri-2026.jpg"
 tags:
   - biasiswa-yayasan-negeri
   - biasiswa-malaysia

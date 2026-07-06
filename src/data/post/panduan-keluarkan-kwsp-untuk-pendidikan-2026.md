@@ -2,7 +2,7 @@
 publishDate: 2026-06-30
 title: "Cara Keluarkan KWSP Akaun 2 untuk Pendidikan"
 excerpt: "Panduan lengkap cara keluarkan KWSP Akaun 2 untuk pendidikan 2026. Syarat kelayakan, jumlah maksimum, dokumen diperlukan & cara mohon online i-Akaun."
-image: "~/assets/images/hero-kwsp-pendidikan.jpg"
+image: "~/assets/images/hero-panduan-keluarkan-kwsp-untuk-pendidikan-2026.jpg"
 category: KWSP
 tags:
   - kwsp

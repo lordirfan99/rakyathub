@@ -3,7 +3,7 @@ publishDate: 2026-06-20 08:00:00
 title: "MRTA vs MLTA Malaysia: Beza & Pilihan Terbaik"
 excerpt: "Perbandingan lengkap MRTA vs MLTA Malaysia 2026. Beza coverage, premium, manfaat, dan cara pilih perlindungan loan rumah yang sesuai dengan situasi korang."
 category: Hartanah
-image: "~/assets/images/hero-mrta-vs-mlta.jpg"
+image: "~/assets/images/hero-mrta-vs-mlta-malaysia-perbezaan-panduan-lengkap.jpg"
 tags:
   - mrta
   - mlta

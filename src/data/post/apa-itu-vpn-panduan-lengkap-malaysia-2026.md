@@ -3,7 +3,7 @@ publishDate: 2026-06-16
 title: "Apa Itu VPN? Panduan Lengkap VPN Untuk Beginner Malaysia"
 excerpt: "Panduan VPN lengkap untuk beginner di Malaysia 2026. Apa itu VPN, cara ia berfungsi, perbandingan free vs berbayar, legaliti di Malaysia & tips pilih."
 category: Teknologi
-image: "~/assets/images/hero-vpn-panduan-lengkap.jpg"
+image: "~/assets/images/hero-apa-itu-vpn-panduan-lengkap-malaysia-2026.jpg"
 tags:
   - vpn
   - teknologi

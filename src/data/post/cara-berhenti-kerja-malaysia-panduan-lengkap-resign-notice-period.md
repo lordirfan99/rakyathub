@@ -3,7 +3,7 @@ publishDate: 2026-07-06
 title: "Cara Berhenti Kerja — Panduan Resign Malaysia"
 excerpt: "Panduan lengkap cara berhenti kerja di Malaysia: notice period ikut Akta Kerja, surat berhenti template, proses serahan tugas, dan cara resign yang betul."
 category: Kerjaya
-image: "~/assets/images/hero-cara-berhenti-kerja-malaysia.jpg"
+image: "~/assets/images/hero-cara-berhenti-kerja-malaysia-panduan-lengkap-resign-notice-period.jpg"
 tags:
   - berhenti-kerja
   - resign

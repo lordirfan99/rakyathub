@@ -2,7 +2,7 @@
 publishDate: 2026-06-16
 title: "ASB Untuk Fresh Graduate 2026"
 excerpt: "Modal RM20 dah boleh buka akaun ASB & mula dapat dividen 5.75%. Panduan lengkap ASB untuk fresh graduate dan pelajar yang baru start kerja."
-image: "~/assets/images/hero-asb-fresh-grad.jpg"
+image: "~/assets/images/hero-asb-untuk-fresh-graduate-2026-modal-kecil-jana-dividen.jpg"
 category: ASB
 tags:
   - asb

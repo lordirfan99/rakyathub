@@ -2,7 +2,7 @@
 publishDate: 2026-06-16
 title: "Scam Pelaburan 2026 — 7 Tanda Pelaburan Palsu Yang"
 excerpt: "RM1.47 bilion lesap akibat scam pelaburan pada 2025. Kenali 7 red flag pelaburan palsu & cara semak syarikat sah sebelum labur."
-image: "~/assets/images/hero-scam-online.jpg"
+image: "~/assets/images/hero-scam-pelaburan-2026-tanda-pelaburan-palsu.jpg"
 category: Kewangan
 tags:
   - scam

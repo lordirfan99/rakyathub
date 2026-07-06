@@ -3,7 +3,7 @@ publishDate: 2026-06-13
 title: "Inflasi Perubatan Malaysia 2026 Cecah 16%"
 excerpt: "Kos perubatan Malaysia naik 15-16% setahun — tertinggi di Asia. Baca kenapa premium medical card meningkat, apa tindakan BNM, dan strategi kekal."
 category: Insurans
-image: "~/assets/images/hero-inflasi-perubatan-2026.jpg"
+image: "~/assets/images/hero-inflasi-perubatan-malaysia-kenapa-premium-medical-card-naik.jpg"
 tags:
   - inflasi-perubatan
   - medical-card

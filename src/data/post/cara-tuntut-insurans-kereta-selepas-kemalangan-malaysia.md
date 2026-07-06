@@ -3,7 +3,7 @@ publishDate: 2026-07-02
 title: "Cara Tuntut Insurans Kereta Selepas Kemalangan"
 excerpt: "Panduan lengkap cara tuntut insurans kereta selepas kemalangan di Malaysia. Langkah mudah, dokumen diperlukan dan tips supaya claim lulus cepat."
 category: Insurans
-image: "~/assets/images/hero-tuntut-insurans-kereta-kemalangan.jpg"
+image: "~/assets/images/hero-cara-tuntut-insurans-kereta-selepas-kemalangan-malaysia.jpg"
 tags:
   - tuntut-insurans-kereta
   - claim-insurans-kemalangan

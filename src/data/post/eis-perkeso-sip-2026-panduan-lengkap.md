@@ -3,7 +3,7 @@ publishDate: 2026-07-01
 title: "EIS PERKESO 2026: Panduan SIP & Elaun Kerja"
 excerpt: "EIS PERKESO beri elaun carian kerja 80% gaji selama 6 bulan. Panduan lengkap SIP: cara daftar, syarat kelayakan, dan langkah tuntutan."
 category: Kewangan
-image: "~/assets/images/hero-eis-perkeso-sip-2026.jpg"
+image: "~/assets/images/hero-eis-perkeso-sip-2026-panduan-lengkap.jpg"
 tags:
   - eis
   - perkeso

@@ -2,7 +2,7 @@
 publishDate: 2026-06-17
 title: "Cara Daftar SSM Online 2026"
 excerpt: "Panduan lengkap cara daftar SSM online 2026 melalui portal EzBiz dan MyCoID. Termasuk yuran RM30–RM60, dokumen, semakan nama, dan langkah selepas."
-image: "~/assets/images/hero-ssm-daftar-online.jpg"
+image: "~/assets/images/hero-cara-daftar-ssm-online-ezbiz-mycoid-2026.jpg"
 tags:
   - ssm
   - ezbiz

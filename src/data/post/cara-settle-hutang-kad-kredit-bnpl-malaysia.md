@@ -3,7 +3,7 @@ publishDate: 2026-06-26 08:00:00
 title: "Cara Settle Hutang Kad Kredit & Jerat BNPL"
 excerpt: "Panduan langkah demi langkah cara settle hutang kad kredit dan elak jerat BNPL. Guna kaedah snowball vs avalanche dan tips kewangan untuk rakyat Malaysia."
 category: Kewangan
-image: "~/assets/images/hero-settle-hutang-kad-kredit.jpg"
+image: "~/assets/images/hero-cara-settle-hutang-kad-kredit-bnpl-malaysia.jpg"
 tags:
   - kad-kredit
   - hutang

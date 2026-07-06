@@ -3,7 +3,7 @@ publishDate: 2026-06-12
 title: "Takaful vs Insurans Hayat"
 excerpt: "Takaful vs insurans konvensional — apa bezanya? Mana lebih sesuai untuk Muslim? Kami bandingkan konsep, kos, coverage & buat pilihan tepat untuk."
 category: Insurans
-image: "~/assets/images/hero-takaful-vs-insurans.jpg"
+image: "~/assets/images/hero-takaful-vs-insurans-hayat-mana-pilihan-terbaik-perlindungan-anda.jpg"
 tags:
   - takaful
   - insurans-hayat

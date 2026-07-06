@@ -3,7 +3,7 @@ publishDate: 2026-06-16
 title: "Scam WhatsApp Telegram 2026"
 excerpt: "Scam WhatsApp & Telegram makin canggih guna AI. BNM lancar sistem fraud detection 2026. Panduan lengkap elak jadi mangsa penipuan online."
 category: Keselamatan
-image: "~/assets/images/hero-scam-phishing-ai-bnm.jpg"
+image: "~/assets/images/hero-scam-whatsapp-telegram-bnm-ai-detection-2026-cara-lindung-diri.jpg"
 tags:
   - scam
   - penipuan

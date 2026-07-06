@@ -2,7 +2,7 @@
 publishDate: 2026-06-15
 title: "Panduan Persediaan Bencana Malaysia"
 excerpt: "Panduan lengkap persediaan bencana untuk rakyat Malaysia: senarai barang kecemasan, nombor hotline penting, pelan evakuasi banjir & kebakaran, dan."
-image: "~/assets/images/hero-persediaan-bencana.jpg"
+image: "~/assets/images/hero-panduan-persediaan-bencana-malaysia-senarai-kecemasan-nombor-hotline.jpg"
 category: Keselamatan
 tags:
   - bencana

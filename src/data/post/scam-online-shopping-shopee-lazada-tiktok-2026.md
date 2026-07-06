@@ -2,7 +2,7 @@
 publishDate: 2026-06-17
 title: "Scam Online Shopping 2026"
 excerpt: "1,381 kes scam online shopping dalam Januari 2026 je — rugi RM14.8 juta. Kenali 5 taktik penipuan Shopee, Lazada & TikTok Shop & cara elak jadi."
-image: "~/assets/images/hero-scam-online-shopping.jpg"
+image: "~/assets/images/hero-scam-online-shopping-shopee-lazada-tiktok-2026.jpg"
 category: Keselamatan
 tags:
   - scam

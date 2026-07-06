@@ -3,7 +3,7 @@ publishDate: 2026-06-08
 title: "Tabung Kecemasan Malaysia"
 excerpt: "Panduan lengkap tabung kecemasan (emergency fund) untuk anak muda Malaysia. Berapa bulan gaji, cara bina & e-wallet terbaik untuk simpan."
 category: Kewangan
-image: "~/assets/images/hero-tabung-kecemasan.jpg"
+image: "~/assets/images/hero-tabung-kecemasan-malaysia-berapa-patut-simpan-cara-mula.jpg"
 tags:
   - tabung kecemasan
   - emergency fund

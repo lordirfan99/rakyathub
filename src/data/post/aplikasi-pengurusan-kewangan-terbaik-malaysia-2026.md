@@ -3,7 +3,7 @@ publishDate: 2026-06-20 08:00:00
 title: "Aplikasi Pengurusan Duit Terbaik Malaysia 2026"
 excerpt: "Bandingkan 5 aplikasi pengurusan kewangan terbaik Malaysia 2026: MoneyKu, Wallet, Spendee, Goodbudget dan Monefy. Ciri, harga dan mana paling sesuai."
 category: Teknologi
-image: "~/assets/images/hero-aplikasi-kewangan.jpg"
+image: "~/assets/images/hero-aplikasi-pengurusan-kewangan-terbaik-malaysia-2026.jpg"
 tags:
   - aplikasi-kewangan
   - pengurusan-duit

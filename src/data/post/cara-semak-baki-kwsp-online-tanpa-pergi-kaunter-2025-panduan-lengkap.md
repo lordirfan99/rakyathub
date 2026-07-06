@@ -4,7 +4,7 @@ publishDate: 2025-07-23
 title: "Cara Semak Baki KWSP Online 2026"
 excerpt: "Panduan lengkap cara semak baki KWSP online tanpa pergi kaunter. Guna i-Akaun, app mobile KWSP, kiosk, atau hotline. Cara daftar i-Akaun & semak bila-bila masa."
 category: KWSP
-image: "~/assets/images/hero-kwsp-online.jpg"
+image: "~/assets/images/hero-cara-semak-baki-kwsp-online-tanpa-pergi-kaunter-2025-panduan-lengkap.jpg"
 tags:
   - kwsp
   - i-akaun

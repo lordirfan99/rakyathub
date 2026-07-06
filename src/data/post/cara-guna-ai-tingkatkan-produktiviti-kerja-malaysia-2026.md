@@ -3,7 +3,7 @@ publishDate: 2026-06-25 08:00:00
 title: "Cara Guna AI Tools Tingkatkan Produktiviti Kerja"
 excerpt: "Panduan lengkap guna AI tools seperti ChatGPT, Gemini dan Copilot untuk tingkatkan produktiviti kerja harian di Malaysia. Termasuk tips emel dan Excel."
 category: Kerjaya
-image: "~/assets/images/hero-ai-tingkatkan-produktiviti-kerja.jpg"
+image: "~/assets/images/hero-cara-guna-ai-tingkatkan-produktiviti-kerja-malaysia-2026.jpg"
 tags:
   - AI
   - produktiviti-kerja

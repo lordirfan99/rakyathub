@@ -3,7 +3,7 @@ publishDate: 2026-06-18 08:00:00
 title: "Panduan Keselamatan Perbankan Online 2026"
 excerpt: "Kerugian scam perbankan online terus meningkat. Panduan lengkap cara lindung akaun bank korang dari phishing, OTP scam, dan taktik scammer terkini."
 category: Keselamatan
-image: "~/assets/images/hero-scam-perlindungan-nsrc.jpg"
+image: "~/assets/images/hero-panduan-keselamatan-perbankan-online-2026.jpg"
 tags:
   - scam
   - keselamatan-bank

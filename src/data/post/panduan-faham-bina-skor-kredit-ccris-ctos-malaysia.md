@@ -3,7 +3,7 @@ publishDate: 2026-06-18 08:00:00
 title: "Panduan Faham & Bina Skor Kredit CCRIS CTOS"
 excerpt: "Panduan lengkap skor kredit Malaysia 2026 — apa itu CCRIS dan CTOS, cara semak percuma, skor minimum kelulusan pinjaman dan tips perbaiki skor."
 category: Kewangan
-image: "~/assets/images/hero-ringgit-melemah-impak-belanja-anak-muda.jpg"
+image: "~/assets/images/hero-panduan-faham-bina-skor-kredit-ccris-ctos-malaysia.jpg"
 tags:
   - ccris
   - ctos

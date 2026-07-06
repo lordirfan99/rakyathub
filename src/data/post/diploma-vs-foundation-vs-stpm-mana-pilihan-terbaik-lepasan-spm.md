@@ -3,7 +3,7 @@ publishDate: 2026-06-15
 title: "Diploma vs Foundation vs STPM"
 excerpt: "Bingung pilih lepasan SPM? Kami bandingkan Diploma, Foundation & STPM dari segi kos, tempoh, prospek gaji & laluan kerjaya. Panduan lengkap 2026."
 category: Pendidikan
-image: "~/assets/images/hero-diploma-vs-foundation-vs-stpm.jpg"
+image: "~/assets/images/hero-diploma-vs-foundation-vs-stpm-mana-pilihan-terbaik-lepasan-spm.jpg"
 tags:
   - diploma
   - foundation

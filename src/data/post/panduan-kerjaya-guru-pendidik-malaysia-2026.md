@@ -2,7 +2,7 @@
 publishDate: 2026-07-02
 title: "Panduan Kerjaya Guru Malaysia 2026 — Gaji & SSPA"
 excerpt: "Panduan lengkap kerjaya guru Malaysia 2026. Gaji DG41-DG54, SSPA Fasa 2, elaun, laluan kenaikan pangkat dan cara mohon jawatan guru kontrak."
-image: "~/assets/images/hero-kerjaya-guru-pendidik-malaysia-2026.jpg"
+image: "~/assets/images/hero-panduan-kerjaya-guru-pendidik-malaysia-2026.jpg"
 category: Kerjaya
 tags:
   - Kerjaya Guru

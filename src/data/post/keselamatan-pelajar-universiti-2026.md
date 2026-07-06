@@ -3,7 +3,7 @@ publishDate: 2026-07-03
 title: "Keselamatan Pelajar Universiti Malaysia 2026"
 excerpt: "Panduan keselamatan pelajar universiti Malaysia 2026 — tips elak jenayah kampus, keselamatan dalam dan luar kampus dan nombor kecemasan untuk pelajar."
 category: Student
-image: "~/assets/images/hero-keselamatan-pelajar-2026.jpg"
+image: "~/assets/images/hero-keselamatan-pelajar-universiti-2026.jpg"
 tags:
   - keselamatan-pelajar
   - keselamatan-kampus

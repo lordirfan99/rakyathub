@@ -3,7 +3,7 @@ publishDate: 2026-07-01
 title: "Cara Tuntut Insurans Perubatan - Panduan Lengkap"
 excerpt: "Panduan langkah demi langkah cara tuntut insurans perubatan di Malaysia — dari dokumen wajib, proses hospital admission, sampai tips tuntutan tak ditolak."
 category: Insurans
-image: "~/assets/images/hero-proses-tuntutan-insurans-perubatan.jpg"
+image: "~/assets/images/hero-cara-tuntut-insurans-perubatan-malaysia-panduan-lengkap.jpg"
 tags:
   - insurans
   - insurans-perubatan

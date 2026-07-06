@@ -2,7 +2,7 @@
 publishDate: 2026-06-15
 title: "Cara Buka Akaun ASB Online Guna myASNB"
 excerpt: "Nak mula melabur ASB? Panduan lengkap buka akaun ASB & ASB2 online guna myASNB. Modal RM10 je, dividen 5.75% setahun. Boleh buat dari rumah."
-image: "~/assets/images/hero-buka-asb-online.jpg"
+image: "~/assets/images/hero-cara-buka-akaun-asb-online-myasnb-2026.jpg"
 category: ASB
 tags:
   - asb

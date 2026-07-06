@@ -3,7 +3,7 @@ publishDate: 2026-06-22 08:00:00
 title: "Panduan Servis & Penyelenggaraan Kereta 2026"
 excerpt: "Panduan lengkap servis kerata Malaysia 2026 — jadual servis berkala, kos minyak hitam, bateri, tayar dan tips elak kena ketuk bengkel."
 category: Kenderaan
-image: "~/assets/images/hero-servis-penyelenggaraan-kereta.jpg"
+image: "~/assets/images/hero-panduan-servis-penyelenggaraan-kereta-2026.jpg"
 tags:
   - servis-kereta
   - penyelenggaraan-kereta

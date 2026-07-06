@@ -3,7 +3,7 @@ publishDate: 2026-06-30 08:00:00
 title: "Baucar Buku MADANI RM100 2026 — Panduan Lengkap"
 excerpt: "Panduan Baucar Buku MADANI RM100 2026 untuk pelajar sekolah menengah & mahasiswa IPT. Semak kelayakan, cara tebus online melalui DELIMa."
 category: Pendidikan
-image: "~/assets/images/hero-baucar-buku-madani.jpg"
+image: "~/assets/images/hero-baucar-buku-madani-2026-cara-tebus-syarat.jpg"
 tags:
   - baucar-buku-madani
   - pendidikan

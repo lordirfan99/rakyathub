@@ -3,7 +3,7 @@ publishDate: 2026-06-20 08:00:00
 title: "Scam Tuntutan Wang Palsu NSRC 2026"
 excerpt: "Taktik baru scammer menyamar sebagai NSRC untuk memerangkap mangsa scam dua kali. Ketahui cara elak jadi mangsa seterusnya."
 category: Keselamatan
-image: "~/assets/images/hero-scam-tuntutan-wang-nsrc-2026.jpg"
+image: "~/assets/images/hero-scam-tuntutan-wang-palsu-nsrc-2026.jpg"
 tags:
   - scam
   - NSRC

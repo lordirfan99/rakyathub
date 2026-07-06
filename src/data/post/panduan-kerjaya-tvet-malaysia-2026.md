@@ -3,7 +3,7 @@ publishDate: 2026-06-26 08:00:00
 title: "Panduan Kerjaya TVET Malaysia 2026"
 excerpt: "TVET kini pilihan kerjaya premium dengan gaji RM3,000-RM4,000, kadar kebolehpasaran 95%. Panduan lengkap bidang TVET dan prospek kerjaya di Malaysia 2026"
 category: Kerjaya
-image: "~/assets/images/hero-panduan-kerjaya-tvet-2026.jpg"
+image: "~/assets/images/hero-panduan-kerjaya-tvet-malaysia-2026.jpg"
 tags:
   - TVET
   - kerjaya

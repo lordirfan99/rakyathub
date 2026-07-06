@@ -3,7 +3,7 @@ publishDate: 2026-06-08
 title: "Bisnes Produk Digital & AI Side Hustle: Jana RM5,000"
 excerpt: "Panduan lengkap bisnes produk digital dan AI side hustle di Malaysia 2026. Modal RM0, guna telefon je, boleh jana pendapatan sampingan mencecah."
 category: Kewangan
-image: "~/assets/images/hero-digital-products-ai-side-hustle.jpg"
+image: "~/assets/images/hero-bisnes-produk-digital-ai-side-hustle-malaysia-2026.jpg"
 tags:
   - side-hustle
   - bisnes-digital

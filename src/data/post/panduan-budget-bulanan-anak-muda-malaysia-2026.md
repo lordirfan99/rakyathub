@@ -2,7 +2,7 @@
 publishDate: 2026-06-20 08:00:00
 title: "Panduan Budget Bulanan Anak Muda Malaysia 2026"
 excerpt: "Panduan lengkap belanjawan bulanan untuk anak muda Malaysia 2026. Cara urus gaji RM1,700 hingga RM4,000, pecahan perbelanjaan ikut bandar dan tips jimat."
-image: "~/assets/images/hero-panduan-budget-bulanan.jpg"
+image: "~/assets/images/hero-panduan-budget-bulanan-anak-muda-malaysia-2026.jpg"
 category: Gaya-Hidup
 tags:
   - budget

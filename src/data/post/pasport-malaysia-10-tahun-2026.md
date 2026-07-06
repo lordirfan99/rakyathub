@@ -2,7 +2,7 @@
 publishDate: 2026-06-24 08:00:00
 title: "Pasport 10 Tahun RM350 — Kadar & Panduan 2026"
 excerpt: "Kerajaan perkenalkan pasport Malaysia 10 tahun RM350. Warga emas RM175, OKU percuma. Denda hilang naik RM550. Banding dengan pasport 5 tahun RM200."
-image: "~/assets/images/hero-pasport-malaysia-10-tahun.jpg"
+image: "~/assets/images/hero-pasport-malaysia-10-tahun-2026.jpg"
 category: Kerajaan
 tags:
   - pasport

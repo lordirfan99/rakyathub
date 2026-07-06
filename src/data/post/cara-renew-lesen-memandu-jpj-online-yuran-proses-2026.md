@@ -3,7 +3,7 @@ publishDate: 2026-06-15
 title: "Cara Renew Lesen Memandu JPJ Online"
 excerpt: "Panduan lengkap renew lesen memandu (CDL) secara online guna MyJPJ, MyEG & kaunter JPJ. Yuran terkini 2026, tempoh 1-10 tahun & lesen fizikal RM20."
 category: Kenderaan
-image: "~/assets/images/hero-renew-lesen-memandu-jpj.jpg"
+image: "~/assets/images/hero-cara-renew-lesen-memandu-jpj-online-yuran-proses-2026.jpg"
 tags:
   - lesen-memandu
   - jpj

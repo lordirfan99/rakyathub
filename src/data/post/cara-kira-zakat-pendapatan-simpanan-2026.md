@@ -3,7 +3,7 @@ publishDate: 2026-06-17
 title: "Cara Kira Zakat Pendapatan & Simpanan 2026"
 excerpt: "Panduan lengkap cara kira zakat pendapatan Malaysia 2026. Nisab terkini RM42,047, kadar 2.5%, contoh kiraan gaji KWSP ASB simpanan dan rebat cukai LHDN."
 category: Kewangan
-image: "~/assets/images/hero-kira-zakat.jpg"
+image: "~/assets/images/hero-cara-kira-zakat-pendapatan-simpanan-2026.jpg"
 tags:
   - zakat
   - pendapatan

@@ -3,7 +3,7 @@ publishDate: 2025-07-22
 title: "Cara Beli Saham USA Guna Moomoo Malaysia 2026"
 excerpt: "Panduan lengkap cara beli saham US guna Moomoo Malaysia 2026. Cara daftar akaun, deposit, beli saham fractional, tips pelaburan bijak, risiko cukai."
 category: Pelaburan
-image: "~/assets/images/hero-saham-moomoo.jpg"
+image: "~/assets/images/hero-7-rahsia-bijak-beli-saham-usa-guna-moomoo-malaysia-panduan-lengkap.jpg"
 tags:
   - moomoo
   - saham-usa

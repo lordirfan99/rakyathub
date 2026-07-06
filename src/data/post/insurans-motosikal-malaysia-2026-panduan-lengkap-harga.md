@@ -3,7 +3,7 @@ publishDate: 2026-07-02
 title: "Insurans Motosikal Malaysia 2026"
 excerpt: "Panduan lengkap insurans motosikal Malaysia 2026 termasuk jenis perlindungan, cara kira premium, kadar NCD dan tips pilih insurans motor ikut bajet."
 category: Insurans
-image: "~/assets/images/hero-insurans-motosikal.jpg"
+image: "~/assets/images/hero-insurans-motosikal-malaysia-2026-panduan-lengkap-harga.jpg"
 tags:
   - insurans-motosikal
   - insurans-motor

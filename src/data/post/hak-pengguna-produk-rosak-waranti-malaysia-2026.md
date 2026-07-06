@@ -3,7 +3,7 @@ publishDate: 2026-06-22 08:00:00
 title: "Hak Pengguna Produk Rosak & Waranti Malaysia 2026"
 excerpt: "Panduan lengkap hak pengguna untuk produk rosak, waranti, refund dan tukar barang di Malaysia 2026. Termasuk langkah buat aduan KPDN dan TTPM."
 category: Pengguna
-image: "~/assets/images/hero-hak-pengguna-produk-rosak.jpg"
+image: "~/assets/images/hero-hak-pengguna-produk-rosak-waranti-malaysia-2026.jpg"
 tags:
   - hak-pengguna
   - waranti

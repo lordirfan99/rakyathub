@@ -3,7 +3,7 @@ publishDate: 2025-07-14
 title: "Robo-Advisor di Malaysia 2026"
 excerpt: "Panduan lengkap robo-advisor di Malaysia 2026. Banding StashAway, Wahed Invest & Syfe dari segi pulangan, yuran, profil risiko, dan patuh Syariah."
 category: Pelaburan
-image: "~/assets/images/hero-robo-advisor.jpg"
+image: "~/assets/images/hero-risiko-dan-pulangan-robo-advisor-di-malaysia-2025.jpg"
 tags:
   - robo-advisor
   - stashaway

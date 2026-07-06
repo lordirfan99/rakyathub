@@ -3,7 +3,7 @@ publishDate: 2026-06-17 08:00:00
 title: "Panduan Dropship Pemula Malaysia 2026"
 excerpt: "Panduan lengkap dropship untuk pemula Malaysia 2026. Cara mulakan bisnes tanpa stok barang, modal kecil bawah RM500, dan tips jadi dropshipper berjaya."
 category: Bisnes
-image: "~/assets/images/hero-dropship-pemula.jpg"
+image: "~/assets/images/hero-panduan-dropship-pemula-malaysia-2026.jpg"
 tags:
   - dropship
   - dropshipping

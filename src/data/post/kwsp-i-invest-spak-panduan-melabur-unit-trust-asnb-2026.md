@@ -2,7 +2,7 @@
 publishDate: 2026-06-17
 title: "KWSP i-Invest (SPAK) — Panduan Melabur KWSP Dalam Unit Trust & ASNB 2026"
 excerpt: "Panduan lengkap Skim Pelaburan Ahli KWSP (SPAK) / i-Invest 2026 — syarat kelayakan, cara mohon, senarai IPD, kiraan pulangan & risiko. Boleh labur 30% lebihan Akaun Persaraan dalam unit trust dan ASNB."
-image: "~/assets/images/hero-kwsp-i-invest-spak.jpg"
+image: "~/assets/images/hero-kwsp-i-invest-spak-panduan-melabur-unit-trust-asnb-2026.jpg"
 category: KWSP
 tags:
   - kwsp

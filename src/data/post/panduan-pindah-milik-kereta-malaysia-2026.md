@@ -3,7 +3,7 @@ publishDate: 2026-06-30
 title: "Panduan Pindah Milik Kereta Malaysia 2026"
 excerpt: "Panduan lengkap tukar hak milik kereta Malaysia 2026 — cara online guna MyJPJ, yuran JPJ, PUSPAKOM inspection, dokumen diperlukan dan kos terkini."
 category: Kereta
-image: "~/assets/images/hero-pindah-milik-kereta.jpg"
+image: "~/assets/images/hero-panduan-pindah-milik-kereta-malaysia-2026.jpg"
 tags:
   - pindah milik kereta
   - tukar nama kereta

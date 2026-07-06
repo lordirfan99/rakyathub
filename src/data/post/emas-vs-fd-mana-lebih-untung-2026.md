@@ -3,7 +3,7 @@ publishDate: 2026-06-30 08:00:00
 title: "Emas vs FD: Mana Lagi Untung Simpan Duit?"
 excerpt: "Bandingkan pulangan emas vs Fixed Deposit untuk pelabur Malaysia. Data 5 tahun, kadar FD terkini & kiraan contoh RM10,000 ikut situasi kewangan."
 category: Pelaburan
-image: "~/assets/images/hero-emas-vs-fd-2026.jpg"
+image: "~/assets/images/hero-emas-vs-fd-mana-lebih-untung-2026.jpg"
 tags:
   - emas
   - fixed-deposit

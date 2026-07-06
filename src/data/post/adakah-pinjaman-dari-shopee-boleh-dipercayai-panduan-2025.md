@@ -3,7 +3,7 @@ publishDate: 2025-07-18
 title: "Pinjaman Shopee (SPinjam & SPayLater) 2026"
 excerpt: "Panduan lengkap SPayLater & SPinjam Shopee 2026. Banding kadar faedah, risiko kredit CCRIS/CTOS, limit, dan alternatif lebih murah."
 category: Kewangan
-image: "~/assets/images/hero-pinjaman-scam.jpg"
+image: "~/assets/images/hero-adakah-pinjaman-dari-shopee-boleh-dipercayai-panduan-2025.jpg"
 tags:
   - shopee
   - spaylater

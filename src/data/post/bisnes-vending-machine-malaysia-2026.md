@@ -3,7 +3,7 @@ publishDate: 2026-07-02
 title: "Bisnes Vending Machine Malaysia 2026"
 excerpt: "Panduan lengkap mula bisnes vending machine di Malaysia. Kos modal, lokasi strategik, jualan harian, dan ROI dalam 6-12 bulan."
 category: Bisnes
-image: "~/assets/images/hero-bisnes-vending-machine-malaysia.jpg"
+image: "~/assets/images/hero-bisnes-vending-machine-malaysia-2026.jpg"
 tags:
   - bisnes
   - vending-machine

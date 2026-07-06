@@ -3,7 +3,7 @@ publishDate: 2026-06-20 08:00:00
 title: "Panduan Beli Motor Pertama Malaysia 2026"
 excerpt: "Panduan lengkap beli motor pertama Malaysia 2026. Perbandingan motor baru vs terpakai, kos tersembunyi, tips pilih model sesuai dan cara mohon loan motor."
 category: Kenderaan
-image: "~/assets/images/hero-beli-motor-pertama.jpg"
+image: "~/assets/images/hero-panduan-beli-motor-pertama-malaysia-2026.jpg"
 tags:
   - beli-motor
   - motor-pertama

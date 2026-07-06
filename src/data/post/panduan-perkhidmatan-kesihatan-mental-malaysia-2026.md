@@ -3,7 +3,7 @@ publishDate: 2026-06-21 08:00:00
 title: "Perkhidmatan Kesihatan Mental Malaysia 2026"
 excerpt: "Panduan lengkap perkhidmatan kesihatan mental Malaysia 2026 — hospital kerajaan, Mentari, hotline krisis, psikologi swasta & insurans."
 category: Kesihatan
-image: "~/assets/images/hero-perkhidmatan-kesihatan-mental.jpg"
+image: "~/assets/images/hero-panduan-perkhidmatan-kesihatan-mental-malaysia-2026.jpg"
 tags:
   - kesihatan-mental
   - mental-health

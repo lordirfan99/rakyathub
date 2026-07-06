@@ -3,7 +3,7 @@ publishDate: 2026-06-28 08:00:00
 title: "Kerjaya Akauntan & Perakaunan Malaysia 2026"
 excerpt: "Panduan lengkap kerjaya akauntan dan perakaunan di Malaysia 2026 — gaji, kelayakan, laluan profesional, MyPAC, ACCA, CPA dan prospek masa depan."
 category: Kerjaya
-image: "~/assets/images/hero-panduan-kerjaya-akauntan-malaysia-2026.jpg"
+image: "~/assets/images/hero-panduan-kerjaya-akauntan-perakaunan-malaysia-2026.jpg"
 tags:
   - akauntan
   - perakaunan

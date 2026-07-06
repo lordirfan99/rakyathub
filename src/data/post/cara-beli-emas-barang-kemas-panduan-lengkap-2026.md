@@ -2,7 +2,7 @@
 publishDate: 2026-06-20 08:00:00
 title: "Cara Beli Emas Barang Kemas — Panduan 2026"
 excerpt: "Panduan lengkap beli emas barang kemas di Malaysia 2026. Cara pilih emas 916, faham kos upah, elak tertipu & tips jual balik untung."
-image: "~/assets/images/hero-cara-beli-emas-barang-kemas.jpg"
+image: "~/assets/images/hero-cara-beli-emas-barang-kemas-panduan-lengkap-2026.jpg"
 category: Emas
 tags:
   - emas

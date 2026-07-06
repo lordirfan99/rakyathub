@@ -3,7 +3,7 @@ publishDate: 2026-06-20 08:00:00
 title: "Panduan Insurans Rumah Malaysia 2026"
 excerpt: "Panduan lengkap insurans rumah di Malaysia 2026. Ketahui beza fire insurance vs houseowner, harga premium, cara tuntutan banjir dan tips jimat 40%."
 category: Insurans
-image: "~/assets/images/hero-insurans-rumah-2026.jpg"
+image: "~/assets/images/hero-panduan-insurans-rumah-malaysia-2026.jpg"
 tags:
   - insurans rumah
   - fire insurance

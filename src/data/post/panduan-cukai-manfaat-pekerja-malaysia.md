@@ -3,7 +3,7 @@ publishDate: 2026-07-01
 title: "Cukai Manfaat Pekerja: Panduan Elaun & Perkuisit"
 excerpt: "Panduan lengkap cukai manfaat pekerja di Malaysia 2026. Ketahui elaun dan perkuisit yang kena cukai, yang dikecualikan, dan cara isi e-Filing dengan betul."
 category: Percukaian
-image: "~/assets/images/hero-cukai-manfaat-pekerja-malaysia.jpg"
+image: "~/assets/images/hero-panduan-cukai-manfaat-pekerja-malaysia.jpg"
 tags:
   - Cukai
   - Percukaian

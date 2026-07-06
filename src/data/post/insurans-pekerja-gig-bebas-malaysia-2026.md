@@ -3,7 +3,7 @@ publishDate: 2026-06-15
 title: "Insurans & Takaful untuk Pekerja Gig di Malaysia 2026"
 excerpt: "Pekerja gig, freelancer dan rider — korang jugak perlukan perlindungan! Panduan lengkap insurans PERKESO, medical card, PA & takaful untuk pekerja."
 category: Insurans
-image: "~/assets/images/hero-gig-worker-insurans.jpg"
+image: "~/assets/images/hero-insurans-pekerja-gig-bebas-malaysia-2026.jpg"
 tags:
   - insurans
   - takaful

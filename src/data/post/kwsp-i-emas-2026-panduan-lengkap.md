@@ -2,7 +2,7 @@
 publishDate: 2026-06-20 08:00:00
 title: "KWSP i-Emas 2026 — Panduan Lengkap"
 excerpt: "Panduan lengkap KWSP i-Emas 2026 — bayaran bulanan persaraan. Cara mohon, kelayakan, jumlah minima, dan perbandingan dengan pengeluaran sekaligus."
-image: "~/assets/images/hero-kwsp-i-emas.jpg"
+image: "~/assets/images/hero-kwsp-i-emas-2026-panduan-lengkap.jpg"
 category: KWSP
 tags:
   - kwsp

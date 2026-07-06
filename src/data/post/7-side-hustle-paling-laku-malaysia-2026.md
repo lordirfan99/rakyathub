@@ -3,7 +3,7 @@ publishDate: 2026-06-11
 title: "7 Side Hustle Paling Laku di Malaysia 2026"
 excerpt: "Nak tambah pendapatan bulanan tapi modal terhad? Kami senaraikan 7 side hustle paling laku di Malaysia tahun 2026 yang boleh start dengan modal bawah."
 category: Kewangan
-image: "~/assets/images/hero-side-hustle-2026.jpg"
+image: "~/assets/images/hero-7-side-hustle-paling-laku-malaysia-2026.jpg"
 tags:
   - side-hustle
   - jana-pendapatan

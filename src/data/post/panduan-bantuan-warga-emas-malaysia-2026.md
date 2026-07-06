@@ -3,7 +3,7 @@ publishDate: 2026-06-20 08:00:00
 title: "Panduan Lengkap Bantuan Warga Emas Malaysia 2026"
 excerpt: "Panduan bantuan warga emas Malaysia 2026. Ketahui BWE JKM RM600, STR RM1,200, diskaun pengangkutan & rawatan kesihatan percuma untuk warga emas 60+."
 category: Kewangan
-image: "~/assets/images/hero-panduan-bantuan-warga-emas-2026.jpg"
+image: "~/assets/images/hero-panduan-bantuan-warga-emas-malaysia-2026.jpg"
 tags:
   - warga-emas
   - bantuan-kerajaan

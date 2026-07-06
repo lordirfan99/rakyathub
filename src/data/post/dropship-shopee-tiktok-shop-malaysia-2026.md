@@ -3,7 +3,7 @@ publishDate: 2026-06-16
 title: "Dropship Shopee & TikTok Shop Malaysia 2026"
 excerpt: "Nak bisnes dropship tanpa modal besar? Panduan lengkap dropship Shopee dan TikTok Shop Malaysia 2026 — cara daftar, cari supplier, strategi."
 category: Kewangan
-image: "~/assets/images/hero-dropship-shopee-tiktok-2026.jpg"
+image: "~/assets/images/hero-dropship-shopee-tiktok-shop-malaysia-2026.jpg"
 tags:
   - side-hustle
   - dropship

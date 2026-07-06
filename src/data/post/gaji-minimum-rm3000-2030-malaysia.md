@@ -3,7 +3,7 @@ publishDate: 2026-06-28 08:00:00
 title: "Gaji Minimum RM3,000 Menjelang 2030"
 excerpt: "Kerajaan sasar gaji minimum naik ke RM3,000 menjelang 2030. Tapi realistik ke? Lihat perbandingan gaji semasa, pelan kerajaan dan cabaran mendatang."
 category: Kerjaya
-image: "~/assets/images/hero-gaji-minimum-rm3000-2030.jpg"
+image: "~/assets/images/hero-gaji-minimum-rm3000-2030-malaysia.jpg"
 tags:
   - gaji-minimum
   - upah-minimum

@@ -3,7 +3,7 @@ publishDate: 2026-06-09
 title: "Panduan Tabung Haji 2026"
 excerpt: "Panduan lengkap Tabung Haji 2026: cara buka akaun online, kadar hibah terkini, syarat daftar haji, dan strategi simpanan untuk anak muda."
 category: Kewangan
-image: "~/assets/images/hero-tabung-haji.jpg"
+image: "~/assets/images/hero-panduan-tabung-haji-2026-cara-simpan-daftar-haji.jpg"
 tags:
   - tabung-haji
   - simpanan

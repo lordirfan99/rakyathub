@@ -3,7 +3,7 @@ publishDate: 2026-06-17
 title: "Pelepasan Cukai Insurans 2026 — Panduan Lengkap"
 excerpt: "Ramai miss peluang tuntut pelepasan cukai insurans & takaful bila e-Filing. Panduan lengkap B18, B21 & maksimumkan penjimatan cukai 2026."
 category: Insurans
-image: "~/assets/images/hero-pelepasan-cukai-insurans.jpg"
+image: "~/assets/images/hero-pelepasan-cukai-insurans-malaysia-2026.jpg"
 tags:
   - insurans
   - takaful

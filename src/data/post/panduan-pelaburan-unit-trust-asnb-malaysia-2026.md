@@ -3,7 +3,7 @@ publishDate: 2026-06-18 08:00:00
 title: "Panduan Pelaburan Unit Trust & ASNB Malaysia 2026"
 excerpt: "Panduan lengkap pelaburan unit trust dan ASNB di Malaysia 2026. Cara pilih dana, faham yuran, strategi pelaburan berkala dan tips maksimum dividen."
 category: Pelaburan
-image: "~/assets/images/hero-tabung-haji-simpanan.jpg"
+image: "~/assets/images/hero-panduan-pelaburan-unit-trust-asnb-malaysia-2026.jpg"
 tags:
   - unit-trust
   - asnb

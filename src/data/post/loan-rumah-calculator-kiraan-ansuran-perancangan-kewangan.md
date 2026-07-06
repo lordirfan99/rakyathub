@@ -4,7 +4,7 @@ publishDate: 2025-07-20
 title: "Kalkulator Loan Rumah 2026 — Ansuran & Kelayakan"
 excerpt: "Guna loan rumah calculator percuma untuk kira ansuran bulanan, jumlah faedah, dan jadual bayaran. Contoh pengiraan untuk pinjaman RM200K–RM500K. Sesuai untuk pembeli rumah pertama."
 category: Kalkulator
-image: "~/assets/images/hero-loan-rumah.jpg"
+image: "~/assets/images/hero-loan-rumah-calculator-kiraan-ansuran-perancangan-kewangan.jpg"
 tags:
   - loan-rumah
   - kalkulator-rumah

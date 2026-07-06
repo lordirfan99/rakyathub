@@ -3,7 +3,7 @@ publishDate: 2026-06-18 08:00:00
 title: "Scam Agen Pembantu Rumah"
 excerpt: "PDRM amaran scam agen pembantu rumah palsu 2026. Minta deposit sehingga RM6,300, hantar pembantu yang lesap. Panduan kenali & elak."
 category: Keselamatan
-image: "~/assets/images/hero-scam-pembantu-rumah.jpg"
+image: "~/assets/images/hero-scam-pembantu-rumah-2026.jpg"
 tags:
   - scam
   - penipuan

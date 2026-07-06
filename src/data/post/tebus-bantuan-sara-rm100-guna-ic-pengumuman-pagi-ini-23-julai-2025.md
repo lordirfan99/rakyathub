@@ -3,7 +3,7 @@ publishDate: 2025-07-23
 title: "Tebus Bantuan SARA RM100 Guna MyKad 2026"
 excerpt: "Panduan tebus bantuan SARA RM100 guna MyKad di 4,100+ premis seluruh Malaysia. Senarai kedai (Mydin, Lotus's, 99 Speedmart), kategori barangan."
 category: Kerajaan
-image: "~/assets/images/hero-bantuan-sara.jpg"
+image: "~/assets/images/hero-tebus-bantuan-sara-rm100-guna-ic-pengumuman-pagi-ini-23-julai-2025.jpg"
 tags:
   - bantuan-kerajaan
   - sara

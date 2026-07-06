@@ -3,7 +3,7 @@ publishDate: 2026-07-02
 title: "Cara Tuntut Deposit Sewa Rumah Malaysia"
 excerpt: "Panduan lengkap tuntut deposit sewa rumah Malaysia — hak penyewa, alasan sah tahan deposit, langkah TTPM, contoh surat tuntutan untuk dapat balik duit."
 category: Hartanah
-image: "~/assets/images/hero-deposit-sewa-tuntut-balik.jpg"
+image: "~/assets/images/hero-cara-tuntut-deposit-sewa-rumah-malaysia.jpg"
 tags:
   - deposit-sewa
   - tuntut-deposit

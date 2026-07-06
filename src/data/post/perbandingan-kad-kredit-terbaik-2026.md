@@ -3,7 +3,7 @@ publishDate: 2026-07-03
 title: "Perbandingan Kad Kredit Terbaik Malaysia 2026"
 excerpt: "Bandingkan kad kredit terbaik Malaysia 2026 untuk cashback, petrol, dan travel. Panduan lengkap pilih kad kredit ikut gaya hidup dan pendapatan."
 category: Kewangan
-image: "~/assets/images/hero-perbandingan-kad-kredit-2026.jpg"
+image: "~/assets/images/hero-perbandingan-kad-kredit-terbaik-2026.jpg"
 tags:
   - kad-kredit
   - perbandingan-kad-kredit

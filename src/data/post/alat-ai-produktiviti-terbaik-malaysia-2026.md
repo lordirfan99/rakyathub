@@ -3,7 +3,7 @@ publishDate: 2026-06-19 08:00:00
 title: "Alat AI Produktiviti Terbaik Malaysia 2026"
 excerpt: "Tingkatkan produktiviti dengan AI! Panduan lengkap alat AI percuma terbaik di Malaysia 2026 untuk kerja, belajar dan bisnes."
 category: Teknologi
-image: "~/assets/images/hero-alat-ai-produktiviti.jpg"
+image: "~/assets/images/hero-alat-ai-produktiviti-terbaik-malaysia-2026.jpg"
 tags:
   - AI
   - produktiviti

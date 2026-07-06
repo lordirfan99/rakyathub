@@ -3,7 +3,7 @@ publishDate: 2026-07-02
 title: "Pemakanan Sihat Malaysia — Cara Makan & Jimat"
 excerpt: "Panduan lengkap pemakanan sihat untuk rakyat Malaysia. Ketahui Piramid Makanan 2026, Pinggan Sihat, tips makan bajet rendah, dan cara elak penyakit."
 category: Kesihatan
-image: "~/assets/images/hero-pemakanan-sihat-malaysia.jpg"
+image: "~/assets/images/hero-panduan-pemakanan-sihat-malaysia-2026.jpg"
 tags:
   - pemakanan-sihat
   - diet-malaysia

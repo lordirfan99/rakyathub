@@ -3,7 +3,7 @@ publishDate: 2026-07-01
 title: "Kereta Baru vs Kereta Terpakai - Mana Untung?"
 excerpt: "Bandingkan kereta baru vs kereta terpakai di Malaysia 2026. Ketahui kos, susut nilai, insurans, pinjaman dan situasi paling sesuai untuk setiap pilihan."
 category: Kereta
-image: "~/assets/images/hero-kereta-baru-vs-terpakai.jpg"
+image: "~/assets/images/hero-kereta-baru-vs-kereta-terpakai-malaysia.jpg"
 tags:
   - Kereta
   - Kereta Baru

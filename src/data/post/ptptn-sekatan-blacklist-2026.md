@@ -2,7 +2,7 @@
 publishDate: 2026-07-02
 title: "PTPTN Senarai Hitam & Sekatan Perjalanan 2026"
 excerpt: "Panduan PTPTN senarai hitam dan sekatan perjalanan 2026. Cara semak status blacklist, buat rayuan, penstrukturan semula dan lepaskan sekatan imigresen."
-image: "~/assets/images/hero-ptptn-sekatan-blacklist.jpg"
+image: "~/assets/images/hero-ptptn-sekatan-blacklist-2026.jpg"
 category: Pendidikan
 tags:
   - PTPTN

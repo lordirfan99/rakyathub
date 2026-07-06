@@ -3,7 +3,7 @@ publishDate: 2026-07-01
 title: "Pasport Malaysia 10 Tahun — Pilihan Baharu 2026"
 excerpt: "Pasport Malaysia 10 tahun dengan 94 ciri keselamatan mula dikeluarkan Julai 2026. Ketahui yuran, syarat dan cara permohonan terkini."
 category: Kerajaan
-image: "~/assets/images/hero-test-pasport-baru.jpg"
+image: "~/assets/images/hero-pasport-malaysia-10-tahun-2026-pilihan-baharu.jpg"
 tags:
   - pasport
   - imigresen

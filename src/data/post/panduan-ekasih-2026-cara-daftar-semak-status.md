@@ -2,7 +2,7 @@
 publishDate: 2026-06-15
 title: "eKasih 2026 — Cara Daftar, Semak Status & Kemaskini"
 excerpt: "Panduan lengkap eKasih 2026 — cara daftar secara fizikal, semak status online, kemaskini maklumat dan semua bantuan kerajaan yang boleh korang dapat."
-image: "~/assets/images/hero-panduan-ekasih-2026.jpg"
+image: "~/assets/images/hero-panduan-ekasih-2026-cara-daftar-semak-status.jpg"
 category: Kerajaan
 tags:
   - ekasih

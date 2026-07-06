@@ -3,7 +3,7 @@ publishDate: 2026-06-21 08:00:00
 title: "Panduan Jimat Bil Elektrik & Air 2026"
 excerpt: "Panduan lengkap cara jimat bil elektrik dan air di rumah. Tips praktikal kurangkan kos utiliti tanpa kurangkan keselesaan untuk keluarga Malaysia."
 category: Gaya-Hidup
-image: "~/assets/images/hero-jimat-bil-elektrik-air.jpg"
+image: "~/assets/images/hero-panduan-jimat-bil-elektrik-air-2026.jpg"
 tags:
   - jimat-elektrik
   - jimat-air

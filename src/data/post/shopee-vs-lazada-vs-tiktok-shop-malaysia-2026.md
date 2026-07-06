@@ -3,7 +3,7 @@ publishDate: 2026-06-30
 title: "Shopee vs Lazada vs TikTok: Mana Platform Terbaik"
 excerpt: "Bandingkan Shopee, Lazada, TikTok Shop dan website sendiri — komisen, yuran, kelebihan & kekurangan setiap platform jualan online Malaysia 2026"
 category: Bisnes
-image: "~/assets/images/hero-shopee-vs-lazada-vs-tiktok-shop.jpg"
+image: "~/assets/images/hero-shopee-vs-lazada-vs-tiktok-shop-malaysia-2026.jpg"
 tags:
   - shopee
   - lazada

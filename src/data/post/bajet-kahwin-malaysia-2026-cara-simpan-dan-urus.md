@@ -3,7 +3,7 @@ publishDate: 2026-06-07
 title: "Bajet Kahwin Malaysia 2026"
 excerpt: "Panduan bajet kahwin Malaysia 2026 lengkap dengan breakdown kos. Cara simpan duit kahwin & tips jimat tanpa kompromi majlis impian."
 category: Kewangan
-image: "~/assets/images/hero-bajet-kahwin.jpg"
+image: "~/assets/images/hero-bajet-kahwin-malaysia-2026-cara-simpan-dan-urus.jpg"
 tags:
   - kahwin
   - bajet-kahwin

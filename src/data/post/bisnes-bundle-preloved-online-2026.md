@@ -3,7 +3,7 @@ publishDate: 2026-06-12
 title: "Bisnes Bundle & Preloved Online: Cara Jana RM3K–RM5K"
 excerpt: "Nak bisnes modal rendah yang tengah viral? Bundle & preloved adalah antara side hustle paling laku 2026."
 category: Kewangan
-image: "~/assets/images/hero-bundle-preloved-2026.jpg"
+image: "~/assets/images/hero-bisnes-bundle-preloved-online-2026.jpg"
 tags:
   - side-hustle
   - bisnes-online

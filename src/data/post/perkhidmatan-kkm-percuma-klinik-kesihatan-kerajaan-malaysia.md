@@ -2,7 +2,7 @@
 publishDate: 2026-06-16
 title: "Perkhidmatan KKM Percuma"
 excerpt: "KKM sediakan banyak perkhidmatan kesihatan percuma — saringan PeKa B40, Skim Perubatan Madani, rawatan gigi, imunisasi kanak-kanak dan mamogram."
-image: "~/assets/images/hero-kkm-perkhidmatan-percuma.jpg"
+image: "~/assets/images/hero-perkhidmatan-kkm-percuma-klinik-kesihatan-kerajaan-malaysia.jpg"
 category: Kesihatan
 tags:
   - kkm

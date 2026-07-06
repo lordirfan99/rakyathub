@@ -3,7 +3,7 @@ publishDate: 2026-06-21 08:00:00
 title: "Hak Pengguna Servis — Panduan Tuntut Ganti Rugi"
 excerpt: "Servis kereta tak siap? Renovasi rumah hambar? Ketahui hak pengguna untuk perkhidmatan di bawah Akta Perlindungan Pengguna 1999 & langkah tuntut ganti rugi"
 category: Pengguna
-image: "~/assets/images/hero-hak-pengguna-servis-perkhidmatan.jpg"
+image: "~/assets/images/hero-hak-pengguna-servis-perkhidmatan-tuntut-ganti-rugi.jpg"
 tags:
   - hak-pengguna
   - servis

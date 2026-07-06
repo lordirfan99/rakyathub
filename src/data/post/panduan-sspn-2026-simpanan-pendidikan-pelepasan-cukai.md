@@ -3,7 +3,7 @@ publishDate: 2026-06-09
 title: "Panduan SSPN 2026 — Cara Buka Akaun, Dividen &"
 excerpt: "Panduan lengkap SSPN 2026: cara buka akaun Simpan SSPN Prime & Plus, kadar dividen terkini 4.05%, pelepasan cukai RM8,000 setahun, dan hadiah cabutan."
 category: Kewangan
-image: "~/assets/images/hero-sspn.jpg"
+image: "~/assets/images/hero-panduan-sspn-2026-simpanan-pendidikan-pelepasan-cukai.jpg"
 tags:
   - sspn
   - pendidikan

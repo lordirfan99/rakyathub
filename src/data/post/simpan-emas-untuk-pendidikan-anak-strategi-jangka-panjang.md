@@ -3,7 +3,7 @@ publishDate: 2026-06-14
 title: "Simpan Emas untuk Pendidikan Anak"
 excerpt: "Panduan simpan emas untuk dana pendidikan anak di Malaysia. Modal serendah RM50 sebulan, hasil konsisten, sesuai untuk ibu bapa muda."
 category: Emas
-image: "~/assets/images/hero-simpan-emas-untuk-pendidikan-anak.jpg"
+image: "~/assets/images/hero-simpan-emas-untuk-pendidikan-anak-strategi-jangka-panjang.jpg"
 tags:
   - emas
   - pendidikan

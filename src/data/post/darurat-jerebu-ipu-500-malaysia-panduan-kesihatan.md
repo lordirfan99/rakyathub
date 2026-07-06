@@ -3,7 +3,7 @@ publishDate: 2026-07-02
 title: "Darurat Jerebu IPU 500 Malaysia"
 excerpt: "Bila IPU melebihi 500, kerajaan isytihar darurat jerebu. Panduan lengkap kesan kesihatan, langkah lindung diri, topeng N95 dan nombor kecemasan."
 category: Keselamatan
-image: "~/assets/images/hero-darurat-jerebu-ipu-500-malaysia.jpg"
+image: "~/assets/images/hero-darurat-jerebu-ipu-500-malaysia-panduan-kesihatan.jpg"
 tags:
   - jerebu
   - darurat

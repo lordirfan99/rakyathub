@@ -3,7 +3,7 @@ publishDate: 2025-07-14
 title: "Cara Renew Roadtax JPJ Online 2026 — Harga, Panduan & 5 Platform Bayar Cukai Jalan"
 excerpt: "Panduan lengkap renew roadtax JPJ online 2026 — cara bayar cukai jalan guna myJPJ, MySikap, MYEG & JPJ E-Bayar. Semak harga roadtax kereta & motor terkini. Jimat masa — siap dalam 5 minit."
 category: Kenderaan
-image: "~/assets/images/hero-roadtax.jpg"
+image: "~/assets/images/hero-cara-renew-roadtax-jpj-online-2025-panduan-lengkap.jpg"
 tags:
   - roadtax
   - jpj

@@ -2,7 +2,7 @@
 publishDate: 2026-06-28 08:00:00
 title: "Sistem KEJARA 2026: Panduan Mata Demerit JPJ"
 excerpt: "Panduan lengkap sistem KEJARA JPJ Malaysia 2026. Cara semak mata demerit, jenis kesalahan, denda RM300 AES/AWAS & langkah elak lesen digantung."
-image: "~/assets/images/hero-kejara-sistem-demarit-2026.jpg"
+image: "~/assets/images/hero-sistem-kejara-jpj-malaysia-panduan-lengkap-2026.jpg"
 category: Kenderaan
 tags:
   - kejara

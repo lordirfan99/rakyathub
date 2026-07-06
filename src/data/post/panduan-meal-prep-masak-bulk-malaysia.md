@@ -3,7 +3,7 @@ publishDate: 2026-07-01
 title: "Cara Meal Prep & Masak Bulk Jimat Duit Malaysia"
 excerpt: "Panduan meal prep dan masak bulk untuk jimat duit di Malaysia 2026. Ketahui cara rancang menu mingguan, teknik simpan lauk dan bajet bulanan dapur."
 category: Gaya-Hidup
-image: "~/assets/images/hero-meal-prep-masak-bulk-malaysia.jpg"
+image: "~/assets/images/hero-panduan-meal-prep-masak-bulk-malaysia.jpg"
 tags:
   - Gaya Hidup
   - Jimat

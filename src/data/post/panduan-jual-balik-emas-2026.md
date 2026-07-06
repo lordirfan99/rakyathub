@@ -3,7 +3,7 @@ publishDate: 2026-06-20 08:00:00
 title: "Jual Emas Sekarang? Panduan Buyback & Untung"
 excerpt: "Panduan jual emas balik 2026 di Malaysia. Banding spread 9 platform, strategi ambil untung & proses buyback lengkap."
 category: Emas
-image: "~/assets/images/hero-panduan-jual-balik-emas.jpg"
+image: "~/assets/images/hero-panduan-jual-balik-emas-2026.jpg"
 tags:
   - emas
   - jual-emas

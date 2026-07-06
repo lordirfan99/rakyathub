@@ -3,7 +3,7 @@ publishDate: 2026-06-10
 title: "Cara Urus Duit Rumah Tangga — Panduan Kewangan Pasangan"
 excerpt: "Panduan kewangan untuk pasangan suami isteri: cara buat bajet keluarga, tabung kecemasan, pelaburan bersama dan elak pergaduhan duit."
 category: Kewangan
-image: "~/assets/images/hero-kewangan-pasangan.jpg"
+image: "~/assets/images/hero-cara-urus-duit-rumah-tangga-pasangan-suami-isteri.jpg"
 tags:
   - kewangan-keluarga
   - pasangan

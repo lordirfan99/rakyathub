@@ -3,7 +3,7 @@ publishDate: 2026-07-02
 title: "Panduan Cashback & Reward Points Malaysia 2026"
 excerpt: "Panduan jimat duit guna cashback dan reward points di Malaysia 2026."
 category: Gaya-Hidup
-image: "~/assets/images/hero-cashback-reward.jpg"
+image: "~/assets/images/hero-cara-jimat-duit-cashback-reward-points-malaysia-2026.jpg"
 tags:
   - cashback
   - reward-points

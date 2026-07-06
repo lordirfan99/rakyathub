@@ -3,7 +3,7 @@ publishDate: 2026-06-22 08:00:00
 title: "Panduan NCD Kereta Malaysia 2026"
 excerpt: "Panduan lengkap NCD kereta Malaysia 2026 — jadual diskaun, cara pindah NCD, tips jimat premium insurans dan bila elok bayar sendiri repair."
 category: Kereta
-image: "~/assets/images/hero-panduan-ncd-kereta-2026.jpg"
+image: "~/assets/images/hero-panduan-ncd-kereta-malaysia-2026.jpg"
 tags:
   - ncd
   - insurans-kereta

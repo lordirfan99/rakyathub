@@ -3,7 +3,7 @@ publishDate: 2026-07-03
 title: "Cara Dapat Lesen Memandu Pertama Malaysia 2026"
 excerpt: "Panduan dapat lesen memandu pertama Malaysia dari mula sampai dapat lesen P. Daftar sekolah, ujian KPP, latihan praktikal, test JPJ, dan kos terkini 2026."
 category: Kenderaan
-image: "~/assets/images/hero-panduan-lesen-memandu-pertama-kali.jpg"
+image: "~/assets/images/hero-panduan-lesen-memandu-pertama-kali-malaysia.jpg"
 tags:
   - lesen-memandu-pertama-kali
   - cara-dapat-lesen-memu

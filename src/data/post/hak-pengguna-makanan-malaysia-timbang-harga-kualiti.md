@@ -3,7 +3,7 @@ publishDate: 2026-06-26 08:00:00
 title: "Hak Pengguna Makanan: Timbang, Harga & Kualiti"
 excerpt: "Panduan hak pengguna makanan Malaysia 2026 — timbang ayam, expired food, harga tak dipamer, caj tersembunyi restoran, dan cara buat aduan KPDN."
 category: Pengguna
-image: "~/assets/images/hero-hak-pengguna-makanan.jpg"
+image: "~/assets/images/hero-hak-pengguna-makanan-malaysia-timbang-harga-kualiti.jpg"
 tags:
   - hak-pengguna
   - makanan

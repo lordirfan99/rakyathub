@@ -3,7 +3,7 @@ publishDate: 2026-07-02
 title: "Panduan MyFutureJobs 2026 Cari Kerja Online"
 excerpt: "Cara daftar dan guna MyFutureJobs, portal carian kerja rasmi kerajaan Malaysia. Pemadanan AI, program MySTEP, dan elaun EIS percuma."
 category: Kerajaan
-image: "~/assets/images/hero-panduan-myfuturejobs-2026.jpg"
+image: "~/assets/images/hero-panduan-myfuturejobs-2026-cari-kerja-online.jpg"
 tags:
   - myfuturejobs
   - cari-kerja

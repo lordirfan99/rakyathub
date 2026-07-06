@@ -3,7 +3,7 @@ publishDate: 2026-06-14
 title: "KWSP Pengeluaran Perumahan Akaun 2 — Panduan Beli Rumah"
 excerpt: "Panduan lengkap pengeluaran KWSP Akaun 2 untuk beli rumah 2026. Syarat kelayakan, dokumen, jumlah maksimum & langkah permohonan online."
 category: KWSP
-image: "~/assets/images/hero-kwsp-pengeluaran-perumahan-akaun-2.jpg"
+image: "~/assets/images/hero-kwsp-pengeluaran-perumahan-akaun-2-beli-rumah-2026.jpg"
 tags:
   - KWSP
   - Akaun-2

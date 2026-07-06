@@ -3,7 +3,7 @@ publishDate: 2026-07-03
 title: "Panduan Pemanduan Lebuhraya & Bayar Tol 2026"
 excerpt: "Panduan pemanduan lebuhraya Malaysia — tips keselamatan, cara bayar tol guna RFID, SmartTAG, PLUS ANPR, dan peraturan lorong laju yang wajib tahu."
 category: Kenderaan
-image: "~/assets/images/hero-panduan-pemanduan-lebuhraya-tol.jpg"
+image: "~/assets/images/hero-panduan-pemanduan-lebuhraya-tol-malaysia.jpg"
 tags:
   - pemanduan-lebuhraya
   - rfid-touch-n-go

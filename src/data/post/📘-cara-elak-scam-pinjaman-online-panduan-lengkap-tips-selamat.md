@@ -4,7 +4,7 @@ updateDate: 2026-06-12
 title: "Cara Elak Scam Pinjaman Online – Panduan Lengkap &"
 excerpt: "Panduan lengkap elak scam pinjaman online di Malaysia 2026. Kenali 7 taktik scammer terkini, ciri pemberi pinjaman tipu, langkah semak lesen BNM, dan."
 category: Kewangan
-image: "~/assets/images/hero-cara-elak-scam-pinjaman-online-panduan-lengkap-tips-selamat.jpg"
+image: "~/assets/images/hero-📘-cara-elak-scam-pinjaman-online-panduan-lengkap-tips-selamat.jpg"
 tags:
   - scam
   - pinjaman-online

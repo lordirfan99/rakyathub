@@ -3,7 +3,7 @@ publishDate: 2026-06-14
 title: "Scam Panggilan Palsu BNM & Polis"
 excerpt: "Panduan lengkap kenal pasti scam panggilan telefon palsu BNM, polis dan bank di Malaysia 2026. Ada senarai nombor hotline sah + cara blok."
 category: Kewangan
-image: "~/assets/images/hero-scam-panggilan-palsu-bnm-polis.jpg"
+image: "~/assets/images/hero-scam-panggilan-palsu-bnm-polis-bank-cara-blok.jpg"
 tags:
   - scam
   - panggilan-palsu

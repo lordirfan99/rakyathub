@@ -2,7 +2,7 @@
 publishDate: 2026-06-13
 title: "Bonus ASB 2026 — Cara Kira & Beza Dengan Dividen ASB"
 excerpt: "Bonus ASB 2026 — apa itu bonus ASB, cara kira, perbezaan dengan dividen dan strategi maksimumkan pulangan tahunan pelaburan ASB korang."
-image: "~/assets/images/hero-bonus-asb-cara-kira.jpg"
+image: "~/assets/images/hero-bonus-asb-cara-kira-dan-beza-dengan-dividen.jpg"
 tags:
   - asb
   - bonus

@@ -3,7 +3,7 @@ publishDate: 2026-07-02
 title: "Pengecualian PTPTN Kelas Pertama — Cara & Syarat"
 excerpt: "Panduan lengkap pengecualian PTPTN untuk graduan Ijazah Kelas Pertama. Ketahui syarat CGPA, cara mohon online, dokumen diperlukan, dan tips rayuan."
 category: Pendidikan
-image: "~/assets/images/hero-pengecualian-ptptn-kelas-pertama.jpg"
+image: "~/assets/images/hero-pengecualian-ptptn-kelas-pertama-syarat-cara-mohon.jpg"
 tags:
   - ptptn
   - pengecualian-ptptn

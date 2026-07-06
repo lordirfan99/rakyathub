@@ -3,7 +3,7 @@ publishDate: 2026-07-02
 title: "Had Laju & Peraturan Jalan Raya Malaysia"
 excerpt: "Panduan lengkap had laju jalan raya Malaysia 2026 termasuk peraturan JPJ, etika pemanduan lebuhraya, kesalahan trafik, saman dan tips elak kemalangan."
 category: Kenderaan
-image: "~/assets/images/hero-had-laju-peraturan-jalan-raya.jpg"
+image: "~/assets/images/hero-had-laju-peraturan-jalan-raya-malaysia-2026.jpg"
 tags:
   - had-laju-malaysia
   - peraturan-jalan-raya

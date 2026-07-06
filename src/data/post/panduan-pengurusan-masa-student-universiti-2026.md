@@ -3,7 +3,7 @@ publishDate: 2026-06-22 08:00:00
 title: "Panduan Pengurusan Masa & Produktiviti Student"
 excerpt: "Panduan pengurusan masa untuk student universiti Malaysia 2026 — teknik Pomodoro, time blocking, cara atasi procrastination dan tips produktif."
 category: Student
-image: "~/assets/images/hero-pengurusan-masa-student.jpg"
+image: "~/assets/images/hero-panduan-pengurusan-masa-student-universiti-2026.jpg"
 tags:
   - pengurusan-masa
   - student

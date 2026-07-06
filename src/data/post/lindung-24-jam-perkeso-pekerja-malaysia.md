@@ -3,7 +3,7 @@ publishDate: 2026-06-26 08:00:00
 title: "Perkeso Lindung 24 Jam: 9 Juta Pekerja Dilindungi"
 excerpt: "Skim LINDUNG 24 Jam PERKESO berkuat kuasa 1 Jun 2026. 9 juta pekerja Malaysia dilindungi 24 jam — bukan hanya waktu kerja. Semak kadar caruman dan faedah."
 category: Kerajaan
-image: "~/assets/images/hero-lindung-24-jam-perkeso.jpg"
+image: "~/assets/images/hero-lindung-24-jam-perkeso-pekerja-malaysia.jpg"
 tags:
   - perkeso
   - lindung-24-jam

@@ -2,7 +2,7 @@
 publishDate: 2026-06-30
 title: "Panduan Jual Kereta Terpakai 2026"
 excerpt: "Panduan lengkap cara jual kereta terpakai di Malaysia — tips harga tinggi, dokumen JPJ, proses pindah milik dan platform terbaik 2026."
-image: "~/assets/images/hero-jual-kereta-terpakai.jpg"
+image: "~/assets/images/hero-panduan-jual-kereta-terpakai-malaysia-2026.jpg"
 category: Kereta
 tags:
   - jual-kereta

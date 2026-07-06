@@ -3,7 +3,7 @@ publishDate: 2026-06-27 08:00:00
 title: "Panduan Lengkap Insurans Hayat Malaysia 2026"
 excerpt: "Panduan lengkap insurans hayat Malaysia 2026 — jenis polisi, cara kira jumlah perlindungan, perbezaan term life vs whole life vs ILP, tips pilih terbaik."
 category: Insurans
-image: "~/assets/images/hero-panduan-insurans-hayat.jpg"
+image: "~/assets/images/hero-panduan-lengkap-insurans-hayat-malaysia-2026.jpg"
 tags:
   - insurans
   - insurans-hayat

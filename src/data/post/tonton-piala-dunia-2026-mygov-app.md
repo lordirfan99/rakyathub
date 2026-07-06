@@ -3,7 +3,7 @@ publishDate: 2026-06-25 08:00:00
 title: "Tonton Piala Dunia 2026 Percuma MyGOV App"
 excerpt: "Panduan lengkap cara tonton Piala Dunia 2026 secara percuma guna aplikasi MyGOV kerajaan. Muat turun, cara guna, dan tips streaming."
 category: Kerajaan
-image: "~/assets/images/hero-tonton-piala-dunia-2026.jpg"
+image: "~/assets/images/hero-tonton-piala-dunia-2026-mygov-app.jpg"
 tags:
   - mygov
   - piala dunia 2026

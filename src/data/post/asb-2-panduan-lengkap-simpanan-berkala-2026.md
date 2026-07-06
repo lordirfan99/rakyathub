@@ -2,7 +2,7 @@
 publishDate: 2026-06-13
 title: "ASB 2 2026 — Panduan Lengkap Simpanan Berkala &"
 excerpt: "ASB 2 2026 — panduan simpanan berkala ASNB untuk Bumiputera. Pulangan 5.50 sen seunit, cara daftar, kelebihan takaful percuma dan perbandingan vs ASB."
-image: "~/assets/images/hero-asb2-panduan-lengkap.jpg"
+image: "~/assets/images/hero-asb-2-panduan-lengkap-simpanan-berkala-2026.jpg"
 tags:
   - asb
   - asb2
