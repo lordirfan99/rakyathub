@@ -196,7 +196,9 @@ prompt_templates:
 # Prompt builder configuration
 prompt_builder:
   subject_extract_instruction: "Given this article title and tags, describe in 8-12 words the single most visually concrete scene it should be illustrated with. Focus on Malaysian context. Output plain text only, no markdown, no quotes."
-  fallback_prompt: "abstract gradient banner, clean modern financial concept, subtle geometric pattern, no text, no people, minimalist, professional, 1200x630"
+  fallback_prompt: "abstract gradient background, smooth blur, no text, no objects, minimalist banner 1200x630"
+  script: "python3 scripts/generate-hero-banner.py <slug> <title> --category <category>"
+  script_description: "Generates gradient banner via Pollinations + Pillow text overlay — OG image banner style"
 
 # Relevance verification
 verify:
