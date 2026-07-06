@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-07-05T14:22:29.845420",
+  "last_updated": "2026-07-06T15:19:15.237351",
   "source": "DOSM OpenDOSM API",
-  "latest_national_year": "2022",
+  "latest_national_year": "2024",
   "latest_national": {
-    "date": "2022-01-01",
-    "income_mean": 8479,
-    "income_median": 6338
+    "date": "2024-01-01",
+    "income_mean": 9155,
+    "income_median": 7017
   },
   "national_income": [
     {
@@ -112,118 +112,123 @@
       "date": "2022-01-01",
       "income_mean": 8479,
       "income_median": 6338
+    },
+    {
+      "date": "2024-01-01",
+      "income_mean": 9155,
+      "income_median": 7017
     }
   ],
   "states": {
     "Johor": {
-      "income_year": "2022",
-      "income_mean": 8517,
-      "income_median": 6879,
+      "income_year": "2024",
+      "income_mean": 9484,
+      "income_median": 7712.0,
       "lf_participation_rate": 71.3,
       "lf_unemployment_rate": 2.6
     },
     "Kedah": {
-      "income_year": "2022",
-      "income_mean": 5550,
-      "income_median": 4402,
+      "income_year": "2024",
+      "income_mean": 5793,
+      "income_median": 4895.0,
       "lf_participation_rate": 65.3,
       "lf_unemployment_rate": 2.9
     },
     "Kelantan": {
-      "income_year": "2022",
-      "income_mean": 4885,
-      "income_median": 3614,
+      "income_year": "2024",
+      "income_mean": 5265,
+      "income_median": 4083.0,
       "lf_participation_rate": null,
       "lf_unemployment_rate": null
     },
     "Melaka": {
-      "income_year": "2022",
-      "income_mean": 8057,
-      "income_median": 6210,
+      "income_year": "2024",
+      "income_mean": 8686,
+      "income_median": 6891.0,
       "lf_participation_rate": null,
       "lf_unemployment_rate": null
     },
     "Negeri Sembilan": {
-      "income_year": "2022",
-      "income_mean": 6788,
-      "income_median": 5226,
+      "income_year": "2024",
+      "income_mean": 7305,
+      "income_median": 5591.0,
       "lf_participation_rate": null,
       "lf_unemployment_rate": null
     },
     "Pahang": {
-      "income_year": "2022",
-      "income_mean": 5777,
-      "income_median": 4753,
+      "income_year": "2024",
+      "income_mean": 6066,
+      "income_median": 4975.0,
       "lf_participation_rate": null,
       "lf_unemployment_rate": null
     },
     "Perak": {
-      "income_year": "2022",
-      "income_mean": 5779,
-      "income_median": 4494,
+      "income_year": "2024",
+      "income_mean": 6173,
+      "income_median": 4687.0,
       "lf_participation_rate": null,
       "lf_unemployment_rate": null
     },
     "Perlis": {
-      "income_year": "2022",
-      "income_mean": 5664,
-      "income_median": 4713,
+      "income_year": "2024",
+      "income_mean": 5996,
+      "income_median": 4950.0,
       "lf_participation_rate": null,
       "lf_unemployment_rate": null
     },
     "Pulau Pinang": {
-      "income_year": "2022",
-      "income_mean": 8267,
-      "income_median": 6502,
+      "income_year": "2024",
+      "income_mean": 9152,
+      "income_median": 7386.0,
       "lf_participation_rate": null,
       "lf_unemployment_rate": null
     },
     "Sabah": {
-      "income_year": "2022",
-      "income_mean": 6171,
-      "income_median": 4577,
+      "income_year": "2024",
+      "income_mean": 6498,
+      "income_median": 4890.0,
       "lf_participation_rate": null,
       "lf_unemployment_rate": null
     },
     "Sarawak": {
-      "income_year": "2022",
-      "income_mean": 6457,
-      "income_median": 4978,
+      "income_year": "2024",
+      "income_mean": 6947,
+      "income_median": 5504.0,
       "lf_participation_rate": null,
       "lf_unemployment_rate": null
     },
     "Selangor": {
-      "income_year": "2022",
-      "income_mean": 12233,
-      "income_median": 9983,
+      "income_year": "2024",
+      "income_mean": 13296,
+      "income_median": 10726.0,
       "lf_participation_rate": null,
       "lf_unemployment_rate": null
     },
     "Terengganu": {
-      "income_year": "2022",
-      "income_mean": 7248,
-      "income_median": 5878,
+      "income_year": "2024",
+      "income_mean": 7627,
+      "income_median": 6627.0,
       "lf_participation_rate": null,
       "lf_unemployment_rate": null
     },
     "W.P. Kuala Lumpur": {
-      "income_year": "2022",
-      "income_mean": 13325,
-      "income_median": 10234,
+      "income_year": "2024",
+      "income_mean": 13985,
+      "income_median": 10802.0,
       "lf_participation_rate": null,
       "lf_unemployment_rate": null
     },
     "W.P. Labuan": {
-      "income_year": "2022",
-      "income_mean": 8250,
-      "income_median": 6904,
+      "income_year": "2024",
+      "income_mean": 8555,
+      "income_median": 7383.0,
       "lf_participation_rate": null,
       "lf_unemployment_rate": null
     },
     "W.P. Putrajaya": {
-      "income_year": "2022",
-      "income_mean": 13473,
-      "income_median": 10056,
+      "income_year": "2024",
+      "income_mean": 13846,
+      "income_median": 10769.0,
       "lf_participation_rate": null,
       "lf_unemployment_rate": null
     }

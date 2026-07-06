@@ -3,7 +3,7 @@ publishDate: 2026-07-03
 title: "Panduan Sewa Kereta Malaysia 2026 - Tips Harga"
 excerpt: "Panduan lengkap cara sewa kereta di Malaysia 2026 -- perbandingan SOCAR, GoCar, Treasure, harga daily, deposit, insurans dan tips elak kena charge."
 category: Kereta
-image: "~/assets/images/hero-asian-woman-calc-18.jpg"
+image: "~/assets/images/hero-panduan-sewa-kereta-malaysia-2026-platform-harga-insurans.jpg"
 tags:
   - sewa-kereta
   - panduan-sewa

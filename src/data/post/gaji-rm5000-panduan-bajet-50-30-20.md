@@ -3,7 +3,7 @@ publishDate: 2026-07-01 08:00:00
 title: "Gaji RM5,000 — Panduan Bajet 50/30/20"
 excerpt: "Panduan lengkap bajet 50/30/20 untuk gaji RM5,000 di Malaysia. Cara bahagi RM2,500 keperluan, RM1,500 kehendak, RM1,000 simpanan ikut situasi sebenar."
 category: Kewangan
-image: "~/assets/images/hero-asian-woman-calc-02.jpg"
+image: "~/assets/images/hero-gaji-rm5000-panduan-bajet-50-30-20.jpg"
 tags:
   - gaji
   - bajet

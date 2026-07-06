@@ -3,7 +3,7 @@ publishDate: 2026-06-12
 title: "Ringgit Jatuh RM4.07 — Gaji RM3,000 Kena Pukul?"
 excerpt: "Ringgit jatuh ke RM4.07/USD, paras terendah 3 bulan. Apa maksudnya untuk duit gaji, shopping online, dan minyak kereta korang?"
 category: Kewangan
-image: "~/assets/images/hero-asian-woman-calc-11.jpg"
+image: "~/assets/images/hero-ringgit-melemah-impak-belanja-anak-muda.jpg"
 tags:
   - ringgit
   - exchange-rate

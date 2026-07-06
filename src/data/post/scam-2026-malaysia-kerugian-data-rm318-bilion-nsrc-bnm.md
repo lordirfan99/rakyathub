@@ -3,7 +3,7 @@ publishDate: 2026-06-15
 title: "Scam Malaysia 2026: RM3.18 Bilion Lesap"
 excerpt: "Scam di Malaysia makin canggih — RM3.18 bilion kerugian sejak 2021. Tapi ada berita baik: sistem AI BNM, NSRC hotline 997, dan Kill Switch dah sedia."
 category: Keselamatan
-image: "~/assets/images/hero-asian-woman-calc-05.jpg"
+image: "~/assets/images/hero-scam-2026-malaysia-kerugian-data-rm318-bilion-nsrc-bnm.jpg"
 tags:
   - scam
   - penipuan

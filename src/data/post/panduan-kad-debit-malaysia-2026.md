@@ -3,7 +3,7 @@ publishDate: 2026-06-19 08:00:00
 title: "Panduan Kad Debit Malaysia 2026"
 excerpt: "Panduan lengkap kad debit Malaysia 2026. Fahami jenis, yuran, had harian, cara guna online & offline, bezanya dengan kad kredit, dan tips selamat."
 category: Kewangan
-image: "~/assets/images/hero-asian-woman-calc-12.jpg"
+image: "~/assets/images/hero-panduan-kad-debit-malaysia-2026.jpg"
 tags:
   - kad-debit
   - kad-kredit

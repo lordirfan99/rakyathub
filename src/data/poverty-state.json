@@ -140,6 +140,13 @@
     "poverty_relative": 15.9
   },
   {
+    "date": "2024-01-01",
+    "state": "Johor",
+    "poverty_absolute": 2.5,
+    "poverty_hardcore": 0.01,
+    "poverty_relative": 13.7
+  },
+  {
     "date": "1970-01-01",
     "state": "Kedah",
     "poverty_absolute": 63.2,
@@ -278,6 +285,13 @@
     "poverty_absolute": 9.0,
     "poverty_hardcore": 0.3,
     "poverty_relative": 11.9
+  },
+  {
+    "date": "2024-01-01",
+    "state": "Kedah",
+    "poverty_absolute": 8.4,
+    "poverty_hardcore": 0.08,
+    "poverty_relative": 13.4
   },
   {
     "date": "1970-01-01",
@@ -420,6 +434,13 @@
     "poverty_relative": 12.2
   },
   {
+    "date": "2024-01-01",
+    "state": "Kelantan",
+    "poverty_absolute": 11.5,
+    "poverty_hardcore": 0.11,
+    "poverty_relative": 10.8
+  },
+  {
     "date": "1970-01-01",
     "state": "Melaka",
     "poverty_absolute": 44.9,
@@ -558,6 +579,13 @@
     "poverty_absolute": 4.2,
     "poverty_hardcore": 0.1,
     "poverty_relative": 13.2
+  },
+  {
+    "date": "2024-01-01",
+    "state": "Melaka",
+    "poverty_absolute": 3.0,
+    "poverty_hardcore": 0.0,
+    "poverty_relative": 10.3
   },
   {
     "date": "1970-01-01",
@@ -700,6 +728,13 @@
     "poverty_relative": 13.3
   },
   {
+    "date": "2024-01-01",
+    "state": "Negeri Sembilan",
+    "poverty_absolute": 4.0,
+    "poverty_hardcore": 0.0,
+    "poverty_relative": 11.9
+  },
+  {
     "date": "1970-01-01",
     "state": "Pahang",
     "poverty_absolute": 43.2,
@@ -838,6 +873,13 @@
     "poverty_absolute": 6.3,
     "poverty_hardcore": 0.1,
     "poverty_relative": 7.7
+  },
+  {
+    "date": "2024-01-01",
+    "state": "Pahang",
+    "poverty_absolute": 5.9,
+    "poverty_hardcore": 0.03,
+    "poverty_relative": 6.8
   },
   {
     "date": "1970-01-01",
@@ -980,6 +1022,13 @@
     "poverty_relative": 13.5
   },
   {
+    "date": "2024-01-01",
+    "state": "Perak",
+    "poverty_absolute": 6.9,
+    "poverty_hardcore": 0.06,
+    "poverty_relative": 11.4
+  },
+  {
     "date": "1970-01-01",
     "state": "Perlis",
     "poverty_absolute": 73.9,
@@ -1118,6 +1167,13 @@
     "poverty_absolute": 4.0,
     "poverty_hardcore": 0.1,
     "poverty_relative": 12.6
+  },
+  {
+    "date": "2024-01-01",
+    "state": "Perlis",
+    "poverty_absolute": 3.6,
+    "poverty_hardcore": 0.0,
+    "poverty_relative": 11.3
   },
   {
     "date": "1970-01-01",
@@ -1260,6 +1316,13 @@
     "poverty_relative": 15.3
   },
   {
+    "date": "2024-01-01",
+    "state": "Pulau Pinang",
+    "poverty_absolute": 1.9,
+    "poverty_hardcore": 0.03,
+    "poverty_relative": 15.1
+  },
+  {
     "date": "1976-01-01",
     "state": "Sabah",
     "poverty_absolute": 58.3,
@@ -1335,68 +1398,5 @@
     "poverty_absolute": 24.2,
     "poverty_hardcore": 6.9,
     "poverty_relative": 21.2
-  },
-  {
-    "date": "2007-01-01",
-    "state": "Sabah",
-    "poverty_absolute": 16.4,
-    "poverty_hardcore": 3.8,
-    "poverty_relative": 15.8
-  },
-  {
-    "date": "2009-01-01",
-    "state": "Sabah",
-    "poverty_absolute": 19.7,
-    "poverty_hardcore": 4.8,
-    "poverty_relative": 19.5
-  },
-  {
-    "date": "2012-01-01",
-    "state": "Sabah",
-    "poverty_absolute": 8.1,
-    "poverty_hardcore": 1.6,
-    "poverty_relative": 18.6
-  },
-  {
-    "date": "2014-01-01",
-    "state": "Sabah",
-    "poverty_absolute": 4.0,
-    "poverty_hardcore": 0.6,
-    "poverty_relative": 16.3
-  },
-  {
-    "date": "2016-01-01",
-    "state": "Sabah",
-    "poverty_absolute": 2.9,
-    "poverty_hardcore": 0.2,
-    "poverty_relative": 17.6
-  },
-  {
-    "date": "2019-01-01",
-    "state": "Sabah",
-    "poverty_absolute": 19.5,
-    "poverty_hardcore": 1.5,
-    "poverty_relative": 14.7
-  },
-  {
-    "date": "2020-01-01",
-    "state": "Sabah",
-    "poverty_absolute": 25.3,
-    "poverty_hardcore": 2.7,
-    "poverty_relative": 13.2
-  },
-  {
-    "date": "2022-01-01",
-    "state": "Sabah",
-    "poverty_absolute": 19.7,
-    "poverty_hardcore": 1.2,
-    "poverty_relative": 14.5
-  },
-  {
-    "date": "1976-01-01",
-    "state": "Sarawak",
-    "poverty_absolute": 56.5,
-    "poverty_hardcore": null,
-    "poverty_relative": null
   }
 ]

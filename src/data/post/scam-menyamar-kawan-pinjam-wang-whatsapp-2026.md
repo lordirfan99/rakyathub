@@ -1,5 +1,5 @@
 ---
-image: "~/assets/images/hero-asian-woman-phone-laptop.jpg"
+image: "~/assets/images/hero-scam-menyamar-kawan-pinjam-wang-whatsapp-2026.jpg"
 publishDate: 2026-06-18 08:00:00
 title: "Scam Menyamar Kawan WhatsApp 2026"
 excerpt: "RM2.5 juta lesap dalam setahun akibat scam menyamar kawan di WhatsApp. Kenali 6 red flag dan langkah sahkan sebelum transfer duit."
