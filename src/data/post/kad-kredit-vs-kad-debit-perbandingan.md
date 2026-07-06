@@ -3,7 +3,7 @@ publishDate: 2026-06-19 08:00:00
 title: "Kad Kredit vs Kad Debit: Mana Sesuai untuk Anda"
 excerpt: "Perbandingan lengkap kad kredit vs kad debit di Malaysia 2026. Fahami perbezaan, kelebihan, kekurangan, dan pilihan terbaik ikut situasi kewangan korang."
 category: Kewangan
-image: "~/assets/images/hero-kad-kredit-vs-debit.jpg"
+image: "~/assets/images/hero-kad-kredit-vs-kad-debit-perbandingan.jpg"
 tags:
   - kad-kredit
   - kad-debit

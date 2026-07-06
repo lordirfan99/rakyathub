@@ -3,7 +3,7 @@ publishDate: 2026-06-24 08:00:00
 title: "Ekonomi Gig Malaysia 2026: Panduan Kerjaya"
 excerpt: "Panduan lengkap ekonomi gig Malaysia 2026 — peluang kerja, pendapatan sebenar, insurans, KWSP i-Saraan Plus dan tips survive pekerja gig di Malaysia."
 category: Kerjaya
-image: "~/assets/images/hero-ekonomi-gig-malaysia-2026.jpg"
+image: "~/assets/images/hero-ekonomi-gig-malaysia-2026-panduan-kerjaya.jpg"
 tags:
   - ekonomi gig
   - pekerja gig

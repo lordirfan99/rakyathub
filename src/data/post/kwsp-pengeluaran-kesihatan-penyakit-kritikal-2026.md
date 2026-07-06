@@ -2,7 +2,7 @@
 publishDate: 2026-06-21 16:24:00
 title: "KWSP Pengeluaran Kesihatan — Panduan Lengkap 2026"
 excerpt: "Panduan lengkap pengeluaran KWSP Akaun 2 untuk rawatan penyakit kritikal. Syarat, senarai penyakit layak, cara mohon online i-Akaun, dokumen."
-image: "~/assets/images/hero-kwsp-pengeluaran-kesihatan.jpg"
+image: "~/assets/images/hero-kwsp-pengeluaran-kesihatan-penyakit-kritikal-2026.jpg"
 category: KWSP
 tags:
   - kwsp

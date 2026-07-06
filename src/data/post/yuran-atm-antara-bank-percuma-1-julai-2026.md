@@ -2,7 +2,7 @@
 publishDate: 2026-06-17
 title: "Yuran ATM Antara Bank Percuma Mulai 1 Julai 2026"
 excerpt: "Yuran RM1 ATM antara bank dimansuhkan 1 Julai 2026. Lebih 14,000 ATM percuma guna tanpa had, Jimat RM48 setahun. Inisiatif ABM, AIBIM, ADFIM & PayNet."
-image: "~/assets/images/hero-atm-fee-waiver.jpg"
+image: "~/assets/images/hero-yuran-atm-antara-bank-percuma-1-julai-2026.jpg"
 category: Pengguna
 tags:
   - atm

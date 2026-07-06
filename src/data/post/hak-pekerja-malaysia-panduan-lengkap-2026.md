@@ -3,7 +3,7 @@ publishDate: 2026-06-21 08:00:00
 title: "Panduan Hak Pekerja Malaysia 2026"
 excerpt: "Panduan lengkap hak pekerja Malaysia 2026 — faham Akta Kerja 1955, OT, cuti tahunan, EPF, SOCSO dan gaji minimum. Wajib baca fresh graduate."
 category: Kerjaya
-image: "~/assets/images/hero-hak-pekerja-2026.jpg"
+image: "~/assets/images/hero-hak-pekerja-malaysia-panduan-lengkap-2026.jpg"
 tags:
   - hak-pekerja
   - employment-act

@@ -3,7 +3,7 @@ publishDate: 2026-06-18
 title: "Pengeluaran ATM Percuma Mulai 1 Julai"
 excerpt: "Caj RM1 pengeluaran tunai antara bank di ATM dimansuhkan mulai 1 Julai 2026. Jimat RM60 setahun dengan akses ke 14,000+ ATM percuma seluruh Malaysia."
 category: Kewangan
-image: "~/assets/images/hero-atm-fee-waiver.jpg"
+image: "~/assets/images/hero-pengeluaran-tunai-atm-percuma-2026.jpg"
 tags:
   - atm
   - pengeluaran-tunai

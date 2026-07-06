@@ -3,7 +3,7 @@ publishDate: 2026-06-16
 title: "Medical Card vs Critical Illness"
 excerpt: "Ramai keliru — medical card dan insurans penyakit kritikal (critical illness) nampak sama tapi sebenarnya berbeza."
 category: Insurans
-image: "~/assets/images/hero-medical-card-vs-ci.jpg"
+image: "~/assets/images/hero-medical-card-vs-critical-illness-beza-panduan-2026.jpg"
 tags:
   - medical-card
   - critical-illness

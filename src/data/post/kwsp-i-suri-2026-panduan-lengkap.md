@@ -3,7 +3,7 @@ publishDate: 2026-06-21 08:00:00
 title: "KWSP i-Suri 2026 — Panduan Lengkap"
 excerpt: "Panduan lengkap KWSP i-Suri 2026 untuk suri rumah. Ketahui syarat kelayakan eKasih, insentif padanan RM300 setahun & cara mula mencarum."
 category: KWSP
-image: "~/assets/images/hero-kwsp-i-suri-2026.jpg"
+image: "~/assets/images/hero-kwsp-i-suri-2026-panduan-lengkap.jpg"
 tags:
   - kwsp
   - i-suri
