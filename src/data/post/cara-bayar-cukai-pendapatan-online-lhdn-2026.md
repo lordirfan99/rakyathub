@@ -3,8 +3,8 @@ publishDate: 2026-07-06
 title: "Cara Bayar Cukai Pendapatan — FPX & Kaunter LHDN"
 excerpt: "Panduan lengkap cara bayar cukai pendapatan online 2026 — ByrHASiL FPX, kaunter LHDN, ejen bank, CP38 potongan gaji & bayaran ansuran (CP204)."
 category: Percukaian
-image: "~/assets/images/hero-asian-woman-calc-07.jpg"
-image_strategy: screenshot
+image: "~/assets/images/hero-cara-bayar-cukai.jpg"
+image_strategy: ai_gen
 agency_logo: "LHDN"
 image_prompt: ""
 tags:
