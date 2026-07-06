@@ -181,15 +181,17 @@ categories:
     method: ai_gen
     description: "Fallback — AI-generated image"
 
-# Per-category prompt templates for Tier 3 ai_gen
+# Per-category prompt templates for Tier 3 — Pollinations
+# IMPORTANT: Use SIMPLE/CLOSE-UP prompts, not complex scenes with people.
+# Pollinations produces better results with single-subject macro/close-up prompts.
 prompt_templates:
-  umum_kesihatan: "Malaysian healthcare {subject} setting, realistic photo style, warm natural lighting, professional clinical environment, no text, no logos, 16:9 composition"
-  kerjaya_bisnes: "Malaysian professional {subject} scene, modern workplace, natural lighting, diverse Malaysian people, realistic photography, no text, 16:9 composition"
-  pendidikan_student: "Malaysian university {subject} scene, students studying on campus, natural daylight, warm tones, candid photography style, no text, 16:9 composition"
-  hartanah_sewa: "Malaysian {subject} interior or exterior, modern property, warm lighting, clean minimalist style, realistic photo, no text, 16:9 composition"
-  insurans: "Malaysian family or professional {subject} scene, warm protective tone, realistic stock photo style, no text, 16:9 composition"
-  teknologi: "Modern Malaysian {subject} scene, clean tech environment, soft blue lighting, realistic photography, no text, 16:9 composition"
-  default: "Malaysian {subject} scene, realistic photography, warm lighting, professional editorial style, no text, no logos, 16:9 composition"
+  umum_kesihatan: "close up macro of {subject}, clean white background, simple, clinical, detailed texture, high contrast, shallow depth of field"
+  kerjaya_bisnes: "simple close up of {subject}, clean background, professional, minimalist, soft lighting"
+  pendidikan_student: "simple top down view of {subject}, clean desk, bright natural lighting, minimalist"
+  hartanah_sewa: "simple close up of {subject}, clean background, modern, minimalist, soft warm lighting"
+  insurans: "simple close up of {subject}, clean background, professional, minimalist, soft lighting"
+  teknologi: "simple close up of {subject}, dark background, clean lines, minimalist, high tech look"
+  default: "simple close up of {subject}, clean background, minimalist, soft lighting, shallow depth of field"
 
 # Prompt builder configuration
 prompt_builder:
