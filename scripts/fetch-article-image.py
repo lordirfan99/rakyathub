@@ -1,18 +1,27 @@
 #!/usr/bin/env python3
 """
-fetch-article-image.py — Pre-download relevant article image BEFORE writing.
+⚠️ ⚠️ ⚠️ DEPRECATED — DO NOT USE ⚠️ ⚠️ ⚠️
 
-Usage:
-    python3 scripts/fetch-article-image.py <slug> <topic_keywords>
+This script is quarantined as of Jul 6, 2026. Image sourcing v2 uses:
+1. classification-first from image-sourcing-config.yaml
+2. image_generate (FLUX 2 Klein) for all non-BOF/non-kerajaan articles
 
-Example:
-    python3 scripts/fetch-article-image.py cara-buat-resume "resume writing career tips"
+Reasons for deprecation:
+- Unsplash IDs go stale within hours (collisions, 404s)
+- Keyword dict doesn't cover all topics → silent fallback to random images
+- picsum.photos last resort gives completely unrelated images (circuit boards for LASIK articles)
+- Replaced by deterministic classification + AI generation
 
-The script maps topic keywords to known-good Unsplash photo IDs and downloads
-the best-matching image as src/assets/images/hero-{slug}.jpg.
+If called, this script prints an error and exits. Remove this quarantine
+only if you're explicitly re-architecting the image pipeline.
 """
+import sys
+print("❌ ERROR: fetch-article-image.py is DEPRECATED (quarantined Jul 6, 2026).")
+print("   Use image-sourcing-config.yaml + image_generate instead.")
+sys.exit(1)
 
-import sys, os, random, re, json, hashlib, subprocess, urllib.request, shutil
+# ── Everything below is disabled — kept for reference only ──
+import os, random, re, json, hashlib, subprocess, urllib.request, shutil
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUTPUT_DIR = os.path.join(REPO, "src", "assets", "images")

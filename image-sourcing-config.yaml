@@ -1,0 +1,234 @@
+# RakyatHub Image Sourcing Config v2
+# Single source of truth — skills & cron prompts reference this only.
+# DO NOT duplicate these rules anywhere else.
+
+categories:
+  bof_tutorial:
+    match_keywords:
+      - cara mohon
+      - cara daftar
+      - panduan portal
+      - langkah
+      - login
+      - daftar akaun
+      - e-filing
+      - myeg
+      - portal rasmi
+      - cara semak
+      - cara bayar
+      - cara tuntut
+      - cara isi
+      - cara renew
+      - cara buka akaun
+      - cara check
+    tier: 1
+    method: screenshot
+    description: "Screenshot of the actual portal/UI — agent captures via browser"
+
+  kerajaan_cukai:
+    match_keywords:
+      - LHDN
+      - KWSP
+      - PERKESO
+      - cukai
+      - kerajaan
+      - KKM
+      - JPJ
+      - subsidi
+      - bantuan kerajaan
+      - MOF
+      - BNM
+      - KPDN
+      - kementerian
+      - agensi
+      - SSM
+      - KUSKOP
+      - TEKUN
+      - JKM
+      - JPN
+      - pembayaran
+      - skim
+    tier: 2
+    method: banner
+    description: "Agency logo + article title banner — local compositing"
+
+  umum_kesihatan:
+    match_keywords:
+      - kesihatan
+      - LASIK
+      - cermin mata
+      - diet
+      - penyakit
+      - hospital
+      - klinik
+      - perubatan
+      - insurans kesihatan
+      - medical card
+      - weight loss
+      - senaman
+      - mental health
+      - makanan sihat
+      - penyakit kritikal
+      - diabetes
+      - kencing manis
+      - darah tinggi
+      - kanser
+      - COVID
+    tier: 3
+    method: ai_gen
+    description: "AI-generated image via FLUX 2 Klein"
+
+  kerjaya_bisnes:
+    match_keywords:
+      - kerjaya
+      - gaji
+      - side hustle
+      - bisnes
+      - freelance
+      - kerja
+      - resume
+      - interview
+      - praktikal
+      - internship
+      - bisnes online
+      - dropship
+      - affiliate
+      - produk digital
+      - vending machine
+      - francais
+      - ssm
+      - perniagaan
+    tier: 3
+    method: ai_gen
+    description: "AI-generated image via FLUX 2 Klein"
+
+  pendidikan_student:
+    match_keywords:
+      - student
+      - universiti
+      - kolej
+      - UPU
+      - biasiswa
+      - ptptn
+      - belajar
+      - assignment
+      - exam
+      - SPM
+      - STPM
+      - matrikulasi
+      - asasi
+      - degree
+      - master
+      - phd
+      - research
+      - tesis
+    tier: 3
+    method: ai_gen
+    description: "AI-generated image via FLUX 2 Klein"
+
+  hartanah_sewa:
+    match_keywords:
+      - sewa rumah
+      - beli rumah
+      - hartanah
+      - PR1MA
+      - rumah pertama
+      - refinance
+      - loan rumah
+      - duti setem
+      - yuran guaman
+      - deposit rumah
+      - tenancy
+      - tuan tanah
+    tier: 3
+    method: ai_gen
+    description: "AI-generated image via FLUX 2 Klein"
+
+  insurans:
+    match_keywords:
+      - insurans
+      - takaful
+      - perlindungan
+      - car insurance
+      - road tax
+      - NCD
+      - medical insurance
+      - life insurance
+      - kritikal illness
+    tier: 3
+    method: ai_gen
+    description: "AI-generated image via FLUX 2 Klein"
+
+  teknologi:
+    match_keywords:
+      - teknologi
+      - apps
+      - AI
+      - scam
+      - keselamatan
+      - siber
+      - phishing
+      - e-wallet
+      - digital
+      - online
+      - internet
+    tier: 3
+    method: ai_gen
+    description: "AI-generated image via FLUX 2 Klein"
+
+  default:
+    tier: 3
+    method: ai_gen
+    description: "Fallback — AI-generated image"
+
+# Per-category prompt templates for Tier 3 ai_gen
+prompt_templates:
+  umum_kesihatan: "Malaysian healthcare {subject} setting, realistic photo style, warm natural lighting, professional clinical environment, no text, no logos, 16:9 composition"
+  kerjaya_bisnes: "Malaysian professional {subject} scene, modern workplace, natural lighting, diverse Malaysian people, realistic photography, no text, 16:9 composition"
+  pendidikan_student: "Malaysian university {subject} scene, students studying on campus, natural daylight, warm tones, candid photography style, no text, 16:9 composition"
+  hartanah_sewa: "Malaysian {subject} interior or exterior, modern property, warm lighting, clean minimalist style, realistic photo, no text, 16:9 composition"
+  insurans: "Malaysian family or professional {subject} scene, warm protective tone, realistic stock photo style, no text, 16:9 composition"
+  teknologi: "Modern Malaysian {subject} scene, clean tech environment, soft blue lighting, realistic photography, no text, 16:9 composition"
+  default: "Malaysian {subject} scene, realistic photography, warm lighting, professional editorial style, no text, no logos, 16:9 composition"
+
+# Prompt builder configuration
+prompt_builder:
+  subject_extract_instruction: "Given this article title and tags, describe in 8-12 words the single most visually concrete scene it should be illustrated with. Focus on Malaysian context. Output plain text only, no markdown, no quotes."
+  fallback_prompt: "Malaysian lifestyle scene, realistic photography, warm natural lighting, professional editorial photo, no text, no logos, 16:9 composition"
+
+# Relevance verification
+verify:
+  enabled: true
+  threshold: 0.2  # keyword overlap ratio — publish if >= this
+  max_retries: 1   # retry ai_gen once with stricter prompt
+  strict_suffix: ", close-up, no abstract elements, no electronics, no circuit boards, no generic stock photo, photorealistic"
+
+# Audit logging
+audit:
+  log_file: "src/data/image-audit.jsonl"
+  fields:
+    - slug
+    - title
+    - category
+    - tier_used
+    - method
+    - verified
+    - image_path
+    - timestamp
+
+# Available agency logos for Tier 2 banners
+agency_logos:
+  LHDN: "src/assets/logos/lhdn.png"
+  KWSP: "src/assets/logos/kwsp.png"
+  MOF: "src/assets/logos/mof.png"
+  BNM: "src/assets/logos/bnm.png"
+  KPDN: "src/assets/logos/kpdn.png"
+  PMO: "src/assets/logos/pmo.png"
+  KESUMA: "src/assets/logos/kesuma.png"
+  JPJ: "src/assets/logos/jpj.png"
+  KPT: "src/assets/logos/kpt.png"
+  JPN: "src/assets/logos/jpn.png"
+  KUSKOP: "src/assets/logos/kuskop.png"
+  TEKUN: "src/assets/logos/tekun.png"
+  PERKESO: "src/assets/logos/perkeso.png"
+  KKM: "src/assets/logos/kkm.png"
