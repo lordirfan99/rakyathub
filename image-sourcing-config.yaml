@@ -50,7 +50,6 @@ categories:
       - skim
     tier: 2
     method: banner
-    description: "Agency logo + article title banner — local compositing"
 
   umum_kesihatan:
     match_keywords:
@@ -76,7 +75,7 @@ categories:
       - COVID
     tier: 3
     method: ai_gen
-    description: "AI-generated image via FLUX 2 Klein"
+    description: "Pollinations gradient abstract banner — no stock photos"
 
   kerjaya_bisnes:
     match_keywords:
@@ -100,7 +99,7 @@ categories:
       - perniagaan
     tier: 3
     method: ai_gen
-    description: "AI-generated image via FLUX 2 Klein"
+    description: "Pollinations gradient abstract banner — no stock photos"
 
   pendidikan_student:
     match_keywords:
@@ -124,7 +123,7 @@ categories:
       - tesis
     tier: 3
     method: ai_gen
-    description: "AI-generated image via FLUX 2 Klein"
+    description: "Pollinations gradient abstract banner — no stock photos"
 
   hartanah_sewa:
     match_keywords:
@@ -142,7 +141,7 @@ categories:
       - tuan tanah
     tier: 3
     method: ai_gen
-    description: "AI-generated image via FLUX 2 Klein"
+    description: "Pollinations gradient abstract banner — no stock photos"
 
   insurans:
     match_keywords:
@@ -157,7 +156,7 @@ categories:
       - kritikal illness
     tier: 3
     method: ai_gen
-    description: "AI-generated image via FLUX 2 Klein"
+    description: "Pollinations gradient abstract banner — no stock photos"
 
   teknologi:
     match_keywords:
@@ -174,36 +173,37 @@ categories:
       - internet
     tier: 3
     method: ai_gen
-    description: "AI-generated image via FLUX 2 Klein"
+    description: "Pollinations gradient abstract banner — no stock photos"
 
   default:
     tier: 3
     method: ai_gen
-    description: "Fallback — AI-generated image"
+    description: "Pollinations gradient abstract banner — last fallback, no stock photos"
 
 # Per-category prompt templates for Tier 3 — Pollinations
-# IMPORTANT: Use SIMPLE/CLOSE-UP prompts, not complex scenes with people.
-# Pollinations produces better results with single-subject macro/close-up prompts.
+# STYLE: Gradient abstract banner with subtle geometric elements, no people, no text overlay.
+# Looks like premium OG image / social media banner — clean, modern, minimalist.
+# Pollinations text rendering is unreliable so NO text in prompt.
 prompt_templates:
-  umum_kesihatan: "close up macro of {subject}, clean white background, simple, clinical, detailed texture, high contrast, shallow depth of field"
-  kerjaya_bisnes: "simple close up of {subject}, clean background, professional, minimalist, soft lighting"
-  pendidikan_student: "simple top down view of {subject}, clean desk, bright natural lighting, minimalist"
-  hartanah_sewa: "simple close up of {subject}, clean background, modern, minimalist, soft warm lighting"
-  insurans: "simple close up of {subject}, clean background, professional, minimalist, soft lighting"
-  teknologi: "simple close up of {subject}, dark background, clean lines, minimalist, high tech look"
-  default: "simple close up of {subject}, clean background, minimalist, soft lighting, shallow depth of field"
+  umum_kesihatan: "abstract gradient banner teal to mint green, subtle hexagonal pattern, clean medical concept, no text, no people, minimalist, 1200x630"
+  kerjaya_bisnes: "abstract gradient banner navy to gold, subtle geometric shapes, professional business concept, no text, no people, minimalist, 1200x630"
+  pendidikan_student: "abstract gradient banner blue to purple, subtle dotted pattern, education concept, no text, no people, minimalist, 1200x630"
+  hartanah_sewa: "abstract gradient banner warm orange to brown, subtle building line pattern, property concept, no text, no people, minimalist, 1200x630"
+  insurans: "abstract gradient banner deep blue to teal, subtle shield pattern, protection concept, no text, no people, minimalist, 1200x630"
+  teknologi: "abstract gradient banner dark purple to neon cyan, subtle grid pattern, technology concept, no text, no people, minimalist, 1200x630"
+  default: "abstract gradient banner, clean modern financial concept, subtle geometric pattern, no text, no people, minimalist, professional, 1200x630"
 
 # Prompt builder configuration
 prompt_builder:
   subject_extract_instruction: "Given this article title and tags, describe in 8-12 words the single most visually concrete scene it should be illustrated with. Focus on Malaysian context. Output plain text only, no markdown, no quotes."
-  fallback_prompt: "Malaysian lifestyle scene, realistic photography, warm natural lighting, professional editorial photo, no text, no logos, 16:9 composition"
+  fallback_prompt: "abstract gradient banner, clean modern financial concept, subtle geometric pattern, no text, no people, minimalist, professional, 1200x630"
 
 # Relevance verification
 verify:
   enabled: true
   threshold: 0.2  # keyword overlap ratio — publish if >= this
   max_retries: 1   # retry ai_gen once with stricter prompt
-  strict_suffix: ", close-up, no abstract elements, no electronics, no circuit boards, no generic stock photo, photorealistic"
+  strict_suffix: ", gradient abstract banner, no photography, no people, no text overlay, minimalist geometric, no stock photo"
 
 # Audit logging
 audit:
