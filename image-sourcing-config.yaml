@@ -1,23 +1,66 @@
-# RakyatHub Image Sourcing Config v3
+# RakyatHub Image Sourcing Config v5
 # Single source of truth — skills & cron prompts reference this only.
 # DO NOT duplicate these rules anywhere else.
 #
-# TIER HIERARCHY:
-#   Tier 1 (OG News)   → OpenGraph image from referenced news article URL
-#   Tier 2 (Screenshot) → Screenshot of portal/website UI via browser
-#   Tier 3 (Banner)    → Generated gradient banner with title overlay (fallback)
+# IMAGE SELECTION FLOW (MANDATORY — follow for EVERY article):
 #
-# Always try Tier 1 first, then Tier 2, then Tier 3.
-# NO STOCK PHOTOS EVER.
+#   Step 1 — TIER 1 (OG News / Real Image)
+#   =========================================
+#   Search for a real news/event photo FIRST, REGARDLESS of category.
+#   Check if article mentions ANY of these:
+#   - Government agency (JAKIM, KWSP, LHDN, JPJ, KPDN, KKM, MOF, SSM, etc.)
+#   - Public figure (PM, Menteri, CEO, selebriti)
+#   - Real company / brand
+#   - Real event / announcement / press release
+#   - Viral incident / news story / scandal
+#   - Policy change / law / regulation
+#
+#   If YES → search news portals for OG image:
+#     malaymail.com, thestar.com.my, sinarharian.com.my, astroawani.com,
+#     nst.com.my, bharian.com.my, hmetro.com.my
+#     → Extract og:image from the news URL
+#     → MUST verify with vision_analyze or file check (>10KB, real JPEG)
+#     → If valid → USE IT. Skip Step 2 & 3.
+#
+#   Step 2 — TIER 2 (Screenshot / Portal Capture)
+#   ==============================================
+#   Only if Step 1 produces NO valid image.
+#   Use when article is about:
+#   - Portal walkthrough / cara daftar / cara mohon / tutorial log masuk
+#   - Government or corporate portal UI (MyTax, MyEG, JPJ, MyeHALAL, etc.)
+#   - Viral social media post, digital scam, online chat screenshot
+#   - E-commerce listing, app interface
+#   → Capture via Chrome CDP (port 9222) — browser_navigate + browser_vision
+#   → Crop relevant area
+#
+#   Step 3 — TIER 3 (AI-Generated Banner)
+#   ======================================
+#   ONLY if Steps 1 AND 2 produce NO valid image.
+#   Use for conceptual/educational topics:
+#   - Tips, guides, listicles, comparisons
+#   - Lifestyle, health, career, education (general advice)
+#   - Definitions, glossaries, financial concepts
+#   → Generate via scripts/generate-hero-banner.py <slug> "<title>" --category <category>
+#
+#   NO STOCK PHOTOS EVER.
+#
+# =============================================================================
+# CATEGORY REFERENCE — used ONLY for:
+#   a) Determining the Tier 3 fallback banner style/prompt
+#   b) Agency logo compositing for Tier 2 screenshots
+#   c) Keyword matching as a SIGNAL to check Tier 1 possibilities
+#
+#   NOTE: The "fallback_tier" below is what you use when Tier 1 fails —
+#   it does NOT mean "skip Tier 1 and go straight to this tier."
+# =============================================================================
 
 categories:
   berita_og:
     match_keywords:
-      - # Tier 1 — articles based on news sources
-      # These take OG image from the news article URL referenced in the post
-    tier: 1
+      - # No automatic keywords — use Step 1 logic (check if article is news-based)
+    fallback_tier: 1
     method: og_news
-    description: "OpenGraph image from referenced news article URL — agent scrapes og:image from the source URL"
+    description: "News-based article — Tier 1 is the EXPECTED source. Search news portals for OG image."
 
   bof_tutorial:
     match_keywords:
@@ -37,9 +80,9 @@ categories:
       - cara renew
       - cara buka akaun
       - cara check
-    tier: 2
+    fallback_tier: 2
     method: screenshot
-    description: "Screenshot of the actual portal/UI — agent captures via browser"
+    description: "Portal tutorial — Tier 1 first (agency announcement?), then Tier 2 screenshot of portal UI."
 
   kerajaan_cukai:
     match_keywords:
@@ -64,9 +107,19 @@ categories:
       - JPN
       - pembayaran
       - skim
-    tier: 2
+      - JAKIM
+      - MyeHALAL
+      - halal
+      - MyTax
+      - mySalam
+      - e-Tunai
+      - STR
+      - SARA
+      - Sumbangan
+      - BUDI
+    fallback_tier: 2
     method: screenshot
-    description: "Screenshot of the actual portal/UI — agent captures via browser"
+    description: "Government/tax — **TIER 1 FIRST** (news about policy changes, minister announcements). Fallback Tier 2 screenshot of portal."
 
   umum_kesihatan:
     match_keywords:
@@ -90,9 +143,9 @@ categories:
       - darah tinggi
       - kanser
       - COVID
-    tier: 3
+    fallback_tier: 3
     method: ai_gen
-    description: "Generated gradient banner with title overlay — Tier 3 fallback"
+    description: "Health — Tier 1 if news-based (new hospital, disease outbreak, policy). Otherwise Tier 3 banner."
 
   kerjaya_bisnes:
     match_keywords:
@@ -114,9 +167,9 @@ categories:
       - francais
       - ssm
       - perniagaan
-    tier: 3
+    fallback_tier: 3
     method: ai_gen
-    description: "Generated gradient banner with title overlay — Tier 3 fallback"
+    description: "Career/business — Tier 1 if company news, product launch, entrepreneur feature. Otherwise Tier 3."
 
   pendidikan_student:
     match_keywords:
@@ -138,9 +191,9 @@ categories:
       - phd
       - research
       - tesis
-    tier: 3
+    fallback_tier: 3
     method: ai_gen
-    description: "Generated gradient banner with title overlay — Tier 3 fallback"
+    description: "Education — Tier 1 if scholarship news, education policy. Otherwise Tier 3."
 
   hartanah_sewa:
     match_keywords:
@@ -156,9 +209,9 @@ categories:
       - deposit rumah
       - tenancy
       - tuan tanah
-    tier: 3
+    fallback_tier: 3
     method: ai_gen
-    description: "Generated gradient banner with title overlay — Tier 3 fallback"
+    description: "Property — Tier 1 if property news, PR1MA launch. Otherwise Tier 3."
 
   insurans:
     match_keywords:
@@ -171,9 +224,9 @@ categories:
       - medical insurance
       - life insurance
       - kritikal illness
-    tier: 3
+    fallback_tier: 3
     method: ai_gen
-    description: "Generated gradient banner with title overlay — Tier 3 fallback"
+    description: "Insurance — Tier 1 if industry news, new product. Otherwise Tier 3."
 
   teknologi:
     match_keywords:
@@ -188,19 +241,18 @@ categories:
       - digital
       - online
       - internet
-    tier: 3
+    fallback_tier: 3
     method: ai_gen
-    description: "Generated gradient banner with title overlay — Tier 3 fallback"
+    description: "Tech — Tier 1 if scam news, data breach, product launch. Otherwise Tier 3."
 
   default:
-    tier: 3
+    fallback_tier: 3
     method: ai_gen
-    description: "Generated gradient banner with title overlay — Tier 3 fallback"
+    description: "Default — always try Tier 1 first for any real-world reference."
 
-# Per-category prompt templates for Tier 3 — generated banner with title
-# STYLE: Gradient abstract background with article title overlay (generated by generate-hero-banner.py)
-# Looks like premium OG image / social media banner — clean, modern, minimalist with text.
-# Pollinations provides the gradient background; Pillow overlays the title.
+# =============================================================================
+# TIER 3 PROMPT TEMPLATES
+# =============================================================================
 prompt_templates:
   umum_kesihatan: "abstract gradient banner teal to mint green, subtle hexagonal pattern, clean medical concept, no text, no people, minimalist, 1200x630"
   kerjaya_bisnes: "abstract gradient banner navy to gold, subtle geometric shapes, professional business concept, no text, no people, minimalist, 1200x630"
@@ -210,21 +262,27 @@ prompt_templates:
   teknologi: "abstract gradient banner dark purple to neon cyan, subtle grid pattern, technology concept, no text, no people, minimalist, 1200x630"
   default: "abstract gradient banner, clean modern financial concept, subtle geometric pattern, no text, no people, minimalist, professional, 1200x630"
 
-# Prompt builder configuration
+# =============================================================================
+# PROMPT BUILDER
+# =============================================================================
 prompt_builder:
   subject_extract_instruction: "Given this article title and tags, describe in 8-12 words the single most visually concrete scene it should be illustrated with. Focus on Malaysian context. Output plain text only, no markdown, no quotes."
   fallback_prompt: "abstract gradient background, smooth blur, no text, no objects, minimalist banner 1200x630"
   script: "python3 scripts/generate-hero-banner.py <slug> <title> --category <category>"
   script_description: "Generates gradient banner via Pollinations + Pillow text overlay — OG image banner style"
 
-# Relevance verification
+# =============================================================================
+# VERIFICATION
+# =============================================================================
 verify:
   enabled: true
-  threshold: 0.2  # keyword overlap ratio — publish if >= this
-  max_retries: 1   # retry ai_gen once with stricter prompt
+  threshold: 0.2
+  max_retries: 1
   strict_suffix: ", gradient abstract banner, no photography, no people, no text overlay, minimalist geometric, no stock photo"
 
-# Audit logging
+# =============================================================================
+# AUDIT
+# =============================================================================
 audit:
   log_file: "src/data/image-audit.jsonl"
   fields:
@@ -237,7 +295,9 @@ audit:
     - image_path
     - timestamp
 
-# Available agency logos for Tier 2 banners
+# =============================================================================
+# AGENCY LOGOS (Tier 2 banner compositing)
+# =============================================================================
 agency_logos:
   LHDN: "src/assets/logos/lhdn.png"
   KWSP: "src/assets/logos/kwsp.png"
