@@ -129,3 +129,10 @@ Yang penting:
 Tapi ingat — semua unjuran ni bergantung kepada damai Iran-AS yang kekal dan ekonomi global yang stabil. Jadi, manfaatkan peluang ni dengan bijak, jangan terbawa-bawa dengan FOMO.
 
 *Pantau perkembangan ringgit dan dapatkan tips kewangan terkini di [RakyatHub.my](https://rakyathub.my).*
+
+
+**Baca juga:**
+- [Cara Urus Duit Elaun Belajar — Panduan Bijak Student](/cara-urus-duit-elaun-belajar/)
+- [Cara Kira Gaji Bersih](/cara-kira-gaji-bersih-panduan-potongan-kwsp-perkeso-pcb/)
+- [Ringgit Jatuh RM4.07 — Gaji RM3,000 Kena Pukul?](/ringgit-melemah-impak-belanja-anak-muda/)
+

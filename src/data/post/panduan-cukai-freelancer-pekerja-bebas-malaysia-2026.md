@@ -246,3 +246,10 @@ Cukai freelancer di Malaysia sebenarnya tak rumit kalau korang faham asasnya. Pe
 Dengan Akta Pekerja Gig 2025 (Akta 872) yang berkuat kuasa 31 Mac 2026 dan MyKad=TIN mulai 1 Mac 2026, LHDN makin senang kesan pendapatan tak diisytihar. Jangan risau, yang penting korang jujur dan patuh — cukai freelancer di Malaysia masih rendah berbanding negara lain.
 
 Nak mula? Daftar MyTax, kumpul resit, dan failkan Borang B sebelum 15 Julai 2026.
+
+
+**Baca juga:**
+- [Cara Bayar Cukai Pendapatan — FPX & Kaunter LHDN](/cara-bayar-cukai-pendapatan-online-lhdn-2026/)
+- [Panduan Lengkap E-Invois Malaysia 2026](/panduan-e-invois-malaysia-2026/)
+- [Cukai Pelaburan Malaysia 2026 — Panduan Lengkap](/panduan-cukai-pelaburan-malaysia-2026/)
+

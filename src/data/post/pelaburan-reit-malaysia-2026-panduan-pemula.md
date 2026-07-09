@@ -158,3 +158,10 @@ Sesuai untuk fresh graduate, pekerja muda, atau sesiapa yang nak pendapatan pasi
 Nak kira unjuran dividen? Guna **[kalkulator ASB](https://rakyathub.my/kalkulator/asb/)** untuk anggaran dividen compounding — konsepnya sama untuk REIT.
 
 *Dapatkan panduan kewangan dan pelaburan terkini hanya di [RakyatHub.my](https://rakyathub.my).*
+
+
+**Baca juga:**
+- [ETF Malaysia 2026 — Panduan Melabur Dana Indeks](/etf-malaysia-panduan-lengkap-2026/)
+- [Cara Beli Saham USA Guna Moomoo Malaysia 2026](/7-rahsia-bijak-beli-saham-usa-guna-moomoo-malaysia-panduan-lengkap/)
+- [Panduan Pelaburan Unit Trust & ASNB Malaysia 2026](/panduan-pelaburan-unit-trust-asnb-malaysia-2026/)
+

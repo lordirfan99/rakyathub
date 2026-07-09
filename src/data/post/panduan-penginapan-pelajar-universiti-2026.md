@@ -268,3 +268,10 @@ Pilih penginapan student bukan keputusan yang boleh terburu-buru. Ia bergantung 
 Yang penting, kira betul-betul bajet bulanan termasuk semua kos — bukan setakat sewa. Jangan sampai komitmen penginapan buat korang stress fikir duit setiap bulan.
 
 Semoga dipermudahkan urusan penginapan dan selamat menempuh alam universiti!
+
+
+**Baca juga:**
+- [Panduan Lengkap Cari Internship Malaysia 2026](/panduan-cari-internship-latihan-industri-malaysia-2026/)
+- [Panduan Belajar Kumpulan Efektif Student](/panduan-belajar-kumpulan-efektif-student/)
+- [Tips Presentasi Lisan Universiti Dengan Yakin](/tips-presentasi-lisan-universiti-dengan-yakin/)
+

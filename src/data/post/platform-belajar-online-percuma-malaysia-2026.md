@@ -20,6 +20,12 @@ faq:
     answer: "Kebanyakan kursus percuma mengambil masa antara 4 hingga 12 jam untuk diselesaikan, bergantung pada topik dan platform. Google Digital Garage siap dalam 2-4 jam manakala kursus Coursera mungkin ambil 1-2 bulan dengan 3-5 jam seminggu."
 ---
 
+**Baca juga:**
+- [Cara Hias Bilik Asrama Aesthetic — 10 Idea Bajet RM50](/cara-hias-bilik-asrama-aesthetic/)
+- [Biasiswa Lepasan SPM 2026](/biasiswa-lepasan-spm-2026-jpa-mara-petronas-syarat-cara-mohon/)
+- [Baucar Buku MADANI RM100 2026 — Panduan Lengkap](/baucar-buku-madani-2026-cara-tebus-syarat/)
+
+
 ## 📚 Revolusi Pembelajaran Digital
 
 Dulu, nak belajar skill baru kena daftar kursus di kolej atau bayar ribuan ringgit untuk training. Sekarang, dengan internet dan komitmen masa yang konsisten, korang boleh belajar apa saja secara percuma — dari coding, AI, pemasaran digital, data analytics, sampai kemahiran insaniah.

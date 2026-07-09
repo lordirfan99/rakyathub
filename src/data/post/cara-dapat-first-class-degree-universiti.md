@@ -20,6 +20,12 @@ Dalam sistem universiti Malaysia, first class degree biasanya memerlukan **CGPA 
 
 ---
 
+**Baca juga:**
+- [Keselamatan Pelajar Universiti Malaysia 2026](/keselamatan-pelajar-universiti-2026/)
+- [Tips Komunikasi & Soft Skills untuk Student](/tips-soft-skills-komunikasi-student/)
+- [Cara Kira GPA dan CGPA Universiti Malaysia](/panduan-kira-gpa-cgpa-universiti-malaysia/)
+
+
 ## 📚 Strategi Belajar untuk First Class
 
 ### 1. Fahamkan Sistem Penilaian Subjek

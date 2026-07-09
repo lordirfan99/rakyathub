@@ -197,3 +197,10 @@ Yang penting:
 Nak kira anggaran premium? Guna **[kalkulator insurans](https://rakyathub.my/kalkulator/)** untuk bandingkan pelan ikut bajet korang.
 
 *Dapatkan panduan kewangan dan insurans terkini hanya di [RakyatHub.my](https://rakyathub.my).*
+
+
+**Baca juga:**
+- [Cara Turunkan Kolestrol & Darah Tinggi Secara Semulajadi](/cara-turunkan-kolestrol-darah-tinggi-semulajadi-2026/)
+- [Pemakanan Sihat Malaysia — Cara Makan & Jimat](/panduan-pemakanan-sihat-malaysia-2026/)
+- [Panduan Harga Rawatan Gigi Malaysia 2026](/panduan-harga-rawatan-gigi-malaysia-2026/)
+

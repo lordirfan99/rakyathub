@@ -113,6 +113,12 @@ Selain PTPTN, ada juga biasiswa:
 
 ---
 
+**Baca juga:**
+- [Cara Cari Sumber Rujukan Ilmiah untuk Assignment](/cara-cari-sumber-rujukan-ilmiah-untuk-assignment/)
+- [Cara Buat Jadual Belajar Efektif untuk Student](/cara-buat-jadual-belajar-efektif-student/)
+- [Cara Dapat First Class Degree: Tips Real dari Graduan](/cara-dapat-first-class-degree-universiti/)
+
+
 ## 📚 Langkah 4: Persediaan Akademik & Mental
 
 ### Tips Survive Semester Pertama

@@ -241,3 +241,10 @@ Gaji tinggi sikit awal-awal, effect compounding dia besar untuk tahun-tahun akan
 *Untuk lebih tips kewangan dan kerjaya, jangan lupa baca artikel kami yang lain:* 
 - [Tips temuduga kerja untuk fresh graduate](/tips-temuduga-kerja-fresh-graduate-malaysia) — persediaan interview lengkap
 - [Cara kira gaji bersih](/cara-kira-gaji-bersih-panduan-potongan-kwsp-perkeso-pcb) — faham potongan gaji bulanan
+
+
+**Baca juga:**
+- [Template E-mel Mohon Praktikal & Internship (Copy &](/template-emel-mohon-praktikal/)
+- [Panduan Kerjaya Kreatif Malaysia 2026](/panduan-kerjaya-kreatif-malaysia-2026/)
+- [Kerjaya Perbankan & Kewangan Malaysia 2026](/panduan-kerjaya-perbankan-kewangan-malaysia-2026/)
+

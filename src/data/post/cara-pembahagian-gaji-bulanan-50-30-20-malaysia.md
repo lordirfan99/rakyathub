@@ -128,6 +128,12 @@ Bulan pertama guna 50/30/20, cuba kurangkan wants kepada 20% dulu. Lebihan masuk
 
 Setiap hujung bulan, semak balik pembahagian gaji. Adjust ikut keperluan.
 
+**Baca juga:**
+- [Cara Semak Saman JPJ & PDRM Online 2026](/semakan-saman-jpj-pdrm/)
+- [Contoh Resume Fresh Graduate Tiada Pengalaman](/contoh-resume-fresh-graduate-tiada-pengalaman/)
+- [Cara Baca Slip Gaji 2026 — Faham Potongan Gaji](/cara-baca-slip-gaji-malaysia-panduan-lengkap/)
+
+
 ## Rujukan Rasmi
 
 - **Kementerian Kewangan Malaysia** — [www.mof.gov.my](https://www.mof.gov.my)

@@ -178,3 +178,10 @@ Untuk korang yang nak mula planning, guna [Kalkulator Loan Rumah](/kalkulator/lo
 - SPNB Rumah Mesra Rakyat: https://www.spnb.com.my
 - SJKP — Skim Jaminan Kredit Perumahan: https://www.sjkp.com.my
 - KPKT — Kementerian Perumahan dan Kerajaan Tempatan
+
+
+**Baca juga:**
+- [Cara Tuntut Deposit Sewa Rumah Malaysia](/cara-tuntut-deposit-sewa-rumah-malaysia/)
+- [Cara Cari Bilik & Rumah Sewa Malaysia](/cara-cari-bilik-sewa-rumah-malaysia-platform-terbaik/)
+- [Perjanjian Sewa Rumah Malaysia](/perjanjian-sewa-rumah-malaysia-hak-penyewa-tips-elak-rugi/)
+

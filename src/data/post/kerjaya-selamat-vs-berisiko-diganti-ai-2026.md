@@ -197,3 +197,10 @@ Gaji ikut bidang dan pengalaman. Doktor boleh dapat RM4,000–RM20,000+, juruter
 
 **5. Macam mana nak buat resume untuk saingan era AI?**
 Guna pendekatan skills-based resume — bukan senarai tugas, tapi tonjolkan hasil dan impak yang korang bawa. Gunakan [DocuKilat](https://docukilat.rakyathub.my) untuk hasilkan resume profesional dengan template yang direka khas untuk standard industri 2026. Dalam zaman AI ni, cara korang bentang diri dalam resume adalah sama penting dengan skill korang sendiri.
+
+
+**Baca juga:**
+- [Cara Mohon Kerja Kerajaan SPA9 — Panduan Lengkap](/cara-mohon-kerja-kerajaan-spa9-2026/)
+- [Panduan Kerjaya Digital Marketing Malaysia 2026](/panduan-kerjaya-digital-marketing-malaysia-2026/)
+- [Cara Buat Akaun LinkedIn Untuk Student (Panduan](/cara-buat-akaun-linkedin-untuk-student/)
+

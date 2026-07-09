@@ -233,3 +233,10 @@ Tidak seperti kemasukan PDRM atau ATM yang ada intake tetap, SPA9 membenarkan pe
 - **Panduan SSPA:** https://www.jpa.gov.my/sspa
 
 > **Penafian:** Maklumat dalam artikel ini adalah berdasarkan data terkini sehingga Julai 2026. Syarat kelayakan, kadar gaji, dan proses permohonan boleh berubah mengikut pekeliling kerajaan. Sila rujuk portal rasmi SPA untuk kemas kini terbaru sebelum membuat permohonan.
+
+
+**Baca juga:**
+- [Cara Semak Saman JPJ & PDRM Online 2026](/semakan-saman-jpj-pdrm/)
+- [Panduan Kerjaya Farmasi Malaysia 2026](/panduan-kerjaya-farmasi-malaysia-2026/)
+- [Kerjaya Akauntan & Perakaunan Malaysia 2026](/panduan-kerjaya-akauntan-perakaunan-malaysia-2026/)
+

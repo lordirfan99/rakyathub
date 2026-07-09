@@ -221,3 +221,10 @@ Antara jenama popular termasuk Habib Jewels, Poh Kong, Tomei, Wah Chan, dan Publ
 
 ### 5. Macam mana nak tahu emas barang kemas tu tulen atau tidak?
 Semak cop atau tanda pada barang kemas — emas 916 akan ada cap '916' atau '22K'. Pastikan beli dari kedai berlesen dan minta resit rasmi. Guna Semak Mule PDRM untuk semak nombor akaun bank kedai, dan semak ulasan online sebelum buat pembelian besar.
+
+
+**Baca juga:**
+- [Harga Emas Cecah RM764/g](/harga-emas-cecah-rm764-6-platform-pelaburan-terbaik-2026/)
+- [Pajak Gadai Emas Ar-Rahnu](/pajak-gadai-emas-ar-rahnu-panduan-kira-upah-simpan/)
+- [Simpan Emas untuk Pendidikan Anak](/simpan-emas-untuk-pendidikan-anak-strategi-jangka-panjang/)
+

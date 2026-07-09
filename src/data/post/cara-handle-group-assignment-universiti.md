@@ -116,3 +116,10 @@ Jangan hantar group assignment terus selepas siap. Lakukan langkah berikut:
 Group assignment universiti bukanlah sesuatu yang perlu ditakuti. Dengan perancangan yang baik, komunikasi yang jelas, dan pembahagian tugas yang adil, anda bukan sahaja dapat menyiapkan tugasan dengan baik malah dapat markah tinggi. Yang paling penting, kemahiran kerja berpasukan ini akan menjadi aset berharga apabila anda mula bekerja nanti.
 
 Ingat, kejayaan group assignment terletak pada kerjasama semua ahli. Jadi, ambil inisiatif, beri yang terbaik, dan bantu rakan sekumpulan anda untuk sama-sama berjaya.
+
+
+**Baca juga:**
+- [Cara Buat Kajian Literatur & Literature Review](/cara-buat-kajian-literatur-literature-review/)
+- [Tips pilih kursus universiti lepasan SPM](/tips-pilih-kursus-universiti-lepasan-spm/)
+- [Baucar Buku MADANI RM100 2026 — Panduan Lengkap](/baucar-buku-madani-2026-cara-tebus-syarat/)
+

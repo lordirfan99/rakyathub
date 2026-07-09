@@ -177,3 +177,10 @@ Kad kredit dan kad debit bukan lawan, tapi alat yang berbeza untuk tujuan berbez
 Yang penting bukan jenis kad, tapi **cara korang guna**. Kad kredit dengan disiplin adalah alat kewangan yang power. Kad kredit tanpa disiplin adalah tiket ke lubang hutang. Kad debit pulak selamat tapi tak membantu bina skor kredit.
 
 **Paling ideal:** Mula dengan kad debit. Bila dah kerja stabil, mohon satu kad kredit asas. Guna debit untuk harian, kredit untuk strategic purchase. Bayar penuh setiap bulan. Ulang sampai kaya.
+
+
+**Baca juga:**
+- [7 Side Hustle Paling Laku di Malaysia 2026](/7-side-hustle-paling-laku-malaysia-2026/)
+- [Panduan Bajet 50/30/20 Malaysia — Cara Urus Gaji & Simpan...](/cadangan-bajet-50-30-20-di-malaysia/)
+- [Harga Minyak Turun! RON95 & Diesel Lebih Murah](/harga-minyak-turun-4-10-jun-2026/)
+

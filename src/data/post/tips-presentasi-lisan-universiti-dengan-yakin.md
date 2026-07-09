@@ -283,3 +283,10 @@ Kunci untuk jadi presenter yang yakin:
 Ingat, setiap presenter profesional pun pernah nervous. Bezanya diorang dah belajar cara handle nervous tu. Latihan dan pengalaman adalah guru terbaik.
 
 **Tindakan sekarang:** Ambil satu tugasan presentasi yang akan datang. Guna checklist dan teknik dalam artikel ni untuk persediaan. Lepas present, minta feedback dan nilai apa yang boleh dibaiki. Ulang untuk presentasi seterusnya. Lama-lama, keyakinan tu akan datang sendiri.
+
+
+**Baca juga:**
+- [Tips Komunikasi & Soft Skills untuk Student](/tips-soft-skills-komunikasi-student/)
+- [Cara Dapat First Class Degree: Tips Real dari Graduan](/cara-dapat-first-class-degree-universiti/)
+- [Panduan Penginapan Pelajar Universiti 2026](/panduan-penginapan-pelajar-universiti-2026/)
+

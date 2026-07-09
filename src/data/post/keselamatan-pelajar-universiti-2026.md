@@ -143,3 +143,10 @@ Mulakan hari ni: save nombor kecemasan dalam phone, share location dengan keluar
 SEO Title Tag: Keselamatan Pelajar Universiti Malaysia 2026
 Meta Description: Panduan keselamatan pelajar universiti Malaysia 2026 — tips elak jenayah kampus, keselamatan dalam dan luar kampus, nombor kecemasan, dan langkah pencegahan.
 URL Slug: /keselamatan-pelajar-universiti-2026/
+
+
+**Baca juga:**
+- [Cara Atasi Prokrastinasi Pelajar Universiti](/tips-mengatasi-prokrastinasi-pelajar-universiti/)
+- [Panduan Lengkap Masuk Universiti 2026](/persediaan-masuk-universiti-panduan-2026/)
+- [Panduan Belajar Kumpulan Efektif Student](/panduan-belajar-kumpulan-efektif-student/)
+

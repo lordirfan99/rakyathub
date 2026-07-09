@@ -145,3 +145,10 @@ Jangan tengok gaji pokok semata. Kira total kompensasi — termasuk bonus (keraj
 
 **5. Ada tak pekerja yang kerja dua-dua — kerajaan dan swasta?**
 Tak dibenarkan kerja tetap di dua sektor serentak. Tapi ramai penjawat awam yang buat business sampingan atau freelance dengan kebenaran JPA. Pekerja swasta pun ramai buat side hustle — grab, affiliate, atau bisnes kecil-kecilan. Cuma pastikan ia tak melanggar kontrak perjanjian kerja korang. Kalau nak mula side hustle, baca [panduan 7 side hustle paling laku 2026](https://rakyathub.my/7-side-hustle-paling-laku-malaysia-2026/).
+
+
+**Baca juga:**
+- [Panduan Kerjaya Farmasi Malaysia 2026](/panduan-kerjaya-farmasi-malaysia-2026/)
+- [Panduan Atasi Underemployment Graduan Malaysia](/panduan-atasi-underemployment-graduan-malaysia-2026/)
+- [Kerjaya Perbankan & Kewangan Malaysia 2026](/panduan-kerjaya-perbankan-kewangan-malaysia-2026/)
+

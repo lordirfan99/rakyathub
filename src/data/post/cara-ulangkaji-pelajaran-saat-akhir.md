@@ -168,3 +168,10 @@ Ingat — skor exam bukan tentang berapa jam korang duduk study, tapi **macam ma
 Nak dapatkan template jadual ulangkaji last minute yang siap pakai? Download percuma dekat [DocuKilat](https://docukilat.rakyathub.my) — edit dalam Google Docs, print, dan tampal depan meja belajar!
 
 📌 *Jangan lupa bookmark rakyathub.my untuk lebih banyak tips belajar dan student life!*
+
+
+**Baca juga:**
+- [Cara Buat Slaid Pembentangan Menarik](/cara-buat-slaid-pembentangan-menarik/)
+- [Panduan Lengkap Mohon PTPTN 2026](/panduan-lengkap-mohon-ptptn-2026/)
+- [Baucar Buku MADANI RM100 2026 — Panduan Lengkap](/baucar-buku-madani-2026-cara-tebus-syarat/)
+

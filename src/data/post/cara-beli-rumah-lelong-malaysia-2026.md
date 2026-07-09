@@ -275,3 +275,9 @@ Dengan perancangan yang betul, rumah lelong boleh jadi tiket korang untuk memili
 - BNM Senarai Bank: bnm.gov.my/banking
 - KWSP Pengeluaran Perumahan: kwsp.gov.my
 
+
+**Baca juga:**
+- [Perjanjian Sewa Rumah Malaysia](/perjanjian-sewa-rumah-malaysia-hak-penyewa-tips-elak-rugi/)
+- [Cara Tuntut Deposit Sewa Rumah Malaysia](/cara-tuntut-deposit-sewa-rumah-malaysia/)
+- [Cara Cari Bilik & Rumah Sewa Malaysia](/cara-cari-bilik-sewa-rumah-malaysia-platform-terbaik/)
+

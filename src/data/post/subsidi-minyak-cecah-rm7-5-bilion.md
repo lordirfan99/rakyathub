@@ -117,3 +117,9 @@ Nak faham lebih lanjut tentang pengurusan kewangan peribadi? Baca artikel-artike
 → [Gaji RM3,500 Sebulan — Cara Urus Ikut 50/30/20](/gaji-rm3500-breakdown-realistik)
 → [Cara Kira Gaji Bersih Selepas KWSP & SOCSO](/cara-kira-gaji-bersih-panduan-potongan-kwsp-perkeso-pcb)
 → [Daftar surat kuasa wakil untuk urusan bank dengan DocuKilat](https://docukilat.rakyathub.my)
+
+
+**Baca juga:**
+- [Pakar Ramal Ringgit RM3.80 Akhir 2026](/affin-hwang-ringgit-rm380-klci-1780-2026/)
+- [PRS 2026 — Skim Persaraan Swasta Untuk Tambah Simpanan](/prs-skim-persaraan-swasta-panduan-lengkap-2026/)
+- [Tabung Kecemasan Malaysia](/tabung-kecemasan-malaysia-berapa-patut-simpan-cara-mula/)

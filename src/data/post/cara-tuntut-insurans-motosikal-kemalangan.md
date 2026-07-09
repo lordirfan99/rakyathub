@@ -297,3 +297,8 @@ Dengan mengikuti panduan ni, korang boleh pastikan tuntutan insurans motosikal d
 **Baca juga:** [Panduan Lengkap Insurans Motosikal Malaysia](/insurans-motosikal-malaysia-2026-panduan-lengkap-harga/) — faham jenis polisi, NCD, dan cara pilih insurans motor paling sesuai dengan bajet korang.
 
 **Kata Kunci:** cara tuntut insurans motosikal, claim insurans motor kemalangan, tuntutan kemalangan motosikal Malaysia, laporan polis kemalangan motor, cara claim motor langgar kereta, proses tuntutan insurans motor, NCD motosikal hilang claim
+
+
+**Baca juga:**
+- [Apa Itu Takaful? Panduan Lengkap Malaysia 2026](/panduan-lengkap-takaful-malaysia/)
+- [Pelan Base MHIT 2026](/base-mhit-plan-insurans-kerajaan-2026/)

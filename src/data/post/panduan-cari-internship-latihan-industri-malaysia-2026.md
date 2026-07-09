@@ -200,3 +200,9 @@ Cari internship memang proses yang memenatkan — dari siapkan resume, hantar be
 Paling penting: **start awal, konsisten, dan jangan putus asa.** Guna semua platform dan jaringan yang ada. Satu tawaran intern yang betul boleh ubah hala tuju kerjaya korang.
 
 Baca juga tips menulis assignment markah tinggi dan cara skor pointer 4.0 untuk persediaan akademik yang mantap sebelum melangkah ke alam pekerjaan.
+
+
+**Baca juga:**
+- [Cara Buat Kawan Baru di Universiti](/cara-buat-kawan-baru-di-universiti/)
+- [Panduan Penginapan Pelajar Universiti 2026](/panduan-penginapan-pelajar-universiti-2026/)
+- [Cara Kira GPA dan CGPA Universiti Malaysia](/panduan-kira-gpa-cgpa-universiti-malaysia/)

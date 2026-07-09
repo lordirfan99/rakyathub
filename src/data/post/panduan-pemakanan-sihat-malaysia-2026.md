@@ -161,3 +161,10 @@ Pemakanan sihat bukan pasal diet ketat atau berlapar. Ia pasal keseimbangan — 
 Yang paling penting, **jangan tunggu sampai sakit baru nak jaga makan**. 54.4% rakyat Malaysia dewasa ada berat badan berlebihan — jangan jadi salah seorang dari statistik tu. Mulakan dengan perubahan kecil, konsisten, dan hasilnya akan korang rasa sendiri.
 
 **Kata Kunci:** pemakanan sihat Malaysia, piramid makanan Malaysia 2026, Pinggan Sihat Malaysia, cara makan sihat bajet rendah, diet sihat Malaysia, tips pemakanan sihat, KKM pemakanan sihat
+
+
+**Baca juga:**
+- [Panduan Penjagaan Kesihatan Wanita Malaysia 2026](/panduan-kesihatan-wanita-malaysia-2026/)
+- [Panduan Lengkap Cermin Mata & LASIK Malaysia 2026](/cermin-mata-lasik-malaysia-harga/)
+- [Panduan Harga Rawatan Gigi Malaysia 2026](/panduan-harga-rawatan-gigi-malaysia-2026/)
+

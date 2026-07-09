@@ -15,6 +15,12 @@ author: RakyatHub
 
 Plagiat adalah salah satu kesalahan akademik paling serius di universiti Malaysia. Ramai pelajar tidak sengaja terjebak kerana kurang faham cara elak plagiat dengan betul. Artikel ini akan bantu anda faham apa itu plagiat, jenis-jenisnya, dan cara mudah untuk mengelakkannya dalam setiap assignment.
 
+**Baca juga:**
+- [Panduan Mohon Biasiswa Universiti 2026](/panduan-mohon-biasiswa-universiti-2026/)
+- [Biasiswa Lepasan SPM 2026](/biasiswa-lepasan-spm-2026-jpa-mara-petronas-syarat-cara-mohon/)
+- [Platform Belajar Online Percuma Malaysia 2026](/platform-belajar-online-percuma-malaysia-2026/)
+
+
 ## 📚 Apa Itu Plagiat?
 
 Plagiat bermaksud mengambil idea, tulisan, data, atau karya orang lain dan mengaku sebagai hasil kerja sendiri tanpa memberi kredit kepada sumber asal. Universiti-universiti di Malaysia seperti Universiti Malaya, USM, UiTM, dan UTHM mempunyai dasar anti-plagiat yang ketat dengan hukuman dari markah sifar sehingga digantung atau dibuang.

@@ -197,3 +197,10 @@ Untuk maklumat terkini dan sahih, sila rujuk portal rasmi berikut:
 5. **Portal Manfaat MOF — eKasih** — [manfaat.mof.gov.my](https://manfaat.mof.gov.my/b2026/individu/ekasih)
 
 > **Sila rujuk portal rasmi untuk kemas kini terbaru mengenai kadar PGK, tarikh pendaftaran, dan prosedur semasa.** Artikel ini adalah panduan umum dan tidak menggantikan nasihat rasmi daripada agensi kerajaan.
+
+
+**Baca juga:**
+- [Pembiayaan TEKUN 2026: Kelulusan 24 Jam](/pembiayaan-tekun-nasional-2026-kelulusan-24-jam/)
+- [BUDI Diesel: RM2.10 & MyKad 200L Mulai Julai](/budi-madani-diesel-2026/)
+- [Perkeso Lindung 24 Jam: 9 Juta Pekerja Dilindungi](/lindung-24-jam-perkeso-pekerja-malaysia/)
+

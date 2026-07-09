@@ -166,3 +166,10 @@ CGPA 3.67 ke atas pada skala 4.00. Ada universiti tetapkan syarat tambahan seper
 ### Adakah CGPA universiti awam dan swasta sama?
 
 Secara asasnya sama kerana ikut piawaian KPT, tapi ada universiti swasta yang guna skala 4.33 atau sistem berbeza. Rujuk buku panduan universiti masing-masing untuk kepastian.
+
+
+**Baca juga:**
+- [Tips Komunikasi & Soft Skills untuk Student](/tips-soft-skills-komunikasi-student/)
+- [Cara Buat Resume & CV Internship Student Malaysia](/cara-buat-resume-internship-student/)
+- [Panduan AI & Teknologi Untuk Student Universiti](/panduan-ai-teknologi-pembelajaran-student/)
+

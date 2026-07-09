@@ -198,3 +198,10 @@ Kebanyakan dokumen logistik — bill of lading, invoice, packing list — dalam 
 Automasi, AI, dan Internet of Things (IoT) sedang mengubah industri logistik. Yang celik teknologi akan lebih bernilai. Ambil kursus pendek tentang logistik 4.0.
 
 Bidang logistik dan rantaian bekalan menawarkan kestabilan kerjaya yang sukar ditandingi. Dalam ekonomi yang tak menentu, barang tetap perlu bergerak, kilang tetap perlu beroperasi, dan pakar logistik tetap diperlukan. Kalau korang rajin, teliti, dan suka menyelesaikan masalah, bidang ni adalah pilihan kerjaya yang sangat solid untuk jangka masa panjang.
+
+
+**Baca juga:**
+- [Cara Baca Slip Gaji 2026 — Faham Potongan Gaji](/cara-baca-slip-gaji-malaysia-panduan-lengkap/)
+- [15 Soalan Lazim Temuduga Kerja & Jawapan Terbaik](/soalan-lazim-temuduga-kerja-dan-jawapan/)
+- [Panduan Hak Pekerja Malaysia 2026](/hak-pekerja-malaysia-panduan-lengkap-2026/)
+

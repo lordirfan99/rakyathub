@@ -138,3 +138,10 @@ Minima RM10 untuk buka akaun. Simpanan layak dividen penuh sehingga RM20,000.
 Tiga-tiga platform **KWSP, ASB, dan Tabung Haji** ada kelebihan masing-masing. Yang penting, **jangan simpan semua telur dalam satu bakul**. Guna kombinasi ketiga-tiga untuk capai matlamat kewangan — dari kecemasan, pembelian rumah, persaraan, sehinggalah ibadat haji.
 
 Mula dengan apa yang termampu — RM50 pun dah okay. Konsisten lebih penting dari jumlah besar.
+
+
+**Baca juga:**
+- [Inflasi Malaysia Cecah 1.9%](/inflasi-malaysia-april-1.9-peratus-lindung-duit-2026/)
+- [Rule of 78 Tamat! Akta Sewa Beli Baharu Berkuat Kuasa](/rule-78-mansuh-akta-sewa-beli-2026/)
+- [SCAM ALERT: Panggilan Senyap](/scam-panggilan-senyap-2026-silent-call-cybersecurity/)
+

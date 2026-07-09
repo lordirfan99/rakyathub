@@ -189,3 +189,10 @@ Boleh! Banyak syarikat sekarang lebih utamakan skill daripada ijazah. Ambil kurs
 
 **5. Adakah kerjaya hijau (green jobs) ada masa depan di Malaysia?**
 Ya, sektor tenaga boleh baharu dan ESG tengah berkembang pesat di Malaysia. Dengan komitmen kerajaan ke arah net-zero dan pelaburan dalam tenaga solar, green jobs dijangka terus meningkat dalam 5–10 tahun akan datang.
+
+
+**Baca juga:**
+- [Kerja Kerajaan vs Swasta 2026](/kerja-kerajaan-vs-swasta-2026-perbandingan-gaji-pencen/)
+- [15 Soalan Lazim Temuduga Kerja & Jawapan Terbaik](/soalan-lazim-temuduga-kerja-dan-jawapan/)
+- [Cara Buat Akaun LinkedIn Untuk Student (Panduan](/cara-buat-akaun-linkedin-untuk-student/)
+

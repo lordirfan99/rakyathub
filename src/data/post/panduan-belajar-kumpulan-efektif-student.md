@@ -275,3 +275,10 @@ Dengan memilih ahli yang tepat, ada struktur sesi yang jelas, dan konsisten deng
 5. Konsisten selama sebulan — korang akan nampak perbezaannya
 
 *Jangan lupa bookmark rakyathub.my untuk lebih banyak tips student dan panduan kewangan Malaysia!*
+
+
+**Baca juga:**
+- [Cara Cari Sumber Rujukan Ilmiah untuk Assignment](/cara-cari-sumber-rujukan-ilmiah-untuk-assignment/)
+- [Cara Buat Kawan Baru di Universiti](/cara-buat-kawan-baru-di-universiti/)
+- [Panduan AI & Teknologi Untuk Student Universiti](/panduan-ai-teknologi-pembelajaran-student/)
+

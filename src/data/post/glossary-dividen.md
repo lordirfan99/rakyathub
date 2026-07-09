@@ -136,3 +136,10 @@ Kalau nak mula, tak perlu banyak-banyak. RM100 sebulan dalam ASB dah boleh. Seta
 Untuk baca lebih lanjut, tengok [perbandingan KWSP vs ASB vs Tabung Haji](https://rakyathub.my/kwsp-vs-asb-vs-tabung-haji-banding/) atau [panduan pelaburan asas](/pelaburan-asas-asb-kwsp-dca-apa-pilihan-terbaik-untuk-rakyat-malaysia).
 
 📌 *Jangan lupa bookmark [rakyathub.my](https://rakyathub.my) untuk lebih banyak tips kewangan!*
+
+
+**Baca juga:**
+- [Barang Keperluan Masuk Universiti — Checklist Lengkap](/barang-keperluan-masuk-universiti-checklist/)
+- [Glossary: OPR (Kadar Dasar Semalaman)](/glossary-opr/)
+- [Pakar Ramal Ringgit RM3.80 Akhir 2026](/affin-hwang-ringgit-rm380-klci-1780-2026/)
+

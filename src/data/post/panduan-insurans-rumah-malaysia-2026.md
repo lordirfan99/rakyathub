@@ -159,3 +159,10 @@ Insurans rumah bukan sekadar "fire insurance wajib bank" — ia adalah **perlind
 6. **Bandingkan harga** — guna RinggitPlus, Bjak, atau beli direct dari syarikat insurans
 
 Premium fire insurance untuk rumah teres biasa cuma **RM80-RM250 setahun** — kurang dari RM20 sebulan. Houseowner insurance pun cuma **RM250-RM700 setahun**. Sangat murah kalau dibandingkan dengan nilai rumah dan risiko kerugian RM2.09 bilion setahun akibat kebakaran di Malaysia.
+
+
+**Baca juga:**
+- [Panduan Lengkap Insurans Hayat Malaysia 2026](/panduan-lengkap-insurans-hayat-malaysia-2026/)
+- [Insurans & Takaful untuk Pekerja Gig di Malaysia 2026](/insurans-pekerja-gig-bebas-malaysia-2026/)
+- [Cara Tuntut Insurans Motosikal Selepas Kemalangan](/cara-tuntut-insurans-motosikal-kemalangan/)
+

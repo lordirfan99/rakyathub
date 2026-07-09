@@ -99,3 +99,10 @@ Diploma dan ijazah adalah kelayakan berbeza. Diploma lebih praktikal dan membole
 Memilih kursus universiti selepas SPM adalah keputusan besar, tapi bukan keputusan yang perlu ditakuti. Fahami diri anda — minat, kekuatan akademik, dan matlamat kerjaya. Terokai semua pilihan yang ada. Dan ingat, tiada laluan yang sempurna untuk semua orang. Yang penting ialah laluan yang paling sesuai untuk anda.
 
 Jangan terburu-buru. Ambil masa untuk buat kajian, bincang dengan orang yang berpengalaman, dan buat keputusan berdasarkan maklumat lengkap. Masa depan anda bermula sekarang.
+
+
+**Baca juga:**
+- [Diploma vs Foundation vs STPM](/diploma-vs-foundation-vs-stpm-mana-pilihan-terbaik-lepasan-spm/)
+- [Cara Buat Rujukan APA Style — Panduan Lengkap Student](/cara-buat-rujukan-apa-style/)
+- [Tips Skor Pointer 4.0 Universiti — 10 Strategi Terbukti](/tips-skor-pointer-40-universiti/)
+

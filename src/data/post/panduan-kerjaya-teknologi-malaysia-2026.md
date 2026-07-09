@@ -202,3 +202,10 @@ Skill teknikal: Python, JavaScript, SQL, dan Cloud (AWS/Azure). Tapi skill insan
 ---
 
 *📌 Bookmark [RakyatHub.my](https://rakyathub.my) untuk lebih banyak panduan kerjaya, kewangan dan pelaburan Malaysia. Nak hasilkan resume dan dokumen kerja dengan pantas? Guna [DocuKilat — Penjana Dokumen AI](https://docukilat.rakyathub.my) secara percuma!*
+
+
+**Baca juga:**
+- [Panduan Kerjaya Hijau Green Jobs Malaysia 2026](/panduan-kerjaya-hijau-green-jobs-malaysia-2026/)
+- [Kerja Remote & Hibrid di Malaysia 2026](/kerja-remote-hibrid-malaysia-2026/)
+- [Cara Berhenti Kerja — Panduan Resign Malaysia](/cara-berhenti-kerja-malaysia-panduan-lengkap-resign-notice-period/)
+

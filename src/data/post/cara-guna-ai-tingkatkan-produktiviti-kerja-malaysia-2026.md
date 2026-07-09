@@ -214,3 +214,10 @@ Yang penting, mulakan langkah pertama:
 Guna [Kalkulator Gaji Bersih](https://rakyathub.my/kalkulator/gaji-bersih) kami untuk kira impak kenaikan gaji bila produktiviti korang meningkat. Dan jangan lupa baca [Panduan Kerjaya Digital Marketing](https://rakyathub.my/panduan-kerjaya-digital-marketing-malaysia-2026) dan [Peluang Kerjaya Teknologi](https://rakyathub.my/panduan-kerjaya-teknologi-malaysia-2026) untuk lebih banyak tips kerjaya digital.
 
 Kalau korang nak mula side hustle guna AI, baca [Panduan Lengkap Kerjaya Freelance](https://rakyathub.my/panduan-lengkap-kerjaya-freelance-malaysia-2026) — sesuai untuk mereka yang nak buat duit dengan skill AI.
+
+
+**Baca juga:**
+- [Gaji Graduan Mengikut Industri 2026 — Panduan Lengkap](/gaji-graduan-mengikut-industri-2026/)
+- [Cara Mohon Kerja Kerajaan SPA9 — Panduan Lengkap](/cara-mohon-kerja-kerajaan-spa9-2026/)
+- [Panduan Kerjaya Farmasi Malaysia 2026](/panduan-kerjaya-farmasi-malaysia-2026/)
+

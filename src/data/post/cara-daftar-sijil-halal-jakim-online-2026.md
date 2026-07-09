@@ -186,6 +186,12 @@ Ya, anda boleh memohon pembaharuan 3 bulan sebelum tarikh luput. Jangan tunggu s
 
 Ya, sijil halal JAKIM diiktiraf secara meluas di peringkat antarabangsa termasuk negara-negara OIC, Singapura, China, Jepun, dan Korea Selatan. Malaysia adalah peneraju global dalam pensijilan halal, dan sijil JAKIM adalah antara yang paling dihormati di dunia. Ini memberi kelebihan kompetitif untuk produk anda di pasaran global.
 
+**Baca juga:**
+- [Panduan TikTok Shop Affiliate Malaysia 2026](/panduan-tiktok-shop-affiliate-malaysia-2026/)
+- [Cukai Bisnes Mikro 2026 — Siapa Kena Bayar & Siapa Tak?](/cukai-bisnes-mikro-malaysia-2026-siapa-kena-bayar/)
+- [Shopee vs Lazada vs TikTok: Mana Platform Terbaik](/shopee-vs-lazada-vs-tiktok-shop-malaysia-2026/)
+
+
 ## 📚 Rujukan Rasmi
 
 - Portal MyeHalal JAKIM: https://myehalal.halal.gov.my

@@ -168,3 +168,10 @@ Bantuan bencana alam di Malaysia merangkumi pelbagai bentuk daripada bantuan tun
 Yang paling penting — **daftar di PPS secepat mungkin selepas bencana** kerana pendaftaran ini adalah kunci kepada semua bantuan lain. Simpan nombor hotline NADMA (03-8064 2400) dan Talian Kasih (15999) untuk rujukan kecemasan.
 
 **Kata Kunci:** bantuan bencana alam, Wang Ihsan NADMA, bantuan banjir Malaysia 2026, bantuan JKM bencana, skim pampasan banjir, bantuan baik pulih rumah, cara mohon bantuan bencana, nombor kecemasan malaysia
+
+
+**Baca juga:**
+- [NUR@PETRA 2026 Rebat RM200 AC Peti Sejuk](/program-nurpetra-2026-rebat-cekap-tenaga/)
+- [SARA 2026 — Sumbangan Asas Rahmah & Panduan Lengkap](/sara-2026-sumbangan-asas-rahmah-panduan-lengkap/)
+- [BUDI Diesel Seragam Seluruh Negara Julai 2026](/budi-diesel-subsidi-diseragamkan-2026/)
+

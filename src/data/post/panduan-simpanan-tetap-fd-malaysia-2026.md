@@ -223,3 +223,10 @@ Simpanan Tetap (FD) tetap relevan di tahun 2026 sebagai instrumen kewangan yang 
 Tips paling penting: **jangan malas banding dan rolling**. Bank berlumba-lumba bagi promo terbaik, dan korang boleh dapat pulangan 3.5%-4.38% dengan usaha minima. Bandingkan kadar secara berkala dan pindah duit ke bank yang bagi rate paling tinggi.
 
 Untuk semak kadar terkini, rujuk laman seperti [RinggitPlus](https://ringgitplus.com), [Rates.my](https://rates.my), atau app perbankan masing-masing.
+
+
+**Baca juga:**
+- [Panduan Pelaburan Unit Trust & ASNB Malaysia 2026](/panduan-pelaburan-unit-trust-asnb-malaysia-2026/)
+- [ETF Malaysia 2026 — Panduan Pelaburan Pemula](/panduan-etf-malaysia-2026/)
+- [Tempat Simpan Dana Kecemasan: KDI, Ryt Bank, ASB](/dana-kecemasan-kdi-vs-ryt-vs-asb/)
+

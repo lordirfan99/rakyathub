@@ -156,3 +156,10 @@ Yang paling penting, ingat 3 perkara ni:
 3. **Kalau dah kena, lapor segera** — hubungi NSRC 997, bank, dan polis
 
 Sebelum beli tiket, semak dulu di **belitikelselamat.my**. Ambil masa seminit untuk sahkan, daripada rugi ratusan ringgit jadi mangsa penipuan. Share artikel ni dengan family dan kawan-kawan — jangan sampai ada yang tertipu!
+
+
+**Baca juga:**
+- [Keldai Akaun: Panduan Lengkap Elak Jadi Mangsa](/keldai-akaun-scam-malaysia-panduan-lengkap/)
+- [Scam Fake BTS: SMS Bank Palsu & Cara Lindung Diri](/fake-bts-scam-sms-palsu-malaysia-cara-lindung-diri/)
+- [Scam Online Shopping 2026](/scam-online-shopping-shopee-lazada-tiktok-2026/)
+

@@ -117,3 +117,10 @@ Keputusan PM Anwar untuk **kekalkan harga RON95 RM1.99** dan penurunan harga RON
 Nak dokumen penting untuk urusan kereta, pinjaman atau sewa beli? Check [DocuKilat](https://docukilat.rakyathub.my) — platform dokumen auto-generate paling mudah untuk urusan kereta & kewangan.
 
 **Yang penting:** minyak murah = opportunity untuk saving. Jangan bazir!
+
+
+**Baca juga:**
+- [Gaji RM2,500 Sebulan — Panduan Hidup & Jimat](/gaji-rm2500-breakdown-realistik/)
+- [Panduan Lengkap Bantuan Warga Emas Malaysia 2026](/panduan-bantuan-warga-emas-malaysia-2026/)
+- [7 Side Hustle Paling Laku di Malaysia 2026](/7-side-hustle-paling-laku-malaysia-2026/)
+

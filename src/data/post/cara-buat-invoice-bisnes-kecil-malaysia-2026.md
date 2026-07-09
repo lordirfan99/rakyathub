@@ -236,3 +236,10 @@ Dengan panduan dan template dalam artikel ni, korang dah boleh mula buat invoice
 - Invoice Ninja (Percuma): `https://www.invoiceninja.com/`
 
 *Penafian: Maklumat dalam artikel ini adalah berdasarkan garis panduan sedia ada setakat Julai 2026. Sila rujuk portal rasmi LHDN dan SSM untuk sebarang perubahan dasar terkini keperluan invoicing perniagaan.*
+
+
+**Baca juga:**
+- [Freelance Tanpa SSM — Risiko & Panduan Lengkap](/risiko-freelance-tanpa-ssm-malaysia/)
+- [Cara Daftar Sijil Halal JAKIM Online 2026](/cara-daftar-sijil-halal-jakim-online-2026/)
+- [Panduan Dropship Pemula Malaysia 2026](/panduan-dropship-pemula-malaysia-2026/)
+

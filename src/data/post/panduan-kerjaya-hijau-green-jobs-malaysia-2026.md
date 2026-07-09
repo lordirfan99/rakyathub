@@ -272,3 +272,10 @@ Green jobs di Malaysia 2026 bukan lagi "kerjaya masa depan" — ia adalah **kerj
 Yang bestnya, green jobs **terbuka untuk semua peringkat** — dari lepasan SPM sampailah professional yang nak tukar kerjaya. Kuncinya adalah **sijil yang betul, pengalaman praktikal, dan networking yang aktif**.
 
 Kalau korang rasa artikel ni bermanfaat, jangan lupa share dengan kawan-kawan yang tengah cari hala tuju kerjaya. Untuk info lanjut, korang boleh layari portal [MGTC](https://www.mgtc.gov.my) dan [SEDA Malaysia](https://www.seda.gov.my) untuk dapatkan update terkini tentang peluang green jobs dan insentif latihan.
+
+
+**Baca juga:**
+- [Cara Pembahagian Gaji Bulanan Ikut Kaedah 50/30/20 — Pand...](/cara-pembahagian-gaji-bulanan-50-30-20-malaysia/)
+- [Panduan Atasi Underemployment Graduan Malaysia](/panduan-atasi-underemployment-graduan-malaysia-2026/)
+- [Kerjaya Paling Selamat vs Paling Berisiko Kena Gantikan A...](/kerjaya-selamat-vs-berisiko-diganti-ai-2026/)
+

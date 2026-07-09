@@ -142,3 +142,10 @@ Soalan ringan untuk lihat **personaliti**. Jawab jujur dan kaitkan dengan kerja 
 Kalau nak contoh resume yang profesional untuk dihantar bersama permohonan, boleh dapatkan template di [DocuKilat](https://docukilat.rakyathub.my). Nak tau lebih lanjut pasal persiapan kerjaya? Baca artikel [panduan kerja sampingan online Malaysia](https://rakyathub.my/panduan-kerja-sampingan-online-malaysia/) sebagai tambahan pendapatan masa menunggu kerja tetap.
 
 📌 *Jangan lupa bookmark rakyathub.my untuk lebih banyak tips temuduga dan pembangunan kerjaya!*
+
+
+**Baca juga:**
+- [Cara Pembahagian Gaji Bulanan Ikut Kaedah 50/30/20 — Pand...](/cara-pembahagian-gaji-bulanan-50-30-20-malaysia/)
+- [Kerjaya Sales & Business Dev Malaysia 2026](/kerjaya-sales-business-development-malaysia-2026/)
+- [Ekonomi Gig Malaysia 2026: Panduan Kerjaya](/ekonomi-gig-malaysia-2026-panduan-kerjaya/)
+

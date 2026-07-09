@@ -222,3 +222,10 @@ Mengikut DOSM, gaji median pekerja formal di Malaysia pada Disember 2025 adalah 
 **5. Apa itu green jobs dan macam mana nak mula dalam sektor tenaga hijau?**
 
 Green jobs merujuk kepada pekerjaan yang berkaitan dengan tenaga boleh diperbaharui, kecekapan tenaga, pengurusan sisa, dan kelestarian alam sekitar. Nak mula, anda boleh ambil kursus asas solar PV, pengurusan tenaga, atau analisis ESG. Kerajaan Malaysia ada menyediakan latihan melalui inisiatif Energy Transition & Sustainability Academy (ETSA) dan pelbagai program TVET hijau.
+
+
+**Baca juga:**
+- [Cara Buat Akaun LinkedIn Untuk Student (Panduan](/cara-buat-akaun-linkedin-untuk-student/)
+- [Kerjaya Akauntan & Perakaunan Malaysia 2026](/panduan-kerjaya-akauntan-perakaunan-malaysia-2026/)
+- [Panduan Lengkap Runding Gaji Fresh Grad 2026](/panduan-lengkap-runding-gaji-fresh-grad-2026/)
+

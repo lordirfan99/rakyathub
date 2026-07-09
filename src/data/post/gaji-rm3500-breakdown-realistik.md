@@ -117,3 +117,10 @@ Korang gaji RM3,500 — masa naik ke RM4,500 dan RM5,000 adalah dalam **12-18 bu
 5. ✅ Ambil satu certification tahun ni — [panduan SSPN](https://rakyathub.my/panduan-sspn-2026-simpanan-pendidikan-pelepasan-cukai/) kalau dah ada anak, atau [kursus UI/UX](https://rakyathub.my/pekerjaan-high-demand-malaysia-2026/) untuk upskilling
 
 📌 *Nak kira sendiri? Guna [kalkulator ASB](https://rakyathub.my/kalkulator/asb/) untuk target simpanan, dan [kalkulator KWSP](https://rakyathub.my/kalkulator/kwsp/) untuk lihat compounding power. Nak dokumen siap lebih cepat? Check [DocuKilat](https://docukilat.rakyathub.my) — urusan surat-menyurat & template dokumen. Jangan lupa bookmark [rakyathub.my](https://rakyathub.my) untuk tips kewangan harian!*
+
+
+**Baca juga:**
+- [Shopee Affiliate Marketing](/shopee-affiliate-marketing-panduan-lengkap-2026/)
+- [Gaji RM5,000 — Panduan Bajet 50/30/20](/gaji-rm5000-panduan-bajet-50-30-20/)
+- [Bisnes Produk Digital & AI Side Hustle: Jana RM5,000](/bisnes-produk-digital-ai-side-hustle-malaysia-2026/)
+

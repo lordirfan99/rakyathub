@@ -226,6 +226,12 @@ Dapatkan maklumat terkini di portal rasmi atau hubungi **1-300-88-8938** untuk b
 
 **Kredit Gambar:** Bernama / Malay Mail — Menteri Kewangan II Datuk Seri Amir Hamzah Azizan sesi jawab lisan di Dewan Rakyat, 30 Jun 2026.
 
+**Baca juga:**
+- [Cara Tempah Temu Janji Klinik Kesihatan KKM 2026](/cara-buat-temu-janji-klinik-kesihatan-kkm-online-2026/)
+- [Perkhidmatan KKM Percuma](/perkhidmatan-kkm-percuma-klinik-kesihatan-kerajaan-malaysia/)
+- [Medical Card Malaysia 2026 — Harga & Pilihan](/medical-card-malaysia-2026-harga-pilihan/)
+
+
 ## 📚 Rujukan Rasmi
 
 - Portal Rasmi mySalam: [https://www.mysalam.com.my](https://www.mysalam.com.my)

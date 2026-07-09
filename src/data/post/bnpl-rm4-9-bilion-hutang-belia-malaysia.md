@@ -132,3 +132,9 @@ BNPL RM4.9 bilion bukan angka kecil. Ia cerminan realiti — ramai anak muda Mal
 Korang tak perlu hidup tanpa BNPL selamanya. Tapi korang kena jadi **BOSS kepada duit korang**, bukan hamba kepada *"Bayar Nanti"*.
 
 Kongsi artikel ni dengan kawan-kawan yang selalu guna Shopee PayLater — mungkin artikel ni boleh selamatkan mereka dari perangkap hutang!
+
+
+**Baca juga:**
+- [Panduan e-Filing 2026: Cukai Pendapatan untuk Rakyat](/panduan-e-filing-cukai-pendapatan-2026/)
+- [Ekonomi Malaysia 5.4% Q1 2026: Apa Maksudnya](/ekonomi-malaysia-5.4-peratus-q1-2026-maksud/)
+- [Gaji RM2,500 Sebulan — Panduan Hidup & Jimat](/gaji-rm2500-breakdown-realistik/)

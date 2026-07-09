@@ -156,3 +156,10 @@ Tapi ingat — proses ni tak automatik. Korang kena mohon sendiri, siapkan dokum
 Jadi, target pointer setinggi mungkin dari sekarang. Bukan setakat banggakan mak ayah, tapi sebab duit tu milik korang sepenuhnya lepas grad nanti.
 
 **Kata Kunci:** pengecualian PTPTN, pengecualian kelas pertama, first class exemption PTPTN, syarat CGPA PTPTN, cara mohon pengecualian PTPTN, rayuan pengecualian PTPTN
+
+
+**Baca juga:**
+- [BAeK PTPTN 2026 — Biasiswa Penuh Anak eKasih](/baek-ptptn-biasiswa-anak-ekasih-2026/)
+- [Cara Buat Kajian Literatur & Literature Review](/cara-buat-kajian-literatur-literature-review/)
+- [Cara Ulangkaji Pelajaran Saat Akhir — 7 Teknik Power](/cara-ulangkaji-pelajaran-saat-akhir/)
+

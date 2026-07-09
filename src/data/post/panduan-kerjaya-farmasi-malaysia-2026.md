@@ -33,6 +33,12 @@ Permintaan terhadap ahli farmasi di Malaysia terus meningkat. Pada 2025, KKM men
 
 ---
 
+**Baca juga:**
+- [Template E-mel Mohon Praktikal & Internship (Copy &](/template-emel-mohon-praktikal/)
+- [Panduan Kerjaya Bergaji Tinggi di Malaysia 2026](/kerjaya-bergaji-tinggi-malaysia-2026/)
+- [Career Switch (Tukar Kerjaya) di Malaysia 2026](/panduan-lengkap-tukar-kerjaya-malaysia-2026/)
+
+
 ## 📚 Pathway Jadi Ahli Farmasi
 
 ### Langkah 1: SPM dan Pra-Universiti

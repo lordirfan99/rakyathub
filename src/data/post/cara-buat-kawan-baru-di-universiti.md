@@ -71,3 +71,10 @@ Jangan terlalu memaksa untuk diterima dalam sesuatu kumpulan. Persahabatan yang 
 ## Kesimpulan
 
 Cara buat kawan baru di universiti memerlukan usaha dan inisiatif, tetapi hasilnya sangat berbaloi. Persahabatan yang dibina ketika di universiti sering menjadi kenangan manis dan jaringan sokongan yang berkekalan. Mulakan dengan langkah kecil, bersikap terbuka, dan jangan takut untuk keluar dari zon selesa. Ingat, hampir setiap pelajar baharu menghadapi cabaran yang sama, jadi anda tidak bersendirian. Ambil peluang untuk berkembang, bukan sahaja dari segi akademik tetapi juga dari segi sosial dan emosi.
+
+
+**Baca juga:**
+- [Cara Buat Resume & CV Internship Student Malaysia](/cara-buat-resume-internship-student/)
+- [Cara Kira GPA dan CGPA Universiti Malaysia](/panduan-kira-gpa-cgpa-universiti-malaysia/)
+- [Panduan Pengurusan Masa & Produktiviti Student](/panduan-pengurusan-masa-student-universiti-2026/)
+

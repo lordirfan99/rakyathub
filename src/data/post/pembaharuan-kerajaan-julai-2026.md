@@ -58,6 +58,12 @@ Selaras dengan pelaksanaan **BUDI MADANI Diesel (BUDI Diesel)**, harga diesel be
 - Pemohon boleh buat permohonan Pemindahan Kelayakan BUDI Diesel melalui portal **www.budimadani.gov.my**
 - Syarikat pengangkutan darat awam dan barangan boleh tuntut bayaran balik tunai di bawah SKDS
 
+**Baca juga:**
+- [Pembiayaan TEKUN 2026: Kelulusan 24 Jam](/pembiayaan-tekun-nasional-2026-kelulusan-24-jam/)
+- [SSPA Fasa 2 2026 — Panduan Lengkap & Cara Kira](/sspa-fasa-2-2026-panduan-gaji-kenaikan/)
+- [Baucar Kita Selangor 2026 Mohon RM600](/baucar-kita-selangor-2026-mohon-rm600/)
+
+
 ## 📚 Baucar Buku MADANI 2026
 
 Penebusan Baucar Buku MADANI 2026 mula dilaksanakan pada Julai 2026 secara digital. Inisiatif ini melibatkan **lebih dua juta pelajar** dengan peruntukan **RM210 juta**.

@@ -174,3 +174,10 @@ Lindungi diri, lindungi kawan-kawan korang. Kongsikan artikel ni dengan family d
 - [Semak Mule CCID PDRM](https://semakmule.rmp.gov.my) — semak akaun bank sebelum transfer
 - [NSRC Talian 997](https://nfcc.jpm.gov.my) — pusat respons scam kebangsaan
 - [Scam Alert PDRM](https://www.rmp.gov.my/scam-alert) — amaran scam terkini
+
+
+**Baca juga:**
+- [Scam E-Wallet: Cara Elak Penipuan Dompet Digital](/scam-ewallet-malaysia-cara-elak/)
+- [Scam Pembeli Palsu - Penjual Online Kena Tipu](/scam-pembeli-palsu-penjual-online/)
+- [Keldai Akaun: Panduan Lengkap Elak Jadi Mangsa](/keldai-akaun-scam-malaysia-panduan-lengkap/)
+

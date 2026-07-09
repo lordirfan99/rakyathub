@@ -106,3 +106,10 @@ Harga minyak kekal untuk minggu 11-17 Jun 2026 — bukan headline besar, tapi st
 Nak baca lanjut? Artikel sebelum ni: [Harga Minyak Turun! RON95 & Diesel Lebih Murah](https://rakyathub.my/harga-minyak-turun-4-10-jun-2026/) dan [PM Tolak Naikkan Harga Minyak — Apa Impaknya?](https://rakyathub.my/pm-tolak-naikkan-harga-minyak/).
 
 Jangan lupa semak [DocuKilat](https://docukilat.rakyathub.my) kalau perlukan template dokumen kewangan macam surat tawaran kerja atau kontrak sewa — semuah ada siap guna.
+
+
+**Baca juga:**
+- [Beli Rumah vs Sewa Rumah](/beli-rumah-vs-sewa-rumah-mana-lebih-untung-anak-muda/)
+- [Gaji RM3,000 Sebulan — Panduan Hidup & Simpan](/gaji-rm3000-breakdown-realistik/)
+- [Cara Cari Tempat Praktikal / Internship — 6 Langkah](/cara-cari-tempat-praktikal-internship/)
+

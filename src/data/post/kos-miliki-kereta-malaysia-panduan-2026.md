@@ -123,3 +123,10 @@ Miliki kereta bukan sekadar bayar ansuran bulanan. Kos sebenar adalah **1.5x hin
 Paling penting: **jangan beli kereta atas tekanan sosial**. Kereta second hand yang murah tapi reliable lebih baik dari kereta baru yang buat korang sakit kepala tiap bulan nak tutup komitmen.
 
 > 💡 **Tip:** Kalau pengangkutan awam ok dan tempat kerja dekat dengan LRT/MRT, pertimbangkan untuk *tidak* memiliki kereta dulu. Simpan duit untuk rumah — aset yang naik nilai, bukannya susut nilai macam kereta.
+
+
+**Baca juga:**
+- [Panduan Beli Kereta Terpakai Malaysia](/panduan-beli-kereta-terpakai-malaysia-tips-elak-rugi/)
+- [Panduan Beli Kereta Pertama Malaysia — Proses A-Z](/panduan-beli-kereta-pertama-malaysia-2026/)
+- [Panduan Pinjaman Kereta Malaysia 2026](/panduan-pinjaman-kereta-malaysia-2026/)
+

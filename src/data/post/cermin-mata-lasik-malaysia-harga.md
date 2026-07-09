@@ -282,3 +282,10 @@ Kesihatan mata bukan benda main-main — dari cermin mata basic RM30 sampai LASI
 - ProtectHealth PeKa B40 — https://protecthealth.com.my
 - LHDNM Pelepasan Cukai — https://www.hasil.gov.my/pelepasan-cukai
 - MyVac (harga vaksin & info) — https://myvac.com.my/ms/
+
+
+**Baca juga:**
+- [Kos Pemeriksaan Kesihatan Malaysia 2026](/kos-pemeriksaan-kesihatan-malaysia-2026-perbandingan-pakej/)
+- [Cara Turunkan Kolestrol & Darah Tinggi Secara Semulajadi](/cara-turunkan-kolestrol-darah-tinggi-semulajadi-2026/)
+- [Pemeriksaan Kesihatan Lelaki Malaysia 2026](/panduan-kesihatan-lelaki-malaysia-2026/)
+

@@ -146,3 +146,10 @@ Elakkan kesalahan berikut yang sering dilakukan oleh pelajar:
 Kajian literatur atau literature review adalah kemahiran asas yang perlu dikuasai oleh setiap pelajar universiti. Dengan pendekatan yang sistematik — daripada memahami soalan kajian, mencari sumber, menganalisis secara kritis, sehingga menulis dengan sintesis yang jelas — anda boleh menghasilkan literature review yang berkualiti.
 
 Ingat, semakin kerap anda menulis literature review, semakin mahir anda. Mulakan dengan langkah kecil, gunakan teknik yang dikongsikan di atas, dan jangan takut untuk mendapatkan maklum balas daripada pensyarah atau rakan sekelas.
+
+
+**Baca juga:**
+- [Tips Mengatasi Stress Sebelum Final Exam](/tips-mengatasi-stress-sebelum-final-exam/)
+- [Cara Hilangkan Mengantuk Masa Belajar](/cara-hilangkan-mengantuk-masa-belajar/)
+- [Cara Handle Group Assignment Universiti](/cara-handle-group-assignment-universiti/)
+

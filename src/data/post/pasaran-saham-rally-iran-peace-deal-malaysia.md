@@ -128,3 +128,10 @@ Perjanjian damai Iran-AS adalah berita paling positif untuk pasaran kewangan glo
 Damai ni rezeki untuk semua. Gunakan dengan bijak!
 
 *Nak dokumen pelaburan atau surat rasmi? Guna [DocuKilat](https://docukilat.rakyathub.my) — platform dokumen AI untuk semua keperluan peribadi korang.*
+
+
+**Baca juga:**
+- [urus-duit-gaji-bawah-rm3000](/urus-duit-gaji-bawah-rm3000/)
+- [Panduan Kad Debit Malaysia 2026](/panduan-kad-debit-malaysia-2026/)
+- [Minyak Masak Botol vs Paket](/minyak-masak-botol-vs-paket-mana-lebih-jimat/)
+

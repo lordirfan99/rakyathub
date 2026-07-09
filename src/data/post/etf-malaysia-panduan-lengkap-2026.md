@@ -219,3 +219,10 @@ ETF adalah cara paling efisien dan kos rendah untuk rakyat Malaysia mula melabur
 **Kongsi artikel ni** dengan kawan-kawan dan keluarga yang nak mula melabur tapi tak tahu nak mula dari mana. ETF adalah permulaan yang baik untuk sesiapa je yang nak bina kekayaan jangka panjang!
 
 *Jangan lupa bookmark rakyathub.my untuk lebih banyak panduan pelaburan dan kewangan peribadi!*
+
+
+**Baca juga:**
+- [Panduan Pelaburan Unit Trust & ASNB Malaysia 2026](/panduan-pelaburan-unit-trust-asnb-malaysia-2026/)
+- [Glossary: Unit Trust — Cara Mudah Melabur](/glossary-unit-trust/)
+- [Panduan Simpanan Tetap FD 2026 — Kadar Terbaik](/panduan-simpanan-tetap-fd-malaysia-2026/)
+

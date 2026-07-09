@@ -251,3 +251,10 @@ Cara buat nota ringkas dan efektif bukanlah skill yang susah — cuma kena prakt
 Kalau nak power lagi untuk urus jadual belajar dan assignment, guna template planner dari **[DocuKilat](https://docukilat.rakyathub.my)** untuk organize semua kerja kursus.
 
 *Jangan lupa bookmark rakyathub.my untuk lebih banyak tips student dan kewangan Malaysia!*
+
+
+**Baca juga:**
+- [Panduan Sambung Master & PhD di Malaysia 2026](/panduan-sambung-master-phd/)
+- [Biasiswa Lepasan SPM 2026](/biasiswa-lepasan-spm-2026-jpa-mara-petronas-syarat-cara-mohon/)
+- [Tips pilih kursus universiti lepasan SPM](/tips-pilih-kursus-universiti-lepasan-spm/)
+

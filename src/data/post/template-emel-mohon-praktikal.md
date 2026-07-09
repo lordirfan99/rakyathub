@@ -152,3 +152,10 @@ linkedin.com/in/ahmadfaiz
 5. **Follow-up dalam 7-14 hari** — guna template follow-up kat atas
 
 📌 *Jangan lupa bookmark rakyathub.my untuk lebih banyak tips student!*
+
+
+**Baca juga:**
+- [Panduan Kerjaya Farmasi Malaysia 2026](/panduan-kerjaya-farmasi-malaysia-2026/)
+- [Panduan Kerjaya TVET Malaysia 2026](/panduan-kerjaya-tvet-malaysia-2026/)
+- [Panduan Lengkap Kerjaya Freelance Malaysia 2026](/panduan-lengkap-kerjaya-freelance-malaysia-2026/)
+

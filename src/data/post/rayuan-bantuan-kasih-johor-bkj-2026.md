@@ -123,3 +123,10 @@ Rayuan BKJ 2026 adalah peluang terakhir bagi rakyat Johor yang masih belum mener
 Jangan tunggu sehingga saat akhir — tarikh tutup adalah **14 Julai 2026**. Jika anda menghadapi masalah dengan permohonan online, gunakan kaunter manual yang disediakan di DUN berhampiran.
 
 Untuk semakan bantuan kerajaan lain yang anda mungkin layak, gunakan [Kalkulator STR & SARA](/kalkulator/str-sara/) untuk lihat jumlah anggaran bantuan anda.
+
+
+**Baca juga:**
+- [SARA 2026 — Sumbangan Asas Rahmah & Panduan Lengkap](/sara-2026-sumbangan-asas-rahmah-panduan-lengkap/)
+- [Panduan Rumah Mesra Rakyat 2026](/panduan-rumah-mesra-rakyat-2026/)
+- [PR1MA 2026 — Cara Mohon Rumah Mampu Milik & Syarat](/cara-mohon-rumah-pr1ma-2026-syarat-kelayakan/)
+

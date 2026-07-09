@@ -206,3 +206,8 @@ Cukai pendapatan sewa rumah bukanlah sesuatu yang rumit kalau korang faham asasn
 Dengan memahami perkara ni, korang bukan saja patuh kepada undang-undang tapi juga boleh optimize cukai supaya tidak bayar lebih daripada sepatutnya. Jangan biarkan rumah sewa jadi beban cukai — jadikan ia aset yang diurus dengan bijak.
 
 Baca juga panduan lain dalam kategori [Percukaian](/tag/percukaian/) untuk fahamkan lagi pelbagai jenis cukai yang perlu korang tahu sebagai rakyat Malaysia.
+
+
+**Baca juga:**
+- [Cukai Pelaburan Malaysia 2026 — Panduan Lengkap](/panduan-cukai-pelaburan-malaysia-2026/)
+- [GST 2.0 Malaysia 2026: Apa Yang Korang Kena Tahu](/gst-20-malaysia-2026-panduan-lengkap-perbezaan-sst/)

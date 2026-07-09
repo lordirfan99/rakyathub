@@ -287,3 +287,10 @@ Yang penting, **bantuan sentiasa ada** — dari yang PERCUMA di Mentari dan Befr
 3. **Jangan tunggu sampai kritikal** — lebih awal dapat bantuan, lebih cepat pulih
 
 Kalau korang atau kawan perlukan artikel ni, **share sekarang**. Satu perkongsian boleh selamatkan nyawa seseorang.
+
+
+**Baca juga:**
+- [Panduan Penjagaan Kesihatan Wanita Malaysia 2026](/panduan-kesihatan-wanita-malaysia-2026/)
+- [Kos Pemeriksaan Kesihatan Malaysia 2026](/kos-pemeriksaan-kesihatan-malaysia-2026-perbandingan-pakej/)
+- [Diabetes Kencing Manis Malaysia: Kos & Pencegahan](/diabetes-kencing-manis-malaysia-kos-pencegahan/)
+

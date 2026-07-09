@@ -250,6 +250,12 @@ Kesihatan lelaki sering diabaikan kerana mindset "tak sakit, kenapa nak check?" 
 
 **Kata Kunci:** kesihatan lelaki Malaysia, saringan kesihatan lelaki, pemeriksaan prostat, ujian PSA, kolestrol lelaki, diabetes lelaki, pemeriksaan jantung, klinik kesihatan KKM, saringan penyakit lelaki
 
+**Baca juga:**
+- [Panduan Lengkap Cermin Mata & LASIK Malaysia 2026](/cermin-mata-lasik-malaysia-harga/)
+- [Cara Tempah Temu Janji Klinik Kesihatan KKM 2026](/cara-buat-temu-janji-klinik-kesihatan-kkm-online-2026/)
+- [Panduan Lengkap Vaksinasi Dewasa Malaysia 2026](/panduan-lengkap-vaksinasi-dewasa-malaysia-2026/)
+
+
 ## 📚 Rujukan Rasmi
 
 - Kementerian Kesihatan Malaysia (KKM) — `https://www.moh.gov.my`

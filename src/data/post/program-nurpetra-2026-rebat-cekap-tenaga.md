@@ -174,3 +174,10 @@ Yang paling penting:
 Nak lagi jimat? Dah save dekat bil elektrik, korang boleh guna duit tu untuk tambah simpanan atau buat **pelaburan ASB** pulak!
 
 > *Untuk maklumat terkini, layari portal rasmi SEDA Malaysia di www.seda.gov.my/nur atau ikut media sosial Kementerian PETRA.*
+
+
+**Baca juga:**
+- [Tonton Piala Dunia 2026 Percuma MyGOV App](/tonton-piala-dunia-2026-mygov-app/)
+- [7 Pembaharuan Kerajaan Julai 2026 — ATM & Diesel](/pembaharuan-kerajaan-julai-2026/)
+- [Panduan Rumah Mesra Rakyat 2026](/panduan-rumah-mesra-rakyat-2026/)
+

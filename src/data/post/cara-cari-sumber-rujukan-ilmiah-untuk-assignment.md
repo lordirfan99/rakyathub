@@ -13,6 +13,12 @@ tags:
 author: RakyatHub
 ---
 
+**Baca juga:**
+- [Cara Dapat First Class Degree: Tips Real dari Graduan](/cara-dapat-first-class-degree-universiti/)
+- [Panduan Belajar Kumpulan Efektif Student](/panduan-belajar-kumpulan-efektif-student/)
+- [Cara Kira GPA dan CGPA Universiti Malaysia](/panduan-kira-gpa-cgpa-universiti-malaysia/)
+
+
 ## 📚 Apa Itu Sumber Rujukan Ilmiah?
 
 Sumber rujukan ilmiah adalah bahan yang telah melalui proses semakan akademik (peer review) sebelum diterbitkan. Ini termasuk jurnal akademik, buku teks, prosiding persidangan, dan tesis. Pensyarah selalunya mahukan sumber jenis ini dalam assignment kerana ia lebih dipercayai berbanding sumber seperti blog atau Wikipedia.

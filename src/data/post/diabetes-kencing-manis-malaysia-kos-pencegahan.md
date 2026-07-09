@@ -233,3 +233,10 @@ Berita baiknya, rawatan diabetes di Malaysia sangat murah jika menggunakan fasil
 Yang paling penting, **diabetes jenis 2 boleh dicegah**. Kurangkan gula, bergerak lebih, kawal berat badan, dan pergi saringan awal. Jangan tunggu sehingga timbul komplikasi — pada masa itu, kos rawatan melambung tinggi dan kualiti hidup sudah terjejas.
 
 Jika anda belum pernah buat saringan diabetes, pergilah ke Klinik Kesihatan KKM terdekat hari ini. Ia percuma, cepat, dan boleh menyelamatkan nyawa.
+
+
+**Baca juga:**
+- [Cara Tempah Temu Janji Klinik Kesihatan KKM 2026](/cara-buat-temu-janji-klinik-kesihatan-kkm-online-2026/)
+- [Cara Mohon Skim Perubatan Madani & PeKa B40 2026](/cara-mohon-skim-perubatan-madani-peka-b40-2026/)
+- [Panduan Harga Rawatan Gigi Malaysia 2026](/panduan-harga-rawatan-gigi-malaysia-2026/)
+

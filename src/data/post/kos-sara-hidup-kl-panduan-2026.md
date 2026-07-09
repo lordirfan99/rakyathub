@@ -152,3 +152,10 @@ Hidup di KL memang mencabar dari segi kewangan, tapi bukan mustahil untuk diurus
 - **Disiplin tracking perbelanjaan** — baru nampak mana bocor
 
 > 💡 **Ingat:** Standards of living tinggi bukan jaminan kualiti hidup. Hidup dalam kemampuan sendiri lagi penting dari nampak mewah tapi stress hujung bulan.
+
+
+**Baca juga:**
+- [Panduan Budget Bulanan Anak Muda Malaysia 2026](/panduan-budget-bulanan-anak-muda-malaysia-2026/)
+- [Cara Meal Prep & Masak Bulk Jimat Duit Malaysia](/panduan-meal-prep-masak-bulk-malaysia/)
+- [Panduan Cashback & Reward Points Malaysia 2026](/cara-jimat-duit-cashback-reward-points-malaysia-2026/)
+

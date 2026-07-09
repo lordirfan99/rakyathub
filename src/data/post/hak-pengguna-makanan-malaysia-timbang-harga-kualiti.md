@@ -176,3 +176,10 @@ Cuma kebanyakan pengguna tak tahu atau takut nak buat aduan. Padahal, prosesnya 
 3. **Simpan bukti** — resit, gambar, dan bungkusan asal adalah senjata utama korang
 
 Dengan tahu hak pengguna makanan ni, korang bukan sahaja melindungi diri sendiri, malah membantu meningkatkan kualiti perkhidmatan makanan di Malaysia secara keseluruhan. Setiap aduan yang dibuat mendorong peniaga untuk lebih bertanggungjawab — dan itu kebaikan untuk kita semua.
+
+
+**Baca juga:**
+- [Hak Pengguna Produk Rosak & Waranti Malaysia 2026](/hak-pengguna-produk-rosak-waranti-malaysia-2026/)
+- [Panduan Hak Pengguna Perbankan Malaysia 2026](/hak-pengguna-perbankan-malaysia/)
+- [Hak Pengguna Penerbangan Malaysia 2026](/hak-pengguna-penerbangan-malaysia-pampasan-lewat-batal/)
+

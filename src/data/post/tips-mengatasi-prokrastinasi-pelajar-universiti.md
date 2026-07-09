@@ -220,3 +220,10 @@ Kuncinya adalah:
 Tak perlu sempurna. Cuma kena mula. Satu langkah kecil hari ni lebih baik daripada seribu perancangan yang tak dilaksanakan.
 
 **Tindakan sekarang:** Tutup telefon, buka buku atau laptop, dan buat satu perkara kecil selama 5 minit. Lepas tu baru tentukan nak sambung atau tak. Selalunya, lepas dah mula, korang akan teruskan juga.
+
+
+**Baca juga:**
+- [Panduan Belajar Kumpulan Efektif Student](/panduan-belajar-kumpulan-efektif-student/)
+- [Panduan Lengkap Cari Internship Malaysia 2026](/panduan-cari-internship-latihan-industri-malaysia-2026/)
+- [Mental Health Student: Tanda Burnout & Cara Atasi](/mental-health-student-tanda-burnout/)
+

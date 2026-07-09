@@ -202,3 +202,9 @@ Urus gaji sebagai anak muda bukan sains roket, tapi kena ada disiplin dan keseda
 Dengan gaji minimum RM1,700 di 2026, memang tak mewah. Tapi dengan perancangan kewangan yang betul, korang tetap boleh hidup selesa dan dalam masa sama membina tabungan untuk masa depan.
 
 Yang penting, **mulakan sekarang**. Sikit-sikit, lama-lama jadi bukit.
+
+
+**Baca juga:**
+- [15 Tempat Dating Bawah RM30 di KL & Selangor](/tempat-dating-bawah-rm30-kl-selangor/)
+- [Panduan Lengkap Hidup Sewa di Malaysia](/panduan-hidup-sewa-rumah-malaysia/)
+- [Panduan Jimat Bil Elektrik & Air 2026](/panduan-jimat-bil-elektrik-air-2026/)

@@ -164,3 +164,10 @@ Motor adalah pilihan kenderaan paling jimat dan praktikal untuk ramai rakyat Mal
 Yang paling penting — **beli ikut kemampuan, jangan ikut nafsu.** Ansuran motor murah memang nampak rendah, tapi jangan lupa hidden costs macam insurans, minyak, servis, dan gear keselamatan.
 
 Artikel berkaitan: `/tips-jimat-minyak-kereta-malaysia/` dan `/cara-renew-lesen-memandu-jpj-online-yuran-proses-2026/`
+
+
+**Baca juga:**
+- [Sistem KEJARA 2026: Panduan Mata Demerit JPJ](/sistem-kejara-jpj-malaysia-panduan-lengkap-2026/)
+- [Panduan Servis & Penyelenggaraan Kereta 2026](/panduan-servis-penyelenggaraan-kereta-2026/)
+- [Panduan Pemanduan Lebuhraya & Bayar Tol 2026](/panduan-pemanduan-lebuhraya-tol-malaysia/)
+

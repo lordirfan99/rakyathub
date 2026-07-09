@@ -234,3 +234,10 @@ Secara umum, individu tidak boleh menerima dua bantuan bulanan yang sama sifat (
 
 ### 5. Macam mana kalau permohonan JKM ditolak?
 Anda boleh membuat rayuan secara bertulis kepada Pengarah JKM Negeri dengan menyertakan dokumen sokongan tambahan yang mengatasi sebab penolakan sebelumnya. Jika masih tidak berpuas hati, hubungi **Talian Kasih 15999** untuk bantuan lanjut dan kaunseling. Semua bantuan JKM adalah pemberian percuma — tiada bayaran balik diperlukan.
+
+
+**Baca juga:**
+- [7 Pembaharuan Kerajaan Julai 2026 — ATM & Diesel](/pembaharuan-kerajaan-julai-2026/)
+- [PR1MA 2026 — Cara Mohon Rumah Mampu Milik & Syarat](/cara-mohon-rumah-pr1ma-2026-syarat-kelayakan/)
+- [Bantuan Mangsa Banjir Malaysia 2026](/bantuan-mangsa-banjir-malaysia-2026/)
+

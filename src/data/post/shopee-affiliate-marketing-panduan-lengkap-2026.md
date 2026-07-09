@@ -179,3 +179,10 @@ Link affiliate Shopee sah selama **30 hari**. Maknanya, kalau ada orang klik lin
 
 ### 5. Apa beza Shopee Affiliate dengan dropship?
 **Affiliate:** Anda dapat komisen per jualan, tak perlu urus stok, penghantaran atau customer service. **Dropship:** Anda tentukan harga jualan sendiri, margin untung lebih besar (20–40%), tapi kena urus tempahan dan kadang-kadang customer service. Dua-dua ada kelebihan masing-masing — baca panduan lengkap [Kerja Sampingan Online: Dropship, Affiliate & Freelance](https://rakyathub.my/panduan-kerja-sampingan-online-malaysia/) untuk pilih yang sesuai.
+
+
+**Baca juga:**
+- [Bursa Malaysia Cecah 1,700 Semula? Ini Peluang Untuk](/bursa-malaysia-1700-peluang-melabur/)
+- [Side Hustle Content Creator & UGC](/side-hustle-content-creator-ugc-malaysia-2026/)
+- [Damai Iran-AS: Minyak Akan Turun Lagi](/gencatan-senjata-iran-as-impak-ekonomi-malaysia/)
+

@@ -306,3 +306,10 @@ Gaji minimum di Malaysia adalah **RM1,700 sebulan** di Semenanjung Malaysia dan 
 **5. Macam mana nak dapat kerja tanpa pengalaman?**
 
 Fokus pada **tiga perkara**: (1) Ambil kursus online percuma atau murah untuk dapatkan sijil, (2) Bina portfolio atau projek sendiri yang boleh tunjuk pada majikan, (3) Volunteer atau intern untuk dapat pengalaman praktikal. Jangan lupa sediakan resume yang power guna [DocuKilat](https://docukilat.rakyathub.my) — resume yang profesional buat majikan serius pertimbangkan anda walaupun tanpa pengalaman kerja formal.
+
+
+**Baca juga:**
+- [Gaji Graduan Mengikut Industri 2026 — Panduan Lengkap](/gaji-graduan-mengikut-industri-2026/)
+- [Cara Buat Akaun LinkedIn Untuk Student (Panduan](/cara-buat-akaun-linkedin-untuk-student/)
+- [Gaji Minimum RM3,000 Menjelang 2030](/gaji-minimum-rm3000-2030-malaysia/)
+

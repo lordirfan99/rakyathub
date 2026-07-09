@@ -165,3 +165,10 @@ Pelaburan emas adalah pilihan praktikal untuk pemula yang nak mulakan perjalanan
 Yang penting, **jangan tunggu harga rendah** — mulakan dengan jumlah kecil sekarang dan konsisten. Harga emas yang berada pada RM567/gram pada Jun 2026 adalah antara paras yang menarik berbanding rekod tertinggi Januari, dan ramai penganalisis global menjangkakan harga akan terus meningkat dalam jangka sederhana panjang.
 
 > 🚀 **Langkah pertama hari ini:** Buka akaun emas digital dengan RM100, tetapkan auto-DCA bulanan RM100, dan pantau perkembangan selepas 6 bulan. Jangan lupa daftar juga akaun **Semak Mule CCID** untuk elak jadi mangsa scam pelaburan palsu.
+
+
+**Baca juga:**
+- [DCA Emas GAP Public Gold](/dca-emas-gap-public-gold-strategi-beli-konsisten/)
+- [Emas Fizikal vs Emas Digital](/emas-fizikal-vs-emas-digital-mana-lebih-untung/)
+- [Harga Emas Cecah RM764/g](/harga-emas-cecah-rm764-6-platform-pelaburan-terbaik-2026/)
+

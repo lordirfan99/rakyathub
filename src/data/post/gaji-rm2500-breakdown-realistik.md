@@ -201,3 +201,10 @@ Gaji RM2,500 bukan gaji besar, tapi **cukup untuk bermula**. Yang membezakan kor
 Paling penting — **jangan biasakan gaya hidup ikut gaji**. Gaji naik nanti, simpanan kena naik lagi, bukan ikut naik perbelanjaan.
 
 📌 *Nak kira sendiri? Guna [kalkulator ASB](https://rakyathub.my/kalkulator/asb/) untuk target simpanan, atau [kalkulator KWSP](https://rakyathub.my/kalkulator/kwsp/) untuk lihat compounding power. Nak dokumen siap lebih cepat? Check [DocuKilat](https://docukilat.rakyathub.my) — urusan surat-menyurat & template dokumen. Jangan lupa bookmark [rakyathub.my](https://rakyathub.my) untuk tips kewangan harian!*
+
+
+**Baca juga:**
+- [Cara Urus Duit Rumah Tangga — Panduan Kewangan Pasangan](/cara-urus-duit-rumah-tangga-pasangan-suami-isteri/)
+- [Gaji RM3,500 Sebulan](/gaji-rm3500-breakdown-realistik/)
+- [Tabung Haji 2026 — Cara Simpan, Dividen & Panduan](/tabung-haji-2026-panduan-simpanan-dividen/)
+

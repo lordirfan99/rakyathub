@@ -248,3 +248,8 @@ Yang bestnya, dua skim ni boleh guna serentak kalau korang layak — saringan Pe
 > **Baca juga:** [Perkhidmatan KKM Percuma](/perkhidmatan-kkm-percuma-klinik-kesihatan-kerajaan-malaysia/) — senarai lengkap perkhidmatan kesihatan kerajaan yang boleh korang dapatkan secara percuma atau subsidi.
 
 **Kata Kunci:** skim perubatan madani 2026, peka b40 2026, cara mohon skim perubatan madani, cara daftar peka b40, saringan kesihatan percuma, klinik percuma b40, protecthealth, kkm bantuan kesihatan, saringan ncd percuma
+
+
+**Baca juga:**
+- [Diabetes Kencing Manis Malaysia: Kos & Pencegahan](/diabetes-kencing-manis-malaysia-kos-pencegahan/)
+- [Kos Pemeriksaan Kesihatan Malaysia 2026](/kos-pemeriksaan-kesihatan-malaysia-2026-perbandingan-pakej/)

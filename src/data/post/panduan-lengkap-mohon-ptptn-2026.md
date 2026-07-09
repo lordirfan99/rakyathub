@@ -23,6 +23,12 @@ faq:
   - question: "Apa jadi kalau gagal bayar PTPTN?"
     answer: "Peminjam yang gagal bayar PTPTN boleh dikenakan sekatan perjalanan ke luar negara, nama disenaraihitamkan CCRIS, dan dikenakan caj lewat bayar. Pada 2026, seramai 417,158 peminjam masih gagal bayar. Tapi PTPTN tawarkan rundingan fleksibel dan penstrukturan semula untuk bantu peminjam."
 ---
+**Baca juga:**
+- [Baucar Buku MADANI RM100 2026 — Panduan Lengkap](/baucar-buku-madani-2026-cara-tebus-syarat/)
+- [Platform Belajar Online Percuma Malaysia 2026](/platform-belajar-online-percuma-malaysia-2026/)
+- [Panduan Sambung Master & PhD di Malaysia 2026](/panduan-sambung-master-phd/)
+
+
 ## 📚 Apa Itu PTPTN dan Kenapa Penting?
 
 PTPTN (Perbadanan Tabung Pendidikan Tinggi Nasional) adalah pinjaman pendidikan kerajaan Malaysia yang menyediakan pembiayaan kepada pelajar yang melanjutkan pelajaran ke peringkat diploma, ijazah pertama dan program profesional di IPTA dan IPTS.

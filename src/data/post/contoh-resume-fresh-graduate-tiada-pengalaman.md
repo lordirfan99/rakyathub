@@ -121,3 +121,10 @@ Graduan Sarjana Muda Perakaunan (Kepujian) dari Universiti Kebangsaan Malaysia d
 Kalau nak template resume yang lebih lengkap dengan design moden, boleh guna perkhidmatan template resume di [DocuKilat](https://docukilat.rakyathub.my) untuk dapatkan format profesional yang siap guna.
 
 📌 *Jangan lupa bookmark rakyathub.my untuk lebih banyak tips kerjaya dan persiapan temuduga!*
+
+
+**Baca juga:**
+- [Bina Personal Branding Dari Universiti](/bina-personal-branding-dari-universiti/)
+- [Panduan Lengkap Runding Gaji Fresh Grad 2026](/panduan-lengkap-runding-gaji-fresh-grad-2026/)
+- [10 Pekerjaan Paling Tinggi Permintaan di Malaysia 2026](/pekerjaan-high-demand-malaysia-2026/)
+

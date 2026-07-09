@@ -268,3 +268,10 @@ Jimat belanja dapur bukanlah pasal hidup susah atau takut nak belanja langsung. 
 Cuba amalkan **2-3 strategi dulu** selama sebulan, bukan terus semua 10. Lepas dah jadi kebiasaan, tambah strategi lain. Konsisten lebih penting daripada drastik. Duit yang disimpan bukan kecil — RM200-RM500 sebulan yang dijimatkan dari belanja dapur, kalau dilabur dalam ASB, KWSP, atau pelaburan patuh syariah, dalam 10 tahun boleh jadi puluhan ribu ringgit.
 
 Selamat berjimat dan selamat mencuba!
+
+
+**Baca juga:**
+- [Gaya Hidup Minimalis — Jimat Duit & Hidup Tenang](/cara-hidup-minimalis-malaysia-panduan-jimat-duit/)
+- [15 Tempat Dating Bawah RM30 di KL & Selangor](/tempat-dating-bawah-rm30-kl-selangor/)
+- [Panduan Lengkap Hidup Sewa di Malaysia](/panduan-hidup-sewa-rumah-malaysia/)
+

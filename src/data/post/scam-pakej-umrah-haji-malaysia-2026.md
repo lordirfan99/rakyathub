@@ -228,3 +228,10 @@ Ibadah umrah dan haji adalah perjalanan suci. Jangan biarkan pengalaman bermula 
 **Kongsi artikel ni** dengan ahli keluarga dan kawan-kawan yang bercadang nak tunaikan umrah atau haji. Mungkin satu perkongsian boleh selamatkan simpanan mereka dari sindiket penipuan.
 
 > *"Wahai orang-orang yang beriman, janganlah kamu makan harta sesama kamu dengan jalan yang batil."* — (Surah an-Nisa' : 29)
+
+
+**Baca juga:**
+- [Scam APK Fail Berbahaya & Cara Lindung Diri](/scam-apk-fail-berbahaya-malaysia-cara-lindung/)
+- [Scam Fake BTS: SMS Bank Palsu & Cara Lindung Diri](/fake-bts-scam-sms-palsu-malaysia-cara-lindung-diri/)
+- [Scam WhatsApp Telegram 2026](/scam-whatsapp-telegram-bnm-ai-detection-2026-cara-lindung-diri/)
+

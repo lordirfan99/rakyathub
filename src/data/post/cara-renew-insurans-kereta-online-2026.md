@@ -226,3 +226,10 @@ Renew insurans kereta online di Malaysia 2026 dah jadi sangat mudah — guna pho
 - MyEG Compare: https://compare.myeg.com.my
 - PIAM (NCD rate): https://www.piam.org.my
 - Bank Negara Malaysia (senarai insurer berdaftar): https://www.bnm.gov.my/insurans
+
+
+**Baca juga:**
+- [Medical Card vs Critical Illness](/medical-card-vs-critical-illness-beza-panduan-2026/)
+- [Cara Tuntut Insurans Kereta Selepas Kemalangan](/cara-tuntut-insurans-kereta-selepas-kemalangan-malaysia/)
+- [Premium Insurans Perubatan Makin Mahal 2026? Jangan Panik](/premium-insurans-perubatan-naik-2026-alternatif-mhit/)
+

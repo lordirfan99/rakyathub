@@ -209,3 +209,10 @@ Baca panduan lengkap inisiatif KWSP 2026 kami di sini: [/kwsp-inisiatif-baru-202
 > 🎯 **Action plan:** Kalau korang atau parents korang dah dekat umur 55 tahun, mula bincang pasal i-Emas sekarang. Jangan tunggu sampai cukup umur baru fikir — perancangan awal menentukan kualiti persaraan nanti.
 
 *Artikel ini adalah untuk tujuan pendidikan kewangan sahaja dan bukan nasihat kewangan profesional. Untuk maklumat tepat, rujuk portal rasmi KWSP atau hubungi 03-8922 6000.*
+
+
+**Baca juga:**
+- [i-Saraan KWSP 2026 — Cara Daftar & Dapat Insentif 20%](/i-saraan-kwsp-2026-cara-daftar-insentif-padanan/)
+- [KWSP vs ASB vs Tabung Haji](/kwsp-vs-asb-vs-tabung-haji-banding/)
+- [KWSP Tutup Kaunter Bayaran — 5 Cara Alternatif](/kwsp-tutup-kaunter-bayar-caruman-julai-2026/)
+

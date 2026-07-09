@@ -178,3 +178,10 @@ Ya, boleh! Ramai profesional buat career switch lewat — apa yang penting adala
 
 ### 5. Industri apa yang paling mesra untuk career switcher di Malaysia?
 Industri paling mesra termasuk **teknologi (IT support, data analytics)**, **digital marketing**, **HR dan recruitment**, serta **sektor penjagaan kesihatan (healthcare admin dan medical devices)**. Industri ni biasanya lebih terbuka dan ada program latihan dalaman untuk pekerja baru.
+
+
+**Baca juga:**
+- [Panduan Kerjaya TVET Malaysia 2026](/panduan-kerjaya-tvet-malaysia-2026/)
+- [Panduan Kerjaya Jurutera Malaysia 2026](/panduan-kerjaya-jurutera-malaysia-2026/)
+- [Kerjaya Akauntan & Perakaunan Malaysia 2026](/panduan-kerjaya-akauntan-perakaunan-malaysia-2026/)
+

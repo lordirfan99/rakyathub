@@ -118,3 +118,10 @@ Sentiasa tulis dalam ayat sendiri selepas baca sumber. Guna alat semakan plagiar
 
 **Apa buat kalau tak faham langsung soalan assignment?**
 Jumpa pensyarah waktu pejabat atau hantar e-mel untuk minta penjelasan. Lebih baik tanya awal daripada tersasar dan dapat markah rendah.
+
+
+**Baca juga:**
+- [Panduan Lengkap Mohon PTPTN 2026](/panduan-lengkap-mohon-ptptn-2026/)
+- [Cara Elak Plagiat dalam Assignment Universiti](/cara-elak-plagiat-assignment-universiti/)
+- [PTPTN Senarai Hitam & Sekatan Perjalanan 2026](/ptptn-sekatan-blacklist-2026/)
+

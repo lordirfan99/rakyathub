@@ -95,3 +95,10 @@ Luangkan 5 minit setiap pagi untuk bayangkan diri anda menjawab exam dengan tena
 Stress sebelum final exam adalah perkara biasa, tapi jangan biarkan ia mengganggu potensi sebenar anda. Dengan teknik pengurusan stress yang betul — tidur cukup, jadual realistik, pemakanan baik dan sokongan sosial — anda boleh hadapi exam dengan lebih tenang dan yakin.
 
 Ingat, exam hanyalah sebahagian kecil dari perjalanan hidup anda. Pointer penting, tapi kesihatan mental dan fizikal jauh lebih berharga. Buat yang terbaik, dan rehat bila perlu. Selamat maju jaya!
+
+
+**Baca juga:**
+- [Cara Mohon Biasiswa Yayasan Negeri 2026](/cara-mohon-biasiswa-yayasan-negeri-2026/)
+- [Cara Hilangkan Mengantuk Masa Belajar](/cara-hilangkan-mengantuk-masa-belajar/)
+- [Contoh Pengenalan Kerja Kursus Yang Menarik & Tepat](/contoh-pengenalan-kerja-kursus/)
+

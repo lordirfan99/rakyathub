@@ -231,3 +231,10 @@ Faham hak pekerja adalah kemahiran asas yang korang kena kuasai sebelum masuk du
 Baca kontrak kerja dengan teliti sebelum sign, dan jangan takut untuk tanya HR kalau ada benda korang tak faham. Pengetahuan tentang hak pekerja adalah senjata terbaik korang di tempat kerja.
 
 Untuk perancangan kewangan lebih mantap, gunakan [Kalkulator Gaji Bersih](https://rakyathub.my/kalkulator/gaji-bersih) dan [Kalkulator KWSP](https://rakyathub.my/kalkulator/kwsp) untuk lihat berapa sebenarnya duit yang korang boleh simpan setiap bulan.
+
+
+**Baca juga:**
+- [Panduan Kerjaya Farmasi Malaysia 2026](/panduan-kerjaya-farmasi-malaysia-2026/)
+- [Cara Semak Saman JPJ & PDRM Online 2026](/semakan-saman-jpj-pdrm/)
+- [7 Pekerjaan Paling Laris 2026 di Malaysia](/7-pekerjaan-paling-laris-2026-malaysia/)
+
