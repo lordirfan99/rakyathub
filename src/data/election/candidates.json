@@ -2892,13 +2892,6 @@
       "l": 2
     },
     {
-      "uid": "P2DPQ",
-      "name": "Abdul Rahman bin Suliman",
-      "c": 6,
-      "w": 4,
-      "l": 2
-    },
-    {
       "uid": "QESD4",
       "name": "Mohd Jidin bin Shafee",
       "c": 6,
@@ -9369,6 +9362,13 @@
     {
       "uid": "NTG6Y",
       "name": "Abdul Aziz bin Ishak",
+      "c": 4,
+      "w": 2,
+      "l": 2
+    },
+    {
+      "uid": "P2DPQ",
+      "name": "Abdul Rahman bin Suliman",
       "c": 4,
       "w": 2,
       "l": 2
@@ -21255,6 +21255,13 @@
     {
       "uid": "7K8DY",
       "name": "Hamzah bin Ramli",
+      "c": 2,
+      "w": 2,
+      "l": 0
+    },
+    {
+      "uid": "7NP69",
+      "name": "Abdul Rahman bin Sulaiman",
       "c": 2,
       "w": 2,
       "l": 0

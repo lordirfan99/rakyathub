@@ -32,3 +32,6 @@ audit_log.md
 public/api/
 scripts/__pycache__/
 tmp/
+
+# Local Netlify folder
+.netlify

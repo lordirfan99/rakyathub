@@ -1,0 +1,78 @@
+# ============================================================
+# PIPELINE CONFIG — World Cup 2026 + Premier League
+# ============================================================
+
+league:
+  active: world_cup  # world_cup | premier_league
+  world_cup:
+    name: "World Cup 2026"
+    season: 2026
+    total_matches: 104
+    league_avg_xg: 1.23
+    league_avg_xga: 1.23
+    home_advantage: 0.0  # neutral venues
+    time_decay_xi: 0.012  # faster decay for tournament
+    data_path: "./data/world_cup/"
+  premier_league:
+    name: "Premier League"
+    season: 2025-26
+    total_matches: 380
+    league_avg_xg: 1.50
+    league_avg_xga: 1.20
+    home_advantage: 0.21
+    time_decay_xi: 0.0065  # standard 107-day half-life
+    data_path: "./data/premier_league/"
+
+models:
+  weights:
+    polymarket: 0.40
+    dataset: 0.20
+    opta: 0.15
+    xgscore: 0.10
+    dixon_coles: 0.15
+  dixon_coles:
+    rho: -0.06
+    max_goals: 7
+  poisson:
+    max_goals: 7
+  kelly:
+    fraction: 0.25  # Quarter Kelly
+    min_edge: 0.05  # Minimum 5% edge to bet
+
+data_sources:
+  polymarket:
+    enabled: true
+    min_volume: 10000  # $10K minimum volume
+  twelvesport:
+    enabled: true
+    url: "https://www.12play21.com/en"
+    max_age_minutes: 120  # refresh if >2h old
+  xgscore:
+    enabled: true
+    url: "https://xgscore.io/xg-statistics/world-cup/2026"
+  opta:
+    enabled: true
+  dataset:
+    enabled: true
+    path: "./wc2026_teams.csv"
+    hf_repo: "adibmed/football-dataset"
+
+betting:
+  bankroll: 30.0
+  max_stake_pct: 0.10  # 10% max per bet
+  min_odds: 1.20
+  max_odds: 20.0
+  preferred_book: "12play21.com"
+  odds_format: "MY"  # Malaysian odds
+
+automation:
+  cron_check_odds: "0 */4 * * *"  # every 4 hours
+  cron_match_scan: "0 0 * * *"    # daily midnight
+  data_refresh_days: 1
+  max_odds_age_hours: 2
+
+output:
+  template: "match-analysis-template"
+  deliver_origin: true
+  save_local: true
+  save_path: "./outputs/"
