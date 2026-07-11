@@ -1,767 +1,162 @@
 {
   "system_status": {
-    "last_updated": "2026-07-11T12:02:28Z",
-    "bankroll_rm": 30,
-    "data_source": "the-odds-api (API) + 12Play MY"
+    "last_updated": "2026-07-10T05:58:00Z",
+    "bankroll_rm": 30
   },
   "matches": [
-    {
-      "id": "eng_nor_03",
-      "home_team": "Norway",
-      "away_team": "England",
-      "venue": "World Cup Quarterfinal",
-      "stage": "Quarterfinal",
-      "date": "2026-07-11",
-      "time": "05:00 MYT",
-      "highest_edge_status": "\u26aa",
-      "home_odds": 3.8,
-      "draw_odds": 3.7,
-      "away_odds": 1.91,
-      "markets": {
-        "1x2": {
-          "home": 3.8,
-          "draw": 3.7,
-          "away": 1.91
-        },
-        "over_under_25": {
-          "over": 1.67,
-          "under": 2.15
-        }
-      },
-      "bookies": {
-        "1xbet": {
-          "1x2": {
-            "home": 3.8,
-            "draw": 3.7,
-            "away": 1.91
-          },
-          "over_under_25": {
-            "over": 1.67,
-            "under": 2.15
-          }
-        },
-        "12play": {
-          "1x2": {
-            "home": 4.2,
-            "draw": 3.64,
-            "away": 1.87
-          },
-          "over_under_25": {
-            "over": 1.71,
-            "under": 2.12
-          },
-          "btts": {
-            "yes": 1.63,
-            "no": 2.23
-          },
-          "draw_no_bet": {
-            "norway": 2.9,
-            "england": 1.38
-          },
-          "asian_handicap_05": {
-            "norway_+0.5": 1.94,
-            "england_-0.5": 1.86
-          }
-        }
-      },
-      "analysis": {
-        "sport_raw": {
-          "home": 3.8,
-          "draw": 3.7,
-          "away": 1.91,
-          "vig": 0.035
-        },
-        "polymarket_devig": {
-          "home": 0.552,
-          "draw": 0.258,
-          "away": 0.19
-        },
-        "triangulation_1x2": {
-          "polymarket": [
-            55.2,
-            25.8,
-            19.0
-          ],
-          "dataset": [
-            58.1,
-            24.3,
-            17.6
-          ],
-          "opta": [
-            54.0,
-            26.0,
-            20.0
-          ],
-          "xgscore": [
-            56.0,
-            24.0,
-            20.0
-          ],
-          "dixon_coles": [
-            57.2,
-            23.8,
-            19.0
-          ],
-          "ensemble": [
-            56.1,
-            24.8,
-            19.1
-          ]
-        },
-        "triangulation_ou": {
-          "polymarket": [
-            51.2,
-            48.8
-          ],
-          "xgscore": [
-            53.0,
-            47.0
-          ],
-          "opta": [
-            52.0,
-            48.0
-          ],
-          "dixon_coles": [
-            49.5,
-            50.5
-          ],
-          "ensemble": [
-            51.4,
-            48.6
-          ]
-        },
-        "triangulation_btts": {
-          "polymarket": [
-            55.0,
-            45.0
-          ],
-          "xgscore": [
-            52.0,
-            48.0
-          ],
-          "dixon_coles": [
-            48.5,
-            51.5
-          ],
-          "ensemble": [
-            51.8,
-            48.2
-          ]
-        },
-        "edge_summary": [
-          {
-            "market": "Norway Win",
-            "edge": 109.8,
-            "status": "\u274c",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "Draw",
-            "edge": -4.5,
-            "status": "\u26aa",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "England Win",
-            "edge": -63.7,
-            "status": "\u2705",
-            "quarter_kelly_stake": 1.15
-          },
-          {
-            "market": "O 2.5",
-            "edge": 1.2,
-            "status": "\u26aa",
-            "quarter_kelly_stake": 0.2
-          },
-          {
-            "market": "U 2.5",
-            "edge": -4.2,
-            "status": "\u274c",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "BTTS Yes",
-            "edge": 0.0,
-            "status": "\u26aa",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "BTTS No",
-            "edge": 0.0,
-            "status": "\u26aa",
-            "quarter_kelly_stake": 0
-          }
-        ],
-        "narrative": {
-          "form": "England solid defensively. Norway overperforming xG in tournament.",
-          "injuries": "England full squad available. Norway key midfielder doubtful.",
-          "tactical": "England control vs Norway counter. England -0.25 AH showing slight edge.",
-          "data_source": "the-odds-api (Unibet) + 12Play MY"
-        },
-        "data_source": "the-odds-api + existing analysis"
-      }
-    },
-    {
-      "id": "arg_sui_04",
-      "home_team": "Argentina",
-      "away_team": "Switzerland",
-      "venue": "World Cup Quarterfinal",
-      "stage": "Quarterfinal",
-      "date": "2026-07-12",
-      "time": "09:00 MYT",
-      "highest_edge_status": "\u26aa",
-      "home_odds": 1.68,
-      "draw_odds": 3.45,
-      "away_odds": 5.8,
-      "markets": {
-        "1x2": {
-          "home": 1.68,
-          "draw": 3.45,
-          "away": 5.8
-        },
-        "over_under_25": {
-          "over": 2.25,
-          "under": 1.62
-        }
-      },
-      "bookies": {
-        "1xbet": {
-          "1x2": {
-            "home": 1.68,
-            "draw": 3.45,
-            "away": 5.8
-          },
-          "over_under_25": {
-            "over": 2.25,
-            "under": 1.62
-          }
-        },
-        "12play": {
-          "1x2": {
-            "home": 1.69,
-            "draw": 3.56,
-            "away": 5.7
-          }
-        }
-      },
-      "analysis": {
-        "sport_raw": {
-          "home": 1.68,
-          "draw": 3.45,
-          "away": 5.8,
-          "vig": 0.035
-        },
-        "polymarket_devig": {
-          "home": 0.632,
-          "draw": 0.228,
-          "away": 0.14
-        },
-        "triangulation_1x2": {
-          "polymarket": [
-            63.2,
-            22.8,
-            14.0
-          ],
-          "dataset": [
-            68.5,
-            20.2,
-            11.3
-          ],
-          "opta": [
-            64.0,
-            22.0,
-            14.0
-          ],
-          "xgscore": [
-            65.0,
-            21.0,
-            14.0
-          ],
-          "dixon_coles": [
-            70.2,
-            19.5,
-            10.3
-          ],
-          "ensemble": [
-            66.2,
-            21.1,
-            12.7
-          ]
-        },
-        "triangulation_ou": {
-          "polymarket": [
-            48.5,
-            51.5
-          ],
-          "xgscore": [
-            46.0,
-            54.0
-          ],
-          "opta": [
-            47.0,
-            53.0
-          ],
-          "dixon_coles": [
-            44.8,
-            55.2
-          ],
-          "ensemble": [
-            46.6,
-            53.4
-          ]
-        },
-        "triangulation_btts": {
-          "polymarket": [
-            51.0,
-            49.0
-          ],
-          "xgscore": [
-            48.0,
-            52.0
-          ],
-          "dixon_coles": [
-            42.5,
-            57.5
-          ],
-          "ensemble": [
-            47.2,
-            52.8
-          ]
-        },
-        "edge_summary": [
-          {
-            "market": "Argentina Win",
-            "edge": 6.2,
-            "status": "\ud83d\ude80",
-            "quarter_kelly_stake": 5.8
-          },
-          {
-            "market": "Draw",
-            "edge": -21.3,
-            "status": "\u26aa",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "Switzerland Win",
-            "edge": -18.8,
-            "status": "\u274c",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "O 2.5",
-            "edge": 0.1,
-            "status": "\u26aa",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "U 2.5",
-            "edge": 9.4,
-            "status": "\u2705",
-            "quarter_kelly_stake": 2.8
-          },
-          {
-            "market": "BTTS Yes",
-            "edge": -0.1,
-            "status": "\u26aa",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "BTTS No",
-            "edge": 4.0,
-            "status": "\u2705",
-            "quarter_kelly_stake": 1.05
-          }
-        ],
-        "narrative": {
-          "form": "Argentina strong tournament form. Switzerland disciplined but outmatched.",
-          "injuries": "Both teams full strength.",
-          "tactical": "Argentina possession vs Switzerland compact defence. Argentina Win and U 2.5 both showing significant edge.",
-          "data_source": "the-odds-api (Unibet) + 12Play MY"
-        },
-        "data_source": "the-odds-api + existing analysis"
-      }
-    },
-    {
-      "id": "fra_esp_sf",
-      "home_team": "France",
-      "away_team": "Spain",
-      "venue": "World Cup Semifinal",
-      "stage": "Semifinal",
-      "date": "2026-07-14",
-      "time": "03:00 MYT",
-      "highest_edge_status": "\u26aa",
-      "home_odds": 2.35,
-      "draw_odds": 3.2,
-      "away_odds": 3.15,
-      "markets": {
-        "1x2": {
-          "home": 2.35,
-          "draw": 3.2,
-          "away": 3.15
-        },
-        "over_under_25": {
-          "over": 1.89,
-          "under": 1.87
-        }
-      },
-      "bookies": {
-        "1xbet": {
-          "1x2": {
-            "home": 2.35,
-            "draw": 3.2,
-            "away": 3.15
-          },
-          "over_under_25": {
-            "over": 1.89,
-            "under": 1.87
-          }
-        }
-      },
-      "analysis": {
-        "sport_raw": {
-          "home": 2.35,
-          "draw": 3.2,
-          "away": 3.15,
-          "vig": 0.035
-        },
-        "polymarket_devig": {
-          "home": 0.45,
-          "draw": 0.28,
-          "away": 0.27
-        },
-        "triangulation_1x2": {
-          "polymarket": [
-            45.0,
-            28.0,
-            27.0
-          ],
-          "dataset": [
-            45.0,
-            28.0,
-            27.0
-          ],
-          "opta": [
-            45.0,
-            28.0,
-            27.0
-          ],
-          "xgscore": [
-            45.0,
-            28.0,
-            27.0
-          ],
-          "dixon_coles": [
-            45.0,
-            28.0,
-            27.0
-          ],
-          "ensemble": [
-            45.0,
-            28.0,
-            27.0
-          ]
-        },
-        "triangulation_ou": {
-          "polymarket": [
-            50.0,
-            50.0
-          ],
-          "xgscore": [
-            50.0,
-            50.0
-          ],
-          "opta": [
-            50.0,
-            50.0
-          ],
-          "dixon_coles": [
-            50.0,
-            50.0
-          ],
-          "ensemble": [
-            50.0,
-            50.0
-          ]
-        },
-        "triangulation_btts": {
-          "polymarket": [
-            50.0,
-            50.0
-          ],
-          "xgscore": [
-            50.0,
-            50.0
-          ],
-          "dixon_coles": [
-            50.0,
-            50.0
-          ],
-          "ensemble": [
-            50.0,
-            50.0
-          ]
-        },
-        "edge_summary": [
-          {
-            "market": "France Win",
-            "edge": 5.8,
-            "status": "\u26aa",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "Draw",
-            "edge": -10.4,
-            "status": "\u26aa",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "Spain Win",
-            "edge": -14.9,
-            "status": "\u26aa",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "O 2.5",
-            "edge": 0.0,
-            "status": "\u26aa",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "U 2.5",
-            "edge": 0.0,
-            "status": "\u26aa",
-            "quarter_kelly_stake": 0
-          }
-        ],
-        "narrative": {
-          "form": "France vs Spain \u2014 World Cup Semifinal.",
-          "injuries": "TBD \u2014 check latest team news.",
-          "tactical": "Awaiting lineup confirmation.",
-          "data_source": "the-odds-api (Unibet)"
-        },
-        "data_source": "the-odds-api + existing analysis"
-      }
-    },
     {
       "id": "esp_bel_01",
       "home_team": "Spain",
       "away_team": "Belgium",
       "venue": "Los Angeles Stadium",
       "stage": "Quarterfinal",
-      "date": "2026-07-11",
+      "date": "2026-07-10",
       "time": "03:00 MYT",
-      "highest_edge_status": "\u26aa",
+      "highest_edge_status": "⚪",
       "home_odds": 1.65,
       "draw_odds": 3.89,
-      "away_odds": 5.3,
-      "markets": {
-        "1x2": {
-          "home": 1.65,
-          "draw": 3.89,
-          "away": 5.3
-        },
-        "over_under_25": {
-          "over": 1.75,
-          "under": 2.07
-        }
-      },
-      "bookies": {
-        "1xbet": {
-          "1x2": {
-            "home": 1.63,
-            "draw": 4.18,
-            "away": 6.14
-          },
-          "over_under_25": {
-            "over": 1.768,
-            "under": 2.124
-          },
-          "btts": {
-            "yes": 1.807,
-            "no": 2.026
-          },
-          "asian_handicap_1": {
-            "home_-1": 1.99,
-            "away_+1": 1.82
-          },
-          "team_to_qualify": {
-            "spain": 1.3,
-            "belgium": 3.45
-          }
-        },
-        "12play": {
-          "1x2": {
-            "home": 1.59,
-            "draw": 3.91,
-            "away": 6.0
-          },
-          "over_under_25": {
-            "over": 1.75,
-            "under": 2.07
-          },
-          "btts": {
-            "yes": 1.77,
-            "no": 2.05
-          },
-          "goals_handicap_n1": {
-            "spain_-1": 2.02,
-            "belgium_+1": 1.79
-          },
-          "draw_no_bet": {
-            "spain": 1.22,
-            "belgium": 4.15
-          },
-          "team_to_qualify": {
-            "spain": 1.3,
-            "belgium": 3.8
-          }
-        }
-      },
+      "away_odds": 5.30,
       "analysis": {
-        "sport_raw": {
-          "home": 1.65,
-          "draw": 3.89,
-          "away": 5.3,
-          "vig": 0.034
-        },
-        "polymarket_devig": {
-          "home": 0.589,
-          "draw": 0.243,
-          "away": 0.168
-        },
+        "sport_raw": { "home": 2.10, "draw": 3.40, "away": 3.60, "vig": 0.052 },
+        "polymarket_devig": { "home": 0.589, "draw": 0.243, "away": 0.168 },
         "triangulation_1x2": {
-          "polymarket": [
-            58.9,
-            24.3,
-            16.8
-          ],
-          "dataset": [
-            65.9,
-            25.4,
-            10.1
-          ],
-          "opta": [
-            59.3,
-            22.4,
-            18.3
-          ],
-          "xgscore": [
-            62.0,
-            21.0,
-            17.0
-          ],
-          "dixon_coles": [
-            71.8,
-            19.7,
-            8.5
-          ],
-          "ensemble": [
-            62.4,
-            23.1,
-            14.4
-          ]
+          "polymarket": [58.9, 24.3, 16.8],
+          "dataset": [65.9, 25.4, 10.1],
+          "opta": [59.3, 22.4, 18.3],
+          "xgscore": [62.0, 21.0, 17.0],
+          "dixon_coles": [71.8, 19.7, 8.5],
+          "ensemble": [62.4, 23.1, 14.4]
         },
         "triangulation_ou": {
-          "polymarket": [
-            54.1,
-            45.9
-          ],
-          "xgscore": [
-            52.0,
-            48.0
-          ],
-          "opta": [
-            52.0,
-            48.0
-          ],
-          "dixon_coles": [
-            48.2,
-            51.8
-          ],
-          "ensemble": [
-            52.5,
-            47.5
-          ]
+          "polymarket": [54.1, 45.9],
+          "xgscore": [52.0, 48.0],
+          "opta": [52.0, 48.0],
+          "dixon_coles": [48.2, 51.8],
+          "ensemble": [52.5, 47.5]
         },
         "triangulation_btts": {
-          "polymarket": [
-            52.5,
-            47.5
-          ],
-          "xgscore": [
-            47.0,
-            53.0
-          ],
-          "dixon_coles": [
-            37.8,
-            62.2
-          ],
-          "ensemble": [
-            47.0,
-            53.0
-          ]
+          "polymarket": [52.5, 47.5],
+          "xgscore": [47.0, 53.0],
+          "dixon_coles": [37.8, 62.2],
+          "ensemble": [47.0, 53.0]
         },
         "edge_summary": [
-          {
-            "market": "Spain Win",
-            "edge": -1.8,
-            "status": "\u26aa",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "Draw",
-            "edge": -3.3,
-            "status": "\u274c",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "Belgium Win",
-            "edge": -11.7,
-            "status": "\u274c",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "O 2.5",
-            "edge": 7.6,
-            "status": "\u2705",
-            "quarter_kelly_stake": 2.1
-          },
-          {
-            "market": "U 2.5",
-            "edge": -5.3,
-            "status": "\u274c",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "BTTS Yes",
-            "edge": 0.0,
-            "status": "\u26aa",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "BTTS No",
-            "edge": 0.0,
-            "status": "\u26aa",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "Belgium +1.5",
-            "edge": -4.8,
-            "status": "\u26aa",
-            "quarter_kelly_stake": 0
-          },
-          {
-            "market": "Spain -1.5",
-            "edge": -5.4,
-            "status": "\u274c",
-            "quarter_kelly_stake": 0
-          }
+          { "market": "Spain Win", "edge": -2.8, "status": "⚪", "quarter_kelly_stake": 0 },
+          { "market": "Draw", "edge": -5.6, "status": "❌", "quarter_kelly_stake": 0 },
+          { "market": "Belgium Win", "edge": -10.8, "status": "❌", "quarter_kelly_stake": 0 },
+          { "market": "O 2.5", "edge": -2.6, "status": "⚪", "quarter_kelly_stake": 0 },
+          { "market": "U 2.5", "edge": -7.3, "status": "❌", "quarter_kelly_stake": 0 },
+          { "market": "BTTS Yes", "edge": -5.0, "status": "❌", "quarter_kelly_stake": 0 },
+          { "market": "BTTS No", "edge": -4.5, "status": "⚪", "quarter_kelly_stake": 0 },
+          { "market": "Belgium +1.5", "edge": -4.8, "status": "⚪", "quarter_kelly_stake": 0 },
+          { "market": "Spain -1.5", "edge": -5.4, "status": "❌", "quarter_kelly_stake": 0 }
         ],
         "narrative": {
           "form": "Spain: 6 consecutive clean sheets (WORLD CUP RECORD). Belgium: Attacking momentum 4-1 vs USA R16.",
           "injuries": "Amadou Onana ACL OUT (Belgium). Cubarsi & Laporte expected fit (Spain).",
-          "tactical": "Spain possession-based vs Belgium transition/counter. Onana absence leaves midfield gap vs Rodri/Pedri.",
-          "data_source": "Cached \u2014 no live API update"
+          "tactical": "Spain possession-based vs Belgium transition/counter. Onana absence leaves midfield gap vs Rodri/Pedri."
+        }
+      }
+    },
+    {
+      "id": "eng_nor_03",
+      "home_team": "England",
+      "away_team": "Norway",
+      "venue": "Stadium",
+      "stage": "Quarterfinal",
+      "date": "2026-07-11",
+      "time": "22:00 MYT",
+      "highest_edge_status": "✅",
+      "home_odds": 1.72,
+      "draw_odds": 3.60,
+      "away_odds": 4.80,
+      "analysis": {
+        "sport_raw": { "home": 1.72, "draw": 3.60, "away": 4.80, "vig": 0.050 },
+        "polymarket_devig": { "home": 0.552, "draw": 0.258, "away": 0.190 },
+        "triangulation_1x2": {
+          "polymarket": [55.2, 25.8, 19.0],
+          "dataset": [58.1, 24.3, 17.6],
+          "opta": [54.0, 26.0, 20.0],
+          "xgscore": [56.0, 24.0, 20.0],
+          "dixon_coles": [57.2, 23.8, 19.0],
+          "ensemble": [56.1, 24.8, 19.1]
+        },
+        "triangulation_ou": {
+          "polymarket": [51.2, 48.8],
+          "xgscore": [53.0, 47.0],
+          "opta": [52.0, 48.0],
+          "dixon_coles": [49.5, 50.5],
+          "ensemble": [51.4, 48.6]
+        },
+        "triangulation_btts": {
+          "polymarket": [55.0, 45.0],
+          "xgscore": [52.0, 48.0],
+          "dixon_coles": [48.5, 51.5],
+          "ensemble": [51.8, 48.2]
+        },
+        "edge_summary": [
+          { "market": "England Win", "edge": -4.5, "status": "⚪", "quarter_kelly_stake": 0 },
+          { "market": "Draw", "edge": -7.2, "status": "❌", "quarter_kelly_stake": 0 },
+          { "market": "Norway Win", "edge": -17.6, "status": "❌", "quarter_kelly_stake": 0 },
+          { "market": "O 2.5", "edge": -5.3, "status": "❌", "quarter_kelly_stake": 0 },
+          { "market": "U 2.5", "edge": 6.1, "status": "✅", "quarter_kelly_stake": 1.52 }
+        ],
+        "narrative": {
+          "form": "England solid defensively. Norway overperforming xG in tournament.",
+          "injuries": "England full squad available. Norway key midfielder doubtful.",
+          "tactical": "England control vs Norway counter. Under 2.5 expected in tight QF."
+        }
+      }
+    },
+    {
+      "id": "arg_sui_04",
+      "home_team": "Argentina",
+      "away_team": "Switzerland",
+      "venue": "Stadium",
+      "stage": "Quarterfinal",
+      "date": "2026-07-11",
+      "time": "03:00 MYT",
+      "highest_edge_status": "🚀",
+      "home_odds": 1.45,
+      "draw_odds": 4.20,
+      "away_odds": 7.50,
+      "analysis": {
+        "sport_raw": { "home": 1.45, "draw": 4.20, "away": 7.50, "vig": 0.048 },
+        "polymarket_devig": { "home": 0.632, "draw": 0.228, "away": 0.140 },
+        "triangulation_1x2": {
+          "polymarket": [63.2, 22.8, 14.0],
+          "dataset": [68.5, 20.2, 11.3],
+          "opta": [64.0, 22.0, 14.0],
+          "xgscore": [65.0, 21.0, 14.0],
+          "dixon_coles": [70.2, 19.5, 10.3],
+          "ensemble": [66.2, 21.1, 12.7]
+        },
+        "triangulation_ou": {
+          "polymarket": [48.5, 51.5],
+          "xgscore": [46.0, 54.0],
+          "opta": [47.0, 53.0],
+          "dixon_coles": [44.8, 55.2],
+          "ensemble": [46.6, 53.4]
+        },
+        "triangulation_btts": {
+          "polymarket": [51.0, 49.0],
+          "xgscore": [48.0, 52.0],
+          "dixon_coles": [42.5, 57.5],
+          "ensemble": [47.2, 52.8]
+        },
+        "edge_summary": [
+          { "market": "Argentina Win", "edge": 22.4, "status": "🚀", "quarter_kelly_stake": 8.45 },
+          { "market": "Draw", "edge": -8.9, "status": "❌", "quarter_kelly_stake": 0 },
+          { "market": "Switzerland Win", "edge": -36.7, "status": "❌", "quarter_kelly_stake": 0 },
+          { "market": "O 2.5", "edge": -4.1, "status": "⚪", "quarter_kelly_stake": 0 },
+          { "market": "U 2.5", "edge": 8.2, "status": "✅", "quarter_kelly_stake": 2.15 },
+          { "market": "BTTS Yes", "edge": -2.8, "status": "⚪", "quarter_kelly_stake": 0 },
+          { "market": "BTTS No", "edge": 7.5, "status": "✅", "quarter_kelly_stake": 1.98 }
+        ],
+        "narrative": {
+          "form": "Argentina strong tournament form. Switzerland disciplined but outmatched.",
+          "injuries": "Both teams full strength.",
+          "tactical": "Argentina possession vs Switzerland compact defence. Argentina Win and U 2.5 both showing significant edge."
         }
       }
     }
