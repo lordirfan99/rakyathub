@@ -35,9 +35,3 @@ tmp/
 
 # Local Netlify folder
 .netlify
-
-# Betting dashboard
-betting-dashboard/deploy.tar.gz
-betting-dashboard/deploy.zip
-betting-dashboard/pipeline/__pycache__/
-betting-dashboard/.netlify/
