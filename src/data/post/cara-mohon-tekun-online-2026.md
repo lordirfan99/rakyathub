@@ -12,7 +12,7 @@ tags:
   - pinjaman-perniagaan
   - bisnes-online
   - bisnes-kecil
-  - 2026
+  - "2026"
 author: RakyatHub
 faq:
   - question: "Berapa lama proses kelulusan TEKUN pada 2026?"
