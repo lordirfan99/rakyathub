@@ -72,7 +72,7 @@ Penciptaan pekerjaan yang berterusan ini didorong oleh:
 
 Untuk fresh graduate atau mereka yang tengah cari kerja, pasaran buruh yang kukuh ni petanda baik. Bila pengangguran rendah, majikan lebih cenderung tawarkan gaji kompetitif untuk tarik pekerja berkualiti.
 
-> 🔗 Nak tahu gaji ikut industri? Baca [Gaji Graduan Malaysia 2026](/gaji-graduan-2026/) untuk gambaran lengkap.
+> 🔗 Nak tahu gaji ikut industri? Baca [Gaji Graduan Malaysia 2026](/gaji-graduan-mengikut-industri-2026) untuk gambaran lengkap.
 
 ## 💸 Inflasi dan Kos Sara Hidup
 
@@ -136,7 +136,7 @@ Pertumbuhan kredit kepada sektor bukan kewangan swasta meningkat kepada **5.6%**
 
 Ini menunjukkan akses kepada pembiayaan masih baik untuk kedua-dua perniagaan dan individu. Tapi ingat — jangan guna kemudahan kredit untuk berbelanja di luar kemampuan.
 
-> 🔗 Nak urus duit dengan bijak? Baca [Panduan Bajet 50-30-20 Malaysia](/bajet-50-30-20-malaysia/) untuk cara asas kewangan peribadi.
+> 🔗 Nak urus duit dengan bijak? Baca [Panduan Bajet 50-30-20 Malaysia](/cadangan-bajet-50-30-20-di-malaysia) untuk cara asas kewangan peribadi.
 
 ## 🎯 Apa Maksudnya Untuk Korang?
 

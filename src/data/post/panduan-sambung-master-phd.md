@@ -164,6 +164,6 @@ Sambung master atau PhD adalah pelaburan besar — dari segi masa, tenaga, dan k
 
 Yang penting, buat keputusan dengan matlamat yang jelas. Jangan sambung hanya sebab orang sekeliling suruh atau sebab nak lari dari dunia pekerjaan. Fahamkan komitmen yang diperlukan dan rancang dari sekarang — dari pemilihan bidang, supervisor, biasiswa, sampai strategi kewangan.
 
-Untuk panduan pendidikan lain, baca [Diploma vs Foundation vs STPM](/diploma-vs-foundation-vs-stpm-mana-pilihan-terbaik-lepasan-spm/) atau [Panduan Lengkap UPU Online 2026](/upu-online-2026/).
+Untuk panduan pendidikan lain, baca [Diploma vs Foundation vs STPM](/diploma-vs-foundation-vs-stpm-mana-pilihan-terbaik-lepasan-spm/) atau [Panduan Lengkap UPU Online 2026](/upu-online-cara-mohon-tarikh-penting-tips-dapat-tawaran).
 
 **Kata Kunci:** sambung master Malaysia, PhD Malaysia 2026, yuran master IPTA, biasiswa PhD Malaysia, pascasiswazah, master research vs coursework, cara sambung belajar lepas degree

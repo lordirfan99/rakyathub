@@ -211,6 +211,6 @@ Ingat tiga perkara ni:
 2. **RAM 16GB** — lebih selamat dari 8GB untuk future proof
 3. **Beli dari kedai trusted** — jangan mudah tertipu harga murah tak masuk akal
 
-Kalau nak bandingkan harga laptop dengan pilihan lain, baca [Panduan Beli Kereta Terpakai Malaysia](/panduan-beli-kereta-terpakai-malaysia/) atau [Cara Urus Duit Gaji Kecil](/cara-urus-duit-gaji-kecil-dengan-bijak/) untuk pengurusan kewangan lebih baik.
+Kalau nak bandingkan harga laptop dengan pilihan lain, baca [Panduan Beli Kereta Terpakai Malaysia](/panduan-beli-kereta-terpakai-malaysia-tips-elak-rugi) atau [Cara Urus Duit Gaji Kecil](/cara-simpan-duit-gaji-rm2500) untuk pengurusan kewangan lebih baik.
 
 **Kata Kunci:** panduan beli laptop 2026, laptop untuk student Malaysia, laptop murah bawah RM2000, laptop untuk kerja pejabat, spesifikasi laptop penting, jenama laptop terbaik Malaysia, budget laptop ikut keperluan

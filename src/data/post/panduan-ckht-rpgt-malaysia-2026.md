@@ -204,7 +204,7 @@ CKHT adalah cukai yang penting difahami sebelum korang jual mana-mana harta tana
 3. Kalau nak jual rumah pertama, isytihar pengecualian sekali seumur hidup
 4. Guna e-CKHT LHDN untuk urusan pelaporan
 
-Baca juga panduan kami tentang [pelepasan cukai Malaysia 2026](/pelepasan-cukai-malaysia-2026-panduan-lengkap-rebat-potongan/) dan [cukai freelancer serta pekerja bebas](/panduan-cukai-freelancer-pekerja-bebas-2026/) untuk urusan percukaian lain.
+Baca juga panduan kami tentang [pelepasan cukai Malaysia 2026](/pelepasan-cukai-malaysia-2026-panduan-lengkap-rebat-potongan/) dan [cukai freelancer serta pekerja bebas](/panduan-cukai-freelancer-pekerja-bebas-malaysia-2026) untuk urusan percukaian lain.
 
 SEO Title Tag: Panduan CKHT & RPGT Malaysia 2026 — Kadar, Cara Kira & Pengecualian
 Meta Description: Panduan lengkap CKHT/RPGT Malaysia 2026 — kadar terkini ikut tempoh pegangan, cara kira keuntungan, pengecualian rumah pertama dan contoh kiraan.

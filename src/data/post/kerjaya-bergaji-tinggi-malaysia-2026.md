@@ -83,7 +83,7 @@ Doktor pakar adalah antara profesion bergaji tertinggi dan paling stabil di Mala
 
 Pakar bedah di hospital swasta boleh perolehi RM25,000 – RM60,000 sebulan. Tapi laluan jadi pakar memang panjang — degree perubatan 5 tahun + housemanship 2 tahun + pengkhususan 4-6 tahun. Minimum 11 tahun sebelum jadi pakar penuh.
 
-> 🔗 Baca juga: [Panduan Lengkap Kerjaya Akauntan & Perakaunan](/kerjaya-akauntan-perakaunan-malaysia-2026/) — bidang professional lain dengan gaji kompetitif
+> 🔗 Baca juga: [Panduan Lengkap Kerjaya Akauntan & Perakaunan](/panduan-kerjaya-akauntan-perakaunan-malaysia-2026) — bidang professional lain dengan gaji kompetitif
 
 ---
 

@@ -141,7 +141,7 @@ Mula dengan apa yang termampu — RM50 pun dah okay. Konsisten lebih penting dar
 
 
 **Baca juga:**
-- [Inflasi Malaysia Cecah 1.9%](/inflasi-malaysia-april-1.9-peratus-lindung-duit-2026/)
+- [Inflasi Malaysia Cecah 1.9%](/inflasi-malaysia-april-19-peratus-lindung-duit-2026)
 - [Rule of 78 Tamat! Akta Sewa Beli Baharu Berkuat Kuasa](/rule-78-mansuh-akta-sewa-beli-2026/)
 - [SCAM ALERT: Panggilan Senyap](/scam-panggilan-senyap-2026-silent-call-cybersecurity/)
 

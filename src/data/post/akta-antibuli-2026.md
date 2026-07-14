@@ -143,4 +143,4 @@ Akta Antibuli 2026 (Akta 876) adalah langkah besar kerajaan dalam melindungi kan
 - ✅ Jika anak anda terlibat dalam insiden buli, anda boleh dipertanggungjawabkan sehingga RM250,000
 - ✅ Portal aduan: **[tab.bheuu.gov.my](http://tab.bheuu.gov.my)**
 
-Baca juga panduan kami tentang [keselamatan siber](/apa-itu-vpn-panduan-lengkap-malaysia-2026/) dan [scam dalam talian](/senarai-scam-online-malaysia/) untuk melindungi keluarga anda.
+Baca juga panduan kami tentang [keselamatan siber](/apa-itu-vpn-panduan-lengkap-malaysia-2026/) dan [scam dalam talian](/scam-homestay-tempahan-penginapan-palsu-malaysia-2026) untuk melindungi keluarga anda.

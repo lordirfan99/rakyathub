@@ -111,4 +111,4 @@ Yang penting: **jangan tunggu last minute.** Daftar i-Akaun sekarang, cuba buat 
 3. ✅ Kongsikan artikel ni dengan family yang biasa bayar kat kaunter KWSP
 4. ✅ Jangan lupa deadline **15 Julai** untuk caruman bulan Jun
 
-Nak belajar lagi pasal KWSP? Baca **[Panduan Lengkap KWSP 2026](/kwsp-panduan-lengkap-2026/)** dan guna **[Kalkulator KWSP](/kalkulator/kwsp/)** atau **[Kalkulator Gaji Bersih](/kalkulator/gaji-bersih/)** untuk rancang kewangan korang dengan lebih baik. Jangan lupa check perkhidmatan dokumentasi kami di **[DocuKilat](https://docukilat.rakyathub.my)** untuk urusan surat-menyurat rasmi.
+Nak belajar lagi pasal KWSP? Baca **[Panduan Lengkap KWSP 2026](/kwsp-i-emas-2026-panduan-lengkap)** dan guna **[Kalkulator KWSP](/kalkulator/kwsp/)** atau **[Kalkulator Gaji Bersih](/kalkulator/gaji-bersih/)** untuk rancang kewangan korang dengan lebih baik. Jangan lupa check perkhidmatan dokumentasi kami di **[DocuKilat](https://docukilat.rakyathub.my)** untuk urusan surat-menyurat rasmi.

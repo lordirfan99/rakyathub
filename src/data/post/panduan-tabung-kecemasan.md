@@ -76,7 +76,7 @@ Boleh guna platform macam:
 - **KDI** — akaun simpanan bertempoh, dividen tinggi
 - **TNG GO+** — mudah alih, pulangan harian — linked terus dari TNG eWallet
 
-Bandingkan pilihan di **[Versa vs KDI vs TNG GO+ Simpanan Alternatif](/versa-vs-kdi-vs-tng-go-simpanan-alternatif/)** untuk tengok mana sesuai.
+Bandingkan pilihan di **[Versa vs KDI vs TNG GO+ Simpanan Alternatif](/versa-vs-kdi-vs-tng-go-platform-simpanan-alternatif-2026)** untuk tengok mana sesuai.
 
 ### 3. Gunakan Duit Raya, Bonus, Lebihan Cukai
 
@@ -98,7 +98,7 @@ Kriteria utama untuk tabung kecemasan: **mudah dikeluarkan bila perlu**, dalam 1
 | ASB | ⭐ Sesuai untuk sandaran | Dividen 5-7% setahun | Proses pengeluaran 1-3 hari, ada had |
 | KWSP i-Akaun | ❌ Sandaran terakhir | Pulangan 5-6% | Proses lambat, hanya untukun tertentu |
 
-**Syor terbaik:** Simpan 1 bulan komitmen dalam akaun bank biasa (untuk emergency segera), dan bakinya di Versa/KDI atau TNG GO+ untuk dapat pulangan lebih tinggi. Guna **[Pelaburan Asas Malaysia: ASB, KWSP, DCA](/pelaburan-asas-malaysia-asb-kwsp-dca/)** untuk pilihan pelaburan jangka panjang.
+**Syor terbaik:** Simpan 1 bulan komitmen dalam akaun bank biasa (untuk emergency segera), dan bakinya di Versa/KDI atau TNG GO+ untuk dapat pulangan lebih tinggi. Guna **[Pelaburan Asas Malaysia: ASB, KWSP, DCA](/pelaburan-asas-asb-kwsp-dca-apa-pilihan-terbaik-untuk-rakyat-malaysia)** untuk pilihan pelaburan jangka panjang.
 
 ## 🛑 5 Perangkap Yang Ramai Tak Sedar
 

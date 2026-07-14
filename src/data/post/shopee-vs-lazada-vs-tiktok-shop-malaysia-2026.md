@@ -207,7 +207,7 @@ Pilihan platform jualan online bergantung pada jenis produk, bajet, dan matlamat
 
 Yang paling penting, jangan terpaku pada satu platform je. Market e-dagang Malaysia 2026 terlalu dinamik untuk bergantung pada satu sumber pendapatan. Develop portfolio platform macam korang develop portfolio pelaburan — diversify untuk kurangkan risiko dan maksimumkan peluang.
 
-> 💡 **Nak mula dropship atau reseller?** Baca [Panduan Dropship Pemula Malaysia 2026](/dropship-pemula-malaysia/) dan [Panduan Lengkap Reseller Shopee 2026](/panduan-lengkap-reseller-shopee-2026/) untuk panduan langkah demi langkah.
+> 💡 **Nak mula dropship atau reseller?** Baca [Panduan Dropship Pemula Malaysia 2026](/panduan-dropship-pemula-malaysia-2026) dan [Panduan Lengkap Reseller Shopee 2026](/panduan-lengkap-reseller-shopee-2026/) untuk panduan langkah demi langkah.
 
 SEO Title Tag (≤60 aksara): Shopee vs Lazada vs TikTok Shop: Perbandingan Lengkap Platform Jualan Online Malaysia 2026
 Meta Description (≤155 aksara): Bandingkan Shopee, Lazada, TikTok Shop dan website sendiri — komisen, yuran, kelebihan & kekurangan setiap platform jualan online Malaysia 2026. Mana paling untung?

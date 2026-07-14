@@ -274,7 +274,7 @@ Offer letter kerja baru belum sign? Jangan resign. Banyak kes offer ditarik bali
 - **Boleh bayar ganti notis** — kalau nak resign awal, bayar gaji untuk tempoh notice dan majikan kena terima
 - **Tak boleh dibuang dari KWSP/PERKESO** semasa notice period — caruman kena terus berjalan
 
-> **LANJUTKAN BACA:** Untuk perlindungan lebih detail, baca [Panduan Hak Pekerja Malaysia](/panduan-hak-pekerja-malaysia-2026/) dan [Kerja Kerajaan vs Swasta](/kerja-kerajaan-vs-swasta-2026/).
+> **LANJUTKAN BACA:** Untuk perlindungan lebih detail, baca [Panduan Hak Pekerja Malaysia](/panduan-cukai-freelancer-pekerja-bebas-malaysia-2026) dan [Kerja Kerajaan vs Swasta](/kerja-kerajaan-vs-swasta-2026-mana-lebih-bagus).
 
 ---
 

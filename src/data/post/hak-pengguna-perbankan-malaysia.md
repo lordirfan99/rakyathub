@@ -197,4 +197,4 @@ Yang penting:
 3. **Jangan takut nak adu** — OFS dan BNM wujud untuk lindungi hak korang
 4. **Bertindak segera** — jangan tunggu, makin lama makin susah nak settle
 
-> 🔗 Nak tahu hak pengguna yang lain? Baca [Hak Pengguna Bila Beli Online](/hak-pengguna-beli-online-refund-warranty-barang-tak-sampai/) atau [Panduan Hak Pekerja Malaysia 2026](/panduan-hak-pekerja-malaysia-2026/).
+> 🔗 Nak tahu hak pengguna yang lain? Baca [Hak Pengguna Bila Beli Online](/hak-pengguna-beli-online-refund-warranty-barang-tak-sampai/) atau [Panduan Hak Pekerja Malaysia 2026](/panduan-cukai-freelancer-pekerja-bebas-malaysia-2026).

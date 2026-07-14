@@ -126,7 +126,7 @@ URL Slug: /perbandingan-kad-kredit-terbaik-2026/
 
 
 **Baca juga:**
-- [Inflasi Malaysia Cecah 1.9%](/inflasi-malaysia-april-1.9-peratus-lindung-duit-2026/)
+- [Inflasi Malaysia Cecah 1.9%](/inflasi-malaysia-april-19-peratus-lindung-duit-2026)
 - [Tabung Haji vs ASB vs KWSP — Mana Terbaik 2026](/tabung-haji-vs-asb-vs-kwsp-2026/)
 - [Pengeluaran ATM Percuma Mulai 1 Julai](/pengeluaran-tunai-atm-percuma-2026/)
 

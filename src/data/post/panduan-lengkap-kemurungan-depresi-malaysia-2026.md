@@ -275,4 +275,4 @@ Kalau korang atau orang tersayang mengalami tanda-tanda kemurungan, jangan tungg
 
 > 💙 **Ingat:** Minta tolong bukan tanda lemah. Ia tanda berani untuk sembuh.
 
-*Baca artikel lain: [Perkhidmatan Kesihatan Mental Malaysia](/perkhidmatan-kesihatan-mental-malaysia-2026/) | [Cara Turunkan Kolestrol & Darah Tinggi](/cara-turunkan-kolestrol-darah-tinggi-semulajadi-2026/) | [Kos Pemeriksaan Kesihatan Malaysia](/kos-pemeriksaan-kesihatan-malaysia-2026-perbandingan-pakej/)*
+*Baca artikel lain: [Perkhidmatan Kesihatan Mental Malaysia](/panduan-perkhidmatan-kesihatan-mental-malaysia-2026) | [Cara Turunkan Kolestrol & Darah Tinggi](/cara-turunkan-kolestrol-darah-tinggi-semulajadi-2026/) | [Kos Pemeriksaan Kesihatan Malaysia](/kos-pemeriksaan-kesihatan-malaysia-2026-perbandingan-pakej/)*

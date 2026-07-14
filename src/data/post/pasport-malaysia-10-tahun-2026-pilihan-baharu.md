@@ -77,7 +77,7 @@ Pasport Malaysia kini menawarkan **akses tanpa visa atau visa-on-arrival ke 180+
 - ✅ **Eropah** — Schengen Area (90 hari)
 - ✅ **UK & Ireland** — 6 bulan
 
-> 💡 **Baca juga:** [Panduan Lengkap Mohon Pasport Malaysia](/panduan-pasport-malaysia-10-tahun/)
+> 💡 **Baca juga:** [Panduan Lengkap Mohon Pasport Malaysia](/pasport-malaysia-10-tahun-2026)
 
 ## ❓ Soalan Lazim
 
@@ -100,6 +100,6 @@ Pasport Malaysia 10 tahun 2026 adalah peningkatan besar untuk rakyat Malaysia ya
 Jangan lupa semak tarikh luput pasport korang sebelum rancang perjalanan seterusnya!
 
 📖 **Baca juga:**
-- [Panduan Lengkap Pasport Malaysia 10 Tahun](/panduan-pasport-malaysia-10-tahun/)
+- [Panduan Lengkap Pasport Malaysia 10 Tahun](/pasport-malaysia-10-tahun-2026)
 - [Cara Isi Borang e-Pasport Online](/borang-e-pasport-online/)
 - [Kalkulator Bajet Travel](/kalkulator/bajet-travel/)

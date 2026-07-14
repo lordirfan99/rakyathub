@@ -173,9 +173,9 @@ Dengan penglibatan enam GLIC utama, PETRONAS dan rangkaian GLC yang luas, progra
 **Kata Kunci SEO:** bakat madani 2026, program latihan kerjaya malaysia, glc internship program, cara mohon bakat madani, peluang kerja glc 2026, pembangunan bakat nasional, program tviet kerajaan, khazanah kwsp pnb latihan
 
 **Baca juga:**
-- [Panduan Lengkap Gaji Graduan Malaysia 2026](/gaji-graduan-malaysia-2026-mengikut-sektor-industri/)
-- [Cara Buat Resume Kerja Yang Menarik](/panduan-buat-resume-kerja-menarik-2026/)
-- [Kerja Kerajaan Vs Swasta: Mana Lebih Bagus?](/kerja-kerajaan-vs-swasta-perbandingan-lengkap/)
+- [Panduan Lengkap Gaji Graduan Malaysia 2026](/gaji-graduan-mengikut-industri-2026)
+- [Cara Buat Resume Kerja Yang Menarik](/panduan-urus-sewa-kontrak-pindah-kerja-2026)
+- [Kerja Kerajaan Vs Swasta: Mana Lebih Bagus?](/kerja-kerajaan-vs-swasta-2026-perbandingan-gaji-pencen)
 
 ### Rujukan Rasmi
 - Portal MOF Bakat MADANI: [https://www.mof.gov.my/ms/bakat-madani](https://www.mof.gov.my/ms/bakat-madani)

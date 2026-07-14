@@ -173,7 +173,7 @@ Yuran tukar dari satu dana ke dana lain dalam syarikat yang sama. Biasanya RM25-
 
 Sumber: Simulasi berdasarkan struktur yuran tipikal di Malaysia.
 
-**Moral cerita:** Pilih dana dengan yuran rendah, atau guna platform tanpa sales charge. Kalau nak guna KWSP i-Invest, yuran lebih rendah — baca [panduan KWSP i-Invest dan SPAK](/kwsp-i-invest-spak/) untuk detail.
+**Moral cerita:** Pilih dana dengan yuran rendah, atau guna platform tanpa sales charge. Kalau nak guna KWSP i-Invest, yuran lebih rendah — baca [panduan KWSP i-Invest dan SPAK](/kwsp-i-invest-spak-panduan-melabur-unit-trust-asnb-2026) untuk detail.
 
 ## 💡 Kaitan Dengan Duit Korang
 
@@ -185,7 +185,7 @@ Modal RM1,000 dah boleh dapat akses ke portfolio 20-30 saham berbeza. Kalau kora
 
 **2. Guna KWSP i-Invest**
 
-Korang boleh guna sebahagian simpanan Akaun 1 KWSP untuk melabur dalam unit trust — tanpa kena keluar duit poket. Yuran lebih rendah. Tapi pastikan korang faham risiko — nilai boleh naik dan turun. Baca [panduan lengkap KWSP i-Invest](/kwsp-i-invest-spak/) untuk senarai dana diluluskan.
+Korang boleh guna sebahagian simpanan Akaun 1 KWSP untuk melabur dalam unit trust — tanpa kena keluar duit poket. Yuran lebih rendah. Tapi pastikan korang faham risiko — nilai boleh naik dan turun. Baca [panduan lengkap KWSP i-Invest](/kwsp-i-invest-spak-panduan-melabur-unit-trust-asnb-2026) untuk senarai dana diluluskan.
 
 **3. Compounding dengan reinvest dividen**
 
@@ -240,7 +240,7 @@ Dengan sales charge 5-6%, korang dah rugi 5% dari mula. Kalau dana bagi pulangan
 
 **3. "i-Invest KWSP bukan free money."**
 
-Ya, korang guna duit KWSP sendiri — bukan duit free. Kalau pelaburan unit trust rugi, simpanan Akaun 1 korang susut. Tapi kalau untung, pulangan masuk balik ke Akaun 1 + dividen KWSP akan dikira atas jumlah lebih besar. Baca [artikel KWSP terkini](/kwsp-inisiatif-baru/) untuk info terkini.
+Ya, korang guna duit KWSP sendiri — bukan duit free. Kalau pelaburan unit trust rugi, simpanan Akaun 1 korang susut. Tapi kalau untung, pulangan masuk balik ke Akaun 1 + dividen KWSP akan dikira atas jumlah lebih besar. Baca [artikel KWSP terkini](/kwsp-inisiatif-baru-2026-i-saraan-plus-i-legasi) untuk info terkini.
 
 **4. "Semua unit trust sama — pilih yang bagi dividen tinggi."**
 
@@ -259,7 +259,7 @@ Unit trust adalah salah satu cara paling mudah dan fleksibel untuk anak muda Mal
 **Tiga tindakan sekarang:**
 
 1. **Buka akaun unit trust** — Public Mutual, Kenanga, atau Affin Hwang. Modal RM500-RM1,000 dah cukup untuk start.
-2. **Teroka KWSP i-Invest** — Kalau ada simpanan Akaun 1 melebihi simpanan asas, guna untuk dana yuran rendah. Baca [panduan i-Invest](/kwsp-i-invest-spak/).
+2. **Teroka KWSP i-Invest** — Kalau ada simpanan Akaun 1 melebihi simpanan asas, guna untuk dana yuran rendah. Baca [panduan i-Invest](/kwsp-i-invest-spak-panduan-melabur-unit-trust-asnb-2026).
 3. **Auto-debit DCA bulanan** — RM200 sebulan konsisten lebih baik dari RM2,400 sekali setahun. Guna auto-debit dari akaun bank.
 
 Nak faham lebih lanjut? Baca siri glossary lain: **[Glossary: Dividen](/glossary-dividen/)**, **[Glossary: Compound Interest](/glossary-compound-interest/)**, dan **[Glossary: OPR](/glossary-opr/)**.

@@ -136,5 +136,5 @@ Kongsi artikel ni dengan kawan-kawan yang selalu guna Shopee PayLater — mungki
 
 **Baca juga:**
 - [Panduan e-Filing 2026: Cukai Pendapatan untuk Rakyat](/panduan-e-filing-cukai-pendapatan-2026/)
-- [Ekonomi Malaysia 5.4% Q1 2026: Apa Maksudnya](/ekonomi-malaysia-5.4-peratus-q1-2026-maksud/)
+- [Ekonomi Malaysia 5.4% Q1 2026: Apa Maksudnya](/ekonomi-malaysia-54-peratus-q1-2026-maksud)
 - [Gaji RM2,500 Sebulan — Panduan Hidup & Jimat](/gaji-rm2500-breakdown-realistik/)

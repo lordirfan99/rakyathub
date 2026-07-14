@@ -168,6 +168,6 @@ BUDI Diesel adalah perubahan besar dalam sistem subsidi diesel Malaysia. Dengan 
 
 Kalau korang pemilik kenderaan diesel, jangan lupa semak kelayakan di **[budimadani.gov.my](https://budimadani.gov.my)** dan pastikan MyKad korang dibawa setiap kali isi minyak mulai 1 Julai 2026.
 
-Untuk info lanjut tentang bantuan kerajaan lain, baca [Senarai Bantuan Kerajaan 2026](/senarai-bantuan-kerajaan-malaysia-2026/) dan [Panduan Lengkap STR & SARA 2026](/bantuan-str-sara-2026/).
+Untuk info lanjut tentang bantuan kerajaan lain, baca [Senarai Bantuan Kerajaan 2026](/bantuan-kerajaan) dan [Panduan Lengkap STR & SARA 2026](/bantuan-mangsa-banjir-malaysia-2026).
 
 **Kata Kunci:** BUDI Diesel 2026, subsidi diesel MyKad, harga diesel RM2.10, diesel bersubsidi nasional, BUDI MADANI Diesel, kuota diesel 200 liter, cara mohon BUDI Diesel

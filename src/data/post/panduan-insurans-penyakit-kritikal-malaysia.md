@@ -201,4 +201,4 @@ Medical card cover bil hospital, tapi insurans CI cover kehidupan korang. Dua-du
 
 Yang penting, jangan tunggu sampai dah tua atau dah ada masalah kesihatan. Premium murah masa muda dan sihat. Janji diri untuk ambil tindakan sekarang — baca, banding, dan pilih polisi yang sesuai.
 
-Untuk panduan lebih lanjut, baca juga [Panduan Medical Card Malaysia 2026](/panduan-medical-card-malaysia-2026/) dan [Insurans Hayat vs Insurans Perubatan](/insurans-hayat-vs-insurans-perubatan-beza-mana-sesuai/).
+Untuk panduan lebih lanjut, baca juga [Panduan Medical Card Malaysia 2026](/panduan-medical-card-malaysia-2026-first-time-buyer) dan [Insurans Hayat vs Insurans Perubatan](/insurans-hayat-vs-insurans-perubatan-beza-mana-sesuai/).

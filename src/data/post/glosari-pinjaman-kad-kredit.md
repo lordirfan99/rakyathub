@@ -174,5 +174,5 @@ Simpan artikel ni sebagai rujukan, dan kongsi dengan keluarga dan kawan yang bar
 > **Kata Kunci SEO:** glosari pinjaman bank, istilah kad kredit, maksud APR, beza flat rate reducing rate, apa itu DSR, maksud CCRIS CTOS, cara kira faedah pinjaman, lock-in period pinjaman rumah, grace period kad kredit, istilah perbankan Malaysia
 
 **Baca juga:**
-- [Panduan Lengkap Skor Kredit Malaysia](/panduan-skor-kredit-ccris-ctos-malaysia-2026/) — cara semak dan baiki rekod kredit
+- [Panduan Lengkap Skor Kredit Malaysia](/panduan-faham-bina-skor-kredit-ccris-ctos-malaysia) — cara semak dan baiki rekod kredit
 - [Cara Kira Gaji Bersih](/cara-kira-gaji-bersih-panduan-potongan-kwsp-perkeso-pcb/) — faham potongan gaji dan pendapatan boleh guna

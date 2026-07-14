@@ -200,7 +200,7 @@ Platform seperti Upwork, Fiverr, dan RemoteOK buka peluang kerja global dengan g
 Bukan sambung Master tanpa hala tuju. Tapi ambil sijil profesional yang diiktiraf industri — ACCA, CFA, Google Cert, AWS Certified, dll. Satu sijil profesional kadang lebih bernilai dari degree tambahan.
 
 **Bisnes Sendiri / Side Hustle:**
-Bisnes kecil-kecilan dari rumah — dropship, produk digital, F&B kecil, atau servis freelance. Gaji tak sepadan? Buat sendiri peluang. Lihat: [Panduan Bisnes Bundle](/bundle-bisnes-sampingan-panduan-lengkap/)
+Bisnes kecil-kecilan dari rumah — dropship, produk digital, F&B kecil, atau servis freelance. Gaji tak sepadan? Buat sendiri peluang. Lihat: [Panduan Bisnes Bundle](/bisnes-bundle-preloved-online-2026)
 
 ---
 

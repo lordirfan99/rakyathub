@@ -272,6 +272,6 @@ Semakin ramai yang tahu, semakin ramai yang dapat manfaat. Jangan biarkan hak wa
 
 **Baca juga:**
 - [Budget Bulanan Student Universiti — Breakdown Realistik](/budget-bulanan-student-universiti/)
-- [Cara Elak Scam Pinjaman Online – Panduan Lengkap &](/📘-cara-elak-scam-pinjaman-online-panduan-lengkap-tips-selamat/)
+- [Cara Elak Scam Pinjaman Online – Panduan Lengkap &](/cara-elak-scam-pinjaman-online-panduan-lengkap-tips-selamat)
 - [Kos Sara Hidup Malaysia 2026 — Realiti Gaji vs Belanja](/realiti-kos-sara-hidup-malaysia-2026-gaji-vs-belanja/)
 

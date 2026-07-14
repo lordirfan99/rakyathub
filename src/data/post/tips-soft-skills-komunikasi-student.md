@@ -136,6 +136,6 @@ Pointer 4.00 boleh buka pintu, tapi soft skills yang menentukan berapa jauh kora
 
 Ingat: soft skills bukan bakat semula jadi. Ia kemahiran yang boleh dipelajari, dilatih, dan diperbaiki. Semakin awal korang mula, semakin natural ia bila masuk alam pekerjaan nanti.
 
-Untuk panduan student lain, baca [Panduan Pengurusan Masa & Produktiviti Student](/panduan-pengurusan-masa-produktiviti-student/) atau [Mental Health Student](/mental-health-student-tanda-burnout-cara-atasi/).
+Untuk panduan student lain, baca [Panduan Pengurusan Masa & Produktiviti Student](/panduan-pengurusan-masa-student-universiti-2026) atau [Mental Health Student](/mental-health-student-tanda-burnout).
 
 **Kata Kunci:** soft skills student, kemahiran insaniah, kemahiran komunikasi student, tips public speaking student, teamwork student, kepimpinan pelajar, AI untuk student, skill paling dicari majikan Malaysia, persediaan kerjaya student
