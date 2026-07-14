@@ -4,6 +4,7 @@
       "voters_total": 14940624,
       "voter_turnout": 12300067,
       "voter_turnout_perc": 82.32632720025616,
+      "votes_valid": 12082979,
       "votes_rejected": 163504,
       "votes_rejected_perc": 1.335109843372991,
       "n_candidates": 687
