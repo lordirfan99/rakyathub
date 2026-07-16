@@ -1,0 +1,7 @@
+# Security Contact
+# If you discover a security vulnerability on RakyatHub.my,
+# please disclose it responsibly.
+Contact: mailto:lordirfan99@gmail.com
+Expires: 2027-07-16T04:00:00.000Z
+Preferred-Languages: ms, en
+Canonical: https://rakyathub.my/.well-known/security.txt

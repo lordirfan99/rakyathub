@@ -12,6 +12,34 @@ const partytown = !!ANALYTICS?.vendors?.googleAnalytics?.partytown;
 const scriptType = partytown ? 'text/partytown' : undefined;
 ---
 
+{
+  // Consent Mode v2 — MUST run before GA script loads
+  id || adsId ? (
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+
+      // Default: all tracking denied until user consents
+      gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'analytics_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'wait_for_update': 500,
+      });
+
+      // If user already accepted in a previous session, restore grant
+      // so GA processes the config call immediately
+      if (localStorage.getItem('rakyathub-cookie-consent') === 'accepted') {
+        gtag('consent', 'update', {
+          'analytics_storage': 'granted',
+          'ad_storage': 'granted',
+        });
+      }
+    </script>
+  ) : null
+}
+
 {id && <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${id}`} type={scriptType} />}
 
 {adsId && <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${adsId}`} />}

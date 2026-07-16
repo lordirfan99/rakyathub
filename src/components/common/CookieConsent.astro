@@ -86,6 +86,14 @@
   });
   function handle(action) {
     localStorage.setItem(key, action);
+    if (action === 'accepted') {
+      // Update Google Consent Mode v2 — grants analytics & ads tracking
+      window.gtag = window.gtag || function(){ window.dataLayer = window.dataLayer || []; window.dataLayer.push(arguments); };
+      window.gtag('consent', 'update', {
+        'analytics_storage': 'granted',
+        'ad_storage': 'granted',
+      });
+    }
     banner.classList.remove('show');
     setTimeout(function() { banner.remove(); }, 400);
   }
