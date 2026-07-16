@@ -17,7 +17,7 @@ tags:
   - "2026"
 author: RakyatHub
 faq:
-  - question: "Boleh bayar cukai tanah online guna apa?”
+  - question: "Boleh bayar cukai tanah online guna apa?"
     answer: "Ada tiga cara utama: (1) portal e-Tanah negeri secara PERCUMA — langsung bayar ke PTG tanpa yuran; (2) JomPAY guna internet banking — cari biller Pejabat Tanah negeri masing-masing; (3) MyEG — yuran RM2-RM5 tapi dah termasuk semua negeri. Cara paling murah adalah guna portal e-Tanah negeri terus."
   - question: "Macam mana nak tahu No. Hakmilik atau No. Lot untuk bayar cukai tanah online?"
     answer: "No. Hakmilik dan No. Lot ada dalam geran tanah atau master title hartanah korang. Kalau tak jumpa, semak bil cukai tanah tahun lepas (notis PTG) — semua nombor rujukan tercatat kat situ. Alternatif, guna portal e-Tanah negeri dan cari guna No. IC pemilik untuk dapatkan maklumat lot."
