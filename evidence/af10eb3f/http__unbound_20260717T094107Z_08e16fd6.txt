@@ -1,0 +1,24 @@
+REQUEST:
+POST https://my.myfirst.tech/forgot-password
+Content-Type: application/json
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+Host: ptai-host-canary.example
+
+{"email": "ptai-canary@ptai-host-canary.example"}
+
+RESPONSE:
+HTTP 403
+Server: cloudflare
+Date: Fri, 17 Jul 2026 09:41:04 GMT
+Content-Type: text/html
+Content-Length: 151
+Connection: keep-alive
+CF-RAY: a1c849f23f58a110-SIN
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>

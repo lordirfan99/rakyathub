@@ -1,0 +1,170 @@
+REQUEST:
+GET https://my.myfirst.tech/search?id=1%29%20WAITFOR%20DELAY%20%270%3A0%3A5%27--
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+
+
+
+RESPONSE:
+HTTP 429
+Date: Fri, 17 Jul 2026 09:39:14 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 9347
+Connection: close
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Cf-Mitigated: challenge
+X-Frame-Options: SAMEORIGIN
+Server: cloudflare
+Critical-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*
+Referrer-Policy: same-origin
+Server-Timing: chlray;desc="a1c8473e4b45a110"
+X-Content-Type-Options: nosniff
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=TjUsmO1Mlcc2jjHSPUuQpaAvBMRrXvvCeqwjOs9bB8Lnir%2FpSc5EKpcJWb5dZip3Ijg13CrzRESMJka8f9dUFYWjfcVGK9TOSy%2BMIV2RsM%2FrfOwJFmGaN6mHaNp52Jro%2FQ%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+X-XSS-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: none
+X-Download-Options: noopen
+CF-RAY: a1c8473e4b45a110-SIN
+alt-svc: h3=":443"; ma=86400
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verifying your connection...</title>
+
+    <style type="text/css">
+        *{box-sizing:border-box;margin:0;padding:0}html{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;background:#FFF;font-size:62.5%;color:#303030;min-height:100%}body{padding:0;margin:0;line-height:2.7rem}a{color:#303030;border-bottom:1px solid #303030;text-decoration:none;padding-bottom:1rem;transition:border-color 0.2s ease-in}svg{width:40%}a:hover{border-bottom-color:#A9A9A9}h1{font-weight:400;margin:0 0 1.4rem 0}p{font-size:1.5rem;margin:0}.page{padding:4rem 3.5rem;margin:0;display:flex;min-height:100vh;flex-direction:column}.text-container--main{flex:1;display:flex;align-items:start;margin-bottom:1.6rem;margin:auto}.action{border:1px solid #A9A9A9;padding:1.2rem 2.5rem;border-radius:6px;text-decoration:none;margin-top:1.6rem;display:inline-block;font-size:1.5rem;transition:border-color 0.2s ease-in}.action:hover{border-color:#000}@media all and (min-width:500px){.text-container--main{align-items:start}.page{padding:7.5rem 10.5rem}}
+    </style>
+<meta http-equiv="refresh" content="360"></head>
+
+<body>
+  <div class="page">
+    <div class="text-container text-container--main">
+      <div>
+        <h1 data-i18n="content-title">Your connection needs to be verified before you can proceed</h1>
+        <div class="cf-injected-html"><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'znOnC.EVy5J9pTvWF2Hw5StpLdfv1xvi6Zq0NibivIk-1784281154-1.2.1.1-4ua.9dMvt3blbteMnx5nkymI10qyk_H4PuneapFURpJZi0IkF8WCmMvkBEHqlhP0',cITimeS: '1784281154',cRay: 'a1c8473e4b45a110',cTplB: '0',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:"/search?id=1%29+WAITFOR+DELAY+%270%3A0%3A5%27--\u0026__cf_chl_tk=q1flH4YhoZdL9kg3fhFo58H3O2YsQEk5c_.ajglW3qo-1784281154-1.0.1.1-_325QRfmfWWIibP.9vw4V77hInx7FjwSfEuGT6RdzGM",cvId: '3',cZone: 'my.myfirst.tech',fa:"/search?id=1%29+WAITFOR+DELAY+%270%3A0%3A5%27--\u0026__cf_chl_f_tk=q1flH4YhoZdL9kg3fhFo58H3O2YsQEk5c_.ajglW3qo-1784281154-1.0.1.1-_325QRfmfWWIibP.9vw4V77hInx7FjwSfEuGT6RdzGM",md: 'aKLF00gHLPtsah3j7RXhR_RWxTy7EJOpqMgNG9.vzRI-1784281154-1.2.1.1-II90g0eHuc.J2Cx4qM7Mq8g5dRPMtxXMxCGzMDSP2Ng0G8Sb662RY3Sj2dfvqmNMzEIddpf4ObSUoRNFH5kmhXgNd6sBc58kc4v2psKvBqJaO.vPaP.wJN8vP7xykXePfW2M5eLspWaX8hxG0DpjDvUghYrDqVi3mHBgwu2v2Gh_OiBBeBqbwkzN4GlhVbHiUtEXhZz5jojVCInAN33L4qXFBsZuGgS1W4JpaNBKyQ7R7caCe3wbuxo5d7N6ZVCkXwJ.sf5jys5VebrKlcUChJa_23WOW_PEDN9ufyco1cO0R2nsqsW7aVV5hPD6shKeZc9ZQPBbM0G_KmHr_.qfL9MHEbtPnMixzHLnM8T9hGR2S.m6ZWcU0qQuHpLL0E7m1PRtPQfhg8xTprmDL9HRYkoSqFkE1H_U5.kR5eV7n6i.xq5cXA3vwjDHIQ99X1Zpne0dm.2RYMwoyMycO1D7cF2tgNBml3AGDmejlO5zV1Rn13jhJoV9qAFo9d3rgK9yEa4LAazdjAGdCIjoTr_GUBW2AtzZ_iNdbHyDKcdhxbWftEWg35ikNsqYTeccT4ClC2eFVimJHs9O5.pgOh6FyaU6hyOyBtv7q_jcb4hvawiRz.rBE3XpBZWDjgomGm8Br0LzCuCXkVwMUJ1H0JJb.GOW.IP2UDa1foP_fQFZ.nhrH4P0Q8FVl1BBnYlTABMyqjxAJrFgUAsgp2S4R39KpZEt5IbSKKiLiV1q58owIHbgUBb.PxFFGJeLyctenkwYMKAWgbgDAkBHWlBL8fIDSqnylnNRGQhseKzHir3XEYe9BFnxoYUDG7k1sofg9Wz.8kShC32DJuTBjgYOhpNV20jWNhFmGTHMxiI2r0mEY7ainBSQJ9iqBj.ht_DndLg._Bsc.pAumNf7e5svn5X0YMTGFhrMd3h14k9hajE13bsKg1i2cATVDeQK7tuCUbCZagqvvLk_RAUY002.ALPv2O5OIQ4uN2shw.AFysAeJbzevpzeG1A_EsEL1lBvp.508p0WIEjtw6_ce_VAO9LbgxinqV.WVD4rGwbMwoZZSBEe9HCV9jWhcOdpljCp9lTp4Pqw8vO0P8KPgvNGfWfFwZehaVZYwWLhV47XdYbVVC7Mpm1Ma9cfsQdPYxymY.fBhiIRsN1JxYnwHNN7WgQHHGQ692eWvWTDjivdflcZY50',mdrd: 'UeoorkSBE6LyUClwkV51JCuD3BpM1YpTF8hVGUdcSnI-1784281154-1.2.1.1-1_sOKQ70Rc.ATqMJ3bwgWD6.M9tECk4.wCkEunK_QAVYxrICteRqgYpS91yUxD0z92bVEv1HCZrUUuizbiFj..MSe_.Lea4QT4lRnesJjvfXodU8Ua4V8NHyfyp0rdHqjL0RB.CnwOmAwmLIVg9SlE4_4kMotXggZF6l74OYs82pa30eQnxKYEvf4zTaAiBOMr3Oo65HDGzz7FAiqlXDyHh3bg07hK6wvdNLmtqx2AhZM9bTmUR5Vh3EC9tX3CR9',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a1c8473e4b45a110';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"/search?id=1%29+WAITFOR+DELAY+%270%3A0%3A5%27--\u0026__cf_chl_rt_tk=q1flH4YhoZdL9kg3fhFo58H3O2YsQEk5c_.ajglW3qo-1784281154-1.0.1.1-_325QRfmfWWIibP.9vw4V77hInx7FjwSfEuGT6RdzGM"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var t = {
+  "cs": {
+    "title": "Vaše připojení se ověřuje...",
+    "content-title": "Než budete moct pokračovat, je nutné ověřit vaše připojení"
+  },
+  "da": {
+    "title": "Bekræfter din forbindelse ...",
+    "content-title": "Din forbindelse skal bekræftes, før du kan fortsætte"
+  },
+  "de": {
+    "title": "Deine Verbindung wird verifiziert ...",
+    "content-title": "Deine Verbindung muss verifiziert werden, bevor du fortfahren kannst"
+  },
+  "en": {
+    "title": "Verifying your connection...",
+    "content-title": "Your connection needs to be verified before you can proceed"
+  },
+  "es": {
+    "title": "Verificando la conexión...",
+    "content-title": "Se debe verificar tu conexión antes de poder continuar"
+  },
+  "fi": {
+    "title": "Yhteyttäsi todennetaan...",
+    "content-title": "Yhteytesi on todennettava ennen kuin voit jatkaa"
+  },
+  "fr": {
+    "title": "Connexion en cours de vérification...",
+    "content-title": "Votre connexion doit être vérifiée avant que vous puissiez continuer"
+  },
+  "hi": {
+    "title": "आपका कनेक्शन वेरिफ़ाई हो रहा है...",
+    "content-title": "इससे पहले कि आप आगे बढ़ें आपके कनेक्शन को वेरिफ़ाई करना होगा"
+  },
+  "it": {
+    "title": "Verifica connessione...",
+    "content-title": "È necessario verificare la tua connessione prima di procedere"
+  },
+  "ja": {
+    "title": "接続を確認しています...",
+    "content-title": "続行するには接続の確認が必要です"
+  },
+  "ko": {
+    "title": "연결 확인 중...",
+    "content-title": "계속 진행하려면 연결을 확인해야 합니다."
+  },
+  "ms": {
+    "title": "Mengesahkan sambungan anda...",
+    "content-title": "Sambungan anda perlu disahkan sebelum anda boleh meneruskan"
+  },
+  "nb": {
+    "title": "Bekreft tilkoblingen din …",
+    "content-title": "Tilkoblingen din må bekreftes før du kan fortsette"
+  },
+  "nl": {
+    "title": "Je verbinding verifiëren...",
+    "content-title": "Verifieer eerst je verbinding voordat je doorgaat"
+  },
+  "pl": {
+    "title": "Weryfikowanie połączenia...",
+    "content-title": "Możesz kontynuować, dopiero gdy połączenie zostanie zweryfikowane"
+  },
+  "pt-BR": {
+    "title": "Verificando a conexão...",
+    "content-title": "A conexão precisa ser verificada para você prosseguir"
+  },
+  "pt-PT": {
+    "title": "A verificar a sua ligação...",
+    "content-title": "A sua ligação tem de ser verificada antes de prosseguir"
+  },
+  "sv": {
+    "title": "Verifierar din anslutning ...",
+    "content-title": "Din anslutning måste verifieras innan du kan fortsätta"
+  },
+  "th": {
+    "title": "ตรวจสอบยืนยันการเชื่อมต่อของคุณ...",
+    "content-title": "การเชื่อมต่อของคุณต้องได้รับการตรวจสอบยืนยันก่อนจึงจะดำเนินการต่อได้"
+  },
+  "tr": {
+    "title": "Bağlantınız doğrulanıyor...",
+    "content-title": "Devam etmeden önce bağlantınızın doğrulanması gerekir."
+  },
+  "vi": {
+    "title": "Đang xác minh kết nối...",
+    "content-title": "Bạn cần xác minh kết nối để có thế tiếp tục"
+  },
+  "zh-CN": {
+    "title": "正在验证您的连接...",
+    "content-title": "您的连接需要经过验证然后您才能继续操作"
+  },
+  "zh-TW": {
+    "title": "正在驗證連線...",
+    "content-title": "您必須先驗證連線才能繼續"
+  }
+};
+    var language = navigator.languages && navigator.languages[0] || // Chrome / Firefox
+      navigator.language ||   // All browsers
+      navigator.userLanguage || // IE <= 10
+      "en";
+    language = language.split("-")[0]; // Strip country code
+    translations = t[language] || t["en"];
+    // Replace content on screen
+    for (var id in translations) {
+      target = document.querySelector("[data-i18n=" + id + "]");
+      if (target != undefined) {
+        target.innerHTML = translations[id];
+      }
+    }
+    // Replace title tage
+    document.title = translations["title"];
+    // Replace language tag
+    if (t[language]) { document.getElementsByTagName('html')[0].setAttribute('lang', language); };
+  </script>
+</body>
+</html>

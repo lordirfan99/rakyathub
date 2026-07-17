@@ -1,0 +1,38 @@
+REQUEST:
+GET https://my.myfirst.tech//my.myfirst.tech/cdn/shop/t/20/assets/quantity-popover.css?v=160630540099520878331775120307
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+
+
+
+RESPONSE:
+HTTP 404
+Date: Fri, 17 Jul 2026 09:34:37 GMT
+Content-Type: text/css; charset=utf-8
+Content-Length: 0
+Connection: keep-alive
+x-dc: gcp-asia-southeast1,gcp-us-west1,gcp-us-west1
+cf-cache-status: DYNAMIC
+Set-Cookie: _shopify_s=bafead0e-23d0-4316-afa7-9af85db307c2; domain=myfirst.tech; path=/; expires=Fri, 17 Jul 2026 10:04:37 GMT; SameSite=Lax
+Etag: "page_cache:71795867956:NotFoundController:b9f4e88fe41aa1379ba74c6cc080db08"
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+shopify-complexity-score: 460
+shopify-complexity-score-v2: 46
+x-frame-options: DENY
+content-security-policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+strict-transport-security: max-age=7889238
+X-Content-Type-Options: nosniff
+Vary: Accept
+Alt-Svc: h3=":443"; ma=86400
+Content-Language: en-MY
+Cache-Control: private, no-store
+powered-by: Shopify
+server-timing: processing;dur=26, db;dur=8, asn;desc="13335", edge;desc="SIN", country;desc="MY", servedBy;desc="gphd", requestID;desc="c50d628c-91a5-401a-816c-ee349c7dd78f-1784280877", _y;desc="eaab185a-2899-4c31-bf3a-116aee3171cd", _s;desc="bafead0e-23d0-4316-afa7-9af85db307c2", _cmp;desc="3.AMPS_MY14_f_f_BX*nVKvoTKuCV7GFGkgz1w_%7B%7D"
+Server-Timing: ipv6
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Server: cloudflare
+X-XSS-Protection: 1; mode=block
+x-request-id: c50d628c-91a5-401a-816c-ee349c7dd78f-1784280877
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8AcMetKXotwxS6wO05z9wKfbrV%2B%2BcShj6175xNnIjoHNxrLG1SWXMckaC023pqY8BgQk%2FSUpPgTDzaicyWrQeyCHDSEnV16vUxoFzJmma3AktOgtn12REUMULdAXxG2s0IQtlm4vv9yQl2jY7g%3D%3D"}]}
+CF-RAY: a1c8407b8d36a110-SIN
+

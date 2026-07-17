@@ -1,0 +1,32 @@
+REQUEST:
+GET https://my.myfirst.tech/admin
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+
+
+
+RESPONSE:
+HTTP 301
+Date: Fri, 17 Jul 2026 09:41:04 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 0
+Connection: keep-alive
+referrer-policy: origin-when-cross-origin
+x-frame-options: DENY
+Alt-Svc: h3=":443"; ma=86400
+cf-cache-status: DYNAMIC
+Location: https://myfirstofficial-malaysia.myshopify.com/admin
+Server: cloudflare
+x-request-id: e28a64b4-af50-4eed-90b8-3fefc68569a3-1784281264
+strict-transport-security: max-age=7889238
+server-timing: processing;dur=16, verdict_flag_enabled;desc="count=4";dur=0.191, _y;desc="e84e8107-6eda-4e37-8824-8a097e028260", _s;desc="cf505592-1402-412f-9ca7-abd323f27844"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qdFcIYHYvnW%2BQIBQg%2BMi2TKgHbdX71M%2F7HXA7Q2GKI6rfzaK8l80%2F6paMdpcYnusPOIQENtFDzvNyqZ9VpJfX4iG7I%2FVBbctfjg0MhbyONJTCPVk0Lfi5Ks8drcBFSuhRw%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+content-security-policy: default-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' https://* shopify-pos://*; block-all-mixed-content; child-src 'self' https://* shopify-pos://*; connect-src 'self' wss://* https://*; frame-ancestors 'none'; img-src 'self' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.pci.shopifyinc.com https://checkout.pci.shopifyinc.com/build/04ed4e1/card_fields.js https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com 'self' 'unsafe-inline' 'unsafe-eval'; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fhome&source%5Bsection%5D=admin&source%5Buuid%5D=e28a64b4-af50-4eed-90b8-3fefc68569a3-1784281264; report-to shopify-csp
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+x-xss-protection: 1; mode=block
+reporting-endpoints: shopify-csp="/csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fhome&source%5Bsection%5D=admin&source%5Buuid%5D=e28a64b4-af50-4eed-90b8-3fefc68569a3-1784281264"
+x-dc: gcp-asia-southeast1,gcp-us-east1,gcp-us-east1
+CF-RAY: a1c849eeaa33a110-SIN
+

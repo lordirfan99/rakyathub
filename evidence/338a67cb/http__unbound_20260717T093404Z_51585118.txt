@@ -1,0 +1,25 @@
+REQUEST:
+GET https://my.myfirst.tech/healthz
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+
+
+
+RESPONSE:
+HTTP 200
+Date: Fri, 17 Jul 2026 09:34:01 GMT
+Content-Type: text/html
+Content-Length: 0
+Connection: keep-alive
+X-Download-Options: noopen
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+x-dc: gcp-asia-southeast1
+x-request-id: 17491497-95f1-4274-a3c6-0d5cdafbaccc-1784280841
+Server: cloudflare
+X-Permitted-Cross-Domain-Policies: none
+Alt-Svc: h3=":443"; ma=86400
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ZpLUsDUpl6JjwhdIEm04dV3hoat2kw5lf%2BSfpjlOW5Y7o05ge7tjTbIZ8K5hEsvnRiLlhQUHpwUJnVaKWQOAyXLlYwC2zyLqn4y8Br0x9hE81s7xxYHebMrBHZm1DoETXA%3D%3D"}]}
+CF-RAY: a1c83f9aaef7a110-SIN
+

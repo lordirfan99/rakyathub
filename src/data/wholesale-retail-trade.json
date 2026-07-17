@@ -700,6 +700,13 @@
     "volume_sa": 170.65
   },
   {
+    "date": "2026-05-01",
+    "sales": 171282.763,
+    "series": "abs",
+    "volume": 168.455,
+    "volume_sa": 168.455
+  },
+  {
     "date": "2019-01-01",
     "sales": 7.802,
     "series": "growth_yoy",
@@ -1314,6 +1321,13 @@
     "series": "growth_yoy",
     "volume": 6.241,
     "volume_sa": 6.241
+  },
+  {
+    "date": "2026-05-01",
+    "sales": 10.977,
+    "series": "growth_yoy",
+    "volume": 3.071,
+    "volume_sa": 3.071
   },
   {
     "date": "2018-02-01",
@@ -2007,5 +2021,12 @@
     "series": "growth_mom",
     "volume": 0.396,
     "volume_sa": 0.396
+  },
+  {
+    "date": "2026-05-01",
+    "sales": -2.04,
+    "series": "growth_mom",
+    "volume": -1.286,
+    "volume_sa": -1.286
   }
 ]

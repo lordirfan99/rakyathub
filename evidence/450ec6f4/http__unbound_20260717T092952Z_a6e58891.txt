@@ -1,0 +1,38 @@
+REQUEST:
+GET https://my.myfirst.tech/blogs/latest/cara-buat-duit-online-malaysia-5-kaedah-yang-ramai-tak-tahu/.well-known/agent-card.json
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+
+
+
+RESPONSE:
+HTTP 404
+Date: Fri, 17 Jul 2026 09:29:49 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+Connection: keep-alive
+x-dc: gcp-asia-southeast1,gcp-us-west1,gcp-us-west1
+Etag: "page_cache:71795867956:NotFoundController:ba43b923c53c49a94499c5d9fe3e5d6e"
+cf-cache-status: DYNAMIC
+Set-Cookie: _shopify_essential=:AZ9vaSHAAAEA9P3zxTFgxfBbt9laENPjWf0aUEiBxrONXydEhEAz6YPsQXPHzGLjrQiMbK96_Jesfqz0BRNZmn3MWcBgaoIoIKAJEFWbUfHweEEZ7oqjgwTL3euVGoGQ6zFlZbIenPO6wU1hKgxwWbatmKypD-bAtID0ozDiPbWf7X7NGpXuOTmIeTYd7hboGVZVW312GZ_9C7pUnWS1y5TPlEfGpkR51PlDyY4Y8eaHWICFLkwyiH2EZ2r67c4sx7KAR2LAZ0tyoSmoLDii03WJwOxowgm39c4YXMEhffCCl-70Q__qiFKMRyNA_7ZUg0d5_5t1iWrC9-vzuUiz6k_7KX768q9iI2q6g2l6tFLkYq089HfPH40syJZDSw:; Max-Age=31536000; Path=/; HttpOnly; Secure; Priority=High; SameSite=Lax
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+shopify-complexity-score: 440
+shopify-complexity-score-v2: 44
+x-frame-options: DENY
+content-security-policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+strict-transport-security: max-age=7889238
+X-Content-Type-Options: nosniff
+Vary: Accept
+Alt-Svc: h3=":443"; ma=86400
+Content-Language: en-MY
+Cache-Control: private, no-store
+powered-by: Shopify
+server-timing: processing;dur=25;desc="gc:1", db;dur=8, asn;desc="13335", edge;desc="SIN", country;desc="MY", servedBy;desc="gphd", requestID;desc="fc6a7221-1e88-45fd-bf3f-a6f23f7ab258-1784280589", _y;desc="e920bae7-0dd8-42fd-804b-e6d49dcd5a78", _s;desc="332605ac-d904-4fbe-b1d3-124bf1e0af81", _cmp;desc="3.AMPS_MY14_f_f_nbH*QOJzQRCqABO77pDPhw_%7B%7D"
+Server-Timing: ipv6
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Server: cloudflare
+X-XSS-Protection: 1; mode=block
+x-request-id: fc6a7221-1e88-45fd-bf3f-a6f23f7ab258-1784280589
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ii2I0mhvORhmODnasqk0TzBBukGtvPvhL1Zwp3WK06FyGVr0%2Br9tJbqbudsapjKa0eIuHx8TaZlqkl8b%2FnFuKYoKlbHaua6Gjhba2ufaTq1Eh%2BHkFWm%2Bc%2Fd%2BkqnrR4OZx7B0gl8T9%2Bi1nSCT1A%3D%3D"}]}
+CF-RAY: a1c83974af78a110-SIN
+

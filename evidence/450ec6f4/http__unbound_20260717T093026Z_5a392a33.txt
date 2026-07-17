@@ -1,0 +1,172 @@
+REQUEST:
+POST https://my.myfirst.tech/blogs/latest/cara-buat-duit-online-malaysia-5-kaedah-yang-ramai-tak-tahu/reset-password
+Content-Type: application/json
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+X-Forwarded-Server: ptai-host-canary.example
+
+{"email": "ptai-canary@ptai-host-canary.example"}
+
+RESPONSE:
+HTTP 429
+Date: Fri, 17 Jul 2026 09:30:23 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 9690
+Connection: close
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Cf-Mitigated: challenge
+X-Frame-Options: SAMEORIGIN
+Server: cloudflare
+Critical-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*
+Referrer-Policy: same-origin
+Server-Timing: chlray;desc="a1c83a4b1d1da110"
+X-Content-Type-Options: nosniff
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ntEh76i40XlvyQZqGR9c%2BuJC%2BYTvgFAXn2ryZJENNsR1jsgV%2Fo%2FVlVqrp1zDXX5cRwv0wv1noWkYGqGGep5POvqFPdkiCVJDZ%2F1MEXPLydYkgXWiTRribn8gXfqUmc9ySg%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+X-XSS-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: none
+X-Download-Options: noopen
+CF-RAY: a1c83a4b1d1da110-SIN
+alt-svc: h3=":443"; ma=86400
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verifying your connection...</title>
+
+    <style type="text/css">
+        *{box-sizing:border-box;margin:0;padding:0}html{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;background:#FFF;font-size:62.5%;color:#303030;min-height:100%}body{padding:0;margin:0;line-height:2.7rem}a{color:#303030;border-bottom:1px solid #303030;text-decoration:none;padding-bottom:1rem;transition:border-color 0.2s ease-in}svg{width:40%}a:hover{border-bottom-color:#A9A9A9}h1{font-weight:400;margin:0 0 1.4rem 0}p{font-size:1.5rem;margin:0}.page{padding:4rem 3.5rem;margin:0;display:flex;min-height:100vh;flex-direction:column}.text-container--main{flex:1;display:flex;align-items:start;margin-bottom:1.6rem;margin:auto}.action{border:1px solid #A9A9A9;padding:1.2rem 2.5rem;border-radius:6px;text-decoration:none;margin-top:1.6rem;display:inline-block;font-size:1.5rem;transition:border-color 0.2s ease-in}.action:hover{border-color:#000}@media all and (min-width:500px){.text-container--main{align-items:start}.page{padding:7.5rem 10.5rem}}
+    </style>
+<meta http-equiv="refresh" content="360"></head>
+
+<body>
+  <div class="page">
+    <div class="text-container text-container--main">
+      <div>
+        <h1 data-i18n="content-title">Your connection needs to be verified before you can proceed</h1>
+        <div class="cf-injected-html"><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'ht3nPNnUzsJwCGZItpI5vlh3gytchKTGbInTK1t_1VU-1784280623-1.2.1.1-WYA4vILIeZy9BKz3SIBwhGvkFrCXsuJJF5URWuDS66gEyqqFmGux7Yhr8Zv_0rGe',cITimeS: '1784280623',cRay: 'a1c83a4b1d1da110',cTplB: '0',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:"/blogs/latest/cara-buat-duit-online-malaysia-5-kaedah-yang-ramai-tak-tahu/reset-password?__cf_chl_tk=IEqFeqLOMInlO0qxKtLnDpj_WmSwAK7Tz1pYQpvRPXQ-1784280623-1.0.1.1-eRs2qq5etnVvz9L.bTp6cMxyUSo2CtqchaCzaQ9M4XM",cvId: '3',cZone: 'my.myfirst.tech',fa:"/blogs/latest/cara-buat-duit-online-malaysia-5-kaedah-yang-ramai-tak-tahu/reset-password?__cf_chl_f_tk=IEqFeqLOMInlO0qxKtLnDpj_WmSwAK7Tz1pYQpvRPXQ-1784280623-1.0.1.1-eRs2qq5etnVvz9L.bTp6cMxyUSo2CtqchaCzaQ9M4XM",md: 'hh6T2OQixgph2_ZvbVS998sGX16IxewSJN0mpLaF5hI-1784280623-1.2.1.1-syT4a5bia2r6QDbEfmIg_4Zceh6sqFQT69LleOy9LoU0CNdWAnW9VNdWshdYHNUP_LoM8h9s3NTTvfUz73sGGYfY6lNi_RWlgD5httmHv3xPwdekwKTMbhU7cje3A287M4xg2bKWatJvcnu0aEavDnJz8RotuAj_GqZTpwG95HYn5HUSXRmaHXPc6udT84HqL0XH73S5xusXVizoEc8SXAHsyiEWSaW85DqcdrLB1FgMlpaQ7Na3vpYr2DUGgxFlMnPhwEPU_VlRC2iuYpjh2wMEOEnJ_2l._xbF03655b0KY9W8P4kTfmvzht69rOw5LtwgV06eIhAaA4MzyFJjvPMdtODq..bPXX6Dat5q2zMmAGbS0Y2YMIwjhf.5sqabbdS8zkBQnneeXpFjOtep3J8LVT712iEWTak_oqXoN8DGcQhXo2o7M5VVYZV8HBrQEVjCK7Qc2G6icFgVzrFXYwpNn7r8LKn3f8d3EFqFQbvkApVOfWWQc6C8RxSHh5OgO3N5lXzTMzTA7jn5jez_mGta2FuzZ2y6YZxoqNJBzVwEra3VKKEaVCqAkt8_9QoRdaBc4LnEs7ZkOdzV3785nmTFtj7qes18QQ25AB9IqU66SdFZtZs3aK8xICD55EMgLdKjLrAs4Luqr6wS6OpC8Z2_eaYx63o6sFqgf3L.f0OiwcvdT0vyu0kJkEzMPRzooNCNaqjX.8H66Qjj1pAeLTUfXb6Gv8wXpuQRJQplw8eIAwAH65v4qtzPSVdtoOqRSguBLfKnyo3auOvBaN_AW5bzxAUEXElLk5236uEgOHoGRKZcxnjlE0UHrq9vw4Xdx5WekZMo.uGVQR8bK5E1P.pFCpf49cOJIY6vSGkWlL4rY2x1zhtV.g.mNDUSxIRCbqmit6J5uvWWsmjMd_yhjpgIYU0Mfk2CDxpOKbnA9.1.sjml_twW9Z4x3HPenT8.Pvt8cza65gfxWtchQ3N5yBYBdFcWdxveqtdBYqPq0E7tka8WuKDQEuMOeOMy0nCjZLAIFeTSW.Ht9KETxowmMWDBTbgQON66xIcQYP7x4jGSgPWmALjv8t9Z4NYtPaPxYhdmxYG_CY6NmYyAxENeshNHlwWIRCiD_yYDhe2lTner4GMI5QH2rz9iv348pQTx4X4.1E9S_V_ouukrPrXRZIMyCf.TMhPg4RMPE4pzJglsxRYSVyS7sWFBvP95Ou_Vhg3waRn1DBaf_2fwB.4HkL4MzCxCPARObS7Av2lfGHumBPiUhG79QiZ4x5nQb4Q5',mdrd: 'AWmjF48aTHn9I9OHtn4xjW4jtcdQ58IiEL_.OUfgPQc-1784280623-1.2.1.1-DTZdJYY3AqRobVup3Oa0B4jwjp_K3TmglO8JK6D.BxlwGODt.k5BnSCFfiRhLUhKzsNrCGP3XM2.6VJ1RCW1rx4ztLI2aeuAOP10MUrBIGXLJhO_FnZIc8XabQRogfwT054bMSD.NNloVmg_mZUs7UZTvyZr.yfVZ4Tr39xN8oO7Df3Kt8zxbqRgu3f8Xw.SfpniUIqZfBzsJHbBrsexGdofaz4.ZHT7jwQLnVpi40yKh_Hv8AmTpbNKfDxwC3ScX2U9m11b..IhOmX6L1YHL9c4hcbemSg3ytML83DwVy4bojy4SGRUkq24bk1e7UK7lW7lDBp7l5gGv.86mZKGMefOL7rIuEBD_Qc68yAqGHyTHk4XlCX0HjJcFRTdkoiRYvQ0DvOP0jLmqEwzxFHrKw',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a1c83a4b1d1da110';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"/blogs/latest/cara-buat-duit-online-malaysia-5-kaedah-yang-ramai-tak-tahu/reset-password?__cf_chl_rt_tk=IEqFeqLOMInlO0qxKtLnDpj_WmSwAK7Tz1pYQpvRPXQ-1784280623-1.0.1.1-eRs2qq5etnVvz9L.bTp6cMxyUSo2CtqchaCzaQ9M4XM"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var t = {
+  "cs": {
+    "title": "Vaše připojení se ověřuje...",
+    "content-title": "Než budete moct pokračovat, je nutné ověřit vaše připojení"
+  },
+  "da": {
+    "title": "Bekræfter din forbindelse ...",
+    "content-title": "Din forbindelse skal bekræftes, før du kan fortsætte"
+  },
+  "de": {
+    "title": "Deine Verbindung wird verifiziert ...",
+    "content-title": "Deine Verbindung muss verifiziert werden, bevor du fortfahren kannst"
+  },
+  "en": {
+    "title": "Verifying your connection...",
+    "content-title": "Your connection needs to be verified before you can proceed"
+  },
+  "es": {
+    "title": "Verificando la conexión...",
+    "content-title": "Se debe verificar tu conexión antes de poder continuar"
+  },
+  "fi": {
+    "title": "Yhteyttäsi todennetaan...",
+    "content-title": "Yhteytesi on todennettava ennen kuin voit jatkaa"
+  },
+  "fr": {
+    "title": "Connexion en cours de vérification...",
+    "content-title": "Votre connexion doit être vérifiée avant que vous puissiez continuer"
+  },
+  "hi": {
+    "title": "आपका कनेक्शन वेरिफ़ाई हो रहा है...",
+    "content-title": "इससे पहले कि आप आगे बढ़ें आपके कनेक्शन को वेरिफ़ाई करना होगा"
+  },
+  "it": {
+    "title": "Verifica connessione...",
+    "content-title": "È necessario verificare la tua connessione prima di procedere"
+  },
+  "ja": {
+    "title": "接続を確認しています...",
+    "content-title": "続行するには接続の確認が必要です"
+  },
+  "ko": {
+    "title": "연결 확인 중...",
+    "content-title": "계속 진행하려면 연결을 확인해야 합니다."
+  },
+  "ms": {
+    "title": "Mengesahkan sambungan anda...",
+    "content-title": "Sambungan anda perlu disahkan sebelum anda boleh meneruskan"
+  },
+  "nb": {
+    "title": "Bekreft tilkoblingen din …",
+    "content-title": "Tilkoblingen din må bekreftes før du kan fortsette"
+  },
+  "nl": {
+    "title": "Je verbinding verifiëren...",
+    "content-title": "Verifieer eerst je verbinding voordat je doorgaat"
+  },
+  "pl": {
+    "title": "Weryfikowanie połączenia...",
+    "content-title": "Możesz kontynuować, dopiero gdy połączenie zostanie zweryfikowane"
+  },
+  "pt-BR": {
+    "title": "Verificando a conexão...",
+    "content-title": "A conexão precisa ser verificada para você prosseguir"
+  },
+  "pt-PT": {
+    "title": "A verificar a sua ligação...",
+    "content-title": "A sua ligação tem de ser verificada antes de prosseguir"
+  },
+  "sv": {
+    "title": "Verifierar din anslutning ...",
+    "content-title": "Din anslutning måste verifieras innan du kan fortsätta"
+  },
+  "th": {
+    "title": "ตรวจสอบยืนยันการเชื่อมต่อของคุณ...",
+    "content-title": "การเชื่อมต่อของคุณต้องได้รับการตรวจสอบยืนยันก่อนจึงจะดำเนินการต่อได้"
+  },
+  "tr": {
+    "title": "Bağlantınız doğrulanıyor...",
+    "content-title": "Devam etmeden önce bağlantınızın doğrulanması gerekir."
+  },
+  "vi": {
+    "title": "Đang xác minh kết nối...",
+    "content-title": "Bạn cần xác minh kết nối để có thế tiếp tục"
+  },
+  "zh-CN": {
+    "title": "正在验证您的连接...",
+    "content-title": "您的连接需要经过验证然后您才能继续操作"
+  },
+  "zh-TW": {
+    "title": "正在驗證連線...",
+    "content-title": "您必須先驗證連線才能繼續"
+  }
+};
+    var language = navigator.languages && navigator.languages[0] || // Chrome / Firefox
+      navigator.language ||   // All browsers
+      navigator.userLanguage || // IE <= 10
+      "en";
+    language = language.split("-")[0]; // Strip country code
+    translations = t[language] || t["en"];
+    // Replace content on screen
+    for (var id in translations) {
+      target = document.querySelector("[data-i18n=" + id + "]");
+      if (target != undefined) {
+        target.innerHTML = translations[id];
+      }
+    }
+    // Replace title tage
+    document.title = translations["title"];
+    // Replace language tag
+    if (t[language]) { document.getElementsByTagName('html')[0].setAttribute('lang', language); };
+  </script>
+</body>
+</html>

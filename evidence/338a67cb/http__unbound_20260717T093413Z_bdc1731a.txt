@@ -1,0 +1,32 @@
+REQUEST:
+GET https://my.myfirst.tech/admin/auth
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+
+
+
+RESPONSE:
+HTTP 301
+Date: Fri, 17 Jul 2026 09:34:10 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 0
+Connection: keep-alive
+referrer-policy: origin-when-cross-origin
+x-frame-options: DENY
+Alt-Svc: h3=":443"; ma=86400
+cf-cache-status: DYNAMIC
+Location: https://myfirstofficial-malaysia.myshopify.com/admin/auth
+Server: cloudflare
+x-request-id: 0f08edf7-a7c9-4ce7-95c3-1e0bd782e870-1784280850
+strict-transport-security: max-age=7889238
+server-timing: processing;dur=16, verdict_flag_enabled;desc="count=4";dur=0.288, _y;desc="a473f8dc-a90e-4ca1-b3de-91fd71bc60ef", _s;desc="17fce0a3-aef0-4ad1-9599-e6da5a5d8032"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=81gZDvh3bXRedKFkGvua3jN1sedGexNjZW73pbdY%2BoirKnO3vHoJuQ4%2F%2Ft6rDcQOBtrUTjUt9dvmnaT5S8f%2F0gQrX1MUjGhha2jLODnU6U5Tp6rfWFw6T%2FuWhRo97AGrMw%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+content-security-policy: default-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' https://* shopify-pos://*; block-all-mixed-content; child-src 'self' https://* shopify-pos://*; connect-src 'self' wss://* https://*; frame-ancestors 'none'; img-src 'self' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://v.shopify.com 'unsafe-inline' 'unsafe-eval'; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fauth&source%5Bsection%5D=admin&source%5Buuid%5D=0f08edf7-a7c9-4ce7-95c3-1e0bd782e870-1784280850; report-to shopify-csp
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+x-xss-protection: 1; mode=block
+reporting-endpoints: shopify-csp="/csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fauth&source%5Bsection%5D=admin&source%5Buuid%5D=0f08edf7-a7c9-4ce7-95c3-1e0bd782e870-1784280850"
+x-dc: gcp-asia-southeast1,gcp-us-east1,gcp-us-east1
+CF-RAY: a1c83fd4287fa110-SIN
+

@@ -1,0 +1,27 @@
+REQUEST:
+GET https://my.myfirst.tech/admin/payments
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+
+
+
+RESPONSE:
+HTTP 301
+Date: Fri, 17 Jul 2026 09:40:31 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 0
+Connection: keep-alive
+Location: https://my.myfirst.tech/admin/payments/payouts
+cf-cache-status: DYNAMIC
+Alt-Svc: h3=":443"; ma=86400
+server-timing: processing;dur=4, verdict_flag_enabled;desc="count=2";dur=0.085
+x-request-id: 31f94c51-4724-484a-b884-2d043550199e-1784281231
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+x-xss-protection: 1; mode=block
+x-dc: gcp-asia-southeast1,gcp-us-east1,gcp-us-east1
+Server: cloudflare
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=CF18brFRB%2BXtpG%2FqKmY4xNcoP0qzfK40lGrESkBlliZcEwsf%2BWrjKP%2FRftXlJfR000SfAnavAzWz7XQdHIwV3He1Okl0%2FosfCoZRm3n74vWgUvIY2jAgCdb%2Bx%2BkN2vgQZg%3D%3D"}]}
+CF-RAY: a1c8491f283ba110-SIN
+

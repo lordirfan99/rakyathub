@@ -1,0 +1,39 @@
+REQUEST:
+GET https://my.myfirst.tech/api/graphql
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+
+
+
+RESPONSE:
+HTTP 200
+Date: Fri, 17 Jul 2026 09:41:00 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Encoding: gzip
+x-stats-apiclientid: 580111
+X-XSS-Protection: 1; mode=block
+Alt-Svc: h3=":443"; ma=86400
+cf-cache-status: DYNAMIC
+x-request-id: 55005546-c557-454e-be45-ab1aa8892e57-1784281260
+Set-Cookie: _shopify_marketing=:AZ9vc2L2AAEA4QhZSPTRjoTgb2iq6nedegu6ryyYA-TLpd1hV6YmIxvzfZGQcGTUhrw0JKZIkB4Xwl_WDC3jyE-qaAI:; Max-Age=31536000; Path=/; HttpOnly; Secure; Priority=High; SameSite=Lax
+shopify-complexity-score: 0
+shopify-complexity-score-v2: 34
+x-frame-options: DENY
+content-security-policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Access-Control-Allow-Origin: *
+x-shopify-api-version: 2025-10
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Phl6GF3hQWWKh9CZ2JT81rAFnmTD9uEpkEA%2BpMlqTS4CGqy5lClQ0xVAyQ9VxNBP4QH%2FLglhAIzjBGigrH%2BgxNj4VVAi1YU6GR%2F4Y5NZleRxTibfI0UHuFnGmY2A9Zab5w%3D%3D"}]}
+Vary: Accept,accept-encoding
+Content-Language: en
+powered-by: Shopify
+server-timing: processing;dur=38;desc="gc:1", db;dur=6, asn;desc="13335", edge;desc="SIN", country;desc="MY", servedBy;desc="mxfv", requestID;desc="55005546-c557-454e-be45-ab1aa8892e57-1784281260", _y;desc="55bee83b-24e0-4b6a-b858-48f6879d64a5", _s;desc="75ee30eb-f7c8-49c5-b951-ab1c2fa9f221"
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Server: cloudflare
+X-Content-Type-Options: nosniff
+x-dc: gcp-asia-southeast1,gcp-us-east1,gcp-us-east1
+CF-RAY: a1c849d6c8ffa110-SIN
+
+{"errors":[{"message":"No query string was present"}]}

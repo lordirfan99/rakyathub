@@ -1,0 +1,25 @@
+REQUEST:
+POST https://my.myfirst.tech/blogs/latest/cara-buat-duit-online-malaysia-5-kaedah-yang-ramai-tak-tahu/forgot-password
+Content-Type: application/json
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+Host: ptai-host-canary.example
+X-Forwarded-Host: ptai-host-canary.example
+
+{"email": "ptai-canary@ptai-host-canary.example"}
+
+RESPONSE:
+HTTP 403
+Server: cloudflare
+Date: Fri, 17 Jul 2026 09:30:20 GMT
+Content-Type: text/html
+Content-Length: 151
+Connection: keep-alive
+CF-RAY: a1c83a387d2aa110-SIN
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>

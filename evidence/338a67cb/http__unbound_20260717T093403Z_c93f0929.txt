@@ -1,0 +1,38 @@
+REQUEST:
+GET https://my.myfirst.tech/swagger.json
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+
+
+
+RESPONSE:
+HTTP 404
+Date: Fri, 17 Jul 2026 09:34:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+Connection: keep-alive
+x-dc: gcp-asia-southeast1,gcp-us-west1,gcp-us-west1
+Etag: "page_cache:71795867956:NotFoundController:ba43b923c53c49a94499c5d9fe3e5d6e"
+cf-cache-status: DYNAMIC
+Set-Cookie: _shopify_essential=:AZ9vbPWpAAEAr6hRoMe8cB0mztu9u3pB-ObdKWi0CRywBWP2YTerQvuJREWSfM73GE0F8rgCBS9gMRj3Inc30V0pH1bKP2ZsjAwRnGSWFpxm3w0u95Wr8Bjb82iDWIwZR2HSpkzH4Yqrqe3JjYhHY8QRE6QIAh0SrOXmhdA6P5r9zpvyEvBdjNq19mcd_5NyoFBtUCg6qM8TSKql16cKwxjFU3iPg-gdHpcizmsfYRPWh84mwqrMRvhfLhH1aWscCvl3KVxkTnTC2AiMz0rLhynmcXLg_rHcqp2bNDsEfki3CIxvWM28pO_UdqEqY5FITfgcTkI1sDo1tU9yTJSWZXgoVXvKl7iBIu5lVP26Y6yNH8xXhu4wrPblf7huDg:; Max-Age=31536000; Path=/; HttpOnly; Secure; Priority=High; SameSite=Lax
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+shopify-complexity-score: 500
+shopify-complexity-score-v2: 50
+x-frame-options: DENY
+content-security-policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+strict-transport-security: max-age=7889238
+X-Content-Type-Options: nosniff
+Vary: Accept
+Alt-Svc: h3=":443"; ma=86400
+Content-Language: en-MY
+Cache-Control: private, no-store
+powered-by: Shopify
+server-timing: processing;dur=30, db;dur=10, asn;desc="13335", edge;desc="SIN", country;desc="MY", servedBy;desc="gphd", requestID;desc="794fca96-e160-4eb4-b54e-31a79f086c9b-1784280840", _y;desc="a473f8dc-a90e-4ca1-b3de-91fd71bc60ef", _s;desc="17fce0a3-aef0-4ad1-9599-e6da5a5d8032", _cmp;desc="3.AMPS_MY14_f_f_ZDzyWu5sRvGSHQpjZWAAHQ_%7B%7D"
+Server-Timing: ipv6
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Server: cloudflare
+X-XSS-Protection: 1; mode=block
+x-request-id: 794fca96-e160-4eb4-b54e-31a79f086c9b-1784280840
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=nCNM9naC3ylk5%2BFYEh6E8ydkon77BBQxn%2Byj54F9spIr%2B0lcTjRS5IaWTKGwm9vXTI5RzBtBJ0o6HXFgxFeI6rFouFpoY0KYXpIOMjIm0lIfho01Xgg%2FNF5f057YySkF%2BPnwq5S0b9SoWpaO4w%3D%3D"}]}
+CF-RAY: a1c83f96ba6fa110-SIN
+

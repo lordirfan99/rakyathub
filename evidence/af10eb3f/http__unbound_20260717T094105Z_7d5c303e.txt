@@ -1,0 +1,40 @@
+REQUEST:
+POST https://my.myfirst.tech/api/graphql
+Content-Type: application/json
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+
+{"query": "query{XYZ_invalid_field_canary}"}
+
+RESPONSE:
+HTTP 200
+Date: Fri, 17 Jul 2026 09:41:02 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Encoding: gzip
+x-stats-apiclientid: 580111
+X-XSS-Protection: 1; mode=block
+Alt-Svc: h3=":443"; ma=86400
+cf-cache-status: DYNAMIC
+x-request-id: bfa22f75-d055-472e-8dbe-73309ddb6f9a-1784281261
+Set-Cookie: _shopify_essential=:AZ9vc2L0AAEAbFfkQLFAMfPU73HGkUpahGx-6AeNlmSLHdsFRA38LUlZILCO4rGus6I7-35vf0CEAKOn3BlA4EqaEQHxLfelARpdDqtLxktFDLnOK216tH4mTIXbdThOHXfyWA8RXJ-NqEuaVeHcYWhsqqFUWgyKUyxYH3gfK1Ye3XLjh3dHQLOrz0c-m0ByBTh9oclao7gRZiWwVYTbOBwjS4dn5b31tTk4y_3YdxYtAy3_Beu1UGTbmnn6rXaNhf4y51vbnacKjv5YvRo6N7XLSf9OuuaxIbHn-8hST-q0nqS0yLz7N6el0omGFVymD_9gaULkOxkC4lrggIwfQCytxeFk-0OPBB7txEr_HBP9JMFEBG_c40IruzRmTLhEOSU:; Max-Age=31536000; Path=/; HttpOnly; Secure; Priority=High; SameSite=Lax
+shopify-complexity-score: 0
+shopify-complexity-score-v2: 8
+x-frame-options: DENY
+content-security-policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Access-Control-Allow-Origin: *
+x-shopify-api-version: 2025-10
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=FHTMbBqYcKJ4gZ%2BNrfiG7HorbtcSTlsiymaL4KSH0ybzEprZSFKslpTajwVB4VDpKP6tqYpAHqPTw7xE8%2FcCcU9XONHDXSwrBfdDqNccEE%2FJr%2FlHcnDePanFcHiP7mxWWQ%3D%3D"}]}
+Vary: Accept,accept-encoding
+Content-Language: en
+powered-by: Shopify
+server-timing: processing;dur=11, db;dur=2, asn;desc="13335", edge;desc="SIN", country;desc="MY", servedBy;desc="9z96", graphql;desc="storefront/query/anonymous", gqlSelectionNames;desc="sfr/XYZ_invalid_field_canary", requestID;desc="bfa22f75-d055-472e-8dbe-73309ddb6f9a-1784281261", _y;desc="55bee83b-24e0-4b6a-b858-48f6879d64a5", _s;desc="75ee30eb-f7c8-49c5-b951-ab1c2fa9f221", _cmp;desc="3.AMPS_MY14_f_f_Oi8A5eskRe-T*9xpp-08iQ_%7B%7D"
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Server: cloudflare
+X-Content-Type-Options: nosniff
+x-dc: gcp-asia-southeast1,gcp-us-west1,gcp-us-west1
+CF-RAY: a1c849dede9aa110-SIN
+
+{"errors":[{"message":"Field 'XYZ_invalid_field_canary' doesn't exist on type 'QueryRoot'","locations":[{"line":1,"column":7}],"path":["query","XYZ_invalid_field_canary"],"extensions":{"code":"undefinedField","typeName":"QueryRoot","fieldName":"XYZ_invalid_field_canary"}}]}

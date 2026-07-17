@@ -1,0 +1,38 @@
+REQUEST:
+GET https://my.myfirst.tech//my.myfirst.tech/cdn/shop/files/R2_2106_v2.png?v=1718455047&width=1500
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+
+
+
+RESPONSE:
+HTTP 404
+Date: Fri, 17 Jul 2026 09:34:33 GMT
+Content-Type: image/png; charset=utf-8
+Content-Length: 0
+Connection: keep-alive
+x-dc: gcp-asia-southeast1,gcp-us-west1,gcp-us-west1
+Etag: "page_cache:71795867956:NotFoundController:deb0bf364402af723f057d7808560654"
+cf-cache-status: DYNAMIC
+Set-Cookie: _shopify_s=bafead0e-23d0-4316-afa7-9af85db307c2; domain=myfirst.tech; path=/; expires=Fri, 17 Jul 2026 10:04:33 GMT; SameSite=Lax
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+shopify-complexity-score: 600
+shopify-complexity-score-v2: 60
+x-frame-options: DENY
+content-security-policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+strict-transport-security: max-age=7889238
+X-Content-Type-Options: nosniff
+Vary: Accept
+Alt-Svc: h3=":443"; ma=86400
+Content-Language: en-MY
+Cache-Control: private, no-store
+powered-by: Shopify
+server-timing: processing;dur=33;desc="gc:1", db;dur=11, asn;desc="13335", edge;desc="SIN", country;desc="MY", servedBy;desc="zjtz", requestID;desc="4071e431-7ae1-4510-8c6a-2757c02c18fb-1784280872", _y;desc="eaab185a-2899-4c31-bf3a-116aee3171cd", _s;desc="bafead0e-23d0-4316-afa7-9af85db307c2", _cmp;desc="3.AMPS_MY14_f_f_BX*nVKvoTKuCV7GFGkgz1w_%7B%7D"
+Server-Timing: ipv6
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Server: cloudflare
+X-XSS-Protection: 1; mode=block
+x-request-id: 4071e431-7ae1-4510-8c6a-2757c02c18fb-1784280872
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=dALkSZhqjuPHb3OIsBcz2OvMndorS2T2S0tamkpEWIxXZDF4otKsCcPNU1Lw7GCo%2B593rJn97yQbEzDROcEJOaPyjY94tF3LZxG7d1HQyZLPab0DgyW21wNz%2BZmRz%2BBcwO4vA%2F7r9Vb8%2BtbQYw%3D%3D"}]}
+CF-RAY: a1c8405fbd97a110-SIN
+

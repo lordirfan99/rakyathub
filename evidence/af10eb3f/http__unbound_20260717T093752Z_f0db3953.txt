@@ -1,0 +1,69 @@
+REQUEST:
+GET https://my.myfirst.tech/sitemap.xml
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+
+
+
+RESPONSE:
+HTTP 200
+Date: Fri, 17 Jul 2026 09:37:49 GMT
+Content-Type: application/xml; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-dc: gcp-asia-southeast1,gcp-us-west1,gcp-us-west1
+x-request-id: ead81eab-1265-4426-86f8-a554d9913610-1784281069
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IELs3Sl63DsP%2FMEnfaAcAhUB5f4zW9zNMl0lhmtcXMOP%2BkRf6tJUy5rYIxDCIl0gAaPYaeu4yQAURw75F%2BnpxkRQ%2F2tN3GLNmYlxoFSYumYTQ3M5v0Qbq8GArjVOjElOhVAMhIND2sniTQJp5Q%3D%3D"}]}
+cf-cache-status: DYNAMIC
+Set-Cookie: _shopify_s=d3cef8e6-136f-4143-b750-71afad58b2d4; domain=myfirst.tech; path=/; expires=Fri, 17 Jul 2026 10:07:49 GMT; SameSite=Lax
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+shopify-complexity-score: 190
+shopify-complexity-score-v2: 19
+x-frame-options: DENY
+content-security-policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+strict-transport-security: max-age=7889238
+X-Content-Type-Options: nosniff
+Vary: accept-encoding
+Alt-Svc: h3=":443"; ma=86400
+Content-Language: en-MY
+powered-by: Shopify
+server-timing: processing;dur=22;desc="gc:1", db;dur=7, asn;desc="13335", edge;desc="SIN", country;desc="MY", servedBy;desc="4v9c", requestID;desc="ead81eab-1265-4426-86f8-a554d9913610-1784281069", _y;desc="b7dcf1ea-62bf-426a-a7f0-df471317988d", _s;desc="d3cef8e6-136f-4143-b750-71afad58b2d4", _cmp;desc="3.AMPS_MY14_f_f_BNcvqxwJQfO3mEtKCMPcnQ_%7B%7D", compressionLevel;desc="5"
+Server-Timing: ipv6
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Server: cloudflare
+X-XSS-Protection: 1; mode=block
+Etag: W/"page_cache:71795867956:SitemapIndexController:2f0022c93392be177aedd03a188913b2"
+Content-Encoding: gzip
+CF-RAY: a1c84529b8eaa110-SIN
+
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- This is the parent sitemap linking to additional sitemaps for products, collections and pages as shown below. The sitemap can not be edited manually, but is kept up to date in real time. -->
+  <sitemap>
+    <loc>https://my.myfirst.tech/sitemap_agentic_discovery.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://my.myfirst.tech/sitemap_products_1.xml?from=8108876792116&amp;to=9344511082804</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://my.myfirst.tech/sitemap_pages_1.xml?from=110791524660&amp;to=137092759860</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://my.myfirst.tech/sitemap_collections_1.xml?from=435720913204&amp;to=479147917620</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://my.myfirst.tech/sitemap_blogs_1.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://my.myfirst.tech/ms/sitemap_products_1.xml?from=8108876792116&amp;to=9344511082804</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://my.myfirst.tech/ms/sitemap_pages_1.xml?from=110791524660&amp;to=137092759860</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://my.myfirst.tech/ms/sitemap_collections_1.xml?from=435720913204&amp;to=479147917620</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://my.myfirst.tech/ms/sitemap_blogs_1.xml</loc>
+  </sitemap>
+</sitemapindex>

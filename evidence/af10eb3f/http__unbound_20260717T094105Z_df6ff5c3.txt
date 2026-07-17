@@ -1,0 +1,40 @@
+REQUEST:
+POST https://my.myfirst.tech/api/graphql
+Content-Type: application/json
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+
+{"query": "mutation{login}"}
+
+RESPONSE:
+HTTP 200
+Date: Fri, 17 Jul 2026 09:41:02 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Encoding: gzip
+x-stats-apiclientid: 580111
+X-XSS-Protection: 1; mode=block
+Alt-Svc: h3=":443"; ma=86400
+cf-cache-status: DYNAMIC
+x-request-id: 723c2f85-d4b6-4b99-ae5a-7a86e5cf1fd3-1784281262
+Set-Cookie: _shopify_s=75ee30eb-f7c8-49c5-b951-ab1c2fa9f221; path=/; domain=myfirst.tech; expires=Fri, 17 Jul 2026 10:11:02 GMT
+shopify-complexity-score: 0
+shopify-complexity-score-v2: 30
+x-frame-options: DENY
+content-security-policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Access-Control-Allow-Origin: *
+x-shopify-api-version: 2025-10
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Zv771qS3vem6FcHulYbES6g1n73Pf9VC%2FTa%2B3Ga1JnoM4zJiFAEHGNj4H7yLB%2BcuTYFGvJVehNtCX%2FHofUFUfH1kbK7CAe2D4MM61i2HxKBvqZ8teN%2F6o%2BZ%2BjeFAyyLMzg%3D%3D"}]}
+Vary: Accept,accept-encoding
+Content-Language: en
+powered-by: Shopify
+server-timing: processing;dur=32, db;dur=6, asn;desc="13335", edge;desc="SIN", country;desc="MY", servedBy;desc="rp46", graphql;desc="storefront/mutation/anonymous", gqlSelectionNames;desc="sfr/login", requestID;desc="723c2f85-d4b6-4b99-ae5a-7a86e5cf1fd3-1784281262", _y;desc="55bee83b-24e0-4b6a-b858-48f6879d64a5", _s;desc="75ee30eb-f7c8-49c5-b951-ab1c2fa9f221", _cmp;desc="3.AMPS_MY14_f_f_Oi8A5eskRe-T*9xpp-08iQ_%7B%7D"
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Server: cloudflare
+X-Content-Type-Options: nosniff
+x-dc: gcp-asia-southeast1,gcp-us-east1,gcp-us-east1
+CF-RAY: a1c849e27be3a110-SIN
+
+{"errors":[{"message":"Field 'login' doesn't exist on type 'Mutation'","locations":[{"line":1,"column":10}],"path":["mutation","login"],"extensions":{"code":"undefinedField","typeName":"Mutation","fieldName":"login"}}]}

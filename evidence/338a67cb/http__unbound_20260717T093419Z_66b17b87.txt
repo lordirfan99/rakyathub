@@ -1,0 +1,980 @@
+REQUEST:
+GET https://my.myfirst.tech/_admin/config
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+
+
+
+RESPONSE:
+HTTP 404
+Date: Fri, 17 Jul 2026 09:34:15 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-dc: gcp-asia-southeast1,gcp-us-west1,gcp-us-west1
+x-request-id: 54ea97be-c96f-4af6-8c01-3909d2d4b477-1784280855
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Xz3BE21ZeBTLqcle%2FFKq2x76N4ObSFwcZVIRoQ3xSwkeOSsFosywXa%2FM%2F0ft8ZyomIISd%2FyoWFqSm6YaEjFKASIXoBYlbSPRnSF81AIu27ANcOVHR1FDEO%2FPB4D2fOZtnC4iWAQSBYXU086VdQ%3D%3D"}]}
+Link: <https://cdn.shopify.com>; rel="preconnect", <https://cdn.shopify.com>; rel="preconnect"; crossorigin, <https://storefront-agent-server.shopify.ai>; rel="preconnect", <//my.myfirst.tech/cdn/shop/t/20/assets/base.css?v=159841507637079171801775120307>; as="style"; rel="preload", <//my.myfirst.tech/cdn/shop/t/20/assets/component-cart-drawer.css?v=39223250576183958541775120307>; as="style"; rel="preload", <//my.myfirst.tech/cdn/shop/t/20/assets/component-cart.css?v=164708765130180853531775120307>; as="style"; rel="preload", <//my.myfirst.tech/cdn/shop/t/20/assets/component-totals.css?v=15906652033866631521775120307>; as="style"; rel="preload", <//my.myfirst.tech/cdn/shop/t/20/assets/component-price.css?v=47596247576480123001775120307>; as="style"; rel="preload", <//my.myfirst.tech/cdn/shop/t/20/assets/component-discounts.css?v=152760482443307489271775120307>; as="style"; rel="preload", <//my.myfirst.tech/cdn/shop/t/20/assets/component-localization-form.css?v=170315343355214948141775120307>; as="style"; rel="preload", <https://cdn.shopify.com/extensions/019f6178-bcc9-7f35-a48a-c2541351b092/my-app-58/assets/extension-style.css>; as="style"; rel="preload", <https://my.myfirst.tech/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css>; as="style"; rel="preload"; crossorigin, <//my.myfirst.tech/cdn/shop/files/logo_transparent_efa1aa3b-0df0-46b9-92aa-6ea70c04e1ca.png?v=1686129571&width=600>; as="image"; rel="preload"; imagesrcset="//my.myfirst.tech/cdn/shop/files/logo_transparent_efa1aa3b-0df0-46b9-92aa-6ea70c04e1ca.png?v=1686129571&width=100 100w, //my.myfirst.tech/cdn/shop/files/logo_transparent_efa1aa3b-0df0-46b9-92aa-6ea70c04e1ca.png?v=1686129571&width=150 150w, //my.myfirst.tech/cdn/shop/files/logo_transparent_efa1aa3b-0df0-46b9-92aa-6ea70c04e1ca.png?v=1686129571&width=200 200w"; imagesizes="(max-width: 200px) 50vw, 100px"
+cf-cache-status: DYNAMIC
+Set-Cookie: _shopify_s=17fce0a3-aef0-4ad1-9599-e6da5a5d8032; domain=myfirst.tech; path=/; expires=Fri, 17 Jul 2026 10:04:15 GMT; SameSite=Lax
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+shopify-complexity-score: 440
+shopify-complexity-score-v2: 44
+x-frame-options: DENY
+content-security-policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+strict-transport-security: max-age=7889238
+X-Content-Type-Options: nosniff
+Vary: accept-encoding
+Alt-Svc: h3=":443"; ma=86400
+Content-Language: en-MY
+Cache-Control: private, no-store
+powered-by: Shopify
+server-timing: processing;dur=24;desc="gc:2", db;dur=7, asn;desc="13335", edge;desc="SIN", country;desc="MY", theme;desc="168123695412", pageType;desc="404", servedBy;desc="4htr", requestID;desc="54ea97be-c96f-4af6-8c01-3909d2d4b477-1784280855", _y;desc="a473f8dc-a90e-4ca1-b3de-91fd71bc60ef", _s;desc="17fce0a3-aef0-4ad1-9599-e6da5a5d8032", _cmp;desc="3.AMPS_MY14_f_f_ZDzyWu5sRvGSHQpjZWAAHQ_%7B%7D", compressionLevel;desc="5"
+Server-Timing: ipv6
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Server: cloudflare
+X-XSS-Protection: 1; mode=block
+Etag: W/"page_cache:71795867956:NotFoundController:87415e8cc0c5d993942b2a43c9332566"
+Content-Encoding: gzip
+CF-RAY: a1c83ff1eed9a110-SIN
+
+<!doctype html>
+<html class="js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="">
+    <link rel="canonical" href="https://my.myfirst.tech/404"><link rel="icon" type="image/png" href="//my.myfirst.tech/cdn/shop/files/logo_transparent_efa1aa3b-0df0-46b9-92aa-6ea70c04e1ca.png?crop=center&height=32&v=1686129571&width=32"><link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin><title>
+      404 Not Found
+ &ndash; myFirst Malaysia</title>
+
+    
+
+    
+
+<meta property="og:site_name" content="myFirst Malaysia">
+<meta property="og:url" content="https://my.myfirst.tech/404">
+<meta property="og:title" content="404 Not Found">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Discover a new era of kid-friendly tech at myFirst Malaysia Official Store. Shop a wide range of innovative gadgets including watch phones, drawing tablets, instant cameras, 3D pens, and more. Explore our collection of interactive toys and tech devices designed specifically for children."><meta property="og:image" content="http://my.myfirst.tech/cdn/shop/files/030122_ProductShowcase-B1_FB1200x800.jpg?v=1686106677">
+  <meta property="og:image:secure_url" content="https://my.myfirst.tech/cdn/shop/files/030122_ProductShowcase-B1_FB1200x800.jpg?v=1686106677">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="800"><meta name="twitter:site" content="@myfirstkidstech"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="404 Not Found">
+<meta name="twitter:description" content="Discover a new era of kid-friendly tech at myFirst Malaysia Official Store. Shop a wide range of innovative gadgets including watch phones, drawing tablets, instant cameras, 3D pens, and more. Explore our collection of interactive toys and tech devices designed specifically for children.">
+
+
+    <script src="//my.myfirst.tech/cdn/shop/t/20/assets/constants.js?v=132983761750457495441775120307" defer="defer"></script>
+    <script src="//my.myfirst.tech/cdn/shop/t/20/assets/pubsub.js?v=25310214064522200911775120307" defer="defer"></script>
+    <script src="//my.myfirst.tech/cdn/shop/t/20/assets/global.js?v=7301445359237545521775120307" defer="defer"></script>
+    <script src="//my.myfirst.tech/cdn/shop/t/20/assets/details-disclosure.js?v=13653116266235556501775120307" defer="defer"></script>
+    <script src="//my.myfirst.tech/cdn/shop/t/20/assets/details-modal.js?v=25581673532751508451775120307" defer="defer"></script>
+    <script src="//my.myfirst.tech/cdn/shop/t/20/assets/search-form.js?v=133129549252120666541775120307" defer="defer"></script><script src="//my.myfirst.tech/cdn/shop/t/20/assets/animations.js?v=88693664871331136111775120307" defer="defer"></script>
+
+  <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta name="google-site-verification" content="JzTSL2wN-3aW0jNCNEbzBLmP8zeePt7iaHDSmGvOQKc">
+<meta name="facebook-domain-verification" content="emhq2awjczc0hdqmmezx7edd02xbbo">
+<meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/71795867956/digital_wallets/dialog">
+<script async="async" src="/checkouts/internal/preloads.js?locale=en-MY&default_configuration_id=4253516084"></script>
+<script id="shopify-features" type="application/json">{"accessToken":"73dcb9a5881fd22c7634c8ddd55526fa","betas":["rich-media-storefront-analytics"],"domain":"my.myfirst.tech","predictiveSearch":true,"shopId":71795867956,"locale":"en"}</script>
+<script>var Shopify = Shopify || {};
+Shopify.shop = "myfirstofficial-malaysia.myshopify.com";
+Shopify.locale = "en";
+Shopify.currency = {"active":"MYR","rate":"1.0"};
+Shopify.country = "MY";
+Shopify.theme = {"name":"Refresh v 15.4.1 - MY (US HOMEPAGE)","id":168123695412,"schema_name":"Refresh","schema_version":"15.4.1","theme_store_id":1567,"role":"main"};
+Shopify.theme.handle = "null";
+Shopify.theme.style = {"id":null,"handle":null};
+Shopify.cdnHost = "my.myfirst.tech/cdn";
+Shopify.routes = Shopify.routes || {};
+Shopify.routes.root = "/";
+Shopify.shopJsCdnBaseUrl = "https://cdn.shopify.com/shopifycloud/shop-js";
+Shopify.SignInWithShop = Shopify.SignInWithShop || {};
+Shopify.SignInWithShop.User = Shopify.SignInWithShop.User || {};
+Shopify.SignInWithShop.User.recognized = false;</script>
+<script type="module">!function(o){(o.Shopify=o.Shopify||{}).modules=!0}(window);</script>
+<script>!function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);</script>
+<script>
+  window.Shopify = window.Shopify || {};
+  window.Shopify.SignInWithShop = window.Shopify.SignInWithShop || {};
+  window.Shopify.SignInWithShop.assetMetrics = { sampleRate: 0.01 };
+  window.Shopify.SignInWithShop.eligible = true;
+</script>
+<script id="shop-js-analytics" type="application/json">{"pageType":"404"}</script>
+<script defer="defer" async type="module" src="//my.myfirst.tech/cdn/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js"></script>
+<script type="module">
+  await import("//my.myfirst.tech/cdn/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js");
+
+  window.Shopify.SignInWithShop?.initShopCartSync?.({"fedCMEnabled":true,"windoidEnabled":true,"experiments":{"f_574743f4a4e7d67652abf981a0b686df":true}});
+
+</script>
+<script>
+  window.Shopify = window.Shopify || {};
+  if (!window.Shopify.featureAssets) window.Shopify.featureAssets = {};
+  window.Shopify.featureAssets['shop-js'] = {"shop-cash-offers":["modules/v2/loader.shop-cash-offers.en.esm.js"],"listener":["modules/v2/loader.listener.en.esm.js"],"init-windoid":["modules/v2/loader.init-windoid.en.esm.js"],"shop-toast-manager":["modules/v2/loader.shop-toast-manager.en.esm.js"],"shop-button":["modules/v2/loader.shop-button.en.esm.js"],"init-shop-user-recognition":["modules/v2/loader.init-shop-user-recognition.en.esm.js"],"avatar":["modules/v2/loader.avatar.en.esm.js"],"init-shop-email-lookup-coordinator":["modules/v2/loader.init-shop-email-lookup-coordinator.en.esm.js"],"init-fed-cm":["modules/v2/loader.init-fed-cm.en.esm.js"],"checkout-modal":["modules/v2/loader.checkout-modal.en.esm.js"],"init-shop-cart-sync":["modules/v2/loader.init-shop-cart-sync.en.esm.js"],"init-customer-accounts-sign-up":["modules/v2/loader.init-customer-accounts-sign-up.en.esm.js"],"shop-user-recognition":["modules/v2/loader.shop-user-recognition.en.esm.js"],"init-customer-accounts":["modules/v2/loader.init-customer-accounts.en.esm.js"],"shop-login-button":["modules/v2/loader.shop-login-button.en.esm.js"],"pay-button":["modules/v2/loader.pay-button.en.esm.js"],"init-shop-for-new-customer-accounts":["modules/v2/loader.init-shop-for-new-customer-accounts.en.esm.js"],"shop-cart-sync":["modules/v2/loader.shop-cart-sync.en.esm.js"],"shop-follow-button":["modules/v2/loader.shop-follow-button.en.esm.js"],"lead-capture":["modules/v2/loader.lead-capture.en.esm.js"],"shop-login":["modules/v2/loader.shop-login.en.esm.js"],"payment-terms":["modules/v2/loader.payment-terms.en.esm.js"]};
+</script>
+<script>(function() {
+  var isLoaded = false;
+  function asyncLoad() {
+    if (isLoaded) return;
+    isLoaded = true;
+    var urls = ["https:\/\/cdn-bundler.nice-team.net\/app\/js\/bundler.js?shop=myfirstofficial-malaysia.myshopify.com","https:\/\/r3-t.trackedlink.net\/_dmspt.js?shop=myfirstofficial-malaysia.myshopify.com","https:\/\/r3-t.trackedlink.net\/shopify\/ddgtag.js?shop=myfirstofficial-malaysia.myshopify.com","https:\/\/gateway.apaylater.com\/plugins\/price_divider\/main.js?platform=SHOPIFY\u0026country=MY\u0026price_divider_applied_on=all\u0026shop=myfirstofficial-malaysia.myshopify.com","https:\/\/cdn.nfcube.com\/instafeed-0c6efabdc3f6f4baf04c646df09006d8.js?shop=myfirstofficial-malaysia.myshopify.com","\/\/cdn.shopify.com\/proxy\/c9ef8c5828a87b268d6eb04b33fdb583a37c1b6f11c3f4618d44f28c646dd7b9\/cdn.bogos.io\/script_tag\/secomapp.scripttag.js?shop=myfirstofficial-malaysia.myshopify.com\u0026sp-cache-control=cHVibGljLCBtYXgtYWdlPTkwMA"];
+    for (var i = 0; i < urls.length; i++) {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = urls[i];
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    }
+  };
+  if(window.attachEvent) {
+    window.attachEvent('onload', asyncLoad);
+  } else {
+    window.addEventListener('load', asyncLoad, false);
+  }
+})();</script>
+<script id="__st">var __st={"a":71795867956,"offset":28800,"reqid":"e6156452-781d-440c-9b88-9137963263b9-1784280569","pageurl":"my.myfirst.tech\/404","u":"95721638a03c"};</script>
+<script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+<script id="captcha-bootstrap">!function(){'use strict';const t='contact',e='account',n='new_comment',o=[[t,t],['blogs',n],['comments',n],[t,'customer']],c=[[e,'customer_login'],[e,'guest_login'],[e,'recover_customer_password'],[e,'create_customer']],r=t=>t.map((([t,e])=>`form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','),a=t=>()=>t?[...document.querySelectorAll(t)].map((t=>t.form)):[];function s(){const t=[...o],e=r(t);return a(e)}const i='password',u='form_key',d=['recaptcha-v3-token','g-recaptcha-response','h-captcha-response',i],f=()=>{try{return window.sessionStorage}catch{return}},m='__shopify_v',_=t=>t.elements[u];function p(t,e,n=!1){try{const o=window.sessionStorage,c=JSON.parse(o.getItem(e)),{data:r}=function(t){const{data:e,action:n}=t;return t[m]||n?{data:e,action:n}:{data:t,action:n}}(c);for(const[e,n]of Object.entries(r))t.elements[e]&&(t.elements[e].value=n);n&&o.removeItem(e)}catch(o){console.error('form repopulation failed',{error:o})}}const l='form_type',E='cptcha';function T(t){t.dataset[E]=!0}const w=window,h=w.document,L='Shopify',v='ce_forms',y='captcha';let A=!1;((t,e)=>{const n=(g='f06e6c50-85a8-45c8-87d0-21a2b65856fe',I='https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.2.iife.js',D={infoText:'Protected by hCaptcha',privacyText:'Privacy',termsText:'Terms'},(t,e,n)=>{const o=w[L][v],c=o.bindForm;if(c)return c(t,g,e,D).then(n);var r;o.q.push([[t,g,e,D],n]),r=I,A||(h.body.append(Object.assign(h.createElement('script'),{id:'captcha-provider',async:!0,src:r})),A=!0)});var g,I,D;w[L]=w[L]||{},w[L][v]=w[L][v]||{},w[L][v].q=[],w[L][y]=w[L][y]||{},w[L][y].protect=function(t,e){n(t,void 0,e),T(t)},Object.freeze(w[L][y]),function(t,e,n,w,h,L){const[v,y,A,g]=function(t,e,n){const i=e?o:[],u=t?c:[],d=[...i,...u],f=r(d),m=r(i),_=r(d.filter((([t,e])=>n.includes(e))));return[a(f),a(m),a(_),s()]}(w,h,L),I=t=>{const e=t.target;return e instanceof HTMLFormElement?e:e&&e.form},D=t=>v().includes(t);t.addEventListener('submit',(t=>{const e=I(t);if(!e)return;const n=D(e)&&!e.dataset.hcaptchaBound&&!e.dataset.recaptchaBound,o=_(e),c=g().includes(e)&&(!o||!o.value);(n||c)&&t.preventDefault(),c&&!n&&(function(t){try{if(!f())return;!function(t){const e=f();if(!e)return;const n=_(t);if(!n)return;const o=n.value;o&&e.removeItem(o)}(t);const e=Array.from(Array(32),(()=>Math.random().toString(36)[2])).join('');!function(t,e){_(t)||t.append(Object.assign(document.createElement('input'),{type:'hidden',name:u})),t.elements[u].value=e}(t,e),function(t,e){const n=f();if(!n)return;const o=[...t.querySelectorAll(`input[type='${i}']`)].map((({name:t})=>t)),c=[...d,...o],r={};for(const[a,s]of new FormData(t).entries())c.includes(a)||(r[a]=s);n.setItem(e,JSON.stringify({[m]:1,action:t.action,data:r}))}(t,e)}catch(e){console.error('failed to persist form',e)}}(e),e.submit())}));const S=(t,e)=>{t&&!t.dataset[E]&&(n(t,e.some((e=>e===t))),T(t))};for(const o of['focusin','change'])t.addEventListener(o,(t=>{const e=I(t);D(e)&&S(e,y())}));const B=e.get('form_key'),M=e.get(l),P=B&&M;t.addEventListener('DOMContentLoaded',(()=>{const t=y();if(P)for(const e of t)e.elements[l].value===M&&p(e,B);[...new Set([...A(),...v().filter((t=>'true'===t.dataset.shopifyCaptcha))])].forEach((e=>S(e,t)))}))}(h,new URLSearchParams(w.location.search),n,t,e,['guest_login'])})(!0,!0)}();</script>
+<script integrity="sha256-JjoPp5ZfB1sSAs5SQaol1x1GgvveM+BgmRzyDexInEQ=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//my.myfirst.tech/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js" crossorigin="anonymous"></script>
+<script>(function () {var userAgent = navigator.userAgent;var platform = navigator.platform;var maxTouchPoints = navigator.maxTouchPoints || 0;var isIOS = /iPad|iPhone|iPod/.test(platform) || (platform === 'MacIntel' && maxTouchPoints > 1);var isMacSafari = platform.indexOf('Mac') === 0 && /Safari/.test(userAgent) && !/Chrome|Chromium|CriOS|FxiOS|Edg|OPR|Android/.test(userAgent);var isAppleSafari = isIOS || isMacSafari;if (isAppleSafari) {fetch('/sf_private_access_tokens' + location.search).catch(function () {});}function browserMajorVersion(pattern) {var match = userAgent.match(pattern);return match ? parseInt(match[1], 10) : null;}function shouldLoadAutosizesPolyfill() {if (!window.PerformanceObserver?.supportedEntryTypes?.includes('paint')) {return false;}var chromeVersion = browserMajorVersion(/Chrome\/(\d+)/);if (chromeVersion !== null) {return chromeVersion < 126;}var firefoxVersion = browserMajorVersion(/Firefox\/(\d+)/);if (firefoxVersion !== null) {return firefoxVersion < 150;}var safariVersion = isAppleSafari ? browserMajorVersion(/Version\/(\d+).*Safari\//) : null;if (safariVersion !== null) {return safariVersion < 27;}return true;}if (shouldLoadAutosizesPolyfill()) {var autosizesScript = document.createElement('script');autosizesScript.async = true;autosizesScript.crossOrigin = 'anonymous';autosizesScript.src = "//my.myfirst.tech/cdn/shopifycloud/storefront/assets/storefront/autosizes-84416378.js";(document.head || document.documentElement).appendChild(autosizesScript);}window.ShopifyAnalytics = window.ShopifyAnalytics || {};window.ShopifyAnalytics.performance = window.ShopifyAnalytics.performance || {};(function () {var LONG_FRAME_THRESHOLD = 50;var longAnimationFrames = [];var activeRafId = null;function collectLongFrames() {var previousTime = null;function rafMonitor(now) {if (activeRafId === null) {return;}var delta = now - previousTime;if (delta > LONG_FRAME_THRESHOLD) {longAnimationFrames.push({startTime: previousTime,endTime: now,});}previousTime = now;activeRafId = requestAnimationFrame(rafMonitor);}previousTime = performance.now();activeRafId = requestAnimationFrame(rafMonitor);}if (!window.PerformanceObserver?.supportedEntryTypes?.includes('long-animation-frame')) {collectLongFrames();var timeoutId = setTimeout(function () {cancelAnimationFrame(activeRafId);}, 10000);window.ShopifyAnalytics.performance.getLongAnimationFrames = function (stopCollection) {if (stopCollection === undefined) {stopCollection = false;}if (stopCollection) {clearTimeout(timeoutId);cancelAnimationFrame(activeRafId);}return longAnimationFrames;};}})();})();</script><script id="shopify-origin-trials" async="async" integrity="sha256-mqQjA+yhr1DtPsW5MhDIq3zDu+LghfjNT49r/ttG3eY=" src="//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-5059b83f.js" crossorigin="anonymous" onload="window.__shopifyOriginTrialsDone = true" onerror="window.__shopifyOriginTrialsDone = true"></script>
+<script>
+  window.Shopify = window.Shopify || {};
+  window.Shopify.MCP = window.Shopify.MCP || {};
+  window.Shopify.MCP.enabled = true;
+  window.Shopify.MCP.shop = "myfirstofficial-malaysia.myshopify.com";
+  window.Shopify.MCP.mcpEndpoint = "https:\/\/my.myfirst.tech\/api\/mcp";
+  window.Shopify.MCP.tools = [{"name":"search_shop_policies_and_faqs","description":"Used to get facts about the stores policies, products, or services.\nSome examples of questions you can ask are:\n  - What is your return policy?\n  - What is your shipping policy?\n  - What is your phone number?\n  - What are your hours of operation?\"\n","inputSchema":{"$schema":"https:\/\/json-schema.org\/draft\/2020-12\/schema","type":"object","properties":{"query":{"type":"string","description":"A natural language query."},"context":{"type":"string","description":"Additional information about the request such as user demographics, mood, location, or other relevant details that could help in tailoring the response appropriately."}},"required":["query"]}}];
+</script>
+<script>var d="shopify:webmcp_adapter_loaded",n=Symbol.for("shopify.webmcp_adapter_loading");function s(c,a,{win:r=window,doc:o=document}={}){function p(){try{return r.localStorage.getItem(d)==="true"}catch{return!1}}function l(){try{r.localStorage.setItem(d,"true")}catch{}}function u(){return typeof(o.modelContext||r.navigator?.modelContext)?.registerTool=="function"}function f(){if(r[n]||!u())return;let t=o.head||o.getElementsByTagName("head")[0];if(!t)return;let e=o.createElement("script");e.type="module",e.crossOrigin="anonymous",a&&(e.integrity=a),e.src=c,e.addEventListener("load",l,{once:!0}),e.addEventListener("error",()=>{r[n]=!1},{once:!0}),t.appendChild(e),r[n]=!0}function _(t){let e=o.getElementById("shopify-origin-trials");if(!e||r.__shopifyOriginTrialsDone){t();return}e.addEventListener("load",t,{once:!0}),e.addEventListener("error",t,{once:!0})}function i(){_(()=>r.setTimeout(f,0))}function m(){o.addEventListener("DOMContentLoaded",i,{once:!0})}p()?i():m()}s("https:\/\/cdn.shopify.com\/storefront\/webmcp\/webmcp-0.0.4.js","");
+</script>
+<script data-source-attribution="shopify.dynamic_checkout.dynamic.init">var Shopify=Shopify||{};Shopify.PaymentButton=Shopify.PaymentButton||{isStorefrontPortableWallets:!0,init:function(){window.Shopify.PaymentButton.init=function(){};var t=document.createElement("script");t.src="https://my.myfirst.tech/cdn/shopifycloud/portable-wallets/latest/portable-wallets.en.js",t.type="module",document.head.appendChild(t)}};
+</script>
+<script data-source-attribution="shopify.dynamic_checkout.buyer_consent">
+  function portableWalletsHideBuyerConsent(e){var t=document.getElementById("shopify-buyer-consent"),n=document.getElementById("shopify-subscription-policy-button");t&&n&&(t.classList.add("hidden"),t.setAttribute("aria-hidden","true"),n.removeEventListener("click",e))}function portableWalletsShowBuyerConsent(e){var t=document.getElementById("shopify-buyer-consent"),n=document.getElementById("shopify-subscription-policy-button");t&&n&&(t.classList.remove("hidden"),t.removeAttribute("aria-hidden"),n.addEventListener("click",e))}window.Shopify?.PaymentButton&&(window.Shopify.PaymentButton.hideBuyerConsent=portableWalletsHideBuyerConsent,window.Shopify.PaymentButton.showBuyerConsent=portableWalletsShowBuyerConsent);
+</script>
+<script data-source-attribution="shopify.dynamic_checkout.cart.bootstrap">document.addEventListener("DOMContentLoaded",(function(){function t(){return document.querySelector("shopify-accelerated-checkout-cart, shopify-accelerated-checkout")}if(t())Shopify.PaymentButton.init();else{new MutationObserver((function(e,n){t()&&(Shopify.PaymentButton.init(),n.disconnect())})).observe(document.body,{childList:!0,subtree:!0})}}));
+</script>
+<link id="shopify-accelerated-checkout-styles" rel="stylesheet" media="screen" href="https://my.myfirst.tech/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css" crossorigin="anonymous">
+<style id="shopify-accelerated-checkout-cart">
+        #shopify-buyer-consent {
+  margin-top: 1em;
+  display: inline-block;
+  width: 100%;
+}
+
+#shopify-buyer-consent.hidden {
+  display: none;
+}
+
+#shopify-subscription-policy-button {
+  background: none;
+  border: none;
+  padding: 0;
+  text-decoration: underline;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+#shopify-subscription-policy-button::before {
+  box-shadow: none;
+}
+
+      </style>
+<script id="sections-script" data-sections="header" defer="defer" src="//my.myfirst.tech/cdn/shop/t/20/compiled_assets/scripts.js?v=90487813905515327061775120364"></script>
+<script id="shopify-cfh-end">window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+
+
+
+    <style data-shopify>
+      @font-face {
+  font-family: Arimo;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("//my.myfirst.tech/cdn/fonts/arimo/arimo_n4.a7efb558ca22d2002248bbe6f302a98edee38e35.woff2") format("woff2"),
+       url("//my.myfirst.tech/cdn/fonts/arimo/arimo_n4.0da809f7d1d5ede2a73be7094ac00741efdb6387.woff") format("woff");
+}
+
+      @font-face {
+  font-family: Arimo;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("//my.myfirst.tech/cdn/fonts/arimo/arimo_n7.1d2d0638e6a1228d86beb0e10006e3280ccb2d04.woff2") format("woff2"),
+       url("//my.myfirst.tech/cdn/fonts/arimo/arimo_n7.f4b9139e8eac4a17b38b8707044c20f54c3be479.woff") format("woff");
+}
+
+      @font-face {
+  font-family: Arimo;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("//my.myfirst.tech/cdn/fonts/arimo/arimo_i4.438ddb21a1b98c7230698d70dc1a21df235701b2.woff2") format("woff2"),
+       url("//my.myfirst.tech/cdn/fonts/arimo/arimo_i4.0e1908a0dc1ec32fabb5a03a0c9ee2083f82e3d7.woff") format("woff");
+}
+
+      @font-face {
+  font-family: Arimo;
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: url("//my.myfirst.tech/cdn/fonts/arimo/arimo_i7.b9f09537c29041ec8d51f8cdb7c9b8e4f1f82cb1.woff2") format("woff2"),
+       url("//my.myfirst.tech/cdn/fonts/arimo/arimo_i7.ec659fc855f754fd0b1bd052e606bba1058f73da.woff") format("woff");
+}
+
+      @font-face {
+  font-family: Nunito;
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url("//my.myfirst.tech/cdn/fonts/nunito/nunito_n8.a4faa34563722dcb4bd960ae538c49eb540a565f.woff2") format("woff2"),
+       url("//my.myfirst.tech/cdn/fonts/nunito/nunito_n8.7b9b4d7a0ef879eb46735a0aecb391013c7f7aeb.woff") format("woff");
+}
+
+
+      
+        :root,
+        .color-scheme-1 {
+          --color-background: 239,240,245;
+        
+          --gradient-background: #eff0f5;
+        
+
+        
+
+        --color-foreground: 25,25,24;
+        --color-background-contrast: 161,166,196;
+        --color-shadow: 25,25,24;
+        --color-button: 130,70,175;
+        --color-button-text: 239,240,245;
+        --color-secondary-button: 239,240,245;
+        --color-secondary-button-text: 25,25,24;
+        --color-link: 25,25,24;
+        --color-badge-foreground: 25,25,24;
+        --color-badge-background: 239,240,245;
+        --color-badge-border: 25,25,24;
+        --payment-terms-background-color: rgb(239 240 245);
+      }
+      
+        
+        .color-scheme-2 {
+          --color-background: 255,255,255;
+        
+          --gradient-background: #ffffff;
+        
+
+        
+
+        --color-foreground: 0,0,0;
+        --color-background-contrast: 191,191,191;
+        --color-shadow: 25,25,24;
+        --color-button: 130,70,175;
+        --color-button-text: 255,255,255;
+        --color-secondary-button: 255,255,255;
+        --color-secondary-button-text: 25,25,24;
+        --color-link: 25,25,24;
+        --color-badge-foreground: 0,0,0;
+        --color-badge-background: 255,255,255;
+        --color-badge-border: 0,0,0;
+        --payment-terms-background-color: rgb(255 255 255);
+      }
+      
+        
+        .color-scheme-3 {
+          --color-background: 130,70,175;
+        
+          --gradient-background: #8246af;
+        
+
+        
+
+        --color-foreground: 255,255,255;
+        --color-background-contrast: 62,34,84;
+        --color-shadow: 0,0,0;
+        --color-button: 255,255,255;
+        --color-button-text: 255,255,255;
+        --color-secondary-button: 130,70,175;
+        --color-secondary-button-text: 130,70,175;
+        --color-link: 130,70,175;
+        --color-badge-foreground: 255,255,255;
+        --color-badge-background: 130,70,175;
+        --color-badge-border: 255,255,255;
+        --payment-terms-background-color: rgb(130 70 175);
+      }
+      
+        
+        .color-scheme-4 {
+          --color-background: 130,70,175;
+        
+          --gradient-background: #8246af;
+        
+
+        
+
+        --color-foreground: 255,255,255;
+        --color-background-contrast: 62,34,84;
+        --color-shadow: 14,27,77;
+        --color-button: 255,255,255;
+        --color-button-text: 130,70,175;
+        --color-secondary-button: 130,70,175;
+        --color-secondary-button-text: 255,255,255;
+        --color-link: 255,255,255;
+        --color-badge-foreground: 255,255,255;
+        --color-badge-background: 130,70,175;
+        --color-badge-border: 255,255,255;
+        --payment-terms-background-color: rgb(130 70 175);
+      }
+      
+        
+        .color-scheme-5 {
+          --color-background: 25,25,24;
+        
+          --gradient-background: #191918;
+        
+
+        
+
+        --color-foreground: 255,255,255;
+        --color-background-contrast: 154,154,150;
+        --color-shadow: 0,0,0;
+        --color-button: 255,255,255;
+        --color-button-text: 0,0,0;
+        --color-secondary-button: 25,25,24;
+        --color-secondary-button-text: 255,255,255;
+        --color-link: 255,255,255;
+        --color-badge-foreground: 255,255,255;
+        --color-badge-background: 25,25,24;
+        --color-badge-border: 255,255,255;
+        --payment-terms-background-color: rgb(25 25 24);
+      }
+      
+        
+        .color-scheme-3776679c-3200-480b-b1cc-16ec5e0bf175 {
+          --color-background: 130,70,175;
+        
+          --gradient-background: #8246af;
+        
+
+        
+
+        --color-foreground: 255,255,255;
+        --color-background-contrast: 62,34,84;
+        --color-shadow: 25,25,24;
+        --color-button: 255,255,255;
+        --color-button-text: 130,70,175;
+        --color-secondary-button: 130,70,175;
+        --color-secondary-button-text: 130,70,175;
+        --color-link: 130,70,175;
+        --color-badge-foreground: 255,255,255;
+        --color-badge-background: 130,70,175;
+        --color-badge-border: 255,255,255;
+        --payment-terms-background-color: rgb(130 70 175);
+      }
+      
+        
+        .color-scheme-58a4480e-1b1e-42a0-817c-6469ba48db4d {
+          --color-background: 130,70,175;
+        
+          --gradient-background: #8246af;
+        
+
+        
+
+        --color-foreground: 255,255,255;
+        --color-background-contrast: 62,34,84;
+        --color-shadow: 25,25,24;
+        --color-button: 0,0,0;
+        --color-button-text: 255,255,255;
+        --color-secondary-button: 130,70,175;
+        --color-secondary-button-text: 25,25,24;
+        --color-link: 25,25,24;
+        --color-badge-foreground: 255,255,255;
+        --color-badge-background: 130,70,175;
+        --color-badge-border: 255,255,255;
+        --payment-terms-background-color: rgb(130 70 175);
+      }
+      
+        
+        .color-scheme-c88eba81-adb0-4645-b7c3-6ab1716234f4 {
+          --color-background: 164,30,18;
+        
+          --gradient-background: #a41e12;
+        
+
+        
+
+        --color-foreground: 223,186,95;
+        --color-background-contrast: 49,9,5;
+        --color-shadow: 25,25,24;
+        --color-button: 164,30,18;
+        --color-button-text: 223,186,95;
+        --color-secondary-button: 164,30,18;
+        --color-secondary-button-text: 223,186,95;
+        --color-link: 223,186,95;
+        --color-badge-foreground: 223,186,95;
+        --color-badge-background: 164,30,18;
+        --color-badge-border: 223,186,95;
+        --payment-terms-background-color: rgb(164 30 18);
+      }
+      
+
+      body, .color-scheme-1, .color-scheme-2, .color-scheme-3, .color-scheme-4, .color-scheme-5, .color-scheme-3776679c-3200-480b-b1cc-16ec5e0bf175, .color-scheme-58a4480e-1b1e-42a0-817c-6469ba48db4d, .color-scheme-c88eba81-adb0-4645-b7c3-6ab1716234f4 {
+        color: rgba(var(--color-foreground), 0.75);
+        background-color: rgb(var(--color-background));
+      }
+
+      :root {
+        --font-body-family: Arimo, sans-serif;
+        --font-body-style: normal;
+        --font-body-weight: 400;
+        --font-body-weight-bold: 700;
+
+        --font-heading-family: Nunito, sans-serif;
+        --font-heading-style: normal;
+        --font-heading-weight: 800;
+
+        --font-body-scale: 1.1;
+        --font-heading-scale: 1.0;
+
+        --media-padding: px;
+        --media-border-opacity: 0.1;
+        --media-border-width: 0px;
+        --media-radius: 20px;
+        --media-shadow-opacity: 0.0;
+        --media-shadow-horizontal-offset: 0px;
+        --media-shadow-vertical-offset: 4px;
+        --media-shadow-blur-radius: 5px;
+        --media-shadow-visible: 0;
+
+        --page-width: 100rem;
+        --page-width-margin: 0rem;
+
+        --product-card-image-padding: 1.6rem;
+        --product-card-corner-radius: 1.8rem;
+        --product-card-text-alignment: left;
+        --product-card-border-width: 0.0rem;
+        --product-card-border-opacity: 1.0;
+        --product-card-shadow-opacity: 0.0;
+        --product-card-shadow-visible: 0;
+        --product-card-shadow-horizontal-offset: 0.0rem;
+        --product-card-shadow-vertical-offset: 0.4rem;
+        --product-card-shadow-blur-radius: 0.5rem;
+
+        --collection-card-image-padding: 1.6rem;
+        --collection-card-corner-radius: 1.8rem;
+        --collection-card-text-alignment: left;
+        --collection-card-border-width: 0.0rem;
+        --collection-card-border-opacity: 1.0;
+        --collection-card-shadow-opacity: 0.0;
+        --collection-card-shadow-visible: 0;
+        --collection-card-shadow-horizontal-offset: 0.0rem;
+        --collection-card-shadow-vertical-offset: 0.4rem;
+        --collection-card-shadow-blur-radius: 0.5rem;
+
+        --blog-card-image-padding: 1.6rem;
+        --blog-card-corner-radius: 1.8rem;
+        --blog-card-text-alignment: left;
+        --blog-card-border-width: 0.1rem;
+        --blog-card-border-opacity: 1.0;
+        --blog-card-shadow-opacity: 0.0;
+        --blog-card-shadow-visible: 0;
+        --blog-card-shadow-horizontal-offset: 0.0rem;
+        --blog-card-shadow-vertical-offset: 0.4rem;
+        --blog-card-shadow-blur-radius: 0.5rem;
+
+        --badge-corner-radius: 0.0rem;
+
+        --popup-border-width: 1px;
+        --popup-border-opacity: 0.1;
+        --popup-corner-radius: 18px;
+        --popup-shadow-opacity: 0.0;
+        --popup-shadow-horizontal-offset: 0px;
+        --popup-shadow-vertical-offset: 4px;
+        --popup-shadow-blur-radius: 5px;
+
+        --drawer-border-width: 0px;
+        --drawer-border-opacity: 0.1;
+        --drawer-shadow-opacity: 0.0;
+        --drawer-shadow-horizontal-offset: 0px;
+        --drawer-shadow-vertical-offset: 4px;
+        --drawer-shadow-blur-radius: 5px;
+
+        --spacing-sections-desktop: 0px;
+        --spacing-sections-mobile: 0px;
+
+        --grid-desktop-vertical-spacing: 28px;
+        --grid-desktop-horizontal-spacing: 28px;
+        --grid-mobile-vertical-spacing: 14px;
+        --grid-mobile-horizontal-spacing: 14px;
+
+        --text-boxes-border-opacity: 0.1;
+        --text-boxes-border-width: 0px;
+        --text-boxes-radius: 20px;
+        --text-boxes-shadow-opacity: 0.0;
+        --text-boxes-shadow-visible: 0;
+        --text-boxes-shadow-horizontal-offset: 0px;
+        --text-boxes-shadow-vertical-offset: 4px;
+        --text-boxes-shadow-blur-radius: 5px;
+
+        --buttons-radius: 40px;
+        --buttons-radius-outset: 40px;
+        --buttons-border-width: 0px;
+        --buttons-border-opacity: 1.0;
+        --buttons-shadow-opacity: 0.05;
+        --buttons-shadow-visible: 1;
+        --buttons-shadow-horizontal-offset: 6px;
+        --buttons-shadow-vertical-offset: 4px;
+        --buttons-shadow-blur-radius: 5px;
+        --buttons-border-offset: 0.3px;
+
+        --inputs-radius: 26px;
+        --inputs-border-width: 1px;
+        --inputs-border-opacity: 0.55;
+        --inputs-shadow-opacity: 0.0;
+        --inputs-shadow-horizontal-offset: 0px;
+        --inputs-margin-offset: 0px;
+        --inputs-shadow-vertical-offset: 4px;
+        --inputs-shadow-blur-radius: 5px;
+        --inputs-radius-outset: 27px;
+
+        --variant-pills-radius: 40px;
+        --variant-pills-border-width: 1px;
+        --variant-pills-border-opacity: 0.55;
+        --variant-pills-shadow-opacity: 0.0;
+        --variant-pills-shadow-horizontal-offset: 0px;
+        --variant-pills-shadow-vertical-offset: 4px;
+        --variant-pills-shadow-blur-radius: 5px;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: inherit;
+      }
+
+      html {
+        box-sizing: border-box;
+        font-size: calc(var(--font-body-scale) * 62.5%);
+        height: 100%;
+      }
+
+      body {
+        display: grid;
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-columns: 100%;
+        min-height: 100%;
+        margin: 0;
+        font-size: 1.5rem;
+        letter-spacing: 0.06rem;
+        line-height: calc(1 + 0.8 / var(--font-body-scale));
+        font-family: var(--font-body-family);
+        font-style: var(--font-body-style);
+        font-weight: var(--font-body-weight);
+      }
+
+      @media screen and (min-width: 750px) {
+        body {
+          font-size: 1.6rem;
+        }
+      }
+    </style>
+
+    <link href="//my.myfirst.tech/cdn/shop/t/20/assets/base.css?v=159841507637079171801775120307" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="//my.myfirst.tech/cdn/shop/t/20/assets/component-cart-items.css?v=13033300910818915211775120307" media="print" onload="this.media='all'"><link href="//my.myfirst.tech/cdn/shop/t/20/assets/component-cart-drawer.css?v=39223250576183958541775120307" rel="stylesheet" type="text/css" media="all" />
+      <link href="//my.myfirst.tech/cdn/shop/t/20/assets/component-cart.css?v=164708765130180853531775120307" rel="stylesheet" type="text/css" media="all" />
+      <link href="//my.myfirst.tech/cdn/shop/t/20/assets/component-totals.css?v=15906652033866631521775120307" rel="stylesheet" type="text/css" media="all" />
+      <link href="//my.myfirst.tech/cdn/shop/t/20/assets/component-price.css?v=47596247576480123001775120307" rel="stylesheet" type="text/css" media="all" />
+      <link href="//my.myfirst.tech/cdn/shop/t/20/assets/component-discounts.css?v=152760482443307489271775120307" rel="stylesheet" type="text/css" media="all" />
+
+      <link rel="preload" as="font" href="//my.myfirst.tech/cdn/fonts/arimo/arimo_n4.a7efb558ca22d2002248bbe6f302a98edee38e35.woff2" type="font/woff2" crossorigin>
+      
+
+      <link rel="preload" as="font" href="//my.myfirst.tech/cdn/fonts/nunito/nunito_n8.a4faa34563722dcb4bd960ae538c49eb540a565f.woff2" type="font/woff2" crossorigin>
+      
+<link href="//my.myfirst.tech/cdn/shop/t/20/assets/component-localization-form.css?v=170315343355214948141775120307" rel="stylesheet" type="text/css" media="all" />
+      <script src="//my.myfirst.tech/cdn/shop/t/20/assets/localization-form.js?v=144176611646395275351775120307" defer="defer"></script><link
+        rel="stylesheet"
+        href="//my.myfirst.tech/cdn/shop/t/20/assets/component-predictive-search.css?v=118923337488134913561775120307"
+        media="print"
+        onload="this.media='all'"
+      ><script>
+      if (Shopify.designMode) {
+        document.documentElement.classList.add('shopify-design-mode');
+      }
+    </script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "lq3mqn1mrh");
+</script>
+
+<script>
+      var dm_insight_id ='DM-7142942484-03';
+      (function(w,d,u,t,o,c){w['dmtrackingobjectname']=o;c=d.createElement(t);c.async=1;c.src=u;t=d.getElementsByTagName
+(t)[0];t.parentNode.insertBefore(c,t);w[o]=w[o]||function(){(w[o].q=w[o].q||[]).push(arguments);};w[o]('track');
+})(window, document, '//static.trackedweb.net/js/_dmptv4.js', 'script', 'dmPt');
+    </script>
+
+  <script>
+var grab_widget_visiblity='1';
+var grab_widget_tenure='4';
+var grab_widget_money_format = "RM{{amount}} MYR";
+var grab_data_currency_code = 'MYR';
+var grab_widget_current_page_type = '404';
+var grab_page_config_param =  [];
+</script>
+
+
+    
+    
+  
+
+
+
+
+<!-- BEGIN app block: shopify://apps/pumper-bundles/blocks/app-embed/0856870d-2aca-4b1e-a662-cf1797f61270 --><meta name="format-detection" content="telephone=no">
+
+
+
+<script src="https://cdn.shopify.com/extensions/019f6eda-13e3-72d9-b303-0c30b1ea201e/profit-pumper-bundles-1002/assets/pmpr-hide-props.js" defer></script>
+
+
+<!-- END app block --><!-- BEGIN app block: shopify://apps/uppromote-affiliate/blocks/customer-referral/64c32457-930d-4cb9-9641-e24c0d9cf1f4 --><link rel="preload" href="https://cdn.shopify.com/extensions/019f6a57-48af-7a7c-bd4b-1106ec4003e0/affliate-by-secomapp-121/assets/customer-referral.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const params = new URLSearchParams(window.location.search);
+    if (params.has('sca_ref') || params.has('sca_crp')) {
+      document.body.setAttribute('is-affiliate-link', '');
+    }
+  });
+</script>
+
+
+<!-- END app block --><!-- BEGIN app block: shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b --><script id='shopify-chat-app-embed-data' type='application/json'>
+  {
+    "settings": {
+      "greetingMessage": "",
+      "showFeaturedProducts": true,
+      "featuredProducts": [],
+      "horizontalPosition": "bottom_right",
+      "icon": "chat_bubble",
+      "buttonLabel": "Support"
+    }
+  }
+</script>
+<script id='shopify-agent-app-embed-data' type='application/json'>
+  {
+    "settings": {
+      "greetingMessage": "",
+      "showFeaturedProducts": true,
+      "featuredProducts": [],
+      "horizontalPosition": "bottom_right",
+      "icon": "chat_bubble",
+      "buttonLabel": "Support"
+    }
+  }
+</script>
+
+<style data-shopify>
+  
+
+  /* Shadow DOM content does not prevent theme-wide :empty rules from matching the host. */
+  shopify-agent:defined:empty,
+  shopify-chat:defined:empty {
+    display: grid;
+  }
+
+  :root {
+    --shopify-chat-bg-color: #FFFFFF;
+    --shopify-agent-bg-color: #FFFFFF;
+    --shopify-chat-text-color: #000000;
+    --shopify-agent-text-color: #000000;
+    --shopify-chat-accent-bg-color: #000000;
+    --shopify-agent-accent-bg-color: #000000;
+    --shopify-chat-accent-text-color: #FFFFFF;
+    --shopify-agent-accent-text-color: #FFFFFF;
+    --shopify-chat-activator-offset: 20px;
+    --shopify-agent-activator-offset: 20px;
+
+    
+
+    --shopify-chat-border-radius: 16px;
+    --shopify-agent-border-radius: 16px;
+  }
+</style>
+
+<script
+  id='shopify-chat-bundle-selector'
+  src='https://cdn.shopify.com/extensions/019f6b79-ce23-71b4-b954-65d455fad0e8/shopify-inbox-1291/assets/shopify-chat-bundle-selector.js'
+  defer
+  data-chat-src='https://cdn.shopify.com/storefront/web-components/agent.js'
+  data-agent-src='https://cdn.shopify.com/storefront/web-components/agent.js'
+  data-legacy-src='https://cdn.shopify.com/extensions/019f6b79-ce23-71b4-b954-65d455fad0e8/shopify-inbox-1291/assets/inbox-chat-loader.js'
+  data-horizontal-position='bottom_right'
+  data-vertical-position='lowest'
+  data-icon='chat_bubble'
+  data-text='support'
+  data-color='#8246af'
+  data-secondary-color='#ffffff'
+  data-ternary-color='#6a6a6a'
+  
+  data-domain='my.myfirst.tech'
+  data-shop-domain='my.myfirst.tech'
+  data-external-identifier='xc8efZw-U-Y0xHiDZp8ipteKjMPdlQ8Ew-0Zhg1Wvw0'
+  
+></script>
+
+
+<!-- END app block --><!-- BEGIN app block: shopify://apps/uppromote-affiliate/blocks/message-bar/64c32457-930d-4cb9-9641-e24c0d9cf1f4 --><script type="application/json" id="uppromote-message-bar-setting" class="metafield-json">{"referral_enable":0,"referral_content":"You're shopping with {affiliate_name}!","referral_font":"Poppins","referral_font_size":14,"referral_text_color":"#ffffff","referral_background_color":"#338FB1","not_referral_enable":0,"not_referral_content":"Enjoy your time.","not_referral_font":"Poppins","not_referral_font_size":14,"not_referral_text_color":"#ffffff","not_referral_background_color":"#338FB1"}</script>
+
+<style>
+    body {
+        transition: padding-top .2s;
+    }
+    .scaaf-message-bar {
+        --primary-text-color: #ffffff;
+        --secondary-text-color: #ffffff;
+        --primary-bg-color: #338FB1;
+        --secondary-bg-color: #338FB1;
+        --primary-text-size: 14px;
+        --secondary-text-size: 14px;
+        text-align: center;
+        display: block;
+        width: 100%;
+        padding: 10px;
+        animation-duration: .5s;
+        animation-name: fadeIn;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .scaaf-message-bar-content {
+        margin: 0;
+        padding: 0;
+    }
+
+    .scaaf-message-bar[data-layout=referring] {
+        background-color: var(--primary-bg-color);
+        color: var(--primary-text-color);
+        font-size: var(--primary-text-size);
+    }
+
+    .scaaf-message-bar[data-layout=direct] {
+        background-color: var(--secondary-bg-color);
+        color: var(--secondary-text-color);
+        font-size: var(--secondary-text-size);
+    }
+
+</style>
+
+<script type="text/javascript">
+    (function() {
+        let container, contentContainer
+        const settingTag = document.querySelector('script#uppromote-message-bar-setting')
+
+        if (!settingTag || !settingTag.textContent) {
+            return
+        }
+
+        const setting = JSON.parse(settingTag.textContent)
+        if (!setting.referral_enable) {
+            return
+        }
+
+        const getCookie = (cName) => {
+            const name = cName + '='
+            const ca = document.cookie.split(';')
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i]
+                while (c.charAt(0) === ' ') {
+                    c = c.substring(1)
+                }
+                if (c.indexOf(name) === 0) {
+                    const raw = c.substring(name.length, c.length)
+                    // Decode this value only, not the whole cookie string, so one malformed
+                    // cookie (bare %) or a ';' inside another value can't break parsing here.
+                    try {
+                        return decodeURIComponent(raw)
+                    } catch {
+                        return raw
+                    }
+                }
+            }
+
+            return null
+        }
+
+        function renderContainer() {
+            container = document.createElement('div')
+            container.classList.add('scaaf-message-bar')
+            contentContainer = document.createElement('p')
+            contentContainer.classList.add('scaaf-message-bar-content')
+            container.append(contentContainer)
+        }
+
+        function calculateLayout() {
+            const height = container.scrollHeight
+
+            function onMouseMove() {
+                document.body.style.paddingTop = `${height}px`
+                document.body.removeEventListener('mousemove', onMouseMove)
+                document.body.removeEventListener('touchstart', onMouseMove)
+            }
+
+            document.body.addEventListener('mousemove', onMouseMove)
+            document.body.addEventListener('touchstart', onMouseMove)
+        }
+
+        renderContainer()
+
+        function fillDirectContent() {
+            if (!setting.not_referral_enable) {
+                // Nothing to show: drop the optimistic "Loading" bar prepareForReferring may have left
+                container.remove()
+                return
+            }
+            contentContainer.style.visibility = 'visible'
+            container.dataset.layout = 'direct'
+            contentContainer.textContent = setting.not_referral_content
+            document.body.prepend(container)
+            calculateLayout()
+        }
+
+        function prepareForReferring() {
+            contentContainer.textContent = 'Loading'
+            contentContainer.style.visibility = 'hidden'
+            document.body.prepend(container)
+            calculateLayout()
+        }
+
+        function fillReferringContent(aff) {
+            container.dataset.layout = 'referring'
+            // Guard referral_content so a missing template can't throw and leave the bar stuck on "Loading"
+            contentContainer.textContent = (setting.referral_content || '')
+                .replaceAll('{affiliate_name}', aff.name)
+                .replaceAll('{company}', aff.company)
+                .replaceAll('{affiliate_firstname}', aff.first_name)
+                .replaceAll('{personal_detail}', aff.personal_detail)
+            contentContainer.style.visibility = 'visible'
+        }
+
+        function safeJsonParse (str) {
+            if (!str) return null;
+            try {
+                return JSON.parse(str);
+            } catch {
+                return null;
+            }
+        }
+
+        function renderFromCookie(affiliateID) {
+            if (!affiliateID) {
+                fillDirectContent()
+                return
+            }
+
+            prepareForReferring()
+
+            let info = null
+            const raw = getCookie('_up_a_info')
+            if (raw) {
+                info = safeJsonParse(raw)
+            }
+
+            if (!info) {
+                fillDirectContent()
+                return
+            }
+
+            const aff = {
+                company: info.company || '',
+                name: (info.first_name || '') + ' ' + (info.last_name || ''),
+                first_name: info.first_name || '',
+                personal_detail: getCookie('scaaf_pd') || ''
+            }
+
+            fillReferringContent(aff)
+        }
+
+        function paintMessageBar() {
+            if (!document.body) {
+                return requestAnimationFrame(paintMessageBar)
+            }
+
+            const urlParams = new URLSearchParams(window.location.search)
+            const scaRef = urlParams.get("sca_ref")
+            const urlAffiliateID = scaRef ? scaRef.split('.')[0] + '' : null
+            const cookieAffiliateID = getCookie('up_uppromote_aid')
+            const isReferralLink = !!scaRef
+
+            if (!isReferralLink) {
+                if (cookieAffiliateID) {
+                    renderFromCookie(cookieAffiliateID)
+                    return
+                }
+                fillDirectContent()
+                return
+            }
+
+            if (cookieAffiliateID === urlAffiliateID) {
+                renderFromCookie(cookieAffiliateID)
+                return
+            }
+
+            const lastClick = Number(getCookie('up_uppromote_lc') || 0)
+            const diffMinuteFromNow = (Date.now() - lastClick) / (60 * 1000)
+            if (diffMinuteFromNow <= 1) {
+                renderFromCookie(cookieAffiliateID)
+                return
+            }
+
+            let waited = 0
+            const MAX_WAIT = 5000
+            const INTERVAL = 300
+
+            const timer = setInterval(() => {
+                const newCookieID = getCookie('up_uppromote_aid')
+                const isStillThatAffiliate = newCookieID === urlAffiliateID
+                const isReceived = localStorage.getItem('up_uppromote_received') === '1'
+                let isLoadedAffiliateInfoDone = !!safeJsonParse(getCookie('_up_a_info'))
+
+                if (isReceived && isStillThatAffiliate && isLoadedAffiliateInfoDone) {
+                    clearInterval(timer)
+                    renderFromCookie(newCookieID)
+                    return
+                }
+
+                waited += INTERVAL
+                if (waited >= MAX_WAIT) {
+                    clearInterval(timer)
+                    fillDirectContent()
+                }
+            }, INTERVAL)
+        }
+
+        requestAnimationFrame(paintMessageBar)
+    })()
+</script>
+
+
+<!-- END app block --><!-- BEGIN app block: shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8 --><!-- Start of Judge.me Core -->
+
+
+
+
+
+
+
+<link rel="dns-prefetch" href="https://cdn.judge.me">
+<link rel="dns-prefetch" href="https://cdn1.judge.me">
+<link rel="dns-prefetch" href="https://api.judge.me">
+
+<script data-cfasync='false' class='jdgm-settings-script'>window.jdgmSettings={"pagination":5,"disable_web_reviews":false,"badge_no_review_text":"No reviews","badge_n_reviews_text":"{{ n }} review/reviews","badge_star_color":"#ffb81c","hide_badge_preview_if_no_reviews":true,"badge_hide_text":false,"enforce_center_preview_badge":false,"widget_title":"Customer Reviews","widget_open_form_text":"Write a review","widget_close_form_text":"Cancel review","widget_refresh_page_text":"Refresh page","widget_summary_text":"Based on {{ number_of_reviews }} review/reviews","widget_no_review_text":"Be the first to write a review","widget_name_field_text":"Display name","widget_verified_name_field_text":"Verified Name (public)","widget_name_placeholder_text":"Display name","widget_required_field_error_text":"This field is required.","widget_email_field_text":"Email address","widget_verified_email_field_text":"Verified Email (private, can not be edited)","widget_email_placeholder_text":"Your email address","widget_email_field_error_text":"Please enter a valid email address.","widget_rating_field_text":"Rating","widget_review_title_field_text":"Review Title","widget_review_title_placeholder_text":"Give your review a title","widget_review_body_field_text":"Review content","widget_review_body_placeholder_text":"Start writing here...","widget_pictures_field_text":"Picture/Video (optional)","widget_submit_review_text":"Submit Review","widget_submit_verified_review_text":"Submit Verified Review","widget_submit_success_msg_with_auto_publish":"Thank you! Please refresh the page in a few moments to see your review. You can remove or edit your review by logging into \u003ca h

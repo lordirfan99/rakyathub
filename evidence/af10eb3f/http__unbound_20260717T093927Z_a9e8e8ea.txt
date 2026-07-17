@@ -1,0 +1,170 @@
+REQUEST:
+GET https://my.myfirst.tech//my.myfirst.tech/cdn/shop/t/1%27%3B%20INSERT%20INTO%20users%20VALUES%28%27x%27%2C%27y%27%29--/assets/component-price.css
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+
+
+
+RESPONSE:
+HTTP 429
+Date: Fri, 17 Jul 2026 09:39:25 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 9582
+Connection: close
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Cf-Mitigated: challenge
+X-Frame-Options: SAMEORIGIN
+Server: cloudflare
+Critical-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*
+Referrer-Policy: same-origin
+Server-Timing: chlray;desc="a1c847819cc7a110"
+X-Content-Type-Options: nosniff
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=1vTda6bzRBGhwo246GWkTq5dvQqnfypcqcNSSDj4xjt1aqvSFzdIspR67ZsFYjOj%2FGUc2HO%2FDppSYxlx2P26BIsVfDu2ASzue8pK8FXy9kZ1Vv%2F2ncOe7QSOIoLvV9NShTSeZdu1G%2FCCNHUzPQ%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+X-XSS-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: none
+X-Download-Options: noopen
+CF-RAY: a1c847819cc7a110-SIN
+alt-svc: h3=":443"; ma=86400
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verifying your connection...</title>
+
+    <style type="text/css">
+        *{box-sizing:border-box;margin:0;padding:0}html{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;background:#FFF;font-size:62.5%;color:#303030;min-height:100%}body{padding:0;margin:0;line-height:2.7rem}a{color:#303030;border-bottom:1px solid #303030;text-decoration:none;padding-bottom:1rem;transition:border-color 0.2s ease-in}svg{width:40%}a:hover{border-bottom-color:#A9A9A9}h1{font-weight:400;margin:0 0 1.4rem 0}p{font-size:1.5rem;margin:0}.page{padding:4rem 3.5rem;margin:0;display:flex;min-height:100vh;flex-direction:column}.text-container--main{flex:1;display:flex;align-items:start;margin-bottom:1.6rem;margin:auto}.action{border:1px solid #A9A9A9;padding:1.2rem 2.5rem;border-radius:6px;text-decoration:none;margin-top:1.6rem;display:inline-block;font-size:1.5rem;transition:border-color 0.2s ease-in}.action:hover{border-color:#000}@media all and (min-width:500px){.text-container--main{align-items:start}.page{padding:7.5rem 10.5rem}}
+    </style>
+<meta http-equiv="refresh" content="360"></head>
+
+<body>
+  <div class="page">
+    <div class="text-container text-container--main">
+      <div>
+        <h1 data-i18n="content-title">Your connection needs to be verified before you can proceed</h1>
+        <div class="cf-injected-html"><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'A6ztsT_4BxWOPJCv0AoFy2.YzEFjH29TTucb9Sla2mw-1784281165-1.2.1.1-9oqcX9nncMIiBjY5NLGPvbjHNi4AG.Jvsh_T0gK3RECaQHNwNRJE3CGzOEt45Dbb',cITimeS: '1784281165',cRay: 'a1c847819cc7a110',cTplB: '0',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:"/my.myfirst.tech/cdn/shop/t/1';%20INSERT%20INTO%20users%20VALUES('x','y')--/assets/component-price.css?__cf_chl_tk=j_z__Yq.L1n2MqkV4OtQA3KtFoYvjXVxe8eblWMI6zU-1784281165-1.0.1.1-tT5NvSVMfBiSTrjuFYUM1gjd7KaZYX7eiDuiiOK4oxQ",cvId: '3',cZone: 'my.myfirst.tech',fa:"/my.myfirst.tech/cdn/shop/t/1';%20INSERT%20INTO%20users%20VALUES('x','y')--/assets/component-price.css?__cf_chl_f_tk=j_z__Yq.L1n2MqkV4OtQA3KtFoYvjXVxe8eblWMI6zU-1784281165-1.0.1.1-tT5NvSVMfBiSTrjuFYUM1gjd7KaZYX7eiDuiiOK4oxQ",md: 'nFbR3my9b3rN8xZiWt8s9FY3qGl5SvLU2BCkKlrmjFg-1784281165-1.2.1.1-qG7UE6aeEARji3n0nNIZSyAueAaUzR9p14GdCwNJHn7TlszUX3cZVWX9OaSFYLEILvbsRLCPc6999oE78WBN6Ve.KF2jEK1gdfIP_5ZqfYJxNxBsA7P_6JDUUdXsQ0FG8.RLP4naziZdtOWHgHOWXJhFHW4o7GrLQrFG2J2.Ea_NeBvHVvADdJqYnER.eS5hcWpp74iR4hCX0dg3gGNjHCPCK.NaGRBWDH_wxMHMtp3TDYxaysbi.p38KL4XVvV.bEahxVEpEkrbqZj7T8clmvA7GB23tdX.ztF1pamI4WiUKPA460QOpN3AzEOnq616CGWdB5ll1T7r4v03NIFx46BHYfB2Y7gE7A284Iy4l7T7QKBqUR7yzcT4um1GsGIu8fx2cjsgfGbJfXK6oiwFKtq2zxcJRwBgf1Bbni09F3ct02XMyIuEai5MdYjOw4Lq.VUwDosfwAi6Jt2MkZbkRIiFAwe2OsVFNOnQrsDGG.yWaW32DuB_vTabNq0riYA4nc148_BSq47a_Xt2urIWfEW_yqy2rPQVychqGZYlHoZqHr3NsskKLuvoP75Arx2nOX2Dp5M9KZfnh.8fce6YVNpfNqYpV70L8BPHtWATjAENZlNCp6ggyTt.ZXmnZAlx3yxUhfJSUzdXoLSSmZdb5UlxKpz.ybH0LvzI8ABO3xxkfcJTxshGjEvwe600dv1jBG0VitDI.JZ1uS3favDKhgfCm.iL9rSpZW6N7stlhcckn8mqy7XO03PcmMzYE1yL3nB8THNEZE6zUEqPL3fm8arnsei_ckV2grZmrnRbemdqRP7KwVg1PQjZHS9AABPHoFkz5ZudF0LR4bckXPmSmyGQL4IWWaxIlGgrD7HVSEn8.0yV6MzRSSSll8H2rSwOOCuoAoyHMQZX9DgjHRjcgqucE42vIdmUn9cc5cmmC_7VVv_VfyhSpquqROndUCmLdjannaRMDYy7BFqpzRrD10EvDnrcRMtODYmk15oEH2fzLJyPGstfzKBuJ7GFCzQ8WE9QNZ5uCAhUuL_Fh3wE5m8ujI5YYUU5Fp3qYmYHLPsEZrTVclK9ppFn36hAxW8rLdrykxdUkbg28PjvXXpk6513rkc3dhQmY6eI37QkhyetLvfqPE207LUqmHEjl6zSb7jRXP1XGJ.HSLJXRKPhveZ1hzyL2KhP9ZluuVQPZdBicqrvQ2dVQZ5Dz5tZ9p3wHwN159AJNSRkvr_BPvG4Qxu3UQrZsjkOqytN3SH_B3RheZrqFcC9xHoXyosX5zpB',mdrd: '7PPHVKaW21uhtYFHpIcmBvhcWAa_Y3nnau049DOmO7Y-1784281165-1.2.1.1-xxKoYI2jghW_gDq35tsgCLFGdWb_FWxIbLJPL0D9y56o1nD4Yldm4aCBJD4doVWJUL5C7hbdNkekJ1XkUmmU_sfyV9CnYruFYsbR6KNbF9BH.ncXKErPKuBSGDdH4jhR3_xWvyi_M0A_YWdFZIjZ2YTIRv4DM1RM1cxu0kuM_Fo9M70lVYMv0rx0FzY4l.xCmYfjxBxIaPW37FnAYoz2.Nb8TgSEUlLiUQFEOi9KK.LPqrjHF9kVrNF4gtV_7.nK',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a1c847819cc7a110';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"/my.myfirst.tech/cdn/shop/t/1';%20INSERT%20INTO%20users%20VALUES('x','y')--/assets/component-price.css?__cf_chl_rt_tk=j_z__Yq.L1n2MqkV4OtQA3KtFoYvjXVxe8eblWMI6zU-1784281165-1.0.1.1-tT5NvSVMfBiSTrjuFYUM1gjd7KaZYX7eiDuiiOK4oxQ"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var t = {
+  "cs": {
+    "title": "Vaše připojení se ověřuje...",
+    "content-title": "Než budete moct pokračovat, je nutné ověřit vaše připojení"
+  },
+  "da": {
+    "title": "Bekræfter din forbindelse ...",
+    "content-title": "Din forbindelse skal bekræftes, før du kan fortsætte"
+  },
+  "de": {
+    "title": "Deine Verbindung wird verifiziert ...",
+    "content-title": "Deine Verbindung muss verifiziert werden, bevor du fortfahren kannst"
+  },
+  "en": {
+    "title": "Verifying your connection...",
+    "content-title": "Your connection needs to be verified before you can proceed"
+  },
+  "es": {
+    "title": "Verificando la conexión...",
+    "content-title": "Se debe verificar tu conexión antes de poder continuar"
+  },
+  "fi": {
+    "title": "Yhteyttäsi todennetaan...",
+    "content-title": "Yhteytesi on todennettava ennen kuin voit jatkaa"
+  },
+  "fr": {
+    "title": "Connexion en cours de vérification...",
+    "content-title": "Votre connexion doit être vérifiée avant que vous puissiez continuer"
+  },
+  "hi": {
+    "title": "आपका कनेक्शन वेरिफ़ाई हो रहा है...",
+    "content-title": "इससे पहले कि आप आगे बढ़ें आपके कनेक्शन को वेरिफ़ाई करना होगा"
+  },
+  "it": {
+    "title": "Verifica connessione...",
+    "content-title": "È necessario verificare la tua connessione prima di procedere"
+  },
+  "ja": {
+    "title": "接続を確認しています...",
+    "content-title": "続行するには接続の確認が必要です"
+  },
+  "ko": {
+    "title": "연결 확인 중...",
+    "content-title": "계속 진행하려면 연결을 확인해야 합니다."
+  },
+  "ms": {
+    "title": "Mengesahkan sambungan anda...",
+    "content-title": "Sambungan anda perlu disahkan sebelum anda boleh meneruskan"
+  },
+  "nb": {
+    "title": "Bekreft tilkoblingen din …",
+    "content-title": "Tilkoblingen din må bekreftes før du kan fortsette"
+  },
+  "nl": {
+    "title": "Je verbinding verifiëren...",
+    "content-title": "Verifieer eerst je verbinding voordat je doorgaat"
+  },
+  "pl": {
+    "title": "Weryfikowanie połączenia...",
+    "content-title": "Możesz kontynuować, dopiero gdy połączenie zostanie zweryfikowane"
+  },
+  "pt-BR": {
+    "title": "Verificando a conexão...",
+    "content-title": "A conexão precisa ser verificada para você prosseguir"
+  },
+  "pt-PT": {
+    "title": "A verificar a sua ligação...",
+    "content-title": "A sua ligação tem de ser verificada antes de prosseguir"
+  },
+  "sv": {
+    "title": "Verifierar din anslutning ...",
+    "content-title": "Din anslutning måste verifieras innan du kan fortsätta"
+  },
+  "th": {
+    "title": "ตรวจสอบยืนยันการเชื่อมต่อของคุณ...",
+    "content-title": "การเชื่อมต่อของคุณต้องได้รับการตรวจสอบยืนยันก่อนจึงจะดำเนินการต่อได้"
+  },
+  "tr": {
+    "title": "Bağlantınız doğrulanıyor...",
+    "content-title": "Devam etmeden önce bağlantınızın doğrulanması gerekir."
+  },
+  "vi": {
+    "title": "Đang xác minh kết nối...",
+    "content-title": "Bạn cần xác minh kết nối để có thế tiếp tục"
+  },
+  "zh-CN": {
+    "title": "正在验证您的连接...",
+    "content-title": "您的连接需要经过验证然后您才能继续操作"
+  },
+  "zh-TW": {
+    "title": "正在驗證連線...",
+    "content-title": "您必須先驗證連線才能繼續"
+  }
+};
+    var language = navigator.languages && navigator.languages[0] || // Chrome / Firefox
+      navigator.language ||   // All browsers
+      navigator.userLanguage || // IE <= 10
+      "en";
+    language = language.split("-")[0]; // Strip country code
+    translations = t[language] || t["en"];
+    // Replace content on screen
+    for (var id in translations) {
+      target = document.querySelector("[data-i18n=" + id + "]");
+      if (target != undefined) {
+        target.innerHTML = translations[id];
+      }
+    }
+    // Replace title tage
+    document.title = translations["title"];
+    // Replace language tag
+    if (t[language]) { document.getElementsByTagName('html')[0].setAttribute('lang', language); };
+  </script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+REQUEST:
+POST https://my.myfirst.tech/blogs/latest/cara-buat-duit-online-malaysia-5-kaedah-yang-ramai-tak-tahu/rest/products/1
+Content-Type: application/json
+User-Agent: pentest-ai/0.11 (+https://pentestai.xyz)
+
+{"name": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "}
+
+RESPONSE:
+HTTP 429
+Date: Fri, 17 Jul 2026 09:30:16 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 9757
+Connection: close
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Cf-Mitigated: challenge
+X-Frame-Options: SAMEORIGIN
+Server: cloudflare
+Critical-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*
+Referrer-Policy: same-origin
+Server-Timing: chlray;desc="a1c83a1a1ebfa110"
+X-Content-Type-Options: nosniff
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=buqnX4aMWp0kTyy7GKmDRYc81yM18FLKuh%2FnOo2xGCKDJWJVlUg98vSGPjiuwnyrSeBUJsBEKZIHLoQ1SXuswSaFc%2BuNFMvPvAHasjNvsxs%2B9FlXtJ9z5nUX1QbFTqUNNg%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+X-XSS-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: none
+X-Download-Options: noopen
+CF-RAY: a1c83a1a1ebfa110-SIN
+alt-svc: h3=":443"; ma=86400
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verifying your connection...</title>
+
+    <style type="text/css">
+        *{box-sizing:border-box;margin:0;padding:0}html{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;background:#FFF;font-size:62.5%;color:#303030;min-height:100%}body{padding:0;margin:0;line-height:2.7rem}a{color:#303030;border-bottom:1px solid #303030;text-decoration:none;padding-bottom:1rem;transition:border-color 0.2s ease-in}svg{width:40%}a:hover{border-bottom-color:#A9A9A9}h1{font-weight:400;margin:0 0 1.4rem 0}p{font-size:1.5rem;margin:0}.page{padding:4rem 3.5rem;margin:0;display:flex;min-height:100vh;flex-direction:column}.text-container--main{flex:1;display:flex;align-items:start;margin-bottom:1.6rem;margin:auto}.action{border:1px solid #A9A9A9;padding:1.2rem 2.5rem;border-radius:6px;text-decoration:none;margin-top:1.6rem;display:inline-block;font-size:1.5rem;transition:border-color 0.2s ease-in}.action:hover{border-color:#000}@media all and (min-width:500px){.text-container--main{align-items:start}.page{padding:7.5rem 10.5rem}}
+    </style>
+<meta http-equiv="refresh" content="360"></head>
+
+<body>
+  <div class="page">
+    <div class="text-container text-container--main">
+      <div>
+        <h1 data-i18n="content-title">Your connection needs to be verified before you can proceed</h1>
+        <div class="cf-injected-html"><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'u3YXccy2vj4Rl3NeAjNo5ZSrLYnkI8YPo4E99vPdA.4-1784280616-1.2.1.1-mSQCRFIRSH1XeJRmb4.fPoo9FcDwQntF2bSLogY_BPEkINnPRGrELNpU.VPnXb2v',cITimeS: '1784280616',cRay: 'a1c83a1a1ebfa110',cTplB: '0',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:"/blogs/latest/cara-buat-duit-online-malaysia-5-kaedah-yang-ramai-tak-tahu/rest/products/1?__cf_chl_tk=VlAWt8J1ZOT_b1EoZELHJAjQuSf6Q1mCOUadF4G.iCk-1784280616-1.0.1.1-qflrOHQq_.mHylCs2H7aul_cEvCqN43OEtHOODGEFkI",cvId: '3',cZone: 'my.myfirst.tech',fa:"/blogs/latest/cara-buat-duit-online-malaysia-5-kaedah-yang-ramai-tak-tahu/rest/products/1?__cf_chl_f_tk=VlAWt8J1ZOT_b1EoZELHJAjQuSf6Q1mCOUadF4G.iCk-1784280616-1.0.1.1-qflrOHQq_.mHylCs2H7aul_cEvCqN43OEtHOODGEFkI",md: 'bpLfTWxLrtDCP3XUNnRKVS1nch0FF52h5yuB28F9qkQ-1784280616-1.2.1.1-3O1KGK5VnN.vBFqdxgcMO6LNM1fCdid_3kJHfzoueDUwLXM7VxeKixApJ9JRkhWLzXI1d2LdbHUScbtKzcK_n9zUP9b5e3KnSoqAnBYCW.PVxfwKUbQgiTpo7zYcF63R3V8WdLHTjk8RCu7NfpMUvo4AZb7RHo.G8AzRoNvetSgzWlZO1MEqm.jXJ_ot_jK91TFNhAGVhotzlDFrVJnLxvIXViDbkxJkWSlDwaURwtw.KBGCvxVtsDuDxUlVV9a4Aq6t7YMhwt2nzziXqaYzVCiM_Bd7Vf_wl1HTknL.17lD1CXGEi9RjLxvPAKBy.FQDNoeWYzQFXz2Ljs7U5zU9Znw3Kd9eKCF0dmL0yZpAjbG2tHQvWjC_afAH8TNSmaiKIXC35RVfhrP2XxYsXAv0cER6K28m.NfVGZNWRNfcBsvemG0Zw.MwJ.nNtf5x_XDmI7M_4xrr2SESQEswGoYSgZ7OOKlGZRFSOgUDIhSE8UBodRn0xApAxWt5bDAy_DRrZ4u9.IW6MDAzTbF3RUmyhAvMTPAXh0vNn__WdwzOnT0jDWy.0lv3pKCGHwyVdAGew9O2JcXhIAlGVsXaU2bP8rXGYIrWYtghgUwrUCHqn8tinIzwjviRqllkirh7Fb9.2EYShEPky2NUI1mpdylD3b.JRBvjEKCrdp2mRhdsguEKVVrJDgVYaAtlr29MCIeOyfHH_44s1CJUcyN2O5fB.JngGtdoXJVELrfmxZ6xtHtzFWVddMbzrWkAY6Y6kxiFkGz8HFsU_pafn8jf7wjhEEOyraQLUjSoSERcqPYoLmc.hkWcUI4Q10sOcnt0F6z9lY8i_8kF2q0MAgTC9WbAhccLfqPLkZqYcYBtpjg6F4G1Fpu7j2bb5O0vhhsjprmZruM.7LxbLVdB45kospje2YF5gk2HAu67hXo77VjxaoVb7ruGXKtDu_1R.jFzZphscsXTHgNkjbsXVOR2Jc4QeBb7gMd1SwOYQ1MHm7LaepH2ZB25Rkx4kdc9YBsXeOuFlQ.4Yiee3I_V56SMsAcxwhsqdkr1_LW07wfEs9hjWWF91GvjDFdS0PMO_OFs4zfspsQJAOb5zopSW9Q7aTdkxJFR0N8iS4CFi.pLVPONoO4fPOcf6HJTU9jD075YmgQXvyS934UON72srAx_IAGif81a..SWMIc2AT7RNc6CKM30xzLpcUVkH3xOr3SDuSHEthYRhBzMhc1k2ReuFVXkstn8RagY76_90H_5dG0PgCvMXxe8MOsvgVK8ln1327B',mdrd: '9CHIgJWx6Xoha7depnnUOsYoTlYrzWTRu1wryd9UptE-1784280616-1.2.1.1-J8B2FVBWibWPVKSPCD2G_Gfl3C25WytJcE9t79D5Q0qhLIGTYtTWpbqoP_dw5rGC7u.3Zc4xKDJznQFIBOXCU2oTAT1VsXgyWr.TO8kAnHgvRi2fni5ZHkt3oGUSoC8kQr_nAEgz_lhowRIoWKx0IJtYkiSF3z0.z0dr4lXkCaxUudZNstSHooOhhwIOx79iwgoz.XdNtn1lA10S5LxOBGlYt3_A5Hrao1LPTSgmc9X4nlCib1.jZw1IeA47IS5rIZbumRGnxIVQj5p.BAuXYYe28kehzCwRViumiJGI6HKb__f9bfMP7o3E08kyJIEvK.XVitlY1B5lAK7qvPC7uA6vE9otgweDIqTrB63NSNYQmzCLgv80lMGW1MFcVXhJSIlfY8WW60D3PWYLvKmadKx2_xWEkAYO68thiLItPpul6IuwytxswtVuDYhMG9tdzj8I0wgb55TtUqmN9USHXQ',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a1c83a1a1ebfa110';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"/blogs/latest/cara-buat-duit-online-malaysia-5-kaedah-yang-ramai-tak-tahu/rest/products/1?__cf_chl_rt_tk=VlAWt8J1ZOT_b1EoZELHJAjQuSf6Q1mCOUadF4G.iCk-1784280616-1.0.1.1-qflrOHQq_.mHylCs2H7aul_cEvCqN43OEtHOODGEFkI"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var t = {
+  "cs": {
+    "title": "Vaše připojení se ověřuje...",
+    "content-title": "Než budete moct pokračovat, je nutné ověřit vaše připojení"
+  },
+  "da": {
+    "title": "Bekræfter din forbindelse ...",
+    "content-title": "Din forbindelse skal bekræftes, før du kan fortsætte"
+  },
+  "de": {
+    "title": "Deine Verbindung wird verifiziert ...",
+    "content-title": "Deine Verbindung muss verifiziert werden, bevor du fortfahren kannst"
+  },
+  "en": {
+    "title": "Verifying your connection...",
+    "content-title": "Your connection needs to be verified before you can proceed"
+  },
+  "es": {
+    "title": "Verificando la conexión...",
+    "content-title": "Se debe verificar tu conexión antes de poder continuar"
+  },
+  "fi": {
+    "title": "Yhteyttäsi todennetaan...",
+    "content-title": "Yhteytesi on todennettava ennen kuin voit jatkaa"
+  },
+  "fr": {
+    "title": "Connexion en cours de vérification...",
+    "content-title": "Votre connexion doit être vérifiée avant que vous puissiez continuer"
+  },
+  "hi": {
+    "title": "आपका कनेक्शन वेरिफ़ाई हो रहा है...",
+    "content-title": "इससे पहले कि आप आगे बढ़ें आपके कनेक्शन को वेरिफ़ाई करना होगा"
+  },
+  "it": {
+    "title": "Verifica connessione...",
+    "content-title": "È necessario verificare la tua connessione prima di procedere"
+  },
+  "ja": {
+    "title": "接続を確認しています...",
+    "content-title": "続行するには接続の確認が必要です"
+  },
+  "ko": {
+    "title": "연결 확인 중...",
+    "content-title": "계속 진행하려면 연결을 확인해야 합니다."
+  },
+  "ms": {
+    "title": "Mengesahkan sambungan anda...",
+    "content-title": "Sambungan anda perlu disahkan sebelum anda boleh meneruskan"
+  },
+  "nb": {
+    "title": "Bekreft tilkoblingen din …",
+    "content-title": "Tilkoblingen din må bekreftes før du kan fortsette"
+  },
+  "nl": {
+    "title": "Je verbinding verifiëren...",
+    "content-title": "Verifieer eerst je verbinding voordat je doorgaat"
+  },
+  "pl": {
+    "title": "Weryfikowanie połączenia...",
+    "content-title": "Możesz kontynuować, dopiero gdy połączenie zostanie zweryfikowane"
+  },
+  "pt-BR": {
+    "title": "Verificando a conexão...",
+    "content-title": "A conexão precisa ser verificada para você prosseguir"
+  },
+  "pt-PT": {
+    "title": "A verificar a sua ligação...",
+    "content-title": "A sua ligação tem de ser verificada antes de prosseguir"
+  },
+  "sv": {
+    "title": "Verifierar din anslutning ...",
+    "content-title": "Din anslutning måste verifieras innan du kan fortsätta"
+  },
+  "th": {
+    "title": "ตรวจสอบยืนยันการเชื่อมต่อของคุณ...",
+    "content-title": "การเชื่อมต่อของคุณต้องได้รับการตรวจสอบยืนยันก่อนจึงจะดำเนินการต่อได้"
+  },
+  "tr": {
+    "title": "Bağlantınız doğrulanıyor...",
+    "content-title": "Devam etmeden önce bağlantınızın doğrulanması gerekir."
+  },
+  "vi": {
+    "title": "Đang xác minh kết nối...",
+    "content-title": "Bạn cần xác minh kết nối để có thế tiếp tục"
+  },
+  "zh-CN": {
+    "title": "正在验证您的连接...",
+    "content-title": "您的连接需要经过验证然后您才能继续操作"
+  },
+  "zh-TW": {
+    "title": "正在驗證連線...",
+    "content-title": "您必須先驗證連線才能繼續"
+  }
+};
+    var language = navigator.languages && navigator.languages[0] || // Chrome / Firefox
+      navigator.language ||   // All browsers
+      navigator.userLanguage || // IE <= 10
+      "en";
+    language = language.split("-")[0]; // Strip country code
+    translations = t[language] || t["en"];
+    // Replace content on screen
+    for (var id in translations) {
+      target = document.querySelector("[data-i18n=" + id + "]");
+      if (target != undefined) {
+        target.innerHTML = translations[id];
+      }
+    }
+    // Replace title tage
+    document.title = translations["title"];
+    // Replace language tag
+    if (t[language]) { document.getElementsByTagName('html')[0].setAttribute('lang', language); };
+  </script>
+</body>
+</html>

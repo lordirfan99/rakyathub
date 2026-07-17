@@ -1,1002 +1,1002 @@
 [
   {
-    "date": "2006-01-01",
-    "donations": 525,
-    "blood_type": "all"
+    "date": "2025-03-23",
+    "donations": 1339,
+    "blood_type": "o"
   },
   {
-    "date": "2006-01-02",
-    "donations": 227,
-    "blood_type": "all"
+    "date": "2025-03-24",
+    "donations": 392,
+    "blood_type": "o"
   },
   {
-    "date": "2006-01-03",
-    "donations": 112,
-    "blood_type": "all"
+    "date": "2025-03-25",
+    "donations": 511,
+    "blood_type": "o"
   },
   {
-    "date": "2006-01-04",
-    "donations": 391,
-    "blood_type": "all"
+    "date": "2025-03-26",
+    "donations": 453,
+    "blood_type": "o"
   },
   {
-    "date": "2006-01-05",
-    "donations": 582,
-    "blood_type": "all"
+    "date": "2025-03-27",
+    "donations": 417,
+    "blood_type": "o"
   },
   {
-    "date": "2006-01-06",
-    "donations": 324,
-    "blood_type": "all"
+    "date": "2025-03-28",
+    "donations": 446,
+    "blood_type": "o"
   },
   {
-    "date": "2006-01-07",
-    "donations": 118,
-    "blood_type": "all"
+    "date": "2025-03-29",
+    "donations": 697,
+    "blood_type": "o"
   },
   {
-    "date": "2006-01-08",
-    "donations": 795,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-09",
-    "donations": 346,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-10",
-    "donations": 2,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-11",
-    "donations": 448,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-12",
-    "donations": 805,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-13",
-    "donations": 418,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-14",
-    "donations": 315,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-15",
-    "donations": 562,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-16",
-    "donations": 584,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-17",
-    "donations": 1219,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-18",
-    "donations": 862,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-19",
-    "donations": 975,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-20",
-    "donations": 704,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-21",
-    "donations": 481,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-22",
-    "donations": 397,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-23",
-    "donations": 396,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-24",
-    "donations": 1054,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-25",
-    "donations": 785,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-26",
-    "donations": 1196,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-27",
-    "donations": 107,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-28",
-    "donations": 170,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-29",
-    "donations": 0,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-30",
-    "donations": 42,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-01-31",
-    "donations": 85,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-01",
-    "donations": 276,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-02",
-    "donations": 411,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-03",
-    "donations": 199,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-04",
-    "donations": 328,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-05",
-    "donations": 425,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-06",
-    "donations": 616,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-07",
-    "donations": 759,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-08",
-    "donations": 1456,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-09",
-    "donations": 1042,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-10",
-    "donations": 1136,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-11",
-    "donations": 2147,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-12",
-    "donations": 593,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-13",
-    "donations": 219,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-14",
-    "donations": 447,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-15",
-    "donations": 799,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-16",
-    "donations": 630,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-17",
-    "donations": 238,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-18",
-    "donations": 1211,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-19",
-    "donations": 292,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-20",
-    "donations": 333,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-21",
-    "donations": 1461,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-22",
-    "donations": 857,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-23",
-    "donations": 702,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-24",
-    "donations": 552,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-25",
-    "donations": 760,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-26",
-    "donations": 467,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-27",
-    "donations": 721,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-02-28",
-    "donations": 523,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-01",
-    "donations": 827,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-02",
-    "donations": 851,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-03",
-    "donations": 623,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-04",
-    "donations": 493,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-05",
-    "donations": 994,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-06",
-    "donations": 613,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-07",
-    "donations": 581,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-08",
-    "donations": 945,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-09",
-    "donations": 603,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-10",
-    "donations": 424,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-11",
-    "donations": 539,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-12",
-    "donations": 609,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-13",
-    "donations": 399,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-14",
-    "donations": 717,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-15",
-    "donations": 816,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-16",
-    "donations": 1269,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-17",
-    "donations": 423,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-18",
-    "donations": 475,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-19",
-    "donations": 763,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-20",
-    "donations": 448,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-21",
-    "donations": 856,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-22",
-    "donations": 602,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-23",
-    "donations": 562,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-24",
-    "donations": 441,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-25",
-    "donations": 710,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-26",
-    "donations": 434,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-27",
-    "donations": 593,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-28",
-    "donations": 756,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-29",
-    "donations": 1329,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-30",
-    "donations": 1087,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-03-31",
-    "donations": 742,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-01",
-    "donations": 673,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-02",
-    "donations": 403,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-03",
-    "donations": 292,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-04",
-    "donations": 773,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-05",
+    "date": "2025-03-30",
     "donations": 471,
-    "blood_type": "all"
+    "blood_type": "o"
   },
   {
-    "date": "2006-04-06",
-    "donations": 405,
-    "blood_type": "all"
+    "date": "2025-03-31",
+    "donations": 0,
+    "blood_type": "o"
   },
   {
-    "date": "2006-04-07",
-    "donations": 153,
-    "blood_type": "all"
+    "date": "2025-04-01",
+    "donations": 78,
+    "blood_type": "o"
   },
   {
-    "date": "2006-04-08",
-    "donations": 742,
-    "blood_type": "all"
+    "date": "2025-04-02",
+    "donations": 399,
+    "blood_type": "o"
   },
   {
-    "date": "2006-04-09",
-    "donations": 1230,
-    "blood_type": "all"
+    "date": "2025-04-03",
+    "donations": 513,
+    "blood_type": "o"
   },
   {
-    "date": "2006-04-10",
-    "donations": 566,
-    "blood_type": "all"
+    "date": "2025-04-04",
+    "donations": 494,
+    "blood_type": "o"
   },
   {
-    "date": "2006-04-11",
-    "donations": 349,
-    "blood_type": "all"
+    "date": "2025-04-05",
+    "donations": 848,
+    "blood_type": "o"
   },
   {
-    "date": "2006-04-12",
-    "donations": 353,
-    "blood_type": "all"
+    "date": "2025-04-06",
+    "donations": 1396,
+    "blood_type": "o"
   },
   {
-    "date": "2006-04-13",
-    "donations": 639,
-    "blood_type": "all"
+    "date": "2025-04-07",
+    "donations": 372,
+    "blood_type": "o"
   },
   {
-    "date": "2006-04-14",
-    "donations": 681,
-    "blood_type": "all"
+    "date": "2025-04-08",
+    "donations": 638,
+    "blood_type": "o"
   },
   {
-    "date": "2006-04-15",
-    "donations": 318,
-    "blood_type": "all"
+    "date": "2025-04-09",
+    "donations": 715,
+    "blood_type": "o"
   },
   {
-    "date": "2006-04-16",
-    "donations": 659,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-17",
-    "donations": 379,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-18",
-    "donations": 519,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-19",
-    "donations": 808,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-20",
-    "donations": 557,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-21",
-    "donations": 518,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-22",
-    "donations": 707,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-23",
-    "donations": 898,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-24",
-    "donations": 247,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-25",
-    "donations": 235,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-26",
-    "donations": 1302,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-27",
-    "donations": 593,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-28",
-    "donations": 440,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-29",
-    "donations": 277,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-04-30",
-    "donations": 388,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-01",
-    "donations": 1928,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-02",
-    "donations": 337,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-03",
-    "donations": 566,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-04",
-    "donations": 401,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-05",
-    "donations": 341,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-06",
-    "donations": 984,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-07",
-    "donations": 936,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-08",
-    "donations": 379,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-09",
-    "donations": 272,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-10",
-    "donations": 454,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-11",
-    "donations": 966,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-12",
-    "donations": 1256,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-13",
-    "donations": 582,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-14",
-    "donations": 1315,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-15",
-    "donations": 436,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-16",
-    "donations": 454,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-17",
-    "donations": 786,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-18",
-    "donations": 423,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-19",
-    "donations": 339,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-20",
-    "donations": 727,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-21",
-    "donations": 916,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-22",
-    "donations": 239,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-23",
-    "donations": 809,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-24",
-    "donations": 666,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-25",
-    "donations": 917,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-26",
-    "donations": 602,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-27",
-    "donations": 380,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-28",
-    "donations": 804,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-29",
-    "donations": 310,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-30",
-    "donations": 383,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-05-31",
-    "donations": 356,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-01",
-    "donations": 531,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-02",
-    "donations": 550,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-03",
-    "donations": 310,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-04",
-    "donations": 599,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-05",
-    "donations": 175,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-06",
-    "donations": 222,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-07",
-    "donations": 481,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-08",
-    "donations": 323,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-09",
-    "donations": 248,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-10",
-    "donations": 319,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-11",
-    "donations": 709,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-12",
-    "donations": 389,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-13",
-    "donations": 279,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-14",
-    "donations": 233,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-15",
-    "donations": 763,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-16",
-    "donations": 677,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-17",
-    "donations": 847,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-18",
-    "donations": 686,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-19",
-    "donations": 408,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-20",
-    "donations": 467,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-21",
-    "donations": 617,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-22",
-    "donations": 535,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-23",
-    "donations": 476,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-24",
-    "donations": 947,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-25",
-    "donations": 625,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-26",
-    "donations": 341,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-27",
-    "donations": 856,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-28",
-    "donations": 414,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-29",
-    "donations": 462,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-06-30",
-    "donations": 388,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-01",
-    "donations": 216,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-02",
-    "donations": 582,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-03",
-    "donations": 407,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-04",
-    "donations": 506,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-05",
-    "donations": 452,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-06",
-    "donations": 241,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-07",
-    "donations": 364,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-08",
-    "donations": 611,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-09",
-    "donations": 341,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-10",
-    "donations": 384,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-11",
-    "donations": 901,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-12",
-    "donations": 901,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-13",
-    "donations": 1012,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-14",
-    "donations": 918,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-15",
-    "donations": 663,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-16",
-    "donations": 543,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-17",
-    "donations": 404,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-18",
-    "donations": 522,
-    "blood_type": "all"
-  },
-  {
-    "date": "2006-07-19",
+    "date": "2025-04-10",
     "donations": 807,
-    "blood_type": "all"
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-11",
+    "donations": 421,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-12",
+    "donations": 975,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-13",
+    "donations": 1211,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-14",
+    "donations": 456,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-15",
+    "donations": 713,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-16",
+    "donations": 705,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-17",
+    "donations": 717,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-18",
+    "donations": 486,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-19",
+    "donations": 1021,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-20",
+    "donations": 1350,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-21",
+    "donations": 408,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-22",
+    "donations": 667,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-23",
+    "donations": 733,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-24",
+    "donations": 600,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-25",
+    "donations": 688,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-26",
+    "donations": 917,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-27",
+    "donations": 1381,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-28",
+    "donations": 468,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-29",
+    "donations": 746,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-04-30",
+    "donations": 525,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-01",
+    "donations": 1682,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-02",
+    "donations": 363,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-03",
+    "donations": 946,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-04",
+    "donations": 1119,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-05",
+    "donations": 460,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-06",
+    "donations": 591,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-07",
+    "donations": 673,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-08",
+    "donations": 671,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-09",
+    "donations": 394,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-10",
+    "donations": 810,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-11",
+    "donations": 1124,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-12",
+    "donations": 1367,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-13",
+    "donations": 682,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-14",
+    "donations": 704,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-15",
+    "donations": 602,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-16",
+    "donations": 366,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-17",
+    "donations": 997,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-18",
+    "donations": 1389,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-19",
+    "donations": 316,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-20",
+    "donations": 779,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-21",
+    "donations": 638,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-22",
+    "donations": 660,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-23",
+    "donations": 403,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-24",
+    "donations": 831,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-25",
+    "donations": 1407,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-26",
+    "donations": 447,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-27",
+    "donations": 517,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-28",
+    "donations": 625,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-29",
+    "donations": 596,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-30",
+    "donations": 419,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-05-31",
+    "donations": 655,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-01",
+    "donations": 1055,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-02",
+    "donations": 781,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-03",
+    "donations": 460,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-04",
+    "donations": 514,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-05",
+    "donations": 527,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-06",
+    "donations": 299,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-07",
+    "donations": 217,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-08",
+    "donations": 560,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-09",
+    "donations": 479,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-10",
+    "donations": 785,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-11",
+    "donations": 763,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-12",
+    "donations": 795,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-13",
+    "donations": 636,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-14",
+    "donations": 915,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-15",
+    "donations": 1525,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-16",
+    "donations": 861,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-17",
+    "donations": 730,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-18",
+    "donations": 700,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-19",
+    "donations": 605,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-20",
+    "donations": 337,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-21",
+    "donations": 1190,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-22",
+    "donations": 1162,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-23",
+    "donations": 506,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-24",
+    "donations": 604,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-25",
+    "donations": 672,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-26",
+    "donations": 552,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-27",
+    "donations": 405,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-28",
+    "donations": 668,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-29",
+    "donations": 1326,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-06-30",
+    "donations": 335,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-01",
+    "donations": 626,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-02",
+    "donations": 597,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-03",
+    "donations": 623,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-04",
+    "donations": 437,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-05",
+    "donations": 959,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-06",
+    "donations": 1093,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-07",
+    "donations": 563,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-08",
+    "donations": 604,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-09",
+    "donations": 581,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-10",
+    "donations": 517,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-11",
+    "donations": 479,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-12",
+    "donations": 999,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-13",
+    "donations": 1388,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-14",
+    "donations": 427,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-15",
+    "donations": 609,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-16",
+    "donations": 714,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-17",
+    "donations": 710,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-18",
+    "donations": 524,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-19",
+    "donations": 850,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-20",
+    "donations": 1215,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-21",
+    "donations": 387,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-22",
+    "donations": 514,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-23",
+    "donations": 745,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-24",
+    "donations": 607,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-25",
+    "donations": 488,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-26",
+    "donations": 807,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-27",
+    "donations": 1286,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-28",
+    "donations": 335,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-29",
+    "donations": 618,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-30",
+    "donations": 689,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-07-31",
+    "donations": 497,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-01",
+    "donations": 337,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-02",
+    "donations": 888,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-03",
+    "donations": 1319,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-04",
+    "donations": 312,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-05",
+    "donations": 504,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-06",
+    "donations": 679,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-07",
+    "donations": 692,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-08",
+    "donations": 444,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-09",
+    "donations": 775,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-10",
+    "donations": 1174,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-11",
+    "donations": 379,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-12",
+    "donations": 636,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-13",
+    "donations": 733,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-14",
+    "donations": 690,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-15",
+    "donations": 473,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-16",
+    "donations": 949,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-17",
+    "donations": 1300,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-18",
+    "donations": 433,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-19",
+    "donations": 535,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-20",
+    "donations": 575,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-21",
+    "donations": 604,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-22",
+    "donations": 481,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-23",
+    "donations": 899,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-24",
+    "donations": 1363,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-25",
+    "donations": 343,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-26",
+    "donations": 567,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-27",
+    "donations": 726,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-28",
+    "donations": 699,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-29",
+    "donations": 368,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-30",
+    "donations": 839,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-08-31",
+    "donations": 1346,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-01",
+    "donations": 677,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-02",
+    "donations": 502,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-03",
+    "donations": 632,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-04",
+    "donations": 615,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-05",
+    "donations": 397,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-06",
+    "donations": 698,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-07",
+    "donations": 1164,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-08",
+    "donations": 320,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-09",
+    "donations": 490,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-10",
+    "donations": 660,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-11",
+    "donations": 771,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-12",
+    "donations": 353,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-13",
+    "donations": 570,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-14",
+    "donations": 1065,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-15",
+    "donations": 482,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-16",
+    "donations": 1017,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-17",
+    "donations": 475,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-18",
+    "donations": 546,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-19",
+    "donations": 396,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-20",
+    "donations": 751,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-21",
+    "donations": 915,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-22",
+    "donations": 263,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-23",
+    "donations": 635,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-24",
+    "donations": 575,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-25",
+    "donations": 677,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-26",
+    "donations": 459,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-27",
+    "donations": 605,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-28",
+    "donations": 1219,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-29",
+    "donations": 392,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-09-30",
+    "donations": 640,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-10-01",
+    "donations": 647,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-10-02",
+    "donations": 711,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-10-03",
+    "donations": 443,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-10-04",
+    "donations": 769,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-10-05",
+    "donations": 1194,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-10-06",
+    "donations": 336,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-10-07",
+    "donations": 579,
+    "blood_type": "o"
+  },
+  {
+    "date": "2025-10-08",
+    "donations": 618,
+    "blood_type": "o"
   }
 ]
