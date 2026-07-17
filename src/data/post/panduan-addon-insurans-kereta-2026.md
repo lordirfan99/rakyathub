@@ -16,15 +16,15 @@ tags:
   - "2026"
 author: RakyatHub
 faq:
-  - question: "Adakah add-on windscreen cover menjejaskan NCD?",
+  - question: "Adakah add-on windscreen cover menjejaskan NCD?"
     answer: "Tidak. Tuntutan untuk cermin kereta menggunakan add-on windscreen cover TIDAK menjejaskan NCD sedia ada. Ini adalah kelebihan utama add-on ini — korang boleh claim ganti cermin depan tanpa risau NCD hilang. Tapi pastikan tuntutan adalah untuk kerosakan cermin semata-mata, bukan melibatkan kerosakan lain pada badan kereta."
-  - question: "Berapa kos tambahan untuk NCD protector setiap tahun?",
+  - question: "Berapa kos tambahan untuk NCD protector setiap tahun?"
     answer: "Kos NCD protector berbeza ikut syarikat insurans dan nilai premium asas, secara purata antara RM50 hingga RM150 setahun untuk kereta persendirian. Contohnya, untuk premium asas RM1,200, NCD protector mungkin sekitar RM80 sahaja. Ini murah berbanding kerugian NCD yang boleh mencecah beratus-ratus ringgit setahun jika terpaksa reset ke 0%."
-  - question: "Kalau kereta dah ada roadside assistance percuma dari kilang, perlu ke ambil dari insurans?",
+  - question: "Kalau kereta dah ada roadside assistance percuma dari kilang, perlu ke ambil dari insurans?"
     answer: "Bergantung pada tempoh. Roadside assistance percuma dari pengeluar kereta selalunya terhad kepada tempoh jaminan (biasanya 3-5 tahun) dan hanya untuk masalah teknikal. Insurans roadside assistance pula merangkumi towing akibat kemalangan sepanjang tempoh polisi aktif. Kalau kereta dah melebihi tempoh jaminan, sangat disarankan ambil add-on ini."
-  - question: "Adakah add-on special perils cover semua jenis bencana alam?",
+  - question: "Adakah add-on special perils cover semua jenis bencana alam?"
     answer: "Special perils biasanya melindungi kerosakan akibat banjir, tanah runtuh, ribut, angin kencang, hujan batu, pokok tumbang, dan tanah jerlus. Tapi ia TIDAK meliputi kerosakan akibat gempa bumi, tsunami, atau peperangan. Untuk kawasan yang kerap banjir seperti Shah Alam, KL, dan Kuantan, add-on ini wajib dipertimbangkan."
-  - question: "Boleh ke tambah named driver lepas polisi dah aktif?",
+  - question: "Boleh ke tambah named driver lepas polisi dah aktif?"
     answer: "Boleh, tapi kena buat endorsement dengan syarikat insurans dan mungkin dikenakan caj pentadbiran sekitar RM10-RM30. Lebih mudah tambah masa buat polisi baharu atau renewal. Ingat, kalau kemalangan berlaku semasa kereta dipandu individu yang tidak dinamakan, insurer boleh kenakan excess wajib RM400."
 ---
 
