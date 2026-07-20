@@ -246,9 +246,9 @@ StashAway dan Versa bukan pesaing langsung — mereka adalah alat untuk **tujuan
 **Kata Kunci SEO:** StashAway vs Versa, robo-advisor Malaysia 2026, pelaburan automatik, StashAway review, Versa review, perbandingan platform pelaburan, cara melabur di Malaysia, pelaburan modal kecil
 
 **Baca juga:**
-- [Cara Melabur Untuk Pemula Di Malaysia 2026](/cara-melabur-untuk-pemula-malaysia-2026/)
+- [Cara Melabur Untuk Pemula Di Malaysia 2026](/cara-mula-melabur-saham-bursa-malaysia-panduan-pemula-2026)
 - [Dana Kecemasan: KDI Save vs Ryt Bank vs ASB](/dana-kecemasan-kdi-vs-ryt-vs-asb/)
-- [Panduan Pelaburan ASB Untuk Pelabur Baru](/panduan-pelaburan-asb-malaysia-2026/)
+- [Panduan Pelaburan ASB Untuk Pelabur Baru](/panduan-pelaburan-unit-trust-asnb-malaysia-2026)
 
 **Rujukan Rasmi:**
 - StashAway Malaysia — stashaway.my

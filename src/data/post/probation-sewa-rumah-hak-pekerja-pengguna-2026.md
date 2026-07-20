@@ -222,7 +222,7 @@ Dana ni guna kalau:
 - Kena terminate — cover sewa sementara
 - Dapat kerja baru dengan gaji lebih rendah — top-up sementara
 
-> **📌 Untuk cara praktikal bina dana kecemasan, baca [Panduan Tabung Kecemasan Malaysia](/panduan-tabung-kecemasan-dana-simpanan-keluarga/)**
+> **📌 Untuk cara praktikal bina dana kecemasan, baca [Panduan Tabung Kecemasan Malaysia](/panduan-tabung-kecemasan)**
 
 ### Langkah 7: Simpan Semua Bukti Bertulis
 

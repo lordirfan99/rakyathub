@@ -1263,6 +1263,12 @@
     {
       "state": "Negeri Sembilan",
       "type": "dun",
+      "election": "SE-16",
+      "date": "2026-08-01"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "type": "dun",
       "election": "SE-15",
       "date": "2023-08-12"
     },

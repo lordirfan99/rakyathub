@@ -295,7 +295,7 @@ Gaji lewat masuk adalah stress — lebih-lebih lagi bila ada komitmen rumah sewa
 
 **Baca juga:**
 - [Panduan Retrenchment & Rumah Sewa](/panduan-retrenchment-hilang-kerja-rumah-sewa/) — bila hilang kerja dan terikat kontrak sewa
-- [Cara Buat Aduan JTKSM eAduan Gaji Tak Dibayar](/cara-buat-aduan-jtksm-eaduan-gaji-tak-dibayar-malaysia/) — langkah demi langkah guna portal
+- [Cara Buat Aduan JTKSM eAduan Gaji Tak Dibayar](/cara-buat-aduan-telekomunikasi-internet-malaysia-mcmc) — langkah demi langkah guna portal
 - [Cara Tuntut Deposit Sewa Rumah di TTPM](/cara-tuntut-deposit-sewa-rumah-malaysia/) — panduan tuntut deposit bila tuan rumah degil
 
 **Kata Kunci SEO:** gaji lewat, gaji lambat masuk, majikan tak bayar gaji, sewa rumah gaji lewat, hak pekerja gaji tertunggak, aduan JTKSM, cara buat aduan majikan, hak penyewa rumah sewa, TTPM deposit sewa, eAduan gaji tak dibayar, panduan gaji lewat Malaysia 2026

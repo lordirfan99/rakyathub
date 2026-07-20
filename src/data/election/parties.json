@@ -467,7 +467,7 @@
     {
       "type": "party",
       "uid": "082-PCM",
-      "maps_to": "082-PCM",
+      "maps_to": "082-WAWASAN",
       "acronym": "PCM",
       "name_en": "Love Malaysia Party",
       "name_bm": "Parti Cinta Malaysia"
@@ -946,6 +946,14 @@
     },
     {
       "type": "party",
+      "uid": "129-URIMAI",
+      "maps_to": "129-URIMAI",
+      "acronym": "URIMAI",
+      "name_en": "United for the Rights of Malaysians Party",
+      "name_bm": "Parti Bersepakat Hak Rakyat Malaysia"
+    },
+    {
+      "type": "party",
       "uid": "014-USNO",
       "maps_to": "014-USNO",
       "acronym": "USNO",
@@ -977,6 +985,14 @@
       "name_bm": "Parti Warisan Sabah"
     },
     {
+      "type": "party",
+      "uid": "082-WAWASAN",
+      "maps_to": "082-WAWASAN",
+      "acronym": "WAWASAN",
+      "name_en": "Parti Wawasan Negara",
+      "name_bm": "Parti Wawasan Negara"
+    },
+    {
       "type": "coalition",
       "uid": "005-APU",
       "maps_to": "005-APU",
@@ -991,6 +1007,14 @@
       "acronym": "BA",
       "name_en": "Barisan Alternatif",
       "name_bm": "Barisan Alternatif"
+    },
+    {
+      "type": "coalition",
+      "uid": "016-BERSATU+",
+      "maps_to": "016-BERSATU+",
+      "acronym": "BERSATU+",
+      "name_en": "BERSATU+",
+      "name_bm": "BERSATU+"
     },
     {
       "type": "coalition",

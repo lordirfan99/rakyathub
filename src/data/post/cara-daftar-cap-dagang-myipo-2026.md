@@ -267,7 +267,7 @@ Daftar cap dagang MyIPO bukan pilihan, tapi **keperluan** untuk semua pemilik pe
 Jom daftar cap dagang sekarang sebelum orang lain ambil hak korang. Proses ambil masa 12-18 bulan, so mula hari ni.
 
 **Baca juga:**
-- [Panduan Daftar Perniagaan SSM Online 2026](/cara-daftar-perniagaan-ssm-online-2026/)
+- [Panduan Daftar Perniagaan SSM Online 2026](/cara-daftar-ssm-online-ezbiz-mycoid-2026)
 - [Cara Buka Akaun Bank Perniagaan 2026](/cara-buka-akaun-bank-perniagaan-sole-proprietor-murah-2026/)
 - [Panduan Cukai Pendapatan Bisnes Kecil](/pelepasan-cukai-malaysia-2026-panduan-lengkap-rebat-potongan/)
 
